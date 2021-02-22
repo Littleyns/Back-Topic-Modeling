@@ -1,0 +1,1858 @@
+
+
+
+
+
+
+
+
+
+
+IFAC PapersOnLine 52-13 (2019) 755–760
+
+
+ScienceDirectScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+2405-8963 © 2019, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+Peer review under responsibility of International Federation of Automatic Control.
+10.1016/j.ifacol.2019.11.206
+
+
+© 2019, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+
+
+10.1016/j.ifacol.2019.11.206 2405-8963
+
+
+
+
+
+Implementing a dynamic FMECA in the digital transformation era 
+ 
+
+
+Michele Colli*. Roberto Sala**. Fabiana Pirola**. Roberto Pinto**. Sergio Cavalieri**. Brian Vejrum Wæhrens*. 
+
+
+
+* Department of Materials and Production, Aalborg University, 9220 Aalborg Øst, Denmark (colli@mp.aau.dk, 
+
+
+bvw@business.aau.dk) 
+
+
+** Department of Management, Information and Production Engineering, University of Bergamo, Viale Marconi, 5, Dalmine 
+
+
+(BG), 24044, Italy (roberto.sala@unibg.it, fabiana.pirola@unibg.it, roberto.pinto@unibg.it, sergio.cavalieri@unibg.it) 
+
+
+Abstract: The digital transformation of the manufacturing industry is currently unlocking new possibilities 
+in terms of automation and improvement of existing business processes. Service is currently one of the key 
+areas that are being affected by it and, while many use cases are proposed, their operational implementation 
+often remains a challenge. This paper, focusing on the impact of information transparency on the 
+formulation of an effective maintenance plan, is proposing a progressive implementation roadmap for a 
+dynamic failure mode, effect and criticality analysis (FMECA), according to the digital maturity of the 
+organization. Copyright © 2019 IFAC. 
+
+
+Keywords: FMECA, digital transformation, digital maturity, service, maintenance engineering 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+The manufacturing industry is currently facing a major change 
+labelled, due to its nature, as digital transformation. This has 
+been identified as a new competitive lever (McKinsey & 
+Company, 2015) based on the use of data and connectivity 
+capabilities. Its operationalization consists in the integration of 
+the multiple players along the supply chain in an 
+interconnected system (Porter & Heppelmann, 2014), 
+translating the conceptual structure of companies from a 
+pyramidal structure to a network of nodes (Jeshcke et al., 
+2017). The promise is to unlock, through the exchange and use 
+of data from across the supply chain, a new potential for 
+improving the operational performance of multiple business 
+areas. Hence, a key attribute of this transformation is the 
+condition of transparency across this network (Schrauf & 
+Berttram, 2016). This is translated in the availability of 
+relevant information to the right instances for supporting the 
+related decision-making processes (Winkler, 2000, Vaccaro & 
+Madsen, 2006; DiPiazza & Eccles, 2002; Turilli et al., 2009). 
+Service is one of the key areas to be affected and improved by 
+the digital transformation and maintenance costs are meant to 
+be reduced using its enabled capabilities (McKinsey & 
+Company, 2015). More specifically, advanced diagnostic and 
+prognostic systems to support maintenance activities through 
+self-reparation and autonomous learning are being introduced 
+(Fasanotti et al., 2018). However, due to the limited set of 
+contexts considered for their application, there is a need for 
+explorative studies for building an understanding of how to 
+capitalize on these new capabilities (Fasanotti et al., 2018). 
+Furthermore, due to the currently increasing degree of 
+automation in manufacturing environments, which is 
+transforming more and more labor intensive processes into 
+automated processes, the magnitude of the impact of 
+maintenance activities on business is constantly increasing. In 
+turn, this results also in the diffusion of a product-service 
+system based business models (Ardolino et al., 2017).  
+
+
+As the digital transformation is considered to be a progressive 
+transformation on multiple complexity levels (Schuh et al., 
+2017), the unlocked possibilities for the improvement of 
+maintenance activities have to be investigated in relation to the 
+available capabilities and, therefore, the level of digital 
+maturity achieved by a company.  
+This research focuses on the failure mode, effect and criticality 
+analysis (FMECA) currently used by manufacturing 
+companies for the prioritization of maintenance activities. The 
+concept of a dynamic FMECA, built around the capability to 
+periodically update the analysis, has been proposed in extant 
+literature and its positive impact on performance has been 
+discussed, for example in regards to its influence on 
+production processes (Mili et al., 2008a). However, an 
+investigation regarding its implementation process is missing. 
+The transparency and analytic capabilities, leading to decision 
+making autonomy (Fasanotti et al., 2018), enabled by the 
+deployment of novel digital technologies, such as the internet 
+of things (IoT), are providing a new ground to be considered 
+in regards to that. This paper investigates how these 
+capabilities can support the implementation of a dynamic 
+FMECA and how digital maturity progression can affect its 
+deployment. According to that, the research presented in this 
+paper addresses the following research question: “How can the 
+digital transformation support the implementation of a 
+
+
+dynamic FMECA?” 
+The research is performed following a design science approach 
+in its abduction phase (Hevener, 2004) and aims at proposing 
+a conceptual framework for guiding the implementation of a 
+dynamic FMECA according to the digital maturity of the 
+organization.  The authors present, at first, a state of the art 
+regarding the FMECA, the dynamic FMECA, and the digital 
+maturity concepts. Secondly, the research methodology is 
+illustrated. Then, the concept of a dynamic FMECA based on 
+digital capabilities, and in relation to different digital maturity 
+levels, is proposed. Eventually, its implication on maintenance 
+performance and on the design of a customized service offer 
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 770
+
+
+
+
+
+Implementing a dynamic FMECA in the digital transformation era 
+ 
+
+
+Michele Colli*. Roberto Sala**. Fabiana Pirola**. Roberto Pinto**. Sergio Cavalieri**. Brian Vejrum Wæhrens*. 
+
+
+
+* Department of Materials and Production, Aalborg University, 9220 Aalborg Øst, Denmark (colli@mp.aau.dk, 
+
+
+bvw@business.aau.dk) 
+
+
+** Department of Management, Information and Production Engineering, University of Bergamo, Viale Marconi, 5, Dalmine 
+
+
+(BG), 24044, Italy (roberto.sala@unibg.it, fabiana.pirola@unibg.it, roberto.pinto@unibg.it, sergio.cavalieri@unibg.it) 
+
+
+Abstract: The digital transformation of the manufacturing industry is currently unlocking new possibilities 
+in terms of automation and improvement of existing business processes. Service is currently one of the key 
+areas that are being affected by it and, while many use cases are proposed, their operational implementation 
+often remains a challenge. This paper, focusing on the impact of information transparency on the 
+formulation of an effective maintenance plan, is proposing a progressive implementation roadmap for a 
+dynamic failure mode, effect and criticality analysis (FMECA), according to the digital maturity of the 
+organization. Copyright © 2019 IFAC. 
+
+
+Keywords: FMECA, digital transformation, digital maturity, service, maintenance engineering 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+The manufacturing industry is currently facing a major change 
+labelled, due to its nature, as digital transformation. This has 
+been identified as a new competitive lever (McKinsey & 
+Company, 2015) based on the use of data and connectivity 
+capabilities. Its operationalization consists in the integration of 
+the multiple players along the supply chain in an 
+interconnected system (Porter & Heppelmann, 2014), 
+translating the conceptual structure of companies from a 
+pyramidal structure to a network of nodes (Jeshcke et al., 
+2017). The promise is to unlock, through the exchange and use 
+of data from across the supply chain, a new potential for 
+improving the operational performance of multiple business 
+areas. Hence, a key attribute of this transformation is the 
+condition of transparency across this network (Schrauf & 
+Berttram, 2016). This is translated in the availability of 
+relevant information to the right instances for supporting the 
+related decision-making processes (Winkler, 2000, Vaccaro & 
+Madsen, 2006; DiPiazza & Eccles, 2002; Turilli et al., 2009). 
+Service is one of the key areas to be affected and improved by 
+the digital transformation and maintenance costs are meant to 
+be reduced using its enabled capabilities (McKinsey & 
+Company, 2015). More specifically, advanced diagnostic and 
+prognostic systems to support maintenance activities through 
+self-reparation and autonomous learning are being introduced 
+(Fasanotti et al., 2018). However, due to the limited set of 
+contexts considered for their application, there is a need for 
+explorative studies for building an understanding of how to 
+capitalize on these new capabilities (Fasanotti et al., 2018). 
+Furthermore, due to the currently increasing degree of 
+automation in manufacturing environments, which is 
+transforming more and more labor intensive processes into 
+automated processes, the magnitude of the impact of 
+maintenance activities on business is constantly increasing. In 
+turn, this results also in the diffusion of a product-service 
+system based business models (Ardolino et al., 2017).  
+
+
+As the digital transformation is considered to be a progressive 
+transformation on multiple complexity levels (Schuh et al., 
+2017), the unlocked possibilities for the improvement of 
+maintenance activities have to be investigated in relation to the 
+available capabilities and, therefore, the level of digital 
+maturity achieved by a company.  
+This research focuses on the failure mode, effect and criticality 
+analysis (FMECA) currently used by manufacturing 
+companies for the prioritization of maintenance activities. The 
+concept of a dynamic FMECA, built around the capability to 
+periodically update the analysis, has been proposed in extant 
+literature and its positive impact on performance has been 
+discussed, for example in regards to its influence on 
+production processes (Mili et al., 2008a). However, an 
+investigation regarding its implementation process is missing. 
+The transparency and analytic capabilities, leading to decision 
+making autonomy (Fasanotti et al., 2018), enabled by the 
+deployment of novel digital technologies, such as the internet 
+of things (IoT), are providing a new ground to be considered 
+in regards to that. This paper investigates how these 
+capabilities can support the implementation of a dynamic 
+FMECA and how digital maturity progression can affect its 
+deployment. According to that, the research presented in this 
+paper addresses the following research question: “How can the 
+digital transformation support the implementation of a 
+
+
+dynamic FMECA?” 
+The research is performed following a design science approach 
+in its abduction phase (Hevener, 2004) and aims at proposing 
+a conceptual framework for guiding the implementation of a 
+dynamic FMECA according to the digital maturity of the 
+organization.  The authors present, at first, a state of the art 
+regarding the FMECA, the dynamic FMECA, and the digital 
+maturity concepts. Secondly, the research methodology is 
+illustrated. Then, the concept of a dynamic FMECA based on 
+digital capabilities, and in relation to different digital maturity 
+levels, is proposed. Eventually, its implication on maintenance 
+performance and on the design of a customized service offer 
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 770     
+
+
+Implementing a dynamic FMECA in the digital transformation era 
+ 
+
+
+Michele Colli*. Roberto Sala**. Fabiana Pirola**. Roberto Pinto**. Sergio Cavalieri**. Brian Vejrum Wæhrens*. 
+
+
+
+* Department of Materials and Production, Aalborg University, 9220 Aalborg Øst, Denmark (colli@mp.aau.dk, 
+
+
+bvw@business.aau.dk) 
+
+
+** Department of Management, Information and Production Engineering, University of Bergamo, Viale Marconi, 5, Dalmine 
+
+
+(BG), 24044, Italy (roberto.sala@unibg.it, fabiana.pirola@unibg.it, roberto.pinto@unibg.it, sergio.cavalieri@unibg.it) 
+
+
+Abstract: The digital transformation of the manufacturing industry is currently unlocking new possibilities 
+in terms of automation and improvement of existing business processes. Service is currently one of the key 
+areas that are being affected by it and, while many use cases are proposed, their operational implementation 
+often remains a challenge. This paper, focusing on the impact of information transparency on the 
+formulation of an effective maintenance plan, is proposing a progressive implementation roadmap for a 
+dynamic failure mode, effect and criticality analysis (FMECA), according to the digital maturity of the 
+organization. Copyright © 2019 IFAC. 
+
+
+Keywords: FMECA, digital transformation, digital maturity, service, maintenance engineering 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+The manufacturing industry is currently facing a major change 
+labelled, due to its nature, as digital transformation. This has 
+been identified as a new competitive lever (McKinsey & 
+Company, 2015) based on the use of data and connectivity 
+capabilities. Its operationalization consists in the integration of 
+the multiple players along the supply chain in an 
+interconnected system (Porter & Heppelmann, 2014), 
+translating the conceptual structure of companies from a 
+pyramidal structure to a network of nodes (Jeshcke et al., 
+2017). The promise is to unlock, through the exchange and use 
+of data from across the supply chain, a new potential for 
+improving the operational performance of multiple business 
+areas. Hence, a key attribute of this transformation is the 
+condition of transparency across this network (Schrauf & 
+Berttram, 2016). This is translated in the availability of 
+relevant information to the right instances for supporting the 
+related decision-making processes (Winkler, 2000, Vaccaro & 
+Madsen, 2006; DiPiazza & Eccles, 2002; Turilli et al., 2009). 
+Service is one of the key areas to be affected and improved by 
+the digital transformation and maintenance costs are meant to 
+be reduced using its enabled capabilities (McKinsey & 
+Company, 2015). More specifically, advanced diagnostic and 
+prognostic systems to support maintenance activities through 
+self-reparation and autonomous learning are being introduced 
+(Fasanotti et al., 2018). However, due to the limited set of 
+contexts considered for their application, there is a need for 
+explorative studies for building an understanding of how to 
+capitalize on these new capabilities (Fasanotti et al., 2018). 
+Furthermore, due to the currently increasing degree of 
+automation in manufacturing environments, which is 
+transforming more and more labor intensive processes into 
+automated processes, the magnitude of the impact of 
+maintenance activities on business is constantly increasing. In 
+turn, this results also in the diffusion of a product-service 
+system based business models (Ardolino et al., 2017).  
+
+
+As the digital transformation is considered to be a progressive 
+transformation on multiple complexity levels (Schuh et al., 
+2017), the unlocked possibilities for the improvement of 
+maintenance activities have to be investigated in relation to the 
+available capabilities and, therefore, the level of digital 
+maturity achieved by a company.  
+This research focuses on the failure mode, effect and criticality 
+analysis (FMECA) currently used by manufacturing 
+companies for the prioritization of maintenance activities. The 
+concept of a dynamic FMECA, built around the capability to 
+periodically update the analysis, has been proposed in extant 
+literature and its positive impact on performance has been 
+discussed, for example in regards to its influence on 
+production processes (Mili et al., 2008a). However, an 
+investigation regarding its implementation process is missing. 
+The transparency and analytic capabilities, leading to decision 
+making autonomy (Fasanotti et al., 2018), enabled by the 
+deployment of novel digital technologies, such as the internet 
+of things (IoT), are providing a new ground to be considered 
+in regards to that. This paper investigates how these 
+capabilities can support the implementation of a dynamic 
+FMECA and how digital maturity progression can affect its 
+deployment. According to that, the research presented in this 
+paper addresses the following research question: “How can the 
+digital transformation support the implementation of a 
+
+
+dynamic FMECA?” 
+The research is performed following a design science approach 
+in its abduction phase (Hevener, 2004) and aims at proposing 
+a conceptual framework for guiding the implementation of a 
+dynamic FMECA according to the digital maturity of the 
+organization.  The authors present, at first, a state of the art 
+regarding the FMECA, the dynamic FMECA, and the digital 
+maturity concepts. Secondly, the research methodology is 
+illustrated. Then, the concept of a dynamic FMECA based on 
+digital capabilities, and in relation to different digital maturity 
+levels, is proposed. Eventually, its implication on maintenance 
+performance and on the design of a customized service offer 
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 770
+
+
+
+
+
+Implementing a dynamic FMECA in the digital transformation era 
+ 
+
+
+Michele Colli*. Roberto Sala**. Fabiana Pirola**. Roberto Pinto**. Sergio Cavalieri**. Brian Vejrum Wæhrens*. 
+
+
+
+* Department of Materials and Production, Aalborg University, 9220 Aalborg Øst, Denmark (colli@mp.aau.dk, 
+
+
+bvw@business.aau.dk) 
+
+
+** Department of Management, Information and Production Engineering, University of Bergamo, Viale Marconi, 5, Dalmine 
+
+
+(BG), 24044, Italy (roberto.sala@unibg.it, fabiana.pirola@unibg.it, roberto.pinto@unibg.it, sergio.cavalieri@unibg.it) 
+
+
+Abstract: The digital transformation of the manufacturing industry is currently unlocking new possibilities 
+in terms of automation and improvement of existing business processes. Service is currently one of the key 
+areas that are being affected by it and, while many use cases are proposed, their operational implementation 
+often remains a challenge. This paper, focusing on the impact of information transparency on the 
+formulation of an effective maintenance plan, is proposing a progressive implementation roadmap for a 
+dynamic failure mode, effect and criticality analysis (FMECA), according to the digital maturity of the 
+organization. Copyright © 2019 IFAC. 
+
+
+Keywords: FMECA, digital transformation, digital maturity, service, maintenance engineering 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+The manufacturing industry is currently facing a major change 
+labelled, due to its nature, as digital transformation. This has 
+been identified as a new competitive lever (McKinsey & 
+Company, 2015) based on the use of data and connectivity 
+capabilities. Its operationalization consists in the integration of 
+the multiple players along the supply chain in an 
+interconnected system (Porter & Heppelmann, 2014), 
+translating the conceptual structure of companies from a 
+pyramidal structure to a network of nodes (Jeshcke et al., 
+2017). The promise is to unlock, through the exchange and use 
+of data from across the supply chain, a new potential for 
+improving the operational performance of multiple business 
+areas. Hence, a key attribute of this transformation is the 
+condition of transparency across this network (Schrauf & 
+Berttram, 2016). This is translated in the availability of 
+relevant information to the right instances for supporting the 
+related decision-making processes (Winkler, 2000, Vaccaro & 
+Madsen, 2006; DiPiazza & Eccles, 2002; Turilli et al., 2009). 
+Service is one of the key areas to be affected and improved by 
+the digital transformation and maintenance costs are meant to 
+be reduced using its enabled capabilities (McKinsey & 
+Company, 2015). More specifically, advanced diagnostic and 
+prognostic systems to support maintenance activities through 
+self-reparation and autonomous learning are being introduced 
+(Fasanotti et al., 2018). However, due to the limited set of 
+contexts considered for their application, there is a need for 
+explorative studies for building an understanding of how to 
+capitalize on these new capabilities (Fasanotti et al., 2018). 
+Furthermore, due to the currently increasing degree of 
+automation in manufacturing environments, which is 
+transforming more and more labor intensive processes into 
+automated processes, the magnitude of the impact of 
+maintenance activities on business is constantly increasing. In 
+turn, this results also in the diffusion of a product-service 
+system based business models (Ardolino et al., 2017).  
+
+
+As the digital transformation is considered to be a progressive 
+transformation on multiple complexity levels (Schuh et al., 
+2017), the unlocked possibilities for the improvement of 
+maintenance activities have to be investigated in relation to the 
+available capabilities and, therefore, the level of digital 
+maturity achieved by a company.  
+This research focuses on the failure mode, effect and criticality 
+analysis (FMECA) currently used by manufacturing 
+companies for the prioritization of maintenance activities. The 
+concept of a dynamic FMECA, built around the capability to 
+periodically update the analysis, has been proposed in extant 
+literature and its positive impact on performance has been 
+discussed, for example in regards to its influence on 
+production processes (Mili et al., 2008a). However, an 
+investigation regarding its implementation process is missing. 
+The transparency and analytic capabilities, leading to decision 
+making autonomy (Fasanotti et al., 2018), enabled by the 
+deployment of novel digital technologies, such as the internet 
+of things (IoT), are providing a new ground to be considered 
+in regards to that. This paper investigates how these 
+capabilities can support the implementation of a dynamic 
+FMECA and how digital maturity progression can affect its 
+deployment. According to that, the research presented in this 
+paper addresses the following research question: “How can the 
+digital transformation support the implementation of a 
+
+
+dynamic FMECA?” 
+The research is performed following a design science approach 
+in its abduction phase (Hevener, 2004) and aims at proposing 
+a conceptual framework for guiding the implementation of a 
+dynamic FMECA according to the digital maturity of the 
+organization.  The authors present, at first, a state of the art 
+regarding the FMECA, the dynamic FMECA, and the digital 
+maturity concepts. Secondly, the research methodology is 
+illustrated. Then, the concept of a dynamic FMECA based on 
+digital capabilities, and in relation to different digital maturity 
+levels, is proposed. Eventually, its implication on maintenance 
+performance and on the design of a customized service offer 
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 770
+
+
+
+
+
+Implementing a dynamic FMECA in the digital transformation era 
+ 
+
+
+Michele Colli*. Roberto Sala**. Fabiana Pirola**. Roberto Pinto**. Sergio Cavalieri**. Brian Vejrum Wæhrens*. 
+
+
+
+* Department of Materials and Production, Aalborg University, 9220 Aalborg Øst, Denmark (colli@mp.aau.dk, 
+
+
+bvw@business.aau.dk) 
+
+
+** Department of Management, Information and Production Engineering, University of Bergamo, Viale Marconi, 5, Dalmine 
+
+
+(BG), 24044, Italy (roberto.sala@unibg.it, fabiana.pirola@unibg.it, roberto.pinto@unibg.it, sergio.cavalieri@unibg.it) 
+
+
+Abstract: The digital transformation of the manufacturing industry is currently unlocking new possibilities 
+in terms of automation and improvement of existing business processes. Service is currently one of the key 
+areas that are being affected by it and, while many use cases are proposed, their operational implementation 
+often remains a challenge. This paper, focusing on the impact of information transparency on the 
+formulation of an effective maintenance plan, is proposing a progressive implementation roadmap for a 
+dynamic failure mode, effect and criticality analysis (FMECA), according to the digital maturity of the 
+organization. Copyright © 2019 IFAC. 
+
+
+Keywords: FMECA, digital transformation, digital maturity, service, maintenance engineering 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+The manufacturing industry is currently facing a major change 
+labelled, due to its nature, as digital transformation. This has 
+been identified as a new competitive lever (McKinsey & 
+Company, 2015) based on the use of data and connectivity 
+capabilities. Its operationalization consists in the integration of 
+the multiple players along the supply chain in an 
+interconnected system (Porter & Heppelmann, 2014), 
+translating the conceptual structure of companies from a 
+pyramidal structure to a network of nodes (Jeshcke et al., 
+2017). The promise is to unlock, through the exchange and use 
+of data from across the supply chain, a new potential for 
+improving the operational performance of multiple business 
+areas. Hence, a key attribute of this transformation is the 
+condition of transparency across this network (Schrauf & 
+Berttram, 2016). This is translated in the availability of 
+relevant information to the right instances for supporting the 
+related decision-making processes (Winkler, 2000, Vaccaro & 
+Madsen, 2006; DiPiazza & Eccles, 2002; Turilli et al., 2009). 
+Service is one of the key areas to be affected and improved by 
+the digital transformation and maintenance costs are meant to 
+be reduced using its enabled capabilities (McKinsey & 
+Company, 2015). More specifically, advanced diagnostic and 
+prognostic systems to support maintenance activities through 
+self-reparation and autonomous learning are being introduced 
+(Fasanotti et al., 2018). However, due to the limited set of 
+contexts considered for their application, there is a need for 
+explorative studies for building an understanding of how to 
+capitalize on these new capabilities (Fasanotti et al., 2018). 
+Furthermore, due to the currently increasing degree of 
+automation in manufacturing environments, which is 
+transforming more and more labor intensive processes into 
+automated processes, the magnitude of the impact of 
+maintenance activities on business is constantly increasing. In 
+turn, this results also in the diffusion of a product-service 
+system based business models (Ardolino et al., 2017).  
+
+
+As the digital transformation is considered to be a progressive 
+transformation on multiple complexity levels (Schuh et al., 
+2017), the unlocked possibilities for the improvement of 
+maintenance activities have to be investigated in relation to the 
+available capabilities and, therefore, the level of digital 
+maturity achieved by a company.  
+This research focuses on the failure mode, effect and criticality 
+analysis (FMECA) currently used by manufacturing 
+companies for the prioritization of maintenance activities. The 
+concept of a dynamic FMECA, built around the capability to 
+periodically update the analysis, has been proposed in extant 
+literature and its positive impact on performance has been 
+discussed, for example in regards to its influence on 
+production processes (Mili et al., 2008a). However, an 
+investigation regarding its implementation process is missing. 
+The transparency and analytic capabilities, leading to decision 
+making autonomy (Fasanotti et al., 2018), enabled by the 
+deployment of novel digital technologies, such as the internet 
+of things (IoT), are providing a new ground to be considered 
+in regards to that. This paper investigates how these 
+capabilities can support the implementation of a dynamic 
+FMECA and how digital maturity progression can affect its 
+deployment. According to that, the research presented in this 
+paper addresses the following research question: “How can the 
+digital transformation support the implementation of a 
+
+
+dynamic FMECA?” 
+The research is performed following a design science approach 
+in its abduction phase (Hevener, 2004) and aims at proposing 
+a conceptual framework for guiding the implementation of a 
+dynamic FMECA according to the digital maturity of the 
+organization.  The authors present, at first, a state of the art 
+regarding the FMECA, the dynamic FMECA, and the digital 
+maturity concepts. Secondly, the research methodology is 
+illustrated. Then, the concept of a dynamic FMECA based on 
+digital capabilities, and in relation to different digital maturity 
+levels, is proposed. Eventually, its implication on maintenance 
+performance and on the design of a customized service offer 
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 770
+
+
+
+
+
+Implementing a dynamic FMECA in the digital transformation era 
+ 
+
+
+Michele Colli*. Roberto Sala**. Fabiana Pirola**. Roberto Pinto**. Sergio Cavalieri**. Brian Vejrum Wæhrens*. 
+
+
+
+* Department of Materials and Production, Aalborg University, 9220 Aalborg Øst, Denmark (colli@mp.aau.dk, 
+
+
+bvw@business.aau.dk) 
+
+
+** Department of Management, Information and Production Engineering, University of Bergamo, Viale Marconi, 5, Dalmine 
+
+
+(BG), 24044, Italy (roberto.sala@unibg.it, fabiana.pirola@unibg.it, roberto.pinto@unibg.it, sergio.cavalieri@unibg.it) 
+
+
+Abstract: The digital transformation of the manufacturing industry is currently unlocking new possibilities 
+in terms of automation and improvement of existing business processes. Service is currently one of the key 
+areas that are being affected by it and, while many use cases are proposed, their operational implementation 
+often remains a challenge. This paper, focusing on the impact of information transparency on the 
+formulation of an effective maintenance plan, is proposing a progressive implementation roadmap for a 
+dynamic failure mode, effect and criticality analysis (FMECA), according to the digital maturity of the 
+organization. Copyright © 2019 IFAC. 
+
+
+Keywords: FMECA, digital transformation, digital maturity, service, maintenance engineering 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+The manufacturing industry is currently facing a major change 
+labelled, due to its nature, as digital transformation. This has 
+been identified as a new competitive lever (McKinsey & 
+Company, 2015) based on the use of data and connectivity 
+capabilities. Its operationalization consists in the integration of 
+the multiple players along the supply chain in an 
+interconnected system (Porter & Heppelmann, 2014), 
+translating the conceptual structure of companies from a 
+pyramidal structure to a network of nodes (Jeshcke et al., 
+2017). The promise is to unlock, through the exchange and use 
+of data from across the supply chain, a new potential for 
+improving the operational performance of multiple business 
+areas. Hence, a key attribute of this transformation is the 
+condition of transparency across this network (Schrauf & 
+Berttram, 2016). This is translated in the availability of 
+relevant information to the right instances for supporting the 
+related decision-making processes (Winkler, 2000, Vaccaro & 
+Madsen, 2006; DiPiazza & Eccles, 2002; Turilli et al., 2009). 
+Service is one of the key areas to be affected and improved by 
+the digital transformation and maintenance costs are meant to 
+be reduced using its enabled capabilities (McKinsey & 
+Company, 2015). More specifically, advanced diagnostic and 
+prognostic systems to support maintenance activities through 
+self-reparation and autonomous learning are being introduced 
+(Fasanotti et al., 2018). However, due to the limited set of 
+contexts considered for their application, there is a need for 
+explorative studies for building an understanding of how to 
+capitalize on these new capabilities (Fasanotti et al., 2018). 
+Furthermore, due to the currently increasing degree of 
+automation in manufacturing environments, which is 
+transforming more and more labor intensive processes into 
+automated processes, the magnitude of the impact of 
+maintenance activities on business is constantly increasing. In 
+turn, this results also in the diffusion of a product-service 
+system based business models (Ardolino et al., 2017).  
+
+
+As the digital transformation is considered to be a progressive 
+transformation on multiple complexity levels (Schuh et al., 
+2017), the unlocked possibilities for the improvement of 
+maintenance activities have to be investigated in relation to the 
+available capabilities and, therefore, the level of digital 
+maturity achieved by a company.  
+This research focuses on the failure mode, effect and criticality 
+analysis (FMECA) currently used by manufacturing 
+companies for the prioritization of maintenance activities. The 
+concept of a dynamic FMECA, built around the capability to 
+periodically update the analysis, has been proposed in extant 
+literature and its positive impact on performance has been 
+discussed, for example in regards to its influence on 
+production processes (Mili et al., 2008a). However, an 
+investigation regarding its implementation process is missing. 
+The transparency and analytic capabilities, leading to decision 
+making autonomy (Fasanotti et al., 2018), enabled by the 
+deployment of novel digital technologies, such as the internet 
+of things (IoT), are providing a new ground to be considered 
+in regards to that. This paper investigates how these 
+capabilities can support the implementation of a dynamic 
+FMECA and how digital maturity progression can affect its 
+deployment. According to that, the research presented in this 
+paper addresses the following research question: “How can the 
+digital transformation support the implementation of a 
+
+
+dynamic FMECA?” 
+The research is performed following a design science approach 
+in its abduction phase (Hevener, 2004) and aims at proposing 
+a conceptual framework for guiding the implementation of a 
+dynamic FMECA according to the digital maturity of the 
+organization.  The authors present, at first, a state of the art 
+regarding the FMECA, the dynamic FMECA, and the digital 
+maturity concepts. Secondly, the research methodology is 
+illustrated. Then, the concept of a dynamic FMECA based on 
+digital capabilities, and in relation to different digital maturity 
+levels, is proposed. Eventually, its implication on maintenance 
+performance and on the design of a customized service offer 
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 770
+
+
+
+
+
+
+756 Michele Colli  et al. / IFAC PapersOnLine 52-13 (2019) 755–760 
+ 
+
+
+
+
+
+
+
+
+are discussed, and a conclusion that outlines the validation 
+process of the proposed concept is provided. 
+
+
+2. STATE OF THE ART 
+
+
+2.1 The FMECA 
+
+
+The FMECA is recognised as one of the most renown tools, 
+within the maintenance domain, to collect experts’ knowledge 
+and quantify the risks associated with the usage of the asset. 
+Its outcome consists of an index, called Risk Priority Number 
+(RPN) which prioritizes maintenance activities according to 
+the risk related to a failure (Wang et al., 2014). The RPN is 
+calculated, for each asset component, multiplying the 
+following variables, usually provided by asset vendors and 
+related to the production context:  
+
+
+- Severity (S), which estimates how severely the failure 
+would affect the user; 
+
+
+- Occurrence (O), which estimates the probability of 
+occurrence of a failure;  
+
+
+- Detectability (D), which estimates the effectiveness 
+of control to prevent the failure (or the probability of 
+detecting a problem before it happens). 
+
+
+The smaller the RPN, the better. Risks are then prioritized 
+from the highest to the lowest according to their RPN, and the 
+related maintenance activities are planned accordingly. 
+Due to the way it is conceived, the FMECA gives a clear 
+picture of the initial state of the system. However, the variables 
+involved in the estimation of the risks can evolve over time. 
+For example, the diverse usage conditions of the asset, the 
+technological evolution or new skills acquired by the 
+maintenance resources could influence the variables used to 
+compute the RPN, thus affecting the results of the analysis and, 
+thus, the planning decisions. Such an update can be hindered 
+by the current approaches commonly adopted in companies. 
+Indeed, Mili et al. (2008a) affirm that a considerable lack can 
+be found in the information collection and risk codification, 
+which is mostly not standardized and dependent on human 
+expertise.  Moreover, as reported by Ben Said et al. (2016), 
+FMECA updates are not frequent and are mostly based on 
+human expertise. As of now, the FMECA is not always 
+directly linked to the organizations’ information system (Mili 
+et al., 2008b). In fact, despite the possibility offered by current 
+Enterprise Information Systems to extract production and 
+process data, humans must interpret these before updating the 
+values contained in FMECA. Moreover, the static nature of 
+FMECA, heavily dependent on human intervention, puts 
+boundaries around the possibility to update it dynamically. In 
+this way, the possibility to be quick in the adaptation of 
+maintenance policies according to new criticalities and, 
+eventually, of the maintenance plan, fades.  
+
+
+2.2 Towards a dynamic FMECA 
+
+
+In response to the limitations listed in section 2.1, some 
+authors proposed a novel approach to the FMECA, based on 
+its more frequent update (Van Bossuyt et al., 2010; Mili et al., 
+2008b). What emerges from literature is that the FMECA can 
+be used at an operational level if employed in a dynamic way, 
+addressing, in addition to the maintenance plan, quality and 
+process aspects based on the risk classification. Moreover, it 
+
+
+could also be used as a performance measure for production 
+processes (Mili et al., 2008a). Due to that, the risk 
+prioritization through RPN computation remains one of its 
+most important characteristics. Linked to this, as Ben Said et 
+al. (2014) report, dynamic FMECA is fundamental for the 
+provision of updated support to maintenance, especially by 
+establishing a continuous bound between what happens in the 
+shop floor, the risk analysis, and the maintenance activities 
+(Bassetto et al., 2011). In support, (Ben Said et al., 2016) 
+reports a case of mixed usage of FMECA and Bayesian 
+Networks to use it in an operational way, enabling the 
+possibility to identify causal relations between the information 
+present in the system. In this case, the interactions between the 
+Bayesian Network and the FMECA are aimed at supporting 
+the renewal of experts’ knowledge and improve the 
+effectiveness of maintenance actions, providing feedback 
+afterwards. As introduced earlier, the FMECA improvement 
+not only has effects on the maintenance plans but, in turn, on 
+the production process as well (Wang et al., 2014). In fact, on 
+one hand, a reduced downtime, due to an improved 
+maintenance plan definition, results in increased production 
+time. On the other hand, the identification of risks and 
+problems enabled by the FMECA allows also to make 
+improvements to the production process, highlighting new 
+potential process problems. One of the topics that must be 
+addressed in order to pave the way towards a more dynamic 
+update of the FMECA is the information collection, exchange 
+and usage (Mili et al., 2009; Mili et al., 2008a). The literature 
+analysis shows that the way information is managed, and the 
+tools used to support it, affect the way FMECA can be 
+dynamically updated. In regards to that, the importance of the 
+adoption of a Computerized Maintenance Management 
+Systems (CMMS) for asset management and, more 
+specifically, for information management aimed at 
+maintenance activities, has been highlighted (Lopes et al., 
+2016). Furthermore, Balouei et al. (2018) state that the role of 
+CMMS in maintenance management will become even greater 
+in the future, due to the growth of data and, thus, of the need 
+for information management. In this sense, the possibility to 
+automate information collection, processing and exchange 
+through the use of a CMMS makes possible to provide support 
+for the concept of dynamic FMECA and its possible 
+declinations. These would depend on the autonomy of the 
+information management processes. Literature reports 
+different cases for this. While case studies about static 
+FMECA are widely discussed, Wang et al. (Wang et al., 2014) 
+describe a situation where FMECA is used in a dynamic way, 
+but the process is carried out manually by human experts and 
+in an intermittent manner. Instead, Mili et al. (2009) and Ben 
+Said et al. (2016) describe two case studies where the software 
+is able to compute failure data and to autonomously propose 
+updates for the FMECA. However, the intervention of the 
+human expert is still required for the validation of the updates 
+and, in turn, for the update of the maintenance policies for the 
+different components and, eventually, of the maintenance plan. 
+However, no empirical evidence has been found supporting the 
+implementation of this type of dynamic FMECA, considering 
+the related increasing degree of autonomy. 
+
+
+
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+771
+
+
+
+
+
+
+ Michele Colli  et al. / IFAC PapersOnLine 52-13 (2019) 755–760 757 
+ 
+
+
+
+
+
+
+
+
+are discussed, and a conclusion that outlines the validation 
+process of the proposed concept is provided. 
+
+
+2. STATE OF THE ART 
+
+
+2.1 The FMECA 
+
+
+The FMECA is recognised as one of the most renown tools, 
+within the maintenance domain, to collect experts’ knowledge 
+and quantify the risks associated with the usage of the asset. 
+Its outcome consists of an index, called Risk Priority Number 
+(RPN) which prioritizes maintenance activities according to 
+the risk related to a failure (Wang et al., 2014). The RPN is 
+calculated, for each asset component, multiplying the 
+following variables, usually provided by asset vendors and 
+related to the production context:  
+
+
+- Severity (S), which estimates how severely the failure 
+would affect the user; 
+
+
+- Occurrence (O), which estimates the probability of 
+occurrence of a failure;  
+
+
+- Detectability (D), which estimates the effectiveness 
+of control to prevent the failure (or the probability of 
+detecting a problem before it happens). 
+
+
+The smaller the RPN, the better. Risks are then prioritized 
+from the highest to the lowest according to their RPN, and the 
+related maintenance activities are planned accordingly. 
+Due to the way it is conceived, the FMECA gives a clear 
+picture of the initial state of the system. However, the variables 
+involved in the estimation of the risks can evolve over time. 
+For example, the diverse usage conditions of the asset, the 
+technological evolution or new skills acquired by the 
+maintenance resources could influence the variables used to 
+compute the RPN, thus affecting the results of the analysis and, 
+thus, the planning decisions. Such an update can be hindered 
+by the current approaches commonly adopted in companies. 
+Indeed, Mili et al. (2008a) affirm that a considerable lack can 
+be found in the information collection and risk codification, 
+which is mostly not standardized and dependent on human 
+expertise.  Moreover, as reported by Ben Said et al. (2016), 
+FMECA updates are not frequent and are mostly based on 
+human expertise. As of now, the FMECA is not always 
+directly linked to the organizations’ information system (Mili 
+et al., 2008b). In fact, despite the possibility offered by current 
+Enterprise Information Systems to extract production and 
+process data, humans must interpret these before updating the 
+values contained in FMECA. Moreover, the static nature of 
+FMECA, heavily dependent on human intervention, puts 
+boundaries around the possibility to update it dynamically. In 
+this way, the possibility to be quick in the adaptation of 
+maintenance policies according to new criticalities and, 
+eventually, of the maintenance plan, fades.  
+
+
+2.2 Towards a dynamic FMECA 
+
+
+In response to the limitations listed in section 2.1, some 
+authors proposed a novel approach to the FMECA, based on 
+its more frequent update (Van Bossuyt et al., 2010; Mili et al., 
+2008b). What emerges from literature is that the FMECA can 
+be used at an operational level if employed in a dynamic way, 
+addressing, in addition to the maintenance plan, quality and 
+process aspects based on the risk classification. Moreover, it 
+
+
+could also be used as a performance measure for production 
+processes (Mili et al., 2008a). Due to that, the risk 
+prioritization through RPN computation remains one of its 
+most important characteristics. Linked to this, as Ben Said et 
+al. (2014) report, dynamic FMECA is fundamental for the 
+provision of updated support to maintenance, especially by 
+establishing a continuous bound between what happens in the 
+shop floor, the risk analysis, and the maintenance activities 
+(Bassetto et al., 2011). In support, (Ben Said et al., 2016) 
+reports a case of mixed usage of FMECA and Bayesian 
+Networks to use it in an operational way, enabling the 
+possibility to identify causal relations between the information 
+present in the system. In this case, the interactions between the 
+Bayesian Network and the FMECA are aimed at supporting 
+the renewal of experts’ knowledge and improve the 
+effectiveness of maintenance actions, providing feedback 
+afterwards. As introduced earlier, the FMECA improvement 
+not only has effects on the maintenance plans but, in turn, on 
+the production process as well (Wang et al., 2014). In fact, on 
+one hand, a reduced downtime, due to an improved 
+maintenance plan definition, results in increased production 
+time. On the other hand, the identification of risks and 
+problems enabled by the FMECA allows also to make 
+improvements to the production process, highlighting new 
+potential process problems. One of the topics that must be 
+addressed in order to pave the way towards a more dynamic 
+update of the FMECA is the information collection, exchange 
+and usage (Mili et al., 2009; Mili et al., 2008a). The literature 
+analysis shows that the way information is managed, and the 
+tools used to support it, affect the way FMECA can be 
+dynamically updated. In regards to that, the importance of the 
+adoption of a Computerized Maintenance Management 
+Systems (CMMS) for asset management and, more 
+specifically, for information management aimed at 
+maintenance activities, has been highlighted (Lopes et al., 
+2016). Furthermore, Balouei et al. (2018) state that the role of 
+CMMS in maintenance management will become even greater 
+in the future, due to the growth of data and, thus, of the need 
+for information management. In this sense, the possibility to 
+automate information collection, processing and exchange 
+through the use of a CMMS makes possible to provide support 
+for the concept of dynamic FMECA and its possible 
+declinations. These would depend on the autonomy of the 
+information management processes. Literature reports 
+different cases for this. While case studies about static 
+FMECA are widely discussed, Wang et al. (Wang et al., 2014) 
+describe a situation where FMECA is used in a dynamic way, 
+but the process is carried out manually by human experts and 
+in an intermittent manner. Instead, Mili et al. (2009) and Ben 
+Said et al. (2016) describe two case studies where the software 
+is able to compute failure data and to autonomously propose 
+updates for the FMECA. However, the intervention of the 
+human expert is still required for the validation of the updates 
+and, in turn, for the update of the maintenance policies for the 
+different components and, eventually, of the maintenance plan. 
+However, no empirical evidence has been found supporting the 
+implementation of this type of dynamic FMECA, considering 
+the related increasing degree of autonomy. 
+
+
+
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+771
+
+
+
+
+
+
+
+
+
+
+
+2.3 The digital maturity progression 
+
+
+The digital transformation has been defined as a journey across 
+multiple complexity levels (Schuh et al., 2017). Researchers 
+and research institutions proposed multiple progression 
+models – based on the maturity concept – through academic 
+publications and industrial reports, for guiding the digital 
+transformation (Colli et al., 2018). The concept of maturity as 
+a development progression based on building incremental 
+capabilities has been originated in relation to electronic data 
+processing (Gibson & Nolan, 1974) and in quality 
+management (Crosby, 1979). Looking at this concept under a 
+digital transformation magnifying glass, in terms of 
+capabilities, the development progression generally starts from 
+being able to identify events and eventually reaches the ability 
+of dealing with events autonomously, after building an 
+understanding of the causes of the event and of the patterns 
+that make possible to forecast future scenarios (Schuh et al., 
+2017). Colli et al. (2018), based on a review of existing digital 
+maturity models, translate this progression in a sequence of 
+steps consisting, technical wise, in the ability to generate 
+digital data, the achievement of data availability where needed 
+for supporting decision making processes, the introduction of 
+analytic capabilities for analyzing it, augmenting the existing 
+knowledge, and the establishing of an autonomous decision 
+making process based first on company data and, eventually, 
+on data from across the whole supply chain. Under a 
+maintenance point of view, Fasanotti et al. (2018) see sensor-
+generated information as the catalyst for the transition towards 
+a proactive maintenance planning, with less human 
+involvement in the inspection and decision-making processes. 
+Thus, the incremental progression of digital maturity related 
+capabilities is used as a base line for the formulation of a 
+currently missing implementation model of the existing 
+dynamic FMECA concept. 
+
+
+3. METHODOLOGY 
+
+
+This research consists of model development, obtained 
+following a design science approach (Hevener, 2004; Van 
+Aken, 2004; Vaishnavi & Kuechler, 2008). This starts from the 
+development of an artefact through an abductive process. The 
+artefact, consisting of an implementation framework for the 
+concept of dynamic FMECA, has its foundation based on 
+literature regarding this concept. The model development 
+process was complemented by a literature analysis as an 
+outcome of research carried out on the SCOPUS database. The 
+literature review focused on the concepts of FMECA and 
+dynamic FMECA in the context of the technological 
+revolution happening in the current decade. Specifically, 
+authors were interested in studying the literature on the 
+dynamic FMECA from the perspective of the organizations’ 
+
+
+digital maturity, investigating how the digital maturity of an 
+organization could affect the FMECA capabilities and, in turn, 
+its autonomy. Eventually, in order to propose an 
+implementation framework based on the possibilities unlocked 
+by the digital transformation, the needs in terms of digital 
+capabilities related to the existing dynamic FMECA concept 
+are identified and related to existing digital maturity concepts 
+and to their maturity levels. As an outcome, a progression in 
+
+
+terms of implementation stages based on the digital maturity 
+level and on the related capabilities is proposed. 
+
+
+4. MODEL DEVELOPMENT 
+
+
+The implementation of a dynamic FMECA is based on the 
+increase of integration from an Information System point of 
+view, as its concept is strongly bounded with information 
+availability and business process automation. This is meant to 
+generate information transparency - and support its use - across 
+assets to be maintained and who has to maintain them. This 
+task is supported by new digital technologies, specifically IoT, 
+which enable the achievement of information transparency 
+(Brody & Pureswaran, 2015). As the digital transformation 
+journey and, therefore, the achievement and use of information 
+transparency and of analytic and autonomy capabilities are 
+considered to be incremental, the authors propose a 
+progression of dynamic FMECA solutions based on this 
+progression. Hence, this outlined sequence of implementation 
+stages sets its foundation on the available digital capabilities 
+and, therefore, on the digital maturity of the organization 
+which aims at implementing a dynamic FMECA. Three 
+implementation stages for the adoption of a dynamic FMECA 
+in the service department of a manufacturing company that has 
+to take care of the maintenance of its own assets are proposed. 
+They consist in three sequential typologies of dynamic 
+FMECA – manual, assisted, and autonomous – meant to work 
+on top of the existing CMMS and supported by increasing 
+digital maturity (and of the related capabilities) and 
+characterized by the increasing level of automation of the 
+FMECA processes. 
+
+
+4.1 Manual dynamic FMECA 
+
+
+The service department of the manufacturing company, in 
+order to perform the FMECA for defining a maintenance plan, 
+is manually collecting the needed information by accessing the 
+CMMS. Here, failure data from the monitored assets as well 
+as reports of the performed maintenance activities are 
+manually inserted by the operator. Data is then manually 
+analyzed within the service department, where failure types 
+and implications (e.g. related downtime, involved 
+components) are identified and the FMECA performed, see 
+Fig. 1. Eventually, failures are ranked by calculating the RPN.  
+   
+
+
+ 
+Fig. 1. Manual dynamic FMECA 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+772
+
+
+
+
+
+
+758 Michele Colli  et al. / IFAC PapersOnLine 52-13 (2019) 755–760 
+ 
+
+
+
+
+
+
+
+
+According to that, the service department updates the 
+maintenance policies defined for all the considered 
+components and, thus, the maintenance plan. The service is 
+provided accordingly. The digital capabilities needed in order 
+to sustain the manual dynamic FMECA consist in an IT 
+infrastructure that supports a CMMS accessible, on one side, 
+by the operators for introducing failure and maintenance 
+activities related data digitally and, on the other, by the service 
+department for visualizing it. 
+
+
+4.2 Assisted dynamic FMECA 
+
+
+The service department of the manufacturing company, in 
+order to perform the FMECA, is manually collecting the 
+needed information by accessing the CMMS, where failure 
+data are automatically uploaded by the assets and the 
+performed maintenance activities are registered. Afterwards, 
+as for the manual dynamic FMECA, see section 4.1, data is 
+manually analyzed by the service department which, 
+eventually, performs the FMECA and rank them by calculating 
+the RPN. The service department updates, accordingly, the 
+maintenance policies related to the different components and 
+the maintenance plan that guides the service provision, see Fig. 
+2. The digital capabilities needed in order to sustain the 
+assisted dynamic FMECA consist, in addition to the ones 
+described for the manual version, see section 4.1, in having an 
+IT infrastructure that includes the monitored assets, which 
+have to be able to upload in the CMMS the needed failure data 
+automatically. 
+ 
+
+
+ 
+Fig. 2. Assisted dynamic FMECA 
+
+
+4.3 Autonomous dynamic FMECA 
+
+
+The service department of the manufacturing company, as well 
+as the assets, are connected to an IoT platform which hosts the 
+CMMS and an analytic engine. While the assets automatically 
+upload failure data and maintenance activities to the CMMS, 
+an analytic engine processes this data, automatically 
+performing the FMECA. The service department receives, 
+therefore, a constantly updated FMECA as well as RPN and, 
+after validating the results, can constantly re-assign 
+maintenance policies according to the FMECA results and 
+optimize the effectiveness of the maintenance plan. The 
+service department provides the service accordingly, see 
+Error! Reference source not found.. The digital capabilities 
+
+
+needed in order to sustain the autonomous dynamic FMECA 
+consist, in addition to the ones described for the assisted 
+version, see section 4.2, in introducing an IoT platform with 
+analytic capabilities and which is hosting the CMMS. This 
+platform has to be interconnected with the assets, data source, 
+and the service department, data user. 
+ 
+
+
+
+
+
+Fig. 3. Autonomous dynamic FMECA 
+
+
+5. DISCUSSION 
+
+
+The concept of dynamic FMECA is already existing and it has 
+been discussed in the extant literature. However, 
+implementation guidelines are missing. The digital 
+transformation and the increase of digital maturity are 
+expected to support its implementation and progressively 
+unlock new capabilities – in particular, the increase of 
+information transparency and the enabling of analytic 
+capabilities first and autonomy next – that are considered to be 
+key elements for the implementation of a dynamic FMECA, 
+see Fig. 4. The organization’s digital competencies play a 
+central role in the determination of the way a dynamic FMECA 
+can be implemented. The more companies are digitalized and 
+able to manage the information across them, the higher is their 
+digital maturity level. In fact, the human intervention required 
+for different purposes, from data extraction to elaboration, 
+ending in creating the logical connections between the 
+FMECA update and the defined maintenance plans, is 
+inversely proportional to the level of digital maturity. 
+Increasing the digital maturity of an organization means that 
+the Information System (IS) and, more specifically, the 
+CMMS, is able, at different levels, to collect and elaborate 
+data, and expose the results in a way that makes possible to 
+update easily the maintenance plans. Possibly, at the maximum 
+digital maturity level, the CMMS would be able to update 
+autonomously the maintenance plans, reducing the necessity 
+for a human-in-the-loop (HIL), which is the necessity for the 
+system to interact with humans (Parasuraman et al., 1997; 
+Pinto et al. 2013). However, in the proposed framework, it has 
+been considered the need for a human validation of the updated 
+FMECA results in order to translate it in the re-assignment of 
+maintenance policies for the different components and, 
+eventually, in the re-formulation of the maintenance plan. The 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+773
+
+
+
+
+
+
+ Michele Colli  et al. / IFAC PapersOnLine 52-13 (2019) 755–760 759 
+ 
+
+
+
+
+
+
+
+
+According to that, the service department updates the 
+maintenance policies defined for all the considered 
+components and, thus, the maintenance plan. The service is 
+provided accordingly. The digital capabilities needed in order 
+to sustain the manual dynamic FMECA consist in an IT 
+infrastructure that supports a CMMS accessible, on one side, 
+by the operators for introducing failure and maintenance 
+activities related data digitally and, on the other, by the service 
+department for visualizing it. 
+
+
+4.2 Assisted dynamic FMECA 
+
+
+The service department of the manufacturing company, in 
+order to perform the FMECA, is manually collecting the 
+needed information by accessing the CMMS, where failure 
+data are automatically uploaded by the assets and the 
+performed maintenance activities are registered. Afterwards, 
+as for the manual dynamic FMECA, see section 4.1, data is 
+manually analyzed by the service department which, 
+eventually, performs the FMECA and rank them by calculating 
+the RPN. The service department updates, accordingly, the 
+maintenance policies related to the different components and 
+the maintenance plan that guides the service provision, see Fig. 
+2. The digital capabilities needed in order to sustain the 
+assisted dynamic FMECA consist, in addition to the ones 
+described for the manual version, see section 4.1, in having an 
+IT infrastructure that includes the monitored assets, which 
+have to be able to upload in the CMMS the needed failure data 
+automatically. 
+ 
+
+
+ 
+Fig. 2. Assisted dynamic FMECA 
+
+
+4.3 Autonomous dynamic FMECA 
+
+
+The service department of the manufacturing company, as well 
+as the assets, are connected to an IoT platform which hosts the 
+CMMS and an analytic engine. While the assets automatically 
+upload failure data and maintenance activities to the CMMS, 
+an analytic engine processes this data, automatically 
+performing the FMECA. The service department receives, 
+therefore, a constantly updated FMECA as well as RPN and, 
+after validating the results, can constantly re-assign 
+maintenance policies according to the FMECA results and 
+optimize the effectiveness of the maintenance plan. The 
+service department provides the service accordingly, see 
+Error! Reference source not found.. The digital capabilities 
+
+
+needed in order to sustain the autonomous dynamic FMECA 
+consist, in addition to the ones described for the assisted 
+version, see section 4.2, in introducing an IoT platform with 
+analytic capabilities and which is hosting the CMMS. This 
+platform has to be interconnected with the assets, data source, 
+and the service department, data user. 
+ 
+
+
+
+
+
+Fig. 3. Autonomous dynamic FMECA 
+
+
+5. DISCUSSION 
+
+
+The concept of dynamic FMECA is already existing and it has 
+been discussed in the extant literature. However, 
+implementation guidelines are missing. The digital 
+transformation and the increase of digital maturity are 
+expected to support its implementation and progressively 
+unlock new capabilities – in particular, the increase of 
+information transparency and the enabling of analytic 
+capabilities first and autonomy next – that are considered to be 
+key elements for the implementation of a dynamic FMECA, 
+see Fig. 4. The organization’s digital competencies play a 
+central role in the determination of the way a dynamic FMECA 
+can be implemented. The more companies are digitalized and 
+able to manage the information across them, the higher is their 
+digital maturity level. In fact, the human intervention required 
+for different purposes, from data extraction to elaboration, 
+ending in creating the logical connections between the 
+FMECA update and the defined maintenance plans, is 
+inversely proportional to the level of digital maturity. 
+Increasing the digital maturity of an organization means that 
+the Information System (IS) and, more specifically, the 
+CMMS, is able, at different levels, to collect and elaborate 
+data, and expose the results in a way that makes possible to 
+update easily the maintenance plans. Possibly, at the maximum 
+digital maturity level, the CMMS would be able to update 
+autonomously the maintenance plans, reducing the necessity 
+for a human-in-the-loop (HIL), which is the necessity for the 
+system to interact with humans (Parasuraman et al., 1997; 
+Pinto et al. 2013). However, in the proposed framework, it has 
+been considered the need for a human validation of the updated 
+FMECA results in order to translate it in the re-assignment of 
+maintenance policies for the different components and, 
+eventually, in the re-formulation of the maintenance plan. The 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+773
+
+
+
+
+
+
+
+
+
+
+
+HIL still has a crucial role in translating raw data in operational 
+decisions, mostly because of the current impossibility to 
+collect and interpret data related to all the contextual elements 
+that must be taken into account in the decision making process. 
+The ability of the CMMS to update the FMECA strongly 
+depends upon the data interpretability and their interpretation. 
+The interpretability of data is a consequence of the way they 
+are collected, structured and elaborated. Different components 
+along the IS could require the same data structured in different 
+ways: for this reason, it is fundamental to define a common 
+language and methodology that guides the data collection, 
+storage, and elaboration. Automating this aspect means 
+enhancing and facilitating the communication among the 
+components of the IS, allowing to automatize certain parts of 
+the elaboration process and saving time for other operations. If 
+there is no compliance between the IS components, the human 
+intervention will be necessary to enable data collection and 
+processing within the CMMS and the FMECA update. The 
+concept of data interpretability is bond to the one of data 
+interpretation. In fact, also in this case, giving the instruments 
+to the IS components to understand the data under analysis and 
+the meaning of the results means to shorten the time required 
+to complete part of the process. Moreover, an IS able to 
+interpret data correctly has a higher degree of autonomy, due 
+to the diminished need for human expertise in some of the 
+decision making processes. Something worth noting is that if 
+data is not interpreted correctly, misleading information could 
+be saved in the database, resulting in wrong risk estimation, 
+maintenance policies and, thus, maintenance plans. Before 
+updating one or more values in the FMECA it is important to 
+verify that it is correct to do so. Updating a value in the 
+FMECA after each maintenance intervention is not 
+trustworthy and results in an unreliable instrument for the 
+definition of the maintenance policies. Something that can be 
+done in this sense is to implement a statistical test to 
+understand if one or more values are significantly changed or 
+not. To perform the test it is necessary to keep track of the 
+maintenance interventions and analyze the related 
+maintenance reports. The implementation of a dynamic 
+FMECA allows to define maintenance policies tailored on 
+single components on the base of the asset usage. 
+ 
+
+
+
+
+
+Fig. 4. Dynamic FMECA development progression related to 
+digital maturity 
+
+
+Moreover, the update of the single maintenance policies allows 
+to define and update the maintenance plans, which represent 
+the ensemble of the maintenance policies for the single 
+components. Being able to define improved maintenance plans 
+make possible also to improve the scheduling of the operators 
+based on their skills and the problems of the assets. 
+
+
+6. CONCLUSION 
+
+
+The fourth industrial revolution is changing the way 
+organizations are exploiting their assets. The continuous 
+generation, collection and analysis of data opens up for new 
+possibilities for the improvement of the production processes, 
+which can be enhanced in many ways and under different 
+aspects. One of these areas is asset maintenance, as 
+demonstrated by the considerable importance that this topic 
+obtained in literature. One of the most diffused instruments to 
+manage maintenance activities is the FMECA. This is used to 
+identify the assets’ most critical components and, thus, as an 
+
+
+input for the definition of the maintenance policies and plans. 
+Despite this, the usage of the FMECA in a static manner limits 
+the effectiveness of a maintenance plan due to the lack of 
+consideration of environmental changes (e.g. asset usage). 
+Because of this, some authors proposed the concept of 
+dynamic FMECA, based on the capability to periodically 
+update components’ criticality and, thus, guiding maintenance 
+plans’ update. This paper proposes a schematisation of the 
+
+
+implementation stages for the dynamic FMECA, which are 
+strongly bound to information transparency in the organization 
+and, in turn, to the organization digital maturity level. Three 
+stages are proposed, starting from manual data processing for 
+supporting the FMECA and, after an assisted one, ending with 
+an autonomous FMECA, where data processing is performed 
+by an IoT platform. This paper presents a theoretical 
+framework for implementing a dynamic FMECA.  In order to 
+provide implementation guidelines at a more operational level, 
+additional research concerning its application in a real case is 
+required. To do so, further information regarding the FMECA 
+activities, the needed data and their use for defining 
+maintenance policies and plans are required. In addition, for 
+understating its implications on the organization’s 
+
+
+performance, historical data related to the assets’ performance 
+and to the maintenance activities are needed. This have to be 
+compared with a simulation of the corresponding behaviour 
+using a dynamic FMECA. Furthermore, the performance 
+improvement corresponding to the digital maturity increase 
+has to be validated studying the impact of the growing 
+automation in the FMECA update process. To do so, 
+differences concerning data reliability and needed resources in 
+the three digital maturity stages have to be taken into account. 
+These activities are planned for future publications. 
+
+
+REFERENCES 
+
+
+Ardolino, M., Rapaccini, M., Saccani, N., Gaiardelli, P., 
+Crespi, G., & Ruggeri, C. (2017). The role of digital 
+technologies for the service transformation of industrial 
+companies, International Journal of Production 
+Research, Taylor & Francis, pp. 1–17. 
+
+
+Balouei Jamkhaneh, H., Khazaei Pool, J., Khaksar, S. M. S., 
+Arabzad, S. M., & Verij Kazemi, R. (2018). Impacts of 
+computerized maintenance management system and 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+774
+
+
+
+
+
+
+760 Michele Colli  et al. / IFAC PapersOnLine 52-13 (2019) 755–760 
+ 
+
+
+
+
+
+
+
+
+relevant supportive organizational factors on total 
+productive maintenance. Benchmarking: An International 
+Journal, 25(7), 2230-2247. 
+
+
+Bassetto, S., Siadat, A., & Tollenaere, M. (2011). The 
+management of process control deployment using 
+interactions in risks analyses, Journal of Loss Prevention 
+in the Process Industries. Elsevier Ltd, 24(4), pp. 458–
+465. 
+
+
+Ben Said, A., Shahzad, M. K., Zamaï, É., Hubac, S., & 
+Tollenaere, M. (2014, July). A Bayesian network based 
+approach to improve the effectiveness of maintenance 
+actions in Semiconductor Industry. In Second European 
+Conference of the Prognostics and Health Management 
+
+
+Society. 
+Ben Said, A., Shahzad, M. K., Zamai, E., Hubac, S., & 
+
+
+Tollenaere, M. (2016). Experts’ knowledge renewal and 
+
+
+maintenance actions effectiveness in high-mix low-
+volume industries, using Bayesian approach. Cognition, 
+Technology & Work, 18(1), 193-213. 
+
+
+Brody, P., & Pureswaran, V. (2015). The next digital gold 
+rush: how the internet of things will create liquid, 
+transparent markets, Strategy & Leadership, Vol. 43 No. 
+1, pp. 36-41. 
+
+
+Colli, M., Madsen, O., Berger, U., Møller, C., Wæhrens, B. V., 
+& Bockholt, M. (2018). Contextualizing the outcome of 
+a maturity assessment for Industry 4.0. Ifac-
+papersonline, 51(11), 1347-1352. 
+
+
+Crosby, P. B. (1979). Quality is Free: The Art of Making 
+Quality Certain. New York, McGraw-Hill 
+
+
+DiPiazza, S. A., & Eccles, R. G. (2002). Building public trust: 
+The future of corporate reporting. New York: Wiley 
+
+
+Fasanotti, L., Cavalieri, S., Dovere, E., Gaiardelli, P., & 
+Pereira, C. E. (2018). An artificial immune intelligent 
+maintenance system for distributed industrial 
+environments. Proceedings of the Institution of 
+Mechanical Engineers, Part O: Journal of Risk and 
+
+
+Reliability. 
+Gibson, C. & Nolan, R. (1974). Managing the four stages of 
+
+
+EDP growth. Harvard Business Review, Vol. 52, No. 1 
+(Jan/Feb 1974), pp. 76-88 
+
+
+Hevener, A. R., March, S. T., Park, J., & Ram, S. (2004) 
+Design Science in Information Systems Research. MIS 
+Quarterly 28:75–105. 
+
+
+Jeschke, S., Brecher, C., Song, H., & Rawat, D. B. (2017). 
+Industrial internet of things, cybermanufacturing systems. 
+Springer 
+
+
+Lopes, I., Senra, P., Vilarinho, S., Sá, V., Teixeira, C., Lopes, 
+J., Alves, A., Oliveira, J. A., & Figueiredo, M. (2016). 
+Requirements specification of a computerized 
+maintenance management system–A case study. Procedia 
+CIRP, 52, 268-273. 
+
+
+McKinsey & Company (2015). Industry 4.0: How to navigate 
+digitalisation of the manufacturing sector, McKinsey and 
+Company. URL: 
+https://www.mckinsey.de/files/mck_industry_40_report.
+pdf  
+
+
+Mili, A., Siadat, A., Hubac, S., & Bassetto, S. (2008a). 
+Dynamic management of detected factory events and 
+estimated risks using FMECA. In Management of 
+
+
+Innovation and Technology, 2008. ICMIT 2008. 4th IEEE 
+International Conference on (pp. 1204-1209). IEEE.   
+
+
+Mili, A., Hubac, S., Bassetto, S., & Siadat, A. (2008b). Risks 
+analyses update based on maintenance events. IFAC 
+Proceedings Volumes, 41(2), 34-39.  
+
+
+Mili, A., Bassetto, S., Siadat, A., & Tollenaere, M. (2009). 
+Dynamic risk management unveil productivity 
+improvements. Journal of Loss Prevention in the Process 
+Industries, 22(1), 25-34.   
+
+
+Parasuraman, R., Sheridan, T.B., & Wickens, C.D. (1997). A 
+model for types and levels of human interaction with 
+automation, IEEE Transactions on Systems, Man, and 
+Cybernetics, 30 (3), pp. 286–297. 
+
+
+Pinto, R., Mettler, T., & Taisch, M. (2013). Managing supplier 
+delivery reliability risk under limited information: 
+Foundations for a human-in-the-loop DSS. Decision 
+Support Systems, 54(2), pp. 1076–1084. 
+
+
+Porter, M. E. & Heppelmann, J. E. (2014). How smart, 
+connected products are transforming competition. 
+Harvard Business Review, 92(11): 64-88. 
+
+
+Schrauf, S. & Berttram, P. (2016). Industry 4.0: How 
+Digitization Makes the Supply Chain More Efficient, 
+Agile, and Customer-focused, Strategy, 
+http://www.strategyand.pwc.com/reports/industry4.0 
+
+
+Schuh, G., Anderl, R., Gausemeier, J., ten Hompel, M., & 
+Wahlster, W. (2017). Industrie 4.0 Maturity 
+Index. Managing the Digital Transformation of 
+Companies (acatech STUDY) Herbert Utz Verlag, 
+
+
+Munich. 
+Turilli, M. & Floridi, L. (2009). The ethics of information 
+
+
+transparency. Ethics and Information Technology, 11(2), 
+105-112 
+
+
+Vaccaro, A. & Madsen, P. (2006). Firm information 
+transparency: Ethical questions in the information age. In 
+Social informatics: An information society for all? In 
+remembrance of Rob Kling (pp. 145–156). New York: 
+Springer. 
+
+
+Vaishnavi, V. & Kuechler, W. (2008). Design Science 
+Research Methods and Patterns, Innovating Information 
+and Communication Technology. CRC Press, Taylor & 
+Francis Group. Pag. 31. 
+
+
+Van Aken, J. E. (2004). Management Research Based on the 
+Paradigm of the Design Sciences: The Quest for Field-
+Tested and Grounded Technological Rules. Journal of 
+Management Studies 41:219–246. 
+
+
+Van Bossuyt, D. L., Wall, S. D., & Tumer, I. Y. (2010) 
+‘Towards risk as a tradeable variable in complex system 
+design trades’, Proceedings of the ASME Design 
+
+
+Engineering Technical Conference, 3 (PARTS A AND 
+B).  
+
+
+Wang, H., Ren, J., Wang, J., & Yang, J. (2014). Developing a 
+Conceptual Framework to Evaluate the Effectiveness of 
+Emergency Response System for an Oil Spill. In CICTP 
+2014: Safe, Smart, and Sustainable Multimodal 
+
+
+Transportation Systems (pp. 3731-3742). 
+Winkler, B. (2000). Which kind of transparency? On the need 
+
+
+for clarity in monetary policy-making. Frankfurt: 
+European Central Bank. 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+775
+
+
+
+

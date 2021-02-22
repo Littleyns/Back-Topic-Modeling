@@ -1,0 +1,3522 @@
+
+
+
+
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+Please cite this article as: Vasco Sanchez Rodrigues, Industrial Marketing Management, https://doi.org/10.1016/j.indmarman.2020.09.020
+
+
+Available online 9 October 2020
+0019-8501/© 2020 Elsevier Inc. All rights reserved.
+
+
+Research paper 
+
+
+Measurement, mitigation and prevention of food waste in supply chains: An 
+online shopping perspective 
+
+
+Vasco Sanchez Rodrigues a,*, Emrah Demir a, Xun Wang a, Joseph Sarkis b 
+
+
+a Logistics & Operations Management Section, Cardiff Business School, Cardiff University, UK 
+b Foisie Business School, Worcester Polytechnic Institute, Massachusetts, USA   
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Online food retail supply chain 
+Food waste management 
+Natural resource based view 
+
+
+A B S T R A C T   
+
+
+This study introduces a framework and model, although applied in a practical setting, sets the stage for further 
+theoretical development of mid-range theory. The methodology applied in the study has four main stages, 
+namely interviews with managers from an online food retail supply chain, analysis of soft and hard data using 
+questionnaire-based surveys of customers and suppliers, archival and factual information gathered from the 
+supplier and the online food retailer to measure food waste across the supply chain and analytical models to 
+quantify various effects. A number of propositions emerged from our multiple methodologies and observations. 
+The major research contribution of this work is to advance Natural Resource Based View (NRBV) to the supply 
+chain and various complexities involved in food waste management. Dynamic capabilities were clearly evident 
+and necessary in rapidly changing industrial contexts such as online food supply chains. This paper also proposes 
+a food waste minimization-and-mitigation model, establishes the direct and indirect outputs of food waste and 
+brings attention of the food waste debate in the context of an exemplar online food supply chain, as well as 
+provides a middle range theoretic framework to enhance understanding on theory and its application to this field 
+informed mainly NRBV.   
+
+
+1. Introduction 
+
+
+Agricultural and food supply chains are central to nourishing the 
+world’s population. Poverty relief while simultaneously limiting 
+resource depletion and environmental burden is a sustainable supply 
+chain management (SSCM) goal. They can benefit greatly from 
+improved efficiency and waste reduction, addressing multiple sustain-
+ability concerns. 
+
+
+According to EU-27 stats published by the Independent in December, 
+2015, the UK is the most wasteful of the EU’s 27 member states, need-
+lessly throwing away 14.3 million tonnes per year. In the UK alone the 
+annual amount of wasted food is worth approximately £13 billion with 
+8.4 million people struggling to afford a meal (FAO, 2019). Food supply 
+chains would appear third as an aggregated nation-level ranking of top 
+waste emitters, only after the U.S. and China (WRI 2012). 
+
+
+Given these issues, this study focuses on a UK grocery retail perish-
+able food supply chain. The total estimate for UK post-farm gate food 
+waste (2015) is 10.2 million tonnes; total household food waste is about 
+7.1 million tonnes (WRAP, 2018). 
+
+
+Food waste may be generated anywhere along the supply chain and 
+
+
+has embedded environmental impacts (De Lange & Nahman, 2015)— 
+such as water losses at the agricultural supplier level (Tsagatakis et al., 
+2016) and carbon dioxide (CO2) emissions generated from food distri-
+bution and decomposition (Kummu et al., 2012). Poor growth and 
+harvesting practices in upstream supply chains lead to sizeable envi-
+ronmental and resource waste (Davies & Legg, 2018). Poor demand 
+management originating along the supply chain also contribute to food 
+waste (Kiil, Dreyer, Hvolby, & Chabada, 2018; Kitinoja, Tokala, & 
+Brondy, 2018). Inventory and supply chain practices for supply chain 
+intermediaries, transporters, wholesalers, and distributors cause signif-
+icant food waste burdens. This waste is also attributable to control and 
+infrastructure concerns. Furthermore, wasteful food effluents occur in 
+the downstream supply chain, retailing and customer stages. 
+
+
+Electronic commerce—online presence and purchasing—has seen 
+greater emphasis in food supply chains and grocery sales. Research on 
+food waste and sustainability from online purchasing practices is very 
+limited. Even with this increased importance of online grocery sales, 
+little is known about food waste and sustainability externalities in an e- 
+commerce context from practical, scholarly and theoretical perspec-
+tives. This study contributes to knowledge in this area. It also provides 
+
+
+* Corresponding author. 
+E-mail address: Sanchezrodriguesva1@Cardiff.ac.uk (V.S. Rodrigues).  
+
+
+Contents lists available at ScienceDirect 
+
+
+Industrial Marketing Management 
+
+
+journal homepage: www.elsevier.com/locate/indmarman 
+
+
+https://doi.org/10.1016/j.indmarman.2020.09.020 
+Received 16 May 2019; Received in revised form 20 August 2020; Accepted 30 September 2020   
+
+
+
+mailto:Sanchezrodriguesva1@Cardiff.ac.uk
+
+www.sciencedirect.com/science/journal/00198501
+
+https://www.elsevier.com/locate/indmarman
+
+https://doi.org/10.1016/j.indmarman.2020.09.020
+
+https://doi.org/10.1016/j.indmarman.2020.09.020
+
+https://doi.org/10.1016/j.indmarman.2020.09.020
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+2
+
+
+opportunity for further expansion of sustainable supply chain manage-
+ment research and theory in a rapidly nascent industrial setting. 
+
+
+This study also aims to draw connections between food waste 
+reduction practices and the Natural-Resource-Based View (NRBV) of the 
+firm, specifically, by identifying and explaining relations among food 
+waste reduction practices and the three NRBV capabilities – product 
+stewardship, pollution prevention and clean technologies. NRBV is an 
+important theoretical underpinning because NRBV stipulates that a 
+firm’s success and competitive advantage depend on managing natural 
+resources (Hart, 1995). This competitive advantage is embedded in the 
+food waste reduction practices covered by the case study online grocery 
+food supply chain. Food and its embedded environmental resources as 
+they supply chains major natural resources. We expand NRBV focus to 
+include supply chain entities and other stakeholders; we also take NRBV 
+from a strategic theoretical perspective to include operational theoretic 
+dimensions. 
+
+
+This study introduces a framework and models for food waste per-
+formance at three stages of a typical online food supply chain – the 
+supplier, retailer, and customer. The framework and model, although 
+applied in a practical setting, sets the stage for further theoretical 
+development through mid-range theory, which is an approach to so-
+ciological theorizing aimed at integrating theory and empirical research. 
+
+
+The aim of this study is to evaluate the connections between NRBV and 
+food waste with regards to factors that cause food waste, metrics and prac-
+tices that are used to control, minimize, and mitigate the direct and indirect 
+impacts of food waste along a supply chain. 
+
+
+In this study, food waste is any waste of perishable products. This 
+food waste can be generated at different online food retailer supply 
+chain stages, including growing, harvesting, packaging, distribution, 
+retail, and consumer households. This study uses the definitions of food 
+waste and food surplus from Food Loss + Waste Protocol (2016), which 
+are:  
+
+
+• ‘Excess food that is not redistributed for animal feed, compost 
+manufacturing, anaerobic digestion for energy regeneration or food 
+charities, is considered food waste.’  
+
+
+• ‘Alternatively, food surplus is defined as food that is not used for its 
+primary purpose within the supply chain. Food surplus includes surplus 
+generated by sales from supplier to the retailer and from the retailer to the 
+customer.’ 
+
+
+In addition, for the purpose of this study, food waste minimisation is 
+defined as any measure that can be applied by the supplier or the retailer 
+to minimize the output of food waste through strategies, such as greater 
+collaboration among these two entities and enhanced supplier order 
+forecast, as previous found by Mena, Adenso-Diaz, and Yurt (2011) and 
+Göbel, Langen, Blumenthal, Teitscheid, and Ritter (2015). Alternatively, 
+food waste mitigation can be defined as tactics adopted by the supplier, 
+the retailer and customers to minimize end-of-pipe disposal of food 
+waste through diversionary measures such as anaerobic digestion for 
+energy production and food donations. Food waste mitigation has been 
+previous studied by Aschemann-Witzel, De Hooge, Amani, Bech-Larsen, 
+and Oostindjer (2015), Vandermeersch, Alvarenga, Ragaert, and Dewulf 
+(2014) and von Kameke and Fischer (2018). 
+
+
+Our paper contributes to the supply chain literature by:  
+
+
+1. Developing a food waste minimization-and-mitigation model in an 
+online grocery retail supply chain setting, which includes food waste 
+metrics, minimization and mitigation strategies tailored for online 
+supply chain environments;  
+
+
+2. Establishing the direct and indirect outputs of food waste generated 
+in an online retail supply chain, as well as the causes of food waste 
+and mitigation strategies of supply chain actors;  
+
+
+3. Bringing greater attention of the food waste debate in the online 
+retail sector;  
+
+
+4. Providing a middle range theoretic model (framework) to enhance 
+understanding on theory and its application to this field. Although 
+NRBV is the overall theory, it is also informed by: life cycle assess-
+ment (environmental theory, Curran, 1996); critical success factors 
+and key performance indicators (KPI, from critical success factor 
+theory and performance measurement theory, Grimm, Hofstetter, & 
+Sarkis, 2014); and organizational information processing (informa-
+tion theory, Galbraith, 1973). 
+
+
+The remainder of this paper begins with the literature review, gaps in 
+knowledge, research questions and theoretical framework developed for 
+the study. The methodology section includes case study details, followed 
+by the results and analysis obtained in the case study. The discussion 
+section includes comparisons between case study findings obtained and 
+previous literature, resulting in a refined middle range theoretical 
+framework. The paper concludes with a section summarizing the main 
+contribution, research and managerial implications, limitations, and 
+further research directions. 
+
+
+1.1. Sustainable supply chain management, food waste and the Natural 
+Resource Based View Theory 
+
+
+This study adopts an NRBV theoretical perspective to food waste 
+minimisation and mitigation. At the core of NRBV is the establishment of 
+activities to help organizations build competitive advantages through 
+environmental strategic benefits for organizations and their supply 
+chains (Hart, 1995; Hart & Dowell, 2011). The environmental capabil-
+ities aspects of NRBV include pollution prevention, product stewardship, 
+and clean technology initiative constructs. These activities help orga-
+nizations gain ‘win-win’ advantages. A core aspect of our study is 
+investigating the management of food waste in the online food supply 
+chain (FSC) through the theoretical lens of these NRBV capabilities. 
+
+
+Pollution prevention initiatives within NRBV, are critical FSC stra-
+tegies (Graham, Graham, & Holt, 2018; Graham & Potter, 2015; Islam, 
+Tseng, & Karia, 2019; McDougall, Wagner, & MacBryde, 2016; Papar-
+gyropoulou, Lozano, Steinberger, Wright, & Ujang, 2014). Minimization 
+of food surpluses and avoidable food waste occur with pollution pre-
+vention. Food surplus redistribution to groups affected by food poverty 
+have linkages with product stewardship. Food waste conversion to an-
+imal feed and anaerobic digestion are example clean technology prac-
+tices (Mourad, 2016). 
+
+
+NRBV—although usually viewed as a strategic theory—also informs 
+operational theoretic elements to manage supply chain food waste. One 
+important operational aspect of NRBV is information sharing; aligning 
+with the online environmental characteristics of our case environment. 
+Food waste minimisation in fresh FSCs, may be enhanced from sharing 
+demand and shelf-life data among supply chain actors, ultimately 
+reducing waste and facilitating improved sustainability performance 
+(Kaipia, Dukovska-Popovska, & Loikkanen, 2013). Parallel process 
+changes in information management and in material flow are necessary 
+for effective transformation to negligible FSC food waste (Lusiantoro, 
+Yates, Mena, & Varga, 2018). Information management capabilities can 
+also benefit the product stewardship elements of NRBV for food waste 
+management (Perey, Benn, Agarwal, & Edwards, 2018). Clean tech-
+nology is another important NRBV capability construct. This capability 
+is evident by green information systems support tools and ‘Industry 4.0’ 
+playing key roles in managing FSC food waste (Miranda, Ponce, Molina, 
+& Wright, 2019). These various NRBV capability elements provide 
+operational theoretical support for the online case study. 
+
+
+Effective information and knowledge sharing helps develop and 
+incorporate new sustainability-oriented capabilities in FSCs. This 
+dynamism includes integrating traditional supply chain with 
+sustainability-oriented capabilities (Beske, Land, & Seuring, 2014). 
+Building dynamic capabilities for sustainable natural resource use is 
+central in emergent NRBV literature (McDougall et al., 2016). 
+
+
+The remainder of this literature review section focuses on 
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+3
+
+
+identification, measurement, minimisation, and mitigation of food 
+waste adopted in supply chain operations—each of which relates to 
+NRBV. 
+
+
+There is an emerging literature stream on food waste and SSCM 
+related to causes and mitigation of food waste. Direct food waste 
+causes include marketplace demand structure, product and process 
+characteristics, and practical organizational policy patterns (Göbel 
+et al., 2015; Mena et al., 2011). Supply chain activities that play vital 
+roles in food waste mitigation, include transparency and demand in-
+formation, food quality management and process control, shelf life 
+management, and packaging design (Gardas, Raut, & Narkhede, 2017). 
+Information sharing and communication are central to these inter- 
+organizational food waste quantities and reduction efforts—and why 
+we believe they are critical NRBV capabilities as well. The literature on 
+food waste causes and mitigation also include customer behaviour as a 
+source of food waste (Aschemann-Witzel et al., 2015; Vandermeersch 
+et al., 2014; von Kameke & Fischer, 2018). Customer motivation to 
+avoid food waste, their management skills of food provisioning and food 
+handling, and trade-offs between their priorities are how customers 
+remain crucial actors for food waste mitigation in the downstream 
+supply chain. 
+
+
+Studies maintain the importance of metrics for managing supply 
+chain and waste performance. Metrics that are used to measure food 
+waste help quantify direct food waste impacts among the sustainability 
+three pillars of the supply chain. Several recent studies on sustainable 
+food supply chains focus on the metrics and implications of food waste 
+across various food supply chain (FSC) stages (e.g. Brindley & Oxbor-
+row, 2014; León-Bravo, Caniato, Caridi, & Johnsen, 2017) and consider 
+broader FSC functional metrics relating to breeding or growing, pro-
+cessing, distribution, retail, and consumption. Food safety, an important 
+social sustainability metric, plays a large role in FSC (Wang, Huili, & 
+Goh, 2018), which exemplifies that metrics may go beyond the NRBV 
+related ones but may influence environmental issues. 
+
+
+The need for food waste measurement systems in FSC is evidenced 
+when three-quarters of all food waste-related global warming impacts 
+originates from greenhouse gas (GHGs) emissions in agricultural pro-
+duction (Scherhaufer, Moates, Hartikainen, Waldron, & Obersteiner, 
+2017). Nevertheless, measuring food waste environmental burdens in 
+isolation fails to account for other externalities food waste generates; 
+including social and economic impacts (Dreyer, Dukovska-Popovska, 
+Yu, & Hedenstierna, 2019). Measurement systems need to consider 
+numerous issues across the supply chain. Broadly, Mena et al. (2011) 
+found that food processing activities contribute 6%, retail and distri-
+bution 7%, food consumption 8%, and food disposal 6% and emphasize 
+that environmental degradation generated by food waste occurs across 
+multiple supply chain stages. Kibler, Reinhart, Hawkins, Motlagh, and 
+Wright (2018) highlight that another potential environmental concern, 
+and requirement for FSC measurement systems and metrics, is water 
+resource depletion from water embedded in food waste. Ridoutt, San-
+guansri, and Sellahewa (2010) and Vanham, Bouraoui, Leip, Grizzetti, 
+and Bidoglio (2015) identify water and nitrogen resource losses as sig-
+nificant environmental resource impacts of food waste. These studies are 
+only exemplary and further show the need for broader metrics and 
+measurement systems to help determine FSC performance and mitiga-
+tion activities. 
+
+
+1.2. Gap in knowledge, conceptual model, and research questions 
+
+
+In the literature review, we observe a very close linkage between 
+NRBV and food waste management; even though the literature has not 
+tied their results specifically to this theory. However, the food industry is 
+evolving. The retail food portion of the supply chain has achieved 
+greater online and e-commerce presence. Food waste in this environment 
+has not seen much research. A basic question is whether NRBV can help 
+gain insight on food waste in an online context. 
+
+
+The online, e-commerce, environment has not been well studied, in 
+
+
+general from a SSCM perspective. The NRBV framework can help build 
+relevant theory and understanding for an environmentally sustainable 
+digital supply chain. Digitization along the supply chain is a major 
+emergent concern., the internet-of-things and mobile communication 
+can each play roles in this environment (Kamble et al., 2019; Miranda 
+et al., 2019 Saberi, Kouhizadeh, Sarkis, & Shen, 2018). 
+
+
+Building performance measurement information sharing based on 
+more specific performance metrics is a critical capability, given the 
+breadth of sustainability and supply chain data. These systems can also 
+be considered as clean technology. In this study, the clean technology 
+construct of NRBV is an information sharing technology that would give 
+organizations insights for SSCM. The product stewardship and pollution 
+prevention NRBV constructs enable food waste minimisation and miti-
+gation practices covered in this study. One of the research enquiries this 
+study intends to investigate is whether information sharing technology 
+is effective for FSC food waste management. 
+
+
+Fig. 1 shows the conceptual mid-range theory framework initially 
+developed for the study. Fig. 1 was constructed using literature and 
+theory (see Table 1 for literature supporting inclusion and relation-
+ships—some of this literature was reviewed in the previous section). In 
+addition to inputs from various food supply chain experts—see the case 
+study section for expert information—helped to inform initial frame-
+work development. 
+
+
+This mid-range theory helps scope and guide the research under-
+taken in this study. The conceptual framework shows a one-way causal 
+relationship between factors affecting food waste and food waste itself. 
+The food waste also has economic, environmental and social impacts – 
+greater food waste represents larger impact. The food waste has a 
+relationship with food waste minimisation and mitigation, since food 
+waste itself will likely originate different measures of food waste mini-
+mization and reduction activities. The conceptual model includes dual- 
+causal links food waste minimisation and mitigation to the NRBV ca-
+pabilities, because some food waste management measures can be 
+categorized as product stewardship activities or one of the other NRBV 
+capabilities. In some cases, some NRBV measures represents a dynamic 
+or supportive/overlapping relationship among the three NRBV ele-
+ments, that is why product stewardship and clean technology has a dual- 
+causal link among them. 
+
+
+Table 1 records the previous studies used to construct the conceptual 
+framework presented in Fig. 1. 
+
+
+This study identifies main causes of food waste at different stages of 
+the supply chain. Food waste mitigation improvements and mini-
+misation solutions linked to three NRBV dynamic capabilities – pollution 
+prevention, product stewardship and clean technologies – are identified 
+and evaluated. This conceptual mid-range theoretic model is examined 
+and underpinned in the context of an exemplar online food retail supply 
+chain. Inputs from various actors in the food supply chain provide in-
+sights for additional examination and refinement of the framework. 
+
+
+In our review of the literature, utilizing NRBV and critical success 
+factor theoretical lenses, we identify four major issues:  
+
+
+• Previous research does not focus on how food waste should be 
+measured holistically for a sustainability-driven food waste mea-
+surement system.  
+
+
+• Current studies do not seem to concentrate on food waste mitigation 
+tactics and strategies across multiple supply chain stages.  
+
+
+• The literature ignores the online supply chain and especially online 
+grocers; and  
+
+
+• There is limited broader theoretical linkage of food waste within 
+operations and supply chain management. 
+
+
+Within this context, the conceptual mid-range theory framework is 
+used to investigate the following research questions: 
+
+
+RQ1 - Which main factors generate food waste throughout the online 
+FSC? 
+
+
+RQ2 - Which metrics are useful for measuring the direct and indirect 
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+4
+
+
+impacts of food waste generated throughout the online FSC? 
+RQ3 - What are the main food waste minimisation solutions adopted 
+
+
+within the online food retail supply chain? 
+RQ4 - What are the main food waste mitigation end-of-pipe im-
+
+
+provements adopted throughout the online food retail supply chain? 
+RQ5 - How could NRBV, critical success factor, organizational in-
+
+
+formation processing and stakeholder theories provide insight into on-
+line food retail supply chain to minimize and mitigate food waste? 
+
+
+2. Methodology 
+
+
+The conceptual framework and propositions developed from the case 
+study research support theory building research (Carter & Rogers, 
+2008). Middle-range (mid-range) theoretical frameworks (Meredith, 
+1993; Weick, 1989) attempt to meet the criteria of a good theory but 
+require additional improvement and revision. As a result, these frame-
+works require multi-methodological approaches for mid-range theory 
+refinement (Seuring, 2011). 
+
+
+Fig. 1. Middle-range theoretical framework drawing from NRBV, critical success factor, stakeholder, and organizational information processing theories.  
+
+
+Table 1 
+Literature consulted to build the conceptual framework.  
+
+
+Reference Factors Metrics Food waste minimisation and mitigation NRBV capabilities 
+
+
+Pollution 
+prevention 
+
+
+Product stewardship Clean technology 
+
+
+Alexander and Smaje (2008)  X     
+Beretta, Stoessel, Baier, and Hellweg (2013)  X     
+Betz, Buchli, Göbel, and Müller (2015)  X     
+Chaboud and Daviron (2017)  X     
+Davies and Legg (2018)   X    
+De Lange and Nahman (2015)  X     
+Gardas et al. (2017) X  X    
+Göbel et al. (2015) X      
+Graham et al. (2018)       
+Graham and Potter (2015)    X   
+Hart (1995)    X X X 
+Hart and Dowell (2011)    X X X 
+Islam et al. (2019)    X   
+Kaipia et al. (2013) X  X    
+Kiil et al. (2018)   X    
+Kitinoja et al. (2018)   X    
+Kummu et al. (2012)       
+McDougall et al. (2016)       
+Mourad (2016)   X   X  
+
+
+Reference Factors Metrics Food waste minimisation and mitigation NRBV capabilities 
+Pollution 
+prevention 
+
+
+Product stewardship Clean technology 
+
+
+Mena et al. (2011) X  X    
+Papargyropoulou et al. (2014)    X   
+Shafiee-Jood and Cai (2016)   X    
+Tsagatakis et al. (2016)  X     
+Xu, Li, Ge, Yang, and Li (2018)   X     
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+5
+
+
+Theory development is a main justification for this research to use a 
+multi-methodological approach; albeit a single supply chain case study. 
+Given the ‘wicked problem’ of food waste across a complex supply 
+chain, there is a need for multi-dimensional data from suppliers, re-
+tailers and customers. Food waste and hunger are wicked problems, 
+largely because the food system is highly complex with many in-
+terdependencies, nonlinear feedbacks, and uncertainties (Pereira & 
+Drimie, 2016). The necessary data to help build solutions to wicked 
+problems is not always accessible when a single method, such as 
+interview-based case studies, is applied. 
+
+
+A mid-range theory that links various antecedents and pressures 
+causing food waste, to various organizational resources and capabilities 
+– in this case performance systems and metrics – makes two contribu-
+tions. First, it provides an explanation for the diversity of potential so-
+lutions across the supply chain for sustainable food waste management. 
+Secondly, it contributes to a descriptive theory for food waste manage-
+ment in a supply chain setting. Mid-range theory and frameworks are 
+valuable and formed in environments where multiple theories and 
+methodologies are integrated into a systemic approach for theory 
+development and refinement. 
+
+
+An important initial step, as in our study, is to state the explicit 
+research questions (Carter & Rogers, 2008), which we have done in the 
+previous section. Although NRBV is the major theoretical perspective 
+from which we draw, organizational information processing theory, 
+stakeholder theory, and critical success factor theory, are also contrib-
+utors, as part of a multi-theoretic perspective. The transition from 
+framework to formal theory occurs as frameworks are evaluated against 
+practice. Our research stimulates additional theory-building and con-
+ceptual development within the SSCM field using this approach. 
+
+
+This study uses a deep exemplar supply chain case study from the UK 
+online food retail sector. As recommended by Yin (2009), an exemplar 
+case study is one with unique characteristics and that can be used for 
+theory development. Case studies are exceptional vehicles for mid-range 
+theory development (George, Bennett, Lynn-Jones, & Miller, 2005). 
+Although this is a single case study, there are opportunities to evaluate 
+some of the existing theories, e.g. NRBV, and provide avenues for further 
+theorizing and middle-range theory development (Flyvbjerg, 2006). 
+
+
+The case study includes the following partner organizations:  
+
+
+• The focal company: An online food retailer with sustainability, 
+entrepreneurship and innovation as their main strategic priorities.  
+
+
+• The supplier: A salad supplier with an objective to become a zero 
+waste and carbon neutral company in the next decade.  
+
+
+• The not-for-profit consultancy: A non-governmental organization 
+(NGO) whose main priority is to facilitate best practices imple-
+mentation to minimize organic and plastic waste from retail grocery 
+supply chains. 
+
+
+In this case, the food retailer is the focal company, the salad supplier 
+is the supplier in the case study, and salads are the product. Our justi-
+fication is as follows:  
+
+
+• The online food retailer is one of the biggest and fastest growing food 
+retailers in the world;  
+
+
+• The online food retailer has devised a food surplus redistribution 
+network with a number of food charities, redirecting 2200 t of food 
+and donating eight refrigerated distribution vans to the Ocado food 
+partners;  
+
+
+• The online food retailer has access to end-to-end supply chain data, 
+including customer data;  
+
+
+• Salads is one of the top 10 most wasted food products across the 
+supply chain; and;  
+
+
+• The salads supplier includes various practices including circular 
+economic practices in their operations model. 
+
+
+This study’s online supply chain consists of five stages: supplier – in 
+
+
+charge of farming and packaging processes; retailer – manages distri-
+bution centres (DC) and spokes; customer, food partners, and sales staff. 
+The entity in this case study seeking food waste control and reduction 
+across the supply chain is the retailer, a leading player in the online 
+supermarket sector. Fig. 2 presents a graphical representation of the 
+supply chain studied, including the inbound, outbound and reverse 
+supply chain stages of the online food retailer. 
+
+
+The research was undertaken by adopting a multi-method approach, 
+following Frankle, Naslund, and Bolumole’s (2005) recommendation on 
+using multiple methods in supply chain management and logistics 
+research due to the complexities of this discipline. Jack and Raturi 
+(2006) also recommend that researchers should choose methods with 
+complementary strengths and non-overlapping weaknesses. The 
+methods used for this case study complement each other, the interviews 
+undertaken provide an explanatory angle to the case; the customer and 
+supplier surveys complement the interview data collected by adding the 
+perspectives of a representative sample of suppliers and customers to the 
+analysis. Furthermore, a supply chain simulation presented in the dis-
+cussion section demonstrates the impact that enhanced supply forecasts 
+can have on food waste. 
+
+
+The methodology has four main stages with multiple interacting data 
+gathering and analyses, namely interviews with managers, suppliers, 
+and an NGO provide qualitative data, acquisition and analysis of soft and 
+hard (quantitative) data using questionnaire-based surveys of customers 
+and suppliers, archival and factual information gathered from the sup-
+plier and the online food retailer to measure food waste across the 
+supply chain and analytical models to quantify various effects. Fig. 3 
+summarizes the case study methodology stages. 
+
+
+This multiple-methodology approach allows data collection from 
+multiple stakeholders that caused or are affected by food waste to help 
+refine the middle-level theory framework (Seuring, 2011). Multiple 
+approaches provide a deeper picture, since collecting data from one or a 
+limited number of stakeholders through interviews constrains the 
+research problem. 
+
+
+This study consists of a four-stage methodology that includes the 
+conceptual, expert opinion, empirical and framework refinement stages. 
+The research process started with scoping meetings with the online 
+retailer that took place between May and June 2018. The supplier and 
+customer surveys, and raw data gathering occurred between July and 
+December 2018. The conceptual model, semi-interviews, data analysis 
+and refinement of the conceptual model were undertaken between 
+January and April 2019. The research process was rolled out in two 
+phases since the research team needed further qualitative evidences 
+gathered from interviews, comprehensive literature review and 
+exhaustive data analysis to develop the paper. 
+
+
+Also, the conceptual framework stage is informed by recent aca-
+demic literature and theory on food waste in supply chains, and food 
+waste reports published by WRAP and FAO. The conceptual model was 
+refined using expert opinion gathered from the participating companies; 
+and with archival data gathered from the supplier, the online food 
+retailer, and the customer questionnaire. Data was collected from the 
+different stages of the research, and then compared with previous 
+literature. Iterations occurred to refine the conceptual framework, but 
+also various data from methodological stages was revisited in further 
+refinement and for validity and reliability evaluation, as described later 
+in our description of the validity and reliability measures taken for this 
+study. The iterations shown in Fig. 3 represent comparisons in the study 
+from various data sources and is addressed with the iterations and 
+arrows. 
+
+
+During the expert opinion stage, a structured questionnaire instru-
+ment helps to acquire information from a representative supplier sample 
+(see Appendix 1). Initially, all 20 major food suppliers of the online food 
+retailer were invited; five suppliers responded to the questionnaire. 
+Semi-structured interviews (see Appendix 2) with online food retail 
+managers, their main salads supplier, and an NGO waste consultant 
+occurred. The questions included in the interview protocol – see 
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+6
+
+
+Appendix 2 – were directly linked to the research questions investigated 
+in the study. All the elements of the mid-range theoretical framework 
+presented in Fig. 1 were included in the interview protocol. These ele-
+ments include food waste causes, minimisation and mitigation strate-
+gies, as well as the three components of the NRBV theory. During the 
+semi-structured interview, when interviewees mentioned specific cau-
+ses of food waste the interviewer asked them whether or not the causes 
+mentioned were primary or secondary causes of food waste. Similarly, 
+participants were queried on whether the food waste mitigation end-of- 
+pipe improvements and minimisation in-process solutions were already 
+implemented by their organizations, being piloted, currently considered, 
+planning to be considered or not considered. 
+
+
+The supplier questionnaire queries were aimed at undertaking an 
+initial screening of all the online food retailer’s salad suppliers, a total of 
+20 suppliers, to determine their percentage of food waste. The surveys 
+also enquired about food waste causes and food waste mitigation end-of- 
+pipe improvements; actions that were identified by the literature 
+informed the questions used. Questions 2 and 3 were aimed at 
+
+
+determining the main food waste causes generated by the supplier and 
+the food waste mitigation end-of-pipe improvements adopted by them. 
+The lists provided in these two questions were initially derived from the 
+literature review and an ‘Other’ option was also provided to re-
+spondents. A group of managers from the not-for-profit consultancy and 
+the purchasing department of online food retailer informed the supplier 
+questionnaire, initial responses from two close online food retailer 
+suppliers were also received. This initial feedback helped refine the 
+questionnaire. 
+
+
+The empirical stage includes data collection on food waste practices 
+from the online food retailer and its main suppliers, as well as structured 
+questionnaire survey (See Appendix 3). It was administered by the on-
+line food retailer, resulting in 900 customer respondents. The food waste 
+causes listed in question 3 and the food waste mitigation end-of-pipe 
+improvements listed in question 4 of the customer questionnaire were 
+derived initially from the literature review with an ‘Other’ option pro-
+vided to respondents. The customer questionnaire was revised by 
+managers from the not-for-profit consultancy, and the sustainability and 
+
+
+Fig. 2. – Graphical representation of the extended online supply chain studied. 
+Note: ‘Purge’ is excess food that may become food waste. It is used, as further identified later in the paper, by the online retailer to describe this excess 
+food phenomenon. 
+
+
+Fig. 3. Stages and methodologies undertaken during the case study.  
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+7
+
+
+marketing departments of the online food retailer. Also, the customers 
+invited to take part in the survey are a representative sample of cus-
+tomers in terms of gender, income, number of people living in customer 
+households and geographical location. Selected customers order salads 
+products from the online food retailer at least on a monthly basis. As 
+Appendix 4 shows, this sample is diverse in terms of gender, income and 
+number of people in customer households. 
+
+
+The roles, company type and years of experience of the practitioners 
+who participated throughout this case study period appear in Appendix 
+5. 
+
+
+The refinement stage includes a comparison between findings gath-
+ered from the study and previous literature; as well as various theories to 
+inform the middle theory. 
+
+
+It is also pertinent to evaluate the research quality by considering its 
+validity and reliability. Given reliance on the case study methodology in 
+this study, we use Yin (2009) guidelines to evaluate these 
+
+
+characteristics. Table 2 shows the evaluation criteria recommended by 
+Yin (2009) against tactics adopted in the different stages of the case 
+study. 
+
+
+The three types of validity suggested by Yin (2009)—construct, in-
+ternal and external validity—have been addressed. A wide range of 
+evidence was gathered during the case study and all the data sources 
+were appropriately triangulated. The themes gathered in the case study 
+were used in the analysis to cross-compare the findings. Furthermore, a 
+protocol was developed to undertake the case study to ensure reliability 
+during the data collection process; specific tactics appear in Table 2. 
+
+
+During the case study, data was collected based on a protocol which 
+was produced based on themes found in the literature. The data 
+collected from the interviews, customer and supplier surveys, and the 
+simulation are complementary of each other. Also, the data gathered 
+from the interviews were recorded and transcribed. Transcripts were 
+sent to participants seeking their validation. A report was produced and 
+sent to the case study companies to give a final opportunity to the 
+participating practitioners to provide feedback on the research and 
+results. 
+
+
+3. Results and analysis 
+
+
+This section presents the case study analysis and results to inform the 
+refinement of the mid-range theory framework related to factors 
+affecting the generation of food waste, food waste metrics, food waste 
+minimization and mitigation improvements and solutions. This in-depth 
+study occurred over a year’s worth of meetings, discussions, data 
+gathering and evaluation. The research team, although not using an 
+ethnographic study, had over a dozen planned interactions throughout 
+this study period. Many informal contacts with different actors in the 
+study, through short phone calls, emails, and correspondences were also 
+completed. 
+
+
+We begin by providing general observations concerning food waste 
+factors, specifically focusing on fresh prepared salads. These observa-
+tions from the case and data, in addition to the literature as summarized 
+in Table 1, help arrive at several propositions. 
+
+
+3.1. Factors affecting food waste across the salad online grocery retail 
+supply chain case study 
+
+
+Food waste generation factors appear from supplier and customer 
+structured questionnaire-based surveys, interviews, and face-to-face 
+meetings with the online food retailer. The main supplier food waste 
+antecedents included poor forecasts of supply and demand (Mena et al., 
+2011; Thyberg & Tonjes, 2016), insufficient information sharing be-
+tween the supplier and the online food retailer (Kaipia et al., 2013), and 
+arbitrarily determined short shelf life (Spada, Conte, & Del Nobile, 
+2018). The online food retailer attributes its food waste mainly to 
+customer demand uncertainty. Customers think their buying, con-
+sumption, and eating habits are the principal factors of food waste 
+generated at their end. 
+
+
+According to the online food retailer, the top factor of waste gener-
+ation at the retailer stage is customer demand uncertainty caused by 
+weather sensitive and seasonal demand that affects customer order 
+quantities. Food waste is also due to the online retailer customer guar-
+antee (Göbel et al., 2015). The guarantee is to provide customers with 
+arbitrary freshness guarantees on all the perishable product families. 
+This policy forces the company to apply discounts to products that are 
+approaching their expiration date; furthering demand disturbances 
+across other fresh products. 
+
+
+The online retailer stated that some external factors cause small 
+amounts of food waste generated at their DCs. 
+
+
+A senior supply chain manager stated: ‘when our supplier sends a short 
+shelf-life product we do not expect, that would lead us to throw away more’; 
+
+
+The head of operations excellence added: ‘…in addition to short shelf- 
+life product, changes in weather can play a role, changes in weather cause 
+
+
+Table 2 
+Yin’s (2009) tactics to evaluate the research quality.  
+
+
+Test Tactics applied in the research Research stages 
+
+
+Construct 
+validity  
+
+
+• Multiple evidence was gathered during the 
+four stages of the case study, namely data 
+collected from 8 semi-structured interviews, 
+survey responses from 900 customers (out of 
+a representative sample of 5000) and 5 
+suppliers (out of a total of 20 suppliers) and 
+a simulation based on perishable goods in-
+ventory models.  
+
+
+• The data gathered during the four stages 
+were appropriately triangulated.  
+
+
+• Drafts of the notes produced during the 
+interviews were written and sent to 
+participants for their approval.  
+
+
+• A report was generated and sent to 
+participants to give them a final opportunity 
+to provide feedback. 
+
+
+Data collection 
+and analysis 
+
+
+Internal 
+validity  
+
+
+• The data gathered from the four stages was 
+analysed based on themes found during the 
+literature review and the semi-structured 
+interviews.  
+
+
+• The data gathered during the interviews was 
+analysed by comparing the responses 
+provided by participants.  
+
+
+• The consumer survey data was used to add 
+the consumer perspective on the research 
+questions. 
+
+
+Data analysis 
+
+
+External 
+validity  
+
+
+• Two supply chain actors (the supplier and 
+the online retailer) and a representative 
+sample of the retailer customers and 
+suppliers took part in the study.  
+
+
+• A not-for-profit consultancy from the food 
+retailer that has specialised knowledge on 
+food waste was included in the study to 
+provide a wider perspective on the research 
+questions.  
+
+
+• The online retailer is one of the biggest and 
+fastest growing in the world and has access 
+to end-to-end supply chain data.  
+
+
+• The three participating companies and the 
+practitioners interviewed are regarded as 
+experts in specialist areas relevant to the 
+case study.  
+
+
+• The NRBV theory—along with other 
+supporting theories—were used to enhance 
+the theoretical underpinnings of the case 
+study. 
+
+
+Research design 
+process 
+
+
+Reliability  • A protocol was developed to conduct the 
+case study.  
+
+
+• The semi-structured interviews, and the 
+customer and supplier surveys were 
+completed using a well-developed protocol.  
+
+
+• This protocol was produced based on 
+themes found in the literature review and 
+based on theory. 
+
+
+Data collection  
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+8
+
+
+unexpected demand changes generated from the customer side. It is harder to 
+achieve high degrees of forecast accuracy and that can cause food waste’. 
+
+
+The retailer’s head of corporate responsibility and corporate affairs 
+retailer added: ‘one of the main causes of food waste is customer over pur-
+chase. Though, other significant causes of food waste include customer de-
+mand uncertainty and disturbances originating at the supplier such as supply 
+uncertainty and lack of information sharing between the supplier and our 
+company’. 
+
+
+The five suppliers who responded to the survey identify poor fore-
+casting of supply and demand as the top cause of their food waste. Three 
+of the five participating suppliers identify insufficient information 
+sharing caused their food waste. They also replied that retailer rejections 
+due to poor product quality causes food waste. Only two suppliers 
+mentioned crop issues with mould and diseases as a cause of crop waste; 
+but these responses show that such events do occur. 
+
+
+These results are summarized in Table 3. 
+The salad supplier provided another perspective: 
+‘The main factor causing organic waste at the supplier end is unpredict-
+
+
+able weather. This situation affects supply forecast accuracy in the long term. 
+Although inaccurate forecasts of supply and retailer’s demand are other 
+important factors that cause food waste. Another less important factor is 
+unexpected damaged crops caused by pests and diseases.’ 
+
+
+This supplier statement suggests the retailer has a very small surplus 
+of salad in comparison to the supplier and the order forecasting process 
+can negatively affect their demand forecast accuracy. 
+
+
+The salad supplier also stated that: ‘if customers are being encouraged 
+by retailers to buy more than they actually need or can consume, then this can 
+lead to inaccurate supplier order forecast, having a knock-on effect of the 
+amount of surplus their company produces.’ 
+
+
+Based on these initial observations and, from literature summarized 
+in Table 1, we arrive at our first research proposition, previously 
+confirmed by Mena et al. (2011), Thyberg and Tonjes (2016) and Kaipia 
+et al. (2013). 
+
+
+Proposition 1. : In the online food supply chain, variability and un-
+certainty in demand forecasting and supply capabilities contribute 
+greatly to food waste in the upstream supply chain. 
+
+
+These initial interviews and surveys of suppliers represent waste 
+factors in the upstream portion of the supply. Downstream, from the 
+online retailer, concerns also exist. A customer survey informs the study 
+to determine food waste factors from the downstream, customer 
+perspective. Fig. 4 summarizes major customer household food waste 
+causes. According to the customer survey results, 47% of salad waste 
+from customer households is from customer behaviour and consumption 
+habits. Not consuming due to quality defects was mentioned by 31% of 
+customers surveyed as a reason for food waste. Customers do not 
+consume all the salad products they purchase because of poor product 
+quality at the point of intended consumption; however, customers could 
+be educated on the best storage and control means to avoid food waste 
+coming from refrigeration. 
+
+
+The NGO’s food waste technical specialist, provided some insights: 
+‘At the supplier side, the main factor is crop condition affected by weather 
+
+
+and climate, pest pressure and soil conditions. From the supply chain 
+perspective, the main factors are inadequate product quality specifications, 
+and inaccuracy of demand and supply forecasting. On the customer side, 
+currently there is no education available for the customer. They need to be 
+
+
+made aware of the consequence of their purchasing decision in terms how 
+much waste output is generated at the retailer and supplier due to unexpected 
+amendments in their orders’. 
+
+
+The food waste research manager added: 
+‘The retailer should agree with the supplier on the true impact their quality 
+
+
+specifications have on food waste. They need to establish whether there is 
+demand for lower-but-edible fresh produce products. The studies undertaken 
+by our company on the introduction of this type of product adopted by other 
+UK retailers have proved how this policy measure can generate significant 
+reductions in food waste across retail supply chains’. 
+
+
+These concerns are similar to “best-before-date” marketing and 
+potentially health policy settings for food (Aschemann-Witzel et al., 
+2015). Although it is difficult to change customer behaviour, many 
+theories exist in marketing to address pro-environmental behaviour 
+(Groening, Sarkis, & Zhu, 2018). Organizational activities could include 
+careful customer-related food waste management decisions such as date 
+labelling, packaging design, and price strategies to help shift customer 
+priorities (Aschemann-Witzel, de Hooge, & Normann, 2016; von 
+Kameke & Fischer, 2018). These observations and literature lead to our 
+second proposition, which is true for the online FSC environment. 
+
+
+Proposition 2a. : Organizational policies and routines play significant 
+roles in food waste generation; especially within the retailer-customer 
+supply chain partnership. 
+
+
+Proposition 2b. : Poorly aligned marketing and customer promotion 
+policies cause unpredictability and uncertainty in demand leading to 
+greater food waste in the system. 
+
+
+Proposition 2c. : Quality and product performance policies can 
+greatly influence food waste generation throughout the supply chain. 
+
+
+3.2. Food waste measurement along the supply chain– Environmental, 
+economic and social metrics 
+
+
+The management processes and routines used to mitigate the food 
+waste problem are dependent on identifying problem areas and 
+improving their performance. Metrics are critical for these endeavours. 
+
+
+Metrics help prioritize and identify problem areas. The case study 
+also sought to evaluate how various metrics, data, and models are useful 
+to the organization. According to critical success factor theory (Grimm 
+et al., 2014), identifying and focusing on specific critical success factors, 
+in this case sustainability factors and metrics, is a corporate enabler. 
+Metrics help prioritize NRBV-based capabilities, further described in the 
+next section. The metrics management tools developed from the case 
+study are important for food waste prevention and mitigation. 
+
+
+For holistic sustainability management along the supply chain, the 
+KPIs in the three sustainability domains must be regularly monitored 
+and evaluated. For example, if there are limited economic returns or 
+environmental impacts, management efforts and building capabilities 
+for minimizing food waste might be ignored by the relevant supply chain 
+actor. 
+
+
+In order to enhance our understanding of food waste, we imple-
+mented an Excel-based tool to measure and report on three dimensions 
+of sustainability by using the data collected during the research. The tool 
+is coded in Excel Visual Basic for Applications and is tested by both the 
+academic team and the focal company. A summary of the food waste 
+measurement and metrics tool KPIs appear in Table 4. 
+
+
+As seen in Table 4, the proposed tool was designed to consolidate 
+data derived from suppliers to customers and provide relevant KPIs and 
+metrics with an acceptable level of accuracy. A representative sample of 
+perishable products has been studied in the application this tool; since 
+not all products and information were initially available. Table 5 high-
+lights the data required from each supply chain partner to estimate the 
+food waste measurement tool KPIs. This data helps to identify, develop, 
+and acquire required information. It also highlights aspects of waste, 
+measure, and location requiring waste minimization. 
+
+
+Table 3 
+Top four causes of salad waste as identified by suppliers.  
+
+
+Cause Number of suppliers 
+
+
+Poor supply and demand forecasting 4 
+Poor quality, reject by retailers. 3 
+Insufficient information sharing between farmers and 
+
+
+retailers 
+3 
+
+
+Issues like mould and diseases 2  
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+9
+
+
+From a methodological perspective, the tool takes the data listed in 
+Table 5 as input and classifies the data provided by focal company data 
+for a given period. 
+
+
+This classification is based on the origin depot, destination spoke, 
+time period, and SKU. The tool considers all order data and calculates 
+the net amount sold from a specific origin to a specific spoke. The tool 
+can calculate quantity sold to customers and the redistributed food 
+surplus. The tool also calculates individual food factors such as whether 
+food was sent to the company shop, charities, and food banks. After 
+identifying product sales quantities, the total received and total ordered 
+amounts from the supplier are determined. The supplier side total pro-
+duction percentage that is redistributed or wasted is then determined. 
+Based on the actual sales, for a given period – such as a week or month – 
+the tool determines the total amount of waste of a specific product at the 
+customer side. Given limited customer data, it is assumed that all 
+customer generated food waste is landfilled or redistributed for anaer-
+obic digestion. 
+
+
+All wastes generated along the supply chain are calculated as 
+explained. Other sustainability KPI metrics are calculated using the 
+relevant emissions models and Bluewater footprint ratios. Economic 
+KPIs are also calculated from the date provided by the focal company, 
+including opportunity cost and lost sales. The tool along with 
+
+
+sustainability metrics discussion and standardization allows stake-
+holders to arrive at comparable evaluations. Metrics and units of mea-
+surements agreement helps stakeholders benchmark and identify major 
+factors and capabilities solutions, as highlighted by Scherhaufer et al. 
+(2017) and Dreyer et al. (2019). 
+
+
+Proposition 3. : Standardized sustainability metrics and information 
+processing are needed to support KPI development for food waste 
+management along the supply chain. 
+
+
+The current metrics tool waste information output is specific to the 
+case company (Table 6 is one example). Table 6 presents an example of 
+annual aggregated sustainability and environmental analysis of food 
+waste for a single product. Table 6 categorizes metrics across three 
+supply chain stages—inbound, outbound, and reverse supply chain 
+stages. 
+
+
+To have a better understanding of Table 6 values, a number of as-
+sumptions hold and include:  
+
+
+• A single perishable product is investigated.  
+• Analysis is based on a yearly data obtained from the focal company, 
+
+
+single supplier (i.e., grower and packager in this example) and a 
+sample of customers who purchased this type of product.  
+
+
+• All customer orders are sold from a single depot to customers via 
+several geographically scattered and smaller depots.  
+
+
+• Since there is no data on customer location; average distance from 
+the closest depots are assumed for the calculation of outbound- 
+related transportation.  
+
+
+• All other related data regarding the type of vehicles used, capacities 
+and emissions are calculated using the latest NAEI (National Atmo-
+spheric Emissions Inventory) model. 
+
+
+• A specific coefficient has been used for calculating Bluewater foot-
+print for the amount produced at supplier side.  
+
+
+• It is assumed that all waste generated at the supplier side is sent for 
+anaerobic digestion and all wastes generated at the customer side are 
+sent to landfill. 
+
+
+The focal company and its supply chain partners viewed this infor-
+mation as valuable since it identified various stages, standardized data, 
+and various stakeholders. Standardization, within organizational infor-
+mation processing theory, is critical for performance measurement 
+effectiveness (Gattiker & Goodhue, 2004; Yadav, Garg, & Luthra, 2020). 
+
+
+Fig. 4. Top four causes of salad waste by customers.  
+
+
+Table 4 
+Food waste metrics information developed in the case study.  
+
+
+Environment Economic Social 
+
+
+KPIs Unit KPIs Unit KPIs Unit 
+
+
+CO2e emissions 
+(organic) 
+
+
+Kg Supplier 
+waste 
+
+
+% Donation rate to 
+foodbanks 
+
+
+% 
+
+
+CO2e emissions 
+(transportation) 
+
+
+Kg Supplier 
+waste 
+
+
+kg Donation rate to 
+charities 
+
+
+% 
+
+
+Blue water footprint liter Retailer waste %   
+Anaerobic digestion % Retailer waste kg Discounted sales 
+
+
+to employees 
+£ 
+
+
+Customer 
+waste 
+
+
+%   
+
+
+Customer 
+waste 
+
+
+kg   
+
+
+Opportunity 
+cost 
+
+
+£   
+
+
+Lost sales £    
+
+
+Table 5 
+Data requirements from each supply chain partner, including the online retailer.  
+
+
+Supplier Customer Online retailer 
+
+
+Grower Packer Actual customer Charities Foodbank Focal company 
+
+
+Production plan & schedule Order quantity (kg); 
+required quantity; 
+waste 
+
+
+Sales (units or kg); 
+Delivery window 
+
+
+Required amount 
+(units or kg); Time 
+window 
+
+
+Required amount 
+(units or kg); Time 
+window 
+
+
+Received quantity (units or kg); delivery plan 
+
+
+Delivery plan; redistributed 
+amount (anaerobic 
+digestion) 
+
+
+Delivery plan Waste Waste Waste Quantity sold to customer; sent to charities 
+and food banks; anaerobic digestion; 
+discounted sales to staff  
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+10
+
+
+The multiple stakeholder perspective is also critical for effective adop-
+tion and trust in this system (Bundy, Vogel, & Zachary, 2018; Mena, 
+Hult, Ferrell, & Zhang, 2019); multiple stakeholder information and 
+input was used in the development of this tool. It has also been found 
+that more effective sustainability performance measurement and sus-
+tainability practices occur when multiple stages of the supply chain are 
+carefully considered (León-Bravo, Caniato, & Caridi, 2019; Scherhaufer 
+et al., 2017). 
+
+
+To support this tool, information from each supply chain actor – 
+grower, packer, customers, charities, and food banks – is needed. Instead 
+of only monitoring company operations waste, the company now has 
+access to broader supply chain waste information. This broader infor-
+mation provides a holistic perspective to better develop supply chain 
+capabilities and identify the resources for SSCM. 
+
+
+A different set of sustainability metrics exist for upstream and 
+downstream supply chain activities. These KPIs were specifically 
+selected to help the organization reduce wastes and identify sustain-
+ability co-benefits or trade-offs. 
+
+
+Proposition 4a. : Effective FSC waste management requires various 
+stakeholder inputs to sustainability metrics development and 
+
+
+standardization. 
+
+
+Proposition 4b. : Inter-organizational and stakeholder-specific sus-
+tainability KPIs aid reduction of food waste along the supply chain. 
+
+
+3.3. Prepared food waste generated along the supply chain 
+
+
+This section exemplifies some output of the metrics tool and data 
+from the case study. It is useful to help identifying the waste flows along 
+the supply chain to help identify and mitigate food waste (de Moraes, de 
+Oliveira Costa, Pereira, da Silva, & Delai, 2020). The Sankey dia-
+gram–see Fig. 5—is one such important mapping. 
+
+
+These results help identify major problem areas, potential stake-
+holder interests, and food waste causes. The metrics tool is an organi-
+zational capability that did not exist previously. General analysis from 
+the metrics tool, that is used to generate Fig. 5 and that informs the mid- 
+theory framework and relationship (Fig. 1) is presented. 
+
+
+The supply chain food waste measurement tool includes suppliers of 
+lettuce, baby leafs and celery. The metrics tool application results 
+indicate the scope and location to reduce food waste. Fig. 5 shows 11% 
+of the supplier production is crop food waste. Wastes (surpluses) not 
+
+
+Table 6 
+An example output of annual aggregated sustainability analysis of food waste for a chosen single product.     
+
+
+Supply chain stage 
+
+
+Impact Metric Total Inbound Outbound Reverse 
+Environmental CO2e emissions (organic) (kg) 541,307  X X 
+
+
+CO2e emissions (transportation) (kg) 75,546 (104,325) X X  
+Blue water footprint (litres) 3,413,467 X   
+Anaerobic digestion (kg) 44,451*   X 
+
+
+Economic Supplier waste (%) 13.61    
+Supplier waste (£) 44,451 X   
+Retailer waste (%) 0.00    
+Retailer waste (kg) 3 X   
+Customer waste (%) 12.00    
+Customer waste (kg) 33,845  X  
+Opportunity cost (£) 349.68    
+Lost sales (£) 6925  X  
+
+
+Social Total donated amount (charities & food banks) (kg) 2820   X 
+Discounted sales to employees (£) 1046   X  
+
+
+* The total amount sent for anaerobic digestion by the focal company and the supplier. 
+
+
+Fig. 5. Overall share of waste (%) in tonnes for the three salad categories included in the case study.  
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+11
+
+
+disposed may flow to other uses, e.g. 4.18% of food waste goes to 
+anaerobic digestion and 2.75% donated to charities. These flows may 
+not be ‘by-products’ and considered wastes since they are not made into 
+new products or chemicals from which the suppliers generate revenue 
+(Lin et al., 2013); although composting and energy generation may 
+generate revenue or as resources for other processing activities. 
+
+
+The supplier food surplus is not landfilled, it is redistributed for food 
+waste mitigation purposes, which contrasts with waste generated at 
+customer households. Customer food waste represents 18% of purchases 
+from the retailers. Of this food waste, 7.38% goes to landfills. There are 
+no dedicated food waste collection systems for a significant proportion 
+of the participating customers. However, customers use approximately 
+7% of their food waste to make compost for gardening proposes or as pet 
+food. 
+
+
+The final food stream shows that 70% of the product was consumed 
+as intended. Ample opportunity exists to manage the remaining food 
+waste. 
+
+
+The metrics tool supports the economic, environmental and social 
+measurement of food waste. Its environmental KPIs use food waste to 
+calculate the total emissions created during transportation, the total 
+emissions emitted during production at the supplier site, and the total 
+blue water footprint generated at the supplier site. The analysis includes 
+two online retailer distribution centres. As shown in Table 4, knowing 
+the waste leads to determining unnecessary CO2e emissions and blue 
+water footprints. 
+
+
+These numbers are valuable because not only is the 
+food—salad—wasted, but the waste embedded energy and water related 
+to production and transportation of salad. These measures help identify 
+opportunities and capabilities for managing emissions and blue water 
+footprint. Table 6 highlights the need for monitoring the waste and its 
+three pillars of sustainability implications. Even though an online 
+retailer may perform better compared to other retailers, the food waste 
+environmental impacts are still significant. Thus, there is an argument to 
+utilize critical success factors, from critical success factor theory (Grimm 
+et al., 2014; Sellitto, Vial, & Viegas, 2018), to help identify what supply 
+chain stakeholders, related to stakeholder theory (Freeman, 1984; 
+Shankar, Gupta, & Pathak, 2018), contribute to these measures. The 
+results from this information and sources need to be managed by 
+building supply chain capabilities that include – according to NRBV 
+(Hart, 1995; Hart & Dowell, 2011) – end-of-pipe, in-process, and pre-
+vention solutions. This type of solutions are pollution prevention capa-
+bilities critical to NRBV (Graham et al., 2018; Graham & Potter, 2015; 
+Islam et al., 2019; McDougall et al., 2016; Papargyropoulou et al., 
+2014). 
+
+
+These observations lead to a general proposition related to the in-
+teractions between the tool, causes, and capabilities development. 
+
+
+Proposition 5. : Supply chain information processing aids food waste 
+management and capability requirements identification. Dynamic sup-
+ply chain-specific resources and capabilities are needed to address food 
+waste along the supply chain. 
+
+
+3.4. Food waste mitigation end-of-pipe improvements 
+
+
+The online retailer generates salad waste at about 1%, and with this 
+amount representing 0.02% of food wasted across all the perishable 
+product ranges (just 1 in 6000 items); evidence of progress made on their 
+nearly zero-waste journey. In 2017, instead of disposing food, the online 
+retailer redistributed 2200 t of fresh food to 17 food partners – the 
+company shop “70% discount”, food banks, charities, and zoos. 
+
+
+The online retailer viewed these efforts as food waste mitigation end- 
+of-pipe improvements; specifically, the online retailer operations 
+excellence director stated: 
+
+
+‘If there is any purge, a very small percentage of purge, then tactically we 
+could sell it on or offer it to charities, homeless charities and foodbanks…. 
+Even local zoos who are very keen to take some, and they offer discounts to 
+
+
+staff from the online retailer to visit those local zoos’. 
+The online retailer head of corporate responsibility and corporate 
+
+
+affairs also commented on this issue: 
+‘There is a wide range of charities that we work with, and we try to work 
+
+
+with local charities that are close to our distribution centres. We donated vans 
+to the local charities since they do not have the means to redistribute the food 
+we donated to them. We also donate small proportions of our food surplus to 
+AD (anaerobic digestion) and zoos. Historically, we also look at carbon in 
+transportation, ensuring goods and food being moved between sites are as low 
+carbon as possible. With this in mind, we recently purchased a fleet of CNG 
+natural gas trucks to compliment this approach’. 
+
+
+There are a range of corrective tactics for suppliers and customers to 
+mitigate food waste—see Fig. 6. 
+
+
+According to the survey results, upstream, 37% of supplier crop 
+waste is composted, 25% goes to charity and 25% is used for anaerobic 
+digestion energy plants. Additionally, 13% of suppliers responding to 
+this survey used surpluses (purge) for other types of energy generation. 
+According to crop waste measurement and analysis from the case study 
+supplier, the total production output surplus was 11%. Anaerobic 
+digestion uses 2.75% and other types of energy generation technologies 
+use 1.45%; another 2.75% is donated to charities. 
+
+
+The supplier technical innovation and sustainability manager stated: 
+‘Surplus generated from harvesting is ploughed back into the fields to 
+
+
+retain some of the carbon that has been used by the plants in the soil. We also 
+have our own anaerobic digestion plant to counter some of the energy from 
+our crops that has been wasted. We produce our own compost by using any 
+waste we generate and sell some waste products as animal feed … We send 
+about a quarter of our waste to anaerobic digestion (AD), since AD is 
+probably the most effective food waste mitigation tactic. We try to achieve 
+carbon neutrality because we are able to capture heat and electricity that we 
+can use them again in our factories’. 
+
+
+In this example, there are environmental mitigation strategies 
+especially associated with CO2e reduction. The focus was to be able to 
+reuse embedded energy, carbon, and even water resources to help 
+mitigate the environmental damage caused by food waste. As part of this 
+effort, they began to realize how much of each waste can be used in 
+different areas. In some cases, the benefit was environmental and some 
+were economic (generating revenue through resale). Some research has 
+investigated supply chain position for some environmental mitigation 
+strategies and position may differ in terms of impact (Garnett, 2011). 
+
+
+We make the following observation. The capabilities developed to 
+reduce supply chain food waste see support from multiple sustainability 
+metrics (Brindley & Oxborrow, 2014; de Moraes et al., 2020; Gardas 
+et al., 2017; León-Bravo et al., 2017). These metrics consider various 
+activities, by multiple supply chain stakeholders. Capabilities, metrics, 
+
+
+Fig. 6. Salad waste outcomes for suppliers and customers.  
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+12
+
+
+and resources can support particular stakeholder and sustainability 
+concerns given the resources available, their supply chain positioning 
+and the type of waste utilized (Aschemann-Witzel et al., 2017; Mena 
+et al., 2011; Muth et al., 2019). This leads to the following research 
+proposition: 
+
+
+Proposition 6. : There exists a contingent NRBV, based on stakeholder 
+and KPI concerns, where capabilities and actions are dependent on 
+supply chain actor, metric used, and product processing aspects. 
+
+
+Mitigation rather than reduction is the main goal of food waste 
+management programmes since the online food supply chain takes 
+meeting market demand as its main priority. In the downstream supply 
+chain, 40% of the customer waste is recycled through municipal circular 
+economic channels for animal feed and renewable energy generation. 
+This circular economic approach is an NRBV-based, product stewardship 
+capability-building example (Lehtokunnas, Mattila, Närvänen, & 
+Mesiranta, 2020; Miranda et al., 2019; Perey et al., 2018). These circular 
+economy practices can also generate additional funds from food waste 
+by-products (Garcia-Garcia, Stone, & Rahimifard, 2019; Göbel et al., 
+2015; Teigiserova, Hamelin, & Thomsen, 2020). 
+
+
+A fraction (16%) becomes customer compost for gardening purposes; 
+3% becomes pet food. The remaining, and largest percentage (41%) of 
+household food waste goes to landfills. A significant proportion of local 
+council across the UK do not provide dedicated food waste collection 
+service from the customer households. 
+
+
+The NGO food waste technical specialist summarizes: 
+‘On the supplier side, salad producers send their surplus to livestock 
+
+
+holders for animal feed. They use part of their surplus in their anaerobic 
+digestion plants, if they have one, or for making their own compost’. 
+
+
+The NGO food waste research manager also confirms the 
+observation: 
+
+
+‘UK retailers redistribute a large proportion of their fresh food surplus to 
+charity, similar to the case of the online food retailer; and, UK retailers are 
+currently redistributing a very small proportion of their fresh produce waste to 
+anaerobic digestion plants, since anaerobic digestion technology requires 
+heavy up-front investment. Retailers, including the food online retailer, 
+continue to join the debate ensuring that landfill should not be a preferred 
+financial mechanism for food that can be redistributed’. 
+
+
+Proposition 7a. : Mitigation strategies seek to minimize costs or 
+generate additional revenues from food waste. 
+
+
+Proposition 7b. : The NRBV holds in the food supply chain as ‘win- 
+win’ opportunities are sought. 
+
+
+Proposition 7c. : Product stewardship and clean technology initia-
+tives for mitigation create ‘win-win’ opportunities. 
+
+
+Anaerobic digestion is a clean technology that helps mitigate the 
+food waste impact. This mitigation tactic benefit generates enough 
+revenue to offset costs. These benefits represent additional resources and 
+capabilities to help mitigate the food waste environmental burden. This 
+initiative is a joint effort that includes their supply chain partners and 
+the non-profit technical experts. 
+
+
+3.5. Food waste minimization in-process solutions 
+
+
+Whereas food waste end-of-pipe solutions mitigate food waste 
+impact; food waste prevention in-process activities are available supply 
+chain tactics. 
+
+
+Poor customer demand forecasting is a major food waste generation 
+factor. According to the senior supply chain manager: 
+
+
+‘The online food retailer supply chain department works with the ICT 
+(information and communication technology) team on customer demand 
+forecast accuracy. They develop algorithms to improve supplier order fore-
+cast. We are also planning to bring in new technologies such as machine 
+learning to improve our demand forecast further. When we realise that an 
+SKU (stock keeping unit) is not selling as fast as we predicted, we introduce a 
+
+
+website discount promotion driven by food waste minimisation. These pro-
+motions are introduced automatically by connecting our website sales portal 
+with our livestock data.’ 
+
+
+The senior supply chain manager mentioned clean technology ef-
+forts, e.g. decision support and information technology as valuable ap-
+proaches for preventing food waste (Zhu & Kouhizadeh, 2019). These 
+technologies can help managing inventory and ordering along the sup-
+ply chain for effective demand management. The online characteristics, 
+given big data generation (Li, Chi, Hao, & Yu, 2018), support informa-
+tion technology as a critical, NRBV-based, clean technology capability. 
+
+
+Customers were surveyed for suggestions to minimize household 
+salad waste; 97.5% of surveyed customers felt the online food retailer 
+can help them minimize their salad food waste. Interestingly, about 45% 
+of respondents stated that if the online food retailer offers smaller size 
+packs of salads, they could waste less. A significant portion (i.e., 24%) of 
+surveyed customers asked for extended salad product life. 
+
+
+Customers (20%) also felt that alternative packaging can enhance the 
+salad product life, including re-sealable salad bags and packaging to 
+order. Other food waste minimization suggestions include educating 
+customers on product storage and handling (6.1%); and improving 
+product handling by the online food retailer so the product does not 
+arrive to their households crushed (2.9%). 
+
+
+Given these concerns, the online food retailer head of corporate re-
+sponsibility and corporate affairs provided insights into responses: 
+
+
+‘In our website, there are symbols that suggest the current storage practices 
+of each product with the aim of extending product life. In particular, we give 
+advice on when products can be frozen. Also, our company is planning to 
+share more information on stock quantities and future demand with strategic 
+suppliers with the aim of helping suppliers to reduce their own waste’. 
+
+
+The case company found other potential actions in their processes, 
+packaging, or approaches to help reduce downstream, customer food 
+waste. Through the survey they realize that the level of customer waste 
+can be quite substantial. Using pollution prevention and product stew-
+ardship ideals with appropriate serving sizes identifies substantial win- 
+win opportunities as espoused by NRBV. 
+
+
+The supplier CSR manager, also chimed in with a summary of the in- 
+process waste minimization efforts taking customer and supplier feed-
+back into consideration: 
+
+
+‘We are currently investing in a number of improvement projects that will 
+lead to food waste reduction. They include technologies and models to make 
+the supply forecast more accurate, more effective methods of capturing data 
+that inform our food waste reduction decision making, more accurate waste 
+composition analysis, more frequent food waste reporting around the busi-
+ness. In particular, we are about to implement a new technology developed by 
+Cambridge University capable of remote sensing and take pictures of crop 
+plants that it can feed into a supply forecasting model to predict when the 
+crops will be ready for harvesting’. 
+
+
+Not only were sources of solutions from the customers and suppliers, 
+but third-party stakeholders, the NGO partner, also provided feedback 
+and solutions. The NGO food waste research manager stipulated: 
+
+
+‘The online retailer and their fresh produce suppliers need to improve their 
+communication and information sharing. They need to make their stock levels 
+at the retailer visible to the supplier, and vice versa. This approach serves the 
+purpose of increasing supplier order forecast accuracy; as well as, collabo-
+rating on their reverse supply chains. These approaches help ensure that 
+redistribution of food surplus is managed by applying a more joint approach. 
+Food surplus can be redirected to other parts of the food retail supply chain, 
+which currently does not happen’. 
+
+
+The NGO food waste technical specialist expressed a slightly 
+different view: 
+
+
+‘It is the sole responsibility of the supplier to improve quality and con-
+sistency of their production, match demand and supply, and improve the 
+accuracy of their crop planning’. 
+
+
+In both cases, the NGO recommended in-process solutions for pre-
+vention by the supplier and the online retailer. The feedback included a 
+product stewardship – reverse logistics – and clean technology – 
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+13
+
+
+information technology – alternatives. 
+One such response is the online food retailer undertook supply chain 
+
+
+simulation to estimate the potential reductions in stock levels and waste 
+an improved supplier order forecast method could generate. The simu-
+lation is based on a perishable inventory model (Nahmias, 1982). This 
+model is suitable for salad products as it incorporates a fixed shelf life, 
+and products must be purged afterwards. It also allows for a periodic 
+(daily) order process, which is currently in use by the retailer. We as-
+sume a first-in, first out system which means that the retailer always 
+dispatches products with the shortest life remaining. In the improved 
+method, the retailer adjusts the calculation of the safety stock level, an 
+essential component in determining the order quantity. Specifically, the 
+safety stock is calculated as a proportion of the standard deviation of 
+forecast error, in contrast with the conventional method where it is a 
+multiple of average demand. For performance evaluation, we measure 
+several KPIs including the purge rate (ratio between purged products 
+and total sales), availability (likelihood of demand being satisfied), 
+average inventory level, and the amplification degree of inventory level 
+and order quantity with respect to the sales. 
+
+
+Table 7 summarizes the inventory system KPI for a sample of SKUs. 
+Inventory fluctuations measured by inventory amplification reduce by 
+48% due to the new order policy. Improvements in both the purge rate – 
+reduced by 40% – and availability – increased by 2%, occur. The average 
+inventory level also reduces by 43%. Meanwhile, the order fluctuation 
+shows a mild reduction of 3.6%. The online retailer benefits without 
+adding operational difficulty to the suppliers. 
+
+
+The evidence shows some product stewardship improvements, by 
+managing orders throughout a supply chain – using the clean technol-
+ogy. It also exemplifies how various KPIs can help address multiple 
+supply chain stakeholder needs, including lowered purge for commu-
+nities and society, improved availability for customers, improved in-
+ventory efficiency for the case company, and reduced order volatility for 
+suppliers. 
+
+
+Overall, we see that information management in an online supply 
+chain requires information sharing and technology to aid in building and 
+supporting its capabilities to reduce food waste along the supply chain. 
+The literature has considered this as one of the important transitions in 
+food waste management (Harvey, Smith, Goulding, & Illodo, 2019; 
+Weymes & Davies, 2019). Information processing is critical to these 
+items that result in the metrics and information necessary to manage the 
+flows of wastes and materials. These results further confirm Proposition 
+1, but we extend that proposition by adding an additional related 
+research proposition building further on food waste management in-
+formation needs in supply chains with an explicit linkage to NRBV ele-
+ments (Lusiantoro et al., 2018; Miranda et al., 2019). 
+
+
+Proposition 8. : Information processing and information sharing tools 
+support food waste reduction in online food supply chain business en-
+vironments. These tools can support product stewardship, clean tech-
+nology, and pollution prevention capabilities. 
+
+
+4. Discussion 
+
+
+This section evaluates case study information in the mid-range the-
+ory framework context, Fig. 1, informed by NRBV and critical success 
+factor theories—later supported by stakeholder and organizational 
+
+
+information processing theories. We take a closer look to determine 
+what aspects of the framework may require refinement using case ana-
+lyses details. We also seek to borrow from other theories, specifically 
+stakeholder theory, to inform the mid-range theory framework. 
+
+
+The mid-range theory developed and refined through the case study 
+and various propositions, guides this discussion, highlighting similar-
+ities and differences between the initial framework and case study 
+findings. The factors affecting food waste, food waste metrics, food 
+waste prevention and mitigation, and NRBV capabilities—product 
+stewardship, pollution prevention and clean technologies – are evalu-
+ated. The food waste metrics, mitigation end-of-pipe improvements, and 
+minimization in-process solutions evaluation uses their level of imple-
+mentation (Zhu & Sarkis, 2004). This evidence provides progress insight 
+of the framework elements in relation to their implementation at the 
+supplier and online food retailer. 
+
+
+4.1. Factors affecting food waste 
+
+
+A food waste factor comparative summary of case study factors and 
+those mentioned in the literature appears in Table 8. 
+
+
+Several food-waste generation factors from the previous literature 
+exist in this study (Aschemann-Witzel et al., 2015; Göbel et al., 2015; 
+Mena et al., 2011; Vandermeersch et al., 2014). Product demand fore-
+cast affectations, including weather, perishability, and customer buying 
+and consumption behaviour are overlapping factors between the 
+broader literature and this case study. The main factors affecting food 
+waste – according to interviewed managers - are categorized as primary 
+and less important factors as secondary. 
+
+
+The supply, weather, product quality, and insufficient technology 
+generate food waste. The suppliers, online retailer and the NGO each 
+state that unpredictable demand from retailer decisions or weather are 
+central food waste generating factors. The retailer, customer and NGO 
+felt a short product shelf life policy contributes greatly to food waste 
+since throughout the supply chain products are wasted due to very tight 
+expiration dates. Such a strategy provides freshness to the customer at 
+the expense of food waste generated at the supplier and customer ends. 
+
+
+The literature does not explicitly mention supply forecasting as an 
+important factor. This result contrasts with views of supplier managers 
+and the NGO. They emphasize that it is one of the top food waste causes 
+in the upstream supply chain. They strongly felt that food waste 
+reduction relies on accurate forecasting. 
+
+
+Proposition 9a. : Uncertainty and risk management through 
+improved data capture, manipulation, and processing are needed for 
+NRBV capability technological solutions in online food supply chain 
+business environments. 
+
+
+Proposition 9b. : Effective NRBV capabilities support both internal 
+organizational and external supply chain partner and stakeholder 
+requirements. 
+
+
+Proposition 9c. : NRBV needs to consider supply chain and consider 
+operational routines, not just strategic goals. 
+
+
+The literature also ignores some supplier factors, inappropriate 
+specification or quality failures and crop damage, are two such factors. 
+The supplier manager considers them as secondary factors from their 
+company’s perspective. The NGO felt these factors are important for all 
+salad producers supplying UK retailers. 
+
+
+4.2. Food waste metrics and relationships to stakeholders, causes, and 
+capabilities 
+
+
+Online food retailers can reduce their waste by improving their 
+business practices and information sharing systems. The waste mea-
+surement tool introduced earlier helps to achieve this goal. The metrics 
+include KPIs from the three sustainability pillars, using elements of life 
+cycle assessment. These KPIs support organizational and supply chain 
+
+
+Table 7 
+Simulation results of food SKUs under varying policies as identified by the in-
+ventory decision support and simulation ‘clean technology’.   
+
+
+Current policy Alternative policy 
+
+
+Purge rate 4.955 2.970 
+Availability 0.977 0.999 
+Avg. inventory level (standardized) 1.000 0.573 
+Inventory amplification 1.135 0.589 
+Order amplification 1.136 1.095  
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+14
+
+
+initiatives. Extant food waste studies do not consider online food re-
+tailers from the perspective of the three pillars of sustainability and 
+multi-stakeholders. Table 9 highlights stakeholder views on food waste 
+metrics. 
+
+
+In addition, stakeholders provided level of metrics adoption in the 
+supply chain. There is some agreement on case study metrics accep-
+tance, but differences also exist. 
+
+
+The three NRBV capabilities have relationships with the set of food 
+waste metrics. Links include pollution prevention that encourages more 
+environmentally friendly behaviour across the supply chain. Clean 
+technology advances in ICT integrate these metrics for supply chain 
+measurement systems and product stewardship practices. Stakeholder 
+coordination is also required for their implementation. 
+
+
+Proposition 10. : Direct and indirect feedback relationships exist be-
+tween stakeholders through the metrics used for monitoring and 
+improvement and through NRBV capabilities. 
+
+
+4.3. Food waste mitigation end-of-pipe, minimisation in-process solutions 
+and NRBV capabilities 
+
+
+The mid-range theory framework focuses on two types of supply 
+chain food waste management activities, mitigation and minimization 
+approaches. These approaches also link to the three NRBV capabilities. 
+Implementations and pilot programs exist for the supply chain food 
+waste management approaches in this case study. The metrics, stake-
+holders, and waste causes relate to capabilities development; furthering 
+support for Proposition 10. 
+
+
+Table 10 shows the food waste mitigation end-of-pipe improvements 
+
+
+and minimisation in-process activities identified for the three stages of 
+the online food supply chain; supporting literature is also identified. 
+
+
+There are several mitigation end-of-pipe improvements adopted in 
+each supply chain stage. For example, the supplier and the online 
+retailer manage food surplus by redistributing to charities, animal feed, 
+and AD. The supplier and the NGO view AD as an effective way to reduce 
+CO2e emissions generated from food waste. These organizations believe 
+AD is a clean technology capability commonly applied by agri-food 
+suppliers. 
+
+
+The use of food surplus for AD and donation to charities are product 
+stewardship and pollution prevention capabilities. These activities 
+require transfer of ownership of food surplus. These activities mitigate 
+emissions generated from food surplus transportation and decomposi-
+tion. The supply chain partners consider redistribution of surplus to 
+animal feed and making compost as product stewardship capabilities. 
+The supplier managers and NGO believe these two tactics are not 
+necessarily pollution prevention capabilities; mostly because their 
+emissions mitigation effectiveness is rather limited. 
+
+
+Several minimization in-process solutions appear in this study. The 
+supplier has recently implemented technological advancements 
+improving their supply forecasting methods, which consists of a supply 
+forecasting system enhanced by new remote-sensing technology. The 
+information helps predict supplier production quantities. The supply 
+chain manager felt the forecasting system has a pollution prevention 
+capability. The forecasting system application reduces their food surplus 
+generation and transportation emissions. 
+
+
+There are other food waste minimisation in-process solutions piloted 
+along the online supply chain. The KPI metrics tool, described earlier in 
+this paper, is under evaluation by the supplier and the retailer for other 
+
+
+Table 8 
+Factors found in the case study compared to previous literature.  
+
+
+Factor Mentioned by Literature 
+
+
+Supplier Online 
+retailer 
+
+
+Customer Non-for-profit 
+consultancy 
+
+
+Inaccurate supply forecast P N N P Not found 
+Unpredictable demand caused by retailers or weather P P N P Mena et al. (2011) & Göbel et al. (2015) 
+Lack of insufficient technology and advanced 
+
+
+techniques 
+S N N N Gardas et al. (2017) 
+
+
+Short product shelf life N P P P Mena et al. (2011) 
+Inappropriate pack sizes N N P P Mena et al. (2011) & Gardas et al. (2017) 
+Customer’s buying behaviour N N P N Vandermeersch et al. (2014) & Aschemann-Witzel 
+
+
+et al., 2015 
+Customer’s consumption N N P N Aschemann-Witzel et al. (2015) & von Kameke and 
+
+
+Fischer (2018) 
+Customer’s eating habits N N P N Not found 
+Crop damages caused by weather changes or pests S N N P Not found 
+Inappropriate specifications or quality failures S N N P Not found 
+Customers not educated on the implications of their 
+
+
+buying behaviour 
+N N N P Not found 
+
+
+(P – Primary factor, S – Secondary factor and N – Not mentioned). 
+
+
+Table 9 
+Food waste metrics found in the case study compared to previous literature.  
+
+
+Sustainability 
+pillar 
+
+
+Metric Mentioned by Example literature 
+
+
+Supplier Online 
+retailer 
+
+
+NGO 
+consultant 
+
+
+Environmental Food waste ratio I I I León-Bravo et al. (2017) & De Lange and Nahman (2015) 
+CO2e emissions per Kg of food waste P P P Tsagatakis et al. (2016) & Scherhaufer et al. (2017) 
+Lt of water per Kg of food waste P P P Kummu et al., 2012 & Kibler et al. (2018) 
+
+
+Economic Food surplus opportunity cost C P N Ridoutt et al. (2010) & Chaboud and Daviron (2017) 
+Food surplus loss of sales C P N Vanham et al. (2015); Shafiee-Jood and Cai (2016) & Betz 
+
+
+et al. (2015) 
+Social Food donations I I I Alexander and Smaje (2008) 
+
+
+Calories of food donated per food surplus 
+quantity 
+
+
+C N N Beretta et al. (2013) & Dreyer et al. (2019) 
+
+
+Notes: I – Implemented successfully, P- Piloted, C- Currently considering, PC- Planning to consider and N – Not being considered. CO2e is carbon dioxide emissions 
+equivalence. 
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+15
+
+
+fresh product families. The buyer and seller considered this solution as a 
+clean technology capability for broad implementation. The technology 
+enables accurate measurement of environmental, economic and social 
+implications of their food surplus. They also view this solution as a 
+product stewardship and pollution prevention capability, given the 
+ownership of food surplus transfers across different supply chain stages. 
+It enhances decision-making for food waste generated pollution 
+reduction. 
+
+
+There are three food waste minimization in-process solutions under 
+consideration by the supplier and/or the retailer, namely more suitable 
+product pack sizes, improved supplier order policy and greater 
+supplier-retailer information sharing. 
+
+
+The buyer and supplier are initiating a new project to evaluate 
+alternative supplier order policies and an enhanced supplier-retailer 
+information sharing system. These two solutions are effective for food 
+waste reduction purposes (Gardas et al., 2017; Kaipia et al., 2013). 
+Improved supplier order policies are a pollution prevention capability 
+due to food-waste emissions reduction from food surplus minimization. 
+Smaller surplus means fewer emissions generated from transportation 
+and food surplus decomposition. 
+
+
+The supplier is also piloting and testing alternative and more suitable 
+packaging sizes to reduce customer food waste. This approach of effi-
+cient package sizing is effective in food waste minimization practice 
+(Gardas et al., 2017; Mena et al., 2011). 
+
+
+We build on proposition 10 concerning various interactions among 
+the food waste metrics, causes, and interactions with a general propo-
+sition 11. This proposition also integrated stakeholder practices and 
+their implementation. 
+
+
+Proposition 11a. : There is an interaction between in-process and 
+mitigation solutions with various NRBV capabilities. 
+
+
+Proposition 11b. : Feedback mechanisms from NRBV capabilities 
+help reduce food waste along the supply chain. 
+
+
+The propositions and findings derived from this study help refine the 
+original middle range theoretical framework linking NRBV, critical 
+success factor, stakeholder and organizational information processing 
+theory (Fig. 1). 
+
+
+Overall, we found overlap between NRBV capabilities and that they 
+are not mutually exclusive; while their adoption is influenced by mul-
+tiple stakeholders across the supply chain. 
+
+
+In addition, there are multiple interactions and feedback mecha-
+nisms within and between practices, metrics, stakeholders that are used 
+for monitoring and control purposes. We also found that there are sig-
+nificant informational requirements to help reduce uncertainty and risks 
+of food waste. Finally, another important characteristic is that opera-
+tional and routine level analyses are needed for NRBV; NRBV is not just a 
+strategic perspective. 
+
+
+Fig. 7 presents the refined middle-range theory framework. 
+
+
+5. Conclusions 
+
+
+Food waste generated across a FSC is one of our world’s wicked 
+problems. Multiple theories and methodologies are needed to inform 
+and address this complex problem. We started with multiple theories to 
+help derive an initial middle-range theory framework linking NRBV, 
+critical success factor, stakeholder, and organizational information 
+process theories. These theories, although typically applied at strategic 
+and organizational levels of analysis, also have significant operational, 
+supply level implications. 
+
+
+A number of propositions, unsurprisingly some that were complex, 
+emerged from our multiple methodologies and observations. Feedback 
+from various partners in the supply chain through surveys and from 
+semi-structured interviews helped to refine the framework and our un-
+derstanding. We utilize data and findings from analytical and data tools 
+to formulate additional insights. 
+
+
+Together these multiple theories and methodologies resulted in a 
+framework that shows a broader systemic and contingent set of re-
+lationships. The complexity of the relationships, as identified in the 
+propositions, require significantly more research. The propositions 
+provide a stream of additional research by operations, supply chain, 
+marketing, and information technology researchers to understand sup-
+ply chain food waste; especially, in online food supply chains that 
+generate and handle rich data sets. 
+
+
+The major research contribution of this work is to advance NRBV to 
+the supply chain and various complexities involved in food waste 
+management. A resulting dynamic NRBV environment existed within 
+this study. Dynamic capabilities were clearly evident and necessary in 
+rapidly changing and emerging industrial contexts such as online food 
+supply chains. 
+
+
+The practical implications are many. For the sake of brevity, we 
+identify three major managerial implications: 
+
+
+Table 10 
+Food waste mitigation end-of-pipe improvements and minimisation in-process solutions linkage to NRBV capabilities.   
+
+
+Supporting 
+literature 
+
+
+Originated from Connected to 
+
+
+Supplier Online 
+food 
+retailer 
+
+
+Customer Pollution 
+prevention 
+capability 
+
+
+Product 
+stewardship 
+capability 
+
+
+Clean 
+technology 
+
+
+Food waste mitigation 
+end-of-pipe 
+improvements 
+
+
+Donation of surplus to charities Mourad (2016) I I N/A X X  
+Redistribution of surplus to 
+animal feed 
+
+
+Mourad (2016) I I I  X  
+
+
+Usage of surplus for Anaerobic 
+Digestion 
+
+
+Xu et al. (2018) I I I X X X 
+
+
+Making compost for local use Mourad (2016) I N I  X  
+Food waste 
+
+
+minimization in- 
+process solutions 
+
+
+Improved supply forecasting 
+through technological 
+advancements 
+
+
+Kitinoja et al. 
+(2018); Kiil et al. 
+(2018) 
+
+
+I N/A N/A X   
+
+
+More accurate measurement 
+and monitoring of food surplus 
+and externalities 
+
+
+Davies and Legg 
+(2018) 
+
+
+P P N/A X X X 
+
+
+Improved supplier’s order 
+policy 
+
+
+Gardas et al. 
+(2017) 
+
+
+N/A C N/A X   
+
+
+Greater supplier-retailer 
+information sharing 
+
+
+Kaipia et al. 
+(2013) 
+
+
+C C N/A X X  
+
+
+More suitable product pack 
+sizes 
+
+
+Mena et al. (2011) P N N/A X   
+
+
+(I – Implemented successfully, P - Piloted, C- Currently considering, PC - Planning to consider, N – Not being considered, and N/A – Not applicable). The “X” is a 
+relationship marker between the solutions and the NRBV capabilities. 
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+16
+
+
+• Managers need to be aware of stakeholder needs and goals dispar-
+ities. Supply chain positioning may require distinctions in food waste 
+solutions. Understanding the needs and requirements can help build 
+important practices, incentives and relationships.  
+
+
+• Working across organizations and functions is necessary to provide 
+comprehensive and effective solutions. For example, the role of in-
+formation technology partners and relationships goes beyond the 
+goal of profit in an online environment, but also of the need to utilize 
+the data and information to help improve food waste management. 
+
+
+• Metrics selection, food waste causes, and solutions need to be care-
+fully evaluated and integrated. Continuous improvement and 
+learning are necessary to keep updating and evaluating the moni-
+toring tools, metrics, and relationships by management teams. 
+
+
+This paper sets a foundation for additional research in food supply 
+chains, but also in other supply chains based on online relationships. 
+Although the players, technologies, and solutions may differ, we believe 
+this general framework has applicability and can be further refined in 
+general SSCM research. Additional theories can inform this environ-
+ment. We limited this research investigation to just four theories. That is 
+a limitation of this study. Although we used multiple methodologies, we 
+used a single online food supply chain case study, there is a need for 
+multi-case study research for generalisability purposes. Many other food 
+waste reduction business models and approaches exist in e-commerce 
+environments; for example, food-sharing supply chains, non-for-profit, 
+and governmental waste exchange models are other examples. 
+Whether the framework, propositions, solutions and perspectives exist 
+in these other situations need investigation. 
+
+
+Another limitation is the many complex relationships that exist. At 
+present, we are in a general set of relationships and there is a question on 
+how well this middle range theory can be translated into a simple and 
+clear, testable theoretical framework. We do not offer a panacea for 
+understanding SSCM, but it is an important step for helping industrial 
+marketing, operations, and supply chain advancement in this field. 
+
+
+Appendix A. Supplementary material 
+
+
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.indmarman.2020.09.020. 
+
+
+References 
+
+
+Alexander, C., & Smaje, C. (2008). Surplus retail food redistribution: an analysis of a 
+third sector model. Resources Coservation and Recycling, 55(11), 1290–1298. 
+
+
+Aschemann-Witzel, J., De Hooge, I., Amani, P., Bech-Larsen, T., & Oostindjer, M. (2015). 
+Consumer-related food waste: causes and potential for action. Sustainability, 2015(7), 
+6457–6477. 
+
+
+Aschemann-Witzel, J., de Hooge, I., & Normann, A. (2016). Consumer-related food 
+waste: role of food marketing and retailers and potential for action. Journal of 
+International Food & Agribusiness Marketing, 28(3), 271–285. 
+
+
+Aschemann-Witzel, J., De Hooge, I. E., Rohm, H., Normann, A., Bossle, M. B., 
+Grønhøj, A., & Oostindjer, M. (2017). Key characteristics and success factors of 
+supply chain initiatives tackling consumer-related food waste–A multiple case study. 
+Journal of Cleaner Production, 155, 33–45. 
+
+
+Beretta, C., Stoessel, F., Baier, U., & Hellweg, S. (2013). Quantifying food losses and the 
+potential for reduction in Switzerland. Waste Management, 33(3), 764–773. 
+
+
+Beske, P., Land, A., & Seuring, S. (2014). Sustainable supply chain management practices 
+and dynamic capabilities in the food industry: a critical analysis of the literature. 
+International Journal of Production Economics, 152, 131–143. 
+
+
+Fig. 7. Refined middle-range theoretic framework linking NRBV, critical success factor, stakeholder, and organizational information processing theories with case 
+study propositions. 
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+https://doi.org/10.1016/j.indmarman.2020.09.020
+
+https://doi.org/10.1016/j.indmarman.2020.09.020
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0005
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0005
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0010
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0010
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0010
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0015
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0015
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0015
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0020
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0020
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0020
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0020
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0030
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0030
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0035
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0035
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0035
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+17
+
+
+Betz, A., Buchli, J., Göbel, C., & Müller, C. (2015). Food waste in the Swiss food service 
+industry–magnitude and potential for reduction. Waste Management, 35, 218–226. 
+
+
+Brindley, B., & Oxborrow, L. (2014). Aligning the sustainable supply chain to green 
+marketing needs: a case study. Industrial Marketing Management, 43(1), 45–55. 
+
+
+Bundy, J., Vogel, R. M., & Zachary, M. A. (2018). Organization–stakeholder fit: a 
+dynamic theory of cooperation, compromise, and conflict between an organization 
+and its stakeholders. Strategic Management Journal, 39(2), 476–501. 
+
+
+Carter, C. R., & Rogers, D. S. (2008). A framework of sustainable supply chain 
+management: moving toward new theory. International Journal of Physical 
+Distribution and Logistics Management, 38(5), 360–387. 
+
+
+Chaboud, G., & Daviron, B. (2017). Food losses and waste: navigating the 
+inconsistencies. Global Food Security, 12, 1–7. 
+
+
+Curran, M. A. (1996). Environmental life-cycle assessment. The International Journal of 
+Life Cycle Assessment, 1(3), 179. 
+
+
+Davies, A. R., & Legg, R. (2018). Fare sharing: interrogating the nexus of ICT, urban food 
+sharing, and sustainability. Food Culture & Society, 21(2), 233–254. 
+
+
+De Lange, W., & Nahman, A. (2015). Costs of food waste in South Africa: incorporating 
+inedible food waste. Waste Management, 40, 167–172. 
+
+
+Dreyer, H., Dukovska-Popovska, I., Yu, Q., & Hedenstierna, C. (2019). A ranking method 
+for prioritising retail store food waste based on monetary and environmental 
+impacts. Journal of Cleaner Production, 210(10), 505–517. 
+
+
+Flyvbjerg, B. (2006). Five misunderstandings about case-study research. Qualitative 
+Inquiry, 12(2), 219–245. 
+
+
+Food Loss + Waste Protocol. (2016). Food loss and waste accounting and reporting 
+standard. http://flwprotocol.org/wp-content/uploads/2017/05/FLW_Standard_Exe 
+c_Summary_final_2016.pdf (Accessed on 30/04/2019). 
+
+
+Frankle, R., Naslund, D., & Bolumole, Y. (2005). The “white space” of logistics research: a 
+look at the role of methods usage. Journal of Business Logistics, 26(2), 185–208. 
+
+
+Freeman, R. E. (1984). Stakeholder management: framework and philosophy, Pitman, 
+Mansfield, MA. 
+
+
+Galbraith, J. R. (1973). Designing complex organizations. Reading, MA: Addison-Wesley.  
+Garcia-Garcia, G., Stone, J., & Rahimifard, S. (2019). Opportunities for waste 
+
+
+valorisation in the food industry–A case study with four UK food manufacturers. 
+Journal of Cleaner Production, 211, 1339–1356. 
+
+
+Gardas, B., Raut, R., & Narkhede, B. (2017). Modeling causal factors of post-harvesting 
+losses in vegetable and fruit supply chain: An Indian perspective. Renewable and 
+Sustainable Energy Reviews, 80, 1355–1371. 
+
+
+Garnett, T. (2011). Where are the best opportunities for reducing greenhouse gas 
+emissions in the food system (including the food chain)? Food Policy, 36, S23–S32. 
+
+
+Gattiker, T. F., & Goodhue, D. L. (2004). Understanding the local-level costs and benefits 
+of ERP through organizational information processing theory. Information & 
+Management, 41(4), 431–443. 
+
+
+George, A. L., Bennett, A., Lynn-Jones, S. M., & Miller, S. E. (2005). Case studies and 
+theory development in the social sciences. Cambridge Massachusetts: MIT Press.  
+
+
+Göbel, C., Langen, N., Blumenthal, A., Teitscheid, P., & Ritter, G. (2015). Cutting food 
+waste through cooperation along the food supply chain. Sustainability, 2015(7), 
+1429–1445. 
+
+
+Graham, S., Graham, B., & Holt, D. (2018). The relationship between downstream 
+environmental logistics practices and performance. International Journal of 
+Production Economics, 196, 356–365. 
+
+
+Graham, S., & Potter, A. (2015). Environmental operations management and its links 
+with proactivity and performance: a study of the UK food. International Journal of 
+Production Economics, 170(Part A), 146–159. 
+
+
+Grimm, J. H., Hofstetter, J. S., & Sarkis, J. (2014). Critical factors for sub-supplier 
+management: a sustainable food supply chains perspective. International Journal of 
+Production Economics, 152, 159–173. 
+
+
+Groening, C., Sarkis, J., & Zhu, Q. (2018). Green marketing consumer-level theory 
+review: a compendium of applied theories and further research directions. Journal of 
+Cleaner Production, 172, 1848–1866. 
+
+
+Hart, S. L. (1995). A natural-resource-based view of the firm. Academy of Management 
+Review, 20(4), 986–1014. 
+
+
+Hart, S. L., & Dowell, G. (2011). Invited editorial: a natural-resource-based view of the 
+firm: fifteen years after. Journal of Management, 37(5), 1464–1479. 
+
+
+Harvey, J., Smith, A., Goulding, J., & Illodo, I. B. (2019). Food sharing, redistribution, 
+and waste reduction via mobile applications: a social network analysis. Industrial 
+Marketing Management, 88, 437–448. 
+
+
+Islam, S., Tseng, M. L., & Karia, N. (2019). Assessment of corporate culture in 
+sustainability performance using a hierarchical framework and interdependence 
+relations. Journal of Cleaner Production, 217(20), 676–690. 
+
+
+Jack, E. P., & Raturi, A. S. (2006). Lessons learned from methodological triangulation in 
+management research. Management Research News, 29(6), 345–357. 
+
+
+Kaipia, R., Dukovska-Popovska, I., & Loikkanen, L. (2013). Creating sustainable fresh 
+food supply chains through waste reduction. International Journal of Physical 
+Distribution and Logistics Management, 43(3), 262–276. 
+
+
+Kamble, S., Gunasekaran, A., & Arha, H. (2019). Understanding the Blockchain 
+technology adoption in supply chains-Indian context. International Journal of 
+Production Research, 7, 2009–2033. 
+
+
+von Kameke, C., & Fischer, D. (2018). Preventing household food waste via nudging: an 
+exploration of consumer perceptions. Journal of Cleaner Production, 184, 32–40. 
+
+
+Kibler, K. M., Reinhart, D., Hawkins, C., Motlagh, A. M., & Wright, J. (2018). Food waste 
+and the food-energy-water nexus: a review of food waste management alternatives. 
+Waste Management, 74, 52–62. 
+
+
+Kiil, K., Dreyer, H. C., Hvolby, H. H., & Chabada, L. (2018). Sustainable food supply 
+chains: the impact of automatic replenishment in grocery stores. Production Planning 
+and Control, 29(2), 106–116. 
+
+
+Kitinoja, L., Tokala, V. Y., & Brondy, A. (2018). Challenges and opportunities for 
+improved postharvest loss measurements in plant-based food crops. Journal of 
+Postharvest Technology, 6(4), 16–34. 
+
+
+Kummu, M., De Moel, H., Porkka, M., Siebert, S., Varis, O., & Ward, P. J. (2012). Lost 
+food, wasted resources: global food supply chain losses and their impacts on 
+freshwater, cropland, and fertiliser use. Science of the Total Environment, 438, 
+477–489. 
+
+
+Lehtokunnas, T., Mattila, M., Närvänen, E., & Mesiranta, N. (2020). Towards a circular 
+economy in food consumption: food waste reduction practices as ethical work. 
+Journal of Consumer Culture, 1469540520926252. 
+
+
+León-Bravo, V., Caniato, F., & Caridi, M. (2019). Sustainability in multiple stages of the 
+food supply chain in Italy: practices, performance and reputation. Operations 
+Management Research, 12(1–2), 40–61. 
+
+
+León-Bravo, V., Caniato, F., Caridi, M., & Johnsen, T. (2017). Collaboration for 
+sustainability in the food supply chain: a multi-stage study in Italy. Sustainability, 
+2017(9), 1253. 
+
+
+Li, L., Chi, T., Hao, T., & Yu, T. (2018). Customer demand analysis of the electronic 
+commerce supply chain using Big Data. Annals of Operations Research, 268(1–2), 
+113–128. 
+
+
+Lin, C. S. K., Pfaltzgraff, L. A., Herrero-Davila, L., Mubofu, E. B., Abderrahim, S., 
+Clark, J. H., … Luque, R. (2013). Food waste as a valuable resource for the 
+production of chemicals, materials and fuels. Current situation and global 
+perspective. Energy and Environmental Science, 6(2), 426–464. 
+
+
+Lusiantoro, L., Yates, N., Mena, C., & Varga, L. (2018). A refined framework of 
+information sharing in perishable product supply chains. International Journal of 
+Physical Distribution and Logistics Management, 48(3), 254–283. 
+
+
+McDougall, N., Wagner, B., & MacBryde, J. (2016). Exploring dynamic natural-resource- 
+based capabilities for sustainable agri-food chain. Sustainable Design and 
+Manufacturing, 455-465. 
+
+
+Mena, C., Adenso-Diaz, B., & Yurt, O. (2011). The causes of food waste in the 
+supplier–retailer interface: evidences from the UK and Spain. Resources, Conservation 
+and Recycling, 55, 648–658. Issue 6, April 2011. 
+
+
+Mena, J. A., Hult, G. T. M., Ferrell, O. C., & Zhang, Y. (2019). Competing assessments of 
+market-driven, sustainability-centered, and stakeholder-focused approaches to the 
+customer-brand relationships and performance. Journal of Business Research, 95, 
+531–543. 
+
+
+Meredith, J. (1993). Theory building through conceptual methods. International Journal 
+of Operations & Production Management, 13, 3–11. 
+
+
+Miranda, J., Ponce, P., Molina, A., & Wright, P. (2019). Sensing, smart and sustainable 
+technologies for agri-food 4.0. Computers in Industry, 108, 21–36. 
+
+
+de Moraes, C. C., de Oliveira Costa, F. H., Pereira, C. R., da Silva, A. L., & Delai, I. (2020). 
+Retail food waste: mapping causes and reduction practices. Journal of Cleaner 
+Production, 256, 120124. 
+
+
+Mourad, M. (2016). Recycling, recovering and preventing “food waste”: competing 
+solutions for food systems sustainability in the United States and France. Journal of 
+Cleaner Production, 126, 461–477. 
+
+
+Muth, M. K., Birney, C., Cuéllar, A., Finn, S. M., Freeman, M., Galloway, J. N., … 
+Meyer, E. (2019). A systems approach to assessing environmental and economic 
+effects of food loss and waste interventions in the United States. Science of the Total 
+Environment, 685, 1240–1254. 
+
+
+Nahmias, S. (1982). Perishable inventory theory: a review. Operations Research, 30(4), 
+680–708. 
+
+
+Papargyropoulou, E., Lozano, R., Steinberger, J., Wright, N., & Ujang, Z. (2014). The 
+food waste hierarchy as a framework for the management of food surplus and food 
+waste. Journal of Cleaner Production, 76, 106–115. 
+
+
+Pereira, L., & Drimie, S. (2016). Governance arrangements for the future food system: 
+addressing complexity in South Africa. Environment: Science and Policy for Sustainable 
+Development, 58(4), 18–31. 
+
+
+Perey, R., Benn, S., Agarwal, R., & Edwards, M. (2018). The place of waste: changing 
+business value for the circular economy. Business Strategy and the Environment, 27(5), 
+631–642. 
+
+
+Ridoutt, B., Juliano, P., Sanguansri, P., & Sellahewa, J. (2010). The water footprint of 
+food waste: case study of fresh mango in Australia. Journal of Cleaner Production, 18 
+(16/17), 1714–1721. 
+
+
+Saberi, S., Kouhizadeh, M., Sarkis, J., & Shen, L. (2018). Blockchain technology and its 
+relationships to sustainable supply chain management. International Journal of 
+Production Research, 1–19. 
+
+
+Scherhaufer, S., Moates, M., Hartikainen, H., Waldron, K., & Obersteiner, G. (2017). 
+Environmental impacts of food waste in Europe. Waste Management, 77, 98–113. 
+
+
+Sellitto, M. A., Vial, L. A. M., & Viegas, C. V. (2018). Critical success factors in short food 
+supply chains: case studies with milk and dairy producers from Italy and Brazil. 
+Journal of Cleaner Production, 170, 1361–1368. 
+
+
+Seuring, S. (2011). Supply chain management for sustainable products–insights from 
+research applying mixed methodologies. Business Strategy and the Environment, 20(7), 
+471–484. 
+
+
+Shafiee-Jood, M., & Cai, X. (2016). Reducing food loss and waste to enhance food 
+security and environmental sustainability. Environmental Science & Technology, 50 
+(16), 8432–8443. 
+
+
+Shankar, R., Gupta, R., & Pathak, D. K. (2018). Modeling critical success factors of 
+traceability for food logistics system. Transportation Research Part E: Logistics and 
+Transportation Review, 119, 205–222. 
+
+
+Spada, A., Conte, A., & Del Nobile, M. A. (2018). The influence of shelf life on food waste: 
+a model-based approach by empirical market evidence. Journal of Cleaner Production, 
+172, 3410–3414. 
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0040
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0040
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0045
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0045
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0050
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0050
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0050
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0055
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0055
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0055
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0060
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0060
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0070
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0070
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0075
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0075
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0080
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0080
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0085
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0085
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0085
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0090
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0090
+
+http://flwprotocol.org/wp-content/uploads/2017/05/FLW_Standard_Exec_Summary_final_2016.pdf
+
+http://flwprotocol.org/wp-content/uploads/2017/05/FLW_Standard_Exec_Summary_final_2016.pdf
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0100
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0100
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf5000
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf5000
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0105
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0110
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0110
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0110
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0115
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0115
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0115
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0120
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0120
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0125
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0125
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0125
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0130
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0130
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0135
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0135
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0135
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0140
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0140
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0140
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0145
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0145
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0145
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0150
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0150
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0150
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0155
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0155
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0155
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0160
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0160
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0165
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0165
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0170
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0170
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0170
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0180
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0180
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0180
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0185
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0185
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0190
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0190
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0190
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf3000
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf3000
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf3000
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0195
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0195
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0200
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0200
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0200
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0205
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0205
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0205
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0210
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0210
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0210
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0215
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0215
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0215
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0215
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0220
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0220
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0220
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0225
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0225
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0225
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0230
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0230
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0230
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0235
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0235
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0235
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0240
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0240
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0240
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0240
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0245
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0245
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0245
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0250
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0250
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0250
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0255
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0255
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0255
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0265
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0265
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0265
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0265
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0270
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0270
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0275
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0275
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0280
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0280
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0280
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0285
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0285
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0285
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0290
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0290
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0290
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0290
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0295
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0295
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0305
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0305
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0305
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0315
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0315
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0315
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0320
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0320
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0320
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0325
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0325
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0325
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0335
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0335
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0335
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0340
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0340
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0345
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0345
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0345
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0350
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0350
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0350
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0355
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0355
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0355
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0360
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0360
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0360
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0365
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0365
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0365
+
+
+
+
+Industrial Marketing Management xxx (xxxx) xxx
+
+
+18
+
+
+Teigiserova, D. A., Hamelin, L., & Thomsen, M. (2020). Towards transparent valorization 
+of food surplus, waste and loss: clarifying definitions, food waste hierarchy, and role 
+in the circular economy. Science of the Total Environment, 706, 136033. 
+
+
+The Independent. (2015). How much food does the EU waste?. https://www.independen 
+t.co.uk/news/world/europe/how-much-food-does-the-eu-waste-a6778351.html 
+(Accessed on 30/04/2019). 
+
+
+Thyberg, K., & Tonjes, D. J. (2016). Drivers of food waste and their implications for 
+sustainable policy development. Resources, Conservation and Recycling, 106, 
+110–123. 
+
+
+Tsagatakis, I., Brace, S., Jephcote, C., Passant, N., Pearson, B., Kiff, B., & Fraser, A. 
+(2016). Report: UK emission mapping methodology 2014. UK Air, DEFRA.  
+
+
+UN FAO. (2019). Food Loss and Food Waste, Food & Agricultural Organisation of the 
+United Nations. http://www.fao.org/food-loss-and-food-waste/en/ (Accessed on 1st 
+March, 2019). 
+
+
+Vandermeersch, T., Alvarenga, R., Ragaert, P., & Dewulf, J. (2014). Environmental 
+sustainability assessment of food waste valorization options. Resources, Conservation 
+and Recycling, 87, 57–64. 
+
+
+Vanham, D., Bouraoui, F., Leip, A., Grizzetti, B., & Bidoglio, G. (2015). Lost water and 
+nitrogen resources due to EU consumer food waste. Environmental Research Letters, 
+10(8), 1–15. 
+
+
+Wang, J., Huili, Y., & Goh, M. (2018). Empirical study of sustainable food supply chain 
+management practices in China. British Food Journal. https://doi.org/10.1108/BFJ- 
+09-2017-0525. 
+
+
+Weick, K. E. (1989). Theory construction as disciplined imagination. Academy of 
+Management Review, 14(4), 516–531. 
+
+
+Weymes, M., & Davies, A. R. (2019). [Re] valuing surplus: transitions, technologies and 
+tensions in redistributing prepared food in San Francisco. Geoforum, 99, 160–169. 
+
+
+WRAP. (2018). The Courtauld 2025 baseline and restated household food waste figures, 
+22/Oct/2018. http://www.wrap.org.uk/content/courtauld-2025-baseline-and 
+-restated-household-food-waste-figures (Accessed on 30/04/2019). 
+
+
+Xu, F., Li, Y., Ge, X., Yang, L., & Li, Y. (2018). Anaerobic digestion of food 
+waste–Challenges and opportunities. Bioresource Technology, 247, 1047–1058. 
+
+
+Yadav, S., Garg, D., & Luthra, S. (2020). Development of IoT based data-driven 
+agriculture supply chain performance measurement framework. Journal of Enterprise 
+Information Management. https://doi.org/10.1108/JEIM-11-2019-0369. 
+
+
+Yin, R. (2009). Applications of case study research. Newbury Park, CA: Sage Publishing.  
+Zhu, Q., & Kouhizadeh, M. (2019). Blockchain technology, supply chain information, and 
+
+
+strategic product deletion management. IEEE Engineering Management Review, 47(1), 
+36–44. 
+
+
+Zhu, Q., & Sarkis, J. (2004). Relationships between operational practices and 
+performance among early adopters of green supply chain management practices in 
+Chinese manufacturing enterprises. Journal of Operations Management, 22, 265–289. 
+
+
+V.S. Rodrigues et al.                                                                                                                                                                                                                            
+
+
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0370
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0370
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0370
+
+https://www.independent.co.uk/news/world/europe/how-much-food-does-the-eu-waste-a6778351.html
+
+https://www.independent.co.uk/news/world/europe/how-much-food-does-the-eu-waste-a6778351.html
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf4000
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf4000
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf4000
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0380
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0380
+
+http://www.fao.org/food-loss-and-food-waste/en/
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0390
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0390
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0390
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0395
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0395
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0395
+
+https://doi.org/10.1108/BFJ-09-2017-0525
+
+https://doi.org/10.1108/BFJ-09-2017-0525
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0405
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0405
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0410
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0410
+
+http://www.wrap.org.uk/content/courtauld-2025-baseline-and-restated-household-food-waste-figures
+
+http://www.wrap.org.uk/content/courtauld-2025-baseline-and-restated-household-food-waste-figures
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0420
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0420
+
+https://doi.org/10.1108/JEIM-11-2019-0369
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf2000
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0435
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0435
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0435
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0440
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0440
+
+http://refhub.elsevier.com/S0019-8501(20)30851-8/rf0440
+
+

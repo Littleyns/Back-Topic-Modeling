@@ -1,0 +1,1793 @@
+
+
+
+
+
+
+
+
+
+
+Decision Support Systems 46 (2008) 29–40
+
+
+Contents lists available at ScienceDirect
+
+
+Decision Support Systems
+
+
+j ourna l homepage: www.e lsev ie r.com/ locate /dss
+
+Improving the peer review process with information technology
+
+
+Munir Mandviwalla a, Ravi Patnayakuni b, David Schuff a,⁎
+a Temple University, United States
+b University of Alabama, United States
+
+a r t i c l e i n f o
+
+⁎ Corresponding author.
+E-mail address: David.Schuff@temple.edu (D. Schu
+
+
+0167-9236/$ – see front matter © 2008 Elsevier B.V.
+doi:10.1016/j.dss.2008.04.005
+
+a b s t r a c t
+
+Article history:
+Received 5 June 2007
+Received in revised form 20 April 2008
+Accepted 27 April 2008
+Available online 2 May 2008
+
+Peer review is the engine of scholarship where new knowledge is legitimized. Despite
+technological advances in publishing and communication, the process of review has not
+changed since it became prevalent over 100 years ago. This paper describes how information
+technology can be used to improve the peer review process. Taking a combined design science
+and natural science approach, we design and test a prototype system based on the principles of
+structured communication. Through an exploratory study, we find that our proposed system is
+viewed more favorably by both authors and reviewers across several dimensions, including
+fairness, convenience, and value.
+
+
+© 2008 Elsevier B.V. All rights reserved.
+
+Keywords:
+Peer review
+Scholarship
+Design science
+Process improvement
+Prototype
+
+1. Introduction
+
+
+Information technology has fundamentally changed the
+production and dissemination of new knowledge. For
+example, in academia knowledge producers (authors) create
+manuscripts on sophisticated word processing software,
+share drafts and discuss ideas using a variety of communica-
+tion tools, and produce print-ready journal copy using desk-
+top publishing software. Teams of scientists can share and
+work on complex projects in ways that were simply not
+possible a few years ago, while authors of textbooks are now
+experimenting with electronic delivery mechanisms that will
+radically change the distribution model of the publishing
+industry.
+
+
+Despite these technological advances, the process for
+evaluating the content of publications remains largely un-
+changed. The focus of this paper is peer review, the process by
+which new knowledge is legitimized by its acceptance and
+dissemination to the wider community. Peer review is often
+described as an instance of decision making (e.g., [33]), and as
+an example of knowledge production and dissemination. Peer
+
+ff).
+
+
+All rights reserved.
+
+review is also time consuming and expensive. Editors believe
+that the largest “cost” of producing a journal is reviewing and
+editing [22]. Weber [34] estimated a reviewing “opportunity
+cost” of $24,500 for each published paper in Management
+Information Systems Quarterly.
+
+
+IT has already impacted the peer review process, most
+notably in the use of web-based document management tools
+that can manage the process of submission, review, and
+arriving at an editorial decision. Yet the peer review process
+itself is essentially the same as it was since it became
+prevalent over 100 years ago [28]. Most information technol-
+ogies simply automate the review process (e.g., [9]). The
+current peer review process of (often) slow back and forth
+deliberation among authors, reviewers, and editors continues
+the legacy of an earlier era defined by infrequent, high-cost
+communication. Watson [32] argues that though the Internet
+has improved some aspects of publishing, most of the changes
+are simple and focus on the tasks of publication (“alpha
+level”), there has been little to no change to people's roles
+(“beta change”) or a restructuring of the underlying system
+(“gamma change”).
+
+
+There is, however, a fundamental dilemma in researching
+how to use IT to improve the peer review process. There is no
+current literature that fully elaborates the potential problems.
+Further, there are no comprehensive behavioral models that
+
+
+
+mailto:David.Schuff@temple.edu
+
+http://dx.doi.org/10.1016/j.dss.2008.04.005
+
+http://www.sciencedirect.com/science/journal/01679236
+
+
+
+
+30 M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+can explain the impact of proposed IT enabled improvements.
+Therefore, we propose that both a design science and natural
+(behavioral) science research approach is necessary to build
+new utility into the peer review process and understand the
+impact of such proposed changes [15,20,31]. Cao et al. [5],
+who build on Hevner et al. [15], March and Smith [20], and
+Nunamaker et al.'s [24] design science approaches, suggest
+that a multi-methodological, cross-paradigm research
+approach that combines design and behavioral science will
+yield more powerful and insightful results. Research on the
+peer review process is at an early stage and very little ag-
+gregate knowledge has been accumulated, a combined ap-
+proach will therefore improve the chances that important
+behaviors are identified early and only the most useful
+technical artifacts are built. As Hevner et al. [15] argue,
+truth and utility are inseparable and “an artifact may have
+utility because of some as yet undiscovered truth. A theory
+may yet to be developed to the point where its truth can be
+incorporated into design” (p. 80).
+
+
+The remainder of this paper is structured using a
+combined design and natural science approach. First, we
+provide perspectives on peer review that illustrate the
+importance of the problem and our approach. Second, we
+apply the design science perspective to create a process based
+model to analyze the traditional peer review process and to
+serve as a baseline for changing the process. We propose a
+new process based on structured communication and
+implemented using a prototype system. Third, and in parallel,
+we apply the natural science perspective to develop a set of
+behavioral propositions to evaluate changes to the peer
+review process. The two perspectives of design and natural
+science come together in an exploratory study to evaluate the
+impact of the prototype system. In the final sections, the
+results of the study are discussed.
+
+
+2. The role and challenges of peer review
+
+
+Improving the peer review process is particularly impor-
+tant for academic publishing. Worldwide growth in the
+number of higher education institutions has led to an increase
+in the number of faculty. There is increased pressure on
+journals because of the increased volume of material
+requiring review. Word processing has reduced the time
+cost of resubmitting manuscripts to different outlets. The
+result is that there is an increasing burden on the traditional
+volunteer model of peer review accompanied by increasing
+dissatisfaction with the process. Readers of peer-reviewed
+research often complain about lack of quality, sterility of
+material, and irrelevance [10], and observers believe that the
+traditional peer review process is currently too slow, and
+lacking in quality, impartiality, validity, and reliability [2,33].
+According to Frost and Taylor [10], there are now questions
+about whether the centralized control structure of peer
+review and the publication process has led to a lack of
+innovation in the conventional outlets for academic scholar-
+ship. Journals often become equipped to handle the routine
+rather than recognize innovation and diversity [23]. More
+generally, at the policy level there have been questions about
+the application of peer review in science. For example,
+McCarty [21] outlines the experience of The American
+Psychologist in which a controversial article was accepted
+
+and then later rejected. The controversy was prominently
+played out on Internet newsgroups; the editor attributed
+some of the mistakes to the delays inherently built into a
+system based on postal mail.
+
+
+As a reaction to these and other problems, some have
+questioned the very concept of peer review. Horrobin [16]
+suggests that the peer review concept is fatally flawed
+because the people who serve as reviewers are never truly
+peers in terms of ability and that the process may inhibit truly
+innovative thinking. Bedeian [2] reports that Nobel laureate
+Rosalyn Yalow in her acceptance speech noted that “the truly
+imaginative are not being judged by their peers. They have
+none!” [35].
+
+
+Others have suggested that although peer review is viable,
+various improvements to the process should be considered.
+For example, Apt [1] proposes a model in which computer
+science can start new, free, high quality journals that are
+universally accessible to all on the web and which serve to
+increase the number of outlets available. Others have sug-
+gested an entrepreneurial approach that advocates radical
+changes to knowledge production with ideas such as self-
+publishing (“sky writing”) on the web and peer commentary,
+where comments are added to the published article after
+it has been peer reviewed [14]. Weblogs are the technical
+realization of this vision though they remain outside the
+realm of academic knowledge production. Bedeian [2]
+proposes a number of socially-motivated improvements to
+the peer review process including allowing authors to submit
+a note to reviewers with their submission, publishing referee
+comments, identifying the referees in the publication, rating
+review reports, and instituting an appeals process. Brown [4]
+proposes improvements to the process of peer review by
+advocating the double-blind evaluation process.
+
+
+In information systems there have been several efforts
+to improve peer review. Saunders [27] focuses on how
+reviewers and editors can practice “developmental review-
+ing” — the idea of providing the author with very detailed and
+constructive suggestions for revising the manuscript. Lee [19]
+outlines how information technology can be used to dis-
+seminate research and speed the review process. Weber [33]
+characterizes peer review as an instance of decision making
+and proposes improvements that include removing anonym-
+ity, and using the web to disseminate both papers under
+review and rejected papers along with their associated
+reviews. Watson [32] proposes certification and formal
+training for reviewers as well as restructuring the relationship
+between authors, reviewers, and editors into a “marketplace”
+where editors bid for articles based on reviews by accredited
+referees and authors evaluate review reports.
+
+
+Peer review is also being increasingly applied outside
+academic publishing. Grant makers, accounting audits, policy
+review, software development, and standards review (e.g.,
+IEEE) all apply peer review. Patton and Olin [25] provide a
+framework for applying peer review to improve regulatory
+decisions in response to recent controversies in the United
+States Congress about conflicts of interest. Accounting firms
+use peer review to evaluate other firms and accountants and
+there is discussion of how to improve the peer review process
+to make the results more public (e.g., [29]). Increasingly on
+the web, user-submitted reviews are used to augment
+information provided by the manufacturer or retailer (e.g.,
+
+
+
+
+
+
+Fig. 1. The peer review process in context.
+
+
+31M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+reviews by customers on Amazon.com) and provide recom-
+mendations (e.g., TripAdvisor.com).
+
+
+3. Part A — design science
+
+
+3.1. Analysis of the peer review process
+
+
+Peer review has been examined in almost every academic
+discipline. Yet, most articles are editorial-style thought pieces
+and there are few theoretical or empirical studies that
+consider the complete peer review process. Specifically, the
+literature does not go far enough in elaborating, demonstrat-
+ing, and evaluating how ITcan fundamentally change the peer
+review process. Given that most scholars are not ready to
+abandon the basic precept of peer review, we assume that
+review by peers is a given. However, the process by which the
+process is conducted could be improved. In this section, we
+build a process-based model of peer review that can identify
+and explain the problems and suggest potential IT solutions.
+
+
+Cummings and Frost [7] characterize academic publishing
+as a system of two related functions1. The communication
+process focuses on communicating high-quality manuscripts
+to readers, screening out lower quality articles, recognizing
+good scholarship, and communicating the accomplishments
+of a field to insiders and outsiders. The control process
+represents managing scarce resources such as available
+journal pages, gate keeping in terms of paper selection,
+representation, and power differential among actors.
+
+
+Cummings and Frost's [7] perspective is compatible with
+systems thinking. Academic publishing can be seen as a
+system in which ideas are communicated and controlled
+through processes to produce knowledge. The traditional
+peer review process is a type of communication and control
+process. The process itself has several components. Submit-
+ting includes the act of submitting (and resubmitting) the
+manuscript as well as associated activities such as interpret-
+ing submission guidelines, fitting the publication to the
+guidelines, and logistical challenges in making sure the
+
+1 We use the term process in the remainder of this paper and equate it
+with the term function as used by [7].
+
+publication has a reviewable article (e.g., the file is corrupt,
+pages are missing, etc.). Reviewing includes the act of re-
+viewing and associated activities such as interpreting the
+article, selecting reviewers, and dealing with late or inap-
+propriate reviews. Finally, deciding includes making the final
+editorial decision on the paper as well as associated document
+management activities such as keeping track of reviews.
+
+
+Fig. 1 depicts peer review as a set of processes that convert
+ideas into knowledge (published articles), and which are
+embedded within the larger academic publishing processes
+of communication and control. Key stakeholders such as
+authors, reviewers, and editors influence the process. Given
+our focus on peer review, we omit other important processes
+from Fig. 1 such as journal production (in which accepted
+papers are queued and prepared for publication). Submitting,
+reviewing, and deciding are presented sequentially only
+for illustrative purposes. For example, if an editor rejects a
+submission because it is in a foreign language, the reviewing
+process is never instantiated, and the decision is made
+immediately after submission.
+
+
+Information technology can support and change the com-
+munication and control processes. For example, IT can change
+control procedures by making the process for submitting
+manuscripts more convenient. More formally, IT can have a
+transactional impact [8] by improving the basic control and
+communication operations involved in knowledge produc-
+tion such as the submission of a manuscript. By allowing
+submission at any time and from any place, IT can also have a
+geographical and temporal impact. The ability to make manu-
+scripts available through the web gives IT the opportunity to
+perform a disintermediation role, and by recording revision
+marks in manuscripts IT can have a tracking role. IT can thus
+both improve and change the communication and control
+processes of academic publishing.
+
+
+Using this model we can place the perceived problems of
+traditional peer review in context. For authors, the process of
+submitting is often confusing and slow. There is perceived lack
+of transparency and accountability regarding the reviewing
+process. When the reviews are returned they are often late,
+lacking in quality because they did not understand their main
+thesis, and may reflect particularistic biases. Authors may feel
+
+
+
+
+
+
+32 M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+that the process does not add value and that there is pressure
+to conform to the reviewer's preferences, which may in turn
+lead to homogeneity of ideas and lack of innovation. Editors,
+on the other hand, are concerned about the lack of qualified
+reviewers, their responsiveness, and of ensuring consistency
+among reviews to avoid problems of disagreement among
+referees. Editors are also concerned about their reputation
+and may prefer to err on the side of caution resulting in
+rejection of marginal but potentially innovative articles,
+indicating problems in the deciding process. Finally, reviewers
+are underappreciated, feel the pressure to provide extremely
+detailed “developmental” reviews in the context of submis-
+sions that come from increasingly diverse research traditions,
+methods, and cultures, and wonder about the value they get
+from the process.
+
+
+It is interesting to note thatmost current attempts to apply
+IT to improve the peer review process have focused on
+improving the control aspects of the submitting process (e.g.,
+web based upload of documents) and the deciding process
+(e.g., keeping track of documents and reviews). Few efforts
+have focused on changing and trying to improve the actual
+reviewing process (the middle box of Fig. 1). Our focus is to
+go beyond the traditional automational and control power of
+IT and consider ways to transform the entire peer review
+process. The model in Fig. 1 provides a baseline view of the
+traditional peer review process that can be used to consider
+transformational changes.
+
+
+3.2. Proposed structured communication process and prototype
+
+
+3.2.1. Structured communication process
+Focusing on the communication aspects of the peer review
+
+
+process may lead to substantial improvements. Communica-
+tion, including informal communication, is an important tool
+of the scientific process [17,28]. We propose to link the key
+stakeholders (authors, referees, and editors) in the complete
+cycle of submission, refereeing, editing, presentation, and
+discussion using a structured communication process. Cur-
+rently, these stakeholders are connected by mediating roles
+played by editors. Authors submit articles into a black box and
+sometime later an acceptance or rejection emerges.
+Reviewers read submissions divorced from context with no
+opportunity to engage the author in discussion. Yet, simply
+increasing communication without controls or structure is
+not a practical solution. Instead, we propose a structured
+communication process.
+
+
+The goal of communication in peer review is to reach an
+editorial decision regarding an article. Goal-oriented com-
+munication has been extensively studied by philosophers,
+psychologists, sociologists, and others. One particularly
+relevant strand of work is research on mutual understanding
+[13,30] and common grounding [6]. According to Te'eni [30],
+goal-oriented communication consists of core content, con-
+text, and intention, and occurs within the context of the
+communicators' values, norms, and use of resources. The
+basic premise is that effective communication requires
+building mutual understanding as well as relationships
+among the communicators. Yet reaching mutual understand-
+ing is very difficult because of differences in the values and
+norms of the communicator and in the availability of
+contextual information.
+
+In peer review, communication is typically anonymous,
+sporadic, and conducted over great distances, cultures, and
+even disciplines, and achieving mutual understanding can be
+seen as a key factor in reaching the best editorial decision.
+Therefore, the challenge (and potential benefit) of improving
+communication in the peer review process is significant.
+Te'eni [30] integrates the relevant research on improving
+communication using information technology and proposes a
+set of design guidelines focusing on improving mutual
+understanding. Discussion forums (or bulletin boards) are
+well known technological tools that are widely used in
+industry for many different tasks. The structure afforded by
+the discussion forum design artifact can improve commu-
+nication and mutual understanding during the review
+process. We next describe the proposed structured commu-
+nication review process using the model from Fig. 1. The
+proposal includes changes to the overall review process per
+the model in Fig. 1, and changes to the communication
+processes as afforded by the discussion forum. The key design
+attributes are summarized by applying Te'eni's guidelines for
+designing goal-oriented communication support systems in
+Table 1.
+
+
+3.2.1.1. Submission. The traditional paper-based reviewing
+process typically only allows for a single opportunity to
+submit an article before it is passed through the reviewing
+cycle. While there are advantages to limiting authors to one
+complete submission/review/decision process, the use of IT
+can enhance communication between reviewers and authors
+so that authors can respond to questions from reviewers and
+editors between cycles of formal review. In the proposed
+structured communication process, all submissions are
+electronic and authors and reviewers interact with each
+other through an online discussion forum. Authors are
+allowed to submit additional material pertaining to the
+submission in response to the reviewers' questions (see
+below).
+
+
+3.2.1.2. Reviewing
+3.2.1.2.1. First stage. The reviewer is asked for a “pre-
+
+
+liminary decision” regarding the manuscript and is encour-
+aged to ask specific questions in the online forum. The review
+is then made available to other reviewers and authors for
+discussion and comment during a specified open window
+of time. During the open time window, authors and re-
+viewers interact with each other and respond to ques-
+tions and comments, clarify issues, provide additional
+information, and present arguments. The editors moderate
+the discussion.
+
+
+3.2.1.2.2. Second stage. When the open time window is
+completed, the discussion forum is closed to authors.
+Reviewers are informed that the discussion is closing and
+are asked to provide their final decision on the article after
+examining all interactions. All other aspects of the review
+process remain the same, including protecting the anonymity
+of the authors and reviewers.
+
+
+3.2.1.3. Deciding. When the open timeperiod is complete, the
+editor(s) make the final decision using the original reviews
+and the subsequent interaction in the discussion forum. The
+major change is that editors now have the interaction on the
+
+
+
+
+
+
+Table 1
+Key design attributes of proposed structured communication process
+
+
+Design guidelines (Te'eni [30]) Design attributes
+of proposed system
+
+
+Role within the peer review process
+
+
+Design must simultaneously consider enhancing
+mutual understanding and promoting relationships
+between communicators
+
+
+Common space The discussion forum provides a common space in which all authors and
+reviewers can see comments and responses. This common space can
+foster a sense of community and mutual trust since all content is
+available to all and all users can add to or start new conversations.
+Anonymity promotes interaction without fear of reprisal
+
+
+Design should support adaptive behavior,
+including the contingent use of alternative
+communication strategies, alternative message
+forms, and alternative media
+
+
+Interactive and parallel Authors and reviewers can adjust the contextual information needed to
+understand reviews and articles by asking and responding to more (or
+less) questions, or by ignoring irrelevant questions and responses. The
+“preliminary decision” process encourages adaptive behavior by
+allowing reviewers to change their decision based on additional
+information. The forum also makes it easy to manage and sustain
+multiple parallel conversations
+
+
+Design should monitor complexity and alert
+communicators to a high propensity of
+communication breakdowns
+
+
+Editable structure Discussion forums allow administrators (editors) to remove irrelevant
+posts and reorganize the posts so that they make more sense. Editors
+can easily see a communication breakdown by monitoring number of
+posts and responses and intervene if necessary. We added the artificial
+constraint of an “open time window for comments” to further limit
+complexity (see more below)
+
+
+Design should support multiple levels of
+communication and easy travel between levels
+
+
+Hierarchical Topics (papers) and responses (reviews and questions) are organized
+around a hierarchical “threaded” structure that makes it easy to navigate
+between main content (the paper and reviews) and contextual
+information. A follow-up comment is automatically and visually tied to
+the original comment
+
+
+Organizational memory should consist of speech act
+components, situations, norms, and values
+
+
+Stored All comments remain on the discussion forum so that authors and
+reviewers and editors can later refer to previous comments
+
+
+Organizational memory should consist of associative
+information, accessible through multiple
+media, and represented in multiple forms,
+allowing for indeterminate and emergent views as well
+
+
+Citation The ability to cite conversations and postings from different threads can
+lead to new and emergent discussions (e.g., a reviewer may cross cite a
+posting by another reviewer)
+
+
+33M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+forum, as well as the article and reviews per the traditional
+model, on which to base their decision. When a final editorial
+decision has been made, the authors (and reviewers) are
+informed and are again allowed to view the discussion forum.
+
+
+3.2.2. Prototype implementation
+To implement the structured communication process into
+
+
+a system, we created a secure web site following the
+discussion forum metaphor (see Fig. 2). The web site was
+created using Microsoft FrontPage and consisted of a series of
+Active Server Pages (ASP). The prototype went through
+several iterations to improve usability and performance for
+application in a live setting. One of the authors was the
+principal designer; while the editors involved in the explora-
+tory study (see below) acted as testers.
+
+
+The prototype implements the proposed structured
+communication process by (a) changes to the basic review
+process (e.g., the “open time window”) and (b) the dis-
+cussion forum design artifact. The prototype provides a
+common space, supports interactive and parallel conversa-
+tions, affords a hierarchical (and editable) visual structure,
+and allows cross referencing through citations and by
+storing all the conversations (see Table 1). We were unable
+to implement all the Te'eni (2006) guidelines. For example,
+the hierarchical structure of a discussion forum can also
+reduce adaptive behavior since there is only one way to see
+and use the forum, there are no automatic tools to provide
+communication breakdown alerts, and our implementation
+did not distinguish between different forms of commu-
+nicative acts.
+
+4. Part B — natural science
+
+
+4.1. Evaluating the new peer review process
+
+
+In this section, we propose a set of propositions to un-
+derstand and evaluate the impact of the proposed peer review
+process improvements. Novel “system building” research
+projects often evaluate well-known concepts such as ease of
+use and satisfaction. These concepts, though important, do
+not fully explain the underlying reasons why a proposed
+system is used or not used. Understanding this is critical when
+the proposed system is exploratory, can bemodified relatively
+easily, and the resulting usage patterns and behaviors are not
+fully understood. We developed the prototype in an iterative
+manner using real-world constraints while available theory
+and previous research provided guidance for the design
+choices. In other words, the “natural science” aspect reported
+in this section was developed in parallel with the “design
+science” aspect, and in an iterative manner. We found the
+following three perspectives to be useful in thinking about
+peer review.
+
+
+4.1.1. The rational actor perspective
+Frost and Taylor [10] provide an in-depth analysis of
+
+
+the peer review process from the editor's perspective. They
+suggest that the decision to accept or reject a manuscript may
+in the end be largely organizational and based on how well
+standard operating procedures, policies, and issues such as
+space, turnaround time, quality, number of submissions, and
+others are managed. Another aspect of the review process is
+
+
+
+
+
+
+Fig. 2. Prototype refereeing system.
+
+
+34 M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+the overall convenience of the process. These are largely
+independent concepts. For example, a process could honor
+deadlines and commitments but still seem inconvenient to
+authors and reviewers. Alternatively, the process could seem
+very convenient to authors and reviewers in terms of
+submission but suffer from poor management once the
+paper has been submitted. Any reasonably well-implemented
+IT based peer review process should improve management
+and convenience (e.g., it is easier to upload a file then to print
+out andmail it, and it is easier to collate reviews electronically
+than on disparate pieces of paper). This is a basic “automa-
+tional” power of IT. This leads to our first set of propositions:
+
+
+P1a: The structured communication process will im-
+prove the perception of how well the peer review
+process is managed as compared to the traditional
+reviewing process.
+
+
+P1b: The structured communication process will
+improve perceptions about the convenience of the
+peer review process as compared to the traditional
+reviewing process.
+
+
+In a study of how the Academy of Management Journal
+accepts and rejects articles, Beyer et al. [3] found that gate
+keeping – the use of normative rationalistic rules such as
+originality, clarity, sophisticated statistics and extensive
+documentation. In another study, Gilliland and Cortina [12]
+analyzed the underlying reasons for low inter-rater reliability
+of reviewers and found that reviewers agree on the basic
+criteria but apply them differently. The results of Beyer et al.
+[3] and Gilliland and Cortina [12] suggest that basic under-
+standability (or lack) of a manuscript or of the review of the
+
+manuscript can also impact perceptions of the peer review
+process and the resulting decision.
+
+
+In the proposed IT-enabled process, authors can easily
+obtain submission guidelines and other instructions.
+Reviewers can search and annotate articles. In addition,
+reviewers and authors can interact directly with each other.
+Other review reports are available to provide examples and
+provide insight for additional analysis and questioning. In
+summary, all of these opportunities to improve understand-
+ing suggest that:
+
+
+P2: The structured communication process will im-
+prove perceptions about the understandability of
+articles, reviews, and reviewing process as com-
+pared to the traditional reviewing process.
+
+
+4.1.2. Justice and fairness
+Pfeffer et al. [26] analyzed the decision-making aspect
+
+
+of the peer review process and compared universalistic
+criteria – consistent, organizationally held norms (such as
+merit), with particularistic criteria – individually held
+criteria (such as race or social connections). Decision-
+making follows universalistic standards when the standards
+are established and well-understood. Less developed dis-
+ciplines will face more uncertainty with regards to uni-
+versally held criteria and may default to particularism,
+which can impact perceptions of fairness. They found that
+particularism was more evident in the social sciences than
+natural sciences. Beyer et al. [3] also argue that “low-level”
+paradigm fields such as management will lead to higher
+particularistic decisions because these fields have no uni-
+versally held criteria.
+
+
+
+
+
+
+35M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+Gilliland and Beckstein [11] apply “organizational justice
+theory” to peer review and distinguish between the perceived
+justice of decision outcomes – termed “distributive justice” –
+from the justice of the decision processes – termed “proce-
+dural justice.” They argue that the peer review process is
+similar to organizational decisions such as performance
+appraisal and personnel selection, and can be seen as an
+assessment of the author's research performance. Specifically,
+the process of editorial decision making can be assessed in
+terms of perceptions of procedural justice, while perceptions
+about the fairness or justice of the actual outcome (accep-
+tance or rejection) can be assessed in terms of distributive
+justice. In their study, they found that concepts of justice and
+fairness were important in predicting reactions and author
+intentions to submit further work to the journal. Procedural
+justice was operationalized as (a) external consistency (how
+authors are treated as compared with other authors) and
+internal consistency (how the different reviews impact the
+decision to accept or reject), (b) perceptions of whether
+reviewers avoid personal bias in their decisions, (c) the
+timeliness of the feedback, (d) the explanation or justification
+provided for the decisions, and (e) the sensitivity with which
+the decision is conveyed to the authors.
+
+
+To evaluate the impact of our proposed improvements on
+the notion of “fairness” in the peer review process we must
+consider the perspectives of the authors, reviewers, and
+editors. For example, authors are likely to care about
+consistency (point (a) above) between a decision and the
+reviews, while reviewers are likely to be more concerned
+about being consistent with other reviewers regardless of the
+outcome. Therefore, we propose that the fairness of the
+review process is characterized by several factors, including
+impartiality (consistency and bias avoidance) and account-
+ability (tone and conduct of the process). Authors, reviewers,
+and editors are typically all interested in the overall fairness of
+the peer review process regardless of the specific reasons
+behind perceptions of fairness.
+
+
+The structured IT-enabled peer review process is trans-
+parent — authors know that all reviews are “public” and that
+they can be seen by the other stakeholders. In addition, there
+is open interaction between reviewers and authors through
+the discussion forum. Authors (and reviewers) also know that
+they can question the initial reviews and provide additional
+information to support their position. Reviewers can also see
+the other reviews on the discussion forum. Therefore, we
+propose that:
+
+
+P3: The structured communication process will im-
+prove perceptions of fairness as compared to the
+traditional reviewing process.
+
+
+Timeliness (point (c) above) encompasses a variety of
+process-related characteristics, including the speed of the
+submission process, the time a manuscript spends in review,
+responsiveness to questions about the process, and the
+timeliness of subsequent publication. We believe that these
+dimensions are implied by the more general concepts of
+management and convenience (as described in the previous
+section). Similarly, the concept of “explanation and justifica-
+tion” (point (d) above) was folded into the more general
+concept of understandability (also described in the previous
+
+section), which includes the explanation or understandability
+of the submission guidelines, the submitted manuscript,
+reviews, and publication guidelines.
+
+
+4.1.3. Knowledge production
+Laband [18] takes an economic perspective, characterizing
+
+
+scholarship and peer review as a knowledge production
+functionwith key inputs from authors, editors, and reviewers.
+He examined editorial correspondence and measured article
+and review quality by looking at items such as review length,
+citations, and time taken to revise. The basic thesis of the
+research was that reviewers and editors not only screen
+articles but also add value in the knowledge production
+process. Laband found that although editors' comments did
+not significantly increase manuscript quality, reviewer feed-
+back does seem to add value by contributing to knowledge
+production (in addition to their role as screeners). Laband's
+work suggests that the concept of value may also impact
+perceptions about the peer review process. A process that
+provides detailed reviews that reveal new directions and
+insights may not only be perceived as fair and well-managed,
+but will also be perceived as adding value to the process
+overall. Conversely, it seems feasible that even if a process is
+perceived as being unfair and badly managed, authors could
+still see it as valuable if the reviews were useful and the
+process, however poor, resulted in new insights.
+
+
+Laband's perspective also makes it clear that adding value
+(e.g., useful comments from the reviewers) has a cost in terms
+of effort. This is an important consideration given that most
+peer review processes are based on the volunteer model.
+Therefore, value is operationalized by both perceptions about
+the insights gained and also by the amount of effort required
+to provide and receive that insight. For authors, this would
+mean an assessment of the reviews and the effort required to
+understand and receive them. For reviewers, it is an
+assessment of the value the insight and knowledge gained
+by reading the manuscript, and of the value of being involved
+in the review process.
+
+
+In the structured IT-enabled peer review process, authors
+have the opportunity to gain direct feedback and clarifications
+from reviewers through the discussion forum. Reviewers can
+see other reviews and also question authors about topics of
+interest or to clarify points through the discussion forum.
+These opportunities for interaction may yield more accurate
+and substantive reviews and reduce the effort required
+to produce quality reviews. This leads to the following
+proposition:
+
+
+P4: The structured communication process will im-
+prove perceptions about value as compared to the
+traditional reviewing process.
+
+
+Laband's research and others (e.g., [6]) also focus on qu-
+ality of the article as an important end function of the peer
+review process. There are several aspects of “quality” in this
+context – the submitted manuscript, the peer review process,
+and the final manuscript. Direct perceptions about the quality
+of the peer review process itself are likely to be accounted for
+through other factors: fairness, understanding, value, and
+management. However, perceptions about whether changes
+to the peer review process improved the actual quality of an
+
+
+
+
+
+
+Table 2
+Author ratings
+
+
+Concept and Items Mean (sd)
+traditional system
+
+
+Mean (sd) structured
+communication system
+
+
+Understandability
+Understandability of
+submission guidelines
+
+
+1.83 (0.71) 1.77 (0.75)
+
+
+Understandability of reviews 2.67 (0.84) 2.05 (0.80)
+Understandability of the
+publication guidelines
+
+
+2.06 (0.44) 2.00 (0.55)
+
+
+Convenience
+Convenience of submission
+and review process
+
+
+1.83 (0.71) 1.41 (0.59)
+
+
+Convenience of the
+publication process
+
+
+2.67 (0.84) 1.95 (0.97)
+
+
+Management
+Timeliness of the submission
+and review process
+
+
+2.61 (1.14) 1.36 (0.49)
+
+
+Timeliness of the publication
+process
+
+
+2.27 (1.03) 1.62 (0.74)
+
+
+Responsiveness 2.67 (1.14) 1.50 (0.80)
+
+
+Fairness
+Impartiality 2.18 (0.88) 1.91 (0.68)
+Accountability 2.77 (1.01) 1.71 (0.78)
+
+
+Value
+Feedback 2.81 (1.05) 2.09 (0.68)
+Amount of effort required 2.14 (0.53) 2.35 (0.74)
+
+
+Scale: 1 = “Excellent”, 5 = “Very Poor.
+
+
+36 M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+article are important in evaluating the proposed improve-
+ments. Finally, consistent with other IT enabled process
+improvement research, it would be important to understand
+the level of overall satisfaction with the process. Positive
+perceptions about fairness, understanding, value, and man-
+agement should result in higher overall satisfaction. To
+summarize:
+
+
+P5: The structured communication process will im-
+prove perceptions about the peer review process in
+terms of its impact on the quality of the article
+when compared to the traditional reviewing
+process.
+
+
+P6: The structured communication process will im-
+prove perceptions about overall satisfaction as
+compared to the traditional reviewing process.
+
+
+Together, our seven propositions represent a simplistic
+additive behavioral model of the peer review process. In
+reality, the relationships among the constructs may be more
+complex. Further, the outcome of the editorial decision may
+influence the perceptions of the process itself (authorsmay be
+more likely to see a process as fair when the result is in their
+favor, regardless of the process details). Given the exploratory
+nature of this work, we decided to stay with a simple and
+parsimonious set of propositions. Empirical testing and
+application will hopefully, over time, build a more sophisti-
+cated behavioral picture of the peer review process.
+
+
+4.2. Exploratory study
+
+
+An exploratory study was conducted to evaluate the pro-
+posed structured communication process. Two mini-tracks at
+the Association of Information Systems (AIS) annual Americas
+conference participated in the study. There were a total of 28
+submissions, 47 authors, 25 reviewers, and five editors. One of
+the authors was co-cha for both tracks and acted as the
+“managing editor.” All submissions were sent by electronic
+mail to the managing editor. The authors and reviewers were
+then sent an explanation of the refereeing process. All reviews
+were posted to the prototype system to which each reviewer
+and author had secure but anonymous access (see Fig. 2).
+The peer review process was divided into two stages. Each
+reviewer was initially asked for a “preliminary decision” on
+the article and encouraged to ask specific questions. The
+review site was then made available to reviewers and authors
+for discussion and comment during the one-week time
+window. All identification information was removed and
+the process was double-blind. After the open time period
+the site was restricted to reviewers, whowere asked to look at
+all the comments and reviews and make a final decision. The
+site was then restricted to the track chairs, who analyzed all
+the comments and made final decisions for each article. A
+web-based questionnaire consistent with our propositions
+was administered to all participants. To gain comparative
+data, each participant was asked to rate their experience with
+the prototype system and with their most recent experience
+with the traditional refereeing process (excluding outlets that
+had a web-based reviewing system) on the dimensions of
+understandability, convenience, management, fairness, and
+value. Each dimension was comprised of two or three survey
+
+items accompanied by a brief, specific description of what
+should be evaluated (for example, “Responsiveness,” an as-
+pect of the Management dimension, was described as “kept
+informed of status, quick acknowledgement”). Respondents
+were asked to rate each item from 1 (“Excellent”) to 5 (“Very
+Poor”). We also asked participants several open-ended
+questions about the future impact of the structured commu-
+nication process.
+
+
+The study had a total of 36 sample points consisting of 22
+authors and 19 reviewers (note: some authors were also
+reviewers). Participation levels among respondents varied.
+While one respondent frequented the review site once a day,
+63% of the respondents visited the site once a week. On
+average, participants read four abstracts or papers (excluding
+their own) and eight additional reviews (excluding their
+own). Table 2 shows the descriptive statistics for authors and
+Table 3 for reviewers.
+
+
+5. Discussion
+
+
+The results of the exploratory study are encouraging with
+respect to our basic thesis that adding IT-enabled structured
+communication can provide benefits. The prototype system
+was rated more positively by authors on at least one aspect of
+understandability, convenience, management, fairness, and
+value. For reviewers, the perceived improvements were not as
+strong – only one measure of management (responsiveness)
+and one measure of fairness (impartiality) was rated more
+highly for the prototype system. The remainder of this section
+discusses the results across the five dimensions measured in
+this study in greater detail.
+
+
+
+
+
+
+Table 3
+Reviewer ratings
+
+
+Concept and Items Mean (sd)
+traditional system
+
+
+Mean (sd) structured
+communication system
+
+
+Understandability
+Understandability of
+submission guidelines
+
+
+2.46 (0.97) 1.92 (0.64)
+
+
+Understandability of the
+publication guidelines
+
+
+2.00 (0.91) 2.23 (0.72)
+
+
+Convenience
+Convenience of submission
+and review process
+
+
+2.00 (0.95) 1.62 (0.77)
+
+
+Management
+Timeliness of the submission
+and review process
+
+
+1.92 (0.86) 1.54 (0.52)
+
+
+Responsiveness 2.54 (1.39) 1.69 (0.63)
+
+
+Fairness
+Impartiality 2.17 (0.83) 1.83 (0.72)
+Accountability 2.17 (1.03) 1.92 (0.49)
+
+
+Value
+Feedback 2.46 (0.97) 2.23 (0.60)
+Amount of effort required 2.08 (0.69) 2.00 (0.82)
+
+
+Scale: 1 = “Excellent”, 5 = “Very Poor.
+
+
+37M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+5.1. Understandability
+
+
+The prototype system does not appear to improve the
+understandability of the guidelines of the review process, but it
+does seem to improve the understandability of the reviews
+for authors. This is plausible given that while the process of
+understanding reviews leverages the interactive nature of the
+prototype system, communicating guidelines is essentially one-
+way communication from editor to author. In their open-ended
+comments regarding understandability, participants remarked:
+
+
+• It may help clarify misunderstandings, give the author a
+chance to explain his side of the story, and get follow-up
+help from the reviewer (e.g., specific references).
+
+
+• It allows the quick resolution of misconceptions &
+misunderstandings
+
+
+• Major points can be clarified.
+• My concern is that people will get busy and not fulfill the
+goal of increasing interaction
+
+
+The results above suggest that the structured communica-
+tion process (supported by the common space, interactive,
+parallel, hierarchical, stored, and citation design attributes of
+the discussion forum) can increase interactivity, leading to
+increased understanding. Yet, this innovationwill only work if
+the authors and reviewers cooperate. One reviewer remarked:
+
+
+The lack of a response to my response made me decide
+not to give authors the benefit of the doubt. So instead of
+recommending accept with revision, I felt more confident
+about recommending reject.
+
+
+5.2. Convenience
+
+
+The authors also rated the prototype system as more
+convenient than the traditional peer-review system, but
+
+reviewers did not. This may reflect the authors' greater
+investment in the process and their positive response to the
+availability of more information regarding their submission
+(and the relative ease of navigation afforded by the hierarch-
+ical design attribute of a discussion forum). For reviewers,
+they are required to provide a greater level of information
+than they would under the traditional model of peer review.
+This may mitigate their positive perceptions of the process. In
+fact, one may find it surprising that reviewers did not rate the
+prototype system lowerwith regard to convenience given the
+“unpolished” interface of our prototype system (for example,
+the system lacked online help and error recovery). We believe
+the strength of the new review process resulted in the system
+being rated relatively highly.
+
+
+It is reasonable to assume future peer review systems will
+be better-designed and include convenience features that
+users expect (e.g., automatic password reset and an improved
+user interface). These improved systems should result in even
+higher convenience ratings by authors and at least no less
+convenient by reviewers. However, it would be unwise to
+assume that better technology will necessarily lead to better
+results. One participant remarked:
+
+
+Should also provide paper copies and away to get feedback
+in other than web-based because it was inconvenient to
+have to be tied to my terminal while working on this….
+
+
+5.3. Management
+
+
+Authors also rated the prototype system higher than the
+traditional peer review model with regard to management.
+Specifically, authors rated the timeliness of the submission,
+review, and publication process more highly. Again, this may
+reflect authors' higher level of investment in the process – the
+authors spend most of their time waiting during the peer
+review process, and therefore are more likely to notice
+improvement. Both authors and reviewers rated responsive-
+ness (a measure of management) more highly for the
+prototype system.
+
+
+5.4. Fairness
+
+
+Impartiality (an aspect of fairness) was rated more highly
+by both authors and reviewers. Authors (but not reviewers)
+also rated the prototype system highly with regard to
+accountability. Perhaps this is the most valuable aspect of IT
+enablement – authors and reviewers believe the structured
+communication offered by the system helps arrive at a “fair”
+assessment of the submission (supported by the common
+space, stored, and citation design attributes of the discussion
+forum). However, accountability is already inherent in
+many review processes and is not aided as clearly by the
+technology.
+
+
+We also asked participants an open-ended question about
+why they looked at reviews other than their own to gain
+further insight into the fairness concept. One participant
+commented that they looked at other reviews “To find out
+about other possible papers …, and also to find out more
+about the refereeing process as it applied to other papers.”
+Another participant more directly stated: “To compare
+assessments.” These comments do suggest that at least
+
+
+
+
+
+
+38 M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+some participants will actively assess the fairness of the
+process if given the opportunity to do so.
+
+
+5.5. Value
+
+
+Authors also rated value more highly for the proposed
+peer review process, while reviewers did not. Specifically,
+authors rated feedback highly, once again reflecting the
+greater investment authors have in receiving quality feedback
+regarding their work. There does not seem to be much
+difference with regard to effort for either authors or
+reviewers. This indicates a potential downside of structured
+communication – in order to provide a richer experience,
+more work is required on the part of the authors and
+reviewers. The open-ended question regarding why partici-
+pants looked at other papers and reviews also provided
+additional interesting insights. Curiosity was a common
+reason, however, the respondents also remarked:
+
+
+• Titles seemed interesting and related to my current re-
+search interests
+
+
+• Skimmed through to find those of interest.
+• get a sense of how to target the presentation
+• Curious about seeing what other reviewers comments
+looked like.
+
+
+• I was looking to see how others viewed papers which I had
+commented on. Mostly to see if I was off-base.
+
+
+• I enjoyed being able to read other people's entries and the
+associated comments. I wanted to affiliate with the other
+submissions.
+
+
+• I read them to verify my perceptions. I can be in error. If I
+find a mismatch betweenmy perception and the comments
+of others I may go back and reread which may or may not
+cause a change in my position on the review.
+
+
+These comments suggest that there are more dimen-
+sions of value and perceptions about increasing the overall
+quality of scholarship than we had originally conceptua-
+lized. Specifically, the participants seem willing and inter-
+ested in learning from the experience and adjusting their
+work accordingly. We suggest incorporating the concept of
+learning in the practice of reviewing and in future studies.
+Perhaps the greatest potential benefit of incorporating
+structured communication into the review process is that
+can become less of a control mechanism and more of a
+learning tool. Note that this particular insight follows
+directly from our combined design and natural science
+approach. The importance of learning would have been less
+obvious in the absence of a real design artifact to which
+users could react, and it might have become confounded
+with other issues if we had not delineated a baseline set of
+behavioral concepts.
+
+
+In contrast with the above, when commenting on the
+impact of the new process in increasing the quality of
+scholarship, one respondent said that the changes were
+positive in terms of the “ability to react to comments (can lead
+to dialog about issues/questions). However, the effort is
+possibly increased?” One way to understand the lack of
+positive ratings for the reviewer group is that the benefit of
+increased learning and increased accuracy for reviewers may
+not be significant enough to offset the time cost.
+
+5.6. Limitations
+
+
+There are several limitations in our study. First, the
+objectives and motivations of the various stakeholders will
+likely vary with the type of outlet. The difference in ratings
+might have been greater if this systemwas used for a journal's
+review process rather than a conference. Second, the study is
+exploratory and should be followed up with a more rigorous
+experiment. The prototype also had several technical limita-
+tions; for example, the web-based user interface could be
+improved. However, as outlined below, the overall research
+did yield new and interesting insights.
+
+
+6. Implications for future research and design
+
+
+6.1. Improving the peer review process with IT
+
+
+A discussion forum is an effective design artifact for
+promoting mutual understanding among authors and
+reviewers, resulting in a better evaluation of scholarly work.
+However, our results suggest that discussion forums cannot
+by themselves increase interaction and they do not support
+other process improvements that are likely needed to
+increase interaction such as reminders or ratings. Future
+design research should consider combining a discussion
+forum with a “document workflow” concept that visually
+depicts the flow of documents through the peer review
+process and provides embedded discussion forums as needed.
+The specific attributes of this combined discussion forum and
+workflow design artifact could include.
+
+
+• Automatic notification of new responses so the participants
+do not have to continually login and check for a response.
+
+
+• Providing automatic updates to authors, reviewers, and
+editors when milestone events occur such as the assign-
+ment of an editor, assignment of reviewers, and the sub-
+mission of a review.
+
+
+• Setting expectations up front about the level of interactivity
+required from authors and reviewers.
+
+
+• Educating the participants on the benefits of the structured
+communication approach. It is unclear if all the reviewers
+completely understood the potential benefits of the
+approach.
+
+
+• Allowing authors and editors to rate reviews and making
+the results public.
+
+
+The Te'eni [30] design guidelines were very useful in
+thinking about improving goal oriented communication.
+However, the guidelines are difficult to apply uniformly and
+consistently. Even though comprehensive application is not
+the authors stated intention, the lack of constraints can cause
+pitfalls. For example, one guideline recommends providing
+alternate communication strategies whereas another guide-
+line advocates enhancing mutual understanding. Applied
+blindly, these two suggestions could lead to contradictory
+outcomes. Too many different communication strategies
+could end up inhibiting the achievement of mutual under-
+standing! We found that the constraints and affordances of
+specific design metaphors such as “discussion forum” or
+“document workflow” were helpful in thinking about how to
+apply IT to peer review. Future design science researchers
+
+
+
+
+
+
+39M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+may want to consider going beyond design propositions (or
+guidelines) and suggesting specific design metaphors. These
+metaphors serve to bind the guidelines together and bring
+inherent constraints and affordances.
+
+
+6.2. Increasing our understanding of peer review
+
+
+The results indicate that the peer review process for
+authors can be improved comprehensively with IT. However,
+reviewers are skeptical of changes that will further increase
+their workload even though they tend to believe that the
+structured communication process can increase quality and
+perceptions of fairness. The concept of value holds the most
+promise for increasing our understanding of how reviewers
+approach peer review. Future studies need to measure value
+more precisely and include learning as a concept (as discussed
+previously). However, evenwith the limited understanding of
+value as provided by this study it is clear that approaches that
+increase the burden on reviewers, such as “developmental
+reviewing,” will only be embraced by the most diligent and
+are unlikely to succeed in the long run. We also suspect
+radical ideas are needed that go beyond traditional thinking.
+As Watson [32] suggested we need “gamma change” ideas
+such as his notion of formal certification for reviewers, a
+“scrip” system in which reviewers are obligated to review a
+certain number of articles in return for each submission, or
+even paying reviewers.
+
+
+7. Conclusions
+
+
+This paper analyzes the basic processes of peer review and
+proposed changes to the review process using an IT enabled
+structured communication approach. We investigated the
+problem from both a design science perspective through the
+development of a prototype system, and a natural science
+perspective by integrating previous literature into behavioral
+propositions that guided the evaluation of the prototype. An
+exploratory study provided further insights on the prototype
+system and on the underlying design and behaviors. This
+paper contributes to the literature at three different levels:
+
+
+• From the design science perspective we prototype and
+demonstrate how structured communication can improve
+the peer review process by employing artifacts that increase
+mutual understanding. An evaluation of the prototype sug-
+gests that future design research should consider inte-
+grating the design concepts of “discussion forums” and
+“workflow” to peer review. Newer design concepts also
+need to consider reviewer motivation and look for new and
+easier ways to engage reviewers. We believe our work is
+one of the first to consider and demonstrate how changing
+the process of review can lead to improvements.
+
+
+• From the natural science perspective, we show how the
+theoretical perspectives of procedural justice, the rational
+actor, and economic value are important to understand peer
+review. These perspectives can also be applied to other
+forms of peer review such as product reviews on the web or
+audits of accounting practices. Procedural justice speaks to
+concerns of fairness that will likely always exist in any
+process that involves evaluation of one group by another.
+The rational actor perspective provides insights into the
+
+administrative aspects of any kind of review, and the
+economic perspective provides insights on why people
+choose certain behaviors. The combination of these per-
+spectives into propositions is the first step toward devel-
+oping a comprehensive behavioral theory of peer review.
+The evaluation of the prototype provided additional in-
+sights including expanding the conception of value, adding
+learning as a concept, and suggesting refinements to the
+initial set of concepts.
+
+
+• This paper also contributes to implementing and refining
+design science methodology. In line with suggestions from
+the literature [5,15,31] we extend the application of the
+design science perspective by combining it with the natural
+science perspective. Rather than settle for traditional
+benchmark style measures such as ease of use or perfor-
+mance, we developed behavioral theoretical propositions in
+conjunction with prototype development. The process of
+developing the prototype and in parallel, considering eval-
+uation measures and theoretical approaches allowed us to
+converge on what we believe are key design artifacts (e.g.,
+structured communication, workflow) and behaviors (e.g.,
+fairness, value, learning) that might have been ignored by
+traditional approaches. The propositions provide a sub-
+stantive basis for evaluating current and future systems,
+and a specific direction for future research. To summarize,
+the combined approach is powerful because it generates
+new insights and lends more credibility to the results by
+anchoring design to behavioral issues of truth and relevance
+and anchoring behaviors to design issues of utility and
+feasibility.
+
+
+The structured communication process proposed in this
+paper is relatively easy to implement, and we encourage
+editors of conferences and journals to continue the process of
+experimentation. Moreover, given that review is, at its core, a
+process, we believe that future IS research can continue to add
+significant value to this very important aspect of academic
+scholarship as it is increasingly applied to other domains.
+
+
+Acknowledgements
+
+
+Thanks to Rick Watson, Simha Magal, and Blake Ives who
+were the co-mini track editors of the conference in which we
+tried out the peer review process. Thanks also to Lorne
+Olfman, Rick Watson, Blake Ives who reviewed previous
+drafts of this paper. Michael Carey, Zaheeruddin Asif, Cindy
+Marselis, Don Canuso, Laurel Miller, Deepika Gandhi, and
+Guoliang Hong also worked on the Temple Peer Review
+Manager system.
+
+References
+
+[1] K.R. Apt, One more revolution to make: free scientific publishing,
+Communications of the ACM 44 (5) (2001) 25–28.
+
+
+[2] A.G. Bedeian, Peer Review and the Social Construction of Knowledge
+in the Management Discipline, Academy of Management Learning &
+Education 3(2) 198-216.
+
+
+[3] J.M. Beyer, R.G. Chanove, W.B. Fox, The review process and the fates of
+manuscripts submitted to AMJ, Academy of Management Journal 38 (5)
+(1995) 1219–1261.
+
+
+[4] R. Brown, The use of double anonymity in peer review: a decisionwhose
+time has come? Quality Assurance 11 (2-4) (2005) 103–109.
+
+
+
+
+
+
+40 M. Mandviwalla et al. / Decision Support Systems 46 (2008) 29–40
+
+[5] J. Cao, J.M. Crews, M. Lin, A. Deokar, J.K. Burgoon, J.F. Nunamaker,
+Interactions between system evaluation and theory testing: a demon-
+stration of the power of a multifaceted approach to information systems
+research, Journal of Management Information Systems 22 (4) (2006)
+207–235.
+
+
+[6] H.H. Clark, S.E. Brennan, Grounding in communication, in: L.B. Resnick, J.
+Levine, S.D. Teasley (Eds.), Perspectives on Socially Shared Cognition,
+American Psychological Association, Washington, DC,1991, pp.127–149.
+
+
+[7] L.L. Cummings, P.J. Frost (Eds.), Publishing in theOrganizational Sciences,
+2nd Edition, Sage Publications, Thousand Oaks, California, 1995.
+
+
+[8] T.H. Davenport, J.E. Short, The new industrial engineering: Information
+technology and business process redesign, Sloan Management Review
+31 (4) (1990) 11–27.
+
+
+[9] P.V. Dressendorfer, Transition to Web-based peer review process for the
+transactions on nuclear science, IEEE Transactions on Nuclear Science 51
+(1) (2004) 233.
+
+
+[10] P.J. Frost, R.N. Taylor, Partisan Perspective: a multiple-level inter-
+pretation of the manuscript review process in social science journals,
+in: L.L. Cummings, P.J. Frost (Eds.), Publishing in the Organizational
+Sciences, 2nd Edition, Sage Publications, Thousand Oaks, California,
+1995, pp. 13–43.
+
+
+[11] S. Gilliland, B. Beckstein, Procedural and distributive justice in the
+editorial review process, Personnel Psychology 49 (3) (1996) 669–691.
+
+
+[12] S. Gilliland, J. Cortina, Reviewer and editor decision making in the
+journal review process, Personnel Psychology 50 (1997) 427–452.
+
+
+[13] J. Habermas, Moral Consciousness and Communicative Action (C.
+Lenhardt and S. W. Nicholsen, Trans.), MIT Press, Cambridge, Massa-
+chusetts, 1990.
+
+
+[14] S. Harnad, M. Hemus, All-or-none: no stable hybrid or half-way
+solutions for launching the learned periodical literature into the post
+Gutenberg galaxy, in: I. Butterworth (Ed.), The Impact of Electronic
+Publishing on the Academic Community, Portland Press, London, 1997,
+pp. 18–27.
+
+
+[15] A.R. Hevner, S.T. March, J. Park, S. Ram, Design science in information
+systems research, MIS Quarterly 28 (1) (2004) 77–105.
+
+
+[16] E.T. Horrobin, Peer review: a philosophically faulty concept which is
+proving disastrous for science, in: S. Harnad (Ed.), Peer commentary on
+peer review: A case study in scientific control, Cambridge University
+Press, Cambridge, United Kingdom, 1982, pp. 33–34.
+
+
+[17] R. Kraut, J. Galegher, C. Egido, Relationships and tasks in scientific
+research collaborations, in: I. Greif (Ed.), Computer Supported Coo-
+perative Work: A Book of Readings, Morgan Kauffman, California, 1988,
+pp. 741–769.
+
+
+[18] D.N. Laband, Is there value-added from the review in economics?
+Preliminary evidence from authors, The Quarterly Journal of Economics
+105 (2) (1990) 341–352.
+
+
+[19] A. Lee, Editor's comments, Management Information Systems Quarterly
+23 (4) (1999) lv–lx.
+
+
+[20] S.T. March, G. Smith, Design and natural science research on informa-
+tion technology, Decision Support Systems 15 (4) (1995) 251–266.
+
+
+[21] R. McCarty, Science, politics, and peer review, American Psychologist
+57 (3) (2002) 198.
+
+
+[22] S. Minton, M.P. Wellman, JAIR at five, AI Magazine 20 (2) (1999) 83–91.
+[23] W.R. Nord, Looking at ourselves as we look at others: an exploration
+
+
+of the publication system for organizational research, in: L.L. Cummings,
+P.J. Frost (Eds.), Publishing in the Organizational Sciences, 2nd Edition,
+Sage Publications, Thousand Oaks, California, 1995, pp. 64–78.
+
+
+[24] J. Nunamaker, M. Chen, T.D.M. Purdin, Systems Development in
+information systems research, Journal of Management Information
+Systems 7 (3) (1991) 89–106.
+
+
+[25] D. Patton, S. Olin, Scientific peer review to inform regulatory decision
+making: leadership responsibilities and cautions, Risk Analysis 26 (1)
+(2006) 5–16.
+
+
+[26] J. Pfeffer, A. Leong, K. Strehl, Paradigm development and particularism:
+journal publication in three scientific disciplines, Social Forces 55 (4)
+(1977) 938–951.
+
+[27] C. Saunders, From the trenches: thoughts on developmental reviewing,
+MIS Quarterly 29 (2) (2005) iii–xii.
+
+
+[28] A. Schaffner, The future of scientific journals: lessons from the past,
+Information Technology and Libraries 13 (4) (1994) 239–248.
+
+
+[29] A. Snyder, Increasing transparency in peer review: members speak out,
+Journal of Accountancy 198 (6) (2004) 22–23.
+
+
+[30] D. Te'eni, The language-action perspective as a basis for communication
+support systems, Communications of the ACM 49(5) 65-70.
+
+
+[31] J. Walls, G.Widmeyer, O. El Sawy, Building an information system design
+theory for vigilant EIS, Information Systems Research 3 (1) (1992)
+36–59.
+
+
+[32] R. Watson, The academic publication systems: A time for redesign,
+University of Georgia, Working Paper, 2006.
+
+
+[33] R. Weber, The journal review process: a manifesto for change,
+Communications of the Association for Information Systems 2(12)2-22.
+
+
+[34] R. Weber, Retrospection: the MIS quarterly's review processes: 1995–
+2001, MIS Quarterly 26 (2) (2002) v–xi.
+
+
+[35] R. Yalow, Competency testing for reviewers and editors, in: S. Harnad
+(Ed.), Peer commentary on peer review: A case study in scientific
+control, Cambridge University Press, Cambridge, United Kingdom, 1982,
+pp. 60–61.
+
+
+Munir Mandviwalla, Associate Professor, founding chair of the Management
+Information Systems department, and Executive Director, Irwin L. Gross
+Institute for Business and Information Technology, Fox School of Business,
+Temple University holds a BSc in Systems Engineering from Boston
+University, an MBA from the Peter F. Drucker School of Management at
+Claremont Graduate University, and a Ph.D. in Management Information
+Systems from the Programs in Information Science at Claremont Graduate
+University. His current research interests include communication technolo-
+gies, globalization, and the use of prototyping for theory development. His
+publications have appeared in Management Information Systems Quarterly,
+ACM Transactions on Computer Human Interaction, Journal of Organizational
+Computing and Electronic Commerce, Decision Support Systems, Small
+Group Research, Communications of the Association for Information
+Systems, and Information Systems Journal.
+
+
+Ravi Patnayakuni is an Associate Professor of information systems in the
+Department of Economics and Management Information Systems at the
+University of Alabama in Huntsville. His research focuses on, digital supply
+chains, IT business value, IT implementation, systems development and
+knowledge management. Ravi received his D.B.A from Southern Illinois
+University at Carbondale and has held positions at Temple University and The
+University of Melbourne, Australia prior to his current appointment. His
+research has been published in Journal of Management Information Systems,
+MIS Quarterly, Communications of the ACM, Omega, Communications of the
+AIS, and Information Systems Journal.
+
+
+David Schuff is Assistant Professor of Management Information Systems in
+the Fox School of Business and Management at Temple University. He holds a
+BA in Economics from the University of Pittsburgh, an MBA from Villanova
+University, an MS in Information Management from Arizona State University,
+and a Ph.D. in Business Administration from Arizona State University. His
+research interests include the strategic use of information systems, the
+assessment of total cost of ownership in large networked organizations, and
+data warehousing. His work has been published in journals such as Decision
+Support Systems, Information & Management, Communications of the ACM,
+and Information Systems Journal.
+
+
+
+

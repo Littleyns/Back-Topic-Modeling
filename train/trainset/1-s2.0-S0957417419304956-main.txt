@@ -1,0 +1,4429 @@
+
+
+
+
+
+
+
+
+
+
+Expert Systems With Applications 139 (2020) 112799 
+Contents lists available at ScienceDirect 
+
+
+Expert Systems With Applications 
+journal homepage: www.elsevier.com/locate/eswa 
+
+
+Resilient supplier selection in logistics 4.0 with heterogeneous 
+information 
+Md Mahmudul Hasan a , Dizuo Jiang a , A.M.M. Sharif Ullah b , Md. Noor-E-Alam a , ∗
+a Department of Mechanical and Industrial Engineering, Northeastern University, 360 Huntington Ave, Boston, MA 02115, USA 
+b School of Regional Innovation and Social Design Engineering, Kitami Institute of Technology, 165 Koen-cho, Kitami, Hokkaido 090-8507, Japan 
+a r t i c l e i n f o 
+Article history: 
+Received 22 April 2019 
+Revised 29 June 2019 
+Accepted 8 July 2019 
+Available online 13 July 2019 
+Keywords: 
+Logistic 4.0 
+Resilience 
+Supplier selection 
+Supplier’s Cost versus Resilience Index 
+(SCRI) 
+TOPSIS 
+Fuzzy Multi-Attribute Decision Making 
+(F-MADM) 
+
+
+a b s t r a c t 
+Supplier selection problem has gained extensive attention in the prior studies. However, research based 
+on Fuzzy Multi-Attribute Decision Making (F-MADM) approach in ranking resilient suppliers in logistic 4.0 
+is still in its infancy. Traditional MADM approach fails to address the resilient supplier selection problem 
+in logistic 4.0 primarily because of the large amount of data concerning some attributes that are quan- 
+titative, yet difficult to process while making decisions. Besides, some qualitative attributes prevalent in 
+logistic 4.0 entail imprecise perceptual or judgmental decision relevant information, and are substantially 
+different than those considered in traditional suppler selection problems. This study develops a Deci- 
+sion Support System (DSS) that will help the decision maker to incorporate and process such imprecise 
+heterogeneous data in a unified framework to rank a set of resilient suppliers in the logistic 4.0 environ- 
+ment. The proposed framework induces a triangular fuzzy number from large-scale temporal data using 
+probability-possibility consistency principle. Large number of non-temporal data presented graphically 
+are computed by extracting granular information that are imprecise in nature. Fuzzy linguistic variables 
+are used to map the qualitative attributes. Finally, fuzzy based TOPSIS method is adopted to generate 
+the ranking score of alternative suppliers. These ranking scores are used as input in a Multi-Choice Goal 
+Programming (MCGP) model to determine optimal order allocation for respective suppliers. Finally, a sen- 
+sitivity analysis assesses how the Supplier’s Cost versus Resilience Index (SCRI) changes when differential 
+priorities are set for respective cost and resilience attributes. 
+
+
+© 2019 Elsevier Ltd. All rights reserved. 
+1. Introduction 
+
+
+With the increasing requirements for industrial process due 
+to technological revolution, companies are facing rigorous chal- 
+lenges such as competitive global industry, increasing market un- 
+predictability, swelling customized product demands and short- 
+ened product renewal cycle ( Hofmann & Rüsch, 2017 ). Aligned 
+with the demanding industry, the fourth wave of technological in- 
+novation has been materialized, known as Industry 4.0. It refers to 
+so-called fourth industrial revolution in discrete and process man- 
+ufacturing, logistics and supply chain (Logistics 4.0), energy (En- 
+ergy 4.0) etc., which is resulted due to the digital transformation 
+of industrial markets (industrial transformation) integrated with 
+smart manufacturing. Powered by foundational technology such as 
+autonomous robots, simulation, cyber security, the cloud and addi- 
+tive manufacturing ( Rüßmann et al., 2015 ), Industry 4.0 improves 
+
+
+∗ Corresponding author. 
+E-mail addresses: hasan.mdm@husky.neu.edu (M.M. Hasan), 
+
+
+jiang.di@husky.neu.edu (D. Jiang), ullah@mail.kitami-it.ac.jp (A.M.M.S. Ullah), 
+mnalam@neu.edu (Md. Noor-E-Alam). 
+
+
+the manufacturing systems to an intelligent level that takes advan- 
+tage of advanced information and manufacturing technologies to 
+achieve flexible, smart, and reconfigurable manufacturing processes 
+in order to address a dynamic and global market ( Zhong, Xu, Klotz 
+& Newman, 2017 ). 
+
+
+As an essential and significant part of Industry 4.0, Logis- 
+tics 4.0 concerns the various aspects of end-to-end logistics in 
+the context of Industry 4.0, the Internet of Things (IoT), cyber- 
+physical systems, automation, big data, cloud computing, and In- 
+formation technology ( Hofmann & Rüsch, 2017; i-SCOOP, 2017a; 
+Rüßmann et al., 2015; Zhong et al., 2017 ). Logistics 4.0 aims to 
+develop a smart logistics system to fulfill the customer require- 
+ments in the current connected, digitalized and rapidly changing 
+global logistics market ( i-SCOOP, 2017b ). To adopt with an Indus- 
+try 4.0 environment, extensive cutting-edge applications have been 
+landed within logistics 4.0. Juhász and Bányai (2018) identified 
+challenges of just-in-sequence supply in the automotive industry 
+from the aspect of Industry 4.0 solutions and detected impacts of 
+Industry 4.0 paradigm on just-in-sequence supply. Ivanov, Dolgui, 
+Sokolov, Werner and Ivanova (2016) proposed a dynamic model 
+and algorithm for short-term supply chain scheduling problem that 
+
+
+https://doi.org/10.1016/j.eswa.2019.07.016 
+0957-4174/© 2019 Elsevier Ltd. All rights reserved. 
+
+
+
+https://doi.org/10.1016/j.eswa.2019.07.016
+
+
+
+
+
+http://www.ScienceDirect.com
+
+http://www.elsevier.com/locate/eswa
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.eswa.2019.07.016&domain=pdf
+
+mailto:hasan.mdm@husky.neu.edu
+
+mailto:jiang.di@husky.neu.edu
+
+mailto:ullah@mail.kitami-it.ac.jp
+
+mailto:mnalam@neu.edu
+
+https://doi.org/10.1016/j.eswa.2019.07.016
+
+
+
+
+2 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+simultaneously considered both machine structure selection 
+and job assignments in smart factories. Brettel, Friederichsen, 
+Keller and Rosenberg (2014) visualized the supply chain process 
+by introducing cyber-physical systems to bridge the advanced com- 
+munication between machines on the landscape of Industry 4.0. 
+
+
+With higher priority on customer satisfaction, incremental at- 
+tention has been drawn to the availability, reliability, flexibility 
+and agility of the logistics system ( Barreto, Amaral & Pereira, 
+2017; Witkowski, 2017 ). Unpredictable natural catastrophes or un- 
+expected man-made disasters, such as earthquakes, floods, labor 
+strikes and bankruptcy engender serious threat to the capabil- 
+ity of the logistics system on these aspects. Despite of low oc- 
+currence probability, the tremendous financial impacts of the dis- 
+ruptions in any form on the logistics system are much more ob- 
+vious. Renesas Electronics Corporation, a Japanese semiconductor 
+manufacturer and the world’s largest manufacturer of microcon- 
+trollers is an industry 4.0 company. They launched the R-IN32M4- 
+CL2 industrial Ethernet communication specific standard product 
+(ASSP) with integrated Gigabit PHY to support the increasing net- 
+work and productivity for Industry 4.0 companies on June 25, 2015 
+( Corporation, 2015 ). In earthquake and tsunami that struck the 
+northeast coast of Japan on March 2011, the corporation’s Naka 
+Factory and other manufacturing facilities were severely damaged 
+by the earthquake. The total losses caused by the disaster was 
+814.2 million USD, even though the insurance covered 198.9 mil- 
+lion USD ( Abe & Ye, 2012 ). UPS, the leading logistics company, 
+which has achieved great advancement in the fields of digitalized 
+logistics system and smart factory in the wave of Industry 4.0, suf- 
+fers from the lack of resilient supply chain as well. During the hur- 
+ricane Florence that threatened the east coast in mid-September 
+2018, the delivery rate reduced to 50% with thousands of delivery 
+exceptions ( SUPPLYCHAINDIVE, 2018 ). 
+
+
+To withstand against disruption a resilient supplier is indis- 
+pensable in the sourcing decision process while operating under 
+the principles of logistics 4.0. A resilient supplier usually has high 
+adaptive capability to reduce the vulnerability against disruptions, 
+absorb disaster impact and quickly recover from disruption to en- 
+sure desired level of continuity in operations following a disaster 
+( Sheffi, 2005; Sheffi & Rice, 2005 ). To comprehensively evaluate 
+the alternatives and select the optimal supplier, diverse factors are 
+needed to be taken into consideration. Several proactive strategies 
+such as suppliers’ business continuity plans, fortification of suppli- 
+ers, maintaining contract with back up suppliers, single and multi- 
+ple sourcing, spot purchasing, collaboration and visibility are con- 
+sidered to enhance supply chain resilience in the presence of oper- 
+ational and disruption risks ( Namdar, Li, Sawhney & Pradhan, 2018; 
+Torabi, Baghersad & Mansouri, 2015 ). Another study suggests that 
+suppliers’ reliability, and flexibility in production capacity play key 
+role in developing contingency plans to help mitigate the severity 
+of disruptions ( Kamalahmadi & Mellat-Parast, 2016 ). Criteria such 
+as supply chain complexity, supplier resource flexibility, buffer ca- 
+pacity and responsiveness were considered in traditional resilient 
+supplier selection problem ( Haldar, Ray, Banerjee & Ghosh, 2012, 
+2014 ). However, to select the resilient supplier in logistics 4.0 en- 
+vironment, additional aspects are required to be taken into consid- 
+eration regarding the features of logistics 4.0. 
+
+
+In logistics 4.0, most of the companies and related organizations 
+are adopting end-to-end information sharing technologies because 
+the amount of data produced and shared through the supply chain 
+is significantly increasing ( Domingo Galindo, 2016 ; G. Wang, Gu- 
+nasekaran, Ngai & Papadopoulos, 2016 ). Driven by the extensive 
+practical and efficient attributes, numerous applications of big data 
+are employed in delivery forecasting, optimal routing, and produc- 
+tivity monitoring and labor reduction ( Waller & Fawcett, 2013 ). 
+Making well-informed decisions in sourcing process also involves 
+a variety of massive data-based logistics aspects evaluation such 
+
+
+as delivery lead time, inventory level, production capacity, and op- 
+erational investment. Information sources such as ERP transaction 
+data, GPS-enabled data, machine-generated data and RFID data 
+are frequently transferred, stored and retrieved through the logis- 
+tics system, which require massive data manipulation methodology 
+( Rozados & Tjahjono, 2014 ). 
+
+
+With the widespread use of IoT, cyber-physical systems, and In- 
+formation technology, attention has been given on the supplier’s 
+performance and ability in responding to changing customer de- 
+mand with agility, warehouse automation, logistics system digital- 
+ization, information management and IT security, etc. The relevant 
+data from these fields are generally collected in various formats 
+at quick velocity, and entails large volume—all-together leads to 
+Big Data, which is often available as real-time and historical data. 
+Data that are collected in real-time is characterized by time series 
+whereas historical data is often presented in graphical format. At- 
+tributes that entail large amount of information in logistics 4.0 are 
+inventory level, schedule of delivery, production capacity, cost etc. 
+Processing these large amounts of data requires a formal computa- 
+tion process that can enable decision maker to efficiently evaluate 
+alternative decisions. 
+
+
+Therefore, for selecting resilient suppliers in logistics 4.0, a 
+decision-making framework is needed given the extensive impact 
+of sourcing decision on the supply chain resiliency, efficiency and 
+sustainability. The decision problem involves evaluation of several 
+alternative suppliers against multiple conflicting criteria. Moreover, 
+this problem even becomes more complicated when the decision 
+relevant information (DRI) are in heterogeneous form such as qual- 
+itative information that are imprecise in nature and vague some- 
+times, and large number of quantitative information that are dif- 
+ficult to process. To address this problem, we propose a Decision 
+Support System (DSS) leveraging the principle of Multi-Attribute 
+Decision Making (MADM) to rank alternative suppliers from re- 
+silience and logistic 4.0 perspectives. 
+
+
+The key contributions of this study are: 
+i. As the existing research on MADM has limited applicabil- 
+
+
+ity in the logistics 4.0 environment, we, for the first time 
+extend the F-MADM framework to logistics 4.0 industries 
+where selecting resilient suppliers has far reaching conse- 
+quence. The proposed DSS is capable of handling qualitative 
+attributes that entails imprecise DRI, and are substantially 
+different than those considered in traditional supplier selec- 
+tion problem. Moreover, our plan is to integrate large num- 
+ber of quantitative DRI, which in logistics 4.0 environment 
+is characterized by time series and graphical information. As 
+such, we propose an integrated decision-making framework 
+to process this heterogeneous information in a seamlessly 
+unified framework to facilitate the resilient supplier selec- 
+tion process for a logistics 4.0 industry. 
+
+
+ii. Commonly used fuzzy based TOPSIS technique solely de- 
+pends on the standard triangular linguistic class to handle 
+the qualitative appraisal in the decision making process and 
+lacks the sophistication in processing the quantitative infor- 
+mation. Our proposed DSS overcomes this limitation by suc- 
+cessfully converting and integrating the crisp granular infor- 
+mation extracted from graphically presented data into tri- 
+angular fuzzy based TOPSIS decision matrix. Crisp granu- 
+lar or c-granular information refers to the pieces of infor- 
+mation entailing well–defined crisp or ill-defined percep- 
+tual boundary consisting of sharp numbers ( Ullah & Noor- 
+E-Alam, 2018 ; Zadeh, 1997 ). 
+
+
+iii. Selecting suppliers by considering all attributes that share 
+equal preference usually generate inflated set of ranking 
+score which is generic, however, sometimes fails to address 
+the issue if a decision maker wants to put more importance 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 3 
+on one set of criteria than another. We divide the attributes 
+in two sets—mainly based on measure of resilience and 
+cost—used as efficiency measure. We further demonstrate 
+the capability of the proposed DSS to generate Supplier’s 
+Cost versus Resilience Index (SCRI) based on customized 
+preference given by the decision makers on cost and re- 
+silience attributes. 
+
+
+iv. We also extend the proposed DSS with the help of an or- 
+der allocation model leveraging Multi-Choice Goal Program- 
+ming (MCGP) technique. The optimal suppliers identified 
+with the help of F-MADM approach are only suitable for 
+single-sourcing problems in which the procurement quan- 
+tity can be satisfied by a single supplier. However, in a sit- 
+uation where procurement demand cannot be fulfilled by a 
+single supplier, and strategic decision makers want to diver- 
+sify their market, stabilize their sourcing channels while dis- 
+tributing risks on multiple suppliers and drive up competi- 
+tiveness, allocating orders among competitive suppliers can 
+turn out to be a viable strategy. As such, our framework will 
+empower decision makers to allocate orders among alterna- 
+tive suppliers by taking into account the ranking of individ- 
+ual suppliers that has been generated via F-MADM approach. 
+
+
+The rest of this paper is organized as follows. In Section 2 , 
+we review the relevant literatures. Then in Section 3 and 4 , we 
+present the theoretical concept needed to design the decision- 
+making framework. Section 5 describes the proposed DSS for sup- 
+pler evaluation and order allocation problem. In Section 6 , we il- 
+lustrate the effectiveness of the proposed DSS via a case study. Fi- 
+nally, in Section 7 we conclude the work conducted in this study 
+with future research directions. 
+2. Literature review 
+
+
+Multi-Criteria Decision Analysis (MCDA) approaches are widely 
+adopted in the fields of transportation, immigration, educa- 
+tion, investment, environment, energy, defense and healthcare 
+( Devlin, Sussex & Economics, 2011; Dodgson, Spackman, Pearman 
+& Phillips, 2009; Gregory et al., 2012; Mühlbacher, Kaczynski & 
+policy, 2016; Nutt, King & Phillips, 2010; Wahlster, Goetghebeur, 
+Kriza, Niederländer & Kolominsky-Rabas, 2015 ). Howard and Ralph 
+( Raiffa & Keeney, 1975 ) first introduce MCDA as a methodology 
+for evaluating alternatives based on individual preference, often 
+against conflicting criteria, and combining them into one single 
+appraisal. Prior studies have also applied MCDA approach to se- 
+lect suppliers using multiple attributes ( Lo & Liou, 2018; Ren, Xu & 
+Wang, 2018; Sodenkamp, Tavana & Di Caprio, 2018 ). Multi-Criteria 
+Decision Making (MCDM) with grey numbers was used to pro- 
+pose a conceptual framework for suppliers’ management entail- 
+ing selection, segmentation and development of resilient suppli- 
+ers ( Valipour Parkouhi, Safaei Ghadikolaei & Fallah Lajimi, 2019 ). 
+They used Grey DEMATEL technique to weigh the criteria consid- 
+ered for the two dimensions of resilience enhancer and resilience 
+reducer. Finally, Grey Simple Additive Weighting (GSAW) technique 
+was used to determine the ranking score of each supplier accord- 
+ing to each dimension. 
+
+
+As one of the most prevalent MCDA approaches, Analytical Hi- 
+erarchy Process (AHP) has been widely adopted to address supplier 
+selection problems ( De Felice, Deldoost & Faizollahi, 2015; Prasad, 
+Prasad, Rao & Patro, 2016 ). Saaty (1980) at first proposed the 
+methodology of AHP, which was then refined by Golden, Wasil and 
+Harker (1989) . In AHP method, the feature of original data set is 
+usually qualitative. In decision-making process, the master problem 
+is decomposed to sub-problems, making the unidirectional hier- 
+archical relationships between levels more understandable. Based 
+on the subdivisions, pairwise comparison between alternatives is 
+
+
+conducted to determine the importance of the criteria and priority 
+over all alternatives. During this decision-making process, the eval- 
+uation of alternatives is extended to qualitative field while multiple 
+criteria are considered, and the consistency of the system is satis- 
+fied. However, due to the subjectivity of the qualitative informa- 
+tion resulted from the discrepancy of decision makers’ experience, 
+knowledge and judgment, the uncertainty and imprecise nature in 
+the data are not dealt with, which may impair the reliability and 
+robustness of the result. 
+
+
+To help the stakeholders establish a more accurate and reli- 
+able approach, Yoon (1987 ) and Hwang, Lai & Liu (1993 ) devel- 
+oped TOPSIS (Technique for order preference by similarity to an 
+ideal solution). The underlying idea is that the optimal solution 
+should have the closest distance from the Positive Ideal Solution 
+(PIS) and longest distance from the Negative Ideal Solution (NIS). 
+TOPSIS can handle quantitative input data, which is different from 
+the basic feature of AHP. Because of its precise nature, TOPSIS has 
+been broadly applied in supplier selection problem. Shahroudi and 
+Tonekaboni (2012) adopted TOPSIS in the supplier selection pro- 
+cess in Iran Auto Supply Chain, in which both the numerical and 
+linguistic evaluation criteria are considered to determine the pref- 
+erential alternatives. In this study, numerical numbers (without 
+consideration of fuzziness of data set) are assigned to qualitative 
+data directly to generate the quantitative decision matrix for TOP- 
+SIS. To develop an integrated decision-making framework, some 
+group of researchers aggregated AHP with TOPSIS to better eval- 
+uate the alternative suppliers ( Bhutia & Phipon, 2012; Ş ahin & 
+Yi ̆gider, 2014 ). However, most of these methods utilized crisp in- 
+formation, and thus uncertainty, impreciseness and fuzziness na- 
+ture of the judgmental information are not considered. 
+
+
+To obtain better results in problems where decision making 
+and analysis are significantly affected by the uncertainty inher- 
+ent in the DRI, the fuzzy technique was introduced. Gan, Zhong, 
+Liu and Yang (2019) used fuzzy Best-Worst Method (BWM) to de- 
+termine the decision makers’ weight and modular TOPSIS to sort 
+and rank alternative suppliers form resiliency perspective in a ran- 
+dom and group decision making framework. Haldar, Ray, Baner- 
+jee and Ghosh (2014) integrated Triangular and trapezoidal linguis- 
+tic data to select resilient suppliers using TOPSIS. However, the cri- 
+teria used in these two studies were based on traditional supply 
+chain, which are not sufficient to comprehensively evaluate suppli- 
+ers from the perspective of logistics 4.0 and resiliency, simultane- 
+ously. Moreover, while evaluating suppliers they did not consider 
+the quantitative decision relevant information, which is often avail- 
+able for several attributes considered in case of logistics 4.0. 
+
+
+Atanassov (1999) , at first defined the concept and prop- 
+erties of Intuitionistic fuzzy set, which was then adopted by 
+Boran, Genç, Kurt and Akay (2009) and to the aggregated decision- 
+making framework in supplier selection problem. Wang, Smaran- 
+dache, Sunderraman and Zhang (2005) and Haibin, Smarandache, 
+Zhang and Sunderraman (2010) proposed the concept of single 
+valued neutrosophic set (SVNS), which can characterize the inde- 
+terminacy of a perceptual information more explicitly. SVNS was 
+then aggregated with TOPSIS by Ş ahin and Yi ̆gider (2014) to re- 
+place the crisp information in the decision matrix. Their find- 
+ings show that TOPSIS when integrated with SVNS performs bet- 
+ter with incomplete, undetermined and inconsistent information 
+in MCDA problems. As most of the membership functions in the 
+research mentioned above are assumed to be triangular, to find 
+another way to capture the vagueness of the qualitative infor- 
+mation, Positive Trapezoidal Fuzzy Number (PTFN) was proposed 
+by Bohlender, Kaufmann and Gupta (1986) and was introduced 
+by Herrera and Herrera-Viedma (20 0 0) in group decision making 
+problems. Chen, Lin and Huang (2006) adopted PTFN to present a 
+fuzzy decision-making framework to deal with supplier selection 
+problem. 
+
+
+
+
+
+
+4 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+Table 1 
+Framework of MADM. 
+
+
+Step 1 Defining the decision problem Select optimal supplier with highest resilience over a group of alternative suppliers 
+Step 2 Selecting and structuring attributes Identify the evaluation attributes with respect to supplier resilience 
+Step 3 Measuring performance Gather data about the alternatives’ performance on the attributes and summarize this in a decision matrix 
+Step 4 Scoring alternatives Evaluate the performance of the alternative suppliers based on the objective of the attributes 
+Step 5 Weighting criteria and decision makers Determine the weight of attributes and decision makers based on their importance 
+Step 6 Calculating aggregate scores Use the alternatives’ scores on the attributes and the weights for the attributes and decision makers to get 
+
+
+“total value” by which the alternatives are ranked with TOPSIS 
+Step 7 Dealing with uncertainty Perform Sensitivity analysis to understand the level of robustness of the MADM results 
+Step 8 Reporting and examination of findings Interpret the MADM outputs, including sensitivity analysis, to support decision making 
+However, in case of SVNS, when the decision makers’ evalu- 
+
+
+ation are provided as a single number within the interval [0,1], 
+it does not necessarily represent the underlying uncertainty as- 
+sociated with that evaluation scheme. Thus, in such context it 
+is preferred to represent the decision makers’ assessment by an 
+interval rather than a single number, indicating to the signifi- 
+cance of using Inter-valued Fuzzy Sets (IVFS). Guijun and Xiaop- 
+ing (1998) defined the concept of IVFS, while Ashtiani, Haghigh- 
+irad, Makui and ali Montazer (2009) extend the application of 
+IVFS in TOPSIS to solve Multi Criteria Decision Making problems. 
+Foroozesh, Tavakkoli-Moghaddam and Mousavi (2017) developed a 
+multi-criteria group decision making model integrating IVFS and 
+fuzzy possibilistic statistical concepts to weigh the decision mak- 
+ers involved in decision making process. Finally, with the help 
+of a relative-closeness coefficient based technique, they rank re- 
+silient suppliers under the interval-valued fuzzy uncertainty. Ad- 
+ditionally, Atanassov and Gargov (1989) proposed the notion of 
+Interval-valued Intuitionistic Fuzzy Sets (IVIFS) as a further gener- 
+alization of fuzzy set theory. Lakshmana Gomathi Nayagam, Mu- 
+ralikrishnan and Sivaraman (2011) adopted IVIFS in multi crite- 
+ria decision making problem. The method was then extended by 
+Chen, Wang and Lu (2011) and Chen (2015) to group decision mak- 
+ing setting, while Mohammad (2012) implemented this approach 
+in supplier selection problem. After reviewing the relevant liter- 
+atures, we found that the state-of-the-art studies deal with only 
+qualitative attributes, while we argue that many of the essential 
+and significant evaluation attributes may entail quantitative DRI, 
+especially for selecting resilient suppliers for logistics 4.0 compa- 
+nies. 
+
+
+It is true that the existing research have shown promising po- 
+tential of MCDA methods and fuzzy techniques in supplier selec- 
+tion problems ( Gan et al., 2019; Haldar et al., 2012, 2014; Hasan, 
+Shohag, Azeem & Paul, 2015; Jiang, Faiz & Hassan, 2018 ). How- 
+ever, there are limitations of the state-of-the-art literatures: (i) to 
+the best of our knowledge, no existing research extends F-MADM 
+framework in supplier evaluation problems leveraging large num- 
+ber of information (time series and graphical information), (ii) no 
+prior study investigated F-MADM approach for evaluating suppli- 
+ers’ performance from resilience and logistics 4.0 perspective, si- 
+multaneously, and (iii) it is not clear how fuzzy based TOPSIS can 
+be extended to process inherent uncertainty in decision relevant 
+information associated with both the quantitative and qualitative 
+attributes. These gaps in the existing studies create an avenue for 
+further research to extend F-MADM framework to help decision 
+makers in logistics 4.0 industries to strategically select resilient 
+suppliers considering qualitative and large number of quantitative 
+information, which lies in the central focus of this study. 
+3. Multi attribute decision making (MADM) and fuzzy logic 
+3.1. MADM 
+
+
+MADM provides a comprehensive decision analysis framework 
+that could help the stakeholders balance the advantages and dis- 
+
+
+advantages of the alternatives in a multi-dimensional optimization 
+problem, in which alternatives and evaluation attributes are the es- 
+sential variables. The general decision-analysis procedure of MADM 
+and the corresponding steps are summarized in Table 1 according 
+to Thokala et al., (2016) : 
+3.2. Technique for order preference by similarity to an ideal solution 
+(TOPSIS) 
+
+
+TOPSIS is a decision-making technique wherein the alternatives 
+are evaluated based on their numerical distance to the ideal solu- 
+tion. The closer the distance of an alternative to the ideal solution 
+and the farther to the negative ideal solution, the higher a grade 
+it would obtain. Because in this study, we are adopting triangular 
+possibility distribution or triangular fuzzy number (TFN) to express 
+the performance of the alternatives, Euclidian Distance is used to 
+measure the performance of the alternatives, and the function is 
+described as below ( ̧S ahin & Yi ̆gider, 2014; Singh, 2016 ): 
+s + 
+
+
+i = 
+√ 
+
+
+n ∑ 
+j=1 
+
+
+{ (
+a i j − a + j )2 + (b i j − b + j )2 + (c i j − c + j )2 } i = 1 , 2 , . . . , n 
+
+
+(3.1) 
+
+
+s −
+i = 
+
+
+√ 
+n ∑ 
+
+
+j=1 
+{ (
+
+
+a i j − a −j )2 + (b i j − b −j )2 + (c i j − c −j )2 } i = 1 , 2 , . . . , n 
+(3.2) 
+
+
+˜ ρi = s −i 
+s + 
+
+
+i + s −i , 0 ≤ ˜ ρi ≤ 1 (3.3) 
+where s + 
+
+
+i and s −i are the positive and negative ideal solution re- 
+spectively, ˜ ρi is the closeness coefficient, a ij , b ij , c ij are the com- 
+ponent of the TFN that express the performance of alternatives on 
+criteria j. a + 
+
+
+j , b + j , c + j are the corresponding components of the Posi- 
+tive Ideal Solution (PIS) and a −
+
+
+j , b −j , c −j are the corresponding com- 
+ponents of Negative Ideal Solution (NIS). 
+3.3. Properties of triangular fuzzy number (TFN) 
+
+
+A triangular fuzzy number (TFN) shown in Fig. 1 is defined with 
+three points as follows: 
+˜ A = ( a, b, c ) 
+where [a, c] is the support and µ ˜ A (b) = 1 is the core of the fuzzy 
+number. This representation is interpreted in terms of membership 
+functions as follows: 
+µ ˜ A ( x ) = 
+
+
+⎧ 
+⎪ ⎪ ⎪ ⎨ 
+⎪ ⎪ ⎪ ⎩ 
+
+
+0 , f or x < a 
+x −a 
+b−a , f or a < x < b 
+c−x 
+c−b , f or b < x < c 
+
+
+0 , f or c < x 
+(3.4) 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 5 
+
+
+Fig. 1. Triangular fuzzy number. 
+The operation of the TFN could be summarized as fol- 
+
+
+lows ( Mahapatra, Mahapatra & Roy, 2016 ): let A = ( a 1 , b 1 , c 1 ), 
+B = ( a 2 , b 2 , c 2 ), r is a real number, then, 
+1) Addition : A + B = ( a 1 + a 2 , b 1 + b 2 , c 1 + c 2 ) 
+2) Subtraction : A − B = ( a 1 − c 2 , b 1 − b 2 , c 1 − a 2 ) 
+3) Multiplication : A × B = ( a 1 × a 2 , b 1 × b 2 , c 1 × c 2 ) 
+
+
+A × r = ( a 1 × r, b 1 × r, c 1 × r ) 
+(3.5) 
+
+
+The underlying reason for using TFN instead of other fuzzy 
+techniques is primarily due to the probability-possibility consis- 
+tency principle that induces TFN from time series data. Moreover, 
+TFN also provides the basis for converting granular information 
+that are extracted from graphically presented historical data. 
+3.4. Membership function and reliability modification 
+
+
+The definition of membership function was first introduced by 
+Zadeh (1965) , where the membership functions were used to op- 
+erate on the domain of all possible values. In fuzzy logic, member- 
+ship degree represents the truth value of a certain proposition. 
+
+
+Different from the concept of probability, truth value repre- 
+sents membership in vaguely defined sets. For any set X, the mem- 
+bership degree of an element x of X in fuzzy set A is denoted 
+as µA ( x ), which quantifies the grade of membership of the element 
+x to the fuzzy set A. To calculate the membership degree, the uni- 
+verse of discourse concerning different attributes are fuzzified us- 
+ing linguistic classes according to the granule definiteness axiom 
+of multi-granularity ( Sharif Ullah, 20 05; Ullah, 20 05 ). Fig. 2 shows 
+the fuzzification of universe of discourse or frame of discernment 
+consisting [a, b]. 
+
+
+For the frame of discernment shown in the Fig. 2 , the mem- 
+bership functions for the 7 different classes (B, MB, …,VVG) are 
+calculated as follows: 
+
+
+m B = max (0 , a 3 −x a 3 −a )
+m MB = max (0 , min ( x −a 1 a 3 −a 1 , a 5 −x a 5 −a 3 )
+
+
+· · · · · ·
+
+
+m V VG = max (0 , x −a 11 b−a 11 )
+(3.6) 
+
+
+where a i = a + b−a 2 ×7 , i = 1 , 2 , . . . , ( 2 × 7 − 1 ) , and 7 is the num- 
+ber of class in this frame of discernment. The membership func- 
+tions are assumed to be triangular and symmetric. The member- 
+ship function for each class depends on the frame of discernment 
+of the attribute. 
+
+
+As the membership functions are assumed triangular and sym- 
+metric for the fuzzified frame of discernment, the uncertainty and 
+impreciseness of the functions need to be taken into considera- 
+tion. Wen, Miaoyan and Chunhe (2017) proposed a reliability-based 
+modification to deal with uncertainty of information and the reli- 
+ability of information sources. The reliability of the membership 
+functions is measured by the static reliability index and dynamic 
+reliability index. Static reliability index is defined by the similarity 
+among classes, while dynamic reliability index is measured by the 
+risk distance between the test samples and the overlapping area 
+among classes, respectively. The comprehensive reliability is com- 
+puted by the product of the two index, and the reliability-based 
+membership function are fused using Dempster’s combination rule 
+( Dempster, 1967; Wen et al., 2017 ). The numerical examples pro- 
+vided by Jiang et al. (2018) verified the effectiveness of the relia- 
+bility modification approach in membership functions. 
+
+
+The static reliability index is measured by the overlapped area 
+between two adjacent classes. In Fig. 3 , the shaded area is the 
+overlapped region between classes M and MG. 
+
+
+The larger the overlapped area between classes M and MG, the 
+more likely that an input data is wrongly recognized in a linguistic 
+class. The similarity between classes M and MG sim M , MG in a cer- 
+tain attribute and the corresponding static reliability index R s 
+
+
+j for 
+C j can be described according to Wen et al. (2017) : 
+si m M,MG = ∫ 
+
+
+d 
+c min 
+
+
+c≤x ≤d ( m M ( x ) , m MG ( x ) ) dx 
+∫ m M ( x ) + m MG ( x ) − ∫ d c min 
+
+
+c≤x ≤d ( m M ( x ) , m MG ( x ) ) dx 
+(3.7) 
+
+
+R s j = ∑ 
+i<l ( 1 − si m il ) (3.8) 
+
+
+where i and l are the adjacent classes in the same universe of dis- 
+course in one attribute. 
+
+
+The dynamic reliability index is measured with a set of test 
+sample and calculated by the risk distance between the peak of 
+overlap area and the test value. 
+
+
+If P M , MG is the peak of the overlap area between classes M and 
+MG in Fig. 4 , and T j is the test sample generated for C j , the distance 
+d between T j and P M , MG represents the risk distance that related to 
+the uncertainty of the test sample. The risk distance and dynamic 
+reliability index for C j can be formulated as: 
+d M,MG = 
+
+
+∣∣T j − P M,MG ∣∣
+D (3.9) 
+
+
+R d j = e 
+n ∑ 
+2 d ( l−1 ) l (3.10) 
+
+
+where D is the range of the universe of discourse of C j , which is 
+(a − b) in Fig. 3 . 
+
+
+Fig. 2. Fuzzified frame of discernment. 
+
+
+
+
+
+
+6 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+
+
+Fig. 3. Illustration of static reliability index. 
+
+
+Fig. 4. Illustration of dynamic reliability index. 
+Then the comprehensive reliability index for C j can be defined 
+
+
+as: 
+R j = R s j × R d j (3.11) 
+
+
+After the normalization we get, 
+R ∗j = R j 
+
+
+max (R j ) (3.12) 
+Then, the reliability-modified membership degree can be calcu- 
+
+
+lated as: 
+m R ∗j 
+
+
+jl = R ∗j × m l (3.13) 
+where l is a linguistic class in a universe of discourse. 
+4. Quantitative data analytics 
+4.1. Processing time-series data 
+
+
+Sharif Ullah and Shamsuzzaman (2013) proposed an approach 
+that can represent the uncertainty under a large set of continu- 
+ous time-series input parameters (temporal data) by point cloud 
+and transfer it to a graphical fuzzy number based on probability- 
+possibility transformation. The transformation process is general- 
+ized as follows: 
+
+
+Assume, we have a temporal data presented in time-series data 
+as shown in Fig. 5 . 
+
+
+t
+
+
+x(
+t)
+
+
+0 75 150 225 300 375 450
+400
+
+
+420
+
+
+440
+
+
+460
+
+
+480
+
+
+Fig. 5. Original time-series data. 
+
+
+If we set the x ( t ) as the x-coordinate and x ( t + 1) as the y- 
+coordinate, this set of parameters could be represented as a point 
+cloud as shown in Fig. 6 , providing a visual/computational repre- 
+sentation of variability, modality, and ranges associated with the 
+quantity. 
+
+
+Assume, g ( x ) be the probability density functions (pdf) that rep- 
+resent the underlying point-cloud of x ( t ), the cumulative pdf, F ( x ), 
+can be defined as: 
+F ( x ) = ∫ g ( x ) dx 
+
+
+Let PrA ( x ) denote the following formulation: 
+P rA ( x ) = dF ( x ) 
+
+
+dx 
+A possibility distribution given by the membership function 
+
+
+µ( x ) can be defined as: 
+µ( x ) = P rA ( x ) 
+
+
+max ( P rA ( x ) | ∀ x ∈ X ) 
+After the probability-possibility transformation, the point cloud 
+
+
+is transferred to a triangular possibility distribution or TFN in a 
+graphical format as shown in Fig. 7 . In what follows, the triangular 
+fuzzy set can be expressed as: 
+A = ( 425 , 442 , 452 ) 
+
+
+x(t)
+
+
+x(
+t+
+
+
+1)
+
+
+400 420 440 460 480
+400
+
+
+420
+
+
+440
+
+
+460
+
+
+480
+
+
+Fig. 6. Transferred point-cloud. 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 7 
+
+
+x
+
+
+m
+ul
+
+
+(x
+)
+
+
+420 425 430 435 440 445 450 455
+-0.2
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+Fig. 7. Graphical triangular fuzzy number. 
+4.2. Processing graphical information 
+
+
+In the logistics 4.0 system, the data are not always generated 
+in the format of continuous time-series. Sometimes they are gen- 
+erated discretely and stored in the data base for future access. 
+These historically stored data can be expressed in pieces of graphs 
+( Domingo Galindo, 2016 ) because when visualized, these pieces of 
+graphs can potentially present a large amount of information in an 
+easy-to-understand way. Then, the necessary DRI in terms of pieces 
+of crisp granular information can be extracted from these graphi- 
+cally presented data according to Ullah and Noor-E-Alam (2018) . 
+Fig. 8 (a) shows the visualization of data collected for five suppliers 
+concerning cost per unit of product and production capacity. Then, 
+graphical data associated with a single supplier can be extracted 
+from the combined graph and is presented in Fig. 8 (b). Once data 
+for individual supplier is presented graphically, then the associ- 
+ated DRI concerning cost per unit of product and production ca- 
+pacity can be extracted in the form of crisp granular information 
+or ranges as visualized in Fig. 8 (c) and (d), respectively. 
+5. Proposed supplier evaluation and order allocation model 
+
+
+In this Supplier Evaluation and Order Allocation Model, both 
+the quantitative and qualitative information are characterized by 
+triangular fuzzy number (TFN) to evaluate the performance of the 
+alternatives in a unified platform, simultaneously. For the quanti- 
+tative attributes, time-series and non-time series data are trans- 
+ferred to fuzzy set through point cloud and graphic extraction 
+approaches, respectively, while qualitative assessments, including 
+performance and weight appraisal, are transferred directly based 
+on the standard fuzzification process of the frame of discernment. 
+With the fuzzy set for all attributes and weights, the weighted de- 
+cision matrix is constructed. Then the algorithm of TOPSIS is per- 
+formed to evaluate the performance of the alternatives and gener- 
+ate the list of preference based on the obtained ranking score. Fi- 
+nally, the ranking score are regarded as the coefficient in the MCGP 
+to calculate the order allocation plan that best fulfill the require- 
+ments of the decision makers. To provide a comprehensive and un- 
+derstandable illustration for the proposed supplier evaluation and 
+order allocation model, we present a complete computation pro- 
+cess with detailed description below: 
+
+
+Step 1: Processing quantitative data 
+In this step, we process and transfer the large number of quan- 
+
+
+titative data entailing time-series and non-time series data, which 
+are available in pieces of graphics. Following two sub-steps consti- 
+tute this step. 
+
+
+Step 1(a): Transferring time-series based quantitative data to 
+TFN 
+
+
+At first, the time-series data, for supplier S i on attribute C j are 
+expressed by a point cloud in the form of P ( x ( t ), x ( t + 1)) accord- 
+ing to the principle explained in Section 4.1 . After the point cloud 
+transformation, the data are transferred to a possibility distribution 
+of triangular form as shown in Fig. 7 , which can be represented by 
+a TFN in the form of A ij ( a ij , b ij , c ij ). 
+
+
+Step 1(b): Transferring non-time series based graphical data 
+to TFN 
+
+
+After the information extracted from the graphical information 
+in the form of crisp granular information, the randomly obtained r 
+number of crisp granular information or ranges for supplier S i on 
+attribute C j , R ijr ( p ijr , q ijr ), are presented in Table 2 . 
+
+
+Table 2 
+Example of extracted ranges. 
+
+
+Ranges C j 
+R ij 1 ( p ij 1 , q ij 1 ) 
+R ij 2 ( p ij 2 , q ij 2 ) 
+… …
+
+
+R ijr ( p ijr , q ijr ) 
+After collecting all the crisp granular information for every al- 
+
+
+ternative supplier, we fuzzify the frame of discernment associated 
+with every non-time series attribute C j based on the fuzzification 
+approach proposed in Ullah and Noor-E-Alam (2018) . In the fuzzi- 
+fication process, the span of the frame of discernment is generated 
+by the minimum and maximum of all the extracted crisp granular 
+information for a certain attribute regarding all the alternative sup- 
+pliers, while the number of linguistic terms is determined accord- 
+ing to the granule definiteness axiom ( Sharif Ullah, 2005; Ullah, 
+2005 ). For Example, if p min = min 
+
+
+r p i jr , q max = max r q i jr , the frame 
+of discernment of C j presented as U = [ p min , q max ] can be fuzzified 
+as shown in Fig. 9 . 
+
+
+After the fuzzification process, the linguistic classes l and asso- 
+ciated TFN table are constructed as in Table 3: 
+
+
+Table 3 
+Linguistic terms and associated TFN. 
+
+
+Linguistic Terms TFN ( a , b , c ) 
+B a B b B c B 
+MB a MB b MB c MB 
+… … … …
+
+
+l m a l m b l m c l m 
+where B and MB represent linguistic terms expressed as Bad, Mod- 
+erately Bad, and l m is m th linguistic term that can assume the form 
+such as Bad (B), Moderately Bad (MB), Moderately Good (MG), 
+Good (G) etc. 
+
+
+With the fuzzified frame of discernment, the membership de- 
+gree for every range value R ijr ( p ijr , q ijr ) on each linguistic class is 
+computed based on ( 3.6 ). 
+m i j = 
+
+
+∫ 
+x ∈ R m F ( x ) dx 
+
+
+R ′ (5.1) 
+where R refers to the span of the criteria and R ′ refers to the 
+largest segment of R that belongs to the support m F . This way, the 
+membership degree of R ijr ( p ijr , q ijr ) on attribute C j at linguistic class 
+l is calculated as M ijrl . 
+
+
+Because all the membership functions are assumed to be sym- 
+metric and triangular, we perform reliability modification for the 
+calculated membership degrees. According to Eqs. (3.7 )–( 3.12 ), the 
+comprehensive reliability indexes for C j could be generated as 
+Rc j . Multiplied with the obtained Rc j based on ( 3.13 ), the original 
+
+
+
+
+
+
+8 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+
+
+(a) Data visualization for all 
+suppliers
+
+
+(b) Extracting graph for a 
+single supplier
+
+
+(d) Crisp granular information 
+concerning production capacity
+
+
+(c) Crisp granular information 
+
+
+Fig. 8. Graphical information extraction process. 
+
+
+Fig. 9. Fuzzified frame of discernment. 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 9 
+Table 4 
+Example of original linguistic data. 
+
+
+C j 
+Supplier / DMs DM 1 DM 2 … DM k 
+S 1 L 1 j 1 L 1 j 2 … L 1 jk 
+S 2 L 2 j 1 L 2 j 2 … L 2 jk 
+… … … … …
+
+
+S i L ij 1 L ij 2 … L ijk 
+membership degree M ijrl can be modified as M ′ i jrl . As there are r 
+computed modified membership degrees for each linguistic class, 
+we aggregate them as follows: 
+M ∗i jrl = ∑ 
+
+
+r M ′ i jl (5.2) 
+Then, the reliability modified membership degrees are normal- 
+
+
+ized to induce TFN for the integrated TOPSIS decision matrix as 
+mentioned below: 
+N i jl = M ∗i jl ∑ 
+
+
+M ∗
+i jl , 
+
+
+∑ 
+N i jl = 1 (5.3) 
+
+
+To generate the TFN for the attribute involving non-time se- 
+ries graphical information, we utilized the TFN for every linguis- 
+tic class in Table 3 and the membership degrees calculated above. 
+In this integration process, without loss of information generality, 
+the membership degree is regarded as the weight of each linguis- 
+tic class for every alternative concerning each attribute. Then the 
+membership degree is converted to TFN that will be used in the 
+TFN based TOPSIS decision matrix. The integrated TFN is presented 
+as A ij ( a ij , b ij , c ij ): 
+a i j = ∑ 
+
+
+l a l N i jl 
+b i j = ∑ 
+
+
+l b l N i jl 
+c i j = ∑ 
+
+
+l c l N i jl 
+(5.4) 
+
+
+where l is the linguistic class in Table 3 . 
+Step 2: Processing qualitative data 
+Step 2 process and transfer qualitative data associated with 
+
+
+supplier performance and importance weight of underlying at- 
+tributes evaluation provided by multiple decision makers (DM). 
+Following two sub-steps entails step 2. 
+
+
+Step 2(a): Processing and transferring qualitative data entail- 
+ing suppliers’ performance evaluation to aggregated TFN 
+
+
+The qualitative assessments given by the decision makers for 
+each supplier against each attribute are directly transferred to re- 
+spective TFNs. For example, a set of qualitative assessments for i th 
+suppliers on attribute C j given by k th DM can be represented as in 
+Table 4 . The qualitative assessment given by L ijk can assume any 
+of the form given by Bad (B), Moderately Bad (MB), Moderate (M), 
+Moderately Good (MG), Good (G), Very Good (VG), Very Very Good 
+(VVG), and Extremely Good (EG). 
+
+
+These qualitative appraisals are then converted to respective 
+TFNs using standard TFN ( Table 14 in Appendix A ) associated with 
+different linguistic classes, similar to ( Chen et al., 2006 ). The con- 
+verted TFN can be presented as in Table 5 . In doing so, the uncer- 
+tainty associated with vague qualitative assessment is also quanti- 
+fied with the help TFN. 
+
+
+Finally, the TFN-based TOPSIS decision matrix is constructed 
+by incorporating and aggregating the conflicting qualitative assess- 
+ments provided by all the DMs involved in the decision-making 
+process. This is similar to what is proposed by Chen et al. (2006) as 
+
+
+Table 5 
+Example of TFN decision matrix. 
+
+
+C j 
+Supplier / DMs DM 1 DM 2 … DM k 
+S 1 ( a 1 j 1 , b 1 j 1 , c 1 j 1 ) ( a 1 j 2 , b 1 j 2 , c 1 j 2 ) … ( a 1 jk , b 1 jk , c 1 jk ) 
+S 2 ( a 2 j 1 , b 2 j 1 , c 2 j 1 ) ( a 2 j 2 , b 2 j 2 , c 2 j 2 ) … ( a 2 jk , b 2 jk , c 2 jk ) 
+… … … … …
+
+
+S i ( a ij 1 , b ij 1 , c ij 1 ) ( a ij 2 , b ij 2 , c ij 2 ) … ( a ijk , b ijk , c ijk ) 
+Table 6 
+Linguistic terms and corresponding 
+fuzzified TFN. 
+
+
+Weight of criteria 
+Linguistic Terms TFN (a, b, c) 
+VUI (0,0.1,0.2) 
+UI (0.1,0.2,0.3) 
+… …
+
+
+EI (0.8,0.9,1) 
+follows: 
+A i j (a i j , b i j , c i j ) = 
+
+
+(
+min 
+
+
+k a i jk , 
+∑ 
+
+
+k b i jk 
+k , max k c i jk 
+
+
+)
+(5.5) 
+
+
+Step 2(b): Transferring qualitative data on attributes’ weight 
+to TFN 
+
+
+The weights of all the attributes are determined and expressed 
+by the DMs in the form of qualitative assessment as well. Such 
+qualitative assessment can be expressed in the form of linguistics 
+terms e.g., Very Unimportant (VUI), Unimportant (UI), Moderately 
+Important (MI), Important (I), Very Important (VI), and Extremely 
+Important (EI). Some of these linguistic terms and associated TFNs 
+are listed in Table 6 . Since the weight lies in between 0 and 1, the 
+frame of discernment is represented as U = [0, 1]. Using these TFNs 
+we fuzzified the frame of discernment of the attribute weights as 
+shown in Fig. 10: 
+
+
+Then the weight of each attribute is at first directly converted 
+to a TFN, w j ( a j , b j , c j ) using the TFN associated with respective lin- 
+guistic term. Once all the qualitative weights provided by multiple 
+DMs are converted to respective TFNs, the aggregated weight and 
+corresponding TFNs are generated according to Eq. (5.5) as men- 
+tioned in step 2(a). 
+
+
+Step 3: Performing TOPSIS to rank alternative suppliers 
+Because in the weighted decision matrix, the TFNs concerning 
+
+
+each supplier against each attribute have different support defined 
+as [ a ij , c ij ],we first normalized each TFN A ij ( a ij , b ij , c ij ) on all at- 
+tributes before performing TOPSIS based on the principle used in 
+( Chen et al., 2006 ): 
+A ′ i j (a ′ i j , b ′ i j , c ′ i j ) = 
+
+
+( 
+a i j 
+
+
+max 
+i c i j , 
+
+
+b i j 
+max 
+
+
+i c i j , 
+c i j 
+
+
+max 
+i c i j 
+
+
+) 
+, ∀ j ∈ G 1 
+
+
+(5.6) 
+A ′ i j (a ′ i j , b ′ i j , c ′ i j ) = 
+
+
+( 
+min 
+
+
+i a i j 
+c i j , 
+
+
+min 
+i a i j 
+b i j , 
+
+
+min 
+i a i j 
+a i j 
+
+
+) 
+, ∀ j ∈ G 2 (5.7) 
+
+
+where G 1 is the set of beneficial attributes which will be maxi- 
+mized and G 2 is the set of non- beneficial attributes which will be 
+minimized. 
+
+
+As now we have the normalized TFN A ′ 
+i j ( a ′ i j , b ′ i j , c ′ i j ) for all sup- 
+
+
+pliers S i on every attribute C j , and the attribute weight w j ( a j , b j , c j ), 
+the normalized and weighted TFN based TOPSIS decision matrix 
+{ A ∗
+
+
+i j } is constructed based on ( 3.5 ): 
+A ∗i j (a ∗i j , b ∗i j , c ∗i j ) = A ′ i j × w j (5.9) 
+
+
+
+
+
+
+10 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+
+
+Weight
+
+
+m
+ul
+
+
+(.)
+
+
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+-0.2
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+VUI UI   MUI  M    MI     I      VI    VVI  EI
+
+
+Fig. 10. Fuzzification of criteria weight. 
+The Positive Ideal Solution (PIS) and Negative Ideal Solution 
+
+
+(NIS) are determined as ( Chen et al., 2006 ): 
+A p j (a p j , b p j , c p j ) = max 
+
+
+i c ∗i j 
+A n j (a n j , b n j , c n j ) = min 
+
+
+i a ∗i j (5.10) 
+And, finally the closeness coefficient ( ̃  ρi ) for S i is generated as: 
+
+
+d + 
+i = 
+
+
+√ 
+∑ 
+
+
+j (a ∗i j −a pj )2 + ∑ j (b ∗i j −b pj )2 + ∑ j (c ∗i j −c pj )2 
+3 
+
+
+d −
+i = 
+
+
+√ 
+∑ 
+
+
+j (a ∗i j −a n j )2 + ∑ j (b ∗i j −b n j )2 + ∑ j (c ∗i j −c n j )2 
+3 
+
+
+˜ ρi = d −i ( d −i + d + i ) 
+(5.11) 
+
+
+The higher the ˜ ρi , the higher will be the ranking for a particular 
+supplier. Ranking is given as an ascending order starting from 1 for 
+a supplier with highest ˜ ρi , and follows chronological order for rest 
+of the suppliers. 
+
+
+Step 4: Performing MCGP to determine optimal order alloca- 
+tion policy 
+
+
+It is perhaps not surprising that a single supplier may not 
+always have the ability to supply the entire ordered quantity. 
+In addition, strategic decision makers may opt for diversifying 
+the sourcing channels while ensuring stability and competitive- 
+ness among alternative suppliers under the threat of disruption 
+risks. These altogether make it feasible that decision makers of- 
+ten times have to depend on multiple suppliers, requiring an op- 
+timal order allocation strategy that takes into account the sup- 
+plier preferential ranking R i generated via F-MADM approach as 
+input. Multi-choice Goal Programming (MCGP)—a viable approach 
+in this regard—can successfully be integrated with F-MADM based 
+DSS to devise an optimal order allocation plan ( Liao & Kao, 2011 ). 
+MCGP has the potential to address multi-attribute decision making 
+problems, wherein decision makers aim to minimize the penalty 
+of a set of objectives assigned to all attributes. The essential idea 
+of integrating F-MADM approach with MCGP is to enable such an 
+optimal order allocation policy that can maximize the total value 
+created from the intended procurement plan. The Total Value of 
+Procurement (TVP) is quantitatively defined as the aspiration level 
+that is set by the decision makers, and it can be sometimes con- 
+servative based on the company’s resource limitations and incom- 
+pleteness of available information. A well-judged and/or conserva- 
+tive aspiration level e.g. TVP can avoid the potential negative ef- 
+fect of the intended procurement plan. Often times, in MCGP set- 
+ting, the decision makers are allowed to set a multi-choice aspi- 
+ration level (MCAL) for each goal to help avoid unintended under- 
+estimation and overestimation of decision making ( Chang, 2008 ). 
+
+
+The MCAL for each target associated with multiple attributes is 
+presented in certain interval values, allowing the decision makers 
+to consider uncertainty/incompleteness of available decision rel- 
+evant information. Therefore, once the closeness coefficients for 
+each alternative suppliers are generated at the end of Step 3, these 
+are used as the coefficient in the proposed MCGP according to 
+Guneri, Yucel and Ayyildiz, (2009) so that the overall penalty for 
+not satisfying the targets is minimized. 
+
+
+Leveraging this principle, we formulated the MCGP as follows: 
+Minimize ∑ 
+
+
+i 
+(
+d + 
+
+
+i + d −i ) + ∑ 
+j 
+
+
+(
+e + 
+
+
+j + e −j ), i = 1 , 2 , 3 , 4 , j = 1 , 2 , 3 
+Subject to: 
+
+
+n ∑ 
+1 C n × x n − d + 1 + d −1 ≥ T (1) 
+n ∑ 
+1 U n × x n − d + 2 + d −2 = y 1 (2) 
+
+
+y 1 − e + 1 + e −1 = I min (3) 
+I min ≤ y 1 ≤ I max (4) 
+( 
+
+
+n ∑ 
+1 L n × x n 
+
+
+) 
+/ n ∑ 
+
+
+1 x n − d + 3 + d −3 = y 2 (5) 
+y 2 − e + 2 + e −2 = R min (6) 
+R min ≤ y 2 ≤ R max (7) 
+
+
+n ∑ 
+1 x n − d + 4 + d −4 ≤ Q (8) 
+
+
+x n , d + i , d −i , e + j , e −j ≥ 0 (9) 
+where: 
+
+
+d + 
+i , d −i , e + m , e −m stand for the penalties in violation of respective 
+
+
+constraints 
+x n is the optimal ordered quantity assigned to n th Supplier 
+C n is the closeness coefficients ( ̃  ρi ) of the available suppliers 
+T is the total value created from procurement (TVP) 
+U n is the unit cost of quantity when purchased from n th sup- 
+
+
+plier 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 11 
+y 1 is the total available budget for the procurment 
+I min , I max are the lower limit and upper limit on the budget, respec- 
+
+
+tively 
+L n is lead time of the n th supplier 
+y 2 is the total allowable lead time for a particualr order 
+R min , R max are the lower limit and upper limit on lead time, re- 
+
+
+spectively 
+Q is the procurement level set by the decision makers 
+n is the number of alternative suppliers 
+The objective function aims to minimize the total non- 
+
+
+achievement penalties of multiple targets assigned in different 
+constraints. Constraint (1) ensures that the orders should be allo- 
+cated among multiple suppliers considering their preferential rank- 
+ing in such a way so that a minimum TVP is achieved. In other 
+words, constraint (1) sets an upper bound on TVP. Meanwhile, con- 
+straint (2) refers to the goal of procurement budget, signifying that 
+total procurement cost will not exceed the budget after includ- 
+ing the positive and negative deviation of the intended goal. Con- 
+straints (3) and (4) explain the aspiration levels of the goal as- 
+sociated with procurement budget. In a similarly way, constraint 
+(5) –(7) illustrate the lead time preference along with the aspira- 
+tion levels associated with corresponding lead times. Finally, con- 
+straint (8) with consideration of deviations from the procurement 
+level goal, restrict that the total order allocated to multiple suppli- 
+ers must equal the procurement level set by the decision makers. 
+
+
+Such an MCGP model is anticipated to handle multiple objec- 
+tives if a decision maker seeks the optimal solution from a set of 
+feasible solutions considering the aspiration levels of the objec- 
+tives; thus, enabling the management to optimally balance their 
+requirements among alternative suppliers when the multiple re- 
+quirements cannot be satisfied by a single supplier. 
+
+
+The proposed decision-making framework is presented as a 
+flow chart in Fig. 11: 
+6. Case illustration 
+
+
+To demonstrate the effectiveness and usefulness of the pro- 
+posed supplier evaluation and order allocation DSS, we present a 
+hypothetical case study that is generalizable to companies operat- 
+ing under logistics 4.0. Such logistics 4.0 companies concern dif- 
+ferent aspects of end-to-end logistics and supply chain manage- 
+ment, which transforms the way those companies manage their 
+logistics operations. This transformation is powered by the digital- 
+ization of supply chain system—characterized by the speed, flex- 
+ibility, real-time connectedness among different entities of logis- 
+tics 4.0—arguably, supply chain 4.0. Crucially, effective sourcing of 
+raw materials plays a significant role in achieving that desired level 
+of efficiency, responsiveness and resilience in the context of con- 
+nected, decentralized and digitalized supply chain. Often times, a 
+set of alternative suppliers may serve the purpose of providing a 
+particular raw material. Strategic decision makers responsible for 
+taking such high-impact sourcing decisions must choose a supplier 
+among available alternatives who can best serve the requirement 
+of resilience, sustainability and efficiency. Therefore, the supplier 
+evaluation and selection process in this context of logistics 4.0 is 
+characterized as a decision-making problem comprising multiple 
+conflicting attributes. The problem becomes even more complex 
+when a single supplier is not able to provide entire ordered quan- 
+tity, and allocation of order is needed among multiple suppliers. 
+6.1. Evaluation attributes 
+
+
+As alluded previously, we select and define several attributes 
+based on which the alternative suppliers are evaluated from logis- 
+tics 4.0 and resilience perspectives. Attributes are divided into two 
+
+
+main groups: (1) quantitative and (2) qualitative as presented in 
+Table 7 . For attributes in the quantitative subset, large number of 
+data is available in the form of continuous time series. Data col- 
+lected historically are characterized as non-time series data. These 
+historically collected data are often stored graphically in logistics 
+4.0 environment due to the digitalization, cloud storage facilities 
+and Internet of Things (IOT). Moreover, when visualized graphi- 
+cally, these data entail a great deal of actionable information that 
+has been proven to be valuable while evaluating several sourcing 
+options. As such, quantitative criteria are then sub-divided into two 
+groups based on the type of data available as decision relevant in- 
+formation. We characterized that for inventory and delivery sched- 
+ules, data are collected continuously and presented in time series 
+as real-time visibility and end-to-end data sharing are considered 
+as crucial aspects of logistics 4.0. On the other hand, data asso- 
+ciated with supplier’s production capacity and cost are collected 
+over the time and can be presented graphically. In case of other fif- 
+teen attributes listed in Table 7 , qualitative assessments are given 
+by multiple decision makers for each alternative supplier. All those 
+attributes are so chosen that has been used to measure the re- 
+silience performance of the suppliers in the context of logistics 4.0. 
+
+
+To further specify the effect of these attributes in enhancing re- 
+silience i.e., reducing vulnerability against anticipated disruptions 
+and improving recoverability after being affected by disruption, we 
+categorize and associate them to pre-disaster and post-disaster re- 
+silience activities. Attributes C 2 , C 5 , C 6 , C 7 , C 8 , C 9 , C 11, C 12 , C 13 , and 
+C 15 are used to evaluate alternative suppliers based on their ability 
+to reduce the vulnerability against potential disruptions, and thus 
+refer to the pre-disaster resilience activities of the suppliers. On 
+the other hand, attributes C 1 , C 3 , C 10 , C 14 , C 16 , C 17 , C 18 and C 19 
+are used to evaluate suppliers depending on their ability to re- 
+cover quickly and effectively after being affected by disruption, and 
+thus represent supplier’s post disaster resilience strategies. Cost 
+(attribute C 4 ) is considered as expense that supplier has to incur to 
+provide the goods, and also to ensure the desired level of resilience 
+through coordinated pre-disaster and post-disaster strategies. 
+6.2. Results and sensitivity analysis 
+
+
+To test the practicability of our proposed model, we randomly 
+generated a set of data in Appendix A . The numerical example in- 
+cludes five alternati ve suppliers that are evaluated with regards to 
+four quantitative attributes and fifteen qualitative attributes pre- 
+sented in Table 7 . For each supplier, 500 records are collected as 
+continuous time series in case of pre-positioned inventory level 
+(attribute C 1 ) and lead time variability (attribute C 2 ) (presented in 
+Figs. 15 and 16 in Appendix A ). As mentioned in sub-step 1(a) in 
+Section 5 , these time-series data are transferred to possibility dis- 
+tribution of triangular form ( Figs. 18 and 19 in Appendix B ), which 
+afterwards were used to induce TFNs ( Table 15 in Appendix B ). In 
+case of production capacity and cost, 300 records are used from 
+historically collected data, which are presented in several pieces of 
+graphs, making it easier to process this large quantity of data into 
+actionable decision relevant information ( Fig. 17 in Appendix A ). 
+According to the sub-step 1(b) mentioned in Section 5 , the crisp 
+granular information extracted from these graphs concerning each 
+supplier are presented in Table 16 ( Appendix B ). Then the in- 
+tegrated TFNs associated with each of these two attributes for 
+all five alternati ve suppliers are computed following the proce- 
+dure described in sub-step 1(b) in Section 5 and are presented 
+in Table 17 ( Appendix B ). Performance evaluation data concerning 
+each supplier against each qualitative attribute are collected from 
+five decision makers who are assumed to have equal importance 
+in decision making process. As previously mentioned in Section 5 , 
+these qualitative assessments are provided in the form of linguis- 
+tic appraisals, which are presented in Table 13 for attribute C 5 
+
+
+
+
+
+
+12 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+
+
+Fig. 11. DSS for resilient supplier evaluation framework in logistics 4.0. 
+to C 19 ( Appendix A ). These qualitative assessments are transferred 
+to corresponding TFNs according to the process detailed in sub- 
+step 2(a) in Section 5 . Similarly, the qualitative weights of all the 
+attributes provided by multiple DMs in linguistic terms are also 
+listed in Table 13 ( Appendix A ), which later are converted to re- 
+spective TFNs according to the principle described in sub-step 2(b) 
+in Section 5 and presented in Table 18 ( Appendix B ). After convert- 
+ing all the quantitative and qualitative DRI into respective TFNs, 
+
+
+the weighted TFN-based TOPSIS decision matrix is constructed, 
+which was used to determine the PIS and NIS according to step 3 
+in Section 5 . The PIS and NIS associated with all the attributes are 
+listed in Table 19 ( Appendix B ). Finally, the closeness coefficients 
+( ̃  ρi ) are calculated for each alternative supplier. 
+
+
+The closeness coefficient ( ̃  ρi ) and preferential ranking scores of 
+the alternative suppliers generated by the proposed model are pre- 
+sented in the Table 8 and Fig. 12 . As presented in Fig. 12 , supplier 
+
+
+
+
+
+
+M
+.M
+
+
+. H
+a
+
+
+sa
+n
+
+
+, D
+. Jia
+
+
+n
+g a
+
+
+n
+d A
+
+
+.M
+.M
+
+
+.S
+. U
+
+
+lla
+h et a
+
+
+l. / E
+x
+p
+
+
+e
+rt S
+
+
+y
+ste
+
+
+m
+s W
+
+
+ith A
+p
+
+
+p
+lica
+
+
+tio
+n
+
+
+s 1
+3
+
+
+9 (2
+0
+
+
+2
+0
+
+
+) 11
+2
+
+
+7
+9
+
+
+9 
+1
+
+
+3 
+
+
+Table 7 
+List of attributes considered in decision making process. 
+
+
+Types of decision relevant 
+information C j Attributes Objective Description 
+
+
+Quantitative 
+attributes Time-series data C 1 Pre-positioned inventory level Max The quantity of inventory in stock and available for supply. C 2 Lead time variability Min Time that supplier take to deliver the order to the company. 
+
+
+Non-time-series data 
+presented graphically C 3 Production capacity Max Quantity of the products that a supplier is capable to produce per day. C 4 Cost Min Cost that is incurred by the company while purchasing the required quantity from a 
+
+
+particular supplier. The cost here included per unit production and transportation cost. 
+Qualitative 
+attributes Qualitative assessment presented in linguistic terms C 5 Digitalization Max Enabled by Web technologies, work flow tools, portals for customers, suppliers and employees, and information technology innovations targeted at supply chains and customer 
+
+
+relationships ( Rai, Patnayakuni & Seth, 2006 ). 
+C 6 Traceability Max The ability to trace the origin of materials and parts, processing history and distribution or 
+
+
+location of the product while being delivered ( Aung & Chang, 2014 ). 
+C 7 Supply chain density Min The quantity and geographical spacing of nodes within a supply chain. 
+C 8 Supply chain complexity Max The number of nodes in a supply chain and the interconnections between those nodes. 
+C 9 Re-engineering Max The corrective procedure for the incorporation of any engineering design change within the 
+
+
+product. Suppliers need to possess re-engineering capability to respond to customer’s 
+change of taste or requirements. 
+
+
+C 10 Supplier’s resource flexibility Max The different logistics strategies which can be adopted either to release a product to a 
+market or to procure a component from a supplier. 
+
+
+C 11 Automation disruption Min Ability to withstand the disruption caused in the automated manufacturing system. 
+C 12 Information management Max The ability to acquire, store, retrieve, process and share fast flowing information regarding 
+
+
+demand and lead time volatility, change in price, real time location sharing while delivering 
+the raw materials. 
+
+
+C 13 Cyber security risk management Max Ability to prevent or mitigate damage from IT security breaches in supply chains, where 
+breaches can disrupt production, cause loss of essential data, and compromise confidential 
+information. 
+
+
+C 14 Supplier reliability Max The availability during disruptions of alternative transportation channels with different 
+characteristics based on their costs and delivery dates. 
+
+
+C 15 Supply chain visibility Max The ability of the supplier to have a vivid view of upstream and downstream inventories, 
+demand and supply conditions, and production and purchasing schedules. 
+
+
+C 16 Level of collaboration Max Supplier collaboration reduces forecasting and inventory management risks, thereby 
+enhancing resilience of supply chains. Also, it helps mitigate supply side uncertainty after 
+disruption hits. 
+
+
+C 17 Restorative capacity Max The ability of suppliers to repair and quickly restore to its normal operating conditions after 
+a disruptive event. 
+
+
+C 18 Rerouting Max Capability of changing the usual mode of transport while anticipating or being affected by 
+the disruptions. Companies can combine multiple modes of intermodal transportation which 
+are fast to ensure uninterrupted supply of goods and operations of supply chain. 
+
+
+C 19 Agility Max The speed with which a firm’s internal supply chain functions can adapt to marketplace 
+changes resulting from disruption and thus can better respond to unforeseen events 
+
+
+
+
+
+
+14 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+Table 8 
+Ranking score of the suppliers. 
+
+
+Supplier d + d − ˜ ρi R i 
+S 1 1.80 1.39 0.436 3 
+S 2 1.82 1.44 0.441 2 
+S 3 1.76 1.48 0.456 1 
+S 4 1.88 1.33 0.414 4 
+S 5 1.95 1.23 0.388 5 
+
+
+0
+1
+2
+3
+4
+5
+6
+
+
+R
+an
+
+
+ki
+ng
+
+
+ S
+co
+
+
+re
+
+
+Suppliers
+
+
+Suppliers' ranking score
+
+
+Fig. 12. Supplier’s ranking score. 
+3 has the highest ˜ ρi value, whereas lowest ˜ ρi value is observed for 
+supplier 5. The highest ˜ ρi value indicates highest preferential rank- 
+ing for that particular supplier, and corresponds to lowest number 
+in the R i . The lowest number in R i stands for highest preferred sup- 
+plier. 
+
+
+Once the ˜ ρi values are obtained for each supplier, the MCGP is 
+performed and solved with Lingo software. We assume that based 
+on the previous experience, available resources and information, 
+the decision makers have set different aspiration levels associated 
+with different goals, which are presented below: 
+
+
+(1) The total value created from procurement, defined as T at 
+least 260, and the more the better. It is signified as TVP con- 
+straint. 
+
+
+(2) The total cost of procurement is set in between $30 0,0 0 0 to 
+$350,0 0 0, and the less the better. This correspond to budget 
+constraint. 
+
+
+(3) The lead time alternatively termed as delivery time is set 
+in between 10 and 12 days, and the less the better. These 
+parameters are used for delivery constraint. 
+
+
+(4) Total procurement level should not be higher than 500, leads 
+to order quantity constraint. 
+
+
+With the abovementioned multiple goals, the MCGP is formu- 
+lated as follows: 
+Minimize ∑ 
+
+
+i 
+(
+d + 
+
+
+i + d −i ) + ∑ 
+j 
+
+
+(
+e + 
+
+
+j + e −j ), i = 1 , 2 , 3 , 4 , j = 1 , 2 , 3 
+Subject to: 
+
+
+0 . 467 x 1 + 0 . 45 x 2 + 0 . 448 x 3 + 0 . 451 x 4 + 0 . 388 x 5 − d + 1 + d −1 
+≥ 260 ( 1 ) ; T V P constraint 
+
+
+700 x 1 + 10 0 0 x 2 + 60 0 x 3 + 50 0 x 4 + 650 x 5 − d + 2 + d −2 
+= y 1 ( 2 ) ; Budget constraint 
+
+
+y 1 − e + 1 + e −1 = 30 0 0 0 0 ( 3 ) ; Budget aspiration le v el 
+
+
+Table 9 
+Optimal order allocation plan. 
+
+
+Supplier Allocated order quantity 
+S 1 29 
+S 2 0 
+S 3 442 
+S 4 29 
+S 5 0 
+
+
+250 0 0 0 ≤ y 1 ≤ 350 0 0 0 ( 4 ) ; Budget aspiration le v el 
+(11 . 01 x 1 + 9 x 2 + 14 . 03 x 3 + 14 . 01 x 4 + 14 x 5 ) / n ∑ 
+
+
+1 x n − d + 3 + d −3 
+= y 2 ( 5 ) ; Deli v ery time constraint 
+
+
+y 2 − e + 2 + e −2 = 10 ( 6 ) ; Deli v ery time aspiration le v el 
+10 ≤ y 2 ≤ 12 ( 7 ) ; Deli v ery time aspiration le v el 
+
+
+n ∑ 
+1 x n − d + 4 + d −4 ≤ 500 ( 8 ) ; Order quant it y const raint 
+
+
+x n , d + i , d −i , e + j , e −j ≥ 0 ( 9 ) 
+After solving the formulated MCGP model, the results generated 
+
+
+from Lingo are presented in Table 9: 
+Thus, in the final order allocation plan, the order quantity as- 
+
+
+signed to S 1 , S 3 and S 4 are 29, 442 and 29 respectively with the 
+total order quantity of 500, while other suppliers are not assigned 
+with any order quantity. Additionally, it is perhaps not surprising 
+that based on the company’s available resources and information 
+concerning the alternative suppliers, management may set differ- 
+ent aspiration level for TVP goal ranging from most pessimistic to 
+most optimistic estimation. Thus, the DSS system should be able to 
+propose alternative order allocation plan subject to the change of 
+aspiration level associated with TVP goal. Therefore, we investigate 
+several other instances by changing the aspiration level of TVP and 
+assessed the effect of different TVP value on the order allocation 
+plan as presented in Fig. 13 . 
+
+
+For a more pessimistic estimation of TVP within 160 to 180, the 
+model assigns order to supplier 1 and supplier 2, with higher pref- 
+erence given to the first supplier. The allocated order quantity to 
+supplier 1 increases up until a TVP value of 190, beyond which it 
+starts to decrease and gets stable at a TVP value of 230. Orders are 
+allocated to supplier 4 at a TVP value of 190, increases up until 
+a TVP of 210, and similar to supplier 1 gets stable at TVP of 230. 
+At a higher TVP value e.g., 220, majority of the order is allocated 
+to highest ranked supplier 3 with equal quantity of order allocated 
+to supplier 1 and supplier 4. After TVP value of 230, a stable or- 
+der allocation plan is achieved entailing supplier 3, supplier 1 and 
+supplier 4 with highest priority given to supplier 3. 
+
+
+The preferential ranking score generated from F-MADM ap- 
+proach considers refined weights provided by the decision makers 
+on attributes involved in alternative supplier selection process. This 
+is essential as not all attributes are equally important in supplier 
+evaluation scheme, and thus for making rational decisions, the dif- 
+ferential weights are incorporated in our proposed F-MADM based 
+DSS. However, often times cost factor associated with a procure- 
+ment plan—and largely with a supplier, can turn out to be a vital 
+attribute, requiring greater importance on cost over all other deci- 
+sion attributes. It is especially true for a logistics 4.0 company that 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 15 
+
+
+0
+
+
+50
+
+
+100
+
+
+150
+
+
+200
+
+
+250
+
+
+300
+
+
+350
+
+
+400
+
+
+450
+
+
+500
+
+
+160 170 180 190 200 210 220 230 240 250 260
+
+
+A
+llo
+
+
+ca
+te
+
+
+d 
+qu
+
+
+an
+tit
+
+
+y
+
+
+TVP value
+
+
+Alternative order allocation plan for differnet TVP value 
+
+
+Supplier 1
+Supplier 2
+Supplier 3
+Supplier 4
+Supplier 5
+
+
+Fig. 13. Alternative order allocation plan for different TVP value. 
+
+
+0.16
+
+
+0.17
+
+
+0.18
+
+
+0.19
+
+
+0.20
+
+
+0.21
+
+
+0.22
+
+
+0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+
+
+SC
+RI
+
+
+α
+
+
+Analyzing cost (effeciecny) versus resiliency trade-off
+
+
+Supplier 1
+
+
+Supplier 2
+
+
+Supplier 3
+
+
+Supplier 4
+
+
+Supplier 5
+
+
+Fig. 14. Sensitivity analysis by assessing resiliency versus efficiency trade-off. 
+mostly prefers efficiency from a supplier. On the contrary, prioritiz- 
+ing resilience performance of a supplier over cost may often be the 
+dominating preference for type of logistics 4.0 company valuing 
+greater ability against disruption, and thus enhancing visibility and 
+responsiveness in satisfying customer needs even at the expense 
+of greater cost. Reflecting on these two extremely opposite needs 
+of the management, we investigate how to assist strategic decision 
+makers in analyzing this trade-off while evaluating alternative sup- 
+pliers for sourcing options. In what follows, we categorize the at- 
+tributes mentioned in Section 6.1 into two segments—considering 
+cost alone as measure of efficiency while the rest of the attributes 
+as-a-whole are considered as a holistic measure of resiliency for 
+a supplier. We then perform TOPSIS separately on these two sets 
+of attributes. Precisely saying, the ˜ ρi generated in the context of 
+resiliency will not include the suppliers’ information on cost at- 
+tribute, which means in 5.11, j ̸ = C 4 ∀ ˜ ρiR and j = C 4 ∀ ˜ ρiC ; ˜ ρiR 
+and ˜ ρiC refer to the closeness coefficient associated with the re- 
+siliency and efficiency measure, respectively for i th supplier. 
+
+
+It is anticipated that supplier’s preferential ranking will change 
+based on the differential im portance on efficiency and resilience 
+measures. To categorically distinguish this from the originally gen- 
+
+
+erated ranking score by F-MADM, we use Supplier’s Cost versus 
+Resilience Index (SCRI) as a trade-off measure between resilience 
+and efficiency, which is defined as follows: 
+SCR I i = α ˜ ρiR + ( 1 − α) ̃  ρiC (6.1) 
+where SCRI i is the index of i th supplier, and α refers to the im- 
+portance in the range of [0, 1] given by the decision makers on 
+resiliency performance. The lowest α value is explained as deci- 
+sion maker’s lowest importance on resilience measure and vice- 
+versa for cost (efficiency) measure. The corresponding ˜ ρi values 
+(also normalized) as measured by TOPSIS for resilience attributes 
+and cost attributes are presented in Tables 10 and 11 , respectively. 
+
+
+Using normalized ˜ ρiR , ˜ ρiC and α values, we then investigate the 
+change of SCRI for different suppliers as presented in Fig. 14 . Sup- 
+plier 4 has the highest SCRI value till α = 0.4, pointing to the fact 
+that when seeking resilience is less important compared to effi- 
+ciency (signified by lower α values), supplier 4 is highly preferred 
+being the most efficient or cost-effective supplier. Within a range 
+of α in between 0.4 to 0.61, supplier 1 has the highest SCRI value. 
+It suggests that when the importance of being efficient and re- 
+silient is almost equal or does not differ that much, supplier 1 
+
+
+
+
+
+
+16 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+Table 10 
+Closeness coefficient ( ̃  ρi ) for resilience attributes. 
+
+
+˜ ρiR 
+Supplier d + d- ˜ ρi Normalized 
+S 1 1.78 1.38 0.436 0.2043 
+S 2 1.80 1.43 0.442 0.2064 
+S 3 1.74 1.46 0.457 0.2137 
+S 4 1.86 1.30 0.413 0.1939 
+S 5 1.93 1.21 0.387 0.1817 
+
+
+Table 11 
+Closeness coefficient ( ̃ ρi ) for cost (efficiency) attribute. 
+
+
+˜ ρiC 
+Supplier d + d- ˜ ρi Normalized 
+S 1 0.45 0.43 0.49 0.2073 
+S 2 0.50 0.36 0.42 0.1762 
+S 3 0.48 0.39 0.45 0.1913 
+S 4 0.44 0.45 0.51 0.2143 
+S 5 0.45 0.44 0.50 0.2110 
+
+
+should be preferred. After a value of α = 0.61, supplier 3 has shown 
+highest SCRI, indicating that when higher preference is given on 
+resiliency, supplier 3 dominates all other alternative suppliers. Al- 
+though supplier 5 has relatively higher SCRI value when higher im- 
+portance is given on efficiency measure, its SCRI value decreases 
+with higher importance given on resilience measure. On the other 
+hand, for supplier 2 and supplier 3, the SCRI values increase with 
+higher importance given on resilience measure. For several combi- 
+nations of resilience versus efficiency trade-off, the generated SCRI 
+values are presented in the Table 12 in Appendix A . Thus, our pro- 
+posed DSS has demonstrated the managerial implication in terms 
+of assisting the strategic decision makers to analyze the resiliency 
+versus efficiency trade-off while evaluating and selecting alterna- 
+tive suppliers along with the corresponding order allocation plan. 
+7. Conclusion 
+
+
+Selection of resilient suppliers in the context of logistics 4.0 re- 
+quires processing heterogeneous information originated from mul- 
+tiple qualitative and quantitative attributes that are conflicting in 
+nature. Additionally, most of the qualitative attributes considered 
+to measure the performance of resilient suppliers in logistics 4.0 
+are substantially different than those used in traditional supplier 
+selection problem––a combined fact that limits the applicability of 
+traditional Fuzzy-Based Supplier selection framework in the pres- 
+ence of heterogeneous DRI. To address these issues, this paper 
+presents a DSS that considers the inherent uncertainty of impre- 
+cise DRI to rank a set of alternative suppliers from resilient and lo- 
+gistics 4.0 point of view. Particularly, we adapted and extended the 
+TFN based TOPSIS to the framework of logistics 4.0 that can handle 
+qualitative information and large number of quantitative informa- 
+tion presented in the time-series as well as graphical format. Us- 
+ing static and dynamic reliability index, we modified the member- 
+
+
+ship value to further take into account the uncertainty and impre- 
+ciseness of triangular membership function. Because one supplier 
+may sometimes fail to provide the entire ordered quantity, we de- 
+velop a model leveraging MCGP to allocate order among alternative 
+supplies. This model takes input from the supplier ranking scores 
+generated by proposed F-MADM approach. We also investigate the 
+sensitivity of supplier’s resiliency versus efficiency measures with 
+the change in importance of resiliency attributes (from resilience 
+and logistics 4.0 perspective) and cost attribute. That way, we em- 
+power the decision makers to generate alternative index based on 
+the differential im portance on resiliency and cost attributes. We 
+believe, the developed DSS will provide an effective and pragmatic 
+approach to help stakeholders devise better sourcing decisions for 
+logistics 4.0 industries. Future research can explore how to incor- 
+porate interdependencies among several attributes that often times 
+possess hierarchically structured relationship to some extent. Fur- 
+ther research can also be carried out to explore other techniques 
+such as PROMETHEE along with other fuzzy sets such as Interval 
+Valued Intuitionistic Fuzzy Sets (IVFS) to rank alternative suppliers 
+supported by a mechanism for optimizing weights of the associ- 
+ated decision makers. In addition to that, future studies can con- 
+sider new attributes in MADM framework or adding constraint in 
+the MCGP model to adapt with any policy changes within the com- 
+pany due to the disruptions. 
+Credit authorship contribution statement 
+
+
+Md Mahmudul Hasan: Conceptualization, Formal analysis, In- 
+vestigation, Methodology, Validation, Visualization, Writing - orig- 
+inal draft, Writing - review & editing. Dizuo Jiang: Conceptual- 
+ization, Data curation, Formal analysis, Methodology, Investigation, 
+Validation, Visualization, Writing - original draft. A.M.M. Sharif 
+Ullah: Conceptualization, Formal analysis, Methodology, Software, 
+Visualization. Md. Noor-E-Alam: Conceptualization, Methodology, 
+Project administration, Resources, Supervision, Writing - review & 
+editing. 
+Funding 
+
+
+This research did not receive any specific grant from funding 
+agencies in the public, commercial, or not-for-profit sectors. 
+Declaration of interests 
+
+
+The authors declare that they have no known competing finan- 
+cial interests or personal relationships that could have appeared to 
+influence the work reported in this paper. 
+Appendix A 
+
+
+Time-series data 
+Historically collected data presented in Fig. 17 in graphical format 
+SCRI values created for different α values and normalized ˜ ρi ac- 
+
+
+cording to Eq. (6.1) are presented in Table 12 . 
+Linguistic data: 
+
+
+Table 12 
+SCRI based on α. 
+
+
+Supplier / α 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 
+S 1 0.207 0.207 0.206 0.206 0.206 0.205 0.205 0.205 0.204 
+S 2 0.179 0.182 0.185 0.189 0.192 0.195 0.198 0.201 0.204 
+S 3 0.194 0.196 0.198 0.200 0.203 0.205 0.207 0.209 0.212 
+S 4 0.212 0.210 0.208 0.206 0.204 0.202 0.200 0.198 0.195 
+S 5 0.208 0.205 0.202 0.199 0.196 0.193 0.190 0.187 0.184 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 17 
+
+
+445
+
+
+450
+
+
+455
+
+
+460
+
+
+465
+
+
+470
+
+
+475
+
+
+480
+
+
+485
+
+
+490
+
+
+495
+
+
+0 50 100 150 200
+
+
+In
+ve
+
+
+nt
+or
+
+
+y 
+Le
+
+
+ve
+l
+
+
+Time Series
+
+
+Time-seires data for supplier 2 on inventory level
+
+
+420
+
+
+430
+
+
+440
+
+
+450
+
+
+460
+
+
+470
+
+
+480
+
+
+490
+
+
+0 50 100 150 200
+
+
+In
+ve
+
+
+nt
+or
+
+
+y 
+Le
+
+
+ve
+l
+
+
+Time Series
+
+
+Time-seires data for supplier 3 on inventory level
+
+
+420
+
+
+425
+
+
+430
+
+
+435
+
+
+440
+
+
+445
+
+
+450
+
+
+455
+
+
+460
+
+
+465
+
+
+0 50 100 150 200
+
+
+In
+ve
+
+
+nt
+or
+
+
+y 
+Le
+
+
+ve
+l
+
+
+Time Series
+
+
+Time-seires data for supplier 1 on inventory level
+
+
+390
+
+
+400
+
+
+410
+
+
+420
+
+
+430
+
+
+440
+
+
+450
+
+
+460
+
+
+0 50 100 150 200
+
+
+In
+ve
+
+
+nt
+or
+
+
+y 
+Le
+
+
+ve
+l
+
+
+Time Series
+
+
+Time-seires data for supplier 4 on inventory level
+
+
+420
+
+
+425
+
+
+430
+
+
+435
+
+
+440
+
+
+445
+
+
+450
+
+
+455
+
+
+460
+
+
+0 50 100 150 200
+
+
+In
+ve
+
+
+nt
+or
+
+
+y 
+Le
+
+
+ve
+l
+
+
+Time Series
+
+
+Time-seires data for supplier 5 on inventory level
+
+
+Fig. 15. Time-series data for suppliers on pre-positioned inventory level ( C 1 ). 
+
+
+
+
+
+
+18 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+
+
+11
+
+
+12
+
+
+13
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+0 50 100 150 200
+
+
+Le
+ad
+
+
+ T
+im
+
+
+e 
+(D
+
+
+ay
+)
+
+
+Time Series
+
+
+Time-seires data for supplier 4 on lead time 
+variability
+
+
+8
+
+
+10
+
+
+12
+
+
+14
+
+
+16
+
+
+18
+
+
+20
+
+
+0 50 100 150 200
+
+
+Le
+ad
+
+
+ T
+im
+
+
+e 
+(D
+
+
+ay
+)
+
+
+Time Series
+
+
+Time-seires data for supplier 3 on lead time 
+variability
+
+
+4
+5
+6
+7
+8
+9
+
+
+10
+11
+12
+13
+14
+
+
+0 50 100 150 200
+
+
+Le
+ad
+
+
+ T
+im
+
+
+e 
+(D
+
+
+ay
+)
+
+
+Time Series
+
+
+Time-seires data for supplier 2 on lead time 
+variability
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+13
+
+
+14
+
+
+15
+
+
+16
+
+
+0 50 100 150 200
+
+
+Le
+ad
+
+
+ T
+im
+
+
+e 
+(D
+
+
+ay
+)
+
+
+Time Series
+
+
+Time-seires data for supplier 1 on lead time 
+variability 
+
+
+5
+
+
+7
+
+
+9
+
+
+11
+
+
+13
+
+
+15
+
+
+17
+
+
+19
+
+
+21
+
+
+0 50 100 150 200
+
+
+Le
+ad
+
+
+ T
+im
+
+
+e 
+(D
+
+
+ay
+)
+
+
+Time Series
+
+
+Time-seires data for supplier 5 on lead time 
+variability
+
+
+Fig. 16. Time-series data for suppliers on lead time variability ( C 2 ). 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 19 
+
+
+Fig. 17. Graphical information for suppliers on non-time-series attributes. 
+
+
+
+
+
+
+20 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+
+
+Table 13 
+Linguistic data (performance measurement and attribute weight). 
+
+
+C 5 (Digitalization) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 VG VG VVG VG G 
+S 2 VG VVG EG VG VG 
+S 3 EG VG VVG VG EG 
+S 4 VG VG G MG VVG 
+S 5 M MG MG MG MB 
+C 6 (Traceability) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 VG VG VVG VG VVG 
+S 2 VG VG G MG MG 
+S 3 EG VVG VVG EG VG 
+S 4 MG M M MG G 
+C 7 (Supply chain density) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 VG VG G MG VVG 
+S 2 M MG MG MG MG 
+S 3 G VG VVG VG G 
+S 4 VG VVG VVG EG EG 
+S 5 VG VVG VG VG VVG 
+C 8 (Supply chain complexity) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 G G VG VG G 
+S 2 VVG VG VG VVG VG 
+S 3 M G MG MG G 
+S 4 VG VVG VVG VVG VG 
+S 5 M MG MG MG M 
+C 9 (Re-engineering) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 M MG M M MG 
+S 2 M MB MB MB B 
+S 3 G VG G G G 
+S 4 M MG M M M 
+S 5 M M MG MG MB 
+C 10 (Supplier’s resource flexibility) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 VG VVG VVG VG VG 
+S 2 M MG G M MG 
+S 3 VG VVG VVG VG VG 
+S 4 VG VVG VVG VG EG 
+S 5 G G M MG G 
+C 11 (Automation disruption) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 G G VVG G VG 
+S 2 VG G VVG VG VG 
+S 3 M B M M B 
+S 4 MG MG M G G 
+S 5 EG VVG VVG VG VVG 
+C 12 (Information management) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 MG MG M G G 
+S 2 MG G G MG MG 
+S 3 VG G VG VG G 
+S 4 VG VG VVG VVG VG 
+S 5 MG MG G M M 
+C 13 (Cyber security risk management) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 MG MG G M MG 
+S 2 G VG VG G G 
+S 3 VG VG VVG VVG VG 
+S 4 MG MG MG M MG 
+S 5 VG G G MG MG 
+
+
+( continued on next page ) 
+
+
+Table 13 ( continued ) 
+C 14 (Supplier reliability) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 EG VG VVG VVG EG 
+S 2 MG MG G MG MG 
+S 3 VG MG G G VG 
+S 4 M M G G MG 
+S 5 G VG G G VG 
+C 15 (Supply chain visibility) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 VG VG G G G 
+S 2 VG G VVG VG VG 
+S 3 G G G VG G 
+S 4 MG M M MG MG 
+S 5 MG M M MB M 
+C 16 (Level of collaboration) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 G G VG G G 
+S 2 VG VVG EG VVG EG 
+S 3 G G VG G G 
+S 4 VG VG G G MG 
+S 5 VVG VVG VG VG VVG 
+C 17 (Restorative capacity) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 M G G MG MG 
+S 2 G VG VG G VG 
+S 3 EG VG VVG VG VVG 
+S 4 M M MG MG M 
+S 5 VVG G VG G G 
+C 18 (Rerouting) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 G VG G G VG 
+S 2 VG VVG VG EG VVG 
+S 3 G MG G M MG 
+S 4 VG G VG VG G 
+S 5 G G MG G MG 
+C 19 (Agility) 
+Supplier DM 1 DM 2 DM 3 DM 4 DM 5 
+S 1 VG G G MG G 
+S 2 M MG G G MG 
+S 3 G MG G MG MG 
+S 4 VG G VG G G 
+S 5 G VG VG G VG 
+Weight of the attribute 
+Attribute DM 1 DM 2 DM 3 DM 4 DM 5 
+C 1 I VI EI I VI 
+C 2 M I VI I M 
+C 3 M M I M I 
+C 4 I I VI I I 
+C 5 I I VI VI I 
+C 6 EI I EI EI I 
+C 7 M M I I M 
+C 8 I VI I I VI 
+C 9 M UI M M UI 
+C 10 I VI VI VI I 
+C 11 I I VI VI I 
+C 12 I MI MI I MI 
+C 13 M MI I MI I 
+C 14 VI I I VI VI 
+C 15 MI I M MI M 
+C 16 I VI VI MI I 
+C 17 I M M VI I 
+C 18 I I MI M MI 
+C 19 M MI I MI MI 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 21 
+Table 14 
+Linguistic terms (used in performance measurement) and coresponding TFNs. 
+
+
+Performance Measurement 
+Linguistic terms TFN (a, b, c) 
+VB (0,1,2) 
+B (1,2,3) 
+… …
+
+
+EG (8,9,10) 
+Appendix B 
+
+
+Attributes concerning time series data 
+Based on the approach described in sub-step 1(a) and the orig- 
+
+
+inal time-series data in Figs. 15 and 16 , the possibility distribution 
+in the form of triangular fuzzy number are generated and pre- 
+sented in Figs. 18 and 19 . 
+
+
+With the obtained graphical TFN, the numerical TFN could be 
+constructed from Figs. 18 and 19 as: 
+
+
+Non-time-series attributes: 
+
+
+Based on the computation process summarized in sub-step 1(b) 
+and non-time series data in Fig. 17 , the original data are extracted 
+in the form of range value and are presented in Table 16 . 
+
+
+With the extracted range values and the fuzzified frame of 
+discernment presented in Fig. 9 , the TFN decision matrix is con- 
+structed as in Table 17: 
+
+
+According to sub-step 2(b) and Table 13 , the attribute weight 
+decision matrix is constructed and presented in Table 18 . 
+
+
+The PIS and NIS matrix are generated based on function ( 5.6 ) 
+and ( 5.7 ) in step 3 and are presented in Table 19 . 
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+440 450 460 470 480
+
+
+Supplier 3
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+420 430 440 450 460
+
+
+Supplier 1
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+450 460 470 480 490
+
+
+Supplier 2
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+400 420 440 460
+
+
+Supplier 4
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+420 430 440 450 460
+
+
+Supplier 5 
+
+
+Fig. 18. Graphical triangular fuzzy number for suppliers on pre-positioned inventory level ( C 1 ). 
+Table 15 
+Numerical triangular fuzzy number for suppliers on C 1 and C 2 . 
+
+
+Supplier C 1 (Pre-positioned inventory level) C 2 (Lead time variability) 
+a b c a b c 
+
+
+S 1 423.98 441.04 454 7.98 11.01 15 
+S 2 459.98 469.54 480 5.98 9 12 
+S 3 441.98 455.01 470 10.98 14.03 17 
+S 4 404.98 425.51 445 11.98 14.01 16 
+S 5 424.98 446.05 459 9.98 14 18 
+
+
+
+
+
+
+22 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+0 5 10 15 20
+
+
+Supplier 1
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+0 5 10 15
+
+
+Supplier 2
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+0 5 10 15 20
+
+
+Supplier 3
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+0 5 10 15 20
+
+
+Supplier 4
+
+
+0
+
+
+0.2
+
+
+0.4
+
+
+0.6
+
+
+0.8
+
+
+1
+
+
+1.2
+
+
+0 5 10 15 20
+
+
+Supplier 5
+
+
+Fig. 19. Graphical triangular fuzzy number for suppliers on lead time variability ( C 2 ). 
+Table 16 
+Extracted range values for suppliers on non-time-series attributes. 
+
+
+S i S 1 S 2 S 3 S 4 S 5 
+C i C 1 C 2 C 1 C 2 C 1 C 2 C 1 C 2 C 1 C 2 
+R i Min Max Min Max Min Max Min Max Min Max Min Max Min Max Min Max Min Max Min Max 
+R 1 103 134 337 472 60 88 405 554 76 103 371 529 131 147 272 467 115 143 348 463 
+R 2 96 136 310 478 60 90 400 555 76 110 361 531 128 152 345 455 112 144 314 474 
+R 3 96 134 296 483 58 90 394 556 78 113 355 528 125 157 394 446 112 145 294 483 
+R 4 96 135 295 483 59 89 391 556 79 113 351 528 128 158 270 458 111 144 283 489 
+R 5 98 136 297 481 59 91 391 554 78 115 351 524 129 156 273 450 112 145 279 484 
+R 6 100 136 300 478 60 91 391 554 77 115 354 522 129 157 283 442 111 146 282 478 
+R 7 101 135 385 459 58 89 408 551 75 115 354 518 130 158 317 436 111 147 306 465 
+R 8 103 135 300 473 58 88 420 547 75 113 357 511 131 157 326 462 111 148 311 382 
+R 9 105 135 325 475 58 88 426 544 75 114 367 505 131 158 270 463 113 148 301 480 
+R 10 110 136 301 482 60 87 430 536 75 113 363 529 134 156 270 454 114 149 287 486 
+
+
+Table 17 
+Integrated triangular fuzzy number for suppliers on non-time-series attributes. 
+
+
+Supplier C 3 C 4 
+a b c a b c 
+
+
+S 1 102.98 117.23 131.49 320.06 394.96 488.16 
+S 2 66.14 75.55 92.23 358.10 470.87 526.03 
+S 3 81.25 95.04 109.53 338.87 432.49 506.88 
+S 4 124.33 141.10 150.33 311.70 379.58 481.14 
+S 5 113.44 128.67 140.98 316.41 385.76 482.62 
+
+
+
+
+
+
+M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 23 
+Table 18 
+Attribute weight decision matrix. 
+
+
+Attribute Weight 
+a b c 
+
+
+C 1 0.5 0.7 1 
+C 2 0.3 0.54 0.8 
+C 3 0.3 0.48 0.7 
+C 4 0.5 0.62 0.8 
+C 5 0.5 0.64 0.8 
+C 6 0.5 0.78 1 
+C 7 0.3 0.48 0.7 
+C 8 0.5 0.64 0.8 
+C 9 0.1 0.32 0.5 
+C 10 0.5 0.66 0.8 
+C 11 0.5 0.64 0.8 
+C 12 0.4 0.54 0.7 
+C 14 0.5 0.66 0.8 
+C 15 0.3 0.48 0.7 
+C 16 0.4 0.62 0.8 
+C 17 0.3 0.54 0.8 
+C 18 0.3 0.52 0.7 
+C 19 0.3 0.5 0.7 
+
+
+Table 19 
+PIS and NIS for attributes. 
+
+
+Attribute PIS NIS 
+TFN a b c a b c 
+C 1 1.00 1.00 1.00 0.42 0.42 0.42 
+C 2 0.80 0.80 0.80 0.10 0.10 0.10 
+C 3 0.70 0.70 0.70 0.06 0.06 0.06 
+C 4 0.80 0.80 0.80 0.15 0.15 0.15 
+C 5 0.80 0.80 0.80 0.22 0.22 0.22 
+C 6 1.00 1.00 1.00 0.30 0.30 0.30 
+C 7 0.70 0.70 0.70 0.09 0.09 0.09 
+C 8 0.80 0.80 0.80 0.17 0.17 0.17 
+C 9 0.50 0.50 0.50 0.01 0.01 0.01 
+C 10 0.80 0.80 0.80 0.15 0.15 0.15 
+C 11 0.80 0.80 0.80 0.05 0.05 0.05 
+C 12 0.70 0.70 0.70 0.13 0.13 0.13 
+C 13 0.70 0.70 0.70 0.10 0.10 0.10 
+C 14 0.80 0.80 0.80 0.15 0.15 0.15 
+C 15 0.70 0.70 0.70 0.07 0.07 0.07 
+C 16 0.80 0.80 0.80 0.16 0.16 0.16 
+C 17 0.80 0.80 0.80 0.09 0.09 0.09 
+C 18 0.70 0.70 0.70 0.09 0.09 0.09 
+C 19 0.7 0.7 0.7 0.11 0.11 0.11 
+
+
+References 
+Abe, M., & Ye, L. (2012). The impacts of natural disasters on global supply chains 
+
+
+(No. 11512). Asia-Pacific Research and Training Network on Trade (ARTNeT), an 
+initiative of UNESCAP and IDRC, Canada. 
+
+
+Ashtiani, B. , Haghighirad, F. , Makui, A. , & ali Montazer, G. (2009). Extension of fuzzy 
+TOPSIS method based on interval-valued fuzzy sets. Applied Soft Computing, 9 (2), 
+457–461 . 
+
+
+Atanassov, K., & Gargov, G. (1989). Interval valued intuitionistic fuzzy sets. Fuzzy Sets 
+and Systems, 31 (3), 343–349. doi: 10.1016/0165-0114(89)90205-4 . 
+
+
+Atanassov, K. T. (1999). Intuitionistic fuzzy sets. In Intuitionistic fuzzy sets 
+(pp. 1–137). Springer . 
+
+
+Aung, M. M., & Chang, Y. S (2014). Traceability in a food supply chain: Safety and 
+quality perspectives, Food Control. 39, 172–184. 
+
+
+Barreto, L., Amaral, A., & Pereira, T (2017). Industry 4.0 implications in logistics: An 
+overview, Procedia Manufacturing. 13, 1245–1252. 
+
+
+Bhutia, P. W., & Phipon, R. (2012). Application of AHP and TOPSIS method for sup- 
+plier selection problem, IOSR Journal of Engineering. 2(10), 43–50. 
+
+
+Bohlender, G. , Kaufmann, A. , & Gupta, M. M. (1986). Introduction to fuzzy arithmetic . 
+Van Nostrand Reinhold Company . 
+
+
+Boran, F. E. , Genç, S. , Kurt, M. , & Akay, D. (2009). A multi-criteria intuitionistic fuzzy 
+group decision making for supplier selection with TOPSIS method. Expert Sys- 
+tems with Applications, 36 (8), 11363–11368 . 
+
+
+Brettel, M. , Friederichsen, N. , Keller, M. , & Rosenberg, M. (2014). How virtualization, 
+decentralization and network building change the manufacturing landscape: An 
+industry 4.0 perspective. International Journal of Mechanical, Industrial Science 
+and Engineering, 8 (1), 37–44 . 
+
+
+Chang, C.-T. (2008). Revised multi-choice goal programming. Applied Mathematical 
+Modelling, 32 (12), 2587–2595 . 
+
+
+Chen, C.-T., Lin, C.-T., & Huang, S.-F. (2006). A fuzzy approach for supplier evaluation 
+and selection in supply chain management. International Journal of Production 
+Economics, 102 (2), 289–301. doi: 10.1016/j.ijpe.20 05.03.0 09 . 
+
+
+Chen, T.-Y. (2015). The inclusion-based TOPSIS method with interval-valued intu- 
+itionistic fuzzy sets for multiple criteria group decision making. Applied Soft 
+Computing Journal, 26 , 57–73. doi: 10.1016/j.asoc.2014.09.015 . 
+
+
+Chen, T.-Y., Wang, H.-P., & Lu, Y.-Y. (2011). A multicriteria group decision-making 
+approach based on interval-valued intuitionistic fuzzy sets: A comparative per- 
+spective. Expert Systems with Applications, 38 (6), 7647–7658. doi: 10.1016/j.eswa. 
+2010.12.096 . 
+
+
+Corporation, R. E. (2015). Renesas electronics enables increased factory productivity 
+for industry 4.0 with new industrial ethernet communication IC with built-in 
+gigabit PHY. Retrieved 02/26, 2019, from https://www.renesas.com/us/en/about/ 
+press-center/news/2015/news20150625.html 
+
+
+De Felice, F. , Deldoost, M. H. , & Faizollahi, M. (2015). Performance measurement 
+model for the supplier selection based on AHP. International Journal of Engineer- 
+ing Business Management, 7 , 7–17 Godište 2015 . 
+
+
+Dempster, A. P. (1967). Upper and lower probabilities induced by a multivalued 
+mapping. The Annals of Mathematical Statistics, 38 (2), 325–339. doi: 10.1214/ 
+aoms/1177698950 . 
+
+
+Devlin, N. , & Sussex, J. (2011). Incorporating multiple criteria in HTA. Methods and 
+processes . London: Office of Health Economics . 
+
+
+Dodgson, J. S. , Spackman, M. , Pearman, A. , & Phillips, L. D. (2009). Multi-criteria anal- 
+ysis: A manual . London: Department for Communities and Local Government . 
+
+
+Domingo Galindo, L. (2016). The challenges of logistics 4.0 for the supply chain man- 
+agement and the information technology . NTNU . 
+
+
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0001
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0001
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0001
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0001
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0001
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0001
+
+https://doi.org/10.1016/0165-0114(89)90205-4
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0003
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0003
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0004
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0004
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0004
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0004
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0004
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0006
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0006
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0006
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0006
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0006
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0006
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0007
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0007
+
+https://doi.org/10.1016/j.ijpe.2005.03.009
+
+https://doi.org/10.1016/j.asoc.2014.09.015
+
+https://doi.org/10.1016/j.eswa.2010.12.096
+
+https://www.renesas.com/us/en/about/press-center/news/2015/news20150625.html
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0011
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0011
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0011
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0011
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0011
+
+https://doi.org/10.1214/aoms/1177698950
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0005
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0013
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0013
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0013
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0013
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0013
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0013
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0014
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0014
+
+
+
+
+24 M.M. Hasan, D. Jiang and A.M.M.S. Ullah et al. / Expert Systems With Applications 139 (2020) 112799 
+Foroozesh, N. , Tavakkoli-Moghaddam, R. , & Mousavi, S. M. (2017). Resilient supplier 
+
+
+selection in a supply chain by a new interval-valued fuzzy group decision model 
+based on possibilistic statistical concepts. Journal of Industrial and Systems Engi- 
+neering, 10 (2), 113–133 . 
+
+
+Gan, J., Zhong, S., Liu, S., & Yang, D. (2019). Resilient supplier selection based on 
+fuzzy BWM and GMo-RTOPSIS under supply chain environment. Discrete Dy- 
+namics in Nature and Society, 2019 , 14. doi: 10.1155/2019/2456260 . 
+
+
+Golden, B. L. , Wasil, E. A. , & Harker, P. T. (1989). The analytic hierarchy process. 
+Applications and Studies . Springer, Berlin, Heidelberg . 
+
+
+Gregory, R. , Failing, L. , Harstone, M. , Long, G. , McDaniels, T. , & Ohlson, D. (2012). 
+Structured decision making: A practical guide to environmental management 
+choices . John Wiley & Sons . 
+
+
+Guijun, W. , & Xiaoping, L. (1998). The applications of interval-valued fuzzy numbers 
+and interval-distribution numbers. Fuzzy Sets and Systems, 98 (3), 331–335 . 
+
+
+Guneri, A. F. , Yucel, A. , & Ayyildiz, G. (2009). An integrated fuzzy-lp approach for 
+a supplier selection problem in supply chain management. Expert Systems with 
+Applications, 36 (5), 9223–9228 . 
+
+
+Haibin, W. , Smarandache, F. , Zhang, Y. , & Sunderraman, R. (2010). Single valued neu- 
+1116 trosophic sets. Review of the Air Force Academy , (1), 10 . 
+
+
+Haldar, A. , Ray, A. , Banerjee, D. , & Ghosh, S. (2012). A hybrid MCDM model for re- 
+silient supplier selection. International Journal of Management Science and Engi- 
+neering Management, 7 (4), 284–292 . 
+
+
+Haldar, A. , Ray, A. , Banerjee, D. , & Ghosh, S. (2014). Resilient supplier selection under 
+a fuzzy environment. International Journal of Management Science and Engineer- 
+ing Management, 9 (2), 147–156 . 
+
+
+Hasan, M. M. , Shohag, M. A. S. , Azeem, A. , & Paul, S. (2015). Multiple criteria sup- 
+plier selection: A fuzzy approach. International Journal of Logistics Systems and 
+Management, 20 (4), 429–446 . 
+
+
+Herrera, F., & Herrera-Viedma, E. (20 0 0). Linguistic decision analysis: Steps for 
+solving decision problems under linguistic information. Fuzzy Sets and Systems, 
+115 (1), 67–82. doi: 10.1016/S0165-0114(99)0 0 024-X . 
+
+
+Hofmann, E., & Rüsch, M. (2017). Industry 4.0 and the current status as well as 
+future prospects on logistics, Computers in Industry , 89, 23–34. 
+
+
+Hwang, C.-L. , Lai, Y.-J. , & Liu, T.-Y. (1993). A new approach for multiple objective 
+decision making. Computers & Operations Research, 20 (8), 889–899 . 
+
+
+i-SCOOP (2017a). Industry 4.0: The fourth industrial revolution – Guide to industrie 
+4.0. Retrieved 01/26, 2019, from https://www.i- scoop.eu/industry- 4- 0/ 
+
+
+i-SCOOP (2017b). Logistics 4.0 and smart supply chain management in indus- 
+try 4.0. Retrieved 02/26, 2019, from https://www.i- scoop.eu/industry- 4- 0/ 
+supply- chain- management- scm- logistics/#Logistics _ 40 _ the _ crucial _ aspect _ of _ 
+autonomous _ decisions _ and _ applications 
+
+
+Ivanov, D. , Dolgui, A. , Sokolov, B. , Werner, F. , & Ivanova, M. (2016). A dynamic model 
+and an algorithm for short-term supply chain scheduling in the smart factory 
+industry 4.0. International Journal of Production Research, 54 (2), 386–402 . 
+
+
+Jiang, D., Hassan, M. M., & Faiz, T. I. (2018). A possibility distribution based 
+multi-criteria decision algorithm for resilient supplier selection problems. arXiv 
+preprint arXiv: 1806.01650 . 
+
+
+Juhász, J., & Bányai, T. (2018). What industry 4.0 means for just-in-sequence supply in 
+automotive industry? Paper presented at the Vehicle and Automotive Engineer- 
+ing. 
+
+
+Kamalahmadi, M., & Mellat-Parast, M. (2016). Developing a resilient supply chain 
+through supplier flexibility and reliability assessment. International Journal of 
+Production Research, 54 (1), 302–321. doi: 10.1080/00207543.2015.1088971 . 
+
+
+Lakshmana Gomathi, Nayagam, V., Muralikrishnan, S., & Sivaraman, G. (2011). Multi- 
+criteria decision-making method based on interval-valued intuitionistic fuzzy 
+sets. Expert Systems with Applications, 38 (3), 1464–1467. doi: 10.1016/j.eswa.2010. 
+07.055 . 
+
+
+Liao, C.-N., & Kao, H.-P. (2011). An integrated fuzzy TOPSIS and MCGP approach to 
+supplier selection in supply chain management. Expert Systems with Applications, 
+38 (9), 10803–10811. doi: 10.1016/j.eswa.2011.02.031 . 
+
+
+Lo, H.-W. , & Liou, J. (2018). A novel multiple-criteria decision-making-based FMEA 
+model for risk assessment. Applied Soft Computing, 73 , 684–696 . 
+
+
+Mahapatra, G., Mahapatra, B., & Roy, P. (2016). A new concept for fuzzy variable 
+based non-linear programming problem with application on system reliability 
+via genetic algorithm approach. Annals of Operations Research, 247 (2), 853–866. 
+doi: 10.1007/s10479-015-1863-z . 
+
+
+Mohammad, I. (2012). Group decision making process for supplier selection with 
+TOPSIS method under interval-valued intuitionistic fuzzy numbers. Advances in 
+Fuzzy Systems, 2012 (2012). doi: 10.1155/2012/407942 . 
+
+
+Mühlbacher, A. C. , Kaczynski, A , & policy, h. (2016). Making good decisions in 
+healthcare with multi-criteria decision analysis: The use, current research and 
+future development of MCDA. Applied Health Economics and Health Policy, 14 (1), 
+29–40 . 
+
+
+Namdar, J., Li, X., Sawhney, R., & Pradhan, N. (2018). Supply chain resilience for 
+single and multiple sourcing in the presence of disruption risks. International 
+Journal of Production Research, 56 (6), 2339–2360. doi: 10.1080/00207543.2017. 
+1370149 . 
+
+
+Nutt, D. J. , King, L. A. , & Phillips, L. D. (2010). Drug harms in the UK: A multicriteria 
+decision analysis. Lancet, 376 (9752), 1558–1565 . 
+
+
+Prasad, K. , Prasad, M. , Rao, S. , & Patro, C. S. (2016). Supplier selection through AH- 
+P-VIKOR integrated methodology. International Journal of Industrial Engineering, 
+3 (5), 1–6 . 
+
+
+Rai, A. , Patnayakuni, R. , & Seth, N. J. (2006). Firm performance impacts of digitally 
+enabled supply chain integration capabilities. MIS Quarterly, 30 (2), 225–246 . 
+
+
+Raiffa, H. , & Keeney, R. L. (1975). Decision Analysis with Multiple Conflicting Objec- 
+tives, Preferences and Value Tradeoffs. IIASA Working Paper . Laxenburg, Austria: 
+IIASA WP-75-053 . 
+
+
+Ren, Z. , Xu, Z. , & Wang, H. (2018). Multi-criteria group decision-making based on 
+quasi-order for dual hesitant fuzzy sets and professional degrees of decision 
+makers. Applied Soft Computing, 71 , 20–35 . 
+
+
+Rozados, I. V. , & Tjahjono, B. (2014). Big data analytics in supply chain management: 
+Trends and related research. Paper presented at the 6th international conference 
+on operations and supply chain management . 
+
+
+Rüßmann, M. , Lorenz, M. , Gerbert, P. , Waldner, M. , Justus, J. , Engel, P. , & Har- 
+nisch, M. (2015). Industry 4.0: The future of productivity and growth in manu- 
+facturing industries. Boston Consulting Group, 9 (1), 54–89 . 
+
+
+Saaty, T. L (1980). The analytic process: Planning, priority setting, resources allocation . 
+New York: McGraw . 
+
+
+Ş ahin, R., & Yi ̆gider, M. (2014). A Multi-criteria neutrosophic group decision making 
+metod based TOPSIS for supplier selection. arXiv preprint arXiv: 1412.5077 . 
+
+
+Shahroudi, K. , & Tonekaboni, S. M. S. (2012). Application of TOPSIS method to sup- 
+plier selection in Iran auto supply chain. Journal of Global Strategic Management, 
+12 , 123–131 . 
+
+
+Sharif Ullah, A. M. M. (2005). A fuzzy decision model for conceptual design. Systems 
+Engineering, 8 (4), 296–308. doi: 10.10 02/sys.20 038 . 
+
+
+Sharif Ullah, A. M. M., & Shamsuzzaman, M. (2013). Fuzzy monte carlo simula- 
+tion using point-cloud-based probability–possibility transformation. Simulation, 
+89 (7), 860–875. doi: 10.1177/003754 97134 82174 . 
+
+
+Sheffi, Y. , & Rice Jr, J. B. (2005). A supply chain view of the resilient enterprise. MIT 
+Sloan Management Review, 47 (1), 41–49 . 
+
+
+Sheffi, Y. (2005). The resilient enterprise: Overcoming vulnerability for competitive ad- 
+vantage : 1. MIT Press Book . 
+
+
+Singh, A. (2016). A goal programming approach for supplier evaluation and demand 
+allocation among suppliers. International Journal of Integrated Supply Manage- 
+ment, 10 (1), 38–62 . 
+
+
+Sodenkamp, M. A. , Tavana, M. , & Di Caprio, D. (2018). An aggregation method for 
+solving group multi-criteria decision-making problems with single-valued neu- 
+trosophic sets. Applied Soft Computing, 71 , 715–727 . 
+
+
+SUPPLYCHAINDIVE (2018). Delivery issues jumped 50% as florence hit. 
+Retrieved 02/26, 2019, from https://www.supplychaindive.com/news/ 
+delivery- issues- jumped- 50- as- florence- hit/533049/ 
+
+
+Thokala, P., Devlin, N., Marsh, K., Baltussen, R., Boysen, M., Kalo, Z., et al. (2016). 
+Multiple criteria decision analysis for health care decision making—An intro- 
+duction: Report 1 of the ISPOR MCDA emerging good practices task force. Value 
+in Health, 19 (1), 1–13. doi: 10.1016/j.jval.2015.12.003 . 
+
+
+Torabi, S. A., Baghersad, M., & Mansouri, S. A. (2015). Resilient supplier selection and 
+order allocation under operational and disruption risks. Transportation Research 
+Part E: Logistics and Transportation Review, 79 , 22–48. doi: 10.1016/j.tre.2015.03. 
+005 . 
+
+
+Ullah, A. M. M. S. (2005). Handling design perceptions: An axiomatic de- 
+sign perspective. Research in Engineering Design, 16 (3), 109–117. doi: 10.1007/ 
+s0 0163-0 05-0 0 02-2 . 
+
+
+Ullah, A. M. M. S., & Noor-E-Alam, M. (2018). Big data driven graphical information 
+based fuzzy multi criteria decision making. Applied Soft Computing, 63 , 23–38. 
+doi: 10.1016/j.asoc.2017.11.026 . 
+
+
+Valipour Parkouhi, S., Safaei Ghadikolaei, A., & Fallah Lajimi, H. (2019). Resilient sup- 
+plier selection and segmentation in grey environment. Journal of Cleaner Produc- 
+tion, 207 , 1123–1137. doi: 10.1016/j.jclepro.2018.10.007 . 
+
+
+Wahlster, P. , Goetghebeur, M. , Kriza, C. , Niederländer, C. , & Kolomin- 
+sky-Rabas, P. (2015). Balancing costs and benefits at different stages of 
+medical innovation: A systematic review of multi-criteria decision analysis 
+(MCDA). BMC Health Services Research, 15 (1), 262 . 
+
+
+Waller, M. A. , & Fawcett, S. E. (2013). Data science, predictive analytics, and big data: 
+A revolution that will transform supply chain design and management. Journal 
+of Business Logistics, 34 (2), 77–84 . 
+
+
+Wang, G. , Gunasekaran, A. , Ngai, E. W. , & Papadopoulos, T. (2016). Big data analytics 
+in logistics and supply chain management: Certain investigations for research 
+and applications. International Journal of Production Economics, 176 , 98–110 . 
+
+
+Wang, H. , Smarandache, F. , Sunderraman, R. , & Zhang, Y.-Q. (2005). Interval neu- 
+trosophic sets and logic: theory and applications in computing . Phoenix, Arizona, 
+USA: Hexis . 
+
+
+Wen, J., Miaoyan, Z., & Chunhe, X. (2017). A reliability-based method to sensor data 
+fusion. Sensors, 17 (7), 1575. doi: 10.3390/s17071575 . 
+
+
+Witkowski, K. (2017). Internet of things, big data, industry 4.0–innovative solutions 
+in logistics and supply chains management, Procedia Engineering. 182, 763–769. 
+
+
+Yoon, K. (1987). A reconciliation among discrete compromise solutions. Journal of 
+the Operational Research Society, 38 (3), 277–286 . 
+
+
+Zadeh, L. A. (1965). Fuzzy sets. Information and Control, 8 (3), 338–353. doi: 10.1016/ 
+S0019- 9958(65)90241- X . 
+
+
+Zadeh, L. A. (1997). Toward a theory of fuzzy information granulation and its cen- 
+trality in human reasoning and fuzzy logic. Fuzzy Sets and Systems, 90 (2), 111–
+127. doi: 10.1016/S0165-0114(97)0 0 077-8 . 
+
+
+Zhong, R. Y. , Xu, X. , Klotz, E. , & Newman, S. T (2017). Intelligent manufacturing in 
+the context of industry 4.0: A review. Engineering, 3 (5), 616–630 . 
+
+
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0015
+
+https://doi.org/10.1155/2019/2456260
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0022a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0022a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0022a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0022a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0022a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0017
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0017
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0017
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0017
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0017
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0017
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0017
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0017
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0018
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0018
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0018
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0018
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0019
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0019
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0019
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0019
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0019
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0007
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0007
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0007
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0007
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0007
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0007
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0020
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0020
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0020
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0020
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0020
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0020
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0021
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0021
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0021
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0021
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0021
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0021
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0029a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0029a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0029a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0029a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0029a
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0029a
+
+https://doi.org/10.1016/S0165-0114(99)00024-X
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0023
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0023
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0023
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0023
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0023
+
+https://www.i-scoop.eu/industry-4-0/
+
+https://www.i-scoop.eu/industry-4-0/supply-chain-management-scm-logistics/#Logistics_40_the_crucial_aspect_of_autonomous_decisions_and_applications
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0024
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0024
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0024
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0024
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0024
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0024
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0024
+
+http://arxiv.org/abs/1806.01650
+
+https://doi.org/10.1080/00207543.2015.1088971
+
+https://doi.org/10.1016/j.eswa.2010.07.055
+
+https://doi.org/10.1016/j.eswa.2011.02.031
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0028
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0028
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0028
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0028
+
+https://doi.org/10.1007/s10479-015-1863-z
+
+https://doi.org/10.1155/2012/407942
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0031
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0031
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0031
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0031
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0031
+
+https://doi.org/10.1080/00207543.2017.1370149
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0033
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0033
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0033
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0033
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0033
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0034
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0034
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0034
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0034
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0034
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0034
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0035
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0035
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0035
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0035
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0035
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0014
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0014
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0014
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0014
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0036
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0036
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0036
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0036
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0036
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0037
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0037
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0037
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0037
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0015
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0038
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0038
+
+http://arxiv.org/abs/1412.5077
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0038t
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0038t
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0038t
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0038t
+
+https://doi.org/10.1002/sys.20038
+
+https://doi.org/10.1177/0037549713482174
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0018
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0018
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0018
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/othref0018
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0041
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0041
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0042
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0042
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0043
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0043
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0043
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0043
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0043
+
+https://www.supplychaindive.com/news/delivery-issues-jumped-50-as-florence-hit/533049/
+
+https://doi.org/10.1016/j.jval.2015.12.003
+
+https://doi.org/10.1016/j.tre.2015.03.005
+
+https://doi.org/10.1007/s00163-005-0002-2
+
+https://doi.org/10.1016/j.asoc.2017.11.026
+
+https://doi.org/10.1016/j.jclepro.2018.10.007
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0049
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0049
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0049
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0049
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0049
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0049
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0049
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0050
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0050
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0050
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0050
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0051
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0051
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0051
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0051
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0051
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0051
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0052
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0052
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0052
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0052
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0052
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0052
+
+https://doi.org/10.3390/s17071575
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0054
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0054
+
+https://doi.org/10.1016/S0019-9958(65)90241-X
+
+https://doi.org/10.1016/S0165-0114(97)00077-8
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0057
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0057
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0057
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0057
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0057
+
+http://refhub.elsevier.com/S0957-4174(19)30495-6/sbref0057
+
+

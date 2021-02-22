@@ -1,0 +1,4244 @@
+
+
+
+
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+Available online 24 October 2020
+0040-1625/© 2020 Elsevier Inc. All rights reserved.
+
+
+Measuring the perceived benefits of implementing blockchain technology 
+in the banking sector 
+
+
+Poonam Garg a, Bhumika Gupta b, Ajay Kumar Chauhan a, Uthayasankar Sivarajah c,*, 
+Shivam Gupta d, Sachin Modgil e 
+
+
+a Institute of Management Technology (IMT), Raj Nagar, Ghaziabad 201001, Uttar Pradesh, India 
+b Institut Mines-Telecom Business School, LITEM, Université Paris-Saclay Evry, France 
+c School of Management, University of Bradford, Richmond Road, Bradford BD7 1DP, United Kingdom 
+d Department of Information Systems, Supply Chain & Decision Making, NEOMA Business School, 59 Rue Pierre Taittinger, 51100 Reims, France 
+e International Management Institute (IMI), 2/4 C, Judges Ct Rd, Alipore, Kolkata 700027, West Bengal, India   
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Blockchain 
+Banking sector 
+Perceived benefits 
+Instrument development 
+AMOS 
+
+
+A B S T R A C T   
+
+
+This study aims to measure the perceived business benefits of blockchain technology implementation in the 
+banking sector and establish factors to measure these benefits. Concerns regarding security, values, and stan-
+dards are essential to banking operations. Data was collected from 291 respondents who are either blockchain 
+consultants, blockchain marketing experts, or CEOs/business heads of banks that are in the process of advising, 
+consulting, or implementing blockchain technology. Confirmatory factor analysis (CFA) was carried out to assess 
+the reliability and validity of the proposed instrument. The results support the proposed instrument and its five 
+constructs. The scale emerging from this study indicates a good degree of reliability, validity and unidimen-
+sionality in each of its constructs. Technologies like blockchain are in their initial stages, and recent advances in 
+blockchain technology may impact our findings. The developed instrument could help give decision makers a 
+foundational view to measure the benefits of implementing blockchain technology before they choose to inte-
+grate it in their existing system. The scientific and societal significance of the study based on its practical and 
+theoretical applications is presented at the end.   
+
+
+1. Introduction 
+
+
+In recent years, our society has experienced the emergence of an 
+innovative wave of disruptive technologies spread among different in-
+dustries labelled “Industry 4.0′′ (Hou et al., 2020; Chang et al., 2019). In 
+the early years, the concept of Industry 4.0 was confined to the 
+manufacturing sector (Skilton and Hovsepian, 2017). By using Industry 
+4.0 disruptive technologies, many manufacturing units have witnessed 
+an enhancement in their capabilities and performance (Büchi et al., 
+2020; Szalavetz, 2019). In addition to manufacturing companies, many 
+service industries ranging from telecoms to banking are expecting ben-
+efits from the digital technologies of Industry 4.0 (Kohtamäki et al., 
+2020; Frank et al., 2019). These digital technologies have enabled many 
+new business models (Sung, 2018). In today’s world, the service in-
+dustry accounts for the largest share of GDP in most advanced econo-
+mies (Mariani and Borghi, 2019). These service industries are currently 
+
+
+either using or testing these technologies to change the way they do 
+business. A wide array of technologies such as cloud computing, 3D 
+printing, the internet of things (IoT), and cyber physical systems (CPS) 
+along with artificial intelligence (AI) and blockchain fall under the scope 
+of the Industry 4.0 revolution (Chang et al., 2020c). The advantage of 
+these disruptive technologies lies in their self-learning ability, their se-
+curity and their predictive ability in dynamic conditions. Cloud 
+computing can help integrate the knowledge and needs of customers 
+with data for personalized services in the banking industry (Larson and 
+Chang, 2016; Zineldin and Vasicheva, 2015). In financial services, se-
+curity is always a concern, and the IoT has therefore been applied to 
+payments, banking and insurance activities (Mani and Chouk, 2018). 
+Apart from this, CPS has enabled real-time service abilities like auto-
+matic teller machines (ATM) and mobile financial services (Gai et al., 
+2017). Machine learning, which is one of the AI technologies, helps 
+banks serve customers faster and comply with regulations. In addition, 
+
+
+* Corresponding author. 
+E-mail addresses: pgarg@imt.edu (P. Garg), bhumika.gupta@imt-bs.eu (B. Gupta), akchauhan@imt.edu (A.K. Chauhan), u.sivarajah@bradford.ac.uk 
+
+
+(U. Sivarajah), shivam.gupta@neoma-bs.fr (S. Gupta), s.modgil@imi-k.edu.in (S. Modgil).  
+
+
+Contents lists available at ScienceDirect 
+
+
+Technological Forecasting & Social Change 
+
+
+journal homepage: www.elsevier.com/locate/techfore 
+
+
+https://doi.org/10.1016/j.techfore.2020.120407 
+Received 15 June 2020; Received in revised form 11 October 2020; Accepted 13 October 2020   
+
+
+
+mailto:pgarg@imt.edu
+
+mailto:bhumika.gupta@imt-bs.eu
+
+mailto:akchauhan@imt.edu
+
+mailto:u.sivarajah@bradford.ac.uk
+
+mailto:shivam.gupta@neoma-bs.fr
+
+mailto:s.modgil@imi-k.edu.in
+
+www.sciencedirect.com/science/journal/00401625
+
+https://www.elsevier.com/locate/techfore
+
+https://doi.org/10.1016/j.techfore.2020.120407
+
+https://doi.org/10.1016/j.techfore.2020.120407
+
+https://doi.org/10.1016/j.techfore.2020.120407
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.techfore.2020.120407&domain=pdf
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+2
+
+
+these technologies are utilized for supervisory purposes (Wall, 2018; 
+Moro et al., 2015). 
+
+
+Banks and financial institutions are considered to be the lifeline of 
+modern society and act as a catalyst in stimulating and nourishing 
+economic growth in developing countries like India (Iqbal and Sami, 
+2017; Disyatat, 2004). The Indian banking sector is facing issues such as 
+increasing operational costs, an ever increasing number of fraudulent 
+transactions and challenges in ensuring transparency (Kumar and Pra-
+kash, 2018; Jayadev et al., 2017). The banking system needs to explore 
+robust technologies to avoid fraud and carry out transactions quickly 
+(Sunder et al., 2019; Repousis et al., 2019). Furthermore, the system 
+needs to ensure cost efficiency in its operations and transparency for its 
+customers and regulators (Altankhuyag, 2019; Ray, 2016; Dong et al., 
+2014). To this end, the banking sector has adopted many platforms that 
+are driven by technologies to enhance banking activity performance 
+(Palmié et al., 2020). Blockchain has the potential to eliminate in-
+termediaries, improving transparency and traceability of transactions by 
+streamlining, simplifying and enhancing the traditional business pro-
+cesses of banks (Frizzo-Barker et al., 2019; Hassani et al., 2018; 
+Hyvärinen et al., 2017). According to Accenture, the global banking 
+sector can save up to $20 billion by the year 2022 via the innovative 
+application of blockchain (Accenture, 2018). 
+
+
+Blockchain technologies are considered promising, innovative, and 
+have a substantial influence on industry and social order (Alter, 2019; 
+Wu et al., 2019; Chen, 2018; Ducas and Wilner, 2017). Blockchain in 
+banking and investment-related solutions weathered a period of cyni-
+cism before its significant worth was recognized (Pereira et al., 2019; 
+Gartner, 2018). Blockchain technologies are the foundation of many 
+cryptocurrencies such as bitcoin (Wang et al., 2019c; Li et al., 2017). It is 
+a distributed ledger technology that can register transactions among two 
+or more parties (Iansiti and Lakhani, 2017; Kuo et al., 2017; Lemieux, 
+2016). According to reports by Gartner, “Blockchain is an expanding list of 
+cryptographically signed, irrevocable transactional records shared by all 
+participants in a network. Each record contains a time stamp and reference 
+links to previous transactions”. Based on this information, participants 
+with the right permissions and access can track the transaction history 
+(Andoni et al., 2019; Drosatos and Kaldoudi, 2019; Beck et al., 2017). 
+Blockchain can be further classified into public and private chains. In the 
+public blockchain network, there is no limit set by management, and 
+anyone can join the chain (Viriyasitavat and Hoonsopon, 2019; Ying 
+et al., 2018; Marsal-Llacuna, 2018; Sikorski et al., 2017). It can be 
+maintained by anyone with enough computational power. The public 
+model allows for self-certification of participants to join or quit at will 
+and has decentralized trust with no central identity management (Can-
+gemi and Brennan, 2019; Saberi et al., 2019; Alabi, 2017). Private 
+blockchain networks are closed groups that support models with 
+centralized identity and membership requirements, making overall 
+control much easier, but limiting participation (Morkunas et al., 2019; 
+Vranken, 2017; Yoo, 2017). However, secure and efficient private 
+blockchain could be vulnerable to manipulation due to centralized 
+governance (Shrestha et al., 2019; Reyna et al., 2018; Kshetri, 2017). In 
+addition, the benefits of blockchain can be viewed through the lens of 
+institutional, market, and technical factors (Governatori et al., 2018; 
+Koppenjan and Groenewegen, 2005). The narrative of blockchain’s 
+scientific aspects has been examined from a theoretical perspective as 
+compared to a technical or architectural one (Liu et al., 2019; Lemieux, 
+2016). Hardly any effort has been made in the literature regarding the 
+development of an instrument to measure the perceived paybacks of 
+executing blockchain technology with a specific focus on the banking 
+sector. The background of blockchain technology therefore leads us to 
+pose the following research questions: 
+
+
+R1. What are the perceived business benefits of implementing blockchain 
+technology in the banking sector? 
+R2. How can we measure the perceived benefits of implementing block-
+chain technology in the banking sector? 
+
+
+In this paper, first we discuss the theoretical background based on 
+prior research to measure the perceived benefits of implementing 
+blockchain technology with a specific focus on the banking sector. 
+Second, we discuss the findings of the qualitative investigation with 
+which we developed an initial pool of instrument items to measure the 
+perceived benefits of implementing blockchain technology. Third, we 
+present the outcomes of our study with sample data collected from 
+blockchain consultants, blockchain marketing experts and CEOs/busi-
+ness heads of banks that serve to purify and validate the instrument. We 
+then elaborate on our findings in the discussion section. After the dis-
+cussion section, we present the theoretical and practical implications. 
+Finally, we conclude the study and present the limitations and future 
+scope of research. 
+
+
+2. Literature review 
+
+
+2.1. Blockchain technology use in the banking sector 
+
+
+The Indian banking industry is currently experimenting with and 
+examining a number of business circumstances and their relationship 
+with blockchain technology, such as vendor financing, customer loyalty 
+programs, and syndicated loans (Deloitte, 2017). Popular banks in India 
+(for example: the Reserve Bank of India (RBI), Yes Bank, Axis Bank and 
+the State Bank of India (SBI)) are considering the implementation of 
+blockchain technology, which may be much faster, more transparent, 
+and more secure way to serve their customers more efficiently (Andoni 
+et al., 2019; Sharma, 2018; Yoo, 2017). The State Bank of India is the 
+largest bank and has been the first to develop a blockchain consortium 
+for financial transactions composed of about 10 banks. The bank 
+completed its first project using blockchain to enable its members to 
+share Know Your Customer (KYC), Combating the Financing of 
+Terrorism (CFT), and Anti-Money Laundering (AML) situations (Gupta, 
+2018). However, this technology has yet to be verified with regard to 
+know-how (Zheng et al., 2018; Nofer et al., 2017). Apart from India, 
+other countries and firms are using different approaches to blockchain. 
+Well-known econometric models have been adapted and applied to 
+improve analysis and make businesses more competitive (Ji et al., 
+2020). Blockchain as a technology has the potential to be exceptionally 
+useful to the investment and banking industry as an eco-system (Hassani 
+et al., 2018; Beck, 2017; Oh and Shong, 2017). Literature on the benefits 
+of implementing blockchain in the banking sector are available from 
+various sources, such as industry published whitepapers, blogs, wikis, 
+and conference proceedings (Cole et al., 2019; Hyvärinen et al., 2017; 
+Larios-Hernández, 2017; Yeoh, 2017). This section discusses the pro-
+spective benefits of implementing blockchain technology from corner to 
+corner in the banking sector. 
+
+
+Banks primarily apply blockchain technology for fund transfers, 
+registrations, and maintaining back-end utilities (Andoni et al., 2019; 
+Taylor et al., 2019; Zheng et al., 2018). This technology works like a 
+distributed ledger and is completely open to anyone and everyone in the 
+network. Once the data is registered in blockchain, it is very difficult to 
+alter or transform it, making blockchain inherently secure (Pratap, 
+2018; Reyna et al., 2018; Iansiti and Lakhani, 2017). Jaag & Bach (2017) 
+studied the opportunities that may arise from blockchain technology in 
+postal organizations, such as decentralized platforms, secured record-
+keeping and fast transaction systems. This sector, like the banking 
+sector, is starting to explore blockchain to improve its operations. 
+Different banks have different approaches to experimenting with and 
+adopting this technology. Some banks are exploring internal options 
+first, while others are trying to use the technology to explore options 
+between banks first (Andoni et al., 2019; Rijmenam, 2018; Eyal, 2017). 
+
+
+Blockchain technology is a cross-boundary process providing trusted 
+and efficient solutions to multiple stakeholders in multiple organizations 
+(Dubey et al., 2020; Upadhyay, 2020; Manski, 2017). It provides a 
+platform for innovation to meet the needs of stakeholders based on their 
+expectations and applications. (Chen, 2018; De la Rosa et al., 2017). 
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+3
+
+
+This technology is an accurate representation of data structure that 
+keeps track of multiple transactions and safeguards the transparency, 
+security, and decentralization of the data (Andoni et al., 2019; Knirsch 
+et al., 2019; Zhang et al., 2018). Blockchain technology is expected to 
+bring greater transparency to monetary transactions and advance the 
+efficacy of countries’ financial systems (Kshetri, 2017; Guo and Liang, 
+2016). Blockchain technology can provide a new revolution especially 
+in the banking sector with better payment clearing mechanisms and 
+upgraded credit information and management systems, which would 
+lead to a more efficient banking system (Cai et al., 2019; Mengelkamp 
+et al., 2018; Guo and Liang, 2016). The remittance cost through block-
+chain accounts to 2 to 3% compared to 5 to 20% through third-party 
+facilitation in the traditional banking system, especially in 
+cross-country payments. However, if the payments are made in crypto-
+currencies, this may pose certain challenges. Therefore, until a balance 
+of interests and regulations is achieved among countries, payments 
+using cryptocurrencies may not be possible (Zhang et al., 2020). Apart 
+from this, blockchain provides a new institutional technology as it in-
+fluences the transaction cost in a new decentralized system and re-
+defines the governance of banking companies (Nofer et al., 2017; 
+MacDonald et al., 2016). Rahman et al. (2018) discussed the potential of 
+blockchain in providing safe and secure networks for the financial sys-
+tem. Cai (2018) mentioned that blockchain technology eliminates 
+financial intermediaries, as it provides direct peer-to-peer payments 
+online and provides digital contracts without government regulatory 
+control. 
+
+
+The most frequently mentioned benefits of blockchain technology 
+include cost efficiency, above-average profits, better recordkeeping 
+systems, smart digital contracts with universal online identification 
+systems, a safe digital platform, scope for improvement and few regu-
+latory controls (Andoni et al., 2019; Puthal et al., 2018). Some of the 
+paybacks of industrial blockchain include enhanced compliance, 
+reduced risk, advancement and streamlining of capabilities, and rein-
+forcement and automation of trust, which are age-old business processes 
+(IBM, 2016). In addition to this, the underlying technology optimizes 
+clearing process efficiency and financial asset spending following 
+transactions and leads to a reduction in costs (Hassani et al., 2018; 
+Tapscott and Tapscott, 2017; Guo and Liang, 2016). According to Nelito 
+(2018), the adoption of blockchain could potentially save billions of US 
+dollars for the banking sector by radically decreasing handling and 
+processing costs. Since each transaction block in blockchain has a 
+timestamp, it can help reduce fraud in the banking industry (Oza, 2018; 
+Harigunani, 2017). In the traditional system, it takes days to update 
+ledgers, whereas blockchain technology can do it immediately, auto-
+matically, and transparently (Kim and Laskowski, 2018; Nofer et al., 
+2017). High data quality can be maintained in the banking system 
+(Martin, 2018). Banks can reduce their transaction fees if they are able to 
+reduce the costs of operations and eliminate intermediaries. Blockchain 
+eliminates the risk of errors and duplication, and as a result, stored data 
+is complete, accurate, and reliable (Reyna et al., 2018; Thurner, 2018; 
+New Age Banking Summit Europe, 2018). Blockchain technology offers 
+many opportunities, such as better financial infrastructure and 
+sustainably-developed, efficient systems, especially in the banking 
+sector (Lu et al., 2019). It promotes better economic growth and de-
+velops green technology all over the globe due to its low energy con-
+sumption. (Kouzinopoulos et al., 2018; Cocco et al., 2017). Dale (2018) 
+argued that rapid international payments would condense expenses for 
+banks immensely and result in a considerable improvement in terms of 
+proficiency and competence. Blockchain can also lead to greater trust 
+among occupational partners since access to technology is shared and 
+they can depend on reliable records and robust safety structures 
+(Iskandar, 2017). Blockchain is real-time and open-source to create 
+value for the stakeholders in the banking system (Accenture, 2018). 
+Radical changes in the existing banking system can foster innovation 
+and lead to growth with a considerable decrease in risk through block-
+chain technology (Umalkar, 2016). It is easy to trace the identity of each 
+
+
+authorized person in the blockchain-lead banking system, which helps 
+to conduct reliable and accurate audits. Since the banking system is a 
+part of the service economy, intangibility and simultaneity are essential 
+characteristics. Service delivery, confidentiality, continuous innovation 
+and integrity of data are therefore crucial in banking systems and can be 
+implemented through technology like blockchain (Sivarajah et al., 2017; 
+Iyer, 2016; Abdullah et al., 2011; Bygstad and Aanby, 2010). 
+
+
+Song et al. (2016) explained that blockchain empowers a databank 
+that can be shared directly without a principal owner. They also iden-
+tified some of the advantages, such as extraordinary quality of data, 
+durability and reliability of data, empowered users, longevity, process 
+truthfulness, transparency and immutability, a simplified ecosystem, 
+increased transaction speed and significantly reduced transaction costs. 
+In short, blockchain will push the system to become more resilient by 
+helping banks authenticate, merge, and trade economic statements, 
+validate agreements, retain reviews and audit tracks and discourage 
+money laundering (Helo and Hao, 2019; Swaniti initiative, 2018; 
+Kewell et al., 2017; Kshetri, 2017) According to Kloppmann (2017), 
+blockchain for financial services means trust for all. 
+
+
+Blockchain can disrupt the banking industry by facilitating lower 
+fees on fund transfers and bringing faster settlement systems through the 
+distributed ledger, which can further reduce the cost of operations 
+(Frizzo-Barker et al., 2020; Governatori et al., 2018). The society we live 
+in often faces the need to raise funds due to unexpected events like di-
+sasters or pandemics, most recently with Covid-19. Blockchain could 
+potentially offer a new model of access to capital as compared to 
+traditional fund-raising systems (Chen, 2018). In today’s society, most 
+people need loans for their present and future requirements such as 
+housing, vehicles, and other personal needs. Blockchain can help elim-
+inate the gatekeepers in the process of getting a loan with a lower in-
+terest rate and offer a rate more quickly (Wang et al., 2019d). Blockchain 
+is therefore expected to change the way individuals and societies 
+interact. Blockchain can help promote transparency, decrease costs and 
+increase productivity, which will facilitate the social impact. We will 
+describe the trends, challenges, and opportunities of blockchain with 
+regard to the financial services sector below. 
+
+
+2.2. Trends in blockchain technology application 
+
+
+In recent years, blockchain-based applications have become 
+increasingly common in the field of financial services (Casino et al., 
+2019; Zheng et al., 2017). Financial services and insurance firms are 
+investing in blockchain technology to improve the security of certain 
+data classes, enhance the capability of the system and increase cooper-
+ation with other setups (Pazaitis et al., 2017). Blockchain has been 
+applied to financial asset management and economic transactions 
+(Haferkorn and Diaz, 2015). Transactions are decentralized and 
+immutable due to systematic ledger distribution. Blockchain is thought 
+to contribute to global sustainable development by offering consumers 
+the benefits of the current banking system (Liu et al., 2020; Nguyen, 
+2016). Blockchain has the potential to resolve the problems of trust, 
+security, and control over data in financial services (Zhu et al., 2019; 
+Iyer (2016)), and this is therefore another reason why financial services 
+look to blockchain in the adoption of smart contracts (Wang et al., 
+2019a; Macrinici et al., 2018). It proposes a revolution in capital mar-
+kets and makes operations more secure, especially through digital 
+payment (Gao et al., 2018; Rohr and Wright, 2018; Yamada et al., 2017). 
+Furthermore, activities including loan management, governance, gen-
+eral services, and auditing in financial services are more effective with 
+the help of blockchain technology (Gazali et al., 2018; Dai and Vasar-
+helyi, 2017; Ølnes et al., 2017). Financial service organizations are 
+taking steps towards this. For instance, JP Morgan Chase’s Quorum unit 
+is working on a blockchain solution with a special focus on contracts and 
+the distributed ledger. Another firm, Bank of America, recently filed a 
+patent and trademark for blockchain technology (Crosby et al., 2016). 
+Another promising project is being spearheaded by Goldman Sachs to 
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+4
+
+
+address the problem of volatility (Bouri et al., 2017). The adoption of 
+blockchain-like technologies will help firms improve costs, customer 
+care, and innovation capabilities. Stakeholders will soon develop more 
+trust and accept blockchain as a sustainable part of their financial 
+activities. 
+
+
+2.3. Challenges of blockchain technology application 
+
+
+Different industries and platforms have experienced problems in 
+adopting blockchain. For instance, in e-governance, issues related to 
+security, scalability, and flexibility are common (Chang et al., 2020a). In 
+addition, a lack of legitimate and regulatory support is another barrier 
+for blockchain in the public sector (Batubara et al., 2018). We have 
+classified the challenges of blockchain technology applications into four 
+categories: 
+
+
+2.3.1. Scalability 
+The scalability of processing power is another challenge with regard 
+
+
+to the computational capability of devices, and that capability is 
+addressed with limitations such as “sharding”. Sharding is an approach 
+to splitting computational and workload storage into parts (Reyna et al., 
+2018; Sharma and Park, 2018). On the technical side, the available al-
+gorithms for different blockchains are currently slow and consume more 
+energy than expected (Janssen et al., 2020; Upadhyay, 2020). In the 
+energy sector, the way in which blockchain could facilitate peer-to-peer 
+energy trading, electric vehicle charging, and e-mobility is still a ques-
+tion (Andoni et al., 2019). Many industries have invested heavily in their 
+legacy systems, which work smoothly otherwise, making integration 
+with these systems another challenge for blockchain (Schuetz and 
+Venkatesh, 2020; Reyna et al., 2018). 
+
+
+2.3.2. Security 
+Blockchain technology is expected to top the market in the near 
+
+
+future with its clear revenue potential, but blockchain security remains a 
+concern due to the nature of distributed ledger technology (DLT). The 
+critical vulnerabilities with DLT culminate outside the blockchain, at 
+what is called an endpoint, where individuals and businesses access 
+blockchain-based platforms (Lu, 2019; Gordon and Catalini, 2018). 
+Public and private keys are required to access data and the possession of 
+keys and ownership of content run parallel. Therefore, there is a strong 
+chance that hackers could steal the keys to attack the system at its 
+weakest point (Zhang et al., 2020). Due to weak security systems (flawed 
+code) at their end, vendors risk having other partners expose blockchain 
+credentials (Hughes et al., 2019). In many blockchains including bitcoin, 
+an attack from a decentralized autonomous organization (DAO) could 
+result from untested code. 
+
+
+2.3.3. Regulation and governance 
+While many organizations are counting on blockchain for many of 
+
+
+their problems, they also face certain challenges. One roadblock is the 
+lack of awareness and understanding of the technology among organi-
+zations (Saberi et al., 2019). Firms are also struggling to identify 
+adequate platforms, suppliers, and partners to develop blockchain pro-
+totypes (Clohessy and Acton, 2019; Hughes et al., 2019). Customer data 
+encryption is another major challenge due to the enhanced knowledge of 
+hacking. There are no instructions and guidelines as to how financial 
+services can utilize different modes of blockchain to manage their in-
+ternal network and external exchange of information in terms of pay-
+ments and transactions (Casino et al., 2019; Reyna et al., 2018). Though 
+the decentralized approach of blockchain technology is a core charac-
+teristic, it poses definite restrictions on financial services (Kar-
+amchandani et al., 2020; Khan and Salah, 2018). Misalignment of 
+objectives and motives among multiple stakeholders becomes a chal-
+lenge in a decentralized environment (McCallig et al., 2019). 
+
+
+2.3.4. Cost and efficiency 
+The cost and efficiency of blockchain are critical concerns for many 
+
+
+organizations (Casino et al., 2019; Zheng et al., 2017). Although, 
+blockchain technology is fairly capable when it comes to reducing costs, 
+it still faces limitations in legacy systems. The initial investment and 
+infrastructure development for blockchain is expensive (Reyna et al., 
+2018). Smaller financial services or banks may prefer not to invest in this 
+technology (Marco and Lakhani, 2017). High maintenance costs also 
+create an obstacle to the adoption of blockchain technology (Cao et al., 
+2019). In fact, several obstacles must be overcome before this technol-
+ogy can be used. Blockchain adoption has complex human-related issues 
+as well, such as knowledge-hiding, which was reported in the early days 
+of adoption to prevent institutions or management from being successful 
+(Chang et al., 2020b). Firms must therefore keep a close eye on block-
+chain development and prepare themselves for its adoption. 
+
+
+2.4. Blockchain technology application opportunities 
+
+
+Organizations need to encourage their employees to participate and 
+attend internal knowledge sessions along with conferences on block-
+chain to enhance their capabilities (Lizcano et al., 2020; Attaran and 
+Gunasekaran, 2019). Firms need to encourage cross-functional teams to 
+develop a detailed plan for successful implementation of blockchain in 
+their operations (Islam et al., 2019; Pazaitis et al., 2017). An alternate 
+strategy needs to be built to mask data so that no one can access it 
+(Wang et al., 2019b). In this virtual environment, regulators have an 
+opportunity to analyze, contextualize, and control digital platforms. 
+Blockchain offers a transformation in peer-to-peer payment along with 
+current practices of storing and processing customer requirements. 
+Blockchain can help insurance companies process claims by creating 
+smart contracts (Wang et al., 2019a; Macrinici et al., 2018; Sharma and 
+Park, 2018). This technology offers transparency and a complete 
+traceability mechanism for every claim. The trade lifecycle includes 
+multiple stakeholders ranging from settlement agents, custodians and 
+brokerage firms to intermediaries (Montecchi et al., 2019). This system 
+uses a traditional recordkeeping approach and allows room for in-
+efficiency and error. Blockchain technology can therefore help automate 
+the trade lifecycle by providing all parties with access to accurate data 
+(Narayanaswami et al., 2019). Similarly, trade finance and the digital 
+supply chain offer exciting opportunities for blockchain technology. 
+This technology can help eliminate unnecessary documents like “letters 
+of credit”, reduce costs by removing intermediaries, and develop a 
+trusted network for stakeholders (Guo and Liang, 2016). Financial in-
+stitutions across the world are required to comply with local regulators. 
+One of the key requirements is “know your customer”, which can be time 
+consuming without automated customer identification (Doughty, 2005). 
+Blockchain can act as a single platform for customer identification and 
+therefore allow an unlimited exchange of documents among financial 
+institutions (Ying et al., 2018). This approach will help maintain pri-
+vacy, which is a legal requirement. The consolidated list of the most 
+frequently cited benefits of implementing blockchain in the banking 
+sector is presented in Table 1. 
+
+
+2.5. Synthesis based on a review of the literature 
+
+
+Based on the literature and framework of Koppenjan & Groenewe-
+gen (2005), we have divided the perceived benefits of blockchain 
+technology into institutional, market, and technical indicators in 
+Table 1. Institutional indicators describe benefits based on the principles 
+of rules and regulations among different stakeholders where benefits are 
+derived from governance, cultural and regulatory domains. Blockchain 
+can help develop a culture of minimizing fraudulent transactions and 
+increase trust. Records become auditable by including the appropriate 
+origin of different accounts and documents. Blockchain helps develop a 
+strong governance platform. Blockchain offers numerous market-based 
+benefits described under performance and business processes. Cost 
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+5
+
+
+reduction and minimization is one of the key parameters in enhancing 
+the performance of financial services (Karamchandani et al., 2020). 
+Different costs ranging from transaction, processing, and administrative 
+costs must be examined to enhance financial-market efficiency and 
+reduce risk among operations. Business processes also improve with 
+real-time information, eliminating intermediaries and aligning pro-
+cesses. With regard to technical indicators, blockchain offers solutions to 
+help drive perceived benefits. First, it facilitates data quality by 
+providing adequate protection, accuracy, and control. Second, it offers 
+enhanced security and an automated recordkeeping system along with 
+faster disbursement and settlement. In any system, the architecture 
+needs to be robust and resistant to disruptions. Therefore, the infra-
+structure of a financial system can define the sustainability of opera-
+tions. Blockchain offers the characteristics of resilience, robustness and 
+green technology (Kouzinopoulos et al., 2018). Apart from this, infor-
+mation exchange and transactions can be viewed as sources of perceived 
+benefits in terms of speedy transactions, integrated systems, minimum 
+error, and faster reconciliation. With the help of the above characteris-
+tics, we identified the areas of banking where blockchain can help 
+transform the industry. Fig. 1 presents various application areas, from 
+the cost of undertaking different activities to consumer service and trade 
+finance, and illustrates how they securely connect with different parts of 
+the value chain. 
+
+
+The banking industry heavily employs third parties to monitor and 
+manage large transactions (Guo and Liang, 2016). The banking industry 
+is burdened with the process of authenticating information and checking 
+compliance at regular intervals. Blockchain can change this by elimi-
+nating the overlap in know-your-consumer and anti-money laundering 
+
+
+Table 1 
+Consolidated list of benefits of implementing blockchain in financial services.  
+
+
+Indicators Perceived benefits References 
+
+
+Institutional Indicators 
+Cultural Increased trust New Age Banking Summit Europe 
+
+
+(2018), Tecsynt Solutions (2018),  
+Harigunani (2017), Kloppmann 
+(2017), Universal payments 
+(2017), Krause et al. (2016) 
+
+
+Reduced fraud & 
+fraudulent 
+transactions 
+
+
+Goyal (2018), Nelito (2018), Oza 
+(2018), Tecsynt Solutions (2018),  
+Unocoin (2018), Iyer (2016) 
+
+
+Regulatory Improvement in 
+regulatory compliance 
+
+
+Banks Editorial Team (2018),  
+Goyal (2018) 
+
+
+Increased auditability Rijmenam (2018),  
+Swanitiinitiative (2018), Trade 
+finance (2018), Business Insider 
+Intelligence (2017), Iyer (2016),  
+Umalkar et al. (2016) 
+
+
+Governance Ensure immutable 
+business rules 
+
+
+Rijmenam (2018), Kloppmann 
+(2017), Song et al. (2016) 
+
+
+Improved tractability Trade finance (2018), Umalkar 
+et al. (2016) 
+
+
+Immutable data 
+record 
+
+
+Research report (2018) 
+
+
+Market Indicators 
+Performance Lower financial cost Matteson (2017), Consultancy.uk 
+
+
+(2016) 
+Decreased transaction 
+cost 
+
+
+Business Insider Intelligence 
+(2017) 
+
+
+Lower operational 
+cost 
+
+
+Accenture (2018), Banks Editorial 
+Team (2018), Centaure (2018),  
+Dale (2018), Gupta (2018),  
+Martin (2018), Nelito (2018),  
+New Age Banking Summit Europe 
+(2018), Oza (2018), Harigunani 
+(2017), Iskandar (2017), IBM 
+(2016), Krause et al. (2016), Song 
+et al. (2016) 
+
+
+Reduced processing 
+cost 
+
+
+Nelito (2018), Consultancy.uk 
+(2016) 
+
+
+Reduction in 
+administrative cost 
+
+
+Business Insider intelligence 
+(2017), Matteson (2017),  
+Consultancy.uk (2016) 
+
+
+Risk reduction Krause et al. (2016), IBM (2016) 
+Increase in efficiency New Age Banking Summit Europe 
+
+
+(2018), Gupta (2018), Rijmenam 
+(2018), Trade finance (2018),  
+Tecsynt Solutions (2018),  
+Harigunani (2017), Krause et al. 
+(2016) 
+
+
+Improved financial- 
+market efficiency 
+
+
+Unocoin (2018) 
+
+
+Business process Streamlining the 
+business process 
+
+
+Business Insider Intelligence 
+(2017), Kloppmann (2017) 
+
+
+Real time information Business Insider Intelligence 
+(2019), Accenture (2018), Nelito 
+(2018), Rijmenam (2018),  
+Harigunani (2017), Iyer (2016) 
+
+
+Eliminate 
+intermediaries 
+
+
+Goyal (2018), Gupta (2018) 
+
+
+Technical Indicators 
+Data quality Data protection Research report (2018) 
+
+
+Data accuracy Martin (2018), New Age Banking 
+Summit Europe (2018), Tecsynt 
+Solutions (2018), Harigunani 
+(2017), Consultancy.uk (2016),  
+Iyer (2016), Song et al. (2016),  
+Umalkar et al. (2016) 
+
+
+Control over data Centaure (2018), Business Insider 
+Intelligence (2017), Iyer (2016) 
+
+
+Distributed ledger 
+characteristics 
+
+
+Increased security Centaure (2018), Martin (2018),  
+New Age Banking Summit Europe 
+(2018), Nelito (2018), Research 
+report (2018), Trade finance 
+(2018), Iskandar (2017),  
+Universal payments (2017)   
+
+
+Table 1 (continued ) 
+
+
+Indicators Perceived benefits References 
+
+
+Umalkar et al. (2016), Iyer (2016), 
+Krause et al. (2016) 
+
+
+Better record keeping 
+system 
+
+
+Koeppl & Kronick (2017) 
+
+
+Reduce human 
+intervention 
+
+
+Harigunani (2017) 
+
+
+Faster settlement Centaure (2018), Dale (2018),  
+Martin (2018), New Age Banking 
+Summit Europe (2018), Rijmenam 
+(2018), Tecsynt Solutions (2018),  
+Matteson (2017) Consultancy.uk 
+(2016) 
+
+
+Infrastructure System resilience Nelito (2018), Swanitiinitiative 
+(2018) 
+
+
+Robustness Nelito (2018) 
+Automation Goyal (2018), Tecsynt Solutions 
+
+
+(2018), Business Insider 
+Intelligence (2017), Universal 
+payments (2017), Krause et al. 
+(2016) 
+
+
+Green technology Cocco et al. (2017) 
+Information 
+
+
+exchange & 
+transactions 
+
+
+Increased speed of 
+transaction 
+
+
+Krause et al. (2018), New Age 
+Banking Summit Europe (2018),  
+Harigunani (2017), Song et al. 
+(2016) 
+
+
+Eliminate the time 
+delay 
+
+
+Oza (2018), IBM (2016) 
+
+
+Ensure integrity of the 
+system 
+
+
+Swanitiinitiative (2018),  
+Harigunani (2017), Iyer (2016),  
+Song et al. (2016), Umalkar et al. 
+(2016) 
+
+
+Reduced error in 
+handling and 
+reconciliation 
+
+
+Nelito (2018), Rijmenam (2018),  
+Tecsynt Solutions (2018),  
+Universal payments (2017), 
+Business Insider Intelligence 
+(2017), Matteson (2017),  
+Consultancy.uk (2016) 
+
+
+Increased speed of 
+transaction 
+
+
+Krause et al. (2018), New Age 
+Banking Summit Europe (2018),  
+Harigunani (2017), Song et al. 
+(2016)  
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+6
+
+
+(AML) actions. For AML, blockchain can leverage artificial intelligence 
+(AI) and machine learning (ML) functionalities to prevent and detect 
+unlawful transactions. Blockchain-based AI and ML can effectively sift 
+through data strings to identify signals of any illegal activity. These tools 
+can help blockchain monitor transactions more efficiently and if any 
+suspicious transactions are observed, they can be halted pending further 
+investigation. Traditional banking systems have been seen to follow 
+decades-old processes for approving transactions and lack transaction 
+processing speed. Bank exchange charges are also high for certain 
+transactions (Peters and Panayi, 2016). Funds exchanges and speed 
+constitute increasingly important criteria for quality consumer services 
+in the banking industry. Furthermore, economic activities can be 
+accelerated by integrating trade finance and blockchain technology, 
+where security and quick settlements are key. 
+
+
+3. Study design 
+
+
+This study aims to develop and validate a comprehensive instrument 
+to measure the perceived business benefits of implementing blockchain 
+technology in the banking industry. The research and development of a 
+new instrument should include a comprehensive review of the existing 
+
+
+literature followed by qualitative interviews to facilitate the identifica-
+tion of all relevant domains (Zomorodi and Lynn, 2010). According to 
+Domegan and Fleming (2007), “qualitative research aims to explore and 
+discover issues about the problem in hand, because very little is known about 
+the problem”. A review of the literature and the examination of a list of 
+research papers published on blockchain technology have provided the 
+foundation of knowledge and key insights of previous research focusing 
+on the perceived benefits of implementing blockchain technology. A set 
+of 35 items were initially identified from the existing literature 
+(Table 1). They were then itemized into institutional, market, and 
+technical indicators. It was assumed that these items would be most 
+appropriate for measuring the benefits of implementing blockchain 
+technology in the banking and related service industries. Since no in-
+struments or conceptual models exist to describe the benefits of imple-
+menting blockchain technology in the banking sector, there was a 
+limitation on generating an item pool for the instrument solely from the 
+literature review. We therefore supplemented the literature review with 
+qualitative research as a preliminary step in developing items to 
+recognize the business benefits of adopting blockchain technology in the 
+banking sector of the service industry. Fig. 2 presents the four-step 
+methodology adopted in the study. 
+
+
+3.1. Preliminary study 
+
+
+During the summer of 2017, as part of a preliminary study, we 
+identified thirty experts from the banking sector, IT industry, and 
+academia who were closely associated with blockchain-related initia-
+tives in the banking sector across India. Expert selection was done in 
+four stages. The first stage was the identification of institutions/orga-
+nizations that are currently working on blockchain technology. The 
+second stage was the identification of experts who are currently work-
+ing/involved in blockchain-related projects. In the third step, we asked 
+identified experts to participate. After they agreed to participate, they 
+were asked to nominate other experts that they felt were worthy. Finally, 
+when bringing together the appropriate expert panel, we ensured the 
+greatest possible heterogeneity with regard to gender and related work 
+areas. However, out of 30 experts, only 22 experts granted appointments 
+to conduct semi-structured interviews. The selected panel included 16 
+males (73%) and 6 females (27%). Identified experts in the panel had 
+varied backgrounds, such as vice president of marketing and corporate 
+communication, business head of core banking and payment, technical 
+experts, blockchain consultants and blockchain marketing experts along 
+with experts from academia. These experts had a vast amount of infor-
+mation and knowledge on the benefits of implementing blockchain 
+technology in banking and related sectors. Most of the interview sessions 
+were conducted face to face at the expert’s convenience at their 
+
+
+Fig. 1. Application areas of blockchain for the banking industry.  
+
+
+Fig. 2. Methodology adopted in the study.  
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+7
+
+
+respective offices, and three sessions were completed by phone. All the 
+conversations were audio-recorded and analyzed separately for further 
+research. 
+
+
+At the beginning of the interview, we briefed each panel expert in 
+detail on the study purpose and objective and we asked six open-ended 
+questions. Open-ended questions help reduce the chances of excluding 
+items or issues that we as researchers may have omitted (Nworie, 2011). 
+An unstructured questionnaire enables the experts to give an open 
+response and allows plenty of room to elaborate on the topic under 
+investigation (Pereira and Alvim, 2015). Among the selected six ques-
+tions, three questions were openly linked to the benefits of implement-
+ing blockchain, such as: “describe the 5 business benefits of implementing 
+blockchain in the banking sector” “describe the purpose of blockchain in the 
+banking sector”, or “describe how blockchain will revolutionize the banking 
+sector”. For the other three questions, we asked the subjects to provide 
+details regarding the benefits of applying blockchain in their banking 
+operations, such as “what is the nature of your activities”, “what challenges 
+have you faced within the current system”, or “what problems does block-
+chain solve”. 
+
+
+Summarizing the wealth of qualitative data into useful and mean-
+ingful items was a critical and complex stage of the study. While con-
+ducting the qualitative content analysis on the first three questions, 42 
+different keywords were identified for describing the business benefits of 
+adopting blockchain technology in the banking industry. Specifically, 
+the responses to the first questions (i.e. describe the five benefits of 
+implementing blockchain in the banking sector) allowed experts to 
+respond freely based on their experience and as a result contributed 
+valuable information to delineate the theme and items. Fig. 3 presents 
+the framework used for the preliminary study and the outcome of this 
+qualitative structure was used to develop a scale of the perceived ben-
+efits from implementing blockchain technology in the banking sector. 
+Based on the qualitative outcomes, we developed 42 items indicating the 
+perceived benefits of blockchain adoption in the banking industry. 
+
+
+3.2. Items and instrument development 
+
+
+Following a rigorous review of the existing literature and expert 
+opinions, it was decided that 42 items would be included to identify the 
+business benefits of implementing blockchain in the banking sector. We 
+created an initial draft of a structured, closed-ended questionnaire 
+containing 42 items (set of questions) identified from the literature re-
+view plus the qualitative research. 
+
+
+The experts were instructed to rate each of the 42 items for their 
+importance and necessity in measuring the business benefits of imple-
+menting blockchain in the banking sector on a 7-point Likert scale (1 – 
+Not at all important, 2 – Low importance, 3 – Slightly important, 4 – Neutral, 
+5 – Moderately important, 6 – Very important, 7 – Extremely important). In 
+addition, the experts were asked to provide feedback/comments on 
+clarity, ambiguity, wording, and content with regard to the items. Of the 
+entire expert panel that was approached for the open-ended interview 
+process, only 20 experts contacted to participate in refining the scale 
+items agreed. A google documents direct link was sent to the experts to 
+complete the questionnaire within two weeks’ time. 
+
+
+Items for the instrument were selected based on a consensus of more 
+than 80% (i.e. very important, extremely important). Out of 42 items, 28 
+items scored above 80. Based on the experts’ score consensus, 28 items 
+were important and appropriate for the research study. However, 14 
+items that scored less than 80% included comments for revision. The 
+suggested revisions were made, and the 42 items were sent to the experts 
+again to rate appropriateness. Consensus scores for each item were again 
+calculated. Any item that did not score above 80% consensus was 
+dropped. In the second round of rating, experts agreed that 31 items 
+were appropriate and essential with no further revision required in the 
+questionnaire. At each phase in the development of the questionnaire, 
+the experts’ opinion was taken. This helped with the step-by-step 
+development and refinement of the survey instrument. We ensured 
+face and content validity of the instrument through rounds of expert 
+
+
+Blockchain-enabled 
+
+
+banking 
+
+
+How is it 
+beneficial for 
+
+
+customers? 
+
+
+What kind of 
+problems will it 
+
+
+solve? 
+
+
+Traceability for 
+
+
+audits? 
+
+
+Challenges for the 
+
+
+existing system? 
+
+
+Compliance with 
+rules and 
+
+
+regulations? 
+
+
+Fig. 3. Preliminary framework conceptualized for the qualitative study in 2017.  
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+8
+
+
+reviews. 
+
+
+3.3. Pilot testing - Refinement and finalization of the instrument 
+
+
+Dörnyei & Taguchi (2009) argued that “questions that have been used 
+frequently before must have been through extensive piloting”. In order to 
+further validate the instrument, before actual data collection took place, 
+we conducted a final pilot study with a relatively low sample size to 
+measure the business benefits of adopting blockchain in the banking 
+sector. The questionnaire was piloted with the responses from 150 
+blockchain consultants and blockchain marketing experts. The data was 
+collected through a questionnaire and it was processed through a sta-
+tistical package for the social sciences (SPSS 20) for factor analysis. The 
+primary objective of using factor analysis was to refine the item pool. 
+Factor analysis can be conducted in a number of ways and through 
+various methods (Field, 2013). Kaiser (1974) and Costello & Osborne 
+(2005) state that accepting loading values greater than 0.5 “is reliable 
+regardless of sample size.” After conducting the first factor analysis, five 
+items were dropped from the measurement, because their factor levels 
+were not considered vital as per Kaiser (1974), and we finally zeroed in 
+on 26 items presented in Appendix 1, Part B. 
+
+
+The final draft of the questionnaire contained two sections. Section A 
+contained 7 questions designed to define the respondent’s profile. Sec-
+tion B contained 26 items designed to measure business paybacks of 
+adopting and implementing blockchain technology in banking opera-
+tions. The items were presented randomly as statements in the ques-
+tionnaire. The items were measured using a 7-point Likert scale. We 
+ensured the content and face validity of the instrument via experts. 
+
+
+3.4. Data collection 
+
+
+It is important to identify the list of prospective respondents for a 
+survey-based study. Since our study is about the development of an in-
+strument that may be used by future researchers to measure the benefits 
+of blockchain, it is important to consider respondents who are in the 
+forefront of and responsible for firm operations. We therefore decided to 
+interview business heads. Apart from this, since the technology is in a 
+formative stage, it was critical to include blockchain experts and con-
+sultants, as they have sufficient knowledge both of the functional and 
+business part. 
+
+
+The questionnaire and a cover letter specifying the purpose and 
+significance of the study were created on google docs and made avail-
+able to blockchain technology consultants, blockchain marketing ex-
+perts, and CEOs/business heads of banks who are currently in the 
+process of consulting/implementing blockchain technology in the 
+banking sector from April 2019 to November 2019. For the collection of 
+data, we used the convenience sampling method. For this study, we 
+followed a three-layered process. First, we contacted 600 experts and 
+CEOs by phone from October 2018 to March 2019 to get a first-hand idea 
+of whether their organization is considering or implementing blockchain 
+for their operations. We followed a five-step approach to create the list 
+of 600 experts: (i) we identified two sectors (public and private banking 
+sector), (ii) we visited the websites of each bank, (iii) we identified the 
+branches of banks in a particular area through search options on the 
+website, (iv) we called the branch to understand its blockchain tech-
+nology aspirations including who handles the vertical aspect of new 
+technology implementation and asked for the e-mail and contact details 
+of the person concerned, and (v) we were put in contact with blockchain 
+consultants and marketers by bank executives. To shortlist these 600 
+experts, we applied the criteria of work experience (minimum of five 
+years’ experience in heading business verticals) and type of bank (public 
+and private sector). We mentioned the objective of the study and ben-
+efits in terms of the findings of the study, which would be shared with 
+them later. These findings can help them implement blockchain and 
+improve integration in different areas. This resulted in 395 eligible 
+candidates for the survey based on their profile and the blockchain 
+
+
+orientation in their organization. Therefore, 395 survey questionnaires 
+were sent out individually to the respondents, 320 of which were 
+acknowledged at a response rate of 81 percent. Out of the 320, many of 
+them had missing data values and a few were answered blindly. Filtering 
+therefore resulted in 291 responses that were accurately complete and 
+could be used for analysis. 291 responses were sufficient for this study 
+with reference to the questions asked. We only required 130 responses, 
+but received 291 (Bryant and Yarnold, 1995; Bentler and Chou, 1987). 
+We could therefore proceed with further analysis in view of scale 
+development. 
+
+
+3.5. Demographic profile 
+
+
+The details of the demographic profiles of respondents are presented 
+in Table 2. There were a total of 291 respondents, with approximately 
+23.36% female respondents and 76.63% males. A majority of selected 
+respondents (52.67%) were in the 35–45 age group and the remaining 
+47.33% were in the 25–35 age group. Approximately 42% of the re-
+spondents were management graduates with an MBA degree and 46% of 
+them held a B. Tech./B.E. degree. The remaining 12% of the respondents 
+were commerce graduates. About 14% of the respondents were CEOs/ 
+business heads of banks followed by blockchain marketing experts 
+(42%), blockchain consultants (35.33%), and others (8.67%). It should 
+be noted that the maximum age of the respondents was found to be 45 
+years of age, since blockchain has emerged in the last decade. A limited 
+pool of consultants, experts, and marketers is therefore available, 
+particularly concerning those who are active in the banking industry. In 
+addition, experienced executives beyond the age of 45 are primarily 
+found at the strategic level rather than the implementation level of the 
+technology. We were careful to check whether each respondent was 
+aware of the disruptive blockchain technology and its benefits in the 
+banking sector. It is clear from the profiles of the respondents that most 
+of them were involved in blockchain implementation in their own areas 
+and sectors. 
+
+
+4. Data analysis and results 
+
+
+The collected primary data was analyzed with the help of different 
+validated statistical tools and procedures. Essential stages and steps 
+required for the development of a measurement scale, such as confir-
+mation of internal consistency and reliability of constructs, was ensured. 
+This was followed by the factor analysis applied to the collected data. 
+Furthermore, CFA was used to ensure the validity of the measurement 
+scale. The outcomes of the analysis are discussed in the following sub- 
+sections. We used SPSS 20 for EFA and AMOS 26.0 for CFA. 
+
+
+4.1. Reliability of the instrument 
+
+
+The quality of an instrument can be measured through its reliability 
+(Broadbent et al., 2006). The reliability of an instrument is also a 
+necessary requirement to ensure scale validity. The statistical reliability 
+
+
+Table 2 
+Demographic characteristics of respondents.  
+
+
+Demographic Variable Categories Response Rate 
+
+
+Gender Female 23.36% 
+Male 76.63% 
+
+
+Age Range 25–35 years 47.33% 
+35–45 years 52.67% 
+
+
+Education MBA 42.00% 
+B.Tech./B.E. 46.00% 
+Commerce Graduate 12.00% 
+
+
+Designation CEO/Business head of banks 14.00% 
+Blockchain marketing experts 42.00% 
+Blockchain consultants 35.33% 
+Others 8.67%  
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+9
+
+
+of an instrument is referred to as the degree to which scores from a test 
+are stable and consistent. Therefore, in order to develop a reliable in-
+strument, it is important to maintain the reliability of the instrument. 
+There are a number of ways to test the reliability of an instrument, 
+however, the internal consistency and reliability are easy to estimate 
+and are generally found to be effective in the case of field studies (Rust 
+and Cooil, 1994). 
+
+
+Internal consistency is a set of items or statements and the scale 
+shows the degree to which these items are standardized or homogenous. 
+The internal consistency and reliability of an instrument can be exam-
+ined with the help of Cronbach’s alpha (Sun and Hong, 2002). The value 
+of Cronbach’s alpha is acceptable if it is greater than 0.7, greater than 
+0.8 is considered good, and more than 0.9 is considered to demonstrate 
+extraordinary internal consistency (Cronbach, 1951). In this study, the 
+overall Cronbach’s alpha value for 26 items was around 0.909, indi-
+cating that the identified items were reliable. 
+
+
+4.2. Exploratory factor analysis 
+
+
+Exploratory factor analysis (EFA) is a statistical technique for sum-
+marizing the information among observed variables into a smaller set of 
+factors. The guidelines given by Straub et al. (2004) and Lewis et al. 
+(2005) on validation suggested that factor analysis should be conducted 
+with the help of EFA. This will help find and define the dimensions for 
+the items measured. EFA is normally the first step in building scales. EFA 
+is conducted to find the dimensionality of a theoretical construct 
+(Iacobucci, 2010). 
+
+
+To understand the pattern and structure of data, all 26 items from 
+Section B of the instrument were exposed to an EFA using principal 
+components analysis (PCA) followed by a varimax rotation. The PCA 
+begins by extracting the maximum variances and puts them into the first 
+factor, whereas varimax rotation reduces the total number of variables 
+with high loading against each factor and makes small loadings even 
+smaller. Sampling adequacy was tested to identify the suitability of data 
+
+
+Table 3 
+Reliability and items loading.  
+
+
+Construct Items Description Standard Factor 
+loading 
+
+
+Cronbach 
+(α) 
+
+
+Composite 
+reliability 
+
+
+Average variance 
+extracted (AVE) 
+
+
+Maximum shared 
+variance (MSV) 
+
+
+Quality customer 
+services 
+
+
+QCS1 Blockchain technology will improve 
+transparency 
+
+
+0.762 0.872 0.873 0.579 0.166 
+
+
+QCS 
+2 
+
+
+Blockchain technology will increase trust 0.734 
+
+
+QCS 
+3 
+
+
+Blockchain technology will increase data 
+accuracy 
+
+
+0.803 
+
+
+QCS 
+4 
+
+
+Blockchain technology will reduce the risk 0.802 
+
+
+QCS 
+5 
+
+
+Blockchain technology will automate 
+actions and transactions between parties 
+
+
+0.698 
+
+
+Reduced cost RC1 Blockchain technology will reduce 
+transaction cost 
+
+
+0.805 0.867 0.869 0.624 0.166 
+
+
+RC2 Blockchain technology will eliminate 
+intermediaries 
+
+
+0.752 
+
+
+RC3 Blockchain technology will lower down 
+administrative cost 
+
+
+0.726 
+
+
+RC4 Blockchain technology will lower down 
+operational cost 
+
+
+0.870 
+
+
+Efficiency and 
+security 
+
+
+ES1 Blockchain technology will help in tracking 
+real time business transactions 
+
+
+0.827 0.893 0.893 0.626 0.175 
+
+
+ES2 Blockchain technology will increase speed 
+of transaction 
+
+
+0.829 
+
+
+ES3 Blockchain technology will increase 
+efficiency 
+
+
+0.784 
+
+
+ES4 Blockchain technology will enhance 
+security 
+
+
+0.748 
+
+
+ES5 Blockchain technology will enhance the 
+integrity of the system 
+
+
+0.764 
+
+
+Secure 
+remittances 
+
+
+SR1 Blockchain technology will create an 
+immutable audit trail 
+
+
+0.778 0.892 0.893 0.582 0.175 
+
+
+SR2 Blockchain technology will ensure a fast 
+and secure payment process 
+
+
+0.746 
+
+
+SR3 Blockchain technology will enhance system 
+resilience 
+
+
+0.762 
+
+
+SR4 Blockchain technology will enhance 
+robustness 
+
+
+0.753 
+
+
+SR5 Blockchain technology will increase the 
+traceability of transactions 
+
+
+0.782 
+
+
+SR6 Blockchain technology will increase the 
+control on data 
+
+
+0.758 
+
+
+Regulatory 
+compliance 
+
+
+RCo1 Blockchain technology will streamline the 
+business process 
+
+
+0.837 0.883 0.885 0.562 0.146 
+
+
+RCo2 Blockchain technology will ensure 
+immutable business rules 
+
+
+0.713 
+
+
+RCo3 Blockchain technology will prevent from 
+financial fraud and tempering 
+
+
+0.742 
+
+
+RCo4 Blockchain technology will ensure data 
+protection 
+
+
+0.704 
+
+
+RCo5 Blockchain technology will improve 
+regulatory compliance 
+
+
+0.749 
+
+
+RCo6 Blockchain technology will reduce the error 
+handling and reconciliation 
+
+
+0.744  
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+10
+
+
+for factor analysis through Bartlett’s test and the Kaiser-Meyer Olkin 
+test. The estimated value of chi-square was 4174.095 with 325 degrees 
+of freedom, indicating a significance level of 0.05. The KMO statistic of 
+0.875 is also large enough. The factor analysis conducted here can 
+therefore be considered as a correct modus operandi to further analyze 
+
+
+the data. 
+Twenty-six items related to measuring the benefits of implementing 
+
+
+blockchain in the banking sector were factor analyzed using PCA with 
+varimax (orthogonal) rotation. Tables 2 and 3 indicate the outcome of 
+EFA and the definition of these factors. The analysis yielded five factors 
+
+
+Fig. 4. Measurement model.  
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+11
+
+
+explaining a total of 67.535% of the variance. Factor 1 was labelled 
+“quality customer services” due to the high loadings by items, such as: 
+increase in transparency, increase in trust, data accuracy, risk reduction, 
+and automation. The first factor was robust, with a high Eigen value of 
+2.403 and explained 12.869% of the variance. Factor 2 was labelled 
+“reduced costs” due to high loading with the following items: reduced 
+administrative costs, decreased transaction costs, elimination of in-
+termediaries, and reduced operational costs. Factor 2 with an Eigen 
+value of 1.898 explained 11.048% of the variance. Factor 3 was labelled 
+“efficiency & security” due to high loading with the following items: real 
+time, increased transaction speed, increased efficiency and ensuring the 
+integrity of the system. The variance explained by this factor 3 was 
+13.657% with an Eigen value of 2.666. Factor 4 was labelled “secure 
+remittances” due to the high loading with the following items: faster 
+settlements, improved traceability, immutable data record, increased 
+control of data, enhanced robustness, enhanced system resilience. The 
+variance explained by this factor was 15.077% with an Eigen value of 
+7.131. Factor 5 was labelled “regulatory compliance” due to high 
+loading with the following items: streamlining the business process, 
+reduced fraudulent transactions, improved regulatory compliance, and 
+ensuring immutable business rules and data protection. This factor ex-
+plains around 14.883% of the variance with an Eigen value of 3.462. The 
+five factors have been elaborated for better understanding and to show 
+what their items indicate. F1: Quality customer services (QCS): The 
+items in this factor are related to benefits of quality customer services 
+offered by the banking sector. F2: Reduced cost (RC): The items in this 
+factor are related to the benefits of reduced costs in the banking sector. 
+
+
+F3: Efficiency and security (ES): The items in this factor are related to 
+the benefits of efficiency and security in the banking sector. F4: Secure 
+remittances (SR): The items in this factor are related to the benefits of 
+secure remittances in the banking sector. F5: Regulatory compliance 
+(RC): The items in this factor are related to the benefits of regulatory 
+compliance in the banking sector. 
+
+
+4.3. Confirmatory factor analysis 
+
+
+The proposed measurement model was examined with the help of 
+CFA using AMOS 20. The purpose of examining the measurement model 
+is to confirm the existence of the required level of construct reliability 
+and validity before analyzing the inter-relationship of the constructs in 
+the structural model (Ifinedo, 2006; Fornell and Larcker, 1981). The 
+final measurement model indicating the different factors affecting the 
+expected benefits of disruptive blockchain technology in banking op-
+erations is shown in Fig. 4. Constructs such as “Quality customer ser-
+vices”, “Reduced cost, efficiency, and security”, “Secure remittances” and 
+“Regulatory compliance” are showcased by five, four, five, six and six 
+indicator items respectively. The constructs appearing in Fig. 4 were 
+devised through the process of qualitative study (open-ended questions) 
+followed by empirical study (closed-ended questions) and the structure 
+was verified by EFA and CFA. Therefore, the five constructs indicating 
+apparent business advantages of implementing blockchain technology 
+in finance and the banking industry were measured through 26 in-
+dictors. The convergent and discriminant reliability of the measurement 
+model were evaluated to investigate the psychometric properties (see 
+Table 3). 
+
+
+Internal consistency measures the reliability of the different items 
+included in the survey and is calculated with the help of the Cronbach 
+alpha measurement (Streiner, 2003). The Cronbach alpha is an indicator 
+calculated using a pairwise correlation between the selected items. The 
+Cronbach alpha ranges from 0 to 1. It is estimated for the individual 
+items of each construct in order to measure internal consistency 
+(Table 3). A Cronbach alpha score ranging from 0.6 to 0.7 is considered 
+the minimum required degree of reliability, and for a good degree of 
+reliability it should exceed 0.7 (Taber, 2018). The different constructs 
+included in the measurement model were found to have a decent level of 
+internal consistency as the alpha value is 0.872 for the construct “quality 
+
+
+customer services”, 0.867 for “reduced cost”, 0.893 for “efficiency and 
+security”, 0.892 for “secured remittances”, and 0.883 for “regulatory 
+compliance”. Therefore, the included measures were found to be reliable 
+and can be used in structural equation modeling (SEM) for further 
+research. In our study, we used covariance-based SEM due to its ability 
+to offer more verifiable characteristics and hence less bias in the esti-
+mated model (Mohamad et al., 2019). 
+
+
+To measure the reliability as well as the convergent validity of a 
+construct in the measurement model, composite reliability (CR) can be 
+tested. It offers a more reflective method of overall reliability and cal-
+culates the regularity of the construct itself including the firmness and 
+similarity of the construct (Hair et al., 2010). A CR value of more than 
+0.7 indicates the presence of sufficient scale reliability (Nunnally and 
+Bernstein, 1994; Fornell and Larcker, 1981). Table 3 indicates that the 
+composite reliability of “Quality customer services” is 0.873, “Reduced 
+cost” is 0.869, “Efficiency and security” is 0.893, “Secure remittances” is 
+0.893 and “Regulatory compliance” is 0.885. Therefore, it can be deter-
+mined that the combined reliability of each construct in the proposed 
+model is more than 0.70, indicating that all constructs representing the 
+perceived benefits of blockchain technology adoption in banking oper-
+ations considered in the model have considerable reliability. 
+
+
+The convergent validity of a construct indicates the extent of item 
+convergence or whether there is a high degree of disagreement overall 
+(Hair et al., 2010). Convergent validity is also measured using stan-
+dardized construct loadings. High values of standardized construct 
+loadings indicate that the items of the construct are substantial and 
+demonstrative of their construct. Standardized construct loadings to 
+their observed variables should be more than 0.50 (Hair et al., 2010). 
+The observed variable loadings in Table 3 were found to be in the range 
+of 0.7 to 0.87. The results indicate that observed items are satisfactory 
+and significantly represent their constructs. Therefore, we can ensure 
+the presence of convergent rationality of constructs. 
+
+
+The degree to which a construct is different from other constructs 
+indicates its discriminant validity (Hair et al., 2010). Two methods are 
+used by researchers to analyze discriminant validity. The first is the 
+correlation coefficient between the different pairs of constructs in the 
+measurement model, which are also theoretically different and should 
+not be high. This is due to the fact that different sets of items are used to 
+measure different constructs. These items are expected to be different 
+from each other and should therefore not be correlated too strongly 
+(Trochim, 2006). Second, the average variance extracted (AVE) specifies 
+whether the individual constructs in the measurement model are higher 
+than the maximum shared variance of each construct and the square root 
+of AVE and should be higher than the correlations between the con-
+structs. Table 4 shows that “Quality customer services” has a small 
+optimistic correlation with “Reduced cost”, “Efficiency and security”, 
+“secure remittances”, and “regulatory compliances” (0.407, 0.143, 
+0.289, and 0.164). However, “Reduced cost” has a low correlation with 
+“Efficiency and security”, “Secure remittances”, and “Regulatory 
+compliance” (0.242, 0.236, and 0.167). Similarly, “Efficiency and se-
+curity” has little positive correlation with “secure remittances” and 
+“regulatory compliance” (0.418 and 0.329). Finally, “secure re-
+mittances” has a small positive correlation with “regulatory compliance” 
+(0.382). The low correlation between the constructs shows that all of the 
+constructs included in the model are independent. Moreover, the AVE 
+estimates indicate that the individual constructs are greater than their 
+shared variances among the constructs (See Table 3). Furthermore, the 
+square root of the AVE marked in bold (Table 4) is greater for diagonal 
+constructs compared to non-diagonal constructs. These results indicate 
+that each construct is highly interrelated with its items as compared to 
+other constructs in the measurement model. Discriminant validity is 
+therefore also found in the proposed measurement model. 
+
+
+The overall validity of the model was evaluated with the help of 
+model fit indices such as the normed fit index (NFI), goodness of fit index 
+(GFI), root mean square of error approximation (RMSEA), comparative 
+fit index (CFI) and Tucker-Lewis Index (TLI) (Hair et al., 2010). The 
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+12
+
+
+goodness-of-fit indices for the measurement model are presented in 
+Table 5. The respective values of χ2/df (1.604), CFI (0.956), GFI (0.895), 
+NFI (0.893), TLI (0.951), and RSMEA (0.046) are presented in Table 5. 
+Apart from the GFI and NFI, all the values were within the acceptable 
+range. The tolerable values are χ2/df 〈 3, NFI, GFI, CFI, and TLI 〉 0.9, 
+CMIN/DF < 5, and RMSEA < 0.8 (Gefen et al., 2000; Gefen and Keil, 
+1998). The values of GFI and NFI are below the threshold value of 0.90, 
+but they are very close to the threshold value, so these values also 
+represent a satisfactory model fit. Table 5 clearly demonstrates that the 
+measurement model is good fit. 
+
+
+5. Discussion 
+
+
+This study aims to develop and validate an instrument to measure 
+perceived benefits of implementing disruptive blockchain technology in 
+the banking sector. It has undergone a comprehensive systematic liter-
+ature review and also includes knowledge obtained from interviews 
+with blockchain experts to gain better insights to develop the items. 
+Initially, we identified 42 items from the literature review supplemented 
+with qualitative research. Results from the iterative instrument devel-
+opment and purification process confirmed the relevance of 26 out of 42 
+items. After applying suitable concepts and scale development tech-
+niques, items were grouped into 5 constructs as: “QCS”, “RC”, “ES”, “SR” 
+and “RCo”. Based on the analysis of the statistical results, we defined 
+each of the perceived business benefits. Customer services are the key to 
+success for any business. Leveraging blockchain technology enables 
+banks to build a new type of services for their customers, which can be 
+built on the “quality customer services” construct. This construct has 
+five items that offer enormous potential to change customer services for 
+the better in terms of increased transparency, increase in trust, data 
+accuracy, risk reduction, and automation. Implementation of blockchain 
+in banking will enhance quality customer services by offering risk-free, 
+tamper-proof, transparent, trustworthy, and accurate records to con-
+sumers indefinitely. One of the visible business benefits of implementing 
+blockchain in a banking system is the reduction of overhead costs. 
+Leveraging blockchain technology enables banks to lower overhead 
+expenditures by significantly reducing costs, which can be based on the 
+reduced cost construct. This construct has the following items: reduced 
+administrative costs, decreased transaction costs, elimination of in-
+termediaries, and reduced operational costs. The use of blockchain 
+technology in the banking sector will lead to the elimination of in-
+termediaries, thereby leading to reduced administrative and operational 
+transaction fees. In banking systems, the security and efficiency of the 
+operation is essential. Blockchain technology can be leveraged to build 
+secure and efficient exchanges of financial transactions – which can be 
+based on the “efficiency and security” construct. This construct has five 
+items: real-time, increased transaction speed, increased efficiency, 
+ensuring of system integrity, and increased security. Implementation of 
+
+
+secure single blockchain networks in the bank will ensure real-time 
+access, speed in processing paperwork, and high transaction speed, 
+and this all leads to the ensuring of integrity. Secure remittances are 
+another challenge for the banking industry and disruptive blockchain 
+technology can be very helpful in terms of faster settlements, improved 
+traceability, immutable data records, increased control of data, 
+enhanced robustness and enhanced system resilience (Wamba and 
+Queiroz, 2020). Yet another benefit of implementing blockchain in 
+banks is to ensure regulatory compliance requirements effectively and 
+efficiently. Blockchain technologies can improve private regulatory 
+compliance, which can be based on the “regulatory compliance” 
+construct. Therefore, it can help streamline the business processes, 
+ensure a reduction in fraudulent transactions and improve regulatory 
+compliance along with data protection. This set of perceived business 
+benefits answers the first research question. 
+
+
+In addition to the above perceived benefits, the banking industry can 
+offer better products based on customer and market demand via the 
+money circle that the bank caters to. Contractual performance can be 
+observed in improvement parameters with the help of blockchain 
+technology to settle the complex financial asset transactions that are 
+bound by an incorruptible set of commercial rules. Every transaction is 
+encoded and added to the distribution ledger to make it safe and secure 
+with the identification of each stakeholder. A global network of block-
+chain technology can help the banking system transform the payments 
+supply chain with the lowest risk of failure due to defined rights, con-
+trols, obligations, and standards (Palmié et al., 2020). Blockchain 
+technology can be used in a plug-and-play manner in the existing and 
+future networks of the system. In this study, we measured and validated 
+the items through EFA and CFA, and these items or instruments can be 
+used to quantify the paybacks of blockchain implementation. This an-
+swers the second research question. In terms of significance, blockchain 
+technology can be very effective in reducing the cost of operations and 
+improving customer services in the banking industry. 
+
+
+5.1. Research implications 
+
+
+Blockchain technology is still in its early stages of experimentation 
+and testing for large systems. The main contribution of this study is to 
+provide a foundation for future research in the field of blockchain. It is 
+also worth noting that this study attempts to enrich the literature and 
+contribute to blockchain related studies. A few studies that were not 
+conducted in the banking industry per se but that concern blockchain 
+implementation in general are available for comparison. Blockchain can 
+be cost effective and help industries meet regulatory requirements. 
+Furthermore, it can enhance the efficiency of banking operations via its 
+traceability potential (Hastig and Sodhi, 2020; Min, 2019). Blockchain 
+technology offers multiple benefits from smart contracts, renewals, and 
+process optimization in the financial services and insurance sector in 
+addition to core banking (Brophy, 2019). The cost of Ethereum block-
+chain is twice that of the traditional cloud services provided by Amazon 
+SWF (Rimba et al., 2018). However, in another study in the energy 
+sector, the authors claim that blockchain technology implementation 
+helps promote trust, reduce costs for firm as well as customers, and 
+enhance security (Noor et al., 2018). In another study, it was noted that 
+digital rights management can be designed with the help of a trust model 
+
+
+Table 4 
+Correlation matrix and roots of AVE’s.   
+
+
+Quality customer services Reduced cost Efficiency and security Secure remittances Regulatory compliance 
+
+
+Quality customer services 0.761*     
+Reduced cost 0.407 0.790*    
+Efficiency and security 0.143 0.242 0.791*   
+Secure remittances 0.289 0.236 0.418 0.763*  
+Regulatory compliance 0.164 0.167 0.329 0.382 0.749*  
+
+
+* The diagonal represents the square root of average variance extracted from observed variables (items); The off diagonal represents correlations between constructs. 
+
+
+Table 5 
+Summary of goodness-of-fit indices for measurement model.  
+
+
+Model Fit 
+Index 
+
+
+Chi-square/Degree 
+of freedom 
+
+
+CFI GFI NFI TLI RMSEA 
+
+
+Model 1.604 0.956 0.895 0.893 0.951 0.046  
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+13
+
+
+in blockchain (Ma et al., 2018). For the development and implementa-
+tion of blockchain, it is essential to understand what professionals and 
+end users think about the technology and its benefits. We found that the 
+constructs and items match the reasons for blockchain implementation 
+mentioned in the literature concerning closely-related industries (Has-
+tig and Sodhi, 2020; Chaudhary et al., 2019; Meng et al., 2019). The 
+provider and users can rapidly develop trust in digital banking, which 
+can be done through blockchain enabled platforms (Dubey et al., 2020). 
+Blockchain technology can be further integrated within a revenue 
+department that maintains land records to ensure appropriate loan 
+disbursement to build a house or any other type of construction (Thakur 
+et al., 2020). Therefore, the development of an instrument to measure 
+the benefits of implementing blockchain is a unique contribution of our 
+study. The variables were identified from secondary sources and pro-
+fessionals and have been grouped into an appropriate construct through 
+a structured process. Our validation of the instrument provides impor-
+tant insights from scholars and practitioners in the banking industry to 
+better understand and advance research on the benefits of blockchain 
+implementation. Scholars can extend this study by including new in-
+dustries or banking-related industries such as insurance. 
+
+
+5.2. Practical implications 
+
+
+Our study outcomes offer fundamental insights for blockchain and 
+banking professionals. One of the advantages of using blockchain for 
+business is to streamline business operations by reducing unnecessary 
+friction among diverse stakeholders. Blockchain enables an organization 
+to develop trust and ensure transparency across business transactions. 
+Since banking and related industries must handle large amounts of data, 
+errors are common with traditional systems. Top executives in the 
+banking industry can be sure of data accuracy and thus minimize the 
+risks associated with data processing. Banking professionals can use 
+blockchain to automate and renew transactions that are repetitive in 
+nature across the stakeholders of a business. In this way, banking and 
+other firms can employ blockchain technology to design customer- 
+centric business activities and provide value-based services. Execu-
+tives, experts and consultants in charge of cost reduction in the banking 
+industry can consider implementing blockchain-based solutions to 
+reduce administrative and operational costs. In the era of information 
+and service excellence, it is necessary to keep track of real-time business 
+transactions and enhance the efficiency of business operations. Prac-
+ticing managers can implement blockchain technology to enhance the 
+security and efficiency of their service ecosystem. In the banking in-
+dustry, it is critical to have control over data, which must be further 
+supported through system resilience. In certain situations such as hu-
+manitarian financial crises, blockchain can act as an enabler for the 
+robustness and immutability of the audit trail, which is beneficial for 
+both firms and auditors. As the banking industry deals directly with the 
+finances of individuals as well as firms, it is prone to fraud and distortion 
+of records. Executives can benefit from our study, since it recommends 
+the application of blockchain to define business rules clearly and 
+improve regulatory compliance. Furthermore, acting managers from the 
+banking industry can deploy blockchain for record keeping, digital 
+currency exchange, smart contracts, and security. Overall, professionals 
+from different domains can consider the implementation of blockchain 
+with respect to productivity in their business operations. 
+
+
+5.3. Limitations and scope for future research 
+
+
+The first limitation of the study is the sample size and geographic 
+area. Data used for validation of the instrument came from 291 
+
+
+respondents, and although this was sufficient for the purposes of the 
+study, it somewhat limits the generalization of the findings. Moreover, 
+the instrument was empirically tested and validated using data from a 
+single developing country. Future studies may consider whether the case 
+study has robust claims. This again restricts the ability to generalize the 
+findings. Testing the instrument in multiple countries would further 
+develop and enhance its applicability. Such further work is necessary to 
+prove the validity and confirm the generalization of the findings from 
+this study. The instrument developed in this study can be used in further 
+studies of blockchain implementation and their relationships with other 
+organizational processes and outcomes, such as competitive advantage 
+and organizational and operational performance in the banking sector. 
+
+
+6. Conclusion 
+
+
+Our study used a variety of validating procedures including an 
+extensive literature review (for content validity) and scrutiny by a board 
+of blockchain academics and experts (for face validity). In addition, we 
+presented the developed items to three academics and five blockchain 
+experts to see if their opinion was the same as that of the respondents. 
+Pilot testing indicated a high degree of construct and content validity. 
+The instrument developed consists of 26 items categorized into five 
+constructs. Each item has a 7-point Likert scale for validation. We con-
+sulted 291 blockchain technology consultants, blockchain marketing 
+experts, and CEOs/business head of banks in India for validation. This 
+instrument has an acceptable level of reliability. The analysis and results 
+of this study indicate that the instrument to measure the business ben-
+efits is highly reliable and demonstrate construct validity by accom-
+plishing both convergent and discriminant validity. Our study 
+contributes to both the theory and practice angles of blockchain tech-
+nology in the banking industry. In terms of theory, our study delivers a 
+validated instrument that aids managers in assessing the benefits of 
+implementing blockchain in the banking sector. This instrument is 
+explicitly crafted for the banking sector, though some of the benefits 
+may be applicable to other sectors, as the study discusses benefits 
+identified by working managers, experts, and researchers in the area of 
+blockchain. The key points of the study are as follows: (i) it is of 
+particular interest to acting managers/decision makers/experts to pro-
+vide a foundational view to measure the business benefits of imple-
+menting blockchain technology before they choose to integrate 
+blockchain in their banking system, (ii) the combination of professional 
+and theoretical use results in the communal and technical relevance of 
+this study. Furthermore, blockchain can be designed to suit the needs of 
+a banking eco-system that will further help optimize the cost of 
+launching it. These needs can range from rising costs of transactions, 
+fulfilling regulatory requirements, enhancing efficiency and security, 
+and satisfying customer with quick and transparent services. 
+
+
+Credit author statement 
+
+
+We submit Credit author(s) statement outlining individual contri-
+butions as follows: 
+
+
+Dr. Poonam Garg: Conceptualization, Methodology, and Writing- 
+original draft 
+
+
+Dr. Bhumika Gupta: Formal analysis, Validation, and Resources 
+Dr. Ajay Kumar Chauhan: Software, Formal analysis, Investigation, 
+
+
+and Validation 
+Dr. Uthayasankar Sivarajah: Resources, Writing-review & editing, 
+
+
+Visualization, and Project administration 
+Dr. Shivam Gupta: Supervision, and Writing-review & editing 
+Dr. Sachin Modgil: Methodology, and Writing- original draft  
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+14
+
+
+Appendix: Questionnaire 
+
+
+We are trying to determine your perception to quantify the implementation of Blockchain technology in banking industry. Please click the number that is most 
+appropriate for each item in the questionnaire. We are using 7-point Likert scale, where strongly disagree is represented by 1 and strongly agree is presented by 7. 
+
+
+Required- Part-A  
+
+
+Name of the Respondent  
+Organization  
+Department  
+Designation  
+Gender  
+Age range  
+Email ID   
+
+
+Required- Part-B  
+
+
+Blockchain technology will improve the transparency 
+Blockchain technology will increase the trust 
+Blockchain technology will increase the data accuracy 
+Blockchain technology will reduce the risk 
+Blockchain technology will automate actions and transactions between parties 
+Blockchain technology will reduce the transaction cost 
+Blockchain technology will eliminate the intermediaries 
+Blockchain technology will lower down the administrative cost 
+Blockchain technology will lower down the operational cost 
+Blockchain technology will help in tracking real time business transactions 
+Blockchain technology will upturn the speed of transactions 
+Blockchain technology will enhance the efficiency of operations 
+Blockchain technology will enhance the security 
+Blockchain technology will enhance the integrity of the system 
+Blockchain technology will create an immutable audit trail 
+Blockchain technology will ensure a fast and secure payment process 
+Blockchain technology will enhance the system resilience 
+Blockchain technology will enhance the robustness 
+Blockchain technology will enhance the traceability of transactions 
+Blockchain technology will rise the control of value chain on data 
+Blockchain technology will streamline the business processes 
+Blockchain technology will ensure immutable business rules 
+Blockchain technology will prevent from financial fraud and tempering 
+Blockchain technology will ensure the data protection 
+Blockchain technology will improve regulatory compliance 
+Blockchain technology will reduce the error handling and reconciliation  
+
+
+References 
+
+
+Abdullah, F., Suhaimi, R., Saban, G., Hamali, J., 2011. Bank service quality (BSQ) index: 
+an indicator of service performance. International Journal of Quality & Reliability 
+Management 28 (5), 542–555. 
+
+
+Accenture (2018). Building the future-ready bank. Accessed on 16th June 2019- http 
+s://www.accenture.com/gb-en/_acnmedia/PDF-78/Accenture-Banking-Technolo 
+gy-Vision-2018.pdf. 
+
+
+Alabi, K., 2017. Digital blockchain networks appear to be following Metcalfe’s Law. 
+Electron. Commer. Res. Appl. 24, 23–29. 
+
+
+Altankhuyag, D., 2019. Impact of Banking Supervision on the Cost-Efficiency of Banks: a 
+Study of Five Developing Asian Countries. Asian Economic and Financial Review 9 
+(2), 213–231. 
+
+
+Alter, S., 2019. Making Sense of Smartness in the Context of Smart Devices and Smart 
+Systems. Information Systems Frontiers 22, 381–393. 
+
+
+Andoni, M., Robu, V., Flynn, D., Abram, S., Geach, D., Jenkins, D., Peacock, A., 2019. 
+Blockchain technology in the energy sector: A systematic review of challenges and 
+opportunities. Renewable and Sustainable Energy Reviews 100, 143–174. 
+
+
+Attaran, M., Gunasekaran, A., 2019. Implementing Blockchain in Your Enterprise. 
+Applications of Blockchain Technology in Business. Springer, Cham, pp. 95–102. 
+
+
+Banks Editorial Team (2018). How Blockchain Benefits Banks. (Accessed on 5th Jan, 
+2019)- https://www.banks.com/articles/cryptocurrency/blockchain-benefits 
+banks/. 
+
+
+Batubara, F.R., Ubacht, J., Janssen, M., 2018. Challenges of blockchain technology 
+adoption for e-government: a systematic literature review. In: Proceedings of the 
+19th Annual International Conference on Digital Government Research: Governance 
+in the Data Age, pp. 1–9. 
+
+
+Beck, R., Avital, M., Rossi, M., Thatcher, J.B., 2017. Blockchain technology in business 
+and information systems research. Business & Information Systems Engineering 59 
+(6), 381–384. 
+
+
+Bentler, P.M., Chou, C.P., 1987. Practical issues in structural modeling. Sociol. Methods 
+Res. 16 (1), 78–117. 
+
+
+Bouri, E., Molnár, P., Azzi, G., Roubaud, D., Hagfors, L.I., 2017. On the hedge and safe 
+haven properties of Bitcoin: is it really more than a diversifier? Finance Research 
+Letters 20, 192–198. 
+
+
+Broadbent, E., Petrie, K.J., Main, J., Weinman, J., 2006. The brief illness perception 
+questionnaire. J. Psychosom. Res. 60 (6), 631–637. 
+
+
+Brophy, R., 2019. Blockchain and insurance: a review for operations and regulation. 
+Journal of Financial Regulation and Compliance 28 (2), 215–234. 
+
+
+Bryant, F.B., Yarnold, P.R., 1995. Principal-components analysis and exploratory and 
+confirmatory factor analysis. In: Grimm, L.G., Yarnold, P.R. (Eds.), Reading and 
+Understanding Multivariate Statistics. American Psychological Association, 
+pp. 99–136. 
+
+
+Büchi, G., Cugno, M., Castagnoli, R., 2020. Smart factory performance and Industry 4.0. 
+Technol. Forecast. Soc. Change. https://doi.org/10.1016/j.techfore.2019.119790. 
+
+
+Business Insider Intelligence (2019). Blockchain in Banking: an inside look at four banks’ 
+early blockchain successes and failures. (Accessed on 18th June 2019)- http 
+s://www.businessinsider.com/the-blockchain-in-banking-report-2019-6?IR=T. 
+
+
+Bygstad, B., Aanby, H.P., 2010. ICT infrastructure for innovation: a case study of the 
+enterprise service bus approach. Information Systems Frontiers 12 (3), 257–265. 
+
+
+Cai, C.W., 2018. Disruption of financial intermediation by FinTech: a review on 
+crowdfunding and blockchain. Accounting & Finance 58 (4), 965–992. 
+
+
+Cai, T., Cai, H.J., Wang, H., Cheng, X., Wang, L., 2019. Analysis of Blockchain System 
+with Token-Based Bookkeeping Method. IEEE Access 7, 50823–50832. 
+
+
+Cangemi, M.P., Brennan, G., 2019. Blockchain Auditing–Accelerating the Need For 
+Automated Audits! EDPACS 59 (4), 1–11. 
+
+
+Cao, B., Li, Y., Zhang, L., Zhang, L., Mumtaz, S., Zhou, Z., Peng, M., 2019. When Internet 
+of Things meets blockchain: challenges in distributed consensus. IEEE Netw. 33 (6), 
+133–139. 
+
+
+Casino, F., Dasaklis, T.K., Patsakis, C., 2019. A systematic literature review of 
+blockchain-based applications: current status, classification and open issues. 
+Telematics and Informatics 36, 55–81. 
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0001
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0001
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0001
+
+https://www.accenture.com/gb-en/_acnmedia/PDF-78/Accenture-Banking-Technology-Vision-2018.pdf
+
+https://www.accenture.com/gb-en/_acnmedia/PDF-78/Accenture-Banking-Technology-Vision-2018.pdf
+
+https://www.accenture.com/gb-en/_acnmedia/PDF-78/Accenture-Banking-Technology-Vision-2018.pdf
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0003
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0003
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0004
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0004
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0004
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0005
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0005
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0007
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0007
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0007
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0008
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0008
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0011
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0011
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0011
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0012
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0012
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0013
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0013
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0013
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0014
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0014
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0015
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0015
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0016
+
+https://doi.org/10.1016/j.techfore.2019.119790
+
+https://www.businessinsider.com/the-blockchain-in-banking-report-2019-6?IR=T
+
+https://www.businessinsider.com/the-blockchain-in-banking-report-2019-6?IR=T
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0019
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0019
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0020
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0020
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0021
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0021
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0022
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0022
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0023
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0023
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0023
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0024
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0024
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0024
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+15
+
+
+Centaure (2018). Benefits of the blockchain technology. (Accessed on 2nd April 2019)- 
+https://medium.com/@centauretoken/9-benefits-of-the-blockchain-technology-67b 
+96441b4fb. 
+
+
+Chang, S.E., Chen, Y.C., Lu, M.F., 2019. Supply chain re-engineering using blockchain 
+technology: a case of smart contract based tracking process. Technol. Forecast. Soc. 
+Change 144, 1–11. 
+
+
+Chang, V., Baudier, P., Zhang, H., Xu, Q., Zhang, J., Arami, M., 2020b. How Blockchain 
+can impact financial services–The overview, challenges and recommendations from 
+expert interviewees. Technol. Forecast. Soc. Change. https://doi.org/10.1016/j. 
+techfore.2020.120166. 
+
+
+Chang, V., Valverde, R., Ramachandran, M., Li, C.S., 2020a. Toward Business Integrity 
+Modeling and Analysis Framework for Risk Measurement and Analysis. Applied 
+Sciences 10 (9), 3145. 
+
+
+Chang, V., Wang, Y., Wills, G., 2020c. Research investigations on the use or non-use of 
+hearing aids in the smart cities. Technol. Forecast. Soc. Change. https://doi.org/ 
+10.1016/j.techfore.2018.03.002. 
+
+
+Chaudhary, R., Jindal, A., Aujla, G.S., Aggarwal, S., Kumar, N., Choo, K.K.R., 2019. 
+BEST: blockchain-based secure energy trading in SDN-enabled intelligent 
+transportation system. Computers & Security 85, 288–299. 
+
+
+Chen, Y., 2018. Blockchain tokens and the potential democratization of entrepreneurship 
+and innovation. Bus. Horiz. 61 (4), 567–575. 
+
+
+Clohessy, T., Acton, T., 2019. Investigating the influence of organizational factors on 
+blockchain adoption. Industrial Management & Data Systems 119 (7), 1457–1491. 
+
+
+Cocco, L., Pinna, A., Marchesi, M., 2017. Banking on blockchain: costs savings thanks to 
+the blockchain technology. Future Internet 9 (3), 25. 
+
+
+Cole, R., Stevenson, M., Aitken, J., 2019. Blockchain technology: implications for 
+operations and supply chain management. Supply Chain Management: An 
+International Journal 24 (4), 469–483. 
+
+
+Consultancy.uk (2016). The benefits and use cases for blockchain technology in banking. 
+(Accessed on 2nd June 2019)- https://www.consultancy.uk/news/12801/the-bene 
+fits-and-use-cases-for-blockchain-technology-in-banking. 
+
+
+Costello, A.B., Osborne, J.W., 2005. Best practices in exploratory factor analysis: four 
+recommendations for getting the most from your analysis. Practical Assessment, 
+Research and Evaluation 10 (7), 1–9. 
+
+
+Cronbach, L.J., 1951. Coefficient alpha and the internal structure of tests. Psychometrika 
+16 (3), 297–334. 
+
+
+Crosby, M., Pattanayak, P., Verma, S., Kalyanaraman, V., 2016. Blockchain technology: 
+beyond bitcoin. Applied Innovation 2, 6–10. 
+
+
+Dai, J., Vasarhelyi, M.A., 2017. Toward blockchain-based accounting and assurance. 
+Journal of Information Systems 31 (3), 5–21. 
+
+
+Dale O. (2018). Benefits of Blockchain Technology for the Financial Services Industry. 
+Accessed on 15th June 2019-https://blockonomi.com/blockchain-financial- 
+industry/. 
+
+
+De la Rosa, J.L., Torres-Padrosa, V., el Fakdi, A., Gibovic, D., Hornyák, O., Maicher, L., 
+Miralles, F., 2017. A survey of blockchain technologies for open innovation. In: 4rd 
+Annual World Open Innovation Conf. WOIC, pp. 14–15. 
+
+
+Deloitte (2017). Blockchain in Banking. (Accessed on 18th Dec, 2019)- https://www2. 
+deloitte.com/content/dam/Deloitte/in/Documents/strategy/in-strategy-innovation- 
+blockchain-in-banking-noexp.pdf. 
+
+
+Disyatat, P., 2004. Currency crises and the real economy: the role of banks. Eur. Econ. 
+Rev. 48 (1), 75–90. 
+
+
+Domegan, C., Fleming, D., 2007. Marketing Research in Ireland, 3rd edn. Gill MacMillan, 
+Dublin.  
+
+
+Dong, Y., Hamilton, R., Tippett, M., 2014. Cost efficiency of the Chinese banking sector: a 
+comparison of stochastic frontier analysis and data envelopment analysis. Econ. 
+Model. 36, 298–308. 
+
+
+Dörnyei, Z., Taguchi, T., 2009. Questionnaires in Second Language research: 
+Construction, administration, and Processing. Routledge. 
+
+
+Doughty, C., 2005. Know your customer: automation is key to comply with legislation. 
+Business Information Review 22 (4), 248–252. 
+
+
+Drosatos, G., Kaldoudi, E., 2019. Blockchain applications in the biomedical domain: a 
+scoping review. Comput. Struct. Biotechnol. J. https://doi.org/10.1016/j. 
+csbj.2019.01.010. 
+
+
+Dubey, R., Gunasekaran, A., Bryde, D.J., Dwivedi, Y.K., Papadopoulos, T., 2020. 
+Blockchain technology for enhancing swift-trust, collaboration and resilience within 
+a humanitarian supply chain setting. International Journal of Production Research 
+58 (11), 3381–3398. 
+
+
+Ducas, E., Wilner, A., 2017. The security and financial implications of blockchain 
+technologies: regulating emerging technologies in Canada. International Journal 72 
+(4), 538–562. 
+
+
+Eyal, I., 2017. Blockchain technology: transforming libertarian cryptocurrency dreams to 
+finance and banking realities. Computer (Long Beach Calif) 50 (9), 38–49. 
+
+
+Field, A., 2013. Discovering Statistics Using IBM SPSS Statistics. Sage. 
+Fornell, C., Larcker, D.F., 1981. Evaluating structural equation models with unobservable 
+
+
+variables and measurement error. Journal of Marketing Research 18 (1), 39–50. 
+Frank, A.G., Mendes, G.H., Ayala, N.F., Ghezzi, A., 2019. Servitization and Industry 4.0 
+
+
+convergence in the digital transformation of product firms: a business model 
+innovation perspective. Technol. Forecast. Soc. Change 141, 341–351. 
+
+
+Frizzo-Barker, J., Chow-White, P.A., Adams, P.R., Mentanko, J., Ha, D., Green, S., 2019. 
+Blockchain as a disruptive technology for business: a systematic review. Int. J. Inf. 
+Manage. https://doi.org/10.1016/j.ijinfomgt.2019.10.014. 
+
+
+Frizzo-Barker, J., Chow-White, P.A., Adams, P.R., Mentanko, J., Ha, D., Green, S., 2020. 
+Blockchain as a disruptive technology for business: a systematic review. Int. J. Inf. 
+Manage. https://doi.org/10.1016/j.ijinfomgt.2019.10.014. 
+
+
+Gai, K., Qiu, M., Zhao, H., Sun, X., 2017. Resource management in sustainable cyber- 
+physical systems using heterogeneous cloud computing. IEEE Transactions on 
+Sustainable Computing 3 (2), 60–72. 
+
+
+Gao, F., Zhu, L., Shen, M., Sharif, K., Wan, Z., Ren, K., 2018. A blockchain-based privacy- 
+preserving payment mechanism for vehicle-to-grid networks. IEEE Netw. 32 (6), 
+184–192. 
+
+
+Gartner (2018). Hype Cycle for Blockchain Technologies, 2018. (Accessed on 16th June 
+2019)- https://www.gartner.com/en/documents/3883991/hype-cycle-for-blockch 
+ain-technologies-2018. 
+
+
+Gazali, H.M., Hassan, R., Nor, R.M., Rahman, H.M., 2018. Re-inventing PTPTN study 
+loan with blockchain and smart contracts. In: 2017 8th International Conference on 
+Information Technology (ICIT), pp. 751–754. IEEE.  
+
+
+Gefen, D., Keil, M., 1998. The impact of developer responsiveness on perceptions of 
+usefulness and ease of use: an extension of the technology acceptance model. ACM 
+SIGMIS Database: the DATABASE for Advances in Information Systems 29 (2), 
+35–49. 
+
+
+Gefen, D., Straub, D., Boudreau, M.C., 2000. Structural equation modeling and 
+regression: guidelines for research practice. Communications of the Association for 
+Information Systems 4 (1), 1–77. 
+
+
+Gordon, W.J., Catalini, C., 2018. Blockchain technology for healthcare: facilitating the 
+transition to patient-driven interoperability. Comput. Struct. Biotechnol. J. 16, 
+224–230. 
+
+
+Governatori, G., Idelberger, F., Milosevic, Z., Riveret, R., Sartor, G., Xu, X., 2018. On 
+legal contracts, imperative and declarative smart contracts, and blockchain systems. 
+Artificial Intelligence and Law 26 (4), 377–409. 
+
+
+Goyal S. (2018). The History of Blockchain Technology: must Know Timeline. (Accessed 
+on 5th Feb, 2019)- https://101blockchains.com/history-of-blockchain-timeline/. 
+
+
+Guo, Y., Liang, C., 2016. Blockchain application and outlook in the banking industry. 
+Financial Innovation 2 (24), 1–12. 
+
+
+Gupta A. (2018). Blockchain technology: application in Indian banking sector. Accessed 
+on 15th Jan 2019-https://yourstory.com/mystory/1dd8be50c6-blockchain-technolo 
+gy-. 
+
+
+Haferkorn, M., Diaz, J.M.Q., 2015. Seasonality and interconnectivity within 
+cryptocurrencies-an analysis on the basis of bitcoin, litecoin and namecoin. 
+International Workshop on Enterprise Applications and Services in the Finance 
+Industry. Springer, Cham, pp. 106–120. 
+
+
+Hair, J.F., Black, W.C., Babin, B.J., & Anderson, R.E. (2010). Multivariate data analysis: 
+global edition. 
+
+
+Harigunani P. (2017). Blockchain for Banks: benefits and Implications. Accessed on 15th 
+July 2019- https://www.ciol.com/8-benefits-blockchain-banks-future-implications/. 
+
+
+Hassani, H., Huang, X., Silva, E., 2018. Banking with blockchain-ed big data. Journal of 
+Management Analytics 5 (4), 256–275. 
+
+
+Hastig, G.M., Sodhi, M.S., 2020. Blockchain for supply chain traceability: business 
+requirements and critical success factors. Production and Operations Management 
+29 (4), 935–954. 
+
+
+Helo, P., Hao, Y., 2019. Blockchains in operations and supply chains: a model and 
+reference implementation. Computers & Industrial Engineering. https://doi.org/ 
+10.1016/j.cie.2019.07.023. 
+
+
+Hou, J., Wang, C., Luo, S., 2020. How to improve the competiveness of distributed 
+energy resources in China with blockchain technology. Technol. Forecast. Soc. 
+Change. https://doi.org/10.1016/j.techfore.2019.119744. 
+
+
+Hughes, L., Dwivedi, Y.K., Misra, S.K., Rana, N.P., Raghavan, V., Akella, V., 2019. 
+Blockchain research, practice and policy: applications, benefits, limitations, 
+emerging research themes and research agenda. Int. J. Inf. Manage. 49, 114–129. 
+
+
+Hyvärinen, H., Risius, M., Friis, G., 2017. A blockchain-based approach towards 
+overcoming financial fraud in public sector services. Business & Information Systems 
+Engineering 59 (6), 441–456. 
+
+
+Iacobucci, D., 2010. Structural equations modeling: fit indices, sample size, and 
+advanced topics. Journal of Consumer Psychology 20 (1), 90–98. 
+
+
+Iansiti, M., Lakhani, K.R., 2017. The truth about blockchain. Harv. Bus. Rev. 95 (1), 
+118–127. 
+
+
+IBM (2016). Leading the pack in blockchain banking. (Accessed on 14th May 2019)- http 
+s://www.hyperledger.org/wp-content/uploads/2016/10/Leading-the-pack 
+-in-blockchain-banking-1.pdf. 
+
+
+Ifinedo, P., 2006. Extending the Gable et al. enterprise systems success measurement 
+model: a preliminary study. Journal of Information Technology Management 17 (1), 
+14–33. 
+
+
+Iqbal, B.A., Sami, S., 2017. Role of banks in financial inclusion in India. Contaduría y 
+administración 62 (2), 644–656. 
+
+
+Iskandar K. (2017). What will blockchain mean for banks? (Accessed on 3rd April 
+2019)-https://www.bookingbug.com/blog/what-blockchain-will-mean-for-banks/. 
+
+
+Islam, A.N., Mäntymäki, M., Turunen, M., 2019. Why do blockchains split? An actor- 
+network perspective on Bitcoin splits. Technol. Forecast. Soc. Change. https://doi. 
+org/10.1016/j.techfore.2019.119743. 
+
+
+Iyer S. (2016). The benefits of blockchain across industries. (Accessed on 2nd July 2019)- 
+https://blogs.oracle.com/profit/the-benefits-of-blockchain-across-industries. 
+
+
+Jaag, C., Bach, C., 2017. Blockchain technology and cryptocurrencies: opportunities for 
+postal financial services. In the Changing Postal and Delivery Sector. Springer, 
+Cham, pp. 205–221. 
+
+
+Janssen, M., Weerakkody, V., Ismagilova, E., Sivarajah, U., Irani, Z., 2020. A framework 
+for analysing blockchain technology adoption: integrating institutional, market and 
+technical factors. Int. J. Inf. Manage. 50, 302–309. 
+
+
+Jayadev, M., Singh, H., Kumar, P., 2017. Small finance banks: challenges. IIMB 
+Management Review 29 (4), 311–325. 
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+https://medium.com/@centauretoken/9-benefits-of-the-blockchain-technology-67b96441b4fb
+
+https://medium.com/@centauretoken/9-benefits-of-the-blockchain-technology-67b96441b4fb
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0026
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0026
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0026
+
+https://doi.org/10.1016/j.techfore.2020.120166
+
+https://doi.org/10.1016/j.techfore.2020.120166
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0028
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0028
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0028
+
+https://doi.org/10.1016/j.techfore.2018.03.002
+
+https://doi.org/10.1016/j.techfore.2018.03.002
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0030
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0030
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0030
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0031
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0031
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0032
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0032
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0033
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0033
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0034
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0034
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0034
+
+https://www.consultancy.uk/news/12801/the-benefits-and-use-cases-for-blockchain-technology-in-banking
+
+https://www.consultancy.uk/news/12801/the-benefits-and-use-cases-for-blockchain-technology-in-banking
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0036
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0036
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0036
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0037
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0037
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0038
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0038
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0039
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0039
+
+https://blockonomi.com/blockchain-financial-industry/
+
+https://blockonomi.com/blockchain-financial-industry/
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0041
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0041
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0041
+
+https://www2.deloitte.com/content/dam/Deloitte/in/Documents/strategy/in-strategy-innovation-blockchain-in-banking-noexp.pdf
+
+https://www2.deloitte.com/content/dam/Deloitte/in/Documents/strategy/in-strategy-innovation-blockchain-in-banking-noexp.pdf
+
+https://www2.deloitte.com/content/dam/Deloitte/in/Documents/strategy/in-strategy-innovation-blockchain-in-banking-noexp.pdf
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0043
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0043
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0044
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0044
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0045
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0045
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0045
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0046
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0046
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0047
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0047
+
+https://doi.org/10.1016/j.csbj.2019.01.010
+
+https://doi.org/10.1016/j.csbj.2019.01.010
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0049
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0049
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0049
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0049
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0051
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0051
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0052
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0053
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0053
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0054
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0054
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0054
+
+https://doi.org/10.1016/j.ijinfomgt.2019.10.014
+
+https://doi.org/10.1016/j.ijinfomgt.2019.10.014
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0057
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0057
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0057
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0058
+
+https://www.gartner.com/en/documents/3883991/hype-cycle-for-blockchain-technologies-2018
+
+https://www.gartner.com/en/documents/3883991/hype-cycle-for-blockchain-technologies-2018
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0060
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0060
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0060
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0061
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0061
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0061
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0061
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0062
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0062
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0062
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0063
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0063
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0063
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0064
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0064
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0064
+
+https://101blockchains.com/history-of-blockchain-timeline/
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0066
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0066
+
+https://yourstory.com/mystory/1dd8be50c6-blockchain-technology-
+
+https://yourstory.com/mystory/1dd8be50c6-blockchain-technology-
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0068
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0068
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0068
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0068
+
+https://www.ciol.com/8-benefits-blockchain-banks-future-implications/
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0071
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0071
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0072
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0072
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0072
+
+https://doi.org/10.1016/j.cie.2019.07.023
+
+https://doi.org/10.1016/j.cie.2019.07.023
+
+https://doi.org/10.1016/j.techfore.2019.119744
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0075
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0075
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0075
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0076
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0076
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0076
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0077
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0077
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0078
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0078
+
+https://www.hyperledger.org/wp-content/uploads/2016/10/Leading-the-pack-in-blockchain-banking-1.pdf
+
+https://www.hyperledger.org/wp-content/uploads/2016/10/Leading-the-pack-in-blockchain-banking-1.pdf
+
+https://www.hyperledger.org/wp-content/uploads/2016/10/Leading-the-pack-in-blockchain-banking-1.pdf
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0080
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0080
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0080
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0081
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0081
+
+https://www.bookingbug.com/blog/what-blockchain-will-mean-for-banks/
+
+https://doi.org/10.1016/j.techfore.2019.119743
+
+https://doi.org/10.1016/j.techfore.2019.119743
+
+https://blogs.oracle.com/profit/the-benefits-of-blockchain-across-industries
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0085
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0085
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0085
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0086
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0086
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0086
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0087
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0087
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+16
+
+
+Ji, Z., Chang, V., Lan, H., Robert Hsu, C.H., Valverde, R., 2020. Empirical Research on 
+the Fama-French Three-Factor Model and a Sentiment-Related Four-Factor Model in 
+the Chinese Blockchain Industry. Sustainability 12 (12), 5170. 
+
+
+Kaiser, H.F., 1974. An index off actorial simplicity. Psychometrika 39, 31–36. 
+Karamchandani, A., Srivastava, S.K., Srivastava, R.K., 2020. Perception-based model for 
+
+
+analyzing the impact of enterprise blockchain adoption on SCM in the Indian service 
+industry. Int. J. Inf. Manage. https://doi.org/10.1016/j.ijinfomgt.2019.10.004. 
+
+
+Kewell, B., Adams, R., Parry, G., 2017. Blockchain for good? Strategic Change 26 (5), 
+429–437. 
+
+
+Khan, M.A., Salah, K., 2018. IoT security: review, blockchain solutions, and open 
+challenges. Future Generation Computer Systems 82, 395–411. 
+
+
+Kim, H.M., Laskowski, M., 2018. Toward an ontology-driven blockchain design for 
+supply-chain provenance. Intelligent Systems in Accounting, Finance and 
+Management 25 (1), 18–27. 
+
+
+Kloppmann M. (2017). Digital process automation and blockchain in financial services. 
+(Accessed on 1st Feb, 2019)- https://www.ibm.com/blogs/blockchain/2017/08/di 
+gital-process-automation-blockchain-financial-services/. 
+
+
+Knirsch, F., Unterweger, A., Engel, D., 2019. Implementing a blockchain from scratch: 
+why, how, and what we learned. EURASIP Journal on Information Security 2 (1), 
+1–14. 
+
+
+Koeppl, T.V., & Kronick, J. (2017). Blockchain Technology–What’s in Store for Canada’s 
+Economy and Financial Markets. (Accessed on 1st Jan, 2019)- https://www.cdhowe. 
+org/sites/default/files/attachments/research_papers/mixed/Commentary_468_0.pdf 
+. 
+
+
+Kohtamäki, M., Parida, V., Patel, P.C., Gebauer, H., 2020. The relationship between 
+digitalization and servitization: the role of servitization in capturing the financial 
+potential of digitalization. Technol. Forecast. Soc. Change. https://doi.org/10.1016/ 
+j.techfore.2019.119804. 
+
+
+Koppenjan, J., Groenewegen, J., 2005. Institutional design for complex technological 
+systems. International Journal of Technology, Policy and Management 5 (3), 
+240–257. 
+
+
+Kouzinopoulos, C.S., Spathoulas, G., Giannoutakis, K.M., Votis, K., Pandey, P., 
+Tzovaras, D., Nijdam, N.A., 2018, February. Using blockchains to strengthen the 
+security of internet of things. International ISCIS Security Workshop. Springer, 
+Cham, pp. 90–100. 
+
+
+Krause E.G., .Velamuri V.K., .Burghardt T., Nack D., Schmidt M. and Treder T.M. (2018). 
+Blockchain Technology and the Financial Services Market. (Accessed on 11th Jan, 
+2019)- https://www.infosys.com/consulting/insights/Documents/blockchain-techn 
+ology.pdf. 
+
+
+Kshetri, N., 2017. Blockchain’s roles in strengthening cybersecurity and protecting 
+privacy. Telecomm. Policy 41 (10), 1027–1038. 
+
+
+Kumar, K., Prakash, A., 2018. Developing a framework for assessing sustainable banking 
+performance of the Indian banking sector. Social Responsibility Journal. https://doi. 
+org/10.1108/SRJ-07-2018-0162. 
+
+
+Kuo, T.T., Kim, H.E., Ohno-Machado, L., 2017. Blockchain distributed ledger 
+technologies for biomedical and health care applications. Journal of the American 
+Medical Informatics Association 24 (6), 1211–1220. 
+
+
+Larios-Hernández, G.J., 2017. Blockchain entrepreneurship opportunity in the practices 
+of the unbanked. Bus. Horiz. 60 (6), 865–874. 
+
+
+Larson, D., Chang, V., 2016. A review and future direction of agile, business intelligence, 
+analytics and data science. Int. J. Inf. Manage. 36 (5), 700–710. 
+
+
+Lemieux, V.L., 2016. Trusting records: is Blockchain technology the answer? Records 
+Management Journal 26 (2), 110–139. 
+
+
+Lewis, J.E., Hilditch, J.R., Wong, C.J., 2005. Further psychometric property development 
+of the Menopause-Specific Quality of Life questionnaire and development of a 
+modified version, MENQOL-Intervention questionnaire. Maturitas 50 (3), 209–221. 
+
+
+Li, X., Jiang, P., Chen, T., Luo, X., Wen, Q., 2017. A survey on the security of blockchain 
+systems. Future Generation Computer Systems. https://doi.org/10.1016/j. 
+future.2017.08.020. 
+
+
+Liu, J., Li, X., Wang, S., 2020. What have we learnt from 10 years of fintech research? a 
+scientometric analysis. Technol. Forecast. Soc. Change. https://doi.org/10.1016/j. 
+techfore.2020.120022. 
+
+
+Liu, Z., Luong, N.C., Wang, W., Niyato, D., Wang, P., Liang, Y.C., Kim, D.I., 2019. 
+A survey on blockchain: a game theoretical perspective. IEEE Access 7, 
+47615–47643. 
+
+
+Lizcano, D., Lara, J.A., White, B., Aljawarneh, S., 2020. Blockchain-based approach to 
+create a model of trust in open and ubiquitous higher education. Journal of 
+Computing in Higher Education 32 (1), 109–134. 
+
+
+Lu, H., Huang, K., Azimi, M., Guo, L., 2019. Blockchain technology in the oil and gas 
+industry: a review of applications, opportunities, challenges, and risks. IEEE Access 
+7, 41426–41444. 
+
+
+Lu, Y., 2019. The blockchain: state-of-the-art and research challenges. Journal of 
+Industrial Information Integration 15, 80–90. 
+
+
+Ma, Z., Jiang, M., Gao, H., Wang, Z., 2018. Blockchain for digital rights management. 
+Future Generation Computer Systems 89, 746–764. 
+
+
+MacDonald, T.J., Allen, D.W., Potts, J., 2016. Blockchains and the boundaries of self- 
+organized economies: predictions for the future of banking. Banking Beyond Banks 
+and Money. Springer, Cham, pp. 279–296. 
+
+
+Macrinici, D., Cartofeanu, C., Gao, S., 2018. Smart contract applications within 
+blockchain technology: a systematic mapping study. Telematics and Informatics 35 
+(8), 2337–2354. 
+
+
+Mani, Z., Chouk, I., 2018. Consumer resistance to innovation in services: challenges and 
+barriers in the Internet of Things era. Journal of Product Innovation Management 35 
+(5), 780–807. 
+
+
+Manski, S., 2017. Building the blockchain world: technological commonwealth or just 
+more of the same. Strategic Change 26 (5), 511–522. 
+
+
+Marco, I., Lakhani, K.R., 2017. The truth about blockchain. Harv. Bus. Rev. 95 (1), 
+118–127. 
+
+
+Mariani, M., Borghi, M., 2019. Industry 4.0: a bibliometric review of its managerial 
+intellectual structure and potential evolution in the service industries. Technol. 
+Forecast. Soc. Change. https://doi.org/10.1016/j.techfore.2019.119752. 
+
+
+Marsal-Llacuna, M.L., 2018. Future living framework: is blockchain the next enabling 
+network. Technol. Forecast. Soc. Change 128, 226–234. 
+
+
+Martin R. (2018). 5 Ways Banks Can Benefit from Blockchain Technology. Accessed on 
+18th May 2019-https://igniteoutsourcing.com/blockchain/blockchain-solutions-for 
+-banking/. 
+
+
+Matteson A. (2017). Benefits and use cases for blockchain in banking. (Accessed on 2nd 
+June 2018)- https://www.datasciencecentral.com/profiles/blogs/the-benefits-and- 
+use-cases-for-blockchain-technology-in-banking. 
+
+
+McCallig, J., Robb, A., Rohde, F., 2019. Establishing the representational faithfulness of 
+financial accounting information using multiparty security, network analysis and a 
+blockchain. International Journal of Accounting Information Systems 33, 47–58. 
+
+
+Meng, W., Li, W., Zhu, L., 2019. Enhancing medical smartphone networks via 
+blockchain-based trust management against insider attacks. IEEE Transactions on 
+Engineering Management. https://doi.org/10.1109/TEM.2019.2921736. 
+
+
+Mengelkamp, E., Notheisen, B., Beer, C., Dauer, D., Weinhardt, C., 2018. A blockchain- 
+based smart grid: towards sustainable local energy markets. Computer Science- 
+Research and Development 33 (1–2), 207–214. 
+
+
+Min, H., 2019. Blockchain technology for enhancing supply chain resilience. Bus. Horiz. 
+62 (1), 35–45. 
+
+
+Mohamad, M., Afthanorhan, A., Awang, Z., Mohammad, M., 2019. Comparison between 
+CB-SEM and PLS-SEM: testing and confirming the Maqasid Syariah quality of life 
+measurement model. The Journal of Social Sciences Research 5 (3), 608–614. 
+
+
+Montecchi, M., Plangger, K., Etter, M., 2019. It’s real, trust me! Establishing supply chain 
+provenance using blockchain.  Bus. Horiz. 62 (3), 283–293. 
+
+
+Morkunas, V.J., Paschen, J., Boon, E., 2019. How blockchain technologies impact your 
+business model. Bus. Horiz. 62 (3), 295–306. 
+
+
+Moro, S., Cortez, P., Rita, P., 2015. Business intelligence in banking: a literature analysis 
+from 2002 to 2013 using text mining and latent Dirichlet allocation. Expert Syst. 
+Appl. 42 (3), 1314–1324. 
+
+
+Narayanaswami, C., Nooyi, R., Govindaswamy, S.R., Viswanathan, R., 2019. Blockchain 
+anchored supply chain automation. IBM Journal of Research and Development 63 
+(2/3), 1–11. 
+
+
+Nelito (2018). Blockchain technology in banking and finance. (Accessed on 3rd May 
+2019)- https://www.nelito.com/blog/blockchain-technology-in-banking-and-finan 
+ce.html. 
+
+
+New Age Banking Summit Europe (2018). 4 key advantages of using blockchain in 
+banking. (Accessed on 9th April 2019)- http://newagebankingsummit.com/europe/ 
+4-key-advantages-of-using-blockchain-in-banking/. 
+
+
+Nguyen, Q.K., 2016. Blockchain-a financial technology for future sustainable 
+development. In: 2016 3rd International conference on green technology and 
+sustainable development (GTSD), pp. 51–54. IEEE.  
+
+
+Nofer, M., Gomber, P., Hinz, O., Schiereck, D., 2017. Blockchain. Business & Information 
+Systems Engineering 59 (3), 183–187. 
+
+
+Noor, S., Yang, W., Guo, M., van Dam, K.H., Wang, X., 2018. Energy Demand Side 
+Management within micro-grid networks enhanced by blockchain. Appl. Energy 
+228, 1385–1398. 
+
+
+Nunnally, J.C., Bernstein, I.H., 1994. Psychological Theory. McGraw-Hill, New York.  
+Nworie, J., 2011. Using the Delphi technique in educational technology research. 
+
+
+Techtrends 55 (5), 24–30. 
+Oh, J., Shong, I., 2017. A case study on business model innovations using Blockchain: 
+
+
+focusing on financial institutions. Asia Pacific Journal of Innovation and 
+Entrepreneurship 11 (3), 335–344. 
+
+
+Ølnes, S., Ubacht, J., Janssen, M., 2017. Blockchain in government: benefits and 
+implications of distributed ledger technology for information sharing. Gov. Inf. Q. 34 
+(3), 355–364. 
+
+
+Oza H. (2018). The importance of blockchain in the banking sector. Accessed on 5th May 
+2019-https://www.hyperlinkinfosystem.com/blog/the-importance-of-blockchain-in 
+-the-banking-sector. 
+
+
+Palmié, M., Wincent, J., Parida, V., Caglar, U., 2020. The evolution of the financial 
+technology ecosystem: an introduction and agenda for future research on disruptive 
+innovations in ecosystems. Technol. Forecast. Soc. Change. https://doi.org/ 
+10.1016/j.techfore.2019.119779. 
+
+
+Pazaitis, A., De Filippi, P., Kostakis, V., 2017. Blockchain and value systems in the 
+sharing economy: the illustrative case of Backfeed. Technol. Forecast. Soc. Change 
+125, 105–115. 
+
+
+Pereira, J., Tavalaei, M.M., Ozalp, H., 2019. Blockchain-based platforms: decentralized 
+infrastructures and its boundary conditions. Technol. Forecast. Soc. Change 146, 
+94–102. 
+
+
+Pereira, R.D.D.M., Alvim, N.A.T., 2015. Delphi technique in dialogue with nurses on 
+acupuncture as a proposed nursing intervention. Escola Anna Nery 19 (1), 174–180. 
+
+
+Peters, G.W., Panayi, E., 2016. Understanding modern banking ledgers through 
+blockchain technologies: future of transaction processing and smart contracts on the 
+internet of money. In: Banking beyond banks and money. Springer, Cham, 
+pp. 239–278. 
+
+
+Pratap M. (2018). Blockchain Technology Explained: introduction, Meaning, and 
+Applications. (Accessed on 20th May 2019)- https://hackernoon.com/blockchain- 
+technology-explained-introduction-meaning-and-applications-edbd6759a2b2. 
+
+
+Puthal, D., Malik, N., Mohanty, S.P., Kougianos, E., Yang, C., 2018. The blockchain as a 
+decentralized security framework [future directions]. IEEE Consumer Electronics 
+Magazine 7 (2), 18–21. 
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0088
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0088
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0088
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0089
+
+https://doi.org/10.1016/j.ijinfomgt.2019.10.004
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0092
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0092
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0093
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0093
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0094
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0094
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0094
+
+https://www.ibm.com/blogs/blockchain/2017/08/digital-process-automation-blockchain-financial-services/
+
+https://www.ibm.com/blogs/blockchain/2017/08/digital-process-automation-blockchain-financial-services/
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0096
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0096
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0096
+
+https://www.cdhowe.org/sites/default/files/attachments/research_papers/mixed/Commentary_468_0.pdf
+
+https://www.cdhowe.org/sites/default/files/attachments/research_papers/mixed/Commentary_468_0.pdf
+
+https://doi.org/10.1016/j.techfore.2019.119804
+
+https://doi.org/10.1016/j.techfore.2019.119804
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0099
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0099
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0099
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0100
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0100
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0100
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0100
+
+https://www.infosys.com/consulting/insights/Documents/blockchain-technology.pdf
+
+https://www.infosys.com/consulting/insights/Documents/blockchain-technology.pdf
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0102
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0102
+
+https://doi.org/10.1108/SRJ-07-2018-0162
+
+https://doi.org/10.1108/SRJ-07-2018-0162
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0104
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0104
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0104
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0105
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0105
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0106
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0106
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0107
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0107
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0108
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0108
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0108
+
+https://doi.org/10.1016/j.future.2017.08.020
+
+https://doi.org/10.1016/j.future.2017.08.020
+
+https://doi.org/10.1016/j.techfore.2020.120022
+
+https://doi.org/10.1016/j.techfore.2020.120022
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0111
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0111
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0111
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0112
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0112
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0112
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0113
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0113
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0113
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0114
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0114
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0115
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0115
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0116
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0116
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0116
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0117
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0117
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0117
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0119
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0119
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0120
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0120
+
+https://doi.org/10.1016/j.techfore.2019.119752
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0122
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0122
+
+https://igniteoutsourcing.com/blockchain/blockchain-solutions-for-banking/
+
+https://igniteoutsourcing.com/blockchain/blockchain-solutions-for-banking/
+
+https://www.datasciencecentral.com/profiles/blogs/the-benefits-and-use-cases-for-blockchain-technology-in-banking
+
+https://www.datasciencecentral.com/profiles/blogs/the-benefits-and-use-cases-for-blockchain-technology-in-banking
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0125
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0125
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0125
+
+https://doi.org/10.1109/TEM.2019.2921736
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0127
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0127
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0127
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0128
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0128
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0129
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0129
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0129
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0130
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0130
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0131
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0131
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0132
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0132
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0132
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0133
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0133
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0133
+
+https://www.nelito.com/blog/blockchain-technology-in-banking-and-finance.html
+
+https://www.nelito.com/blog/blockchain-technology-in-banking-and-finance.html
+
+http://newagebankingsummit.com/europe/4-key-advantages-of-using-blockchain-in-banking/
+
+http://newagebankingsummit.com/europe/4-key-advantages-of-using-blockchain-in-banking/
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0136
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0136
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0136
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0137
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0137
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0138
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0138
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0138
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0139
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0140
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0140
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0141
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0141
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0141
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0142
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0142
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0142
+
+https://www.hyperlinkinfosystem.com/blog/the-importance-of-blockchain-in-the-banking-sector
+
+https://www.hyperlinkinfosystem.com/blog/the-importance-of-blockchain-in-the-banking-sector
+
+https://doi.org/10.1016/j.techfore.2019.119779
+
+https://doi.org/10.1016/j.techfore.2019.119779
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0145
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0145
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0145
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0146
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0146
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0146
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0147
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0147
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0148
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0148
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0148
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0148
+
+https://hackernoon.com/blockchain-technology-explained-introduction-meaning-and-applications-edbd6759a2b2
+
+https://hackernoon.com/blockchain-technology-explained-introduction-meaning-and-applications-edbd6759a2b2
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0150
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0150
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0150
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+17
+
+
+Rahman, M.A., Hossain, M.S., Loukas, G., Hassanain, E., Rahman, S.S., Alhamid, M.F., 
+Guizani, M., 2018. Blockchain-based mobile edge computing framework for secure 
+therapy applications. IEEE Access 6, 72469–72478. 
+
+
+Ray, S., 2016. Cost efficiency in an Indian bank branch network: a centralized resource 
+allocation model. Omega (Westport) 65, 69–81. 
+
+
+Repousis, S., Lois, P., Veli, V., 2019. An investigation of the fraud risk and fraud scheme 
+methods in Greek commercial banks. Journal of Money Laundering Control 22 (1), 
+53–61. 
+
+
+Research report (2018). A blockchain guide to the benefits, frameworks, initiatives, & 
+more for the public sector. (Accessed on 23rd April 2019)- https://www.comptia. 
+org/resources/harnessing-the-blockchain-revolution-comptia-s-practical-guide-for- 
+the-public-sector. 
+
+
+Reyna, A., Martín, C., Chen, J., Soler, E., Díaz, M., 2018. On blockchain and its 
+integration with IoT. Challenges and opportunities. Future Generation Computer 
+Systems 88, 173–190. 
+
+
+Rijmenam M.V. (2018). Blockchain – 7 benefits for the financial Services Industry, 
+(Accessed on 5th April 2019) - https://londonspeakerbureau.com/blockchain-7-ben 
+efits-financial-industry/. 
+
+
+Rimba, P., Tran, A.B., Weber, I., Staples, M., Ponomarev, A., Xu, X., 2018. Quantifying 
+the Cost of Distrust: comparing Blockchain and Cloud Services for Business Process 
+Execution. Information Systems Frontiers 1–19. 
+
+
+Rohr, J., Wright, A., 2018. Blockchain-based token sales, initial coin offerings, and the 
+democratization of public capital markets. Hastings LJ 70, 463. 
+
+
+Rust, R.T., Cooil, B., 1994. Reliability measures for qualitative data: theory and 
+implications. Journal of Marketing Research 31 (1), 1–14. 
+
+
+Saberi, S., Kouhizadeh, M., Sarkis, J., Shen, L., 2019. Blockchain technology and its 
+relationships to sustainable supply chain management. International Journal of 
+Production Research 57 (7), 2117–2135. 
+
+
+Schuetz, S., Venkatesh, V., 2020. Blockchain, adoption, and financial inclusion in India: 
+research opportunities. Int. J. Inf. Manage. https://doi.org/10.1016/j. 
+ijinfomgt.2019.04.009. 
+
+
+Sharma T.K. (.2018). Which Indian bank uses Blockchain Technology? (Accessed on 15th 
+Jan, 2019)- https://www.blockchain-council.org/blockchain/which-indian-bank- 
+uses-blockchain-technology/. 
+
+
+Sharma, P.K., Park, J.H., 2018. Blockchain based hybrid network architecture for the 
+smart city. Future Generation Computer Systems 86, 650–655. 
+
+
+Shrestha, R., Bajracharya, R., Shrestha, A.P., Nam, S.Y., 2019. A new-type of blockchain 
+for secure message exchange in VANET. Digital Communications and Networks. 
+https://doi.org/10.1016/j.dcan.2019.04.003. 
+
+
+Sikorski, J.J., Haughton, J., Kraft, M., 2017. Blockchain technology in the chemical 
+industry: machine-to-machine electricity market. Appl. Energy 195, 234–246. 
+
+
+Sivarajah, U., Kamal, M.M., Irani, Z., Weerakkody, V., 2017. Critical analysis of Big Data 
+challenges and analytical methods. J. Bus. Res. 70, 263–286. 
+
+
+Skilton, M., Hovsepian, F., 2017. The 4th industrial revolution: Responding to the impact 
+of artificial intelligence on business. Springer International Publishing, AG, Cham.  
+
+
+Song W., Shi S., Xu V., Gill G. (2016). Advantages & disadvantages of blockchain 
+technology, blockchain technology Bus 237-e103. (Accessed on 13th May 2019)-htt 
+ps://blockchaintechnologycom.wordpress.com/2016/11/21/advantages-disadvant 
+ages/. 
+
+
+Straub, D., Boudreau, M.C., Gefen, D., 2004. Validation guidelines for IS positivist 
+research. Communications of the Association for Information Systems 13 (1), 
+380–427. 
+
+
+Streiner, D.L., 2003. Starting at the beginning: an introduction to coefficient alpha and 
+internal consistency. J. Pers. Assess. 80 (1), 99–103. 
+
+
+Sun, H., Hong, C., 2002. The alignment between manufacturing and business strategies: 
+its influence on business performance. Technovation 22 (11), 699–705. 
+
+
+Sunder, M.V., Ganesh, L.S., Marathe, R.R., 2019. Lean Six Sigma in consumer banking–an 
+empirical inquiry. International Journal of Quality & Reliability Management. 
+https://doi.org/10.1108/IJQRM-01-2019-0012. 
+
+
+Sung, T.K., 2018. Industry 4.0: a Korea perspective. Technol. Forecast. Soc. Change 132, 
+40–45. 
+
+
+Swanitiinitiative (2018). Improving Public Service Delivery through Blockchain 
+Technology. (Accessed on 1st April 2019)-http://www.swaniti.com/wp-content/upl 
+oads/2018/02/Blockchain-Paper_Swaniti-Initiative-1.pdf. 
+
+
+Szalavetz, A., 2019. Industry 4.0 and capability development in manufacturing 
+subsidiaries. Technol. Forecast. Soc. Change 145, 384–395. 
+
+
+Taber, K.S., 2018. The use of Cronbach’s alpha when developing and reporting research 
+instruments in science education. Res. Sci. Educ. 48 (6), 1273–1296. 
+
+
+Tapscott, A., Tapscott, D., 2017. How blockchain is changing finance. Harv. Bus. Rev. 1 
+(9), 2–5. 
+
+
+Taylor, P.J., Dargahi, T., Dehghantanha, A., Parizi, R.M., Choo, K.K.R., 2019. 
+A systematic literature review of blockchain cyber security. Digital Communications 
+and Networks. https://doi.org/10.1016/j.dcan.2019.01.005. 
+
+
+Tecsynt Solutions (2018). Blockchain technology for banks: trends and perspectives. 
+(Accessed on 2nd Feb 2019)-https://hackernoon.com/blockchain-technology-for- 
+banks-trends-and-perspectives-895a854e1344. 
+
+
+Thakur, V., Doja, M.N., Dwivedi, Y.K., Ahmad, T., Khadanga, G., 2020. Land records on 
+blockchain for implementation of land titling in India. Int. J. Inf. Manage. https:// 
+doi.org/10.1016/j.ijinfomgt.2019.04.013. 
+
+
+Thurner, T., 2018. Supply chain finance and blockchain technology–the case of reverse 
+securitisation. Foresight 20 (4), 447–448. 
+
+
+Trade finance (2018). Blockchain Technology in Trade Finance Infographic. (Accessed 
+on 3rd May 2019)- https://tradeix.com/blockchain-technology-trade-finance/. 
+
+
+Trochim, W.M., 2006. Qualitative measures. Research Measures Knowledge Base 361, 
+2–16. 
+
+
+Umalkar M., Macneil A. and Light D. (2016). What every CEO should know about 
+blockchain. (Accessed on 15th April 2019)-file:///C:/Users/pgarg/Downloads/ 
+Accenutre-Outlook-Blockchain-POV.pdf. 
+
+
+Universal payments (2017). Unlocking the real benefits of blockchain through its “Sweet 
+Spot”. (Accessed on 12th Jan, 2019)- https://www.aciworldwide.com/-/media/file 
+s/collateral/trends/unlocking-benefits-of-blockchain-tl-us.pdf. 
+
+
+186 Unocoin (2018). Why banks should adopt blockchain technology? Accessed on 
+17th June 2019)-https://blog.unocoin.com/why-banks-should-adopt-blockcha 
+in-technology-e037441b4086. 
+
+
+Upadhyay, N., 2020. Demystifying blockchain: a critical analysis of challenges, 
+applications and opportunities. Int. J. Inf. Manage. https://doi.org/10.1016/j. 
+ijinfomgt.2020.102120. 
+
+
+Viriyasitavat, W., Hoonsopon, D., 2019. Blockchain characteristics and consensus in 
+modern business processes. Journal of Industrial Information Integration 13, 32–39. 
+
+
+Vranken, H., 2017. Sustainability of bitcoin and blockchains. Curr. Opin. Environ. 
+Sustain. 28, 1–9. 
+
+
+Wall, L.D., 2018. Some financial regulatory implications of artificial intelligence. J. Econ. 
+Bus. 100, 55–63. 
+
+
+Wamba, S.F., Queiroz, M.M., 2020. Blockchain in the operations and supply chain 
+management: benefits, challenges and future research opportunities. Int. J. Inf. 
+Manage. https://doi.org/10.1016/j.ijinfomgt.2019.102064. 
+
+
+Wang, L., Shen, X., Li, J., Shao, J., Yang, Y., 2019b. Cryptographic primitives in 
+blockchains. Journal of Network and Computer Applications 127, 43–58. 
+
+
+Wang, L., Shen, X., Li, J., Shao, J., Yang, Y., 2019c. Cryptographic primitives in 
+blockchains. Journal of Network and Computer Applications 127, 43–58. 
+
+
+Wang, R., Lin, Z., Luo, H., 2019d. Blockchain, bank credit and SME financing. Qual. 
+Quant. 53 (3), 1127–1140. 
+
+
+Wang, S., Ouyang, L., Yuan, Y., Ni, X., Han, X., Wang, F.Y., 2019a. Blockchain-enabled 
+smart contracts: architecture, applications, and future trends. IEEE Transactions on 
+Systems, Man, and Cybernetics: Systems 49 (11), 2266–2277. 
+
+
+Wu, D., Nan, G., Li, M., 2019. Optimal Piracy Control: should a Firm Implement Digital 
+Rights Management? Information Systems Frontiers. https://doi.org/10.1007/ 
+s10796-019-09907-z. 
+
+
+Yamada, Y., Nakajima, T., Sakamoto, M., 2017. Blockchain-LI: a study on implementing 
+activity-based micro-pricing using cryptocurrency technologies. In: Proceedings of 
+the 14th International Conference on Advances in Mobile Computing and Multi 
+Media, pp. 203–207. 
+
+
+Yeoh, P., 2017. Regulatory issues in blockchain technology. Journal of Financial 
+Regulation and Compliance 25 (2), 196–208. 
+
+
+Ying, W., Jia, S., Du, W., 2018. Digital enablement of blockchain: evidence from HNA 
+group. Int. J. Inf. Manage. 39, 1–4. 
+
+
+Yoo, S., 2017. Blockchain based financial case analysis and its implications. Asia Pacific 
+Journal of Innovation and Entrepreneurship 11 (3), 312–321. 
+
+
+Zhang, L., Xie, Y., Zheng, Y., Xue, W., Zheng, X., Xu, X., 2020. The challenges and 
+countermeasures of blockchain in finance and economics. Syst. Res. Behav. Sci. 37 
+(4), 691–698. 
+
+
+Zhang, P., White, J., Schmidt, D.C., Lenz, G., Rosenbloom, S.T., 2018. FHIRChain: 
+applying blockchain to securely and scalably share clinical data. Comput. Struct. 
+Biotechnol. J. 16, 267–278. 
+
+
+Zheng, Z., Xie, S., Dai, H.N., Chen, X., Wang, H., 2018. Blockchain challenges and 
+opportunities: a survey. International Journal of Web and Grid Services 14 (4), 
+352–375. 
+
+
+Zheng, Z., Xie, S., Dai, H., Chen, X., Wang, H., 2017. An overview of blockchain 
+technology: architecture, consensus, and future trends. In: 2017, June, IEEE 
+international congress on big data (BigData congress), pp. 557–564. IEEE.  
+
+
+Zhu, L., Wu, Y., Gai, K., Choo, K.K.R., 2019. Controllable and trustworthy blockchain- 
+based cloud data management. Future Generation Computer Systems 91, 527–535. 
+
+
+Zineldin, M., Vasicheva, V., 2015. Banking and financial sector in the cloud: knowledge, 
+quality and innovation management. Cloud Systems in Supply Chains. Palgrave 
+Macmillan, London, pp. 178–194. 
+
+
+Zomorodi, M., Lynn, M.R., 2010. Instrument development measuring critical care nurses’ 
+attitudes and behaviours with end-of-life care. Nurs. Res. 59 (4), 234–240. 
+
+
+Poonam Garg (Ph.D.) has 28+ years of experience in teaching, research and consulting. 
+Presently she is working as a Professor with Institute of Management Technology, Gha-
+ziabad, India. Her current research interests are in the areas of Blockchain, Enterprise 
+Resource Planning, Social Media Analytics, developing heuristics and meta-heuristics 
+particularly genetic algorithm, Tabu search and simulated annealing-based meta-heuris-
+tic for various optimization problem such as cryptanalysis of various encryption algo-
+rithms and Project Management. Her teaching interests are in Management Information 
+System, Blockchain, Enterprise Resource Planning, Design Thinking, Information Security, 
+Networking Concepts and Planning and Management Information System. She has pub-
+lished papers in leading international journals and has ten edited books. She has served 
+many International Conferences as a conference co-chair, conference track chair and 
+members of program committee. 
+
+
+Bhumika Gupta (Ph.D.) is an Associate Professor in the area of Human Resource Man-
+agement at the Department of Management, Marketing and Strategy at Institut Mines- 
+Telecom Business School, Evry, France. She has published in peer review academic 
+ranked journals like Journal of Cleaner Production, International Journal of Information 
+Management, Resources, Conservation and Recycling, Journal of Enterprise Information 
+Management, Appetite, etc. concerned with Human Resource Management, Organization 
+Behavior, Strategic Human Resource Management, and Corporate Social Responsibility. 
+She has over 50 research articles and research conference in A, B and C ranked Journals. 
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0151
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0151
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0151
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0152
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0152
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0153
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0153
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0153
+
+https://www.comptia.org/resources/harnessing-the-blockchain-revolution-comptia-s-practical-guide-for-the-public-sector
+
+https://www.comptia.org/resources/harnessing-the-blockchain-revolution-comptia-s-practical-guide-for-the-public-sector
+
+https://www.comptia.org/resources/harnessing-the-blockchain-revolution-comptia-s-practical-guide-for-the-public-sector
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0155
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0155
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0155
+
+https://londonspeakerbureau.com/blockchain-7-benefits-financial-industry/
+
+https://londonspeakerbureau.com/blockchain-7-benefits-financial-industry/
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0157
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0157
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0157
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0158
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0158
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0159
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0159
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0160
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0160
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0160
+
+https://doi.org/10.1016/j.ijinfomgt.2019.04.009
+
+https://doi.org/10.1016/j.ijinfomgt.2019.04.009
+
+https://www.blockchain-council.org/blockchain/which-indian-bank-uses-blockchain-technology/
+
+https://www.blockchain-council.org/blockchain/which-indian-bank-uses-blockchain-technology/
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0163
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0163
+
+https://doi.org/10.1016/j.dcan.2019.04.003
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0165
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0165
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0166
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0166
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0167
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0167
+
+https://blockchaintechnologycom.wordpress.com/2016/11/21/advantages-disadvantages/
+
+https://blockchaintechnologycom.wordpress.com/2016/11/21/advantages-disadvantages/
+
+https://blockchaintechnologycom.wordpress.com/2016/11/21/advantages-disadvantages/
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0169
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0169
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0169
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0170
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0170
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0171
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0171
+
+https://doi.org/10.1108/IJQRM-01-2019-0012
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0173
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0173
+
+http://www.swaniti.com/wp-content/uploads/2018/02/Blockchain-Paper_Swaniti-Initiative-1.pdf
+
+http://www.swaniti.com/wp-content/uploads/2018/02/Blockchain-Paper_Swaniti-Initiative-1.pdf
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0175
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0175
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0176
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0176
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0177
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0177
+
+https://doi.org/10.1016/j.dcan.2019.01.005
+
+https://hackernoon.com/blockchain-technology-for-banks-trends-and-perspectives-895a854e1344
+
+https://hackernoon.com/blockchain-technology-for-banks-trends-and-perspectives-895a854e1344
+
+https://doi.org/10.1016/j.ijinfomgt.2019.04.013
+
+https://doi.org/10.1016/j.ijinfomgt.2019.04.013
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0181
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0181
+
+https://tradeix.com/blockchain-technology-trade-finance/
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0183
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0183
+
+https://www.aciworldwide.com/-/media/files/collateral/trends/unlocking-benefits-of-blockchain-tl-us.pdf
+
+https://www.aciworldwide.com/-/media/files/collateral/trends/unlocking-benefits-of-blockchain-tl-us.pdf
+
+https://blog.unocoin.com/why-banks-should-adopt-blockchain-technology-e037441b4086
+
+https://blog.unocoin.com/why-banks-should-adopt-blockchain-technology-e037441b4086
+
+https://doi.org/10.1016/j.ijinfomgt.2020.102120
+
+https://doi.org/10.1016/j.ijinfomgt.2020.102120
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0188
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0188
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0189
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0189
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0190
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0190
+
+https://doi.org/10.1016/j.ijinfomgt.2019.102064
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0192
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0192
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0193
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0193
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0194
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0194
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0195
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0195
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0195
+
+https://doi.org/10.1007/s10796-019-09907-z
+
+https://doi.org/10.1007/s10796-019-09907-z
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0197
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0197
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0197
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0197
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0198
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0198
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0199
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0199
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0200
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0200
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0201
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0201
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0201
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0202
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0202
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0202
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0203
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0203
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0203
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0204
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0204
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0204
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0205
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0205
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0206
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0206
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0206
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0207
+
+http://refhub.elsevier.com/S0040-1625(20)31233-6/sbref0207
+
+
+
+
+Technological Forecasting & Social Change 163 (2021) 120407
+
+
+18
+
+
+She is Working on many different government funded Research Projects in different nation 
+including France, India and China. 
+
+
+Ajay Kumar Chauhan (Ph.D.) is working as independent consultant of quantitative 
+methods. He is a visiting faculty with MDI, IMT, NMIMS, IIFT, NIT etc. Earlier he was 
+associated with IMT- Ghaziabad as a full-time faculty for eight years. He is M.Sc. Mathe-
+matics, MBA Finance, UGC NET and has also done a PhD in Finance. He has published 25 
+international research papers and three books. He is a well-known trainer of data science 
+and analysis and has conducted more than 500 national and international training 
+workshops on topics such as ‘Financial Econometrics’, ‘Time series analysis’, ‘Structural 
+Equation Modelling (SEM),’ ‘Panel Data Analysis,’ and ‘Business Research Methods,’ in 
+reputed institutions of India such as NHPC, Coca Cola, IMT Ghaziabad, UGC-Academic 
+Staff Colleges, IIIFT, Delhi University, NHPC, National Institute of Technology (NIT), 
+IIIT, Ministry of Communications and many more. He also taught in Bulgaria and done an 
+advance course in econometrics from Switzerland. 
+
+
+Uthayasankar Sivarajah (Ph.D.) is a Professor of Technology Management and Circular 
+Economy at the School of Management, University of Bradford, UK. He is also the Head of 
+Business Analytics, Circular Economy and Supply Chain (BACES) Research centre at the 
+School of Management. His broad area of research interest and expertise is interdisci-
+plinary focusing on the use of emerging digital technology for the betterment of society, be 
+it in a business or government context. He is the Deputy Editor of Journal Enterprise In-
+formation Management (JEIM) and actively publishes in leading high impact factor 
+journals such as Journal of Business Research, Computers in Human Behaviour and 
+Government Information Quarterly. His research has also been featured in reputable 
+media/trade publications such as Computer Weekly, Public Sector Focus, London School 
+of Economics academic blog etc. To date, he has been involved as Principal and Co- 
+
+
+investigator in over £3 million worth of Research and Innovation and consultancy pro-
+jects. Some of the notable funders have been the European Commission (FP7, H2020, 
+Marie Curie), Qatar National Research Fund (QNRF), Innovate UK/DEFRA and British 
+Council focusing on projects addressing business and societal challenges surrounding 
+themes such as Blockchain use in Financial Services and Smart Cities. He is a Fellow of the 
+UK Higher Education Academy (FHEA), a member of the British Academy of Management 
+(BAM) and Association for Information Systems (AIS). 
+
+
+Shivam Gupta (Ph.D.) is an Associate Professor at NEOMA Business School, France with a 
+demonstrated history of working in the higher education industry. Skilled in Statistics, 
+Cloud Computing, Big Data Analytics, Artificial Intelligence and Sustainability. Strong 
+education professional with a Doctor of Philosophy (PhD) focused in Cloud Computing and 
+Operations Management from Indian Institute of Technology (IIT) Kanpur. Followed by 
+PhD, postdoctoral research was pursued at Freie Universität Berlin and SUSTech, China. 
+He has completed HDR from University of Montpellier, France. He has published several 
+research papers in reputed journals and has been the recipient of the International Young 
+Scientist Award by the National Natural Science Foundation of China (NSFC) in 2017 and 
+winner of the 2017 Emerald South Asia LIS award. 
+
+
+Sachin Modgil (Ph.D.) is an Assistant Professor at IMI Kolkata in India. He has pursued his 
+PhD from NITIE, Mumbai, India in the domain of technology and operations management. 
+His areas of interest include big data, artificial intelligence, supply chain management, 
+sustainable operations and production management, lean management, operations and 
+strategy control. He has more than 8 years of experience including industry and academia. 
+He has conducted several MDPs and FDPs in operations management domain and has 
+published research papers in leading academic journals. 
+
+
+P. Garg et al.                                                                                                                                                                                                                                    
+
+
+
+

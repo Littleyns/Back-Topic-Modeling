@@ -1,0 +1,1877 @@
+
+
+
+
+
+
+
+
+
+
+Contents lists available at ScienceDirect
+
+
+Research in International Business and Finance
+
+
+journal homepage: www.elsevier.com/locate/ribaf
+
+
+The decade-long cryptocurrencies and the blockchain rollercoaster:
+Mapping the intellectual structure and charting future directions
+Anton Klarin
+Centre for Innovative Practice, School of Business and Law, Edith Cowan University, Australia
+
+
+A R T I C L E I N F O
+
+
+Keywords:
+Bitcoin
+Cryptocurrency
+Blockchain
+Blockchain ecosystem
+Bibliometrics
+Science mapping
+
+
+A B S T R A C T
+
+
+Recent advances in science mapping allowed to analyze the entire intellectual structure of
+blockchain and cryptocurrencies in business-related disciplines to identify 174 academic articles
+as well as 1482 practitioner-oriented articles published since the inception of cryptocurrencies in
+2008 to highlight key trends of the published outputs. The results demonstrate academic research
+done by 389 authors in 296 organizations based in 50 countries that only just initiated the
+conversation on four major streams of the literature—Bitcoin and cryptocurrencies; blockchain
+adoption; cryptocurrency and blockchain environment; and business model innovations. When com-
+paring academic scholarship to practitioner-oriented literature, the results demonstrate that
+practitioners discussed investor-related themes, cryptocurrency intrinsic value, political-eco-
+nomic sphere, and the impact of cryptocurrency and blockchain technologies on the wider so-
+ciety in greater detail. As a result, a number of themes are identified and discussed that could
+align academic and practitioner interests and provide guidance for further research in this im-
+portant field.
+
+
+1. Introduction
+
+
+Marking the ten-year anniversary of the white paper named “Bitcoin: A peer-to-peer electronic cash system” by an individual or
+an institution operating under the pseudonym of ‘Satoshi Nakamoto’—the creator of the incredibly explosive technology known as
+the ‘Internet of Money/Value’ and the supporting platform ‘blockchain’, this paper systematically reviews and maps the current state
+of the cryptocurrency and blockchain (CB) literature.
+
+
+The research into the emerging CB themes is still at is nascent stage, and it grows at an exponential rate especially from 2016,
+evident from the total of 59 journal articles in business and surrounding disciplines in 2017 to 86 before the end of the year in 2018,
+see Fig. 1. Nevertheless, there are certain patterns that this research is forming besides the simple division into the value of cryp-
+tocurrencies and the inherent proposition of blockchain models. This paper intends to study the current trends of the intellectual
+structure of CB scholarship, to map the areas of divergence between academics and practitioners and to provide an opinion where the
+utility of blockchain and its consequent literature is heading.
+
+
+A number of papers reviewing the scholarship of the technologies have been offered (Corbet et al., 2018; Hawlitschek et al., 2018;
+Holub and Johnson, 2018; Miau and Yang, 2018; Yli-Huumo et al., 2016) that provide some insights into the state of literature so far.
+The main potential drawback of the mentioned reviews is in being prone to inherent bias that comes from manual data collection and
+interpretation of the scholarship data. To overcome these issues, reviews are increasingly systematizing procedures through in-
+troduction of statistical methods in reviewing literature (Dotsika and Watkins, 2017; Porter et al., 2002; Zupic and Čater, 2015). It
+
+
+https://doi.org/10.1016/j.ribaf.2019.101067
+Received 15 January 2019; Received in revised form 14 July 2019; Accepted 17 July 2019
+
+
+E-mail address: a.klarin@ecu.edu.au.
+
+
+Research in International Business and Finance 51 (2020) 101067
+
+
+Available online 20 July 2019
+0275-5319/ © 2019 Elsevier B.V. All rights reserved.
+
+
+T
+
+
+
+http://www.sciencedirect.com/science/journal/02755319
+
+https://www.elsevier.com/locate/ribaf
+
+https://doi.org/10.1016/j.ribaf.2019.101067
+
+https://doi.org/10.1016/j.ribaf.2019.101067
+
+mailto:a.klarin@ecu.edu.au
+
+https://doi.org/10.1016/j.ribaf.2019.101067
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.ribaf.2019.101067&domain=pdf
+
+
+
+
+has been shown that statistical and algorithmic data identification and reporting is comparable to or exceeds that of expert judge-
+ments (Markoulli et al., 2017; Randhawa et al., 2016; van Eck and Waltman, 2010).
+
+
+This paper depicts the process of science mapping through bibliometric analysis to provide the most comprehensive systematic
+review of CB literature so far exploring 192 specific topics spread across four identified major clusters of CB scholarship. I further
+compare the results of 1482 practitioner-oriented articles that extracted 167 unique topics to the academic scholarship results to
+highlight four areas of divergence. Coupled with the academic and practitioner comparison I propose 21 areas where further
+scholarly research is recommended.
+
+
+The paper aims to make three major contributions to CB literature. First, I aim to provide the most comprehensive and rigorous
+analysis of CB literature to date by offering a scientometrically-grounded taxonomy of the field, review the resultant four clusters in
+CB, and the development of the literature overtime. Second, I compare CB scholarship to practitioner-oriented literature to de-
+monstrate discrepancies in the outlets and propose a number of themes which could align the scholarship with practitioners’ dis-
+cussions to help address the ‘research-practice gap’. And finally, I propose a number of provocations stemming from a holistic view of
+the research provided through this in-depth analysis of the literature. The future research directions provide key challenges and
+opportunities to enrich and strengthen the literature in this emerging field.
+
+
+2. Prior management-related reviews of blockchain and cryptocurrency and the value added of scientometrics
+
+
+Peer-reviewed journal articles are generally considered to be the most reliable and rigorous outputs in the academic domain
+(Crossan and Apaydin, 2010; Podsakoff et al., 2005). It was my intention to utilize peer-reviewed and published business-related
+outputs in this systematic review. I briefly outline key contributions of each of the review studies and examine methodologies
+utilized.
+
+
+The first published systematic review carried out by Yli-Huumo et al. (2016) on blockchain and Bitcoin collected research from 41
+papers, mostly conference papers, symposiums and only one journal article publication. The review, targeted at technical char-
+acteristics and the consequent gaps in research, provides little value for business and finance field. The main drawback of the review
+is its infancy as the majority of research on CB has only been in the last two years (2017–2018), as can be seen from Fig. 1. Since then,
+the field has significantly developed in accounts of both cryptocurrency analysis as well as the blockchain uses.
+
+
+Hawlitschek et al. (2018) carried out a literature review of trust in the context of blockchain and the sharing economy. The paper
+concludes that “blockchain technology is to some degree suitable to replace trust in platform providers, and that … trust-free systems
+are hardly transferable to sharing economy interactions and will crucially depend on the development of trusted interfaces for
+blockchain-based sharing economy ecosystems” (p. 50). From the methodological stand point, the review was thorough, however,
+due to the lack of research on trust and blockchain at the time, the review consisted of 17 articles that depicted trust in blockchain
+research. Three of seventeen outputs were journal articles, the rest of the review was based on conference papers.
+
+
+A large part of CB research concerns Bitcoin as it is the first cryptocurrency and the origin of blockchain infrastructure. As such,
+Holub and Johnson (2018) discussed more narrowly—Bitcoin research across the disciplines. The study took a more rigorous ap-
+proach in explaining the methodology behind the review. The final sample of 1206 papers on Bitcoin including book chapters,
+proceedings papers, unpublished papers, and journal articles garnered six major categories of research. The first, and largest, research
+area was in technological implications, followed by the economic studies that discussed the monetary value of Bitcoin. When the
+performance data of Bitcoin was analyzed, finance researchers engaged in calculating the returns and the financial value of Bitcoin.
+Literature on taxation and regulation of Bitcoin is another major area of research. Finally, the literature discusses institutionalization
+of cryptocurrencies in the accounting sphere. More recently, a review of Bitcoin research excluding blockchain and its uses has been
+carried out using the latest scientometric techniques (Merediz-Solá and Bariviera, 2019). The review is insightful and provides a state-
+of-the art of Bitcoin only, thus excluding a thorough outlook of research on blockchain, other cryptocurrencies, the environment and
+
+
+Fig. 1. Growth in blockchain and cryptocurrency literature.
+* Note: the Figure is in color when the article is read electronically.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+2
+
+
+
+
+
+
+the impact of CB on business models.
+Corbet et al. (2018) carried out a wider systematic review of cryptocurrency literature. The study made a number of dis-
+
+
+coveries—first, showing that most of the literature on cryptocurrencies is on Bitcoin analysis. Second, while some regulatory contexts
+set an outright ban, the others allow certain testing capacity. Further, a call for research into wider benefits that cryptocurrencies may
+carry besides the financial and economic benefits. Finally, a number of further contributions and directions for future research in
+cryptocurrencies was proposed. While the study is a valuable contribution to the cryptocurrency research, it does not demonstrate the
+methodology behind the systematic review apart from the comprehensive analysis of gathered literature.
+
+
+Cai (2018) carried out a systematic review with components of bibliographic mapping of crowdsourcing and CB. The review
+attunes to introducing the technology for financial and economic needs for organizations rather than studying the patterns of the
+scholarship. Most of the literature referred to research carried out on crowdsourcing rather than CB. Further, there is no evidence to
+suggest that the review carried out by the author is indeed systematic from the methodological perspective of recognized, referenced,
+methods for data analysis compared to the author’s interpretation of results (Robinson and Lowe, 2015; Tranfield et al., 2003).
+
+
+A previous bibliometric analysis of the field performed by Miau and Yang (2018)—“Bibliometrics-based evaluation of the
+blockchain research trend: 2008 – March 2017″ provided a surface-level analysis of the literature in CB sub-fields. The authors
+provided a list of top 10 indices including countries, organizations, academic disciplines, journals (which incidentally included
+magazines), papers, and authors concluding that blockchain literature is growing. A number of methodological issues emerge upon
+examining the article including indiscriminant use of magazine and other non-academic articles together with academic research
+without evidence of data cleaning, and dividing the literature into phases which showed little coherence.
+
+
+Review studies are common in any research discipline, however, not all research review studies are systematic, nor all studies
+claiming to be systematic are indeed systematic. Going back to the origins of systematic review methodology in social sciences, in this
+case management research, we ought to revisit Tranfield et al. (2003) that argued for the need of systematic, transparent, and re-
+producible methodology. It is generally considered that the minimum requirements for a systematic review paper would contain
+outlines of inclusion criteria, research design, data sources and collection, and analysis (Grant and Booth, 2009; Tranfield et al., 2003).
+
+
+Traditional/narrative reviews are singular descriptive accounts of research studies in the field based on subjective accounts of
+reviewers, thus, are prone to type II errors. Instead, a strong methodology that describes the process of data selection, extraction,
+exclusion criteria, results analysis and discussion are preferably supported by some type of quantitative analysis to support and infer
+the findings for a more robust and rigorous research output (Grant and Booth, 2009; Porter et al., 2002; Tranfield et al., 2003).
+Moreover, structural reviews of the field that provide an accurate map of the field and a comprehensive outline require quantification
+to consider patterns across multiple topic literatures (Markoulli et al., 2017; van Eck and Waltman, 2014). Without a holistic field-
+level assessment that systematically identifies CB literature and its content, it is not possible to gain an understanding of the current
+state of the literature, its divisions, and recommend future directions for research.
+
+
+3. Methodology
+
+
+To carry out a rigorous systematic review of the literature, the three stage procedure of planning, execution, and reporting as
+described by Tranfield et al. (2003). In the planning stage the objectives of the study and the key data sources were identified. The
+objectives were deliberately left expansive as to the true nature of systematic reviews. These included an analysis of conceptual,
+operational, and theoretical convergences and divergences in the literature on blockchain and cryptocurrencies as well as a com-
+parative analysis of the scholarship with practitioner-oriented discussions. Peer-reviewed academic journals were used as they are
+considered more rigorous and reliable sources with the highest impact in the field (Crossan and Apaydin, 2010; Podsakoff et al.,
+2005). The ISI Web of Science (WoS) and Scopus databases were selected for a comparison of the chosen field as these are the largest
+scientific knowledge databases (Vieira and Gomes, 2009). The articles searched were within the timeframe from October 2008 until
+2018 (8 November). October 2008 marks the invention of the cryptography blockchain (Nakamoto, 2008), not to be confused with
+the much earlier chemical research (pre 2008) on ‘block chain’ polymer structures.
+
+
+3.1. Sample
+
+
+The second stage was divided into two main steps: i) preparing the sample including: selection criteria, setting exclusion criteria,
+filtering through the results, manual search for suitable automatically excluded articles, manual exclusion of articles that do not fit
+the criteria, etc.; and ii) analysis of the results using the VOSviewer science mapping software. For the first step I have utilized Web of
+Science (WoS) and Scopus databases to identify the amount of journal articles that relate to the search "cryptocurrenc*" or "crypto
+currenc*" or "blockchain" or "block chain" or "Bitcoin*" or "altcoin*". The search for the mentioned string on Scopus returned 4061
+results, of which 410 accounted to Business, Management and Accounting compared to 286 results with the same filters in the WoS
+database. At this point I followed Scopus as this provided more results of published work for the same period. Scopus is considered a
+larger source of knowledge (Randhawa et al., 2016) with the majority of overlap with WoS (Vieira and Gomes, 2009). The results
+were further limited to ‘Article’, ‘Note’, ‘Editorial’, and ‘Review’ resulting in 225 documents. Note, Editorial, and Review Document
+types were manually searched to include articles which were incidentally excluded from the pool of academic literature such as the
+highest cited academic publication in the Harvard Business Review—Iansiti and Lakhani (2017) The truth about blockchain, which was
+listed as a Note. Upon a meticulous inspection of sources of the compiled list of the articles, some publications from non-peer
+reviewed sources including The Economist and Fortune were excluded from the academic literature pool ending up with 174 pub-
+lications as of 08/11/2018.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+3
+
+
+
+
+
+
+3.2. Analysis
+
+
+Co-citation analysis of a particular area of research has proven to be an effective tool in structuring intellectual foundations across
+disciplines (Randhawa et al., 2016; Zupic and Čater, 2015). Co-citation analysis involves measuring the affinity and proximity of
+relationships between topics, researchers, and communities. Previous co-citation analysis on CB carried out by Miau and Yang (2018)
+demonstrated typical results of a bibliometric co-citation analysis including top publishing countries, institutions, disciplines, outlets,
+papers, and authors. For a more meaningful and comprehensive analysis the area was further analyzed through the unstructured
+ontological discovery which relies on the advanced methods of text mining (Randhawa et al., 2016) that allowed synthesizing
+detailed conceptual insights by shifting the level of analysis using the basic co-citation analysis combined with the content of articles
+to provide a systematic, unbiased, and content-driven review of the literature. Content analysis occurs when terms are taken from the
+contexts within which they appear thus allowing to bootstrap an expanded list of related terms that signify a concept from the search
+data. This research utilized VOSviewer as a narrative inquiry tool that allows identification of the most frequently utilized concepts
+and the relationship between these terms. This approach systematically reveals the key concepts within CB paradigm by using terms
+from available text (thematic analysis), and how they are interconnected dependent on the frequency and co-occurrence of these
+terms in specific contexts (semantic analysis). This allows a rigorous approach in mapping the scholarship and practitioner-oriented
+literature.
+
+
+The CB map was created using VOSviewer analysis tool for mapping of science outputs through offering content analysis of titles
+and abstracts. To prepare the content some full terms were merged with abbreviations (e.g. ‘return on investment’ into ‘ROI’), the
+terms were further converged by turning British spelling to US English (e.g. ‘organisation’ into ‘organization’, and finally, metho-
+dology-related terms were excluded from the analysis (e.g. ‘research methodology limitations’).
+
+
+It was shown that the key article topics are normally in the form of noun phrases (Justeson and Katz, 1995; van Eck and Waltman,
+2014). Thus, VOSviewer utilizes an algorithm to track noun phrases and create networks that are divided into clusters according to
+co-occurrence based on the text data. To create a reliable map, a threshold of five minimum occurrences of a term was established
+that allows the removal of non-meaningful or misspelled phrases. The mapping of terms into clusters is dependent on the ratio of co-
+occurrence between selected terms and the pool of terms from the selected sample (Markoulli et al., 2017; van Eck and Waltman,
+2010). Thus, the produced map generated by the software would place terms on a distance that are likely to co-occur with other terms
+in the same set of articles closer together. To identify clusters, I used the default VOSviewer clustering resolution parameter of 1 and
+set a minimum cluster size of 30 terms, which identified four distinct clusters in CB research. The terms that appear larger have a
+higher weightage of occurrences. Some terms are not as obvious on the map which means they are obstructed by other terms that are
+blocking the clear view, see Fig. 2.
+
+
+Fig. 2. The four research areas of cryptocurrencies, blockchain and the associated themes.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+4
+
+
+
+
+
+
+For a comparative analysis of scholarly research to practitioner-oriented research I compared the results of scholarly research
+outputs to 1482 practitioner-oriented articles from The Economist; Fortune; Forbes; Global Investor; The Times; Bloomberg Wire Service;
+Business Wire; Newsweek. These sources were chosen as they are few of the leading financial and business audience periodicals and
+their articles provide abstracts. More details on the operationalization of the comparison is provided in the results section of this
+paper.
+
+
+4. Results
+
+
+4.1. Cluster reviews
+
+
+When carrying out research into CB, great divide between the two areas of research became evident. The cluster density map
+visualization (Fig. 3) supported by the document output mapping and the literature review demonstrate that research in the business
+disciplines clearly divides into two major areas of research—either cryptocurrencies or blockchain, and their respective underlying
+values and implications. In fact, Bitcoin is a far more prominent research topic if compared individually to cryptocurrency(ies).
+
+
+The key contribution of the cryptocurrency and the blockchain map is in identifying broad clusters of research as well as specific
+contents within each cluster. Therefore, the review will systematically outline each of the four broad clusters. Further, articles in all
+cluster were examined to identify whether each theme was represented by a body of literature. The results aim to present empirically
+grounded review of the major topics of the CB research. Table 1 presents topics that appear in the highest average normalized citation
+articles as well as the top trending topics in all four clusters.
+
+
+4.1.1. Bitcoin and cryptocurrencies
+The most dated research on cryptocurrencies, their inherent values and implications concerns research into Bitcoin (Dumitrescu
+
+
+and Firică, 2014; Eross et al., 2019; Grant et al., 2013; Hughes and Middlebrook, 2014; Jacobs, 2011). While these articles amassed a
+low normalized citation count of approximately 0.6, the body of research that sprung in 2015 gained traction with normalized
+citation count of 1.11 according to Scopus citation counts. The notable works on Bitcoin and its return through empirical in-
+vestigations include Brière et al. (2015) and Polasik et al. (2015) that showed above average returns with the higher risks involved
+with 4.84 and 3.71 normalized citations respectively. Research has since developed further into studying investment and/or mining
+returns of Bitcoin (Aysan et al., 2018; Cocco et al., 2017; Corbet et al., 2017; Derks et al., 2018; Hong, 2017; Li and Wang, 2017; Mai
+et al., 2018; Stavroyiannis, 2018; Zargar and Kumar, 2018) as well as other cryptocurrencies (Adhami et al., 2018; Blau, 2017;
+
+
+Fig. 3. Density visualization of cryptocurrencies and blockchain research by clusters.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+5
+
+
+
+
+
+
+Caporale et al., 2018). Several studies provided a critical discussion of the value of Bitcoin and cryptocurrencies as a whole (Alabi,
+2017; Hendrickson et al., 2016; Luther, 2018, 2016a). Considering the controversy of cryptocurrencies and their utilization, it is
+possible for governments to restrict the use of the technology within the boundaries of states through a number of measures
+(Hendrickson and Luther, 2017). A few other studies provided mostly descriptive studies of Bitcoin, its history and its potentials
+(Berentsen and Schär, 2018; Holub and Johnson, 2018; Jacobs, 2011; Maddox et al., 2016; Vlasov, 2017). While studying the market
+patterns of the Bitcoin economy, Tasca et al. (2018) found that we are currently in the third stage progression of the adoption of
+cryptocurrencies as legitimate forms of market transactions from the prototype and the shadow economy phases. European and North
+American traders are the main drivers of Bitcoin trading, and the trading volume is the highest during the morning and day time
+which is consistent with the other currency markets (Eross et al., 2019). Overall, it is seen that the trend for research into Bitcoin, and
+increasingly into other cryptocurrencies, continues to grow and attract further research.
+
+
+4.1.2. Blockchain adoption
+Research into blockchain technology was only in its inception for the first seven years. The first real impact (in terms of citations)
+
+
+explored the value of the blockchain proposition as a record keeping technology (Lemieux, 2016), affirming that blockchain is
+suitable for record keeping in addressing issues related to information integrity considering proper control mechanisms related to
+security architecture and infrastructure management. The widely referenced paper is that of Iansiti and Lakhani (2017) that provides
+an outline of the functions, possibilities, adoption scenarios and implications for the practitioners. Subsequent studies on blockchain
+explored wider uses of the technology starting from storing transaction data in a decentralized, secure, and transparent way, through
+monitoring logistics and warehousing, to smart contracts (Kim and Laskowski, 2016; Li et al., 2018; Mendling et al., 2018; O’Leary,
+2017; Petersen et al., 2016; Rozario and Vasarhelyi, 2018; Tan et al., 2018). As such, Tapscott and Tapscott (2017) provided potential
+uses of the technology in human resources and procurement, finance and accounting, sales and marketing, legal affairs, and in raising
+capital for businesses. A real-time, precise, verifiable, and transparent accounting and assurance ecosystems through its inherent
+characteristics is just one use of the blockchain technology (Dai and Vasarhelyi, 2017). These same capabilities make blockchain an
+excellent infrastructure system to change how the copyright industry functions and digital content is distributed (Savelyev, 2018).
+The field stems into legal research in, not only the regulation and control of cryptocurrencies, but also into enforcement (Shermin,
+2017) and legal repercussions of smart contracts as there is little experience and institutionalization of the technology due to its
+disruptive nature (Giancaspro, 2017). Although blockchain can be a catalyst in gaining comparative advantages for firms, Kewell
+et al. (2017) demonstrate that the technology has a great potential in the NGOs’ activities by theorizing the use of distributed ledger
+technologies (DLTs) in achieving United Nation’s current sustainable development goals. Blockchain use in a public sphere is de-
+monstrated by Sullivan and Burger (2017) who showed how the Estonian government uses the technology for e-residency identity
+management systems. Some authors described a number of radical innovations in which blockchain was mentioned as one of a
+number of industry developments (e.g. Ivanov et al., 2018).
+
+
+4.1.3. CB environment
+The third literature cluster concerns the ecosystems within which cryptocurrencies and blockchain technologies reside. These
+
+
+include economic security, comparative studies of various payment systems, proposals and development of the institutional systems,
+country and multilateral systems affected by the disruptive technology, and the impact of this technology on society.
+
+
+One of the first articles on the proposition of cryptocurrencies, and how it fits in the ecosystem of payment systems can be
+attributed to Angel and McCabe (2015) (later supported by Dierksmeier and Seele (2018)) who established that, despite major
+contributions to the monetary systems, there are ethical issues involved in the use of cryptocurrencies due to their relative novelty
+
+
+Table 1
+Key topics discussed in the four research areas.
+
+
+Top article citation impact termsa Top trending termsb
+
+
+Bitcoin and cryptocurrencies Speculative trading; network effect; trader; record; Bitcoin
+economy; alternative currency; cryptocurrency market;
+solution; agent; financial market; value; period; persistence;
+return; government; demand; correlation; market
+
+
+Bitcoin economy; miner; token; initial coin offering;
+prospect; persistence; actor; expense; sustainability; financial
+market; exchange; Bitcoin return; law; investor; volatility;
+cryptocurrency market; speculative trading
+
+
+Blockchain adoption Promise; digitalization; knowledge; peer; trust; management;
+recent development; opportunity; ecosystem; service;
+application; challenge; smart contract
+
+
+Digitalization; supply chain management; artificial
+intelligence; agile manufacturing; Darknet; potential impact;
+ecosystem; smart contract
+
+
+CB environment Condition; process; economy; change; system;
+implementation; transformation; organization; model;
+business; interest; economic security; development;
+adoption; consumer; money; society;
+
+
+Transformation; postmoney; adoption; implementation;
+tourism industry; organization; intention; regulation; insight;
+consumer; system; money; change; indicator; economic
+security
+
+
+Business model innovations Triadic business model; limitation; assessment; business
+model; financial service; discipline; element; approach;
+innovation; disruption; information; accounting; popularity;
+principle; transaction; crowdfunding; fintech
+
+
+Business model; discipline; assessment; fintech; volume;
+information; future; financial service; element; innovation;
+transaction; finance; disruption; accounting; crowdfunding;
+payment; approach
+
+
+a Top impact terms are the terms that appear in the highest average normalized citation articles arranged in descending order.
+b Top trending terms are the terms that appear in the most recent articles arranged in descending order from the most recent average publication
+
+
+date.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+6
+
+
+
+
+
+
+and intrinsic characteristics. Related to this, Vovchenko et al. (2017) propose a set of actions to minimize money laundering, terrorist
+financing, and other threats to national security. Barre (2015) showed how Bitcoin innovation is an excellent pedagogical theme that
+brings attention to issues surrounding the economics and regulation of currency and financial intermediaries as well as its effects on
+the traditional currency systems. Bitcoin innovation bypasses traditional systems of institutional intermediation as it is fast and
+reliable, making it an excellent technology for poverty alleviation in underdeveloped nations (Ammous, 2015). As payment patterns
+move from cash-based to electronic money systems, cryptocurrency innovation becomes more prominent along with other digital
+money innovations (Wonglimpiyarat, 2016a, 2016b, 2015). However, the unpreparedness of corporate sector infrastructures coupled
+with institutional gaps in the use of blockchain technologies creates economic security risks that call for an inclusion of risks de-
+composition in corporate audits and overall control mechanisms to be established (Umarovich et al., 2017).
+
+
+4.1.4. Business model innovations
+This automatically-generated showcases the features of general technological disruption in financial, accounting, and business
+
+
+model spheres. Cryptocurrencies and the underlying blockchains are the drivers of these changes from closed systems to open/
+collaborative peer-to-peer systems.
+
+
+The development of cryptocurrency and its underlying blockchain technology has a potential to create socially-adjusted soli-
+darity-based collaborative organizations and commons-oriented ecosystems in sharing economies (Andreassen et al., 2018; Nowiński
+and Kozma, 2017; Pazaitis et al., 2017; Scott et al., 2017; Zamani and Giaglis, 2018). The argument for new business models spills
+over to new types of raising funds, entrepreneurship and development of SMEs (Chen, 2018). The financial services industry as a
+whole is undergoing vast transformations due to the fast-developing innovations such as blockchain and fintechs (Gomber et al.,
+2018). Technological advancements including artificial intelligence (AI), robotics, internet of things (IOT), blockchain, among others
+are transforming retail operations and its education (Grewal et al., 2018). This argument has extended to the context of developing
+countries as people lacking in financial services access favor the decentralized features offered through blockchain (Larios-
+Hernández, 2017). Bitcoin is considered to be a disruptive technology trend along with additive manufacturing, big data, cloud
+technologies, social media, MOOCs, and IoT (Dotsika and Watkins, 2017). As we slowly shift away from maximizing economic gain to
+openness through such developments as open collaboration, open production networks, offer networks, and the distributed ledger,
+these technologies become increasingly relevant and are here to stay (Goertzel et al., 2017). Yeoh (2017) finds that minimum
+regulation on blockchain and cryptocurrency innovation creates greater accessibility and financial inclusiveness thereby resulting in
+overall economic potential.
+
+
+Table 2 presents high average citation articles for each of the four research areas. The top peer-reviewed research outlets are
+provided in Table 3. Finally, Fig. 4 demonstrates the distribution of research starting from 2015 in all four research clusters. The vast
+majority of research remains in the first cluster that talks about Bitcoin and other cryptocurrencies mainly as a form of a value-storing
+asset, especially in the earlier years of research. The research into the first cluster remains stable in the later years. The blockchain
+adoption-related cluster has emerged in 2014 and has shown strong growth in the following years which may be due to various
+applications and potential uses of blockchain infrastructure in business and institutions (Crosby et al., 2016). The CB environment
+that concerns regulation, ethics, economy, and the society was a prominent cluster in 2015 following a growing recognition of CB in a
+wider society and security concerns following such events as Mt. Gox security breach and the ensuing collapse (Li and Wang, 2017).
+Finally, the wider business model innovation theme is the smallest research activity as the prominence and the legitimacy of CB
+expands. While previous research fused CB innovation with other technological and ideological innovations (Dotsika and Watkins,
+2017; Gomber et al., 2018), the theme of cryptocurrencies as payment systems and the blockchain as a facilitative infrastructure can
+no longer be ignored.
+
+
+4.2. Comparative topic analysis of blockchain and cryptocurrency fields in academic vs. Practitioner-oriented outlets
+
+
+Blockchain and cryptocurrencies have been developed for individuals and organizations to transact in a new disruptive fashion
+that is transparent, reliable, decentralized, and immediate. The technology is highly relevant to businesses and individuals alike.
+Unsurprisingly, practitioner-oriented literature caught on fairly fast to the technology, and the media began its exponential growth
+from a popular mainstream media business magazine Forbes’ May 2011 article named “Crypto currency”, and another business
+outlet, The Economist, June 2011 piece: “Bits and bob: Virtual currency” that explain Bitcoin, its purpose, and implications to the
+mainstream reader. A 2013 article by The Economist: “JPMorgan jumps in: Bitcoin” that, misleadingly to the title of the article,
+reports that JPMorgan Chase may possibly be the first large multinational adopter of the blockchain infrastructure for its operations.
+This can be compared to scholarly research on Bitcoin that began with one short academic article in 2011 (Jacobs, 2011), three years
+further followed by the second journal article (Dumitrescu and Firică, 2014), finally with a few impactful articles in 2015 (see for
+example, Brière et al., 2015; Polasik et al., 2015). Blockchain-specific business, IT, and finance scholarly output in journal articles
+only began in 2016 (Lemieux, 2016; Petersen et al., 2016).
+
+
+In this study I propose a comparison of practitioner-oriented and scholarly literature in content to identify potential areas of
+scholarly gaps due to the nascent nature of this phenomenon. The general knowledge of emergent themes at the current stage is
+predominantly distributed through practitioner-oriented sources (Schmidt et al., 2013). As a dominant agent of the interpretative
+system of our modern society, the practitioner-oriented sources serve as a key platform to raise awareness and disseminate in-
+formation (Schmidt et al., 2013). As such, practitioner-oriented outlets reflect wider trends of ‘what is going on’ (Bednarek, 2006) and
+convey a strong message to the public about current topics in a field and produce ‘an agenda setting’ effect (McCombs, 2013). In
+particular, practitioner-oriented sources signal the relevance of an issue to the practitioners and might potentially influence the
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+7
+
+
+
+
+
+
+priority given to it by institutional-building authorities (Schmidt et al., 2013). Thus, a rigorous, systematic analysis of the content of
+CB scholarship can offer a rich foundation for comparing the current state to what it could evolve to. In particular, for some time,
+scholars have been raising concerns about discrepancies between the topics considered in CB scholarship and the topic interests of
+CB-interested practitioners (e.g., Grant et al., 2013; Larios-Hernández, 2017; Yli-Huumo et al., 2016).
+
+
+Table 2
+Five representative articles in each cluster*.
+
+
+Cluster 1: Top articles— Bitcoin and cryptocurrencies
+
+
+• Brière M.; Oosterlinck K.; Szafarz A., 2015, Virtual currency, tangible return: Portfolio diversification with Bitcoin. Journal of Asset Management, 16(6), 365-
+373
+
+
+• Polasik M.; Piotrowska A.I.; Wisniewski T.P.; Kotkowski R.; Lightfoot G., 2015, Price fluctuations and the use of Bitcoin: An empirical inquiry. International
+Journal of Electronic Commerce, 20(1)
+
+
+• Blau B.M. 2017/2018. Price dynamics and speculative trading in Bitcoin. Research in International Business and Finance• Li X.; Wang C.A., 2017, The technology and economic determinants of cryptocurrency exchange rates: The case of Bitcoin. Decision Support Systems, 95, 49-60• Jacobs E., 2011, Bitcoin: A bit too far? Journal of Internet Banking and Commerce, 16(2)
+Cluster 2: Top articles— Blockchain adoption
+
+
+• Iansiti M.; Lakhani K.R., 2017, The truth about blockchain. Harvard Business Review• Lemieux V.L., 2016, Trusting records: Is blockchain technology the answer? Records Management Journal, 26(2), 110-139• Hawlitschek F.; Notheisen B.; Teubner T., 2018, The limits of trust-free systems: A literature review on blockchain technology and trust in the sharing
+economy. Electronic Commerce Research and Applications, 29, 50-63
+
+
+• Tapscott D.; Tapscott A., 2017, How blockchain will change organizations. MIT Sloan Management Review, 58(2), 10-13• Mendling J.; Weber I.; Van Der Aalst W.; Brocke J.V.; Cabanillas C.; Daniel F.; Debois S.; Di Ciccio C.; Dumas M.; Dustdar S.; Gal A.; García-Bañuelos L.;
+Governatori G.; Hull R.; La Rosa M.; Leopold H.; Leymann F.; Recker J.; Reichert M.; Reijers H.A.; Rinderlema S.; Solti A.; Rosemann M.; Schulte S.; Singh M.P.;
+Slaats T.; Staples M.; Weber B.; Weidlich M.; Weske M.; Xu X.; Zhu L., 2018, Blockchains for business process management - challenges and opportunities. ACM
+Transactions on Management Information Systems, 9(1)
+
+
+Cluster 3: Top articles— CB environment
+
+
+• Dierksmeier C.; Seele P., 2018, Cryptocurrencies and business ethics. Journal of Business Ethics, 152(1)• Angel J.J.; McCabe D. 2015. The ethics of payments: Paper, plastic, or Bitcoin? Journal of Business Ethics, 132(3), 603-611• Umarovich A.A.; Gennadyevna V.N.; Vladimirovna A.O.; Alexandrovich S.R., 2017, Block chain and financial controlling in the system of technological
+provision of large corporations’ economic security. European Research Studies Journal, 20(3), 3-12
+
+
+• Barre T.J., 2015, Bitcoin: A pedagogical guide for the college classroom. Journal of Education for Business, 90(6), 335-339• Vovchenko N.G.; Tishchenko E.N.; Epifanova T.V.; Gontmacher M.B., 2017, Electronic currency: The potential risks to national security and methods to
+minimize them. European Research Studies Journal, 20(1), 36-48
+
+
+Cluster 4: Top articles— Business model innovations
+
+
+• Larios-Hernández, G. J., 2017, Blockchain entrepreneurship opportunity in the practices of the unbanked. Business Horizons, 60(6), 865–874• Andreassen T.W.; Lervik-Olsen L.; Snyder H.; Van Riel A.C.R.; Sweeney J.C.; Van Vaerenbergh Y., 2018, Business model innovation and value-creation: The
+triadic way. Journal of Service Management
+
+
+• Pazaitis A.; De Filippi P.; Kostakis V., 2017, Blockchain and value systems in the sharing economy: The illustrative case of backfeed. Technological Forecasting
+and Social Change, 125, 105-115
+
+
+• Goertzel B.; Goertzel T.; Goertzel Z., 2017, The global brain and the emerging economy of abundance: Mutualism, open collaboration, exchange networks and
+the automated commons. Technological Forecasting and Social Change, 114, 65-73
+
+
+• Nowiński W.; Kozma M., 2017, How can blockchain technology disrupt the existing business models?. Entrepreneurial Business and Economics Review, 5(3), 173-
+188
+
+
+* The articles identified above met the criteria of containing a minimum of two terms in their title/abstract, with at least 70% of terms belonging
+to a single cluster (i.e. to help ensure reliable cluster assignment).
+
+
+Table 3
+Top 15 journal outlets for blockchain and cryptocurrencies*.
+
+
+Outlet Cluster No. of articles Normalized citations
+
+
+1 Computer Law and Security Review Blockchain adoption 12 6.75
+2 Strategic Change Blockchain adoption 11 6.23
+3 Research in International Business and Finance Bitcoin and cryptocurrencies 5 7.48
+4 European Research Studies Journal CB environment 5 4.99
+5 MIT Sloan Management Review Blockchain adoption 5 3.12
+6 Quality - Access to Success Business model innovations 5 0.62
+7 Technological Forecasting and Social Change Business model innovations 4 4.99
+8 International Journal of Production Research Blockchain adoption 4 3.74
+9 Journal of Private Enterprise Bitcoin and cryptocurrencies 4 2.03
+10 Journal of Internet Banking and Commerce CB environment 4 1.20
+11 Intelligent Systems in Accounting, Finance and Management Blockchain adoption 3 11.94
+12 Journal of Business Ethics CB environment 3 6.74
+13 Business Horizons CB environment 3 1.77
+14 Espacios Business model innovations 3 1.04
+15 Harvard Business Review Blockchain adoption 2 11.22
+
+
+* Clusters are assigned on the basis of over 50% of the terms in the titles and the abstracts belonging to that cluster.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+8
+
+
+
+
+
+
+To date, there have not been any studies that compared practitioner-oriented literature to academic literature on blockchain and
+cryptocurrencies. This is necessary to provide future directions for research to help bridge the research-practice divide. By using
+bibliometric methods it helps to provide the most comprehensive research-practice topic discrepancy analysis. In particular, it allows
+to: (i) analyze a large sample of practitioner-oriented outlets consistent of 1482 articles as well as the comprehensive set of Scopus-
+identified journal articles in the ‘business, management and accounting’ which incidentally includes engineering and technology
+management, law, political economy, economics, marketing, finance, information systems and related spheres; (ii) use scientometric
+term identification that allows to deconstruct topic contents of the literature; (iii) perform topic-level discrepancy analysis to identify
+where the scholarship and the practitioner-oriented literature diverge. The results of topic-level discrepancies between the academic
+and practitioner-oriented literature will indicate what the potentially underresearched practitioner-oriented themes are. This will
+help direct further research into this important rapidly developing technology.
+
+
+For the practitioner-oriented sample proxy I utilized several important business sources which included The Economist, Fortune,
+Forbes, Global Investor, The Times, Bloomberg Wire Service, Business Wire, and Newsweek. Having searched through a large number of
+global business-related sources that matched the criteria of title plus abstract available fields and identified the aforementioned
+periodicals which returned 1482 articles. Given that the mentioned periodicals are considered to be the front-liners of business
+reporting (Jung, 2002). The academic literature relied on the 174 scholarly articles that were extracted from the Scopus database. A
+three-step process was utilized to compare the topics in both streams. First, VOSviewer term identification was applied to extract
+most commonly appearing noun-phrases from the titles and abstracts of both streams (van Eck and Waltman, 2010). Second, I
+calculated the proportion of the scholarship and business periodicals that referenced each term in the abstracts and titles. And finally,
+the discrepancy was measured by the proportion of topic mentions in the academic proxy from the proportion of the practitioner-
+oriented proxy. Through this process I selected the top 50 terms emphasized in both literature corpuses, their emphasis discrepancies,
+and emphasis ratios, see Table 4.
+
+
+From the outset it is obvious that there is a much greater emphasis in the academic literature on the definitive terms including the
+subject terms—blockchain, cryptocurrency, Bitcoin, market, value, technology, etc. What received considerably less attention in the
+scholarship are the investor-related themes identified through such terms as price, week/month/year, fund, trading, asset, gold, investor,
+report and others. For example, a practitioner-oriented comparative analysis of gold vs. Bitcoin are summarized in “Investing - The
+gold bears emerge: What explains bullion’s change in trend?” (Buttonwood, 2013). A number of articles in the mainstream media on
+cryptocurrency adoption, cycles and its intrinsic value, such as “Swiss bank to launch Bitcoin futures to allow betting against
+cryptocurrency” (Ball, 2017), is somewhat deficient in the analysis contained in the scholarship.
+
+
+Further, it may seem that such themes as the political economy and economics are relatively unexplored in the current academic
+literature which is manifested through no major occurrences of terms as bank, central bank, exchange, regulator, etc. For example,
+articles including “What the world’s central banks are saying about cryptocurrencies” (Lam, 2018) that explains views of various
+countries’ central banks, the regulations impending, and implications for the cryptocurrencies.
+
+
+Finally, it is imperative to carry out meaningful research into how the latest technological developments may contribute to
+dealing with global issues concerning growth of less developed countries, combating poverty and inequality, emerging markets’
+growth and its people. Blockchain has immense potentials for competitiveness and catch-up of developing nations, as explored in
+mainstream media such as “Emerging markets to “leapfrog” with new technology” (Chender, 2018) but is sparse in the academic
+literature.
+
+
+To summarize, practitioner-oriented outputs devoted greater attention to investor-related themes, cryptocurrency intrinsic value,
+political-economic sphere, and the impact of CB technologies on the wider society. To align CB scholarship with practitioner-oriented
+themes it is recommended that researchers heed the 50 most common terms and the resultant divergences as provided in Table 4.
+
+
+Fig. 4. Percentage distribution of research by cluster, 2013-27/06/2019.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+9
+
+
+
+
+
+
+5. Discussion and directions for future research
+
+
+Bibliometric co-citation analysis coupled with the text mining results identified four major areas of research in CB
+literature—Bitcoin and cryptocurrencies; blockchain adoption; CB environment; and business model innovations. While the research into
+Bitcoin and cryptocurrencies as financial instruments exhibited the fastest growth in 2016, as seen from Fig. 4, blockchain adoption
+literature confidently overtook and continues to dominate most recently in business and management-related disciplines. This comes
+as no surprise as cryptocurrencies exhibit traits of bubble-related instabilities and regulatory uncertainty while blockchain tech-
+nologies are gaining legitimacy in business model innovations and operationalization.
+
+
+Table 4
+Top 50 termsaemphasized in practitioner-oriented outlets compared to academic research, excluding top methodology-related terms.
+
+
+Terms Practitioner-oriented Academic research Emphasis discrepancyb Emphasis ratioc
+
+
+1. Blockchain 134 270 146.13 0.06
+2. Bitcoin 305 191 89.19 0.19
+3. Technology 52 80 42.47 0.08
+4. Value 54 80 42.33 0.08
+5. Cryptocurrency 167 88 39.31 0.22
+6. Transaction 44 62 32.66 0.08
+7. Money 74 54 26.04 0.16
+8. Business 53 39 18.84 0.16
+9. Currency 62 39 18.23 0.19
+10. Time 45 30 14.20 0.18
+11. Industry 55 31 14.10 0.21
+12. Risk 55 31 14.10 0.21
+13. Number 46 26 11.84 0.21
+14. ICO 47 24 10.62 0.23
+15. Future 40 20 8.80 0.23
+16. Market 135 30 8.13 0.53
+17. Security 50 20 8.12 0.29
+18. World 80 21 6.67 0.45
+19. Digital currency 47 16 6.02 0.34
+20. Country 52 12 3.39 0.51
+21. Growth 36 10 3.32 0.42
+22. Person 82 15 3.09 0.64
+23. Emerging country 44 10 2.78 0.52
+24. Trader 45 6 0.41 0.88
+25. Day 58 7 0.11 0.97
+26. Group 51 6 0.01 1.00
+27. Investor 128 13 −1.17 1.16
+28. Firm 107 9 −2.05 1.40
+29. Inequality 35 0 −2.36 N/A
+30. Gold 37 0 −2.50 N/A
+31. Report 37 0 −2.50 N/A
+32. Poverty 41 0 −2.77 N/A
+33. CEO 42 0 −2.83 N/A
+34. Central Bank 43 0 −2.90 N/A
+35. Head 43 0 −2.90 N/A
+36. Startup 43 0 −2.90 N/A
+37. Year 123 9 −3.13 1.60
+38. Month 47 0 −3.17 N/A
+39. Contract 48 0 −3.24 N/A
+40. Asset 49 0 −3.31 N/A
+41. Platform 53 0 −3.58 N/A
+42. Exchange 157 12 −3.70 1.54
+43. Trading 61 0 −4.12 N/A
+44. Plan 63 0 −4.25 N/A
+45. Fund 71 0 −4.79 N/A
+46. Company 150 9 −4.95 1.96
+47. Regulator 75 0 −5.06 N/A
+48. Week 76 0 −5.13 N/A
+49. Price 82 0 −5.53 N/A
+50. Bank 90 0 −6.07 N/A
+
+
+a Practitioner-oriented article sample: n= 1482 articles. Academic article sample: n= 174 articles.
+b The Emphasis Discrepancy is calculated by subtracting the proportion of scholarly articles referencing a term from the proportion of practi-
+
+
+tioner-oriented articles referencing that term.
+c The Emphasis Ratio is the division of the proportion of practitioner-oriented articles referencing each term by the proportion of scholarly
+
+
+articles referencing that term.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+10
+
+
+
+
+
+
+CB environment literature had a strong start as compared to other clusters in 2015. Researchers aimed at understanding and
+predicting institutionalization of cryptocurrencies and its inherent technologies given the disruptive nature of the technology and its
+potential implications. As decision-makers and the environment adjust to the adoption of the technology, the research remains stable
+in the most recent years. There are abundant avenues of research in the political, economic, societal, and regulatory spheres as the
+technology slowly but surely disseminates and settles in the ecosystem of business and finance.
+
+
+Business model innovation is the smallest cluster of research wedged between blockchain adoption and CB environment. This stream
+of research is about reconfiguration of business models considering such technologies as blockchain solutions and cryptocurrency
+payment systems. While blockchain adoption cluster is specific to the use of blockchain for business purposes, business model innovation
+is a wider discussion of the impact of these technologies on business. This research stream shows a decrease in the most recent years
+as the novelty factor decreases.
+
+
+The majority of research on CB is confined to select journals in business and management-related disciplines mostly in finance,
+law and operations management, thereby exerting limited influence on other fields. Nevertheless, the research in this highly im-
+portant field is growing exponentially as seen in Fig. 1.
+
+
+5.1. Future research directions
+
+
+Upon reflection of the results described earlier in the paper, there are a number of interesting implications that CB scholars ought
+to consider. In particular, this research discusses the intellectual content and structure of CB literature to reveal the current state of
+the scholarship. This paper also considers what is underresearched when comparing the scholarship with practitioner-oriented re-
+sults. The directions for future research proposed below stem from three sources of analysis. First, the breadth of the output offered in
+practitioner-oriented sources that can guide the academic scholarship, see section 4.2. Second, a thorough investigation of the
+academic scholarship and appeals for future research in previous articles. And finally, from the holistic scientometric analysis that
+reveals four disparate interrelated areas of research and themes depicting the clusters. I, thus, offer a number of future research
+directions as summarized in Table 5.
+
+
+5.1.1. Bitcoin and cryptocurrencies
+This field is more established and developed compared to the following clusters. Nevertheless, research remains scant on a
+
+
+number of themes:
+
+
+1 With much research on investment returns of Bitcoin, there is little knowledge on the true ‘intrinsic value’ of Bitcoin and/or other
+cryptocurrencies (Luther, 2018). For example, does the Lightning Network that allows for greatly increased transaction speed with
+a reduction in cost and its implementation reflect on the value and price of cryptocurrencies (Mendling et al., 2018)? Other
+fundamentals include decentralized nature; the ability to send monetary value over the internet (Internet of Value); potential to be
+more stable and acceptable than fiat currencies; transparency and security against fraud because of blockchain; investment tool
+(some consider it as a security); public ledger; and other related value propositions.
+
+
+2 Related to the above—do cryptocurrencies have an intrinsic value at all (Berentsen and Schär, 2018)? What are the arguments for
+long-term viability and outlook for cryptocurrencies, and what are the arguments for inevitable failure of cryptocurrencies?
+
+
+Table 5
+Research gaps and further research recommendations.
+
+
+Bitcoin and cryptocurrencies Blockchain adoption CB environment Business model innovations
+
+
+The research is primarily on Bitcoin and
+some on Ethereum, other altcoins are
+underresearched.
+
+
+What are returns on investment of
+blockchain integration?
+
+
+Is there a potential for a “death spiral” or
+some type of withdrawal that could
+eliminate some or all cryptocurrencies?
+
+
+Empirical research into use of
+cryptocurrencies as payments.
+
+
+No research comparing dynamics and
+their influencers of Bitcoin vs. other
+cryptocurrencies or in-between
+cryptocurrencies.
+
+
+Is there scope for SMEs in the use of
+this technology?
+
+
+Impacts of cryptocurrencies and/or
+blockchain on the wider society.
+
+
+How can emerging markets
+benefit from blockchain and/
+or cryptocurrencies?
+
+
+What are the fundamentals and how it is
+reflected on the value of the
+currencies?
+
+
+Which industries/types of
+organizations are the primary users
+of technology? Which industries/
+types of companies do not need the
+technology?
+
+
+Is cryptocurrency truly decentralized?
+How are third-party coin providers
+regulated? Is there scope for
+manipulation? What role do the miners
+play in the industry?
+
+
+How far are we from a large
+scale adoption of
+cryptocurrencies in everyday
+life?Are we to experience further pricing
+
+
+bubbles or the price will largely be
+driven by the ‘fundamentals’?
+
+
+What cryptocurrencies actually have
+intrinsic value and will remain in the
+long-term, and which ones will
+inevitably fail?
+
+
+Blockchain on the national level—do
+governments and agencies need
+blockchain and how it might create
+benefit for national competitiveness?
+
+
+Regulations and/or normative
+instruments that govern the industry. Is
+taxation of cryptocurrencies inevitable?
+
+
+Educating about CB? Do future
+degrees require education of
+CB?
+
+
+Do cryptocurrencies follow traditional
+investment/ trading patterns? Do
+traditional finance theories explain
+cryptocurrency movements/value?
+
+
+Will blockchain eventually be
+mainstream among organizations e.g.
+similar to the use of intranets?
+
+
+What are the required institutions that
+will play a part in legitimization of large-
+scale investments i.e. attracting
+mainstream institutional investors?
+
+
+‘Internet of value’—sending
+monetary value over the
+internet is the new era in
+technology?
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+11
+
+
+
+
+
+
+3 Are the cryptocurrencies destined for a bumpy ride through pricing bubbles and turbulence, or will the price be dictated by the so-
+called ‘fundamentals’ (Corbet et al., 2018)?
+
+
+4 Considering close to ten years of Bitcoin existence, what are the traditional trading patterns of securities that can predict the price
+of cryptocurrencies (Brière et al., 2015; Hong, 2017)? Do cryptocurrencies actually follow their own pattern of value behavior or
+these can be analyzed as other securities? This area needs a thorough investigation as practitioners tend to emphasize comparisons
+to gold, silver, shares, and other stores of value, this research is still in its nascent stage.
+
+
+5 From the exploratory thematic and semantic analyses carried out through text-mining, we can clearly see that the only crypto-
+currency mentioned systematically is Bitcoin. With a reduction in the stringency of filter parameters, Ethereum, Ripple, XRP,
+Litecoin, and a small number of others are also part of the field. Leading to the conclusion that other cryptocurrencies are severely
+underresearched despite amounting to almost half of the entire market capitalization of all cryptocurrencies. For example, XRP
+cryptocurrency market capitalization being third after Ethereum as of July 2019 (CoinMarketCap, 2019), yet receiving no con-
+siderable attention in the literature.
+
+
+6 Further from above, there is little research comparing the influences and consequent dynamics of various cryptocurrencies
+(Bartoletti and Pompianu, 2017). Cryptocurrencies have diverse programming chains, for example, while Bitcoin blockchain
+stores information related to past transactions since the start, Ethereum is built on Ether which on top of storing information on
+accounts and transactions is also able to execute smart contracts through stored programming logic (Chen, 2018). Various crypto
+coins are generally not considered as competitors to each other, rather they share co-existence and various capabilities that allow
+for the use of blockchains (Adhami et al., 2018). Thus, research into the fundamentals of these coins and how they are reflected in
+the long-term performance of the value of these cryptocurrencies is needed to inform and educate of various propositions for
+businesses.
+
+
+5.1.2. Blockchain adoption
+The stream of research in this field is growing rapidly as evidenced in Fig. 4, especially in the various potentials and uses of
+
+
+blockchains in business purposes. The research needs further discussion in the following directions:
+
+
+7 From those organizations that have adopted the technology, what are the returns on investment? As organizations have adopted
+these technologies, there is need for empirical research into what benefits have these investments eventuate. Can these tech-
+nologies render comparative or competitive advantages for firms (Nowiński and Kozma, 2017)?
+
+
+8 From the above, will blockchain eventually become a mainstream technology similar to other technologies including modern
+accounting software, credit card payment systems, intranets, etc. (Iansiti and Lakhani, 2017)?
+
+
+9 Is there scope for SMEs to utilize this technology (Chen, 2018; Nowiński and Kozma, 2017)? The likes of IBM, Microsoft, large
+investment banks as well as technology startups including Lemonade insurance company, Omnichain supply chain solutions, and
+BABB microeconomy banking, among thousands more companies are successfully utilizing blockchains for their operations. There
+is a divide between organizations that invest large amounts of money to introduce technologies into their systems and small firms
+that are built on the premises of the functions that the technology offers. Will general SMEs that already have systems in place
+adopt the technology as mainstream in the future?
+
+
+10 Current research mainly focuses on what this technology offers for organizations. A clear understanding of which industries and
+sectors (e.g. services based on technology) are the primary utilizers of blockchain should be established (Beck et al., 2017).
+Further, there should be research aimed at discussing what this technology is not capable of doing. As such, which organizations/
+industries do not require such technology (Peck, 2017)?
+
+
+11 It is worth exploring how this technology can assist institutions beyond businesses, for example how blockchain assists gov-
+ernments and decision-makers (Goertzel et al., 2017), one such paper is on Estonian government use for e-residency purposes
+(Sullivan and Burger, 2017). How can this assist governments or other institutions in efficiency and/or competitiveness?
+
+
+5.1.3. CB environment
+As mentioned earlier, most of the CB literature tends to relate to either economic value of cryptocurrencies, mostly Bitcoin, and
+
+
+the application of blockchain in organizations. The research on political, economic, societal, implications still needs further ex-
+ploration in the following directions.
+
+
+12 The impact of cryptocurrencies and/or blockchains on the wider society. Blockchain technologies have the potential to bring
+numerous advantages to the society including increasing entrepreneurship in least-developed countries or the unbanked (Larios-
+Hernández, 2017). While the general-public periodicals and practitioner-oriented literature realizes the benefits the blockchain
+can bring to the world’s poor (e.g. Kuznetsov (2017); Gramm and Soto (2018); Szal (2018)), the academic literature offers little
+input into this highly important topic. The negative implications of the technology are yet to be researched as well, including the
+excessive purported use of energy to mine cryptocurrencies; various unsafe companies; Initial Coin Offerings (ICOs), etc.; use of
+cryptocurrencies for illegal activities; and other drawbacks.
+
+
+13 Considering the above, what are the safeguards to protect the public from economic risk and fraud that is accompanied with
+businesses operating and offering blockchain uses and products (Dierksmeier and Seele, 2018; Yeoh, 2017)? How to prevent
+further speculative bubbles, the hype trading and the consequent inadvertent or purposive economic and societal harm? Should
+regulations and normative instruments be involved in governing this rapidly developing technology? Further to this, what role
+should regulations and government play—should the market be liberalized or heavily sanctioned? What role should taxation play
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+12
+
+
+
+
+
+
+in the use of cryptocurrencies?
+14 The fundamental proposition of cryptocurrencies is the decentralized nature of the coins that protects the users from the middle-
+
+
+men and controlling parties. However, with the boom in ICOs in this unregulated market, many peer-to-peer coins may or may not
+be highly concentrated in the hands of a few major players. Thus, naturally the question is how truly decentralized are the various
+cryptocurrencies (Gervais et al., 2014)? Considering that large-scale ‘miners’ get hold of a large share of the coins, what role do
+the miners play? Most of the alternative coins offered contain a low-relative value as compared to the top coins, hence are
+potentially subject to concentration of the value in one or a few holders (Bradbury, 2013). Since there is little regulation in the
+market, there is scope for manipulation.
+
+
+15 Since cryptocurrency mining is dependent on hash rates (Li and Wang, 2017) that dictate the difficulty and energy use in ob-
+taining cryptocurrencies through computing power, there is a theoretical probability that, as it becomes more costly to mine
+cryptocurrencies, the less mining will occur, combined with a number of other influences (e.g. regulatory issues, market ma-
+nipulation, speculative trading, increasing power consumption, and skepticism from both the public and the world’s established
+financial industry) could potentially lead to a ‘death spiral’ (Bianchi, 2019). Thus, is there a potential for some type of withdrawal
+of some or all cryptocurrencies due to the above-mentioned or other reasons?
+
+
+16 Cryptocurrencies have gained some legitimacy in society and with some institutional investors (Hong, 2017). However, leading
+institutional investors and the established financial industry have expressed skepticism, and sometimes, an outright disproval of
+cryptocurrencies (Yermack, 2013). The legitimization and wide-scale adoption has not taken place as yet, how can regulatory/
+normative/cultural-cognitive institutions aid or curb the legitimacy of cryptocurrencies?
+
+
+5.1.4. Business model innovations
+By far, the least researched field as it is wedged between the larger clusters and has a smaller niche in revolutionary/disruptive
+
+
+technology that changes the way businesses operate especially from the accounting and finance perspectives. Also, this field touches
+upon business models that are based on blockchain service offerings.
+
+
+17 Further empirical research needs to be conducted into use of cryptocurrencies as payments for goods and services. This field is
+virtually unexplored (Bartoletti and Pompianu, 2017). Research shows uses of blockchain technologies including Ripple and
+Ethereum that allow payments to occur (Nowiński and Kozma, 2017), however, the actual use of cryptocurrencies is under-
+researched.
+
+
+18 Related to the above, research should aim to investigate adoption and legitimization of cryptocurrencies in day-to-day operations
+by traditional brick-and-mortar businesses (Luther, 2016b). How far are we from wide-scale use of cryptocurrencies as a legit-
+imate way of payment system? Extending this argument, how far are we from a large scale adoption of cryptocurrencies as a
+standard on the same scale as cash and cards?
+
+
+19 What value can emerging markets and/or least developed nations gain from cryptocurrencies and blockchains (Carrick, 2016)?
+This is somewhat related to Blockchain adoption cluster, dependent on the angle of the argument, this research would either
+belong in this cluster or the blockchain cluster.
+
+
+20 Some suggest that we have entered into the new era of ‘internet of value’ (Giancaspro, 2017; Tapscott and Tapscott, 2017; Zamani
+and Giaglis, 2018). Does this actually hold true in that sending monetary value over the means of internet without involving banks
+is the new disruption, or is this just an upgrade to the current payment systems? What implications might it have for businesses
+and society?
+
+
+21 Finally, some might argue that this technology is truly disruptive and will eventually change the course of the way we do business
+and transact. If this is true, should the educational system adopt CB curricula (Kursh and Gold, 2016)? For example, should
+universities offer courses on blockchain or should finance courses offer diversification of portfolios to include cryptocurrencies?
+Some universities already introduced these into their programs, should this be the norm?
+
+
+The research gaps and further research recommendations are summarized in Table 5.
+
+
+6. Conclusion
+
+
+The unstructured ontological discovery coupled with co-citation analysis provided interesting insights into the field of CB. The
+exploratory analysis done through thematic followed by semantic analysis into the exponentially developing literature provided a ‘big
+picture’ understanding of where we are now and where the research is lacking. The analysis of entire peer-reviewed business-related
+published literature on CB provided a map that divided research into four inter-related clusters with the largest streams in researching
+the value of cryptocurrencies vs. the proposition of blockchain for business uses. I believe that this overview of CB scholarship
+combined with diverse insights and perspectives of scholars can yield ground-breaking research that will strengthen and diversify the
+field.
+
+
+When comparing scholarly output to that of practitioner-oriented and main stream interests, there are wide discrepancies in
+alignment of the two streams. The comparison provides avenues to contribute to the literature as well as enrich CB scholarship by
+taking stock and exploring diverse and complex realities of CB discussed by the professionals and practitioners.
+
+
+Last but not least, a detailed section on the future directions of research provides the key provocations that ought to be tackled in
+order to offer a greater understanding of CB. This research aims to encourage research into key growth opportunities in each of the
+four streams of CB.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+13
+
+
+
+
+
+
+References
+
+
+Adhami, S., Giudici, G., Martinazzi, S., 2018. Why do businesses go crypto? An empirical analysis of initial coin offerings. J. Econ. Bus. 0–1. https://doi.org/10.1016/j.
+jeconbus.2018.04.001.
+
+
+Alabi, K., 2017. Digital blockchain networks appear to be following Metcalfe’s Law. Electron. Commer. Res. Appl. 24, 23–29. https://doi.org/10.1016/j.elerap.2017.
+06.003.
+
+
+Ammous, S., 2015. Economics beyond financial intermediation: digital currencies’ possibilities for growth, poverty alleviation, and international development. J. Priv.
+Enterp. 30, 19–50.
+
+
+Andreassen, T.W., Lervik-Olsen, L., Snyder, H., Van Riel, A.C., Sweeney, J.C., Van Vaerenbergh, Y., 2018. Business model innovation and value-creation: the triadic
+way. J. Serv. Manag. 29, 883–906.
+
+
+Angel, J.J., McCabe, D., 2015. The ethics of payments: paper, plastic, or bitcoin? J. Bus. Ethics 132, 603–611. https://doi.org/10.1007/s10551-014-2354-x.
+Aysan, A.F., Demir, E., Gozgor, G., Lau, C.K.M., 2018. Effects of the geopolitical risks on Bitcoin returns and volatility. Res. Int. Bus. Financ. 47, 511–518. https://doi.
+
+
+org/10.1016/j.ribaf.2018.09.011.
+Ball, J., 2017. Swiss Bank to Launch Bitcoin Futures to Allow Betting Against Cryptocurrency [WWW Document]. Euromoney Institutional Invest. PLC. URL https://
+
+
+www.globalinvestorgroup.com/articles/3689032/swiss-exchange-latest-to-launch-bitcoin-derivative (accessed 12.13.18).
+Barre, T.J., 2015. Bitcoin: a pedagogical guide for the college classroom. J. Educ. Bus. 90, 335–339. https://doi.org/10.1080/08832323.2015.1046358.
+Bartoletti, M., Pompianu, L., 2017. An empirical analysis of smart contracts: platforms, applications, and design patterns. Lect. Notes Comput. Sci. (including Subser.
+
+
+Lect. Notes Artif. Intell. Lect. Notes Bioinformatics) 10323, 494–509. https://doi.org/10.1007/978-3-319-70278-0_31. LNCS.
+Beck, R., Avital, M., Rossi, M., Thatcher, J.B., 2017. Blockchain technology in business and information systems research. Bus. Inf. Syst. Eng. 59, 381–384. https://doi.
+
+
+org/10.1007/s12599-017-0505-1.
+Bednarek, M., 2006. Evaluation in Media Discourse: Analysis of a Newspaper Corpus. A&C Black., London.
+Berentsen, A., Schär, F., 2018. A short introduction to the world of cryptocurrencies. Fed. Reserv. Bank St. Louis Rev. 100, 1–16. https://doi.org/10.20955/r.2018.
+
+
+1-16.
+Bianchi, D., 2019. Five Reasons Bitcoin Could Enter a More Extreme Death Spiral [WWW Document]. Conversat. URL http://theconversation.com/five-reasons-
+
+
+bitcoin-could-enter-a-more-extreme-death-spiral-108766 (accessed 1.10.19).
+Blau, B.M., 2017. Price dynamics and speculative trading in bitcoin. Res. Int. Bus. Financ. 41, 493–499. https://doi.org/10.1016/j.ribaf.2017.05.010.
+Bradbury, D., 2013. The problem with Bitcoin. Comput. Fraud. Secur. Bull. 2013, 5–8. https://doi.org/10.1016/S1361-3723(13)70101-5.
+Brière, M., Oosterlinck, K., Szafarz, A., 2015. Virtual currency, tangible return: portfolio diversification with bitcoin. J. Asset Manag. 16, 365–373. https://doi.org/10.
+
+
+1057/jam.2015.5.
+Buttonwood, 2013. Investing - the Gold Bears Emerge: What Explains Bullion’s Change in Trend? [WWW Document]. Econ. URL https://www.economist.com/
+
+
+buttonwoods-notebook/2013/04/04/the-gold-bears-emerge (accessed 12.13.18).
+Cai, C.W., 2018. Disruption of financial intermediation by FinTech: a review on crowdfunding and blockchain. Account. Financ. 58, 965–992. https://doi.org/10.
+
+
+1111/acfi.12405.
+Caporale, G.M., Gil-Alana, L., Plastun, A., 2018. Persistence in the cryptocurrency market. Res. Int. Bus. Financ. 46, 141–148. https://doi.org/10.1016/j.ribaf.2018.01.
+
+
+002.
+Carrick, J., 2016. Bitcoin as a complement to emerging market currencies. Emerg. Mark. Financ. Trade 52, 2321–2334. https://doi.org/10.1080/1540496X.2016.
+
+
+1193002.
+Chen, Y., 2018. Blockchain tokens and the potential democratization of entrepreneurship and innovation. Bus. Horiz. 61, 567–575. https://doi.org/10.1016/j.bushor.
+
+
+2018.03.006.
+Chender, L., 2018. Emerging Markets to “leapfrog” With New Technology – Expert [WWW Document]. Glob. Invest. URL https://www.globalinvestorgroup.com/
+
+
+articles/3690284/emerging-markets-to-leapfrog-with-new-technology-expert (accessed 12.13.18).
+Cocco, L., Concas, G., Marchesi, M., 2017. Using an artificial financial market for studying a cryptocurrency market. J. Econ. Interact. Coord. 12, 345–365. https://doi.
+
+
+org/10.1007/s11403-015-0168-2.
+CoinMarketCap, 2019. Top 100 Cryptocurrencies by Market Capitalization [WWW Document]. URL https://coinmarketcap.com/ (accessed 1.8.19). .
+Corbet, S., McHugh, G., Meegan, A., 2017. The influence of central bank monetary policy announcements on cryptocurrency return volatility. Invest. Manag. Financ.
+
+
+Innov. 14, 60–72. https://doi.org/10.21511/imfi.14(4).2017.07.
+Corbet, S., Lucey, B., Urquhart, A., Yarovaya, L., 2018. Cryptocurrencies as a financial asset: a systematic analysis. Int. Rev. Financ. Anal. https://doi.org/10.1016/j.
+
+
+irfa.2018.09.003. In press.
+Crosby, M., Pattanayak, P., Verma, S., Kalyanaraman, V., 2016. Blockchain technology: Beyond Bitcoin. Appl. Innov. Rev. 5–20.
+Crossan, M.M., Apaydin, M., 2010. A multi-dimensional framework of organizational innovation: a systematic review of the literature. Int. J. Manag. Stud. Res. 47,
+
+
+1154–1191. https://doi.org/10.1111/j.1467-6486.2009.00880.x.
+Dai, J., Vasarhelyi, M.A., 2017. Toward blockchain-based accounting and assurance. J. Inf. Syst. 31, 5–21.
+Derks, J., Gordijn, J., Siegmann, A., 2018. From chaining blocks to breaking even: a study on the profitability of bitcoin mining from 2012 to 2016. Int. J. Electron.
+
+
+Mark. Retail. 28, 321–338. https://doi.org/10.1007/s12525-018-0308-3.
+Dierksmeier, C., Seele, P., 2018. Cryptocurrencies and business ethics. J. Bus. Ethics 152, 1–14. https://doi.org/10.1007/s10551-016-3298-0.
+Dotsika, F., Watkins, A., 2017. Identifying potentially disruptive trends by means of keyword network analysis. Technol. Forecast. Soc. Change 119, 114–127. https://
+
+
+doi.org/10.1016/j.techfore.2017.03.020.
+Dumitrescu, D., Firică, O., 2014. A turbulent IT currency infant in the global business environment. Qual. - Access to Success 15, 79–86.
+Eross, A., McGroarty, F., Urquhart, A., Wolfe, S., 2019. The intraday dynamics of Bitcoin. Res. Int. Bus. Financ. 49, 71–81. https://doi.org/10.1016/j.ribaf.2019.01.
+
+
+008.
+Gervais, A., Karame, G.O., Capkun, V., Capkun, S., 2014. Is bitcoin a decentralized currency? IEEE Secur. Priv. 12, 54–60. https://doi.org/10.1109/MSP.2014.49.
+Giancaspro, M., 2017. Is a ‘smart contract’ really a smart idea? Insights from a legal perspective. Comput. Law Secur. Rev. 33, 825–835. https://doi.org/10.1016/j.clsr.
+
+
+2017.05.007.
+Goertzel, B., Goertzel, T., Goertzel, Z., 2017. The global brain and the emerging economy of abundance: mutualism, open collaboration, exchange networks and the
+
+
+automated commons. Technol. Forecast. Soc. Change 114, 65–73. https://doi.org/10.1016/j.techfore.2016.03.022.
+Gomber, P., Kauffman, R.J., Parker, C., Weber, B.W., 2018. On the fintech revolution: Interpreting the forces of innovation, disruption, and transformation in financial
+
+
+services. J. Manag. Inf. Syst. 35, 220–265. https://doi.org/10.1080/07421222.2018.1440766.
+Gramm, P., Soto, Hde, 2018. How Blockchain Can End Poverty [WWW Document]. Wall Str. J.. URL https://www.wsj.com/articles/how-blockchain-can-end-poverty-
+
+
+1516925459 (accessed 1.10.19).
+Grant, M.J., Booth, A., 2009. A typology of reviews: an analysis of 14 review types and associated methodologies. Health Info. Libr. J. 26, 91–108. https://doi.org/10.
+
+
+1111/j.1471-1842.2009.00848.x.
+Grant, P.S., Stiehler, B., Boon, E., 2013. Through bubbles and crises: an analysis of the Journal of Financial Services Marketing from 2000 to 2012. J. Financ. Serv.
+
+
+Mark. 18, 260–270. https://doi.org/10.1057/fsm.2013.21.
+Grewal, D., Motyka, S., Levy, M., 2018. The evolution and future of retailing and retailing education. J. Mark. Educ. 40, 85–93. https://doi.org/10.1177/
+
+
+0273475318755838.
+Hawlitschek, F., Notheisen, B., Teubner, T., 2018. The limits of trust-free systems: A literature review on blockchain technology and trust in the sharing economy.
+
+
+Electron. Commer. Res. Appl. 29, 50–63. https://doi.org/10.1016/j.elerap.2018.03.005.
+Hendrickson, J.R., Luther, W.J., 2017. Banning bitcoin. J. Econ. Behav. Organ. 141, 188–195. https://doi.org/10.1016/j.jebo.2017.07.001.
+Hendrickson, J.R., Hogan, T.L., Luther, W.J., 2016. The political economy of bitcoin. Econ. Inq. 54, 925–939. https://doi.org/10.1111/ecin.12291.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+14
+
+
+
+https://doi.org/10.1016/j.jeconbus.2018.04.001
+
+https://doi.org/10.1016/j.jeconbus.2018.04.001
+
+https://doi.org/10.1016/j.elerap.2017.06.003
+
+https://doi.org/10.1016/j.elerap.2017.06.003
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0015
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0015
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0020
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0020
+
+https://doi.org/10.1007/s10551-014-2354-x
+
+https://doi.org/10.1016/j.ribaf.2018.09.011
+
+https://doi.org/10.1016/j.ribaf.2018.09.011
+
+https://www.globalinvestorgroup.com/articles/3689032/swiss-exchange-latest-to-launch-bitcoin-derivative
+
+https://www.globalinvestorgroup.com/articles/3689032/swiss-exchange-latest-to-launch-bitcoin-derivative
+
+https://doi.org/10.1080/08832323.2015.1046358
+
+https://doi.org/10.1007/978-3-319-70278-0_31
+
+https://doi.org/10.1007/s12599-017-0505-1
+
+https://doi.org/10.1007/s12599-017-0505-1
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0055
+
+https://doi.org/10.20955/r.2018.1-16
+
+https://doi.org/10.20955/r.2018.1-16
+
+http://theconversation.com/five-reasons-bitcoin-could-enter-a-more-extreme-death-spiral-108766
+
+http://theconversation.com/five-reasons-bitcoin-could-enter-a-more-extreme-death-spiral-108766
+
+https://doi.org/10.1016/j.ribaf.2017.05.010
+
+https://doi.org/10.1016/S1361-3723(13)70101-5
+
+https://doi.org/10.1057/jam.2015.5
+
+https://doi.org/10.1057/jam.2015.5
+
+https://www.economist.com/buttonwoods-notebook/2013/04/04/the-gold-bears-emerge
+
+https://www.economist.com/buttonwoods-notebook/2013/04/04/the-gold-bears-emerge
+
+https://doi.org/10.1111/acfi.12405
+
+https://doi.org/10.1111/acfi.12405
+
+https://doi.org/10.1016/j.ribaf.2018.01.002
+
+https://doi.org/10.1016/j.ribaf.2018.01.002
+
+https://doi.org/10.1080/1540496X.2016.1193002
+
+https://doi.org/10.1080/1540496X.2016.1193002
+
+https://doi.org/10.1016/j.bushor.2018.03.006
+
+https://doi.org/10.1016/j.bushor.2018.03.006
+
+https://www.globalinvestorgroup.com/articles/3690284/emerging-markets-to-leapfrog-with-new-technology-expert
+
+https://www.globalinvestorgroup.com/articles/3690284/emerging-markets-to-leapfrog-with-new-technology-expert
+
+https://doi.org/10.1007/s11403-015-0168-2
+
+https://doi.org/10.1007/s11403-015-0168-2
+
+https://coinmarketcap.com/
+
+https://doi.org/10.21511/imfi.14(4).2017.07
+
+https://doi.org/10.1016/j.irfa.2018.09.003
+
+https://doi.org/10.1016/j.irfa.2018.09.003
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0135
+
+https://doi.org/10.1111/j.1467-6486.2009.00880.x
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0145
+
+https://doi.org/10.1007/s12525-018-0308-3
+
+https://doi.org/10.1007/s10551-016-3298-0
+
+https://doi.org/10.1016/j.techfore.2017.03.020
+
+https://doi.org/10.1016/j.techfore.2017.03.020
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0165
+
+https://doi.org/10.1016/j.ribaf.2019.01.008
+
+https://doi.org/10.1016/j.ribaf.2019.01.008
+
+https://doi.org/10.1109/MSP.2014.49
+
+https://doi.org/10.1016/j.clsr.2017.05.007
+
+https://doi.org/10.1016/j.clsr.2017.05.007
+
+https://doi.org/10.1016/j.techfore.2016.03.022
+
+https://doi.org/10.1080/07421222.2018.1440766
+
+https://www.wsj.com/articles/how-blockchain-can-end-poverty-1516925459
+
+https://www.wsj.com/articles/how-blockchain-can-end-poverty-1516925459
+
+https://doi.org/10.1111/j.1471-1842.2009.00848.x
+
+https://doi.org/10.1111/j.1471-1842.2009.00848.x
+
+https://doi.org/10.1057/fsm.2013.21
+
+https://doi.org/10.1177/0273475318755838
+
+https://doi.org/10.1177/0273475318755838
+
+https://doi.org/10.1016/j.elerap.2018.03.005
+
+https://doi.org/10.1016/j.jebo.2017.07.001
+
+https://doi.org/10.1111/ecin.12291
+
+
+
+
+Holub, M., Johnson, J., 2018. Bitcoin research across disciplines. Inf. Soc. 34, 114–126. https://doi.org/10.1080/01972243.2017.1414094.
+Hong, K.H., 2017. Bitcoin as an alternative investment vehicle. Inf. Technol. Manag. 18, 265–275. https://doi.org/10.1007/s10799-016-0264-6.
+Hughes, S.J., Middlebrook, S.T., 2014. Are these game changers? Developments in the law affecting virtual currencies, prepaid payroll cards, online tribal lending, and
+
+
+payday lenders. Bus. Lawyer 70, 261–270.
+Iansiti, M., Lakhani, K.R., 2017. The truth about blockchain. Harv. Bus. Rev. 95, 118–127. https://doi.org/10.1016/j.annals.2005.11.001.
+Ivanov, D., Dolgui, A., Sokolov, B., 2018. The impact of digital technology and Industry 4.0 on the ripple effect and supply chain risk analytics. Int. J. Prod. Res. 1–18.
+
+
+https://doi.org/10.1080/00207543.2018.1488086.
+Jacobs, E., 2011. Bitcoin: a bit too far? J. Internet Bank. Commer 16, 1–4. https://doi.org/10.1007/978-3-531-92534-9_12.
+Jung, J., 2002. How magazines covered media companies’ mergers: the case of the evolution of Time Inc. J. Mass Commun. Q. 79, 681–696.
+Justeson, J.S., Katz, S.M., 1995. Technical terminology: some linguistic properties and an algorithm for identification in text. Nat. Lang. Eng. 1, 9–27. https://doi.org/
+
+
+10.1017/S1351324900000048.
+Kewell, B., Adams, R., Parry, G., 2017. Blockchain for good? Int. J. Strateg. Chang. Manag. 26, 429–437.
+Kim, H.M., Laskowski, M., 2016. Towards an ontology-driven blockchain design for supply chain provenance. Intell. Syst. Accounting, Financ. Manag. 25, 18–27.
+
+
+https://doi.org/10.1016/j.ijsolstr.2017.09.019.
+Kursh, S.R., Gold, N.A., 2016. Adding fintech and blockchain to your curriculum. Bus. Educ. Innov. J. 8, 6–12.
+Kuznetsov, N., 2017. How Emerging Markets and Blockchain Can Bring an End to Poverty [WWW Document]. Forbes. URL https://www.forbes.com/sites/
+
+
+nikolaikuznetsov/2017/07/24/how-emerging-markets-and-blockchain-can-bring-an-end-to-poverty/#758bf6c74a0c (accessed 1.10.19).
+Lam, E., 2018. What the World’s Central Banks Are Saying About Cryptocurrencies [WWW Document]. Bloom. Wire Serv.. URL https://www.bloomberg.com/news/
+
+
+articles/2017-12-15/what-the-world-s-central-banks-are-saying-about-cryptocurrencies (accessed 12.13.18).
+Larios-Hernández, G.J., 2017. Blockchain entrepreneurship opportunity in the practices of the unbanked. Bus. Horiz. 60, 865–874. https://doi.org/10.1016/j.bushor.
+
+
+2017.07.012.
+Lemieux, V.L., 2016. Trusting records: Is blockchain technology the answer? Rec. Manag. J. 26, 110–139.
+Li, X., Wang, C.A., 2017. The technology and economic determinants of cryptocurrency exchange rates: the case of Bitcoin. Decis. Support Syst. 95, 49–60. https://doi.
+
+
+org/10.1016/j.dss.2016.12.001.
+Li, Z., Wang, W.M., Liu, G., Liu, L., He, J., Huang, G.Q., 2018. Toward open manufacturing: A cross-enterprises knowledge and services exchange framework based on
+
+
+blockchain and edge computing. Ind. Manag. Data Syst. 118, 303–320.
+Luther, W.J., 2016a. Cryptocurrencies, network effects, and switching costs. Contemp. Econ. Policy 34, 553–571. https://doi.org/10.1111/coep.12151.
+Luther, W.J., 2016b. Bitcoin and the future of digital payments. Indep. Rev. 20, 397–404.
+Luther, W.J., 2018. Is bitcoin intrinsically worthless? J. Priv. Enterp. 33, 31–45. https://doi.org/10.2139/ssrn.3000068.
+Maddox, A., Singh, S., Horst, H., Adamson, G., 2016. An ethnography of Bitcoin: towards a future research agenda. Aust. J. Telecommun. Digit. Econ. 4.
+Mai, F., Shan, Z., Bai, Q., Wang, X.(Shane), Chiang, R.H.L., 2018. How does social media impact bitcoin value? A test of the silent majority hypothesis. J. Manag. Inf.
+
+
+Syst. 35, 19–52. https://doi.org/10.1080/07421222.2018.1440774.
+Markoulli, M.P., Lee, C.I.S.G., Byington, E., Felps, W.A., 2017. Mapping Human Resource Management: reviewing the field and charting future directions. Hum.
+
+
+Resour. Manag. Rev. 27, 367–396. https://doi.org/10.1016/j.hrmr.2016.10.001.
+McCombs, M., 2013. Setting the Agenda: the Mass Media and Public Opinion. Polity Press, Cambridge.
+Mendling, J., Weber, I., van der Aalst, W., Brocke, J.vom, Cabanillas, C., Daniel, F., Debois, S., Di Ciccio, C., Dumas, M., Dustdar, S., Gal, A., Garcia-Banuelos, L.,
+
+
+Governatori, G., Hull, R., La Rosa, M., Leopold, H., Leymann, F., Recker, J., Reichert, M., Reijers, H.A., Rinderle-Ma, S., Rogge-Solti, A., Rosemann, M., Schulte, S.,
+Singh, M.P., Slaats, T., Staples, M., Weber, B., Weidlich, M., Weske, M., Xu, X., Zhu, L., 2018. Blockchains for Business process management - challenges and
+opportunities. ACM Trans. Manag. Inf. Syst. 9, 1–16. https://doi.org/10.1145/3183367.
+
+
+Merediz-Solá, I., Bariviera, A.F., 2019. A bibliometric analysis of Bitcoin scientific production. Res. Int. Bus. Financ. 50, 294–305. https://doi.org/10.1016/j.ribaf.
+2019.06.008.
+
+
+Miau, S., Yang, J.M., 2018. Bibliometrics-based evaluation of the blockchain research trend: 2008–March 2017. Technol. Anal. Strateg. Manag. 30, 1029–1045.
+https://doi.org/10.1080/09537325.2018.1434138.
+
+
+Nakamoto, S., 2008. Bitcoin: a Peer-to-peer Electronic Cash [WWW Document]. https://doi.org/10.1007/s10838-008-9062-0.
+Nowiński, W., Kozma, M., 2017. How can blockchain technology disrupt the existing business models? Entrep. Bus. Econ. Rev. 5, 173–188. https://doi.org/10.15678/
+
+
+EBER.2017.050309.
+O’Leary, D.E., 2017. Configuring blockchain architectures for transaction information in blockchain consortiums: The case of accounting and supply chain systems.
+
+
+Intell. Syst. Accounting, Financ. Manag. 24, 138–147. https://doi.org/10.1002/isaf.1417.
+Pazaitis, A., De Filippi, P., Kostakis, V., 2017. Blockchain and value systems in the sharing economy: The illustrative case of Backfeed. Technol. Forecast. Soc. Change
+
+
+125, 105–115. https://doi.org/10.1016/j.techfore.2017.05.025.
+Peck, M.E., 2017. Blockchain world - do you need a blockchain? IEEE Spectr. 54, 38–60. https://doi.org/10.1109/MSPEC.2017.8048838.
+Petersen, M., Hackius, N., Kersten, W., 2016. Blockchain for manufacturing and logistics - basics, benefits, and use cases. Zeitschrift Fuer Wirtschaftlichen Fabrikbetr.
+
+
+111, 626–629.
+Podsakoff, P.M., Mackenzie, S.B., Bachrach, D.G., Podsakoff, N.P., 2005. The influence of management journals in the 1980s and 1990s. Strateg. Manag. J. 26,
+
+
+473–488. https://doi.org/10.1002/smj.454.
+Polasik, M., Piotrowska, A.I., Wisniewski, T.P., Kotkowski, R., Lightfoot, G., 2015. Price fluctuations and the use of bitcoin: an empirical inquiry. Int. J. Electron.
+
+
+Commer. Stud. 20, 9–49. https://doi.org/10.1080/10864415.2016.1061413.
+Porter, A.L., Kongthon, A., Lu, J.-C., 2002. Research profiling: improving the literature review. Scientometrics 53, 351–370. https://doi.org/10.1023/
+
+
+A:1014873029258.
+Randhawa, K., Wilden, R., Hohberger, J., 2016. A bibliometric review of open innovation: setting a research agenda. J. Prod. Innov. Manag. 33, 750–772. https://doi.
+
+
+org/10.1111/jpim.12312.
+Robinson, P., Lowe, J., 2015. Literature reviews vs systematic reviews. Aust. N. Z. J. Public Health 39, 103. https://doi.org/10.1111/1753-6405.12393.
+Rozario, A.M., Vasarhelyi, M.A., 2018. Auditing with smart contracts. Int. J. Digit. Account. Res. 18, 1–27. https://doi.org/10.4192/1577-8517-v18_1.
+Savelyev, A., 2018. Copyright in the blockchain era: Promises and challenges. Comput. Law Secur. Rev. 34, 550–561. https://doi.org/10.1016/j.clsr.2017.11.008.
+Schmidt, A., Ivanova, A., Schäfer, M.S., 2013. Media attention for climate change around the world: a comparative analysis of newspaper coverage in 27 countries.
+
+
+Glob. Environ. Chang. 23, 1233–1248.
+Scott, B., Loonam, J., Kumar, V., 2017. Exploring the rise of blockchain technology: Towards distributed collaborative organizations. Int. J. Strateg. Chang. Manag. 26,
+
+
+423–428.
+Shermin, V., 2017. Disrupting governance with blockchains and smart contracts. Int. J. Strateg. Chang. Manag. 26, 499–509.
+Stavroyiannis, S., 2018. Value-at-risk and related measures for the Bitcoin. J. Risk Financ. Manag. 19, 127–136. https://doi.org/10.1108/EL-01-2014-0022.
+Sullivan, C., Burger, E., 2017. E-residency and blockchain. Comput. Law Secur. Rev. 33, 470–481. https://doi.org/10.1016/j.clsr.2017.03.016.
+Szal, W., 2018. What Can Blockchain Offer the Global Poor? [WWW Document]. Medium. URL https://medium.com/regen-network/what-does-blockchain-have-to-
+
+
+offer-the-global-poor-f6809756d185 (accessed 1.10.19).
+Tan, A.W., Zhao, Y., Halliday, T., 2018. A blockchain model for less container load operations in China. Int. J. Inf. Syst. Supply Chain Manag. 11, 39–53.
+Tapscott, D., Tapscott, A., 2017. How blockchain will change organizations. MIT Sloan Manag. Rev. 58, 10–13.
+Tasca, P., Hayes, A., Liu, S., 2018. The evolution of the bitcoin economy: Extracting and analyzing the network of payment relationships. J. Risk Financ. Manag. 19,
+
+
+94–126. https://doi.org/10.1108/MRR-09-2015-0216.
+Tranfield, D., Denyer, D., Smart, P., 2003. Towards a methodology for developing evidence-informed management knowledge by means of systematic review. Br. J.
+
+
+Econ. Manag. Trade 14, 207–222. https://doi.org/10.1111/1467-8551.00375.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+15
+
+
+
+https://doi.org/10.1080/01972243.2017.1414094
+
+https://doi.org/10.1007/s10799-016-0264-6
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0240
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0240
+
+https://doi.org/10.1016/j.annals.2005.11.001
+
+https://doi.org/10.1080/00207543.2018.1488086
+
+https://doi.org/10.1007/978-3-531-92534-9_12
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0260
+
+https://doi.org/10.1017/S1351324900000048
+
+https://doi.org/10.1017/S1351324900000048
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0270
+
+https://doi.org/10.1016/j.ijsolstr.2017.09.019
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0280
+
+https://www.forbes.com/sites/nikolaikuznetsov/2017/07/24/how-emerging-markets-and-blockchain-can-bring-an-end-to-poverty/#758bf6c74a0c
+
+https://www.forbes.com/sites/nikolaikuznetsov/2017/07/24/how-emerging-markets-and-blockchain-can-bring-an-end-to-poverty/#758bf6c74a0c
+
+https://www.bloomberg.com/news/articles/2017-12-15/what-the-world-s-central-banks-are-saying-about-cryptocurrencies
+
+https://www.bloomberg.com/news/articles/2017-12-15/what-the-world-s-central-banks-are-saying-about-cryptocurrencies
+
+https://doi.org/10.1016/j.bushor.2017.07.012
+
+https://doi.org/10.1016/j.bushor.2017.07.012
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0300
+
+https://doi.org/10.1016/j.dss.2016.12.001
+
+https://doi.org/10.1016/j.dss.2016.12.001
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0310
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0310
+
+https://doi.org/10.1111/coep.12151
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0320
+
+https://doi.org/10.2139/ssrn.3000068
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0330
+
+https://doi.org/10.1080/07421222.2018.1440774
+
+https://doi.org/10.1016/j.hrmr.2016.10.001
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0345
+
+https://doi.org/10.1145/3183367
+
+https://doi.org/10.1016/j.ribaf.2019.06.008
+
+https://doi.org/10.1016/j.ribaf.2019.06.008
+
+https://doi.org/10.1080/09537325.2018.1434138
+
+https://doi.org/10.1007/s10838-008-9062-0
+
+https://doi.org/10.15678/EBER.2017.050309
+
+https://doi.org/10.15678/EBER.2017.050309
+
+https://doi.org/10.1002/isaf.1417
+
+https://doi.org/10.1016/j.techfore.2017.05.025
+
+https://doi.org/10.1109/MSPEC.2017.8048838
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0390
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0390
+
+https://doi.org/10.1002/smj.454
+
+https://doi.org/10.1080/10864415.2016.1061413
+
+https://doi.org/10.1023/A:1014873029258
+
+https://doi.org/10.1023/A:1014873029258
+
+https://doi.org/10.1111/jpim.12312
+
+https://doi.org/10.1111/jpim.12312
+
+https://doi.org/10.1111/1753-6405.12393
+
+https://doi.org/10.4192/1577-8517-v18_1
+
+https://doi.org/10.1016/j.clsr.2017.11.008
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0430
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0430
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0435
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0435
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0440
+
+https://doi.org/10.1108/EL-01-2014-0022
+
+https://doi.org/10.1016/j.clsr.2017.03.016
+
+https://medium.com/regen-network/what-does-blockchain-have-to-offer-the-global-poor-f6809756d185
+
+https://medium.com/regen-network/what-does-blockchain-have-to-offer-the-global-poor-f6809756d185
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0460
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0465
+
+https://doi.org/10.1108/MRR-09-2015-0216
+
+https://doi.org/10.1111/1467-8551.00375
+
+
+
+
+Umarovich, A.A., Gennadyevna, V.N., Vladimirovna, A.O., Alexandrovich, S.R., 2017. Block chain and financial controlling in the system of technological provision of
+large corporations’ economic security. Eur. Res. Stud. J. 20, 3–12.
+
+
+van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. https://doi.org/10.1007/
+s11192-009-0146-3.
+
+
+van Eck, N.J., Waltman, L., 2014. Visualizing bibliometric networks. In: Ding, Y., Rousseu, R., Wolfram, D. (Eds.), Measuring Scholarly Impact. Springer, Cham, pp.
+285–320.
+
+
+Vieira, E.S., Gomes, J.A.N.F., 2009. A comparison of Scopus and Web of science for a typical university. Scientometrics 81, 587–600. https://doi.org/10.1007/s11192-
+009-2178-0.
+
+
+Vlasov, A.V., 2017. The evolution of e-money. Eur. Res. Stud. J. 20, 215–224. https://doi.org/10.2307/2552280.
+Vovchenko, N.G., Tishchenko, E.N., Epifanova, T.V., Gontmacher, M.B., 2017. Electronic currency: the potential risks to national security and methods to minimize
+
+
+them. Eur. Res. Stud. J. 20, 36–48.
+Wonglimpiyarat, J., 2015. The new darwinism of the payment system: will bitcoin replace our cash-based society? J. Internet Bank. Commer. 2.
+Wonglimpiyarat, J., 2016a. S-curve trajectories of electronic money innovations. J. High Technol. Manag. Res. 27, 1–9. https://doi.org/10.1016/j.hitech.2016.04.001.
+Wonglimpiyarat, J., 2016b. Technological change of the innovation payment system. Int. J. Innov. Technol. Manag. 13, 1650014.
+Yeoh, P., 2017. Regulatory issues in blockchain technology. J. Financ. Regul. Compliance 25, 196–208. https://doi.org/10.1108/EL-01-2014-0022.
+Yermack, D., 2013. Is Bitcoin a Real Currency? An Economic Appraisal. NBER Working Paper Serieshttps://doi.org/10.1016/j.cub.2004.05.032.
+Yli-Huumo, J., Ko, D., Choi, S., Park, S., Smolander, K., 2016. Where is current research on Blockchain technology? - A systematic review. PLoS One 11, 1–27. https://
+
+
+doi.org/10.1371/journal.pone.0163477.
+Zamani, E.D., Giaglis, G.M., 2018. With a little help from the miners: distributed ledger technology and market disintermediation. Ind. Manag. Data Syst. 118,
+
+
+637–652. https://doi.org/10.1108/IMDS-03-2015-0075.
+Zargar, F.N., Kumar, D., 2018. Informational inefficiency of Bitcoin: a study based on high-frequency data. Res. Int. Bus. Financ. 47, 344–353. https://doi.org/10.
+
+
+1016/j.ribaf.2018.08.008.
+Zupic, I., Čater, T., 2015. Bibliometric methods in management and organization. Organ. Res. Methods 18, 429–472. https://doi.org/10.1177/1094428114562629.
+
+
+A. Klarin Research in International Business and Finance 51 (2020) 101067
+
+
+16
+
+
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0480
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0480
+
+https://doi.org/10.1007/s11192-009-0146-3
+
+https://doi.org/10.1007/s11192-009-0146-3
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0490
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0490
+
+https://doi.org/10.1007/s11192-009-2178-0
+
+https://doi.org/10.1007/s11192-009-2178-0
+
+https://doi.org/10.2307/2552280
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0505
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0505
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0510
+
+https://doi.org/10.1016/j.hitech.2016.04.001
+
+http://refhub.elsevier.com/S0275-5319(19)30055-8/sbref0520
+
+https://doi.org/10.1108/EL-01-2014-0022
+
+https://doi.org/10.1016/j.cub.2004.05.032
+
+https://doi.org/10.1371/journal.pone.0163477
+
+https://doi.org/10.1371/journal.pone.0163477
+
+https://doi.org/10.1108/IMDS-03-2015-0075
+
+https://doi.org/10.1016/j.ribaf.2018.08.008
+
+https://doi.org/10.1016/j.ribaf.2018.08.008
+
+https://doi.org/10.1177/1094428114562629
+
+

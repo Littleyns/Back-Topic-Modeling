@@ -1,0 +1,2093 @@
+
+
+
+
+
+
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+Available online 1 November 2020
+0378-7206/© 2020 Elsevier B.V. All rights reserved.
+
+
+Does it pay to align a firm’s competitive strategy with its industry IT 
+strategic role? 
+
+
+Jinmei Yin a, Shaobo Wei b,*, Xiayu Chen c, Jiuchang Wei d,e 
+
+
+a School of Management, University of Science and Technology of China, University of Science and Technology of China, Jinzhai Road 96, Hefei, Anhui, China 
+b International Institute of Finance, School of Management, University of Science and Technology of China, Hefei, Anhui 230026, China 
+c School of Management, Hefei University of Technology, Hefei, Anhui 230009, China 
+d School of Management, University of Science and Technology of China, China 
+e Center for Crisis Management Research (Sponsored by Beijing Planning Office of Philosophy & Social Science), School of Public Policy & Management, Tsinghua 
+University, China   
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Competitive strategy 
+Industry IT strategic role 
+Strategy alignment 
+Firm performance 
+
+
+A B S T R A C T   
+
+
+While researchers have increasingly recognized the importance of information technology (IT) in leveraging a 
+firm’s competitive strategy for achieving superior firm performance, our understanding of the nature of how a 
+firm’s competitive strategy aligns with its industry IT strategic role and how such alignment influences firm 
+performance remains limited. Drawing upon strategic alignment perspective, this study aims to theorize and 
+empirically test how the firm’s competitive strategy (i.e., cost leadership, differentiation, and dual strategy) 
+aligns with its industry IT strategic role to improve firm performance. Based on the data of Chinese publicly listed 
+firms during 2009–2015, our results indicate that different competitive strategy aligns with different industry IT 
+strategic roles for achieving superior performance. Specifically, cost leadership strategy aligns with automate IT 
+strategic role, dual strategy aligns with informate IT strategic role, and differentiation strategy aligns with 
+transform IT strategic role in generating superior firm performance. We also discuss the theoretical and practical 
+implications of the current study.   
+
+
+1. Introduction 
+
+
+In response to the unique challenges of rapid changes and institu-
+tional voids, firms operating in emerging economies need to make 
+appropriate competitive strategy choices so as to generate superior firm 
+performance (Li & Li, 2008; [1,2]). Within the dominant competitive 
+strategy paradigm, cost leadership and differentiation have become the 
+two fundamental strategies that firms can adopt to achieve a competitive 
+advantage [3,4]. Specifically, cost leadership refers to the strategy that 
+firms create a low-cost advantage relative to their peers to improve 
+market share and achieve operational efficiency; differentiation refers to 
+the strategy that firms differentiate their products/services that can 
+satisfy a customer’s changeable demand and thus help achieve a 
+competitive advantage that is not easy to be imitated by competitors [3, 
+5–7]. However, controversy remains regarding the effectiveness of pure 
+versus dual strategies, and the existing findings, particularly those 
+derived from emerging economies, provide only limited and mixed un-
+derstanding [8]. Increasingly, scholars have begun to shift their focus 
+
+
+from trade-off (either/or) to paradoxical (both/and) thinking and have 
+argued that a dual strategy that combines cost leadership and differen-
+tiation can lead to better performance [9–11]. In particular, Gabrielsson 
+et al. [8] indicate that “almost three decades of debate have not 
+conclusively determined the conditions under which a firm can realize a 
+combined ‘hybrid’ competitive strategy instead of a ‘single’ (or pure) 
+generic competitive strategy of either differentiation or cost leadership.” 
+It is thus of great significance and interest to examine the specific con-
+ditions under which pure or dual strategy can contribute better perfor-
+mance [12,13]. 
+
+
+To resolve this debate, researchers have suggested that the effec-
+tiveness of cost-leadership, differentiation, or dual strategy depends on 
+the industry conditions in which they are implemented (Li et.al., 2008a). 
+In particular, a group of scholars have recognized the importance of 
+information technology (IT) when implementing their competitive 
+strategy for superior performance [14–16], and IT-enabled initiatives 
+are required to be considered in the context of other competitors’ 
+IT-enabled actions in the same industry because it is not an isolated 
+
+
+* Corresponding author. 
+E-mail addresses: wsyjm@mail.ustc.edu.cn (J. Yin), shaobow@ustc.edu.cn (S. Wei), xychen@hfut.edu.cn (X. Chen), weijc@ustc.edu.cn (J. Wei).  
+
+
+Contents lists available at ScienceDirect 
+
+
+Information & Management 
+
+
+journal homepage: www.elsevier.com/locate/im 
+
+
+https://doi.org/10.1016/j.im.2020.103391 
+Received 14 January 2019; Received in revised form 21 October 2020; Accepted 24 October 2020   
+
+
+
+
+
+
+
+
+
+
+
+mailto:wsyjm@mail.ustc.edu.cn
+
+mailto:shaobow@ustc.edu.cn
+
+mailto:xychen@hfut.edu.cn
+
+mailto:weijc@ustc.edu.cn
+
+www.sciencedirect.com/science/journal/03787206
+
+https://www.elsevier.com/locate/im
+
+https://doi.org/10.1016/j.im.2020.103391
+
+https://doi.org/10.1016/j.im.2020.103391
+
+https://doi.org/10.1016/j.im.2020.103391
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+2
+
+
+event [17,18]. Under this condition, information systems researchers 
+have proposed the conceptualization of industry IT strategic role, which 
+refers to IT that may play a different role in different industry contexts 
+[19,20]. Specifically, based on the different purpose of IT across in-
+dustries, industry IT strategic role can be classified into three categories: 
+automate, informate up/down, and transform [20]. This kind of industry 
+classification determines the various types of IT required, the way of its 
+application, and the extent of value produced and retained [21]. The 
+strategic role of IT in certain industries reflects the main function that IT 
+plays for firms’ competition across industries [22]. Prior research have 
+highlighted the importance of alignment among different facets during 
+firm operation, such as industry and business strategy [23,24]. There-
+fore, the industry IT strategic role that brings structural changes across 
+different industries might affect firms’ value capturing from specific 
+competitive strategy [25,26]. Although industry IT strategic role has 
+been applied to evaluate the role that IT serves in a firm, there is a dearth 
+of research that explores how a firm chooses competitive strategy to 
+improve firm performance in a different industry IT strategic role [27, 
+19,8,20]. It is thus necessary to investigate whether and how a firm 
+aligns its competitive strategy with its industry IT strategic role to 
+achieve superior firm performance. 
+
+
+Drawing upon the strategic alignment perspective (Henderson et al., 
+1993), this study aims to explore how the alignment between a firm’s 
+competitive strategy and industry IT strategic role affects firm perfor-
+mance in an emerging economy, such as China. As China is the largest 
+emerging economy in the world and its stunning rate of economic 
+growth has made it become one of the most important markets in the 
+world (Li et.al., 2008a); we thus used data from Chinese publicly listed 
+firms during 2009–2015 to test the research model. Specifically, stra-
+tegic alignment perspective suggests that a firm’s competitive strategy is 
+only suitable in particular external conditions, and the well-aligned 
+organization will acquire peak effectiveness [28]. Specifically, we pro-
+pose and empirical test that a different competitive strategy type will 
+have differential impact on firm performance under a different IT in-
+dustry role. In doing so, our research contributes to the existing litera-
+ture in two main ways. First, by integrating industry IT strategic role 
+with the firms’ competitive strategy and further exploring their joint 
+effects on firm performance, our study crystalizes the perspective of IT 
+strategic role and competitive strategy and confirms the importance of 
+the alignment of industry IT strategic role and competitive strategy in 
+shaping superior firm performance. Although industry IT strategic role 
+has been well documented in existing literature on a variety of topics 
+such as IT investment (Banker, Feng, & Pavlou, 2011; [12,19,20]), 
+previous research has not integrated industry IT strategic role with the 
+firm’s competitive strategy to examine whether and how such alignment 
+influences firm performance. Second, our research also enriches the 
+existing research on how to configure appropriate competitive strategy 
+from the perspective of industry IT strategic role. Generally, the 
+empirical results of our study present a more nuanced understanding of 
+the link between firm competitive strategy and firm performance under 
+different industry IT strategic role in an emerging economy (i.e., China). 
+In particular, our study shifts focus from which competitive strategy is 
+effective to the context under which competitive strategy is effective, 
+providing a comprehensive understanding of the effectiveness of 
+different competitive strategies. 
+
+
+The remainder of this paper is planned as follows. In the next section, 
+we put forward our research model and develop our hypotheses. Next, 
+we describe our data collection process and empirically test our hy-
+potheses. Finally, we conclude our findings and discuss the contribu-
+tions and limitations, as well as show some potential avenues for future 
+research. 
+
+
+2. Theoretical framework and literature review 
+
+
+2.1. Competitive strategy 
+
+
+Competitive strategy is one of the most important business strategies. 
+The researchers who advocated Porter’s view have argued that firms are 
+supposed to focus on pure strategy (either low cost or differentiation) to 
+generate superior performance ([29]; Porter, 1985; [30]). Specifically, 
+cost leadership strategy represents that firms need to create a low-cost 
+advantage relative to their peers, whereas differentiation strategy rep-
+resents that firms need to exploit products/services that can offer the 
+firm to obtain a price premium, which is not easy to be imitated by 
+competitors [5–7,31]. 
+
+
+Prior studies have verified that competitive strategy has an impor-
+tant impact on performance. However, it remains unknown which 
+strategy firms can contribute to firm performance among differentiation, 
+cost leadership, and dual strategy ([4]; Li et al., 2008a; [32]). Aulakh 
+et al. [29] put forward that firms implementing a dual strategy is 
+negatively related to firm export performance. However, using a sample 
+of firms in Greece, Spanos et al. [11] find that a dual strategy is pref-
+erable to pure strategies and pure differentiation strategies are less 
+profitable. As such, it is still confusing for firms to select which kind of 
+competitive strategy for achieving superior firm performance. In addi-
+tion, the studies on dual strategy have mainly focused on the developed 
+countries, such as the US [11]. Recently, the attention of dual strategy 
+has gradually shifted to emerging markets with the increasing impor-
+tance of developing countries in the world economy, such as China. 
+Scholars have argued that the emerging economy (China) provides an 
+interesting research background that explores both conventional 
+research questions and distinct phenomenon to advance the literature 
+[33]. On the one hand, China is the biggest emerging economy with the 
+fastest speed of growing. The Chinese market is getting more and more 
+competitive and firms need to take on an appropriate competitive 
+strategy ([33]; Li, Poppo, & Zhou, 2008). On the other hand, China is in 
+a transitional period with technological transformation and this phe-
+nomenon posits a suitable research context to explore across different 
+industries [34]. Moreover, scholars are also constantly exploring the 
+boundary conditions of firm competitive strategy to enrich existing 
+research, such as firm size, IT capability, and industry environment, and 
+thus it is interesting to examine which competitive strategy in China can 
+help achieve the goal of optimal performance [8,32]. 
+
+
+2.2. Industry IT strategic role 
+
+
+Chatterjee et al. [20] first proposed that industries can be divided 
+into three categories based on the different strategic role that IT plays in 
+the industry clearly: automate, informate, and transform. The industry 
+IT strategic role describes the real function of IT in the industry (Arm-
+strong et al., 1999). Specifically, in an automate industry, IT is used to 
+replace expensive and unreliable human labor by automating business 
+processes (e.g., metal manufacturing) (Armstrong et al., 1999). In the 
+informate industry, IT can be used to provide and distribute data/-
+information to empower management and employees more efficiently 
+and easily (e.g., food services). IT not only helps firms improve opera-
+tional efficiency, but also promotes the introduction and development of 
+new products/services (Armstrong et al., 1999; Henderson et al., 1993). 
+While in the transform industry, IT can fundamentally alter traditional 
+ways of doing business and competition of the industry by redefining 
+business processes and relationships (e.g., airlines) [20]. IT is viewed as 
+a key driver and critical organizational resources of the firms’ devel-
+opment (Armstrong et al., 1999). Indeed, quite a lot of researchers have 
+agreed with this kind of category and have applied the industry IT 
+strategic role to investigate how IT investment’s effect varies under a 
+different industry IT strategy role [12,19]. As the strategic role of IT 
+varies across different industries, it might also have an important role in 
+shaping the firm’s business activities and competitive strategies (Chae 
+
+
+J. Yin et al.                                                                                                                                                                                                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+3
+
+
+et al., 2018). However, our knowledge regarding how the effectiveness 
+of different competitive strategies varies under different industry IT 
+strategic role remains limited. 
+
+
+2.3. Strategic alignment perspective 
+
+
+The strategic alignment perspective outlines four topics of strategy 
+decision for management: business strategy (including competitive 
+strategy), IT strategy, organizational infrastructure and process, and 
+information systems [35]. Given that IT has become a key tool for 
+implementing business strategy [36], firms can adjust their strategies 
+that can align with IT strategy and operate business with minimum fuss 
+and maximum efficiency [37]. As such, the alignment of IT and business 
+strategy has been a top concern for organizations to execute business 
+[37,38]. IT-business strategic alignment can be defined as the level of 
+integration and harmony between IT and business strategy when firms 
+apply IT strategy in a proper and timely manner [39]. Researchers have 
+paid increasing attention to the alignment between business strategy 
+and IT strategy and have explored its impact on firm performance ([40]; 
+Schniederjans et al., 2009). 
+
+
+It is a critical issue to explore whether there is an alignment between 
+the strategic application of IT and firm competitive strategy to attain an 
+optimal organizational performance [37]. In this regard, most studies 
+have investigated the performance effects of the strategic alignment 
+([41–43]; Schniederjans et al., 2009; [13]). For example, Chan et al. 
+[41] find that the strategic alignment positively affects firm innovation 
+and market growth, but negatively affects firm reputation and financial 
+performance. Yayla and Hu [13] analyze the impact of the strategic 
+alignment on organizational performance, and they further suggest that 
+strategic alignment has a positive impact on organizational performance 
+in both developed and developing countries. Schniederjans and Cao [35] 
+also find that IT-business alignment has a positive impact on firm per-
+formance. Although there is a body of literature investigating the 
+alignment between business strategy and IT strategy, it remains to be 
+resolved whether and how competitive strategy aligns with industry IT 
+strategic role as well as how such alignment influences firm perfor-
+mance. ([2,36]; Yayla et al., 2012). 
+
+
+2.4. Hypothesis development 
+
+
+Drawing upon strategic alignment perspective, firms with alignment 
+between IT and business strategies can generate a sustainable compet-
+itive advantage [44]. According to this, we argue that a firm’s 
+competitive strategy needs to align with its industry IT strategic role and 
+such alignment can help the firm achieve superior firm performance. 
+Specifically, we propose that cost leadership is the most important 
+competitive strategy that the firm can adopt for achieving superior firm 
+performance in the IT automate industry; dual strategy is the most 
+important strategy that the firm is able to adopt for achieving superior 
+firm performance in the IT informate industry; and differentiation is the 
+most important competitive strategy that the firm in the IT transform 
+industry can adopt for achieving superior firm performance. 
+
+
+Specifically, in the automate industry, the role of IT is mainly used to 
+replace expensive and unreliable human labor with automating business 
+processes and improve the existing business activities’ efficiency 
+(Armstrong et al., 1999; [19]). In particular, some routinized organi-
+zational functions are substituted by automating processes enabled by IT 
+[45]. The prevalent IT in automate industry is to support common 
+standards, reduce cost, and promote operational efficiency (Armstrong 
+et al., 1999; [46]). Meanwhile, such a kind of IT in the automate industry 
+is standardized and easily accessible with spending minor cost [19]. 
+Firms adopting a cost leadership strategy aim to provide customers with 
+standard and a high-volume product at the most competitive prices. In 
+contrast, firms pursuing a differentiation strategy strive to attract cus-
+tomers by means of innovative products, good experience, advanced 
+technology, and so on [47]. A dual strategy is a kind of compromise 
+
+
+strategy, which means that firms pay attention to the cost of products 
+while pursuing product differentiation, and firms want to form the ad-
+vantages of high quality and low cost. Therefore, the IT function in the 
+automate industry mismatches the goals of differentiation and dual 
+strategy. 
+
+
+Compared to differentiation and dual strategy, the prevalent IT in 
+automate industry can help firms leverage the advantages of cost lead-
+ership, which focuses on reducing costs through a simplified operation 
+process and scale economies [31]. For example, the firms belonging to 
+heavy construction need to accurately record and control costs in every 
+step of the operations, and develop IT systems to simplify the opera-
+tional process and save time. Meanwhile, the low price helps firms 
+attract more customers. From the perspective of strategic alignment, the 
+IT orientation in automate industry fits with the orientation of cost 
+leadership strategy at the business level. Thus, for firms in the IT auto-
+mate industry, cost leadership might be better aligned with the IT 
+strategic role of the automate industry. As such, we hypothesize: 
+
+
+Hypothesis 1. In the automate industry, cost leadership has a stronger 
+impact on firm performance when compared with differentiation and 
+dual strategy. 
+
+
+In the IT informate industry, the main role of IT is to facilitate in-
+formation flows to enhance decision-making and decision-taking activ-
+ities, which involve both internal and external functions [20,17,24]. For 
+the internal communication, IT helps distribute critical information 
+across the internal functions more easily and efficiently. In the IT 
+Informate industry, IT is regarded as a way to obtain information about 
+firms’ operations, so that the timely communication will help firms 
+achieve organizational cost control and coordination (Armstrong et al., 
+1999). From the aspect of external business partnerships, the role of IT 
+can help firms obtain timely market response to pinpoint problems and 
+initiate corrective measures rapidly (Wade et al., 2004). In particular, 
+effectively obtaining customers’ changeable requirements through IT 
+can facilitate firms to develop new products continually (Armstrong 
+et al., 1999; [45]). As such, IT in the informate industry can not only 
+improve the internal production process to reduce costs, but also help 
+firms differentiate their products to their competitors [48,49]. A cost 
+leadership strategy pays attention to reduce cost and improve opera-
+tional efficiencies internally while a differentiation strategy focuses on 
+differentiating products to satisfy customers, and the two kinds of stra-
+tegies do not match the function of IT in the informate industry (Li et al., 
+2008a; [50]). 
+
+
+Compared to firms with either pursuing cost leadership or differen-
+tiation strategy, firms with dual strategy can exert more effectively due 
+to facilitating information flow both within and across organizational 
+boundaries supported by IT in the informate industry. For example, in 
+the retail industry, Walmart stores which belong to the informate in-
+dustry, have used IT to redesign key business processes that affect their 
+capability to manage the North American distribution channels of 
+products. As a result, Walmart stores obtain significant improvements in 
+operating costs and increased the speed to respond to market re-
+quirements (Henderson et al., 1993). Meanwhile, with the help of IT, 
+efficient distribution information channels can help timely collect and 
+analyze customer information and feedback, which facilitates the Wal-
+mart to more effectively provide customers with various personalized 
+products/services. For example, based on customer and market feed-
+back, Walmart stores distinguish between different customer groups for 
+targeted sales. Based on the strategic alignment perspective, the IT 
+orientation in the informate industry, which is aligned with the business 
+orientation of dual strategy (focus on both cost and product differenti-
+ation) can create superior performance. Thus, for firms in the IT infor-
+mate industry, firms which adopt a dual strategy combing cost 
+leadership and differentiation might better align with the IT strategic 
+role of informate industry for achieving superior performance. There-
+fore, we expect: 
+
+
+J. Yin et al.                                                                                                                                                                                                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+4
+
+
+Hypothesis 2. In the informate industry, dual strategy has a stronger 
+impact on firm performance when compared with cost leadership and 
+differentiation. 
+
+
+In the IT transform industry, the implementation of IT is imperative 
+and proactive (Henderson et al., 1993). Generally, the role of IT in the 
+transform industry is to introduce radically different technologies that 
+can make firms abandon obsolete business processes. Under this in-
+dustry, IT enables major innovations in products, services, and business 
+models due to fundamentally changing the relationship between busi-
+ness and market (Armstrong et al., 1999). In particular, the use of IT can 
+redefine existing organizational activities and create a new business that 
+can change industry standards. In addition, the role of IT in the trans-
+form industry can help firms continually better develop various new 
+products/services that can evenly exceed the customers’ expectations. A 
+growing slice of expenditure in IT is devoted to product development 
+rather than making existing production more efficient in the transform 
+industry [49]. The purposes of cost leadership and dual strategy is not 
+aligned with the prevalent IT in transform industry. Firms implementing 
+a dual or cost leadership strategy are unable to take advantage of the IT 
+resources provided by the transform industry and will result in a waste 
+of resources and inefficiency. 
+
+
+Compared to cost leadership and dual strategy, differentiation 
+strategy focus more on innovation and superior customer service, which 
+need more advanced IT for better research and development which 
+cannot be imitated by competitors (Wade et al., 2004). The advanced IT 
+in the transform industry can support firms to differentiate products and 
+develop new technologies more easily (Li et al., 2008a). For instance, in 
+the financial banking industry, IT leads to substantial structural changes 
+of the industry and plays a critical role. Banks, thus, have been devel-
+oping a website or an online application to provide customers with in-
+formation and financial services that help the banks to differentiate their 
+products/services to their competitors [51]. According to the strategic 
+alignment perspective, the fit between the IT orientation of transform 
+industry and the business orientation of differentiation strategy can 
+generate the competitive advantage. Thus, for firms in the transform 
+industry, differentiation strategy is aligned with the IT strategic role of 
+transform industry so as to generate superior firm performance. Hence, 
+we propose: 
+
+
+Hypothesis 3. In the transform industry, differentiation has a stronger 
+impact on firm performance when compared with cost leadership and 
+dual strategy. 
+
+
+3. Methodology 
+
+
+3.1. Sample and data collection 
+
+
+We conducted our research against the background of the largest 
+developing economy, namely, China. Meanwhile, small and medium- 
+sized and growth firms need to pay more attention to their decision- 
+making under intense competition in the emerging economy, because 
+they need to allocate their limited resources appropriately. Therefore, 
+we collected archival data that can represent our independent and 
+dependent variables from the China Stock Market and Accounting 
+Research Database (CSMAR) from 2009 to 2015 on Small and Medium- 
+sized Enterprises Market and Growth Enterprises Market to test our 
+hypotheses. CSMAR provides structured financial reports, trading quo-
+tations, unstructured news, research reports, firms’ announcement in-
+formation and so on for academic research in China. CSMAR is one of the 
+most influential financial database in China and contains all financial 
+information of listed firms in China, and have been recognized in pre-
+vious research [52,53]. To reduce the risks of reverse causality, we 
+measured firm performance after firms had conducted a competitive 
+strategy, and measured the impact of competitive strategy using 
+one-year lags [54]. At first, during 2009–2015, we acquired the financial 
+information of 1279 publicly listed firms and 6696 observations from 
+
+
+CSMAR database. In the process of data processing, we eliminated the 
+missing observations because firms do not report financial information 
+that we need. At the same time, we also excluded missing matching 
+samples due to one-year lags of independent and control variables. 
+Then, we need to clarify these firms according to its role of IT and 
+excluded the observations, which do not belong to this classification [19, 
+20]. Finally, we obtained 926 firms and 4044 observations from 2009 to 
+2015. Because the purpose of this paper is to find how a firm’s 
+competitive strategy aligns with its industry IT strategic role to improve 
+firm performance, we divided the total sample into three subsamples: 
+automate, informate, and transform industry. Then, we conducted a 
+comparative analysis among subsamples to find the best alignment be-
+tween competitive strategy and industry IT strategy role. Furthermore, 
+we viewed industry IT strategic role as dummy variables to do a hier-
+archical regression analysis, which examined the moderating effect of 
+industry IT strategic role. Chatterjee et al. [20] developed a method to 
+classify IT strategic role and then Chae et al. [19] used the same way to 
+access the strategic role of IT. Accordingly, we used the latest classifi-
+cation results to obtain our three subsamples. Table 1 shows the distri-
+bution of the industry IT strategic role in the sample. 
+
+
+3.2. Measurements 
+
+
+3.2.1. Differentiation strategy 
+Differentiation strategy refers to firms that provide products with 
+
+
+unique or superior features that appeal to customers. Differentiation 
+strategy focuses on the development of new designs, innovative research 
+and development, customer satisfaction, and brand image [55]. Firms 
+adopting the differentiation strategy are able to show a high profit 
+margin, because differentiation can help firms fulfill a price premium for 
+their superior products/service or greater customer value [31]. Thus, we 
+used profit margin ratio of firms to measure the differentiation strategy 
+[31,56]. 
+
+
+3.2.2. Cost leadership strategy 
+Cost leadership aims at selling the cheapest unit price product in 
+
+
+their industry [55,57], p. 35) indicated that “cost leadership requires 
+aggressive construction of efficient-scale facilities, vigorous pursuit of 
+cost reduction from experience, tight cost and overhead control and cost 
+minimization in areas like R&D, service, sales force, advertising, and so 
+on.” Therefore, firms require to utilize their assets efficiently and main 
+lean operations to achieve cost leadership and maintain their competi-
+tive advantages as cost leaders [3]. Thus, we used the asset turnover 
+ratio of firms to capture this strategy [31]. 
+
+
+3.2.3. Dual strategy 
+Dual strategy refers to firms that not only focus on cost control and 
+
+
+save, but also consider how to develop a new product/service to create 
+customer demand. These firms usually adopt differentiation and cost 
+leadership simultaneously in the process of operation [58]. According to 
+the definition, we used the product of asset turnover ratio and profit 
+margin ratio as the operationalization of dual strategy. 
+
+
+3.2.4. Industry IT strategic role 
+Industry IT strategic role was divided into three categories based on 
+
+
+the different roles that IT plays in the industry. Chae et al. (2018, p. 8) 
+put forward that “the construct of the strategic role of IT for an industry 
+has been used to understand the impact of IT on a firm’s business 
+
+
+Table 1 
+Industry Types (N = 4044).   
+
+
+Frequency Percentage (%) 
+
+
+Automate industry 245 6.11 
+Informate industry 3252 80.41 
+Transform industry 547 13.48  
+
+
+J. Yin et al.                                                                                                                                                                                                                                       
+
+
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+5
+
+
+activities and competitive strategies.” Accordingly, this study describes 
+the industry classification using the industry information developed 
+from Chae et al. [19]. Thus, we used the result to divide our samples into 
+automate, informate, and transform industry as shown in Table 2. 
+
+
+3.2.5. Firm performance 
+The measures of firm performance require to show the effectiveness 
+
+
+of the firm’s action to achieve the firm’s goals [59]. Firm financial 
+performance indicators based on accounting reflect the final results of 
+the managers’ strategy decisions, thus, this kind of measures are pref-
+erable to market-based performance measures, which are more suscep-
+tible to uncontrollable factors when exploring the impact of competitive 
+strategy on firm performance [60]. Following prior studies (Stoel et al., 
+2009; Palmer et al., 2000), we utilized return on assets (ROA) infor-
+mation from archival data to capture firm financial performance. ROA is 
+a useful indicator of measuring firm profitability relative to its total 
+assets [58]. Meanwhile, to demonstrate the robustness of our results 
+using different measurements of firm performance, we utilized return on 
+equity (ROE) measurement as the ratio of profit to equity as the per-
+formance measure for robustness check [61]. 
+
+
+3.2.6. Control variables 
+To exclude the impact of other factors, we controlled the firm and 
+
+
+industry level variables, which may affect firm performance: (1) firm 
+size: the natural logarithm of total assets [62,63]; (2) firm capital 
+expenditure: the natural logarithm of the cash paid by the firm for the 
+purchase and construction of fixed assets, intangible assets, and other 
+long-term assets [64]; (3) fixed asset: the ratio of fixed assets to total 
+assets at the end of the year [65]; and (4) firm leverage: the ratio of total 
+liabilities to total assets at the end of the year [64]; (5) industry con-
+centration: the Herfindahl index, which equals the sum of the squared 
+market share of each firm in the same industry [66]. 
+
+
+4. Analysis and results 
+
+
+Table 3 reports the descriptive statistics and correlation matrix for 
+variables applied in this paper. The variance inflation factor (VIF) test 
+shows that all VIF values are below 2.1 with an average of 1.57. The 
+results indicate that multicollinearity is not a concern in the regression 
+analysis. We minimized possible collinearity by centering all pertinent 
+independent variables and creating the interaction terms by multiplying 
+them [67]. Before we performed a regression analysis to test the hy-
+potheses, we confirmed whether we should use a fixed-effect or a 
+random regression model. Our study has three subsamples, period “T” of 
+seven years and the number of three subsamples are 245, 3252, and 547 
+(N), respectively. We performed the Hausman test in the total sample 
+and every subsample (Total sample: chi2 = 357.51, p < 0.001; Auto-
+mate: chi2 = 16.01, p < 0.05; Informate: chi2 = 368.46, p < 0.001; and 
+Transform: chi2 = 30.67, p < 0.001) and the results show that we should 
+
+
+adopt the fixed-effect estimation model [68]. Next, because the 
+fixed-effect estimation model may include not only an individual fixed 
+effect, but also time fixed effect, we examined the joint salience of 
+annual dummy variables to determine whether time effects should be 
+controlled in the model and the results show that the model should 
+contain year effects. Therefore, we used annual dummy variables as 
+control variables in our model. We then estimated the following model: 
+(
+Firm performance
+
+
+)
+i,t+1 = αi,t + β1firm sizei,t + β2capital expenditurei,t
+
+
++ β3fixed asseti,t + β4firm leveragei,t
++ β5industry concentrationi,t
++ β6differentiationi,t + β7cost leadershipi,t
++ β8dual strategyi,t + YearEffectsi,t + εi,t  
+
+
+Where i stands for the firm and varies from 1 to N in every subsample; 
+t is the year and varies from 2009 to 2015; 
+αi,t is the constant; 
+β1 - β8 are the coefficients in the regression; 
+εi,t is the residual variable that varies with time. 
+Using the model, we tested our hypothesis, and the results of three 
+
+
+subsamples are presented in Table 4. To test which competitive strategy 
+has the strongest positive impact on firm performance under different 
+industry IT strategic role, we compared the significant coefficients be-
+tween specific competitive strategy and firm performance. 
+
+
+In the automate industry, we hypothesized that cost leadership 
+strategy has a stronger positive impact on firm performance, and the 
+result of Model 1a shown in Table 4 and the results supported this hy-
+pothesis. In Model 1a, the results showed that cost leadership signifi-
+cantly positively affects firm performance (β7 = 0.091 and p < 0.05), 
+while differentiation was insignificantly related to firm performance 
+(β6=-0.121 and p > 0.10). Moreover, dual strategy was found to be 
+significantly negatively related to firm performance (β8=-1.384 and p <
+0.01). Then, we conducted the comparison analysis, and the results 
+indicated that cost leadership has a stronger impact on firm performance 
+in the automate industry as compared to differentiation and dual strat-
+egy (ΔT1 = 43.343). This result suggested that the alignment between 
+cost leadership strategy and automate IT strategic role has a stronger 
+impact on firm performance. 
+
+
+For the informate industry, we hypothesized that dual strategy has a 
+stronger positive impact on firm performance and the result of Model 2a 
+displayed in Table 4. In Model 2a, the results presented that dual 
+strategy positively affects firm performance significantly (β8 = 0.834 
+and p < 0.01), whereas differentiation strategy does not significantly 
+affect firm performance (β6=-0.002 and p > 0.10) and cost leadership is 
+positively related to firm performance at the significant level of 0.1 (β7 
+= 0.012 and p < 0.10). The results of the comparison analysis further 
+showed that dual strategy in the informate industry has a stronger 
+impact on firm performance as compared to cost leadership and differ-
+entiation (ΔT2 = 171.926). This result suggests that dual strategy was 
+aligned with informate IT strategy role to generate superior firm per-
+formance and supported hypothesis 2. 
+
+
+For the transform industry, we hypothesized that the differentiation 
+strategy has a stronger positive impact on firm performance and the 
+result of Model 3a shown in Table 4. In Model 3a, the results showed that 
+only differentiation has a significant positive impact on firm perfor-
+mance (β6 = 0.259 and p < 0.05), while the coefficients of cost lead-
+ership and dual strategy is insignificant (β7 = 0.008, p > 0.10 and β8 =
+0.520, p > 0.10). This result suggested that the differentiation strategy is 
+better aligned with transform IT strategy role to improve firm perfor-
+mance and supported hypothesis 3. 
+
+
+Table 2 
+Industry IT Strategic Role.  
+
+
+Role of IT Industries Classified 
+
+
+Automate Coal Mining; Heavy Construction and Lumber & Wood Prods – except 
+Furniture Manufacturing 
+
+
+Informate Agricultural Machinery Manufacturing; Apparel & Other Finished 
+Products –Manufacturing; Automotive Manufacturing; Computer 
+Manufacturing; Diversified Chemicals Manufacturer; Diversified Foods 
+Manufacturing; Electrical Equipment, Electronic/Scientific Test & 
+Measurement Instruments Manufacturer; Fabricated Metal Products 
+Manufacturing; Food Services; Furniture & Fixtures Manufacturing; 
+Holding & Other Investment Offices; Miscellaneous Retail; Motor 
+Freight; Transportation/Warehouse; Petroleum Refining; 
+Pharmaceuticals Manufacturer; Retail; and Rubber Manufacturing 
+
+
+Transform Airlines; Advertising; Banking; Computer Software Products & Services; 
+Financial Services; Media-Diversified; and Printing, Photocopying & 
+Graphics Design  
+
+
+J. Yin et al.                                                                                                                                                                                                                                       
+
+
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+6
+
+
+5. Post hoc analysis 
+
+
+5.1. Robustness check 
+
+
+To further confirm the results, we also conducted three additional 
+robustness checks. First, we used ROE as an alternative dependent var-
+iable to do a robust check and the results were also displayed in Table 4. 
+In Models 1b, 2b, and 3b, the relationship between competitive strategy 
+and industry IT strategic role are the same as the relationship in Models 
+1a, 2a and 3a (Model 1b: β6=-0.418, p > 0.10; β7 = 0.173, p < 0.05; 
+β8=-3.256, p < 0.10; Model 2b: β6=-0.696, p > 0.10; β7=-0.129, p >
+0.10; β8 = 1.212, p > 0.10; Model 3b: β6 = 0.233, p > 0.10; β7 = 0.001, 
+p < 0.10; and β8 = 0.197, p > 0.10). Although the coefficients in Model 
+2b and Model 3b is insignificant, the relationship is still positive as the 
+main results. 
+
+
+Second, to confirm the robustness of our results, we also used in-
+dustry dummy variables as moderators to examine the interactions be-
+tween three types of industry IT strategic role and three types of 
+competitive strategies. Then, the results were consistent with the main 
+results. We presented this result in Table 5. The results in Table 5 
+revealed that the direct effect of differentiation and cost leadership 
+strategy on firm performance is absent, while the direct effect of dual 
+strategy is significantly positive (β = 0.717 and p < 0.01). Then, we 
+added interaction terms in Model 2, Model 3, and Model 4 gradually. In 
+Model 2, the results provided evidence to support the moderating effect 
+of automate industry proposed under H1. Specifically, the interaction of 
+automate IT industry strategic role and cost leadership strategy is 
+positively related to firm performance (β = 0.090 and p < 0.01). The 
+results shown in Model 3 and Model 4 also provided evidence to support 
+the moderating effect of informate and transform IT industry strategic 
+role proposed under H2 and H3. The alignment of informate industry 
+and dual strategy had a positive impact on firm performance (β = 1.138 
+and p < 0.05) and the alignment of transform industry and 
+
+
+differentiation strategy also exists (β = 0.303 and p < 0.10). 
+Finally, considering the financial halo effect, we controlled the cur-
+
+
+rent year’s ROA (ROE for robust check) to eliminate the potential bias 
+due to prior firm performance. Because of this dynamic panel model, we 
+applied a generalized method of moments (GMM) to obtain our results 
+
+
+Table 3 
+Descriptive Statistics.  
+
+
+　 Mean Median SD 1 2 3 4 5 6 7 8 9 10 
+
+
+1. Firm size 21.17 21.09 0.81 1 　 　 　    　 　 　 
+2. Capital 18.22 18.29 1.25 0.65** 1 　 　    　 　 　 
+3. Fixed asset 0.20 0.17 0.13 0.13** 0.346** 1 　    　 　 　 
+4. Leverage 0.30 0.28 0.19 0.45** 0.326** 0.315** 1    　 　 　 
+5. Industry 
+
+
+concentration 
+0.09 0.052 0.11 −0.03 −0.010 0.035* 0.04** 1      
+
+
+6. Differentiation 1.01 1.00 0.05 −0.02 −.051** 0.010 0.13** −0.015 1   　 　 
+7. Cost leadership 0.64 0.55 0.43 0.15** 0.111** 0.090** 0.29** 0.023 −0.10** 1   　 
+8. Dual strategy 0.64 0.56 0.43 −0.01 0.005 0.026 0.028 0.010 −0.61** −0.06** 1   
+9. ROA 0.045 0.043 0.066 −0.06** −0.07** −0.10** −0.23** −0.03 −0.21** 0.021 0.17** 1  
+10. ROE 0.071 0.067 0.291 0.019 0.02 −0.01 0.02 0.038* −0.05** −0.01 0.16** 0.18** 1  
+
+
+Table 4 
+Results for Three Subsamples.  
+
+
+　 
+Automate Informate Transform 
+
+
+Model 1a Model 1b Model 2a Model 2b Model 3a Model 3b 
+
+
+Variables ROA ROE ROA ROE ROA ROE 
+Firm size −0.018† −0.027 −0.016*** −0.024* −0.012* −0.008 
+Firm capital −0.006 −0.016 −0.004* −0.004 −0.003 −0.002 
+Firm fixed asset −0.065 −0.119 −0.001 0.186 −0.013 −0.133 
+Firm leverage 0.060 0.030 0.037 0.223 0.037 0.031 
+Industry concentration −0.001 0.063 0.006 0.582 0.014 0.018 
+Differentiation −0.121 −0.418 −0.002 −0.696 0.259* 0.233 
+Cost leadership 0.091* 0.173* 0.012† −0.129 0.008 0.001 
+Dual strategy −1.384* −3.256† 0.834** 1.212 0.520 0.197 
+Constant 0.003 −0.007 −0.003*** −0.005*** 0.002 0.001 
+Year YES YES YES YES YES YES 
+Observations 245 245 3252 3252 547 547 
+R-squared 0.125 0.076 0.097 0.040 0.061 0.020 
+
+
+Note: †p<0.1, *p < 0.05, **p < 0.01, and ***p < 0.001. 
+
+
+Table 5 
+Hierarchical Regression Analysis.   
+
+
+Model 1 Model 2 Model 3 Model 4 
+
+
+Variables Firm Performance 
+Firm size −0.017** −0.015** −0.017** −0.017** 
+Firm capital −0.002† −0.002* −0.002† −0.002* 
+Firm fixed asset −0.006 −0.009 −0.006 −0.006 
+Firm leverage 0.035† 0.033† 0.034† 0.036†
+Industry concentration −0.002 −0.001 −0.013 0.006 
+Differentiation −0.007 −0.005 0.001 −0.033 
+Cost leadership 0.009 0.008 0.001 0.019* 
+Dual strategy 0.717** 0.754** −0.331 0.767* 
+Automate  0.006   
+Auto*Diff  −0.325†
+Auto*Cost  0.090**   
+Auto*Dual  −2.311***   
+Informate   −0.009  
+Informate*Diff   −0.019  
+Informate*Cost   0.015  
+Informate*Dual   1.138*  
+Transform    0.008 
+Transform*Diff    0.303†
+Transform*Cost    −0.017†
+Transform*Dual    −0.339 
+Constant 0.019*** 0.020*** 0.024** 0.017*** 
+Year YES YES YES YES 
+Observations 4044 4044 4044 4044 
+R-squared 0.087 0.095 0.102 0.099 
+
+
+Note: †p<0.1, *p < 0.05, **p < 0.01, and ***p < 0.001. 
+
+
+J. Yin et al.                                                                                                                                                                                                                                       
+
+
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+7
+
+
+[69]. The results are shown in Table 6. In Model 1a, Model 2a, and 
+Model 3a, the results totally supported our hypothesis. The coefficients 
+are significant only when the competitive strategy is aligned with the 
+specific industry IT strategic role. Specifically, cost leadership is posi-
+tively related to firm performance in the automate industry (Model 1a: 
+β7 = 0.159 and p < 0.10) and dual strategy is positively significant in the 
+informate industry (Model 2a: β8 = 1.365 and p < 0.05), and the dif-
+ferentiation has a significantly positive impact on firm performance in 
+the transform industry (Model 3a: β6 = 0.814 and p < 0.01). Then, we 
+also used ROE as the alternative measurement of the dependent vari-
+able, the results of Model 1b and Model 3b are consistent (Model 1b: β7 
+= 0.451, p < 0.05; and Model 3b: β6 = 1.895, p < 0.05), while the 
+coefficient of dual strategy is insignificant in Model 2b (Model 2b: 
+β8=-9.698 and p > 0.10). These generally consistent results further 
+demonstrate the robustness of our conclusions. Based on the empirical 
+analysis, the hypotheses of our study were generally confirmed and the 
+results suggested that the alignment between firms’ competitive strategy 
+and the industry IT strategy role could significantly improve firm 
+performance. 
+
+
+5.2. Endogeneity test 
+
+
+Omitted, correlated variables or reverse causality may cause a wrong 
+observed association between competitive strategic and firm perfor-
+mance. To examine the possibility that competitive strategy is deter-
+mined exogenously, we conduct the standard Durbin-Wu-Hausman 
+method to verify that endogeneity is not a matter of concern in our study 
+[70]. Specifically, because firm size, firm capital expenditure, firm fixed 
+asset, firm leverage, industry concentration, and industry IT strategic 
+role are not directly related to firm performance in our empirical results, 
+we adopted these variables as instrumental variables to do the endo-
+geneity test. Therefore, we regress cost leadership and differentiation 
+strategy on firm size, firm capital expenditure, firm fixed asset, firm 
+leverage, industry concentration, and industry IT strategic role, 
+respectively. Then, we compute the residual, η1 and η2 of the two re-
+gressions. Finally, we add η1 and η2 as variables in the main regressive 
+equation and reran the research model. The parameter estimate for the 
+two residuals were insignificant (β = 0.634, p > 0.30 and β = 0.159, p >
+0.50), and the results suggested that competitive strategy is exogenous 
+in our context. 
+
+
+6. Discussion 
+
+
+Drawing upon strategic alignment perspective, this study aims to 
+investigate whether and how a firm’s competitive strategy aligns with its 
+
+
+industry IT strategic role and how such alignment influences firm 
+financial performance. By collecting archival data from 2009 to 2015 in 
+China, we classified the total sample into three subsamples (automate/ 
+informate/transform) according to the industry IT strategic role [19,20]. 
+In each subsample, we conduct an empirical analysis and the results 
+generally support our hypotheses. In addition, we examine the moder-
+ating effect of industry IT strategic role and these results confirm our 
+findings. First, we proposed hypothesis 1 that IT in automate industry 
+helps firms to save costs, which is consistent with the purposes of cost 
+leadership. Our results confirm that there is an alignment between cost 
+leadership strategy and IT strategic role in the IT automate industry. 
+Meanwhile, we also find that dual strategy has a significantly negative 
+association with firm performance in the automate industry. A possible 
+explanation is that the prevalent main function of IT in the automate 
+industry cannot help firms achieve the goals of both cost leadership and 
+differentiation strategy (i.e., dual strategy) [22]. Moreover, the mis-
+matching of competitive strategy with industry IT strategic role will 
+require the firm to invest more resources; however, this kind of invest-
+ment in the automate industry may not bring corresponding profits. In 
+automate industry, such as coal mining, product differentiation does not 
+increase consumer demand effectively. As such, it is not worthy for firms 
+in the automate industry to adopt both cost leadership and differentia-
+tion strategy through improving IT capabilities. This finding further 
+confirms that it is important for firms to align their competitive strategy 
+with its industry IT strategic role. 
+
+
+Second, we put forward hypothesis 2 that IT in informate industry 
+can not only help firms differentiate products, but also improve opera-
+tional efficiency, and the results indicate that the dual strategy is aligned 
+with the main purpose of IT in the informate industry. These kinds of 
+firms can use IT appropriately to simplify the production process and 
+constantly introduce a new product [48]. For instance, more and more 
+young people prefer to customize their own furniture to display their 
+personality, but they do not have too much consumption capacity 
+because of the too high housing price and low salary in China as 
+compared to the developed country [71]. They prefer to buy a good 
+looking and affordable product. Therefore, furniture manufacturers 
+need to commit to providing customers with affordable and distinctive 
+furniture. 
+
+
+Finally, the empirical results also confirm our hypothesis 3 that 
+differentiation strategy aligns with the role of IT in the transform in-
+dustry. IT in the transform industry is to change the firm’s fundamental 
+relationships with external partnerships and alter the markets, products, 
+organizational structures, inter-organizational relationships, and so on. 
+Firms in the IT transform industry face intense competition and some 
+advanced IT have also fundamentally transformed the industry. Under 
+
+
+Table 6 
+Results of dynamic panel model.  
+
+
+　 
+Automate Informate Transform 
+
+
+Model 1a Model 1b Model 2a Model 2b Model 3a Model 3b 
+
+
+Variables ROA ROE ROA ROE ROA ROE 
+Firm size −0.042 −0.069 −0.007 0.038 −0.015 −0.015 
+Firm capital −0.014† −0.029 −0.003 −0.006 0.001 −0.004 
+Firm fixed asset −0.098 −0.414 0.001 0.237 0.031 0.022 
+Firm leverage 0.136 0.094 −0.007 0.363 0.041 0.112 
+Industry concentration −0.137 −0.251 0.083 −0.212 −0.004 −0.023 
+Current ROA −0.167  −0.129  0.412*  
+Current ROE  −0.402  1.094  −0.433 
+Differentiation −0.261 0.866 −0.178 −9.227** 0.814** 1.895** 
+Cost leadership 0.159† 0.451* 0.076 −0.557 0.010 −0.012 
+Dual strategy −0.677 −0.765 1.365* −9.698 −0.210 0.058 
+Constant −0.010 0.034 −0.001 −0.091 0.007 0.042 
+Year YES YES YES YES YES YES 
+Observations 245 245 3252 3252 547 547 
+Wald chi2 31.80 51.92 21.73 39.15 76.62 57.80 
+Sargen chi2 33.302 30.906 39.293 45.344 40.518 31.852 
+
+
+Note: †p<0.1, *p < 0.05, **p < 0.01, and ***p < 0.001. 
+
+
+J. Yin et al.                                                                                                                                                                                                                                       
+
+
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+8
+
+
+this condition, firms in the transform industry can develop differentia-
+tion strategy to better utilize the advanced IT in the transform industry 
+to better meet the customers changing requirements. 
+
+
+6.1. Theoretical contributions and practical implications 
+
+
+This study provides two main theoretical contributions to the exist-
+ing literature. First, this study points to the critical function of industry 
+IT strategic role as an important conditional factor in developing and 
+examining the impact of competitive strategies. This contingency model 
+adds knowledge to the relationship between competitive strategy and 
+firm performance. More importantly, industry IT strategic role provides 
+a new perspective to explore the impact of pure/dual competitive 
+strategy on firm performance [28,14]. Second, our study demonstrates 
+that the link between competitive strategy and firm performance are 
+more complex than previously theorized [12,19,20,31]. Particularly, the 
+impact of dual strategy on firm performance appear to be significantly 
+positive, while differentiation and cost leadership strategy are insignif-
+icant in the full sample. These results suggest that we need to consider 
+the other conditional factor to unveil the mechanism of competitive 
+strategy. This study extends strategy management literature by further 
+substantiating the relationship between both pure/dual strategies and 
+firm performance. By adopting the strategic alignment perspective, our 
+study argues and empirically tests whether and how a firm’s competitive 
+strategy aligns with its industry IT strategic role. Our results provide the 
+empirical support for the existence and nature of the alignment between 
+competitive strategy and industry IT strategy role. In addition to the 
+findings of the alignment between competitive strategy and industry IT 
+strategic role, we also find that the effect of dual strategy in automate 
+industry appear to be significantly negative. This result demonstrates 
+that the mismatch between the firm’s competitive strategy and its in-
+dustry IT strategic role can indeed undermine firm performance. 
+
+
+From the view of practical implications, our findings remind man-
+agers that they need to recognize the strategic importance of industry IT 
+strategic role when developing an appropriate competitive strategy for 
+achieving superior firm performance. Managers might use our research 
+results as a guideline to utilize the alignment tactics between industry IT 
+strategic role and competitive strategy to achieve superior firm perfor-
+mance. Different industry IT strategic roles enable firms achieve goals of 
+different competitive strategies. Managers need to consider the impact 
+of industry IT strategic role and try their best to exploit the possibilities 
+offered by the specific industry IT strategic role to align with competi-
+tive strategy. Specifically, with the help of prevalent IT function in the 
+automate industry, firms can more easily achieve the strategic goal of 
+cost leadership to improve firm performance because of the alignment 
+between industry IT strategic role and competitive strategy. Moreover, 
+dual strategy in the automate industry can result in the decrease of firm 
+performance because of the misalignment. In IT transform industry, 
+managers can develop new products by leveraging advanced IT in the 
+industry to keep up with industry transformation. When a firm belongs 
+to informate industry, it indicates that the firm can more easily establish 
+competitive advantages of dual strategy under this the kind of industry 
+IT strategic role. For example, the IKEA group, the world’s largest home 
+products retailer, not only shows their furniture’s information online 
+and collect customers’ preference through internet to differentiate their 
+products, but also reduces inventory costs and facilitates transportation 
+by using flat packaging. This helps IKEA form competitive advantages 
+and attract more customers who want to purchase favorite products at 
+affordable prices [72]. 
+
+
+Moreover, our findings not only help managers recognize that 
+alignment between competitive strategy and industry IT strategic role 
+could help generate better performance, but also remind managers to 
+realize that the misalignment between competitive strategy and industry 
+IT strategic role may deteriorate firm performance, such as developing 
+the dual strategy in the automate industry. For instance, the Ford Motor 
+Company used to only focus on achieving the lowest costs and ignored 
+
+
+customers’ demand; however, this type of competitive strategy makes it 
+bear heavy losses by competitors [73]. Besides, some firms may confront 
+the challenges of the transformation period because of the industry 
+environment with intense competition [19]. Thus, they need to obtain 
+some information of the industry in which they are ready to participate, 
+such as industry IT strategic role, and adjust their competitive strategy 
+timely to adapt to new industry environment. Another example is the 
+music and media industry, which has become more and more digitalized 
+to differentiate products/service rather than reducing costs. Providing 
+diversified products/service online is at the heart of firms in this in-
+dustry to improve customer experience and command premium prices 
+[49]. 
+
+
+6.2. Limitations and future research 
+
+
+There are several limitations in our study, which provide some di-
+rections for future research. One limitation of our study is the classifi-
+cation of automate, informate, and transform industry. We can only 
+obtain the classification based on Chae et al. [19] and the year of 2007 is 
+the latest criteria for this classification. Therefore, one direction for 
+future research is to develop a finer measure of this important variable 
+(Dehning et al., 2003). Another limitation is that we only integrate IT 
+strategic role of industry with competitive strategy because of the data 
+limitation. Industry IT strategic role is a coarse metric to measure the IT 
+usage in the industry. This variable can reflect the IT status of the in-
+dustry, but each firm’s ability to utilize IT is different. Moreover, 
+although we argue that in certain industry, if specific IT is imperative for 
+the industry, the firms in the industry need to also develop their IT 
+aggressively to compete in the industry (Chae et al., 2018). However, 
+firms may choose a different IT strategy such as IT innovator and IT 
+conservative, even they are in the same industry IT strategic role. 
+Therefore, future research can investigate the IT-business alignment 
+deeply and consider how a firm’s competitive strategies align with its 
+specific IT strategies and industry IT strategic role [19]. In addition, this 
+study can be extended by containing additional contingency factors, 
+including external and internal factors. For example, future research can 
+consider the impact of firm characteristics at the internal level, such as 
+firm size and the quality of IT governance [12]. The external environ-
+ment such as industry dynamism can also be considered in future 
+research. 
+
+
+7. Conclusion 
+
+
+By echoing the perspective from strategic alignment, our study 
+provides insights into the alignment between the firms’ competitive 
+strategy and their industry IT strategic role and how such alignment 
+influences firm performance. Our findings show that the three compet-
+itive strategies can play different roles under various IT strategic roles. 
+Specifically, we find that cost leadership strategy has a significantly 
+stronger positive association with firm performance in the automate 
+industry. For the informate industry, firms can choose a dual strategy to 
+improve firm performance. Finally, firms that belong to the transform 
+industry can use the differentiation strategy to improve firm perfor-
+mance. Our findings provide a more nuanced understanding of the ex-
+istence and nature of the alignment between competitive strategy and 
+industry IT strategic role and call for more research to explore the 
+interaction between industry IT strategic role and other firm strategic 
+decisions, such as innovation orientation and IT governance strategies. 
+
+
+CRediT authorship contribution statement 
+
+
+Jinmei Yin: Conceptualization, Methodology, Formal analysis, 
+Investigation, Data curation, Writing - original draft. Shaobo Wei: 
+Conceptualization, Methodology, Investigation, Data curation, Writing - 
+original draft, Supervision, Project administration, Funding acquisition. 
+Xiayu Chen: Conceptualization, Methodology, Writing - review & 
+
+
+J. Yin et al.                                                                                                                                                                                                                                       
+
+
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+9
+
+
+editing. Jiuchang Wei: Resources, Supervision. 
+
+
+Acknowledgments 
+
+
+This study was funded by the National Natural Science Foundation of 
+China (Nos. 72071190, 71701194, 71731010, 71801069, 71921001, 
+and 71828102). It was also funded by the Anhui Provincial Natural 
+Science Foundation (No. 1808085QG226). 
+
+
+References 
+
+
+[1] G. Linton, J. Kask, Configurations of entrepreneurial orientation and competitive 
+strategy for high performance, J. Bus. Res. 70 (2017) 168–176. 
+
+
+[2] M.J.R. Ortega, Competitive strategies and firm performance: technological 
+capabilities’ moderating roles, J. Bus. Res. 63 (12) (2010) 1273–1281. 
+
+
+[3] R.D. Banker, R. Mashruwala, A. Tripathy, Does a differentiation strategy lead to 
+more sustainable financial performance than a cost leadership strategy? Manage. 
+Decis. 52 (5) (2014) 872–896. 
+
+
+[4] F. Hernández-Perlines, J. Moreno-García, B. Yañez-Araque, The mediating role of 
+competitive strategy in international entrepreneurial orientation, J. Bus. Res. 69 
+(11) (2016) 5383–5389. 
+
+
+[5] R.M. Grant, The resource-based theory of competitive advantage: implications for 
+strategy formulation. Knowledge and Strategy, Elsevier, 1999, pp. 3–23. 
+
+
+[6] W. Liu, K. Atuahene-Gima, Enhancing product innovation performance in a 
+dysfunctional competitive environment: the roles of competitive strategies and 
+market-based assets, Ind. Mark. Manage. 73 (2018) 7–20. 
+
+
+[7] R. Veliyath, Hypercompetition: managing the dynamics of strategic maneuvering, 
+Acad. Manage. Rev. 21 (1) (1996) 291–294. 
+
+
+[8] M. Gabrielsson, T. Seppälä, P. Gabrielsson, Realizing a hybrid competitive strategy 
+and achieving superior financial performance while internationalizing in the high- 
+technology market, Ind. Mark. Manage. 54 (2016) 141–153. 
+
+
+[9] C.W. Hill, Differentiation versus low cost or differentiation and low cost: a 
+contingency framework, Acad. Manage. Rev. 13 (3) (1988) 401–412. 
+
+
+[10] E.M. Pertusa-Ortega, J.F. Molina-Azorín, E. Claver-Cortés, Competitive strategies 
+and firm performance: a comparative analysis of pure, hybrid and ‘stuck-in-the- 
+middle’strategies in Spanish firms, Br. J. Manage. 20 (4) (2009) 508–523. 
+
+
+[11] Y.E. Spanos, G. Zaralis, S. Lioukas, Strategy and industry effects on profitability: 
+evidence from Greece, Strateg. Manage. J. 25 (2) (2004) 139–165. 
+
+
+[12] A. Joshi, T. Huygh, S. De Haes, Examining the association between industry IT 
+strategic role and IT governance implementation, Thirty-Eighth International 
+Conference on Information Systems (2017). 
+
+
+[13] A.A. Yayla, Q. Hu, The impact of IT-business strategic alignment on firm 
+performance in a developing country setting: exploring moderating roles of 
+environmental uncertainty and strategic orientation, Eur. J. Inf. Syst. 21 (4) (2012) 
+373–387. 
+
+
+[14] G.S. Kearns, R. Sabherwal, Strategic alignment between business and information 
+technology: a knowledge-based view of behaviors, outcome, and consequences, 
+J. Manag. Inf. Syst. 23 (3) (2006) 129–162. 
+
+
+[15] R. Sabherwal, Y.E. Chan, Alignment between business and IS strategies: a study of 
+prospectors, analyzers, and defenders, Inf. Syst. Res. 12 (1) (2001) 11–33. 
+
+
+[16] T.S. Teo, J.S. Ang, How useful are strategic plans for information systems? Behav. 
+Inf. Technol. 19 (4) (2000) 275–282. 
+
+
+[17] B. Dehning, V.J. Richardson, R.W. Zmud, The value relevance of announcements of 
+transformational information technology investments, Mis Q. 27 (4) (2003) 
+637–656. 
+
+
+[18] R. Agarwal, H.C. Lucas Jr., The information systems identity crisis: focusing on 
+high-visibility and high-impact research, Mis Q. 29 (3) (2005). 
+
+
+[19] H.C. Chae, C.E. Koh, K.O. Park, Information technology capability and firm 
+performance: role of industry, Inf. Manage. 55 (5) (2018) 525–546. 
+
+
+[20] D. Chatterjee, V.J. Richardson, R.W. Zmud, Examining the shareholder wealth 
+effects of announcements of newly created CIO positions, Mis Q. 25 (1) (2001) 
+43–70. 
+
+
+[21] S. Aral, P. Weill, IT assets, organizational capabilities, and firm performance: how 
+resource allocations and organizational differences explain performance variation, 
+Organ. Sci. 18 (5) (2007) 763–780. 
+
+
+[22] I. Choi, D.E. Cantor, J. George, Does IT capability and competitive actions shape 
+firm profitability? Thirty-Eighth International Conference on Information Systems 
+(2017). 
+
+
+[23] J.C. Henderson, H. Venkatraman, Strategic alignment: leveraging information 
+technology for transforming organizations, IBM Syst. J. 32 (1) (1993) 472–484. 
+
+
+[24] M. Wade, J. Hulland, Review: the resource-based view and information systems 
+research: review, extension, and suggestions for future research, Mis Q. 28 (1) 
+(2004) 107–142. 
+
+
+[25] Y. Chan, N. Levallet, IT capabilities–quo vadis? Thirty-Fourth International 
+Conference on Information Systems (2013). 
+
+
+[26] K.M. Eisenhardt, J.A. Martin, Dynamic capabilities: what are they? Strateg. 
+Manage. J. (2000) 1105–1121. 
+
+
+[27] C.P. Armstrong, V. Sambamurthy, Information technology assimilation in firms: 
+the influence of senior leadership and IT infrastructures, Inf. Syst. Res. 10 (4) 
+(1999) 304–327. 
+
+
+[28] N.H. Chorn, The “alignment” theory: creating strategic fit, Manage. Decis. 29 (1) 
+(1991). 
+
+
+[29] P.S. Aulakh, M. Rotate, H. Teegen, Export strategies and performance of firms from 
+emerging economies: evidence from Brazil, Chile, and Mexico, Acad. Manage. J. 43 
+(3) (2000) 342–361. 
+
+
+[30] S. Thornhill, R.E. White, Strategic purity: a multi-industry evaluation of pure vs. 
+hybrid business strategies, Strateg. Manage. J. 28 (5) (2007) 553–561. 
+
+
+[31] R.D. Banker, Hu. Nan, P.A. Pavlou, CIO reporting structure, strategic positioning, 
+and firm performance, MIS Q. 35 (2) (2011) 487–504. 
+
+
+[32] J.J. Li, K.Z. Zhou, A.T. Shao, Competitive position, managerial ties, and 
+profitability of foreign firms in China: an interactive perspective, J. Int. Bus. Stud. 
+40 (2) (2009) 339–352. 
+
+
+[33] C. Lau, Y. Lu, Q. Liang, Corporate social responsibility in China: a corporate 
+governance approach, J. Bus. Ethics 136 (1) (2016) 73–87. 
+
+
+[34] J.J. Li, L. Poppo, K.Z. Zhou, Do managerial ties in China always produce value? 
+Competition, uncertainty, and domestic vs. foreign firms, Strateg. Manage. J. 29 
+(4) (2008) 383–400. 
+
+
+[35] M. Schniederjans, Q. Cao, Alignment of operations strategy, information strategic 
+orientation, and performance: an empirical study, Int. J. Prod. Res. 47 (10) (2009) 
+2535–2563. 
+
+
+[36] R. Rathnam, J. Johnsen, H.J. Wen, Alignment of business strategy and IT strategy: 
+a case study of a fortune 50 financial services company, J. Comput. Inf. Syst. 45 (2) 
+(2005) 1–8. 
+
+
+[37] S. Jorfi, K.M. Nor, L. Najjar, An empirical study of the role of IT flexibility and IT 
+capability in IT-business strategic alignment, J. Syst. Inf. Technol. 19 (1/2) (2017) 
+2–21. 
+
+
+[38] T. Jacks, P. Palvia, R. Schilhavy, L. Wang, A framework for the impact of IT on 
+organizational performance, Bus. Process. Manage. J. 17 (5) (2011) 846–870. 
+
+
+[39] J. Luftman, Assessing business-IT alignment maturity, Strateg. Inf. Technol. Gov. 4 
+(2004) 99. 
+
+
+[40] Y.E. Chan, R. Sabherwal, J.B. Thatcher, Antecedents and outcomes of strategic IS 
+alignment: an empirical investigation, IEEE Trans. Eng. Manage. 53 (1) (2006) 
+27–47. 
+
+
+[41] Y.E. Chan, S.L. Huff, D.W. Barclay, D.G. Copeland, Business strategic orientation, 
+information systems strategic orientation, and strategic alignment, Inf. Syst. Res. 8 
+(2) (1997) 125–150. 
+
+
+[42] D. Giannakis, M.J. Harker, Strategic alignment between relationship marketing 
+and human resource management in financial services organizations, J. Strateg. 
+Mark. 22 (5) (2014) 396–419. 
+
+
+[43] J.W. Palmer, M.L. Markus, The performance impacts of quick response and 
+strategic alignment in specialty retailing, Inf. Syst. Res. 11 (3) (2000) 241–259. 
+
+
+[44] J.E. Gerow, V. Grover, J. Thatcher, P.L. Roth, Looking toward the future of 
+IT–business strategic alignment through the past: a meta-analysis, Mis Q. 38 (4) 
+(2014) 1159–1186. 
+
+
+[45] K. Kim, S. Mithas, M. Kimbrough, Information technology investments, and firm 
+risk across industries: evidence from the bond market, Mis Q. 41 (4) (2017) 
+1347–1367. 
+
+
+[46] T.D. Oesterreich, F. Teuteberg, Understanding the implications of digitisation and 
+automation in the context of Industry 4.0: a triangulation approach and elements of 
+a research agenda for the construction industry, Comput. Ind. 83 (2016) 121–139. 
+
+
+[47] R.T. Frambach, J. Prabhu, T.M. Verhallen, The influence of business strategy on 
+new product activity: the role of market orientation, Int. J. Res. Mark. 20 (4) 
+(2003) 377–397. 
+
+
+[48] V.C. Bamiatzi, T. Kirchmaier, Strategies for superior performance under adverse 
+conditions: a focus on small and medium-sized high-growth firms, Int. Small Bus. 
+J.-Res. Entrepreneurship 32 (3) (2014) 259–284. 
+
+
+[49] P. Belleflamme, Oligopolistic competition, IT use for product differentiation and 
+the productivity paradox, Int. J. Ind. Organ. 19 (1/2) (2001) 227. 
+
+
+[50] R.T. Rust, C. Moorman, P.R. Dickson, Getting return on quality: revenue expansion, 
+cost reduction, or both? J. Mark. 66 (4) (2002) 7–24. 
+
+
+[51] H.C. Chae, C.E. Koh, V.R. Prybutok, Information technology capability and firm 
+performance: contradictory findings and their possible causes, Mis Q. 38 (1) (2014) 
+305–326. 
+
+
+[52] Y. Liu, Z. Wei, F. Xie, Do women directors improve firm performance in China? 
+J. Corp. Financ. 28 (2014) 169–184. 
+
+
+[53] M.W. Peng, Y. Li, E. Xie, Z. Su, CEO duality, organizational slack, and firm 
+performance in China, Asia Pacific J. Manage. 27 (4) (2010) 611–624. 
+
+
+[54] W. Zheng, K. Singh, W. Mitchell, Buffering and enabling: the impact of interlocking 
+political ties on firm survival and sales growth, Strateg. Manage. J. 36 (11) (2015) 
+1615–1636. 
+
+
+[55] M.E. Porter, Competitive Advantage: Creating and Sustaining Superior 
+Performance. 1985, Free Press, New York, 1985. 
+
+
+[56] T.I. Selling, C.P. Stickney, The effects of business environment and strategy on a 
+firm’s rate of return on assets, Financ. Anal. J. 45 (1) (1989) 43–52. 
+
+
+[57] M.E. Porter, Competitive Strategy: Techniques for Analyzing Industries and 
+Competition. New York, 300, 1980, p. 28. 
+
+
+[58] C.B. Li, J.J. Li, Achieving superior financial performance in China: differentiation, 
+cost leadership, or both? J. Int. Mark. 16 (3) (2008) 1–22. 
+
+
+[59] B. Mashayekhi, M.S. Bazaz, Corporate governance and firm performance in Iran, 
+J. Contemp. Account. Econ. 4 (2) (2008) 156–172. 
+
+
+[60] M. Hutchinson, F.A. Gul, Investment opportunity set, corporate governance 
+practices and firm performance, J. Corp. Financ. 10 (4) (2004) 595–614. 
+
+
+[61] S. Mithas, N. Ramasubbu, V. Sambamurthy, How information management 
+capability influences firm performance, Mis Q. 35 (1) (2011) 237–256. 
+
+
+[62] S.G. Chan, E.H.Y. Koh, M.Z. Abd Karim, The Chinese banks’ directors and their 
+risk-taking behavior A corporate governance and finance perspective, Chinese 
+Manage. Stud. 10 (2) (2016) 291–311, https://doi.org/10.1108/Cms-10-2015- 
+0226. 
+
+
+J. Yin et al.                                                                                                                                                                                                                                       
+
+
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0005
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0005
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0010
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0010
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0015
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0015
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0015
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0020
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0020
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0020
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0025
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0025
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0030
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0030
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0030
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0035
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0035
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0040
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0040
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0040
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0045
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0045
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0050
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0050
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0050
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0055
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0055
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0060
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0060
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0060
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0065
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0065
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0065
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0065
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0070
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0070
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0070
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0075
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0075
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0080
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0080
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0085
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0085
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0085
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0090
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0090
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0095
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0095
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0100
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0100
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0100
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0105
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0105
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0105
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0110
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0110
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0110
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0115
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0115
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0120
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0120
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0120
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0125
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0125
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0130
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0130
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0135
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0135
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0135
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0140
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0140
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0145
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0145
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0145
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0150
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0150
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0155
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0155
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0160
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0160
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0160
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0165
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0165
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0170
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0170
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0170
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0175
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0175
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0175
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0180
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0180
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0180
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0185
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0185
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0185
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0190
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0190
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0195
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0195
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0200
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0200
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0200
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0205
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0205
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0205
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0210
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0210
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0210
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0215
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0215
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0220
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0220
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0220
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0225
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0225
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0225
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0230
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0230
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0230
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0235
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0235
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0235
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0240
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0240
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0240
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0245
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0245
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0250
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0250
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0255
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0255
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0255
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0260
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0260
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0265
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0265
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0270
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0270
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0270
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0275
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0275
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0280
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0280
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0285
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0285
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0290
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0290
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0295
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0295
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0300
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0300
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0305
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0305
+
+https://doi.org/10.1108/Cms-10-2015-0226
+
+https://doi.org/10.1108/Cms-10-2015-0226
+
+
+
+
+Information & Management 57 (2020) 103391
+
+
+10
+
+
+[63] J. Coles, N. Daniel, L. Naveen, Managerial incentives and risktaking, J. Financ. 
+Econ. 79 (2) (2006) 431–468, https://doi.org/10.1016/j.jfineco.2004.09.004. 
+
+
+[64] N. Boubakri, J.-C. Cosset, W. Saffar, The role of state and foreign owners in 
+corporate risk-taking: evidence from privatization, J. Financ. Econ. 108 (3) (2013) 
+641–658. 
+
+
+[65] I. Han, H.-Y. Liang, K.C. Chan, Locational concentration and institutional 
+diversification: evidence from foreign direct investments in the banking industry, 
+North Am. J. Econ. Financ. 38 (2016) 185–199. 
+
+
+[66] M.D. Stoel, W.A. Muhanna, IT capabilities and firm performance: a contingency 
+analysis of the role of industry and IT capability type, Inf. Manage. 46 (3) (2009) 
+181–189. 
+
+
+[67] M.A. Carpenter, J.D. Westphal, The strategic context of external network ties: 
+examining the impact of director appointments on board involvement in strategic 
+decision making, Acad. Manage. J. 44 (4) (2001) 639–660. 
+
+
+[68] C.E. Porter, N. Donthu, Cultivating trust and harvesting value in virtual 
+communities, Manage. Sci. 54 (1) (2008) 113–128. 
+
+
+[69] D. Roodman, How to do xtabond2: an introduction to difference and system GMM 
+in Stata, Stata J. 9 (1) (2009) 86–136, https://doi.org/10.1177/ 
+1536867x0900900106. 
+
+
+[70] M.C. Dong, Y. Fang, D.W. Straub, The impact of institutional distance on the joint 
+performance of collaborating firms: the role of adaptive interorganizational 
+systems, Inf. Syst. Res. 28 (2) (2017) 309–331. 
+
+
+[71] N.R. Lardy, China: Toward a Consumption-driven Growth Path Seeking Changes: 
+The Economic Development in Contemporary China, World Scientific, 2016, 
+pp. 85–111. 
+
+
+[72] N. Abdelkafi, M. Pero, Supply chain innovation-driven business models: 
+exploratory analysis and implications for management, Bus. Process. Manage. J. 24 
+(2) (2018) 589–608. 
+
+
+[73] W.J. Abernathy, K. Wayne, Limits of the learning curve, Harv. Bus. Rev. 52 (5) 
+(1974) 109–119. 
+
+
+Jinmei Yin, PhD student, School of Management, University of Science and Technology of 
+China. Her research focuses on strategic management, supply chain management, and 
+social network. She has published papers in journals such as Decision Sciences. 
+
+
+Shaobo Wei, Associate professor, International Institute of Finance, School of Manage-
+ment, University of Science and Technology of China. He obtained his Ph.D. from USTC 
+and City University of Hong Kong. His research focuses on digital supply chain manage-
+ment and IT business value creation. He has published papers in journals such as Journal of 
+Operations Management, Journal of Business Ethics, Decision Sciences, Journal of Infor-
+mation Technology, and International Journal of Logistics Management, as well as in 
+conference proceedings, including those of the International Conference on Information 
+Systems. Shaobo Wei is the corresponding author. 
+
+
+Xiayu Chen, Associate professor, School of Management, Hefei University of Technology. 
+She received the Ph.D. degree in Information Systems from the University of Science and 
+Technology of China and the City University of Hong Kong. Her research interests include 
+electronic commerce and social media. She has published papers in journals such as In-
+formation Systems Journal, International Journal of Electronic Commerce, Journal of 
+Information Technology, Decision Sciences, International Journal of Information Man-
+agement, Information Technology & People, Computers in Human Behavior, IEEE 
+Transactions on Professional Communication and International Journal of Hospitality 
+Management. Xiayu Chen currently serves as an Associate Editor for Information Systems 
+Journal and International Editorial Review Board of International Journal of Information 
+Management. 
+
+
+JiuChang Wei, Ph.D. Professor, School of Management, University of Science and Tech-
+nology of China. His research interest includes strategic management, financial risk 
+management and organizational reputation management. He has published papers in 
+journals such as Strategic Management Journal, Journal of Business Research, Risk 
+Analysis, Journal of the American Society for Information Science and Technology, 
+Journal of Environmental Management and other well-known international journals. 
+
+
+J. Yin et al.                                                                                                                                                                                                                                       
+
+
+
+https://doi.org/10.1016/j.jfineco.2004.09.004
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0320
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0320
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0320
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0325
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0325
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0325
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0330
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0330
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0330
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0335
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0335
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0335
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0340
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0340
+
+https://doi.org/10.1177/1536867x0900900106
+
+https://doi.org/10.1177/1536867x0900900106
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0350
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0350
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0350
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0355
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0355
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0355
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0360
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0360
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0360
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0365
+
+http://refhub.elsevier.com/S0378-7206(20)30329-3/sbref0365
+
+

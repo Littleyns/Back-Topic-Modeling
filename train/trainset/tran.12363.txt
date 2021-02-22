@@ -1,0 +1,1098 @@
+
+
+
+
+
+
+
+
+
+
+R EGULAR PA P E R
+
+
+Navigating futures: Anticipation and food supply chain mapping
+
+
+Andrew Donaldson1 | Jeremy Brice2 | Jane Midgley1
+
+
+1Global Urban Research Unit, School of
+Architecture, Planning and Landscape,
+Newcastle University, Newcastle upon
+Tyne, UK
+2Department of Sociology, London
+School of Economics and Political
+Science, London, UK
+
+
+Correspondence
+Andrew Donaldson
+Email: andrew.donaldson@ncl.ac.uk
+
+
+Funding information
+Economic and Social Research Council
+(Grant number: ES/M003159/1)
+
+
+This paper examines the use of supply chain mapping by actors in the UK food
+
+
+system to anticipate problematic futures. Supply chain mapping as an anticipatory
+
+
+practice is a response to a recent food scare that has reinforced concerns about
+
+
+the safety, quality, and authenticity of foodstuffs circulating within supply chains.
+
+
+Our analysis of this novel set of mapping practices is based around the visibility
+
+
+of the supply chain that they offer and the ways in which this is generated or
+
+
+made to relate to future problems as both objects and processes. Supply chain
+
+
+maps as objects can induce surprise and uncertainty over the future, but they can
+
+
+also demonstrate responsibility for risk or be a means of allocating and assuring
+
+
+accountability for future problems. Looking at mapping as a process highlights
+
+
+both the difficulty of mapping supply chains and what is actually involved in
+
+
+using supply chain maps to give form to potential future problems. We charac-
+
+
+terise both of these processes as navigational, based on creating and reading
+
+
+“signposts” that allow risky food futures to be plotted as trajectories in space and
+time. Supply chain maps describe a process as well as a set of spatial relations,
+
+
+and navigating futures with these maps is a skilled task involving accumulated
+
+
+knowledge about food risks and learning to recognise supply chain maps as
+
+
+encompassing time and space. Our analysis highlights how things not made visi-
+
+
+ble by the map, but present through those involved in the mapping, are as impor-
+
+
+tant in its anticipatory use as the things made visible. Maps are part of a wider
+
+
+process of making sense of risky food chain futures that is filled with uncertainty
+
+
+and power relations.
+
+
+KEYWORD S
+
+
+anticipation, mapping practices, maps, risk, supply chain mapping, UK food system
+
+
+1 | INTRODUCTION – RISKS IN THE PIPELINE
+In a basement room of a Westminster conference centre, a group of food systems experts are gathered for a final feedback
+session on the day's tasks. Academics, policymakers, and regulators, along with food industry managers, consultants, and
+trade body representatives, have been asked to identify and assess a range of threats to the UK's food supply. A representa-
+tive from one of the “big four” supermarkets voices a concern: We have been talking about different problem sources and
+impacts, but we have not been talking about the supply chains that connect them together. Working with supply chains,
+notes the speaker, helps us to understand the complexities of risks in the “pipeline.”
+
+
+Supply chains are the infrastructural form of a globalised food system, generating and governing flows of materials,
+information, and people. As such they are seen as “vital and vulnerable” and requiring protection (Cowen, 2014). But
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The information, practices and views in this article are those of the authors and do not necessarily reflect the opinion of the Royal Geographical Society (with IBG).
+© 2019 Royal Geographical Society (with the Institute of British Geographers).
+
+
+Accepted: 21 November 2019
+
+
+DOI: 10.1111/tran.12363
+
+
+606 | wileyonlinelibrary.com/journal/tran Trans Inst Br Geogr. 2020;45:606–618.
+
+
+
+https://orcid.org/0000-0003-0891-327X
+
+https://orcid.org/0000-0003-0891-327X
+
+https://orcid.org/0000-0003-0891-327X
+
+http://www.wileyonlinelibrary.com/journal/TRAN
+
+http://crossmark.crossref.org/dialog/?doi=10.1111%2Ftran.12363&domain=pdf&date_stamp=2019-12-25
+
+
+
+
+supply chains are not just at risk, they are also generative of risk. While a constantly circulating food‐supply is the key
+function of supply chains, foodstuffs themselves can become risky, freighted with potential problems for food businesses
+and consumers. Is the food free from pathogens or other harmful contaminants? Does it meet specified standards for ingre-
+dients and production processes? Is it what it purports to be (the right species of meat, the correct country of origin)? These
+questions concerning the safety, quality, and authenticity of food in the supply chain are increasingly considered together
+as matters of “food integrity” (Hoorfar et al., 2011) because the problems frequently materialise together. Fraudulent species
+substitution may introduce contaminants because the animals were not intended for the food chain (e.g., veterinary medi-
+cine residues in meat from race horses), or because criminals do not follow hygiene and safety standards. The possibility of
+these problems occurring and impacting on those further down the chain means that food supply chains are conduits for
+uncertain futures: the risks in the pipeline. Other spatial metaphors for food supply chains are intended to demonstrate a
+collective responsibility for food integrity, from production to consumption, such as “farm to fork,” “stable to table” and
+“gate to plate” (Paul, 2012). Maps, especially with the widespread availability of GIS, have been suggested as a way to
+provide improved food chain visibility in order to help manage food risk (Thompson, 2015).
+
+
+Our main aim in this paper is to offer a theoretically informed account of food supply chain maps as a means for
+managing problematic food integrity futures. We analyse supply chain maps as forms of spatial‐temporal imagination and
+visualisation that we characterise as combinations of mapping practices (Kitchin & Dodge, 2007) and anticipatory practices
+aimed at making the future present (Anderson, 2010), describing the different ways in which visibility is connected to futu-
+rity – discursively and in practice. The maps involved have no standard form, sometimes looking like familiar territorial
+maps and other times looking like flow charts of the food production process. However, location is important to these maps
+and new GIS‐based tools are being used to integrate supply chain data via flexible interfaces. Our consideration of food
+and futurity through mapping is not focused on the long‐term trends in food sustainability or alternatives to the current glo-
+bal food system, often called food futures (e.g., Carolan, 2015; Smith et al., 2016). We are concerned with the routine prac-
+tices of making‐present more specific and immediate futures to be acted on within the operations of global food chains. We
+consider expert management of food risk not as a purely scientific or technical matter, but as an anticipatory process of
+“making sense” of complex space‐times and regulatory pressures. Our findings have relevance beyond the practicalities of
+food chain mapping. We draw conclusions that add to those of recent processual approaches on maps as means for engag-
+ing with potential future problems (Haughton & White, 2018; November et al., 2010). By considering the role of space in
+expert sense‐making of food risk we add to work on the spatialities of expert and lay anticipation of food risk (Bingham &
+Lavau, 2012; Everts et al., 2018), which also has relevance for other forms of risk.
+
+
+The empirical work on which this paper is based was conducted in the UK over 2015–2017. We draw on a subset of
+14 interviews conducted in the UK with (1) specialist food supply chain mappers (from commercial consultancies providing
+mapping services to major food businesses), (2) supply chain, food safety, and quality managers working within food busi-
+nesses, and (3) state regulators, as well as participation in three industry training, research, and futures events.1 We did not
+set out to investigate specifically either food supply chains or mapping. Rather, we undertook exploratory research into
+anticipatory activities in the food system and the ways in which these drew on and remade relationships between the vari-
+ous actors, knowledges, and materialities in play.2 Supply chains emerged as a dominant way of conceptualising relation-
+ships within the food system; mapping them, while not a wholly novel practice, was becoming more closely connected to
+ideas about food integrity and problematic futures.
+
+
+2 | ANTICIPATION AND MAPPING
+What we mean by anticipatory practices is grounded in a recent set of discussions around the future in geography and
+related disciplines that have centred on consideration of “the ways in which the future organises social action” (Newhouse,
+2017, p. 504). While acknowledging a longer history of thinking on risk and uncertain futures as problems for government
+(e.g., Beck, 1992), some authors have pointed to the rise in uncertainty over the future as diagnostic of a shift towards
+forms of government that take the radical novelty of the future as a core element of their operations, working under the
+assumed inevitability of emergencies (Anderson, 2010; Dillon, 2007; Posner, 2004). Others have highlighted how tech-
+niques of anticipation can be used to open or close political debate (Donaldson, 2008; Haughton & White, 2018). This
+diverse body of scholarship on established and emerging modes of anticipation serves to highlight the range of situations
+that might involve thinking and making futures, and that those futures are always made and represented in complex assem-
+blages of environments, technologies, imaginaries, bodies, and affects (Groves, 2017). Anderson (2010) has called on geog-
+raphers to denaturalise the future through examination of the ways in which it is brought into being and folded into the
+
+
+DONALDSON ET AL. | 607
+
+
+
+
+
+
+present. Central to his analysis is understanding the experience of the future in the various anticipatory practices – calcula-
+tive, imaginative, or performative – which give it form.
+
+
+As well as the “when” of a possible future, anticipatory practices involve a “where” and a “what” (Groves, 2017;
+November, 2004). These might be the many interrelated places, bodies, and practices through which the future is made
+present and experienced (Groves, 2017, p. 29) or the “wheres” and “whats” of the future anticipated: what might hap-
+pen, what might it involve, where might it happen? If anticipation is the folding of the future into the present, it also
+entails the folding together of spaces and times. For Newhouse (2017), the everyday acts of anticipation involved in
+making a (precarious) living can include acts of geographical imagination, with considerations of other places as well as
+other times. Similarly, Bingham and Lavau's (2012) account of a food safety inspector's visit to a restaurant kitchen
+demonstrates how various forms of anticipation are mixed in an encounter that loosely draws multiple “elsewheres” and
+“elsewhens” together in one place through the work of the inspector, enabled with embodied knowledge, sensory experi-
+ence, regulatory authority, and a sheaf of paperwork. The anticipatory practices we address in this paper involve map-
+ping practices, intended to make other places, as well as other times, present and actionable. Our conceptualisation of
+mapping practices is rooted in Kitchin and Dodge's (2007) account of maps as always in a process of being (re)made.
+This processual perspective follows the argument that maps are made things that also do work in the world, but shifts
+focus from the object of the map to how maps “emerge in context and through a mix of creative, reflexive, playful,
+affective, and habitual practices, affected by the knowledge, experience, and skill of the individual to perform mappings
+and apply them in the world” (Kitchin, 2008, p. 214). Mapping practices are embodied, social, and technical and encom-
+pass not only the acquisition, processing, and presentation of data as maps, but also the articulation of maps in practices
+such as “recognizing, interpreting, translating, and communicating” (Kitchin, 2008, p. 213). So, mapping practices might
+include professional and informal cartography, but they will also include a whole range of other forms of practice and
+geographical imaginary by which people understand space and relationality. These practices exist potentially wholly inde-
+pendently of any physical map, but come into play when a map is made, used, interpreted, and so on; they can all take
+part in ongoing “mappings,” which are “sets[s] of practices aimed at solving spatial problems” (Kitchin & Dodge, 2007,
+p. 337).
+
+
+If, as we have asserted, making futures is a spatial problem, then mapping can be a way of engaging with that prob-
+lem. Maps can be used to elicit and present possible future scenarios in urban or environmental planning (Corner, 1999;
+Forrester et al., 2015). They can be used in various ways to visualise vulnerability and imagine catastrophe by showing
+the spatial reach of a physical hazard (Atkinson et al., 2012) or a deliberate attack (Collier & Lakoff, 2008). However,
+problems can arise owing to the interpretation – much discussed and critiqued – of maps as authoritative representations
+of the world as it is (e.g., Crampton, 2010; Kitchin & Dodge, 2007; Massey, 2005). We risk a perception of maps as
+specifying the possible and the impossible. Haughton and White (2018) note that risk and hazard maps do not communi-
+cate well the uncertainty over the futures they present. They argue that, when viewed through the processual lens, such
+maps should be considered as “debate support tools” in a process of contestation and debate about courses of action.
+November et al. (2010) argue that “mimetic” perspectives, which assume the ontological fixity of the map, hamper antic-
+ipation by relegating risks on maps to a realm of subjectivity in opposition to the map's reality. To demonstrate how
+mapping might become more anticipatory, they develop a processual interpretation of mapping which they call “naviga-
+tional.” This approach decentres the map itself as an object, instead drawing our attention to the practices of navigation
+that the map is implicated in. Navigation entails following signposts that encode relationships between things the naviga-
+tor will encounter as they move through the world. The navigational perspective is not focused solely on the act of fol-
+lowing signposts, but also on how the signposts encode sets of relationships in such a way that they become useful to a
+navigator. Signposts are points in a chain of reference, a series of translations of elements of the world (Latour, 1999)
+that are inscribed into the map. This deambulatory view of mapping does not permit a jump from world to map, but
+demands examination of each step by which the world is transformed into a map and by which the map is then made
+to refer back to other things in the world. Whereas a mimetic view presents a future as already “out there,” in the navi-
+gational mode risks can be thought of as trajectories through the signposts (which should include the references neces-
+sary to trace the emergence of those risky spaces and times). This approach, in which a map becomes an interface, is
+inspired by the widespread adoption of GIS and digital mapping techniques better able to assemble the range of informa-
+tion needed.
+
+
+We use this division, between mimetic mappings as focused on the map as an object and navigational mappings as con-
+cerned with process, to analyse food supply chain mapping as anticipation. We will see that mapping can be used to make
+futures present in this context, but can also be associated with other aspects of governing futures in the food industry. To
+elaborate the context within which these actions occur, the next section provides an overview of food risk governance.
+
+
+608 | DONALDSON ET AL.
+
+
+
+
+
+
+3 | FOOD RISK GOVERNANCE
+Food risk is the anticipation that food integrity (safety, quality, authenticity) might be compromised at some point in the
+future. At the turn of the millennium, the management and governance of food risk in the UK and the EU underwent sig-
+nificant change (Smith et al., 2004), driven by a series of high‐profile food scares – public unravellings of food integrity
+that are often given prominence in excess of the actual level of danger posed to the wider public (Everts et al., 2018; Flynn
+et al., 2003). Uncertainty and anxiety about food, coupled with a growing willingness to question authority on risk matters,
+led to a public distrust of the food sector (Smith et al., 2004). Increasing scientific attention to food risk raised public
+awareness and facilitated the development of a global food risk management regime (Henson & Caswell, 1999). Policy
+responses to this state of affairs have two important dimensions for us: the reinforcement of corporate food retailer power
+and a focus on supply chains (Flynn et al., 2003).
+
+
+Regulators and consumers came to see food integrity as the responsibility of the retailers (Flynn et al., 2003). The estab-
+lishment of Food Standards Agencies in the UK and EU institutionalised both a consumer (trust) dimension in food risk
+regulation and a scientific approach to risk management. Rapid cross‐territorial movements of foodstuffs led to supply
+chains becoming a focus for regulation. Large food retailers had already developed their own system of regulation based
+around private standards and supply chain management, so the state's focus on these and on industry responsibility served
+to reinforce the power of retailers to regulate supply chains (Bourlakis & Weightman, 2004; Flynn et al., 2003; Smith
+et al., 2004). This private regulation anticipates problems by using standards and contracts to reassign accountability and
+responsibility for potential breaches of food integrity (Hinchliffe et al., 2017).
+
+
+The supply chain focus was a recognition of food risk as spatially “transacted” through the increased distance between
+producers and consumers, in terms of both length and complexity of the food chain (Stassart & Whatmore, 2003). For con-
+sumer groups turning to “quality” food, quality often meant shorter supply chains (Goodman, 2003). Despite retailers some-
+times playing to this construction of risk with “buy British” responses to transnational food scares (Jackson, 2015), they
+largely have sought ways to maintain their complex global supply chains. A‐seasonal, “just‐in‐time” models, that prioritise
+delivery on demand and rapid substitution of foodstuffs to ensure a constant and varied supply of food available to con-
+sumers, require complex supply chains with inbuilt redundancy and a global reach. In recognition of this reality, regulatory
+and policy bodies in the UK and Europe used the chain as a metaphor for connectivity and cooperation between producers,
+consumers, and government; better communication up and down the whole chain was recommended to alleviate food risk
+(Jackson et al., 2006; Paul, 2012).
+
+
+Risk within the food industry, as in other professional fields, usually denotes an essentially calculable future that can
+be extrapolated from past events; it assumes predictable continuities based on known causal pathways (Spink et al.,
+2017; see also Anderson (2010); Collier (2008)). It is also strongly associated with an idea of the supply chain as a
+means of organising anticipation. The scientific risk analysis defined by international regulatory frameworks for food
+trade is a global assessment that must be interpreted locally at each point within each supply chain (Henson & Caswell,
+1999). The global standard Hazard Analysis and Critical Control Points (HACCP) process locates points in processes
+that might lead to known food integrity problems and modifies them (Besseling & Montes Saavedra, 2015), but is a
+localised practice that is difficult to apply across a whole supply chain (Sperber, 2005). In the period of regulatory
+change described above, other concepts were sought to reconnect the supply chain. Traceability would enable sources of
+contamination to be found rapidly in an emergency by tracking of foodstuffs back to origin. Transparency was the ideal
+that any firm in a supply chain should have access to any information it required from other firms, to help in assessing
+and managing risk. Not only can these be difficult to realise, but the environment that drives food risk regulation is not
+static: new problems emerge that can prompt further changes in practice. In 2013, horsemeat was deliberately substituted
+for beef in the early stages of the supply chain, which led to it being widely found in products – typically, processed
+ready‐meals such as lasagne – from major supermarkets. This incident developed into a food scare that revived public
+concerns over the global reach and complexity of food chains (Jackson, 2015). Among regulators (both public and pri-
+vate), this brought to the fore new supply‐chain‐focused concepts for considering uncertain futures. “Vulnerability” draws
+attention to events that have not happened before and asks which points in a supply chain leave it open to novel, and
+potentially unmanageable, future problems (Spink et al., 2017; Svensson, 2002). Although this is a break with a vision
+of the future based on the past, it entails the same problems as trying to extend HACCP chain wide: full chains are
+rarely visible to risk managers. Making actionable futures requires knowledge of the present disposition of the chain, so
+vulnerability brings with it a focus on visibility as enabling better anticipation (Elliot, 2014; Spink et al., 2017). Our
+research was conducted as these new ideas for making sense of supply chain futures were worked through into industry
+practice. Mapping was being explored as a means for making supply chains visible in order to anticipate where and
+
+
+DONALDSON ET AL. | 609
+
+
+
+
+
+
+how breaches of food integrity may arise and how they might travel through the chain (the “risks in the pipeline”). We
+analyse this in section 5. However, maps also emerge as a tool or a technique into an existing set of power‐laden com-
+mercial and regulatory relationships, as described above, that affect how they might come to be used. This is what we
+turn to next.
+
+
+4 | MIMETIC MAPPINGS: MAPS AS OBJECTS
+While processual perspectives argue for an analytical decentring of the map, maps are still experienced as things in them-
+selves. In this section we outline three ways in which supply chain maps are experienced as objects, standing‐in in various
+ways for a reality external to the practices in which they are encountered: as a strategic research focus, as a commercial
+product, and as a regulatory device. These three examples share a common referent in the horsemeat incident that was still
+actively driving concern for the future among our respondents. Having been content to prevent or be prepared for recur-
+rence of past problems, managers felt compelled to seek out and act on “unprecedented” threats or vulnerabilities (Inter-
+view: quality manager), with maps a means to make visible their supply chains.
+
+
+The first supply chain map we saw was revealed to a small group of researchers and policymakers as the culmination of
+a presentation on vulnerability to food fraud, such as occurred in the horsemeat case. The work took specific supply chains
+as case studies and mapped them to assist in identifying vulnerabilities. The members of our team who were present were
+waiting to see how this visualisation worked, how it might help make futures present. The map was of the UK beef sector
+and took the form of a series of interlinked boxes depicting stages in beef production from animal rearing to slaughter and
+cutting, processing and retail. Some labelling indicated stages occurring outside of the UK, but there was otherwise no loca-
+tional component to the map. We were hoping for specific locations of major producers, logistics corridors, a sense of
+nodes around abattoirs or ports: a visual sense of the spatial distribution of the network. The detailed locating of food risks
+that was so important to the risk managers we had spoken to was absent. In part, this is because the map had a sectoral as
+opposed to firm or product “focus” (Gardener & Cooper, 2003). It did not represent a specific supply chain, but purported
+to be a best summary of activity in the sector. Such maps might serve a strategic purpose for industry bodies, regulators,
+and companies: to focus attention on emerging issues, to identify the types of risks and risky places that might be present
+in any specific chain, and to identify gaps or oversights in existing policies and practices (Brooks et al., 2017; Knoll et al.,
+2017), but this use was not much evident in our research (see section 5 for one example). Here, our focus is on the effect
+that the map had in that room. We might have been disappointed, but others were surprised. Some because even this level
+of mapping is difficult, others because there was more complexity in the chain than expected, with several stages of pro-
+duction potentially broken up across different sites. This capacity to induce surprise at the complexity of the chain and the
+range of possibilities that must be engaged with was something we encountered again. A group of regulators enthused over
+the impact of a picture of a common food item (a burger or pizza) overlaid with a map showing the range of possible
+ingredients and their global origins, their sudden realisation of the ramifications this could have for food integrity. Supply
+chain maps can open up the future as full of possibility and danger before any form of detailed engagement with them
+takes place.
+
+
+Unlike sectoral maps, firm‐specific supply chain maps show each individual business involved, from the firm commis-
+sioning the map back to the first farm or factory, with all the detailed locational data and network mapping that are absent
+from the sectoral map.3 We encountered these maps in the context of another set of practices: the provision of a commer-
+cial product.
+
+
+So, why supply chain mapping? Well, ultimately the supply chain is both a tool that can be used to react to
+problems … but also a proactive service for a business, you know, recognising where those dangers lie and
+how you perhaps can best avoid them. (Interview: supply chain mapper 1)
+
+
+The above interview opened with an effective sales pitch complete with PowerPoint slides showing visual metaphors of
+risk and emergency management. The presentation of mapping as a service, and a map as an effective anticipatory tool,
+focuses on utility and authority.
+
+
+The thing about horsemeat was if [retailer] had had our system and our transparency it wouldn't have taken
+them two weeks to work out where the horse was coming from. (Interview: supply chain mapper 2)
+
+
+610 | DONALDSON ET AL.
+
+
+
+
+
+
+In this commercial setting, supply chain mapping services use GIS and centre on the provision of a digital user interface
+as well as the overview that a third party, outside of the chain, is able to provide. Again, the map is presented as a simple
+but clever object.
+
+
+We're very, very good administrators with an incredible piece of software. It's a very trite way to describe it if
+you want, but it sort of works. (Interview: supply chain mapper 2)
+
+
+A digital interface can switch between: geographical views that locate sites on a world map; network views that show
+all of the links between sites without spatial data; and hierarchical views that show firms by their position within the pro-
+duction process (as primary producers, processing and manufacturing, logistics intermediaries, etc.). Each is useful for iden-
+tifying different potential problems, such as exposure to environmental or geopolitical threats, critical points of failure
+(where a problem with a single firm could disrupt the whole network), or shortage of suppliers. At present, they are
+focused on supply chain transparency, the desire for end‐to‐end information gathering, such that the client can have greater
+visibility of their supply chain and hence identify potential future problems. The current methodology of the mapping pro-
+viders we encountered is a form of cascading information request. Maps are almost exclusively commissioned by large
+firms close to the retail and consumer end of the chain (such as supermarkets). The mappers contact each of the client's
+suppliers for a particular product and then continue back along the chain, collecting relevant business information (such as
+processing activities and certifications) and details of the backward supply chain contacts until they reach the original pro-
+ducer. Third‐party consultants can provide this visibility because they have no commercial stake in the chain themselves
+and can offer their services to each firm in the chain. The approach is not without problems, which we will discuss in the
+next section, but these are obscured by the presentation of the complete map and digital interface as product, a ready‐made
+solution for detecting and managing problematic futures presented to the client. The impetus to buy mapping services also
+comes from the pressures of the regulatory environment outlined in the previous section:
+
+
+So, [major food manufacturer] started [mapping] because of the increasing NGO activity, looking at their busi-
+ness, horsemeat and so on. They also wanted to look at their supply chain in order to mitigate risk. (Interview
+supply chain mapper 1)
+
+
+The firm in question wanted a map to demonstrate that they were taking responsibility for their supply chain. But miti-
+gating risk can mean passing on responsibility for that risk to other actors in the supply chain, once those actors are made
+visible. The map becomes a means to regulate in relation to future problems.
+
+
+As part of the regulatory framework generated by standards for food integrity, a map can be an object of audit and
+token of assurance. At the level of individual businesses, approaches to making and managing futures are shaped by both
+state and private standards. These set out principles by which potential problems should be identified and managed and the
+forms of auditable evidence required to demonstrate conformance. These standards operate as forms of assurance through
+which businesses demonstrate to their customers that appropriate actions are being taken to identify and manage potentially
+problematic futures. Businesses might be subject to more than one standard, depending on the requirements of their cus-
+tomers. Dominating discussions of standards during our research was the introduction of The British Retail Consortium
+Global Standard for Food Safety Release 7 (BRC7). BRC7 belongs to an internationally equivalent family of standards that
+provide a basis for auditable certification of food integrity procedures and practices. BRC certification was a basic require-
+ment expected by most of the food companies and industry bodies we interviewed during our research. BRC7 introduced a
+requirement for vulnerability assessment for the first time, aimed at addressing food fraud and therefore clearly related to
+the issues emerging from the horsemeat event. Although mapping is not a specific requirement of BRC7, the need to iden-
+tify vulnerabilities was driving the need for greater understanding of supply chains, which many food businesses and con-
+sultants associated with mapping. Some actors were taking a further step and suggesting that a map could be an indicator
+that businesses had sought to gain greater visibility of their supply chains. While for some this desire to see a map from
+their suppliers remained informal, there were suggestions that other food retailers' standards could go beyond BRC7 and
+require suppliers to produce the map at audit.
+
+
+All of these examples take the map to be mimetic, a directly representative visualisation of the real supply chain. Maps
+can be recognised as a creative means for making futures present, but they can also readily become part of the private regu-
+latory system, detailed in the previous section, in which powerful retail end actors aim to make others accountable for risks.
+Presenting maps as a commercial and regulatory requirement serves to reinforce the certainty with which visibility of the
+
+
+DONALDSON ET AL. | 611
+
+
+
+
+
+
+present is equated with knowledge of the future, giving the maps greater ontological authority. This fixation on treating a
+map as if it provides certainty is not, according to one experienced supply chain mapper, helpful:
+
+
+So I could give you a full map of my supply chain. So what? Unless I'm able to flag actually there's a risk
+point here and there's a risk point here, so you could go from having no data to too much data to be able to
+make sense of. (Interview: supply chain mapper 3)
+
+
+Supply chain maps do not come with problematic futures ready visualised; they must be made from the potentially over-
+whelming data made available by the map. In the following section, we present a navigational understanding of mapping
+that shows how food system actors make maps and make sense of supply chains and futures together through that map-
+ping.
+
+
+5 | NAVIGATIONAL MAPPINGS: MAPPING AS PROCESS
+
+
+The problem with supply chain mapping is it's a vogue area but actually it doesn't work because a map is just
+a map. It's how do you navigate it? (Interview: supply chain mapper 3)
+
+
+The above quote completes the interviewee's critique of the supply chain map as an object and establishes the need to
+understand how mapping might be engaged with in a more processual way. Navigation is not only a useful conceptual term
+for a processual theory of mapping, it is also a term that can be used within the food industry to draw attention to the prac-
+tices that make mapping operate as an anticipatory practice. In this section we examine three aspects of navigational map-
+ping practices as they pertain to making futures: the assembly of the data points for a supply chain map, the skilful reading
+of those as signposts to risk trajectories, and the role of model maps in establishing visibility as enabling anticipation.
+
+
+The first aspect is the production of a firm‐specific supply chain map, described in the previous section as a process of
+cascading information gathering. The extent of many firms' knowledge of their supply chains is the legal requirement for
+one link up and one link down traceability of food ingredients (that is, recording your immediate supplier and customer for
+each consignment). Firms find going beyond this “very, very difficult to do, very difficult” (Interview: compliance manager
+1). This is one reason for the emergence of third‐party mappers and the cascading approach to mapping. The cascading
+approach itself is a form of navigation from site to site, following the signposts provided at each stage, to work through the
+chain. Assembling a picture of supply chain topology in this manner is still difficult. Some firms' record keeping may be
+less detailed than that of others. Some firms and some sites may operate under more than one name, so it can take addi-
+tional time to recognise these as a single point in the chain (and possibly a risky point, if they handle different foodstuffs
+that might cross‐contaminate). These problems make a chain harder to visualise and hinder navigation. The nature of some
+supply chain spaces generates further opacity. Cidell (2015) highlights “fire spaces” (Law & Mol, 2001) in supply chains
+that flicker in and out of existence, both absent and present. For Cidell, this results from the exigencies of an outsourcing
+economy: firms do not want management responsibility and are happy to use contractors that come and go. In the case of
+food chains, it can also result from the prevalence of agents who buy ingredients from multiple, changing sources, sell bulk
+mixed batches, and guard their contacts' details out of commercial necessity. Sometimes there is simply no reliable knowl-
+edge about the source; an example was given of mangoes grown in India, left at a crossroads for collection by donkey cart.
+For these reasons, supply chains take time to map and might always have gaps. Chains are also dynamic, firms go out of
+business and new ones emerge, relationships change for many reasons. One interviewee described a map as a “snapshot”
+(Interview: supply chain mapper 3), a moment in time in a chain. Given that a supply chain can take up to a year to map,
+a better analogy might be a blurred long‐exposure. So, an initial supply chain map is a product of a difficult navigational
+process with its own uncertainties. The contingencies of the mapping process are obscured when the map is presented as a
+tool or auditable object providing mimetic visibility of the chain.
+
+
+The second aspect is the matter of signposts. November et al. (2010) describe navigation as a process of following sign-
+posts that chart a safe path through the world. The initial mapping, as described above, assembles the chain by treating
+each site/firm as a signpost to the next step. The signposts needed to make futures present are another layer of the mapping.
+The business of following them is not as strictly calculative as the navigational metaphor might suggest. An instructive
+encounter involved meeting Deb, an experienced technical manager for a food retailer, on a meat‐species assurance training
+course. We practised assessing the risk of species adulteration from different suppliers using a series of grid‐based tools.
+
+
+612 | DONALDSON ET AL.
+
+
+
+
+
+
+Each grid plotted one risk factor on the X axis and one on the Y axis, with low/medium/high ratings, thus giving nine levels
+of risk for two combined factors. The first grid had “degree of comminution of product” – how finely ground the meat was
+– on the X axis and “value of product” on the Y axis. Deb was hesitant to share her scores, having spent a lot of time
+debating whether to elevate certain risk scores due to factors not on the grid – for instance, because one product was pro-
+cessed in a cutting plant known to handle multiple meat species. The second grid caused Deb further concerns. It charted
+complexity of machinery (more complex cutting and processing machinery is more difficult to clean) against the number of
+species processed and the rigour of their separation. One plant was not BRC certified and the supplier had not provided
+any information on their segregation methods. In reality, Deb would never approve an uncertified supplier, or one who had
+provided incomplete information on their operations. Another problem supplier processed multiple species with only a 15‐
+minutes clean down between runs – though it was only dealing with large cuts of meat. But Deb pointed out that the sup-
+plier had not provided information on their BRC certification status. Combined with the plant's questionable species segre-
+gation practices and the fact that the supplier was based overseas, the absence of a BRC certificate elevated the plant to
+critical risk status in her judgement; she would either de‐list the supplier or send in the auditors immediately. Deb chafed
+at the limitations of the grid method and the instructor agreed with her judgements, explaining that he had deliberately
+included extra information in order to remind us that there were always other factors to be taken into account.
+
+
+This encounter highlighted the material complexities of what needs to be mapped: the processes of disassembling and
+assembling of foodstuffs throughout the chain. It also evinced the role of skilled experience in navigating risks. Even
+though they may use pre‐formatted tools for risk assessment, managers will go with their guts. The type of judgement Deb
+brought to bear is summed up in a conversation between two compliance managers (Interview: CM2 and CM3) for a major
+food retailer discussing how their judgement of risk was based on consciously researching past issues, but also something
+else:
+
+
+CM2: And then our own industry knowledge. It's your gut, you know?
+CM3: Yes, a lot of it is just that, it's just gut feel. You know that supplier, you work with them, you know what their
+
+
+business is about…You just get a feel.
+
+
+The “gut” recurs as a metaphor for expertise that is not “codified” (Interview: senior director), but consists of sedi-
+mented, embodied experience gained through years of work and rendered implicit. Grids are a navigational tool, a way of
+triangulating risk signposts, but sometimes the gut takes precedence. Deb only decided the grid was a useful tool because it
+agreed with her own conclusions. As with Bingham and Lavau's (2012) inspector, futures are made based on understanding
+in the moment; there is a history involved, but the archive is personal and embodied, not a database of statistics. There is a
+paper (or digital) archive but, in reading signposts, the “body of evidence” that matters is something more.
+
+
+Another type of signpost is evident in Deb's focus on the physical location of certain suppliers. This also concerned our
+two compliance managers:
+
+
+CM2: Where they're based as well.
+CM3: Where they're based. Yes, location is a huge thing.
+CM2: Which country they're manufacturing in, howmuch knowledge you have of their supply chain.
+
+
+Location matters because local standards might be loose; distant sites mean you cannot personally audit them as easily,
+you will never get matters verified to your own satisfaction. Risk managers can control what happens at their own sites to
+their satisfaction, so the bigger risk is that bad futures may happen because of something that someone else did, somewhere
+else in the supply chain. Risky foodstuffs are risky because of where they have been: differentiated risk is a matter of
+“same food, different environment” (interview: state regulator). This involves a combination of factors tied to both location
+and the practices at that location, all of which can provide signposts that allow a trajectory of risk to be plotted, through
+and between sites.
+
+
+The third aspect of navigation is the way in which visibility and anticipation are linked through the incorporation of a
+sense of time into supply chain mapping. The movements of foodstuffs in space, through and between sites, are also move-
+ments of foodstuffs in time. Movements take time to happen and this opens up the possibility of intervention:
+
+
+Because of our geographic location here in the UK, it takes six to eight weeks for a product to move from
+China to here. But Australia gets that product within two weeks. … So, once we have the Australian data
+coming in, issues emerging out of China will be flagged in Australia four to six weeks before that ingredient
+arrives in the UK. (Interview: supply chain mapper 3)
+
+
+DONALDSON ET AL. | 613
+
+
+
+
+
+
+Maps that incorporate problematic ingredients can then be used to determine when and where a problem is likely to
+arise. This time dimension is taken into account through a particular form taken by supply chain maps. Figure 1 shows a
+model supply chain taken from a document that provides guidance on identifying the potential for deliberate attacks on
+food integrity. Model maps are further abstracted than the sectoral map we discussed in section 4, but are more likely to be
+encountered in policy documents, practitioner guides, and academic textbooks. The map has two key features: it shows that
+supply chain maps are process maps, documenting different stages in food production as well as the movements between
+them, and it shows the arrow of time for that process. The focus on process, on a causal sequence for possible problems,
+has been central to thinking about food integrity since the introduction of HACCP. The various futures in which food integ-
+rity is compromised belong to a catalogue of possibilities (in documentation and personal experience), covering different
+aspects of production and ingredients. They are understood in terms of cause and effect: the various factors that can pro-
+duce each undesirable outcome are worked backward in sequence with the aim of finding a root cause. These factors can
+be mapped onto the production process and therefore onto the supply chain. There is a model of risk trajectory that fits a
+model supply chain mapping.
+
+
+The causal direction for risk trajectories can be seen in the “upstream” and “downstream” labels. Foodstuffs flow from
+upstream to downstream and the further downstream you are from a supplier, the less certain you are of their practices and
+the potential risk they pose. This is the problem that improving supply chain visibility is supposed to solve. Although the
+arrow of time suggests a relentless downstream movement of risk‐carrying foodstuff, the space‐time of supply chains, once
+understood as navigable, is more malleable. Understanding the space‐time as navigable means being able to identify sign-
+posts and recognise future problems as having trajectories through the supply chain. It is a speculative mapping (Corner,
+1999) that uses the map to explore different courses of action. With this understanding, the trajectories of potential futures
+can be modified at different points. The last quote from our supply chain mapper showed that downstream actors benefit
+from a time lag in emerging issues that have to travel through the chain. The corollary of this is that action can be taken
+further up the chain to mitigate identified risks before they emerge. Downstream actors can opt, as Deb suggested, to drop
+risky suppliers or to force them to comply with new procedures or standards. Aside from helping build this understanding
+of navigation, model and sectoral maps might also enable regulators and supply chain managers to identify certain cate-
+gories of upstream business or sites that might cause problems and take action on a larger scale. (This was beginning to
+
+
+FIGURE 1 A model supply chain based on BSI (2017).
+
+
+614 | DONALDSON ET AL.
+
+
+
+
+
+
+happen in relation to the agents noted above as creating uncertainties – new standards were being put in place to regularise
+their practices). In the supply chain model of risky futures, pushing the problem back (“upstream”) in space is the same as
+pushing it back in time, further enhancing the speculative capacity afforded by these mappings.
+
+
+Comparing these three navigational readings of mapping to the previous examples of the map as object draws out some
+important points about visibility. We have shown that mapping a supply chain is a process of navigation not an authorita-
+tive memetic overview. Uncertainties are embedded in the mapping as a result of the dynamic nature of the chain. At face
+value, this undermines the objective utility and authority of the map seen in the previous section. However, making futures
+present via the map does not rely only on what is visible. It involves the connection of signposts available from the map
+and draws on a wider understanding of possible problems, often characterised as tacit or gut reactions (which can be hidden
+behind a numerical risk score). This process is underpinned by an understanding of supply chain maps that is present in the
+most basic of them: the supply chain as a navigable space‐time. While a full map for a specific supply chain might not ade-
+quately capture the dynamics of the chain, it does not, as Massey (2005, p. 108) suggests some maps do, fix a space‐time.
+A supply chain map as a process map contains within it the possibility that the process can be modified. This, we have
+argued, is the very reason that anticipation corresponds with visibility. The most basic model supply chain maps help risk
+managers recognise a supply chain map and know what to do with it, how to integrate their own knowledge and experience
+into it and how to think with a supply chain map in a navigational way. The practices of identifying signposts and using
+them to navigate risks that we outlined in this section exemplify the skills needed to navigate such a map. But, if the skilful
+practice involved in making futures from supply chains is set aside, the same correspondence between supply chain visibil-
+ity and anticipation expressed by supply chain maps that enables their navigational use also underpins their use as means
+of regulation and control as outlined in the previous section. We can also, in retrospect, see this same correspondence at
+work in the response of academics and regulators to the first supply chain map we saw.
+
+
+6 | CONCLUDING DISCUSSION
+Our research revealed that the process of food supply chain mapping as a means for anticipating risks to food integrity is
+not as straightforward as the food industry narrative in which maps provide better supply chain visibility which leads, in
+turn, to better anticipation. Through adopting a processual perspective on maps, we have highlighted the many mapping
+practices involved in anticipatory supply chain mappings. Here we draw together insights from considering maps as both
+objects and processes. The analysis highlights the speculative uses maps may be put to in navigational processes, and the
+discourses and practices of power that maps‐as‐objects can help reinforce or modify.
+
+
+To those charged with managing food integrity, problematic and uncertain futures are seen to emerge from the spatial
+complexity of the present: the global reach and interconnectedness of supply chains. The various material transformations
+that might lead to bad futures – e.g., contamination by pathogens or other substances, adulteration with other ingredients,
+both deliberate and accidental – are important in providing a baseline for assessing risk. However, the focus is on the
+locations that problems might emerge and the routes by which they can travel through, and be further complicated by,
+the chain. These trajectories are the always‐imminent risks in the pipeline. Food risk managers consider maps to provide
+the visibility of the supply chain needed to better identify possible problems, especially vulnerabilities in distant parts of
+the chain. We have argued that the fact that supply chain maps always present the chain as a process provides the con-
+nection between visibility and anticipation that underpins maps articulated as both objects and processes. This is also
+evident in the observed capacity of maps showing complex chains to induce surprise and anxiety over the many ways in
+which problems might emerge. From a processual, navigational perspective, this connection opens up the possibility of
+speculative mappings: the identification of risky sites and routes by which risks might be “transacted,” based on the
+signposts inscribed in the map. However, the mimetic view of the map‐as‐object assumes a direct leap between the
+world and the map's visualisation of it. Simply having the map provides more certainty. When articulating maps in this
+way our interviewees did not talk about using the maps to determine risk, but to manage it. Visibility meant knowing
+where responsibility for food integrity and accountability for future breaches could be allocated. The map was not only
+about making the supply chain visible in this way, but also about having visible evidence that a firm had acted responsi-
+bly by considering their supply chain as a source of future problems. Although mappers talk about transparency, they
+mean how well they can map a chain, not that data are accessible to all. Visibility is not shared and depends on who
+has the map and on their position in the chain. These are important points: mapping was proposed as a means of uncov-
+ering problematic futures, especially unprecedented futures or vulnerabilities that could emerge as a result of supply
+chain processes, but it might also be used to extend the authority of the already‐powerful food chain actors who exert
+control through obligatory standards.
+
+
+DONALDSON ET AL. | 615
+
+
+
+
+
+
+Maps‐as‐objects obscure both the mapping into visibility and the ongoing mapping of making futures present. The
+objective authority of supply chain maps was challenged by an examination of the processes behind them. The collection
+of mapping data was shown to be a messy process of navigation in itself. Supply chains are dynamic and often difficult to
+follow due to the impermanence of certain links. An important point to emphasise here is that the visibility of an initial
+mapping is a product not only of the skills and resources of the mappers collecting data about the locations and food‐pro-
+cessing activities of firms in the chain, but also of those who provide data about their own practices and connections. From
+this perspective, maps do not offer certainties but do permit speculative engagements with the chain. These mappings can
+be undertaken whether the map is sectoral, firm, or product focused. Speculative mappings use the information available in
+the map as signposts to possible points of emergence and trajectories of risks. Our research showed that they also involve
+things that are not made visible by the map: absences of information and the embodied knowledge and experience of risk
+managers. This finding further problematises the understanding of maps as enabling anticipation by providing visibility.
+This is why we characterised the use of maps as part of a process of making sense of food risk. If we take our findings
+relating to maps as objects and processes together, we see that speculative mappings of risk and vulnerability, drawing on
+what is visible and not visible, may also include in them questions of responsibility and accountability: who should act and
+how they should act.
+
+
+The new digital supply chain maps that were being developed as commercial products very much took the form sug-
+gested by November et al. (2010) as better for anticipation, but that is not all that is involved. As a generalisable point from
+our work, we can say that mapping practices take on anticipatory function through joining larger assemblages of concepts,
+practices, and bodies with anticipatory capacities (Groves, 2017). This is of particular pertinence to geographers developing
+mapping techniques as means of engaging with aspects of food chain risk (e.g., Hocknell et al., 2018). In our specific case,
+this means that food system firms and regulators need to continue to recognise and value the embodied skills and experi-
+ence of those tasked with identifying problematic food chain futures, and also aim to understand how these capacities relate
+to mapping as it becomes a more established practice. More communication between those making initial mappings and
+those using maps to anticipate might be helpful in understanding the uncertainties involved and the data required. In other
+anticipatory uses of maps, it might mean that attention needs to be paid to the other knowledges and understandings in
+play. Mapping as a way of engaging with possible futures is not just a matter of what is being made visible or how it is
+being made visible; it is also about the relationship of spatiality and futurity. In our case this already exists through under-
+standings of supply chain complexity and process; in others, it might be multiple or contested (Haughton & White, 2018).
+We suggest that the navigational approach, adapted to take into consideration the skills and knowledge involved in navigat-
+ing, will be a useful tool as it draws attention to the many steps by which maps and futures are made present together.
+
+
+Finally, our analysis of supply chain mapping as anticipation adds to understandings of the spatiality of food risk. Maps
+increase the distance and time (as the two are linked through supply chains) over which risky futures can be grappled with.
+While this fits a narrative of control, through making firms accountable or making longer‐range risk analyses possible, it is
+also diagnostic of a situation that lacks control and is rife with uncertainty. Consumers experience food risk as spatially dif-
+ferentiated (Everts et al., 2018) and feel anxiety as they seek to manage food risk literally “beyond their control” (Jackson,
+2015, p. 193). Food risk managers within supply chains, as we have shown, and at the interface of food safety and con-
+sumption (Bingham & Lavau, 2012) also have to make sense of spaces and futures that are outside of their control. On the
+one hand, there is a commonality of experience in the need to “navigate” complicated “riskscapes” that can help to concep-
+tually flatten the analysis of expert and lay understandings of food risk, and enable us to counter hierarchies of expertise
+(Everts et al., 2018). On the other hand, we have demonstrated here a distinction in the experts' deployment of a technique
+– mapping – that makes material and visible the need to connect and hold apart certain spaces and futures. In doing so, it
+facilitates the spatial distribution of accountability and responsibility for food risk. Though this is tied into particular dis-
+courses of supply chains as generative of risk, it is more than a discursive exercise of power; it is a set of material and
+knowledge practices that can remake relationships in the food chain as they make futures present. We suggest that this find-
+ing invites further examination of the specific anticipatory practices and techniques – including mapping – by which risky
+food futures are made present and by which responsibility and accountability, across industry and consumer alike, are spa-
+tially distributed. This focus on the spatial distribution of risk and accountability also provides a basis for critical analysis
+in situations other than food geographies where connections are being made between mapping and futurity.
+
+
+ACKNOWLEDGEMENTS
+
+
+This research was conducted with funding from the Economic and Social Research Council ES/M003159/1. We would like
+to thank three anonymous reviewers for their comments.
+
+
+616 | DONALDSON ET AL.
+
+
+
+
+
+
+DATA AVAILABILITY STATEMENT
+
+
+The data that support the findings of this study are openly available in UK Data Service Reshare at http://doi.org/10.5255/
+UKDA-SN-852796.
+
+
+ORCID
+
+
+Andrew Donaldson https://orcid.org/0000-0003-0891-327X
+
+
+ENDNOTES
+1 Occupational identifiers are used for interviewees, pseudonyms for ethnographic accounts. The project overall involved 50 interviews, seven site
+visits, and eight research and training events. Interviewees were recruited through existing contacts, snowballing, and events attended to give
+coverage of: supply chain actors from production to retail; regulators and policymakers; and those supplying services such as mapping.
+
+
+2 Alongside the mapping and risk assessment detailed in this paper, we also encountered horizon scanning, emergency planning (by firms and
+regulators), exercise staging, HACCP, and various forms of surveillance and certification/audit.
+
+
+3 An example sectoral map can be found in Brooks et al (2017); firm‐specific maps contain confidential commercial information and we were not
+given permission to record or reproduce the brief examples we saw.
+
+
+REFERENCES
+
+
+Anderson, B. (2010). Preemption, precaution, preparedness: Anticipatory action and future geographies. Progress in Human Geography, 34, 777–
+798. https://doi.org/10.1177/0309132510362600
+
+
+Atkinson, P., Clark, M. J., Lewis, H. G., Bevington, J., Murdock, A., & Branson, J. (2012). State‐of‐the‐art in risk mapping. London, UK:
+Government Office for Science.
+
+
+Beck, U. (1992). Risk society. London, UK: Sage.
+Besseling, P., & Montes Saavedra, E. (2015). Hazard and risk analysis in food processing (Second Edition): New approaches towards HACCP
+
+
+and food safety. CreateSpace Independent Publishing Platform.
+Bingham, N., & Lavau, S. (2012). The object of regulation: Tending the tensions of food safety. Environment and Planning A: Economy and
+
+
+Space, 44, 1589–1606. https://doi.org/10.1068/a44394
+Bourlakis, M., & Weightman, P. W. H. (2004). Food Supply Chain Management. Oxford, UK: Blackwell.
+Brooks, S., Elliott, C. T., Spence, M., Walsh, C., & Dean, M. (2017). Four years post‐horsegate: An update of measures and actions put in place
+
+
+following the horsemeat incident of 2013. Science of Food, 1, 5. https://doi.org/10.1038/s41538-017-0007-z
+BSI. (2017). PAS 96 Guide to protecting and defending food and drink from deliberate attack. London, UK: BSI Standards Limited.
+Carolan, M. (2015). Adventurous food futures: Knowing about alternatives is not enough, we need to feel them. Agriculture and Human Values,
+
+
+33, 141–152. https://doi.org/10.1007/s10460-01509629-4
+Cidell, J. (2015). Distribution centres as distributed places: Mobility, infrastructure, and truck traffic. In T. Birtchnell, S. Savitzky & J. Urry
+
+
+(Eds.), Cargomobilities moving materials in a global age (pp. 17–34). London, UK: Routledge.
+Collier, S. J. (2008). Enacting catastrophe: Preparedness, insurance, budgetary rationalization. Economy and Society, 37, 224–250. https://doi.org/
+
+
+10.1080/03085140801933280
+Collier, S. J., & Lakoff, A. (2008). Distributed preparedness: The spatial logic of domestic security in the United States. Environment and Plan-
+
+
+ning D: Society and Space, 26, 7–28. https://doi.org/10.1068/d446t
+Corner, J. (1999). The agency of mapping: Speculation, critique and invention. In D. Cosgrove (Ed.), Mappings (pp. 231–252). London, UK:
+
+
+Reaktion books.
+Cowen, D. (2014). The deadly life of logistics: Mapping violence in global trade. Minneapolis, MN: University of Minnesota Press.
+Crampton, J. (2010). Mapping: A critical introduction to cartography and GIS. Oxford, UK: Wiley‐Blackwell.
+Dillon, M. (2007). Governing through contingency: The security of biopolitical governance. Political Geography, 26, 41–47. https://doi.org/10.
+
+
+1016/j.polgeo.2006.08.003
+Donaldson, A. (2008). Biosecurity after the event: Risk politics and animal disease. Environment and Planning A: Economy and Space, 40,
+
+
+1552–1567. https://doi.org/10.1068/a4056
+Elliot, C. (2014). Elliot review into the integrity and assurance of food supply networks – Final report. London, UK: TSO.
+Everts, J., Jackson, P., Meah, A., & Viehoff, V. (2018). Negotiating the riskscapes of convenience food. Erdkunde, 72, 171–184. https://doi.org/
+
+
+10.3112/erdkunde.2018.02.08
+Flynn, A., Marsden, T., & Smith, E. (2003). Food regulation and retailing in a new institutional context. The Political Quarterly, 74, 38–46.
+
+
+https://doi.org/10.1111/1467-923X.00510
+Forrester, J., Cook, B., Bracken, L., Cinderby, S., & Donaldson, A. (2015). Combining participatory mapping with Q‐methodology to map stake-
+
+
+holder perceptions of complex environmental problems. Applied Geography, 56, 199–208. https://doi.org/10.1016/j.apgeog.2014.11.019
+
+
+DONALDSON ET AL. | 617
+
+
+
+http://doi.org/10.5255/UKDA-SN-852796
+
+http://doi.org/10.5255/UKDA-SN-852796
+
+https://doi.org/10.1177/0309132510362600
+
+https://doi.org/10.1068/a44394
+
+https://doi.org/10.1038/s41538-017-0007-z
+
+https://doi.org/10.1007/s10460-01509629-4
+
+https://doi.org/10.1080/03085140801933280
+
+https://doi.org/10.1080/03085140801933280
+
+https://doi.org/10.1068/d446t
+
+https://doi.org/10.1016/j.polgeo.2006.08.003
+
+https://doi.org/10.1016/j.polgeo.2006.08.003
+
+https://doi.org/10.1068/a4056
+
+https://doi.org/10.3112/erdkunde.2018.02.08
+
+https://doi.org/10.3112/erdkunde.2018.02.08
+
+https://doi.org/10.1111/1467-923X.00510
+
+https://doi.org/10.1016/j.apgeog.2014.11.019
+
+
+
+
+Gardener, J. T., & Cooper, M. C. (2003). Strategic supply chain mapping approaches. Journal of Business Logistics, 24, 37–64. https://doi.org/
+10.1002/j.2158-1592.2003.tb00045.x
+
+
+Goodman, D. (2003). The quality ‘turn’ and alternative food practices: Reflections and agenda. Journal of Rural Studies, 19, 1–7. https://doi.org/
+10.1016/S0743-0167(02)00043-8
+
+
+Groves, C. (2017). Emptying the future: On the environmental politics of anticipation. Futures, 92, 29–38. https://doi.org/10.1016/j.futures.2016.
+06.003
+
+
+Haughton, G., & White, I. (2018). Risky spaces: Creating, contesting and communicating lines on environmental hazard maps. Transactions of
+the Institute of British Geographers, 43, 435–448. https://doi.org/10.1111/tran.12227
+
+
+Henson, S., & Caswell, J. (1999). Food safety regulations: An overview of contemporary issues. Food Policy, 24, 589–603. https://doi.org/10.
+1016/S0306-9192(99)00072-X
+
+
+Hinchliffe, S., Bingham, N., Allen, J., & Carter, S. (2017). Pathological lives: Disease, space and biopolitics. Oxford, UK: Wiley‐Blackwell.
+Hocknell, S., Hughes, A., Roe, E., Keevil, B., Wrigley, N., & Lowe, M. (2018). Corporate food retailers, meat supply chains and the responsi-
+
+
+bilities of tackling antimicrobial resistance. Retrieved from https://eprints.soton.ac.uk/id/eprint/426402
+Hoorfar, J., Jordan, K., Butler, F., & Prugger, R. (2011). Food chain integrity: A holistic approach to food traceability, safety, quality and
+
+
+authenticity. Sawston, UK: Woodhead Publishing.
+Jackson, P. (2015). Anxious appetites: Food and consumer culture. London, UK: Bloomsbury.
+Jackson, P., Ward, N., & Russell, P. (2006). Mobilising the commodity chain concept in the politics of food and farming. Journal of Rural Stud-
+
+
+ies, 22, 129–141. https://doi.org/10.1016/j.jrurstud.2005.08.008
+Kitchin, R. (2008). The practices of mapping. Cartographica, 43, 211–215. https://doi.org/10.3138/carto.43.3.211
+Kitchin, R., & Dodge, M. (2007). Rethinking maps. Progress in Human Geography, 31, 331–344. https://doi.org/10.1177/0309132507077082
+Knoll, S., Marques, C. S. S., Liu, J., Zhong, F., Padula, A. D., & Barcellos, J. O. J. (2017). The Sino‐Brazilian beef supply chain: Mapping and
+
+
+risk detection. British Food Journal, 119, 164–180. https://doi.org/10.1108/BFJ-07-2016-0346
+Latour, B. (1999). Pandora's hope. Cambridge, MA: Harvard University Press.
+Law, J., & Mol, A. (2001). Situating technoscience: An inquiry into spatialities. Environment and Planning D: Society and Space, 19, 609–621.
+
+
+https://doi.org/10.1068/d243t
+Massey, D. (2005). For space. London, UK: Sage.
+Newhouse, L. S. (2017). Uncertain futures and everyday hedging in a humanitarian city. Transactions of the Institute of British Geographers, 42,
+
+
+503–515. https://doi.org/10.1111/tran.12188
+November, V. (2004). Being close to risk: From proximity to connexity. International Journal of Sustainable Development, 7, 273–286. https://
+
+
+doi.org/10.1504/IJSD.2004.005958
+November, V., Camacho‐Hubner, E., & Latour, B. (2010). Entering a risky territory: Space in the age of digital navigation. Environment and
+
+
+Planning D: Society and Space, 28, 581–599. https://doi.org/10.1068/d10409
+Paul, K. T. (2012). The Europeanization of food safety: A discourse‐analytical approach. Journal of European Public Policy, 19, 549–566.
+
+
+https://doi.org/10.1080/13501763.2011.614136
+Posner, R. (2004). Catastrophe: Risk and response. Oxford, UK: Oxford University Press.
+Smith, E., Marsden, T., Flynn, A., & Percival, A. (2004). Regulating food risks: Rebuilding confidence in Europe's food? Environment and Plan-
+
+
+ning C: Government and Policy, 22, 543–567. https://doi.org/10.1068/c33m
+Smith, J., Lang, T., Vorley, B., & Barling, D. (2016). Addressing policy challenges for more sustainable local‐global food chains: Policy frame-
+
+
+works ad possible food “futures”. Sustainability, 8, 299. https://doi.org/10.3390/su8040299
+Sperber, W. H. (2005). HACCP does not work from farm to table. Food Control, 16, 511–514. https://doi.org/10.1016/j.foodcont.2003.10.013
+Spink, J., Ortega, D. L., Chen, C., & Wu, F. (2017). Food fraud prevention shifts the food risk focus to vulnerability. Trends in Food Science &
+
+
+Technology, 62, 215–220. https://doi.org/10.1016/j.tifs.2017.02.012
+Stassart, P., & Whatmore, S. J. (2003). Metabolising risk: Food scares and the un/re‐making of Belgian Beef. Environment and Planning A:
+
+
+Economy and Space, 35, 449–462. https://doi.org/10.1068/a3513
+Svensson, G. (2002). A conceptual framework of vulnerability in firms' inbound and outbound logistics flows. International Journal of Physical
+
+
+Distribution & Logistics Management, 32, 110–134. https://doi.org/10.1108/09600030210421723
+Thompson, S. (2015, January 16). From trough to table: Mapping the food chain saves lives. The Guardian. Retrieved from https://www.thegua
+
+
+rdian.com/sustainable-business/2015/jan/16/trough-table-mapping-food-supply-chain
+
+
+How to cite this article: Donaldson A, Brice J, Midgley J. Navigating futures: Anticipation and food supply chain
+mapping. Trans Inst Br Geogr. 2020;45:606–618. https://doi.org/10.1111/tran.12363
+
+
+618 | DONALDSON ET AL.
+
+
+
+https://doi.org/10.1002/j.2158-1592.2003.tb00045.x
+
+https://doi.org/10.1002/j.2158-1592.2003.tb00045.x
+
+https://doi.org/10.1016/S0743-0167(02)00043-8
+
+https://doi.org/10.1016/S0743-0167(02)00043-8
+
+https://doi.org/10.1016/j.futures.2016.06.003
+
+https://doi.org/10.1016/j.futures.2016.06.003
+
+https://doi.org/10.1111/tran.12227
+
+https://doi.org/10.1016/S0306-9192(99)00072-X
+
+https://doi.org/10.1016/S0306-9192(99)00072-X
+
+https://eprints.soton.ac.uk/id/eprint/426402
+
+https://doi.org/10.1016/j.jrurstud.2005.08.008
+
+https://doi.org/10.3138/carto.43.3.211
+
+https://doi.org/10.1177/0309132507077082
+
+https://doi.org/10.1108/BFJ-07-2016-0346
+
+https://doi.org/10.1068/d243t
+
+https://doi.org/10.1111/tran.12188
+
+https://doi.org/10.1504/IJSD.2004.005958
+
+https://doi.org/10.1504/IJSD.2004.005958
+
+https://doi.org/10.1068/d10409
+
+https://doi.org/10.1080/13501763.2011.614136
+
+https://doi.org/10.1068/c33m
+
+https://doi.org/10.3390/su8040299
+
+https://doi.org/10.1016/j.foodcont.2003.10.013
+
+https://doi.org/10.1016/j.tifs.2017.02.012
+
+https://doi.org/10.1068/a3513
+
+https://doi.org/10.1108/09600030210421723
+
+https://www.theguardian.com/sustainable-business/2015/jan/16/trough-table-mapping-food-supply-chain
+
+https://www.theguardian.com/sustainable-business/2015/jan/16/trough-table-mapping-food-supply-chain
+
+https://doi.org/10.1111/tran.12363
+
+

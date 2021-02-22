@@ -1,0 +1,8363 @@
+
+
+
+
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+Available online 10 September 2020
+0957-4174/© 2020 Elsevier Ltd. All rights reserved.
+
+
+Pythagorean fuzzy linear programming technique for multidimensional 
+analysis of preference using a squared-distance-based approach for multiple 
+criteria decision analysis 
+
+
+Ting-Yu Chen a,b,c,* 
+
+
+a Department of Industrial and Business Management, College of Management, Chang Gung University, Taiwan 
+b Graduate Institute of Business and Management, College of Management, Chang Gung University, Taiwan 
+c Department of Nursing, Linkou Chang Gung Memorial Hospital, Taiwan   
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Pythagorean fuzzy (PF) set 
+Multiple criteria decision analysis 
+Linear programming technique for 
+multidimensional analysis of preference 
+(LINMAP) 
+Squared Euclidean distance (SED)-based 
+outranking approach 
+SED-based dominance index 
+
+
+A B S T R A C T   
+
+
+Pythagorean fuzzy (PF) sets involving Pythagorean membership grades can befittingly manipulate inexact and 
+equivocal information in real-life problems involving multiple criteria decision analysis (MCDA). The linear 
+programming technique for multidimensional analysis of preference (LINMAP) is a prototypical compromising 
+model, and it is widely used to carry on decision-making problems in many down-to-earth applications. In 
+LINMAP, the employment of squares of Euclidean distances is a significant technique that is an effective 
+approach to fit measurements. Taking the advantages of a newly developed Euclidean distance model on the 
+grounds of PF sets, this paper initiates a beneficial concept of squared PF Euclidean distances and studies its 
+valuable and desirable properties. This paper aims to establish a squared Euclidean distance (SED)-based out-
+ranking approach and develop a novel PF LINMAP methodology for handling an MCDA problem under PF un-
+certainty. In the SED-based outranking approach, a novel SED-based dominance index is proposed to reflect an 
+overall balance of a PF evaluative rating between the connection and remotest connection with positive- and 
+negative-ideal ratings, respectively. The properties of the proposed index are also analyzed to exhibit its effi-
+caciousness in determining the dominance relations for intracriterion comparisons. Moreover, this paper derives 
+the comprehensive dominance index to determine the overall dominance relation and defines measurements of 
+rank consistency for goodness of fit and rank inconsistency for poorness of fit. The PF LINMAP model is 
+formulated to seek to ascertain the optimal weight vector that maximizes the total comprehensive dominance 
+index and minimizes the poorness of fit under consideration of the lowest acceptable level and specialized 
+degenerate weighting issues. The practical application concerning bridge-superstructure construction methods is 
+conducted to test the feasibility and practicability of the PF LINMAP model. Over and above that, a general-
+ization of the proposed methodology, along with applications to green supplier selection and railway project 
+investment, is investigated to deal with group decision-making issues. Several comparative studies are imple-
+mented to further validate its usefulness and advantages. The application and comparison results display the 
+effectuality and flexibility of the developed PF LINMAP methodology. In the end, the directions for future 
+research of this work are represented in the conclusion.   
+
+
+1. Introduction 
+
+
+Multiple criteria decision analysis (MCDA) scrutinizes making pref-
+erence judgments among candidate alternatives that are evaluated by 
+multiplex, usually conflicting, criteria (Liang et al., 2019; Lin et al., 
+2019). MCDA problems are mainly concerned with diverse categories of 
+decision-making issues, such as evaluation, prioritization, and selection, 
+
+
+to give assistance in reaching the best compromise solution in many real 
+applications (Akram et al., 2020a; Chen, 2018a; Chen, 2019b). MCDA 
+models and methods play an important role in comparing, choosing, or 
+ranking various competing alternatives based on specific criteria 
+(Haghighi et al., 2019). Nonetheless, in numerous practical MCDA 
+problems, an important matter in question that complicates the 
+decision-making process is uncertainty, especially in intricate and 
+
+
+* Address at: No. 259, Wenhua 1st Rd., Guishan District, Taoyuan City 33302, Taiwan. 
+E-mail address: tychen@mail.cgu.edu.tw.  
+
+
+Contents lists available at ScienceDirect 
+
+
+Expert Systems With Applications 
+
+
+journal homepage: www.elsevier.com/locate/eswa 
+
+
+https://doi.org/10.1016/j.eswa.2020.113908 
+Received 11 October 2019; Received in revised form 27 July 2020; Accepted 19 August 2020   
+
+
+
+mailto:tychen@mail.cgu.edu.tw
+
+www.sciencedirect.com/science/journal/09574174
+
+https://www.elsevier.com/locate/eswa
+
+https://doi.org/10.1016/j.eswa.2020.113908
+
+https://doi.org/10.1016/j.eswa.2020.113908
+
+https://doi.org/10.1016/j.eswa.2020.113908
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.eswa.2020.113908&domain=pdf
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+2
+
+
+unpredictable circumstances (Chen, 2019a; Liang et al., 2019; Lin et al., 
+2019). Because of a complex nature, a considerable amount of research 
+in the MCDA field has focused on the development of appropriate 
+techniques for dealing with decision-making uncertainty. One of the 
+useful tools employed in addressing uncertain MCDA problems is Py-
+thagorean fuzzy (PF) sets (Yager & Abbasov, 2013; Yager, 2013, 2014, 
+2016). 
+
+
+The concept of PF sets generalizes the notions of Atanassov’s intui-
+tionistic fuzzy sets (Atanassov, 1986) to portray complicated uncertain 
+information more effectively (Akram et al., 2020a, 2020b; Mandal & 
+Ranadive, 2019). The theory of intuitionistic fuzzy sets, in which the 
+sum of degrees of membership and non-membership is less than or equal 
+to one, is the most widespread nonstandard fuzzy theory (Chen, 2019a). 
+In contrast, PF sets composed of Pythagorean membership grades meet 
+the situation that the sum of square degrees of membership and non- 
+membership is less than or equal to one while the sum is not required 
+to be less than one (Yager & Abbasov, 2013; Yager, 2014; Zhang & Xu, 
+2014a). Owing to the relaxed prerequisite condition, PF sets can furnish 
+more adaptability and flexibility than intuitionistic fuzzy sets for treat-
+ing imprecise and ambiguous information and modeling the equivoca-
+tion and vagueness in practice (Chen, 2019a; Mandal & Ranadive, 2019; 
+Wang et al., 2019). Because it is beneficial to exploit PF sets to describe 
+highly complicated uncertain information in realistic MCDA problems, 
+numerous scholars have paid attention to extend the existing decision- 
+making models and techniques to make them adapt a more compli-
+cated environment involving Pythagorean fuzziness (Ding et al., 2019; 
+Liang et al., 2019; Wang et al., 2019). For example, Akram et al. (2020b) 
+extended the elimination and choice translating reality method (ELEC-
+TRE) to PF contexts and presented a group decision-making approach 
+via the PF ELECTRE procedure. Furthermore, Chen (2020) originated 
+new Chebyshev distance measures in PF settings and carried forward an 
+extended PF ELECTRE approach. Biswas and Sarkar (2019) developed a 
+new PF technique for order preference by similarity to ideal solutions 
+(TOPSIS) to address group decision-aiding issues involving unknown 
+weight information through entropy measures. Ho et al. (2020) 
+advanced a Pearson-like correlation-based TOPSIS method under PF 
+uncertainties with an interval-valued format. Akram et al. (2020a) 
+exploited complex PF TOPSIS and complex PF ELECTRE to manipulate 
+group decision-making problems. Büyüközkan and Göçer (2019) inte-
+grated the complex proportional assessment and analytic hierarchy 
+process (AHP) in PF contexts and explored the partner selection issue for 
+digital supply chain. Shete et al. (2020) employed PF AHP to appraise 
+the enablers of sustainable supply chain innovation. Chen (2019a) 
+advanced a PF combinative distance-based precedence procedure and 
+constructed an inventive preference ranking organization method for 
+enrichment evaluations (PROMETHEE). Liang et al. (2020) proposed an 
+expanded linear assignment method through the utility of partitioned 
+fuzzy measures for MCDA with PF information. Mandal and Ranadive 
+(2019) introduced the concept of PF preference relations for managing 
+group decision analysis issues. Wang et al. (2019) established a novel 
+group decision-making technique by use of PF linguistic variable Hamy 
+mean operators and the Vise Kriterijumska Optimizacija I Kompromisno 
+Resenje (VIKOR) method. Yu et al. (2019) utilized an extensive TOPSIS 
+on grounds of interval-valued PF sets to carry out multiple criteria group 
+decision analysis for sustainable supplier selection. Zeb et al. (2019) 
+initiated the concepts of credible extended PF sets and possible extended 
+PF sets and provided an approach to MCDA with risk preference. 
+
+
+There are many studies in the literature for the development and 
+enrichment of the MCDA models and methods in uncertain PF contexts. 
+However, there is limited research on an extension of the linear pro-
+gramming technique for multidimensional analysis of preference (LIN-
+MAP) to uncertain environments comprising of Pythagorean fuzziness. 
+The LINMAP, launched by Srinivasan and Shocker (1973), is a renowned 
+MCDA methodology to estimate the importance weights of criteria and 
+decide the best compromise choice. The prominent attribute of LINMAP 
+is the preference structure and information in regards to alternatives 
+
+
+provided by the decision maker (Gou et al., 2019; Haghighi et al., 2019; 
+Xue et al., 2018). Numerous MCDA models and techniques require the 
+decision maker to reveal the intensity of relative preferences among 
+multiple criteria and then determine the grades of relative importance 
+via a weight assessment technique. In contrast, LINMAP postulates the 
+decision maker to display subjective preference between two alterna-
+tives (Liu et al., 2018; Song et al., 2018). By way of explanation, the 
+input information of the LINMAP methods comprises a set of imposed 
+consequences for paired preference of alternatives, and the weights of 
+criteria and the ideal solutions are a priori unknowns. Supported by the 
+given preference relations between alternatives, an easy-to-use linear 
+programming method that aspires to attain the minimum inconsistency 
+is formulated to determine the optimal criterion weights and the best 
+compromise solution (Gou et al., 2019). The traditional LINMAP 
+methodology has been advanced to a variety of uncertain surroundings, 
+such as in the settings of hesitant fuzzy sets (Wan et al., 2017; Zhang & 
+Xu, 2014b), hesitant fuzzy linguistic term sets (Xu et al., 2016), double 
+hierarchy hesitant fuzzy linguistic term sets (Liu et al., 2018), probabi-
+listic linguistic term sets (Liao et al., 2017), intuitionistic fuzzy sets (Wan 
+& Li, 2014), interval-valued intuitionistic fuzzy sets (Wan & Li, 2015; 
+Zhang, Ju, & Liu, 2016), PF sets (Wan et al., 2018; Xue et al., 2018), 
+interval-valued PF sets (Xue et al., 2018), interval type-2 fuzzy sets 
+(Haghighi et al., 2019; Qin et al., 2017), interval grey numbers (Song 
+et al., 2018), and heterogeneous information (Zhang, Ju, Liu, & Gian-
+nakis, 2017). 
+
+
+The LINMAP methodology plays an essential role in information 
+fusion of preference relations on alternatives and identification of the 
+optimal weights and the best compromise solution for decision aiding 
+and support. Nevertheless, the LINMAP methodology has not yet fully 
+explored in the existing MCDA literature in uncertain circumstances on 
+grounds of PF sets. Wan et al. (2018) and Xue et al. (2018), prior to the 
+present time, have developed innovative LINMAP-based methods in the 
+PF context. Based on fuzzy truth degrees, information entropy, and a 
+cross-entropy optimization model, the characteristic of the LINMAP- 
+based method presented by Wan et al. (2018) is that it exploits the 
+inconsistency indices in accordance with the ideal solutions. To be 
+specific, it incorporates the negative-ideal solution into the determina-
+tion of the criterion weights. Additionally, the prominent feature of the 
+PF LINMAP model originated by Xue et al. (2018) is consideration of the 
+PF entropy that can conjecture the PF uncertain information. Their 
+proposed linear programming model can acquire the solution result with 
+the maximum consistency and reliability towards decision data. By 
+reason of information insufficiency (e.g., lack of complete information, 
+lack of clarity of information, and lack of consistent information), PF sets 
+have been increasingly used in real-world MCDA problems, especially in 
+a complicated and highly uncertain environment. However, except for 
+Wan et al. (2018) and Xue et al. (2018), very few of the studies have 
+focused on the LINMAP models and techniques with complex PF un-
+certain information. This question constitutes the primary motivation of 
+this paper. 
+
+
+Notably, the PF LINMAP approaches presented by Wan et al. (2018) 
+and Xue et al. (2018) consist of many complicated and interconnecting 
+concepts, which would be intricate and not easily understood by deci-
+sion makers. As an illustration, the noticeable core concept of their 
+developed techniques is information entropy. Their methods are helpful 
+and comprehensive to address group decision-making issues in PF un-
+certain circumstances. However, their mathematical programming 
+models are rather troublesome to implement for decision makers 
+because their approaches require a lot of sophisticated concepts, such as 
+cross-entropy and amount of knowledge. Additionally, the influence on 
+the solution results and the technical character in the main LINMAP 
+structure are not always well understood for decision makers, especially 
+for less knowledgeable or less skilled practitioners. On account of these 
+concerns, this paper would like to propose an easy-to-use approach for 
+enriching the LINMAP methodology within the PF context and 
+addressing MCDA problems in complex circumstances of Pythagorean 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+3
+
+
+fuzziness. In contrast to the approaches proposed by Wan et al. (2018) 
+and Xue et al. (2018), this paper attempts to exploit some simple con-
+cepts such as squared PF Euclidean distances to manipulate Pythagorean 
+membership grades and quantify the amount of rank consistency and 
+rank inconsistency. This paper puts forward a novel squared-distance- 
+based approach in PF settings and develops a new PF LINMAP method 
+that is very clear and comprehensible for the decision maker. 
+
+
+There are several ways to measure separation between PF informa-
+tion (e.g., Pythagorean membership grades or PF sets). The square of the 
+standard Euclidean distance, which is recognized as the squared 
+Euclidean distance (SED), is of central importance in comparing the 
+closeness between various data points. Although the Euclidean distance 
+can measure the ordinary distance between two positions in space, it is 
+troublesome as there pertain to costly square and square root operations. 
+In contrast, SED is not a metric for the reason that it does not satisfy the 
+triangle inequality. Nonetheless, the Pythagorean theorem is simpler 
+through the agency of squared distance because there is no square root, 
+which implies that the square of Euclidean distance is differentiable. 
+SED is a more general notion of distances; it is useful for comparing 
+distances and for measuring similarity. In this regard, this paper utilizes 
+a newly developed Euclidean distance model on grounds of PF sets to 
+present a novel measurement of squared PF Euclidean distances and 
+explores some important and desirable properties. An alternative 
+approach based on squared PF Euclidean distances can be exploited to 
+preclude the computation of square root and save the computational 
+expenses in decision-making processes. Regarding the usefulness of 
+Pythagorean membership grades in describing the ambiguous and un-
+certain decision-making details as well as the efficacy of the LINMAP- 
+based methods, the basic structure of LINMAP is advanced and 
+enriched to the PF environment, and a new PF LINMAP model is pro-
+posed by identifying the SED-based dominance index and providing a 
+SED-based outranking approach. To reduce the computational 
+complexity in manipulating PF data, this paper shows how SED can be 
+effectively incorporated into the central procedure of the PF LINMAP 
+methodology by means of several new concepts of (comprehensive) 
+dominance indices, measures of rank consistency, measures of rank 
+inconsistency, and fit measurements (consisting of goodness of fit and 
+poorness of fit) in PF uncertain surroundings. 
+
+
+The purpose of this research is to launch an efficacious PF LINMAP 
+methodology using the conception of SED-based dominance indices and 
+a SED-based outranking technique for handling an MCDA question 
+containing PF uncertain information. The feature of the classical LIN-
+MAP is that the decision maker would reveal a set of paired preference 
+discernments over alternatives as input, while the output comprises a set 
+of the optimal criterion weights. Accordingly, this paper attempts to 
+address an MCDA problem which is formulated by PF evaluative ratings 
+and the decision maker’s paired preference judgments towards alter-
+natives within the uncertain environment of Pythagorean fuzziness. The 
+Euclidean distance model is an essential part of the LINMAP method-
+ology because the square of weighted Euclidean distances is employed to 
+appraise the poorness and goodness of fit in the LINMAP model. This 
+research utilizes a newly developed Euclidean distance measure on 
+grounds of Pythagorean membership grades to present the concept of 
+squared PF Euclidean distances and investigate several essential and 
+valuable properties. Based on squared PF Euclidean distances from ideal 
+ratings, this paper defines the SED-based dominance index and con-
+structs a SED-based outranking approach for conducting intracriterion 
+comparisons among alternatives. The outranking relationships based on 
+the SED-based outranking approach builds a solid foundation of the 
+theoretical framework of the PF LINMAP methodology. This paper 
+specifies the comprehensive dominance index to measure comprehen-
+sive dominance relations among alternatives in terms of multiple 
+criteria. By use of such comprehensive indices, this paper provides 
+measurements of rank consistency and rank inconsistency with respect 
+to each ordered pair of alternatives for the sake of determining fit 
+measurements. This paper identifies the degrees of goodness of fit and 
+
+
+poorness of fit by synthesizing consistency measures and inconsistency 
+measures, respectively, over all ordered pairs. Next, this paper would 
+like to originate a PF LINMAP model, which seeks to ascertain the 
+optimal weights for criteria that maximizes the total comprehensive 
+dominance index and minimizes the degree of poorness of fit under 
+consideration of the lowest acceptable level and specialized degenerate 
+weighting issues. Solving the optimization problem, the optimal crite-
+rion weights and degrees of violation for each ordered pair would be 
+derived to generate the priority orders of competing alternatives and 
+identify the best compromise choice. Based on the aforementioned 
+concepts, a new PF LINMAP methodology using a SED-based outranking 
+technique can be formulated to solve complex uncertain MCDA prob-
+lems comprising Pythagorean fuzziness. Subsequently, a down-to-earth 
+application relating to an MCDA issue of choosing a bridge- 
+superstructure construction method is investigated to corroborate the 
+workableness and effectuality of the PF LINMAP model. Furthermore, 
+this paper implements certain comparative studies consisting of the first 
+sensitivity analysis concerning the non-negative boundary conditions of 
+criterion weights, the second sensitivity analysis concerning the relative 
+significance of the total comprehensive dominance in regards to the 
+poorness of fit under various lowest acceptable levels. Over and above 
+that, the proposed methodology would be generalized to tackle group 
+decision-making problems for enriching more efficaciousness in prac-
+tice. This paper executes several valuable comparative analyses con-
+cerning the application results yielded by other pertinent MCDA 
+methods. The comparison results can verify the flexibility and advan-
+tages of the PF LINMAP methodology. 
+
+
+The main contributions of the developed PF LINMAP methodology 
+are outlined as follows: (i) The proposed SED-based dominance index 
+can reflect an overall counterpoise between the association towards the 
+positive-ideal PF evaluative rating and the remotest association towards 
+the negative-ideal PF evaluative rating; (ii) The developed SED-based 
+outranking approach can effectively manipulate complex PF informa-
+tion and determine (comprehensive) dominance relations among PF 
+evaluative ratings and among alternatives; (iii) The new fit measure-
+ments in the PF context can synthesize the measures of rank consistency 
+for goodness of fit and rank inconsistency for poorness of fit over all 
+ordered pairs, which are reliable, comprehensive, and in accordance 
+with the paired preference relations; (iv) The proposed PF LINMAP 
+methodology can manage MCDA and group decision-making problems 
+despite the existence of non-transitive or inconsistent relations among 
+pairwise preferences of alternatives; and (v) The novel PF LINMAP 
+optimization model can coordinate the maximal objective of the total 
+comprehensive dominance index and the minimal objective of the de-
+gree of poorness of fit, which guarantees that the obtained PF LINMAP 
+rankings can retain the original preference judgments indicated by the 
+decision maker as much as possible. 
+
+
+The remainder of this paper is organized as below. Section 2 delivers 
+certain fundamental concepts that are in connection with PF sets. Based 
+on squared PF Euclidean distances, Section 3 proposes a SED-based 
+dominance index to develop a SED-based outranking approach on 
+grounds of PF sets. Section 4 establishes the PF LINMAP approach based 
+on new concepts of the comprehensive dominance index, the measures 
+of rank consistency/inconsistency, the degree of goodness of fit, and the 
+degree of poorness of fit. An effective linear programming model is 
+formulated to acquire the optimal criterion weights and determine the 
+best compromise alternative. Section 5 depicts a realistic MCDA prob-
+lem concerning bridge-superstructure construction to display the 
+calculation procedure of the proposed methods and techniques. A 
+comparison analysis with other relevant approaches and some 
+comparative discussions in different parameter settings are executed to 
+perform the applicability and adaptability of the developed PF LINMAP 
+methodology. Furthermore, a generalization to the group decision- 
+making field is further investigated; moreover, two practical applica-
+tions of green supplier selection and railway project investment are 
+implemented for making more comprehensive comparisons. Section 6 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+4
+
+
+conveys the conclusions and some directions for future research. 
+
+
+2. Preliminary 
+
+
+Yager (2013, 2014, 2016) and Yager and Abbasov (2013) introduced 
+a class of nonstandard membership grades that are named as Pythago-
+rean membership grades, which can be delineated by five parameters: 
+the degrees of membership, non-membership, and indeterminacy, the 
+strength of commitment about membership, and the direction of 
+commitment (Chen, 2019a, 2019b; Li & Zeng, 2018; Yager & Abbasov, 
+2013; Yager, 2014; Zeng et al., 2018). Zhang and Xu (2014a) depicted a 
+helpful mathematical representation towards PF sets. On the grounds of 
+the representation, Chen (2019a, 2019b) provided more comprehensive 
+definitions in connection with Pythagorean membership grades in PF 
+settings. Due to the duality of the strength of commitment and the de-
+gree of indeterminacy, Chen (2019a, 2019b) considered the four pa-
+rameters (i.e., degrees of membership and non-membership, strength, 
+and direction) to contribute an operationally mathematical representa-
+tion with relevance to a Pythagorean membership grade. This section 
+delivers several fundamental concepts including PF representations and 
+scalar-valued functions. These notations and conceptions are necessary 
+for the succeeding analysis. 
+
+
+Definition 1. ((Chen, 2019a, 2019b; Yager & Abbasov, 2013; Yager, 
+2014)) A PF set P is delineated by a set of ordered parameters 
+involving the degree of membership μP(x), the degree of non- 
+membership νP(x), the strength of commitment rP(x), and the direc-
+tion of commitment dP(x), in a finite universe of discourse X, where 
+μP(x),νP(x), rP(x),dP(x) ∈[0, 1]; it is expressed as below: 
+
+
+P = {〈x, (μP(x), νP(x); rP(x), dP(x)) 〉 |x ∈ X }, (1) 
+
+
+subject to the succeeding constraint: 
+
+
+0⩽(μP(x))
+2
++(νP(x))
+
+
+2⩽1 (2) 
+
+
+The degree of indeterminacy τP(x) ∈ [0, 1] of the element x ∈ X to the 
+set P is stated as below: 
+
+
+τP(x) =
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+
+
+1 − (μP(x))
+2
+− (νP(x))
+
+
+2
+√
+
+
+(3)   
+
+
+Definition 2. ((Chen, 2019a, 2019b; Yager & Abbasov, 2013; Yager, 
+2014)) Let X be a finite universe of discourse. A Pythagorean mem-
+bership grade, which is denoted by p, of element x ∈ X in a PF set P is 
+represented as below: 
+
+
+p = (μP(x), νP(x); rP(x), dP(x)); (4)  
+
+
+moreover, the corresponding parameters are real-valued functions 
+depending on x, as below: 
+
+
+μP(x) = rP(x)⋅cos(θP(x)), (5)  
+
+
+νP(x) = rP(x)⋅sin(θP(x)), (6)  
+
+
+rP(x) =
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+
+
+(μP(x))
+2
++ (νP(x))
+
+
+2
+√
+
+
+, (7)  
+
+
+dP(x) =
+π − 2⋅θP(x)
+
+
+π
+, (8) 
+
+
+where θP(x) is remarked in radians in the range [0,π/2]. 
+The Pythagorean membership grade p is featured by four parameters, 
+
+
+i.e., membership μP(x), non-membership νP(x), strength rP(x), and di-
+rection dP(x), according to the above definition. Moreover, the radians 
+θP(x) in p can be determined by providing dP(x), by μP(x) and rP(x), or by 
+νP(x) and rP(x), in the following manner: 
+
+
+θP(x) =
+π
+2
+(1 − dP(x)) = arccos
+
+
+(
+μP(x)
+rP(x)
+
+
+)
+
+
+= arcsin
+(
+
+
+νP(x)
+rP(x)
+
+
+)
+
+
+(9) 
+
+
+Fig. 1 depicts a geometrical explication about the Pythagorean 
+membership space. By way of illustration, the Pythagorean membership 
+grade p = (μP(x), νP(x); rP(x), dP(x)) is regarded as a point (in the upper 
+right quadrant) on a circle of radius rP(x). The direction dP(x) signifies 
+on a commitment scale in [0, 1] to reveal the extent of the strength rP(x)
+at pointing towards membership. The strength rP(x) is completely to-
+wards membership and non-membership in the cases of dP(x) = 1 and 
+dP(x) = 0, respectively, while an intermediate value of dP(x) represents 
+partial support towards membership and non-membership. Further-
+more, μP(x) and νP(x) actually related through Pythagorean comple-
+ments with reference to rP(x) due to (μP(x))
+
+
+2
++ (νP(x))
+
+
+2
+=
+
+
+(rP(x))
+2⋅(cos2(θP(x)) + sin2(θP(x))) = (rP(x))
+
+
+2. Over and above that, the 
+complement pc of p is stated as follows: 
+
+
+pc = (μPc (x), νPc (x); rPc (x), dPc (x)) = (νP(x), μP(x); rP(x), 1 − dP(x)) (10) 
+
+
+To determine a scalar value affiliated with the Pythagorean mem-
+bership grade p, Yager (2013, 2014) exploited the Takagi–Sugeno 
+approach to initiate the scalar-valued function V(p) on account of fuzzy 
+rule bases. Zeng et al. (2018) investigated four existing comparison 
+methods for ranking Pythagorean membership grades, consisting of the 
+approaches by way of score functions, using score and accuracy func-
+tions, using closeness indices, and using scalar-valued functions. They 
+indicated that the ranking result based on the scalar-valued function is 
+more credible than that obtained by the other comparison methods. 
+Because the effectiveness of the scalar-valued function has been 
+demonstrated by Zeng et al. (2018), one can conveniently employ V(p) 
+to compare the magnitude of Pythagorean membership grades. Based on 
+the following definition, the scalar-valued function V(p) is derived by 
+attaining rP(x) and dP(x) or by rP(x) and θP(x). 
+
+
+Definition 3. ((Yager, 2013, 2014)) Let X be a finite universe of 
+discourse. Let p = (μP(x), νP(x); rP(x),dP(x)) be a Pythagorean member-
+ship grade in X. The scalar-valued function V(p) is stated as below: 
+
+
+V(p) =
+1
+2
++ rP(x)
+
+
+(
+
+
+dP(x) −
+1
+2
+
+
+)
+
+
+=
+1
+2
++ rP(x)
+
+
+(
+1
+2
+−
+
+
+2⋅θP(x)
+π
+
+
+)
+
+
+(11)   
+
+
+3. A SED-based outranking approach based on PF sets 
+
+
+This section intends to develop a SED-based outranking approach on 
+
+
+Fig. 1. Interpretation of a Pythagorean membership grade.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+5
+
+
+the grounds of PF sets. To be specific, this section contrives an MCDA 
+problem involving PF uncertain information and reveals stated prefer-
+ence information between pairs of alternatives. Through the utility of 
+the Euclidean distance measures as regards to Pythagorean membership 
+grades, this section introduces squared PF Euclidean distances and in-
+quires into valuable and desirable properties. This section mentions the 
+concept of SED-based dominance indices and constructs a SED-based 
+outranking approach in PF circumstances. The advanced SED-based 
+outranking approach can supply a substantial theoretical foundation, 
+as revealed in Fig. 2. This figure sketches pertinent concepts of squared 
+PF Euclidean distances and SED-based dominance indices. Some useful 
+properties in the developed theorems facilitate the construction of the 
+core structure in the PF LINMAP methodology in the subsequent study. 
+
+
+3.1. Problem description 
+
+
+This subsection institutes an MCDA problem through the utility of PF 
+sets in which the evaluative ratings of alternatives in relevance to 
+
+
+criteria are described as Pythagorean membership grades. As opposed to 
+most MCDA problems that involves preference information about 
+criteria, the developed PF LINMAP methodology requires different types 
+of preference information. To put it another way, the importance 
+weights towards multiple criteria are a priori unknowns and must be 
+determined in the investigated problem. In particular, the proposed 
+techniques require decision makers to provide preference information 
+across the alternatives. Accordingly, this subsection represents the de-
+cision maker’s paired preference discernments via the stated assess-
+ments between alternatives. Simply stated, in the MCDA problem under 
+study, the input of the proposed methods comprises the characteristics 
+of all candidate alternatives by use of PF sets and a set of paired pref-
+erence discernments in connection with competing alternatives. 
+
+
+Let Z = {z1, z2,⋯, zm} and C = {c1, c2,⋯, cn} indicate a discrete set 
+of m candidate alternatives and a finite set of n evaluative criteria, 
+respectively. To be specific, the set C is separated into two disjoint sets, 
+namely, CI and CII, where CI ∩ CII = ∅ and CI ∪ CII = C. Here, CI and CII 
+indicate a collection of benefit criteria and a collection of cost criteria, 
+
+
+Fig. 2. Theoretical development of the SED-based outranking approach.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+6
+
+
+respectively. For each cj ∈ CI, a higher Pythagorean membership grade 
+of cj signifies a stronger preference, whereas for each cj ∈ CII, a higher 
+Pythagorean membership grade reveals a weaker preference. Let wj be 
+the importance weight of each criterion cj ∈ C, which meets the 
+normalization conditions, i.e., 0⩽wj⩽1 for all j ∈ {1,2,⋯, n} and 
+∑n
+
+
+j=1wj = 1. Note that the importance weights are a priori unknowns 
+and need to be resolved. 
+
+
+Consider an MCDA problem with convoluted uncertainty involving 
+Pythagorean fuzziness. The PF evaluative rating of an alternative zi ∈ Z 
+in the matter of a criterion cj ∈ C is denoted as Cj(zi) for i ∈ {1,2,⋯,m}
+and j ∈ {1,2,⋯,n}. It is portrayed as a Pythagorean membership grade as 
+follows: 
+
+
+Cj(zi) =
+(
+μcj (zi), νcj (zi); rcj (zi), dcj (zi)
+
+
+)
+(12) 
+
+
+The four parameters of Cj(zi) (i.e., the degree of membership μcj (zi), 
+the degree of non-membership νcj (zi), the strength of commitment rcj (zi), 
+and the direction of commitment dcj (zi)) are real-valued functions that 
+are evaluated towards zi in terms of cj, where μcj (zi), νcj (zi), rcj (zi),
+dcj (zi) ∈[0, 1]. The degree of indeterminacy in connection with each 
+
+
+Cj(zi) is τcj (zi) =
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+1 − (μcj (zi))
+
+
+2
+− (νcj (zi))
+
+
+2
+√
+
+
+. In accordance with Defini-
+
+
+tion 2, the following relationships are satisfied: μcj (zi) =
+rcj (zi)⋅cos(θcj (zi)), νcj (zi) = rcj (zi)⋅sin(θcj (zi)), rcj (zi) =
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+(μcj (zi))
+
+
+2
++ (νcj (zi))
+
+
+2
+√
+
+
+, and dcj (zi) = (π − 2⋅θcj (zi))/π for θcj (zi) ∈ [0,π/2]. 
+For notational convenience, let pij = Cj(zi) in the following discussion, 
+where pij = (μij,νij; rij,dij). That is, the notations μcj (zi), νcj (zi), rcj (zi), and 
+dcj (zi) are denoted with μij, νij, rij, and dij, respectively, for simplicity. 
+
+
+By collecting the PF evaluative rating pij over all cj ∈ C, the charac-
+teristic Pi of the alternative zi is described as follows: 
+
+
+Pi =
+{〈
+
+
+cj, pij
+〉 ⃒
+⃒cj ∈ C
+
+
+}
+=
+{〈
+
+
+cj, (μij, νij; rij, dij)
+〉 ⃒
+⃒cj ∈ C
+
+
+}
+(13) 
+
+
+Let Ω represent a set of ordered pairs (ϕ, φ). The decision maker 
+provides the paired preference relations towards the alternatives in the 
+set Z with Ω, as follows: 
+
+
+Ω =
+{(
+
+
+ϕ,φ)
+⃒
+⃒
+⃒zϕ≻ zφ, ϕ,φ ∈ {1, 2,⋯,m}
+
+
+}
+, (14)  
+
+
+in which the preference relation zϕ≻ zφ indicates that zϕ is noninferior to 
+zφ. In other words, either zϕ is preferred to zφ or zϕ and zφ are identically 
+preferred. 
+
+
+The preference relations zϕ≻ zφ in the set Ω are designated by the 
+decision maker’s subjective discernments. Theoretically, there are no 
+more than m(m − 1)/2 paired comparison judgments in Ω. However, in 
+realistic decision-making problems, incomplete judgments often occur 
+because of various factors such as the incomplete information and 
+limited expertise and knowledge. Thus, it is not indispensable to 
+postulate the decision maker to indicate all preference relations for each 
+pairs of alternatives. On the other side, the decision maker sometimes 
+depicts non-transitive paired comparison judgments because of the ex-
+istence of non-transitive relations among pairwise preferences in prac-
+tice. Note that the transitivity does not always hold when multiple 
+criteria are evaluated, which implies that the preference relations pro-
+vided by the decision maker might be inconsistent. For this reason, in 
+addition to the incomplete judgment estimation, the proposed meth-
+odology can cope with the inconsistency issue among preference re-
+lations in the set Ω. Given the characteristics composed of PF evaluative 
+ratings and the paired preference discernments over the alternatives, 
+this paper advances a SED-based outranking approach using squared PF 
+Euclidean distances and presents a new PF LINMAP method for tackling 
+MCDA problems with uncertainty involving Pythagorean fuzziness. 
+
+
+3.2. Squared PF Euclidean distances 
+
+
+This subsection introduces the current PF distance measures between 
+Pythagorean membership grades on the grounds of the Euclidean dis-
+tance model. Next, this subsection employs a newly developed 
+Euclidean distance measure on grounds of PF sets to propose the concept 
+of squared PF Euclidean distances and explore several helpful and 
+appealing properties. 
+
+
+On account of the fact that the conventional LINMAP procedure 
+belongs to ideal-solution based models; moreover, it utilizes the square 
+of the weighted Euclidean distance between an alternative and the ideal 
+solution to appraise the measurements on poorness of fit and goodness of 
+fit. Accordingly, the Euclidean distance model is capable of playing a key 
+role in LINMAP-based approaches. To manipulate PF information, this 
+paper briefly reviews the current Euclidean distance models for facili-
+tating the LINMAP analysis. In the PF context, some Euclidean distance 
+measures have been proposed so far for appropriately measuring the 
+separation between PF information. For example, Ren et al. (2016) 
+considered the individual differences between square degrees of mem-
+bership, between square degrees of non-membership, and between 
+square degrees of indeterminacy to introduce the Euclidean distance for 
+PF sets. By extending their definition, Chen (2018c) presented a 
+generalized PF distance measure for appraising separation magnitudes 
+between Pythagorean membership grades through the agency of the 
+Minkowski distance model with a distance parameter. Analogously, 
+Wan et al. (2018) introduced (weighted) Minkowski distance measures 
+for PF sets. When the distance parameter is equal to two, Chen (2018c) 
+generalized PF distance measure and Wan et al. (2018) Minkowski 
+distance measure reduce to Ren et al. (2016) Euclidean distance mea-
+sure. However, a key critical issue for the appropriateness of the 
+aforementioned Euclidean distances is the ignorance of the distinct at-
+tributes of PF sets. Specifically, the strength and direction of commit-
+ment possessed by a Pythagorean membership grade have not been 
+incorporated into the specifications of the PF Euclidean distance model. 
+
+
+In this regard, Li and Zeng (2018) and Zeng et al. (2018) developed 
+more comprehensive generalized PF distance measures with a distance 
+parameter in the PF contexts. Analogously, when the distance parameter 
+is equal to two, both generalized PF distance measures reduce to the 
+Euclidean distance that is different from the measure proposed by Ren 
+et al. (2016). To be precise, Li and Zeng (2018) premeditated the 
+strength and direction of commitment to propose a new generalized 
+distance measure (involving the Euclidean distance) for PF sets. They 
+employed the individual differences between degrees of membership, 
+degrees of non-membership, strengths of commitment, and between 
+directions of commitment to present a normalized measure for Pythag-
+orean membership grades. However, Li and Zeng did not consider the 
+influences of the square degrees of membership and non-membership, as 
+well as the square of strengths of commitment, in their distance mea-
+surements. Moreover, their normalization approach would underrate 
+the extent of the normalized distances. On the other side, Zeng et al. 
+(2018) incorporated five elementary parameters featured by Pythago-
+rean membership grades into the identification of PF distance measures 
+that involves the Euclidean distance. The respective differences between 
+the membership degrees, non-membership degrees, indeterminacy de-
+grees, strengths of commitment, and between directions of commitment 
+are simultaneously employed in identifying a normalized generalized 
+distance measure for PF sets. Nonetheless, Zeng et al. (2018) did not 
+consider the squared differences in the five fundamental parameters. 
+Another important issue to address is the double weighting question of 
+the strength of commitment and the degree of indeterminacy. Because of 
+the dual concepts (i.e., the indeterminacy degree is equal to one minus 
+the strength of commitment), the distance measure proposed by Zeng 
+et al. would bring about unreasonable computation results of PF dis-
+tances. Analogous to Li and Zeng (2018), the normalization technique 
+adopted by Zeng et al. (2018) would underestimate the extent of the 
+normalized distances. 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+7
+
+
+To surmount the above-mentioned difficulty and limitations, Chen 
+(2019a, 2019b) employed the fundamental characteristics of PF sets, 
+namely, membership, non-membership, strength, and direction, to 
+propose an innovative generalized distance measure on grounds of PF 
+sets. In conformity with the application and comparative results, Chen 
+demonstrated the effectiveness and practicability of the developed 
+generalized distance measure. Compared to the other existing PF dis-
+tance measures, this newly developed measure has the strong points of 
+stipulating an opportune normalization approach, handling the double 
+weighting question, and exploiting the square terms concerning Py-
+thagorean membership degrees; moreover, it provides a flexible and 
+effective measure for quantifying the separation between PF informa-
+tion. Therefore, this paper originates the generalized distance measure 
+proposed by Chen (2019a, 2019b) to put forward the squared PF 
+Euclidean distance for PF sets. 
+
+
+On grounds of the Euclidean distance model in the generalized dis-
+tance measure by Chen (2019a, 2019b) (i.e., in case when the distance 
+parameter is equal to two), the following definition presents the 
+normalized PF Euclidean distance measure D and the squared PF 
+Euclidean distance measure S between PF evaluative ratings. In partic-
+ular, the distance measure D is identified through the utility of a four- 
+term representation. That is, the degrees of membership and non- 
+membership, the strength of commitment, and the direction of 
+commitment are considered in quantifying the measure D, which is a 
+positive function (also called metric) from pairs of Pythagorean mem-
+bership grades. 
+
+
+Definition 4. Let two Pythagorean membership grades pϕj (= (μϕj,νϕj;
+rϕj, dϕj)) and pφj (= (μφj, νφj; rφj, dφj)) be the PF evaluative ratings of al-
+ternatives zϕ and zφ, respectively, in connection with a criterion cj, 
+where zϕ, zφ ∈ Z and cj ∈ C. The normalized PF Euclidean distance D(pϕj,
+pφj) between pϕj and pφj is expounded as follows:   
+
+
+Moreover, the squared PF Euclidean distance S(pϕj, pφj) (=
+(D(pϕj, pφj))
+
+
+2) is stated as below: 
+
+
+S(pϕj, pφj) =
+1
+3
+
+
+[
+(
+(μϕj)
+
+
+2
+− (μφj)
+
+
+2)2
++
+(
+(νϕj)
+
+
+2
+− (νφj)
+
+
+2)2
++
+((
+
+
+rϕj
+)2
+
+
+−
+(
+rφj
+)2
+)2
+
+
++
+(
+dϕj − dφj
+
+
+)2
+]
+
+
+(16) 
+
+
+Consider a thorough mathematical representation for expressing 
+the PF distance measures. The normalized PF Euclidean 
+
+
+distance D
+(
+Cj(zϕ),Cj(zφ)
+
+
+)
+(i.e., D
+
+
+(
+pϕj, pφj
+
+
+)
+) and the squared PF 
+
+
+Euclidean distance S(Cj(zϕ),Cj(zφ)) (i.e., S
+(
+
+
+pϕj, pφj
+)
+
+
+) are stated as below: 
+
+
+D(Cj(zϕ),Cj(zφ))=
+
+
+{(
+
+
+1/3)
+
+
+[((
+μcj (z ϕ)
+
+
+)2
+−
+(
+
+
+μcj (zφ)
+)2
+)2
+
+
++
+
+
+((
+νcj (zϕ)
+
+
+)2 
+−
+
+
+(
+νcj (zφ)
+
+
+)2
+)2
+
+
++
+
+
+((
+rcj (zϕ)
+
+
+)2
+−
+(
+
+
+rcj (zφ)
+)2
+)2
+
+
++
+(
+
+
+dcj (zϕ) − dcj (zφ)
+)2
+]}0.5 
+
+
+and S
+(
+Cj(zϕ),Cj(zφ)
+
+
+)
+
+
+= (1/3)
+
+
+[((
+μcj (zϕ)
+
+
+)2
+− (μcj (zφ) )
+
+
+2
+)2
+
+
++
+((
+
+
+νcj (zϕ)
+)2
+
+
+−
+
+
+(
+
+
+νcj (zφ)
+)2
+)2
+
+
++
+((
+
+
+rcj (zϕ)
+)2
+
+
+−
+(
+
+
+rcj (zφ)
+)2
+)2
+
+
++
+(
+
+
+dcj (zϕ) − dcj (zφ)
+)2
+]
+
+
+. 
+
+
+Example 1. Consider two PF evaluative ratings pϕj=(0.5142, 0.6984; 
+0.8673, 0.4040) and pφj=(0.8277, 0.3815; 0.9114, 0.7250). From 
+Definition 4, the normalized PF Euclidean distance D(pϕj, pφj)={(1/3) 
+⋅[(0.51422 –0.82772)2+(0.69842 –0.38152)2+(0.86732 –0.91142)2 
+
+
++(0.40402 –0.72502)2)]}0.5 = 0.3667. The squared PF Euclidean dis-
+tance S(pϕj, pφj)=(1/3)⋅[(0.51422 –0.82772)2+(0.69842 –0.38152)2 
+
+
++(0.86732 –0.91142)2+(0.40402 –0.72502)2)] = 0.1344. 
+
+
+Theorem 1. The normalized PF Euclidean distance measure D between 
+two PF evaluative ratings pϕj and pφj fulfills the succeeding properties: 
+
+
+(T1.1) Boundedness: 0⩽D(pϕj,pφj)⩽1; 
+(T1.2) Reflexivity: D(pϕj,pϕj) = 0; 
+(T1.3) Separability: D(pϕj, pφj) = 0 if and only if pϕj = pφj; 
+(T1.4) Symmetry: D(pϕj,pφj) = D(pφj,pϕj). 
+
+
+Proof. Refer to the proof process in Chen (2019b). 
+
+
+Remark. The squared PF Euclidean distance measure S between two 
+PF evaluative ratings pϕj and pφj fulfills the succeeding properties: 
+
+
+(R.1) Boundedness: 0⩽S(pϕj,pφj)⩽1; 
+(R.2) Reflexivity: S(pϕj,pϕj) = 0; 
+(R.3) Separability: S(pϕj, pφj) = 0 if and only if pϕj = pφj; 
+(R.4) Symmetry: S(pϕj,pφj) = S(pφj,pϕj). 
+
+
+Properties (R.1)–(R.4) are fulfilled based on (T1.1)–(T1.4), respec-
+tively. The squared PF Euclidean distance measure S is not a metric, but 
+is a semimetric because S(pϕj, pφj) satisfies the prerequisite conditions of 
+reflexivity, separability, and symmetry. 
+
+
+In addition to the properties (T1.1)–(T1.4), the main advantage of 
+the normalized PF Euclidean distance measure D is that it can measure 
+the ordinary distance between Pythagorean membership degrees in a PF 
+space. However, the use of the measure D is troublesome as there pertain 
+to costly square and square root operations. For this reason, the concept 
+of squared PF Euclidean distances towards Pythagorean membership 
+degrees will be exploited to keep away from the computation of square 
+root for simplicity. Especially, in the PF context, the Pythagorean the-
+orem is simpler in connection with the squared PF Euclidean distance 
+measure S because there is no square root. One useful application of the 
+measure S is to compare the dissimilarity between various PF evaluative 
+ratings. Therefore, the measurement of squared PF Euclidean distances 
+will be adopted to reduce computational complexity. 
+
+
+Theorem 2. Let pcϕj (= (μ
+c
+ϕj,ν
+
+
+c
+ϕj; r
+
+
+c
+ϕj,d
+
+
+c
+ϕj)) and p
+
+
+c
+φj (= (μ
+
+
+c
+φj,ν
+
+
+c
+φj; r
+
+
+c
+φj,d
+
+
+c
+φj)) be 
+
+
+the complements of the PF evaluative ratings pϕj and pφj, respectively. 
+The succeeding properties are correct: 
+
+
+(T2.1) 
+⃒
+⃒dϕj − dφj
+
+
+⃒
+⃒ =
+
+
+⃒
+⃒
+⃒dcϕj − d
+
+
+c
+φj
+
+
+⃒
+⃒
+⃒ and 
+
+
+⃒
+⃒
+⃒dϕj − dcφj
+
+
+⃒
+⃒
+⃒ =
+
+
+⃒
+⃒
+⃒dcϕj − dφj
+
+
+⃒
+⃒
+⃒; 
+
+
+(T2.2) 
+⃒
+⃒θϕj − θφj
+
+
+⃒
+⃒ =
+
+
+⃒
+⃒
+⃒θcϕj − θ
+
+
+c
+φj
+
+
+⃒
+⃒
+⃒ and 
+
+
+⃒
+⃒
+⃒θϕj − θcφj
+
+
+⃒
+⃒
+⃒ =
+
+
+⃒
+⃒
+⃒θcϕj − θφj
+
+
+⃒
+⃒
+⃒; 
+
+
+(T2.3) S(pϕj, pφj) = S(pcϕj, p
+c
+φj) and S(pϕj,p
+
+
+c
+φj) = S(p
+
+
+c
+ϕj,pφj). 
+
+
+D
+(
+pϕj, pφj
+
+
+)
+=
+
+
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+1
+3
+
+
+[((
+μϕj
+)2
+
+
+− (μφj)
+2
+)2
+
+
++
+(
+(νϕj)
+
+
+2
+− (νφj)
+
+
+2)2
++
+(
+(rϕj)
+
+
+2
+− (rφj)
+
+
+2)2
++
+(
+dϕj − dφj
+
+
+)2
+]√
+
+
+. (15)   
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+8
+
+
+Proof. For (T2.1), based on (10), one has dcϕj = 1 − dϕj and d
+c
+φj = 1 − dφj 
+
+
+for two complements pcϕj and p
+c
+φj, respectively. It is easily derived that: 
+
+
+⃒
+⃒dϕj − dφj
+
+
+⃒
+⃒ =
+
+
+⃒
+⃒
+(
+1 − dϕj
+
+
+)
+−
+(
+1 − dφj
+
+
+) ⃒
+⃒ =
+
+
+⃒
+⃒
+⃒dcϕj − d
+
+
+c
+φj
+
+
+⃒
+⃒
+⃒
+
+
+⃒
+⃒
+⃒dϕj − dcφj
+
+
+⃒
+⃒
+⃒ =
+
+
+⃒
+⃒dϕj −
+
+
+(
+1 − dφj
+
+
+) ⃒
+⃒ =
+
+
+⃒
+⃒
+(
+1 − dϕj
+
+
+)
+− dφj
+
+
+⃒
+⃒ =
+
+
+⃒
+⃒
+⃒dcϕj − dφj
+
+
+⃒
+⃒
+⃒
+
+
+Thus, (T2.1) is valid. For (T2.2), the radians θϕj and θφj that are 
+associated with pϕj and pφj, respectively, can be gained using (9), i.e., 
+θϕj = π(1 − dϕj)/2 and θφj = π(1 − dφj)/2. According to dcϕj = 1 − dϕj and 
+dcφj = 1 − dφj, it can be inferred that θ
+
+
+c
+ϕj = π(1 − d
+
+
+c
+ϕj)/2 = π⋅dϕj/2 and 
+
+
+θcφj = π(1 − d
+c
+φj)/2= π⋅dφj/2. The following results are derived: 
+
+
+⃒
+⃒θϕj − θφj
+
+
+⃒
+⃒ =
+
+
+⃒
+⃒
+⃒
+π
+2
+(
+1 − dϕj
+
+
+)
+−
+
+
+π
+2
+(
+1 − dφj
+
+
+) ⃒⃒
+⃒ =
+
+
+⃒
+⃒
+⃒
+π
+2
+(
+dϕj
+)
+−
+
+
+π
+2
+(
+dφj
+) ⃒⃒
+⃒ =
+
+
+⃒
+⃒
+⃒θcϕj − θ
+
+
+c
+φj
+
+
+⃒
+⃒
+⃒
+
+
+⃒
+⃒
+⃒θϕj − θcφj
+
+
+⃒
+⃒
+⃒ =
+
+
+⃒
+⃒
+⃒
+π
+2
+(
+1 − dϕj
+
+
+)
+−
+
+
+π
+2
+
+
+dφj
+⃒
+⃒
+⃒ =
+
+
+⃒
+⃒
+⃒
+π
+2
+
+
+dϕj −
+π
+2
+(
+1 − dφj
+
+
+) ⃒⃒
+⃒ =
+
+
+⃒
+⃒
+⃒θcϕj − θφj
+
+
+⃒
+⃒
+⃒
+
+
+Thus, (T2.2) is correct. For (T2.3), it is recognized that pcϕj = (νϕj, μϕj;
+rϕj,1 − dϕj) and pcφj =(νφj, μφj; rφj,1 − dφj) from (10). Based on (16), it is 
+proven that: 
+
+
+S(pϕj, pφj) =
+1
+3
+
+
+[(
+(νϕj)
+
+
+2
+− (νφj)
+
+
+2)2
++
+(
+(μϕj)
+
+
+2
+− (μφj)
+
+
+2)2
++
+(
+(rϕj)
+
+
+2
+− (rφj)
+
+
+2)2
+
+
++
+( (
+
+
+1 − dϕj) − (1 − dφj)
+)2
+]
+
+
+= S(pcϕj, p
+c
+φj),
+
+
+Thus, (T2.3) is fulfilled, which completes the proof. 
+Chen (2018c) expounded a complete lattice as a partially ordered set 
+
+
+in such a manner that a non-empty PF subset has a supremum and an 
+infimum. Based on the Pythagorean identity, i.e., sin2(θij) + cos2(θij) =
+1, it can be obtained that (μij)
+
+
+2
++ (νij)2 = (rij)2⋅(sin2(θij)+ cos2(θij)) =
+
+
+(rij)
+2⩽1. Analogous to Chen (2018c), this paper construes the lattice 
+
+
+(LPF ,⩽LPF ) with the partial order ⩽LPF for non-empty Pythagorean mem-
+bership degrees in a PF set as follows: 
+
+
+LPF =
+{(
+
+
+μij, νij; rij, dij)
+⃒
+⃒μij, νij, rij, dij ∈ [0, 1], (μij)
+
+
+2
++ (νij)
+
+
+2⩽1
+}
+
+
+(17) 
+
+
+For any PF evaluative ratings pϕj = (μϕj, νϕj; rϕj, dϕj)∈ LPF and pφj =
+(μφj,νφj; rφj,dφj) ∈ LPF, the partial order pϕj⩽LPF pφj if and only if μϕj⩽μφj and 
+νϕj⩾νφj. Nonetheless, such orderings regarding PF evaluative ratings do 
+not constantly take place in PF surroundings. As an illustration, consider 
+pϕj=(0.51, 0.47; 0.69, 0.53) and pφj=(0.62, 0.73; 0.96, 0.45). Because μϕj 
+(=0.51) < μφj (=0.62) and νϕj (=0.47) < νφj (=0.73), the partial order 
+does not exist between pϕj and pφj, namely, neither pϕj⩽LPF pφj nor 
+pφj⩽LPF pϕj holds. The main issue lies in this example is the differentiation 
+between PF evaluative ratings. It frequently happens that the dominance 
+
+
+relationships cannot be ascertained based on inequalities between the 
+membership functions. To differentiate the dominance relationships for 
+PF information, this paper would like to advance a new concept of SED- 
+based dominance indices to implement effectual comparisons on the 
+subject of PF evaluative ratings. 
+
+
+On the other side, the directions of commitment dϕj and dφj depict on 
+a scale of 0 to 1 how entirely the strengths rϕj and rφj, respectively, are 
+pointing toward membership. It follows that dϕj⩽dφj because μϕj⩽μφj. 
+Based on θϕj = (π/2)⋅(1 − dϕj) and θφj = (π/2)⋅(1 − dφj), one obtains 
+θϕj⩾θφj because π is a constant. It is noted that the bottom and top ele-
+ments of (LPF,⩽LPF ) are (0,1;1,0) and (1,0;1,1), respectively. This in-
+dicates that Pythagorean membership degrees (0,1;1,0) and (1,0;1,1) 
+are the lowest and highest PF evaluative ratings, respectively, in (LPF ,
+⩽LPF ). 
+
+
+Theorem 3. Let (LPF ,⩽LPF ) be a partially ordered set in the universe of 
+discourse. Let three Pythagorean membership degrees pϕj, pγj, and pφj be 
+the PF evaluative ratings, where pϕj, pγj, and pφj are affiliated with LPF 
+that involves the partial order ⩽LPF . If pϕj⩽LPF pγj⩽LPF pφj, then 
+S(pϕj, pγj)⩽S(pϕj, pφj) and S(pγj,pφj)⩽S(pϕj,pφj). 
+
+
+Proof. Because pϕj, pγj, and pφj are affiliated with LPF that contains the 
+partial order ⩽LPF , the condition pϕj⩽LPF pγj⩽LPF pφj holds if and only if 0⩽ 
+μϕj⩽μγj⩽μφj⩽1 and 1⩾νϕj⩾νγj⩾νφj⩾0. Moreover, it is known that 0⩽dϕj⩽ 
+dγj⩽dφj⩽1 from μϕj⩽μγj⩽μφj. The following results are obtained: 
+(
+(μϕj)
+
+
+2
+− (μγj)
+
+
+2)2⩽
+(
+(μϕj)
+
+
+2
+− (μφj)
+
+
+2)2, ((νϕj)2 − (νγj)2)2⩽((νϕj)2 − (νφj)2)2, 
+
+
+and 
+((
+
+
+dϕj
+)2
+
+
+−
+(
+dγj
+)2
+)2
+
+
+⩽
+((
+
+
+dϕj
+)2
+
+
+−
+(
+dφj
+)2
+)2
+
+
+. Furthermore, the following 
+
+
+is derived:  
+
+
+( (
+rϕj
+)2
+−
+(
+rγj
+)2)2
+
+
+=
+( (
+
+
+μϕj
+)2
++
+(
+νϕj
+)2
+−
+(
+μγj
+)2
+−
+(
+νγj
+)2)2 
+
+
+=
+( (
+
+
+μϕj
+)2
+−
+(
+μγj
+)2)2
+
+
++
+( (
+
+
+νϕj
+)2
+−
+(
+νγj
+)2)2
+
+
++2
+( (
+
+
+μϕj
+)2
+−
+(
+μγj
+)2)( ( νϕj
+
+
+)2
+−
+(
+νγj
+)2)
+
+
+⩽
+( (
+
+
+μϕj
+)2
+−
+(
+μφj
+)2)2
+
+
++
+( (
+
+
+νϕj
+)2
+−
+(
+νφj
+)2)2
+
+
++2
+( (
+
+
+μϕj
+)2
+−
+(
+μφj
+)2)( ( νϕj
+
+
+)2
+−
+(
+νφj
+)2)
+
+
+=
+( (
+
+
+μϕj
+)2
++
+(
+νϕj
+)2
+−
+(
+μφj
+)2
+−
+(
+νφj
+)2)2
+
+
+=
+( (
+
+
+rϕj
+)2
+−
+(
+rφj
+)2)2
+
+
+.
+
+
+In accordance with these results, it is concluded that S(pϕj,pγj)⩽S(pϕj,
+pφj) holds. The inequality S(pγj,pφj)⩽S(pϕj,pφj) can be proved just the 
+same. This completes the proof. 
+
+
+Example 2. Let three Pythagorean membership grades pϕj = (0.2124, 
+0.8436; 0.8699, 0.1570), pγj = (0.3978, 0.7534; 0.8520, 0.3093), and 
+pϕj = (0.5407, 0.6176; 0.8208, 0.4578) be the PF evaluative ratings. By 
+utilizing Definition 4, it is calculated that S(pϕj, pγj) = 0.0192, S(pγj, pφj) 
+= 0.0258, and S(pϕj, pφj) = 0.0892. One can see that the two inequalities 
+S(pϕj, pγj)⩽S(pϕj, pφj) and S(pγj, pφj)⩽S(pϕj, pφj) are satisfied. 
+
+
+The squared PF Euclidean distance S(pϕj, pφj) between pϕj and pφj is 
+similar to metrics, but it does not possess the property of triangle 
+inequality. Yet, in spite of this, it is a more general conception of 
+
+
+S
+(
+
+
+pϕj, pcφj
+
+
+)
+
+
+=
+1
+3
+
+
+[( (
+μϕj
+)2
+
+
+−
+(
+νφj
+)2)2
+
+
++
+( (
+
+
+νϕj
+)2
+
+
+−
+(
+μφj
+)2)2
+
+
++
+( (
+
+
+rϕj
+)2
+
+
+−
+(
+rφj
+)2)2
+
+
++
+(
+dϕj −
+
+
+(
+1 − dφj
+
+
+))2
+]
+
+
+= 13
+
+
+[( (
+νϕj
+)2
+
+
+−
+(
+μφj
+)2)2
+
+
++
+( (
+
+
+μϕj
+)2
+
+
+−
+(
+νφj
+)2)2
+
+
++
+( (
+
+
+rϕj
+)2
+
+
+−
+(
+rφj
+)2)2
+
+
++
+( (
+
+
+1 − dϕj
+)
+− dφj
+
+
+)2
+]
+= S
+(
+pcϕj, pφj
+
+
+)
+.
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+9
+
+
+distance and can be used to describe a natural quasi-ordering between 
+Pythagorean membership grades, namely pϕj⩽LPF pφj if and only if μϕj⩽μφj 
+and νϕj⩾νφj. Moreover, the Pythagorean theorem is simpler through the 
+agency of the squared distance measure. As proven in Theorem 3, it is 
+advisable to employ S(pϕj, pφj) to capture the separation between PF 
+evaluative ratings. There is one more thing to be noted here. Because the 
+most canonical Bregman divergence is the squared Euclidean distance, 
+the proposed S(pϕj, pφj) can facilitate forming an important class of di-
+vergences in the PF context for future research. 
+
+
+3.3. SED-based dominance indices 
+
+
+On the strength of the proposed squared PF Euclidean distance, this 
+subsection attempts to construct a SED-based dominance index and 
+present a SED-based outranking approach in the PF decision context. 
+
+
+Because (0,1;1,0) and (1,0;1,1) are the bottom and top elements, 
+respectively, of (LPF ,⩽LPF ), they are considered as the lowest and highest 
+Pythagorean membership grades, respectively. Accordingly, the posi-
+tive- and negative-ideal PF evaluative ratings are designated as (1,0;1,1) 
+and (0,1;1,0), respectively, regarding benefit criteria. On the contrary, 
+the positive- and negative-ideal PF evaluative ratings are designated as 
+(0,1;1,0) and (1,0;1,1), respectively, for cost criteria. Motivated by the 
+idea of closeness coefficient in the TOPSIS, this paper contrives an 
+innovative concept of SED-based dominance indices and inquires into 
+several useful properties. The advanced dominance indices furnish a 
+basis for formulating the succeeding PF LINMAP method and 
+techniques. 
+
+
+Definition 5. Let p+j and p− j denote the positive- and negative-ideal PF 
+evaluative ratings, respectively, in relation to each criterion cj ∈ C; they 
+are expounded as below: 
+
+
+p+j = (μ+j, ν+j; r+j, d+j) =
+{
+(1, 0; 1; 1) for cj ∈ CI,
+(0, 1; 1, 0) for cj ∈ CII;
+
+
+(18)  
+
+
+p− j = (μ− j, ν− j; r− j, d− j) =
+{
+(0, 1; 1, 0) for cj ∈ CI,
+(1, 0; 1; 1) for cj ∈ CII.
+
+
+(19)  
+
+
+Theorem 4. Consider the characteristic Pi for all zi ∈ Z, in which Pi = {
+〈cj,pij〉|cj ∈ C} = {〈cj,(μij,νij; rij,dij)〉|cj ∈ CI ∪ CII}. The PF evaluative rating 
+pij, the positive-ideal PF evaluative rating p+j, and the negative-ideal PF 
+evaluative rating p− j fulfill the following quasi-orderings, and the squared PF 
+Euclidean distances between them have the following relations: 
+
+
+(T4.1) p− j⩽LPF pij⩽LPF p+j for cj ∈ CI; 
+(T4.2) p+j⩽LPF pij⩽LPF p− j for cj ∈ CII; 
+(T4.3) S(pij, p− j)⩽S(p− j, p+j) and S(pij, p+j)⩽S(p− j, p+j) for cj ∈ C. 
+
+
+Proof. For (T4.1), it is cognized that pij, p+j, and p− j are affiliated with 
+LPF that involves the partial order ⩽LPF . For each benefit criterion cj ∈ CI, 
+inequalities μ− j⩽μij⩽μ+j and ν− j⩾νij⩾ν+j hold because μ− j = ν+j = 0 and 
+μ+j = ν− j = 1. As a result, p− j⩽LPF pij⩽LPF p+j is valid. For (T4.2), in-
+equalities μ− j⩾μij⩾μ+j and ν− j⩽νij⩽ν+j are satisfied for each cost criterion 
+cj ∈ CII because μ− j = ν+j = 1 and μ+j = ν− j = 0, which indicates that 
+p+j⩽LPF pij⩽LPF p− j. For (T4.3), it is received that S(p− j, pij) =S(pij, p− j) and 
+p− j⩽LPF pij⩽LPF p+j for cj ∈ CI from (R.4) and (T4.1), respectively. Thus, 
+S(pij, p− j)⩽S(p− j, p+j) and S(pij, p+j)⩽S(p− j, p+j) hold for cj ∈ CI according 
+to Theorem 3. Analogously, the above two relations are valid for each 
+cj ∈ CII because S(p+j, pij) = S(pij, p+j) and p+j⩽LPF pij⩽LPF p− j. Therefore, 
+(T4.3) is correct for cj ∈ C, which completes the proof. 
+
+
+On the subject of each pij, the square degree of the indeterminacy is 
+
+
+derived as 
+(
+τij
+)2
+
+
+= 1 −
+(
+μij
+)2
+
+
+−
+(
+νij
+)2
+
+
+= 1 −
+(
+rij
+)2. That is, the two 
+
+
+parameters τij and rij are dual concepts. From Definitions 4 and 5, the 
+
+
+squared PF Euclidean distances S(pij, p− j) (1/3)
+[((
+
+
+μij
+)2
+
+
+−
+(
+μ− j
+)2
+)2
+
+
++
+
+
+((
+νij
+)2
+
+
+−
+(
+ν− j
+)2
+)2
+
+
++
+(
+(rij)
+
+
+2
+− (r− j)
+
+
+2)2
++ (dij − d− j)
+
+
+2
+]
+
+
+and S(pij, p+j) =
+
+
+(1/3)
+[((
+
+
+μij
+)2
+
+
+−
+(
+μ+j
+)2
+)2
+
+
++
+((
+
+
+νij
+)2
+
+
+−
+(
+ν+j
+)2
+)2
+
+
++
+((
+
+
+rij
+)2
+
+
+− (r+j)
+2
+)2
+
+
++
+
+
+(dij − d+j)
+2
+]
+
+
+are rewritten as follows: 
+
+
+S(pij, p− j) =
+
+
+⎧
+⎪⎪⎨
+
+
+⎪⎪⎩
+
+
+1
+3
+
+
+[
+(μij)
+
+
+4
++
+(
+1 − (νij)
+
+
+2)2
++ (τij)
+
+
+4
++ (dij)
+
+
+2
+]
+
+
+for cj ∈ CI,
+
+
+1
+3
+
+
+[(
+1 − (μij)
+
+
+2)2
++ (νij)
+
+
+4
++ (τij)
+
+
+4
++
+(
+1 − dij
+
+
+)2
+]
+
+
+for cj ∈ CII;
+
+
+(20)  
+
+
+S(pij, p+j) =
+
+
+⎧
+⎪⎪⎨
+
+
+⎪⎪⎩
+
+
+1
+3
+
+
+[(
+1 − (μij)
+
+
+2)2
++ (νij)
+
+
+4
++ (τij)
+
+
+4
++
+(
+1 − dij
+
+
+)2
+]
+
+
+for cj ∈ CI,
+
+
+1
+3
+
+
+[
+(μij)
+
+
+4
++
+(
+1 − (νij)
+
+
+2)2
++ (τij)
+
+
+4
++ (dij)
+
+
+2
+]
+
+
+for cj ∈ CII.
+
+
+(21)  
+
+
+Theorem 5. For two PF evaluative ratings pϕj and pφj in connection with 
+cj ∈ C ( = CI ∪ CII), their squared PF Euclidean distances from the positive- 
+ideal PF evaluative rating p+j and from the negative-ideal PF evaluative rating 
+p− j meet the succeeding properties: 
+
+
+(T5.1) S
+(
+
+
+pϕj, p+j
+)
+
+
+⩾S
+(
+
+
+pφj, p+j
+)
+
+
+if pϕj⩽LPF pφj and 
+(
+τϕj
+)2⩾
+
+
+(
+τφj
+)2 for 
+
+
+cj ∈ CI; 
+
+
+(T5.2) S
+(
+
+
+pϕj, p− j
+)
+
+
+⩾S
+(
+
+
+pφj, p− j
+)
+
+
+if pφj⩽LPF pϕj and 
+(
+τϕj
+)2⩾
+
+
+(
+τφj
+)2 for 
+
+
+cj ∈ CI; 
+
+
+(T5.3) S
+(
+
+
+pϕj, p+j
+)
+
+
+⩾S
+(
+
+
+pφj, p+j
+)
+
+
+if pφj⩽LPF pϕj and 
+(
+τϕj
+)2⩾
+
+
+(
+τφj
+)2 for 
+
+
+cj ∈ CII; 
+
+
+(T5.4) S
+(
+
+
+pϕj, p− j
+)
+
+
+⩾S
+(
+
+
+pφj, p− j
+)
+
+
+if pϕj⩽LPF pφj and 
+(
+τϕj
+)2⩾
+
+
+(
+τφj
+)2 for 
+
+
+cj ∈ CII. 
+
+
+Proof. For (T5.1), one has 0⩽μϕj⩽μφj⩽1 and 1⩾νϕj⩾νφj⩾0 from the 
+condition pϕj⩽LPF pφj. It is received that 0⩽dϕj⩽dφj⩽1 from μϕj⩽μφj. 
+
+
+Regarding each benefit criterion cj ∈ CI, it can be calculated that S
+(
+
+
+pϕj,
+
+
+p+j
+)
+= (1/3)
+
+
+[(
+1 − (μϕj)
+
+
+2)2
++
+(
+νϕj
+)4
+
+
++ (τϕj)4 + (1 − dϕj)2
+]
+
+
+and S(pφj, p+j)
+
+
+= (1/3)
+[
+(1 − (μφj)
+
+
+2
+)
+2
++
+(
+νφj
+)4
+
+
++
+(
+τφj
+)4
+
+
++
+(
+1 − dφj
+
+
+)2
+]
+
+
+using (21). If 
+
+
+pϕj⩽LPF pφj and (τϕj)
+2⩾(τφj)2, it is acquired that S(pϕj, p+j)⩾S(pφj, p+j)
+
+
+because (1 − (μϕj)
+2
+)
+2⩾(1 − (μφj)
+
+
+2
+)
+2, (νϕj)4⩾(νφj)4, (τϕj)4⩾(τφj)4, and 
+
+
+(1 − dϕj)
+2⩾(1 − dφj)
+
+
+2. Thus, (T5.1) is satisfied. Property (T5.2) can be 
+demonstrated by analogy to (T5.1). For (T5.3), the condition pφj⩽LPF pϕj 
+indicates that 1⩾μϕj⩾μφj⩾0 and 0⩽νϕj⩽νφj⩽1, which follows that 
+
+
+1⩾dϕj⩾dφj⩾0. Regarding each cost criterion cj ∈ CII, one can yield S(pϕj,
+
+
+p+j) = (1/3)
+[
+(
+μϕj
+)4
+
+
++
+(
+
+
+1 −
+(
+νϕj
+)2
+)2
+
+
++
+(
+τϕj
+)4
+
+
++
+(
+dϕj
+)2
+]
+
+
+and S(pφj, p+j) =
+
+
+(1/3)
+[
+(
+μφj
+)4
+
+
++
+(
+
+
+1 −
+(
+νφj
+)2
+)2
+
+
++
+(
+τφj
+)4
+
+
++
+(
+dφj
+)2
+]
+
+
+using (21). If pφj⩽LPF pϕj 
+
+
+and (τϕj)2⩾(τφj)2, it is easily corroborated that S(pϕj, p+j)⩾S(pφj, p+j)
+because (μϕj)
+
+
+4⩾(μφj)
+4, (1 − (νϕj)2)2⩾(1 − (νφj)2)2, (τϕj)4⩾(τφj)4, and 
+
+
+(dϕj)
+2⩾(dφj)
+
+
+2, i.e., (T5.3) is fulfilled. Property (T5.4) is demonstrated by 
+analogy to (T5.3), which completes the proof. 
+
+
+As proven in Theorem 5, the proposed squared PF Euclidean dis-
+tances in the matter of p+j and p− j can render justified rankings in line 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+10
+
+
+with the quasi-orderings defined in (LPF ,⩽LPF ). In particular, even if the 
+condition concerning degrees of indeterminacy is not satisfied, the 
+ranking results yielded by the squared PF Euclidean distances are more 
+reasonable than other PF distance measures. Let us examine the 
+following example. 
+
+
+Example 3. Let two Pythagorean membership grades pϕj and pφj be the 
+PF evaluative ratings of the alternatives zϕ and zφ, respectively, in terms 
+of a benefit criterion cj, where pϕj=(0.1600, 0.3500; 0.3848, 0.2730) and 
+pφj=(0.1610, 0.2000; 0.2568, 0.4315) in Case 1, pϕj=(0.3536, 0.3536; 
+0.5000, 0.5000) and pφj=(0.3537, 0.3500; 0.4976, 0.5033) in Case 2, 
+and pϕj=(0.5000, 0.6000; 0.7810, 0.4423) and pφj=(0.5100, 0.4000; 
+0.6482, 0.5766) in Case 3. It displays that the partial order pϕj⩽LPF pφj 
+holds in Cases 1–3. However, the condition (τϕj)2⩾(τφj)2 is not satisfied 
+because τϕj = 0.9230 and τφj = 0.9665 in Case 1, τϕj = 0.8660 and τφj =
+0.8674 in Case 2, and τϕj = 0.6245 and τφj = 0.7615 in Case 3. Although 
+one of the preconditions in (T5.1) is not satisfied, the concept of scalar- 
+valued functions in Definition 3 can facilitate the comparison of the PF 
+evaluative ratings. Based on (11), one can clearly see that: 
+
+
+V(pϕj) =
+1
+2
++ rϕj
+
+
+(
+
+
+dϕj −
+1
+2
+
+
+)
+
+
+=
+1
+2
++ 0.3848
+
+
+(
+
+
+0.2730 −
+1
+2
+
+
+)
+
+
+= 0.4126  
+
+
+or equivalently, 
+
+
+V(pϕj) =
+1
+2
++ rϕj
+
+
+(
+1
+2
+−
+
+
+2⋅θϕj
+π
+
+
+)
+
+
+=
+1
+2
++ 0.3848
+
+
+(
+1
+2
+−
+
+
+2⋅1.1420
+3.1416
+
+
+)
+
+
+= 0.4126  
+
+
+and V(pφj) = 0.4824 in Case 1, V(pϕj) = 0.5000 and V(pφj) = 0.5017 in 
+Case 2, and V(pϕj) = 0.4549 and V(pφj) = 0.5496 in Case 3. Recall that cj 
+is a benefit criterion, i.e., cj ∈ CI. Accordingly, it is anticipated that pφj 
+should have an advantage over pϕj because V(pφj)⩾V(pϕj) in Cases 1–3. 
+According to (21), the squared PF Euclidean distances from p+j are 
+computed as below: 
+
+
+S(pϕj, p+j) =
+1
+3
+
+
+[(
+1 − 0.16002
+
+
+)2
++ 0.35004 + 0.92304 + (1 − 0.2730)2
+
+
+]
+
+
+= 0.7396  
+
+
+and S(pφj,p+j) = 0.7154 in Case 1, S(pϕj,p+j) = 0.5313 and S(pφj,p+j) =
+0.5311 in Case 2, and S(pϕj,p+j) = 0.3851 and S(pφj,p+j) = 0.3629 in 
+Case 3. It is obvious that pφj has a smaller squared PF Euclidean distance 
+from p+j than pϕj because S(pϕj, p+j)⩾S(pφj, p+j) hold in Cases 1–3. 
+Therefore, pφj is more desirable than pϕj according to the comparison 
+results via squared PF Euclidean distances from p+j. 
+
+
+Example 4. ((Continued from Example 3)) As mentioned previously, 
+Ren et al. (2016) introduced the Euclidean distance measure in PF cir-
+cumstances. By the agency of the Minkowski distance model, Chen 
+(2018c) and Wan et al. (2018) conveyed the generalized PF distance 
+measure on account of PF sets. Applying the definition proposed by Ren 
+et al. (2016), the Euclidean distances between pϕj and p+j and between 
+pφj and p+j are respectively: 
+
+
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+1
+2
+⋅
+[((
+
+
+μϕj
+)2
+
+
+−
+(
+μ+j
+)2
+)2
+
+
++
+((
+
+
+νϕj
+)2
+
+
+−
+(
+ν+j
+)2
+)2
+
+
++
+((
+
+
+τϕj
+)2
+
+
+−
+(
+τ+j
+)2
+)2
+]√
+
+
+=
+
+
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+1
+2
+⋅
+[(
+
+
+0.16002 − 12
+)2
+
+
++
+(
+0.35002 − 02
+
+
+)2
++
+(
+0.92302 − 02
+
+
+)2
+]
+
+
+√
+
+
+= 0.9193  
+
+
+and 0.9547 in Case 1, 0.8197 and 0.8205 in Case 2, and 0.6497 and 
+0.6743 in Case 3. However, the obtained results are unreasonable 
+because the Euclidean distance between pϕj and p+j is smaller than that 
+between pφj and p+j in Cases 1–3. This paper makes use of the definitions 
+instituted by Chen (2018c) and Wan et al. (2018) to ascertain the PF 
+distances. Let the distance parameter be equal to five. The generalized 
+PF distances between pϕj and p+j and between pφj and p+j are 
+respectively: 
+
+
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+1
+2
+
+
+⋅
+[⃒
+⃒
+⃒
+(
+μϕj
+)2
+
+
+−
+(
+μ+j
+)2
+⃒
+⃒
+⃒
+
+
+5
++
+
+
+⃒
+⃒
+⃒
+(
+νϕj
+)2
+
+
+−
+(
+ν+j
+)2
+⃒
+⃒
+⃒
+
+
+5
++
+
+
+⃒
+⃒
+⃒
+(
+τϕj
+)2
+
+
+−
+(
+τ+j
+)2
+⃒
+⃒
+⃒
+
+
+5
+]
+
+
+5
+
+
+√
+
+
+=
+
+
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+1
+2
+
+
+⋅
+[⃒
+⃒0.16002 − 12
+
+
+⃒
+⃒5 +
+
+
+⃒
+⃒0.35002 − 02
+
+
+⃒
+⃒5 +
+
+
+⃒
+⃒0.92302 − 02
+
+
+⃒
+⃒5
+]
+
+
+5
+
+
+√
+
+
+= 0.9212  
+
+
+and 0.9549 in Case 1, 0.8219 and 0.8227 in Case 2, and 0.6610 and 
+0.6784 in Case 3. Nonetheless, such results are unacceptable because the 
+generalized PF distance between pϕj and p+j is smaller than that between 
+pφj and p+j in Cases 1–3. The comparison results through the agency of 
+the Euclidean distance measure and the generalized PF distance measure 
+violate the partial order pϕj⩽LPF pφj and the scalar-valued functions 
+V(pφj)⩾V(pϕj). On account of the above discussions, the proposed 
+concept of squared PF Euclidean distances can indeed produce believ-
+able and desirable results, i.e., S(pϕj, p+j)⩾S(pφj, p+j) in the three cases. 
+
+
+The positive- and negative-ideal PF evaluative ratings are conceived 
+to be the points of reference since they serve as approachable targets (via 
+positive ideals) and avoidable targets (via negative ideals) and furnish 
+anchors for the ascertainment of dominance intensities. In general, PF 
+evaluative ratings that have closer squared PF Euclidean distances from 
+p+j are more favorable and advantageous. In contrast, PF evaluative 
+ratings that have farther squared PF Euclidean distances from p− j are 
+more recommendable. Consider pϕj and pφj of zϕ,zφ ∈ Z, respectively, in 
+regard to cj ∈ C as an example. When pϕj⩽LPF pφj and (τϕj)
+
+
+2⩾(τφj)
+2, it is 
+
+
+reasonable to infer that zϕ performs worse than zφ in relation to a benefit 
+criterion cj ∈ CI because of the lower degree of membership (i.e., 
+μϕj⩽μφj), higher degree of non-membership (i.e., νϕj⩾νφj), and higher 
+degree of indeterminacy (i.e., τϕj⩾τφj). When pφj⩽LPF pϕj and (τϕj)
+
+
+2⩾(τφj)2, 
+it implies that zϕ performs worse than zφ in relation to a cost criterion 
+cj ∈ CII because of the higher degree of membership (i.e., μϕj⩾μφj), lower 
+degree of non-membership (i.e., νϕj⩽νφj), and higher degree of indeter-
+minacy (i.e., τϕj⩾τφj). As indicated in Theorem 5, (T5.1) and (T5.3) 
+verify the accuracy of the relation S(pϕj, p+j)⩾S(pφj, p+j) for cj ∈ CI and 
+cj ∈ CII, respectively. Specifically, for cj ∈ C, higher squared PF 
+Euclidean distances from p+j indicate a weaker preference, and 
+conversely, lower squared PF Euclidean distances from p+j indicate a 
+stronger preference. It is concluded that zϕ performs superior than zφ as 
+regards to cj ∈ CI and cj ∈ CII if pφj⩽LPF pϕj and (τϕj)
+
+
+2⩾(τφj)2 and if 
+pϕj⩽LPF pφj and (τϕj)
+
+
+2⩾(τφj)2, respectively. Moreover, (T5.2) and (T5.4) 
+examine the validity of the relation S(pϕj, p− j)⩾S(pφj, p− j) in respect to 
+cj ∈ CI and cj ∈ CII, respectively. Accordingly, for cj ∈ C, higher squared 
+PF Euclidean distances from p− j advocate a stronger preference; 
+conversely, lower squared PF Euclidean distances from p− j indicate a 
+weaker preference. 
+
+
+To determine the dominance relations among PF evaluations and 
+conduct intracriterion contrasts and judgments, this study specifies a 
+novel SED-based dominance index for appraising the span to which pij is 
+far from p− j and close to p+j simultaneously. The advanced SED-based 
+dominance index is capable of incarnating an overall counterpoise of 
+pij between the remotest connection with p− j and the connection with 
+p+j. 
+
+
+Definition 6. Consider a PF evaluative rating pij (= (μij, νij; rij, dij)) in 
+the characteristic Pi. The SED-based dominance index ψ of pij is 
+expounded as below: 
+
+
+ψ(pij) =
+S(pij, p− j)
+
+
+S(pij, p+j) + S(pij, p− j)
+(22)  
+
+
+Theorem 6. The SED-based dominance index ψ(pij) of the PF evalua-
+tive rating pij fulfills the succeeding properties: 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+11
+
+
+(T6.1) 0⩽ψ(pij)⩽1; 
+(T6.2) ψ(pij) = 0 if and only if pij = p− j; 
+(T6.3) ψ(pij) = 1 if and only if pij = p+j. 
+
+
+Proof. For (T6.1), the squared PF Euclidean distances S(pij, p− j) and 
+S(pij, p+j) range from 0 to 1 by virtue of the property of boundedness in 
+(R.1). Thus, it can prove directly that 0⩽ψ(pij)⩽1. For the necessity in 
+(T6.2), the condition of ψ(pij) = 0 indicates that S(pij, p− j) = 0. In line 
+with the separability property in (R.3), it is acquired that pij = p− j. 
+Considering the sufficiency in (T6.2), if pij = p− j, then S(pij, p− j) = 0 in 
+conformity with the property of reflexivity in (R.2). It reveals that ψ(pij)
+= 0. For the necessity in (T6.3), one has S(pij, p+j)+S(pij, p− j) = S(pij, p− j)
+because ψ(pij) = 1. It can be acquired that S(pij,p+j) = 0, which signifies 
+that pij = p+j. Afterwards, for the sufficiency in (T6.3), if pij = p+j, then 
+S(pij,p+j) = 0, which indicates that ψ(pij) = 1. This completes the proof. 
+
+
+Theorem 7. The SED-based dominance index ψ(pij) in connection with 
+the ideal PF evaluative ratings p+j and p− j can be identified as follows: 
+
+
+ψ(pij) =
+
+
+⎧
+⎪⎪⎪⎪⎨
+
+
+⎪⎪⎪⎪⎩
+
+
+1 − 2(νij)
+2
++ Θij
+
+
+1 + 2
+(
+(τij)
+
+
+2
+− dij + Θij
+
+
+) for cj ∈ CI,
+
+
+2
+(
+1 − (μij)
+
+
+2
+− dij
+
+
+)
++ Θij
+
+
+1 + 2
+(
+(τij)
+
+
+2
+− dij + Θij
+
+
+) for cj ∈ CII,
+
+
+(23)  
+
+
+where Θij = (μij)
+4
++(νij)4 +(τij)4 +(dij)2 for brevity. 
+
+
+Proof. Concerning a PF evaluative rating pij, in line with (20), the 
+numerator in ψ(pij) in the matter of each benefit criterion cj ∈ CI 
+becomes: 
+
+
+S
+(
+pij, p− j
+
+
+)
+=
+
+
+1
+3
+
+
+[(
+μij
+)4
+
+
++
+(
+1 −
+
+
+(
+νij
+)2)2
+
+
++
+(
+τij
+)4
+
+
++
+(
+dij
+)2
+]
+
+
+= 13
+
+
+( (
+μij
+)4
+
+
++ 1 − 2
+(
+νij
+)2
+
+
++
+(
+νij
+)4
+
+
++
+(
+τij
+)4
+
+
++
+(
+dij
+)2)
+
+
+= 13
+
+
+(
+1 − 2
+
+
+(
+νij
+)2
+
+
++ Θij
+)
+
+
+Based on (20) and (21), the denominator in ψ(pij) for cj ∈ CI is 
+derived as below:   
+
+
+In the case of cj ∈ CI, the following holds: 
+
+
+ψ(pij) =
+1 − 2(νij)
+
+
+2
++ Θij
+
+
+1 + 2
+(
+(τij)
+
+
+2
+− dij + Θij
+
+
+)
+
+
+Regarding each cost criterion cj ∈ CII, the numerator and denomi-
+nator in ψ(pij) are calculated in the following manner: 
+
+
+S(pij, p− j) =
+1
+3
+
+
+[(
+1 − (μij)
+
+
+2)2
++ (νij)
+
+
+4
++ (τij)
+
+
+4
++
+(
+1 − dij
+
+
+)2
+]
+
+
+=
+1
+3
+(
+1 − 2(μij)
+
+
+2
++ (μij)
+
+
+4
++ (νij)
+
+
+4
++ (τij)
+
+
+4
++ 1 − 2dij + (dij)
+
+
+2)
+
+
+=
+1
+3
+(
+2 − 2(μij)
+
+
+2
+− 2dij + Θij
+
+
+)
+=
+
+
+1
+3
+[
+2
+(
+1 − (μij)
+
+
+2
+− dij
+
+
+)
++ Θij
+
+
+]
+,
+
+
+S
+(
+pij,p+j
+
+
+)
++S
+(
+pij,p− j
+
+
+)
+=
+
+
+1
+3
+
+
+[(
+μij
+)4
++
+(
+1−
+(
+νij
+)2)2
+
+
++
+(
+τij
+)4
++
+(
+dij
+)2
+]
+
+
++
+1
+3
+
+
+[(
+1−
+(
+μij
+)2)2
+
+
++
+(
+νij
+)4
++
+(
+τij
+)4
++
+(
+1− dij
+
+
+)2
+]
+
+
+=
+1
+3
+(
+2− 2
+
+
+(
+μij
+)2
+− 2
+(
+νij
+)2
++2
+(
+μij
+)4
++2
+(
+νij
+)4
++2
+(
+τij
+)4
++2
+(
+dij
+)2
++1− 2dij
+
+
+)
+
+
+=
+1
+3
+(
+2
+(
+τij
+)2
++2
+(
+μij
+)4
++2
+(
+νij
+)4
++2
+(
+τij
+)4
++2
+(
+dij
+)2
++1− 2dij
+
+
+)
+
+
+=
+1
+3
+[
+1+2
+
+
+( (
+τij
+)2
+− dij+Θij
+
+
+)]
+
+
+It should be noted that S(pij,p+j)+S(pij,p− j) =(1/3)[1+2((τij)
+2
+− dij+
+
+
+Θij)] regardless of benefit and cost criteria. In the case of cj∈CII, the 
+following is derived: 
+
+
+ψ(pij) =
+2
+(
+1 − (μij)
+
+
+2
+− dij
+
+
+)
++ Θij
+
+
+1 + 2
+(
+(τij)
+
+
+2
+− dij + Θij
+
+
+)
+
+
+This completes the proof. 
+
+
+Definition 7. On grounds of the SED-based dominance index ψ, the 
+dominance relations between PF evaluative ratings pϕj and pφj (for ϕ,
+φ ∈ {1,2,⋯,m} and j ∈ {1,2,⋯,n}) are defined via the following SED- 
+based outranking approach: 
+
+
+(D7.1) pϕj≺SEDpφj if ψ(pϕj) < ψ(pφj); 
+(D7.2) pϕj̃SEDpφj if ψ(pϕj) = ψ(pφj); 
+(D7.3) pϕj≻SEDpφj if ψ(pϕj) > ψ(pφj).  
+
+
+Example 5. ((Continued Example 3)) According to (23) in Theorem 7, 
+the SED-based dominance indices are computed as follows: 
+
+
+ψ(pϕj) =
+1− 2(νϕj)
+
+
+2
++Θϕj
+
+
+1+2((τϕj)
+2
+− dϕj+Θϕj)
+
+
+= 1− 2⋅0.3500
+2+0.8160
+
+
+1+2(0.92302 − 0.2730+0.8160)
+= 0.4145, 
+
+
+where Θϕj = 0.16004 + 0.35004 + 0.92304 + 0.27302 = 0.8160, 
+and ψ(pφj) = 0.4800 in Case 1, ψ(pϕj) = 0.5000 and ψ(pφj) = 0.5019 in 
+Case 2, and ψ(pϕj) = 0.4151 and ψ(pφj) = 0.5698 in Case 3. From (D7.1), 
+it is clear that pϕj≺SEDpφj because ψ(pϕj) < ψ(pφj) in Cases 1–3. Based on 
+Definition 6, the DI index can be determined alternately using the 
+
+
+squared PF Euclidean distances on the subject of the ideal PF ratings p+j 
+and p− j. The squared PF Euclidean distances from p+j have been pro-
+vided in Example 3. The squared PF Euclidean distances from p− j are 
+calculated as below: S(pϕj,p− j) = 0.5236 and S(pφj,p− j) = 0.6603 in Case 
+1, S(pϕj,p− j) = 0.5313 and S(pφj,p− j) = 0.5350 in Case 2, and S(pϕj,p− j)
+= 0.2733 and S(pφj,p− j) = 0.4807 in Case 3. Observe that pφj has a larger 
+squared PF Euclidean distance from p− j than pϕj because S(pϕj, p− j)⩽ 
+S(pφj, p− j) hold in Cases 1–3. This reveals that pφj is more desirable than 
+pϕj according to the comparison results via squared PF Euclidean dis-
+tances from p− j. According to Definition 6, the SED-based dominance 
+index ψ(pϕj) in Case 1 is determined as below: 
+
+
+ψ(pϕj) =
+S(pϕj ,p− j)
+
+
+S(pϕj ,p+j)+S(pϕj ,p− j)
+= 0.52360.7396+0.5236 = 0.4145, 
+
+
+which is the same as that using (23) in Theorem 7. In accordance 
+with the derived result pϕj≺SEDpφj in Cases 1–3, there is concordance 
+
+
+S
+(
+pij, p+j
+
+
+)
++ S
+(
+pij, p− j
+
+
+)
+
+
+= 13
+
+
+[(
+1 −
+
+
+(
+μij
+)2)2
+
+
++
+(
+νij
+)4
+
+
++
+(
+τij
+)4
+
+
++
+(
+1 − dij
+
+
+)2
+]
++ 13
+
+
+[(
+μij
+)4
+
+
++
+(
+1 −
+
+
+(
+νij
+)2)2
+
+
++
+(
+τij
+)4
+
+
++
+(
+dij
+)2
+]
+
+
+=
+1
+3
+(
+2 − 2
+
+
+(
+μij
+)2
+
+
+− 2
+(
+νij
+)2
+
+
++ 2
+(
+μij
+)4
+
+
++ 2
+(
+νij
+)4
+
+
++ 2
+(
+τij
+)4
+
+
++ 1 − 2dij + 2
+(
+dij
+)2)
+
+
+= 13
+
+
+(
+2
+(
+τij
+)2
+
+
++ 2
+(
+μij
+)4
+
+
++ 2
+(
+νij
+)4
+
+
++ 2
+(
+τij
+)4
+
+
++ 1 − 2dij + 2
+(
+dij
+)2)
+
+
+= 13
+
+
+[
+1 + 2
+
+
+( (
+τij
+)2
+
+
+− dij + Θij
+) ]
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+12
+
+
+Fig. 3. Theoretical framework of the proposed PF LINMAP methodology.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+13
+
+
+among the comparison results yielded by the squared PF Euclidean 
+distances and by the scalar-valued functions in Example 3. The use of the 
+SED-based dominance index ψ can identify and differentiate the domi-
+nance intensities among PF evaluative ratings. More precisely, the dif-
+ferences between ψ(pϕj) and ψ(pφj) are more significant than those 
+between S(pϕj, p+j) and S(pφj, p+j) and between V(pϕj) and V(pφj) in three 
+cases. Thus, the ψ index can serve a comprehensive comparison tool to 
+determine intracriterion dominance extent among alternatives. 
+
+
+Based on the SED-based dominance index ψ(pij), (D7.1)− (D7.3) 
+provide an easy-to-use and convincing law, namely, a SED-based out-
+ranking approach, for differentiating the PF evaluative ratings pij on the 
+subject of a specific criterion cj. By way of the SED-based outranking 
+approach, the intracriterion comparison of PF evaluative ratings and the 
+determination of dominance relationships among the alternatives can be 
+implemented in a manner that is uncomplicated and simple to under-
+stand. Over and above that, this paper makes use of differences between 
+SED-based dominance indices to ascertain the rank consistency and 
+inconsistency measurements for each ordered pair of alternatives for use 
+in determining goodness and poorness of fit in the PF LINMAP 
+methodology. 
+
+
+4. PF LINMAP methods 
+
+
+This section intends to constitute a beneficial PF LINMAP method-
+ology that uses the proposed SED-based dominance index and the SED- 
+based outranking approach. Some useful measurements of consistency 
+and inconsistency are proposed to appraise the goodness of fit and 
+poorness of fit towards each ordered pair of alternatives with relevance 
+to paired preference relations indicated by the decision maker. A 
+straightforward and efficacious optimization model is formulated to 
+resolve the optimal criterion weights and identify the best compromise 
+alternative in PF decision circumstances. 
+
+
+4.1. Proposed methodology 
+
+
+The decision maker establishes the paired preference relations 
+within a finite set of alternatives in the matter of multiple criteria. To 
+match the subjective preferences of one alternative over another, a SED- 
+based outranking approach using SED-based dominance indices can be 
+employed in the PF LINMAP procedure. This dominance relation is 
+characterized by the squared PF Euclidean distances from the largest 
+and smallest Pythagorean membership grades. Additionally, such a SED- 
+based outranking relation is constructed and an application is presented 
+to ascertain the goodness of fit and poorness of fit from the distributive 
+PF evaluative ratings over the various criteria. To make the conceptual 
+process clear, Fig. 3 depicts the theoretical framework of the advanced 
+PF LINMAP methodology via a SED-based outranking approach. 
+
+
+The outranking relationship defined by the proposed SED-based 
+outranking approach is a dominance relation to identify preference 
+between two PF evaluative ratings. It is conceived that the PF evaluative 
+rating pϕj outranks pφj if and only if there is adequate evidence to believe 
+that pϕj is better than pφj or at least pϕj is as good as pφj. The developed 
+concept of SED-based dominance indices can provide tangible evidence 
+based on a solid theoretical basis. More specifically, applying Definition 
+7, if ψ(pϕj)⩾ψ(pφj), it would be concluded that pϕj outranks pφj, i.e., 
+pϕj≻
+̃
+
+
+SEDpφj. 
+
+
+To further capture the dominance relation of one alternative over 
+another with respect to multiple criteria, a concept of comprehensive 
+dominance indices can be used. The comprehensive dominance index is 
+expounded as the weighted sum of the SED-based dominance indices 
+over all criteria. Let w = (w1,w2,⋯,wn) represent the weight vector 
+relevant to the evaluative criteria, in which 0⩽wj⩽1 for each criterion cj 
+and 
+
+
+∑n
+j=1wj = 1. It is noted that the exact value of wj is unknown a priori 
+
+
+and should be ascertained in the PF LINMAP approach. For each alter-
+native zi, the comprehensive dominance index is determined by 
+
+
+multiplying the SED-based dominance index ψ(pij) by the unknown 
+weight wj and then aggregating these products across the n criteria. 
+
+
+Definition 8. Given the weight vector w and the characteristic Pi of 
+each alternative zi ∈ Z, the comprehensive dominance index Ψ(Pi) for 
+each zi is described as follows: 
+
+
+Ψ(Pi) =
+∑n
+
+
+j=1
+wj⋅ψ(pij) (24) 
+
+
+where wj ∈ [0, 1] for all cj ∈ C and 
+∑n
+
+
+j=1wj = 1. 
+
+
+Theorem 8. For each characteristic Pi in the context of the alternative 
+set Z, the comprehensive dominance index Ψ(Pi) meets the succeeding 
+properties: 
+
+
+(T8.1) 0⩽Ψ(Pi)⩽1; 
+(T8.2) Ψ(Pi) = 0 if pij = p− j for all cj ∈ C; 
+(T8.3) Ψ(Pi) = 1 if pij = p+j for all cj ∈ C. 
+
+
+Proof. The properties (T8.1)–(T8.3) are obviously corroborated from 
+(T6.1) to (T6.3), respectively, which completes the proof. 
+
+
+The core techniques of the advanced PF LINMAP methodology 
+involve the comparison among the pairwise preference information and 
+the comprehensive dominance relations. The preference relations be-
+tween alternatives in the paired comparison information are indicated 
+by the decision maker based on individual opinion or experience in the 
+classical LINMAP approach. Nonetheless, incomplete and non-transitive 
+judgments often occur because of various determinants such as limited 
+knowledge and expertise in making the decision (Kou et al., 2016). To 
+preserve most of the original information provided by the decision 
+maker, this paper defines two measurements based on the perspectives 
+of rank consistency and inconsistency. Consider two alternatives zϕ and 
+zφ in Z. For each ordered pair (ϕ, φ) ∈ Ω, there are concordance and 
+discordance if zϕ and zφ in the PF LINMAP result are ranked in the 
+identical order and counter-ranked, respectively, within the two pre-
+orders. If zϕ and zφ have the identical rank, ex aequo exists. As 
+mentioned previously, the PF evaluative rating pϕj outranks pφj (i.e., 
+pϕj≻
+̃
+
+
+SEDpφj) if ψ(pϕj)⩾ψ(pφj). Accordingly, it is anticipated that the 
+
+
+comprehensive dominance indices Ψ(Pϕ) and Ψ(Pφ) of zϕ and zφ, 
+respectively, which are connected with the optimal weight vector, 
+should satisfy the inequality of Ψ(Pϕ)⩾Ψ(Pφ). Moreover, it can be 
+inferred that a higher value of Ψ(Pi) indicates a stronger preference for 
+the alternative zi. The proposed PF LINMAP methodology utilizes this 
+rationale to ascertain the consistency measure and the inconsistency 
+measure for a couple of alternatives. More precisely, no error is 
+redounded to the preference relation between zϕ and zφ towards the 
+ordered pair (ϕ,φ) if Ψ(Pϕ)⩾Ψ(Pφ); in contrast, if Ψ(Pϕ) < Ψ(Pφ), then 
+errors exist that will be attributable to the preference relation revealed 
+by the decision maker. In this regard, the following definition provides 
+the measurements of rank consistency and rank inconsistency for each 
+ordered pair (ϕ,φ) based on the comprehensive dominance indices 
+Ψ(Pϕ) and Ψ(Pφ). 
+
+
+Definition 9. Given the characteristics Pϕ and Pφ of the alternatives zϕ 
+and zφ, respectively, and the set of paired preference relations Ω, the 
+measure of rank consistency between the preorders of zϕ and zφ for an 
+ordered pair (ϕ,φ) ∈ Ω is expounded as follows: 
+
+
+(Ψ(Pϕ) − Ψ(Pφ))
++
+=
+
+
+{
+Ψ(Pϕ) − Ψ(Pφ) if Ψ(Pϕ)⩾Ψ(Pφ),
+
+
+0 if Ψ(Pϕ) < Ψ(Pφ).
+(25) 
+
+
+The measure of rank inconsistency between the preorders for (ϕ,φ) is 
+expounded as below: 
+
+
+(Ψ(Pϕ) − Ψ(Pφ))
+−
+=
+
+
+{
+Ψ(Pφ) − Ψ(Pϕ) if Ψ(Pϕ) < Ψ(Pφ),
+
+
+0 if Ψ(Pϕ)⩾Ψ(Pφ).
+(26) 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+14
+
+
+Theorem 9. For each ordered pair (ϕ, φ) ∈ Ω, the consistency measure 
+(Ψ(Pϕ) − Ψ(Pφ))
+
+
++ and the inconsistency measure (Ψ(Pϕ) − Ψ(Pφ))
+− satisfy 
+
+
+the following properties: 
+
+
+(T9.1) (Ψ(Pϕ) − Ψ(Pφ))
++
+
+
+= max{0,Ψ(Pϕ) − Ψ(Pφ)}; 
+(T9.2) (Ψ(Pϕ) − Ψ(Pφ))
+
+
+−
+= max{0,Ψ(Pφ) − Ψ(Pϕ)}; 
+
+
+(T9.3) (Ψ(Pϕ) − Ψ(Pφ))
++⩾0 and (Ψ(Pϕ) − Ψ(Pφ))
+
+
+− ⩾0; 
+(T9.4) (Ψ(Pϕ) − Ψ(Pφ))
+
+
++
+− (Ψ(Pϕ) − Ψ(Pφ))
+
+
+−
+= Ψ(Pϕ) − Ψ(Pφ). 
+
+
+Proof. Properties in (T9.1) and (T9.2) can be easily proved from the 
+definitions in (25) and (26), respectively. (T9.3) is trivially true based on 
+(T9.1) and (T9.2). For (T9.4), according to Definition 9, one obtains: 
+
+
+(Ψ(Pϕ) − Ψ(Pφ))
++
+− (Ψ(Pϕ) − Ψ(Pφ))
+
+
+−
+
+
+=
+
+
+{
+(Ψ(Pϕ) − Ψ(Pφ)) − 0 if Ψ(Pϕ)⩾Ψ(Pφ)
+0 − (Ψ(Pφ) − Ψ(Pϕ)) if Ψ(Pϕ) < Ψ(Pφ)
+
+
+= Ψ(Pϕ) − Ψ(Pφ).
+
+
+Consequently, (T9.4) is correct, which completes the proof. 
+The consistency measure (Ψ(Pϕ) − Ψ(Pφ))
+
+
++ ascertains the level of 
+consistency between the ranking orders of zϕ and zφ in which the or-
+dered pair (ϕ,φ) is acquired in the light of the subjective preference 
+relationships in Ω, and the other ranking order is identified on the basis 
+of the obtained Ψ(Pϕ) and Ψ(Pφ). Next, this paper sums the consistency 
+measure (Ψ(Pϕ) − Ψ(Pφ))
+
+
++ over all (ϕ,φ) ∈ Ω; accordingly, the degree of 
+goodness of fit G is quantified in the following manner: 
+
+
+G =
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+(Ψ(Pϕ) − Ψ(Pφ))
++ (27)  
+
+
+where G⩾0 because (Ψ(Pϕ) − Ψ(Pφ))
++⩾0 from (T9.3). 
+
+
+The inconsistency measure (Ψ(Pϕ) − Ψ(Pφ))
+− appraises the level of 
+
+
+inconsistency towards the ranking orders of zϕ and zφ; it can describe the 
+error for each ordered pair (ϕ,φ) ∈ Ω. Specifically, when Ψ(Pϕ) < Ψ(Pφ)
+towards pair (ϕ,φ), the difference between Ψ(Pϕ) and Ψ(Pφ) denotes the 
+error. By way of explanation, the difference Ψ(Pφ) − Ψ(Pϕ) signifies the 
+degree to which the condition Ψ(Pϕ)⩾Ψ(Pφ) is violated. This paper sums 
+the inconsistency measure (Ψ(Pϕ) − Ψ(Pφ))
+
+
+− over all (ϕ,φ) ∈ Ω; there-
+upon, the degree of poorness of fit B is measured as below: 
+
+
+B =
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+(Ψ(Pϕ) − Ψ(Pφ))
+− (28)  
+
+
+where B⩾0 because (Ψ(Pϕ) − Ψ(Pφ))
+− ⩾0 from (T9.3). 
+
+
+In general, a larger B value indicates a greater degree of violation of 
+the conditions associated with the preference relations revealed in the 
+set Ω. To acquire the optimal weight vector for which B is minimal, this 
+paper establishes an optimization model to minimize the B value in the 
+proposed PF LINMAP methodology. Particularly, it is rational and un-
+derstandable to postulate that the decision maker desires to receive the 
+PF LINMAP solution with high goodness of fit and low poorness of fit. It 
+directly follows that the condition of G⩾B should be amalgamated to the 
+proposed optimization model. In what follows, let a non-negative 
+number ħ denote the lowest acceptable level relating to the difference 
+between G and B. Thereby, the imposed condition in which G must be 
+larger than or equal to B is expressed as follows: 
+
+
+G − B ≥ ħ (29) 
+
+
+This paper attempts to formulate an optimization problem in order 
+that paired preference judgments compared to the given ordered pairs in 
+Ω are violated as minimally as possible. Specifically, to minimize the 
+poorness of fit B under the consideration that the goodness of fit G is not 
+smaller than B by ħ, the optimization problem Model I is established as 
+below: 
+
+
+Model I. min{B}
+
+
+s.t.
+
+
+⎧
+⎪⎨
+
+
+⎪⎩
+
+
+G − B⩾ħ,
+∑n
+
+
+j=1
+wj = 1, wj⩾0 for all j.
+
+
+(30) 
+
+
+The poorness of fit B is composed of the inconsistency measures 
+(Ψ(Pϕ) − Ψ(Pφ))
+
+
+− for all (ϕ,φ) ∈ Ω. It directly follows that B is identified 
+by the comprehensive dominance indices Ψ(Pϕ) and Ψ(Pφ), which 
+involve the unknown importance weights of the criteria. Because 
+(Ψ(Pϕ) − Ψ(Pφ))
+
+
+−
+= max{0,Ψ(Pφ) − Ψ(Pϕ)} from (T9.2), the objective B 
+
+
+in Model I can be represented as below: 
+
+
+B =
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+max{0,Ψ(Pφ) − Ψ(Pϕ)}
+
+
+=
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+max
+
+
+{
+
+
+0,
+∑n
+
+
+j=1
+
+
+(
+ψ(pφj) − ψ(pϕj)
+
+
+)
+⋅wj
+
+
+}
+
+
+(31) 
+
+
+Let Γϕφ denote the degree of violation concerning the ordered pair (ϕ,
+φ); it is defined as the maximum of 0 and Ψ(Pφ) − Ψ(Pϕ) for each (ϕ,
+φ) ∈ Ω. Specifically, Γϕφ in relation to Ψ(Pϕ) and Ψ(Pφ) represents the 
+extent contrary to the decision maker’s preference relation zϕ≻ zφ, as 
+below: 
+
+
+Γϕφ = max{0,Ψ(Pφ) − Ψ(Pϕ)} = max
+
+
+{
+
+
+0,
+∑n
+
+
+j=1
+
+
+(
+ψ(pφj) − ψ(pϕj)
+
+
+)
+⋅wj
+
+
+}
+
+
+(32) 
+
+
+Based on (31), it directly follows that B =
+∑
+
+
+(ϕ,φ)∈ΩΓϕφ. Obviously, 
+
+
+Γϕφ⩾0 and Γϕφ⩾
+∑n
+
+
+j=1
+
+
+(
+ψ(pφj) − ψ(pϕj)
+
+
+)
+⋅wj in connection to (ϕ,φ) ∈ Ω. It 
+
+
+is inferred that: 
+
+
+∑n
+
+
+j=1
+
+
+(
+ψ(pϕj) − ψ(pφj)
+
+
+)
+⋅wj +Γϕφ⩾0 (33) 
+
+
+According to Definition 8 and the property (T9.4), one obtains: 
+
+
+G − B =
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+(Ψ(Pϕ) − Ψ(Pφ)) =
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+∑n
+
+
+j=1
+
+
+(
+ψ(pϕj) − ψ(pφj)
+
+
+)
+⋅wj. (34) 
+
+
+In this manner, Model I is transfigured into the succeeding linear 
+programming format: 
+
+
+ModelII. min
+
+
+{
+
+
+B =
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+Γϕφ
+
+
+}
+
+
+s.t.
+
+
+⎧
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨
+
+
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩
+
+
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+∑n
+
+
+j=1
+
+
+(
+ψ
+(
+pϕj
+)
+− ψ
+
+
+(
+pφj
+))
+
+
+⋅wj⩾ħ,
+
+
+∑n
+
+
+j=1
+
+
+(
+ψ
+(
+pϕj
+)
+− ψ
+
+
+(
+pφj
+))
+
+
+⋅wj + Γϕφ⩾0 for (ϕ,φ) ∈ Ω,
+
+
+Γϕφ⩾0 for (ϕ,φ) ∈ Ω,
+∑n
+
+
+j=1
+wj = 1, wj⩾0 for all j.
+
+
+(35) 
+
+
+To acquire an acceptable and convincing result that is in concor-
+dance with the paired preference relations (ϕ,φ) offered by decision 
+maker in the set Ω as possible, this paper formulates Model II to deter-
+mine the optimal Γϕφ values for each (ϕ,φ) ∈ Ω and the optimal weight 
+vector w = (w1, w2, ⋯, wn). Accordingly, one receives the optimal 
+comprehensive dominance indices Ψ(Pi) for all zi ∈ Z and next acquire 
+the priority orders of the alternatives in accordance with the obtained 
+Ψ(Pi) values. Moreover, the paired preference relations in Ω, as ex-
+pected, is violated as minimally as possible with the optimal solution. 
+Nevertheless, such an optimization problem in Model II for which 
+∑
+
+
+(ϕ,φ)∈ΩΓϕφ is minimal might lead to a trivial solution involving wj = 1 
+for a particular criterion cj and wj′ = 0 for the remaining n − 1 criteria 
+(cj′ ∈ C), which indicates a specialized degenerate weighting result. To 
+overcome such difficulty, this paper modifies the range of the criterion 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+15
+
+
+weights by adding some non-negative boundary conditions. More pre-
+cisely, one can apply the constraints that wj⩾εj for each cj ∈ C, in which 
+εj is a sufficiently small non-negative number. For convenience, without 
+loss of generality, assume that all εj values are the same, i.e., εj = ε0 for 
+each cj. 
+
+
+The comprehensive dominance index Ψ(Pi) is obtained by adding the 
+weighted SED-based dominance indices (i.e., wj⋅ψ(pij)) over the n 
+criteria. The alternative with the highest comprehensive dominance 
+index will be the decision maker’s preferable option. To be specific, a 
+larger value of Ψ(Pi) gives rise to a greater preference for the alternative 
+zi. Thus, it is anticipated that the decision maker desires to ascertain a 
+solution of criterion weights in such a way that the total sum of Ψ(Pi) for 
+all m alternatives is maximal. In addition to the minimal B value (i.e., 
+∑
+
+
+(ϕ,φ)∈ΩΓϕφ), the proposed optimization model should involve another 
+objective to maximize the total sum of the Ψ values, namely 
+∑m
+
+
+i=1Ψ(Pi) =
+∑m
+
+
+i=1
+∑n
+
+
+j=1ψ(pij)⋅wj. The PF LINMAP methodology maxi-
+mizes the total comprehensive dominance index and minimizes the 
+degree of poorness of fit. More specifically, this paper constitutes the 
+succeeding bi-objective nonlinear programming model: 
+
+
+Model III. max
+
+
+{
+∑m
+
+
+i=1
+Ψ(Pi) =
+
+
+∑m
+
+
+i=1
+
+
+∑n
+
+
+j=1
+ψ
+(
+pij
+)
+⋅wj
+
+
+}
+
+
+, min
+
+
+{
+
+
+B =
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+Γϕφ
+
+
+}
+
+
+s.t.
+
+
+⎧
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨
+
+
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩
+
+
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+∑n
+
+
+j=1
+
+
+(
+ψ
+(
+pϕj
+)
+− ψ
+
+
+(
+pφj
+))
+
+
+⋅wj⩾ħ,
+
+
+∑n
+
+
+j=1
+
+
+(
+ψ
+(
+pϕj
+)
+− ψ
+
+
+(
+pφj
+))
+
+
+⋅wj + Γϕφ⩾0 for (ϕ,φ) ∈ Ω,
+
+
+Γϕφ⩾0 for (ϕ,φ) ∈ Ω,
+∑n
+
+
+j=1
+wj = 1, wj⩾εj for all j.
+
+
+(36) 
+
+
+It is noted that the minimal B objective is equivalent to the maximal 
+
+
+− B objective, namely, min
+{
+
+
+B =
+∑
+
+
+(ϕ,φ)∈ΩΓϕφ
+}
+
+
+= max
+{
+− B =
+
+
+−
+∑
+
+
+(ϕ,φ)∈ΩΓϕφ
+}
+
+
+. The maximal objective 
+∑m
+
+
+i=1
+∑n
+
+
+j=1ψ(pij)⋅wj and the 
+
+
+constraint 
+∑
+
+
+(ϕ,φ)∈Ω
+∑n
+
+
+j=1
+
+
+(
+ψ(pϕj) − ψ(pφj)
+
+
+)
+⋅wj ≥ ħ can be written as 
+
+
+∑n
+j=1
+∑m
+
+
+i=1ψ(pij)⋅wj and 
+∑n
+
+
+j=1
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+(
+ψ(pϕj) − ψ(pφj)
+
+
+)
+⋅wj ≥ ħ, respec-
+
+
+tively. By initiating a parameter η ∈ [0,1], the bi-objective optimization 
+problem in Model III is transfigured into a simple single-objective linear 
+programming format. The adoption of the parameter η can efficaciously 
+coordinate the two objectives in Model III. Specifically, the values η and 
+1 − η represent the weights pertaining to the “total comprehensive 
+dominance index” objective and the “degree of poorness of fit” objec-
+tive, respectively. Accordingly, the advanced PF LINMAP methodology 
+is unfolded by the succeeding linear programming model: 
+
+
+Model IV. max
+
+
+{
+
+
+η
+∑n
+
+
+j=1
+
+
+∑m
+
+
+i=1
+ψ
+(
+pij
+)
+⋅wj − (1 − η)
+
+
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+Γϕφ
+
+
+}
+
+
+s.t.
+
+
+⎧
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨
+
+
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩
+
+
+∑n
+
+
+j=1
+
+
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+(
+ψ
+(
+pϕj
+)
+− ψ
+
+
+(
+pφj
+))
+
+
+⋅wj⩾ħ,
+
+
+∑n
+
+
+j=1
+
+
+(
+ψ
+(
+pϕj
+)
+− ψ
+
+
+(
+pφj
+))
+
+
+⋅wj + Γϕφ⩾0 for (ϕ,φ) ∈ Ω,
+
+
+Γϕφ⩾0 for (ϕ,φ) ∈ Ω,
+∑n
+
+
+j=1
+wj = 1, wj⩾εj for all j.
+
+
+(37) 
+
+
+The optimal Γϕφ values for each ordered pair (ϕ,φ) ∈ Ω and the 
+optimal weight vector w = (w1,w2,⋯,wn) are obtained by solving Model 
+IV using the Simplex method. The corresponding comprehensive 
+dominance index Ψ(Pi) for each alternative zi ∈ Z is determined as 
+follows: 
+
+
+Ψ(Pi) =
+∑n
+
+
+j=1
+wj⋅ψ(pij) (38) 
+
+
+In the end, the m candidate alternatives are ranked in accordance 
+with a declining order of the Ψ(Pi) values. In mathematical notation, the 
+best compromise solution z* in Z*⊆Z is ranked the best by Ψ(Pi) such 
+that: 
+
+
+Z* =
+{
+
+
+zi
+⃒
+⃒
+⃒
+⃒max
+
+
+m
+
+
+i=1
+Ψ(Pi), zi ∈ Z
+
+
+}
+
+
+=
+
+
+{
+
+
+zi
+⃒
+⃒
+⃒
+⃒max
+
+
+m
+
+
+i=1
+
+
+∑n
+
+
+j=1
+wj⋅ψ(pij), zi ∈ Z
+
+
+}
+
+
+(39)  
+
+
+4.2. Proposed algorithm 
+
+
+Under the aegis of SED-based dominance indices, the proposed PF 
+LINMAP method by way of a SED-based outranking technique for 
+tackling an MCDA problem under sophisticated uncertainty of Pythag-
+orean fuzziness can be concretized in the succeeding algorithmic pro-
+cedure. Additionally, Fig. 4 recapitulates the implementation process of 
+the developed PF LINMAP methodology, comprising of formulation of 
+an MCDA problem, query from the decision maker, determination of 
+SED-based dominance indices, specification of parameter values, con-
+struction of a linear programming problem using Model IV, and com-
+plete ranking of alternatives. 
+
+
+Algorithm for the PF LINMAP methodology 
+
+
+Step 1: Form the set of candidate alternatives Z (= {z1, z2,⋯, zm} ) 
+and the set of evaluative criteria C (= {c1, c2,⋯, cn}) to construct an 
+MCDA problem. The set C is separated into CI and CII. 
+Step 2: Use Pythagorean membership grades to constitute the PF 
+evaluative rating pij in (12) of an alternative zi ∈ Z in connection with 
+criterion cj ∈ C, and then construct the characteristic Pi of zi using 
+(13). 
+Step 3: Receive the preference relations between alternatives in Z by 
+conducting an investigation to the decision maker. Sculpture the set 
+of ordered pairs Ω using (14), and set the η value to represent the 
+importance of total comprehensive dominance relative to poorness 
+of fit. 
+Step 4: Derive the SED-based dominance index ψ(pij) of each pij on 
+the subject of the ideal PF evaluative ratings p+j and p− j using (23). 
+Step 5: Set the parameter values. Assign the ħ value that denotes the 
+lowest acceptable level relating to the difference between goodness 
+and poorness of fit. Specify the εj value that represents the non- 
+negative boundary condition of the weight wj. Alternately, desig-
+nate the ε0 value and let εj = ε0 for each cj for brevity. 
+Step 6: Establish a linear programming model using Model IV in (37) 
+by virtue of the degree of violation Γϕφ for each ordered pair (ϕ,φ) ∈
+Ω and the weight vector w (= (w1,w2,⋯,wn)). 
+Step 7: Apply the Simplex method to resolve the model to ascertain 
+the optimal Γϕφ values and the optimal vector w = (w1,w2,⋯,wn) of 
+criterion importance. 
+Step 8: Employ (38) to compute the comprehensive dominance index 
+Ψ(Pi) for each zi ∈ Z, and then rank the m alternatives in Z in the light 
+of the descending order of Ψ(Pi). Identify the best compromise so-
+lution z* using (39). 
+
+
+5. Real-world application with comparison studies 
+
+
+To corroborate the feasibility and efficaciousness of the advanced PF 
+LINMAP methodology, this section attempts to investigate a down-to- 
+earth application concerning the assessment of bridge-superstructure 
+construction methods. Moreover, certain comparative analyses with 
+other pertinent techniques, followed by a discussion under various 
+parameter settings, are executed to evaluate the flexibility and ratio-
+nality of the developed methodology. In the end, the proposed 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+16
+
+
+Fig. 4. Procedure of the PF LINMAP methodology.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+17
+
+
+methodology is further extended to manage group decision-making 
+problems in PF settings, along with two applications of green supplier 
+selection and railway project investment. 
+
+
+5.1. Model illustration and realistic applications 
+
+
+This subsection intends to explore the selection issue concerning 
+bridge-superstructure construction methods to illustrate the algorithmic 
+procedure and demonstrate the effectuality of the current methods. This 
+realistic problem was originally formulated by Chen (2012, 2014) in 
+interval-valued intuitionistic fuzzy contexts and was further extended by 
+Chen (2018a, 2018b) in interval-valued PF contexts. Recently, Chen 
+(2019a, 2019b) modified the bridge-superstructure construction case to 
+adapt to the PF environments and converted the interval-valued PF data 
+into Pythagorean membership grades. This subsection utilized the de-
+cision information based on PF sets for examining the achievability and 
+usefulness of the advanced PF LINMAP methodology. 
+
+
+The practical case under study, which was adopted from Chen 
+(2019a, 2019b), comprises four bridge-construction methods and eight 
+evaluative criteria, as summarized in Fig. 5. As shown in this figure, the 
+candidate alternatives are comprised of the advanced shoring method 
+
+
+(z1), the incremental launching method (z2), the balanced cantilever 
+method (z3), and the precast segmental method (z4). The criteria for 
+evaluating the alternatives consist of durability (c1), damage cost (c2), 
+construction cost (c3), traffic effect (c4), site condition (c5), climatic 
+condition (c6), landscape (c7), and environmental impact (c8). Durability 
+and site condition are benefit criteria, whereas the remaining six criteria 
+are cost criteria. 
+
+
+The proposed PF LINMAP methodology using a SED-based out-
+ranking approach with SED-based dominance indices was utilized to 
+
+
+Fig. 5. The selection problem of bridge-superstructure construction methods.  
+
+
+Table 1 
+Results of the SED-based dominance indices.  
+
+
+cj p+j  p− j  ψ(p1j) ψ(p2j) ψ(p3j) ψ(p4j)
+
+
+c1 (1,0;1,1) (0,1;1,0)  0.3613  0.9871  0.9873  0.6435 
+c2 (0,1;1,0) (1,0;1,1)  0.1083  0.9951  0.9913  0.8683 
+c3 (0,1;1,0) (1,0;1,1)  0.9897  0.7319  0.8703  0.7454 
+c4 (0,1;1,0) (1,0;1,1)  0.6800  0.9792  0.5295  0.6565 
+c5 (1,0;1,1) (0,1;1,0)  0.9625  0.6574  0.9625  0.2494 
+c6 (0,1;1,0) (1,0;1,1)  0.9900  0.9881  0.5674  0.0633 
+c7 (0,1;1,0) (1,0;1,1)  0.6722  0.0582  0.9848  0.9979 
+c8 (0,1;1,0) (1,0;1,1)  0.9992  0.4318  0.7319  0.9903  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+18
+
+
+solving the selection issue concerning bridge-superstructure construc-
+tion methods in PF decision situations. In Step 1, the MCDA problem was 
+represented by the agency of the set of candidate alternatives, i.e., Z =
+{z1,z2,z3,z4}, and the set of evaluative criteria, i.e., C = {c1,c2,⋯,c8}. 
+Here, the set C is separated into CI = {c1, c5} and CII = {c2,c3,c4,c6,c7,
+c8}. In Step 2, based on the data of PF evaluative ratings in Chen (2019a, 
+2019b), the characteristic Pi of each alternative zi ∈ Z can be manifested 
+as a PF format as below: 
+
+
+P1 =
+{〈
+
+
+cj, p1j
+〉 ⃒
+⃒cj ∈ C
+
+
+}
+
+
+=
+{〈
+
+
+cj,
+(
+μ1j, ν1j; r1j, d1j
+
+
+)〉 ⃒
+⃒cj ∈ {c1, c2,⋯, c8}
+
+
+}
+
+
+={〈c1, (0.5407, 0.6781; 0.8673, 0.4285)〉, 〈c2, (0.8075, 0.2638; 
+0.8495, 0.7990)〉, 
+
+
+〈c3, (0.1654, 0.9508; 0.9651, 0.1096)〉, 〈c4, (0.4802, 0.6774; 
+0.8303, 0.3926)〉, 
+
+
+〈c5, (0.9285, 0.3402; 0.9889, 0.7764)〉, 〈c6, (0.1443, 0.9485; 
+0.9594, 0.0961)〉, 
+
+
+〈c7, (0.2848, 0.5778; 0.6442, 0.2915)〉, 〈c8, (0.0727, 0.9961; 
+0.9987, 0.0464)〉}, 
+
+
+P2 =
+{〈
+
+
+cj, p2j
+〉 ⃒
+⃒cj ∈ C
+
+
+}
+
+
+=
+{〈
+
+
+cj,
+(
+μ2j, ν2j; r2j, d2j
+
+
+)〉 ⃒
+⃒cj ∈ {c1, c2,⋯, c8}
+
+
+}
+
+
+={〈c1, (0.9550, 0.2198; 0.9800, 0.8560)〉, 〈c2, (0.1050, 0.9644; 
+0.9701, 0.0690)〉, 
+
+
+〈c3, (0.2871, 0.6480; 0.7088, 0.2655)〉, 〈c4, (0.2504, 0.9371; 
+0.9700, 0.1662)〉, 
+
+
+〈c5, (0.6526, 0.4723; 0.8056, 0.6012)〉, 〈c6, (0.2359, 0.9692; 
+0.9975, 0.1520)〉, 
+
+
+〈c7, (0.8861, 0.3390; 0.9487, 0.7674)〉, 〈c8, (0.4863, 0.3709; 
+0.6116, 0.5852)〉}, 
+
+
+P3 =
+{〈
+
+
+cj, p3j
+〉 ⃒
+⃒cj ∈ C
+
+
+}
+
+
+=
+{〈
+
+
+cj,
+(
+μ3j, ν3j; r3j, d3j
+
+
+)〉 ⃒
+⃒cj ∈ {c1, c2,⋯, c8}
+
+
+}
+
+
+={〈c1, (0.9665, 0.2400; 0.9959, 0.8450)〉, 〈c2, (0.0666, 0.9452; 
+0.9475, 0.0448)〉, 
+
+
+〈c3, (0.1795, 0.7727; 0.7933, 0.1453)〉, 〈c4, (0.6608, 0.6856; 
+0.9522, 0.4883)〉, 
+
+
+〈c5, (0.9285, 0.3402; 0.9889, 0.7764)〉, 〈c6, (0.4213, 0.5224; 
+0.6711, 0.4321)〉, 
+
+
+〈c7, (0.2496, 0.9579; 0.9899, 0.1623)〉, 〈c8, (0.5887, 0.7902; 
+0.9854, 0.4076)〉}, 
+
+
+P4 =
+{〈
+
+
+cj, p4j
+〉 ⃒
+⃒cj ∈ C
+
+
+}
+
+
+=
+{〈
+
+
+cj,
+(
+μ4j, ν4j; r4j, d4j
+
+
+)〉 ⃒
+⃒cj ∈ {c1, c2,⋯, c8}
+
+
+}
+
+
+={〈c1, (0.7324, 0.6090; 0.9525, 0.5584)〉, 〈c2, (0.4794, 0.8505; 
+0.9763, 0.3268)〉, 
+
+
+〈c3, (0.5830, 0.7978; 0.9881, 0.4018)〉, 〈c4, (0.4900, 0.6619; 
+0.8235, 0.4057)〉, 
+
+
+〈c5, (0.3881, 0.7003; 0.8007, 0.3222)〉, 〈c6, (0.8540, 0.2077; 
+0.8789, 0.8481)〉, 
+
+
+〈c7, (0.1127, 0.9902; 0.9966, 0.0721)〉, 〈c8, (0.2174, 0.9720; 
+0.9960, 0.1401)〉}. 
+
+
+Regarding the relevant literature of the bridge-superstructure con-
+struction case, the inclusion-based LINMAP approach proposed by Chen 
+(2014) belongs to the LINMAP methodology. In Step 3, in accordance 
+with Chen’s settings, this paper incorporates the paired preference re-
+lations for the alternatives to construct the set of ordered pairs Ω. It is 
+
+
+Table 2 
+Selected computational results of the components in Model IV.  
+
+
+cj ψ(p3j)- 
+ψ(p4j) 
+
+
+ψ(p4j)- 
+ψ(p1j) 
+
+
+ψ(p1j)- 
+ψ(p2j) 
+
+
+ψ(p1j)- 
+ψ(p3j) 
+
+
+∑
+(ψ(pϕj)- 
+
+
+ψ(pφj)) 
+
+
+∑
+ψ(pij) 
+
+
+c1  0.3438  0.2823 − 0.6258 − 0.6260 − 0.6258  2.9792 
+c2  0.1229  0.7600 − 0.8868 − 0.8830 − 0.8868  2.9631 
+c3  0.1249  − 0.2443 0.2578 0.1193 0.2578  3.3373 
+c4  − 0.1270  − 0.0235 − 0.2991 0.1505 − 0.2991  2.8453 
+c5  0.7132  − 0.7132 0.3051 0.0000 0.3051  2.8318 
+c6  0.5041  − 0.9267 0.0019 0.4227 0.0019  2.6089 
+c7  − 0.0131  0.3257 0.6141 − 0.3126 0.6141  2.7131 
+c8  − 0.2584  − 0.0090 0.5674 0.2674 0.5674  3.1531  
+
+
+Fig. 6. Framework of the comparative analysis.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+19
+
+
+denoted by: Ω = {(3,4), (4,1), (1,2), (1, 3)}. That is, the decision maker 
+provided the preference relations z3≻ z4, z4≻ z1, z1≻ z2, and z1≻ z3. It is 
+noted that some non-transitive relations exist in the set Ω. Specifically, 
+z3≻ z4 and z4≻ z1 but z1≻ z3. Moreover, the set Ω does not comprise all 
+preference judgments between alternatives in Z. In conformity with the 
+decision maker’s specification, the relative importance of total 
+comprehensive dominance in regard to poorness of fit is designated as 
+follows: η = 0.8. In Step 4, this paper derived the SED-based dominance 
+index ψ(pij) of each pij in connection with p+j and p− j. The obtained ψ(pij)
+values are displayed in Table 1. 
+
+
+In Step 5, this paper designated some relevant parameters as below. 
+
+
+First, concerning the lowest acceptable level ħ, the degree of goodness of 
+fit G is not smaller than the degree of poorness of fit B by ħ=0.25, i.e., 
+G − B⩾0.25. Next, consider the non-negative boundary condition εj for 
+each j ∈ {1,2,⋯,8}. The boundary conditions were assigned as follows: 
+ε1 = ε7 = 0.1 for c1 and c7, ε5 = ε8 = 0.075 for c5 and c8, ε2 = ε6 = 0.05 for 
+c2 and c6, and ε3 = ε4 = 0.025 for c3 and c4. Accordingly, the following 
+constraints were imposed into the PF LINMAP model: w1⩾0.1, w2⩾0.05, 
+w3⩾0.025, w4⩾0.025, w5⩾0.075, w6⩾0.05, w7⩾0.1, and w8⩾0.075. 
+
+
+In Step 6, the decision variables consist of the unknown weight wj for 
+j ∈ {1,2,⋯, 8} and the degree of violation Γϕφ for each ordered pair (ϕ,
+φ) ∈ Ω, i.e., Γ34, Γ41, Γ12, and Γ13 according to Ω = {(3,4),(4,1),(1,2),(1,
+
+
+3)}. To apply Model IV, the consequences of ψ(pϕj) − ψ(pφj) for (ϕ,φ)∈ Ω, 
+∑
+
+
+(ϕ,φ)∈Ω
+
+
+(
+ψ(pϕj) − ψ(pφj)
+
+
+)
+, and 
+
+
+∑m
+i=1ψ(pij) for each criterion cj ∈ C were 
+
+
+computed based on the SED-based dominance indices in Table 1. The 
+yielded results are demonstrated in Table 2. 
+
+
+As mentioned before, the relative importance of total comprehensive 
+dominance in regards to poorness of fit was designated as η=0.8. That is, 
+the weight of 
+
+
+∑4
+i=1
+∑8
+
+
+j=1ψ(pij)⋅wj is 0.8, while the weight of 
+−
+∑
+
+
+(ϕ,φ)∈ΩΓϕφ is 0.2. Based on Model IV, the PF LINMAP model was 
+established as below:   
+
+
+In Step 7, the linear programming model in (40) was resolved to 
+receive the optimal objective value 2.4368, the optimal weight vector 
+w = (w1, w2, ⋯, w8) = (0.1, 0.05, 0.1952, 0.025, 0.075, 0.05, 0.1, 
+0.4048), and the optimal degrees of violation Γ34 = Γ12 = Γ13 = 0, and 
+Γ41 = 0.0529. In Step 8, the comprehensive dominance indices of the 
+four characteristics were obtained as below: Ψ(P1) = 0.8451, Ψ(P2) =
+0.5951, Ψ(P3) = 0.8267, and Ψ(P4) = 0.7922. Thus, the priority 
+ranking of the four alternatives is z1 ≻ z3 ≻ z4 ≻ z2. Correspondingly, 
+the best compromise solution z* is the advanced shoring method (z1) 
+
+
+Fig. 7. Comparison of comprehensive dominance indices under various ε0 values.  
+
+
+max{0.8⋅(2.9792w1 + 2.9631w2 + 3.3373w3 + 2.8453w4 + 2.8318w5 + 2.6089w6
++ 2.7131w7 + 3.1531w8) − 0.2⋅(Γ34 + Γ41 + Γ12 + Γ13) }
+
+
+s.t.
+
+
+⎧
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨
+
+
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩
+
+
+− 0.6258w1 − 0.8868w2 + 0.2578w3 − 0.2991w4 + 0.3051w5 + 0.0019w6 + 0.6141w7
++0.5674w8⩾0.25,
+
+
+0.3438w1 + 0.1229w2 + 0.1249w3 − 0.1270w4 + 0.7132w5 + 0.5041w6 − 0.0131w7
+− 0.2584w8 + Γ34⩾0,
+
+
+0.2823w1 + 0.7600w2 − 0.2443w3 − 0.0235w4 − 0.7132w5 − 0.9267w6 + 0.3257w7
+− 0.0090w8 + Γ41⩾0,
+
+
+− 0.6258w1 − 0.8868w2 + 0.2578w3 − 0.2991w4 + 0.3051w5 + 0.0019w6 + 0.6141w7
++0.5674w8 + Γ12⩾0,
+
+
+− 0.6260w1 − 0.8830w2 + 0.1193w3 + 0.1505w4 + 0.0000w5 + 0.4227w6 − 0.3126w7
++0.2674w8 + Γ13⩾0,
+Γ34,Γ41,Γ12,Γ13⩾0,
+
+
+∑8
+
+
+j=1
+wj = 1, w1,w7⩾0.1,w5,w8⩾0.075,w2,w6⩾0.05,w3,w4⩾0.025.
+
+
+(40)   
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+20
+
+
+because Z* = {z1}. 
+Furthermore, it can be observed that different solution results were 
+
+
+determined under various parameter settings. Consider the lowest 
+acceptable level ħ as an example. When ħ=0.00–0.21, the ranking 
+consequence of the four alternatives was z3 ≻ z1 ≻ z4 ≻ z2, which yields 
+Z* = {z3}. The ranking outcomes z1 ≻ z3 ≻ z4 ≻ z2 and z1 ≻ z4 ≻ z3 ≻
+z2 were drawn in the cases of ħ=0.22–0.27 and ħ=0.28–0.30, respec-
+tively, which renders Z* = {z1}. The ranking consequence of the alter-
+natives was z3 ≻ z4 ≻ z1 ≻ z2 for ħ=0.31 and 0.32; moreover, Z* =
+{z3}. It is worthwhile to notice that no feasible solutions would be found 
+if a high ħ value was assigned. On this account, the designation of a 
+suitable ħ value is an indispensable issue of utilizing the PF LINMAP 
+methodology in practice. 
+
+
+5.2. Comparative analysis with discussions 
+
+
+This subsection strives to systematically scrutinize the effect of the 
+PF LINMAP model in distinct parameter settings concerning the 
+comprehensive dominance indices among alternatives. Furthermore, 
+this subsection carries out a comparative study with pertinent MCDA 
+methods to examine the effectuality and strong points of the advanced 
+methodology in practice. The main framework of the comparative 
+analysis is shown in Fig. 6. 
+
+
+The first comparative study aims to conduct a sensitivity analysis for 
+the non-negative boundary conditions of criterion weights. Specifically, 
+this analysis observes the effects of distinct ε0 values towards the 
+optimal comprehensive dominance indices and their ranking outcomes 
+rendered by the PF LINMAP methodology. Regarding the same the 
+bridge-superstructure construction case, one can assume εj = ε0 for each 
+cj ∈ C in the imposed condition wj⩾εj for convenience. Ten instances of 
+the ε0 values were concerned, consisting of ε0 = 0.01,0.02,⋯, and 0.10. 
+Two ħ values were designated when assigning the lowest acceptable 
+level towards G − B: ħ=0.0 and 0.1. Under the setting of η = 0.8 inquired 
+from the decision maker, the comparison results of the comprehensive 
+dominance index Ψ(Pi) for each alternative zi ∈ Z are depicted in Fig. 7. 
+
+
+On the strength of the optimal comprehensive dominance index 
+Ψ(Pi) for each zi ∈ Z, several priority rankings among alternatives were 
+acquired when the ε0 value gradually increases from 0.01 to 0.10. For 
+the comparison results revealed in Fig. 7(a) (i.e., the case of ħ=0.0), 
+three ranking results were determined: z1 ≻ z3 ≻ z4 ≻ z2, 
+z1 ≻ z3 ≻ z2 ≻ z4, and z3 ≻ z1 ≻ z2 ≻ z4 for ε0 = 0.01, ε0 = 0.02,0.03,
+⋯, 0.06, and ε0 = 0.07, 0.08, ⋯, 0.10, respectively. The corresponding 
+best compromise solution z* would be z1 and z3 (i.e., Z* = {z1} and Z* =
+{z3}) for ε0 = 0.01,0.02,⋯, 0.06 and ε0 = 0.07, 0.08, ⋯, 0.10, respec-
+tively. In the case of ħ=0.1, as shown in Fig. 7(b), the proposed PF 
+
+
+LINMAP model rendered four ranking results of z1 ≻ z3 ≻ z4 ≻ z2, 
+z1 ≻ z3 ≻ z2 ≻ z4, z3 ≻ z1 ≻ z2 ≻ z4, and z3 ≻ z1 ≻ z4 ≻ z2 for ε0 =
+0.01, ε0 = 0.02, 0.03, ⋯, 0.06, ε0 = 0.07, 0.08, and ε0 = 0.09, 0.10, 
+respectively. The best compromise solution z* would also be z1 and z3 for 
+ε0 = 0.01,0.02,⋯,0.06 and ε0 = 0.07, 0.08,⋯, 0.10, respectively. The 
+contrasts of comprehensive dominance indices among the four alterna-
+tives under various ε0 values in the cases of ħ=0.0 and 0.1 are sketched 
+in the two distribution charts of Fig. 8. When the ε0 value increases from 
+0.01 to 0.10 under the settings of ħ=0.0 and η = 0.8 as well as ħ=0.1 and 
+η = 0.8, the two alternatives z1 and z3 perform better than z2 and z4 
+because the values of Ψ(P1) and Ψ(P3) are steadily larger than Ψ(P2) and 
+Ψ(P4). 
+
+
+The second comparative study attempts to implement a sensitivity 
+analysis for the relative importance of total comprehensive dominance 
+in regards to poorness of fit under various lowest acceptable levels. 
+Eleven instances of the η values were concerned: η = 0.0,0.1,⋯, and 1.0. 
+Moreover, this study designated six ħ values (consisting of 0.0, 0.1,⋯, 
+and 0.5) and two ε0 values (consisting of 0.01 and 0.02) to investigate 
+the resulting comprehensive dominance indices among the four alter-
+natives under different settings more comprehensively. Note that the 
+assigned ħ values are appropriate because such parameter settings 
+would not lead to infeasibility of the PF LINMAP model. More specif-
+ically, the following instances were considered, consisting of the com-
+binations of η = 0.0, 0.1,⋯, 1.0 and ħ = 0.0,0.1,⋯, 0.5 under the 
+settings ofε0 = 0.01 and 0.02. 
+
+
+Fig. 9 depicts the comparison results of the obtained Ψ(Pi) values 
+under various η values forε0 = 0.01. In particular, the optimal 
+comprehensive dominance indices in the cases of ħ = 0.0, 0.1,⋯, and 
+0.5 are contrasted in the figures (a)–(f), respectively. As a whole, the 
+differentiations among the Ψ(Pi) values become much apparent when 
+η > 0.6, η > 0.5, and η > 0.4 in the cases of ħ = 0.0, 0.1, ħ = 0.2, 0.3,
+0.4, and ħ = 0.5, respectively. As sketched in Fig. 9(a)–(d), the most 
+
+
+frequent ranking outcome was z1 ≻ z3 ≻ z4 ≻ z2 in the situations of ħ =
+0.0, 0.1, 0.2, and 0.3. Based on Fig. 9(e), the two rankings z1 ≻ z3 ≻
+z4 ≻ z2 and z1 ≻ z4 ≻ z3 ≻ z2 were rendered frequently in the case of 
+ħ = 0.4. In contrast, from Fig. 9(f), the two rankings z4 ≻ z3 ≻ z1 ≻ z2 
+and z1 ≻ z4 ≻ z3 ≻ z2 were determined frequently in the case of ħ = 0.5. 
+The consistent set Z* = {z1} was acquired in most η values, which fol-
+lows that the best compromise solution z*, namely the advanced shoring 
+method (z1), is considerably steady in various settings of the η values in 
+Fig. 9(a)–(e). Nonetheless, distinct results of Z* = {z4} and Z* = {z1}
+were obtained according to the pattern in Fig. 9(f). That is, the precast 
+segmental method (z4) and the advanced shoring method (z1) were the 
+best compromise solutions in the cases of η = 0.0, 0.1,⋯, 0.5 and η =
+0.6,0.7,⋯,1.0, respectively. However, the differences between the top 
+
+
+Fig. 8. Distribution chart of Ψ(Pi) among alternatives under various ε0 values.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+21
+
+
+two Ψ(Pi) values are unnoticeable when η⩽0.6, η⩽0.5, and η⩽0.4 in the 
+cases of ħ = 0.0, 0.1, ħ = 0.2, 0.3, 0.4, and ħ = 0.5, respectively, which 
+implies that the final conclusion about the best compromise solution z* 
+should be made seriously in these cases. 
+
+
+In the case ofε0 = 0.02, the solution results of the optimal compre-
+hensive dominance indices under various η values are demonstrated in 
+Fig. 10, in which the Ψ(Pi) values for ħ = 0.0, 0.1, ⋯, and 0.5 are 
+compared in the figures (a)–(f), respectively. Except for ħ = 0.5, the 
+similar observations in the case ofε0 = 0.01 can roughly apply to the case 
+ofε0 = 0.02. As shown in Fig. 10(a)–(e), the distinctions among the Ψ(Pi)
+values become noticeable when η > 0.6 and η > 0.5 in the cases of ħ =
+0.0, 0.1 and ħ = 0.2, 0.3, 0.4, respectively. Nevertheless, from Fig. 10 
+(f), the obtained Ψ(Pi) values for ħ = 0.5 presents unchangeable patterns 
+
+
+under different settings of the η value. Concerning the patterns in Fig. 10 
+(a)–(c) (i.e., ħ = 0.0, 0.1, and 0.2), the same ranking result z1 ≻ z3 ≻
+z2 ≻ z4 was obtained in the cases of η = 0.7,0.8,0.9,1.0. Thus, the set 
+Z* = {z1} was acquired in these cases. The settings of η = 0.1, 0.2,⋯,0.6 
+rendered the consistent ranking z3 ≻ z1 ≻ z4 ≻ z2 (with Z* = {z3}) for 
+ħ = 0.0 and 0.1. However, for ħ = 0.2, two distinct ranking outcomes 
+z1̃z3 ≻ z4 ≻ z2 (with Z* = {z1, z3}) and z1 ≻ z3 ≻ z4 ≻ z2 (with Z* =
+{z1}) were generated for η = 0.1, 0.2,⋯, 0.5 and η = 0.6, respectively. 
+Consider the case of ħ = 0.3 in Fig. 10(d). Except for η = 0.0, the set-
+tings of η = 0.1, 0.2,⋯, 1.0 produced the identical ranking result 
+z1 ≻ z3 ≻ z4 ≻ z2, where Z* = {z1}. Based on Fig. 10(e), the two rank-
+ings z4 ≻ z3 ≻ z1 ≻ z2 (with Z* = {z4}) and z1 ≻ z4 ≻ z3 ≻ z2 (with Z* =
+{z1}) were finalized frequently in the case of ħ = 0.4. For ħ = 0.5 in 
+
+
+Fig. 9. Comparison of the Ψ(Pi) values under various η values for ε0 = 0.01.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+22
+
+
+Fig. 10(f), the settings of η = 0.0, 0.1,⋯,1.0 yielded the same ranking 
+result z4 ≻ z3 ≻ z1 ≻ z2, where Z* = {z4}. Analogous to the situation 
+forε0 = 0.01, the differences between the top two Ψ(Pi) values in Fig. 10 
+(a)–(e) are inapparent when η⩽0.6 and η⩽0.5 in the cases of ħ = 0.0, 0.1 
+and ħ = 0.2, 0.3, 0.4, respectively. 
+
+
+The third comparative study concentrates on the exploration of the 
+application outcomes rendered by other pertinent MCDA approaches to 
+demonstrate the flexibility and strong points of the developed PF LIN-
+MAP methodology using a SED-based outranking approach. As 
+mentioned before, the MCDA problem concerning bridge-superstructure 
+construction methods has been investigated by Chen (2012, 2014) 
+within interval-valued intuitionistic fuzzy environments, Chen (2018a, 
+2018b) within interval-valued PF environments, and Chen (2019a, 
+
+
+2019b) within PF environments. Table 3 summarizes the comparison 
+results concerning the bridge-superstructure construction problem. 
+
+
+The priority ranking z1 ≻ z3 ≻ z4 ≻ z2 rendered by the developed PF 
+LINMAP methodology coincides with the ranking outcomes produced by 
+the interval-valued PF outranking method (Chen, 2018b) and the 
+PROMETHEE-based method (Chen, 2019a). Overall, all comparative 
+approaches rendered similar solution results. More precisely, the alter-
+natives z1 and z3 belong to the relatively superior choices, whereas z2 
+and z4 belong to the relatively inferior choices in the bridge- 
+superstructure construction case. Accordingly, the priority ranking 
+generated by the current method achieves a consensus in view of the 
+results that were rendered by use of the other comparative methods. It is 
+worthy to note that the core techniques of the inclusion-based LINMAP 
+
+
+Fig. 10. Comparison of the Ψ(Pi) values under various η values for ε0 = 0.02.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+23
+
+
+approach (Chen, 2014) and the proposed method are the LINMAP 
+model. Thus, this comparative analysis further examines the effective-
+ness and validity of the solution results generated by these two LINMAP- 
+based approaches. As mentioned before, the decision maker indicated 
+the preference relations z3≻ z4, z4≻ z1, z1≻ z2, and z1≻ z3; namely, the 
+set of ordered pairs Ω = {(3,4), (4, 1), (1,2), (1,3)}. The rationale of the 
+LINMAP model is to preclude any violation of the decision maker’s 
+preference assessments as minimally as possible. That is, the LINMAP 
+model should produce a consistent evaluation of all alternatives to 
+minimize the degree of violation of the preference relationships in the 
+set Ω. However, it is presumed that certain degrees of violation may be 
+larger than zero because non-transitive relations exist in the set Ω (i.e., 
+the ordered pairs (3,4), (4,1), and (1,3)) in the problem of bridge- 
+superstructure construction. The developed PF LINMAP model gener-
+ated the ranking z1 ≻ z3 ≻ z4 ≻ z2. Only one ordered pair (4,1) is 
+violated because the obtained partial order z1 ≻ z4 is contrary to the 
+preference relation z4≻ z1 revealed by the decision maker. In conformity 
+with the solution results, the optimal degree of violation for (4,1) was 
+Γ41 = 0.0529; moreover, the other optimal degrees of violation were 
+equal to zero (i.e., Γ34 = Γ12 = Γ13 = 0). In contrast, the inclusion- 
+based LINMAP approach generated the ranking result 
+z3 ≻ z1 ≻ z4 ≻ z2, in which two ordered pairs (4,1) and (1,3) are 
+violated because the partial orders z1 ≻ z4 and z3 ≻ z1 are contrary to 
+the preference relations z4≻ z1 and z1≻ z3 based on the set Ω. Therefore, 
+the proposed PF LINMAP methodology performs better than the 
+inclusion-based LINMAP approach because it can render more reason-
+able and desirable results. 
+
+
+To compare the application results more comprehensively, this paper 
+incorporates the aforementioned sensitivity analyses into the compara-
+tive discussions. Table 4 summarizes the comparison results of the 
+sensitivity analyses, consisting of the obtained priority rankings and the 
+sets of best compromise solutions. The top part of this table displays the 
+outcomes of the sensitivity analysis for the non-negative boundary 
+conditions (i.e., the ε0 values) in the cases of ħ=0.0 and 0.1 under the 
+condition η = 0.8. The bottom part of this table gives details of the 
+outcomes of the sensitivity analysis for various weights of the total 
+comprehensive dominance objective (i.e., the η values) in the cases of ε0 
+= 0.01 and 0.02 under the conditions ħ = 0.0, 0.1,⋯, and 0.5. 
+
+
+In accordance with the comparisons in Table 4, the alternatives z1 
+and z3 are the best compromise solutions (i.e., Z*={z1} or {z3}) in most 
+situations when employing the proposed PF LINMAP methodology, 
+which is in conformity with the obtained results generated by the other 
+comparative approaches. In particular, the nonlinear assignment-based 
+method, the interval-valued PF outranking approach, and the 
+PROMETHEE-based method yielded the best compromise solution z1, 
+while the inclusion-based LINMAP method, the compromise approach 
+
+
+with correlation-based closeness indices, and the PF compromise 
+approach based on generalized distance measures produced the best 
+compromise solution z3. It is worthwhile to mention that the proposed 
+methodology rendered another best compromise solution z4 in some 
+specific situations, including the following cases: (i) ε0 = 0.02, ħ=0.4, 
+and η = 0.1–0.5; (ii) ε0 = 0.01, ħ=0.5, and η = 0.0–0.5; and (iii) ε0 =
+0.02, ħ=0.5, and η = 0.0–1.0. It implies that the alternative z4 is 
+peradventure more likely to be the best compromise solution in case of 
+high ħ values. Except for the cases (i)–(iii), the alternatives z1 and z3 are 
+generally the better choices in the case of bridge-superstructure con-
+struction. However, unlike the other comparative approaches, the 
+developed PF LINMAP methodology is capable of generating different 
+priority rankings and the best compromise solution by way of distinct 
+settings of relevant parameters. That is, the employment of the param-
+eters η, ħ, and εj (or ε0) empowers the PF LINMAP model to adapt to the 
+realistic particularities. 
+
+
+The discussions and findings in the sensitivity and comparative an-
+alyses have demonstrated the applicability and adaptability of the PF 
+LINMAP methodology using a SED-based outranking approach. In the 
+classical LINMAP procedure, the decision maker would indicate a set of 
+preference comparisons about the alternatives as input data. Note that 
+the current methodology has been proven effective in reducing the 
+extent of violation of the decision maker’s pairwise preferences for 
+acquiring a consistent evaluation of candidate alternatives. Under the 
+less consistent preference information, the proposed methodology has 
+demonstrated the ability to manage such non-transitive information; 
+moreover, it could still produce a more reasonable ranking result than 
+the inclusion-based LINMAP method. The PF LINMAP method does not 
+inquire the decision maker to indicate all paired preference compari-
+sons; thus, it is more flexible and useful than the comparative ap-
+proaches. Furthermore, the obtained ranking results are more 
+acceptable and valid than those rendered by the inclusion-based LIN-
+MAP approach because of less extent of violation of the preference re-
+lationships in the set Ω. The parameters η, ħ, and εj (or ε0) involved in the 
+PF LINMAP methodology have proven effective in adapting to the par-
+ticularities in practical MCDA situations. Therefore, the sensitivity an-
+alyses and comparative discussions have corroborated the applicability 
+and merits of the current methodology. 
+
+
+5.3. Discussion on a generalization to group decision making 
+
+
+There is little investigation of the advancement of LINMAP-based 
+methodology for manipulating PF information over time. As stated 
+earlier, the PF LINMAP approaches proposed by Wan et al. (2018) and 
+Xue et al. (2018) are the most significant LINMAP-based methods in the 
+last few years. The two researches opened out the classical LINMAP to 
+
+
+Table 3 
+Contrast of application outcomes in the bridge construction case.  
+
+
+Comparative method Type of fuzziness Importance Ranking outcome 
+
+
+The nonlinear assignment-based model (Chen, 2012) Interval-valued intuitionistic fuzzy set Incomplete preference information z1 ≻ z3 ≻ z2 ≻ z4  
+The inclusion-based LINMAP method (Chen, 2014) Interval-valued intuitionistic fuzzy set A priori unknown z3 ≻ z1 ≻ z4 ≻ z2  
+The compromise approach with correlation-based closeness indices (Chen, 
+
+
+2018a) 
+Interval-valued PF set Nonfuzzy and normalized weights z3 ≻ z1 ≻ z2 ≻ z4  
+
+
+The interval-valued PF outranking method (Chen, 2018b) Interval-valued PF set Interval-valued PF weights z1 ≻ z3 ≻ z4 ≻ z2  
+The PROMETHEE-based method using a PF combinative distance-based 
+
+
+precedence approach (Chen, 2019a) 
+Pythagorean membership grades 
+based on PF sets 
+
+
+Nonfuzzy and normalized weights z1 ≻ z3 ≻ z4 ≻ z2  
+
+
+The PF compromise approach based on generalized distance measures (Chen, 
+2019b) 
+
+
+Pythagorean membership grades 
+based on PF sets 
+
+
+Nonfuzzy and normalized weights z3 ≻ z1 ≻ z2 ≻ z4  
+
+
+The proposed PF LINMAP methodology using a SED-based outranking 
+approach 
+
+
+Pythagorean membership grades 
+based on PF sets 
+
+
+A priori unknown with non- 
+negative conditions 
+
+
+z1 ≻ z3 ≻ z4 ≻ z2   
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+24
+
+
+adapt to complicated uncertain environments encompassing Pythago-
+rean fuzziness and then advanced group decision-making methods in PF 
+settings. To make a further comparison, this subsection provides a 
+practical extension of utilizing the proposed methodology in the group 
+decision-making field and conducts a comparative analysis for deep-
+ening more comprehensive discussions. 
+
+
+Wan et al. (2018) employed the concept of information entropy to 
+appraise the subjective weights of criteria for individual decision 
+makers. They applied a cross-entropy optimization model to integrate 
+multiple weight vectors into a collective one. Moreover, each decision 
+maker’s weight was determined from the collective subjective criterion 
+weight vector in an objective manner. Based on the essential structure of 
+the classical LINMAP, Wan et al. (2018) defined PF group consistency 
+and inconsistency indices in connection with the positive- and negative- 
+ideal solutions, respectively, to unfold a bi-objective PF mathematical 
+programming model. Next, a linear programming method was produc-
+tively launched to resolve the bi-objective model for handling group 
+decision-making issues in PF circumstances. Xue et al. (2018) defined 
+the PF entropy grounded on the similarity and hesitancy concepts to 
+measure the amount of knowledge associated with a PF set. They 
+incorporated the PF entropy into the central procedure of LINMAP and 
+developed an innovative PF LINMAP approach for multiple attribute 
+group decision analysis. Their proposed model considered the maximum 
+consistency and the amount of knowledge under the decision makers’ 
+given preference relations between alternatives. More specifically, the 
+objective function in Xue et al.’s developed linear programming model is 
+to achieve the highest consistency and receive an amount of knowledge 
+
+
+in connection with given preference relations. 
+Notably, Wan et al. (2018) and Xue et al. (2018) exploited their 
+
+
+developed approaches to manage group decision-making issues in PF 
+circumstances. Nonetheless, the proposed methodology is originally 
+suitable to handle single-person decision making. To solve these issues, 
+this paper discusses a generalization of the advanced methodology to 
+manage group decision-making issues for enhancing the efficiency and 
+effectiveness of application merits. What is more, to validate the effi-
+caciousness of the developed methodology as opposed to the existing 
+works in the area involving multiple criteria group decision making, this 
+paper compares the extended methods and techniques with the PF 
+LINMAP approaches by Wan et al. (2018) and Xue et al. (2018) on the 
+same application problems, i.e., green supplier selection and railway 
+project investment, for facilitating a fair and impartial comparative 
+analysis and validating the advantages of the developed techniques. 
+
+
+Let E = {e1, e2,⋯, eK} stipulate a set of K decision makers. Let Ckj (zi)
+indicate the PF evaluative rating of an alternative zi ∈ Z in the matter of 
+criterion cj ∈ C (= CI ∪ CII) furnished by the decision maker ek ∈ E, 
+where Ckj (zi) = (μ
+
+
+k
+cj (zi), ν
+
+
+k
+cj (zi); r
+
+
+k
+cj (zi), d
+
+
+k
+cj (zi)). Let p
+
+
+k
+ij = C
+
+
+k
+j (zi) for nota-
+
+
+tional convenience, in which pkij = (μ
+k
+ij,ν
+
+
+k
+ij; r
+
+
+k
+ij,d
+
+
+k
+ij). Let Ω
+
+
+k declare a set of 
+
+
+ordered pairs (ϕ,φ) furnished by the decision maker ek, where Ωk = {(ϕ,
+φ)|zϕ≻ zφ, ϕ,φ ∈ {1,2,⋯,m}}. In keeping with the ideal PF evaluative 
+ratings p+j and p− j in Definition 5, the SED-based dominance index ψ(pkij)
+of pkij is acquired through the utility of Definition 6, as follows: 
+
+
+Table 4 
+Comprehensive comparison of the sensitivity analyses.  
+
+
+Sensitivity analysis of the ε0 values in the case of η = 0.8  
+
+
+Results for ħ=0.0 Results for ħ=0.1 
+
+
+ε0  Ranking Z*  ε0  Ranking Z*  
+
+
+0.01 z1 ≻ z3 ≻ z4 ≻ z2  {z1} 0.01 z1 ≻ z3 ≻ z4 ≻ z2  {z1}
+0.02–0.06 z1 ≻ z3 ≻ z2 ≻ z4  {z1} 0.02–0.06 z1 ≻ z3 ≻ z2 ≻ z4  {z1}
+0.07–0.10 z3 ≻ z1 ≻ z2 ≻ z4  {z3} 0.07, 0.08 z3 ≻ z1 ≻ z2 ≻ z4  {z3}
+
+
+0.09, 0.10 z3 ≻ z1 ≻ z4 ≻ z2  {z3}
+
+
+Sensitivity analysis of the η values  
+Results for ε0 =
+0.01 
+
+
+Results for ε0 = 0.02 
+
+
+ħ η Ranking Z*  η Ranking Z*  
+
+
+0.0 0.0 z3 ≻ z4 ≻ z2 ≻ z1  {z3} 0.0 z3 ≻ z4 ≻ z2 ≻ z1  {z3}
+0.1–0.6 z1 ≻ z3 ≻ z4 ≻ z2  {z1} 0.1–0.6 z3 ≻ z1 ≻ z4 ≻ z2  {z3}
+0.7 z1 ≻ z3 ≻ z2 ≻ z4  {z1} 0.7–1.0 z1 ≻ z3 ≻ z2 ≻ z4  {z1}
+0.8–1.0 z1 ≻ z3 ≻ z4 ≻ z2  {z1}
+
+
+0.1 0.0 z3 ≻ z4 ≻ z1 ≻ z2  {z3} 0.0 z3 ≻ z4 ≻ z1 ≻ z2  {z3}
+0.1–0.6 z1 ≻ z3 ≻ z4 ≻ z2  {z1} 0.1–0.6 z3 ≻ z1 ≻ z4 ≻ z2  {z3}
+0.7 z1 ≻ z3 ≻ z2 ≻ z4  {z1} 0.7–1.0 z1 ≻ z3 ≻ z2 ≻ z4  {z1}
+0.8–1.0 z1 ≻ z3 ≻ z4 ≻ z2  {z1}
+
+
+0.2 0.0 z3 ≻ z4 ≻ z1 ≻ z2  {z3} 0.0 z3 ≻ z4 ≻ z1 ≻ z2  {z3}
+0.1–1.0 z1 ≻ z3 ≻ z4 ≻ z2  {z1} 0.1–0.5 z1̃z3 ≻ z4 ≻ z2  {z1, z3}
+
+
+0.6 z1 ≻ z3 ≻ z4 ≻ z2  {z1}
+0.7–1.0 z1 ≻ z3 ≻ z2 ≻ z4  {z1}
+
+
+0.3 0.0 z3 ≻ z4 ≻ z1 ≻ z2  {z3} 0.0 z3 ≻ z4 ≻ z1 ≻ z2  {z3}
+0.1–1.0 z1 ≻ z3 ≻ z4 ≻ z2  {z1} 0.1–1.0 z1 ≻ z3 ≻ z4 ≻ z2  {z1}
+
+
+0.4 0.0 z3 ≻ z4 ≻ z1 ≻ z2  {z3} 0.0 z3 ≻ z4 ≻ z1 ≻ z2  {z3}
+0.1–0.5 z1 ≻ z3 ≻ z4 ≻ z2  {z1} 0.1–0.4 z4 ≻ z3 ≻ z1 ≻ z2  {z4}
+0.6–1.0 z1 ≻ z4 ≻ z3 ≻ z2  {z1} 0.5 z4 ≻ z1 ≻ z3 ≻ z2  {z4}
+
+
+0.6–1.0 z1 ≻ z4 ≻ z3 ≻ z2  {z1}
+0.5 0.0–0.4 z4 ≻ z3 ≻ z1 ≻ z2  {z4} 0.0–1.0 z4 ≻ z3 ≻ z1 ≻ z2  {z4}
+
+
+0.5 z4 ≻ z1 ≻ z3 ≻ z2  {z4}
+0.6–1.0 z1 ≻ z4 ≻ z3 ≻ z2  {z1}
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+25
+
+
+Table 5 
+Description of the group decision-making problem concerning green supplier selection.    
+
+
+p1ij furnished by e1  p
+2
+ij furnished by e2  p
+
+
+3
+ij furnished by e3  
+
+
+zi cj (μ1ij ,ν
+1
+ij ; r
+
+
+1
+ij ,d
+
+
+1
+ij) (μ
+
+
+2
+ij ,ν
+
+
+2
+ij ; r
+
+
+2
+ij ,d
+
+
+2
+ij) (μ
+
+
+3
+ij ,ν
+
+
+3
+ij ; r
+
+
+3
+ij ,d
+
+
+3
+ij)
+
+
+z1 c1 (0.20, 0.50; 0.5385, 0.2422) (0.40, 0.40; 0.5657, 0.5000) (0.60, 0.40; 0.7211, 0.6257)  
+c2 (0.40, 0.60; 0.7211, 0.3743) (0.30, 0.20; 0.3606, 0.6257) (0.50, 0.70; 0.8602, 0.3949)  
+c3 (0.30, 0.60; 0.6708, 0.2952) (0.40, 0.60; 0.7211, 0.3743) (0.40, 0.70; 0.8062, 0.3305)  
+c4 (0.60, 0.70; 0.9220, 0.4511) (0.40, 0.60; 0.7211, 0.3743) (0.60, 0.20; 0.6325, 0.7952)  
+c5 (0.20, 0.40; 0.4472, 0.2952) (0.50, 0.40; 0.6403, 0.5704) (0.60, 0.50; 0.7810, 0.5577)  
+
+
+z2 c1 (0.40, 0.40; 0.5657, 0.5000) (0.50, 0.40; 0.6403, 0.5704) (0.70, 0.30; 0.7616, 0.7422)  
+c2 (0.50, 0.20; 0.5385, 0.7578) (0.40, 0.30; 0.5000, 0.5903) (0.60, 0.50; 0.7810, 0.5577)  
+c3 (0.40, 0.50; 0.6403, 0.4296) (0.50, 0.40; 0.6403, 0.5704) (0.60, 0.50; 0.7810, 0.5577)  
+c4 (0.50, 0.80; 0.9434, 0.3556) (0.30, 0.60; 0.6708, 0.2952) (0.50, 0.50; 0.7071, 0.5000)  
+c5 (0.30, 0.50; 0.5831, 0.3440) (0.40, 0.50; 0.6403, 0.4296) (0.50, 0.60; 0.7810, 0.4423)  
+
+
+z3 c1 (0.80, 0.30; 0.8544, 0.7716) (0.30, 0.20; 0.3606, 0.6257) (0.60, 0.30; 0.6708, 0.7048)  
+c2 (0.60, 0.10; 0.6083, 0.8949) (0.50, 0.20; 0.5385, 0.7578) (0.80, 0.30; 0.8544, 0.7716)  
+c3 (0.60, 0.20; 0.6325, 0.7952) (0.80, 0.20; 0.8246, 0.8440) (0.70, 0.10; 0.7071, 0.9097)  
+c4 (0.20, 0.90; 0.9220, 0.1392) (0.40, 0.40; 0.5657, 0.5000) (0.10, 0.80; 0.8062, 0.0792)  
+c5 (0.20, 0.30; 0.3606, 0.3743) (0.20, 0.80; 0.8246, 0.1560) (0.30, 0.70; 0.7616, 0.2578)  
+
+
+z4 c1 (0.60, 0.30; 0.6708, 0.7048) (0.70, 0.30; 0.7616, 0.7422) (0.80, 0.40; 0.8944, 0.7048)  
+c2 (0.60, 0.20; 0.6325, 0.7952) (0.60, 0.30; 0.6708, 0.7048) (0.70, 0.20; 0.7280, 0.8228)  
+c3 (0.50, 0.20; 0.5385, 0.7578) (0.70, 0.30; 0.7616, 0.7422) (0.70, 0.40; 0.8062, 0.6695)  
+c4 (0.40, 0.80; 0.8944, 0.2952) (0.10, 0.80; 0.8062, 0.0792) (0.20, 0.50; 0.5385, 0.2422)  
+c5 (0.30, 0.60; 0.6708, 0.2952) (0.20, 0.70; 0.7280, 0.1772) (0.40, 0.70; 0.8062, 0.3305)  
+Ωk Ω1={(3,2), (4,2)} Ω2={(4,1), (4,2)} Ω3={(2,1), (3,4)} 
+
+
+Remark: (i) Z = {z1 (Green supplier #1), z2 (Green supplier #2), z3 (Green supplier #3), z4 (Green supplier #4)}. 
+(ii) C = {c1 (resource recovery and utilization), c2 (green identity), c3 (environmental impact degree), c4 (energy consumption), c5 (use of environmental protection 
+funds)}, where CI={c1, c2, c3} and CII={c4, c5}. 
+(iii) E={e1 (Expert from the materials and equipment department), e2 (Expert from the quality supervision department), e3 (Expert from the engineering department)}. 
+
+
+Table 6 
+Description of the group decision-making problem concerning railway project investment.    
+
+
+p1ij furnished by e1  p
+2
+ij furnished by e2  p
+
+
+3
+ij furnished by e3  
+
+
+zi cj (μ1ij ,ν
+1
+ij ; r
+
+
+1
+ij ,d
+
+
+1
+ij) (μ
+
+
+2
+ij ,ν
+
+
+2
+ij ; r
+
+
+2
+ij ,d
+
+
+2
+ij) (μ
+
+
+3
+ij ,ν
+
+
+3
+ij ; r
+
+
+3
+ij ,d
+
+
+3
+ij)
+
+
+z1 c1 (0.70, 0.60; 0.9220, 0.5489) (0.50, 0.40; 0.6403, 0.5704) (0.40, 0.30; 0.5000, 0.5903)  
+c2 (0.80, 0.60; 1.0000, 0.5903) (0.30, 0.90; 0.9487, 0.2048) (0.30, 0.40; 0.5000, 0.4097)  
+c3 (0.50, 0.50; 0.7071, 0.5000) (0.40, 0.30; 0.5000, 0.5903) (0.50, 0.40; 0.6403, 0.5704)  
+c4 (0.40, 0.70; 0.8062, 0.3305) (0.90, 0.40; 0.9849, 0.7338) (0.60, 0.60; 0.8485, 0.5000)  
+c5 (0.90, 0.40; 0.9849, 0.7338) (0.30, 0.70; 0.7616, 0.2578) (0.70, 0.70; 0.9899, 0.5000)  
+c6 (0.40, 0.90; 0.9849, 0.2662) (0.40, 0.50; 0.6403, 0.4296) (0.30, 0.70; 0.7616, 0.2578)  
+
+
+z2 c1 (0.90, 0.40; 0.9849, 0.7338) (0.90, 0.30; 0.9487, 0.7952) (0.80, 0.30; 0.8544, 0.7716)  
+c2 (0.80, 0.60; 1.0000, 0.5903) (0.80, 0.50; 0.9434, 0.6444) (0.70, 0.10; 0.7071, 0.9097)  
+c3 (0.70, 0.70; 0.9899, 0.5000) (0.70, 0.60; 0.9220, 0.5489) (0.80, 0.20; 0.8246, 0.8440)  
+c4 (0.90, 0.30; 0.9487, 0.7952) (0.90, 0.20; 0.9220, 0.8608) (0.90, 0.10; 0.9055, 0.9296)  
+c5 (0.80, 0.20; 0.8246, 0.8440) (0.90, 0.20; 0.9220, 0.8608) (0.80, 0.30; 0.8544, 0.7716)  
+c6 (0.90, 0.40; 0.9849, 0.7338) (0.80, 0.30; 0.8544, 0.7716) (0.80, 0.10; 0.8062, 0.9208)  
+
+
+z3 c1 (0.70, 0.50; 0.8602, 0.6051) (0.70, 0.60; 0.9220, 0.5489) (0.20, 0.50; 0.5385, 0.2422)  
+c2 (0.40, 0.30; 0.5000, 0.5903) (0.50, 0.30; 0.5831, 0.6560) (0.30, 0.40; 0.5000, 0.4097)  
+c3 (0.90, 0.10; 0.9055, 0.9296) (0.80, 0.10; 0.8062, 0.9208) (0.80, 0.60; 1.0000, 0.5903)  
+c4 (0.80, 0.20; 0.8246, 0.8440) (0.90, 0.10; 0.9055, 0.9296) (0.90, 0.10; 0.9055, 0.9296)  
+c5 (0.70, 0.40; 0.8062, 0.6695) (0.70, 0.30; 0.7616, 0.7422) (0.30, 0.10; 0.3162, 0.7952)  
+c6 (0.60, 0.60; 0.8485, 0.5000) (0.50, 0.50; 0.7071, 0.5000) (0.60, 0.40; 0.7211, 0.6257)  
+
+
+z4 c1 (0.90, 0.30; 0.9487, 0.7952) (0.30, 0.90; 0.9487, 0.2048) (0.60, 0.80; 1.0000, 0.4097)  
+c2 (0.70, 0.20; 0.7280, 0.8228) (0.20, 0.30; 0.3606, 0.3743) (0.40, 0.10; 0.4123, 0.8440)  
+c3 (0.40, 0.30; 0.5000, 0.5903) (0.30, 0.70; 0.7616, 0.2578) (0.20, 0.40; 0.4472, 0.2952)  
+c4 (0.90, 0.40; 0.9849, 0.7338) (0.50, 0.80; 0.9434, 0.3556) (0.70, 0.10; 0.7071, 0.9097)  
+c5 (0.50, 0.40; 0.6403, 0.5704) (0.70, 0.60; 0.9220, 0.5489) (0.60, 0.20; 0.6325, 0.7952)  
+c6 (0.60, 0.70; 0.9220, 0.4511) (0.40, 0.70; 0.8062, 0.3305) (0.80, 0.10; 0.8062, 0.9208)  
+Ωk Ω1={(3,2), (4,1), (3,1)} Ω2={(2,1),(4,3),(2,4),(3,1)} Ω3={(3,1),(3,4),(2,3),(2,4)} 
+
+
+Remark: (i) Z={z1 (Germany), z2 (Russia), z3 (Singapore), z4 (Malaysia)}. 
+(ii) C={c1 (financial internal rate of return), c2 (net present value), c3 (investment recovery period), c4 (debt ratio and current ratio), c5 (repayment period of loan), c6 
+(public benefit and diplomatic influence)}, where CI={c1, c2,…, c6} and CII = ∅. 
+(iii) E={e1 (Decision maker #1), e2 (Decision maker #2), e3 (Decision maker #3)}. 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+26
+
+
+ψ(pkij) =
+S(pkij, p− j)
+
+
+S(pkij, p+j) + S(p
+k
+ij, p− j)
+
+
+(41) 
+
+
+Let Γkϕφ denote the degree of violation about the ordered pair (ϕ,φ)
+associated with ek, where Γkϕφ = max{0,
+
+
+∑n
+j=1(ψ(p
+
+
+k
+φj) − ψ(p
+
+
+k
+ϕj))⋅wj}. By 
+
+
+generalizing the proposed PF LINMAP methodology to the group 
+decision-making field, this paper formulates an efficacious linear pro-
+gramming model that serves a group MCDA scheme as follows: 
+
+
+Model V. max
+
+
+{
+
+
+η
+∑K
+
+
+k=1
+
+
+∑n
+
+
+j=1
+
+
+∑m
+
+
+i=1
+ψ
+(
+
+
+pkij
+)
+
+
+⋅wj − (1 − η)
+∑K
+
+
+k=1
+
+
+∑
+
+
+(ϕ,φ)∈Ωk
+Γkϕφ
+
+
+}
+
+
+s.t.
+
+
+⎧
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨
+
+
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩
+
+
+∑n
+
+
+j=1
+
+
+∑
+
+
+(ϕ,φ)∈Ωk
+
+
+(
+ψ
+(
+
+
+pkϕj
+)
+− ψ
+
+
+(
+pkφj
+))
+
+
+⋅wj⩾ħ for all k,
+
+
+∑n
+
+
+j=1
+
+
+(
+ψ
+(
+
+
+pkϕj
+)
+− ψ
+
+
+(
+pkφj
+))
+
+
+⋅wj + Γkϕφ⩾0 for (ϕ,φ) ∈ Ω
+k for all k,
+
+
+Γkϕφ⩾0 for (ϕ,φ) ∈ Ω
+k and ek ∈ E,
+
+
+∑n
+
+
+j=1
+wj = 1, wj⩾εj for all j.
+
+
+(42) 
+
+
+The optimal Γ
+k
+ϕφ values towards each ordered pair (ϕ,φ) ∈ Ω
+
+
+k and the 
+optimal weight vector w = (w1,w2,⋯,wn) are received by tackling the 
+extended PF LINMAP model based on the group MCDA scheme in Model 
+V. The corresponding total comprehensive dominance index Ψ(Pi) for 
+each alternative zi is generated by Ψ(Pi) =
+
+
+∑K
+k=1
+∑n
+
+
+j=1wj⋅ψ(p
+k
+ij). After-
+
+
+wards, the m alternatives are ranked in the light of the decreasing order 
+of the Ψ(Pi) values. Additionally, the best compromise solution z* in Z*⊆ 
+Z is ranked the best by Ψ(Pi) such that Z* = {zi|maxmi=1Ψ(Pi), zi ∈ Z} =
+{zi|maxmi=1
+
+
+∑K
+k=1
+∑n
+
+
+j=1wj⋅ψ(p
+k
+ij), zi ∈ Z}. 
+
+
+As mentioned earlier, Wan et al. (2018) and Xue et al. (2018) 
+employed their PF LINMAP models to carry on the group decision- 
+making issues concerning green supplier selection and railway project 
+investment, respectively. To confirm the workableness and practica-
+bility of the generalized PF LINMAP method in Model V in empirical 
+
+
+group MCDA circumstances, this paper also investigates the two realistic 
+problems and makes an equitable and even-handed comparative anal-
+ysis. In line with Wan et al.’s and Xue et al.’s problem representations, 
+the descriptions of the realistic cases of green supplier selection and 
+railway project investment are displayed in Tables 5 and 6, respectively. 
+There is one point worthy of particular attention in these two tables. 
+Wan et al. (2018) and Xue et al. (2018) revealed the assessment data 
+about the degrees of membership μkij (i.e., μ
+
+
+k
+cj (zi)) and non-membership 
+
+
+νkij (i.e., ν
+k
+cj (zi)) for the evaluation of alternatives in the criteria offered 
+
+
+by each decision maker. Nonetheless, the proposed extended Model V, i. 
+e., the generalized PF LINMAP method using a SED-based outranking 
+approach, requires the strength of commitment rkij (i.e., r
+
+
+k
+cj (zi)) and the 
+
+
+direction of commitment dkij (i.e., d
+k
+cj (zi)); to be specific, the four-term 
+
+
+representation is a requisite for assessment data by dint of the pro-
+posed methodology. Even though the four parameters are necessary for 
+implementing the developed SED-based outranking approach, there is 
+no extra information demanding in comparison with Xue et al.’s and 
+Wan et al.’s approaches. The main reason is that the values of rkij and d
+
+
+k
+ij 
+
+
+can be derived by way of Definition 2. More specifically, rkij =
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+
+
+(μkij)
+2
++ (νkij)
+
+
+2
+√
+
+
+and dkij = (π − 2⋅θ
+k
+ij)/π, where θ
+
+
+k
+ij = arccos(μ
+
+
+k
+ij/r
+
+
+k
+ij) =
+
+
+arcsin(νkij/r
+k
+ij). Therefore, no additional information is needed to ask 
+
+
+from the decision makers. This indicates that the four-term representa-
+tion does not limit practical applications of the proposed methodology. 
+Moreover, the computed results of rkij and d
+
+
+k
+ij are contained within p
+
+
+k
+ij (=
+
+
+(μkij,ν
+k
+ij; r
+
+
+k
+ij,d
+
+
+k
+ij)), as depicted in Tables 5 and 6. 
+
+
+Consider the group decision-making issue of green supplier selection. 
+As reported by the remark section in Table 5, it is seen that Z = {z1,z2,z3,
+z4}, C = {c1, c2,⋯, c5} (with CI = {c1, c2} and CII = {c3,c4,c5}), and E =
+{e1, e2, e3}. Moreover, the sets of ordered pairs for three experts (i.e., 
+decision makers e1–e3) are mentioned as follows: Ω
+
+
+1
+={(3,2), (4,2)} for 
+
+
+the expert e1 from the materials and equipment department, Ω
+2
+={(4,1), 
+
+
+(4,2)} for the expert e2 from the quality supervision department, and 
+Ω3={(2,1), (3,4)} for the expert e3 from the engineering department. On 
+account of the PF evaluative rating pkij in Table 5, this paper employed 
+
+
+Fig. 11. SED-based dominance indices in the green supplier selection case.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+27
+
+
+(41) to calculate the SED-based dominance index ψ(pkij), and the ob-
+tained results are contrasted in Fig. 11. The alternatives z3 and z4 per-
+forms better, roughly speaking, than z1 and z2 in conformity with the 
+comparison patterns of the ψ(pkij) values. 
+
+
+Relevant parameter values were set as follows: the lowest acceptable 
+level ħ=0.2, the relative importance η = 0.5, and the non-negative 
+boundary condition εj was replaced with the incomplete weight infor-
+mation that was designated by the three experts. As indicated in Wan 
+
+
+et al. (2018), the following incomplete information was imposed into the 
+generalized PF LINMAP model: w2⩾2w3, 0.1⩽w5 − w1⩽0.3, 
+w2 − w3⩾w5 − w1, w3⩾w4, and 0.1⩽w3⩽0.15. To apply Model V, the de-
+cision variables consist of the unknown weight wj for j ∈ {1,2,⋯, 5} and 
+the degree of violation Γkϕφ towards each ordered pair (ϕ,φ) ∈ Ω
+
+
+k, i.e., 
+Γ132, Γ
+
+
+1
+42, Γ
+
+
+2
+41, Γ
+
+
+2
+42, Γ
+
+
+3
+21, and Γ
+
+
+3
+34. By employing (42), the following 
+
+
+extended PF LINMAP model was established:  
+
+
+max{0.5⋅(7.7661w1 + 7.4548w2 + 7.1048w3 + 8.3056w4 + 7.6503w5)
+
+
+− 0.5⋅
+(
+Γ132 + Γ
+
+
+1
+42 + Γ
+
+
+2
+41 + Γ
+
+
+2
+42 + Γ
+
+
+3
+21 + Γ
+
+
+3
+34
+
+
+) }
+
+
+s.t.
+
+
+⎧
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨
+
+
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩
+
+
+0.5640w1 + 0.1604w2 + 0.4872w3 + 0.2034w4 + 0.0120w5⩾0.2,
+
+
+0.4943w1 + 0.2742w2 + 0.6382w3 + 0.4735w4 + 0.6006w5⩾0.2,
+
+
+− 0.0344w1 + 0.3571w2 + 0.4008w3 + 0.4700w4 + 0.2027w5⩾0.2,
+
+
+0.3788w1 + 0.0917w2 + 0.2780w3 + 0.1583w4 − 0.0635w5 + Γ132⩾0,
+
+
+0.1852w1 + 0.0687w2 + 0.2093w3 + 0.0452w4 + 0.0755w5 + Γ142⩾0,
+
+
+0.2784w1 + 0.1390w2 + 0.4224w3 + 0.2574w4 + 0.3629w5 + Γ241⩾0,
+
+
+0.2158w1 + 0.1352w2 + 0.2158w3 + 0.2161w4 + 0.2377w5 + Γ242⩾0,
+
+
+0.1345w1 + 0.2785w2 + 0.3305w3 + 0.2153w4 + 0.1698w5 + Γ321⩾0,
+
+
+− 0.1689w1 + 0.0786w2 + 0.0703w3 + 0.2546w4 + 0.0328w5 + Γ334⩾0,
+
+
+Γ132,Γ
+1
+42,Γ
+
+
+2
+41,Γ
+
+
+2
+42,Γ
+
+
+3
+21,Γ
+
+
+3
+34⩾0,
+
+
+∑5
+
+
+j=1
+wj = 1,w2⩾2w3, 0.1⩽w5 − w1⩽0.3,w2 − w3⩾w5 − w1,w3⩾w4, 0.1⩽w3⩽0.15.
+
+
+Fig. 12. Comparison of the Ψ(Pki ) values in the green supplier selection case.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+28
+
+
+By resolving the above linear programming model, one received the 
+optimal objective value 3.8256, the optimal weight vector w = (w1,w2,
+⋯,w5) = (0.25, 0.2, 0.1, 0.1, 0.35), and the optimal degrees of violation 
+Γ132 = Γ
+
+
+1
+42 = Γ
+
+
+2
+41 = Γ
+
+
+2
+42 = Γ
+
+
+3
+21 = Γ
+
+
+3
+34 = 0. Under the setting of the vector 
+
+
+(w1, w2, ⋯, w5), this paper further plots the optimal comprehensive 
+dominance index Ψ(Pki ) of the alternative zi ∈ Z with relevance to each 
+decision maker ek ∈ E, where Ψ(Pki ) =
+
+
+∑5
+j=1wj⋅ψ(p
+
+
+k
+ij). The comparison 
+
+
+results of the Ψ(Pki ) values are sketched in Fig. 12. On the whole, the 
+optimal comprehensive dominance indices in connection with the three 
+experts demonstrate a consistent and stable pattern, i.e., min{Ψ(Pk3),
+Ψ(Pk4)} > Ψ(P
+
+
+k
+2) > Ψ(P
+
+
+k
+1) for k ∈ {1, 2, 3}. More specifically, it is 
+
+
+observed that Ψ(P13) > Ψ(P
+1
+4) > Ψ(P
+
+
+1
+2) > Ψ(P
+
+
+1
+1), Ψ(P
+
+
+2
+4) > Ψ(P
+
+
+2
+3) >
+
+
+Ψ(P22) > Ψ(P
+2
+1), and Ψ(P
+
+
+3
+3) > Ψ(P
+
+
+3
+4) > Ψ(P
+
+
+3
+2)> Ψ(P
+
+
+3
+1) for the experts 
+
+
+e1–e3, respectively. The total comprehensive dominance indices were 
+produced as follows: Ψ(P1) =
+
+
+∑3
+k=1
+∑5
+
+
+j=1wj⋅ψ(p
+k
+1j) = 1.3684, Ψ(P2) =
+
+
+1.7895, Ψ(P3) = 2.2356, and Ψ(P4) = 2.2577. In consequence, the 
+priority ranking of the four green suppliers is z4 ≻ z3 ≻ z2 ≻ z1; more-
+
+
+over, the best compromise solution z* is Green supplier #4 because Z* =
+{z4}. The yielded outcomes are concordant with those generated via 
+Wan et al. (2018) method. 
+
+
+Next, as attested by the description in Table 6, this paper exploited 
+the current methodology to explore the group decision analysis problem 
+about railway project investment. Referring to the remark section in this 
+table, it is known that Z = {z1,z2,z3,z4}, C = {c1, c2,⋯, c6} (with CI = {
+c1, c2,⋯, c6} and CII = ∅), and E = {e1, e2, e3}. The sets of ordered pairs 
+
+
+for three decision makers are stated as follows: Ω1={(3,2), (4,1), (3,1)} 
+for e1, Ω
+
+
+2
+={(2,1), (4,3), (2,4), (3,1)} for e2, and Ω
+
+
+3
+={(3,1), (3,4), (2,3), 
+
+
+(2,4)} for e3. On account of the PF evaluative rating pkij in Table 6, the 
+determination outcomes of the SED-based dominance index ψ(pkij) are 
+contrasted in Fig. 13. For the most part, the alternatives z2 and z3 per-
+forms better than z1 and z4 in the light of the comparison patterns of the 
+ψ(pkij) values. 
+
+
+This paper designated relevant parameter values as follows: the 
+lowest acceptable level ħ=0.2, the relative importance η = 0.5, and the 
+non-negative boundary condition εj = ε0 = 0.01 for each cj ∈ C. Note 
+that ε0 = 0.01 is in congruence with Xue et al. (2018) setting of the 
+weight constraints. By virtue of Model V, the decision variables consist 
+of the unknown weight wj for j ∈ {1,2,⋯,6} and the degree of violation 
+Γkϕφ towards each (ϕ,φ) ∈ Ω
+
+
+k, i.e., Γ132, Γ
+1
+41, Γ
+
+
+1
+31, Γ
+
+
+2
+21, Γ
+
+
+2
+43, Γ
+
+
+2
+24, Γ
+
+
+2
+31, Γ
+
+
+3
+31, 
+
+
+Γ334, Γ
+3
+23, and Γ
+
+
+3
+24. This paper constructed the following extended PF 
+
+
+LINMAP model:    
+
+
+The above linear programming model was resolved to receive the 
+optimal objective value 4.2051, the optimal weight vector w = (w1,w2,
+⋯,w6) = (0.01, 0.01, 0.01, 0.8872, 0.0728, 0.01), the optimal degrees of 
+violation Γ132 = 0.0714, Γ
+
+
+2
+43 = 0.7212, and Γ
+
+
+1
+41 = Γ
+
+
+1
+31 = Γ
+
+
+2
+21 = Γ
+
+
+2
+24 =
+
+
+Γ231 = Γ
+3
+31 = Γ
+
+
+3
+34 = Γ
+
+
+3
+23 = Γ
+
+
+3
+24 = 0. Next, this paper pictures the optimal 
+
+
+comprehensive dominance index Ψ(Pki ) in conjunction with each zi ∈ Z 
+
+
+max{0.5⋅(7.4224w1 + 7.0754w2 + 7.4023w3 + 9.3621w4 + 8.4005w5 + 6.6261w6)
+
+
+− 0.5⋅
+(
+Γ132 + Γ
+
+
+1
+41 + Γ
+
+
+1
+31 + Γ
+
+
+2
+21 + Γ
+
+
+2
+43 + Γ
+
+
+2
+24 + Γ
+
+
+2
+31 + Γ
+
+
+3
+31 + Γ
+
+
+3
+34 + Γ
+
+
+3
+23 + Γ
+
+
+3
+24
+
+
+) }
+
+
+s.t.
+
+
+⎧
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨
+
+
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩
+
+
+0.1845w1 − 0.2965w2 + 0.9935w3 + 1.2542w4 − 0.7077w5 + 0.3218w6⩾0.2,
+
+
+0.7882w1 + 1.5312w2 + 0.1252w3 + 0.0655w4 + 1.4911w5 + 0.8829w6⩾0.2,
+
+
+1.0255w1 + 0.3736w2 + 1.1397w3 + 0.7835w4 + 0.4183w5 + 0.4224w6⩾0.2,
+
+
+− 0.2408w1 − 0.1823w2 + 0.4718w3 − 0.0640w4 − 0.1471w5 − 0.4344w6 + Γ132⩾0,
+
+
+0.3442w1 + 0.0681w2 + 0.0500w3 + 0.6800w4 − 0.3718w5 + 0.3218w6 + Γ141⩾0,
+
+
+0.0811w1 − 0.1823w2 + 0.4718w3 + 0.6383w4 − 0.1888w5 + 0.4344w6 + Γ131⩾0,
+
+
+0.3941w1 + 0.7656w2 + 0.0626w3 + 0.0327w4 + 0.7456w5 + 0.4415w6 + Γ221⩾0,
+
+
+− 0.5693w1 − 0.1558w2 − 0.6797w3 − 0.7807w4 − 0.1659w5 − 0.2456w6 + Γ243⩾0,
+
+
+0.9135w1 + 0.3550w2 + 0.3910w3 + 0.7760w4 + 0.3546w5 + 0.6244w6 + Γ224⩾0,
+
+
+0.0499w1 + 0.5664w2 + 0.3513w3 + 0.0374w4 + 0.5569w5 + 0.0626w6 + Γ231⩾0,
+
+
+− 0.1966w1 + 0.0000w2 + 0.1696w3 + 0.4718w4 + 0.0913w5 + 0.4224w6 + Γ331⩾0,
+
+
+0.0856w1 − 0.1791w2 + 0.3246w3 + 0.1558w4 − 0.1241w5 − 0.2574w6 + Γ334⩾0,
+
+
+0.5255w1 + 0.3659w2 + 0.1605w3 + 0.0000w4 + 0.2876w5 + 0.2574w6 + Γ323⩾0,
+
+
+0.6111w1 + 0.1868w2 + 0.4850w3 + 0.1558w4 + 0.1635w5 + 0.0000w6 + Γ324⩾0,
+
+
+Γ132,Γ
+1
+41,Γ
+
+
+1
+31,Γ
+
+
+2
+21,Γ
+
+
+2
+43,Γ
+
+
+2
+24,Γ
+
+
+2
+31,Γ
+
+
+3
+31,Γ
+
+
+3
+34,Γ
+
+
+3
+23,Γ
+
+
+3
+24⩾0,
+
+
+∑6
+
+
+j=1
+wj = 1, wj⩾0.01 for j = 1, 2,⋯, 6.
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+29
+
+
+and ek ∈ E under the setting of the vector (w1,w2,⋯,w6), where Ψ(Pki ) =
+∑6
+
+
+j=1wj⋅ψ(p
+k
+ij). Fig. 14 delineates the contrast outcomes of the Ψ(P
+
+
+k
+i )
+
+
+values. In the railway project investment case, the optimal compre-
+hensive dominance indices with relevance to the three decision makers 
+reveal somewhat different patterns. More specifically, it is known that 
+Ψ(P12) > Ψ(P
+
+
+1
+4) > Ψ(P
+
+
+1
+3) > Ψ(P
+
+
+1
+1) for e1 and Ψ(P
+
+
+k
+2) > Ψ(P
+
+
+k
+3) > min{Ψ(P
+
+
+k
+1),
+
+
+Ψ(Pk4)} for k ∈ {2,3} (i.e., Ψ(P
+2
+2) > Ψ(P
+
+
+2
+3) > Ψ(P
+
+
+2
+1) > Ψ(P
+
+
+2
+4) for e2 and 
+
+
+Ψ(P32) > Ψ(P
+3
+3) > Ψ(P
+
+
+3
+4) > Ψ(P
+
+
+3
+1) for e3). The total comprehensive 
+
+
+dominance indices were determined as follows: Ψ(P1) =
+∑3
+
+
+k=1
+∑6
+
+
+j=1wj⋅ψ(p
+k
+1j) = 1.6717, Ψ(P2) = 2.8668, Ψ(P3) = 2.7455, and 
+
+
+Ψ(P4) = 1.9188. Consequently, the priority ranking of the alternatives is 
+z2 ≻ z3 ≻ z4 ≻ z1, and the best compromise solution z* is Russia (z2) 
+because Z* = {z2}. The yielded outcomes are consistent with those 
+produced by Xue et al. (2018) approach. 
+
+
+The application results concerning two practical cases of green 
+supplier selection and railway project investment further exhibit several 
+
+
+z1 z2 z3 z4
+e1 0.3129 0.9448 0.8734 0.8969
+e2 0.8610 0.9610 0.9451 0.2239
+e3 0.4978 0.9610 0.9270 0.7980
+
+
+0.20
+
+
+0.30
+
+
+0.40
+
+
+0.50
+
+
+0.60
+
+
+0.70
+
+
+0.80
+
+
+0.90
+
+
+1.00
+
+
+O
+pt
+
+
+im
+al
+
+
+ c
+om
+
+
+pr
+eh
+
+
+en
+si
+
+
+ve
+do
+
+
+m
+in
+
+
+an
+ce
+
+
+ in
+de
+
+
+x
+
+
+Fig. 14. Comparison of the Ψ(Pki ) values in the railway project investment case.  
+
+
+0.0
+
+
+0.1
+
+
+0.2
+
+
+0.3
+
+
+0.4
+
+
+0.5
+
+
+0.6
+
+
+0.7
+
+
+0.8
+
+
+0.9
+
+
+1.0
+
+
+c1 c2 c3 c4 c5 c6 c1 c2 c3 c4 c5 c6 c1 c2 c3 c4 c5 c6 c1 c2 c3 c4 c5 c6
+
+
+z1 z2 z3 z4
+
+
+e1 e2 e3
+
+
+Fig. 13. SED-based dominance indices in the railway project investment case.  
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+30
+
+
+strong points of the current methodology in comparison to the existing 
+PF LINMAP techniques (e.g., Wan et al. (2018) and Xue et al. (2018) 
+methods). First, the proposed methodology furnishes efficacious and 
+flexible techniques for handling individual decision-making issues via 
+Model IV and group decision-making issues via Model V. Second, the 
+developed models and execution procedures are much easier to under-
+stand than Wan et al.’s and Xue et al.’s approaches. On the strength of a 
+uncomplicated and efficacious SED-based outranking technique, the PF 
+LINMAP optimization models (i.e., Models IV and V) supply an effortless 
+and unsophisticated tool to tackle (group) decision-making problems 
+under complex PF uncertainty. Third, the applicability and usefulness of 
+the current methodology have been thoroughly corroborated by the 
+agency of three investigated issues regarding bridge-superstructure 
+construction methods, green supplier selection, and railway project in-
+vestment. In contrast to the existing methods and techniques, the 
+employment of the proposed methodology (and its generalization) can 
+yield believable and befitting outcomes and thus bring about more 
+application merits in the decision-making field. 
+
+
+6. Conclusions 
+
+
+This paper has addressed MCDA problems with PF evaluative ratings 
+and stated preference information between pairs of alternatives. By the 
+agency of a newly developed Euclidean distance measure in the context 
+of PF sets, this paper has delivered an efficacious concept of squared PF 
+Euclidean distances and explored several beneficial and desirable 
+properties, such as boundedness, reflexivity, separability, symmetry, 
+and concordance of quasi-ordering. Thereafter, this paper has con-
+structed the SED-based dominance index and justified its effectiveness in 
+determining the dominance relations among PF evaluative ratings. To 
+conduct an intracriterion comparison between alternatives, the SED- 
+based outranking approach has been developed in PF decision con-
+texts. Subsequently, this paper has delivered some useful measurements 
+of rank consistency and inconsistency to evaluate the goodness of fit and 
+the poorness of fit, respectively, from the distributive PF evaluative 
+ratings over various criteria for each paired preference relation. This 
+paper has formulated a series of PF LINMAP optimization problems 
+under incomplete and non-transitive paired preference relations of al-
+ternatives. Specifically, Model I aims to minimize the degree of poorness 
+of fit under consideration of the lowest acceptable level. Model II ad-
+dresses the issues of specialized degenerate weighting results and 
+maximal comprehensive dominance indices and provides a linear pro-
+gramming model. Model III presents a bi-objective nonlinear program-
+ming model with a focus on maximizing the total comprehensive 
+dominance index and minimizing the degree of poorness of fit. Model IV 
+coordinates the two objectives by means of a parameter to transform 
+Model III into a single-objective linear programming format. By 
+resolving the simple and effective linear programming problem in Model 
+IV, the optimal criterion weights and optimal degrees of violation were 
+derived to receive the ultimate comprehensive dominance indices, 
+generate the priority orders of competing alternatives, and conclude the 
+best compromise choice. Furthermore, the selection issue of bridge- 
+superstructure construction methods has been explored to corroborate 
+the practicability and efficacity of the PF LINMAP methodology. Over 
+and above that, the proposed methodology can be easily generalized to 
+the group decision-making field. Model V exhibits the extended PF 
+LINMAP model that serves a group MCDA scheme for expanding po-
+tentials in practice. Finally, some comparative studies with other rele-
+vant approaches, along with sensitivity analyses of various parameter 
+settings, have validated the advantages and flexibility of the advanced 
+methodology. 
+
+
+This paper furnishes four recommendations for future research. First, 
+by the agency of the concept of squared PF Euclidean distances, this 
+paper suggests that future research can focus on construction of a novel 
+class of Bregman divergences under uncertainty with Pythagorean fuzzy 
+information. Second, this paper recommends that both the SED-based 
+
+
+dominance index and the SED-based outranking approach can be 
+incorporated into other MCDA models that are most often built using a 
+concordance–discordance principle, such as the ELECTRE and PROM-
+ETHEE methodologies. Third, a recommendation that research on the 
+challenges of extending the PF LINMAP for tackling group decision 
+analysis issues involving inconsistent preference information, and the 
+consensus-reaching processes used to overcome those challenges can be 
+made. The fourth recommendation is that an extensive range of appli-
+cations of the proposed methodology can be investigated. Because the 
+SED-based outranking approach with dominance indices can be conve-
+niently combined with other evaluation techniques, which enables 
+various applications in practical fields and industries. 
+
+
+CRediT authorship contribution statement 
+
+
+Ting-Yu Chen: Conceptualization, Methodology, Validation, Formal 
+analysis, Data curation, Writing - original draft, Writing - review & 
+editing, Visualization, Funding acquisition. 
+
+
+Declaration of Competing Interest 
+
+
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+
+
+Acknowledgments 
+
+
+The author acknowledges the assistance of the respected editor and 
+the anonymous referees for their insightful and constructive comments, 
+which helped to improve the overall quality of the paper. The author is 
+grateful for grant funding support from the Ministry of Science and 
+Technology, Taiwan (MOST 108-2410-H-182-014-MY2) and Chang 
+Gung Memorial Hospital, Linkou, Taiwan (BMRP 574) during the 
+completion of this study. 
+
+
+Data availability statement 
+
+
+The datasets generated during and/or analyzed during the current 
+study are available from the corresponding author on reasonable 
+request. 
+
+
+Compliance with ethical standards 
+
+
+This article does not contain any studies with human participants or 
+animals that were performed by the author. 
+
+
+References 
+
+
+Akram, M., Garg, H., & Zahid, K. (2020a). Extensions of ELECTRE-I and TOPSIS methods 
+for group decision-making under complex Pythagorean fuzzy environment. Iran. J. 
+Fuzzy Syst., 17(5), 147–164. 
+
+
+Akram, M., Ilyas, F., & Garg, H. (2020b). Multi-criteria group decision making based on 
+ELECTRE I method in Pythagorean fuzzy information. Soft. Comput., 24, 3425–3453. 
+
+
+Atanassov, K. T. (1986). Intuitionistic fuzzy sets. Fuzzy Sets Syst., 20(1), 87–96. 
+Biswas, A., & Sarkar, B. (2019). Pythagorean fuzzy TOPSIS for multicriteria group 
+
+
+decision-making with unknown weight information through entropy measure. Int. J. 
+Intell. Syst., 34(6), 1108–1128. 
+
+
+Büyüközkan, G., & Göçer, F. (2019). A novel approach integrating AHP and COPRAS 
+under pythagorean fuzzy sets for digital supply chain partner selection. IEEE Trans. 
+Eng. Manage.. . https://doi.org/10.1109/TEM.2019. 2907673. 
+
+
+Chen, T.-Y. (2012). Nonlinear assignment-based methods for interval-valued 
+intuitionistic fuzzy multi-criteria decision analysis with incomplete preference 
+information. Int. J. Inform. Technol. Decis. Mak., 11(4), 821–855. 
+
+
+Chen, T.-Y. (2014). The inclusion-based LINMAP method for multiple criteria decision 
+analysis within an interval-valued Atanassov’s intuitionistic fuzzy environment. Int. 
+J. Inform. Technol. Decis. Mak., 13(6), 1325–1360. 
+
+
+Chen, T.-Y. (2018b). An interval-valued Pythagorean fuzzy outranking method with a 
+closeness-based assignment model for multiple criteria decision making. Int. J. Intell. 
+Syst., 33(1), 126–168. 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0005
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0005
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0005
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0010
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0010
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0015
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0020
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0020
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0020
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0030
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0030
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0030
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0035
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0035
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0035
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0040
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0040
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0040
+
+
+
+
+Expert Systems With Applications 164 (2021) 113908
+
+
+31
+
+
+Chen, T.-Y. (2018c). Remoteness index-based Pythagorean fuzzy VIKOR methods with a 
+generalized distance measure for multiple criteria decision analysis. Inform. Fusion, 
+41, 129–150. 
+
+
+Chen, T.-Y. (2019b). Novel generalized distance measure of Pythagorean fuzzy sets and a 
+compromise approach for multiple criteria decision analysis under uncertainty. IEEE 
+Access, 7(1), 58168–58185. 
+
+
+Chen, T.-Y. (2018a). An interval-valued Pythagorean fuzzy compromise approach with 
+correlation-based closeness indices for multiple-criteria decision analysis of bridge 
+construction methods. Complexity, 2018(Nov.), Article ID 6463039, 29 pages. 
+
+
+Chen, T.-Y. (2019a). A novel PROMETHEE-based method using a Pythagorean fuzzy 
+combinative distance-based precedence approach to multiple criteria decision 
+making. Applied Soft Computing, 82(Sep.), Article ID 105560, 27 pages. 
+
+
+Chen, T.-Y. (2020). New Chebyshev distance measures for Pythagorean fuzzy sets with 
+applications to multiple criteria decision analysis using an extended ELECTRE 
+approach. Expert Systems with Applications, 147(Jun.), Article ID 113164, 31 pages. 
+
+
+Ding, X.-F., Liu, H.-C., & Shi, H. (2019). A dynamic approach for emergency decision 
+making based on prospect theory with interval-valued Pythagorean fuzzy linguistic 
+variables. Comput. Ind. Eng., 131, 57–65. 
+
+
+Gou, X., Xu, Z., & Liao, H. (2019). Hesitant fuzzy linguistic possibility degree-based 
+linear assignment method for multiple criteria decision-making. Int. J. Inform. 
+Technol. Decis. Mak., 18(1), 365–387. 
+
+
+Haghighi, M. H., Mousavi, S. M., & Mohagheghi, V. (2019). A new soft computing model 
+based on linear assignment and linear programming technique for multidimensional 
+analysis of preference with interval type-2 fuzzy sets. Appl. Soft Comput., 77, 
+780–796. 
+
+
+Ho, L. H., Lin, Y. L., & Chen, T. Y. (2020). A pearson-like correlation-based TOPSIS 
+method with interval-valued pythagorean fuzzy uncertainty and its application to 
+multiple criteria decision analysis of stroke rehabilitation treatments. Neural Comput. 
+Appl., 32(12), 8265–8295. 
+
+
+Kou, G., Ergu, D., Lin, C., & Chen, Y. (2016). Pairwise comparison matrix in multiple 
+criteria decision making. Technol. Econ. Dev. Econ., 22(5), 738–765. 
+
+
+Li, D., & Zeng, W. (2018). Distance measure of pythagorean fuzzy sets. Int. J. Intell. Syst., 
+33(2), 348–361. 
+
+
+Liang, D., Zhang, Y., Xu, Z., & Jamaldeen, A. (2019). Pythagorean fuzzy VIKOR 
+approaches based on TODIM for evaluating internet banking website quality of 
+Ghanaian banking industry. Appl. Soft Comput., 78, 583–594. 
+
+
+Liang, D., Darko, A. P., Xu, Z., & Zhang, Y. (2020). Partitioned fuzzy measure-based 
+linear assignment method for Pythagorean fuzzy multi-criteria decision-making with 
+a new likelihood. J. Operat. Res. Soc., 71(5), 831–845. 
+
+
+Liao, H., Jiang, L., Xu, Z., Xu, J., & Herrera, F. (2017). A linear programming method for 
+multiple criteria decision making with probabilistic linguistic information. Inf. Sci., 
+415–416, 341–355. 
+
+
+Lin, Y.-L., Ho, L.-H., Yeh, S.-L., & Chen, T.-Y. (2019). A Pythagorean fuzzy TOPSIS 
+method based on novel correlation measures and its application to multiple criteria 
+decision analysis of inpatient stroke rehabilitation. Int. J. Comput. Intell. Syst., 12(1), 
+410–425. 
+
+
+Liu, X., Wang, X., Qu, Q., & Zhang, L. (2018). Double hierarchy hesitant fuzzy linguistic 
+mathematical programming method for MAGDM Based on Shapley values and 
+incomplete preference information. IEEE Access, 6, 74162–74179. 
+
+
+Mandal, P., & Ranadive, A. S. (2019). Pythagorean fuzzy preference relations and their 
+applications in group decision-making systems. Int. J. Intell. Syst., 34(7), 1700–1717. 
+
+
+Qin, J., Liu, X., & Pedrycz, W. (2017). A multiple attribute interval type-2 fuzzy group 
+decision making and its application to supplier selection with extended LINMAP 
+method. Soft. Comput., 21(12), 3207–3226. 
+
+
+Ren, P., Xu, Z., & Gou, X. (2016). Pythagorean fuzzy TODIM approach to multi-criteria 
+decision making. Appl. Soft Comput., 42, 246–259. 
+
+
+Shete, P. C., Ansari, Z. N., & Kant, R. (2020). A Pythagorean fuzzy AHP approach and its 
+application to evaluate the enablers of sustainable supply chain innovation. Sustain. 
+Product. Consumpt., 23, 77–93. 
+
+
+Song, W., Zhu, J., Zhang, S., & Liu, X. (2018). A multi-stage uncertain risk decision- 
+making method with reference point based on extended LINMAP method. J. Intell. 
+Fuzzy Syst., 35(1), 1133–1146. 
+
+
+Srinivasan, V., & Shocker, A. D. (1973). Linear programming techniques for 
+multidimensional analysis of preference. Psychometrika, 38(3), 337–342. 
+
+
+Wan, S.-P., Qin, Y.-L., & Dong, J.-Y. (2017). A hesitant fuzzy mathematical programming 
+method for hybrid multi-criteria group decision making with hesitant fuzzy truth 
+degrees. Knowl.-Based Syst., 138, 232–248. 
+
+
+Wan, S.-P., Jin, Z., & Dong, J.-Y. (2018). Pythagorean fuzzy mathematical programming 
+method for multi-attribute group decision making with Pythagorean fuzzy truth 
+degrees. Knowl. Inf. Syst., 55(2), 437–466. 
+
+
+Wan, S.-P., & Li, D.-F. (2014). Atanassov’s intuitionistic fuzzy programming method for 
+heterogeneous multiattribute group decision making with Atanassov’s intuitionistic 
+fuzzy truth degrees. IEEE Trans. Fuzzy Syst., 22(2), 300–312. 
+
+
+Wan, S.-P., & Li, D.-F. (2015). Fuzzy mathematical programming approach to 
+heterogeneous multiattribute decision-making with interval-valued intuitionistic 
+fuzzy truth degrees. Inf. Sci., 325, 484–503. 
+
+
+Wang, H., He, S., Li, C., & Pan, X. (2019). Pythagorean uncertain linguistic variable 
+Hamy mean operator and its application to multi-attribute group decision making. 
+IEEE/CAA J. Autom. Sin., 6(2), 527–539. 
+
+
+Xu, Y. J., Xu, A. W., & Wang, H. M. (2016). Hesitant fuzzy linguistic linear programming 
+technique for multidimensional analysis of preference for multi-attribute group 
+decision making. Int. J. Mach. Learn. Cybern., 7(5), 845–855. 
+
+
+Xue, W., Xu, Z., Zhang, X., & Tian, X. (2018). Pythagorean fuzzy LINMAP method based 
+on the entropy theory for railway project investment decision making. Int. J. Intell. 
+Syst., 33(1), 93–125. 
+
+
+Yager, R. R. (2014). Pythagorean membership grades in multicriteria decision making. 
+IEEE Trans. Fuzzy Syst., 22(4), 958–965. 
+
+
+Yager, R. R., & Abbasov, A. M. (2013). Pythagorean membership grades, complex 
+numbers, and decision making. Int. J. Intell. Syst., 28(5), 436–452. 
+
+
+Yager, R. R. (2013, June). Pythagorean fuzzy subsets, in: Proceedings of the 2013 Joint 
+IFSA World Congress and NAFIPS Annual Meeting, Edmonton, Canada, June 24-28, 
+2013, pp. 57-61. 
+
+
+Yager, R. R. (2016). Properties and applications of Pythagorean fuzzy sets. In P. Angelov, 
+& S. Sotirov (Eds.), Imprecision and uncertainty in information rep- resentation and 
+Processing, studies in fuzziness and soft computing 332 (DOI: 10.1007/978-3-319- 
+26302-1) (pp. 119-136). Switzerland: Springer. 
+
+
+Yu, C., Shao, Y., Wang, K., & Zhang, L. (2019). A group decision making sustainable 
+supplier selection approach using extended TOPSIS under interval-valued 
+Pythagorean fuzzy environment. Expert Syst. Appl., 121, 1–17. 
+
+
+Zeb, A., Khan, M. S. A., & Ibrar, M. (2019). Approaches to multi-attribute decision 
+making with risk preference under extended Pythagorean fuzzy environment. 
+J. Intell. Fuzzy Syst., 36(1), 325–335. 
+
+
+Zeng, W., Li, D., & Yin, Q. (2018). Distance and similarity measures of Pythagorean fuzzy 
+sets and their applications to multiple criteria group decision making. Int. J. Intell. 
+Syst., 33(11), 2236–2254. 
+
+
+Zhang, W., Ju, Y., & Liu, X. (2016). Interval-valued intuitionistic fuzzy programming 
+technique for multicriteria group decision making based on Shapley values and 
+incomplete preference information. Soft. Comput., 21(19), 5787–5804. 
+
+
+Zhang, W., Ju, Y., Liu, X., & Giannakis, M. (2017). A mathematical programming-based 
+method for heterogeneous multicriteria group decision analysis with aspirations and 
+incomplete preference information. Comput. Ind. Eng., 113, 541–557. 
+
+
+Zhang, X., & Xu, Z. (2014a). Extension of TOPSIS to multiple criteria decision making 
+with Pythagorean fuzzy sets. Int. J. Intell. Syst., 29(12), 1061–1078. 
+
+
+Zhang, X., & Xu, Z. (2014b). Interval programming method for hesitant fuzzy multi- 
+attribute group decision making with incomplete preference over alternatives. 
+Comput. Ind. Eng., 75(1), 217–229. 
+
+
+T.-Y. Chen                                                                                                                                                                                                                                        
+
+
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0045
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0045
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0045
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0050
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0050
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0050
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0070
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0070
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0070
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0075
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0075
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0075
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0080
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0080
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0080
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0080
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0085
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0085
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0085
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0085
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0090
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0090
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0095
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0095
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0100
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0100
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0100
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0105
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0105
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0105
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0110
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0110
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0110
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0115
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0115
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0115
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0115
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0120
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0120
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0120
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0125
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0125
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0130
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0130
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0130
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0135
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0135
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0140
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0140
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0140
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0145
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0145
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0145
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0150
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0150
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0155
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0155
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0155
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0160
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0160
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0160
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0165
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0165
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0165
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0170
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0170
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0170
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0175
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0175
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0175
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0180
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0180
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0180
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0185
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0185
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0185
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0190
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0190
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0195
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0195
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0210
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0210
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0210
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0215
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0215
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0215
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0220
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0220
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0220
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0225
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0225
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0225
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0230
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0230
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0230
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0235
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0235
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0240
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0240
+
+http://refhub.elsevier.com/S0957-4174(20)30703-X/h0240
+
+

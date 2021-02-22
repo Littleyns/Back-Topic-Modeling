@@ -1,0 +1,1637 @@
+
+
+
+
+
+
+
+
+
+
+Smart technologies and corporate sustainability: The mediation effect
+of corporate sustainability strategy
+
+
+Minna Saunila*, Mina Nasiri, Juhani Ukko, Tero Rantala
+LUT University, Saimaankatu 11, 15140, Lahti, Finland
+
+
+A R T I C L E I N F O
+
+
+Article history:
+Received 21 November 2018
+Received in revised form 7 March 2019
+Accepted 11 March 2019
+Available online 27 March 2019
+
+
+Keywords:
+Smart technologies
+Corporate sustainability
+Corporate sustainability strategy
+Environmental sustainability
+Social sustainability
+Economic sustainability
+
+
+A B S T R A C T
+
+
+The focus of this paper is on the relation between smart technologies and corporate sustainability.
+Specifically, the purpose of this paper is to empirically examine the mediating role of corporate
+sustainability strategy between smart technologies and corporate sustainability. By building on a survey
+of 280 SMEs, the results show that corporate sustainability strategy fully mediates the relation between
+smart technologies and environmental sustainability, and smart technologies and social sustainability.
+Moreover, smart technologies have a direct significant influence on economic sustainability, but the
+relationship is also partly mediated by corporate sustainability strategy. Smart technologies do not have a
+direct influence on environmental or social sustainability.
+© 2019 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license
+
+
+(http://creativecommons.org/licenses/by/4.0/).
+
+
+1. Introduction
+
+
+Smart technologies increasingly derive utility from the functional
+relations they maintain, and potential benefits are indicated by the
+growing prospects of combining software and software parts and
+mixing content across infrastructures, production systems, and
+platforms [1–7]. Manufacturing is going smart, and firms are
+progressively utilizing wireless technologies and sensors to seize
+data at multiple phases of a product's lifecycle [8]. Smart
+technologies that make physical products addressable, programma-
+ble, communicable, sensible, traceable, memorable, and associable
+authorize novel incorporations of physical and digital proportions to
+generate fresh products and manufacturing [3,4]. As a continuation
+of rapid development of smart technologies, there is a need to
+examine the implications they have generated [9,10].
+
+
+Regarding the development of technology, especially smart
+technology, manystudies emphasizethatthe implicationsneed to be
+investigated through the aspects related to environmental, social,
+and economical dimensions ([11,12]; Becthsis et al., 2018). However,
+in profit-oriented organizations, the social and environmental
+dimensions may be considered subsets of corporate competitive
+strategy [13]. As a solution, a growing number of studies suggest
+that companies should have corporate sustainability strategies,
+
+
+which intend at stabilizing the economic, social, and environmental
+needs of both the society and company to achieve corporate
+sustainability performance [14–16]. This means that corporate
+sustainability strategy compounds environmental and social
+dimensions into the process of strategic management [13]. However,
+there is lack of research considering the role of corporate
+sustainability strategy in the relation between smart technologies
+and corporate sustainability.
+
+
+Based on the notions above, this study has the ambition to
+empirically examine the effect of the utilization of smart technolo-
+gies on the three dimensions of corporate sustainability: environ-
+mental, social, and economical sustainability. The paper also aims to
+study the mediating role of corporate sustainability strategy
+between smart technologies and corporate sustainability. In other
+words, it is essential to study whether the corporate sustainability
+strategycanfacilitate the impactsof smarttechnologieson corporate
+sustainability. The study builds on the analysis of 280 responses from
+a random survey of Finnish SMEs. The results show that corporate
+sustainability strategy completely mediates the relation between
+smart technologies and environmental sustainability, and smart
+technologies and social sustainability. Moreover, smart technologies
+have adirectsignificant influenceoneconomic sustainability, but the
+relationship is also partly mediated by corporate sustainability
+strategy. Smart technologies do not have a direct influence on
+environmental or social sustainability.
+
+
+The remnant of this article is organized like this: First, the
+current understanding of smart technologies, corporate sustain-
+ability strategy, and corporate sustainability has been explored,
+
+
+* Corresponding author.
+E-mail addresses: minna.saunila@lut.fi (M. Saunila), mina.nasiri@lut.fi
+
+
+(M. Nasiri), juhani.ukko@lut.fi (J. Ukko), tero.rantala@lut.fi (T. Rantala).
+
+
+https://doi.org/10.1016/j.compind.2019.03.003
+0166-3615/© 2019 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+
+Computers in Industry 108 (2019) 178–185
+
+
+Contents lists available at ScienceDirect
+
+
+Computers in Industry
+
+
+journal homepage: www.elsevier .com/ locat e/compind
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://creativecommons.org/licenses/by/4.0/
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.compind.2019.03.003&domain=pdf
+
+mailto:minna.saunila@lut.fi
+
+mailto:mina.nasiri@lut.fi
+
+mailto:juhani.ukko@lut.fi
+
+mailto:tero.rantala@lut.fi
+
+https://doi.org/10.1016/j.compind.2019.03.003
+
+http://creativecommons.org/licenses/by/4.0/
+
+https://doi.org/10.1016/j.compind.2019.03.003
+
+http://www.sciencedirect.com/science/journal/01663615
+
+www.elsevier.com/locate/compind
+
+
+
+
+and the conceptual framework for the study established. Then, the
+hypotheses are discussed, followed by a section on the research
+methodology and results. Finally, the theoretical and managerial
+implications of the study and avenues for further studies are
+proposed.
+
+
+2. Conceptual framework
+
+
+2.1. Smart technologies
+
+
+Today, smart technologies pervade each firm’s operations and
+change the nature of the business. For instance, firms try to provide
+intelligent management systems by embedding smart technologies
+in machines [17]. Products and services equipped with smart
+technologies offer novel functions that convert their designing,
+manufacture, delivery, and use [4]. Additionally, smart technologies
+provide huge potential for building new processes, experiences,
+organizational forms, and relationships in which radio-frequency
+identification (RFID) tags, digital sensors, networks, and processors
+create required properties related to smart technologies [17].
+
+
+Yoo [3] has used the term “digitalized artifacts” to describe the
+necessary and desirable properties of artifacts to be digitalized. He
+defined seven features of digitalized artifacts, including address-
+ability, programmability, communicability, sensibility, traceability,
+associability, and memorizability. Programmability is the first
+characteristic of digitalized artifacts, meaning that the devices
+should have the capability to accept new reconfigurations orchanges
+of their functions. The second characteristic is addressability, which
+refers to the devices’ ability to answer messages individually. The
+next characteristic is sensibility, which enables devices to track and
+react to changes in the surroundings. Communicability is another
+characteristic, defined as the devices’ ability to send and receive
+messages with other devices. Memorizability is the next character-
+istic, defined as the devices’ ability to both record and store the
+information that created, sensed, or communicated. Traceability is
+another characteristic that enables devices to chronologically
+recognize, memorize, and integrate incidents and totalities over
+time. The final characteristic is associability that provides the
+capacity for devices to be recognized with other totalities, such as
+other artifacts, places, and people. Kallinikos et al., [6] use the term
+“digital artifacts,” and state that interactivity, editability, distributed-
+ness, and reprogrammability/openness are among the four aspects
+of digital artifacts. Editability refers to continuous updating of the
+content, items, and data, while interactivity means enabling
+exploitation of information using the receptive and flexible nature
+of the objects embedded in digital artifacts. They defined reprog-
+rammability/openness as the ability of the digital artifacts to be
+accessible and modifiable, while distributedness refers to the
+borderless capability of digital objects.
+
+
+In another study, Yoo et al. [4] refer to reprogrammability, data
+homogenization, and self-referential as the fundamental proper-
+ties of smart technologies. Reprogrammability means that new
+functions or abilities can be added to the devices after they are
+designed or produced, while data homogenization refers to
+different types of digital contents (e.g., text, audio, image, and
+video) being stocked up, dispatched, refined, and displayed
+utilizing the identic digital networks and devices. Self-referential
+refers to the necessity of utilizing smart technology in offerings.
+Further, Yoo et al. [4] referred “the incorporation of digital
+capabilities into objects that had a purely physical materiality
+beforehand” as the main characteristics of pervasive digital
+technology. They also explained physical materiality as the
+tangible artifacts that are usually hard to move in terms of time
+and place limitations.
+
+
+As discussed before, similar ideas have developed with different
+terminology [3,4,6,17]. Thus, in this study, smart technologies refer
+
+
+to the bundle of properties embedded into previously nondigital
+devices and enabling smartness for those devices.
+
+
+2.2. Corporate sustainability
+
+
+From the corporate perspective, sustainability research often
+adopts a systems perspective that concentrates on business-driven
+operations in natural systems [18]. It is widely accepted that firms,
+albeit, business-driven schemes, are coevolving with sundry
+schemes (involving the society and environment) [19]. This
+necessities investing in economic factors, but also in environmental
+and social aspects [20–24]. For example, Elkington’s [25] triple
+bottom line approach considers the prolonged prosperity of a firm to
+be dependent on paying attention to three aspects of sustainability:
+social (social surroundings), environmental (natural surroundings),
+and economic. Environmental sustainability is based on the
+presumption that people live within the physical and biological
+boundaries that attend on the source of life and waste disposal [26–
+28]. Social sustainability adverts to accompanying social capital for
+example by means of participating to local communities [26]. This
+requires balancing human needs with economic and environmental
+wellbeing [29,30]. Economic sustainability concentrates on the
+financial value of things, including the costs of environmental effects
+[26]. Triple bottom line is the most prominent framework to
+understand the facets of sustainable development and that is why it
+was selected as a basis of this study. The three dimensions of triple
+bottom line were considered as the most essential from the
+perspective of corporate sustainability performance. Lozano [31]
+has proposed an extension to the triple bottom line by incorporating
+the dynamics of the three dimensions over time. This temporal
+dimension highlights the tension among environmental, social, and
+economic troubles, but also over long and short-term perspectives.
+We use the term “corporate sustainability” to describe the idea that,
+to inducesustainability inthe longrun,firmsneedtoprocessall three
+dimensionsthattheyarecoevolvingwith:environmental, social,and
+economic [20,22].
+
+
+2.3. Corporate sustainability strategy
+
+
+Ranged sustainability and business strategies mirror the
+amplitude and nature of the possibilities affiliated with sustainable
+development as regards to the recreation of value for the company
+[32]. Baumgartner and Rauter [13] present that the prime
+justification for selecting a sustainability stance is to decrease
+the negative social and environmental effects of company
+operations, while enhancing the economical performance of the
+organization. Corporate sustainability strategies can be considered
+as strategies that point towards “balancing the social, environ-
+mental and economic needs of both the company and society”
+[14,15,33]. Baumgartner and Rauter [13] suggest that a corporate
+sustainability strategy connects environmental and social aspects
+into the process of strategic management and emphasizes the
+strategic standing of a corporation in terms of sustainable
+development. The unification of social and environmental factors
+into company mid-time and long-time visions claims that a
+prudent stability is reached between the requirements of external
+and internal stakeholders [13]. Building on the above, this study
+defines corporate sustainability strategy as the integration of
+sustainable development principles into business operations.
+
+
+3. Hypotheses development
+
+
+Our hypotheses are built on the following argumentation.
+Smart technologies reduce the need for resources (human,
+material, etc.) and increase the expectation for efficiency, so they
+are hypothesized to be a driving force for corporate sustainability
+
+
+M. Saunila et al. / Computers in Industry 108 (2019) 178–185 179
+
+
+
+
+
+
+strategy and corporate sustainability. Corporate sustainability is
+examined through social, environmental and economic sustain-
+ability. The hypotheses’ development is defined and discussed next
+(Fig. 1).
+
+
+3.1. Smart technologies and environmental sustainability
+
+
+Smart technologies, such as information and communication
+technologies, and digitalized production machines have been
+considered to have potential positive impacts to the environment,
+for example, by reducing greenhouse gas (GHG) emissions (e.g.,
+[34,35]). In addition to the reduction of GHGs, smart technologies
+currently provide possibilities for intelligent and automated
+solutions and production optimization among different industries,
+such as manufacturing, power generation, and agriculture, thus
+improving energy efficiency. For example, different kinds of digital
+twins can produce real-time data and automatically adjust and
+optimize processes. Iacovidou et al. [36] present that RFID
+technologies can be used to support and increase the reutilization
+of building components and decrease their waste, thus supporting
+environmental sustainability achievements within the building
+sector. Smart technologies can also be used to support the
+achievement of sustainable development and environmental
+protection goals by supporting information flow throughout
+production processes. For example, Tao et al. [37] conclude that
+if data are gained in real time, manufacturing processes can be
+effectively controlled, and this may decrease the energy expendi-
+ture in public premises, production devices, and workpieces.
+
+
+As such, smart technologies can be considered enablers that can
+reduce the energy consumption and emissions of industrial
+processes, electrical grids, and transportation systems [38].
+Different studies have reported that smart technologies, such as
+digitalized manufacturing technologies and automatized working
+machines, can be an important part of the solution in dealing with
+current environmental challenges and issues related to climate
+change [38,39]. Thus, based on the evidence from previous
+research, the following hypothesis is presented:
+
+
+H1. Smart technologies are positively related to environmental
+sustainability.
+
+
+3.2. Smart technologies and social sustainability
+
+
+It is suggested that the growing prospects of combining
+software and software parts and mixing content across infra-
+structures, production systems, and platforms increasingly derive
+utility from the functional relations they maintain [1–4,6]. Social
+sustainability is one of the most important perspectives when
+considering the benefits and impacts of these smart technologies
+[11,40]. Chen et al. [11] studied the incorporation of production
+technology and product modeling that straightly transforms digital
+patterns to physical affairs without the demand for tooling,
+
+
+suggesting social sustainability outcomes such as: equivalent
+opportunities to all parties in societies and markets, user-oriented
+goods and services, enhanced customer value, possible advantages
+for worker/human health, and influence on an industry’s working
+situation. Further, Bechtsis et al. [40] studied intelligent, self-
+governing vehicles in digital supply chains, suggesting that,
+considering the social sustainability, employee accessibility and
+safety, together with safety and health of the conveyors, is
+dominant. Furthermore, they highlighted the ongoing recreation of
+proficient jobs, the sustained enhancement of ergonomics for the
+workforce, the recognition of possibilities for sensors’ applicability
+to upgrade work safety, and the enactment of objects for tracking
+and estimating possible dangers.
+
+
+Summarizing this, smart technologies seem to have implica-
+tions for social sustainability in terms of increasing safety [40] and
+employment [11]. Thus, the evidence from prior studies supports
+the formation of the following hypothesis:
+
+
+H2. Smart technologies are positively related to social sustain-
+ability.
+
+
+3.3. Smart technologies and economic sustainability
+
+
+Bekaroo et al. [34] present that, so far, scholars have shown that
+main drivers for sustainability using smart technologies usually
+include an economic expectation to improve efficiency. Issues
+related to climate change and growing environmental worries are
+changing the form of operations and organizations in the energy
+sector [41]. Further, the power-saving features of current smart
+technologies can help reduce cooling burdens by decreasing the
+quantity of heat produced to deliver a more effective economic
+benefit [34]. Technological development and new types of smart
+technologies can offer inferior cost structures and opportunities
+for reaching the goals of different sustainability aspects (Costa-
+Campi, 2018). In addition to the possibilities of economic
+sustainability in the energy sector, current and emerging smart
+technologies also provide possibilities for economic sustainability
+among many other industries. Automated and digitalized energy-
+efficient smart technologies and different resource-saving tech-
+nologies and processes can reduce costs and, thus, improve the
+productivity of organizations among different industries [42].
+Smart technologies assist in optimizing production processes and
+the entire life cycle of products. Thus, smart technologies provide
+greater benefits for the state of the workforce, the site and
+organization of lots, and the state of manufacturing machinery
+[43]. Further, self-organizing production, predictive and coopera-
+tive maintenance, efficient transport planning, as well as accurate
+classification of retirement and disposal decisions, can increase
+economic returns from smart technologies [37,43].
+
+
+Based on the above, by digitalizing traditional manufacturing
+environments, smart technologies can be used to increase
+productivity, speed, quality, and the safety of operations aiming
+to increase economic sustainability (e.g., [44]). Thus, based on the
+evidence from previous research, the following hypothesis is
+presented:
+
+
+H3. Smart technologies are positively related to economic
+sustainability.
+
+
+3.4. Corporate sustainability strategy as a mediator
+
+
+Demands for cleaner production have increased because of
+issues related to environmental, social, and economic sustainabili-
+ty. Referring to Caputo et al. [45], to achieve sustainability, research
+on both structural and dynamic dimensions must be conducted.
+The structural dimensions refer to the existence of resources and
+
+
+Fig. 1. Research model and hypotheses.
+
+
+180 M. Saunila et al. / Computers in Industry 108 (2019) 178–185
+
+
+
+
+
+
+feasible strategic pathways, while the second dimension is the way
+of managing those resources and the pathway according to
+sustainable strategy. In their research, they also refer to the being
+of a solid relationship between sustainability and smartness. They
+mentioned that, to clarify the presence of this relationship, there is
+a need for the precise definition of emerging and evolving this
+relationship over time. Despite the fact that cleaner production
+strategy provides huge potential for environmental, social, and
+economic benefits, many difficulties and barriers (e.g., absence of
+sufficient awareness about cleaner technologies, shortage of
+enough tools and information, and weak communication schemes)
+[46,47] need to be overcome.
+
+
+As one of the main characteristics of smart technologies is being
+present at any time, they are always threatened by certain risks,
+such as being lost, hardware crash, or other accident. Consequently,
+sustainability of smart technology can be mentioned as one of the
+ideal approaches to reducing the number of the above-mentioned
+risks [48]. Additionally, the way that knowledge is collected,
+distributed, and exploited with technologies can be considered as
+the most important issues in achieving sustainability [39].
+According to Stuermer et al. [48], full exploitation of sustainability
+needs sustainability of smart technologies. Thus, smart technolo-
+gies can be considered the means to sustainability.
+
+
+Based on Caputo et al. [45], smart technologies support the
+definition by clarifying more efficient, effective, and sustainable
+pathways. Besides, they address the interlinkage between smartness
+and sustainability, leading to new insights. Thus, in light of
+sustainability science, the effective approach toward smartness will
+be achieved based on building a collaborative approach among the
+actors involved. Similarly, Maher et al. [49] refer to the way digital
+tools can helptackle sustainability issues by making progress inways
+of thinking, communicating, and collaborating. In their research,
+they refer to the need for a synergy map to develop sustainability. In
+this synergy map, they refer to finding the linkage between key
+issues of sustainability, identifying devices to tackle these issues, the
+relationship between these devices, and they underline the potential
+foradding digitalartifacts tothese devices. Inthisregard, Romanelli’s
+[50] reference to building sustainable value using technology
+depends heavily on cooperation and collaboration within the
+ecosystem and named governments, businesses, and communities
+as the key actors and enablers of value. Furthermore, he refers to the
+impact of utilizing technology in knowledge creation to sustain
+development in the long term. Thus, constituting a corporate
+sustainability strategy that integrates sustainability with business
+operations plays an important role between smart technologies and
+the achievement of sustainability.
+
+
+To sum up, smart technologies can be considered the bundle of
+properties that are embedded into previously nondigital devices
+and enable smartness for those devices. To provide benefits from
+smart technologies, there is a need for corporate sustainability
+strategy, which will fuel corporate sustainability in three
+dimensions (environmental, social, economic). Therefore, smart
+technologies enable corporate sustainability strategy, which fuels
+corporate sustainability in all three dimensions (social, environ-
+mental, and economic) (cf. [51]). Therefore, based on the beyond-
+mentioned evidence, the last hypotheses formed is as follows:
+
+
+H4. Corporate sustainability strategy mediates the positive
+relation between smart technologiesand corporate sustainability.
+
+
+H4a. Corporate sustainability strategy mediates the positive
+relation between smart technologies and environmental
+sustainability.
+
+
+H4b. Corporate sustainability strategy mediates the positive
+relation between smart technologies and social sustainability.
+
+
+H4c. Corporate sustainability strategy mediates the positive
+relation between smart technologies and economic sustain-
+ability.
+
+
+4. Methodology
+
+
+4.1. Sample and data collection
+
+
+The sample of the research includes Finnish firms with 20–250
+employees. According to the database, the population comprised
+approximately 20,000 firms. A population of 6816 firms was
+randomly selected. Among the 6816 SMEs, 986 had invalid contact
+information; thus, the survey was conducted with 5830 firms.
+Therefore, the sample represents approximately 30% of the entire
+population of Finnish firms that met the criteria. The decision of
+working with a sample of firms with more than 20 employees is
+based on the idea that microfirms usually do not have the
+opportunity to concentrate on sustainability, as they have fewer
+financial resources and knowledge.
+
+
+To collect data, a structured questionnaire was created, and a
+direct link was sent to the respondents by e-mail. The question-
+naire was aimed at the top managers of the firms, as they have a
+general vision of the topics of this study. In the end, 280 valid
+questionnaires were obtained. Approximately 70% of the responses
+came from small companies, and approximately 30% came from
+medium-size companies. Further, 81.8% of the companies were
+established more than 15 years ago. About 57.1% of the respondents
+were from service-oriented firms, whereas 42.1% were from
+manufacturing firms.
+
+
+Non-response bias was assessed by testing for differences
+between early respondents and late respondents on study items
+(independent, mediation, and dependent variables). Early respond-
+ents responded within a reasonable period after receiving the first e-
+mail. Late respondents were those who responded after several
+reminders. Late respondents most precisely reminded non-respond-
+ents (Armstrong and Overton, 1977). Both tests on the means of the
+constructs, as well as on the means of each of the items, revealed no
+statistically significant differences (at significance level 5%). Thereby,
+non-response bias did not cause any problems.
+
+
+Several practices were used to diminish a common method bias
+(Podsakoff et al., 2003). First, every questionnaire item was
+informed by previous studies, and scales were informed by expert
+views to decrease item obscurity. Second, a letter of invitation
+ensured confidentiality to decrease social desirability bias. In
+addition, Harman’s single factor test was used to explore for
+common method bias (Podsakoff et al., 2003). The exploratory
+factor analysis of all items displayed more than single factor with
+eigenvalues higher than 1.0, proposing that common method bias
+does not exist.
+
+
+4.2. Measures
+
+
+This study utilized a managerial assessment of the utilization of
+smart technologies, as well as the state of sustainability strategy,
+and corporate sustainability in the respondents’ firms. Thus, the
+respondents provided evaluations of the constructs in their firms.
+The response to the question required adequate knowledge
+concerning their firm’s operations. Managers were selected as
+respondents because they were expected to have this knowledge.
+The items measuring theoretical constructs were informed by
+literature review, but where existing items were not identified, the
+researchers relied on the extant literature to specify the content of
+each construct. Since the target firms are SMEs, the items were
+selected based on relevance in the SME context. Detailed
+description of measurement items are presented in the Appendix.
+
+
+M. Saunila et al. / Computers in Industry 108 (2019) 178–185 181
+
+
+
+
+
+
+Smart technologies. This independent variable is a multidi-
+mensional construct, and we used a six-item measure that has
+been previously used (in [3]) to assess smart technologies. The
+respondents were requested to express the degree to which they
+agreed with the consequent statements: “In our company, all the
+devices are programmable,” “In our company, all the devices are
+able to be uniquely identified,” “In our company, all the devices are
+aware of the respond to changes in their environment,” “In our
+company, all the devices can send and receive messages,” “In our
+company, all the devices can record and store all information,” and
+“In our company, all the devices can be identified with other
+devices, places, or people.” The respondents were asked to choose
+a number from 1 to 7 (from (1) strongly disagree to (7) strongly
+agree). Cronbach’s alpha of the construct is 0.945, which exceeded
+the recommended threshold of 0.7 [52].
+
+
+Sustainability strategy. The mediating variable, sustainability
+strategy, was measured by the following: “what is your company!s
+ability to integrate sustainable development principles into
+business operations over the last three years”. The respondents
+were asked to choose a number from 1 to 4 (1=weak,
+2=satisfactory, 3=good, 4=excellent).
+
+
+Corporate sustainability. Three widely accepted dimensions
+measured the dependent variable: environmental sustainability,
+social sustainability, and economic sustainability. The respondents
+were asked to assess the following over the last three years:
+environmental sustainability, social sustainability, and economic
+sustainability. The items were as follows: “what is the state of your
+company!s environmental sustainability (ability to take into
+account and reduce the environmental impact of the activity)
+over the last three years”, “what is the state of your company!s
+social sustainability (ability to promote health, safety, and well-
+being) over the last three years”, and “what is the state of your
+company!s economic sustainability (ability to ensure the long-term
+economic balance of the company) over the last three years”. The
+respondents were asked to choose a number from 1 to 4 (1=weak,
+2=satisfactory, 3=good, 4=excellent).
+
+
+Single-item measures have started to suffer puzzles with their
+validity and reliability (Sarstedt and Wilczynski, 2009; Diamanto-
+poulos et al., 2012). However, they are acceptable with some
+limitations: if the empirical setting contains concrete singular objects
+(Bergkvist and Rossiter, 2007, 2009), if the objects are homogenous
+(Loo, 2002), and if the objects are unequivocal to the respondent
+(Sackett and Larson, 1990). These terms are met in this study.
+
+
+The control variables—company size, age, and industry—were
+included, as they are considered the determinants of sustainability.
+Company size was estimated as the amount of employees in the
+company. Company age was computed as the amount of years
+since its foundation. Industry was controlled by using a dummy
+variable according to the value of “100 if the firm operated in a
+manufacturing sector.
+
+
+5. Results
+
+
+The validity and reliability of the variables were investigated
+past to hypothesis testing, and this examination was presented in
+
+
+the methodology section. Table 1 presents the correlations for the
+smart technologies, sustainability strategy, and corporate sustain-
+ability. The Table 1 demonstrates significant correlations along
+with the variables throughout. These results express a relationship
+between the study variables. To test the possibility of multi-
+collinearity, the variance inflation factors were computed. They
+were below the cutoff value of 10 and, therefore, multicollinearity
+did not cause problems.
+
+
+Table 2 shows the results of the regression analysis for the
+relationship between smart technologies and corporate sustain-
+ability. The significance of the F-value determines whether the
+model in question supports the hypothesis. Moreover, the
+coefficient of determination, noted as R2, measures the power of
+the regression model. According to Hair et al. [52], there is
+interplay between the sample size and number of independent
+variables in detecting a significant minimum value of R2. Based on
+the sample size (N = 280) and number of independent variables
+(IV = 1) in this study, the R2 values of 3% and greater have been
+detected. Model 1 includes the effect of smart technologies on the
+environmental dimension of corporate sustainability. The model is
+significant, but only industry explains the variance in environ-
+mental sustainability. Thus, environmental sustainability is
+considered better in service-oriented firms than in manufactur-
+ing-oriented firms. Model 2 includes the effect of smart technolo-
+gies on the social dimension of corporate sustainability. Model 2 is
+not significant. Model 3 is significant, and the results indicate a
+positive relation between the smart technologies and economic
+dimension of corporate sustainability. The results show that smart
+technologies positively and significantly influence only one
+dimension of corporate sustainability, economic sustainability,
+supporting Hypothesis H3. However, contrary to our expectations,
+no significant results were found regarding the link between smart
+technologies and two dimensions of corporate sustainability:
+environmental and social. Thus, our findings provide no support
+for H1 or H2. Finally, model 4 includes the effect of smart
+technologies on the mediating variable, sustainability strategy. As
+Table 2 shows, model 4 is significant, and smart technologies
+explain the variance in sustainability strategy. The model also
+shows that firm age is positively related to sustainability strategy.
+To sum up, the results from the analyses show that smart
+technologies are directly connected with the economic dimension
+of corporate sustainability, but not the environmental and social
+dimensions of corporate sustainability.
+
+
+Hypothesis 4 proposed that corporate sustainability strategy
+mediates the relationship between smart technologies and
+corporate sustainability. This mediation was tested by using the
+Baron and Kenny (1986) procedure. This procedure includes three
+steps. First, a regression analysis between the independent
+variable and dependent variables is conducted. Second, the effect
+of independent variable on the mediator is determined. These
+analyses are presented in Table 2 when testing for H1-H3. Finally, a
+regression analysis is conducted with all the variables, and these
+results are presented in Table 3. Based on Zhao et al. (2010), the
+model has full mediation if there is a significant mediated effect
+but no significant direct connection between the independent
+
+
+Table 1
+Mean values, standard deviations, and correlations among the variables.
+
+
+Mean Std. Dev. 1 2 3 4 5
+
+
+1 Smart technologies 3,7574 1,64131 1000
+2 Sustainability strategy 2,52 ,734 ,083 1000
+3 Environmental sustainability 2,70 ,691 ,012 ,680*** 1000
+4 Social sustainability 2,90 ,641 ,095 ,426*** ,433*** 1000
+5 Economical sustainability 2,86 ,793 ,152* ,167** ,149* ,230*** 1000
+
+
+Sign. *** ! 0.001, ** 0.001 < p ! 0.01, * 0.01 < p ! 0.05.
+
+
+182 M. Saunila et al. / Computers in Industry 108 (2019) 178–185
+
+
+
+
+
+
+variable and dependent variables. If there is a direct connection
+between the independent variable and dependent variables but
+also a significant mediated effect, the mediation is partial.
+
+
+Following this procedure, it was observed that smart
+technologies are not related to environmental sustainability
+(model 1) and social sustainability (model 2) but are related to
+economic sustainability (model 3). Second, the effect of smart
+technologies on sustainability strategy was examined. The
+results indicate that this relationship is positive and significant
+(model 4). Finally, the joint effects were examined. The
+coefficients show that the inclusion of the sustainability
+strategy variable in model 5 makes the relationship between
+smart technologies and environmental sustainability non-
+significant and the relationship between sustainability strategy
+and environmental sustainability significant. Therefore, sus-
+tainability strategy plays a full mediator role in the relationship
+
+
+between smart technologies and environmental sustainability,
+thus supporting H4a. The same procedure was followed to
+evaluate H4b-4c. The coefficients show that the inclusion of the
+sustainability strategy variable in model 6 makes the relation-
+ship between smart technologies and social sustainability non-
+significant and the relationship between sustainability strategy
+and social sustainability significant. Therefore, sustainability
+strategy plays a full mediator role in the relationship between
+smart technologies and social sustainability, thus supporting
+H4b. The results also show that, when including sustainability
+strategy and smart technologies together in model 7, the effect
+of smart technologies on economic sustainability continues to
+be significant, but sustainability strategy is also significant. This
+indicates partial support for H4c.
+
+
+To sum up, the results suggest that corporate sustainability
+strategy fully mediates the relationship between smart
+
+
+Table 2
+Regression results for direct effects.
+
+
+Models β SE St. β t R R2 Adj. R2 SE F
+
+
+Dependent: Environmental sustainability
+1. (Constant) 3,056 ,180 16,965 ,194 ,038 ,023 ,682 2,611*
+No of employees -,001 ,001 -,050 -,817
+Firm age ,000 ,002 ,017 ,268
+Industry -,269 ,087 -,193 "3,113**
+Smart technologies ,024 ,026 ,056 ,891
+Dependent: Social sustainability
+2. (Constant) 2,832 ,170 16,688 ,128 ,016 ,002 ,642 1,118
+No of employees ,001 ,001 ,050 ,808
+Firm age ,000 ,002 -,005 -,086
+Type of operation -,087 ,082 -,067 "1,066
+Smart technologies ,047 ,025 ,120 1,892+
+
+
+Dependent: Economic sustainability
+3. (Constant) 2,536 ,208 12,204 ,173 ,030 ,015 ,786 2,062+
+
+
+No of employees -,001 ,001 -,065 "1,052
+Firm age ,000 ,002 ,014 ,231
+Type of operation ,061 ,100 ,038 ,612
+Smart technologies ,068 ,030 ,142 2,243*
+Dependent: Sustainability strategy
+4. (Constant) 2,333 ,190 12,249 ,185 ,034 ,020 ,721 2,372+
+
+
+No of employees -,002 ,001 -,114 "1,863
+Firm age ,004 ,002 ,123 1,991*
+Type of operation -,028 ,092 -,019 -,307
+Smart technologies ,051 ,028 ,116 1,839+
+
+
+Sign. ** 0.001 < p ! 0.01, * 0.01 < p ! 0.05, + 0.05 < p ! 0.1.
+
+
+Table 3
+Regression results for mediation effects.
+
+
+Models β SE St. β t R R2 Adj. R2 SE F
+
+
+Dependent: Environmental sustainability
+5. (Constant) 1,475 ,157 9,381 ,729 ,532 ,523 ,476 60,628***
+No of employees ,001 ,001 ,032 ,736
+Firm age -,002 ,001 -,072 "1,647
+Industry -,250 ,060 -,180 "4,140***
+Smart technologies -,011 ,019 -,027 -,607
+Sustainability strategy ,678 ,040 ,715 16,786***
+Dependent: Social sustainability
+6. (Constant) 1,938 ,192 10,111 ,445 ,198 ,183 ,581 13,198***
+No of employees ,002 ,001 ,100 1,767+
+
+
+Firm age -,002 ,001 -,059 "1,034
+Type of operation -,076 ,074 -,059 "1,032
+Smart technologies ,027 ,023 ,070 1,210
+Sustainability strategy ,383 ,049 ,434 7,780***
+Dependent: Economic sustainability
+7. (Constant) 2,160 ,257 8,398 ,226 ,051 ,033 ,779 2,862*
+No of employees -,001 ,001 -,047 -,771
+Firm age ,000 ,002 -,004 -,072
+Type of operation ,066 ,099 ,041 ,670
+Smart technologies ,060 ,030 ,124 1,973*
+Sustainability strategy ,161 ,066 ,148 2,431*
+
+
+Sign. *** ! 0.001, * 0.01 < p ! 0.05.
+
+
+M. Saunila et al. / Computers in Industry 108 (2019) 178–185 183
+
+
+
+
+
+
+technologies and corporate sustainability, but only in the case of
+environmental sustainability and social sustainability. In the case
+of economic sustainability, the mediation effect is partial.
+Summary of hypotheses testing is presented in Table 4.
+
+
+6. Discussion and conclusions
+
+
+6.1. Theoretical implications
+
+
+The purpose of this study was to explore the mediating role of
+corporate sustainability strategy between smart technologies and
+corporate sustainability. Smart technologies have been suggested
+to play a crucial role in the sustainable development of firms (e.g.,
+[36,37,43]). Our findings add to the evidence supporting sustain-
+ability strategy as an important factor in smart technologies
+research. The main contributions to theory are as follows.
+
+
+First, the study contributes to the literature on smart
+technologies [3,4,6,8,17] and their role as a driver of corporate
+sustainability [37,40]. As predicted, smart technologies had a
+direct effect on economic sustainability. Thus, the study
+supports the views of previous research indicating that smart
+technologies can reduce costs ([42]; Costa-Campi, 2018) and
+increase economic returns by using self-organizing production,
+assisting predictive and cooperative maintenance, intensifying
+transport planning, as well as classifying retirement and
+disposal decisions accurately [37,43]. This finding suggests that
+the smart technologies have a crucial role to play in attaining
+economic sustainability.
+
+
+Contrary to previous research (cf. [10,11,36]), the study did not
+find support for the direct linkage between smart technologies and
+environmental and social sustainability. Previous research has
+indicated that smart technologies may contribute to environmen-
+tal and social sustainability, for example, by decreasing energy
+consumption [37], and improving the safety and employment
+situation [11,40]. Our results show that the environmental and
+social returns from smart technologies are not self-evident, and
+smart technologies alone are not sufficient to generate environ-
+mental and social sustainability.
+
+
+Second, the study adds to the evidence regarding the role of
+sustainability strategy in obtaining corporate sustainability
+[14,15,33,45,49]. Our results also indicate that corporate sustain-
+ability strategy fully mediates the effect of smart technologies on
+environmental sustainability. This suggests that smart technolo-
+gies act on corporate sustainability by encouraging a firm to
+integrate sustainable development principles into business oper-
+ations. In turn, corporate sustainability strategy enables the firm to
+increase its environmental sustainability. Similarly, the results
+show that the effect of smart technologies on social sustainability
+was fully mediated by corporate sustainability strategy. The finding
+suggests that implementing smart technologies increases the
+integration of sustainable development principles into business
+operations which, as above, drives increased social sustainability.
+Our results support the results of Caputo et al. [45] who highlight
+the managing corporate resources and pathway according to
+sustainable strategy.
+
+
+6.2. Managerial implications
+
+
+We entrust that this study offers novel insights for firms looking
+for to enhance the utilization of smart technologies in increasing
+corporate sustainability. The implications of these findings for
+managerial practice are as follows. Smart technologies can
+generate financial returns, but they alone are not sufficient to
+generate environmental and social sustainability. Instead, the
+influence of smart technologies on corporate sustainability is
+influenced by the extent of the integration of sustainable
+development principles into business operations. Implementing
+smart technologies is not in itself sufficient; rather, it is the process
+of integrating sustainable development principles into daily
+business operations that creates the returns of smart technologies
+in terms of corporate sustainability. Firms often prefer to
+implement smart technologies without integrating them into
+sustainable development goals. Evidence from this study suggests
+that smart technologies serve to improve corporate sustainability
+primarily because they stimulate the integration of sustainable
+development principles into business operations. Thus, managers
+need to recognize the importance of this strategy for integrating
+the use of smart technologies and firm-level sustainable develop-
+ment and ensure that the resources required to support such
+activities are adequate and available.
+
+
+6.3. Limitations and further research directions
+
+
+First, this study is cross-sectional, which limits the ability to
+study issues that evolve over time. Thus, our findings may be
+validated with additional longitudinal research. Second, geograph-
+ical area of the research should be taken into account when
+generalizing the results. The data is also based on the self-reports
+of managers within the firms and, therefore, potentially subject to
+biases. A better assessment of the relationships between smart
+technologies, corporate sustainability strategy, and corporate
+sustainability outcomes could be gathered if additional perspec-
+tives were sought. Finally, there may be other contingency factors
+that affect the relationships in the model. Due to practical
+restrictions, the number of control variables in the survey was
+limited. Future research could take closer look into the context that
+smart technologies generate corporate sustainability.
+
+
+Appendix A. Measurement items
+
+
+Construct Items
+
+
+Smart
+technologies
+[3]
+
+
+Indicate the degree to which you would agree with the
+following statements between [1–7] (1 = Strongly disagree ; 7 =
+Strongly agree)
+All the devices are programmable.
+All the devices are able to be uniquely identified.
+All the devices are aware of and respond to changes in their
+environment.
+All the devices can send and receive messages.
+All the devices can record and store all information.
+All the devices can identify with other devices, places, or
+people
+
+
+Table 4
+Summary of hypothesis test results.
+
+
+Hypothesis Models Hypothesis support
+
+
+H1: Smart technologies are positively related to environmental sustainability 1 Not supported
+H2: Smart technologies are positively related to social sustainability 2 Not supported
+H3: Smart technologies are positively related to economic sustainability 3 Supported
+H4a: Corporate sustainability strategy mediates the positive relation between smart technologies and environmental sustainability 1, 4, 5 Supported
+H4b: Corporate sustainability strategy mediates the positive relation between smart technologies and social sustainability 2, 4, 6 Supported
+H4c: Corporate sustainability strategy mediates the positive relation between smart technologies and economic sustainability 3, 4, 7 Supported
+
+
+184 M. Saunila et al. / Computers in Industry 108 (2019) 178–185
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Continued)
+
+
+Construct Items
+
+
+Sustainability
+strategy
+
+
+The response scale to the following items ranged 1 – 4 (1=
+weak, 2 = satisfactory, 3= good; 4= excellent)
+What is your company!s ability to integrate sustainable
+development principles into business operations over the
+last three years?
+
+
+Corporate
+sustainability
+
+
+What is the state of your company!s environmental
+sustainability (ability to take into account and reduce the
+environmental impact of the activity) over the last three
+years?
+What is the state of your company!s social sustainability
+(ability to promote health, safety, and well-being) over the
+last three years?
+What is the state of your company!s economic sustainability
+(ability to ensure the long-term economic balance of the
+company) over the last three years?
+
+
+References
+
+
+[1] R.N. Langlois, The vanishing hand: the changing dynamics of industrial
+capitalism, Ind. Corp. Change 12 (2) (2003) 351–385.
+
+
+[2] R. Merrifield, J. Calhoun, D. Stevens, The next revolution in productivity, Harv.
+Bus. Rev. 86 (6) (2008) 72–80.
+
+
+[3] Y. Yoo, Computing in everyday life: a call for research on experiential
+computing, Mis Q. 34 (2) (2010) 213–231.
+
+
+[4] Y. Yoo, O. Henfridsson, K. Lyytinen, Research commentary—the new organizing
+logic of digital innovation: an agenda for information systems research, Inf.
+Syst. Res. 21 (4) (2010) 724–735.
+
+
+[5] M.G. Guillemette, G. Paré, Toward a new theory of the contribution of the IT
+function in organizations, Mis Q. 36 (2) (2012) 529–551.
+
+
+[6] J. Kallinikos, A. Aaltonen, A. Marton, The ambivalent ontology of digital
+artifacts, Mis Q. 37 (2) (2013) 357–370.
+
+
+[7] D. Cerri, S. Terzi, Proposal of a toolset for the improvement of industrial
+systems’ lifecycle sustainability through the utilization of ICT technologies,
+Comput. Ind. 81 (2016) 47–54.
+
+
+[8] A. Kusiak, Smart manufacturing must embrace big data, Nature News 544
+(7648) (2017) 23.
+
+
+[9] E. Ziemba, Synthetic Indexes for a Sustainable Information Society: Measuring
+ICT Adoption and Sustainability in Polish Enterprises. In Information
+Technology for Management. Ongoing Research and Development, Springer,
+Cham, 2017, pp. 151–169.
+
+
+[10] E. Ziemba, The contribution of ICT adoption to the sustainable information
+society, J. Comput. Inf. Syst. 59 (2) (2019) 116–126.
+
+
+[11] D. Chen, S. Heyer, S. Ibbotson, K. Salonitis, J.G. Steingrímsson, S. Thiede, Direct
+digital manufacturing: definition, evolution, and sustainability implications, J.
+Clean. Prod. 107 (2015) 615–625.
+
+
+[12] L.M. Hilty, B. Aebischer, Ict for sustainability: an emerging research field, ICT
+Innovations for Sustainability, Springer, Cham, 2015, pp. 3–36.
+
+
+[13] R.J. Baumgartner, R. Rauter, Strategic perspectives of corporate sustainability
+management to develop a sustainable organization, J. Clean. Prod.140 (2017) 81–92.
+
+
+[14] M.J. Epstein, M.J. Roy, Sustainability in action: identifying and measuring the
+key performance drivers, Long Range Plann. 34 (5) (2001) 585–604.
+
+
+[15] S. Engert, R.J. Baumgartner, Corporate sustainability strategy–bridging the gap
+between formulation and implementation, J. Clean. Prod. 113 (2016) 822–834.
+
+
+[16] C. Wijethilake, Proactive sustainability strategy and corporate sustainability
+performance: the mediating effect of sustainability control systems, J. Environ.
+Manage. 196 (2017) 569–582.
+
+
+[17] Y. Yoo, R.J. Boland Jr, K. Lyytinen, A. Majchrzak, Organizing for innovation in the
+digitized world, Organ. Sci. 23 (5) (2012) 1398–1408.
+
+
+[18] P. Bansal, H.C. Song, Similar but notthesame: differentiating corporate sustainability
+from corporate responsibility, Acad. Manag. Ann. 11 (1) (2017) 105–149.
+
+
+[19] A. Rego, M.P. e Cunha, D. Polónia, Corporate sustainability: a view from the top,
+J. Bus. Ethics 143 (1) (2017) 133–157.
+
+
+[20] M. Amini, C.C. Bienstock, Corporate sustainability: an integrative definition
+and framework to evaluate corporate practice and guide academic research, J.
+Clean. Prod. 76 (2014) 12–19.
+
+
+[21] C. Leyh, M. Rossetto, M. Demez, Sustainability management and its software
+support in selected Italian enterprises, Comput. Ind. 65 (3) (2014) 386–392.
+
+
+[22] R. Strand, Strategic leadership of corporate sustainability, J. Bus. Ethics 123 (4)
+(2014) 687–706.
+
+
+[23] V. Mani, R. Agarwal, A. Gunasekaran, T. Papadopoulos, R. Dubey, S.J. Childe,
+Social sustainability in the supply chain: construct development and
+measurement validation, Ecol. Indic. 71 (2016) 270–279.
+
+
+[24] M. Saunila, T. Rantala, J. Ukko, J. Havukainen, Why invest in green
+technologies? Sustainability engagement among small businesses, Technol.
+Anal. Strateg. Manag. (2018) 1–14.
+
+
+[25] J. Elkington, Partnerships from cannibals with forks: the triple bottom line of
+21st-century business, Environ. Qual. Manag. 8 (1) (1998) 37–51.
+
+
+[26] R. Goodland, H. Daly, Environmental sustainability: universal and non-
+negotiable, Ecol. Appl. 6 (4) (1996) 1002–1017.
+
+
+[27] J. Morelli, Environmental sustainability: a definition for environmental
+professionals, J. Environ. Sustain. 1 (1) (2011) 1–27.
+
+
+[28] M. Nasiri, T. Rantala, M. Saunila, J. Ukko, H. Rantanen, Transition towards
+sustainable solutions: product, service, technology, and business model,
+Sustainability 10 (2) (2018) 358.
+
+
+[29] S. Choi, A. Ng, Environmental and economic dimensions of sustainability and
+price effects on consumer responses, J. Bus. Ethics 104 (2) (2011) 269–282.
+
+
+[30] E.A. Khan, M.N.A. Dewan, M.H. Chowdhury, Reflective or formative
+measurement model of sustainability factor: a three industry comparison,
+Corporate Ownership Control J. 12 (2) (2016) 84–94.
+
+
+[31] R. Lozano, Envisioning sustainability three-dimensionally, J. Clean. Prod. 16
+(17) (2008) 1838–1846.
+
+
+[32] A. Lloret, Modeling corporate sustainability strategy, J. Bus. Res. 69 (2) (2016)
+418–425.
+
+
+[33] R.J. Baumgartner, Managing corporate sustainability and CSR: a conceptual
+framework combining values, strategies and instruments contributing to
+sustainable development, Corp. Soc. Responsib. Environ. Manage. 21 (5) (2014)
+258–271.
+
+
+[34] G. Bekaroo, C. Bokhoree, C. Pattinson, Impacts of ICT on the natural ecosystem:
+A grassroot analysis for promoting socio-environmental sustainability, Renew.
+Sustain. Energy Rev. 57 (2016) 1580–1595.
+
+
+[35] M. Uddin, A.A. Rahman, Energy efficiency and low carbon enabler green IT
+framework for data centers considering green metrics, Renew. Sustain.Energy
+Rev. 16 (4) (2012) 4078–4094.
+
+
+[36] E. Iacovidou, P. Purnell, M.K. Lim, The use of smart technologies in enabling
+construction components reuse: A viable method or a problem creating
+solution? J. Environ. Manage. 216 (2018) 214–223.
+
+
+[37] F. Tao, Y. Wang, Y. Zuo, H. Yang, M. Zhang, Internet of Things in product life-
+cycle energy management, J. Ind. Inf. Integr. 1 (2016) 26–39.
+
+
+[38] D.A. Higón, R. Gholami, F. Shirazi, ICT and environmental sustainability: a
+global perspective, Telemat. Inform. 34 (2017) 85–95.
+
+
+[39] S. Elliot, Transdisciplinary perspectives on environmental sustainability: a
+resource base and framework for IT-enabled business transformation, Mis Q.
+35 (1) (2011) 197–236.
+
+
+[40] D. Bechtsis, N. Tsolakis, D. Vlachos, J.S. Srai, Intelligent Autonomous Vehicles in
+digital supply chains: a framework for integrating innovations towards
+sustainable value networks, J. Clean. Prod. 181 (2018) 60–71.
+
+
+[41] M. Costa-Campi, T. Jamasb, E. Trujillo-Baute, Economic analysis of recent
+energy challenges: technologies, markets, and policies, Energy Policy 118
+(2018) 584–587.
+
+
+[42] M. Jänicke, “Green growth’’: from a growing eco-industry to economic
+sustainability, Energy Policy 48 (2012) 13–21.
+
+
+[43] D. Bandyopadhyay, J. Sen, Internet of things: applications and challenges in
+technology and standardization, Wirel. Pers. Commun. 58 (1) (2011) 49–69.
+
+
+[44] A. Gunasekaran, N. Subramanian, Y. Yusuf, Strategies and practices for
+inclusive manufacturing: twenty-first-century sustainable manufacturing
+competitiveness, Int. J. Comput. Integr. Manuf. 31 (6) (2018) 490–493.
+
+
+[45] F. Caputo, B. Buhnova, L. Walletzký, Investigating the role of smartness for
+sustainability: insights from the Smart Grid domain, Sustain. Sci. (2018) 1–11.
+
+
+[46] J.L. Murillo-Luna, C. Garces-Ayerbe, P. Rivera-Torres, Barriers to the adoption of
+proactive environmental strategies, J. Clean. Prod. 19 (13) (2011) 1417–1425.
+
+
+[47] B. Donnellan, C. Sheridan, E. Curry, A capability maturity framework for
+sustainable information and communication technology, IT Prof. 13 (1) (2011)
+33–40.
+
+
+[48] M. Stuermer, G. Abu-Tayeh, T. Myrach, Digital sustainability: basic conditions
+for sustainable digital artifacts and their ecosystems, Sustain. Sci. 12 (2) (2017)
+247–262.
+
+
+[49] R. Maher, M. Maher, C.A. McAlpine, S. Mann, L. Seabrook, Overcoming barriers
+to sustainability by combining conceptual, visual, and networking systems,
+Sustain. Sci. 13 (5) (2018) 1357–1373.
+
+
+[50] M. Romanelli, Towards sustainable ecosystems, Syst. Res. Behav. Sci. 35 (4)
+(2018) 417–426.
+
+
+[51] D.A. Silva, I. Delai, M.A. Castro, A.R. Ometto, Quality tools applied to cleaner
+production programs: a first approach towards a new methodology, J. Clean.
+Prod. 47 (2013) 174–187.
+
+
+[52] J.F. Hair, R.E. Anderson, R.L. Tatham, W.C. Black, Multivariate Data Analysis.
+2010, Upper Saddle River, Pearson Prentice Hall, 2010.
+
+
+M. Saunila et al. / Computers in Industry 108 (2019) 178–185 185
+
+
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0005
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0005
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0010
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0010
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0015
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0015
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0020
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0020
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0020
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0025
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0025
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0030
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0030
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0035
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0035
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0035
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0040
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0040
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0045
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0045
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0045
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0045
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0050
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0050
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0055
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0055
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0055
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0060
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0060
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0065
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0065
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0070
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0070
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0075
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0075
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0080
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0080
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0080
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0085
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0085
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0090
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0090
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0095
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0095
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0100
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0100
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0100
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0105
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0105
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0110
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0110
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0115
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0115
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0115
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0120
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0120
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0120
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0125
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0125
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0130
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0130
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0135
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0135
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0140
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0140
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0140
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0145
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0145
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0150
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0150
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0150
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0155
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0155
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0160
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0160
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0165
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0165
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0165
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0165
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0170
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0170
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0170
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0175
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0175
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0175
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0180
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0180
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0180
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0185
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0185
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0190
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0190
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0195
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0195
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0195
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0200
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0200
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0200
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0205
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0205
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0205
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0210
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0210
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0215
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0215
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0220
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0220
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0220
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0225
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0225
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0230
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0230
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0235
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0235
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0235
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0240
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0240
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0240
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0245
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0245
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0245
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0250
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0250
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0255
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0255
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0255
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0260
+
+http://refhub.elsevier.com/S0166-3615(18)30783-8/sbref0260
+
+

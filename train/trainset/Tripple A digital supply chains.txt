@@ -1,0 +1,1509 @@
+
+
+
+
+
+
+
+
+
+
+When Triple-A Supply Chains Meet Digitalization:
+The Case of JD.com’s C2M Model
+
+
+Ho-Yin Mak
+Sa€ıd Business School, University of Oxford, Oxford, OX1 1HP, UK, ho-yin.mak@sbs.ox.ac.uk
+
+
+Zuo-Jun Max Shen*
+Department of Industrial Engineering & Operations Research, University of California at Berkeley, Berkeley, California 94720, USA,
+
+
+maxshen@berkeley.edu
+
+
+T
+he Triple-A supply chain (Lee 2004) has become one of the most influential concepts for practitioners and researchers
+in supply chain management. It stipulates that supply chains should strive to improve along the dimensions of agi-
+
+
+lity, adaptability, and alignment, as opposed to focusing exclusively on cost and efficiency improvements. While various
+strategies have since been adopted across different industries to foster the Triple-A, the digitalization movement poses
+both new challenges and opportunities for developing Triple-A supply chains. In this article, we shall discuss an emerg-
+ing mode of supply chain innovation, known as the consumer-to-manufacturer (C2M) model, and how it enables new
+possibilities for achieving Triple-A “digital” supply chains. C2M establishes digital links between end consumers and
+upstream manufacturers and product designers, and provides a variety of tactics to shorten the information flow process
+of the supply chain. Our discussion focuses on the implementation of C2M at JD.com, a leading online retailer in China.
+
+
+Key words: consumer-to-manufacturer; Triple-A supply chain; digitalization; agility; adaptability; alignment; online retail
+History: Received: September 2020; Accepted: October 2020
+
+
+1. Background
+
+
+In his seminal Harvard Business Review article, Lee
+(2004) identified the Triple-A supply chain as the
+Holy Grail of supply chain management and the dri-
+ver of sustained competitive advantage. Since the
+publication of the original article, significant
+advances have been made in the theoretical under-
+standing of the essential attributes of Agility, Adapt-
+ability, and Alignment (the Triple-A’s), as well as
+strategies to achieve them in practice. While the Tri-
+ple-A concept remains timeless, the business land-
+scape has transformed over the past decade and half,
+and thus the three A’s now intersect with a much
+different set of strategic considerations than in the
+early 2000s. Notably, supply chain executives now
+place a strong emphasis on subjects such as sustain-
+ability, resiliency, and digitalization. This article dis-
+cusses the intersection of the triple-A concept and
+digitalization. In particular, we shall discuss the
+implications of innovative strategies, underpinned
+by digital technology and big data, that enable firms
+to achieve the three A’s in ways that were not possi-
+ble in the 2000s. The discussion will build on the
+concrete example of JD.com’s consumer-to-manufac-
+turer (C2M) platform.
+
+
+The 2020s will be remembered as the era of digital
+technology, big data, and artificial intelligence. Take
+the retail industry as an example. Two decades ago,
+supply chain planning decisions were largely sup-
+ported by sales data and forecasts at the (geographic)
+regional, quarterly, (product) categorical, and brand
+levels, which were not always digitalized. Today,
+retailers possess much more granular and precise
+data at the individual consumer and product levels in
+real time, not only on purchases, but also on searches
+and clicks (on online stores), and views, follows, and
+likes (on social media); in addition to a wealth of con-
+textual data, ranging from demographic information,
+social network connections and past purchase history
+of consumers, to specific product attributes (down to
+the pixel level of product images). Employing con-
+temporary machine learning tools, retailers are now
+able to identify complex relationships between pro-
+duct and consumer attributes, and purchase behavior.
+These insights can help firms make better informed
+planning and operations decisions along the supply
+chain, from product design to manufacturing, and
+from sales and fulfillment.
+A core tenet of supply chain management is that
+
+
+material and information flows (as well as financial
+flows) are equally important and must be carefully
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+Vol. 0, No. 0, xxxx–xxxx 2020, pp. 1–10 DOI 10.1111/poms.13307
+ISSN 1059-1478|EISSN 1937-5956|20|00|0001 © 2020 Production and Operations Management Society
+
+
+
+https://doi.org/10.1111/poms.13307
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+coordinated. Traditionally, such coordination is
+reflected through the strategic choice between push
+and pull processes. Push-based supply chains favor
+scale economies and planning efficiencies that lead
+to cost reductions, at the expense of lower agility,
+as the forecast-driven production and distribution
+planning fails to take advantage of evolving
+demand information. Pull-based supply chains are
+demand driven, but may suffer from cost inefficien-
+cies (e.g., due to small production batch sizes) and
+longer lead times. Lee and Tang (1997) suggest that
+delayed differentiation, that is, deferring the stage
+of the supply chain after which work-in-process/
+products assume their unique identities and thus
+lose substitutability, enables a push–pull structure
+that can improve agility without jeopardizing cost
+efficiencies. They propose to achieve this with three
+design strategies, namely, standardization, modular
+design, and process restructuring (postponement).
+These strategies effectively define a push–pull
+boundary at the late-production or assembly stage—
+upstream to this boundary, material flow (of work-
+in-process inventory) is governed by a push process
+driven by forecasts of downstream demand;
+whereas flows (of finished products) downstream
+from the boundary are governed by a pull process
+driven directly by downstream needs.
+Delayed differentiation of material flow helps the
+
+
+supply chain take advantage of updates in demand
+information. In the digital age, with the aid of
+machine learning-supported forecasting and real-time
+automated decision-making, supply chains are able to
+push this concept to new frontiers. For example, Lim
+et al. (2017) propose fulfillment network design strate-
+gies that rely upon real-time informational pooling of
+inventory for online retailers. Such strategies are able
+to simultaneously improve agility and efficiency of
+fulfillment operations. More generally, Acimovic
+et al. (2018) discuss how digitalization has enabled
+retailers to move on from the traditional trade-off
+between speed and price to the broader pursuit of
+agile supply chains. Later in this study, we shall dis-
+cuss examples of how an online retailer is able to
+leverage its digital platform to effectively place the
+push–pull boundary further upstream while main-
+taining operational efficiency. While globalization has
+significantly increased the physical lengths of supply
+chains since the 1990s, the latest digitalization devel-
+opment has countered by shortening the informa-
+tional lengths of supply chains. As a result, even
+though material flow lead times have become longer
+in many cases (especially under the slow steaming
+development in maritime logistics, e.g., Fransoo and
+Lee, 2013, Lee et al., 2015), the informational lead
+times through supply chain stages have significantly
+shrunk, often to effectively zero. This important
+
+
+development makes way for supply chain designers
+to reimagine the three A’s, as we shall discuss in sec-
+tion 2. In this study, we discuss an emerging supply
+chain paradigm known as the consumer-to-manufac-
+turer (C2M) model, and how this novel framework,
+when harnessed carefully, exemplifies the Triple-A
+supply chain in the digital age.
+C2M refers to a family of supply chain strategies
+
+
+based on direct digital links between end consumers
+and upstream manufacturers, often through e-com-
+merce platforms as virtual intermediaries. These links
+enable direct consumer input on not only demand
+forecasts, but even for product and assortment
+design. In part due to the geographical concentration
+of manufacturers, C2M is pioneered by Chinese e-
+commerce platforms such as JD.com and Alibaba.
+However, this new paradigm has potential to make
+waves across the world. Conceptually, C2M is an
+example of structural transformation in supply chain
+management enabled by big data and digitalization
+capabilities (Lee 2018).
+To illustrate the C2M idea, consider the case of Pin-
+
+
+duoduo (PDD), a Chinese startup founded only in
+2015 and went public on NASDAQ in 2018. PDD’s
+business model is often compared to Groupon’s (e.g.,
+Fortune 2018), in that both enable consumers to
+group-buy products at discount prices, but with two
+fundamental differences. First, PDD seamlessly mar-
+ries the group buying platform with social networks,
+and thus takes advantage of social influence in both
+understanding and shaping purchase behavior (e.g., a
+viral video on a product could turn into viral group
+purchases). Second, PDD employs a C2M strategy by
+enabling consumer groups to interact directly with
+manufacturers over digital media, and even order
+products with tailor-made specifications. This enables
+manufacturers to design and produce the right prod-
+ucts with a guaranteed demand on the one hand,
+while engaging consumers and fulfilling their specific
+needs at low prices on the other.
+In this study, we shall discuss the C2M model in
+
+
+the context of JD.com (JD), a major Chinese online
+retailer often drawing comparisons to Amazon. Like
+the case of PDD and Groupon, JD’s supply chain
+strategy differentiates with Amazon’s in that it has
+much closer links with manufacturers, in part thanks
+to the geographic concentration in China. This enables
+JD to initiate a variety of supply chain innovations
+and implement them through the entire supply chain.
+In section 2, we shall first briefly review the Triple-A
+concept and how it has evolved in practice in the digi-
+tal age. Then in section 3, we shall outline the ele-
+ments of JD.com’s C2M initiative and how it fosters
+the three A’s. Finally, in section 4, we shall provide
+specific examples to highlight how these strategies
+work in practice.
+
+
+Mak and Max Shen: Digital Triple-A Supply Chains with C2M
+2 Production and Operations Management 0(0), pp. 1–10, © 2020 Production and Operations Management Society
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+
+https://doi.org/10.1111/poms.13307
+
+
+
+
+
+
+
+
+2. Triple-A Supply Chains in the
+Digital Era
+
+
+The concept of the three A’s have transformed signifi-
+cantly in the past one-plus decade. We shall briefly
+review the concepts of agility, adaptability, and align-
+ment as introduced by Lee (2004), and discuss how
+these pursuits have evolved under the rapidly chang-
+ing business landscape. In particular, Lee (2004) dis-
+cussed supply chain strategies of various firms in the
+1990’s–2000’s period that intersected with the strate-
+gic imperatives at the time, including outsourcing
+and offshoring; as well as provided great foresight
+into the importance of the internet and digital technol-
+ogy in building sustained supply chain excellence
+(see, e.g., Johnson and Whang 2002, for a discussion
+of key operations issues in the early phase of e-busi-
+ness). We shall build on these insights by drawing
+connections to modern digital technologies.
+
+
+2.1. Evolution of Agility
+Lee (2004) defines agility as the ability to respond to
+short-term changes in demand or supply quickly, and to
+handle external disruptions smoothly. To enable agility, it
+is essential for a supply chain to carefully integrate
+the management of material and information flow. As
+soon as changes in demand/supply status are
+detected at any stage, the supply chain must be able
+to quickly and transparently share such information
+with other stages, and come up with quick maneuvers
+in response, such as changing production plans,
+rerouting shipments, repurposing capacity across
+products, and so on. Such responses necessitate col-
+laborative relationships and willingness to share
+(often proprietary) information across stages of the
+supply chain.
+Careful and coordinated choice of product and sup-
+
+
+ply chain network designs is integral to fostering agi-
+lity. Lee (2004) discussed the successful example of
+fast fashion companies like H&M and Zara, and the
+less successful example of Compaq. In fast fashion,
+time to market time is minimized from the product
+design stage. Designers start ordering fabric even
+before the designs are finalized, to mitigate long sup-
+ply lead times; once reliable sales and demand data
+from stores are shared upstream, they quickly finalize
+designs and production plans. In the case of Compaq
+in the 1990s, a long design cycle combined with a long
+supply pipeline led to rigidity as demand for new
+products evolved, and eventually lost market share.
+Lee specifically pointed out delayed differentiation
+
+
+as a key implementation strategy for agility. Product
+and supply chain designs with delayed differentiation
+enable firms to quickly reroute or repurpose supplies
+as demand information evolves over time. Lee and
+
+
+Billington (1995) and Feitzinger and Lee (1997) dis-
+cuss the (now) well-known case of Hewlett-Packard
+employing the postponement strategy to vastly
+improve the agility of its printer supply chain. More
+generally, Lee and Tang (1997) model the cost-agility
+trade-off of delayed differentiation in a supply chain,
+which can be achieved through postponement, stan-
+dardization, or modular design. With these strategies,
+the segment of the supply chain downstream from
+the point of differentiation can be reconfigured as a
+highly responsive pull process, which empowers agi-
+lity.
+In the digitalization era, shortened product life
+
+
+cycles and fickle consumer tastes call for supply
+chains to become more agile than ever. Fortunately,
+data analytics and digital platforms offer new ways to
+implement agility. Lim et al. (2017) discuss a distribu-
+tion network design framework that enables online
+retailers to embed agility into fulfillment operations.
+By integrating advanced demand forecasting, real-
+time sharing of demand and inventory data, and nim-
+ble allocation of fulfillment routes, an online retailer is
+able to perform virtual pooling of inventory across
+geographically dispersed facilities, and thereby
+achieving agility without jeopardizing efficiency.
+While this strategy maintains the push–pull boundary
+at the fulfillment stage, the pull-based fulfillment
+logic expands horizontally across the geographically
+dispersed fulfillment network, which unlocks agility.
+Digital platforms have also unlocked new possibili-
+
+
+ties for supply chains to extend agility further
+upstream, by integrating the manufacturing and pro-
+duct design functions. JD utilizes its consumer data at
+the retail level to learn and predict changes in con-
+sumption trends, feeds such forecasts digitally
+through its supply chain, and engages partners at dif-
+ferent stages of the supply chain to take coordinated
+action. Thus, new products (or modifications to exist-
+ing products) are developed, manufactured, and dis-
+tributed to meet new demand agilely. We shall
+discuss this further in sections 3 and 4.
+
+
+2.2. Evolution of Adaptability
+Lee (2004) framed adaptability as the ability to adjust a
+supply chain’s design to meet structural shifts in markets,
+and to modify supply networks to strategies, products, and
+technologies. In contrast with agility, which pertains
+mainly to the tactical- and operational-level decisions,
+adaptability is a strategic-level attribute of a supply
+chain. In the late 1990s to early 2000s, a key strategic
+consideration of many supply chains was whether to
+offshore production to lower cost countries (often
+China), and to expand sales to emerging markets. The
+companies who were able to capitalize on these struc-
+tural shifts were those with the adaptability to deftly
+
+
+Mak and Max Shen: Digital Triple-A Supply Chains with C2M
+Production and Operations Management 0(0), pp. 1–10, © 2020 Production and Operations Management Society 3
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+
+https://doi.org/10.1111/poms.13307
+
+
+
+
+pivot their strategic supply networks. Key to enabling
+adaptability is to develop awareness of strategic and
+technological shifts, the changing needs of end con-
+sumers, as well as the alignment of product and tech-
+nological cycles. To implement adaptive strategies, a
+supply chain must build relationships with suppliers
+and partners (including intermediaries) with access to
+a wide range of markets and manufacturing/logistics
+bases, and be flexible in product designs.
+Even at the relatively early stage of e-commerce,
+
+
+Lee (2004) already pointed out the importance of
+learning from data in uncovering these structural
+shifts and taking corresponding action. He discussed
+the example of Microsoft’s (and contract manufac-
+turer Flextronics’) launch of Xbox in 2001, where the
+supply chain quickly shifted from the strategy of
+manufacturing close to key markets (in Mexico and
+Hungary), which favored time to market, to one of
+offshoring to China to squeeze out cost savings. The
+key was Microsoft’s observation that the competitive
+priority shifted from speed to cost, and its adaptabil-
+ity in swiftly changing course.
+Digitalization has posed both new challenges and
+
+
+opportunities for supply chains to explore novel
+adaptability strategies. On the one hand, the breadth
+and depth of market and consumer data made avail-
+able by digital platforms, together with advanced
+machine learning tools, equip firms with unprece-
+dented capabilities to detect and predict structural
+trends in markets as (and even before) they happen.
+On the other hand, these capabilities are now largely
+democratized and thus those who fail to capitalize
+them to respond and adapt to market shifts will be left
+behind. A prime example is Netflix, who started as an
+online DVD rental by mail service that competed with
+Blockbuster. While its original subscription-by-mail
+supply chain motivated interesting operations inno-
+vations (e.g., Bassamboo et al. 2009), it detected the
+structural shift of the entertainment market moving
+toward digital delivery. Starting from 2007, it shifted
+its focus from the physical DVD rental system to the
+online streaming model, which delivers the same
+entertainment content to consumers through a com-
+pletely virtual supply chain. This drastic supply chain
+overhaul, from physical to fully virtual, was enabled
+by Netflix’s strategic adaptability attributed to its dig-
+ital prowess.
+In physical supply chains, digital capabilities also
+
+
+enable supply chain networks to adapt to structural
+changes in ways not possible before. The network
+redesign effort of LEGO in the early 2010s may serve
+as an example. With its production capacities tradi-
+tionally concentrated in Europe, LEGO faced chal-
+lenges in meeting its strong demand growth in Asian
+and North America, due to long lead times. To
+address this structural problem, LEGO redesigned its
+
+
+global network and added new plants in China and
+Mexico to specifically serve the Asian and North
+American markets. The vital companion to this physi-
+cal redesign is its concurrent investment in digital
+and data analytics capabilities that enable LEGO to
+quickly adjust production plans to evolving demand
+forecasts. Without the digital component of this rede-
+sign strategy, LEGO would not be able to take advan-
+tage of the reduced production lead times of the
+redesigned network.
+
+
+2.3. Evolution of Alignment
+Lee (2004) described alignment as the ability to create
+incentives for better performance. This refers to aligning
+incentives of different players in the supply chain to
+ensure that every stage optimizes its operations under
+the common objective of maximizing supply chain’s
+(rather than each stage’s) performance. Besides align-
+ing objectives, Lee also emphasized the importance of
+sharing knowledge and information freely among
+parties in the supply chain, a practice particularly
+important in the digital age.
+In the supply chain operations literature, various
+
+
+mechanisms and contracts have been proposed and
+implemented to achieve alignment (see, e.g., Cachon
+2003, Lariviere 2016). These mechanisms aim to align
+the objectives of different stakeholders along the sup-
+ply chain such that they benefit from improving the
+supply chain’s overall performance rather than from
+marginalizing each other. Besides using operational
+contracts as an alignment device, the topic of supply
+chain financing is also key. In particular, careful use
+of instruments such as trade credits (see, e.g., Yang
+and Birge 2018) can help foster alignment by reducing
+the financing costs of smaller players.
+Alignment can often be achieved through the use of
+
+
+supply chain intermediaries. In the pre-digital age,
+intermediaries (such as Li & Fung in the textiles
+industry) were important in providing financing (due
+to their lower capital costs) and facilitating trust
+between supply chain parties. In the digital age, inter-
+mediaries often take the form of digital platforms. A
+prime example is Chinese e-commerce giant Alibaba,
+runs the world’s largest (by transaction volume)
+online shopping marketplace Taobao. Following Ali-
+baba’s asset-light business model (Taobao does not
+own products sold on its platform, but instead facili-
+tate transactions between consumers and indepen-
+dent sellers), distribution and fulfillment operations
+for Taobao are handled by third-party logistics provi-
+ders (3PLs). To improve alignment of the downstream
+supply chain, Alibaba launched the Cainiao smart
+logistics platform. The platform operates as a “digital
+control tower” to coordinate the distribution and ful-
+fillment process. While the fulfillment process typi-
+cally involves multiple independent players (seller
+
+
+Mak and Max Shen: Digital Triple-A Supply Chains with C2M
+4 Production and Operations Management 0(0), pp. 1–10, © 2020 Production and Operations Management Society
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+
+https://doi.org/10.1111/poms.13307
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+and one or multiple 3PLs), the platform aims to
+ensure tight digital integration between the logistics
+and e-commerce platforms to achieve high efficiency
+and agility. This model contrasts sharply with JD’s
+model of (downstream) vertical integration, where
+the online retailer owns much of the distribution
+logistics infrastructure.
+
+
+3. Consumer-to-Manufacturer (C2M)
+Model
+
+
+The prevalence of digital technologies and the rise of
+a new generation of digital-savvy consumers have
+posed novel challenges for supply chain executives.
+Influenced by social networks and digital media, con-
+sumer preferences and demand are evolving and pro-
+liferating at unprecedented pace. As consumer
+experiences become visible and shared rapidly over
+social networks, it is now as critical as ever for supply
+chains to uphold their service levels and meet con-
+sumers’ needs. This calls for high levels of agility and
+adaptability, as supply chains must respond to both
+fluctuations and structural shifts quickly and even
+proactively, as well as alignment, as information from
+end consumers must pass through the entire chain
+quickly and for the chain to take coordinated action.
+The C2M model provides a novel framework for sup-
+ply chains to build a direct link between the final con-
+sumers and the upstream production stage.
+In this section, we discuss the implementation of
+
+
+JD’s C2M platform (referred to as JC2M hereafter).
+JD’s core vision in supply chain innovation is that
+future supply chains will be fully demand driven
+under a pull logic, rather than production driven
+under a push logic. To build demand-driven supply
+chains with high service levels, digitalization is vital.
+Like other leaders in online retail (such as Amazon),
+JD has invested heavily in digitalizing its downstream
+operations, for example, forecasting, pricing, sales,
+distribution, and reverse logistics. In addition, its
+proximity to the Chinese manufacturing base has
+enabled it to integrate and digitalize the upstream
+operations of its supply chain, in ways often inaccessi-
+ble to its Western counterparts. This setup enables JD
+to build digital links between downstream sales oper-
+ations and upstream manufacturing and integrate the
+chain seamlessly. The JC2M platform enables JD to
+reengineer its supply chain, switching away from tra-
+ditional production-driven configurations toward
+demand-driven ones.
+JD is China’s largest retailer and largest internet
+
+
+company by revenue ($83.4 billion in 2019, Forbes
+2020). As of June 30, 2020, JD had 417.4 million active
+users, and recorded a 29.9% year-on-year growth rate.
+In June 2020, JD.COM’s average daily active mobile
+
+
+users increased by 40% year-on-year (JD.com, 2020).
+This massive user and transaction volume empowers
+JD with two distinct advantages. First, it gives JD the
+scale economies it needs to operate the supply chain
+efficiently, as well as the leverage to push innovations
+through the supply chain. Second, it provides JD with
+a wealth of consumer preference and behavior data
+that informs its digital supply chain innovations, par-
+ticularly under the C2M framework. Figure 1 illus-
+trates the conceptual framework of the JC2M model,
+where bold and line arrows represent material and
+information flow, respectively. Below, we shall dis-
+cuss how this conceptual framework is embodied by
+the four core functions of JC2M model, and how these
+functions help enable a digital, triple-A supply chain.
+
+
+3.1. New Product Design and Simulation
+The new product development process (Kavadias and
+Ulrich 2020, Krishnan and Ulrich 2001) involves the
+firm identifying and/or anticipating an unfulfilled
+need of consumers or a void in the competitive mar-
+ket. The JC2M platform helps manufacturers accom-
+plish this through a digitalized process. First, through
+machine learning on its massive user data, JD is able
+to identify combinations of product attributes with
+unfulfilled potential. While this concept is not entirely
+new, what makes JD’s approach unique is that its
+models are able to produce four-dimensional recom-
+mendations for product design: potential product
+styles/attributes, potential price points, potential buy-
+ers, and potential sales forecasts. That is, in uncover-
+ing an opportunity for a new product design, the
+manufacturer already knows how much to sell it for,
+whom to sell it to, what volume (and when) it expects
+to sell, and how to market it.
+This process greatly reduces the need for trial and
+
+
+error in the product design process, which leads to
+lower product development costs and streamlined
+development and planning cycles. With the support
+of the JC2M platform, brands have been able to
+
+
+Product 
+Design Manufacturing Distribution Consumers
+
+
+JC2M 
+Platform Mass consumer 
+
+
+behavior data
+Ideation: 
+Identifying 
+market void 
+and target 
+segment
+
+
+Personalized customization
+
+
+Precise 
+demand 
+forecasting
+
+
+Efficient 
+production 
+planning
+
+
+Figure 1 Conceptual Framework of the JC2M Platform [Color figure
+can be viewed at wileyonlinelibrary.com]
+
+
+Mak and Max Shen: Digital Triple-A Supply Chains with C2M
+Production and Operations Management 0(0), pp. 1–10, © 2020 Production and Operations Management Society 5
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+
+https://www.wileyonlinelibrary.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://doi.org/10.1111/poms.13307
+
+
+
+
+reduce their product demand research time by 75%
+and shorten their new product launch cycle by 67%.
+What’s more, the platform gives the supply chain a
+massive head start once the product design is adopted
+by a manufacturer, as plans for production, pricing,
+and distributions can be derived digitally according
+to these systematic forecasts. JD also leverages this
+“reverse product development” process to deepen its
+collaborative relationships with upstream brands and
+manufacturers, thereby gaining access to better qual-
+ity, customized products, more favorable purchasing
+costs, and marketing resources.
+Besides big data analytics, the JC2M platform also
+
+
+engages in “small data” studies to gain insights into
+new product releases. Ahead of product launch, JD is
+able to pinpoint specific target consumer groups and
+roll out simulated product trials (e.g., A/B testing).
+Feedback from such small-scale but highly targeted
+experiments help JD to gain deeper insights into pur-
+chase behavior and consumer preferences with regard
+to the new product, validate demand and pricing pre-
+dictions, and to optimize the purchase experience.
+Compared with conventional processes, the C2M
+
+
+reverse product development framework offers
+potential to strengthen the supply chain along the
+adaptability and alignment dimensions. First, lever-
+aging its massive online transaction volume to learn
+consumer trends, JD gains the key capability to detect
+(nowcast) and forecast structural shifts in consumer
+needs. The C2M framework enables these insights to
+penetrate through the entire supply chain in real time.
+As a result, JD is able to react to these changes not
+only by adjusting its consumer-facing operations, but
+also by bringing new products to market. With a high
+degree of alignment through digitally coordinated
+operations across firm boundaries, these new prod-
+ucts reach consumers promptly. Through feeding
+end-consumer insights directly to manufacturers, JD
+also provides strong incentives for manufacturers to
+coordinate its development, production, and market-
+ing efforts with downstream players, thus strengthen-
+ing alignment of the supply chain.
+
+
+3.2. Targeted Product Trials
+Product trials are a must in today’s marketing cam-
+paigns. They facilitate communication between man-
+ufacturers and consumers—the former learns about
+consumers’ preferences and feedback on products,
+and the latter learns about features and value of the
+manufacturers’ offering. Trial campaigns are crucial
+in both attracting new customers and retaining exist-
+ing ones. Due to the expensive nature of product tri-
+als, they must be directed to the optimal audience to
+maximize returns.
+JD’s product trial platform aims to precisely iden-
+
+
+tify target consumers for trial campaigns. Based on
+
+
+past consumer purchase data, JD is able to label con-
+sumers based on user background (user portrait),
+purchase behavior (behavior portrait), and their affin-
+ity for related product categories and brands. A key
+innovation of JD’s product trial platform is that it inte-
+grates supply chain operations into planning of pro-
+duct trials. For example, in selecting target customers
+by geographical location, the platform evaluates not
+only the conversion and learning potential for the tar-
+get geographical market, but also the logistics impli-
+cations (i.e., stock availability in distribution hubs,
+shipping costs, and lead times). Manufacturers can
+also monitor the distribution of trial products on the
+platform in real time, as well as detailed, multidimen-
+sional feedback on customer conversions.
+Integrating marketing and operations considera-
+
+
+tions in product trials efforts have two important
+implications. First, this ensures cost consciousness in
+the selection of target customers to maximize not only
+effectiveness, but also efficiency, of consumer acquisi-
+tion. Second, this enables both customers and manu-
+facturers to learn about not only the product-
+customer fit, but also the entire purchase experience.
+For example, Luo et al. (2020) find that, on online
+retail platforms, the quality of logistics services can
+significantly alter consumer demand. Such insights
+into the purchase experience, in addition to the pro-
+duct itself, provides yet another opportunity for the
+supply chain to enhance its alignment dimension.
+
+
+3.3. Personalized Customization
+Perhaps the most salient feature of the C2M model is
+that it enables an end-to-end “pull” process through
+the entire supply chain, from product design to end
+consumers. Modern (especially Gen-Y and Gen-Z)
+consumers tend to value both product quality and
+personalization. This poses a tough test on a supply
+chain’s agility, as consumers expect their personal-
+ized needs to be met swiftly. The JC2M platform
+addresses this by a personalization service that
+enables consumers to place customized orders
+directly with manufacturers, and ensures manufac-
+turers fulfill these orders responsively and efficiently.
+The service provides system tools to support cus-
+tomization orders in both B2C and B2B scenarios,
+such as customization of product attributes and pro-
+duct volume, as well as customization for enterprise
+customers.
+Traditionally, the make-to-order system tends to be
+
+
+a niche supply chain configuration only applicable to
+limited product categories. While the advantages of
+the make-to-order model, that is, better match of con-
+sumers’ needs and reduced reliance on demand fore-
+casts, are obvious, so are its shortcomings, including
+long lead times. Digitally integrated supply chains
+have found new ways to overcome these
+
+
+Mak and Max Shen: Digital Triple-A Supply Chains with C2M
+6 Production and Operations Management 0(0), pp. 1–10, © 2020 Production and Operations Management Society
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+
+https://doi.org/10.1111/poms.13307
+
+
+
+
+
+
+
+
+shortcomings. In the case of the JC2M platform, big-
+data-driven forecasts underpin operations planning
+at every stage of the supply chain. Even in a make-to-
+order setting, this integrated planning process pre-
+pares both upstream manufacturing (e.g., planning of
+work-in-process inventory) and downstream distribu-
+tion (e.g., scheduling of shipment lots) ahead of order
+placement, and streamlines operations by dynamic
+allocation of production and shipping capacity in real
+time. This capability allows the supply chain to vastly
+shorten lead times, once orders are confirmed.
+Conceptually, the integration of digital forecasting
+
+
+and planning equips the supply chain with high digi-
+tal agility that enables the make-to-order system to
+work as efficiently as a make-to-stock system, but
+with more flexibility in product configuration. This
+digital agility is conceptually analogous with the vir-
+tual pooling concept in fulfillment networks studied
+in Lim et al. (2017). In both cases, digital coordination
+of operations across the boundaries of facilities and
+supply chain stages enables them to operate as one
+virtual entity, thus achieving quick response to cus-
+tomer demand as well as efficient operations.
+
+
+3.4. Smart Factory
+Smart manufacturing builds on key digital technolo-
+gies in the Industry 4.0 movement (Olsen and Tomlin,
+2020), including the Internet-of-Things (IoT), artificial
+intelligence, additive manufacturing, and automation.
+In a digital supply chain, it is vital to extend smart
+control beyond the factory boundaries through the
+span of the supply chain. One of the core services of
+JC2M is its smart factory platform that integrates digi-
+tal production planning with the rest of the supply
+chain.
+The primary aim of the smart factory platform is to
+
+
+leverage digital integration to achieve intelligent con-
+trol of rapid-response, low-inventory, efficient small-
+batch production operations. It provides services such
+as product quality management, factory production
+docking, supply chain collaboration, capacity pre-
+sales, order aggregation, and order dispatching. The
+front end of the smart factory platform provides con-
+sumers with a variety of customization purchasing
+scenarios to meet the diverse, personalized, and cus-
+tomized shopping needs; whereas the back end coor-
+dinates the upstream processes to respond to demand
+quickly, following a pull-type supply chain model.
+The use of the smart factory platform to integrate
+
+
+operations of the supply chain can be considered digi-
+talized extension of the supply chain intermediary
+strategy discussed in Lee (2004), which is key to fos-
+tering alignment. It is known in the literature (e.g.,
+Belavina and Girotra 2012) that intermediaries pro-
+vide transactional benefits (by improving efficiencies
+such as lowering financing costs and aggregating
+
+
+orders to achieve economies of scale) and informa-
+tional benefits (i.e., aggregating information from dif-
+ferent parties to inform better planning) to the supply
+chain. In addition, Belavina and Girotra (2012) further
+show another benefit of intermediaries such as Li &
+Fung in the apparel industry: by pooling the sourcing
+needs of multiple buyers, it is able to align the supply
+chain by providing sourcing commitments to suppli-
+ers, while at the same time responsively adjust its
+supply base. The smart factory platform achieves sim-
+ilar benefits using a novel innovation known as capac-
+ity pre-sales—it allows the platform to pre-commit to
+purchasing production capacities from manufacturers
+in advance of actual orders. This model helps create a
+pull process with quick response time and low fin-
+ished inventory requirements, and streamlines supply
+chain financing (especially with small manufactur-
+ers).
+
+
+4. Successful Cases of JC2M
+
+
+In this section, we shall discuss several successful
+cases of JC2M, spanning a range of product cate-
+gories. In each case, the four core services of JC2M
+enable the supply chain to identify new trends or
+opportunities in the market, and to address cus-
+tomers’ needs in an agile, adaptive, and aligned man-
+ner.
+
+
+4.1. Home Refrigerators
+As discussed in section 3.1, JD leverages its massive
+consumer data and machine learning technologies to
+generate proposals for manufacturers to develop,
+upgrade, and customize their products. This helps the
+supply chain respond agilely to meet ever-changing
+consumer needs.
+Recently, JC2M completed a market study on the
+
+
+customization of new refrigerators, in collaboration
+with a household appliance brand. Through mining
+JD’s transaction data, the study highlighted a number
+of key insights into the refrigerator market. In particu-
+lar, though the market has enjoyed stable growth in
+volume, consumer demand is drifting toward
+upgraded specifications and lower price points.
+Strong consumer preferences are detected for four
+aspects of specification upgrade: in exterior design/
+style (e.g., preference for multi-door designs and
+stainless steel panels), capacity (e.g., 300 L and
+above), energy rating, and refrigeration mode (e.g.,
+air-cooled systems). Meanwhile, JD found that aver-
+age consumer spending on refrigerator products
+declined from the previous year, and unit prices are
+moving toward the middle range. Geographically, the
+market is concentrated in Tier-1 and Tier-2 cities of
+China. Due to smaller living spaces in Tier-1 cities
+(e.g., Beijing and Shanghai), the demand for high-
+
+
+Mak and Max Shen: Digital Triple-A Supply Chains with C2M
+Production and Operations Management 0(0), pp. 1–10, © 2020 Production and Operations Management Society 7
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+
+https://doi.org/10.1111/poms.13307
+
+
+
+
+capacity (exceeding 300 L), multi-door units is rela-
+tively small; whereas demand for such units is high in
+cities with lower housing costs. There is also a growth
+in demand for customized upgrades such as intelli-
+gent control, micro-crystallization, odor purification,
+and wet/dry storage.
+In view of the aforementioned market trends and
+
+
+with the brand’s existing product offering, JC2M rec-
+ommended redesigning the product line to capture
+the high potential market segments, namely, high-ca-
+pacity (501–600 L) and medium-capacity (301–400 L)
+models with side-by-side doors, and small-capacity
+three-door models, featuring first-rate energy effi-
+ciency, intelligent control, micro-crystallization, odor
+purification, and wet/dry storage. Since the launch of
+these new products, sales figures of the brand in June
+reached six times the category average.
+
+
+4.2. Ultrawide Monitors
+Adaptability and alignment help supply chains to
+weather fluctuations in volatile consumer markets. In
+today’s digital landscape, these two attributes are
+deeply intertwined, and both rely upon in-depth col-
+laborations among supply chain players, from retail-
+ers and distributors to manufacturers and component
+suppliers. In the case of JD, these relationships enable
+the retailer to coordinate with key partners and take
+collaborative actions to address market changes, and
+even transform these challenges into opportunities to
+deliver new growth. We shall discuss an example
+based on the supply chain of ultrawide (21:9) moni-
+tors.
+Until recently, the market of ultrawide monitors
+
+
+was monopolized by a single major brand, resulting
+in high prices and unmet consumer demand. JD’s
+market research has identified a brand new market
+for monitors, the population of gamers, who is show-
+ing rapidly growing demand for ultrawide curved-
+screen monitors. To address this emerging market, it
+was crucial to assess the supply chain’s capability to
+deliver such a new product category. In particular,
+the key technological component is the LED screens.
+These screens are manufactured in large panels and
+then cut to specific sizes, a process that leads to signif-
+icant cutting wastes. In researching manufacturing
+capabilities, JD collaborated with LED screen manu-
+facturers and devised a novel solution to the problem
+of making 21:9 screens with minimal cutting waste,
+by providing an efficient solution to the difficult two-
+dimensional cutting stock problem (Gilmore and
+Gomory, 1965). This further enabled JD and the screen
+manufacturer to cater specifications to user needs and
+determine pricing levels. Thus, the identification of a
+downstream market shift has driven innovation in the
+far-upstream component manufacturers. This would
+not be possible without a digital supply chain
+
+
+integration infrastructure like JD’s. Concurrently, to
+bring the products to market, JD collaborated with a
+number of monitor brands to test product designs
+and configurations. The streamlined development
+and testing processes enabled the products to be
+launched in accelerated cycles. This helped the brands
+gain significant market shares as new entrants, and
+even establish pricing power over the market incum-
+bent.
+The ultrawide monitor example showcases how an
+
+
+aligned and adaptive supply chain is able to speed up
+the new product development and launch cycle.
+Under the traditional supply chain model with serial
+development processes, it would take six months to
+develop new screen panels, four months for the OEM
+to manufacture and deliver the monitors, and an
+additional two months for the brand owner to ship
+the final products to the retailer. In the digitally
+aligned supply chain, however, these processes occur
+in parallel. As the screen manufacturer makes the
+screens, the OEM develops the mold for the monitor
+synchronously, while the brand owner applies for
+product qualification, and the retailer launches the
+advertising and pre-sale campaign simultaneously.
+This effectively shortens the time to market from over
+twelve months to about six months. Thus, digitally
+enabled alignment also enables the supply chain to be
+adaptive (in changing its production configuration)
+and agile (in bringing products to market quickly).
+
+
+4.3. Laundry Detergent Pods
+The next example, involving laundry detergent pods,
+showcases a product innovation driven by supply
+chain motivations, and enabled by sound understand-
+ing of consumer needs and preferences.
+Laundry detergent pods, while quite common in
+
+
+Western markets, are relatively new to the Chinese
+market. In its analysis of the market of laundry deter-
+gents, JC2M found that the product category has been
+a loss leader despite strong (40% year-on-year)
+growth. Through analyzing the supply chain, JC2M
+identified the high logistics costs, due to the bulky
+nature of the liquid-form products, as a major reason.
+On the other hand, market intelligence revealed that
+consumers for laundry detergent are primarily inter-
+ested in product functionality and show little prefer-
+ence over product form. Thus, laundry pods, with
+compact packaging, show promise as an emerging
+product.
+As discussed in section 3.1, JC2M aims to identify
+
+
+potential product attributes, potential price points,
+potential buyers, and potential sales volume for new
+product recommendations. For laundry pods, based
+on user behavior data from JD, the platform produced
+the representative user portrait: young white-collar
+workers engaged in social media platforms such as
+
+
+Mak and Max Shen: Digital Triple-A Supply Chains with C2M
+8 Production and Operations Management 0(0), pp. 1–10, © 2020 Production and Operations Management Society
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+
+https://doi.org/10.1111/poms.13307
+
+
+
+
+Douyin (the Chinese version of TikTok) and Xiao-
+hongshu. Based on this, JC2M estimated that 30% of
+the detergent sales volume could switch to laundry
+beads, suggesting a potential market 15 times its exist-
+ing size. Based on this recommendation, JC2M carried
+out product simulation trials with targeted consumer
+groups to test the possible responses to alternative
+price bands.
+Once the new product recommendation was
+
+
+adopted, JC2M carefully engaged with manufactur-
+ers in choosing product attributes with potential
+demand implications, such as concentration, shape,
+color, packaging, and logistics, and analyzed cost
+accounting for different stages of the supply chain.
+To better segment the market, JC2M created a low-
+end generic product with the detergent manufac-
+turer, and a high-end product in cooperation with
+established brands. The results were promising: the
+first three laundry pod products launched quickly
+ranked among top 10 in sales of laundry products,
+and the market share of laundry beads soared from
+3% to 8%. Overall, the new product category
+recorded high sales growth (198% year-on-year) and
+net positive margins.
+
+
+5. Discussion and Conclusion
+
+
+The digitalization movement has unlocked myriad
+innovations in supply chain management practice.
+Revolutionary technologies, such as smart-phone-
+based retail, mobile payment, machine learning and
+artificial intelligence, automated manufacturing,
+industrial IoT have moved from nascent to ubiquitous
+in the span of a few years. With adoption of every
+new technology, some conventional supply chain
+management practice becomes obsolete. As our com-
+munity strives to develop new theory that inform our
+understanding of these advancements, we shall also
+revisit the foundational concepts, such as the Triple-A
+supply chain, that remain timeless but are embodied
+in new forms.
+By drawing digital links from end consumers to
+
+
+manufacturers (and through the intermediate supply
+chain), the C2M concept enables inventive strategies
+to accomplish the three A’s: agility, adaptability, and
+alignment, some of which were unimaginable just a
+couple decades ago. In theory, C2M prepares the
+supply chain to operate as an end-to-end pull pro-
+cess that responds to consumers (changing) needs
+while maintaining high efficiency and speed. This
+can be the start of a paradigm shift—while the tradi-
+tional push-based supply chain epitomizes the con-
+ventional firm-centric philosophy of business, a truly
+pull-based supply chain is a move toward a con-
+sumer-centric model that provides solutions to con-
+sumers’ problems.
+
+
+Thus far, C2M is pioneered by Chinese tech compa-
+nies like JD, Alibaba, and PDD. These firms are in a
+somewhat unique position due to their geographical
+and industrial proximity to massive consumer mar-
+kets as well as manufacturing base. This is not to
+say that C2M is an exclusively Chinese strategy.
+About a decade ago, LEGO offered a make-to-order
+service, known as LEGO Design byMe, which
+allowed consumers to create their own LEGO sets
+digitally with a software and order them. The pro-
+gram was discontinued in 2012 due to operational
+inefficiencies of the make-to-order process. LEGO
+now offers a different program, known as LEGO
+Ideas, that solicits digital design ideas from con-
+sumers. Instead of allowing consumers to order
+these sets, LEGO allows other consumers to vote on
+them, and produce only the most popular sets. This
+strategy retains the consumer-driven design element
+of the Design byMe program, but overcomes its
+operational efficiency, since the voting system
+serves as a filter that assures a high-enough demand
+volume for the designs selected for production.
+While these strategies are rather unique to the case
+of LEGO, who operates a vertically integrated sup-
+ply chain from product design to retail, they show-
+case that non-Chinese and non-retail supply chains
+can also benefit from C2M innovations.
+Recent events, including the COVID-19 pandemic,
+
+
+have caused firms to rethink their global supply chain
+network design, and it is plausible that future supply
+chains will at least partially diversify away from the
+current high concentration in the East Asia region. At
+the same time, the Chinese tech giants are also seek-
+ing to expand their e-tailing businesses globally.
+Therefore, we expect C2M to become a truly global
+phenomenon in the coming years. This will bring
+about new challenges, as the increased geographical
+distances (longer physical lead times) and consumer
+cultural heterogeneity (difficulty to forecast demand)
+will be important obstacles to overcome in C2M oper-
+ations.
+The technology further progresses, the theory and
+
+
+practice of supply chain management will continue
+to evolve in imaginative ways. For example, emerg-
+ing technologies such as the Blockchain and smart
+contracts (see Olsen and Tomlin, 2020, for a discus-
+sion) could open up new possibilities for alignment,
+building on the concept of digital trust. This may, for
+example, pose a challenge to the intermediary busi-
+ness model. Smart contracts and automated manu-
+facturing may also hold the key to fostering digital
+agility, as orders and transactions can be completed
+and verified digitally without human intervention.
+Thus, the legacy of Hau Lee’s Triple-A supply chain
+will continue to inspire practitioners and researchers
+in supply chain management in the years to come.
+
+
+Mak and Max Shen: Digital Triple-A Supply Chains with C2M
+Production and Operations Management 0(0), pp. 1–10, © 2020 Production and Operations Management Society 9
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+
+https://doi.org/10.1111/poms.13307
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Acknowledgments
+
+
+The authors are grateful to Professor Hau Lee and Professor
+Chris Tang (special issue editor) for their insightful feed-
+back, which helped improve this study. The authors also
+thank Mr. Chen Lin (JD Intelligent Supply Chain Y Business
+Unit leader), and JD colleagues Hao Hu, Xiaotong Wang,
+Longyu Zhang, Ruixue Zhou, and Danping Liu for helpful
+discussions.
+
+
+References
+Acimovic, J., M. Lim, H.-Y. Mak. 2018. Moving beyond the speed-
+
+
+price tradeoff. MIT Sloan Manage. Rev. 59(4):12–15.
+
+
+Bassamboo, A., S. Kumar, R. S. Randhawa. 2009. Dynamics of
+new product introduction in closed rental systems. Oper. Res.
+57(6): 1347–1359.
+
+
+Belavina, E., K. Girotra. 2012. The relational advantages of inter-
+mediation. Management Sci. 58(9): 1614–1631.
+
+
+Cachon, G. P. 2003. Supply chain coordination with contracts.
+Handbooks Oper. Res. Manage. Sci. 11: 227–339.
+
+
+Feitzinger, E., H. L. Lee. 1997. Mass customization at Hewlett-
+Packard: The power of postponement. Harv. Bus. Rev. 75: 116–
+123.
+
+
+Forbes. 2020. JD.com (JD). Available at https://www.Forbes.com/
+companies/jd/#5009783f4f20
+
+
+Fortune. 2018. The Groupon of China Is Going Public—and It’s More
+Expensive Than Alibaba, Snap, or Facebook’s IPO. Available at
+https://fortune.com/2018/07/26/pinduoduo-ipo-alibaba-facebook-
+groupon-amazon/
+
+
+Fransoo, J. C., C.-Y. Lee. 2013. The critical role of ocean container
+transport in global supply chain performance. Prod. Oper.
+Manag. 22(2): 253–268.
+
+
+Gilmore, P. C., R. E. Gomory. 1965. Multistage cutting stock prob-
+lems of two and more dimensions. Oper. Res. 13(1): 94–120.
+
+
+JD.com. 2020. Press release: JD.com Announces 2020 second quar-
+ter and interim financial results. Available at https://ir.jd.
+com/news-releases/news-release-details/jdcom-announces-
+
+
+2020-second-quarter-and-interim-financial (accessed date
+September 20, 2020).
+
+
+Johnson, M. E., S. Whang. 2002. E-business and supply chain
+management: An overview and framework. Prod. Oper.
+Manag. 11(4): 413–423.
+
+
+Kavadias, S., K. T. Ulrich. 2020. Innovation and new product
+development: Reflections and insights from the research
+published in the first 20 years of Manufacturing & Service
+Operations Management. Manuf. Serv. Oper. Manag. 22(1):
+84–92.
+
+
+Krishnan, V., K. T. Ulrich. 2001. Product development decisions:
+A review of the literature. Management Sci. 47(1): 1–21.
+
+
+Lariviere, M. A. 2016. Om forum – Supply chain contracting:
+Doughnuts to bubbles. Manuf. Serv. Oper. Manag. 18(3): 309–
+313.
+
+
+Lee, C.-Y., H. L. Lee, J. Zhang. 2015. The impact of slow ocean
+steaming on delivery reliability and fuel consumption. Transp.
+Res. Part E: Log. Transp. Rev. 76: 176–190.
+
+
+Lee, H. L. 2018. Big data and the innovation cycle. Prod. Oper.
+Manag. 27(9): 1642–1646.
+
+
+Lee, H. L., C. Billington. 1995. The evolution of supply-chain-man-
+agement models and practice at Hewlett-Packard. Interfaces 25
+(5): 42–63.
+
+
+Lee, H. L. 2004. The Triple-A supply chain. Harv. Bus. Rev. 82(10):
+102–113.
+
+
+Lee, H. L., C. S. Tang. 1997. Modelling the costs and benefits of
+delayed product differentiation. Management Sci. 43(1): 40–53.
+
+
+Lim, M. K., H.-Y. Mak, Z.-J.-M. Shen. 2017. Agility and proximity
+considerations in supply chain design. Management Sci. 63(4):
+1026–1041.
+
+
+Luo, J., Y. Rong, H. Zheng. 2020. Impacts of logistics information
+on sales: Evidence from Alibaba. Nav. Res. Log. 67(8): 646–669.
+https://doi.org/10.1002/nav.21884
+
+
+Olsen, T. L., B. Tomlin. 2020. Industry 4.0: Opportunities and
+challenges for operations management. Manuf. Serv. Oper.
+Manag. 22(1): 113–122.
+
+
+Yang, S. A., J. R. Birge. 2018. Trade credit, risk sharing, and
+inventory financing portfolios. Management Sci. 64(8): 3667–
+3689.
+
+
+Mak and Max Shen: Digital Triple-A Supply Chains with C2M
+10 Production and Operations Management 0(0), pp. 1–10, © 2020 Production and Operations Management Society
+
+
+Please Cite this article in press as: Mak, H.-Y., Z.-J., Max Shen. When Triple-A Supply Chains Meet Digitalization: The Case of JD.com’s
+C2M Model. Production and Operations Management (2020), https://doi.org/10.1111/poms.13307
+
+
+
+https://www.Forbes.com/companies/jd/#5009783f4f20
+
+https://www.Forbes.com/companies/jd/#5009783f4f20
+
+https://fortune.com/2018/07/26/pinduoduo-ipo-alibaba-facebook-groupon-amazon/
+
+https://fortune.com/2018/07/26/pinduoduo-ipo-alibaba-facebook-groupon-amazon/
+
+https://ir.jd.com/news-releases/news-release-details/jdcom-announces-2020-second-quarter-and-interim-financial
+
+https://ir.jd.com/news-releases/news-release-details/jdcom-announces-2020-second-quarter-and-interim-financial
+
+https://ir.jd.com/news-releases/news-release-details/jdcom-announces-2020-second-quarter-and-interim-financial
+
+https://doi.org/10.1002/nav.21884
+
+https://doi.org/10.1111/poms.13307
+
+

@@ -1,0 +1,2106 @@
+
+
+
+
+
+
+
+
+
+
+Research paper
+
+
+Industry 4.0 and the current status as well as future prospects on
+logistics
+
+
+Erik Hofmann*, Marco Rüsch
+Chair of Logistics Management, University of St.Gallen, Dufourstrasse 40a, 9000 St. Gallen, Switzerland
+
+
+A R T I C L E I N F O
+
+
+Article history:
+Received 15 June 2016
+Received in revised form 19 February 2017
+Accepted 13 April 2017
+Available online 22 April 2017
+
+
+Keywords:
+Advanced manufacturing
+Internet of things
+Cyber-physical systems
+Distributed ledger technology
+Cross-company kanban
+Just-in-time
+Just-in-sequence
+
+
+A B S T R A C T
+
+
+Industry 4.0, referred to as the “Fourth Industrial Revolution”, also known as “smart manufacturing”,
+“industrial internet” or “integrated industry”, is currently a much-discussed topic that supposedly has the
+potential to affect entire industries by transforming the way goods are designed, manufactured, delivered
+and payed. This paper seeks to discuss the opportunities of Industry 4.0 in the context of logistics
+management, since implications are expected in this field. The authors pursue the goal of shedding light
+on the young and mostly undiscovered topic of Industry 4.0 in the context of logistics management, thus
+following a conceptual research approach. At first, a logistics-oriented Industry 4.0 application model as
+well as the core components of Industry 4.0 are presented. Different logistics scenarios illustrate
+potential implications in a practice-oriented manner and are discussed with industrial experts. The
+studies reveal opportunities in terms of decentralisation, self-regulation and efficiency. Moreover, it
+becomes apparent that the concept of Industry 4.0 still lacks a clear understanding and is not fully
+established in practice yet. The investigations demonstrate potential Industry 4.0 implications in the
+context of Just-in-Time/Just-in-Sequence and cross-company Kanban systems in a precise manner.
+Practitioners could use the described scenarios as a reference to foster their own Industry 4.0 initiatives,
+with respect to logistics management.
+
+
+© 2017 Elsevier B.V. All rights reserved.
+
+
+1. Introduction
+
+
+“The implementation starts with small steps here and there,
+there won’t be a big bang that is going to introduce Industry 4.0.
+On the contrary, it will come step by step. But if we look back in
+ten years we will see that the world has changed significantly.”
+([1]Hartmut Rauen, Deputy Executive Director Mechanical
+Engineering Industry Association (VDMA), 2012).
+
+
+In recent years, complexity and requirements in the
+manufacturing industry have steadily increased. Factors such as
+growing international competition, increasing market volatility,
+demand for highly individualised products and shortened product
+life cycles present serious challenges to companies [2]. It seems
+that existing “approaches” of value creation are not suited to
+handle the increasing requirements regarding cost efficiency,
+flexibility, adaptability, stability and sustainability anymore. On
+one hand, requirements in the manufacturing industry have
+increased. On the other hand, the rapid technological progress in
+the more recent past has opened up a range of new business
+
+
+potentials and opportunities. Trends and new catchwords such as
+digitalization, the internet of things (IoT), internet of services (IoS)
+and cyber-physical systems (CPS) are becoming more and more
+relevant. Against this backdrop, Germany, which is well known for
+its strong manufacturing sector, launched the so-called “Industrie
+4.0” initiative in 2011 as part of its high-tech strategy, introducing
+the idea of a (fully) integrated industry [3,4]. Since then, Industry
+4.0 has gained attention importance – also beyond the German-
+speaking area – and has even been listed as a main topic on the
+2016 World Economic Forum’s agenda.
+
+
+Prophetically, Kagermann et al. [5] expect that strong industrial
+nations such as Germany will only remain successful if they
+manage to actively participate in the Industry 4.0 initiative. In
+concrete terms, this means participating in the development,
+merchandising and operation of autonomous, knowledge- and
+sensor-based, self-regulating production systems. The opportu-
+nities and benefits that are anticipated to come along with Industry
+4.0 seem to be manifold, e.g. resulting in highly flexible mass
+production, real-time coordination and optimisation of value
+chains, reduction of complexity costs or the emergence of entirely
+new services and business models.
+
+
+As far as the field of logistics is concerned, major implications
+are predicted, too. In fact, logistics represents an appropriate
+application area for Industry 4.0 [3]. The integration of CPS and IoT
+
+
+* Corresponding author.
+E-mail address: erik.hofmann@unisg.ch (E. Hofmann).
+
+
+http://dx.doi.org/10.1016/j.compind.2017.04.002
+0166-3615/© 2017 Elsevier B.V. All rights reserved.
+
+
+Computers in Industry 89 (2017) 23–34
+
+
+Contents lists available at ScienceDirect
+
+
+Computers in Industry
+
+
+journal homepage: www.elsevier .com/ locate /compind
+
+
+
+
+
+
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.compind.2017.04.002&domain=pdf
+
+undefined
+
+http://dx.doi.org/10.1016/j.compind.2017.04.002
+
+http://dx.doi.org/10.1016/j.compind.2017.04.002
+
+http://www.sciencedirect.com/science/journal/01663615
+
+www.elsevier.com/locate/compind
+
+
+
+
+into logistics promises to enable a real-time tracking of material
+flows, improved transport handling as well as an accurate risk
+management, to mention but a few prospects. In fact, one could
+argue that Industry 4.0 in its pure vision can only become reality if
+logistics is capable of providing production systems with the
+needed input factors at the right time, in the right quality and in the
+right place.
+
+
+As promising as the idea of a self-prophesying “Fourth
+Industrial Revolution” may sound at first sight, it is essential to
+remark that there is a multitude of challenges, risks and barriers
+with regard to its implementation. Traditional industry boundaries
+will vanish due to the reorganisation of value creation processes
+and cause severe changes within and across organisations.
+Defining appropriate infrastructures and standards, ensuring data
+security and educating employees are among the issues that need
+to be addressed on the road to Industry 4.0.
+
+
+Unsurprisingly, a huge number of practitioner-oriented articles
+and papers address the opportunities of Industry 4.0 and seek to
+motivate (or even urge) companies to participate in the initiative.
+Although the term Industry 4.0 roots back to Germany’s high-tech
+strategy and thus has received a lot of attention recently, it still
+lacks a precise, generally accepted definition. This situation must
+be considered unsatisfying, especially from a scientific point of
+view.
+
+
+The present paper picks up on this deficit and aims to sharpen
+critically the picture of Industry 4.0 with regard to logistics
+management, since major consequences are expected in this field.
+Based on a theoretical and conceptual ground work, the authors
+select some prominent logistics concepts so as to describe
+potential implications and pitfalls of Industry 4.0 in detail. After
+that, the findings are reflected and discussed with experts in terms
+of practical feasibility.
+
+
+Against this backdrop, our ambitions are reflected by the
+following research question:
+
+
+What are the implications of Industry 4.0 for future logistics
+management? In particular: How may Industry 4.0 affect
+logistics concepts, namely Kanban and Just-in-Time/Just-in-
+Sequence?
+
+
+Current research still lacks consistent knowledge about how the
+“Fourth Industrial Revolution” is going to affect future industries.
+Against this background, we follow a conceptual research
+approach as described by Meredith [6], serving an exploratory
+purpose so as to provide a better understanding of this rather
+undiscovered topic. The research process can be divided into the
+following phases: The initial phase was devoted to narrowing
+down the topic and its scope. This was accomplished first through
+multiple unstructured discussions within the affiliated research
+team of the authors as well as through desk research. Following
+that, the authors conducted a literature review on the topic of
+Industry 4.0 in the second phase. The reason for examining past
+and current literature was twofold: On one hand, the review was
+conducted in order to investigate the background and origin of
+Industry 4.0. On the other hand – with respect to the fact that
+Industry 4.0 has become a buzzword recently but still lacks a
+generally accepted conceptual understanding – it served the
+purpose of identifying its key components and characteristics so as
+to sharpen the picture. In the third and main phase of this paper,
+we try to investigate potential implications and pitfalls of Industry
+4.0 in the field of logistics management and thereupon construct
+and describe a number of scenarios with regard to specific logistics
+concepts. The findings are summarized in propositions. Moreover,
+eight experts in the field of logistics and supply chain management
+are interviewed in order to evaluate the propositions. The final
+phase comprises a (self-)critical review of the research process and
+findings by the authors.
+
+
+With regard to the structure of this paper, four main parts can
+be distinguished: The first section of the paper is devoted to
+introducing and emphasizing the topicality of Industry 4.0.
+Moreover, the aim, research question, structure and methodology
+are covered. Following that, a comprehensive literature review on
+the subject of Industry 4.0 is conducted in the second part so as to
+lay a solid theoretical foundation for the subsequent research. In
+Section 3, two well known logistics concepts are analysed with
+respect to potential Industry 4.0 consequences. Experts from
+different industries are then questioned in order to evaluate the
+findings in terms of practical relevance. The last part of the paper
+comprises a critical review of the core findings and thereupon
+offers suggestions for future research.
+
+
+2. Literature review
+
+
+2.1. Industry 4.0 emergence
+
+
+The industrial sector plays a crucial role in Europe, serving as a
+key driver of economic growth (e.g. job creation) and accounting
+for 75% of all exports and 80% of all innovations [7]. However, the
+European manufacturing landscape is twofold. While Eastern
+Europe and Germany show a constantly growing industrial sector,
+many Western European countries such as Great Britain or France
+have experienced shrinking market shares in the last two decades.
+While Europe has lost about 10% of its industrial share over the past
+20 years, emerging countries managed to double their share,
+accounting for 40% of global manufacturing. A few years ago,
+Germany started thinking about initiatives in order to maintain
+and even foster its role as a “forerunner” in the industrial sector.
+Eventually, the term Industry 4.0 was publicly introduced at the
+Hanover Trade Fair in 2011, presented as part of Germany’s high-
+tech strategy so as to prepare and strengthen the industrial sector
+with regard to future production requirements [8]. While the IoT is
+assumed to take on a leading role in the Industry 4.0 era, Hermann
+et al. [9] found that the IoS will find its way into factories, too. CPS,
+which are able to interact with their environment via sensors and
+actuators, constitute another element of Industry 4.0, since they
+are expected to enable factories to organise and control themselves
+autonomous in a decentralised fashion and in real time [4]. Due to
+their capabilities, these factories are often referred to as “smart
+factories”. Given all these concepts, the difficulty of finding a
+unique and concise definition for Industry 4.0 becomes apparent,
+and it is hardly surprising that opinions among researchers and
+practitioners diverge. Moreover, it is still uncertain how Industry
+4.0 will manifest itself in practice and how much time that will
+take. With respect to a more precise understanding of the topic, we
+now try to clarify the core components of Industry 4.0.
+
+
+2.2. Industry 4.0 key components
+
+
+Hermann et al. [9] identified four Industry 4.0 key components
+based on a review of academic and business publications, using
+different publication databases so as to ensure objectivity. These
+key components are now briefly described.
+
+
+Cyber-physical systems (CPS): Industry 4.0 is characterised by
+an unprecedented connection via the internet or other distributed
+ledgers and so-called CPS, which can be considered systems that
+bring the physical and the virtual world together [10]. More
+precisely, “cyber-physical systems are integrations of computation
+with physical processes. Embedded computers and networks
+monitor and control the physical processes, usually with feedback
+loops where physical processes affect computations and vice
+versa” ([11]; p. 1). In the manufacturing context, this means that
+information related to the physical shop floor and the virtual
+computational space are highly synchronised [12]. This allows for a
+
+
+24 E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+whole new degree of control, surveillance, transparency and
+efficiency in the production process. With regard to their structure,
+CPS have “two parallel networks to control, namely a physical
+network of interconnected components of the infrastructure and a
+cyber network comprised of intelligent controllers and the
+communication links among them” ([13], p. 928). CPS realise
+the integration of these networks through the use of multiple
+sensors, actuators, control processing units and communication
+devices.
+
+
+Internet of things (IoT): The term “internet of things” became
+popular in the first decade of the 21st century and can be
+considered an initiator of Industry 4.0 [14]. “Smart, connected
+products offer exponentially expanding opportunities for new
+functionality, far greater reliability, much higher product utiliza-
+tion, and capabilities that cut across and transcend traditional
+product boundaries” [15]Porter and Heppelmann, 2014; p. 4). Also
+Nolin and Olson [16] note that the IoT “seems to envisage a society
+where all members have access to a full-fledged Internet
+environment populated by self-configuring, self-managing, smart
+technology anytime and anywhere” (p. 361). The IoT is expected to
+open up numerous economic opportunities and can be considered
+one of the most promising technologies with a huge disruptive
+potential. For the purpose of clarification, Fleisch [17] stresses the
+need to distinguish the IoT concept from the “ordinary” internet,
+arguing that “the nerve ends in the IoT are very small, in many cases
+even invisible, low-end and low energy consumption computers
+[ . . . ] whereas the nerve ends of the Internet are full-blown
+computers” (p. 3). Moreover, the number of network nodes in the
+IoT is significantly higher than in the conventional internet
+(“trillions versus billions”). Eventually, literature provides a wide
+range of definitions for the IoT. Some of them are very specific,
+other ones feature a more general character. For pragmatic reasons,
+this paper sticks to a rather comprehensive definition by referring
+to the IoT as a world where basically all (physical) things can turn
+into so-called “smart things” by featuring small computers that are
+connected to the internet [17].
+
+
+Internet of services (Io):SIt is often said that we are living in a
+so-called “service society” these days [18]. With respect to that,
+there are strong indications that, similar to the IoT, an internet of
+services (IoS) is emerging, based on the idea that services are made
+easily available through web technologies, allowing companies
+and private users to combine, create and offer new kind of value-
+added services [19]. It can be assumed that internet-based market
+places of services will play a key role in future industries. Whereas
+from a pure technological perspective, concepts such as service-
+oriented architecture (SOA), software as a service (SaaS) or
+business process outsourcing (BPO) are closely related to the
+IoS, Barros and Oberle [20] propose a broader definition of the term
+service, namely “a commercial transaction where one party grants
+temporary access to the resources of another party in order to
+perform a prescribed function and a related benefit. Resources may
+be human workforce and skills, technical systems, information,
+consumables, land and others” (p. 6).For the purpose of this paper,
+we will follow the latter definition.
+
+
+Smart factory: Up to now, CPS, the IoT and IoS were introduced
+as core components of Industry 4.0. It must be noted that these
+“concepts” are closely linked to each other, since CPS communicate
+over the IoT and IoS, therefore enabling the so-called “smart
+factory”, which is built on the idea of a decentralised production
+system, in which “human beings, machines and resources
+communicate with each other as naturally as in a social network”
+([14]; p. 19). The close linkage and communication between
+products, machinery, transport systems and humans is expected to
+change the existing production logic. Therefore, smart factories can
+be considered another key feature of Industry 4.0. In the smart
+factory, products find their way independently through production
+
+
+processes and are easily identifiable and locatable at any time,
+pursuing the idea of a cost-efficient, yet highly flexible and
+individualised mass production. [14] note that smart factories “will
+make the increasing complexity of manufacturing processes
+manageable for the people who work there and will ensure that
+production can be simultaneously attractive, sustainable in an
+urban environment and profitable” (p. 21). Hence, the potentials
+that might come along with smart factories are expected to be
+huge. It is important to understand that not only production
+processes but also the roles of employees are expected to change
+dramatically. Spath et al. [2] expect employees to enjoy greater
+responsibility, to act as decision makers and to take on supervising
+tasks instead of driving forklifts, for instance. In the same context,
+some critics have recently pointed out that the automated and self-
+regulating nature of the smart factory might cause severe job
+destruction. However, hardly any reliable study supports that fear.
+
+
+Beyond these key components, there is an increasing set of
+further Industry4.0-technologies in a broader sense, such as
+wearables (e.g. smart watches, glasses or gloves), augmented
+reality applications, autonomous vehicles (incl. drones), distribut-
+ed ledger systems (e.g. the blockchain1) or even big data analytics.
+
+
+As a first preliminary summary, we define Industry 4.0 as
+follows:
+
+
+! Products and services are flexibly connected via the internet or
+other network applications like the blockchain (consistent
+connectivity and computerization).
+
+
+! The digital connectivity enables an automated and self-
+optimised production of goods and services including the
+delivering without human interventions (self-adapting produc-
+tion systems based on transparency and predictive power).
+
+
+! The value networks are controlled decentralised while system
+elements (like manufacturing facilities or transport vehicles) are
+making autonomous decisions (autonomous and decentralised
+decision making).
+
+
+With respect to logistics management, Industry 4.0 is expected
+to achieve opportunities in terms of decentralisation, self-
+regulation and efficiency.
+
+
+3. Industry 4.0: implications for logistics management
+
+
+3.1. Approach
+
+
+We now aim to answer the question whether logistics
+management might be affected by Industry 4.0. Thereby, we
+follow the conceptual research approach suggested by Meredith
+[6]. Our argumentation is based on a simple logistics-oriented
+Industry 4.0 application model as described in Fig. 1. The model
+encompasses two dimensions:
+
+
+(1) Physical supply chain dimension: Autonomous and self-con-
+trolled logistics sub systems like transport (e.g. via autono-
+mous trucks), turnover handlings (e.g. via trailer unloading or
+piece picking robots) or order processing (e.g. via smart
+contracts on the blockchain technology) are interacting among
+each other.
+
+
+(2) Digital data value chain dimension: Machine and sensor data are
+collected at level of the “physical thing” along the entire
+
+
+1 The blockchain is a distributed, public ledger which is collectively kept up to
+date according to strict rules and general agreement. The technology behind solves
+a well-known computer science problem called "The General Byzantine Problem”
+described by [34]. The blockchain enables to reach a consensus in a system with
+potentially malicious actors and without a central authority ([35]; p. 82).
+
+
+E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34 25
+
+
+
+
+
+
+
+
+
+
+physical end-to-end supply chain. Via a connectivity layer the
+gathered data is provided for any kind of analytics (e.g. in the
+cloud), possibly resulting in potential value-added business
+services.
+
+
+Out of this two-dimensioned application model, three customer
+value components are expected. First, the “value of availability”,
+meaning making products and services available to the customer
+via autonomous delivering. Value creation through availability of
+goods or services is the main added value of logistics activities and
+services. Second, “value of digital integration” arises through a
+permeable transparency and traceability along the supply chain.
+Furthermore, order processing systems are interconnected,
+facilitating seamless business executions (e.g. object self-service,
+remote usages or condition monitoring). Third, consumption
+normally exceeds the classical point-of-sale (POS), but this does
+not mean that the supply chain ends at this point. There exist
+several IT-based service options going beyond the simple
+distribution of products or physical services (=“value of digital
+servitization”). Aside digitally charged things where physical
+products are “charged” with additional digital services, the data
+itself creates value outside the original use case (“sensor as a
+service”).
+
+
+The units of analysis are common and well established logistics
+concepts. It is assumed that these concepts will pass through a
+digital transformation, too. Thus, the following needs to be kept in
+mind: First of all, it is not possible to consider all ideas, concepts
+and elements of Industry 4.0. Consequently, the scenarios only
+comprise a selection of those. Moreover, the described effects do
+no feature an exclusive character, meaning that if it is suggested
+that Industry 4.0 may affect concept x (e.g. cross-company Kanban)
+in a particular way, it might also affect concept y (e.g. JIT/JIT) in a
+
+
+similar way. Given these constraints, the authors do not seek to
+provide generally valid statements about how Industry 4.0 will
+affect logistics management, but rather aims to illustrate and
+discuss “some” potential use cases. Based on a comprehensive
+literature review, the main process steps and activities (phases) of
+the selected logistics concepts were elaborated. For each of these
+phases, potential implications of Industry 4.0 were identified. Here,
+in each case the central characteristics and components of Industry
+4.0 are mentioned. Furthermore, real world examples and
+approaches were identified for illustrative reasons if possible.
+The central findings were further summarized in propositions.
+Finally, the results were subsequently reflected again with the
+experts. If it has been appropriate and necessary, adjustments were
+made in formulating. A critical discussion completes the explor-
+ative research.
+
+
+3.2. Selection of logistics concepts for the industry4.0 analysis
+
+
+Our selection is based on three aspects. First, the concepts
+should comprise a cross-organisational component and therefore
+be closely related to logistics and supply chain management.
+Recently, articles and papers often focus on specific “intra-
+logistics” areas – e.g. production logistics (e.g. [21,22] or [23] –
+and hereby ignore cross-organisational aspects. Second, the
+concepts have to be considered relevant to the practical world
+in terms of acceptance and distribution. The authors used the
+publication database EBSCOhost as well as the scholarly literature
+search engine Google Scholar so as to underline the importance of
+these concepts. The databases were searched with respect to
+publications with a clear reference to the concepts in either their
+title or abstract. Given the search string results displayed in Table 2,
+four concepts – namely cross-company-oriented Kanban, JIT/JIS,
+
+
+Fig. 1. A logistics-oriented Industry 4.0 application model.
+(Source: According to [39; p. 7])
+
+
+Table 1
+Search String Results.
+
+
+Logistic concepts
+(Search Term(s))
+
+
+Number of Publications in which Search Term(s) occurred in Title or Abstract
+
+
+EBSCOhost
+(academic journals only)
+
+
+Google Scholar
+(Title only)
+
+
+Just-in-Time (JIT)/Just-in-Sequence (JIS) 1636 7109
+Kanban (cross-company-oriented approach) 1029 2200
+Vendor Managed Inventory (VMI) 539 799
+Cross-docking 165 565
+
+
+26 E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34
+
+
+
+
+
+
+VMI and Cross-docking – are localized. Third, the concepts should
+be susceptive for fully automated implementations. In such a case
+the machines will directly communicate and transfer materials
+with each other without involving any visible intervention or
+human work. The concepts cross-company-oriented Kanban and
+JIT/JIS are two important operational-level techniques which may
+be affected by new technologies, such as IoT or autonomous
+transport. They seem to be more appropriate to be discussed in the
+context of Industry 4.0 as compared to those tactical-level
+approaches such as VMI and Cross-docking (Table 1).
+
+
+3.3. Just-in-Time (JIT) and Just-in-Sequence (JIS)
+
+
+3.3.1. Backdrop
+Just-in-Time (JIT) is a prominent and widely accepted concept
+
+
+in production and logistics, especially in the automotive industry.
+Similar to the previously discussed Kanban concept, JIT follows a
+lean approach and is strictly pull oriented, meaning that material is
+only produced and supplied in case of an actual demand. JIT
+primarily focuses on the supplier-buyer relationship and can
+therefore be considered a cross-company approach. Its main
+objective is to realise a zero- or low-stock supply system.
+Moreover, JIT seeks for a demand-tailored realisation of goods
+exchange processes within and across companies as well as short
+delivery respectively cycle times. Finally, JIT aims to increase
+overall supply chain flexibility and agility [29]. However, the
+implementation of JIT systems is far from trivial. First of all,
+production planning needs to be precisely aligned to actual
+demand. Furthermore, a high level of integration with regard to
+material and information flows needs to be established, since there
+is only little or no inventory kept as a buffer, e.g. in case material is
+directly shipped from the supplier’s production facility to the
+buyer’s production facility without temporary storage. Against this
+backdrop, a close coordination between suppliers and buyers is a
+prerequisite for success [30]. Finally, it has to be mentioned that a
+JIT strategy is primarily suited in case of high-value products that
+are consumed on a constant, well-predictable basis.
+
+
+Whereas – in short – JIT calls for the right material to be
+supplied at the right time and in the right place, the so-called Just-
+in-Sequence (JIS) concept goes one step further by ensuring that
+the material also arrives in the right sequence with respect to its
+further processing. Hence, incoming material does not have to be
+sorted by the buyer anymore. JIS can therefore be considered an
+enhancement of JIT, which means that, apart from additional
+benefits (no sorting etc.), requirements are even higher, especially
+with regard to transport planning.
+
+
+3.3.2. Potential implications of industry 4.0
+JIT/JIS systems generally pass the following process steps and
+
+
+activities: (i) production planning, (ii) production order, (iii)
+disposition and production, as well as (iv) delivery. Table 2
+illustrates how JIT/JIS systems may be impacted by Industry 4.0.
+Since JIT/JIS particularly rely on planning accuracy, information
+transparency and well-coordinated transport processes, a special
+focus is put on these areas.
+
+
+Fig. 2 again illustrates the typical process steps and activities of
+JIT/JIS systems, highlighting the main implications of Industry4.0.
+
+
+As production planning is crucial in JIT/JIS systems, the
+increasing use of Auto-ID technologies has the potential to
+facilitate production planning or even make it futile (step 1).
+With respect to the coordination between supply chain actors,
+cloud or distributed ledger technology might enable the creation of
+a virtual ERP system for the whole supply chain, so that all actors
+can share and act upon the same information. Bullwhip effects may
+therefore be avoided or reduced (steps 2 & 3). Moreover, transport
+processes, which are also highly important in JIT/JIS so as to ensure
+delivery at the right time, might be coordinated in an end-to-end
+fashion across the whole supply chain (step 4). In conclusion,
+Industry 4.0 provides the opportunity to improve JIT/JIS systems,
+since it may enable actors to exchange and act upon real-time
+information in a coordinated end-to-end fashion.
+
+
+3.3.3. Derivation of JIT/JIS-related propositions
+Now, the key implications of Industry 4.0 with regard to JIT/JIS
+
+
+are discussed with two supply chain management experts and
+propositions (PP) were derived.
+Interviewed Experts Industry 4.0 Related Knowledge &
+
+
+Experience
+
+
+Expert 3: Supply Chain Specialist at a
+Medical Device Company
+
+
+Moderate knowledge, based on
+literature
+
+
+Expert 4: Project Leader Supply Chain
+and Logistics at a Commercial
+Vehicle Technology Company
+
+
+Moderate knowledge, mainly based on
+literature and discussions with
+colleagues
+
+
+PP1JIT/JIS: Industry 4.0 will enable an increasingly automated,
+decentralised and more accurate demand planning and forecasting
+in JIT/JIS systems, since material consumption and material flows –
+e.g. inbound and outbound flows – can be tracked precisely and
+close to real time through the use of CPS and Auto-ID systems.
+
+
+The experts partially agree with the proposition. Expert 3
+mentions that one has to differentiate between long-term and
+short-term demand planning. As far as the latter is concerned, he in
+fact believes that a real-time tracking of material flows and
+consumption can improve demand planning. However, with
+respect to long-term demand planning – especially in case of
+products with long replenishment times – Expert 3 does not expect
+real-time information to have a significant potential, arguing that it
+does not matter whether one gets a particular information on day x
+or on day x + 1, since replenishment will take a long time anyway.
+Expert 4 agrees with this argument and adds that in the
+automotive industry (where JIT/JIS is primarily applied) informa-
+tion transparency is already on a high level, meaning that there is
+no substantial need for real-time data.
+
+
+PP2JIT/JIS: Industry 4.0 will enable a high degree of process
+integration along the supply chain. Virtual, e.g. cloud-based ERP or
+distributed ledger systems for the whole supply chain will increase
+end-to-end transparency and automated execution of JIT/JIS
+systems. Against this backdrop, processes will not be planned
+and executed individually by single actors anymore, but in an
+integrated fashion across the supply chain.
+
+
+Expert 3 agrees with the statement, arguing that a uniform
+system, which integrates all supply chain actors, offers potential
+with regard to overall coordination. He further notes that cloud
+computing might indeed be a promising approach, since cloud
+
+
+Table 2
+Characteristics of Industry 4.0 Scenario for Just-in-Time/Just-in-Sequence.
+
+
+Just-in-Time/Just-in-Sequence: Process
+Steps and Activities
+
+
+Industry 4.0 Scenario Industry 4.0
+Characteristics & Components
+
+
+Selected Real-World Examples and
+Approaches
+
+
+1. Production planning
+Precise planning of production based
+
+
+Through the increasing traceability of
+material and products that are equipped
+with Auto-ID technology, production
+
+
+Real-time tracking of material flows
+Supply chain integration
+
+
+Smart Sales and Distribution, Smart
+Shopfloor & Planning by Fistec enables
+companies to track material flows (in-
+
+
+E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34 27
+
+
+
+
+
+
+Table 2 (Continued)
+
+
+Just-in-Time/Just-in-Sequence: Process
+Steps and Activities
+
+
+Industry 4.0 Scenario Industry 4.0
+Characteristics & Components
+
+
+Selected Real-World Examples and
+Approaches
+
+
+on (future) demand patterns
+respectively forecasts.
+
+
+planning may be far more accurate in
+Industry 4.0, since material flows – e.g.
+inbound and outbound flows at a selling
+point – can be tracked in real time and
+therefore allow for a precise deduction
+of demand patterns. Moreover,
+deterministic production planning
+might shrink to a minimum or even
+become futile, if material flows can be
+tracked precisely. If a product is
+consumed or sold at a particular point in
+the supply chain, all relevant players
+(suppliers) get an immediate
+notification and adjust their production
+according to the current demand. In this
+case, so-called bullwhip-effects might
+be avoided or mitigated, since all players
+would be able to act on the same (real-
+time) information.
+
+
+and outbound) closely via mobile
+devices and allows for a more effective
+and comfortable use of ERP systems [25;
+p. 70].
+
+
+2. Production order
+Based on the production planning, the
+buyer sends an order to the supplier
+(s), requesting the exact amount of
+material that is required.
+
+
+Industry 4.0 promises highly integrated
+material and information flows across
+the whole supply chain. This may result
+in more efficient JIT/JIS-systems, since
+e.g. real-time consumption of products
+may automatically trigger supply orders
+or inform suppliers about the
+consumption. Hence, production orders
+are aligned with actual consumption,
+meaning that as soon as a particular
+product is consumed or required, a re-
+supply order is released. Full
+transparency across the supply chain
+could be realised through e.g. a cloud-
+based ERP system or a distributed ledger
+system (blockchain technology) that
+integrates the whole supply chain
+respectively its actors. If demand arises
+at a particular point in the supply chain,
+all relevant suppliers might get an
+immediate order to produce the needed
+components.
+
+
+! Digital reflection of supply chain
+activities and processes
+
+
+! Integrated material and information
+flows
+
+
+! Supply chain integration through
+cloud or blockchain technology
+
+
+Ultriva’s Collaborative Supply Portal
+enables full visibility into demand and
+supply and improves collaboration
+between supply chain partners through
+the use of a single platform for demand
+signals, order management and goods
+shipment [27].
+
+
+3. Disposition & production
+Consumption (by the buyer) is
+transmitted in real time and triggers
+the supplier’s production.
+
+
+Suppliers get real time information and
+updates consumption at a buyer’s site
+and are therefore able to improve their
+production planning, since consumption
+data is transmitted immediately and
+continuously (not discretely). As a result,
+suppliers gain additional flexibility (time
+advantage) and JIT/JIS cycle times might
+be reduced.
+
+
+! Decentralised decision-making/self-
+regulation
+
+
+! CPS
+! Connected plants and production
+
+
+facilities
+
+
+N.A.
+
+
+4. Delivery
+The supplier commits to deliver the
+right material at the right time, in the
+right place and – in case of JIS – in the
+right sequence with regard to the
+further processing of the material.
+
+
+Intelligent routing systems promise
+huge potential with regard to a just-in-
+time delivery. Telematics units for
+instance may be used to track the
+freight’s location or state-related data
+such as air pressure, temperature etc.
+during transportation and advise the
+carrier (e.g. the truck driver) with
+information regarding traffic or weather,
+enabling her/him to adjust the route. In
+case of fully transparent and integrated
+supply chains, delivery respectively
+transport processes might be optimised
+across the entire supply chain.
+Simulation tools might help to calculate
+adequate transportation given the
+specific order requirements (e.g. timing).
+Transport processes may therefore not
+be planned individually anymore, but in
+an integrated end-to-end fashion. In the
+long run, the collection and delivery
+could fulfilled by autonomous and self-
+driving trucks.
+
+
+Condition monitoring
+Simulation of processes
+Supply chain integration
+Integrated mobile information systems
+
+
+MAN-telematics and Volkswagen’s Car-
+to-X inform drivers about traffic
+conditions and allow traffic participants
+to communicate with each other
+through the use of position-based
+routing technologies and algorythms
+[26,28]
+
+
+Sources: Banyai [24], Kutschenreiter [25], MAN [26], Ultriva [27], Volkswagen [28]
+
+
+28 E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34
+
+
+
+
+
+
+solutions are simple to use respectively provide an easy interface to
+its users. In contrast, Expert 4 believes that the idea of an
+integrative end-to-end perspective on supply chains does not
+make much sense. He argues that today’s supply chains are far too
+complex and involve too many actors so as to manage all of them in
+an integrated manner on one single system. Against this backdrop,
+he suggests to put the focus on crucial parts or fragments of the
+supply chain and not on the supply chain as a whole.
+
+
+3.4. Cross-company Kanban
+
+
+3.4.1. Backdrop
+The Kanban concept originated in Japan and, generally
+
+
+speaking, can be considered a scheduling system in manufacturing.
+Its core characteristic is a rigid pull-orientation of the production
+processes, which is why terms such as pull concept or pull system
+are often used synonymously. Henderson [31] describes Kanban as
+follows: “Kanban is basically the system of supplying parts and
+materials just at the very moment they are needed in the factory
+production process so that those parts and materials are instantly
+put to use” (p. 6). To do so, the station which has run out of material
+uses so-called Kanbans (Japanese word for billboard/signboard) so
+as to signal the precise quantity of material that needs to be
+supplied. The essential idea behind this concept is that the number
+of Kanbans respectively bins or containers determines the
+maximum inventory level within a “loop” between a supplying
+and a receiving station. The supplying station therefore only starts
+producing when the receiving station indicates an actual demand
+signal. Kanban, which is based on the idea of self-regulating loop
+systems, allows for a systematic reduction of inventory level and
+costs. In addition, a strictly demand-oriented production of rather
+small lot sizes alleviates so-called bullwhip effects, one of the
+major challenges in supply chain and logistics management. Yet,
+Kanban systems are suitable only if fluctuations in demand are
+rather small, both within the actual production system and with
+regard to the (end) customer. Furthermore, workforce capacity
+must be coordinated with respect to actual production needs.
+Therefore, flexible working time models might be required. Finally,
+especially cross-company Kanban systems only run successfully if
+high standards with regard to information flows and product
+quality can be ensured. Inaccuracies and mistakes pose a high risk
+and should therefore be avoided or at least be reduced to a
+minimum (“zero-defect policy”), since there is no or only little
+inventory kept in Kanban systems.
+
+
+3.4.2. Potential implications of industry 4.0
+Kanban systems across company boarders include the following
+
+
+process steps and activities: (i) demand assessment, (ii) Kanban
+signal, (iii) disposition and production, (iv) collection and delivery,
+as well as (v) goods receipt. Table 3 illustrates potential
+opportunities and consequences of Industry 4.0 for Kanban along
+the process steps.
+
+
+Fig. 3 depicts the previously discussed implications and
+illustrates what a Kanban cycle might look like in the context of
+Industry 4.0. Following that, the main results are summarized
+concisely.
+
+
+In traditional Kanban systems, demand respectively replenish-
+ment quantity is usually assessed through the “state” of bins,
+meaning that empty bins trigger a replenishment process. Due to
+the use of technologies such as RFID and sensor systems, demand
+assessment might follow a real-time approach in the future with
+only little or no need for human participation (step 1). In addition,
+material requirements may be digitally forwarded, whereas
+demand is signalled through (physical) Kanban cards or bins in
+conventional systems (step 2). Due to this precise and real-time
+oriented information flow enabled by the use of CPS (e.g.
+“intelligent bins”), suppliers may gain additional flexibility with
+regard to their replenishment activities (step 3). Furthermore,
+milkruns might follow a strictly demand-driven logic and therefore
+become highly dynamic, resulting in more efficient collection and
+delivery processes (step 4). Besides that, Auto-ID technology
+facilitates goods receipt processes (step 5).
+
+
+3.4.3. Derivation of Kanban-related propositions
+Based on the findings, we derived a number of propositions
+
+
+(PP), comprising the key implications of Industry 4.0 on the
+concept of Kanban. In order to discuss and evaluate the relevance
+and feasibility of these propositions, again expert interviews were
+conducted.
+Interviewed Experts Industry 4.0 Related Knowledge &
+
+
+Experience
+
+
+Expert 1: Supply Chain Strategy
+Expert at an Engineering and
+Electronics Company
+
+
+Profound knowledge, mainly based on
+literature, symposia and expert
+discussions
+
+
+Expert 2: Innovation Manager at a
+Logistics Solution Provider
+
+
+Mainly theoretical and conceptual
+knowledge
+
+
+Fig. 2. Modified Just-in-Time/Just-in-Sequence cycle according the Industry 4.0 Scenario.
+
+
+E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34 29
+
+
+
+
+
+
+Table 3
+Characteristics of Industry 4.0 Scenario for cross-company Kanban.
+
+
+Kanban: Process Steps & Activities Industry 4.0 Scenario Industry 4.0
+Characteristics &
+Components
+
+
+Real-World
+Examples/
+Approaches
+
+
+1. Demand assessment
+Demand is assessed at a particular workstation,
+based on the available respectively remaining
+input components and workpieces, which are
+usually stored in Kanban containers or bins.
+
+
+In an Industry 4.0 scenario, the use of Auto-ID
+technology – e.g. RFID tags and scanning
+devices – may enable an accelerated, more
+precise demand assessment process, since less
+manual interaction is required (e.g. for
+counting the remaining material). Human
+interaction may even become futile in this
+process if inventory levels are measured
+automatically by autonomous systems, e.g.
+RFID-reading shelves. Kanban bins might even
+be equipped with sensor systems that are
+capable of tracking fill levels and other
+characteristics – such as temperature or air
+pressure in case of sensitive material " in real
+time. Based on this information, bins might
+perform actions autonomously, e.g. release a
+replenishment order or initiate a depletion of
+bins (executed by actuators). In this scenario,
+bins can be considered complex CPS.
+
+
+CPS
+Human-Machine
+interaction
+Real-time data
+capturing and
+exchange
+Traceability and
+transparency
+(Auto-ID)
+
+
+Würth Industry Service’s iBin“ delivers
+accurate fill level and order information
+through the use of an integrated camera and
+releases supply orders automatically through
+RFID-technology. The ‘Bayerischer
+Forschungsverbund’ has developed a thermal
+container FORFood that senses and transmits
+information on air temperature, moisture,
+vibrations etc. ([3]; p. 306–307).
+
+
+2. Kanban signal
+Demand signals are transmitted (physically) via
+“encoded” bins or Kanban cards, which contain
+specific information regarding the required
+material (e.g. needed quantity).
+
+
+In the era of Industry 4.0, demand will be
+signalled digitally. Electronic Kanban systems
+(e-Kanbans) have been in use for several years,
+meaning that sensors recognise the fill level of
+bins. This information may be directly fed into
+the material planning system, which then
+sends a supply order respectively signal to the
+supplier in case the bins are empty. Kanban
+signals might even be transmitted in real time,
+meaning that the cyber-physical bins (as
+described above) transmit their fill levels
+directly to the supplier. Therefore, the supplier
+gets updated on material consumption in real
+time. In this scenario, Kanban signals are not
+released on a cyclical or event-driven basis
+anymore (e.g. when an employee realises that
+bins are empty).
+
+
+Vertical
+integration (from
+field level to
+enterprise level)
+CPS
+Real-time data
+exchange
+
+
+N.A.
+
+
+3. Disposition & production
+The supplier receives demand signals via Kanban
+cards or bins (predefined lot-size!) and thereupon
+triggers production.
+
+
+Since consumption data is transmitted closer
+to real time and in a continuous fashion (not
+event driven or cyclically), suppliers get a time
+advantage with regard to their production
+(planning). This may increase suppliers’
+flexibility and ability to react, e.g. in case of
+sudden fluctuations in demand (which often
+present a challenge to conventional Kanban
+systems). If production facilities of buyers and
+suppliers are able to communicate directly
+with each other, cyber-physical bins might
+initiate production at the buyer’s site without
+any human interaction. Consumption (by the
+buyer) and production (by the supplier) might
+therefore be closely aligned and allow for a
+reduction of cycle times.
+
+
+Decentralised
+decision-
+making/self-
+regulation
+CPS
+Connected
+plants/
+production
+facilities
+
+
+L-Mobile’s RFID Kanban enables full visibility
+of all processes within a Kanban system
+through the use of RFID technology (orders,
+bins, material, workpieces, machines) and
+initiates supply automatically [33].
+
+
+4. Collection & delivery
+Collection and delivery often follows a so-called
+milk run approach, meaning that the material is
+collected and delivered in round trips, which are
+commonly initiated on an interval basis (e.g. once
+a day) with a fixed route.
+
+
+Industry 4.0 may enable a more efficient
+delivery of material. Due to the increasing
+digitization of material flows, delivery
+processes may be simulated with respect to
+adjacent processes, e.g. taking remaining
+production time into consideration. This is
+especially helpful in case of a wide range of
+products with different production cycles. The
+result would be a highly dynamic milkrun that
+is not time-driven (and therefore often not
+used to full capacity) but demand-driven.
+With respect to internal material flows, so-
+called modular material flow systems might
+come into play, enabling a highly flexible and
+autonomous transport of material. Telematics
+units may furthermore facilitate cross-
+organisational delivery respectively transport
+processes by e.g. assisting truck drivers with
+information regarding traffic etc., allowing
+them to optimise their route. In the long run,
+the collection and delivery could be fulfilled
+by autonomous and self-driving trucks.
+
+
+(Virtual)
+Simulation of
+processes
+Digital reflection
+of factory
+Autonomous
+processes
+Integrated
+mobile
+information
+systems
+
+
+The Bremer Institut für Produktion und
+Logistik [32] has developed a dynamic
+milkrun that follows a strictly demand
+approach and helps reduce wastage.
+Moreover, its celluveyor conveyor system
+transports material through the factory
+autonomously.
+
+
+30 E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34
+
+
+
+
+
+
+PP1Kanban: Collection and transmission of information within
+cross-company Kanban systems will be of an increasingly
+decentralised, automated and autonomous nature in an Industry
+4.0 environment, with little or no human interaction through the
+integration of CPS and the use of Auto-ID technologies such as
+RFID. Especially labour-intensive activities (e.g. stocktaking) will
+be supported by these technologies (e.g. robotics) and will run fully
+autonomously in the foreseeable future.
+
+
+Both experts agree with the proposition. Expert 1 observes an
+increasing digitalization and automation in today’s value chains
+and in logistics. With regard to Kanban, he notes that systems such
+as the intelligent bin (iBin) represent typical Industry 4.0
+applications, running autonomously and following a decentralised
+control logic. Expert 2 adds that the organisation he works for
+strongly engages in the development of such systems and
+technologies. However, both experts are unsure whether the
+vision of fully autonomous processes is feasible. Expert 2 notes that
+there exist a variety of serious challenges that need to be overcome
+first. Hence, he predicts that robots, CPS etc. will rather coexist
+with than replace logistics personnel on the shop floor.
+
+
+PP2Kanban: Since CPS and the IoT enable a real-time or close to
+real-time exchange of information between buyers and suppliers,
+flexibility and ability to react – e.g. in case of sudden fluctuations in
+demand – will increase in Kanban systems.
+
+
+Expert 1 agrees with the proposition, arguing that market
+volatility will continue to increase in the future and that demand
+patterns will become more and more difficult to predict, which
+means that companies need to improve their flexibility in order to
+fulfil demand. According to him, the Industry 4.0 initiative
+particularly aims to provide solutions to enable companies to
+meet these requirements. Expert 2 is in support of this
+argumentation, noting that the ubiquitous availability of data
+gained and provided by CPS will increase flexibility within Kanban
+cycles. Yet, Expert 2 also mentions that data security might be a
+critical issue, arguing that many companies may have concerns
+with regard to potentially confidential data that could be revealed
+to other companies.
+
+
+PP3Kanban: Due to the high degree of integration and informa-
+tion sharing between suppliers and buyers, Kanban systems will
+follow a strictly demand-oriented approach in the future, resulting
+in dynamic, more efficient milkruns and shortened cycle times.
+
+
+Both experts are in complete agreement with P3. However,
+Expert 2 notes that – from a practitioner’s point of view – it
+remains unclear whether the potential benefits from Industry 4.0
+will compensate for the (substantial) investments that are required
+so as to make companies “ready” for Industry. Nevertheless, both
+experts predict that Industry 4.0 will increase the efficiency of
+Kanban cycles.
+
+
+Table 3 (Continued)
+
+
+Kanban: Process Steps & Activities Industry 4.0 Scenario Industry 4.0
+Characteristics &
+Components
+
+
+Real-World
+Examples/
+Approaches
+
+
+5. Goods receipt
+The buyer receives and controls the material.
+
+
+Auto-ID technologies may facilitate and
+accelerate goods receipt processes. Employees
+may use a scanning device so as to identify and
+control incoming material respectively bins,
+which are equipped with Auto-ID tags.
+Whereas the use of scanning devices still
+requires human interaction, one might also
+install gate control systems that automatically
+identify incoming material and control it with
+regard to the respective order. In case of any
+defects (e.g. if delivered quantity does not
+match required quantity), an employee might
+get immediately notified via her/his cell
+phone or tablet that is connected to the ERP
+system.
+
+
+Human-Machine
+interaction
+Autonomous
+processes
+Vertical
+integration
+
+
+Fistec’s Smart Warehouse/Mobile/Sales and
+Distribution facilitates the control material
+flows (e.g. inbound and outbound flows at a
+plant) via mobile devices ([25]; p. 70).
+
+
+Sources: BIBA [32], Kutschenreiter [25], L-Mobile [33], Bauernhansl et al. [3].
+
+
+Fig. 3. Modified cross-company Kanban cycle according the Industry 4.0 scenario.
+
+
+E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34 31
+
+
+
+
+
+
+3.5. Additional findings
+
+
+In addition to the concept-related propositions discussed in the
+preceding sections, all experts were also asked to state their
+opinion with regard to some concept-independent, generic
+propositions.
+
+
+PP1Generic: Industry 4.0 will cause a decoupling of the strategic
+and the operative level of logistics management. While active
+human decision making will still be required on the strategic level
+(e.g. supplier selection, site selection), the operative level (e.g.
+picking, loading) will be characterised by autonomously acting
+entities (i.e. CPS), following a decentralised decision-making
+approach.
+
+
+Most of the experts agree with the statement that the degree of
+automation and autonomy on the operative level of logistics
+management will increase over the next years, meaning that
+activities such as picking, loading and stocktaking will mostly be
+executed by intelligent CPS. Human interaction on this level will
+mainly be limited to control respectively monitoring activities. In
+this sense, the majority of the interviewed experts expect Industry
+4.0 to primarily manifest itself on the operative level. Yet, some of
+the experts assume that changes on the operative level will likely
+cause changes on the strategic level of logistics management, too. If
+e.g. intelligent CPS replace human workforce in the manufacturing
+process, certain products may not be produced in low-wage
+countries anymore, which means that entire supply chains may
+shift geographically, therefore affecting the strategic level of
+supply chain and logistics management (e.g. choice of location).
+However, the questioned experts see the majority of implications
+on the operative level, as noted above.
+
+
+PP2Generic: In the future, logistics processes and activities will be
+increasingly coordinated in an end-to-end supply chain fashion,
+meaning that actors will be loosely coupled into cross-network
+platforms (e.g. cloud-based ERP or distributed ledger systems and
+“logistics mall”). The efficiency and the flexibility of networks will
+therefore increase.
+
+
+The experts indeed expect an increasing cross-organisational
+coordination of logistics processes and activities in the future,
+enabled by the digitization of processes and technologies that
+facilitate this form of collaboration. Expert 4 underlines this
+argument, noting that leading companies such as SAP are strongly
+engaged in the development of cross-organisational platforms in
+term of IoS. However, multiple experts express their concern
+whether a “real” end-to-end integration of supply chains is
+feasible, noting that there exists a variety of barriers. An Expert
+notes that in the automotive industry, for instance, integration of
+suppliers, logistics service providers (LSPs) and buyers is already
+on a very high level. He therefore doubts that actors are willing to
+invest (substantially) into new solutions or platforms or technolo-
+gies (such as the blockchain) that might render marginal benefits
+only.
+
+
+As far as the allocation of logistics services via a market place
+(e.g. cloud-based “logistics mall”) is concerned, the majority of the
+experts are uncertain in terms of feasibility. Two experts argue that
+logistics services are often very specific, requiring a close and
+trustful relationship between the involved actors. Hence, these
+services may not be exchanged easily and therefore do not really fit
+the idea of a “logistics mall”. Yet, the experts admit the potential of
+a market place model when it comes to standardised logistics
+services, e.g. transportation from point A to point B without any
+specific requirements (e.g. air pressure, temperature etc.).
+
+
+4. Discussion
+
+
+The first cluster of the paper was dedicated to the fundamentals
+of Industry 4.0. A brief literature review showed that there is no
+
+
+commonly agreed-upon definition and understanding of the
+approach yet. This finding was also confirmed by the interviews
+that were conducted later on. Whereas some of the questioned
+experts are convinced that the Fourth Industrial Revolution will
+change existing industries significantly, others argue that Industry
+4.0 is just a collective term for technologies and concepts that have
+been known and applied for quite some time. According to its
+promotors, the Industry 4.0 initiative aims to prepare the (German)
+industry with respect to the future of manufacturing, which will be
+characterised by e.g. an individualisation of products, an increasing
+integration of customers and (business) partners into the value
+creation process and a mergence of the virtual and physical world
+through CPS, IoT an IoS. Yet, this description is quite vague and fails
+to outline the constituent characteristics and features of Industry
+4.0. Is it the use of CPS in an industrial context or the combination
+of CPS, IoT and IoS? Or is it the digitization of value creation
+processes through technologies such as RFID, cloud computing and
+3D printing? Or is it the decentralised and autonomous production
+logic?
+
+
+In consideration of this theoretical and conceptual deficit, there
+might be a risk that Industry 4.0 becomes a so-called management
+fashion, which is a term referring to management concepts that
+relatively quickly gain large shares in the public management
+discourse [36]. However, management fashions usually fail to gain
+practical relevance in the long run, meaning that they fade under
+the weight of unfulfilled promises after a period of time [37].
+Management fashions often evolve around highly topical issues
+and result in a substantial number of publications, workshops and
+conferences. Furthermore, management fashions are frequently
+used by consulting companies as an instrument to boost demand.
+In fact, it could be argued that Industry 4.0 fits some of the criteria
+of a typical management fashion. Within a relatively short period
+of time, the term has undoubtedly become a catchword and – in
+the authors’ opinion – has partially fuelled excessive expectations.
+The fast growing number of articles, workshops etc. further
+underlines the popularity of Industry 4.0. Yet, a large part of those
+publications do not meet scientific requirements, which is another
+characteristic of management fashions, as Abrahamson [38] notes.
+This paper, just like many others, has sought to come up with
+arguments so as to demonstrate the opportunities and potentials
+of Industry 4.0. Hence, we are convinced that Industry 4.0
+constitutes a sustainable concept and not just another manage-
+ment fashion. However, we plead for an objective, objectified and
+“less hyped” handling with the topic. This primarily includes the
+critical reflection of the potentials and promises.
+
+
+The paper at hand is highly explorative in nature. We chose this
+approach because of the fact that the Industry 4.0 concept is still in
+its infancy. The interpretation and evaluation of the interviews
+turned out to be vague due to the fact that the interviewees’ states
+of knowledge and experience varied greatly. Matters were
+complicated further by the fact that some of the experts were
+very enthusiastic about Industry 4.0, whereas others revealed a
+sceptical or even negative attitude. However, most of the
+questioned experts stated that Industry 4.0 has potential in the
+field of logistics management. This perception was supported by
+the fact that the majority of experts agreed with the opportunities
+that were described in the scenarios and propositions. Yet, some of
+the experts expressed doubts with regard to the practical
+feasibility of the scenarios. Apart from the implementation barriers
+that are usually mentioned in the literature, such as data security
+or standardisation of infrastructure, the experts perceive the
+increasing complexity of production and cross-organisational
+logistics networks as a critical barrier. This is quite interesting,
+since the Industry 4.0 initiative – by definition – aims to prepare
+and enable industries to deal with this increasing complexity.
+Another noteworthy takeaway from the interviews is that some of
+
+
+32 E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34
+
+
+
+
+
+
+the experts question the revolutionary character of Industry 4.0,
+arguing that many ideas and concepts behind Industry 4.0 have
+been around for quite some time. Those experts are inclined to
+think that Industry 4.0 is just an “expression” in order to attract
+attention.
+
+
+5. Conclusion
+
+
+5.1. Key findings
+
+
+Within this paper we showed that there is no commonly
+agreed-upon definition and understanding of Industry 4.0. In the
+authors’ opinion, the Fourth Industrial Revolution can be best
+described as a shift in the manufacturing logic towards an
+increasingly decentralised, self-regulating approach of value
+creation, enabled by concepts and technologies such as CPS, IoT,
+IoS, cloud computing or additive manufacturing and smart
+factories, so as to help companies meet future production
+requirements. The comprehensive nature of this definition
+requires companies to individually define what Industry 4.0
+means to them. As a consequence, there is not one single truth and
+reality behind this approach. Thus, this paper supports a somewhat
+dynamic perception, proposing an application model that com-
+prises different dimensions and components of Industry 4.0.
+
+
+The investigations in the main part revealed different Industry
+4.0 opportunities in terms of decentralisation, self-regulation and
+efficiency. With respect to Kanban, an improved demand assess-
+ment, dynamic and more efficient milkruns as well as shortened
+cycle times can be expected. As far as JIT/JIS systems are concerned,
+reduced bullwhip effects, highly transparent and integrated supply
+chains as well as improvements in production planning are among
+the potential benefits. The interviewed experts see the majority of
+implications on the operative level of logistics management. Yet,
+besides that, the scenarios also showed the significance of Industry
+4.0 with respect to cross-organisational logistics, particularly in
+terms of real time information flows, end-to-end supply chain
+transparency and improvements in flexibility, thus helping
+companies to optimise value-creation. Eventually, Industry 4.0
+potentials should be evaluated situationally due to the complex
+nature of logistics management.
+
+
+5.2. Limitations
+
+
+The goal of this paper was to identify and discuss the
+implications of Industry 4.0 in the field of logistics management.
+Considering this, it has to be noted that the investigations did not
+primarily address logistics management in a general, overarching
+manner. Instead, the focus was limited to two logistics concepts,
+since it was the authors’ ambition to describe the effects in a
+precise and detailed fashion. Against this backdrop, the present
+study did not seek (and is not able) to make universally valid
+statements about how the Fourth Industrial Revolution will affect
+and impact logistics management. With respect to this, the
+investigations and described scenarios feature a hypothetical
+character and should therefore be understood in their respective
+context. In addition to that, the focus of this paper was clearly on
+the potentials and opportunities of Industry 4.0, meaning that the
+risks, costs and implementation barriers that might accompany the
+digital transformation were mostly ignored. Hence, the validity of
+the different scenarios is limited, since only the beneficial aspects
+of Industry 4.0 were discussed.
+
+
+In order to review and evaluate the findings, eight expert
+interviews were conducted. Yet, with regard to the interpretation
+of the results, there is a number of factors that need to be
+considered. On the one hand, the questioned persons all had a
+profound knowledge in the field of logistics and supply chain
+
+
+management. However, none of them considered himself/herself a
+specialist in the area of Industry 4.0. Thus, the level of knowledge
+and experience varied significantly among the interviewed
+experts. As a consequence, some of the dialogues were highly
+substantial and yielded interesting insights, whereas others
+merely scratched the surface of the topic. Therefore, it was
+difficult to directly compare the answers and opinions. Last but not
+least, the number of interviews was limited. In order to gain more
+representative and objective results, a larger base of interviews
+would have been required.
+
+
+5.3. Recommendations for future research
+
+
+Existing academic literature lacks a clear and common
+definition of the Industry 4.0 concept. Therefore, the image of
+Industry 4.0 is still quite fuzzy, both among researchers and
+especially among practitioners. This impression was confirmed by
+the interviews that were conducted in the context of this paper.
+Against this backdrop, future research should aim to establish a
+more precise understanding of what the (constituent) character-
+istics of Industry 4.0 are, especially for different business sectors or
+areas of application.
+
+
+In addition to that, we suggest that companies should be
+accompanied and supported on their road to Industry 4.0 in a
+practical manner. This could be achieved through concepts and
+frameworks, which features different building blocks and dimen-
+sions of Industry 4.0 and therefore may serve as an orientation
+guideline. An applied SWOT framework, for instance, could
+support companies by analysing the opportunities of Industry
+4.0 in the context of a company’s strengths, weaknesses and
+environment. Moreover, an “Industry 4.0 Readiness Framework”
+could help identify potential implementation barriers by listing
+critical success factors such as availability of technology, degree of
+digitization, workforce capabilities and education.
+
+
+Furthermore we see a strong need to concretise and substanti-
+ate the Industry 4.0 concept with regard to financials, i.e. revenue
+potentials and costs. In the context of the scenarios described in
+this paper, this could e.g. be achieved through a rough quantifica-
+tion of the benefits and cost advantages (e.g. reduction of inventory
+costs, complexity costs, wage costs) as well as the required
+investments (e.g. for infrastructure or employee training). We are
+aware of the difficulty of such a quantification. However,
+companies might not be willing to invest into Industry 4.0 unless
+they have a rough imagination of the financials.
+
+
+Last but not least, the implications described in this paper need
+to be put into a wider context. The illustrated scenarios exclusively
+addressed potential consequences in the context of the respective
+logistics concepts. Yet, little was said about the implications
+beyond that. Therefore, future research should also investigate the
+effects of Industry 4.0 on e.g. the organisational, operational and
+legal structures of companies.
+
+
+References
+
+
+[1] H. Rauen, Industry 4.0 – The Technological Revolution Continues [Video],
+(2012) (Speaker) Retrieved January 12, 2016, from www.vdma.org/video-
+item-display/-/videodetail/3019396www.vdma.org/video-item-display/-/
+videodetail/3019396.
+
+
+[2] D. Spath (Ed.), O. Ganschar, S. Gerlach, M. Hämmerle, T. Krause, S. Schlund,
+Studie: Produktionsarbeit Der Zukunft – Industrie 4.0 (2013). Retrieved June 8,
+2015, from http://www.iao.fraunhofer.de/images/iao-news/
+produktionsarbeit-der-zukunft.pdf.
+
+
+[3] T. Bauernhansl, M. ten Hompel, B. Vogel-Heuser (Eds.), Industrie 4.0 in
+Produktion, Automatisierung Und Logistik, Springer, Wiesbaden, 2014.
+
+
+[4] M. Brettel, N. Friederichsen, M. Keller, M. Rosenberg, How virtualization,
+decentralization and network building change the manufacturing landscape:
+an industry 4.0 perspective, Int. J. Mech. Ind. Sci. Eng. 8 (1) (2014) 37–44.
+
+
+[5] H. Kagermann, W. Wahlster, J. Helbig, Bericht der Promotorengruppe
+Kommunikation Im Fokus: Das Zukunftsprojekt Industrie 4.0 -
+
+
+E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34 33
+
+
+
+http://www.vdma.org/video-item-display/-/videodetail/3019396www.vdma.org/video-item-display/-/videodetail/3019396
+
+http://www.vdma.org/video-item-display/-/videodetail/3019396www.vdma.org/video-item-display/-/videodetail/3019396
+
+http://www.vdma.org/video-item-display/-/videodetail/3019396www.vdma.org/video-item-display/-/videodetail/3019396
+
+http://www.iao.fraunhofer.de/images/iao-news/produktionsarbeit-der-zukunft.pdf
+
+http://www.iao.fraunhofer.de/images/iao-news/produktionsarbeit-der-zukunft.pdf
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0015
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0015
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0020
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0020
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0020
+
+
+
+
+Handlungsempfehlungen zur Umsetzung (2012). Retrieved June 8, 2015, from
+https://www.bmbf.de/pub_hts/kommunikation_bericht_2012-1.pdf.
+
+
+[6] J. Meredith, Theory building through conceptual methods, Int. J. Oper. Prod.
+Manage. 13 (5) (1993) 3–11.
+
+
+[7] A. Dujin, A. Geissler, D. Horstkötter, Think Act. Industry 4.0 – The New
+Industrial Revolution: How Europe Will Succeed, (2014) Retrieved July 13,
+2015, from https://www.rolandberger.com/en/Publications/
+pub_industry_4_0_the_new_industrial_revolution.html.
+
+
+[8] M. Mittermair, Industry 4.0 initiatives, SMT: Surf. mt. Technol. 30 (3) (2015)
+58–63.
+
+
+[9] M. Hermann, T. Pentek, B. Otto, Design Principles for Industrie 4.0 Scenarios: A
+Literature Review. Working Paper, Technical University of Dortmund, 2015.
+
+
+[10] A. Akanmu, C.J. Anumba, Cyber-physical systems integration of building
+information models and the physical construction Engineering, Constr. Archit.
+Manage. 22 (5) (2015) 516–535.
+
+
+[11] E.A. Lee, Cyber Physical Systems: Design Challenges, University of California at
+Berkeley: Electrical Engineering and Computer Sciences., 2008.
+
+
+[12] J. Lee, B. Bagheri, H.A. Kao, A Cyber-Physical Systems Architecture for Industry
+4.0-based Manufacturing Systems University of Cincinnati, University
+Cooperative Research Center on Intelligent Maintenance Systems, 2014.
+
+
+[13] S. Parvin, F. Hussain, O. Hussain, T. Thein, J. Park, Multicyber framework for
+availability enhacement of cyber physical systems, Computing 95 (10-11)
+(2013) 927–948.
+
+
+[14] H. Kagermann, W. Wahlster, J. Helbig, Recommendations for Implementing the
+Strategic Initiative INDUSTRIE 4.0. Final Report of the Industrie 4.0 Working
+Group, (2013) . Retrieved July 10, 2015, from http://www.acatech.de/
+fileadmin/user_upload/Baumstruktur_nach_Website/Acatech/root/de/
+Material_fuer_Sonderseiten/Industrie_4.0/
+Final_report__Industrie_4.0_accessible.pdf.
+
+
+[15] M.E. Porter, J.E. Heppelmann, How smart connected products are transforming
+competition, Harv. Bus. Rev. 11 (2014) 1–23.
+
+
+[16] J. Nolin, N. Olson, The internet of things and convenience, Internet Res. 26 (2)
+(2016) 360–376.
+
+
+[17] E. Fleisch, What Is the Internet of Things? An Economic Perspective. (White
+Paper), Swiss Federal Institute of Technology in Zurich/University of St. Gallen,
+2010.
+
+
+[18] P. Andersson, L.-G. Mattsson, Service innovations enabled by the internet of
+things, IMP J. 9 (1) (2015) 85–106.
+
+
+[19] W. Wahlster, H.J. Grallert, S. Wess, H. Friedrich, T. Widenka (Eds.), Towards the
+Internet of Services: The THESEUS Research Program, Springer, Switzerland,
+2014.
+
+
+[20] A. Barros, D. Oberle (Eds.), Handbook of Service Description, Springer, New
+York, 2012.
+
+
+[21] T. Qu, S.P. Lei, Z.Z. Wang, X. NieD.X. Chen, G.Q. Huang, IoT-based real-time
+ProductionLogistics synchronization system under intelligent cloud
+manufacturing, Int. J. Adv. Manuf. Technol. 84 (1) (2015) 147–164.
+
+
+[22] T. Qu, M. Thürer, J.H. Wang, Z.Z. Wang, H. Fu, C.D. Li, G.Q. Huang, System
+dynamics approach for the performance evaluation of internet-of-Things
+system implementation in a dynamic production logistics system, Int. J. Prod.
+Res. (2016), doi:http://dx.doi.org/10.1080/00207543.2016.1173738.
+
+
+[23] Y.F. Zhang, C. Qian, J.X. Lv, Y. Liu, Agent and cyber-physical system based self-
+organizing and self-adaptive intelligent shopfloor, IEEE Trans. Ind. Inf. (2016),
+doi:http://dx.doi.org/10.1109/tii.2016.2618892.
+
+
+[24] A. Banyai, Cloud logistics, Adv. Logist. Syst. 8 (1) (2014) 11–16.
+[25] Kutschenreiter, U., (Ed.) (2015). Mehrwert durch Software. Retrieved October
+
+
+2016, from www.vdma-verlag.com/home/download_7E0A.html.
+[26] MAN, MAN TeleMatics, (2016) Retrieved January 27, 2016, from http://www.
+
+
+truck.man.eu/de/en/solutions/man-telematics/overview/Overview.html.
+[27] Ultriva, Collaborative Supply Portal, (2016) Retrieved January 27, 2016, from
+
+
+http://www.ultriva.com/products/collaborative-supply-portal.
+[28] Volkswagen, Car-to-X. Ein Kommunikationssystem für Viele Anwendungen,
+
+
+(2016) . (from) from http://www.volkswagenag.com/content/vwcorp/
+content/de/innovation/communication_and_networking/connected_world/
+car_to_x.html.
+
+
+[29] S.M. Lee, M. Ebrahimpour, Just-In-Time, Manage. Decis. 25 (6) (1987) 50–54.
+[30] K. Aoki, R. Mouer, Just-in-Time production, The Wiley Blackwell Encyclopedia
+
+
+of Consumption and Consumer Studies, (2015) , pp. 1–2.
+[31] B.D. Henderson, The logic of kanban, J. Bus. Strategy 6 (3) (1986) 6–12.
+[32] Bremer Institut für Produktion und Logistik GmbH [BIBA], The Industry 4.0-
+
+
+Competence and Transfer Centre at BIBA, (2016) . Retrieved January 26, 2016,
+from http://www.biba.uni-bremen.de/industrie4.html?&L=1.
+
+
+[33] L-Mobile, RFID Kanban, (2016) Retrieved October, 2016, from https://
+industrie40.l-mobile.com/komponenten/industrie-4-0/rfid-kanban/.
+
+
+[34] L. Lamport, R. Shostak, M. Pease, The byzantine generals problem, ACM Trans.
+Program. Lang. Syst. 4 (3) (1982) 382–401.
+
+
+[35] D.L.K. Chuen, Handbook of Digital Currencies, 1st ed., Elsevier, London, UK,
+2015.
+
+
+[36] D.Ø. Madsen, T. Stenheim, Doing research on ‘Management fashions’:
+methodological challenges and opportunities, Prob. Persp. Manage. 11 (4)
+(2013) 68–76.
+
+
+[37] V.R. Alexandru, The drive for change in public organizations: a critical analysis
+of management fashions, Int. J. Organiz. Behav. 18 (4) (2015) 454–493.
+
+
+[38] E. Abrahamson, Management fashion, Acad. Manage. Rev. 21 (1) (1996) 254–
+285.
+
+
+[39] E. Fleisch, M. Weinberger, F. Wortmann, Business Models and the Internet of
+Things. Bosch IoT Lab White Paper, University of St.Gallen, 2014.
+
+
+34 E. Hofmann, M. Rüsch / Computers in Industry 89 (2017) 23–34
+
+
+
+https://www.bmbf.de/pub_hts/kommunikation_bericht_2012-1.pdf
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0030
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0030
+
+https://www.rolandberger.com/en/Publications/pub_industry_4_0_the_new_industrial_revolution.html
+
+https://www.rolandberger.com/en/Publications/pub_industry_4_0_the_new_industrial_revolution.html
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0040
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0040
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0045
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0045
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0050
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0050
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0050
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0055
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0055
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0060
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0060
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0060
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0065
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0065
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0065
+
+arxiv:/Retrieved%20July%2010,%202015,%20from%20http://www.acatech.de/fileadmin/user_upload/Baumstruktur_nach_Website/Acatech/root/de/Material_fuer_Sonderseiten/Industrie_4.0/Final_report__Industrie_4.0_accessible.pdf
+
+arxiv:/Retrieved%20July%2010,%202015,%20from%20http://www.acatech.de/fileadmin/user_upload/Baumstruktur_nach_Website/Acatech/root/de/Material_fuer_Sonderseiten/Industrie_4.0/Final_report__Industrie_4.0_accessible.pdf
+
+arxiv:/Retrieved%20July%2010,%202015,%20from%20http://www.acatech.de/fileadmin/user_upload/Baumstruktur_nach_Website/Acatech/root/de/Material_fuer_Sonderseiten/Industrie_4.0/Final_report__Industrie_4.0_accessible.pdf
+
+arxiv:/Retrieved%20July%2010,%202015,%20from%20http://www.acatech.de/fileadmin/user_upload/Baumstruktur_nach_Website/Acatech/root/de/Material_fuer_Sonderseiten/Industrie_4.0/Final_report__Industrie_4.0_accessible.pdf
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0075
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0075
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0080
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0080
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0085
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0085
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0085
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0090
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0090
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0095
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0095
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0095
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0100
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0100
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0105
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0105
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0105
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0110
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0110
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0110
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0110
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0115
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0115
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0115
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0120
+
+http://www.vdma-verlag.com/home/download_7E0A.html
+
+http://www.truck.man.eu/de/en/solutions/man-telematics/overview/Overview.html
+
+http://www.truck.man.eu/de/en/solutions/man-telematics/overview/Overview.html
+
+http://www.ultriva.com/products/collaborative-supply-portal
+
+arxiv:/from%20http://www.volkswagenag.com/content/vwcorp/content/de/innovation/communication_and_networking/connected_world/car_to_x.html
+
+arxiv:/from%20http://www.volkswagenag.com/content/vwcorp/content/de/innovation/communication_and_networking/connected_world/car_to_x.html
+
+arxiv:/from%20http://www.volkswagenag.com/content/vwcorp/content/de/innovation/communication_and_networking/connected_world/car_to_x.html
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0145
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0150
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0150
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0155
+
+arxiv:/Retrieved%20January%2026,%202016,%20from%20http://www.biba.uni-bremen.de/industrie4.html?%26L=1
+
+arxiv:/Retrieved%20January%2026,%202016,%20from%20http://www.biba.uni-bremen.de/industrie4.html?%26L=1
+
+https://industrie40.l-mobile.com/komponenten/industrie-4-0/rfid-kanban/
+
+https://industrie40.l-mobile.com/komponenten/industrie-4-0/rfid-kanban/
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0170
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0170
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0175
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0175
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0180
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0180
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0180
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0185
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0185
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0190
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0190
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0195
+
+http://refhub.elsevier.com/S0166-3615(17)30190-2/sbref0195
+
+

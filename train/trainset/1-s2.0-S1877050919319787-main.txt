@@ -1,0 +1,479 @@
+
+
+
+
+
+
+
+
+
+
+ScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+Procedia Computer Science 162 (2019) 119–122
+
+
+1877-0509 © 2020 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the 7th International Conference on Information Technology and 
+Quantitative Management (ITQM 2019)
+10.1016/j.procs.2019.11.266
+
+
+10.1016/j.procs.2019.11.266 1877-0509
+
+
+
+
+
+
+
+
+               Available online at www.sciencedirect.com 
+
+
+
+
+
+ Procedia Computer Science 00 (2019) 000–000 
+www.elsevier.com/locate/procedia 
+
+
+
+
+
+7th International Conference on Information Technology and Quantitative Management 
+(ITQM 2019) 
+
+
+Applications of Blockchain to Improve Supply Chain 
+Traceability 
+
+
+Ju Myung Songa, Jongwook Sungb,* and Taeho Parkc 
+a, b, c School of Global Innovation and Leadership, Lucas College and Graduate School of Business, San Jose State University, San Jose, CA 
+
+
+95192-0164, USA 
+
+
+Abstract 
+
+
+Blockchain has been emerged as a promising technology for a traceability system in industry. It can also be applied to many 
+functions of a Supply Chain Management (SCM) system, such as logistics, quality assurance, inventory management, and 
+forecasting. One of the most important functions of the SCM is to improve the transparency, traceability and auditability of 
+materials flow throughout the supply chain from suppliers, manufacturing facilities, warehouses/distribution centers, to 
+customers. This research especially focuses on the impact of blockchain on supply chain traceability through the current 
+industry applications, and its future direction. 
+
+
+ 
+© 2019 The Authors. Published by Elsevier B.V.  
+Selection and/or peer-review under responsibility of the organizers of ITQM 2019 
+ 
+Keywords: Blockchain; Digital Supply Chain; Supply Chain Innovation; Industry 4.0 
+
+
+1. Introduction 
+
+
+The improvement of operations and supply chain functions in any industry has become a core heart of business 
+operations and strategy. To support right decisions of the supply chain operations, firms need accurate and on-
+time/real-time information about inventory, in-transit movements of materials and products, and many others. 
+Information and Communication Technologies (ICTs) have been rapidly advanced to allow firms to access, 
+obtain, analyze those data, and then make more timely decisions and predict customer demands and necessary 
+further operations. Thus, traceability, i.e., the enabler of making right and timely decisions, has become one of 
+the key topics of Supply Chain Management.  
+
+
+Researches and projects have been done to find ways to improve the transparency, traceability and auditability 
+of materials flow alongside the chain of suppliers to customers. More and more ICT based Supply Chain (SC) 
+traceability solutions have been implemented. For instance, the GLOB-ID project sponsored by the Italian 
+
+
+ 
+* Corresponding author. Tel.: +1-408-924-6889 
+   E-mail address: jon.sung@sjsu.edu 
+
+
+
+
+
+
+
+
+               Available online at www.sciencedirect.com 
+
+
+
+
+
+ Procedia Computer Science 00 (2019) 000–000 
+www.elsevier.com/locate/procedia 
+
+
+
+
+
+7th International Conference on Information Technology and Quantitative Management 
+(ITQM 2019) 
+
+
+Applications of Blockchain to Improve Supply Chain 
+Traceability 
+
+
+Ju Myung Songa, Jongwook Sungb,* and Taeho Parkc 
+a, b, c School of Global Innovation and Leadership, Lucas College and Graduate School of Business, San Jose State University, San Jose, CA 
+
+
+95192-0164, USA 
+
+
+Abstract 
+
+
+Blockchain has been emerged as a promising technology for a traceability system in industry. It can also be applied to many 
+functions of a Supply Chain Management (SCM) system, such as logistics, quality assurance, inventory management, and 
+forecasting. One of the most important functions of the SCM is to improve the transparency, traceability and auditability of 
+materials flow throughout the supply chain from suppliers, manufacturing facilities, warehouses/distribution centers, to 
+customers. This research especially focuses on the impact of blockchain on supply chain traceability through the current 
+industry applications, and its future direction. 
+
+
+ 
+© 2019 The Authors. Published by Elsevier B.V.  
+Selection and/or peer-review under responsibility of the organizers of ITQM 2019 
+ 
+Keywords: Blockchain; Digital Supply Chain; Supply Chain Innovation; Industry 4.0 
+
+
+1. Introduction 
+
+
+The improvement of operations and supply chain functions in any industry has become a core heart of business 
+operations and strategy. To support right decisions of the supply chain operations, firms need accurate and on-
+time/real-time information about inventory, in-transit movements of materials and products, and many others. 
+Information and Communication Technologies (ICTs) have been rapidly advanced to allow firms to access, 
+obtain, analyze those data, and then make more timely decisions and predict customer demands and necessary 
+further operations. Thus, traceability, i.e., the enabler of making right and timely decisions, has become one of 
+the key topics of Supply Chain Management.  
+
+
+Researches and projects have been done to find ways to improve the transparency, traceability and auditability 
+of materials flow alongside the chain of suppliers to customers. More and more ICT based Supply Chain (SC) 
+traceability solutions have been implemented. For instance, the GLOB-ID project sponsored by the Italian 
+
+
+ 
+* Corresponding author. Tel.: +1-408-924-6889 
+   E-mail address: jon.sung@sjsu.edu 
+
+
+© 2020 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the 7th International Conference on Information Technology and 
+Quantitative Management (ITQM 2019)
+
+
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.procs.2019.11.266&domain=pdf
+
+
+
+
+120 Ju Myung Song  et al. / Procedia Computer Science 162 (2019) 119–122
+J.M. Song, J. Sung, and T. Park / Procedia Computer Science 00 (2019) 000–000 
+
+
+government [1] employed a cloud based unified platform to integrate legacy enterprise information systems to 
+enhance SC traceability and transparency of supply chain.  Supply chain traceability also means improved 
+environmental sustainability as it was illustrated by a real business case of a leather shoe supply chain [2]. 
+
+
+ 
+This research has studied the current industry applications of blockchain to the trace of supply chain operations 
+
+
+in various industries, and then discussed its benefits and issues for further industry applications. 
+
+
+2. Blockchain as an Enabler of Improving Supply Chain Traceability 
+
+
+2.1. Immutability in Blockchain 
+
+
+Blockchain, in short, is a record-keeping system. It stores information about transaction records shared peer-
+to-peer across all computers within its network. As transaction records, notably blockchain ledgers, are managed 
+by multiple nodes, blockchain virtually eliminates the possibility of manipulating the transaction records.  This 
+feature, called immutability, is indeed one of the most critical advantages of blockchain many industry 
+applications aim to benefit from. This immutability, however, comes with a critical implication: blockchain 
+ledgers are by principle, stands for “public.” All such records are managed in the chain, where dependencies 
+between transactions are created, and shared across multiple nodes in the blockchain network.  The ledger it 
+provides does not belong to any centralized entity but is managed by a group of computers, miners, as they are 
+otherwise known. 
+
+
+2.2. Wider adoption of Private or Consortium Blockchain 
+
+
+Based on the degree of being “public”, blockchain is categorized into three types - public, or permissionless, 
+blockchain where anyone in the network can read, write, or audit chains; private, or permissioned, blockchain 
+where only one entity has full control; and consortium, or federated, blockchain where the rights to read, write, 
+or audit chains are shared amongst members in the consortium. Public blockchain is often found impractical for 
+its high cost and slowness. It is also highly hindered by the “everyone-can-read-everything” problem as noted by 
+[3]. 
+
+
+ 
+Private blockchain is also criticized for its non-democratized control weakening its value vis-a-vis one of the 
+
+
+key design goals of blockchain, but it is understood as a more realistic option in addition to consortium 
+blockchain. While public blockchain, at least theoretically when its limitations are well addressed, could 
+“reinvent” business processes, private and consortium blockchain can be adopted to “complement” business 
+processes.  In particular, we would like to examine its “complementary” application to enhance the traceability 
+of supply chain. 
+
+
+2.3. Impact of Blockchain on Supply Chain transparency  
+
+
+[4] described how blockchain could improve traceability and transparency for a 4PL company. In all, SC meets 
+all decision criteria for adopting blockchain technology as set forth by [5], namely, SC is operating in a multi-
+party value chain; SC needs a shared system of records; There exist conflicting interests and/or no trust in the 
+SC; There exist varying governing policies for entities in the SC; and SC needs immutable event logs.  For this 
+reason, the application of this ‘nascent’ blockchain technology on SCM has gained some good tractions. 
+
+
+2.4. Literatures on Supply Chain Traceability 
+
+
+From the SC perspective, innovation implies an improvement in the flows of products and/or services and 
+information within a SC network. Recently, the concept of Supply Chain Innovation (SCI) has been increasingly 
+
+
+
+
+
+
+ Ju Myung Song  et al. / Procedia Computer Science 162 (2019) 119–122 121
+J.M. Song, J. Sung, and T. Park / Procedia Computer Science 00 (2019) 000–000 
+
+
+discussed in both practice and academic circles, e.g., [6 - 7]. The literature has described SCI as an interaction of 
+multiple components [8]. Among others, [9] highlighted the importance of i) process and ii) technology as the 
+main components of SCI. The effective and efficient process is defined as a set of activities that facilitates 
+transactions across all SC members including consumers [10] and the technology is considered as a mean that 
+builds the processes by improving traceability and transparency in a SC [11], [9]. Recent literature characterizes 
+the direction of SCI as the digitalization [12]. For example, [13] explore the implications of digitalization which 
+can offer opportunities that will transform a conventional SC toward innovative SC. [14] consider Digital Supply 
+Chain as the base concept for establishing end-to-end information integration in an innovative SC, and they 
+explain the requirements and functionalities of this direction of SCI. 
+
+
+2.5. More Opportunities and business cases of blockchain in Supply Chain Traceability 
+
+
+As it was reviewed above, distributed blockchain ledger system has already been proven to become a very 
+practical SC traceability system. Its adoption is rapidly growing especially in industries where conventional 
+centralized system has faced with technical challenges such as: 
+
+
+ 
+● Complex chain of actors.  Traceability requires the active engagement and well-concerted collaboration of 
+
+
+many participants or actors in the entire SC. Building and operating a centralized system across the complete 
+SC often becomes impractical.  
+
+
+● Ensuring trustworthy. In a complex SC with many actors, a good SC can not be built without strong trust in 
+the entire chain. Partners in the SC highly welcome the democratized and tamper-proof record keeping 
+system. 
+
+
+● High cost entry barriers. Many legacy centralized systems have been implemented with expensive ERP 
+systems from companies like Oracle, SAP, and IBM, raising entry barriers for small farmers, truck drivers, 
+or fisherman, etc. Blockchain based new SC traceability systems allow them to join the SC system simply by 
+a smartphone. 
+
+
+2.6. Challenges and risks of blockchain in SC Traceability 
+
+
+All these said, however, blockchains do not have perfectly rosy roads ahead. As [3] listed, the adoption of 
+blockchain as a SC traceability system should go over the key challenges of: 
+
+
+ 
+● Challenge in linking physical to digital.  Significant investment is needed to link non-digitized and physical 
+
+
+elements to the digital space by the use of various communication technologies such as RFID, NFC, and IoT. 
+● Cultural adoption to decentralized network.  It should go over the cultural barrier to convince stakeholders in 
+
+
+SC who are yet new and resistant to the new model of democratized processing. 
+● Perception & trust of general public.  Likewise, wider trust of the general public will play a key role for SC 
+
+
+actors to agree with and move on this new technology. 
+
+
+3. Summary 
+
+
+Blockchain has already proven to become a good Supply Chain traceability system, and it will inevitably 
+expand its adoption to improve the transparency, traceability and auditability of materials flow along the parties 
+in the Supply Chain. The heat map and velocity of adoption vary per each vertical segment of the industry, mainly 
+based on how critical it is to trace materials flow.   
+
+
+J.M. Song, J. Sung, and T. Park / Procedia Computer Science 00 (2019) 000–000 
+
+
+government [1] employed a cloud based unified platform to integrate legacy enterprise information systems to 
+enhance SC traceability and transparency of supply chain.  Supply chain traceability also means improved 
+environmental sustainability as it was illustrated by a real business case of a leather shoe supply chain [2]. 
+
+
+ 
+This research has studied the current industry applications of blockchain to the trace of supply chain operations 
+
+
+in various industries, and then discussed its benefits and issues for further industry applications. 
+
+
+2. Blockchain as an Enabler of Improving Supply Chain Traceability 
+
+
+2.1. Immutability in Blockchain 
+
+
+Blockchain, in short, is a record-keeping system. It stores information about transaction records shared peer-
+to-peer across all computers within its network. As transaction records, notably blockchain ledgers, are managed 
+by multiple nodes, blockchain virtually eliminates the possibility of manipulating the transaction records.  This 
+feature, called immutability, is indeed one of the most critical advantages of blockchain many industry 
+applications aim to benefit from. This immutability, however, comes with a critical implication: blockchain 
+ledgers are by principle, stands for “public.” All such records are managed in the chain, where dependencies 
+between transactions are created, and shared across multiple nodes in the blockchain network.  The ledger it 
+provides does not belong to any centralized entity but is managed by a group of computers, miners, as they are 
+otherwise known. 
+
+
+2.2. Wider adoption of Private or Consortium Blockchain 
+
+
+Based on the degree of being “public”, blockchain is categorized into three types - public, or permissionless, 
+blockchain where anyone in the network can read, write, or audit chains; private, or permissioned, blockchain 
+where only one entity has full control; and consortium, or federated, blockchain where the rights to read, write, 
+or audit chains are shared amongst members in the consortium. Public blockchain is often found impractical for 
+its high cost and slowness. It is also highly hindered by the “everyone-can-read-everything” problem as noted by 
+[3]. 
+
+
+ 
+Private blockchain is also criticized for its non-democratized control weakening its value vis-a-vis one of the 
+
+
+key design goals of blockchain, but it is understood as a more realistic option in addition to consortium 
+blockchain. While public blockchain, at least theoretically when its limitations are well addressed, could 
+“reinvent” business processes, private and consortium blockchain can be adopted to “complement” business 
+processes.  In particular, we would like to examine its “complementary” application to enhance the traceability 
+of supply chain. 
+
+
+2.3. Impact of Blockchain on Supply Chain transparency  
+
+
+[4] described how blockchain could improve traceability and transparency for a 4PL company. In all, SC meets 
+all decision criteria for adopting blockchain technology as set forth by [5], namely, SC is operating in a multi-
+party value chain; SC needs a shared system of records; There exist conflicting interests and/or no trust in the 
+SC; There exist varying governing policies for entities in the SC; and SC needs immutable event logs.  For this 
+reason, the application of this ‘nascent’ blockchain technology on SCM has gained some good tractions. 
+
+
+2.4. Literatures on Supply Chain Traceability 
+
+
+From the SC perspective, innovation implies an improvement in the flows of products and/or services and 
+information within a SC network. Recently, the concept of Supply Chain Innovation (SCI) has been increasingly 
+
+
+
+
+
+
+122 Ju Myung Song  et al. / Procedia Computer Science 162 (2019) 119–122
+J.M. Song, J. Sung, and T. Park / Procedia Computer Science 00 (2019) 000–000 
+
+
+References 
+
+
+[1] G Cerullo et al., “Efficient Supply Chain Management: traceability and transparency,” 2106 12th International Conference on Signal-
+Image Technology & Internet-Based Systems. 
+
+
+[2] M Marconi et al., “Traceability as a means to investigate supply chain sustainability: the real case of a leather shoe supply chain,” 
+International Journal of Production Research, May 30, 2017. 
+
+
+[3] R Notani, “Can Blockchain Revolutionize the Supply Chain?,” May 2018, SupplyChain247 : 
+http://www.supplychain247.com/paper/can_blockchain_revolutionize_the_supply_chain. 
+
+
+[4] A Jeppsson and O Olsson, “Blockchains as a solution for Traceability and transparency,” 2017, Lund University. 
+[5] Lyn Robison, “The Next Evolution of Blockchain and Distributed Ledger Technology,” Gartner Catalyst Conference, Aug 2018. 
+[6] Munksgaard, K. B., Stentoft, J., & Paulraj, A. (2014). Value-based supply chain innovation. Operations Management Research, 7(3-
+
+
+4), 50-62. 
+[7] Zimmermann, R., DF Ferreira, L. M., & Carrizo Moreira, A. (2016). The influence of supply chain on the innovation process: a 
+
+
+systematic literature review. Supply Chain Management: An International Journal, 21(3), 289-304. 
+[8] Basole, R. C., Bellamy, M. A., & Park, H. (2017). Visualization of innovation in global supply chain networks. Decision Sciences, 
+
+
+48(2), 288-306. 
+[9] Arlbjørn, J. S., & Paulraj, A. (2013). Special topic forum on innovation in business networks from a supply chain perspective: 
+
+
+Current status and opportunities for future research. Journal of Supply Chain Management, 49(4), 3-11. 
+[10] Airoldi, E. M., Bai, X., & Carley, K. M. (2011). Network sampling and classification: An investigation of network model 
+
+
+representations. Decision Support Systems, 51(3), 506-518. 
+[11] Arlbjørn, J. S., de Haas, H., & Munksgaard, K. B. (2011). Exploring supply chain innovation. Logistics Research, 3(1), 3-18. 
+[12] Kagermann, H. (2015). Change through digitization - Value creation in the age of Industry 4.0. In Management of permanent change 
+
+
+(pp. 23-45. Springer Gabler, Wiesbaden. 
+[13] Holmström, J., & Partanen, J. (2014). Digital manufacturing-driven transformations of service supply chains for complex products. 
+
+
+Supply Chain Management: An International Journal, 19(4), 421-430. 
+[14] Ron Miller, “Walmart is betting on the blockchain to improve food safety”, Tech Crunch, Sept 24, 2018: 
+
+
+https://techcrunch.com/2018/09/24/walmart-is-betting-on-the-blockchain-to-improve-food-safety/. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+

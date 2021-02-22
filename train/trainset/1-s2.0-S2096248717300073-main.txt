@@ -1,0 +1,1931 @@
+
+
+
+
+
+
+
+
+
+
+International Journal of Innovation Studies 1 (2017) 175e191
+
+Contents lists available at ScienceDirect
+
+International Journal of Innovation Studies
+journal homepage: http: / /www.keaipubl ishing.com/en/ journals / in-
+
+
+ternat ional- journal-of- innovat ion-studies
+
+The knowledge society's origins and current trajectory
+
+
+Fred Phillips a, *, Ching-Ying Yu b, Tahir Hameed c,
+Mahmoud Abdullah El Akhdary b
+
+
+a Stony Brook University, New York, NY, USA
+b College of Management, Yuan Ze University, Zhongli, Taiwan, China
+c SolBridge International School of Business, Daejeon, South Korea
+
+a r t i c l e i n f o
+
+
+Article history:
+Received 15 April 2017
+Accepted 28 August 2017
+
+
+Keywords:
+Knowledge society
+Digital society
+Post-capitalist society
+Digitalization
+Digital transformation
+Industry4.0
+Digital economy
+
+* Corresponding author. College of Management,
+E-mail addresses: fphillips@saturn.yzu.edu.tw (F.
+
+
+com (M.A. El Akhdary).
+Peer review under responsibility of China Scien
+
+
+https://doi.org/10.1016/j.ijis.2017.08.001
+2096-2487/© 2017 Publishing Services by Elsevier B
+license (http://creativecommons.org/licenses/by-nc-
+
+a b s t r a c t
+
+
+We address the rise of the knowledge society, reviewing the major contributors to its
+conceptualization from Karl Marx onward. Synthesizing their ideas, we characterize the
+current state and direction of the knowledge society, its connection to related ideas of
+digital economy, e-government, and others, and detail implications for business and other
+organizations, and for society at large.
+© 2017 Publishing Services by Elsevier B.V. on behalf of KeAi Communications Co., Ltd. This
+
+
+is an open access article under the CC BY-NC-ND license (http://creativecommons.org/
+licenses/by-nc-nd/4.0/).
+
+1. Introduction
+
+
+The concerns of corporate executives, policy makers, and students planning careers turn increasingly to the knowledge
+economy. What does it mean? What are its imperatives for organizations? Is it the far future, the near future, or is it already
+here?
+
+
+This paper provides a comprehensive overview of the historical roots and recent debates around the knowledge society
+and digital economy. Based on a review of some key contributions to the field, it derives the contours of today's knowledge-
+based activities and their implications for business, not-for-profit enterprises, and society more broadly.
+
+
+There is as yet no theory of the knowledge society. The paper is motivated not by a gap in theory, then, but by the gap
+between the pace of technological and social change on the one hand, and the pace of business and policy adaptation on the
+other hand. Further motivation comes from the varying accuracy of past predictions about the knowledge society, and current
+disagreements among pundits. We thus trace the development of thought on the knowledge society and the knowledge
+economy, believing that understanding their historical trajectories can lead to a better apprehension of their future, and
+hence more effective action.
+
+Yuan Ze University, Zhongli, Taiwan, China.
+Phillips), mikoyu@saturn.yzu.edu.tw (C.-Y. Yu), tahir.hameed@gmail.com (T. Hameed), ncku2010@live.
+
+
+ce Publishing and Media Ltd.
+
+
+.V. on behalf of KeAi Communications Co., Ltd. This is an open access article under the CC BY-NC-ND
+nd/4.0/).
+
+
+
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+mailto:fphillips@saturn.yzu.edu.tw
+
+mailto:mikoyu@saturn.yzu.edu.tw
+
+mailto:tahir.hameed@gmail.com
+
+mailto:ncku2010@live.com
+
+mailto:ncku2010@live.com
+
+www.sciencedirect.com/science/journal/20962487
+
+http://www.keaipublishing.com/en/journals/international-journal-of-innovation-studies
+
+http://www.keaipublishing.com/en/journals/international-journal-of-innovation-studies
+
+https://doi.org/10.1016/j.ijis.2017.08.001
+
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+https://doi.org/10.1016/j.ijis.2017.08.001
+
+https://doi.org/10.1016/j.ijis.2017.08.001
+
+
+
+
+Table 1
+Old versus new.
+
+
+Old Economy New Economy
+
+
+Materialistic consumption. Dematerialization of daily life (Magee & Devezas, 2017).
+Commerce depends on efficiency and security of physical logistics. Commerce depends on data encryption.
+Difficulty of duplicating analog media. Rights to digital intellectual property.
+Land, labor, and capital are the only “factors of production.” Knowledge is a key factor of production (Drucker, 1993).
+Physical laborers are replaceable and interchangeable. Hiring halls. Knowledgeworkers are not interchangeable. Selecting them is a key challenge for
+
+
+HR departments.
+Marketers use product differentiation to justify raising prices. Customers expect decreasing prices for high-tech goods.
+Selling is location-bound. “Place” matters for some types of commerce; not for other types.
+“Bricks”: Physical retail store and warehouses. “Clicks” or “bricks and clicks” (Phillips, Donoho et al., 1997).
+Products, services. Platforms (Phillips, Ochs, and Schrock, 1999).
+Hierarchical, command-and-control organizations. “Managers.” Decentralized organizations. Leaders, coordinators, strategists, champions
+
+
+(Drucker, 1993).
+Clear boundaries between industries. “Sustainable competitive
+
+
+advantage” strategies.
+Dissolving barriers between industries. Companies not sure what industry they
+are in (Satell, 2015).
+
+
+Widely accepted accounting conventions for valuing and depreciating
+physical assets.
+
+
+Guesswork concerning what data are worth and how long they will retain value.
+
+
+Cash and checks. Non-cash, non-paper payment systems.
+Owning. Sharing.
+Value grows with the number of customers. Value grows with the square of the number of customers (Metcalf's Law).
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191176
+
+We find roots of the idea of a knowledge society in the 1858 writings of Karl Marx, and we recap key writings from then
+through the present. From Marx, we move forward in time to Schumpeter (1930s and 1940s); Masuda's 1980 view of the
+knowledge society in Japan; Drucker's 1993 Post-Capitalist Society; Soete (2000); Conceiç~ao, Gibson, Heitor, and Sirilli (2001);
+later researchers addressing global and regional implications of the knowledge revolution; and, finally, recent additions from
+the trade press. Based on this literature review, we summarize the current status and new directions of the knowledge
+economy, and draw implications for management and policy.
+
+
+Pertinent writings refer to knowledge society, digital society, post-capitalist society, digitalization, digital transformation,
+or industry 4.0. The knowledge society encompasses more than the knowledge economy or the digital economy, including
+such things as e-government, online education, digital medicine, and online volunteer work, e.g., the SETI project and protein
+folding.1 Post-capitalist society, as we shall see when reviewing Peter Drucker's work, means acknowledging that knowledge
+is a true factor of production in today's world, and that knowledge workers hold the economy's reins as much as or more so
+than capitalist investors. Industry 4.0 refers to the increased digitalization of manufacturing, especially including robotics.
+Later in this paper, we draw an “organization chart” of these concepts, showing how our analysis reveals their inter-
+relationships.
+
+
+Table 1, contrasting the old economy with that which is and is to come, suggests the profound changes that have arisen
+from the rise of digitalization and knowledge, regardless of what that transition is called. The changes will disrupt markets
+and society in ways more radical than any “disruptive technologies” (as we usually call them) can do. Progress toward the
+digital society is marked by punctuations and hiccups, and opposed by powerful entrenched interests, but is inexorable.
+
+
+As for whether the digital economy is here yet, Table 2 (reproduced from an IBM website) shows that it certainly is. In-
+formation and communication technologies, combined with Moore's Law, have produced the networks of alliances that blur
+industry boundaries.
+
+
+Tett (2016) cites a McKinsey study claiming “digitization influences up to 98% of the US economy,” due to the high
+penetration of the Internet and smartphones. “The annual growth rate of e-commerce is dependably robust, vacillating
+between 15 and 17 percent since 2010.” Corporations’ most popular digital transformation tools as of 2016 are cloud
+computing and storage, big data analytics, social media, and mobile apps.2 These statements, powerful though they are,
+reflect the narrow view of IT service vendors and consultants. They do not reflect the sociological, organizational, and market
+changes that truly characterize the knowledge society.
+
+
+We turn now to examining how it got this way. Adam Smith (1720e1790) referred to “new layers of specialists who are
+men of speculation and who made important contributions to the production of economically useful knowledge” (Parry,
+2016). In this early juxtaposition of “knowledge” and “economy,” Smith was referring to entrepreneurs and investors
+knowing where to put their funds. This was a very different usage than that which concerns us at present. Knowledge now
+resides in workers and consumers.
+
+1 Home computer users may donate their unused computation cycles to analyze signals from various radio telescopes belonging to the Search for Extra-
+Terrestrial Intelligence project (setiathome.berkeley.edu). They may do the samedand contribute their own creative inputdto cataloguing the three-
+dimensional shapes of protein molecules (http://fold.it/portal/info/about).
+
+
+2 See the infographic at https://sadasystems.com/2016-digital-transformation-survey-Infographic.pdf.
+
+
+
+http://setiathome.berkeley.edu
+
+http://fold.it/portal/info/about
+
+https://sadasystems.com/2016-digital-transformation-survey-Infographic.pdf
+
+
+
+
+Table 2
+“The digital disruption has already happened”.
+
+
+World largest taxi company owns no taxis (Uber).
+
+
+Largest accommodation provider owns no real estate (Airbnb).
+Largest phone companies own no telecommunications infrastructure (Skype, WeChat).
+World's most valuable retailer has no inventory (Alibaba).
+Most popular media owner creates no content (Facebook).
+Fastest growing banks have no actual money (SocietyOne).
+World's largest movie house owns no cinemas (Netflix).
+Largest software vendors do not write the apps (Apple and Google).
+
+
+(Source: www.ibmforentrepreneurs.com)
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191 177
+
+2. Karl Marx (1858)
+
+
+AlthoughMarx'sDas Kapital is most commonly remembered for its insistence that the rise of the proletarian laborerwould
+destroy capitalism, Karl Marx (1818e1883) held a parallel, seldom cited theory (Marx,1858; see also; Fuchs, 2016) to the effect
+that knowledgewould “blow [capitalism] sky-high.” In his Grundrisse (1858), Marx was the first to write that “knowledge has
+become a direct force of production,” an observation that Frederick Taylor would first put into practice 40e50 years later.
+
+Capital itself is the moving contradiction, [in] that it presses to reduce labour time to a minimum, while it posits
+labour time … as sole measure and source of wealth …. On the one side, then, it calls to life all the powers of
+science and of nature, as of social combination and of social intercourse, in order to make the creation of wealth
+independent (relatively) of the labour time employed on it. On the other side, it wants to use labour time as the
+measuring rod for the giant social forces thereby created, and to confine them within the limits required to
+maintain the already created value as value. Forces of production and social relationsdtwo different sides of the
+development of the social individualdappear to capital as mere means, and are merely means for it to produce
+on its limited foundation. In fact, however, they are the material conditions to blow this foundation sky-high.
+
+How remarkable that Marx not only anticipated the rise of knowledge as a factor of production, but connected it to “social
+relations.” Today, factory automation, self-driving vehicles, ATMs, etc. minimize the use of labor, for exactly the reasons Marx
+adduced, and leverage online social networks for advertising and pricing. As Marx foresaw in broad outline, however, or-
+dinary people use “social knowledge” to fight back, via TripAdvisor reviews, online access to restaurant health inspection
+reports, video recording of police actions, and so on (see Campbell & David, 2016; Milan, 2016).
+
+
+Marx was not clear on whether he referred to knowledge for creating machines or knowledge for using machines (the
+latter being Taylor's emphasis). Either way, Marx's was an impressive bit of foresight.
+
+3. Joseph Schumpeter (1943)
+
+
+Schumpeter, as is well-known, put forward innovation as the driver of the economy. Innovation, of course, requires
+knowledge. All historical industrial revolutions and Kondratieff waves, however, have been driven by innovation. Schum-
+peter's work is pertinent to the knowledge revolution first because Schumpeter (1943), like Marx, emphasized sociological
+forces: “Economic life goes on in a social and natural environment which changes and by its change alters the data of eco-
+nomic action”; and second because Schumpeter anticipated social knowledge not just as a factor of production, but as a driver
+of change in the means of production.
+
+4. Yoneji Masuda (1980)
+
+
+Yoneji Masuda (1905e1995) was a pioneer of computerization in Japan. Beginning with Japan's first computer white paper
+in the mid-1960s, he developed the “Plan for Information Society: A National Goal toward the Year 2000.” Following is an
+extract from one of his best-known books, The Information Society as Post-Industrial Society, published in English in 1980
+(Masuda, 1980).
+
+We see that human history has accepted three types of society: hunting, agriculture and industry. It is important
+to note that the rapid innovation of the social technology system is often the driving force that brings about these
+social transformations.
+
+
+The transformation of society is the result of innovation that has focused on productivity. Current social tech-
+nology innovation does not care about the productivity of material products, but information productivity. At the
+same time, it is also expected to bring about fundamental changes in human values, ideological trends, social
+politics and economic structure.
+
+
+
+http://www.ibmforentrepreneurs.com
+
+
+
+
+3 Dru
+now.”
+
+
+4 Dav
+the ind
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191178
+
+[In] industrial societies, the dynamism of the invention of the steam engine rapidly increased material pro-
+ductivity, making the mass production of goods and services and the rapid transport of goods possible.
+
+
+In the information society, an ‘information revolution’ resulting from development of the computer will rapidly
+expand information productive power, and make possible the mass production of cognitive, systematised in-
+formation, technology and knowledge.
+
+This too was extraordinary foresight. Only now have Western economists begun to question their focus on material
+productivity (Turner, 2016).
+
+
+Masuda also believed that in the information society, (1) information, the axis of socio-economic development, will be
+produced by the information utility company, the computer-based public infrastructure; (2) user-generated information will
+increase and information will accumulate, and cumulative information will be expanded through synergistic production and
+sharing; and (3) the economy will shift from a structured exchange economy to a synergistic economy.
+
+
+In the industrial society, Masudawrote, social activities were enterprises, economic groupsdwhether in the private sector,
+the public enterprise, or the third sector of government ownership with private management. In the information society, the
+most important issue of social activity will be voluntary communities, a socio-economic group that can be broadly divided
+into local communities and information communities.
+
+
+Masuda further wrote that the spirit of the information society is also the spirit of the revival of emancipating the human
+mind, which morally means respect for basic human rights, emphasizing personal dignity and brotherly love to correct the
+spirit of inequality. The spirit of the information society will be the spirit of globalism, the coexistence of harmony between
+man and nature, including moral self-discipline and social contribution.
+
+5. Peter Drucker (1993)
+
+
+Aswe try to divine the direction of the knowledge economydand the eventual digital societydwe can do no better than to
+revisit the later work of Schumpeter's prot�eg�e, the late business historian Peter Drucker (1909e2005).
+
+
+In particular, his Post-Capitalist Society (1993) inspires and informs the present essay. Although Drucker disingenuously
+maintained Post-Capitalist Society was not a work of foresight,3 it is instructive to catalog, from today's standpoint which
+trends he thought important in 1992 did accelerate, and which fizzled. Drucker's brilliance could bring to light the forces
+underlying socio-economic evolution, but could not always foresee how the forces would play out.
+
+
+In this section, we will note what Drucker got right, in terms of forecasts, and what he failed to anticipate. Using this
+information and his further insights, we assess aspects of the state of the digital/knowledge economy/society and its many
+remaining maturation challenges.
+
+5.1. Drucker's thesis
+
+
+In Post Capitalist Society (1993), Peter Drucker writes that historically, both in West and East, knowledge had always been
+seen as effete, something pursued by society's upper crust, quite unconnected to daily work.
+
+
+Then, almost overnight, it came to be applied to doing …. Beginning after 1700dand within an incredibly short fifty
+yearsdtechnology was invented. The very word is a manifesto in that it combines “techn,” that is, the mystery of a craft
+skill, with “logy,” [knowledge].
+
+
+Drucker is implying that craft does not become knowledge until it is made communicable, and is communicated.4 He
+credits operations research pioneer Frederick Taylor for being first to systematically apply knowledge to work processes, and
+communicate his findings. “The application of knowledge to work created developed economies by setting off the produc-
+tivity explosion of the last hundred years,” Drucker writes (1993).
+
+
+Drucker placed the modern beginning of the knowledge society in the post-World War II years, citing the technological
+advances of the war years and the determination of the postwar Japanese government to collect knowledge as a resour-
+cedmaking that country the first non-Western nation in modern times to become a “great economic power.” Yet as a trigger
+for the knowledge economy, Drucker (1993) writes,
+
+
+My own candidate would be the American G.I. Bill of Rights after World War II, which gave every returning American
+soldier themoney to attend a universitydsomething that would havemade absolutely no sense only thirty years earlier, at
+the end of World War I. The G.I. Bill of Rightsdand the enthusiastic response to it on the part of America's
+
+cker (1993) wrote that Post-Capitalist Society is “a book that is not prediction but description, a book that is not futuristic but a call to action here and
+
+
+id and Foray (2002) agree with Drucker that knowledge is possessed by a community. Grant (1996) disagrees, saying knowledge is “residing within
+ividual.” Grant goes on to say, however, that there is difficulty even in defining “knowledge.” He defers to the great philosophers on that question.
+
+
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191 179
+
+veteransdsignaled the shift to the knowledge society. Future historians may well consider it the most important event of
+the 20th century. We are clearly still in the middle of this transformation.
+
+
+Although in Drucker's (1993) words “the last of the mutations that created the Megastate, the Cold War State, was a
+response to technology,” the knowledge economy ultimately weakened the nation-state (see also Phillips & Linstone, 2016).
+Drucker chastises conservative economists for believing we can go back to strong nation-states, and political scientists and
+constitutional lawyers for hitching political theory too tightly to the idea of the nation-state.
+
+
+What replaces the state, Drucker maintained, is the relationship between knowledge workers and organizations. An or-
+ganization needs knowledge workers to carry out its mission and turn a profit; knowledge workers need organizations as
+platforms to practice their knowledge. “Developed countries are fast becoming pluralist societies of organizations,” Drucker
+(1993) states, and as a result, non-economic valuesd“redemption, self-renewal, spiritual growth, goodness, and virtuedare
+likely to be seen again as existential rather than social goals or political prescriptions”.
+
+
+In traditional work, “the worker is servant to the machine,” e.g., the clock or the speed of the assembly line. However,
+according to Drucker (1993), “In knowledge work and in most service work, the machine (if any) is a servant to the worker.”
+Althoughmany of us feel computers too often tell us what to do, Drucker's distinction is a cogent one: “Knowledge is now fast
+becoming the sole factor of production, sidelining both capital and labor”.
+
+
+“How knowledge behaves as an economic resource,” Drucker (1993) goes on, “we do not yet fully understand.” This is as
+true now as in 1993. At least we do know that “the knowledge-based economy does not behave the way existing theory
+assumes an economy to behave …. High-tech industry does not follow the supply-demand equations of classical, neo-
+classical, and Keynesian economics”.
+
+
+Why is all this “post-capitalist”? First, it is because of the new primacy of knowledge as a factor of production, and second
+because the biggest investors in today's enterprises are pension funds. These are not the traditional independent capitalists
+who take personal risk with stakes or loans from others; pension fund managers are employees of the fund, having different
+risk and agency profiles from their capitalist forerunners. Drucker believed the age structure of developed countries implies
+pension funds will become the “universal ownership mode” in these countries.
+
+
+“It is no longer even possible to make huge profits by controlling money,” Drucker (1993) writesd“The same forces which
+destroyed Marxism as an ideology and Communism as a social system are … also making Capitalism obsolescent.”
+
+5.2. Where Drucker nailed it
+
+
+In line with what Phillips (2008) called “bounded futures,” Drucker noted that “What is unlikely is easier to forecast than
+what is likely.” However, he did make a number of accurate forecasts, as well as astute perceptions of 1993 that remain true
+today:
+
+
+▪ “The developed countries will be inundated by a human flood of Third World immigrants.”
+▪ “A … severe problem is the diversion of the scarcest resourcesdtrained engineers and scientistsdto economically un-
+productive defense work. In the United States, 70 percent of all money spent on research and development is spent on
+defense work.”
+
+
+▪ “The United States has spent enormous sums of money on technology transfer from defense research to civilian products.
+The results have been close to zero.”
+
+
+▪ “GATT (the General Agreement on Tariffs and Trade), while clearly meant to impose transnationalism in … foreign trade,
+has rarely prevailed against national interests.”
+
+5.3. Yet Drucker failed to anticipate
+
+
+Drucker (1993) wrote that rich people “have become celebrities, [but] economically, they have almost ceased to matter….
+And such talk of money as there is, is about the ‘excessive salaries’ and bonuses of these hired hands [i.e., managers], who
+themselves own little or nothing.” On the contrary, disparities of both income and wealth result from and bedevil today's
+knowledge economy.
+
+
+Drucker similarly did not anticipate today's extreme political polarization, runaway “free trade” agreements (Phillips,
+2004), the gig economy destroying pensions, the boom in artificial intelligence, or increased government surveillance, all
+of which do much to shape life today. Nor did Drucker foresee the crash of the Japanese economy, later in the 1990s.
+
+
+“The institutions of capitalismwill survive,”Drucker (1993) wrote, “although some, such as banks, may play quite different
+roles.” Much as we might wish for banks to play a better-citizen role, the banks post-crash seem to be back to business as
+usual.5
+
+5 Not (directly) because they control money, but because of their excessive influence over governments.
+
+
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191180
+
+Another astute Drucker (1993) distinction, “Technology's impacts are predictable in principle; technology developments
+are not,” is perhaps broadly true, but incremental developments are predictable, and “in principle” is not good enoughdas we
+suddenly realize when a new technology evinces a completely off-the-wall 2nd- or 3rd-order impact.
+
+
+Finally, Drucker believed that prior to the 1700s, knowledge may have been used in one specific application, but was never
+developed into general principles that could find application elsewhere. We might add that our ancestors had no under-
+standing that there could be general principles. The Celts and ancient Egyptians, for example, were splendid engineers, but
+there is no evidence that they developed science.
+
+6. Luc Soete (2000)
+
+
+Soete (2000) discussed the cultural and social challenges of digital society. He pointed out that the digital economy cannot
+be limited to issues of electronic commerce, as ease of communication and access to information and data are essential
+ingredients of social interaction and democratic expression as well as of economic activities.
+
+
+Written only four years after the launch of the World Wide Web, Soete's prescient paper argued that:
+
+
+� Commerce will have to consider the particular features and relative merits of physical versus electronic communication
+and exchange including money exchange. The development of markets in cyberspace thus requires substantial human
+intervention.
+
+
+� The three essential conditions for the exchange of material goodsdexcludability, rivalry, and transparencyddo not hold in
+the exchange of a pure information item.
+
+
+� Property rights safeguards such as encryption and watermarks will be a central focus of most policy documents on e-
+commerce. Without these rules creating excludability, Soete wrote, no optimal level of production can be achieved and
+little indication can be obtained of the sort of products that are wanted by potential buyers.
+
+
+� Because e-commerce reaches a global customer base, it will increasingly raise issues about competition policy to deal with
+the “winner takes all'' feature of many digital, non-rivalry goods.
+
+
+� Issues of open standards, compatibility, universal access, inter-connectivity, democratic control, privacy, and new legal and
+moral issues of collective responsibility will increasingly influence existing competition rules. New questions about data
+protection and consumer privacy will have to be addressed, with the emergence of new intermediaries competing for
+access to customer data.
+
+
+� Continuous upgrading and versioning of goods and services will raise new policy issues, and many other directly policy-
+relevant issues going beyond traditional economic policy concerns (e.g., the question of who “owns” purchased software).
+
+
+� The real growth of electronic commerce will not lie in the simple substitution of physical commerce by electronic com-
+merce. Rather, it will lie in what he called “e-exchange,” i.e., the opportunities offered by electronic networks for new
+forms of exchange and communication across businesses, between businesses and consumers, and between consumers to
+generate value out of such new forms of exchange.
+
+
+� In the short term, the information highways are likely to significantly reduce costs due to the ease of electronic access and
+the available databases on products and suppliers. Transaction costs are thus likely to fall and existing intermediary costs
+decline (This indeed happened; Satell (2015) noted, “So, in effect, the Coasean model has been turned on its head.
+Technology has minimized transaction costs, while organizational costs have become a heavy burden.”).
+
+
+Soete predicted the growth of Internet-enabled outsourcing, with electronic exchange likely to lead to substantial reor-
+ganization of markets with the value chain shifting across business, and the activities that are not part of the core
+manufacturing or service production of the firm now carried out more efficiently outside of the firm, in specialized
+companies.
+
+
+The digital revolution, Soete wrote, will allow not just internal re-engineering processes in the public sector, but also new
+forms of outsourcing and public-private partnerships. Many areas dominated by public authorities and public service pro-
+viders such as education, health, culture, media, social services, immigration, police, libraries, and other local services, he
+added, are typically bound by the geographical limits of the country, province, region, or townwithinwhich they operate and
+are administered. This constrains the growth of their online user bases, compared to the global reach of e-commerce sites.
+
+
+While the information revolution contributes to increased efficiency in economic production and distribution (and, we
+add, disposal/recycling), it creates in the first instance increased consumer satisfaction, increased welfare, and freedom of
+communication and exchange. It is in this sense that the information society takes on its true value, for leisure, household, and
+other so-called “non-work” activities.
+
+
+Soete argues that easy access to these new “immaterial” goods and services represents the newwealth of the 21st century.
+Typically (or, rather, ideally), these are goods and services that in their consumption do not lead to the sort of happiness
+paradox (first identified in the 1960s by Tibor Scitovsky (1992)) that is characteristic of traditional material consumption.
+
+
+Seventeen years later, all but one of Soete's predictions have eventuated. Even the one exceptiondpolicies attempting to
+bestow exclusivity on informational goods (the third bulleted item above)dis still practiced, but has become widely scorned,
+seen as incumbent firms' digging in their heels in resistance to information's tendency to zero marginal cost.
+
+
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191 181
+
+7. Pedro Conceiç~ao, David Gibson, Manuel Heitor, and Georgio Sirilli (2001)
+
+
+Conceiç~ao et al. (2001) discussed the emergence of the learning society in tandem with the knowledge economy. They
+proposed that in a learning society, individuals, firms, and organizations are not merely consumers but actively and
+continuously seek to nurture, manage, and harvest their knowledge assets.
+
+
+In this respect, innovation and learning are not limited to immediate technical advances or their applications (including
+information and communication technologies, ICTs). Changes in the regulatory framework of an industry, shifts in consumers’
+tastes, demographic makeovers, or even alterations of global geopolitics are considered innovations that affect the devel-
+opment of a learning society. Consequently, the digital economy and the learning society should be viewed through theo-
+retical lenses that accommodate the broader understanding of innovation and learning. The “techno-economic paradigm”
+(Freeman & Perez, 1986) is one such framework, duly addressing the limitations of the traditional economic viewpoints.
+
+
+Techno-economic paradigms (TEPs) mainly form by organizing the economic activity around a set of core technologies.
+When the potential of existing technologies exhaust (or disruptive innovations occur), technical advances and entrepre-
+neurial activities lead to new techno-economic paradigms. A set of core technologies is selected by the market, and the
+development and diffusion of most products and services hinge on that set of core technologies.
+
+
+Freeman, Clark, and Soete (1982) identified major techno-economic paradigms: early mechanization in the 1700s, steam
+engine and railways around the mid-1800s, electrical and heavy engineering from the end of the 1800s to the 1940s, Fordist
+mass production from the 1930se1980s, and, finally, ICTs from the 1970s onwards.
+
+
+The new digital economy and the learning society exist in the current (fifth) techno-economic paradigm, in which
+innovation and learning practices are largely reliant on electronics, computers, telecommunications networks, and the
+Internet. An array of opportunities has opened up in all areas of living, business, education, research, healthcare, travel, and
+farming, and there is no apparent end to its potential.
+
+
+The current ICT-based TEP brought radical changes to the modern firm, for instance, newer business models, improved
+ways of working without constraints of time and space, and new media/modes of collaboration. All that is on top of the
+productivity gains appropriable through process and incremental innovations. The digital product/services/apps innovations
+in the current ICT-based techno-economic paradigm have brought unprecedented higher returns, hence the new digital
+economy.
+
+
+Large variations in the productivity/growth/income of different countries/regions essentially indicate differences in their
+ability to innovate within the current TEP based on ICTs. In the neo-Schumpeterian tradition, the notions of technological
+trajectories (Dosi, 1982) and national innovation systems (Freeman, 1982, 1987; Lundvall, 1992; Nelson, 1991) provide an
+explanation. A national innovation system is typically a snapshot of diverse types of innovation actors in a country, their
+interactions, and the institutional conditions within which they innovate. Technological trajectories on the other hand depict
+evolutionary progression of the technological capabilities and assets of an organization or country. Therefore, based on the
+path-dependencies carved by their unique historical and other contextual conditions, a country (region or firms therein) can
+only learn (accumulate knowledge) and make progress around specific technological trajectories within the prevalent
+techno-economic paradigm.
+
+
+Technology policy plays a large role in shaping the conditions to move up the existing or new technological trajectories,
+and to foster economic progress within the current TEP.
+
+
+Because the process efficiency potential of ICTs have been to a large extent exhausted during the early period of the current
+TEP, there is an increasing need to focus on nurturing a learning society with competencies in economics, management,
+engineering, and technology. The digital economy has to shift to a learning economy based on innovations by a maximum
+number of members of the learning society.
+
+
+Therefore, public policy that leaves everything (or most) to the markets to shape the new digital economy would not be
+helpful for successful economic progress. In fact, the role of policy should be to actively leverage the potential of ICTs for
+transformation of information to knowledge and its sharing within and across borders to support learning, knowledge
+accumulation, and innovation at individual and collective levels. In this regard, education and research agendas supporting
+the quality of human resources and activities oriented toward the generation and diffusion of knowledge should be top
+priorities of technology policy.
+
+
+Successful technology policy for the current TEP should specifically entail:
+
+
+� Targeting growth of knowledge-based industries.
+� Developing social capital well-versed in ICTs, through education and research programs.
+� Successfully commercializing scientific R&D outputs in the form of technical and organizational innovations.
+� Measuring and monitoring the development of innovation and learning society in an appropriate way.
+
+
+These authors conclude that to foster a peaceful future, technology policy in the current TEP should also focus on building
+institutions and supporting conditions for learning and knowledge accumulation at the global level (knowledge society at
+global level).
+
+
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191182
+
+Cluster theorists and economic geographers (e.g., Lundvall, 1992; see also; Phillips, 2017) emphasize that regional eco-
+nomic development, and productivity within the firm, are now served by deliberate sharing of knowledge as well as by
+accidental knowledge spillover and face-to-face transfer of tacit knowledge (Nonaka & Takeuchi, 1995).
+
+8. Robert Ayres and Eric Williams (2004)
+
+
+Ayres and Williams (2004) valuably recapitulated the information/communication technology (ICT) developments and
+technology policy developments that underpinned knowledge society early in the new century. They emphasized the “huge
+amount of misdirected investment” resulting from the untested business models of Internet startups, from the dotcom crash
+of the late 1990s, from the spate of doomed mergers, and from the Netscape vs. Microsoft browser bundling lawsuit, which
+broke new legal grounddthe law not being prepared for the digital future.
+
+
+Ayres and Williams (2004) forecast that although the “use of cell phones for communicating text, pictures, and video is a
+rapidly expanding area, it seems unlikely that these applications will have a macroeconomic impact.” They did turn out to
+have a profound social impact, however, and ultimately economic impact via m-commerce, GPS-driven transportation effi-
+ciencies, etc. (Of course, as Ayres and Williams note, these applications depended on cellular networks changing over from
+analog to digital, which in the U.S. did not happen until the 1990s. The same decade saw the inception of HDTV, digital
+television.)
+
+
+Indeed, the Ayres and Williams paper, when departing from ICT technicalities, did address the knowledge society more
+than the digital economy, focusing on such changes as telework. They were pessimistic about the ability of telework tech-
+nology to handle group tasks. Today, Google Docs, Google Hangouts, and many other facilities from multiple vendors have
+solved that problem more or less adequately.
+
+
+They pointed out that digital society preceded digital economy in a sense, with the U.S. Census Bureau adopting electronic
+computers in the 1950sdand the military before thatdwhile business adoption did not take off until the late 1950s.
+
+
+In 2003, “Most business users of computers were, and still are, companies in the service sectors” (Ayres&Williams, 2004).
+This has changed, as Industry 4.0 places networked robots on the manufacturing floors of America and other countries.
+
+
+A spot-on forecast by Ayres and Williams was that music would be downloadable as individual songs, rather than as
+bundled albums, for about a dollar each. Like Soete, they foresaw the privacy issues that plague Internet commerce today.
+
+
+Ayres and Williams note the convergence of computing and telecommunications technologies that began in the 1960s,
+and document the simultaneous drops in bandwidth prices and increases in video compression ratios that today have given
+us streaming Netflix.
+
+
+Although in pre-World Wide Web and pre-big data times, servers were connected only to LANs (local-area networks) and
+the demand for servers was limited (Phillips, 1992), by 2003, an incipient “cloud” was driving 50 percent annual increases in
+server capacity demand (Ayres & Williams, 2004). Likewise, demanded bandwidth per user was doubling every two years
+(Ayres & Williams, 2004). As our appetite for cat videos seems insatiable, and as the Internet of Things takes off, bandwidth
+demand seems poised for continued increasesdperhaps beyond the capacity of the Internet that now exists.
+
+
+Progress of the digital society was perhaps slowed, but also perhaps ultimately of higher quality, due to standards wars
+(HDTV vs. HD-MAC, and CDMA2000 vs.W-CDMA) and a U.S. Federal Communications Commission that “was concernedmore
+with assuring competition than with encouraging innovation” (Ayres & Williams, 2004). Today, especially following the
+surprise 2016 U.S. presidential election outcome, Internet domain name authority and net neutrality debates present similar
+challenges.
+
+9. Regional views
+
+
+9.1. Asia
+
+
+Guest-editing a special issue of Technological Forecasting & Social Change, Sung (2009) noted that the “OECD officially
+acknowledges the digital economy as a new way of conducting business, and recognizes that digital economy has the po-
+tential to radically alter economic activities and the social environment.” The digital economy, he says, “allows regional
+businesses and economies to be less local andmore global in keeping with long-term trends towardmarket liberalization and
+reduced trade barriers”.
+
+
+Sung's 2009 special issue focused on Asian countries' leveraging of digitization and the knowledge economy in order to
+overcome the East-West economic gap left over from traditional economies. He summarizes the findings of contributors to
+the special issue:
+
+
+� In terms of patents won, South Korea, Taiwan, Singapore, Hong Kong, China, and India have leveraged ICT to become
+“much larger forces in the world economy”.
+
+
+� In Taiwan's IC design industry, human capital and relational capital, grown through application of ICTs, “improve new
+product development performance through organizational learning capability”.
+
+
+� IT investment has a positive impact on firm performance in less-developed China, and this impact is similar in direction
+and size to that experienced by more developed countries, including the United States. (This was an unexpected result.)
+
+
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191 183
+
+� The density of the networks of Korean industries increased over time (from early 1980s to mid-1990s), “implying that the
+knowledge network has expanded and intensified”. However, much remains to be done to advance informatization of
+non-ICT-related Korean industries.
+
+9.2. Europe
+
+
+Rodrigues (2002) writes of “a new European strategy which aims to build a knowledge-based economy with more
+competitiveness and social cohesion.” His edited book, with contributions by Lundvall, Soete, and others, also portrays the
+knowledge revolution as tied to globalization. Challenges include Europe's relations with America, whether the EUmodel will
+closely or loosely tie the member countries, gaps between high-skilled and low-skilled European regions, problems of social
+exclusion, and renewing Europe's social welfare traditions in a more competitive world.
+
+
+Rodrigues (2002) calls the sacrifice of “social and historical context” for the sake of “modelisation and more precise
+explanation” a “crucial dilemma,” and comes down on the side of including sociological and historical analysis, as did (he
+notes) Veblen and Schumpeter. As advisor to the prime minister during the Portuguese presidency of the EU, Rodrigues saw
+this view advanced as a policy. With Europe's knowledge transformation perceived to be lagging America's, a Europe-wide
+policy push was called for, with the EU's diverse countries serving as living laboratories for policy options, and “open
+coordination”da kind of open innovation initiativedused to collate suggestions and best practices.
+
+10. The recent trade press
+
+
+We now look at recent thinkers who have published outside the scholarly journals.
+
+10.1. Don Tapscott (1995)
+
+
+In the mid-1990s, consultant Don Tapscott (1995) recognized the emergence of a “digital economy” led by “networked
+intelligence”dan on-going revolutionary transformation of individual and organizational behaviors (and activities), based on
+the information available to them plus the potential to communicate and collaborate with each other.
+
+
+The “networked enterprise,” the fundamental unit of the digital economy, relies on applying human know-how to develop
+and offer new products and servicesdoften disruptive, information-intensive, and somewhat intelligent. Two key enablers of
+the knowledgework, learning, and disruption in the digital economy are high-speed networks and interactivemultimedia led
+by the convergence of content, computing, and communications technologies (industries).
+
+
+ICTs support the creation of “networked enterprise” at five different levels, each with its own impacts and implications for
+the digital economy.
+
+
+1. Personal multimedia help create a more “effective individual” who is able to carry out personal tasks much more effi-
+ciently with high learning competencies.
+
+
+2. These effective individuals use workgroup computingdleading tomajor changes in organizational business processesdto
+become smaller “high-performance teams.”
+
+
+3. Individuals and smaller teams connect and communicate across the enterprise instantly using digital networks and social
+media. Organizational information travels at light speed across the globe, supporting the emergence of an “integrated
+enterprise.”
+
+
+4. However, information sharing is not limited to individuals and teams inside an organization. Using inter-enterprise
+computing technologies, external relationships with suppliers, interest groups, competitors, and customers are rede-
+signed to bolster the overall performance of the entire value network (replacing industry value chains or supply chains).
+Products and services are increasingly developed and distributed with proactive participation of other actors in the value
+network. The networked enterprise is an “extended enterprise.”
+
+
+5. Lastly, putting them all together at a higher level, all value-creation activities can be conceived, implemented, and
+distributed entirely in cyberspace. That means a networked enterprise could also become a fully virtual enterprise, or in
+other words, “inter-networked business.” Such enterprises are the new source of wealth-creation.
+
+
+Transformation in any sector or industry, Tapscott maintained, could be described by these five levels.
+While the businesses aiming digital transformation grapple with technical issues pertaining to digitization, convergence
+
+
+(variety), modularization, intangibility, and velocity of information management, their most critical challenges in trans-
+formation from traditional enterprise to the networked enterprise are predominantly management challenges. They involve
+attracting and retaining a knowledgeable, independent but collaborative workforce, provision of an open communications
+environment, and development of trust. These challenges are further aggravated by the issues of privacy, information
+asymmetries, changing work-life balance and social relations, and the impact of easy access to negative online (virtual)
+experiences.
+
+
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191184
+
+The key argument put forward by Tapscott is although it is the technology that is revolutionary and disruptive, the core
+issue of the digital economy remains how the technology largely affects the society, enterprise, and the individual.Wealth and
+knowledge divides, privacy, and changing social relations and work conditions would need full and conscious attention.
+
+10.2. Bill Gates (1999a, b)
+
+
+Microsoft founder Bill Gates (1999a, b) also notes that digital technologies and networks have unleashed unique potentials
+for information work and information flows. While the former is about human thought applied to information at the
+workplace for problem-solving purposes, the latter implies that information can be instantly exchanged among line workers,
+managers, suppliers, customers, and other stakeholders.
+
+
+Gates sees a Digital Nervous System (DNS) at the heart of this exchange, the organizational brain that bolsters thinking and
+collaboration in the workplace and at the boundaries of the business. He emphasized a DNS is imperative for any business or
+non-profit that wants to survive in the new economy. A well-functioning DNS allows the firm to answer the harder business
+challenges, for instance, building innovative new products or an interactive customer service.
+
+
+A good communications network, an efficient email (messaging/exchange) system, and a web system (providing online
+forms) are the primary building blocks of an effective DNS. Digital transformation looks easier if it was only about technology.
+However, corresponding organizational change (learning, adaptation, and capability accumulation) needs much conscien-
+tious effort and time, and must be accomplished at a very high speed. It begins with the introduction of simple practices for
+collecting, processing, and sharing transactional information at various levels (e.g., a paperless office). Ultimately, it involves
+using such information for strategic decision-making. Real-time data, mobile devices, and wireless connectivity open up new
+forms of efficiencies in the workplace and on the production floor.
+
+
+A new web-based lifestyle, flourishing around new forms of content, advertising, and media (Internet/TV/PC combined),
+has re-defined the business-customer and government-citizen relationships. The size of the organization does not matter
+anymore in the online economydexperience and service levels do. Therefore, softer aspects of management and the skills/
+tools for building social relationships are the key differentiators in this increasingly innovative and service-focused landscape.
+Online information search, online interactions, communities of interests, and communities of practices inside and outside the
+organization will empower employees as well as affect supplier and customer engagement.
+
+
+Consequently, a DNS plays an important role in raising the “corporate IQ” of the enterprise in the new economy. It directly
+improves the most critical antecedents of doing business in the new economy, such as delegation, flexibility, self-service (dis-
+intermediation), synergy, and personalization. While physical assets are being transformed into information as much as
+possible, interactions are also being turned into experiences with the least number of hand-offs. In order to support speed,
+agility, personal initiative, responsibility, and action-orientation, organizations need to instantly identify and share bad news
+even more than the good news. Unlike manufacturing industries where information flows for inventory were most impor-
+tant, information for risk is what works for the businesses in emerging sectors of the new economy, according to Gates. Some
+of the sectors most transformed by DNS, he says, include healthcare, government (public services), and education.
+
+10.3. Paul Mason (2015, 2016)
+
+
+Mason (2015, 2016) argues that “information is corroding the market's ability to form prices correctly,” even as companies
+fight a rear-guard battle, attempting to “own” information and keep its price high through copyright extensions, nondis-
+closure and non-compete contracts, and so on. This implies “intellectual property is valued in modern accounting standards
+by guesswork.”6 We may expect an unstable stock market until this is resolved.
+
+
+Mason's article, giving no indication that its author has read Drucker, reiterates Drucker's ideas in a gee-whiz-I-just-
+thought-of-this manner. However, Mason states the ideas' implications in powerful ways, shows that they are much more
+urgent now than in 1993, and deals with important items that Drucker got wrong (e.g., he notes that “the pension system has
+been destroyed”). Where Drucker saw the central conflict of the future as betweenmanagers and knowledge workers, Mason
+sees it as between “free and abundant goods and information” and the fragile monopolies that desperately prop up prices.
+
+
+Mason draws parallels (as did Drucker) between the feudalism-capitalism transition and the capitalism-postcapitalism
+transformation. Land shortages and the need for military production attenuated the “values” of feudalism, and the new
+capitalist structure was able to arise with little push-back following the crisis of the Black Plague. Indeed, “[a]t key moments,
+though tentatively at first, the state switched from hindering the change to promoting it.”7 We now see cracks in the mores
+underlying capitalism (the mores that sent MaxWeber into such raptures); terrorism and climate change might be the crises
+that fill the role played by the bubonic plague in the mid-1300s.
+
+6 For a variety of views on accounting valuation in the digital economy, see Bhimani, Alnoor (2003) Management Accounting in the Digital Economy.
+Published to Oxford Scholarship Online: August 2004. http://www.oxfordscholarship.com/view/10.1093/0199260389.001.0001/acprof-9780199260386.
+
+
+7 Mason (2016) believes it will not be state, but rather city officials that will first promote the needed reforms. Unlike Drucker, who believed non-
+economic values would become personal rather than political, Ida Auken (2016), a member of the Danish parliament (Folketinget), argues that city gov-
+ernments, by embracing the digital sharing economy, can facilitate the emotional satisfaction that comes from the digital alternative to the present growth-
+obsessed, high-stress, environmentally damaging regime.
+
+
+
+http://www.oxfordscholarship.com/view/10.1093/0199260389.001.0001/acprof-9780199260386
+
+
+
+
+Table 3
+Milestone dates in the knowledge economy.
+
+
+1856: Marx's Grundrisse, “The Fragment on Machines.”
+
+
+~1910: Frederick Taylor applies knowledge to work processes.
+1945: U.S. G.I. Bill (Drucker, 1993).
+1970s: Internet.
+1980: Japan's Knowledge Society plan.
+1990: Senge, “The art and practice of the learning organization.”
+1995: Nonaka and Takeuchi, The Knowledge-Creating Company.
+1995: World Wide Web, then (~2000) interactive Web 2.0.
+2006e2007: The first iPhone. Facebook opened to general users. Twitter, Hadoop, Kindle, Google Android OS, IBM's Watson AI, Airbnb, GitHub, change.
+
+
+org, the “cloud,” and Internet users >1 billion (Friedman, 2016).
+2017: Trump attempts to reverse Net Neutrality. Knowledgeworkers at Google and other tech companies exercise new power, forcing CEOs to disengage
+
+
+from the White House.
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191 185
+
+11. The foremost thinkers on knowledge society: summary and common threads
+
+
+11.1. Key dates
+
+
+Important milestones in the transition to a digital, knowledge-based economy and society have been Karl Marx's long-
+ignored Fragment on Machines (1858), Frederick Taylor's work in the early 20th century, the U.S. G.I. bill in 1944, and the
+1970s Japanesework on “knowledge society.”Naturally, the Internet (1970s), theWorldWideWeb (1990s), and especially the
+more interactive Web 2.0 (early 2000s) were key advances. See Table 3.
+
+
+Friedman (2016) argues for 2007 as a key date. Late 2006 and 2007, he says, brought us the first iPhone. Facebook opened
+itself to non-university users. Twitter, Hadoop, Amazon's Kindle, Google's Android OS, IBM's Watson AI, Airbnb, the GitHub
+open-source software library, change.org, and the “cloud” all took off in 2007djust after Internet users had exceeded a billion
+in 2006.
+
+11.2. Commonalities and differing views
+
+
+All the thinkers mentioned in the present historical account8 saw the knowledge revolution as closely tied to social in-
+teractions. Some noted that the economics of the knowledge economy are not yet understood. Their consensus on these
+points implies there will be no “purely” economic (i.e., centered on price) theory of the knowledge economy; the theory that
+will eventually emerge will tie economics to sociology, urban planning, and perhaps other disciplines. It will not be a simple
+theory.9
+
+
+Most of thewriters at least implicitly connected the knowledge revolutionwith a globalized outlook and amore globalized
+economy. The easy, costless movement of informationmakes this connection plausible, yet the recent successes of nationalist
+political candidates in several major countries make it arguable, for now.
+
+
+Some of the writers saw the knowledge revolution having more impact on public policy, and some focused more on the
+impact on business firms. Conceiç~ao et al., for example, were mainly concerned about the national and policy-level aspects
+(and issues) of the learning economy. They emphasized knowledge exchange for international shared prosperity. In contrast,
+Tapscott and Gates both discussed how key technological trajectories unfold for a networked enterprise in a front-runner
+nation. They did not address the latecomer enterprise (or enterprises from latecomer nations) or variations in their path-
+dependencies/contexts.
+
+
+This contrast pointed up the tension between the companies still trying to monetize information, and the public agencies
+that wish to move information more quickly and cheaply for the benefit of citizens. Even among the latter, there are dif-
+ferences in emphasis, e.g., Conceiç~ao et al.’s (2001) emphasis on national and international policies on the one hand, and
+Mason's (2015) and Auken's (2016) focus on cities as the drivers of the public revolution in leveraging knowledge on the other.
+It could be noted here that governments have moved more slowly, making the revolution more an evolution, if only because
+governments must obey their own laws. Tech firms (famously, Uber), in contrast, have openly flouted the laws, in the interest
+of first-mover advantage.
+
+
+Some writers view the same aspects of the knowledge revolution from seemingly incompatible angles. Powell and
+Snellman (2004) see the revolution characterized by the rise of science-based industries, differing rates of innovation in
+different industries, and the nature of work and its effect on firm performance. This differs from the list offered by David and
+
+8 We have tried to represent prominent writers spanning the history of the knowledge society idea. The possibility of accidental selection bias remains.
+9 Grant's 1996 paper “Toward a Knowledge-based Theory of the Firm” concedes, “The emerging ‘knowledge-based view’ is not, as yet a theory of the firm.
+
+
+” Perhaps this is because of bounded rationality, as evidenced by the fact that Grant draws heavily on Cyert's and March's behavioral theory of the firm, even
+as he rightly claims that things are different now.
+
+
+
+http://change.org
+
+http://change.org
+
+http://change.org
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191186
+
+Foray (2002), which emphasizes the accelerating rate of knowledge creation and obsolescence, growing prominence of
+intangible capital, the imperative for innovation and change in organizations, and digitalization.
+
+
+Predictions made by the writers ranged from amazingly prescient to flat-out wrong, and also fell into intermediate po-
+sitions on that spectrum. Tapscott's ideas of integrated enterprise, inter-networked enterprise, and enterprise architectures,
+and Gate's conceptualization of Digital Nervous Systems bear strong similarities. Both of them laid down technology-based
+visions of fast, dynamic, agile, focused, boundary-spanning, collaborative, service-oriented, and knowledge- and innovation-
+driven enterprises in the digital economy.
+
+
+However, they did not foresee the exponentially increasing size and complexity of enterprise infrastructure that resulted
+from the above drivers, for example, the Internet of Things, expected to encompass between 20 and 50 billion devices
+connected to the Internet by 2020, throwing off torrents of data. Already, more data are now being generated everyweek than
+in the last millennia. Consequently, they could not discuss the need for cloud computing, proliferation of online search (to the
+extent it has become a sector in itself), the huge impact of social media, and the emergence of big data analytics. They also
+focused on security and privacy from the human and organizational perspective, while neglecting the technical side. Their
+portrayals of the business future were culture-bound and at most medium-term.
+
+
+Generally, the many writers’ broader, bolder predictions have proven true, with the detailed predictions about the
+mechanisms of change having a more checkered track record. These facts suggest prediction will remain a risky business for
+some time to come.
+
+12. Digital economy: status and current directions
+
+
+In this section, we offer an interpretation of the material presented above, and cautious views of the future.
+
+12.1. Interpretation and synthesis
+
+
+Knowledge workdactivities that involve complex problem identification, problem solution, or high-technology design
+and that result in innovative new products or services or create new ways of exploiting marketsdhas become the driver for
+economic growth and individual and organizational prosperity (Neef, 1998, p. 3).
+
+
+Therefore, one would expect knowledge- and information-intensive industries such as high tech, financial services,
+entertainment, health care, education, and government to be those most transformed and benefiting the most from digiti-
+zation and the Internet. In the medium term, the most visible effects may be seen in retailing, manufacturing, and travel
+(Carlsson, 2004).
+
+
+Newspapers, music, finance, and travel agents already have been transformed or obliterated. Facebook, Twitter, smart-
+phones and the “sharing economy” have perhaps surpassed people's expectations, disrupting established structures and
+economic arrangements. Sectors from accommodation to transport have been disrupted as new applications enable new
+business services over the Internet. Online video distributors, such as YouTube or Netflix, offer content over broadband
+networks, beyond traditional cable and broadcasting services. Changes have been equally profound in telecommunication,
+with voice (VoIP) and text services such as WhatsApp, or KakaoTalk offered over the Internet.
+
+
+Digital technology is reshaping business models and firms’ organization, and making “soft skills,” such as information-
+processing, self-direction, problem-solving, and communication, more important. The effects of digital technologies go
+beyond employment and skills to the very organization of work, by enabling firms to segment tasks in newways (Grant,1996)
+and to increase the use of temporary labor. Digitization and the Internet, in combination with new software, enable com-
+panies to collaborate with suppliers and customers in new ways and thereby to raise productivity.
+
+
+In the oil industry, higher-resolution (3-D) imaging increased the payoff for accurate drilling. This induced companies to
+invest in high-tech down-hole sensors. New technology and better oil recovery developed simultaneously, energizing and
+reinforcing one another. Knowledge, as much as petroleum, is now the critical resource in the oil business. Although the
+supply of oil is “fixed,” the supply of knowledge is boundless (Rauch, 2001, pp. 35e49).
+
+
+Web technology brings together design engineers in collaborative systems to develop new products. An example is
+DaimlerChrysler's FastCar project. The company expects to develop the new car 40 percent faster through its new web-based
+system than in a traditional system inwhich geographically dispersed engineers communicate via phone, fax, and e-mail and
+where each proposed design change might require days or weeks. As a result, DaimlerChrysler expects to save billions of
+dollars on the cost of car development over the next few years (Moozakis, 2000, p. 83). For similar reasons, General Motors
+can get a car into production in 18 months rather than the 42 months it took in the mid-1990s (Keenan, Ante, Elgin,& Hamm,
+2002).
+
+
+Digitalization plays an important role in the restructuring of economic activities within industries, for example, in the
+defense industry, where more than 80 suppliers will be working at 187 locations to design and build components of the Joint
+Strike Fighter. It is up to the 75-member technology group at Lockheed's Aeronautics division to link them all together;
+Lockheed and its partners will be using a system of 90 web software tools to share designs, track the exchange of documents,
+and keep an eye on progress against goals (Keenan et al., 2002).
+
+
+
+
+
+
+Fig. 1. The knowledge society: A map of concepts.
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191 187
+
+12.2. Measurement
+
+
+The Lockheed example conveys the difficulties of measuring the knowledge economy. It is difficult first because there is
+insufficient theory onwhich to build measurement scales, and second because the essential factors of humanmotivation and
+preparedness are so difficult to measure.
+
+
+The OECD (2016) and the Digital Economy and Society Index (DESI; https://ec.europa.eu/digital-single-market/en/desi)
+assess countries' progress toward digitalization, but do not address their cultural contexts, i.e., the surrounding knowledge
+societies. The World Economic Forum's “Networked Readiness Index” (http://www3.weforum.org/docs/WEF_GITR_Report_
+2013.pdf) does include cultural, legal, human, and business environment measures. However, it too gives outsize emphasis
+to computer hardware sales.
+
+
+The Economist Intelligence Unit's (2010) digital economy survey ranks theworld's 70 largest economies on availability and
+integration of information and communications technology (ICT) for social, cultural, political, and economic progress. Top
+performing countries show balanced progress on business and legal environments, education, technology policy, and digital
+services adoption. The report suggests that the digital divide is narrowing among countries. Mobile data tools and educational
+services are progressing faster in the developing world than in rich nations. Educational levels are improving throughout the
+world.
+
+
+The study found that when e-government channels are available, citizens do not necessarily use them. It is a people
+problem, not a technological problem. On the other hand, the study found that some governments' heavy-handed control of
+citizens’ access to information impedes progress toward a knowledge economy.
+
+
+The knowledge revolutionwill change what wemust measure, and change the way wemeasure (Phillips, 2014). Al Shami,
+Lotfi, Coleman, and Dost�al (2015) have put forward interesting ideas in this regard.
+
+12.3. A concept map
+
+
+Our recapitulation of 160 years of thought makes it clear that knowledge takes the dominant role in what is happening
+today. Digitalization, although hugely important, is just an enabler-facilitator of the knowledge society, and would be neither
+necessary nor possible in the absence of the knowledge revolution. How humans interact, in social, business, civic, and
+political organizations, is key. Just as the best power tools will not help an incompetent carpenter, the best digital tools will
+not empower a dysfunctional organization.
+
+
+Fig. 1 shows our view of the relationship of the knowledge revolution's main components. The knowledge society en-
+compasses commercial, social, governmental, and educational activities, and all four elements are revolutionized by the new
+primacy of knowledge as a factor of production. Digitalization supports their respective revolutions, but the revolutions
+cannot succeed without trust. Digitization (more properly, digitalization) provides one important element of trust, that is,
+secure communication. The remainder of society's trust comes as always from human attitude and experience. This
+remainder has not proven scalable beyond workgroups or social groups of a few hundred (Dietz, Ostrom, & Stern, 2003;
+D�avid-Barrett & Dunbar, 2013), and many current studies address that barrier.
+
+
+
+https://ec.europa.eu/digital-single-market/en/desi
+
+http://www3.weforum.org/docs/WEF_GITR_Report_2013.pdf
+
+http://www3.weforum.org/docs/WEF_GITR_Report_2013.pdf
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191188
+
+12.4. The future
+
+
+The transition to a knowledge economy will feel rapid due to the many changes it entails, but it will take a long time for it
+to be complete. As Drucker (1993) warned, we will live for some decades yet in a dual economy: part capitalist, part post-
+capitalist.10
+
+
+Like any revolution in production, the knowledge economy will bring positive and negative externalities, job losses being
+highly visible among the latter. We may expect more M&A activity, with its usual failure rate, some of it motivated by false
+predictions of economies, some by confusion about industry boundaries, and some by the historical and venal fact that few
+CEOs get fired during the course of a merger. The digital economy will present challenges for law, accounting, and banking,
+with all the economically unproductive fees that drive those professions.
+
+
+The environmental benefits of the digital economy will be significant: Savings in paper (and other materials) and in
+physical distribution costs may be only the tip of the iceberg, the submarine portion of the berg including reduced pollution
+from factories, reduced commuting trips due to telework, and “cell phone lots” at airports. Environmental diseconomies
+include the power consumption and cooling requirements of massive data server arrays, possible health threats from
+ubiquitous radiation in the Wi-Fi bands, and possible disruption of marine life from laying oceanic fiber optic cables.
+
+
+The “digital divide” (James, 2002) will persist, with large swaths of the world's population having little access to digital
+products and services. Income and wealth inequality may worsen as digital goods become the norm in advanced countries.
+
+
+The richness and nuance of analog life is missing in the digital society. The unexpected and exciting roar of presses and
+newsboys shouting “Extra!” are with us no more; when Donald Trump won the U.S. presidency in an upset, news organi-
+zations did exactly what they would do if a meteorite were about to wipe out all Earthly lifedthey quietly updated their
+websites. There will be a backlash against the digital transition, and ultimately, a balance will be struck. More than a century
+after the industrial revolution, most of theworld's people still lived on farms. Now that balance has reversed, urban gardening
+provides many with a satisfying link to the old regime.
+
+
+Some people will gravitate toward digital machine-like personal behavior (beat-box singing, robotic dancing, excessive
+“business process improvement”11) even as others go “more human” (Groth, 2016). A better understanding of rationality and
+emotion in human decision-making may emerge.
+
+
+Knowledge is power; hence, misinformation becomes a weapon. “Spin,” misleading news, and even “fake news” take on
+new prominence, and not just in public sources: Tiku (2017) documents that Google's intranet news, aimed at employees,
+deliberately misrepresented a court decision that could affect the company's future. An industry will grow around verification
+services.
+
+
+The OECD (1996) recapitulates that this is not just about (price) economics. The OECD report emphasizes power shifts
+resulting from the knowledge revolution, and the importance of institutionsdwhich, the report notes, do not yet have the
+tools or expertise needed to govern the knowledge society.
+
+
+13. Consequences for organizations and society
+
+
+Companies cannot benefit from the knowledge economy by relying on technology alone. Success will hinge on humans’
+willingness and ability to assimilate and share information, to make data-based decisions, and to accept new and often
+inverted patterns of influence within their organizations.
+
+
+Knowledge workers have inverted the power structure in companies, especially in high tech firms. Google employees'
+success in demanding that their CEO cease engaging with the newly elected administration in Washington may be startling,
+but was predictable given the writings of the thinkers cited in this paperdas is the current refusal of technology firm em-
+ployees to comply with Trump's “Muslim registry” order.12
+
+
+Two Forbes columns (Jones & Silberzhan, 2016; McKendrick, 2016) warn against “doing the wrong things even faster,” i.e.,
+digitizing legacy business processes without first re-thinking the processes. IT vendors will of course under-emphasize this
+necessity in order to sell more computer systems faster. Technology is a means of serving customers better, McKendrick
+reminds usdnot an end in itself.
+
+
+Until a useful socioeconomic theory of the knowledge economy emerges, companies and governments will depend on
+experimentation and information-sharing as a substitute for theory-based strategy, as Rodrigues (2002) urged for Europe.
+(Kim, Barua, & Whinston, 2002; Kodama, 2015; Phillips, Lin, and Lin, 2017). We may expect some companies to hedge their
+bets by establishing a division or skunkworks that embraces the knowledge economywhile the traditional divisions act as the
+reactionary incumbents.
+
+10 An iconic image of this dual economy is a truck hauling hard drives chock full of datadterabytes that are too numerous to transmit electronically even
+with today's bandwidth. https://www.wired.com/2016/12/amazons-snowmobile-actually-truck-hauling-huge-hard-drive/?mbid¼nl_12216_
+p3&CNDID¼44473061.
+11 “Holacracy was developed by software engineer Brian Robertson, who has sold CEOs like [Zappos's] Hsieh on a product that promises to push humans
+to run like a computer operating system…. At Zappos, dissatisfaction with holacracy played a role (though it wasn't the only reason) in nearly a third of the
+company walking out the door in 2015. That same year, Zappos dropped off of Fortune's ‘Best Companies to Work for list’ for the first time in years” (Groth,
+2016).
+12 https://www.usatoday.com/story/tech/news/2016/12/13/tech-workers-vow-not-build-trump-muslim-registry/95407242/.
+
+
+
+https://www.wired.com/2016/12/amazons-snowmobile-actually-truck-hauling-huge-hard-drive/?mbid=nl_12216_p3&amp;CNDID=44473061
+
+https://www.wired.com/2016/12/amazons-snowmobile-actually-truck-hauling-huge-hard-drive/?mbid=nl_12216_p3&amp;CNDID=44473061
+
+https://www.wired.com/2016/12/amazons-snowmobile-actually-truck-hauling-huge-hard-drive/?mbid=nl_12216_p3&amp;CNDID=44473061
+
+https://www.wired.com/2016/12/amazons-snowmobile-actually-truck-hauling-huge-hard-drive/?mbid=nl_12216_p3&amp;CNDID=44473061
+
+https://www.wired.com/2016/12/amazons-snowmobile-actually-truck-hauling-huge-hard-drive/?mbid=nl_12216_p3&amp;CNDID=44473061
+
+https://www.usatoday.com/story/tech/news/2016/12/13/tech-workers-vow-not-build-trump-muslim-registry/95407242/
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191 189
+
+13.1. Backlash
+
+
+Companies, especially multinational corporations, now depend on the globalized economy. They will have to manage
+tensions with political regimes that advocate nationalist economic policies. They should understand that these regimes have
+arisen as inevitable but temporary reactions against the wrenching changes of the knowledge revolution.
+
+
+Often going hand in hand with nationalism, the long tradition that Hofstadter (1963) called “anti-intellectualism in
+American life” is likewise a backlash against the knowledge society. Recent victories of know-nothingism in American
+electoral politics have caused the Bulletin of the Atomic Scientists to editorialize on “the current great danger to a complex,
+technology dependent society,”13 and a professor of National Security Affairs at the U.S. Naval War College to warn of “the
+impending death of expertise.”14
+
+
+Consumers are returning to analog products, e.g., music on vinyl disks in lieu of mp3s (Sarpong, Dong,& Appiah, 2016) and
+books on paper rather than e-books (Nicola, 2017). We see a resurgence of “events” of all kinds, including live concerts. The
+tourism industry has embraced the “experience economy,” and the “maker movement” moves adherents from coding to
+fabricating physical objects. These mild and agreeable forms of backlash are business opportunities.
+
+
+Products will combine analog and digital features, e.g., the Sony Digital Paper System15 and 3-D printers. In the manner of
+the “analog clock” option on your Macintosh, digital technology will emulate analog readouts when doing so offers cognitive
+advantages. Consumer research will reveal the best configurations of analog and digital features. High tech will have to
+remain high touch.
+
+
+Consumers gain power, vis a vis corporations, via online reviews and “data activism” (Milan, 2016). Instances of customer
+abuse are filmed on smartphones, and as United Airlines learned in April 2017, upon physically dragging a passenger from a
+plane, they arouse backlash on Facebook, Twitter, and the blogosphere that in United's case initially cut the company's
+capitalization by a billion U.S. dollars (Udland, 2017).
+
+13.2. Logistics
+
+
+Expect continued growth in the packing and shipping industries serving e-commerce. Increased product returns gives rise
+to “reverse logistics” (Srivastava, 2008). This is especially true in the clothing trade (Venkatesh, 2010). Standards for apparel
+sizes and for color saturation on computer monitors and phone screens will reduce product returns and reverse-logistics
+costs.
+
+
+Forward logistics will transform utterly as 3-D printing decentralizes production.
+A glut of used shipping materials gives rise to social initiatives like that described by Leswing (2016), in which Amazon
+
+
+pays shipping for donated items consumers send to Goodwill in used Amazon boxes. Expect other social entrepreneurs to find
+ways to deal with the environmental diseconomies of the digital society.16 Peer pressure, peer competition, and gamification
+seem to encourage charitable and volunteer behavior, such as the cooperative SETI project and the Einstein@home project, in
+which users donate spare computer cycles to search for gravitational waves in data from the Laser Interferometer Gravita-
+tional Wave Observatory, LIGO.17
+
+13.3. Industry restructuring
+
+
+Mergers and acquisitions will be weapons in the battles for control of media content and control of Internet registration
+and transmission lines. Platform wars will continue.
+
+
+The unexpected killer app for PCs was the spreadsheet program, and the unexpected killer app for the World Wide Web
+turned out to be search. Searching “blockchain killer app” reveals (see, in particular, Metz, 2016) the killer app for blockchain
+technology may not be untraceable money (like Bitcoin). At first, it is likely to be something illegal, like money laundering.
+Upon maturity (remember, it was not until 2007 that search and social networking overtook pornography as the most-used
+WWW capability), blockchain's killer app may be cryptocurrency, or insurance, banking, or legal contracts. So it will be with
+other digital technologies: It will be some time before their biggest markets are identified. This merits careful monitoring.
+
+
+Fainmesser and Galeotti (2016) introduce the idea of price discrimination based on a customer's network influence. Their
+thesis seems to depend on information asymmetry (adverse selection), something that is harder and harder for vendors to
+come by.
+
+13 http://thebulletin.org/first-july-4-trump-era-declaration10877.
+14 https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/07/24/daily-202-trump-marginalizes-experts-debases-expertise/
+597548fc30fb043679543214/.
+15 https://pro.sony.com/bbsc/ssr/show-digitalpaper/resource.solutions.bbsccms-assets-show-digitalpaper-digitalpaper.shtml?PID¼I:digitalpaper:
+digitalpaper.
+16 Crowdsourcing satellite images to identify potentially valuable archeological sites before they are destroyed by war or development (Foreign Policy, The
+Innovators, December 2016, p. 62). Artist Morehshin Allahyari's 3-D modeling project to preserve for their later reconstruction full images of ancient
+artifacts destroyed by ISIS (Foreign Policy, The Artists, December 2016, p. 67).
+17 Foreign Policy, The Chroniclers, December 2016, p. 81.
+
+
+
+http://thebulletin.org/first-july-4-trump-era-declaration10877
+
+https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/07/24/daily-202-trump-marginalizes-experts-debases-expertise/597548fc30fb043679543214/
+
+https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/07/24/daily-202-trump-marginalizes-experts-debases-expertise/597548fc30fb043679543214/
+
+https://pro.sony.com/bbsc/ssr/show-digitalpaper/resource.solutions.bbsccms-assets-show-digitalpaper-digitalpaper.shtml?PID=I:digitalpaper:digitalpaper
+
+https://pro.sony.com/bbsc/ssr/show-digitalpaper/resource.solutions.bbsccms-assets-show-digitalpaper-digitalpaper.shtml?PID=I:digitalpaper:digitalpaper
+
+https://pro.sony.com/bbsc/ssr/show-digitalpaper/resource.solutions.bbsccms-assets-show-digitalpaper-digitalpaper.shtml?PID=I:digitalpaper:digitalpaper
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191190
+
+13.4. Four scenarios for the future of business in the knowledge society
+
+
+The value drivers for scenario-building seem to be robots displacing human workers, the “digital feudalism” that directs
+app-generated data and commissions to a small number of platform providers, and what an economic transaction implies
+about “ownership.” Steve Denning comments in Forbes,
+
+
+Nicholas Colin, Associate Professor in business strategy, Universit�e Paris-Dauphine, envisaged two broad scenarios. One is
+a downward spiral in which customers will get ever-cheaper products and services, but there will be fewer well-paid
+employees in their role as customers to purchase them.
+A second scenario, more positive but perhaps less plausible, is that customers and employees might form an alliance in
+which employees would provide more value to customers, through a rebirth of the union movement, and possibly a
+stronger role played by social entrepreneurs.
+
+
+A third possibility is to redefine innovation as an advance that does not attempt to grab rents by owning all information
+thrown off by a search or a transaction, or by hoarding intellectual propertydand encourage innovative activity that adheres
+to this definition.
+
+
+Auken (2016) offers another positive scenario based on an extreme sharing economy: “Welcome to 2030. I own nothing,
+have no privacy, and life has never been better.”
+
+
+Conflicts of interest
+
+
+The authors declare no conflict of interest.
+
+
+Acknowledgments
+
+
+The authors are grateful for support from the Far Eastern Group. We thank anonymous reviewers for their very helpful
+suggestions.
+
+
+References
+
+
+Al Shami, A., Lotfi, A., Coleman, S., & Dost�al, P. (2015). Unified knowledge based economy hybrid forecasting. Technological Forecasting and Social Change, 91,
+107e123. https://doi.org/10.1016/j.techfore.2014.01.014.
+
+
+Auken, I. (2016). Welcome to 2030. I own nothing, have no privacy, and life has never been better. https://www.weforum.org/agenda/2016/11/shopping-i-can-
+t-really-remember-what-that-is?utm_content¼buffera3131&utm_medium¼social&utm_source¼facebook.com&utm_campaign¼buffer.
+
+
+Ayres, R. U., & Williams, E. (2004). The digital economy: Where do we stand? Technological Forecasting and Social Change, 71(4), 315e339. https://doi.org/10.
+1016/j.techfore.2003.11.001.
+
+
+Campbell, & David, J. (2016). Availability of better data on communication networks can undermine community enforcement. October 21. Available at: SSRN:
+https://ssrn.com/abstract¼2882682.
+
+
+Carlsson, B. (2004). The digital economy: What is new and what is not? Structural Change and Economic Dynamics, 15, 245e264.
+Conceiç~ao, P., Gibson, D. V., Heitor, M. V., & Sirilli, G. (2001). Beyond the digital economy: A perspective on innovation for the learning society. Technological
+
+
+Forecasting and Social Change, 67(2e3), 115e142. https://doi.org/10.1016/S0040-1625(01)00128-7.
+D�avid-Barrett, T., & Dunbar, R. I. M. (2013). Processing power limits social group size: Computational evidence for the cognitive costs of sociality. Proceedings
+
+
+of the Royal Society B, 280(1765). https://doi.org/10.1098/rspb.2013.1151.
+David, P. A., & Foray, D. (2002). An introduction to the economy of the knowledge society. International Social Science Journal, 54(171), 5e9.
+Dietz, T., Ostrom, E., & Stern, P. C. (2003). The struggle to govern the commons. Science, 302(5652), 1907e1912. https://doi.org/10.1126/science.1091015.
+Dosi, G. (1982). Technological paradigms and technological trajectories: A suggested interpretation of the determinants and directions of technical change.
+
+
+Research Policy, 11(3), 147e162.
+Drucker, P. (1993). Post-capitalist society. HarperBusiness. Reprint (Kindle) edition.
+Economist Intelligence Unit. (2010). Digital economy rankings 2010 beyond e-readiness. http://graphics.eiu.com/upload/EIU_Digital_economy_rankings_
+
+
+2010_FINAL_WEB.pdf.
+Fainmesser, I. P., & Galeotti, A. (2016). Pricing network effects. Board of governors of the federal reserve system finance and economics discussion series (pp.
+
+
+2016e2089). FEDS Working Paper No.
+Freeman, C. (1982). Technological infrastructure and international competitiveness. In Draft paper submitted to the OECD Ad hoc-group on Science, technology
+
+
+and competitiveness, August 1982, mimeo.
+Freeman, C. (1987). Technology policy and economic performance: Lessons from Japan. London: Pinter Publishers.
+Freeman, C., Clark, J., & Soete, L. (1982). Unemployment and technical innovation: A study of long waves and economic development. Burns & Oates.
+Freeman, C., & Perez, C. (1986). The diffusion of technical innovations and changes in techno-economic paradigm. Brighton: Science Policy Research Unit
+
+
+University of Sussex.
+Friedman, T. L. (2016). Dancing in a hurricane. New York times, Nov. 19. http://www.nytimes.com/2016/11/20/opinion/sunday/dancing-in-a-hurricane.html?
+
+
+_r¼0.
+Fuchs, C. (2016). Reading Marx in the information age (Vol. 1). Routledge. Retrieved from http://fuchs.uti.at/wp-content/uploads/Grundrisse.pdf.
+Gates, B. (1999a). Business @ the speed of Thought: Succeeding in the digital economy. Grand Central Publishing.
+Gates, B. (1999b). Business @ the speed of Thought: Using a digital nervous system. Warner Books.
+Grant, R. M. (1996). Toward a knowledge-based theory of the firm. Strategic Management Journal, 17, 109e122. https://doi.org/10.1002/smj.4250171110
+
+
+(Winter Special Issue).
+Groth, A. (2016). Zappos is struggling with Holacracy because humans aren't designed to operate like software. Quartz. December 21 http://qz.com/849980/
+
+
+zappos-is-struggling-with-holacracy-because-humans-arent-designed-to-operate-like-software/.
+Hofstadter, R. (1963). Anti-intellectualism in American life. Knopf.
+James, J. (2002). Technology, globalization and poverty. Cheltenham, UK: Edward Elgar.
+Jones, M., & Silberzhan, P. (2016). The Cargo Cult of digital transformation. Forbes.
+
+
+
+https://doi.org/10.1016/j.techfore.2014.01.014
+
+https://www.weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is?utm_content=buffera3131&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+
+https://www.weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is?utm_content=buffera3131&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+
+https://www.weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is?utm_content=buffera3131&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+
+https://www.weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is?utm_content=buffera3131&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+
+https://www.weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is?utm_content=buffera3131&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+
+https://www.weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is?utm_content=buffera3131&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+
+https://www.weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is?utm_content=buffera3131&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+
+https://www.weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is?utm_content=buffera3131&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+
+https://www.weforum.org/agenda/2016/11/shopping-i-can-t-really-remember-what-that-is?utm_content=buffera3131&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+
+https://doi.org/10.1016/j.techfore.2003.11.001
+
+https://doi.org/10.1016/j.techfore.2003.11.001
+
+https://ssrn.com/abstract=2882682
+
+https://ssrn.com/abstract=2882682
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref5
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref5
+
+https://doi.org/10.1016/S0040-1625(01)00128-7
+
+https://doi.org/10.1098/rspb.2013.1151
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref8
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref8
+
+https://doi.org/10.1126/science.1091015
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref10
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref10
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref10
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref11
+
+http://graphics.eiu.com/upload/EIU_Digital_economy_rankings_2010_FINAL_WEB.pdf
+
+http://graphics.eiu.com/upload/EIU_Digital_economy_rankings_2010_FINAL_WEB.pdf
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref13
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref13
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref13
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref14
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref14
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref15
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref16
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref16
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref17
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref17
+
+http://www.nytimes.com/2016/11/20/opinion/sunday/dancing-in-a-hurricane.html?_r=0
+
+http://www.nytimes.com/2016/11/20/opinion/sunday/dancing-in-a-hurricane.html?_r=0
+
+http://www.nytimes.com/2016/11/20/opinion/sunday/dancing-in-a-hurricane.html?_r=0
+
+http://fuchs.uti.at/wp-content/uploads/Grundrisse.pdf
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref20
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref21
+
+https://doi.org/10.1002/smj.4250171110
+
+http://qz.com/849980/zappos-is-struggling-with-holacracy-because-humans-arent-designed-to-operate-like-software/
+
+http://qz.com/849980/zappos-is-struggling-with-holacracy-because-humans-arent-designed-to-operate-like-software/
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref24
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref25
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref26
+
+
+
+
+F. Phillips et al. / International Journal of Innovation Studies 1 (2017) 175e191 191
+
+Keenan, F., Ante, S. E., Elgin, B., & Hamm, S. (2002). The new teamwork. Business week, february 18 (p. EB12).
+Kim, B., Barua, A., & Whinston, A. B. (2002). Virtual field experiments for a digital economy: A new research methodology for exploring an information
+
+
+economy. Decision Support Systems, 32, 215e231. https://doi.org/10.1016/S0167-9236(01)00094-X.
+Kodama, F. (2015). Strategic positionings in the B2B of digital economy. In International symposium for Asian MOT education (pp. 1e22). Ube City.
+Leswing, K. (2016). There's a great new way to reuse your old Amazon shipping boxes. Business Insider. Dec. 23 http://www.businessinsider.com/amazon-
+
+
+goodwill-donations-shipping-boxes-2016-12.
+Lundvall, B. (1992). National systems of innovation - toward a theory of innovation and interactive learning. London: Pinter.
+Magee, C. L., & Devezas, T. C. (2017). An extension of dematerialization theory: Incorporation of technical performance increases and the rebound effect.
+
+
+Technological Forecasting & Social Change, 117, 196e205.
+Marx, K. (1858). The fragment on machines. In Grundrisse (pp. 690e712). London: Penguin. Retrieved from http://thenewobjectivity.com/pdf/marx.pdf.
+Mason, P. (2015). The end of capitalism has begun. The Guardian. July 17 https://www.theguardian.com/books/2015/jul/17/postcapitalism-end-of-capitalism-
+
+
+begun.
+Mason, P. (2016). Postcapitalism and the city. Medium. October 7 https://medium.com/mosquito-ridge/postcapitalism-and-the-city-6dda80bc201d#.
+
+
+h1bpqz55t.
+Masuda, Y. (1980). The information society as post-industrial society. Transaction Publishers.
+McKendrick, J. (2016). Why digital transformation is an empty catch-phrase. Forbes. http://www.forbes.com/sites/joemckendrick/2016/12/12/why-digital-
+
+
+transformation-is-an-empty-catch-phrase/#e3b2a677e1de.
+Metz, C. (2016). The future of bitcoin is not as a digital currency. Wired. December 8 https://www.wired.com/2016/12/future-bitcoin-not-digital-currency/?
+
+
+mbid¼nl_12816_p4&CNDID¼44473061.
+Milan, S. (2016). Data activism as the new frontier of media activism. In G. Yang, & V. Pickard (Eds.), Media activism in the digital Age: Charting an evolving
+
+
+field of research. Routledge (2016 (in press). Available at: SSRN: https://ssrn.com/abstract¼2882030.
+Moozakis, C. (2000).Manufacturers preach teamworkdproducers of customized components use web to design by committee. Internet Week (p. 83). October 30.
+Neef, D. (Ed.). (1998). The knowledge economy. Boston: Butterworth-Heinemann.
+Nelson, R. (1991). National innovation systems. Oxford, UK: Oxford University Press.
+Nicola, S. (2017). Forget eBooks: Why the World's biggest publisher is doubling down on paper and ink: eBook sales are starting to decline as physical book sales
+
+
+hold their own. Bloomberg, 26 January http://www.thelowdownblog.com/2017/01/forget-ebooks-why-worlds-biggest.html.
+Nonaka, I., & Takeuchi, H. (1995). The knowledge-creating company. How Japanese companies create the dynamics of innovation. New York: Oxford.
+OECD. (1996). The knowledge-based economy. Paris: OECD.
+OECD. (2016). New markets and new jobs. In Background report for the OECD ministerial meeting on the digital economy, 21e23 June 2016, Cancún, Mexico.
+Parry, M. (2016). Evolving business models to support the growth of technology-based start-up firms. World Technopolis Review, 5(2). December.
+Phillips, F. (Ed.). (1992). Thinkwork: Working, Learning and Managing in a computer-interactive society. Westport, Conn: Praeger.
+Phillips, F. (2004). Trading Down: The intellectual poverty of the new FTAs. Technological Forecasting & Social Change, 71e78 (October).
+Phillips, F. (2008). Change in socio-technical systems: Researching the multis, the biggers, and the more connecteds. Technological Forecasting & Social
+
+
+Change, 75(5), 721e734. June.
+Phillips, F. (2014). Meta-measures for technology and environment. Foresight, 16(5), 410e431. https://doi.org/10.1108/FS-09-2013-0047.
+Phillips, F. (2017). How the knowledge revolution will change urban and global geography. Tainan, Taiwan: Keynote at Regional Science Association Inter-
+
+
+national. May 2017 https://www.researchgate.net/publication/317091285_How_the_Knowledge_Revolution_Will_Change_Urban_and_Global_
+Geography.
+
+
+Phillips, F., Donoho, A., Keep, W., Mayberry, W., McCann, J. M., Shapiro, K., et al. (1997). Electronically connecting retailers and Customers: Summary of an
+expert roundtable. Journal of Shopping Center Research, 4, 63e94. Fall/Winter.
+
+
+Phillips, F., Lin, H.-E., & Lin, S.-Y. (2017). Piecemeal Engineering: Implications for knowledge development in strategy. Under review at Strategic Organization).
+Phillips, F., & Linstone, H. (2016). Key ideas from a 25-year collaboration at TFSC. Technological Forecasting & Social Change, 105, 158e166 (April).
+Phillips, F., Ochs, L., & Schrock, M. (1999). The product is dead; long live the product-service. Research Technology Management, 42(4), 51e56. July-August.
+Powell, W. W., & Snellman, K. (2004). The knowledge economy. Annual Review of Sociology, 30, 199e220.
+Rauch, J. (2001). The new old economy: Oil, computers, and the reinvention of the earth. The Atlantic monthly, January (pp. 35e49).
+Rodrigues, M. J. (2002). The new knowledge economy in Europe: A strategy for international competitiveness and social cohesion. Cheltenham, UK: Edward Elgar
+
+
+Publishing. Retrieved from https://books.google.com.tw/books?id¼DoxNHWr2-ncC&printsec¼frontcover#v¼onepage&q&f¼false.
+Sarpong, D., Dong, S., & Appiah, G. (2016). “Vinyl never say die”: The re-incarnation, adoption and diffusion of retro-technologies. Technological Forecasting &
+
+
+Social Change, 103, 109e118. https://doi.org/10.1016/j.techfore.2015.10.012.
+Satell, G. (2015). Why big organizations are broken. Digital tonto. March 22 http://www.digitaltonto.com/2015/why-big-organizations-are-broken/.
+Schumpeter, J. A. (1943). Capitalism, socialism & democracy. London: Routledge.
+Scitovsky, T. (1992). The joyless Economy: The psychology of human satisfaction. Oxford University Press (Revised edition).
+Soete, L. (2000). Towards the digital economy: Scenarios for business. Telematics and Informatics, 17(3), 199e212. https://doi.org/10.1016/S0736-5853(00)
+
+
+00008-3.
+Srivastava, S. K. (2008). Network design for reverse logistics. Omega, 36(4), 535e548.
+Sung, T. K. (2009). Introduction to “The digital economy in Asia. Technological Forecasting and Social Change, 76(5), 653. https://doi.org/10.1016/j.techfore.
+
+
+2008.03.010.
+Tapscott, D. (1995). The digital economy; promise and peril in the age of the networked intelligence. McGraw-Hill.
+Tett, G. (2016). The productivity Imperative: Advice for the president-elect (pp. 98e99). Foreign Policy. December.
+Tiku, N. (2017). Google deliberately confuses its employees. July. Fed Says. Wired.com. Retrieved July 27, 2017 from https://www.wired.com/story/google-
+
+
+department-of-labor-gender-pay-lawsuit/?mbid¼nl_72617_p2&CNDID¼44473061.
+Turner, A. (2016). Is productivity growth becoming Irrelevant? Project syndicate. https://www.project-syndicate.org/commentary/productivity-growth-
+
+
+becoming-irrelevant-by-adair-turner-2017-07. (Accessed 26 July 2017).
+Udland, M. (2017). United Airlines loses $950 million in market value as shares tumble. Yahoo Finance. April 11 http://finance.yahoo.com/news/united-airlines-
+
+
+shares-tumbling-140648573.html.
+Venkatesh, V. G. (2010). Reverse Logistics: An imperative area of research for fashion supply chain. The IUP Journal of Supply Chain Management, VII(1 & 2),
+
+
+77e89 (March-June).
+
+
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref27
+
+https://doi.org/10.1016/S0167-9236(01)00094-X
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref29
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref29
+
+http://www.businessinsider.com/amazon-goodwill-donations-shipping-boxes-2016-12
+
+http://www.businessinsider.com/amazon-goodwill-donations-shipping-boxes-2016-12
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref31
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref32
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref32
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref32
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref32
+
+http://thenewobjectivity.com/pdf/marx.pdf
+
+https://www.theguardian.com/books/2015/jul/17/postcapitalism-end-of-capitalism-begun
+
+https://www.theguardian.com/books/2015/jul/17/postcapitalism-end-of-capitalism-begun
+
+https://medium.com/mosquito-ridge/postcapitalism-and-the-city-6dda80bc201d#.h1bpqz55t
+
+https://medium.com/mosquito-ridge/postcapitalism-and-the-city-6dda80bc201d#.h1bpqz55t
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref36
+
+http://www.forbes.com/sites/joemckendrick/2016/12/12/why-digital-transformation-is-an-empty-catch-phrase/#e3b2a677e1de
+
+http://www.forbes.com/sites/joemckendrick/2016/12/12/why-digital-transformation-is-an-empty-catch-phrase/#e3b2a677e1de
+
+https://www.wired.com/2016/12/future-bitcoin-not-digital-currency/?mbid=nl_12816_p4&amp;CNDID=44473061
+
+https://www.wired.com/2016/12/future-bitcoin-not-digital-currency/?mbid=nl_12816_p4&amp;CNDID=44473061
+
+https://www.wired.com/2016/12/future-bitcoin-not-digital-currency/?mbid=nl_12816_p4&amp;CNDID=44473061
+
+https://www.wired.com/2016/12/future-bitcoin-not-digital-currency/?mbid=nl_12816_p4&amp;CNDID=44473061
+
+https://www.wired.com/2016/12/future-bitcoin-not-digital-currency/?mbid=nl_12816_p4&amp;CNDID=44473061
+
+https://ssrn.com/abstract=2882030
+
+https://ssrn.com/abstract=2882030
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref40
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref40
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref41
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref42
+
+http://www.thelowdownblog.com/2017/01/forget-ebooks-why-worlds-biggest.html
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref44
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref45
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref46
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref46
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref47
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref48
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref49
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref49
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref49
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref50
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref50
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref50
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref50
+
+https://doi.org/10.1108/FS-09-2013-0047
+
+https://www.researchgate.net/publication/317091285_How_the_Knowledge_Revolution_Will_Change_Urban_and_Global_Geography
+
+https://www.researchgate.net/publication/317091285_How_the_Knowledge_Revolution_Will_Change_Urban_and_Global_Geography
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref53
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref53
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref53
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref54
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref55
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref55
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref55
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref56
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref56
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref57
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref57
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref58
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref58
+
+https://books.google.com.tw/books?id=DoxNHWr2-ncC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false
+
+https://books.google.com.tw/books?id=DoxNHWr2-ncC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false
+
+https://books.google.com.tw/books?id=DoxNHWr2-ncC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false
+
+https://books.google.com.tw/books?id=DoxNHWr2-ncC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false
+
+https://books.google.com.tw/books?id=DoxNHWr2-ncC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false
+
+https://books.google.com.tw/books?id=DoxNHWr2-ncC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false
+
+https://books.google.com.tw/books?id=DoxNHWr2-ncC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false
+
+https://books.google.com.tw/books?id=DoxNHWr2-ncC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false
+
+https://doi.org/10.1016/j.techfore.2015.10.012
+
+http://www.digitaltonto.com/2015/why-big-organizations-are-broken/
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref62
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref62
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref63
+
+https://doi.org/10.1016/S0736-5853(00)00008-3
+
+https://doi.org/10.1016/S0736-5853(00)00008-3
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref65
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref65
+
+https://doi.org/10.1016/j.techfore.2008.03.010
+
+https://doi.org/10.1016/j.techfore.2008.03.010
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref67
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref68
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref68
+
+https://www.wired.com/story/google-department-of-labor-gender-pay-lawsuit/?mbid=nl_72617_p2&amp;CNDID=44473061
+
+https://www.wired.com/story/google-department-of-labor-gender-pay-lawsuit/?mbid=nl_72617_p2&amp;CNDID=44473061
+
+https://www.wired.com/story/google-department-of-labor-gender-pay-lawsuit/?mbid=nl_72617_p2&amp;CNDID=44473061
+
+https://www.wired.com/story/google-department-of-labor-gender-pay-lawsuit/?mbid=nl_72617_p2&amp;CNDID=44473061
+
+https://www.wired.com/story/google-department-of-labor-gender-pay-lawsuit/?mbid=nl_72617_p2&amp;CNDID=44473061
+
+https://www.project-syndicate.org/commentary/productivity-growth-becoming-irrelevant-by-adair-turner-2017-07
+
+https://www.project-syndicate.org/commentary/productivity-growth-becoming-irrelevant-by-adair-turner-2017-07
+
+http://finance.yahoo.com/news/united-airlines-shares-tumbling-140648573.html
+
+http://finance.yahoo.com/news/united-airlines-shares-tumbling-140648573.html
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref72
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref72
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref72
+
+http://refhub.elsevier.com/S2096-2487(17)30007-3/sref72
+
+

@@ -1,0 +1,3950 @@
+
+
+
+
+
+
+
+
+
+
+R E S E A R CH A R T I C L E
+
+
+Strategic systematic for software development in industry 4.0
+
+
+Karollay Giuliani de Oliveira Valério | Carlos Eduardo Sanches da Silva |
+
+
+Sandra Miranda Neves
+
+
+UNIFEI, Federal University of Itajuba, Itajubá,
+
+
+Brazil
+
+
+Correspondence
+
+
+Karollay Giuliani de Oliveira Valério, Federal
+
+
+University of Itajuba (UNIFEI), Prof. José
+
+
+Rodrigues Seabra Campus, Production
+
+
+Engineering and Management Institute, BPS
+
+
+Avenue, 1303, Pinheirinho District,
+
+
+37500-903 Itajubá, Minas Gerais State, Brazil.
+
+
+Email: karollayoliveira@hotmail.com
+
+
+Abstract
+
+
+Industry 4.0 is a relevant subject both in academia and practice. Organizations need
+
+
+systems for managing technologies and to understand how they can be essential for
+
+
+business strategy. The requirements of software development include points that
+
+
+must be discussed at a strategic level to create institutional value. Systematics that
+
+
+integrate technology, and theory will influence the organization's strategic decisions.
+
+
+Keywords: industry 4.0, software development, systematic proposal, technology
+
+
+roadmapping
+
+
+K E YWORD S
+
+
+industry 4.0, software development, systematic proposal, technology roadmapping
+
+
+1 | INTRODUCTION
+
+
+Smart industry and industry 4.0 are crucial keywords for the develop-
+
+
+ments in manufacturing systems (Longo, Nicoletti, & Padovano, 2017).
+
+
+The capabilities of digital solutions/tools have opened new opportuni-
+
+
+ties and created ambitious challenges for manufacturing systems. In
+
+
+recent years, these technological advances have motivated the indus-
+
+
+tries, companies, and even governments to seek an improved alignment
+
+
+between strategic objectives and technology management through the
+
+
+application of structured and flexible approaches using techniques such
+
+
+as technology road-mapping (TRM) (Carvalho, Fleury, & Lopes, 2013).
+
+
+The basic principle of industry 4.0 is the core of the so-called
+
+
+Internet of things and manufacturing interfaces (R. Lopez, 2014):
+
+
+Products in progress and production machines that will collect and
+
+
+share data in real-time. This technology leads to a shift from central-
+
+
+ized plant control systems to intelligent decentralization (Shrouf, Ordi-
+
+
+eres, & Miragliotta, 2014). According to the same author, this
+
+
+approach allows the machines to adapt to changes and behavior, auto
+
+
+reconfiguring, showing the ability of systems to perceive information
+
+
+and obtain results, besides storing knowledge gained from experience.
+
+
+That is intelligent production at systems and processes level, with
+
+
+adequate engineering and quick installations in the future
+
+
+(Kagermann, Wahlster, & Helbig, 2013).
+
+
+Industry 4.0 offers new and innovative ways for organizations to
+
+
+manage and monitor their operations intelligently and seamlessly using
+
+
+the maximum of embedded technology, sensors, and connections. Based
+
+
+on research found in Weyer, Schmitt, Ohmer, and Gorecky (2015) and
+
+
+Stock and Selinger (2016), but as highlighted in Qin, Liu, and Grosve-
+
+
+nor (2016), the technology roadmap for the realization of Industry 4.0 is
+
+
+still unclear and the gap analysis between current manufacturing systems
+
+
+and industry requirements 4.0 shows that there is still a long way to go.
+
+
+TRM is intended to help understand how technology and business
+
+
+knowledge combine to provide strategic support, innovation, and hence
+
+
+the operational process in the enterprise in the context of the external
+
+
+and internal environment (Blismas, Wakefield, & Hauser, 2010; Kim
+
+
+et al., 2009). Roadmapping is a long-term planning instrument that allows
+
+
+establishing strategic goals and estimating the potential of new technolo-
+
+
+gies, products, and services (Vishnevskiy, Karasev, & Meissner, 2016). It
+
+
+is concerned with identifying technological trends as well as the most
+
+
+important (key) technologies (Phaal, Farrukh, & Probert, 2001, 2004).
+
+
+TRM is a growing technique widely used for strategic planning and align-
+
+
+ment of technology with general business objectives. TRM's are widely
+
+
+used in several diverse fields in products, technology, industry, enter-
+
+
+prises, and national levels (P. Bloem, Schlichtkrull, et al., 2018; S. L.
+
+
+Bloem, Vasconcellos, Guedes, Guedes, & Costa, 2018). An increasing
+
+
+number of published articles on the subject indicate that there is more
+
+
+considerable attention to TRM among academics, industry, and govern-
+
+
+ment researchers (Amer & Daim, 2010). However, there is a growing
+
+
+need for new models and innovations. With the use of these newJEL classification code: L21.
+
+
+DOI: 10.1002/jsc.2361
+
+
+Strategic Change. 2020;29:517–529. wileyonlinelibrary.com/journal/jsc © 2020 John Wiley & Sons Ltd 517
+
+
+
+mailto:karollayoliveira@hotmail.com
+
+http://wileyonlinelibrary.com/journal/jsc
+
+http://crossmark.crossref.org/dialog/?doi=10.1002%2Fjsc.2361&domain=pdf&date_stamp=2020-09-10
+
+
+
+
+approaches and tools in conjunction with the TRM, one can increase its
+
+
+impact on the company, develop new capabilities, and better prepare the
+
+
+organization for the changes imposed by innovation, technology, and
+
+
+globalization (Zhang et al., 2016). The research question: How would a
+
+
+TRM system for software development in industry 4.0 be?
+
+
+The study seeks to propose a TRM for the development of soft-
+
+
+ware in the industry 4.0. The methodological approach adopted was
+
+
+the bibliographic review and the case study. The approach of the
+
+
+study will be guided by the term “systematic” for the descriptions of
+
+
+how the general requirements should be addressed, which are
+
+
+described in the literature as a model, structure (NBR ISO
+
+
+31000, 2009), systematic or process (Goldberg & Weber, 1998) and
+
+
+strategy for techniques or tools that support the analysis, being judged
+
+
+more appropriate for the context researched. The research will also use
+
+
+the term technology road-mapping or TRM because according to
+
+
+Willyard and McClees (1987) the term technology was used by the
+
+
+name of TRM in its broader context in which it means the application
+
+
+of science to problem-solving of capacity development, market, compe-
+
+
+tition, and performance. The research adopts the terms TRM to men-
+
+
+tion the method, road-mapping for its application process and roadmap
+
+
+to the result in the form of a map. The article is structured as follows:
+
+
+The first section presents the research, its objectives, and its justifica-
+
+
+tions; section two is dedicated to the literature review on industry 4.0,
+
+
+software development and TRM; section three contemplates materials
+
+
+and methods; section four presents the analysis of results and, finally,
+
+
+section five presents the conclusions and direction for future research.
+
+
+2 | LITERATURE REVIEW
+
+
+2.1 | Industry 4.0
+
+
+Industry 4.0 is an additional stage of development in the organization
+
+
+and management of the entire value chain process involved in the
+
+
+manufacturing industry. It may be called the fourth industrial revolution
+
+
+(Schlick, Stephan, Loskyll, & Lappe, 2012). Industry 4.0 is widely used in
+
+
+Europe, particularly in the manufacturing sector of Germany. In general,
+
+
+other related terms are also used to refer to it, such as Internet of things,
+
+
+Internet of everything or industrial Internet (Mahidhar & Schatsky, 2013).
+
+
+These terms will be used in the search for articles. All these terms and
+
+
+concepts have in common the recognition that the traditional methods
+
+
+of manufacture and production are in full digital transformation
+
+
+(Openshaw et al., 2014). Industrial processes have increasingly adopted
+
+
+modern information technology (IT), but recent trends go beyond the
+
+
+simple automation of production that, since the early 1970s, was driven
+
+
+by developments in electronics and IT (Longo et al., 2017).
+
+
+The widespread adoption by the manufacturing industry and the tra-
+
+
+ditional operations of information and communication technology are
+
+
+increasingly intertwined in the boundaries between the real world and
+
+
+the virtual world in the well-known Cyber Physical Production Systems,
+
+
+which are the nucleus of new distributed control and automation sys-
+
+
+tems, or the production system of the near future (Keeley, 2013). CPPSs
+
+
+are online networks of social machines that are organized in a similar
+
+
+way to social networks. They connect IT with mechanical and electronic
+
+
+components that communicate with each other over a network. Radio-
+
+
+frequency identification technology, which has been used since 1999,
+
+
+was a very early form of this technology (Shrouf et al., 2014).
+
+
+Intelligent machines continuously share information about current
+
+
+inventory levels, problems or failures, and changes in orders or levels of
+
+
+demand (Mahidhar & Schatsky, 2013). Processes and deadlines are coor-
+
+
+dinated to increase efficiency and optimizing production times, capacity
+
+
+utilization, and quality in development, production, marketing, and pro-
+
+
+curement (Schlick et al., 2012). CPPSs are not only network machines
+
+
+among themselves, but they also create an intelligent network of
+
+
+machines, properties, systems, intelligent products, and the complete
+
+
+product lifecycle (Keeley, 2013). Sensors and control elements allow
+
+
+machines to be linked to plants, fleets, networks, and humans. Intelligent
+
+
+networks of this type are the basis of intelligent factories, and they sup-
+
+
+port industry 4.0 (Cotteleer, Holdowsky, &Mahto, 2013). Qin et al. (2016)
+
+
+propose a categorical and hierarchical framework, where Industry 4.0 is
+
+
+achievable through a continuous and incremental process of evolution,
+
+
+whose main dimensions are automation and intelligence.
+
+
+Central to industry 4.0 is its interface with other intelligent infra-
+
+
+structures, such as smart mobility, smart networking, intelligent logis-
+
+
+tics, and intelligent houses and buildings (Openshaw et al., 2014).
+
+
+Links to commercial and social networks—the business web and the
+
+
+social web—also play an increasingly important role in digital transfor-
+
+
+mation for the industry 4.0 (Mahidhar & Schatsky, 2013). All these
+
+
+new networks and interfaces offered by the industry 4.0 within an
+
+
+internet of things, services, data, and people mean that manufacturing
+
+
+is subject to enormous changes in the future (Cotteleer et al., 2013).
+
+
+This trend is still in its infancy in some industrial enterprises and
+
+
+industrial sectors, but in others, the transformation to industry 4.0 is
+
+
+already underway. The traditional industrial economies hope that this
+
+
+fourth industrial revolution will bring many advantages, such as
+
+
+improved global competitiveness (Openshaw et al., 2014).
+
+
+Moore's law (Déchamps & Niels, 2018; Moore, 1965) states that
+
+
+the capacity of microchips, bandwidth, and computers doubles every
+
+
+18 months, representing exponential growth—also applies to other tech-
+
+
+nological developments. 3D printing, sensor technology, artificial intelli-
+
+
+gence, robotics, drones, and nanotechnology are just a few examples of
+
+
+exponentially increasing technologies that are radically changing indus-
+
+
+trial processes, accelerating them and making them more flexible (Longo
+
+
+et al., 2017). These technologies are not new. However, the massive
+
+
+increase in computing power and cost reduction, coupled with miniaturi-
+
+
+zation, make them suitable for industrial use (Hall, Gu, & Guo, 2018).
+
+
+2.2 | Software development and industry 4.0
+
+
+The software industry is directly linked to industry 4.0 because it
+
+
+derives all the techniques and solutions that the technological organi-
+
+
+zation needs (Mineo et al., 2016). Industry solutions techniques 4.0
+
+
+(Keeley, 2013; Mahidhar & Schatsky, 2013; Openshaw et al., 2014):
+
+
+Vertical network: IT integration, data analysis and management,
+
+
+cloud-based applications, and operational efficiency 2.0. Horizontal
+
+
+518 DE OLIVEIRA VALÉRIO ET AL.
+
+
+
+
+
+
+integration: business model optimization, intelligent supply chain,
+
+
+intelligent logistics, IT security management, new taxation models,
+
+
+and the new management of the intellectual property. Engineering
+
+
+across the value chain: the “ten kinds of innovation,” efficient manage-
+
+
+ment of innovation, efficient management of the life cycle. Exponen-
+
+
+tial Technologies: corporate business and organizational learning.
+
+
+Industry 4.0 is well conceptualized and transparent in its foundations,
+
+
+it is a complicated process due to the diversity of systems and given
+
+
+the multiplicity of available/conceivable solutions (Longo et al., 2017).
+
+
+In this context of intelligent data management, software, which is all
+
+
+the documentation and configuration data required for the applica-
+
+
+tion/program to run error-free, is an innovative industry tool. Soft-
+
+
+ware engineers are involved in the development of software products,
+
+
+such as database, word processors, project management tools, also
+
+
+covering complex areas such as air-traffic control systems, systems,
+
+
+websites, e-commerce (Sommerville, 2011).
+
+
+Software development should be a set of organized activities used
+
+
+to define, develop, test, and maintain software (Lamounier, 2014).
+
+
+These activities result in a product that reflects the way the whole pro-
+
+
+cess was conducted. Each software has a development cycle, no matter
+
+
+its size and how many people are working on it, all applications go
+
+
+through the same steps (Bezerra, 2015). A process must be appropriate
+
+
+to the application domain and the specific project. Processes must be
+
+
+defined on a case-by-case basis, taking into account the specifications
+
+
+of the application, the technology to be adopted in its construction, the
+
+
+organization in which the product will be deployed, and who will
+
+
+develop (Coser, Carvalho, & Kovaleski, 2006). According to the litera-
+
+
+ture of Wazlawick (2013) and Pressman, Maxim, and Bruce (2016) the
+
+
+software development process can be divided into seven phases:
+
+
+design, requirements gathering, requirements analysis, design, imple-
+
+
+mentation, testing, and deployment. For software development, other
+
+
+related terms such as cloud application, IT security, and data manage-
+
+
+ment can be found in theory (Keeley, 2013; Openshaw et al., 2014).
+
+
+These terms will also be used in the search for articles search.
+
+
+The risks/challenges of software integration and new technologies
+
+
+identified are (Blanco-Novoa, Fernández-Caramés, Fraga-Lamas, &
+
+
+Vilar-Montesinos, 2018; Bologa et al., 2017; Giorgio, Romero, Onori, &
+
+
+Wang, 2017; Martinez et al., 2017; Penas, Plateaux, Patalano, &
+
+
+Hammadia, 2017; Teles, Vianna Jr., & Le Roux, 2018; Wang, Zhang, Liu,
+
+
+Li, & Tang, 2017): lack of systems compatibility, labor replacement, the
+
+
+impact of consumer relations, the structure of big data, security and
+
+
+robustness of information systems (legislation), expansion of Internet
+
+
+services and communication, and diffusion of the new technological
+
+
+scenario for students and researchers. With innovations allied to new
+
+
+market needs, new tools and models are needed, especially when the
+
+
+business is connected to technology/software (Shmuelli & Ronen,
+
+
+2017). One approach that makes this connection is the TRM.
+
+
+2.3 | Technology roadmapping
+
+
+A TRM connects technologies with the strategic objectives of a com-
+
+
+pany and, therefore, supports the acquisition of necessary
+
+
+technologies before the needs. It is a powerful tool for strategic plan-
+
+
+ning and technology management. As technology is changing rapidly
+
+
+and competition in the market is fierce, the role of a TRM is becoming
+
+
+increasingly important (Choi, Kim, Yoon, Kim, & Lee, 2013). According
+
+
+to Phaal et al. (2001, 2004), TRM assists the development and imple-
+
+
+mentation of integrated business strategies, products, and technology
+
+
+plans, providing companies with the information, processes, and tools
+
+
+needed to understand these strategies. Roadmaps and the road-
+
+
+mapping process can broaden the horizons of planning, identify possi-
+
+
+ble threats and opportunities in the business environment. There is a
+
+
+wide variety of maps. This fact occurs due to the absence of a stan-
+
+
+dard process for its elaboration (Phaal et al., 2001, 2004). Kappel
+
+
+(2001) developed a taxonomy as a proposal to characterize and
+
+
+understand map variations. In it, there are four significant areas of
+
+
+application for the map: science-technology, industry, product-tech-
+
+
+nology, and product. According to Albright and Kappel (2003), the
+
+
+TRM of products is used by companies to define their evolution plan,
+
+
+linking the business strategy, evolution of characteristics, and costs of
+
+
+the product with the technologies necessary to reach the strategic
+
+
+objectives. TRMs, for product planning, is the most common type and
+
+
+are related to the insertion of technology into manufactured products
+
+
+(Phaal et al., 2001).
+
+
+The TRM tends to have its areas of the application linked to compa-
+
+
+nies with technological capacity and a member of large networks of
+
+
+chains, such as the automobile industry (Andrade, Monti, & Silva, 2009),
+
+
+energy industry (Amer & Daim, 2010; Hillegas-Elting, Yu, Oliver, Daim, &
+
+
+Estep, 2016), wind energy (Amer, Daim, & Jetter, 2016), pharmacy
+
+
+(Tierney, Hermina, & Walsh, 2013), among others. Studies (Garcia &
+
+
+Bray, 2007) suggest that the roadmap can be represented on two levels:
+
+
+industrial or corporate. Some organizations use TRM internally as an
+
+
+aspect of their technology planning (corporate TRM) (Vishnevskiy,
+
+
+Karasev, & Meissner, 2015). However, at the industrial level, the TRM
+
+
+involves multiple organizations, either individually or in a consortium
+
+
+(industrial TRM) (Loureiro, 2010). Little is found in the literature on the
+
+
+use of the tool in smaller companies, even having an inventive and tech-
+
+
+nological character, such as software companies. Trends are already
+
+
+being observed in these sectors, as can be seen in innovation support
+
+
+research by Ho and O'Sullivan (2017) and in developing countries by
+
+
+Ghazinoory, Dastranj, Saghafi, Kulshreshtha, and Hasanzadeh (2017).
+
+
+Phaal et al. (2001) present the main model of TRM, T-plan, the approach
+
+
+is developed to support managers who are committed to developing
+
+
+and communicating their product and business technology planning.
+
+
+The conventional T-plan encompasses four seminars. The first three
+
+
+focus on the three key layers of the map (market/business, product/ser-
+
+
+vice, and technology). The fourth seminar joins these three tiers on a
+
+
+time basis to construct the chart/data table: (a) Seminar 1: identification
+
+
+of the market and business drivers and the performance dimensions of
+
+
+the product; (b) Seminar 2: the creation of product characteristics con-
+
+
+ceptions; (c) Seminar 3: identification of options for technological solu-
+
+
+tions; (d) Seminar 4: mapping of milestones, product, and evolution of
+
+
+technology, among other approaches and adaptations.
+
+
+TRM is a useful tool because it links innovation and technology to
+
+
+organizational strategy (Ghazinoory et al., 2017). The combination of
+
+
+DE OLIVEIRA VALÉRIO ET AL. 519
+
+
+
+
+
+
+other management techniques with TRM can reduce knowledge gaps
+
+
+and further improve management decisions (Zhang et al., 2016). As
+
+
+pointed out by Carvalho et al. (2013), there are only limited research
+
+
+papers on hybrid procedures. The tools that can be integrated with
+
+
+the TRM include SWOT analysis, Delphi method, five competition
+
+
+forces, value proposition, competitive characteristics matrix, percep-
+
+
+tual map, hierarchical process analysis (AHP), technology development
+
+
+envelope (Fenwick, Daim, & Gerdsri, 2009), (QFD) (Lee, Phaal, & Lee,
+
+
+2013), portfolio management (Phaal, Farrukh, & Probert, 2006) and
+
+
+technology management tools (Probert & Radnor, 2003). Regardless
+
+
+of how it is used, TRM has been adapting to new global trends and
+
+
+becoming more complex (Vishnevskiy et al., 2015).
+
+
+3 | MATERIALS AND METHODS
+
+
+In order to propose a systematic mapping technology for the develop-
+
+
+ment of software in industry 4.0, descriptive research was carried out
+
+
+systematically (Gressler, 2004). Regarding the nature of the research,
+
+
+the qualitative approach was used. In the present study, a biblio-
+
+
+graphic review was performed to find the general requirements that
+
+
+will compose the systematic and then a case study, employing a nov-
+
+
+elist, for validation of the same. The bibliometric research data was
+
+
+acquired from articles between 2013 and 2020. The articles were col-
+
+
+lected through databases: ISI Web of Science, Science Direct, and
+
+
+SCOPUS. It is justified the choices to be considered the best mecha-
+
+
+nisms of academic search to facilitate the searches by scientific con-
+
+
+tent, considering the criteria of specificity by area, scientific language,
+
+
+credibility, reliability, and responsibility (Buchinger, Cavalcanti, &
+
+
+Hounsell, 2014). The data collection period was March of 2018. The
+
+
+keywords of the survey are industry 4.0 and software development.
+
+
+In order to maintain the comprehensiveness and legitimacy of the
+
+
+research, other related terms or derivations, already explained in the
+
+
+literature review, concerning keywords were also used. They were, for
+
+
+industry 4.0, the Internet of things, the Internet of everything and
+
+
+industrial Internet, and for software development, cloud application,
+
+
+IT security, and data management.
+
+
+The collected data was examined through the technique of con-
+
+
+tent analysis, where systematic procedures and objectives are used to
+
+
+describe the messages, aiming at the inference of knowledge regard-
+
+
+ing the conditions of production. Three steps were performed: pre-
+
+
+analysis, the analytical description, and the interpretation of the data
+
+
+(Bardin, 2011). Finally, a case study was carried out to adapt the pro-
+
+
+posed systemic approach. Industry experts 4.0 in the academic and/or
+
+
+practical areas were interviewed, from the considerations about the
+
+
+systematic, one can determine and adapt its stages. The case study
+
+
+was chosen because it is a qualitative method that consists of a way
+
+
+to deepen an individual unit. It serves to answer questions that the
+
+
+researcher does not have much control over the phenomenon studied.
+
+
+It is a tool used to understand the form and motives that led to a deci-
+
+
+sion. According to Yin (2015), the case study is a research strategy
+
+
+that comprises a method that covers everything in specific
+
+
+approaches of data collection and analysis. This study may help in the
+
+
+search for new theories and questions that will serve as the basis for
+
+
+future investigations. It has as one of the most important sources of
+
+
+information, interviews. Through them, the interviewee will express
+
+
+their opinion on a specific subject, using their interpretations
+
+
+(Yin, 2015).
+
+
+4 | ANALYSIS OF THE RESULTS
+
+
+The TRM directs future actions and relates to the company as a whole.
+
+
+Innovations and technologies need to be managed to gain strategic
+
+
+learning and development (Ghazinoory et al., 2017). With the use of
+
+
+new approaches and tools in conjunction with the TRM, one can
+
+
+expand its impact to the company, develop new capabilities, and better
+
+
+prepare the organization for the changes imposed by innovation, tech-
+
+
+nology, and globalization. The construction of systematics will be done
+
+
+by combining the general requirements of software development
+
+
+within industry 4.0, which are necessary for the full development and
+
+
+creation of the value of the organization that will use this new system.
+
+
+The basis of this new system comes from the alignment that both TRM
+
+
+and industry 4.0 have with strategic planning, future development
+
+
+approaches, and intelligence networks. With the bibliometric and biblio-
+
+
+graphic studies on the subject, one can make this relation of the TRM
+
+
+with methodologies linked to high technology, cutting-edge innovation,
+
+
+and connection tools. A bibliographic review was carried out between
+
+
+the years 2013 and 2018, with 43 articles identified, referring to indus-
+
+
+try 4.0 and software development. From the analysis, the general indus-
+
+
+try requirements 4.0 adapted to the context of software development
+
+
+are (Keeley, 2013; Mahidhar & Schatsky, 2013; Openshaw et al., 2014)
+
+
+found in Tables 1–5.
+
+
+Regarding the general requirements, it is essential to comment on
+
+
+current risk thinking, which includes the possibility of opportunity risk,
+
+
+which could have a beneficial effect in achieving the long-term organi-
+
+
+zational goals, that is, in future planning. The risks as opportunities are
+
+
+linked to technological opportunities, innovation, and strategy since
+
+
+management involves the identification and management of all
+
+
+sources of uncertainty that originate and shape perceptions of threats
+
+
+and opportunities within organizations. These influence decision mak-
+
+
+ing and the company's future.
+
+
+The embedded software in the context of the modularity related
+
+
+to the development of systems is discussed. Parnas (1972) mentions
+
+
+that it brings modularity by dividing a system into independent parts
+
+
+known as modules, which can be modified individually without addi-
+
+
+tional information from others. The modules are indeed independent,
+
+
+the modification or addition of new modules does not interfere in the
+
+
+system (or language) as a whole, contributing to agility and practicality
+
+
+in the development or maintenance processes (Oliveira, 2017).
+
+
+P. Bloem, Schlichtkrull, et al. (2018) and S. L. Bloem, Vasconcellos,
+
+
+et al. (2018) stress the importance of learning and management of inno-
+
+
+vation and the new and integrated methodologies, such as big data,
+
+
+augmented and virtual reality, and clouds, which are considered as the
+
+
+pillars of the new industrial revolution. The tools that make technology
+
+
+management are essential because they can anticipate technological
+
+
+520 DE OLIVEIRA VALÉRIO ET AL.
+
+
+
+
+
+
+trends, contributing to decision making, resource allocation, risk analy-
+
+
+sis, and the definition of technologies and skills to be developed.
+
+
+Software development allied to industry 4.0 come across the
+
+
+problems of integration, or even losses from software development in
+
+
+an unstable and transforming environment. The modern industrializa-
+
+
+tion goes through some significant challenges that are explained in
+
+
+the systematics. Industry 4.0 will substantially increase the technologi-
+
+
+cal complexity of value-adding processes (F. Lopez et al., 2017). Mas-
+
+
+tering this degree of complexity requires adequate software tools to
+
+
+design and build the proper installations and systems, and of course,
+
+
+also to operate them (Prause & Weigand, 2016). It can be seen that
+
+
+industry 4.0 in several areas, such as software development, has been
+
+
+gaining prominence in the organizational environment and is growing
+
+
+in studies and research. As one of the top priorities of industrial devel-
+
+
+opment, industry 4.0 is described as the pursuit of academic and busi-
+
+
+ness practice (Mueller et al., 2017). However, much still can be
+
+
+explained in the fields of technology, allied to strategy. One of the
+
+
+tools that can help acquisition of knowledge and innovation is
+
+
+the TRM. Aligned with the T plan model, there are the steps of the
+
+
+systematics:
+
+
+TABLE 1 Strategic requirements—opportunities analysis
+
+
+Opportunities analysis
+
+
+Thematic
+Operation
+efficiency 2.0
+
+
+Business' model
+optimization
+
+
+Objective The efficient analysis,
+
+
+evaluation and
+
+
+application of the
+
+
+data collected
+
+
+through machines
+
+
+and sensors.
+
+
+Developing new skills,
+
+
+at the individual
+
+
+employee level and in
+
+
+the organization as a
+
+
+whole.
+
+
+Challenges Using the new
+
+
+opportunities that
+
+
+digital transformation
+
+
+for the 4.0 industry
+
+
+offers to drive
+
+
+operational
+
+
+efficiencies that
+
+
+create long-term
+
+
+competitive
+
+
+advantages in both
+
+
+reliability and price.
+
+
+A top-down approach
+
+
+will create resistance
+
+
+in the organization,
+
+
+while the
+
+
+introduction of
+
+
+innovation in
+
+
+traditional business
+
+
+will provoke a
+
+
+reaction from less
+
+
+engaged employees.
+
+
+Risks Systems' incompatibility and labor replacement
+
+
+Gaps Integration with other
+
+
+organizational
+
+
+environments,
+
+
+industrial applicability
+
+
+and exploitation of
+
+
+techniques.
+
+
+New tools, approaches,
+
+
+industrial
+
+
+perspectives,
+
+
+recommendations
+
+
+and mechanisms in
+
+
+flexible industrial
+
+
+approaches.
+
+
+Advantages
+
+
+and
+
+
+tendencies
+
+
+Operational efficiency
+
+
+shapes the new
+
+
+industrial vision that
+
+
+is emerging, directly
+
+
+related to the
+
+
+changes.
+
+
+Business models geared
+
+
+toward industry 4.0
+
+
+feature a new way of
+
+
+perceiving and
+
+
+dealing with the
+
+
+industry clearly and
+
+
+technologically,
+
+
+aiming at its growth,
+
+
+but in a conscious
+
+
+and lean way.
+
+
+Literature (Parida, Choudhury,
+
+
+Chatterjee, &
+
+
+Chatterjee, 2016;
+
+
+Penas et al., 2017;
+
+
+Rauch, Rojas,
+
+
+Dallasega, &
+
+
+Matt, 2018; Tang &
+
+
+Yang, 2016)
+
+
+(Chen, Tai, &
+
+
+Chen, 2017;
+
+
+Fricke, 2015;
+
+
+Guerrero & Holgado-
+
+
+Terriza, 2017;
+
+
+Hortelano, Olivares,
+
+
+Ruiz, Garrido-Hidalgo,
+
+
+& López, 2017;
+
+
+Jovanovi�c, Lali�c, Mas,
+
+
+& Mesquida, 2015;
+
+
+Kho, 2013; Mueller,
+
+
+Chen, & Riedel, 2017;
+
+
+Schuh, Potente,
+
+
+Wesch-Potente,
+
+
+Weber, &
+
+
+Prote, 2014)
+
+
+TABLE 2 Strategic requirements—information technology
+
+
+Information technology
+
+
+Thematic IT integration.
+IT management and
+security.
+
+
+Objective Development of
+
+
+solutions from a
+
+
+variety of
+
+
+components, from
+
+
+sensor suppliers,
+
+
+modules, control
+
+
+systems,
+
+
+communications
+
+
+networks, business
+
+
+applications and
+
+
+customer-facing
+
+
+applications.
+
+
+Improve operational
+
+
+security and
+
+
+protection against
+
+
+attacks across the
+
+
+value chain.
+
+
+Challenges Existing IT
+
+
+infrastructures are
+
+
+very fragmented and
+
+
+result in poor quality
+
+
+networks.
+
+
+Increased demands
+
+
+made on data
+
+
+security.
+
+
+Risks Security and robustness of information systems
+
+
+(legislation) as well as expansion of internet and
+
+
+communication services.
+
+
+Gaps Implementation of
+
+
+other areas of
+
+
+research.
+
+
+Technological
+
+
+difficulties that IT
+
+
+security imposes on
+
+
+organizations.
+
+
+Advantages
+
+
+and
+
+
+tendencies
+
+
+Research advantage is
+
+
+related to the subject
+
+
+of new industry
+
+
+characteristics.
+
+
+Studies imply a
+
+
+necessary
+
+
+development for
+
+
+science that expands
+
+
+rapidly and needs
+
+
+security.
+
+
+Literature (Keeley, 2013;
+
+
+Mahidhar &
+
+
+Schatsky, 2013;
+
+
+Openshaw
+
+
+et al., 2014;
+
+
+Patelay, 2013)
+
+
+(Dieber et al., 2018;
+
+
+Sha, Xiao, &
+
+
+Chen, 2018)
+
+
+DE OLIVEIRA VALÉRIO ET AL. 521
+
+
+
+
+
+
+4.1 | Stage 1: Preparation
+
+
+In Stage 1, the opportunity analysis is carried out as to the require-
+
+
+ments in the current situation and planned future concerning the
+
+
+operational efficiency and optimization of the business model. Opera-
+
+
+tional efficiency analysis and optimization of business models must be
+
+
+made in the planning phase, as they determine the direction of the
+
+
+other phases.
+
+
+The risks/challenges are discussed, including understanding the
+
+
+functioning of the sensors and the lack of compatibility between the sys-
+
+
+tems (Penas et al., 2017), labor replacement, and the highly automated
+
+
+factories (Teles et al., 2018). The risks of lack of compatibility between
+
+
+TABLE 3 Strategic requirements—new interfaces and data
+
+
+New interfaces and data
+
+
+Thematic
+New IP (intellectual property)
+management Data analysis and management Cloud-based applications
+
+
+Objective New and individual solutions to the
+
+
+problem of IP
+
+
+Develop new specialized skills in the
+
+
+areas of analysis and efficient data
+
+
+management.
+
+
+Provide universal access at any time to
+
+
+all data across the value chain
+
+
+network.
+
+
+Challenges Intellectual property issues related to
+
+
+systems and plans.
+
+
+Gather, analyze and process new
+
+
+generated data.
+
+
+Hosting and making efficient use of
+
+
+large industry-generated data 4.0.
+
+
+Risks Big data structure
+
+
+Gaps Discussion of the technology paradigms and integration, besides the applicability in
+
+
+the different domains.
+
+
+Treatment of ideas, creation of
+
+
+prototypes, allying techniques with
+
+
+software tools, among other system
+
+
+improvements.
+
+
+Advantages and
+
+
+tendencies
+
+
+Performance and approach of the industrial integration. The discussion is current and frequent
+
+
+in the daily routine of those who use
+
+
+technologies and can be considered
+
+
+part of a new engineering of data
+
+
+processing
+
+
+Literature (Goguelin, Colaco, Dhokia, & Schaefer, 2017; Harpham, Cleverley, & Kelly, 2014;
+
+
+Peters, 2017; Wang et al., 2017)
+
+
+(Erol & Sihn, 2017; Thames &
+
+
+Schaefer, 2016; Wu, Terpenny, &
+
+
+Schaefer, 2017)
+
+
+TABLE 4 Strategic requirements—integrated management
+
+
+Integrated and intelligent management
+
+
+Thematic Smart supply chain Smart logistics Life cycle management
+
+
+Objective The creation of a single database,
+
+
+making supply chains smarter, more
+
+
+transparent and more efficient at
+
+
+every stage, from customer needs to
+
+
+delivery.
+
+
+Make logistics processes smarter. This
+
+
+applies to inbound logistics, internal
+
+
+logistics and outbound logistics.
+
+
+Ability to provide data relevant to life
+
+
+cycle management anytime,
+
+
+anywhere.
+
+
+Challenges The particular focus on new models
+
+
+that are tailored to individual
+
+
+customer needs and enable new
+
+
+cooperative models with business
+
+
+partners, places new demands on the
+
+
+supply chain.
+
+
+Integration of autonomous
+
+
+technologies, flexible logistics
+
+
+systems, new services, new storage
+
+
+and distribution models and the
+
+
+interconnection between internal
+
+
+production, pre-assembly and
+
+
+external service providers.
+
+
+Understand and better meet customer
+
+
+needs, as well as customize product
+
+
+cycles.
+
+
+Risks Impact of consumer relations.
+
+
+Gaps Discussion beyond the theoretical simulation, integration with other design processes, concepts and difficulties of small and
+
+
+medium enterprises.
+
+
+Advantages and
+
+
+tendencies
+
+
+Relevant topics are related to the development of current technology on a large scale, without forgetting small and medium
+
+
+technology companies, which contribute to the growth of this organizational scenario of software development by working
+
+
+together.
+
+
+Literature (Bauerdick, Helfert, Menz, & Abele, 2017; Lopez et al., 2017; Lorenz et al., 2016; Müller, Gust, Feller, & Schiffmann, 2015;
+
+
+Pfeiffer, Hellmers, & Schoen, 2017; Zarour & Alharbi, 2017; Zhou, Li, Li, Wang, & Liu, 2017)
+
+
+522 DE OLIVEIRA VALÉRIO ET AL.
+
+
+
+
+
+
+systems and the challenge of replacing labor should be discussed at this
+
+
+planning stage because they are significant and complex challenges with
+
+
+risks to bring complications to the organizational strategy.
+
+
+4.2 | Stage 2: Workshops
+
+
+The workshops are held in an integrated and complementary way.
+
+
+It stands out because this stage is the moment to connect the
+
+
+actions and to delimit the most significant challenges. It is the
+
+
+moment for the discussion and consolidation of the ideas of inte-
+
+
+gration and the effective management of the innovation and tech-
+
+
+nologies reached or aimed. During these steps of the workshops
+
+
+phase, the general requirements that can be discussed and analyzed
+
+
+are disclosed. The study provides a basis for discussion, with the
+
+
+following requirements being considered for analysis of the current
+
+
+situation and the future planning of information technology. In par-
+
+
+ticular, the issue of IT integration and IT security management, new
+
+
+interfaces, and data are discussed. New intellectual property man-
+
+
+agement, data analysis, management, and cloud-based applications;
+
+
+integrated and intelligent management are analyzed with particular
+
+
+attention to smart logistics, smart supply chain, and life cycle
+
+
+management.
+
+
+The general requirements related to information technology dem-
+
+
+onstrate how the organization is involved with technology and how it
+
+
+intends to modernize and manage these future transformations that
+
+
+should occur at all levels of the company, be it on the cloud-based
+
+
+Internet, or the security involved in the IT operations and the different
+
+
+and necessary ways to innovate in several areas creating the difference.
+
+
+The risks/challenges to be discussed are those regarding security and
+
+
+robustness of information systems, such as transmission failures in
+
+
+machine-to-machine communication, protecting the organization's
+
+
+know-how (Sha et al., 2018), more reliable transactions (Bologa et al.,
+
+
+2017), information security, intellectual and cultural property rights
+
+
+concerning the data generated (Wang et al., 2017), the need for expan-
+
+
+sion of mobile and fixed Internet services with adequate bandwidth for
+
+
+new data traffic (Martinez et al., 2017). Discharge of telecommunica-
+
+
+tions services—aimed at increasing electronic commerce as a necessary
+
+
+platform for the new competitive environment (Martinez et al., 2017).
+
+
+The general requirements for data analysis and management
+
+
+should be analyzed in this step, where the team needs to organize and
+
+
+be concerned about the quantity and quality of the data found. Proper
+
+
+administration of the extensive database collected for the understand-
+
+
+ing of the other stages should occur, such as 6Cs of the “big data” or
+
+
+large and complex data structure (Wang et al., 2017). An extensive
+
+
+database needs complete data management, so there are risks related
+
+
+to data loss, loss of part of the information, or even lack of under-
+
+
+standing of data. Knowledge about connection, cyber, content, com-
+
+
+munity, cloud, and customization are required.
+
+
+All the general requirements related to integrated and intelligent
+
+
+management are discussed at this stage because they are directed to
+
+
+the factors of production. In order to have a competitive technological
+
+
+product or service, one must be concerned with its life cycle, logistics,
+
+
+and all the layers of the supply chain, as well as how to manage the
+
+
+new intellectual property conditions. This concern is justified because
+
+
+it is a stable and innovative environment, which needs specific capaci-
+
+
+ties and care to face the constant change in the technological sce-
+
+
+nario. The possible risks/challenges should be discussed at this stage
+
+
+concerning the impact of extremely exclusive consumer and product
+
+
+relationships (Determine how customer dissatisfaction and possible
+
+
+discards should be regulated) (Giorgio et al., 2017). The challenge of
+
+
+managing customer dissatisfaction and managing exclusive products is
+
+
+related to the capacity and organization of production management
+
+
+and strategic management, so the importance of understanding con-
+
+
+sumer relations and avoiding the risks of dissatisfaction.
+
+
+4.3 | Stage 3: Execution
+
+
+In the final stage of the systematics, corporate business requirements
+
+
+and organizational learning is discussed and analyzed. Organizational
+
+
+TABLE 5 Strategic requirements—change and learning
+
+
+Change and learning
+
+
+Thematics Corporate business. Organizational learning.
+
+
+Objective Offer companies
+
+
+opportunities to
+
+
+invest in new trends
+
+
+at an early stage and
+
+
+to benefit from
+
+
+disruptive
+
+
+innovations and
+
+
+exponential
+
+
+technologies.
+
+
+Make the most of the
+
+
+potential of
+
+
+exponential
+
+
+technologies to
+
+
+achieve digital
+
+
+transformation for
+
+
+the industry 4.0.
+
+
+Challenges Creating new business
+
+
+areas.
+
+
+The use and integration
+
+
+of exponential
+
+
+technologies must be
+
+
+gradual, but stable.
+
+
+Learning is the key to
+
+
+sustainable
+
+
+organizational
+
+
+development.
+
+
+Risks Diffusion of the new technological scenario for
+
+
+students and researchers.
+
+
+Gaps Changing conceptual perspectives and developing
+
+
+the challenges related to software and areas of
+
+
+study.
+
+
+Advantages
+
+
+and
+
+
+tendencies
+
+
+The advantages come from the technological
+
+
+development that business and knowledge brings
+
+
+to the organization. They address active learning
+
+
+and new forms of study that integrate and
+
+
+contribute to the development of the industry.
+
+
+This movement of science allied with practice
+
+
+tends to break down barriers within and outside
+
+
+technological organizations.
+
+
+Literature (Bi, Li, Li, & Zhou, 2016; Bologa et al., 2017; Prause
+
+
+& Weigand, 2016; Sivanathan, Ritchie, &
+
+
+Lim, 2017; Teles et al., 2018; Vila, Ugarte, Ríos, &
+
+
+Abellán, 2017)
+
+
+DE OLIVEIRA VALÉRIO ET AL. 523
+
+
+
+
+
+
+learning and the idea of an expanded corporate business, such as, for
+
+
+example, the incentive for startups, puts the company in a proactive
+
+
+position about the challenges of the industry. Showing that the organi-
+
+
+zation is willing to develop in an innovative environment and with learn-
+
+
+ing in all processes and changes. Systematics should always be under
+
+
+review, even after the end of the process, so that all the information
+
+
+gathered is devoted to strategic business. Finally, the challenge of being
+
+
+open to the academic community and researchers should be further dis-
+
+
+cussed, and these can bring significant advances in processes, structures,
+
+
+models, and approaches, whether in management, technology, innova-
+
+
+tion, or the value chain. The risks/challenges should be discussed at this
+
+
+stage as to the need to disseminate the new technological scenario for
+
+
+students, who will be responsible for the implementation and mainte-
+
+
+nance of technologies applied in new factories and service companies.
+
+
+Bring the community of technology researchers to the discussion forum
+
+
+(Teles et al., 2018). The systematics can be identified in Figure 1.
+
+
+The aim is to demonstrate how a systematic approach to business
+
+
+needs can be developed, adding the general innovative and techno-
+
+
+logical requirements that were worked during the research. The sys-
+
+
+tematics does not seek to be prescriptive but, as a generalist proposal,
+
+
+are open for change and adaptation and based on discussions during
+
+
+the process. The analysis should be focused on the alignment
+
+
+between what was identified and the company's strategy (Pillkahn,
+
+
+2008). It is vital that the team members keep the expected results in
+
+
+mind at the end of each stage, not just to keep the focus on the rele-
+
+
+vant points, but to ensure that, at the end of the whole process, the
+
+
+team has the blocks and levels for integration. It is desirable to check
+
+
+the system periodically in order to monitor the changes and assess
+
+
+the achievement and progress toward the goals.
+
+
+4.4 | Analysis of specialists
+
+
+The proposed theoretical systematics was constructed based on
+
+
+the literature review on the themes. The systematics has been sub-
+
+
+jected to expert analysis to verify its practical suitability for busi-
+
+
+ness environments. The practical adaptation of the systematics was
+
+
+carried out with three specialists who develop activities related to
+
+
+the concepts of industry 4.0, both in the academic and/or business
+
+
+spheres. The experts' analysis used a questionnaire as a means of
+
+
+collecting data, and it was validated through a pilot test. In the pilot
+
+
+test, the specialist was asked to analyze the questionnaire consider-
+
+
+ing their questions (Table 6). The specialists indicated small changes
+
+
+in the format and recommended it as a means of collecting the data
+
+
+in electronic forms, to facilitate the fulfillment by the respondents.
+
+
+The questions were the following: “What is your critical opinion
+
+
+about systematics? Would you add or remove a requirement?
+
+
+Which element is the most important and/or most relevant?
+
+
+Because?” The specialists were selected according to their aca-
+
+
+demic background and experience in industry 4.0, and the engi-
+
+
+neering area. The leading specialists were selected on the platform
+
+
+F IGURE 1 Proposed systematic
+[Color figure can be viewed at
+wileyonlinelibrary.com]
+
+
+TABLE 6 Description of experts for the pilot test
+
+
+Selection criteria
+
+
+Field of academic and
+practical knowledge Experience
+
+
+Specialist 1
+
+
+(pilot
+
+
+test)
+
+
+Doctor of electrical
+
+
+Engineering from
+
+
+UNICAMP. Post-
+
+
+doctorate in
+
+
+electronics. He is
+
+
+currently an adjunct
+
+
+professor. Acting
+
+
+mainly on the
+
+
+following themes:
+
+
+Emerging technologies
+
+
+and future networks.
+
+
+Projects in data
+
+
+architecture. Works
+
+
+with the concepts of
+
+
+the internet of things,
+
+
+next-generation
+
+
+mobile
+
+
+communications
+
+
+networks and IoT
+
+
+solutions. Research
+
+
+and development
+
+
+platform for smart
+
+
+cities. Publications and
+
+
+works in the area of
+
+
+innovation and
+
+
+industry 4.0 as a
+
+
+business model
+
+
+(quality, supply chain,
+
+
+sustainability, logistics,
+
+
+optimization, virtual
+
+
+and augmented reality,
+
+
+among others).
+
+
+Experience of more
+
+
+than 8 years in
+
+
+industry 4.0.
+
+
+524 DE OLIVEIRA VALÉRIO ET AL.
+
+
+
+http://wileyonlinelibrary.com
+
+
+
+
+through the search of curriculum, professional performance (engi-
+
+
+neering), and subject (industry 4.0). Table 7 shows the data.
+
+
+Four waves of research submissions were performed. Table 8
+
+
+shows the time, the number of specialists, and responses.
+
+
+The fourth wave was sent to try to reduce the error variation, but
+
+
+there was no response, therefore, interrupting the sending. For the tri-
+
+
+als, carried out in the period from March to April 2019, have the
+
+
+description of the specialists (Table 9).
+
+
+The specialist 2 considered all the essential requirements without
+
+
+removing any of them. However, the same specialist emphasized the
+
+
+important parts of each step and added comments on it. In the dimen-
+
+
+sion of the opportunity analysis, he advised to consider the infrastruc-
+
+
+ture risk, since it is often the case of innovative technology, but the
+
+
+infrastructure requires high investment to make the initiative via-
+
+
+ble. An example is a mobility that uses tablets for operational effi-
+
+
+ciency and requires Wi-Fi in the manufacturing environment.
+
+
+Usually, Wi-Fi capability, when available, does not meet the need.
+
+
+Other aspects related to cybersecurity and internal information
+
+
+TABLE 8 Sending waves
+Date of sending wave Number of specialists Number of answers Number of refuses
+
+
+May 15 10 1 -
+
+
+May 22 9 1 1
+
+
+May 29 7 1 1
+
+
+Apr 06 5 — —
+
+
+TABLE 9 Description of the specialists for the adequacy of the systematics
+
+
+Selection criteria
+
+
+Specialists Field of academic and practical knowledge Experience
+
+
+Specialist 2 Ph.D. in Production Engineering in the Management and
+
+
+Optimization Area with an emphasis on Project
+
+
+Management by UNESP. HCMP Certificate—Human
+Change Management Professional by HCMI, PMP
+
+
+Certificate—Project Management Professional by PMI—
+United States, Certificate in Lean Manufacturing at the
+
+
+University of Michigan, MI, United States, Green Belt
+
+
+Certificate by Siemens, Postgraduate in Project
+
+
+Management by the Vanzolini Foundation/USP.
+
+
+Current “Regional Americas Process Automation &
+Execution Systems Leader” at Johnson & Johnson.
+Area of automation of processes and production,
+
+
+microprocessors, digital electronics. Experience in
+
+
+companies such as Siemens. Publications on
+
+
+optimization and industrial projects. Experience of
+
+
+more than 8 years in industry 4.0.
+
+
+Specialist 3 Ph.D. in Electrical Engineering from UNIFEI. Coordinator
+
+
+of higher courses in Control and Automation
+
+
+(Engineering and Technology) by INATEL and professor
+
+
+of higher education at INATEL. Experience in the area of
+
+
+Electrical Engineering, with emphasis on Control of
+
+
+Electronic Processes, Feedback, working mainly on the
+
+
+following topics: industrial networks, Ethernet, physical
+
+
+media, industrial instrumentation, industrial actuators
+
+
+and industrial controllers.
+
+
+Coordinator and project manager in industrial
+
+
+automation on Sense Eletrônica. Area of Electronic
+
+
+Automation of Electrical and Industrial Processes.
+
+
+Publications (books, articles) in the area of automation
+
+
+systems and industrial networks and industry 4.0,
+
+
+having more than 8 years' experience in the field.
+
+
+Specialist 4 Ph.D. in Production Engineering from UNIMEP. Currently
+
+
+holds post-doctorate in Production Engineering at
+
+
+UNICAMP. Has a qualification certificate in Project
+
+
+Management (PMI) and Green Belt. Specialization
+
+
+course in Continuous Improvement (5S, Kaizen, Lean).
+
+
+Coordinator of the Sustainable Business Lab-Sustainable
+
+
+Business Lab—Has 23 years of professional experience
+as an International Project Manager.
+
+
+Research in the areas of Industry 4.0/Advanced
+
+
+Manufacturing/Industrial Internet of Things—
+Entrepreneurship/Business Canvas—Emerging
+Technologies/Disruptive Technologies. Collaborator
+
+
+at the following institutions—Collaborative Research
+Network on Supply Chain 4.0. Member of SC4—
+National Association of Research and Development of
+
+
+Innovative Companies (ANPEI). Member of the
+
+
+Interaction Committee on Science and Technology—
+Innovation Plant/AgTechValley. Articles, works, books
+
+
+and congresses on industry 4.0 and its aspects.
+
+
+Experience of more than 8 years in Industry 4.0.
+
+
+TABLE 7 Potential specialists
+
+
+Filters
+
+
+Number of lattes
+
+
+curriculum found
+
+
+Area of expertise: Engineering, has a
+
+
+doctorate
+
+
+1,058
+
+
+Experience of more than 8 years in industry
+
+
+4.0
+
+
+10
+
+
+DE OLIVEIRA VALÉRIO ET AL. 525
+
+
+
+
+
+
+technology policies that block and/or delay project progress too
+
+
+much. It was also appointed to stage the operations technology
+
+
+(OT) issues, aiming the gap between information technology activi-
+
+
+ties to higher levels of the automation pyramid without experience
+
+
+at lower levels. This procedure causes a huge gap and relevant
+
+
+stops of productive processes. A simple upgrade of a patch
+
+
+(a program that updates or fixes software) from the operating sys-
+
+
+tem can stop the production of a factory. One of the points consid-
+
+
+ered relevant is the IT regulation issue.
+
+
+The dimension of integratedmanagement was indicated to talk about
+
+
+the point of integration between information technology and business,
+
+
+eliminating the previous structure that focuses only on corporate financial
+
+
+systems and operates in a stratified way between routine services and
+
+
+innovation projects. A recent structure envisions an area focused on busi-
+
+
+ness (enhancing the role of the analyst and/or business manager) and a
+
+
+product line area, which has experts for various solutions that support the
+
+
+business. Cybersecurity was placed as another relevant point. It should
+
+
+not be confused or embedded in the approach to regulation, but rather in
+
+
+internal policies and procedures that modernize information technology
+
+
+and focus on IT and OT integration. Cloud storage should be placed on
+
+
+the constraints of cybersecurity. Most productive machine vendors have
+
+
+already included in their portfolio predictive maintenance with applica-
+
+
+tions running in the cloud. The point is data collection in the manufactur-
+
+
+ing environment and sending it to the external cloud (local or somewhere
+
+
+in the world). This result can be done directly using the firewall and VPN,
+
+
+yet out of many information technology policies, constituting yet another
+
+
+roadblock to advance the industry 4.0 projects.
+
+
+Regarding the specialist 3, the proposal and requirements are
+
+
+adequate and coherent. He proposed that in the IT tables, new data
+
+
+interface and management could be better detailed, referring to how
+
+
+and what will be done at all three levels. It was suggested the descrip-
+
+
+tion of more technologies in the workshop stage and improvements in
+
+
+the texts to indicate how, where, and by whom the information man-
+
+
+agement will be carried out, for example. Besides, all five require-
+
+
+ments are essential because of the waterfall interdependence
+
+
+between them. However, if an execution had to be chosen as the
+
+
+most important, it would be the last one.
+
+
+Regarding the specialist 4, all requirements are important, highlight-
+
+
+ing the steps of information technology and analysis of opportunities.
+
+
+On the step of new interfaces and data, emphasis must be given in
+
+
+terms of big data and cloud storage. The specialist did not indicate to
+
+
+withdraw any requirement. However, each step should be explained in
+
+
+all its concepts. After incorporating the suggestions of specialists, the
+
+
+systematics was consolidated in the tables with the suggested changes.
+
+
+The systematic practice maintained the requirement structure.
+
+
+5 | CONCLUSION
+
+
+The study sought a TRM for software development in the industry
+
+
+4.0. Through the bibliographic review, the general requirements for
+
+
+industry 4.0 in the context of software development were found to
+
+
+be the following. IT integration, data analysis and management, cloud-
+
+
+based applications and operational efficiency 2.0, optimization of the
+
+
+business model, intelligent supply chain and logistics, IT security man-
+
+
+agement, new intellectual property management, life cycle manage-
+
+
+ment, corporate business, and organizational learning. In addition, to
+
+
+the principal risks/challenges of software integration and new tech-
+
+
+nologies such as lack of systems compatibility, labor replacement, the
+
+
+impact of consumer relations, “big data” structure, security, and
+
+
+robustness of information systems (legislation). From the general
+
+
+requirements, it was possible to find the differential that would guide
+
+
+the systematic proposal. Based on the concepts of management and
+
+
+engineering, it is possible to propose the system, which modifies the
+
+
+TRM, through current and future state protocols of the company dur-
+
+
+ing three stages, where the general industry requirements 4.0 and the
+
+
+potential risks/challenges are discussed.
+
+
+The research brought light to the study of the different and more
+
+
+updated aspects of software development in the context of industry 4.0
+
+
+in integration with other essential approaches related to the new way of
+
+
+managing innovations and strategies. The study develops technical and
+
+
+academic knowledge in these areas, which are relevant for technological
+
+
+and organizational development. The study seeks to delve deeper into
+
+
+industry 4.0, which needs to be appropriately interpreted and applied in
+
+
+software development organizations. The results of the research sought
+
+
+to demonstrate the relevance of management and its opportunities to
+
+
+deal with issues and challenges that the new software industry brings
+
+
+about. Innovation management is reflected in the company's decision-
+
+
+making, which will opt for more significant and better means and tools
+
+
+to adapt its strategic vision in the long term. The study contributes to
+
+
+knowledge about the new ways of managing the technologies, adapting
+
+
+to technological changes, creating organizational value.
+
+
+The study summarizes the research challenges that must be faced
+
+
+by researchers in the field. It also shows the practical implications that
+
+
+the theme has in common with universities, business, research, and
+
+
+development, the growth of industrialization, interconnection, among
+
+
+others. Showing industry 4.0 as necessary and challenging for soft-
+
+
+ware advancements, so the importance of studying and understanding
+
+
+the specificities of issues related to best practices and strategic deci-
+
+
+sion making. This article contributes to knowledge about industry 4.0.
+
+
+The work could update previous studies and advance knowledge,
+
+
+bringing knowledge about new and different approaches.
+
+
+REFERENCES
+
+
+ABNT - Brazilian Association of Technical Standards. (2009). NBR ISO
+
+
+31000 - Risk management - principles and guidelines. Rio de Janeiro,
+
+
+Brazil: Author.
+
+
+Albright, R. E., & Kappel, T. A. (2003). Roadmapping in the corporation.
+
+
+Research-Technology Management, 46(2), 31–40.
+Amer, M., & Daim, T. U. (2010). Application of technology roadmaps for
+
+
+renewable energy sector. Technological Forecasting and Social Change,
+
+
+77(8), 1355–1370.
+Amer, M., Daim, T. U., & Jetter, A. (2016). Technology roadmap through
+
+
+fuzzy cognitive map-based scenarios: The case of wind energy sector
+
+
+of a developing country. Technology Analysis & Strategic Management,
+
+
+28(2), 131–155.
+Andrade, C. C. A., Monti, L. L., & Silva, A. R. P. (2009). Application of tech-
+
+
+nology roadmapping in an automobile company. Symposium on
+
+
+526 DE OLIVEIRA VALÉRIO ET AL.
+
+
+
+
+
+
+Excellence in Management and Technology. Retrieved from http://www.
+
+
+aedb.br/seget/artigos08/21_SEGET.pdf
+
+
+Bardin, L. (2011). Content analysis, (pp. 70). S~ao Paulo, Brazil: Edições.
+
+
+Bauerdick, C., Helfert, J., Menz, B., & Abele, E. (2017). A common software
+
+
+framework for energy data based monitoring and controlling for
+
+
+machine power peak reduction and workpiece quality improvements.
+
+
+Procedia CIRP, 61, 359–364.
+Bezerra, E. (2015). Principles of analysis and system design with UML, Rio de
+
+
+Janeiro: Elsevier.
+
+
+Bi X., Li, J., Li, P., & Zhou, P. (2016). Brief discussions on German industry 4.0,
+
+
+Chinese manufacture 2025 and intelligent metallurgy. School of Mate-
+
+
+rials and Metallurgy, Wuhan University of Science and Technology.
+
+
+Blanco-Novoa, T., Fernández-Caramés, M., Fraga-Lamas, P., & Vilar-
+
+
+Montesinos, M. A. (2018). A practical evaluation of commercial indus-
+
+
+trial augmented reality systems in an industry 4.0 shipyard. IEEE
+
+
+Access, 6, 8201–8218.
+Blismas, N., Wakefield, R., & Hauser, B. (2010). Concrete prefabricated
+
+
+housing via advances in systems technologies: Development of a tech-
+
+
+nology roadmap. Engineering Construction and Architectural Manage-
+
+
+ment, 17(1), 99–110.
+Bloem, P., Schlichtkrull, M., Kipf, T., Van den Berg, R., Titov, I., &
+
+
+Welling, M. (2018). Modeling relational data with graph convolutional
+
+
+networks. European Semantic Web Conference, 593–607.
+Bloem, S. L., Vasconcellos, E., Guedes, L. V., Guedes, L. F. A., &
+
+
+Costa, R. M. (2018). Technology roadmapping: A methodological prop-
+
+
+osition to refine Delphi results. Technological Forecasting and Social
+
+
+Change, 126, 194–206.
+Bologa, R., Lupu, A., Boja, C., & Georgescu, T. (2017). Sustaining employ-
+
+
+ability: A process for introducing cloud computing, big data, social net-
+
+
+works, mobile programming and cybersecurity academic curricula.
+
+
+Sustainability, 9, 2235.
+
+
+Buchinger, D., Cavalcanti, G. A., & Hounsell, M. S. (2014). Academic search
+
+
+mechanisms: A quantitative analysis. Brazilian Journal of Applied Com-
+
+
+putation, 6(1), 108–120.
+Carvalho, M., Fleury, A., & Lopes, A. P. (2013). An overview of the litera-
+
+
+ture on technology roadmapping (TRM): Contributions and trends.
+
+
+Technological Forecasting and Social Change, 80(7), 1418–1437.
+Chen, J. Y., Tai, K. C., & Chen, G. C. (2017). Application of programmable
+
+
+logic controller to build-up an intelligent industry 4.0 platform.
+
+
+Procedia CIRP, 63, 150–155.
+Choi, S., Kim, H., Yoon, J., Kim, K., & Lee, J. Y. (2013). An SAO-based text-
+
+
+mining approach for technology roadmapping using patent informa-
+
+
+tion. R&D Management, 43(1), 52–74.
+Coser, M. A., Carvalho, H. G., & Kovaleski, J. L. (2006). Knowledge man-
+
+
+agement in support of software requirements management. Production
+
+
+engineering symposium, 2006, Bauru - SP. Anais - SIMPEP. Bauru:
+
+
+UNESP, 1–10.
+Cotteleer, M., Holdowsky, J., & Mahto, M. (2013). The 3D opportunity
+
+
+primer. The basics of additive manufacturing, Westlake, Texas: Deloitte
+
+
+University Press.
+
+
+Déchamps, P., & Niels, G. (2018). The one billion euro question for intel:
+
+
+Moore's law or Murphy's law? Journal of European Competition Law &
+
+
+Practice, 9(2), 124–130.
+Dieber, B., Breiling, B., Taurer, S., Kacianka, S., Rass, S., & Schartner, P.
+
+
+(2018). Security for the robot operating system. Robotics and Autono-
+
+
+mous Systems, 98, 192–203.
+Erol, S., & Sihn, W. (2017). Intelligent production planning and control in
+
+
+the cloud – Towards a scalable software architecture. Procedia CIRP,
+62, 571–576.
+
+
+Fenwick, D., Daim, T. U., & Gerdsri, N. (2009). Value Driven Technology
+
+
+Road Mapping (VTRM) process integrating decision making and mar-
+
+
+keting tools: Case of internet security technologies. Technological Fore-
+
+
+casting and Social Change, 76(8), 1055–1077.
+Fricke, A. (2015). Industrie 4.0 with MS-excel? Chemical Engineering Trans-
+
+
+actions, 43(1).
+
+
+Garcia, M. L., & Bray, O. H. (2007). Fundamentals of technology
+
+
+roadmapping (No. SAND-97-0665). Albuquerque, NM: Sandia
+
+
+National Laboratories. Retrieved from www.sandia.gov/PHMCOE/
+
+
+pdf/Sandia'sFundamentalsofTech.pdf
+
+
+Ghazinoory, S., Dastranj, N., Saghafi, F., Kulshreshtha, A., &
+
+
+Hasanzadeh, A. (2017). Technology roadmapping architecture based
+
+
+on technological learning: Case study of social banking in Iran. Techno-
+
+
+logical Forecasting and Social Change, 122, 231–242.
+Giorgio, A., Romero, M., Onori, M., & Wang, L. (2017). Human-machine
+
+
+collaboration in virtual reality for adaptive production engineering.
+
+
+Procedia Manufacturing, 11, 1279–1287.
+Goguelin, S., Colaco, J., Dhokia, V., & Schaefer, D. (2017). Smart manufac-
+
+
+turability analysis for digital product development. Procedia CIRP, 60,
+
+
+56–61.
+Goldberg, M., & Weber, C. (1998). Evaluation of the risk analysis and cost man-
+
+
+agement (RACM) model. Washington, DC: Institute for Defense Analysis.
+
+
+Gressler, L. A. (2004). Introduction to research: Projects and reports (2nd
+
+
+ed.). S~ao Paulo, Brazil: Loyola.
+
+
+Guerrero, J. M., & Holgado-Terriza, J. A. (2017). iMMAS an industrial
+
+
+meta-model for automation system using OPC UA. Elektronika ir Ele-
+
+
+ktrotechnika, 23(3), 3–11.
+Hall, P., Gu, F., & Guo, J. (2018). An integrated architecture for
+
+
+implementing extended producer responsibility in the context of
+
+
+industry 4.0. International Journal of Production Research, 4(1).
+
+
+Harpham, Q., Cleverley, P., & Kelly, D. (2014). The FluidEarth 2 implemen-
+
+
+tation of OpenMI 2.0. Journal of Hydroinformatics, 16, 890–906.
+Hillegas-Elting, J. V., Yu, C. J., Oliver, T., Daim, T., & Estep, J. (2016). Tech-
+
+
+nology roadmap development framework: A case study within the
+
+
+energy sector. R&D Management Conference From Science to Society:
+
+
+Innovation and Value Creation, 1–14.
+Ho, J. Y., & O'Sullivan, E. (2017). Strategic standardisation of smart sys-
+
+
+tems: A roadmapping process in support of innovation. Technological
+
+
+Forecasting and Social Change, 115, 301–312.
+Hortelano, D., Olivares, T., Ruiz, M. C., Garrido-Hidalgo, C., & López, V.
+
+
+(2017). From sensor networks to internet of things. Bluetooth low
+
+
+energy, a standard for this evolution. Sensors, 17(2), 372.
+
+
+Jovanovi�c, M., Lali�c, B., Mas, A., & Mesquida, A. L. (2015). The agile
+
+
+approach in industrial and software engineering project management.
+
+
+Journal of Applied Engineering Science, 13(4), 213–216.
+Kagermann, H., Wahlster, W., & Helbig, J. (2013). Recommendations for
+
+
+implementing the strategic initiative industrie 4.0 (pp. 13–78). Germany:
+Acatech.
+
+
+Kappel, T. A. (2001). Perspectives on roadmaps: How organizations talk about
+
+
+the future. Journal of Product Innovation Management, 18(1), 39–50.
+Keeley, L. (2013). En types of innovation. The discipline of building break-
+
+
+throughs (p. 1). United Kingdom: John Wiley & Sons.
+
+
+Kho, P. (2013). Industry 4.0 and its children: The fourth industrial revolu-
+
+
+tion needs qualification. Mechatronik, 121(3–4), 22–23.
+Kim, C., Kim, H., Han, S. H., Kim, C., Kim, M. K., & Park, S. H. (2009).
+
+
+Developing a technology roadmap for construction R&D through
+
+
+interdisciplinary research efforts. Automation in Construction, 18,
+
+
+330–337.
+Lamounier, H. (2014). Basic activities to the software development process,
+
+
+Brazil: Portal DevMedia. Lars Larsen.
+
+
+Lee, J. H., Phaal, R., & Lee, S. H. (2013). An integrated service-device-
+
+
+technology roadmap for smart city development. Technological Fore-
+
+
+casting and Social Change, 80(2), 286–306.
+Longo, F., Nicoletti, E., & Padovano, A. (2017). Smart operators in industry
+
+
+4.0: A human-centered approach to enhance operators' capabilities
+
+
+and competencies within the new smart factory context. Computers &
+
+
+Industrial Engineering, 113(1), 144–159.
+Lopez, F., Shao, W., Maob, M., Moyne, J., Bartona, K., & Tilbury, D.
+
+
+(2017). A software-defined framework for the integrated manage-
+
+
+ment of smart manufacturing systems. Manufacturing Letters, 15(1),
+
+
+18–21.
+
+
+DE OLIVEIRA VALÉRIO ET AL. 527
+
+
+
+http://www.aedb.br/seget/artigos08/21_SEGET.pdf
+
+http://www.aedb.br/seget/artigos08/21_SEGET.pdf
+
+https://www.sandia.gov/PHMCOE/pdf/Sandia'sFundamentalsofTech.pdf
+
+https://www.sandia.gov/PHMCOE/pdf/Sandia'sFundamentalsofTech.pdf
+
+
+
+
+Lopez, R. (2014). Building smarter manufacturing with the internet of things
+
+
+(IoT). Part 2. of the IoT series copyright, USA: Lopez Research LLC.
+
+
+Lorenz, M., Spranger, M., Riedel, T., Pürzel, F., Wittstock, V., &
+
+
+Klimant, P. (2016). CAD to VR–a methodology for the automated
+conversion of kinematic CAD models to virtual reality. Procedia CIRP,
+
+
+41, 358–363.
+Loureiro, A. M. V. (2010). The use of the technology roadmapping method in
+
+
+adhesives and sealants applied to civil construction/Aline Marta Vas-
+
+
+concelos Loureiro. (Thesis (PhD in Technology of Chemical and Bio-
+
+
+chemical Processes)). Federal University of Rio de Janeiro, School of
+
+
+Chemistry, Rio de Janeiro.
+
+
+Mahidhar, V., & Schatsky, D. (2013). The internet of things, Germany:
+
+
+Deloitte University Press Arbeitskreis Industrie 4.0:
+
+
+Umsetzungsempfehlungen für das Zukunftsprojekt Industrie 4.0.
+
+
+Martinez, B., Vilajosana, X., Kim, I. H., Zhou, J., Tuset-Peiró, P., Xhafa, A., …
+Lu, X. (2017). I3Mote: An open development platform for the intelli-
+
+
+gent industrial internet. Sensors, 17, 986.
+
+
+Mineo, C., Pierce, S. G., Nicholson, P. I., & Cooper, I. (2016). Robotic path
+
+
+planning for non-destructive testing – A custom MATLAB toolbox
+approach. Robotics and Computer-Integrated Manufacturing, 37, 1–12.
+
+
+Moore, G. E. (1965). Cramming more components onto integrated circuits.
+
+
+Electronics, 38(8), 114.
+
+
+Mueller, E., Chen, X., & Riedel, R. (2017). Challenges and requirements for
+
+
+the application of industry 4.0: A special insight with the usage of
+
+
+cyber-physical system. Chinese Journal of Mechanical Engineering, 30
+
+
+(164), 1050–1057.
+Müller, U., Gust, P., Feller, N., & Schiffmann, M. (2015). WorkDesigner:
+
+
+Consulting application software for the strain-based staffing and
+
+
+design of work processes. Procedia Manufact, 3, 379–386.
+Oliveira, L. M. S. (2017). Characterization of the concept of modularity in the
+
+
+development of programming languages. F. Monography (Undergraduate
+
+
+in Information Systems) - Institute of Exact and Applied Sciences. Jo~ao
+
+
+Monlevade, Brazil: Federal University of Ouro Preto.
+
+
+Openshaw, E., Wigginton, C., Hagel, J., Brown, J. S., Wooll, M., &
+
+
+Banerjee, P. (2014). The internet of things ecosystem: Unlocking the busi-
+
+
+ness value of connected devices, London, United Kingdom: Deloitte.
+
+
+Parida, A., Choudhury, S., Chatterjee, S., & Chatterjee, D. (2016). A cost
+
+
+effective trade-off based renewable power augmented energy effi-
+
+
+cient load model for manufacturing industries for demand side man-
+
+
+agement. Cogent Engineering, 3(1), 123–130.
+Parnas, D. L. (1972). On the criteria to be used in decomposing systems
+
+
+into modules. Communications of the ACM, 15(12), 1053–1058.
+Patelay, W. (2013). Industry 4.0 in the CNC technology: Extensive changes
+
+
+in the manufacturing world. Mechatronik, 121(9), 50–51.
+Penas, O., Plateaux, R., Patalano, S., & Hammadia, M. (2017). Multi-scale
+
+
+approach from mechatronic to cyber-physical systems for the design
+
+
+of manufacturing systems. Computers in Industry, 86, 52–69.
+Peters, H. (2017). Industry 4.0 as the basis of modern metallurgical innova-
+
+
+tions. Chernye Metally, 7, 56–63.
+Pfeiffer, T., Hellmers, J., & Schoen, E. M. (2017). Empowering user inter-
+
+
+faces for Industrie 4.0. Proceedings of the IEEE, 104(5), 986–996.
+Phaal, R., Farrukh, C., & Probert, D. (2001). Technology Roadmapping:
+
+
+Linking technology resources to business objectives (pp. 1–18). UK: Cen-
+tre for Technology Management, University of Cambridge.
+
+
+Phaal, R., Farrukh, C. J., & Probert, D. R. (2004). Technology
+
+
+roadmapping—A planning framework for evolution and revolution.
+Technological Forecasting and Social Change, 71(1–2), 5–26.
+
+
+Phaal, R., Farrukh, C. J., & Probert, D. R. (2006). Technologymanagement tools:
+
+
+Concept, development and application. Technovation, 26(3), 336–344.
+Pillkahn, U. (2008). In S. Aktiengesellschaft (Ed.), Using trends and scenarios
+
+
+as tools for strategy development — Shaping the future of your enterprise.
+Erlangen, Germany: Publics Corporate Publishing.
+
+
+Prause, M., & Weigand, J. (2016). Industry 4.0 and object-oriented devel-
+
+
+opment: Incremental and architectural change. Journal of Technology
+
+
+Management & Innovation (SciELO Chile), 11(2), 104–110.
+
+
+Pressman, R. S., Maxim, B. R., & Bruce, R. (2016). Software engineering: A
+
+
+professional approach (8th ed). Brazil: McGraw Hill.
+
+
+Probert, D., & Radnor, M. (2003). Frontier experiences from industry-
+
+
+academia consortia. Research-Technology Management, 46(2), 27–30.
+Qin, J., Liu, Y., & Grosvenor, R. (2016). A categorical framework of
+
+
+manufacturing for industry 4.0 and beyond. Procedia CIRP, 52, 173–178.
+Rauch, E., Rojas, R., Dallasega, P., & Matt, D. T. (2018). Smart shopfloor
+
+
+management. ZWF Zeitschrift für wirtschaftlichen Fabrikbetrieb, 113
+
+
+(1–2), 17–21.
+Schlick, J., Stephan, P., Loskyll, M., & Lappe, D. (2012). Industrie 4.0 in der
+
+
+praktischen Anwendung. In B. VogelHeuser, T. Bauernhansl, & M. ten
+
+
+Hompel (Eds.), Industrie 4.0. Produktion, Automatisierung und Logistik:
+
+
+Anwendung, Technologien und Migration (pp. 57–84). Wiesbaden,, Ger-
+many: Springer Vieweg.
+
+
+Schuh, G., Potente, T., Wesch-Potente, C., Weber, A. R., & Prote, J. P.
+
+
+(2014). Collaboration mechanisms to increase productivity in the con-
+
+
+text of industrie 4.0. Procedia CIRP, 19, 51–56.
+Sha, L., Xiao, F., & Chen, W. (2018). IIoT-SIDefender: Detecting and
+
+
+defense against the sensitive information leakage in industry IoT.
+
+
+World Wide Web, 21(1), 59–88.
+Shmuelli, O., & Ronen, B. (2017). Excessive software development: Prac-
+
+
+tices and penalties. International Journal of Project Management, 35(1),
+
+
+13–27.
+Shrouf, F., Ordieres, J. & Miragliotta, G. (2014). Smart factories in industry
+
+
+4.0: A review of the concept and of energy management approached
+
+
+in production based on the internet of things paradigm. Proceedings
+
+
+of IEEE International Conference on Industrial Engineering and Engineer-
+
+
+ing Management (IEEM), 697–701.
+Sivanathan, A., Ritchie, J. M., & Lim, T. (2017). A novel design engineering
+
+
+review system with searchable content: Knowledge engineering via real-
+
+
+time multimodal recording. Journal of Engineering Design, 28, 681–708.
+Sommerville, I. (2011). Software engineering. In Translation: Kalinka oliveira,
+
+
+ivan bosnic (9th ed.). S~ao Paulo, Brazil: Pearson Prentice Hall.
+
+
+Stock, T., & Selinger, G. (2016). Opportunities of sustainable manufactur-
+
+
+ing in industry 4.0. 13th Global Conference on Sustainable Manufactur-
+
+
+ing - Decoupling Growth from Resource Use, Science Direct.
+
+
+Tang, C., & Yang, N. (2016). A monitoring and control system of agricul-
+
+
+tural environmental data based on the internet of things. Journal of
+
+
+Computational and Theoretical Nanoscience, 13(7), 4694–4698.
+Teles, M. S., Vianna, A. S., Jr., & Le Roux, G. A. C. (2018). Programming
+
+
+skills in the industry 4.0: Are chemical engineering students able to
+
+
+face new problems? Education for Chemical Engineers, 22, 69–76.
+Thames, L., & Schaefer, D. (2016). Software-defined cloud manufacturing
+
+
+for industry 4.0. Procedia CIRP, 52, 12–17.
+Tierney, R., Hermina, W., & Walsh, S. (2013). The pharmaceutical technol-
+
+
+ogy landscape: A new form of technology roadmapping. Technological
+
+
+Forecasting and Social Change, 80(2), 194–211.
+Vila, C., Ugarte, D., Ríos, J., & Abellán, J. V. (2017). Project-based collabora-
+
+
+tive engineering learning to develop industry 4.0 skills within a PLM
+
+
+framework. Procedia Manufacturing, 13, 1269–1276.
+Vishnevskiy, K., Karasev, O., & Meissner, D. (2015). Integrated roadmaps
+
+
+and corporate foresight as tools of innovation management: The case
+
+
+of Russian companies. Technological Forecasting and Social Change, 90,
+
+
+433–443.
+Vishnevskiy, K., Karasev, O., & Meissner, D. (2016). Integrated roadmaps
+
+
+for strategic management and planning. Technological Forecasting and
+
+
+Social Change, 110, 153–166.
+Wang, S., Zhang, C., Liu, C., Li, D., & Tang, H. (2017). Cloud-assisted inter-
+
+
+action and negotiation of industrial robots for the smart factory. Com-
+
+
+puters and Electrical Engineering, 63, 45–7906.
+Wazlawick, R. (2013). Software engineering: Concepts and practices. Brazil:
+
+
+Elsevier.
+
+
+Weyer, S., Schmitt, M., Ohmer, M., & Gorecky, D. (2015). Towards industry
+
+
+4.0 - standardization as the crucial challenge for highly modular, multi-
+
+
+vendor production systems. IFAC-PapersOnLine, 48(3), 579–584.
+
+
+528 DE OLIVEIRA VALÉRIO ET AL.
+
+
+
+
+
+
+Willyard, C. H., & MCclees, C. W. (1987). Motorola's technology roadmap
+
+
+process. Research Management, 30(5), 13–19.
+Wu, D., Terpenny, J., & Schaefer, D. (2017). Digital design and manufacturing
+
+
+on the cloud: A review of software and services. Artificial intelligence for
+
+
+engineering design. Analysis and Manufacturing, 31(1), 104–118.
+Yin, R. (2015). Case study: Planning and methods, Brazil: Bookman
+
+
+Publisher.
+
+
+Zarour, M., & Alharbi, M. (2017). User experience framework that com-
+
+
+bines aspects, dimensions, and measurement methods. Cogent Engi-
+
+
+neering, 4(1), 1421006.
+
+
+Zhang, Y., Chen, H., Zhang, G., Porter, A. L., Zhu, D., & Lu, J. (2016). Topic
+
+
+analysis and forecasting for science, technology and innovation: Meth-
+
+
+odology with a case study focusing on big data research. Technological
+
+
+Forecasting and Social Change, 105, 179–191.
+
+
+Zhou, N., Li, D., Li, S., Wang, S., & Liu, C. (2017). Model-based develop-
+
+
+ment of knowledge-driven self-reconfigurable machine control sys-
+
+
+tems. IEEE Access, 5, 19909–19919.
+
+
+AUTHOR BIOGRAPHIES
+
+
+Karollay Giuliani de Oliveira Valério is regular student of the PhD
+
+
+program in Production Engineering at the Federal University of
+
+
+Itajubá. Research in the areas of organizational behavior and pro-
+
+
+ject and risk management/technological mapping and
+
+
+industry 4.0.
+
+
+Carlos Eduardo Sanches da Silva is Professor at the Federal Uni-
+
+
+versity of Itajubá since 1992, working at the Undergraduate and
+
+
+Postgraduate level. His current research focus is project manage-
+
+
+ment and product development.
+
+
+Sandra Miranda Neves is currently an Adjunct Professor at the
+
+
+Federal University of Itajubá. Lines of research and performance:
+
+
+Quality Management and Project Management.
+
+
+How to cite this article: de Oliveira Valério KG, da Silva CES,
+
+
+Neves SM. Strategic systematic for software development in
+
+
+industry 4.0. Strategic Change. 2020;29:517–529. https://doi.
+
+
+org/10.1002/jsc.2361
+
+
+DE OLIVEIRA VALÉRIO ET AL. 529
+
+
+
+https://doi.org/10.1002/jsc.2361
+
+https://doi.org/10.1002/jsc.2361
+
+

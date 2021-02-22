@@ -1,0 +1,5399 @@
+
+
+
+
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+Please cite this article as: Samuel Fosso Wamba, Technological Forecasting & Social Change, https://doi.org/10.1016/j.techfore.2020.120482
+
+
+0040-1625/© 2020 Elsevier Inc. All rights reserved.
+
+
+Are we preparing for a good AI society? A bibliometric review and 
+research agenda 
+
+
+Samuel Fosso Wamba a,*, Ransome Epie Bawack b, Cameron Guthrie a, Maciel M. Queiroz c, 
+Kevin Daniel André Carillo a 
+
+
+a TBS Business School, Information, Operations and Management Sciences Department, Place Alphonse Jourdain, 31068, Toulouse, France 
+b TBS Business School, University of Toulouse Capitole, Place Alphonse Jourdain, 31068, Toulouse, France 
+c Paulista University – UNIP, Postgraduate Program in Business Administration, 04026-002, São Paulo, Brazil   
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Artificial intelligence 
+Bibliometrics 
+Knowledge structure 
+Social innovation 
+Social change 
+
+
+A B S T R A C T   
+
+
+Artificial intelligence (AI) may be one of the most disruptive technologies of the 21st century, with the potential 
+to transform every aspect of society. Preparing for a “good AI society” has become a hot topic, with growing 
+public and scientific interest in the principles, policies, incentives, and ethical frameworks necessary for society 
+to enjoy the benefits of AI while minimizing the risks associated with its use. However, despite the renewed 
+interest in artificial intelligence, little is known of the direction in which AI scholarship is moving and whether 
+the field is evolving towards the goal of building a “good AI society”. Based on a bibliometric analysis of 40147 
+documents retrieved from the Web of Science database, this study describes the intellectual, social, and con-
+ceptual structure of AI research. It provides 136 evidence-based research questions about how AI research can 
+help understand the social changes brought about by AI and prepare for a “good AI society.” The research agenda 
+is organized according to ten social impact domains identified from the literature, including crisis response, 
+economic empowerment, educational challenges, environmental challenges, equality and inclusion, health and 
+hunger, information verification and validation, infrastructure management, public and social sector manage-
+ment, security, and justice.   
+
+
+1. Introduction 
+
+
+Artificial intelligence (AI) is rapidly transforming every aspect of 
+society. Advances in neuroscience, nanotechnologies, computer science, 
+cognitive psychology, and AI-related technologies have renewed interest 
+among both AI scholars and practitioners. Not surprisingly, preparing 
+for a “good AI society” has become a hot topic (Berendt, 2019; Cath 
+et al., 2018; Floridi and Cowls, 2019; Floridi et al., 2018), with growing 
+public and scientific interest in the principles, policies, incentives and 
+ethical frameworks that can help society enjoy the benefits and oppor-
+tunities created by AI while minimizing the risks associated with its 
+adoption and use. 
+
+
+Today, artificial intelligence is changing the way people interact 
+with technology, assisting users in the execution of both simple and 
+complex tasks (Luger and Sellen, 2016; Pradhan et al., 2018; Schuetz 
+and Venkatesh, 2020), improving business operations, products, and 
+customer services (Davenport and Ronanki, 2018; Roßmann et al., 
+2018), healthcare services (Szolovits, 2019), transportation 
+
+
+(Abduljabbar et al., 2019), disaster prediction and management (Foto-
+vatikhah et al., 2018), agriculture (Jha et al., 2019), and smart cities 
+(Allam and Dhunny, 2019). Artificial intelligence is increasingly seen as 
+an opportunity to address complex societal problems such as sustain-
+ability (Nishant et al., 2020) and the COVID-19 pandemic (Sipior, 2020). 
+Current and future developments in artificial intelligence technologies 
+are expected to positively impact both business and society for years to 
+come (Betz et al., 2019; Montes and Goertzel, 2019). 
+
+
+The rapid development of the field has led some scholars to argue 
+that “human-level artificial intelligence” could be achieved within the 
+next half-century (Baum et al., 2011, p. 186), that AI may surpass 
+average human thinking (Simon, 2019), and that we may see the fusion 
+of artificial and human intelligence in the not so distant future (Montes 
+and Goertzel, 2019). Other scholars have expressed concern over how 
+quickly AI is outperforming humans in most tasks (Grace et al., 2018) 
+and an increasing willingness to delegate tasks to AI systems (Taddeo 
+and Floridi, 2018). Several influential politicians, entrepreneurs, and 
+scientists have even warned that AI represents an existential threat to 
+
+
+* Corresponding author. 
+E-mail address: s.fosso-wamba@tbs-education.fr (S. Fosso Wamba).  
+
+
+Contents lists available at ScienceDirect 
+
+
+Technological Forecasting & Social Change 
+
+
+journal homepage: www.elsevier.com/locate/techfore 
+
+
+https://doi.org/10.1016/j.techfore.2020.120482 
+Received 14 April 2020; Received in revised form 4 November 2020; Accepted 17 November 2020   
+
+
+
+mailto:s.fosso-wamba@tbs-education.fr
+
+www.sciencedirect.com/science/journal/00401625
+
+https://www.elsevier.com/locate/techfore
+
+https://doi.org/10.1016/j.techfore.2020.120482
+
+https://doi.org/10.1016/j.techfore.2020.120482
+
+https://doi.org/10.1016/j.techfore.2020.120482
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+2
+
+
+mankind (Barrat, 2013). Indeed, eminent scientists such as the late 
+Professor Stephen Hawking have expressed fear that the creation of 
+machines that match or surpass humans could end mankind (Cellan--
+Jones, 2014). 
+
+
+The challenge for society and organizations is to determine how best 
+to harness AI technologies for good while avoiding its dangers and pit-
+falls (Makridakis, 2017). Parallel to technological advances, AI research 
+should also consider its economic impacts, legal frameworks, and 
+questions of ethics, transparency, accountability, fairness, and safety 
+(Cath et al., 2018; Russell et al., 2015b). However, despite the renewed 
+scholarly interest in artificial intelligence, little is known of the direction 
+in which AI research is moving. 
+
+
+This study’s overarching objective is to evaluate past and current ‘AI 
+for social good’ scholarship through bibliometric methods and provide 
+guidance for future research efforts into this specific field. Our work 
+follows two stages: Firstly, we review the evolution and structure of 
+overall AI research using bibliometric methods to generate insights into 
+the conceptual, intellectual, and social structure of AI scholarship; 
+Secondly, we narrow our focus to the review of the ‘AI for social good’ 
+literature and provide evidence-based research directions to expand our 
+knowledge of how AI can benefit society. 
+
+
+We use bibliometric techniques to examine the conceptual, intel-
+lectual, and social structure of AI scholarship. Our study complements 
+earlier overviews of AI research (Dwivedi et al., 2019; Frank et al., 2019; 
+Niu et al., 2016) by covering a wider scope of academic sources and 
+taking into account publications up to and including 2019. Most 
+importantly, our work focuses on how well AI research is developing 
+themes necessary to move towards a “good AI society” and in so doing 
+identifies areas requiring more research. 
+
+
+The first section of the paper presents and defines artificial intelli-
+gence and identifies the domains where AI can be used for social good. 
+The second section presents the methods used to collect and analyze the 
+AI literature. The current state of the literature is then described, 
+including an analysis of influential works, authors, institutions, and 
+current research patterns and collaborations. The following section 
+considers the evolution of sub-fields where AI could have a positive 
+social impact. The paper concludes with a discussion of avenues for 
+future research. 
+
+
+2. What is artificial intelligence 
+
+
+2.1. A definition of AI 
+
+
+The field of artificial intelligence (AI) strives to understand and build 
+intelligent entities (Russell and Norvig, 2010). In this paper, we define 
+artificial intelligence (AI) as “machines or computer systems capable of 
+learning to perform tasks that normally require human intelligence” 
+(Bawack et al., 2019). In the last five years, AI research and practices 
+have been transformed by advances in AI algorithms, big data, and cloud 
+computing (Borges et al., 2020), and today’s AI systems are expected to 
+“correctly interpret external data, to learn from such data, and to use 
+those learnings to achieve specific goals and tasks through flexible 
+adaptation” (Kaplan and Haenlein, 2019, p. 15). 
+
+
+Generally speaking, there are two forms of AI: “Strong AI” and “Weak 
+AI” (Kaplan and Haenlein, 2020; Searle, 1980). Strong AI refers to that 
+which can behave in a way that equals or surpasses human intelligence, 
+while weak AI is that which simulates human intelligence in specific 
+problem domains. The latter is the most commonly used form of AI in the 
+world today, and generally, when people discuss AI technologies, they 
+are referring to weak AI. Every AI is expected to have four main capa-
+bilities: the ability to perceive, the ability to comprehend, the ability to 
+act, and the ability to learn. These capabilities are enabled by technol-
+ogies such as sensors and AI techniques, including natural language 
+processing, computer vision, image recognition, machine learning, and 
+deep learning (Bawack et al., 2019; Duan et al., 2019). 
+
+
+2.2. A short history of AI 
+
+
+The AI research field started as a two-month, 10-man research 
+project at Dartmouth College in 1956 “to make machines use language, 
+form abstractions and concepts, solve kinds of problems now reserved 
+for humans, and improve themselves” (McCarthy et al. 2006, pg. 2). 
+Early application of AI took the form of expert systems (ES) and decision 
+support systems (DSS) (Gill, 1995; Remus and Kottemann, 1986). Ad-
+vances in supercomputing and big data technologies over the past 
+decade have provided AI systems with the ability to perform more 
+complex tasks than traditional DSS and ES. Today, some AI applications 
+can perceive, reason, learn, interact, solve problems, make decisions, 
+and create, allowing them to substitute, augment, or complement 
+humans in task execution (Duan et al., 2019; Rai et al., 2019). 
+
+
+Haenlein and Kaplan (2019) describe how the AI field has evolved 
+using an analogy of the four seasons: spring, summer, fall, and winter. 
+According to the authors, the AI Spring begins with the publication by 
+Isaac Asimov of a short story on robotics and includes the development 
+by Alan Turing of an electro-mechanical computer capable of breaking 
+encrypted German messages during the Second world war, and the 
+Turing Test that is still used today to determine whether a machine is 
+intelligent or not. The AI Summer starts in 1956 with the Dartmouth 
+Summer Research Project on Artificial Intelligence followed by two 
+decades of significant advances in AI technologies and theories. In 1973, 
+the US Congress began criticizing the level of spending on AI research, 
+and the British Science Research Council questioned the optimistic 
+forecasts of AI researchers. Consequently, public funding for AI research 
+by the US and British governments was significantly cut, and the AI field 
+entered a 41 yearlong winter from 1973 to 2014. The success of Google’s 
+Alpha Go in 2015 based on advances in artificial neural networks and 
+deep learning heralded the start of the period of AI Fall (or AI Harvest), 
+as the field began to harvest “the fruits of past statistical advances” (p.8). 
+We will use this periodization of AI, illustrated in Fig. 1 to examine the 
+evolution of the field. 
+
+
+2.3. The state of AI scholarship 
+
+
+One of the first reviews of AI scholarship was undertaken by Rajaram 
+(1990) where he summarized technological advances in the field using a 
+taxonomy of AI systems. Other studies have reviewed the AI field since, 
+but most have focused on specific domains and/or AI techniques. For 
+example, Zakhem et al. (2020) conducted a systematic literature review 
+on the use and evolution of AI for skin cancer assessment. Fernande-
+z-Luque and Imran (2018) conducted a narrative literature review on 
+the different applications and challenges of AI in humanitarian health 
+crises. Islam et al. (2020) reviewed AI techniques used to solve drilling 
+problems in the oil and gas industry. McKinnel et al. (2019) conducted a 
+systematic review and meta-analysis of the AI literature to identify 
+research challenges and opportunities related to penetration testing and 
+system vulnerability assessment. Kumar (2017) reviewed the scholar-
+ship of AI use in process planning and manufacturing. Similar reviews of 
+AI research have also been conducted for the media industry (Cha-
+n-Olmsted, 2019), service delivery (Gursoy et al., 2019), operations 
+management (Grover et al., 2020), accounting (Moudud-Ul-Huq, 2014), 
+the public sector (de Sousa, de Melo, Bermejo, Farias, and Gomes, 2019), 
+marketing (Davenport et al., 2020), employment and work (Wang and 
+Siau, 2019), resulting in the development of several industry or 
+sector-specific research agendas. 
+
+
+Few studies provide a holistic view of AI scholarship. The most 
+comprehensive AI research study was a bibliometric analysis of research 
+published between 1990 and 2014 conducted by Niu et al. (2016). Since 
+then, other studies have been domain-specific, including the use of AI for 
+innovation management (Häfner et al., 2020), engineering (Shukla 
+et al., 2019), national security (Wamba et al., 2019), and health and 
+medicine (Tran et al., 2019). Each of these reviews focused on 
+domain-specific AI applications, and only one study by Wang and Siau 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+3
+
+
+(2019) proposed a research agenda to explore the social implications of 
+AI, with a particular focus on the future of work. Our study addresses 
+this research gap by conducting a bibliometric analysis of four decades 
+of AI literature and by using the results to identify future research di-
+rections and formulate questions that focus on developing AI for social 
+good. 
+
+
+2.4. Artificial intelligence for social good 
+
+
+Until the mid-2000s, AI research had productively pursued a 
+research agenda that “focused largely on techniques that are neutral 
+with respect to purpose” (Russell et al., 2015b, p. 3). Faced with the 
+rapidly improving performance of AI, an increase in possible application 
+areas and a “focus of attention, expectation, and concern growing 
+among the general population” (Horvitz and Selman, 2009, p. 5) for AI 
+outcomes and impacts, the Association for the Advancement of Artificial 
+Intelligence (AAAI) brought together a panel of AI scholars “to explore 
+and reflect about societal aspects of advances in machine intelligence 
+(computational procedures for automated sensing, learning, reasoning, 
+and decision making)” (Horvitz and Selman, 2009, p. 1). While social 
+issues concerning robotics (Asimov, 1942; Weld and Etzioni, 1994), 
+algorithms (Mittelstadt et al., 2016) and other artificial intelligence 
+techniques had previously been raised in the literature, the AAAI report 
+created debate in and beyond the AI field and was the first structured 
+attempt at identifying the potential social risks and impacts of AI 
+research and applications. 
+
+
+The work of the AAAI panel led to the launch of the “One Hundred 
+Year Study on Artificial Intelligence” in 2014 by Stanford University to 
+investigate the influence of AI on people and society (Horvitz, 2014). 
+The group’s first report in 2016 identified eight sectors or domains 
+where AI could have a distinct impact on society, including trans-
+portation, home/service robotics, healthcare, education, low-resource 
+communities, public safety and security, employment and workplace, 
+and entertainment (Stone et al., 2016). 
+
+
+Concurrently, in an open letter to AI Magazine in 2015, over 7000 
+researchers launched a call for a research agenda to build more “robust 
+and beneficial artificial intelligence” (Russell et al., 2015b, p. 3), and an 
+accompanying paper identified several research directions to “help 
+maximize the societal benefit of AI”, including AI’s economic impact, 
+legal and ethical issues, and technical studies to develop more robust AI 
+systems (Russell et al., 2015a, p. 106). 
+
+
+In 2016, the White House Office of Science and Technology Policy, 
+the European Parliament’s Committee on Legal Affairs, and the UK’s 
+House of Commons’ Science and Technology Committee each released a 
+report on the social and policy implications of artificial intelligence, 
+machine learning, algorithms, and robotics. The reports each described 
+a “good AI society” with similar key values of “transparency, 
+
+
+accountability, and a ‘positive impact’ on the economy and society” 
+(Cath et al., 2018, p.532). 
+
+
+More recently, the McKinsey Global Institute examined 160 AI use 
+cases and identified ten domains where AI technologies could have a 
+large-scale social impact (Chui et al., 2018). The domains cover the 
+seventeen United Nations Sustainable Development Goals (SDG)1 and 
+include crisis response, economic empowerment, educational chal-
+lenges, environmental challenges, equality and inclusion, health and 
+hunger, information verification and validation, infrastructure man-
+agement, public and social sector management, and security and justice. 
+The study by Chui et al. (2018) is the most complete and recent review of 
+potential areas of AI for social impact and will be used as a framework to 
+describe the state of research in AI for good in Section 4 and to identify 
+opportunities for future research in AI for good in Section 5. The ten 
+social impact domains are presented in Appendix 1. 
+
+
+3. Methodology 
+
+
+3.1. Search strategy 
+
+
+The most relevant documents were extracted from the Web of Sci-
+ence (WoS) database using specific inclusion and exclusion criteria. WoS 
+is widely recognized as a reliable academic database for bibliometric 
+research as it contains a large number of high-profile and high-quality 
+international academic publications (Batistič and der Laken, 2019; 
+Zhang et al., 2019), it offers robust metadata suitable for bibliometric 
+analyses (Gaviria-Marin et al., 2019) and it covers a longer period than 
+alternative databases with equivalent domain coverage such as Scopus 
+or Google Scholar (Harzing and Alakangas, 2016). All document types 
+available in the WoS Core Collection were used for the analysis. 
+
+
+A total of 40 147 unique documents in English were retrieved using 
+the search term “artificial intelligence”2 covering a forty-four-year 
+period from 1975 to 2019. Table 1 presents the summary statistics for 
+the corpus. 
+
+
+A total of 83 346 authors contributed to the literature between 1975 
+and 2019. The documents were mainly co-written, with multi-authored 
+documents representing 80% of the corpus. The earliest publication in 
+the corpus was a paper by Jerry Felsen of the University of Southwestern 
+Louisiana entitled “Artificial intelligence techniques applied to reduc-
+tion of uncertainty in decision analysis through learning” published in 
+Operational Research Quarterly3 in 1975. 
+
+
+Fig. 1. A brief history of AI - Based on the periodization by Haenlein and Kaplan (2019).  
+
+
+1 https://sustainabledevelopment.un.org/  
+2 The search was conducted on February 10 2020, in title, abstract, author 
+
+
+keywords, and Keywords Plus.  
+3 Renamed the Journal of the Operational Research Society in 1978. 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+4
+
+
+The five-year period of AI Fall saw strong growth in per year publi-
+cations, a larger number of authors, and more collaborations than dur-
+ing the 40-year AI Winter. The collaboration index (i.e., total authors of 
+multi-authored documents divided by total multi-authored documents) 
+increased from 2.22 to 2.97, signaling that a greater number of authors 
+were collaborating on multi-author documents during the later period. 
+Remarkably, the number of publications is almost identical across these 
+two unequal time frames.. 
+
+
+3.2. Method of analysis 
+
+
+We used bibliometric techniques to analyze the development and 
+evolution of the AI research field. In the social sciences and management 
+research, bibliometrics has been extensively used to study the evolution 
+of research in areas including big data (Batistič and der Laken, 2019; 
+Zhang et al., 2019), robotics (Goeldner et al., 2015), the internet of 
+things (Nobre and Tavares, 2017), knowledge management (Gavir-
+ia-Marin et al., 2019), supply chain management (Fahimnia et al., 2015; 
+Mishra et al., 2016), technological innovation (van Oorschot, Hofman, 
+and Halman, 2018) and social entrepreneurship (Rey-Martí et al., 2016). 
+
+
+The two main categories of bibliometric procedures available are 
+performance analysis and science mapping (Noyons et al., 1999). Per-
+formance analysis involves evaluating the production and impact of 
+groups of scientific actors, most often authors, institutions, countries, 
+and journals using bibliographic data. Science mapping is used to 
+represent and analyze the current and evolving cognitive and social 
+structures of a research field. The Bibliomerix4 R package was used to 
+calculate descriptive statistics, bibliometric measures, and for science 
+mapping (Aria and Cuccurullo, 2017). Bibliometrix was chosen for the 
+analysis as it provides a suite of functions adapted to bibliometric 
+analysis and provides output that can be further manipulated using the 
+open-source R5 language and environment. In this study, the R language 
+allowed for the tailoring and automation of data analysis scripts calling 
+on Bibliometrix functions and objects and third-party packages for more 
+specific analyses. This was particularly useful for data manipulation, 
+extraction and multiple bibliometric calculations using a large data set 
+(14 480 journals, 40 147 publications, 83 346 authors, 128 countries, 15 
+542 institutions). 
+
+
+Several statistics are available for bibliometric performance analysis. 
+In this study, following Gaviria-Marin et al. (2019) the main statistics 
+used to evaluate productivity and influence are the h-index and its de-
+rivative, the m-index. The h-index is defined as “the number of papers 
+with citation number ≥h” (Hirsch, 2005), where h is the number of 
+papers published. For example, an h-index of 20 indicates that an indi-
+vidual has published twenty papers with at least 20 citations. The 
+
+
+advantage of the h-index is that it measures both productivity and in-
+fluence and can be calculated for different bibliometric units of analysis: 
+authors, countries, journals, and institutions. The m-index adjusts the 
+h-index for the “academic age” of the individual (i.e., m = h/academic 
+age). Academic age is the number of years since the publication of an 
+individual’s first paper. Other statistics used are derived from yearly 
+research output and citation counts. 
+
+
+The first part of this paper (4.1) examines the current state of the AI 
+literature using performance analysis. The objective is to identify the 
+main themes and contributing disciplines to AI research, the key actors 
+in the field. 
+
+
+The second part of the paper (4.2) focuses on the state of research in 
+the ten social impact domains described by (Chui et al., 2018) (see 
+Appendix 1). We use bibliometric performance measures to summarize 
+the extant research by domain. 
+
+
+4. Results 
+
+
+4.1. The current state of the AI literature 
+
+
+Publications on mainstream AI research in the corpus began in 1975 
+with 13 publications and that number grew to 7 037 publications per 
+year in 2019, for an annual publication growth rate of 20%. This growth 
+rate is strong compared to the global scientific publication output that is 
+growing at a rate of approximately 3% annually (Bornmann and Mutz, 
+2015). 
+
+
+A number of production peaks can be observed across this 45-year 
+period in Fig. 2, each corresponding to a technical or conceptual 
+development in the field (Jin et al., 2018). For example, the first period 
+of strong growth in AI research began in the early 1980s, following the 
+XCON expert system’s development. In 1988, probabilistic reasoning 
+was introduced and became a new theoretical foundation for intelligent 
+systems research (Pearl, 2014). In 1997 the first chatbot, “Jabberwacky” 
+was developed (McNeal and Newyear, 2013), and IBM’s Deep Blue beat 
+the reigning world champion, Garry Kasparov, in a game of chess. The 
+next major peak was in 2009 when Google released the first self-driving 
+car that could navigate in urban conditions (Marr, 2018). The dramatic 
+increase in AI publications from 2013 onwards can be explained by the 
+growth in big data in 2012 (Zhang et al., 2019) and deep learning in 
+2015 (LeCun et al., 2015) with the success of Google’s Alpha Go (Silver 
+et al., 2016), which significantly increased AI research projects and in-
+dustrial applications. 
+
+
+AI research covered a total of 149 subject areas over the period. 
+Table 2 lists the most frequently observed areas and the number of 
+references per research area. The two dominant disciplines were com-
+puter science and engineering. The acronyms for all tables are provided 
+in Appendix 2. 
+
+
+Four application areas exhibited an increase in average annual 
+growth during the AI Fall: Operations research & management science, 
+Mathematics, Psychology, and Information science & library science. The 
+average annual growth fell in all other areas between the two periods. 
+
+
+Bibliometric techniques were applied to the corpus to analyze the AI 
+research field’s current state and evolution. The following three sections 
+identify the most influential sources, authors, countries, and institutions 
+in AI research. The conceptual structure of the field is then described, 
+followed by an analysis of its evolution. 
+
+
+4.1.1. The most productive and influential journals in AI 
+Artificial intelligence research is undertaken in a large variety of 
+
+
+areas. Some fields contribute to the development of technologies, 
+models, and algorithms, while others are fields of application. Research 
+is published in a large range of journals. To classify this work, Table 3 
+presents the 50 most productive and influential journals in AI. The 
+journals are ordered according to the total scholarly production in AI 
+(TPAI) and the h-index computed based on citations by AI publications 
+in the corpus (hAI). Acronyms for all journals are listed below the table. 
+
+
+Table 1 
+Main information regarding the collection.  
+
+
+Description Winter Fall Total 
+
+
+Documents 20 300 19 847 40 147 
+Sources 7 962 7 787 14 480 
+Period 1975 - 
+
+
+2014 
+2015 - 
+2019 
+
+
+1975 - 
+2019 
+
+
+Annual percentage growth rate 20.7% 14.6% 20.0% 
+Average citations per document 13.88 4.07 9.03 
+Average citations per year per 
+
+
+document 
+0.93 1.09 1.01 
+
+
+Authors 38 051 52 562 83 346 
+Authors of multi-authored documents 34 037 49 849 76 801 
+Documents per author 0.53 0.378 0.48 
+Co-authors per document 2.74 3.88 3.32 
+Multi-authored documents 15 330 16 779 32 109 
+Collaboration index 2.22 2.97 2.39  
+
+
+4 http://www.bibliometrix.org/index.html  
+5 https://www.r-project.org/ 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+https://www.r-project.org/
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+5
+
+
+Eleven journals concern application areas of AI with a strong inter-
+play between society and technology, including operations and 
+manufacturing (EJOR, IJAMT, JIM, IJPR), energy and sustainability 
+(EES, SUST, RSER), agriculture (CEA), hydrology (JHYD), chemicals 
+(JACS) and decision making (DSS). The thirty-nine remaining journals 
+all concern either directly or indirectly the development, testing, and 
+analysis of AI models, methods, and technologies. 
+
+
+The most productive journal was ESA, although the percentage of 
+articles on AI (%PAI) in this journal is quite low (3.52%). Two journals 
+with fewer publications but high levels of influence (high h-index and % 
+PAI) are AIMAG and AI. AI has 8 articles with over 200 citations by other 
+AI publications, and two publications in the 50 most cited papers in the 
+field (Table 4). Interestingly, only 8 journals appear in the Top 50 
+publications by citation count. This result reflects the diverse nature of 
+AI research. 
+
+
+Several journals show an increasing interest in AI research, measured 
+by the TPAI growth rate and the journal space accorded to AI articles. 
+Nine journals exhibited annual growth in AI publications above 70% 
+during the period studied: in order of productivity and influence they are 
+IEEEA (182%), SENS (71%), IFAC (94%), ASB (429%), EES (85%), IET- 
+CV (83%), SUST(193%), SCRP (84%) and JOE (312%). These fast- 
+growing journals are all open access. The outlets that publish the 
+largest proportion of their articles on AI are AIMAG (20.7%), AIR 
+(11.8%), MM (17.6%), and ITCAIG (20.9%). 
+
+
+It is also interesting to examine journal productivity over time. The 
+number of papers published per year by 42 of the top 50 journals 
+increased during the AI Fall compared to the AI Winter but fell for EJOR, 
+AAI, FSS, AMAI, CI, DSS, ITKDE, and ITCIAIG. There are also many 
+young (YP≥2009), influential journals (mAI>1.5) in the field, including 
+IEEEA, SENS, ASB, SUST, RSER, EES and SCRP. 
+
+
+4.1.2. The most influential publications in the field of AI 
+The AI field attracted an increasing number of scholars during the AI 
+
+
+Fall, with an equivalent number of papers published over these five 
+years as in the previous 40-year AI Winter. To identify the leading papers 
+in AI research, Table 4 ranks the top 50 publications by total citations in 
+all fields (TC). In the case of a tie, papers are ranked by total citations in 
+AI research (TCAI). 
+
+
+All but two of the top fifty papers were published after 1991, and ten 
+of the most influential papers were published after 2010. Nine of the ten 
+most influential articles present technical or conceptual advances in the 
+
+
+Fig. 2. Number of publications in AI per year: 1975–2019.  
+
+
+Table 2 
+AI references in different areas (first 30 areas). * Multiple subject areas per 
+publication are possible.  
+
+
+Area YP TPAI 
+1975–2019 
+
+
+CAGR 
+TPAI - 
+Winter 
+
+
+CAGR 
+TPAI - 
+Fall 
+
+
+Computer science 1975 19 176 20.7 20.0 
+Engineering 1975 13 701 21.8 15.7 
+Automation & control 
+
+
+systems 
+1983 2 161 23.8 23.4 
+
+
+Telecommunications 1981 1 953 21.7 8.4 
+Operations research & 
+
+
+management science 
+1975 1 572 14.1 35.6 
+
+
+Science & technology - other 
+topics 
+
+
+1976 1 453 20.1 6.5 
+
+
+Business & economics 1975 1 420 16.2 15.4 
+Materials science 1983 1 248 23.4 12.8 
+Mathematics 1981 1 117 18.8 30.3 
+Energy & fuels 1985 1 104 25.2 10.2 
+Chemistry 1975 1 079 13.7 12.8 
+Robotics 1987 1 009 20.2 18.7 
+Physics 1981 937 21.2 10.3 
+Education & educational 
+
+
+research 
+1978 913 18.4 15.8 
+
+
+Environmental sciences & 
+ecology 
+
+
+1984 847 22.7 12.6 
+
+
+Instruments & 
+instrumentation 
+
+
+1983 709 20.2 18.6 
+
+
+Psychology 1976 669 13.4 23.4 
+Neurosciences & neurology 1978 651 14.7 9.4 
+Medical informatics 1981 643 18.7 17.8 
+Radiology, nuclear medicine 
+
+
+& medical imaging 
+1982 599 21.1 5.8 
+
+
+Imaging science & 
+photographic technology 
+
+
+1987 533 22.7 16.3 
+
+
+Information science & 
+library science 
+
+
+1975 509 14.7 19.7 
+
+
+Optics 1982 496 16.4 14.0 
+Water resources 1991 451 19.7 12.7 
+Social sciences - other topics 1982 445 16.4 11.3 
+Transportation 1987 417 22.4 12.1 
+Mathematical & 
+
+
+computational biology 
+1985 395 19.7 16.6 
+
+
+Geology 1984 394 16.4 15.5 
+Health care sciences & 
+
+
+services 
+1987 377 19.4 9.3 
+
+
+Oncology 1988 355 24.4 4.1  
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+TechnologicalForecasting&
+SocialChangexxx(xxxx)xxx
+
+
+6
+
+
+Table 3 
+The 50 most influential and productive journals in AI research (1975–2019).  
+
+
+R Journal TPAI hAI TP TCAI PCAI %PAI CAGR ≥ 500 ≥ 200 ≥ 100 ≥ 50 < 50 T50 IF 5-IF TPAI-W TPAI-F YP mAI 
+
+
+1 ESA 431 47 12 252 750 1.74 3.52 15.9 0 4 13 26 388 0 5.452 5.448 341 90 1991 1.62 
+2 IEEEA 358 15 26 586 127 0.35 1.35 182.2 0 0 0 1 357 0 3.745 4.076 2 356 2014 2.50 
+3 AIMAG 283 21 1 362 366 1.29 20.78 12.8 0 2 1 5 275 0 1.627 1.742 203 80 1987 0.64 
+4 AI 220 44 2 890 905 4.11 7.61 13 2 6 12 20 180 2 6.628 5.944 178 42 1975 0.98 
+5 EAAI 208 28 3 234 283 1.36 6.43 11.5 0 1 2 11 194 0 4.201 3.810 159 49 1992 1.00 
+6 EJOR 149 31 18 612 198 1.33 0.80 14.1 0 3 5 10 131 0 4.213 4.729 137 12 1981 0.79 
+7 SENS 126 16 23 126 93 0.74 0.54 71.1 0 0 1 2 123 0 3.031 3.302 10 116 2010 1.60 
+8 AIR 124 20 1 045 139 1.12 11.87 14.2 1 4 0 5 114 2 5.747 5.942 93 31 1988 0.63 
+9 MM 118 15 667 214 1.81 17.69 16.3 0 0 2 1 115 0 1.855 1.504 94 24 1992 0.54 
+10 KYBE 114 10 3 506 22 0.19 3.25 11.9 0 0 0 0 114 0 1.754 1.470 98 16 1977 0.23 
+11 JIFS 106 8 5 376 27 0.25 1.97 22.0 0 0 0 0 106 0 1.851 1.797 22 84 1999 0.38 
+12 IETIP 105 6 1 495 6 0.06 7.02 52.7 0 0 0 0 105 0 1.995 1.943 3 102 2008 0.50 
+13 AAI 104 13 1 312 93 0.89 7.93 9.6 0 0 1 4 99 0 1.172 1.242 94 10 1991 0.45 
+14 AIM 102 27 1 549 284 2.78 6.58 14.5 0 1 1 10 90 0 4.383 4.098 76 26 1993 1.00 
+15 KBS 98 23 3 975 134 1.37 2.47 13.3 0 1 1 4 92 0 5.921 6.075 80 18 1991 0.79 
+16 ASC 94 24 5 708 108 1.15 1.65 38.3 0 0 0 7 87 0 5.472 5.390 45 49 2005 1.60 
+17 NCOM 92 18 13 170 78 0.85 0.70 18.2 0 1 2 2 87 0 4.438 4.010 34 58 1992 0.64 
+18 IFAC 86 3 11 595 6 0.07 0.74 94.6 0 0 0 0 86 0 0.960 0.990 0 86 2015 0.60 
+19 IJAMT 84 19 16 773 81 0.96 0.50 18.6 0 0 1 7 76 0 2.633 2.925 60 24 1993 0.70 
+20 NCA 84 14 4 205 99 1.18 2.00 22.3 0 0 1 1 82 0 4.774 4.627 28 56 1997 0.61 
+21 ASB 84 7 10 301 36 0.43 0.82 429.2 0 0 0 0 84 0 2.217 2.287 0 84 2017 2.33 
+22 JIM 81 22 2 148 97 1.20 3.77 12.0 0 0 1 4 76 0 4.311 4.224 67 14 1990 0.73 
+23 EES 81 13 13 715 54 0.67 0.59 85.3 0 0 0 1 80 0 2.702 2.822 2 79 2013 1.86 
+24 EL 81 7 46 524 7 0.09 0.17 12.5 0 0 0 0 81 0 1.316 1.279 11 70 1991 0.24 
+25 AINT 79 14 1 949 57 0.72 4.05 12.2 0 0 0 2 77 0 3.325 3.204 59 20 1993 0.52 
+26 JETAI 77 12 870 100 1.30 8.85 12.0 0 0 2 2 73 0 2.039 1.881 61 16 1993 0.44 
+27 IET-CV 77 7 806 10 0.13 9.55 83.8 0 0 0 0 77 0 1.516 1.524 2 75 2013 1.00 
+28 SUST 76 7 17 769 26 0.34 0.43 193.7 0 0 0 0 76 0 2.576 2.798 0 76 2016 1.75 
+29 INSC 75 19 10 043 76 1.01 0.75 14.9 1 0 1 4 69 1 5.910 5.563 51 24 1988 0.59 
+30 SCRP 74 13 103 524 90 1.22 0.07 84.9 0 0 0 0 74 0 3.998 4.576 3 71 2012 1.63 
+31 ITS 73 10 1 028 64 0.88 7.10 61.1 0 0 2 0 71 0 2.480 2.343 8 65 2010 1.00 
+32 IJACSA 72 3 3 858 5 0.07 1.87 68.2 0 0 0 0 72 0 1.324 N/A 0 72 2015 0.60 
+33 JHYD 71 26 15 403 550 7.75 0.46 38.8 0 3 3 8 57 0 4.500 5.080 30 41 2006 1.86 
+34 IJPR 69 19 10 359 63 0.91 0.67 13.7 0 0 1 5 63 0 4.577 4.145 54 15 1986 0.56 
+35 AICOM 69 11 8 214 72 1.04 9.61 11.1 0 0 1 0 68 0 1.000 0.729 51 18 1994 0.42 
+36 FSS 66 22 1 110 47 0.71 0.80 10.1 0 1 3 5 57 1 3.305 2.943 65 1 1987 0.67 
+37 AMAI 66 13 718 49 0.74 5.95 14.4 0 1 0 1 64 0 0.778 1.000 55 11 1996 0.54 
+38 RSER 64 32 9 339 316 4.94 0.69 41.4 2 2 6 10 44 2 12.110 12.348 15 49 2009 2.91 
+39 CI 63 16 2 788 82 1.30 2.26 12.2 0 0 1 4 58 0 3.954 4.069 57 6 1983 0.43 
+40 DSS 61 22 3 073 152 2.49 1.99 9.3 0 1 3 4 53 1 4.721 5.434 59 2 1991 0.76 
+41 ES 59 14 1 148 41 0.69 5.14 17.7 0 0 0 1 58 0 1.546 1.697 40 19 1994 0.54 
+42 CIE 59 13 7 677 47 0.80 0.77 13.2 0 0 0 1 58 0 4.135 4.296 42 17 1986 0.38 
+43 ITKDE 58 20 3 676 84 1.45 1.58 13.3 0 2 5 2 49 1 4.935 5.201 53 5 1992 0.71 
+44 CEA 57 16 3 819 77 1.35 1.49 18.3 0 0 2 5 50 0 3.858 4.008 28 29 1995 0.64 
+45 PLOS 57 12 224 470 67 1.18 0.03 44.4 0 0 1 0 56 0 2.740 3.227 18 39 2008 1.00 
+46 ITCIAIG 56 13 268 188 3.36 20.90 27.3 1 0 0 2 53 1 1.588 1.211 32 24 2009 1.18 
+47 SC 53 9 4 386 12 0.23 1.21 24.4 0 0 0 1 52 0 3.050 2.988 18 35 2004 0.56 
+48 JACS 52 0 531 712 0 0.00 0.01 7.9 0 0 0 0 52 0 14.612 14.549 34 18 1976 0.00 
+49 JAIR 51 15 1 143 58 1.14 4.46 13.8 0 1 1 4 45 0 2.441 2.678 31 20 1994 0.58 
+50 JOE 51 2 2 806 1 0.02 1.82 312.3 0 0 0 0 51 0 N/A N/A 0 51 2017 0.67 
+
+
+AAI, Applied Artificial Intelligence; AI, Artificial Intelligence; AICOM, AI Communications; AIM, Artificial Intelligence in Medicine; AI-MAG, AI Magazine; AINT, Applied Intelligence; AIR, Artificial Intelligence Review; 
+AMAI, Annals of Mathematics and Artificial Intelligence; ASB, Applied Sciences-Basel; ASC, Applied Soft Computing; CEA, Computers and Electronics in Agriculture; CI, Computers in Industry; CIE, Computers & Industrial 
+Engineering; DSS, Decision Support Systems; EAAI, Engineering Applications of Artificial Intelligence; EES, Energies; EJOR, European Journal of Operational Research; EL, Electronics Letters; ES, Expert Systems; ESA, 
+Expert Systems with Applications; FSS, Fuzzy Sets and Systems; IEEEA, IEEE Access; IET-CV, IET Computer Vision; IET-IP, IET Image Processing; IET-ITS, IET Intelligent Transport Systems; IFAC-POL, IFAC Papersonline; 
+IJACSA, International Journal of Advanced Computer Science and Applications; IJAMT, International Journal of Advanced Manufacturing Technology; IJPR, International Journal of Production Research; INSC, In-
+formation Sciences; ITCIAIG, IEEE Transactions on Computational Intelligence and AI in Games; ITKDE, IEEE Transactions on Knowledge and Data Engineering; JACS, Abstracts of Papers of the American Chemical 
+Society; JAIR, Journal of Artificial Intelligence Research; JETAI, Journal of Experimental & Theoretical Artificial Intelligence; JHYD, Journal of Hydrology; JIFS, Journal of Intelligent & Fuzzy Systems; JIM, Journal of 
+Intelligent Manufacturing; JOE, Journal of Engineering-Joe; KBS, Knowledge-Based Systems; KYBE, Kybernetes; MM, Minds and Machines; NCA, Neural Computing & Applications; NCOM, Neurocomputing; PLOS, PLOS 
+One; RSER, Renewable & Sustainable Energy Reviews; SC, Soft Computing; SCRP, Scientific Reports; SENS, Sensors; SUST, Sustainability. 
+
+
+S. Fosso W
+am
+
+
+ba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+7
+
+
+Table 4 
+The 50 most influential publications in AI research (1975–2019).  
+
+
+R Title Authors J YP TC C/Y TCAI CAI/ 
+Y 
+
+
+1 Perceptual symbol systems Barsalou, LW BBS 1999 3 
+061 
+
+
+145.8 24 1.1 
+
+
+2 Factor graphs and the sum-product algorithm Kschischang, FR; Frey, BJ; Loeliger, HA ITIT 2001 3 
+047 
+
+
+160.4 23 1.2 
+
+
+3 Mastering the game of go with deep neural 
+networks and tree search 
+
+
+Silver, D; Huang, A; Maddison, CJ; Guez, A; Sifre, L; Van, Den, 
+Driessche, G; Schrittwieser, J; Antonoglou, I; 
+Panneershelvam, V; Lanctot, M; Dieleman, S; Grewe, D; 
+Nham, J; Kalchbrenner, N; Sutskever, I; Lillicrap, T; Leach, M; 
+Kavukcuoglu, K; Graepel, T; Hassabis, D 
+
+
+NAT 2016 2 
+407 
+
+
+601.8 382 95.5 
+
+
+4 Intelligent agents - theory and practice Wooldridge, M; Jennings, NR KER 1995 2 
+387 
+
+
+95.5 137 5.5 
+
+
+5 Toward principles for the design of ontologies used 
+for knowledge sharing 
+
+
+Gruber, TR IJHCS 1995 2 
+310 
+
+
+92.4 40 1.6 
+
+
+6 Future paths for integer programming and links to 
+artificial intelligence 
+
+
+Glover, F COR 1986 1 
+842 
+
+
+54.2 73 2.1 
+
+
+7 Intelligence without representation Brooks, RA AI 1991 1 
+763 
+
+
+60.8 183 6.3 
+
+
+8 Dermatologist-level classification of skin cancer 
+with deep neural networks 
+
+
+Esteva, A; Kuprel, B; Novoa, RA; Ko, J; Swetter, SM; Blau, HM; 
+Thrun, S 
+
+
+NAT 2017 1 
+568 
+
+
+522.7 369 123.0 
+
+
+9 Highly sensitive flexible pressure sensors with 
+microstructured rubber dielectric layers 
+
+
+Mannsfeld, SCB; Tee, BCK; Stoltenberg, RM; Chen, CVHH; 
+Barman, S; Muir, BVO; Sokolov, AN; Reese, C; Bao, ZN 
+
+
+NATM 2010 1 
+435 
+
+
+143.5 0 0.0 
+
+
+10 A review of process fault detection and diagnosis 
+part i: quantitative model-based methods 
+
+
+Venkatsubramanian, V; Rengaswamy, R; Yin, K; Kavuri, SN CCE 2003 1 
+311 
+
+
+77.1 24 1.4 
+
+
+11 Rudiments of rough sets Pawlak, Z; Skowron, A INSC 2007 1 
+179 
+
+
+90.7 24 1.8 
+
+
+12 An introduction to multisensor data fusion Hall, DL; Llinas, J PIEEE 1997 1 
+163 
+
+
+50.6 19 0.8 
+
+
+13 Chaff: engineering an efficient sat solver Moskewicz, MW; Madigan, CF; Zhao, Y; Zhang, LT; Malik, S DAC 2001 1 
+100 
+
+
+57.9 0 0.0 
+
+
+14 Neural networks for short-term load forecasting: a 
+review and evaluation 
+
+
+Hippert, HS; Pedreira, CE; Souza, RC ITPS 2001 1 
+014 
+
+
+53.4 42 2.2 
+
+
+15 Vibe: a universal background subtraction 
+algorithm for video sequences 
+
+
+Barnich, O; Van, Droogenbroeck, M ITIP 2011 878 97.6 6 0.7 
+
+
+16 Psychological aspects of natural language use: our 
+words, our selves 
+
+
+Pennebaker, JW; Mehl, MR; Niederhoffer, KG ARP 2003 873 51.4 5 0.3 
+
+
+17 Mastering the game of go without human 
+knowledge 
+
+
+Silver, D; Schrittwieser, J; Simonyan, K; Antonoglou, I; 
+Huang, A; Guez, A; Hubert, T; Baker, L; Lai, M; Bolton, A; 
+Chen, YT; Lillicrap, T; Hui, F; Sifre, L; Van, Den, Driessche, G; 
+Graepel, T; Hassabis, D 
+
+
+NAT 2017 837 279.0 167 55.7 
+
+
+18 Artificial neural networks (the multilayer 
+perceptron) - a review of applications in the 
+atmospheric sciences 
+
+
+Gardner, MW; Dorling, SR AE 1998 804 36.5 33 1.5 
+
+
+19 Stanley: the robot that won the DARPA grand 
+challenge 
+
+
+Thrun, S; Montemerlo, M; Dahlkamp, H; Stavens, D; Aron, A; 
+Diebel, J; Fong, P; Gale, J; Halpenny, M; Hoffmann, G; Lau, K; 
+Oakley, C; Palatucci, M; Pratt, V; Stang, P; Strohband, S; 
+Dupont, C; Jendrossek, LE; Koelen, C; Markey, C; Rummel, C; 
+Van, Niekerk, J; Jensen, E; Alessandrini, P; Bradski, G; Davies, 
+B; Ettinger, S; Kaehler, A; Nefian, A; Mahoney, P 
+
+
+JFR 2006 788 56.3 20 1.4 
+
+
+20 Survey of robust residual generation and 
+evaluation methods in observer-based fault 
+detection systems 
+
+
+Frank, PM; Ding, X JPC 1997 757 32.9 1 0.0 
+
+
+21 Show and tell: a neural image caption generator Vinyals, O; Toshev, A; Bengio, S; Erhan, D CVPR 2015 750 150.0 0 0.0 
+22 On agent-based software engineering Jennings, NR AI 2000 746 37.3 35 1.8 
+23 Serum protein fingerprinting coupled with a 
+
+
+pattern-matching algorithm distinguishes prostate 
+cancer from benign prostate hyperplasia and 
+healthy men 
+
+
+Adam, BL; Qu, YS; Davis, JW; Ward, MD; Clements, MA; 
+Cazares, LH; Semmes, OJ; Schellhammer, PF; Yasui, Y; Feng, 
+ZD; Wright, GL 
+
+
+CR 2002 726 40.3 10 0.6 
+
+
+24 Tackling real-coded genetic algorithms: operators 
+and tools for behavioural analysis 
+
+
+Herrera, F; Lozano, M; Verdegay, JL AIR 1998 695 31.6 9 0.4 
+
+
+25 The multiple-demand (md) system of the primate 
+brain: mental programs for intelligent behavior 
+
+
+Duncan, J TCS 2010 635 63.5 3 0.3 
+
+
+26 Advances in diagnostic techniques for induction 
+machines 
+
+
+Bellini, A; Filippetti, F; Tassoni, C; Capolino, GA ITIE 2008 626 52.2 15 1.3 
+
+
+27 Constructing free-energy approximations and 
+generalized belief propagation algorithms 
+
+
+Yedidia, JS; Freeman, WT; Weiss, Y ITIT 2005 622 41.5 9 0.6 
+
+
+28 Machine learning: trends, perspectives, and 
+prospects 
+
+
+Jordan, MI; Mitchell, TM SCI 2015 620 124.0 92 18.4 
+
+
+29 Carotenoid content of fruits and vegetables - an 
+evaluation of analytic data 
+
+
+Mangels, AR; Holden, JM; Beecher, GR; Forman, MR; Lanza, E JADA 1993 617 22.9 0 0.0 
+
+
+30 A review on the prediction of building energy 
+consumption 
+
+
+Zhao, HX; Magoules, F RSER 2012 601 75.1 31 3.9 
+
+
+31 Word sense disambiguation: a survey Navigli, R ACS 2009 600 54.5 12 1.1 
+32 A survey of monte carlo tree search methods ITCIAIG 2012 591 73.9 79 9.9 
+
+
+(continued on next page) 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+8
+
+
+development of AI technologies. The most cited study is a paper by 
+Barsalou (1999) entitled “Perceptual symbol systems” in which he pre-
+sents a theory of perceptual symbols with implications for neuroscience 
+and artificial intelligence. One explanation for this paper’s influence is 
+that it provides a theoretical foundation of many studies on cognition, be 
+it in AI or cognitive psychology. Given that perception is a key capability 
+of AI systems, the perceptual theory of knowledge developed in this 
+paper has been used to guide research and development of the percep-
+tual components of AI systems, including research on sensors that enable 
+AI systems to capture information from their environment to simulate 
+human behavior. 
+
+
+The second most cited paper is Kschischang et al. (2001) on “Factor 
+graphs and the sum-product algorithm”. This paper underlies the 
+development of several AI algorithms used today, such as Bayesian 
+networks, Markov networks, and random forests, due to the improved 
+accuracy they provides when computing message-passing algorithms. 
+
+
+The paper entitled “Mastering the game of Go with deep neural 
+networks and tree search” by Silver et al. (2016) is the third most cited 
+paper. It reports on how deep neural networks trained in the game of Go 
+achieved a near-perfect winning rate against other Go programs and 
+defeated the human European Go champion. This paper marks a major 
+
+
+achievement in the field of artificial intelligence as Go is considered a 
+difficult game to master owing to its vast search space and the difficulty 
+evaluating the value of board positions and moves. 
+
+
+The fourth most cited paper by Wooldridge and Jennings (1995) 
+entitled “Intelligent agents: Theory and practice” presents the theoret-
+ical and practical issues in the design and construction of intelligent 
+agents. The paper discusses agent theory, agent architectures, and agent 
+languages, and is relevant to the growing number of intelligent agent 
+applications. Today’s most popular intelligent agents are Google’s 
+Google Assistant, Amazon’s Alexa, Apple’s Siri, and Microsoft’s Cortana. 
+The growth of business and domestic applications of these technologies 
+has increased research interest in the fundamentals of this AI 
+technology. 
+
+
+The fifth and six most cited papers also developed theoretical un-
+derpinnings for AI applications: Gruber (1995) published “Toward 
+principles for the design of ontologies used for knowledge sharing?” on 
+the role and development of formal ontologies as a way of sharing and 
+reusing knowledge among software entities; Glover (1986) published 
+“Future paths for integer programming and links to artificial intelli-
+gence” summarizing recent developments that offer promise to enhance 
+the solving of combinatorial optimization problems 
+
+
+Table 4 (continued ) 
+
+
+R Title Authors J YP TC C/Y TCAI CAI/ 
+Y 
+
+
+Browne, CB; Powley, E; Whitehouse, D; Lucas, SM; Cowling, 
+PI; Rohlfshagen, P; Tavener, S; Perez, D; Samothrakis, S; 
+Colton, S 
+
+
+33 Is imitation learning the route to humanoid 
+robots? 
+
+
+Schaal, S TCS 1999 582 27.7 10 0.5 
+
+
+34 Managerial applications of neural networks - the 
+case of bank failure predictions 
+
+
+Tam, KY; Kiang, MY MSCI 1992 552 19.7 47 1.7 
+
+
+35 Grasp: a search algorithm for propositional 
+satisfiability 
+
+
+Marques-Silva, JP; Sakallah, KA ITC 1999 545 26.0 14 0.7 
+
+
+36 A review on the forecasting of wind speed and 
+generated power 
+
+
+Ma, L; Luan, SY; Jiang, CW; Liu, HL; Zhang, Y RSER 2009 544 49.5 26 2.4 
+
+
+37 Cooperative mobile robotics: antecedents and 
+directions 
+
+
+Cao, YU; Fukunaga, AS; Kahng, AB AR 1997 544 23.7 14 0.6 
+
+
+38 FOG and IOT: an overview of research 
+opportunities 
+
+
+Chiang, M; Zhang, T IITJ 2016 528 132.0 13 3.3 
+
+
+39 A review of vessel extraction techniques and 
+algorithms 
+
+
+Kirbas, C; Quek, F ACS 2004 527 32.9 2 0.1 
+
+
+40 Symbolic boolean manipulation with ordered 
+binary-decision diagrams 
+
+
+Bryant, RE ACS 1992 518 18.5 3 0.1 
+
+
+41 Genetic algorithms in astronomy and astrophysics Charbonneau, P AJSS 1995 512 20.5 2 0.1 
+42 Fuzzy-sets in approximate reasoning 0.1. Inference 
+
+
+with possibility distributions 
+Dubois, D; Prade, H FSS 1991 489 16.9 13 0.4 
+
+
+43 Credit rating analysis with support vector 
+machines and neural networks: a market 
+comparative study 
+
+
+Huang, Z; Chen, HC; Hsu, CJ; Chen, WH; Wu, SS DSS 2004 468 29.3 41 2.6 
+
+
+44 Neural networks - a review from a statistical 
+perspective 
+
+
+Cheng, B; Titterington, DM SSCI 1994 468 18.0 11 0.4 
+
+
+45 An approach for measuring semantic similarity 
+between words using multiple information sources 
+
+
+Li, YH; Bandar, ZA; Mclean, D ITKDE 2003 466 27.4 0 0.0 
+
+
+46 Ant colony optimization: introduction and recent 
+trends 
+
+
+Blum, C PLR 2005 464 30.9 14 0.9 
+
+
+47 Psychophysical support for a 2-dimensional view 
+interpolation theory of object recognition 
+
+
+Bulthoff, HH; Edelman, S PNAS 1992 461 16.5 1 0.0 
+
+
+48 Review on computational trust and reputation 
+models 
+
+
+Sabater, J; Sierra, C AIR 2005 443 29.5 14 0.9 
+
+
+49 Bayesian graphical models for discrete-data Madigan, D; York, J ISR 1995 442 17.7 2 0.1 
+50 Predicting surface roughness in machining: a 
+
+
+review 
+Benardos, PG; Vosniakos, GC IJMTM 2003 436 25.6 11 0.6 
+
+
+CVPR, 2015 IEEE Conference On Computer Vision And Pattern Recognition; DAC, 38th Design Automation Conference Proceedings 2001; ACS, ACM Computing 
+Surveys; ARP, Annual Review of Psychology; AJSS, Astrophysical Journal Supplement Series; AE, Atmospheric Environment; AR, Autonomous Robots; BBS, Behavioral 
+and Brain Sciences; CR, Cancer Research; CCE, Computers & Chemical Engineering; COR, Computers & Operations Research; ACS, Computing Surveys; IITJ, IEEE 
+Internet of Things Journal; ITC, IEEE Transactions on Computers; ITIP, IEEE Transactions On Image Processing; ITIE, IEEE Transactions on Industrial Electronics; ITIT, 
+IEEE Transactions On Information Theory; ITPS, IEEE Transactions On Power Systems; IJHCS, International Journal of Human-Computer Studies; IJMTM, Interna-
+tional Journal of Machine Tools & Manufacture; ISR, International Statistical Review; JFR, Journal of Field Robotics; JPC, Journal of Process Control; JADA, Journal of 
+The American Dietetic Association; KER, Knowledge Engineering Review; MSCI, Management Science; NAT, Nature; NATM, Nature Materials; PLR, Physics of Life 
+Reviews; PIEEE, Proceedings of the IEEE; PNAS, Proceedings of The National Academy of Sciences of the United States Of America; SCI, Science; SSCI, Statistical 
+Science; TCS, Trends in Cognitive Sciences. 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+9
+
+
+Brooks (1991) paper entitled “Intelligence without representation” 
+presents an approach to building complete intelligent creatures, such as 
+mobile robots that can operate without supervision. The importance of 
+this paper can be explained by the increasing use of AI in robotics. 
+
+
+Esteva et al. (2017) published “Dermatologist-level classification of 
+skin cancer with deep neural networks” that reports on the use of deep 
+convolutional neural networks, trained using a dataset of clinical images 
+to automatically classify skin lesions. 
+
+
+Mannsfeld et al. (2010) report on the development of an electronic 
+skin that can be used as an active sensory device by artificial intelligence 
+that comes into direct contact with humans in their paper “Highly sen-
+sitive flexible pressure sensors with microstructured rubber dielectric 
+layers”. 
+
+
+The tenth article in the list is by Venkatasubramanian et al. (2003) 
+entitled “A review of process fault detection and diagnosis: Part I: 
+Quantitative model-based methods”, a review paper of fault detection 
+and diagnosis methods for process engineering. Artificial intelligence 
+techniques are increasingly employed for process fault diagnosis. 
+
+
+Only seven of the top 50 papers present a concrete application of AI 
+that could be considered to have a societal impact, according to the 
+classification by Chui et al. (2018). The paper by Esteva et al. (2017) on 
+the detection of skin cancers can be classified in social impact domain 6 
+“Health and hunger”. Adam et al. (2002) develop a protein profiling 
+system for the early detection of prostate cancer using an artificial in-
+telligence learning algorithm to differentiate cancerous from noncan-
+cerous proteomic patterns. This article can also be classified in social 
+impact domain 6 “Health and hunger”. Zhao and Magoulès (2012) re-
+view recently developed engineering, statistical, and artificial intelli-
+gence models and methods for predicting building energy consumption. 
+Lei et al. (2009) review and assess wind power forecasting models, 
+including new methods based on artificial intelligence. These two arti-
+cles can be classified in social impact domain 8 “Infrastructure man-
+agement”. Pennebaker et al. (2003) explore the psychological aspects of 
+natural language use and can be classified in social impact domain 6 
+“Health and hunger” under the mental health theme. Tam and Kiang 
+(1992) study of how neural networks can be used to predict bank failures 
+can be classified under social impact domain 9 “Public and social sector 
+management”. And finally, Mangels et al. (1993) used artificial intelli-
+gence to measure the carotenoid content of fruit and vegetables and 
+generate a database that can be used to examine the association between 
+dietary carotenoids and disease incidence. This paper can also be clas-
+sified in impact domain 6 “Health and hunger”. 
+
+
+4.1.3. The most productive and influential authors in AI research 
+Over 80 000 authors contributed to the papers in our corpus, of 
+
+
+which 52 562 published their work during the AI Fall. Ranking of au-
+thors by productivity and influence helps describe the intellectual dy-
+namics of the field. Table 5 ranks authors according to their AI adjusted 
+h-index (hAI) and total citations (TCAI). Statistics in the table are based 
+on all publications, including both first and co-authorships. 
+
+
+The most published and influential author in the corpus is Ozgur Kisi 
+from Iran, with an h-index of 19 and the majority of his production 
+during the AI Fall. The author works in the areas of engineering and 
+water resources, and his most cited paper (TC 203, TCAI 47) as first 
+author is “Forecasting daily lake levels using artificial intelligence ap-
+proaches” published in Computers & Geosciences (Kisi et al., 2012). This 
+paper tests and compares three artificial intelligence approaches to 
+predict lake-level variations. 
+
+
+The second-ranked author is Gilles Klopman, publishing in the areas 
+of genetics, heredity, and toxicology. The author’s most cited paper is 
+“Artificial intelligence approach to structure-activity studies. Computer 
+automated structure evaluation of biological activity of organic mole-
+cules” published in Journal of the American Chemical Society (Klopman, 
+1984). All of Klopman’s publications appeared during the AI Winter. 
+
+
+There are also seven young (YP > 2016) and influential authors (mAI 
+> 3) on the list: H. Shahabi and K. Chapi (Iran) working in engineering 
+
+
+and geology, A Shirzadi (Vietnam) in environmental sciences, ecology 
+and engineering, BT. Pham (Norway) in engineering and materials sci-
+ence, M. Panahi (Iran), K. Khosravi (Vietnam), and B. Bin Ahmad 
+(Malaysia) in engineering and chemistry. 
+
+
+The most productive and influential authors publish in a wide variety 
+of fields. The most frequently observed areas are engineering (21% of 
+total areas provided) and computer science (20%). This is not surprising 
+given the technical nature of the field. It is interesting to note the di-
+versity of the 22 other, often secondary areas, including geology (8% of 
+total areas), water resources (5%), and materials science (4%). Table 6 
+presents the frequency of all 85 areas cited by the top 50 ranked authors. 
+
+
+While engineering and computer science dominate the list, closer 
+inspection reveals a “long tail” of 83 other research areas within the AI 
+field. This result illustrates the large variety of application areas for AI 
+research, and the potential for AI research to have a social impact. 
+
+
+4.1.4. The most productive and influential institutions in AI research 
+Over 15 000 institutions contributed to AI research over the 45-year 
+
+
+period. The 50 most productive and influential author affiliations are 
+presented in table 7, ordered by the h-index (HAI) and total citations in 
+AI research (TCAI). 
+
+
+Institutions in the USA, China, and the UK dominate the table. Two in 
+three of the top 50 institutions are based in one of these three countries. 
+The remaining 17 institutions are spread across 8 countries: Canada, 
+Iran, Singapore, Greece, Malaysia, India, Netherlands, and France. All of 
+the 50 top-ranked institutions began publishing in AI during the AI 
+Winter, with a median start year of 1986. 
+
+
+Stanford University (USA) is the most productive and influential 
+institution, accounting for 3 articles amongst the top 50 publications, 
+and 8 publications with over 200 citations. The second most productive 
+institution is Carnegie Mellon University (USA), with 1 article in the top 
+50 and 7 with over 200 citations. The University of London (UK) and 
+Hong Kong Polytechnical University (China) are in third and fourth 
+position with a slightly lower h-index than CMU but a higher number of 
+average citations per article in AI research. Despite the dominance of 
+North American institutions, four of the five fastest-growing institutions 
+are in Iran and China: Islamic Azad University (48%), University of 
+Tehran (51%), University of Tabriz (53%), Tsinghua University (38%) 
+and Harvard Medical School (100%) 
+
+
+Several institutions have maintained their influence over time, as 
+highlighted by their m-index in AI research (mAI > 1.5), including Is-
+lamic Azad University (Iran), University of Malaya (Malaysia), Univer-
+sity of Tehran (Iran), University of Tabriz (Iran) and Harvard Medical 
+School (USA). The University of Illinois publishes the highest proportion 
+of research in AI compared to all other institutions on the list. 
+
+
+4.1.5. The most productive and influential countries in AI research 
+We can also identify the most productive and influential countries in 
+
+
+AI research. From the 128 countries that contributed to AI scholarship 
+between 1975 and 2019, Table 8 presents the top 50 countries based on 
+their h-index and total citations in AI research. The table is based on 
+publications where the country appears as the main affiliation of the first 
+author. 
+
+
+Consistent with the result presented previously, the USA, the United 
+Kingdom, China, and Canada are the four most productive and influ-
+ential countries in AI research. The USA dominates the rankings with a 
+significantly higher h-index (HAI), research output (TPAI), and total 
+citations (TCAI) than second-place United Kingdom. American re-
+searchers also contribute close to half of all top 50 publications in AI, 
+compared to 9 from the UK. On the other hand, the UK demonstrates a 
+greater intercountry collaboration (MCP) level than the USA and higher 
+per-capita AI research output and number of citations. 
+
+
+High production volumes but low average citations raise the issue of 
+the relative visibility of publications from countries such as China, Italy, 
+India, France, and Germany compared to the USA, the UK, Canada, and 
+Iran. This is also the case for countries with high annual growth rates in 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+10
+
+
+research output (CAGR > 20%), including Korea, Saudi Arabia, Viet-
+nam, Pakistan, and Indonesia. 
+
+
+Several smaller, less known countries are also productive and influ-
+ential in the field. The three countries with the highest per capita level of 
+publications and citations are Singapore, Ireland, and Slovenia. As a 
+share of national research output over the same period, AI publications 
+are highest in Algeria, Romania, and Indonesia. This result confirms 
+previous research into the “long tail” in scientific production: a large 
+number of lesser-known outlets collectively contribute significantly to 
+scientific production (Wu et al., 2009). 
+
+
+The AI field is collaborative by nature, with over 80% of documents 
+
+
+between 1975 and 2019 published by multiple authors, increasing to 
+84.5% during the AI Fall. Intercountry collaborations are measured by 
+the MCP ratio, the fraction of articles where co-authors belong to 
+different countries (i.e. multi-country papers/total papers). As a refer-
+ence point, the USA had an average MCP of 0.12 over the period, indi-
+cating that 12% of papers were authored with scholars with affiliations 
+in other countries than the USA. Fifteen countries had MCP ratios equal 
+to or above 0.25, reflecting a strong level of intercountry collaboration: 
+Australia, Malaysia, Singapore, Switzerland, Belgium, Portugal, Swe-
+den, Saudi Arabia, New Zealand, Vietnam, Denmark, Finland, Norway, 
+Pakistan, and Tunisia. 
+
+
+Table 5 
+The 50 most productive and influential authors in AI research (1975–2019).  
+
+
+R Name C hAI TCAI TC TPAI PCAI TPAI- 
+W 
+
+
+TPAI- 
+F 
+
+
+T50 mAI YP Main area Secondary area 
+
+
+1 Kisi O Iran 19 294 1 
+381 
+
+
+43 6.84 18 25 0 1.73 2009 Engineering Water Resources 
+
+
+2 Klopman G USA 19 208 1 
+519 
+
+
+33 6.30 33 0 0 0.53 1984 Toxicology Genetics & Heredity 
+
+
+3 Chau KW China 18 241 1 
+469 
+
+
+37 6.51 25 12 0 0.64 1992 Engineering Computer Science 
+
+
+4 Smith DH USA 17 247 612 27 9.15 26 1 0 0.38 1975 Chemistry Computer Science 
+5 Cheng MY China 17 77 851 38 2.03 26 12 0 1.13 2005 Engineering Computer Science 
+6 El-Shafie A Malaysia 15 123 682 28 4.39 10 18 0 1.15 2007 Engineering Water Resources 
+7 Shahabi H Iran 14 223 568 23 9.70 0 23 0 4.67 2017 Engineering Geology 
+8 Chen CY China 14 211 477 38 5.55 30 8 0 0.82 2003 Engineering Mechanics 
+9 Chen W China 14 147 535 35 4.20 10 25 0 0.74 2001 Engineering Computer Science 
+10 Rosenkranz 
+
+
+HS 
+USA 14 88 577 21 4.19 21 0 0 0.40 1985 Toxicology Genetics & Heredity 
+
+
+11 Zhang J China 14 45 676 91 0.49 24 67 0 0.67 1999 Engineering Computer Science 
+12 Djerassi C USA 13 217 610 17 12.76 17 0 0 0.29 1975 Chemistry Spectroscopy 
+13 Bui DT Iran 13 204 1 
+
+
+169 
+33 6.18 0 33 0 3.25 2016 Environmental 
+
+
+Sciences & Ecology 
+Engineering 
+
+
+14 Dubois D France 13 37 660 22 1.68 19 3 1 0.45 1991 Computer science Mathematics 
+15 Nourani V Iran 12 202 808 42 4.81 11 31 0 1.09 2009 Engineering Water Resources 
+16 Shirzadi A Vietnam 12 202 1 
+
+
+106 
+21 9.62 0 21 0 4.00 2017 Engineering Environmental 
+
+
+Sciences & Ecology 
+17 Shiri J Iran 12 154 455 15 10.27 12 3 0 1.20 2010 Geology Water Resources 
+18 Shih BY China 12 134 519 17 7.88 17 0 0 1.20 2010 Engineering Mechanics 
+19 Wang JZ China 12 49 312 25 1.96 5 20 0 0.71 2003 Energy & Fuels Computer Science 
+20 Prade H France 12 37 765 32 1.16 23 9 1 0.41 1991 Computer Science Mathematics 
+21 Chapi K Iran 11 154 612 13 11.85 0 13 0 3.67 2017 Engineering Geology 
+22 Pham BT Norway 11 138 486 22 6.27 0 22 0 3.67 2017 Engineering Materials Science 
+23 Yaseen ZM Malaysia 11 85 547 20 4.25 0 20 0 2.20 2015 Engineering Water Resources 
+24 Moghaddam 
+
+
+AA 
+Iran 11 85 737 11 7.73 4 7 0 1.57 2013 Environmental 
+
+
+Sciences & Ecology 
+Water Resources 
+
+
+25 King RD UK 11 75 375 15 5.00 12 3 0 0.39 1992 Computer Science Science & Technology - 
+Other Topics 
+
+
+26 Li Y China 11 58 327 84 0.69 33 51 0 0.46 1996 Computer Science Engineering 
+27 Wang ZL China 11 38 837 33 1.15 8 25 0 0.61 2002 Materials Science Chemistry 
+28 Yang J China 11 35 371 49 0.71 14 35 0 0.50 1998 Engineering Computer Science 
+29 Wang H China 11 24 277 68 0.35 32 36 0 0.55 2000 Computer Science Engineering 
+30 Khosravi K Vietnam 10 129 914 14 9.21 0 14 0 3.33 2017 Engineering Chemistry 
+31 Bin Ahmad B Malaysia 10 106 776 14 7.57 0 14 0 3.33 2017 Engineering Chemistry 
+32 Panahi M Iran 10 98 571 13 7.54 0 13 0 5.00 2018 Chemistry Engineering 
+33 Liu Y China 10 88 337 81 1.09 25 56 0 0.53 2001 Computer Science Engineering 
+34 Chou JS China 10 72 448 22 3.27 8 14 0 1.00 2010 Engineering Computer Science 
+35 Wang Y China 10 57 476 74 0.77 12 62 0 0.63 2004 Engineering Computer Science 
+36 Zhang Y China 10 52 348 96 0.54 30 66 1 0.53 2001 Computer Science Engineering 
+37 Li X China 10 49 695 50 0.98 17 33 0 0.53 2001 Computer Science Engineering 
+38 Li L China 10 31 296 52 0.60 15 37 0 0.59 2003 Computer Science Engineering 
+39 Corchado JM Spain 10 30 358 33 0.91 13 20 0 0.53 2001 Computer Science Engineering 
+40 Wang YX Canada 10 30 289 32 0.94 14 18 0 0.45 1998 Computer Science Engineering 
+41 Tadeusiewicz 
+
+
+R 
+Poland 10 29 473 25 1.16 24 1 0 0.50 2000 Computer Science Engineering 
+
+
+42 Zha XF Singapore 10 29 341 11 2.64 11 0 0 0.45 1998 Engineering Computer Science 
+43 Wang J China 10 24 314 71 0.34 14 57 0 0.31 1988 Engineering Computer Science 
+44 Chan FTS China 10 22 428 14 1.57 11 3 0 0.50 2000 Engineering Computer Science 
+45 Hsu YY China 10 20 338 12 1.67 12 0 0 0.34 1991 Engineering Computer Science 
+46 Chan CW Canada 9 42 378 21 2.00 19 2 0 0.36 1995 Computer Science Engineering 
+47 Neves J Portugal 9 39 228 42 0.93 31 11 0 0.41 1998 Computer Science Engineering 
+48 Chen J China 9 34 227 47 0.72 15 32 0 0.33 1993 Computer Science Engineering 
+49 Kim S Korea 9 32 267 42 0.76 8 34 0 0.47 2001 Engineering Computer Science 
+50 Zhang D China 9 24 317 26 0.92 15 11 0 0.64 2006 Computer Science Engineering  
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+11
+
+
+The preceding bibliometric analysis shows that although dominated 
+by North American scholars, the AI research field is internationally 
+diverse, with a main focus on technical or conceptual advances in the 
+development of AI models and technologies. The “long tail” of subject 
+areas and lower ranked journals underscores the richness of scholarship 
+in the AI field. The following section further explores the conceptual 
+structure of AI scholarship. 
+
+
+4.1.6. Thematic evolution of the field 
+The thematic evolution of a scientific field can be quantified and 
+
+
+visualized (Cobo et al., 2011) using co-word analysis. Co-word analysis 
+identifies groups or clusters of keywords that represent the different 
+conceptual themes developed within a research field for the subperiod 
+under study. Each cluster can be described according to its centrality and 
+density. Centrality measures the strength of the links between a cluster 
+and other clusters. According to Callon et al., 164, “the more numerous 
+and stronger are these links, the more this cluster designates a set of 
+
+
+research problems considered crucial by the scientific or technological 
+community”. A cluster with a high degree of centrality occupies a stra-
+tegic position in a research field. Density measures the strength of the 
+links between the keywords within a cluster and describes “the cluster’s 
+capacity to maintain itself and to develop over the course of time in the 
+field under consideration” (Callon et al., 1991, p. 165). 
+
+
+Research subfields can be mapped to a two-dimensional space, called 
+a “strategical graph” (Callon et al., 1991) or “strategic diagram” (Cobo 
+et al., 2011) according to the level of centrality and density of each 
+cluster. An example of a strategic diagram is presented in Fig. 3. 
+
+
+Quadrant 1 is made up of clusters central to the research domain 
+(high centrality) and highly developed, exhibiting strong internal links 
+(high density). These clusters often represent core fields of study and 
+have been developed over time by a well-defined group of researchers. 
+Clusters in quadrant 2 are also important to the field but they are 
+generally less developed than clusters in quadrant 1. These clusters may 
+represent themes that are growing in importance, but that require more 
+significant investment before they mature. Quadrant 3 clusters are well 
+developed but not well connected to other themes within the field. 
+Typically, these themes are specialized and peripheral in nature, and 
+while they may have been central at one point, they have been thor-
+oughly investigated and today are less relevant to the field. Clusters in 
+quadrant 4 are peripheral and little developed, representing either 
+emerging or declining themes. 
+
+
+We analyzed the evolution of AI research themes across two time 
+periods: the “AI Winter” from 1975 to 2014 and the “AI Fall” from 2015 
+to 2019. Figs. 4 and 5 present the strategic maps of the main AI research 
+themes and trends for each period based on the 250 most frequent 
+keywords provided by authors. Each circle’s size represents the number 
+of occurrences of cluster keywords, and the label represents the most 
+frequent keyword in that cluster over the period. Tables 9 and 10 list the 
+keywords per cluster by their frequency. 
+
+
+The central, motor themes during the AI Winter were “expert sys-
+tems” and “knowledge representation”. During this period, the focus of 
+AI research was mainly on expert systems. An expert system are 
+knowledge-based systems that emulate expert thought to solve signifi-
+cant problems in a particular domain of expertise (Sell, 1986, p. 25). 
+“Knowledge representation” was also a motor theme during the AI 
+Winter because knowledge was such an important input into rule-based 
+AI algorithms. Accordingly, the representation of knowledge became 
+“one of Al’s top research priorities” (Patterson, 1990) during the period. 
+Research in expert systems and knowledge representation had several 
+successful applications during the period, such as IBM’s Deep Blue 
+computer that defeated the reigning world champion Garry Kasparov in 
+a game of chess in 1997 (Newborn, 2000). 
+
+
+An emerging theme that also attracted significant scholarly attention 
+during the period was neural networks. This large cluster grouped 
+several themes, including artificial neural networks, genetic algorithms, 
+and fuzzy logic, and reflects the search for alternative models of human 
+reasoning by AI scholars. Since the start of the AI Spring, artificial neural 
+networks have been at the very core of artificial intelligence research. In 
+the 1940s, the first computational model for neural networks was 
+introduced by Warren McCulloch and Walter Pitts (1943) while artificial 
+intelligence scientists started applying the neural plasticity principles 
+developed by Donald Hebb (1949) to computational models. AI research 
+on artificial neural networks stagnated until the beginning of the AI 
+Winter as influential AI researchers pointed out the limits of the use of 
+neural networks in computational machines (Minsky and Papert, 1969), 
+mainly due to the overall lack of processing power. Hopes were revived 
+and interest renewed at the start of the AI Winter with a general increase 
+in the processing power of machines but also with significant algo-
+rithmic advances such as Werbos’s (1974) backpropagation algorithm 
+and the introduction of parallel distributed processing algorithms when 
+simulating neural processes (Rumelhart and McClelland, 1986). 
+
+
+A smaller emerging cluster focused on machine learning, data min-
+ing, and classification. Machine learning and data mining are closely 
+
+
+Table 6 
+Frequency of all areas cited by the top 50 authors in AI research.  
+
+
+Area  Area  
+
+
+Engineering 717 Health care sciences & services 7 
+Computer science 680 Life sciences & biomedicine - 
+
+
+other topics 
+7 
+
+
+Water resources 155 Oceanography 7 
+Chemistry 152 Physical geography 7 
+Environmental sciences & ecology 128 Respiratory system 7 
+Geology 115 Spectroscopy 7 
+Telecommunications 110 General & internal medicine 6 
+Materials science 104 Nuclear science & technology 6 
+Automation & control systems 92 Urology & nephrology 6 
+Science & technology - other topics 92 Astronomy & astrophysics 5 
+Physics 70 Biophysics 5 
+Energy & fuels 67 Metallurgy & metallurgical 
+
+
+engineering 
+5 
+
+
+Operations research & 
+management science 
+
+
+59 Cell biology 4 
+
+
+Mathematics 57 Food science & technology 4 
+Instruments & instrumentation 47 Geochemistry & geophysics 4 
+Mechanics 46 Geography 4 
+Toxicology 42 Public, environmental & 
+
+
+occupational health 
+4 
+
+
+Remote sensing 40 Social sciences - other topics 4 
+Imaging science & photographic 
+
+
+technology 
+35 Developmental biology 3 
+
+
+Genetics & heredity 32 Legal medicine 3 
+Robotics 30 Marine & freshwater biology 3 
+Meteorology & atmospheric 
+
+
+sciences 
+29 Pathology 3 
+
+
+Oncology 28 Polymer science 3 
+Agriculture 27 Public administration 3 
+Radiology, nuclear medicine & 
+
+
+medical imaging 
+24 Surgery 3 
+
+
+Acoustics 21 Arts & humanities - other topics 2 
+Construction & building 
+
+
+technology 
+21 Cardiovascular system & 
+
+
+cardiology 
+2 
+
+
+Optics 21 Government & law 2 
+Business & economics 20 Mining & mineral processing 2 
+Thermodynamics 20 Ophthalmology 2 
+Biochemistry & molecular biology 19 Architecture 1 
+Pharmacology & pharmacy 18 Biodiversity & conservation 1 
+Transportation 16 Electrochemistry 1 
+Biotechnology & applied 
+
+
+microbiology 
+15 Mathematical methods in social 
+
+
+sciences 
+1 
+
+
+Medical informatics 14 Medical laboratory technology 1 
+Mathematical & computational 
+
+
+biology 
+13 Nursing 1 
+
+
+Neurosciences & neurology 11 Obstetrics & gynecology 1 
+Education & educational research 10 Otorhinolaryngology 1 
+Forestry 9 Physiology 1 
+Research & experimental medicine 9 Psychiatry 1 
+Information science & library 
+
+
+science 
+8 Psychology 1 
+
+
+Gastroenterology & hepatology 7 Reproductive biology 1  
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+TechnologicalForecasting&
+SocialChangexxx(xxxx)xxx
+
+
+12
+
+
+Table 7 
+The 50 most productive and influential institutions in AI research (1975–2019).  
+
+
+R Institution C hAI TCAI TPAI PCAI CAGR T50 ≥ 500 ≥ 200 ≥ 100 ≥ 50 < 50 TPAI-W TPAI-F TP PAI/th YP mAI 
+
+
+1 Stanford University USA 34 1 165 287 4.06 10.2 3 3 5 9 10 260 149 138 314 990 0.91 1975 0.76 
+2 Carnegie Mellon University USA 31 376 219 1.72 11.8 1 2 5 2 9 201 136 83 74 006 2.96 1977 0.72 
+3 University of London UK 30 491 231 2.13 15.5 2 2 3 5 7 214 133 98 779 038 0.30 1986 0.88 
+4 Hong Kong Polytechnic University China 30 327 171 1.91 23.9 0 0 3 1 14 153 104 67 54 730 3.12 1995 1.20 
+5 University of Texas USA 30 294 278 1.06 13.6 2 2 3 5 13 255 125 153 642 835 0.43 1975 0.67 
+6 Nanyang Technological University Singapore 29 210 197 1.07 18.5 0 0 1 3 9 184 103 94 94 606 2.08 1992 1.04 
+7 Islamic Azad University Iran 28 364 247 1.47 48.2 0 0 0 0 10 237 81 166 82 961 2.98 2005 1.87 
+8 National Taiwan University China 27 281 173 1.62 16.6 1 0 1 3 5 164 83 90 121 318 1.43 1990 0.90 
+9 University of Pittsburgh USA 27 195 122 1.60 12.4 0 0 3 3 8 108 77 45 235 755 0.52 1978 0.64 
+10 University of Hong Kong China 27 146 187 0.78 15.6 0 0 0 4 8 175 89 98 91 072 2.05 1983 0.73 
+11 University of Toronto Canada 26 229 186 1.23 11.4 1 1 0 3 12 170 76 110 415 797 0.45 1977 0.60 
+12 University of Malaya Malaysia 26 201 104 1.93 33.7 0 0 1 4 6 93 27 77 46 968 2.21 2003 1.53 
+13 University of Tehran Iran 26 182 142 1.28 51.1 0 0 0 0 9 133 53 89 46 749 3.04 2007 2.00 
+14 Indian Inst of Tech System India 26 157 192 0.82 20.7 0 0 0 3 4 185 96 96 215 976 0.89 1991 0.90 
+15 University of Tabriz Iran 25 480 115 4.17 53.9 0 0 1 1 10 103 37 78 13 553 8.49 2008 2.08 
+16 Harvard University USA 25 230 123 1.87 10.1 0 0 1 4 6 112 45 78 766 420 0.16 1976 0.57 
+17 Chinese Academy of Science China 25 154 260 0.59 24.4 0 0 1 0 6 253 205 55 710 196 0.37 1995 1.00 
+18 University of Oxford UK 23 389 186 2.09 14.3 0 0 1 4 3 178 55 131 319 156 0.58 1980 0.58 
+19 University of California Berkeley USA 22 255 125 2.04 12.5 2 2 1 4 7 111 61 64 270 367 0.46 1984 0.61 
+20 Case Western Reserve University USA 22 236 54 4.37 12.1 0 0 2 1 5 46 43 11 125 441 0.43 1984 0.61 
+21 Texas AANDM University USA 22 207 99 2.09 14.5 0 0 1 2 8 88 55 44 184 364 0.54 1985 0.63 
+22 National University of Singapore Singapore 22 171 177 0.97 19.5 0 0 0 2 5 170 76 101 145 947 1.21 1990 0.73 
+23 National and Kapodistrian University of Athens Greece 22 165 128 1.29 18.2 1 0 2 1 5 120 91 37 80 175 1.60 1990 0.73 
+24 National Tech. University Athens Greece 22 121 89 1.36 16.7 1 0 2 1 5 81 68 21 32 346 2.75 1990 0.73 
+25 Tsinghua University China 22 115 177 0.65 38.2 0 0 1 2 4 170 33 144 153 792 1.15 2003 1.29 
+26 University of Illinois USA 22 89 154 0.58 13.1 1 1 0 0 9 144 92 62 13 456 11.44 1978 0.52 
+27 University Colorado USA 21 300 108 2.78 15.2 0 1 0 3 3 101 49 59 228 646 0.47 1986 0.62 
+28 McGill University Canada 21 200 118 1.69 15.1 0 0 1 2 4 111 47 71 206 295 0.57 1985 0.60 
+29 Huazhong University of Science & Tech China 21 135 126 1.07 17.6 0 0 1 1 4 120 41 85 92 525 1.36 1996 0.88 
+30 University of Exeter UK 21 77 60 1.28 12.8 0 0 0 1 1 58 42 18 55 714 1.08 1985 0.60 
+31 University of Alberta Canada 20 248 118 2.10 15.1 0 0 0 3 5 110 67 51 167 517 0.70 1985 0.57 
+32 University of Michigan USA 20 200 138 1.45 12.9 1 1 2 0 5 130 60 78 340 732 0.41 1984 0.56 
+33 University of British Columbia Canada 20 160 112 1.43 18.4 0 0 2 0 6 104 52 60 221 833 0.50 1991 0.69 
+34 University of Manchester UK 20 104 93 1.12 12.6 1 0 2 1 6 84 44 49 194 211 0.48 1990 0.67 
+35 Purdue University USA 20 75 118 0.64 13.0 1 1 0 1 3 113 71 47 151 303 0.78 1980 0.50 
+36 Arizona State University USA 19 258 99 2.61 16.0 1 1 0 4 3 91 44 55 100 597 0.98 1988 0.59 
+37 National Cheng Kung University China 19 202 83 2.43 17.8 0 0 1 0 2 80 56 27 64 267 1.29 1992 0.68 
+38 University of Maryland USA 19 177 135 1.31 13.0 0 0 1 2 6 126 76 59 97 077 1.39 1979 0.46 
+39 University of Cambridge UK 19 169 83 2.04 13.1 0 0 3 3 4 73 24 59 287 765 0.29 1983 0.51 
+40 Natl Taiwan University of Science & Tech China 19 143 89 1.61 23.8 0 0 0 1 2 86 45 44 20 269 4.39 1998 0.86 
+41 Harvard Medical School USA 18 417 129 3.23 100.2 0 0 1 1 3 124 1 128 76 381 1.69 2012 2.25 
+42 University of Southern California USA 18 167 84 1.99 12.0 0 0 0 3 7 74 80 4 175 434 0.48 1980 0.45 
+43 University of Arizona USA 18 157 90 1.74 15.1 1 0 1 2 3 84 64 26 162 491 0.55 1987 0.55 
+44 Columbia University USA 18 123 104 1.18 15.1 0 0 0 4 1 99 34 70 268 664 0.39 1986 0.53 
+45 University of Amsterdam Netherlands 18 115 127 0.91 14.3 0 0 0 2 6 119 81 46 156 239 0.81 1988 0.56 
+46 University of Sheffield UK 18 106 76 1.39 16.7 0 0 0 2 7 67 47 29 116 880 0.65 1991 0.62 
+47 Universiti Teknologi Malaysia Malaysia 18 105 122 0.86 21.6 0 0 0 1 1 120 30 92 27 425 4.45 1998 0.82 
+48 University of Washington USA 18 105 105 1.00 13.8 0 0 1 1 3 100 46 59 309 461 0.34 1983 0.49 
+49 University of Chicago USA 18 104 46 2.26 9.8 0 0 0 1 6 39 21 25 242 873 0.19 1978 0.43 
+50 CNRS France 18 69 116 0.59 13.7 0 0 1 2 3 110 69 47 935 610 0.12 1982 0.47  
+
+
+S. Fosso W
+am
+
+
+ba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+TechnologicalForecasting&
+SocialChangexxx(xxxx)xxx
+
+
+13
+
+
+Table 8 
+The 50 most productive and influential countries in AI research (1975–2019).  
+
+
+R Country hAI TCAI TPAI PCAI CAGR TP PAI/th ≥ 500 ≥ 200 ≥ 100 ≥ 50 < 50 T50 TPAI-W TCAI-F TPAI/PMH TCAI/PMH YP MCP 
+
+
+1 USA 131 8 811 7 340 1.20 22.4 19 640 032 0.37 20 66 114 240 6900 23 4 130 3 210 22.4 26.8 1975 0.12 
+2 United Kingdom 80 3 040 2 328 1.31 15.6 1 177 471 1.98 7 22 32 71 2196 9 1 382 946 34.8 45.5 1978 0.21 
+3 China 70 2 765 6 141 0.45 25.8 5 175 367 1.19 1 15 22 76 6027 1 2 415 3 726 4.4 2.0 1981 0.15 
+4 Canada 52 1 048 1 163 0.90 18.3 2 589 186 0.45 1 5 15 35 1107 1 677 486 30.9 27.9 1977 0.23 
+5 Spain 46 1 104 1 477 0.75 25.6 1 605 418 0.92 1 4 9 26 1437 3 911 566 31.4 23.5 1987 0.20 
+6 Iran 43 1 155 892 1.29 42.8 504 915 1.77 0 1 2 32 857 0 327 565 10.8 13.9 2003 0.24 
+7 Italy 43 667 1 076 0.62 20.8 2 141 316 0.50 2 4 6 27 1037 2 596 480 17.8 11.1 1982 0.20 
+8 Australia 41 612 836 0.73 21.2 1 727 324 0.48 0 0 8 22 806 0 412 424 33.0 24.1 1984 0.26 
+9 India 40 633 1 774 0.36 25.4 1 705 320 1.04 0 1 10 18 1745 0 585 1 189 1.3 0.5 1986 0.07 
+10 France 40 580 990 0.59 20.5 2 803 167 0.35 1 4 9 16 960 2 628 362 14.8 8.6 1982 0.22 
+11 Germany 39 519 1 045 0.50 23.4 3 398 906 0.31 1 0 4 22 1018 1 533 512 12.6 6.2 1986 0.18 
+12 Turkey 38 536 596 0.90 22.6 642 730 0.93 0 1 3 20 572 0 268 328 7.1 6.4 1991 0.12 
+13 Greece 34 359 371 0.97 22.6 357 360 1.04 0 3 2 17 349 1 244 127 34.6 33.5 1990 0.16 
+14 Malaysia 34 344 539 0.64 28.0 245 822 2.19 0 1 11 11 516 0 223 316 16.9 10.8 1998 0.29 
+15 Korea 33 543 771 0.70 26.8 1 165 088 0.66 0 1 5 14 751 0 238 533 14.9 10.5 1991 0.13 
+16 Netherlands 33 325 362 0.90 14.2 1 275 164 0.28 0 1 6 13 342 0 233 129 20.9 18.8 1985 0.22 
+17 Brazil 32 380 836 0.45 24.1 999 008 0.84 1 0 4 6 825 1 431 405 4.0 1.8 1991 0.19 
+18 Singapore 31 282 315 0.90 17.7 304 245 1.04 0 1 4 12 298 0 181 134 55.2 49.4 1988 0.31 
+19 Japan 30 517 923 0.56 19.7 3 464 402 0.27 0 4 6 8 905 0 437 486 7.3 4.1 1981 0.12 
+20 Poland 29 312 691 0.45 18.8 747 556 0.92 1 0 3 4 683 1 354 337 18.2 8.2 1981 0.08 
+21 Switzerland 27 232 227 1.02 17.3 943 749 0.24 0 1 7 9 210 0 114 113 26.5 27.1 1985 0.29 
+22 Belgium 24 115 194 0.59 16.8 288 637 0.67 1 0 2 11 180 1 114 80 16.9 10.0 1985 0.38 
+23 Portugal 22 168 333 0.50 23.1 124 ,621 2.67 1 1 2 3 326 1 189 144 32.4 16.4 1991 0.25 
+24 Austria 22 167 251 0.67 17.6 198 169 1.27 0 1 1 4 245 0 144 107 28.3 18.8 1985 0.23 
+25 Ireland 22 154 205 0.75 21.8 78 716 2.60 0 2 3 5 195 0 133 72 41.5 31.2 1992 0.18 
+26 Sweden 20 163 181 0.90 18.9 294 165 0.62 0 0 1 4 176 0 92 89 17.6 15.8 1989 0.25 
+27 Israel 19 100 159 0.63 14.3 180 440 0.88 0 1 3 1 154 0 95 64 17.6 11.0 1981 0.22 
+28 Mexico 18 124 356 0.35 16.3 110 878 3.21 0 1 1 1 353 0 199 157 2.8 1.0 1980 0.17 
+29 Czech Republic 17 123 315 0.39 15.9 101 195 3.11 0 1 1 2 311 0 181 134 29.5 11.5 1980 0.14 
+30 Saudi Arabia 17 94 182 0.52 28.1 79 980 2.28 0 0 2 2 178 0 51 131 5.3 2.7 1998 0.29 
+31 Algeria 17 75 179 0.42 23.9 27 045 6.62 0 0 0 5 174 0 74 105 4.2 1.7 1998 0.22 
+32 New Zealand 16 70 102 0.69 15.1 100 707 1.01 0 1 0 3 98 0 55 47 20.7 14.2 1991 0.25 
+33 Vietnam 15 180 96 1.88 30.8 32 208 2.98 0 0 0 2 94 0 10 86 1.0 1.9 2002 0.59 
+34 Serbia 15 86 128 0.67 18.9 28 292 4.52 0 0 0 2 126 0 70 58 18.4 12.4 1991 0.20 
+35 Denmark 15 54 111 0.49 11.5 187 749 0.59 0 2 0 1 108 0 57 54 19.1 9.3 1982 0.38 
+36 South Africa 15 53 172 0.31 18.7 95 580 1.80 0 0 2 3 167 0 60 112 2.9 0.9 1989 0.13 
+37 Egypt 14 95 189 0.50 17.6 58 933 3.21 0 0 0 2 187 0 74 115 1.9 0.9 1991 0.21 
+38 Russia 14 93 554 0.17 23.2 233 929 2.37 0 0 0 0 554 0 151 403 3.8 0.6 1992 0.11 
+39 Slovenia 14 80 91 0.88 18.9 28 003 3.25 0 1 0 3 87 0 59 32 43.6 38.3 1993 0.16 
+40 Finland 14 57 168 0.34 15.4 126 121 1.33 0 1 1 3 163 0 79 89 30.4 10.3 1988 0.26 
+41 Norway 13 89 133 0.67 16.2 120 330 1.11 0 0 0 2 131 0 48 85 24.9 16.6 1991 0.27 
+42 Pakistan 13 55 210 0.26 39.7 52 190 4.02 0 0 0 1 209 0 55 155 1.0 0.3 2003 0.32 
+43 Romania 12 104 531 0.20 28.5 54 849 9.68 0 0 2 1 528 0 270 261 27.4 5.4 1994 0.08 
+44 Hungary 12 56 117 0.48 14.0 80 533 1.45 0 0 0 3 114 0 71 46 12.0 5.7 1988 0.15 
+45 Tunisia 9 45 119 0.38 30.4 33 475 3.55 0 0 0 1 118 0 34 85 10.2 3.8 2001 0.30 
+46 Colombia 8 15 87 0.17 28.2 41 403 2.10 0 0 0 0 87 0 36 51 1.7 0.3 2001 0.23 
+47 Thailand 7 21 101 0.21 19.4 64 432 1.57 0 1 1 1 98 0 47 54 1.5 0.3 1993 0.11 
+48 Indonesia 7 12 179 0.07 38.3 32 898 5.44 0 0 0 0 179 0 17 162 0.7 0.0 2003 0.11 
+49 Slovakia 7 9 112 0.08 18.4 29 485 3.80 0 0 0 0 112 0 53 59 20.5 1.7 1991 0.13 
+50 Morocco 6 13 84 0.15 36.5 25 220 3.33 0 0 0 0 84 0 19 65 2.3 0.4 2007 0.08  
+
+
+EU countries 94 5116 8621 0.59 16.16 13 921 130 0.62 8 25 52 165 8371 12 4941 3680 20.1 11.9 1980 0.23  
+
+
+S. Fosso W
+am
+
+
+ba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+14
+
+
+related, as they often employ similar methods. However, while machine 
+learning’s main focus is to make predictions based on known properties 
+learned from training data, data mining is more about discovering un-
+known properties from data. In the 1970s and 1980s, a substantial sub- 
+stream of AI research was dedicated to pattern recognition (e.g. Duda 
+and Hart, 1973). As companies and scientists began capturing huge 
+volumes of historical data during the 1990s, more and more data min-
+ing, classification techniques, and machine learning algorithms were 
+used by both scientists and businesses (Mitchell, 1999). Meanwhile, 
+machine learning research evolved significantly with the introduction of 
+‘boosting’, a concept that helped reduce inherent supervised learning 
+biases by relying on the principle that a set of weak learners can create 
+one single strong learner (Schapire, 1990). 
+
+
+We can observe from Fig. 5 that expert systems were no longer a 
+significant AI research area during the AI Fall. This thematic evolution 
+can be explained by the limits of such systems. Expert systems perform 
+well in areas that lend themselves to the formalisation of human 
+
+
+intelligence but perform poorly when interpreting and learning from 
+external data, and thus technically speaking are “not true AI” (Haenlein 
+and Kaplan, 2019). 
+
+
+The principal theme during this period was learning, including 
+feature extraction, computer vision, and image classification revealing a 
+growing interest in using AI to learn about real-world phenomena 
+through image processing. The keywords per cluster are listed in 
+Table 10 by order of importance. 
+
+
+Today, AI research focuses mostly on the learning and adaptive ca-
+pabilities of AI. A number of other AI technologies including speech and 
+pattern recognition are also important for industrial AI systems but are 
+so far more developed in practice than in research (Bawack et al., 2019). 
+The emergence of the learning cluster coincides with a growing interest 
+in image recognition techniques and increased investment in computer 
+vision and face recognition technologies by large organizations such as 
+Google, Facebook, Amazon, Apple, and Tesla. For example, the launch 
+of DeepFace by Facebook in 2015, a deep learning facial recognition 
+
+
+Fig. 3. The strategic diagram (adapted from Cobo et al. (2011) and Callon et al. (1991)).  
+
+
+Fig. 4. Strategic map of research during the AI Winter (1975 to 2014).  
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+15
+
+
+system, has raised a lot of public attention but also substantial research 
+efforts. 
+
+
+The emerging, although loosely linked machine learning cluster 
+continued to develop during the period, attracting research on robotics, 
+neural networks, big data, deep learning, and convolutional neural 
+networks from other clusters. The fall in density from the first period 
+indicates that while the cluster grew, the links between keywords within 
+the cluster are weaker prefiguring a splintering of the cluster over time. 
+One way to explain such evolution could be in the tumultuous and 
+intertwined history of the artificial intelligence and machine learning 
+fields. Around the early 1980s, the artificial intelligence and machine 
+learning industries took separate paths while machine learning 
+continued to be used as training programs for AI. Recent advances in 
+deep learning, neural networks, and natural language processing tech-
+niques have created multiple links between the two domains. As 
+Christopher D. Manning notes: “Deep Learning waves have lapped at the 
+shores of computational linguistics for several years now, but 2015 
+seems like the year when the full force of the tsunami hit the major 
+Natural Language Processing (NLP) conferences.” (Manning, 2015, p. 
+701). 
+
+
+Research in the large, emerging cluster on neural networks during 
+the AI Winter shed the keyword “neural network” and transformed into 
+a denser and central artificial neural networks cluster. Today, artificial 
+neural networks are one of the most important areas in both AI research 
+and the application of AI technologies in business. Neural networks are 
+used by organizations for a range of tasks including social network 
+filtering, marketing campaign optimization, financial trading system 
+design, and improved disease identification and diagnosis. 
+
+
+4.2. State of research into AI for social good 
+
+
+The main themes, journals, and articles that have dominated the AI 
+literature over the past 45 years have been technical in nature. To 
+explore the extent of research in areas where AI could be applied for 
+social good, we searched for papers in the corpus developing each of the 
+ten social impact domains identified by Chui et al. (2018). The 
+domain-specific research queries are provided in Appendix 3. Table 11 
+presents the descriptive statistics for the papers in the reduced corpus. 
+
+
+A total of 1048 documents were published across the ten AI for social 
+
+
+Fig. 5. Strategic map of research during the AI Fall (2015 to 2019).  
+
+
+Table 9 
+Cluster keywords and quadrant (1975 to 2014 – AI Winter).   
+
+
+Cluster Keywords Position 
+
+
+1 Machine learning machine learning; data mining; 
+classification 
+
+
+Crossroads 
+
+
+2 Neural network neural network; artificial neural network; 
+genetic algorithm; fuzzy logic; simulation; 
+optimization; pattern recognition; support 
+vector machine; modeling; fault diagnosis; 
+image processing 
+
+
+Crossroads 
+
+
+3 Expert systems expert system; case-based reasoning; 
+decision support systems; knowledge- 
+based systems 
+
+
+Motor 
+
+
+4 Knowledge 
+representation 
+
+
+knowledge representation; robotics; 
+learning; multi-agent systems; planning; 
+ontology; reinforcement learning; decision 
+making 
+
+
+Motor  
+
+
+Table 10 
+Cluster keywords and quadrant (2015 to 2019 – AI Fall).   
+
+
+Cluster Keywords Position 
+
+
+1 Machine 
+learning 
+
+
+machine learning; deep learning; neural 
+network; big data; convolutional neural 
+network; data mining; internet of things; 
+natural language processing; classification; 
+reinforcement learning; robotics; prediction; 
+image processing; automation; cloud 
+computing; pattern recognition; technology; 
+deep neural network; ethics 
+
+
+Crossroads 
+
+
+2 Learning learning; feature extraction; computer vision; 
+image classification; neural nets 
+
+
+Motor 
+
+
+3 Artificial neural 
+network 
+
+
+artificial neural network; support vector 
+machine; fuzzy logic; genetic algorithm; 
+optimization; ANFIS; ANN; fault diagnosis; 
+particle swarm optimization; simulation; 
+decision making 
+
+
+Mixed  
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+16
+
+
+good domains, representing 2.6% of all AI research in the corpus. The 
+collaboration index was higher than for the entire corpus indicating that 
+research on AI for social good more often involves multiple authors. The 
+growth rate for this subset was also higher as was the number of citations 
+per document. 
+
+
+The publication period is shorter than that of the AI corpus, covering 
+twenty-nine years from 1991 to 2019. Fig. 6 presents the publications 
+per year across the period. 
+
+
+The two earliest publications appeared in 1991: a case study by 
+Bijoch et al. (1991) on an intelligent power system alarm processor at 
+Northern States Power Co. published in IEEE Transactions on Power 
+systems and an editorial by Batty and Yeh (1991) on the promise of 
+expert systems for urban planning published in Computers, Environment 
+and Urban Systems. 
+
+
+AI research covered a total of 106 subject areas over the period. The 
+two dominant areas were computer science and engineering. The 
+number of references per research area is provided in Table 12. 
+
+
+Three application areas exhibited an increase in average annual 
+growth during the AI Fall, including Operations research & management 
+science, Robotics, and Radiology, nuclear medicine & medical imaging. The 
+average annual growth rate fell in all other areas between the two 
+periods. 
+
+
+We used Chui et al. (2018)’s review of potential areas of AI for social 
+impact as a framework to describe and analyze the state of research in AI 
+for social good and to identify opportunities for future research. The 
+authors present a study by the McKinsey Global Institute of 160 AI use 
+cases and ten domains where AI technologies could have a large-scale 
+
+
+Table 11 
+Main information regarding the “AI for social good” collection.  
+
+
+Description AI for good Total corpus 
+
+
+Documents 1 048 40 147 
+Sources 792 14 480 
+Period 1991 - 2019 1975 - 2019 
+Annual percentage growth rate 25.1% 20.0% 
+Average citations per document 9.74 9.03 
+Average citations per year per document 1.58 1.01 
+Authors 4 010 83 346 
+Authors of multi-authored documents 3 907 76 801 
+Documents per author 0.27 0.48 
+Authors per document 3.73 2.08 
+Co-authors per document 4.1 3.32 
+Multi-authored documents 944 32 109 
+Collaboration index 4.14 2.39  
+
+
+Fig. 6. Number of AI for social good publications per year: 1975–2019.  
+
+
+Table 12 
+AI references in different areas (first 30 areas).  
+
+
+Area YP TPAI 
+1975–2019 
+
+
+CAGR 
+TPAI - 
+Winter 
+
+
+CAGR 
+TPAI - 
+Fall 
+
+
+Computer science 1991 308 25.6 10.3 
+Engineering 1991 308 22.5 7.8 
+Environmental sciences & 
+
+
+ecology 
+1991 91 19.2 9.8 
+
+
+Medical informatics 1993 66 19.7 8.4 
+Energy & fuels 1992 65 19.9 3.8 
+Science & technology - other 
+
+
+topics 
+2002 59 38.5 3.4 
+
+
+Telecommunications 1996 50 22.4 5.6 
+Health care sciences & 
+
+
+services 
+1993 49 18.9 5.2 
+
+
+Water resources 1998 48 23.7 9.9 
+Chemistry 2010 35 141.5 0.6 
+Operations research & 
+
+
+management science 
+1991 32 10.5 26.2 
+
+
+Automation & control 
+systems 
+
+
+1996 30 16.2 14.9 
+
+
+General & internal medicine 2004 29 38.5 2.2 
+Psychiatry 2013 27 2500.0 0.8 
+Materials science 2006 25 46.3 3.5 
+Business & economics 1992 24 9.9 8.4 
+Physics 2003 22 28.7 6.6 
+Oncology 2001 21 24.4 4.3 
+Public, environmental & 
+
+
+occupational health 
+1996 21 17.0 4.3 
+
+
+Construction & building 
+technology 
+
+
+2006 20 40.3 5.9 
+
+
+Instruments & 
+instrumentation 
+
+
+1996 20 16.7 4.6 
+
+
+Robotics 2001 20 8.8 27.2 
+Agriculture 2000 19 20.1 7.9 
+Education & educational 
+
+
+research 
+2000 17 17.9 11.2 
+
+
+Geology 2008 16 49.1 7.8 
+Radiology, nuclear medicine 
+
+
+& medical imaging 
+2017 16 0 130.9 
+
+
+Transportation 1998 15 14.7 10.8 
+Cardiovascular system & 
+
+
+cardiology 
+2005 14 30.5 4.9 
+
+
+Neurosciences & neurology 2013 14 1200.0 1.5 
+Psychology 1992 14 12.0 3.1 
+
+
+Multiple subject areas per publication are possible. 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+17
+
+
+social impact. The domains cover the seventeen United Nations Sus-
+tainable Development Goals and include crisis response, economic 
+empowerment, educational challenges, environmental challenges, 
+equality and inclusion, health and hunger, information verification and 
+validation, infrastructure management, public and social sector man-
+agement, security and justice. The ten social impact domains are pre-
+sented in Appendix 2. 
+
+
+The percentages of papers in the AI for social good corpus that have 
+been published in each domain are presented in Fig. 7. Three social 
+impact domains have attracted over three quarters of research interest: 
+health and hunger (47% of publications), infrastructure management 
+(26%), and environmental concerns (11%). 
+
+
+Six domains accounted for less than 10% of publications including 
+social equality and inclusion (1.7%), economic empowerment (0.6%), 
+security and justice (1.3%), educational challenges (2%), information 
+verification and validation (1.3%), and public and social sector man-
+agement (0.8%). 
+
+
+Table 13 ranks AI social domain output according to average docu-
+ment global citations. The most cited domain is security and justice, 
+followed by equality and inclusion and environmental challenges. Five 
+domains have below-average citations: health and hunger, educational 
+challenges, economic empowerment, public and social sector manage-
+ment, and information verification and validation. One explanation for 
+the last three domains may be that they are relatively recent, as shown 
+by the narrow date ranges. However, health and hunger is one of the 
+oldest domains with the highest publication count but low average 
+citations. 
+
+
+Bibliographic statistics by domain and key issues are provided in 
+Appendix 4. The following section examines the production in each of 
+the ten social impact domains, according to issue types addressed or 
+ignored by AI research. 
+
+
+4.2.1. Crisis response 
+Crisis response refers to the management of crises such as man-made 
+
+
+and natural disasters, disease outbreaks, search and rescue missions, and 
+humanitarian crises. A total of eighty-four publications in the corpus 
+concern this domain, written between 1996 and 2019, with half of all 
+documents published from 2016 onwards. Most publications concern 
+responses to natural and man-made disasters (n = 34) and search and 
+rescue efforts (39), whereas few address disease outbreaks (10) and 
+humanitarian or migration crises (2). Keyword analysis reveals that the 
+
+
+main topics covered in papers on disaster response are artificial neural 
+networks, geographical information systems, and ANFIS. Research on 
+search and rescue has focused on robotics, multi-agent systems, and 
+computer vision. 
+
+
+The most cited paper in this domain is an article entitled “Human- 
+robot interaction in rescue robotics” published in IEEE Transactions on 
+Systems, Man, and Cybernetics by Murphy (2004). It is a tutorial paper on 
+how robots are currently used in urban search and rescue and the 
+human-robot integration issues encountered. 
+
+
+4.2.2. Economic empowerment 
+Economic empowerment involves providing access to resources and 
+
+
+opportunities, in particular for vulnerable populations. This was the 
+most under-researched domain with only six articles identified in the 
+corpus that were written between 2013 and 2018: three papers per-
+tained to agricultural quality and yield and three concerned the use of AI 
+to stimulate economic growth for vulnerable populations. No papers 
+were found to address financial inclusion or labor supply and demand 
+matching. Keyword analysis revealed that research into agricultural 
+quality and yield concerned classification and plant disease analysis. No 
+common keywords were found between the publications on economic 
+growth initiatives. 
+
+
+The most cited paper in this area is “Artificial intelligence policy in 
+India: a framework for engaging the limits of data-driven decision- 
+making” published in Philosophical Transactions of the Royal Society A by 
+
+
+Fig. 7. AI research publications by social impact domain.  
+
+
+Table 13 
+Production and citations by domain.  
+
+
+Domain Articles Average citations per 
+document 
+
+
+Date range 
+
+
+Security and justice 13 69.6 1996–2019 
+Equality and inclusion 18 15.5 2005–2019 
+Environmental challenges 113 9.8 1994–2019 
+Crisis response 84 11.3 1996–2019 
+Infrastructure management 272 11.6 1991–2019 
+Health and hunger 477 6.9 1992–2019 
+Educational challenges 21 2.5 2000–2019 
+Economic empowerment 6 2 2013–2018 
+Public and social sector 
+
+
+management 
+8 1.4 2014–2019 
+
+
+Information verification and 
+validation 
+
+
+13 1.1 2015–2019  
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+18
+
+
+Marda (2018). The article proposes a framework for AI-based policy 
+deliberations using India’s current AI policy landscape as a backdrop. 
+According to the author, AI policy in India is particularly oriented to-
+wards AI for economic growth and social good. 
+
+
+Today, a new generation of AI that could impact economic empow-
+erment is emerging. For example, Montes and Goertzel (2019) propose 
+an AI approach that operates in a decentralized, distributed, and more 
+democratized manner, potentially improving services and addressing 
+ethical issues in some markets. 
+
+
+4.2.3. Educational challenges 
+Educational challenges include improving student achievement and 
+
+
+increasing teacher and administrative productivity. A total of 21 pub-
+lications were found in the corpus dealing with this social domain. Most 
+papers involved maximizing student achievement and performance 
+(n = 19) and focus on machine learning, assessment, autism, fuzzy logic, 
+and prediction. Only two publications dealt with access to and 
+completion of education, and no papers were found addressing AI for 
+teacher and administrative productivity. According to author-provided 
+keywords, the two papers on education access dealt with online edu-
+cation, the theory of mind, the Turing test, and virtual teaching 
+assistants. 
+
+
+A sample paper from this domain is entitled “Evaluation of student 
+performance in laboratory applications using fuzzy logic” published in 
+Procedia - Social and Behavioral Sciences by Gokmen et al. (2010). The 
+paper proposes and tests a new performance evaluation method based 
+on fuzzy logic systems. 
+
+
+4.2.4. Environmental challenges 
+Environmental challenges involve protecting natural resources and 
+
+
+biodiversity, improving energy efficiency, and combatting climate 
+change. A total of 113 papers concerning AI and environmental issues 
+were identified in the corpus, published between 1994 and 2019, with 
+one-half of all publications appearing from 2018 onwards. The majority 
+of papers concerned global warming, climate change, and adaptation 
+(n = 105), with a focus on deep learning, artificial neural networks, and 
+smart grids. One in four papers on environmental challenges answered 
+questions of animal and plant conservation and biodiversity, with a 
+particular focus on ARtificial Intelligence for Ecosystem Services 
+(ARIES) technology and machine learning. Few papers were found to 
+have addressed energy efficiency and sustainability (2) or land, air, and 
+water conservation (5). 
+
+
+The most cited paper in this collection is entitled “It’s about time: A 
+conceptual framework for the representation of temporal dynamics in 
+geographic information systems” published in Annals of the Association 
+of American Geographers by Peuquet (1994). The article proposes an 
+integrated approach for representing spatiotemporal data in geographic 
+information systems. 
+
+
+4.2.5. Equality and inclusion 
+Equality and inclusion involve reducing biases based on gender, 
+
+
+disability, community, or race. This was one of the least researched areas 
+in the corpus, with only 18 papers published between 2005 and 2019. 
+The majority of papers concerned exploitation or discrimination on the 
+basis of race, gender, handicap, religion, or sexual orientation (12), with 
+a particular focus on conversational agents, game theory, and natural 
+language processing. Six papers were published on accessibility and 
+disabilities and no papers were found on AI and marginalized 
+communities. 
+
+
+The most cited paper in this domain is “Smart wheelchairs: A liter-
+ature review” published in the Journal of rehabilitation research and 
+development by (Simpson, 2005). 
+
+
+4.2.6. Health and hunger 
+Health and hunger is one of the oldest and most productive AI for 
+
+
+social good impact domains. It covers early-stage diagnosis and 
+
+
+improved treatment of illness, as well as optimized food distribution to 
+avoid hunger. A total of 477 documents were published in this domain 
+between 1992 and 2019, with half of all publications appearing over the 
+last five years. One researched theme was health prevention and pre-
+diction (n = 219). Analysis of co-occurring keywords identified three 
+thematic groups: big data and precision medicine, prognosis and pre-
+diction, and AI techniques for various health conditions. 
+
+
+Another published theme around health was treatment and long- 
+term care (269). Keyword analysis revealed three areas of interest: 
+psychiatric care, diagnosis using chatbots and conversational agents, 
+and the use of AI technologies for health care in general. 
+
+
+Mental wellness and health was a third theme that attracted research 
+attention across the period (76). Keyword analysis revealed a particular 
+focus on natural language processing, chatbots, and mental health. A 
+small number of documents were published on treatment delivery (6) 
+and hunger (3). 
+
+
+The most cited paper in this area is “Harnessing context sensing to 
+develop a mobile intervention for depression” published in Journal of 
+medical Internet research (Burns et al., 2011). The authors report on the 
+experimental use of mobile phone sensors and machine learning algo-
+rithms to detect unipolar depression in patients. Four papers on health 
+issues are also ranked amongst the top 50 most influential publications 
+in AI (see Table 4). 
+
+
+4.2.7. Information verification and validation 
+Information verification and validation involves the detection, 
+
+
+filtering, and negating of false, misleading, or polarizing content. This 
+domain is the youngest of the ten AI for social good domains, recently 
+gaining attention with the increasing diffusion of “fake news” across 
+social media. A total of 13 publications on this topic were identified in 
+the corpus since 2015. The majority of publications concern fake or false 
+news (11), with a main focus on deep learning, deception detection, and 
+natural language processing. Only two articles have dealt with the po-
+larization of opinion. 
+
+
+The most cited document in this collection is a conference paper 
+entitled “Fake news detection using naive Bayes classifier” by Granik 
+and Mesyura (2017) that was presented at the 2017 IEEE First Ukraine 
+Conference on Electrical and Computer Engineering (UKRCON). Using 
+Facebook data, the article demonstrates how artificial intelligence can 
+be used for fake news detection. 
+
+
+4.2.8. Infrastructure management 
+Infrastructure management involves improving the use and man-
+
+
+agement of energy, water and waste, and optimizing transportation, real 
+estate development, and urban planning for social good. This is the 
+second most productive and oldest domain of AI research for social good 
+with 272 publications appearing between 1991 and 2019. Most publi-
+cations in this area are on energy management (153), with a particular 
+focus on distributed power generation, machine learning, and energy 
+management. A large number of publications also deal with water and 
+waste management (76), often using deep learning and fuzzy logic. 
+Publications on both of these themes also use neural networks. Urban 
+planning has also received attention from researchers (31), most often 
+addressing questions of smart cities and climate change. Some publi-
+cations on real estate (20) and transportation management (12) also 
+appeared during the period. 
+
+
+The most cited paper in this area is “Multiobjective intelligent energy 
+management for a microgrid” published in IEEE transactions on Industrial 
+Electronics by Chaouachi et al. (2012). The authors investigated online 
+energy management using intelligent microgrids under cost and emis-
+sion minimization constraints. Two papers on infrastructure manage-
+ment are ranked amongst the top 50 most influential publications in AI. 
+
+
+4.2.9. Public and social sector management 
+This domain includes all activities that seek to improve the perfor-
+
+
+mance of public and social bodies, their financial management, and the 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+19
+
+
+delivery of services to citizens. Only eight publications concerned this 
+domain between 2014 and 2019, mainly dealing with government ser-
+vices to citizens (9) and the effective management of the public sector 
+(2). No publications in the corpus treated the use of AI for fundraising, 
+the management of the social sector, or public finances. 
+
+
+The most cited article in this domain is “IoT and AI for smart gov-
+ernment: A research agenda” published in Government Information 
+Quarterly by Kankanhalli et al. (2019). A second example of the possible 
+role of AI in public and social sector management is provided by de 
+Sousa et al. (2019) in their review of AI use in the public sector. One 
+paper from this domain is ranked amongst the top 50 most influential 
+publications in AI 
+
+
+4.2.10. Security and justice 
+The security and justice domain includes activities seeking to reduce 
+
+
+crime and physical harm, improve policing, and ensure a fair judiciary. 
+A small number of publications (13) addressed this domain between 
+1996 and 2019, most on the theme of policing (10). Few publications 
+addressed the use of AI for harm prevention (1) and fair prosecution (2). 
+
+
+A representative and highly cited article in this area is “A data-driven 
+software tool for enabling cooperative information sharing among po-
+lice departments” and was published in the European Journal of Opera-
+tional Research by Redmond and Baveja (2002). The authors present a 
+police department decision support system that uses artificial Intelli-
+gence software. 
+
+
+Table 14 presents a breakdown of the ten social impact domains by 
+journal, institution, and country. 
+
+
+Once again, the USA, the UK, and China lead AI research in the 
+majority of social impact domains. However, several smaller countries 
+also participate in specific areas, such as Turkey on environmental 
+challenges, Italy on information verification and validation, and Spain in 
+infrastructure management. Many lower-ranked institutions also work 
+on these issues, and most publications are in conferences rather than 
+journals. 
+
+
+5. Discussion 
+
+
+This paper reviews the evolution and structure of AI research using 
+bibliometric methods. The results provide insights into the conceptual, 
+intellectual, and social structure of AI scholarship, as well as its past and 
+emerging themes. The number of publications on AI has risen rapidly 
+these past five years, with as many publications appearing since 2015 as 
+over the preceding 40 years. The influence of publications has also 
+increased, lending support to Haenlein and Kaplan’s periodization of AI 
+research using the seasons: since 2015, scholars appear to be reaping the 
+harvest of several past decades of conceptual and technical development 
+and experimentation. 
+
+
+The fastest-growing publication outlets are open access journals and 
+in particular IEEE Access, Applied Sciences (Basel), Sensors, Energies, 
+IET Computer Vision, Scientific Reports, Sustainability, IFAC Paper-
+sonline and Journal of Engineering (JOE). Articles are accessible to all 
+from their online publication date, giving authors a better chance to 
+diffuse their research and make an impact in the field (Eysenbach, 2006; 
+van Vlokhoven, 2019). Given the rapid evolution of AI, it is easy to 
+understand why researchers feel the need to publish their research as 
+quickly as possible. The quality and reputation of journals are also a 
+consideration for authors, with IEEE Access the 2015 winner of the 
+PROSE Award for the best new journal in science, technology, engi-
+neering, and mathematics.6 
+
+
+Several dominant research themes were found to characterize 
+contemporary AI research, notably learning for feature extraction and 
+image classification and machine learning using neural networks and 
+
+
+big data. These themes have evolved from early, highly developed fields 
+such as expert systems, knowledge representation, and neural networks. 
+Our analysis shows that AI technologies, models, and applications are 
+still at the center of AI research, with little or no influence from the 
+social sciences, thus confirming previous work by Frank et al. (2019). 
+However, the development of a large, emerging cluster on machine 
+learning that notably includes research on big data and AI, and a smaller 
+motor research cluster on AI learning and feature extraction reveals a 
+growing interest in using AI to learn about real-world phenomena 
+through image processing. 
+
+
+We can observe a clear shift in AI research paradigms, from genetic 
+algorithms, machine learning, and fuzzy sets to deep learning and con-
+volutional neural networks. One explanation is that modeling using 
+deep learning and convolutional neural networks, and possibly a com-
+bination of their capabilities to form deep convolutional networks is 
+more appropriate in complex environments than were previous tech-
+niques, making them suited for complex learning tasks, especially those 
+involving detecting, identifying, and processing images, videos, speech, 
+text, and audio (Krizhevsky et al., 2012; LeCun et al., 2015). The volume 
+of AI research applying these techniques is expected to increase over the 
+coming years. 
+
+
+Our findings show a growing emphasis on AI’s technical aspects and 
+little research on the social and societal aspects that would shape a good 
+AI society. Research on the ten AI for social good domains accounted for 
+less than 3% of publications in the corpus. The most productive areas 
+were health and hunger, infrastructure management, and environmental 
+challenges. Unequal interest has been paid to research themes within 
+these domains: three-quarters of research on environmental challenges 
+has addressed global warming and climate change; most research on 
+health and hunger has studied two themes (prediction and prevention, 
+treatment and long-term care); and 80% of publications on an infra-
+structure management deal with energy, water, and waste. 
+
+
+Given the rapid technological evolution of the AI domain, a number 
+of research questions remain unanswered about the possible positive 
+impacts of AI on society and people. Drawing from the bibliometric 
+analysis, the in-depth analysis of the professional literature, the dis-
+cussion sessions between the researchers and the emerging literature on 
+AI for good, a list of potential future research questions have been 
+identified. Table 15 lists research questions in each of the ten social 
+impact domains identified by Chui et al. (2018) that could guide 
+scholars as they explore how AI can be developed for the good of society. 
+
+
+These research questions complete and complement suggestions 
+made by other studies (Cath et al., 2018; Duan et al., 2019; Russell et al., 
+2015a). Scholars could further explore these domains through literature 
+reviews and case studies to refine research questions and contribute to 
+the knowledge base of AI for good. 
+
+
+The results of our study should be read in light of their limitations. 
+Firstly, some publications might have not been considered in our anal-
+ysis if they were not present in the WoS Core Collection database. Sec-
+ondly, while we use several well-established bibliometric tools for data 
+analysis, insights are based on the authors’ expertise. A meta-analytical 
+review of the literature may provide other insights the authors may have 
+overlooked. This may be an avenue for future research. With these 
+limitations in mind, we believe we have provided a comprehensive re-
+view of AI scholarship, highlighted its evolution and knowledge struc-
+ture, and suggested evidence-based research directions to develop AI for 
+the good of society. 
+
+
+6. Conclusion 
+
+
+Our study has answered the call for greater research into how public 
+and private actors should best harness AI technologies for good. Using a 
+typology of domains where AI technologies could have an important 
+social impact as a framework, we critically appraised 45 years of AI 
+scholarship, described the current state of research, and identified many 
+opportunities and directions for future research. 
+
+
+6 https://proseawards.com/winners/2015-award-winners/ Retrieved 
+September 19, 2019 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+20
+
+
+We now invite researchers to extend and complement this study 
+through domain and issue-specific research and, in so doing, help shape 
+the directions in which AI will transform our societies. 
+
+
+Author statement   
+
+
+Table 14 
+Main outlets, countries and institutions by social impact domain.  
+
+
+Domain Main journals Main countries Main institutions Highest 
+TC 
+
+
+Papers in 
+top 50 
+
+
+Security and justice RS (3), AI-MAG (2), 
+EAAI (2) 
+
+
+USA (25), China (7), Iran 
+(5) 
+
+
+Univ S Florida (4), Colorado Sch Mines (2), Gh Asachi Tech Univ 
+Iasi (2) 
+
+
+155  
+
+
+Equality and inclusion IS18 (1), GHTC (1), 
+PHILT (1) 
+
+
+India (1), Japan (1), 
+Norway (1) 
+
+
+Chandigarh Univ (1), Inst Hyper Network Soc (1), Norwegian 
+Univ Sci And Technol (1) 
+
+
+17 162  
+
+
+Environmental challenges IJEE (2), AIES18 (2), 
+INTED (1) 
+
+
+USA (9), Turkey (2), 
+Austria (1) 
+
+
+Georgia Inst Technol (2), Near East Univ (2), Smith Coll (2), Comp 
+Res Inst (1) 
+
+
+4 055  
+
+
+Crisis response STE (4), WAT (4), 
+EES (3) 
+
+
+China (18), USA (18), 
+Korea (8) 
+
+
+Cyber Univ Korea (3), Univ Regina (3), Chaoyang Univ Technol 
+(2) 
+
+
+123  
+
+
+Infrastructure 
+management 
+
+
+SII13 (1), CCWC (1), 
+AI-EDAM (1) 
+
+
+Spain (5), USA (5), United 
+Kingdom (3) 
+
+
+Univ Deusto (2), Atilim Univ (1), Brookings Inst (1), Cardiff Univ 
+(1) 
+
+
+145 2 
+
+
+Health and hunger AIM (12), ESA (9), 
+JMIR (9) 
+
+
+USA (119), China (45), 
+United Kingdom (33) 
+
+
+Univ Toronto (6), Hong Kong Polytech Univ (5), Iuliu Hatieganu 
+Univ (4) 
+
+
+149 4 
+
+
+Educational challenges JIPS (2), KBEI (1), 
+UKRCON (1) 
+
+
+USA (3), Korea (2), 
+Ukraine (2) 
+
+
+Vinnytsia Natl Tech Univ (2), Azad Univ (1), Carleton Univ (1), 
+Columbia Univ;Columbia Univ 
+
+
+7 100  
+
+
+Economic empowerment EES (7), SENS (7), 
+E&B (6) 
+
+
+China (40), USA (25), 
+United Kingdom (21) 
+
+
+Cardiff Univ (4), Comsats Inst Informat Technol (4), Univ Tehran 
+(4) 
+
+
+98  
+
+
+Public and social sector 
+management 
+
+
+ICEDEG (1), SITA 
+(1), ALR (1) 
+
+
+United Kingdom (3), 
+Australia (1), Canada (1) 
+
+
+Dept Comp Sci (1), Integral Mind Technol (1), Interdisciplinary 
+Ctr Herzliya;Osgoode Hall Law Sch (1), King Khalid Univ (1) 
+
+
+9 248 1 
+
+
+Information verification 
+and validation 
+
+
+AI&S (1), AT (1), 
+CHI19 (1) 
+
+
+USA (7), Italy (2), 
+Germany (1) 
+
+
+Univ Catania (2), Rutgers State Univ (1), San Jose State Univ (1) 28  
+
+
+AI&S, AI & Society; AI-EDAM, Ai Edam-Artificial Intelligence For Engineering Design Analysis and Manufacturing; AIES18, 2018 AAAI/ACM Conference on AI, Ethics, 
+and Society; ALR, Alberta Law Review; AT, Anthropology Today; CCWC, 2018 IEEE 8th Annual Computing and Communication Workshop and Conference; CHI19, 
+2019 CHI Conference on Human Factors In Computing Systems; E&B, Energy and Buildings; GHTC, 2018 IEEE Global Humanitarian Technology Conference; ICEDEG, 
+2014 First International Conference on e-Democracy & e-Government; IJEE, International Journal of Engineering Education; INTED, 12th International Technology, 
+Education and Development Conference; IS18, 2018 9th International Conference on Intelligent Systems; JIPS, Journal of Information Processing Systems; JMIR, 
+Journal of Medical Internet Research; KBEI, 2015 2nd International Conference on Knowledge-Based Engineering and Innovation; PHILT, Philosophical Transactions 
+of The Royal Society A-Mathematical Physical and Engineering Sciences; RS, Remote Sensing; SII13, 2013 IEEE/Sice International Symposium on System Integration; 
+SITA, 2015 10th International Conference on Intelligent Systems: Theories and Applications; STE, Science of The Total Environment; UKRCON, 2017 IEEE First 
+Ukraine Conference on Electrical and Computer Engineering; WAT, Water. 
+
+
+Author Contribution 
+
+
+Samuel Fosso Wamba  • Idea generation and formulation  
+• Research goals and aims  
+• Guide for literature review  
+• Conduct the first search for articles  
+• Download all articles for the bibliometric analysis  
+• Conduct the initial data analysis and interpretation  
+• Co-writing of the first draft, advanced draft, and final paper  
+• Finalize the paper  
+• Participate in the whole revision process of the manuscript  
+• Coordinate the team during the entire process 
+
+
+Ransome Epie Bawack  • Conduct a more elaborate data analysis and interpretation  
+• Co-writing of the first draft, advanced draft, and final paper  
+• Participate to the literature review process  
+• Participate in the whole revision process of the manuscript 
+
+
+Kevin Carillo  • Co-writing of the first draft, advanced draft, and final paper  
+• Participate in the whole revision process of the manuscript 
+
+
+Cameron Guthrie  • Conduct the second data collection required during the review process  
+• Conduct all new required analysis requested during the review process  
+• Lead the revision process  
+• Put together all parts of the revised paper  
+• Co-writing of the revised draft, advanced draft, and final paper 
+
+
+Maciel M. Queiroz  • Co-writing of the first draft, advanced draft, and final paper  
+• Participate in the whole revision process of the manuscript   
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+21
+
+
+Table 15 
+Research questions on developing, adopting, and implementing AI for social 
+good.  
+
+
+Social impact domains and research questions on AI 
+
+
+1. Crisis response 
+Issue 1.1 - Disease outbreak  
+• How can AI predict disease outbreaks and support emergence response planning?  
+• How can AI techniques detect disease local outbreak diffusion patterns?  
+• How can AI help avoid supply shortages and optimize resource allocation?  
+• How can AI systems detect and identify salient symptoms (fever, blood pressure, 
+
+
+heart rate pulse, pupil dilatation)?  
+• How can AI systems interact with patients to identify specific disease pathologies? 
+Issue 1.2 - Migration crises  
+• How can AI be used to analyze geo satellite data to identify and monitor migration 
+
+
+flows during social/political conflicts or wars?  
+• How can AI assist migrants in the social reestablishment process?  
+• Will AI provide a basis for policymakers to developing social policies to minimize 
+
+
+the effects of the migration crisis? 
+Issue 1.3 - Natural and man-made disasters  
+• How can AI help reduce uncertainty in decision-making during disaster 
+
+
+management?  
+• How can AI support social resilience during natural disasters?  
+• How can AI be used to analyze social media to detect, monitor, and manage 
+
+
+disasters?  
+• How can AI be used to assessing disaster damage and optimize aid delivery?  
+• How can AI be used with other new technologies such as drones, driverless cars, and 
+
+
+nanosatellites to enhance disaster response?  
+• How can aid organizations use AI to improve decision making, resource utilization, 
+
+
+and allocation, coordination, and collaboration between disaster management 
+stakeholders? 
+
+
+Issue 1.4 - Search and rescue  
+• What is the role of AI in helping search and rescue in difficult regions?  
+• How can AI autonomous agents (robots) be used to help and rescue individuals in 
+
+
+areas with extreme conditions?  
+• How can AI be used to optimize the rescue strategy for a given mission under strict 
+
+
+time constraints pertaining to the life of individuals?  
+• How can AI systems use satellite data to identify individuals, lost ships, or airplane 
+
+
+wreckages (in the middle of oceans, deserts…)? 
+2. Economic empowerment 
+Issue 2.1 - Agricultural quality and yield  
+• What is the economic value of integrating AI solutions into farming processes (e.g., 
+
+
+real-time monitoring of livestock and crops)?  
+• Which are the enablers and barriers of AI adoption by farmers?  
+• How can AI be used by farmers to optimize harvesting and overall profit?  
+• How can AI systems be used to visually identify crop and soil-borne diseases?  
+• How can AI systems assist farmers to optimize the growth of cereals (plot location, 
+
+
+seeding, watering, fertilizing)? 
+Issue 2.2 - Financial inclusion  
+• How can AI promote financial inclusion by using smart devices?  
+• How could an AI system be designed to provide an accurate credit risk assessment of 
+
+
+an individual based on their digital footprint and online interactions?  
+• How can AI help in developing AI-based micro-credit services in developing 
+
+
+countries?  
+• How can AI help empower vulnerable people in developing countries?  
+• Will AI contribute to accelerating financial inclusion in both developed and 
+
+
+developing countries? 
+Issue 2.3 - Initiatives for economic growth  
+• How can AI help monitor and predict the evolution of financial markets to prevent 
+
+
+financial crises?  
+• How should AI systems be designed and used to detect weak signals that 
+
+
+characterize the advent of a financial crisis?  
+• What are the impacts of AI solutions on manufacturing processes in terms of 
+
+
+personalized products at the individual, group, city, state levels? 
+Issue 2.4 - Labor supply and demand matching  
+• How can AI help optimize the labor market and reduce unemployment?  
+• How can AI be used to identify the best candidate for a given job offer? 
+3. Educational challenges 
+Issue 3.1 - Access and completion of education  
+• Will AI improve the societal indicators for education in emerging economies?  
+• How can AI be used as a tool to democratize and leverage high-quality education?  
+• How can AI be used to improve the learning experience of students by matching the 
+
+
+content and courses to the specific profiles and needs of students?  
+• How can an AI system help candidates identify educational programs that match 
+
+
+their needs and specificities? 
+Issue 3.2 - Maximizing student achievement  
+• What are the potential impacts of AI on learning outcomes?  
+• How can AI be used by students to improve their performance?  
+
+
+Table 15 (continued ) 
+
+
+Social impact domains and research questions on AI  
+
+
+• How should an AI-based virtual assistant be designed and used to help students 
+during schooling?  
+
+
+• Will AI contribute to reducing the educational divide? 
+Issue 3.3 - Teacher and administration productivity  
+• How can teachers enhance their classroom performance with AI?  
+• How can AI systems help teachers in the pedagogy and delivery of their courses?  
+• Will AI enable personalize learning?  
+• Will AI facilitate the work of all actors of the education ecosystem and improve their 
+
+
+productivity? 
+4. Environmental challenges 
+Issue 4.1 - Animal and plant conservation  
+• Can AI techniques support biodiversity conservation by predicting plant and animal 
+
+
+extinction?  
+• How can the use of IoT devices and AI systems be designed and used to monitor 
+
+
+endangered animals and species?  
+• How can AI applications improve the protection of endangered species or exhausted 
+
+
+populations? 
+Issue 4.2 - Climate change and adaptation  
+• Will AI improve the societal indicators for the environment in emerging economies?  
+• How can AI help discover unanticipated climate change events?  
+• How can AI help develop response, contingency, and continuation planning before 
+
+
+a climate change event?  
+• How can IoT and AI systems be used to more precisely monitor and control global 
+
+
+warming?  
+• To what extent can companies use IoT and AI systems to precisely evaluate and 
+
+
+monitor their carbon imprint?  
+• How can AI applications contribute to combating climate change? 
+Issue 4.3 - Energy efficiency and sustainability  
+• Are countries ready to adopt robots to enable a sustainable “good AI society”?  
+• How can AI optimize energy distribution and pricing to patterns of energy 
+
+
+consumption?  
+• How can AI techniques be used to optimize energy consumption on smart grids?  
+• How should an AI tool be designed to help cities optimize energy supply and 
+
+
+demand?  
+• How can AI applications contribute to sustainable production?  
+• What is the contribution of AI to sustainable resource management? 
+Issue 4.4 - Land, air, and water conservation  
+• How can AI applications contribute to minimizing air pollution?  
+• How can AI help anticipate air pollution?  
+• How can the combination of IoT, analytics, and AI help in maintaining good air 
+
+
+quality in large cities? 
+5. Equality and inclusion 
+Issue 5.1 - Accessibility and disabilities  
+• How can AI help people with visual, hearing, and physical disabilities?  
+• How can AI-enabled robots be used to assist individuals with physical disabilities?  
+• How can AI systems detect individuals with disabilities and provide them with real- 
+
+
+time assistance (in the streets, at pedestrian crossings, in shops and offices)? 
+Issue 5.2 - Exploitation  
+• How can AI be used to identify victims of exploitation?  
+• How can AI be used to analyze social media data to detect potential exploitation 
+
+
+threats?  
+• How can AI applications contribute to combating discrimination?  
+• How can AI applications enhance social diversity and inclusion? 
+Issue 5.3 - Marginalized communities  
+• What is the role of AI in transforming social well-being in marginalized 
+
+
+communities?  
+• How can AI systems be used to help monitor and control the health and 
+
+
+sustainability of marginal communities? 
+6. Health and hunger 
+Issue 6.1 - Treatment delivery  
+• Will AI improve the societal indicators for public health systems in emerging 
+
+
+economies?  
+• How can better image processing improve government decisions related to health in 
+
+
+society?  
+• How can AI be used to identify the best possible medical treatment for a given 
+
+
+medical case or pathology?  
+• To what extent will it be possible to design an AI system that helps assist individuals 
+
+
+in their daily medication and treatment?  
+• Will AI improve the societal indicators for public health systems in emerging 
+
+
+economies?  
+• How can AI applications help reduce operating costs and improve quality in 
+
+
+healthcare systems? 
+Issue 6.2 - Prediction and prevention  
+• To what extent will AI transform traditional medicine into predictive medicine?  
+• To what extent will AI transform traditional medicine into preventive medicine?  
+• How can AI applications help to prevent and solve malnutrition issues? 
+
+
+(continued on next page) 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+22
+
+
+Supplementary materials 
+
+
+Supplementary material associated with this article can be found, in 
+the online version, at doi:10.1016/j.techfore.2020.120482. 
+
+
+Appendix 1. AI for social good framework: based on from Chui 
+et al. (2018)   
+
+
+Social impact 
+domain 
+
+
+Description Example use of AI 
+
+
+1 Crisis response Specific crisis-related 
+challenges, such as 
+responding to natural and 
+man-made disasters in 
+search and rescue missions 
+and at times of disease 
+outbreak 
+
+
+Using AI on satellite data 
+to map and predict 
+wildfire progression to 
+optimize firefighter 
+response. 
+
+
+2 Economic 
+empowerment 
+
+
+Opening access to 
+economic resources and 
+opportunities, including 
+jobs, skills development, 
+and market information, 
+with an emphasis on 
+currently vulnerable 
+populations. 
+
+
+Early detection of plant 
+damage through low- 
+altitude sensors, 
+including smartphones 
+and drones, to improve 
+yield in small farms. 
+
+
+Educational 
+challenges 
+
+
+Maximizing student 
+achievement and 
+improving teacher 
+productivity 
+
+
+Adaptive learning 
+technology used to 
+recommend content to 
+students based on past 
+success and engagement 
+with the material. 
+
+
+4 Environmental 
+challenges 
+
+
+These include sustaining 
+biodiversity and 
+combating natural 
+resource depletion, 
+pollution, and climate 
+change. 
+
+
+Robots with AI 
+capabilities can be used 
+to sort recyclable 
+material from waste. 
+
+
+5 Equality and 
+inclusion 
+
+
+Addressing equality, 
+inclusion, and self- 
+determination challenges, 
+such as reducing or 
+eliminating bias based on 
+race, sexual orientation, 
+religion, citizenship, and 
+disabilities. 
+
+
+Use of AI to automate 
+emotion recognition and 
+provide social cues to 
+help individuals along 
+the autism spectrum 
+interact in social 
+environments. 
+
+
+(continued on next page) 
+
+
+Table 15 (continued ) 
+
+
+Social impact domains and research questions on AI  
+
+
+• How can AI applications help to prevent diseases? 
+Issue 6.3 - Treatment and long-term care  
+• How should AI agents be designed to help individuals monitor their current health?  
+• How can AI be used to ensure the long-term health and well-being of patients and 
+
+
+individuals? 
+Issue 6.4 - Mental wellness  
+• How can AI agents help in interacting with individuals suffering from mental 
+
+
+illnesses?  
+• Should AI use an individual’s digital footprint to assess their level of mental 
+
+
+wellness? 
+Issue 6.5 - Hunger  
+• How can AI be used to combat food waste?  
+• How can AI be used to optimize the distribution of surplus food to needy 
+
+
+populations?  
+• How can AI contribute to reducing hunger?  
+• Can AI systems help in predicting food crises based on past and current weather and 
+
+
+harvest data? 
+7. Information verification and validation 
+Issue 7.1 - False news  
+• What are the technological and ethical issues in monitoring customer’s behavior in 
+
+
+social media with AI?  
+• How can AI techniques be used to distinguish fake news from real news?  
+• How should AI agents be designed to help individuals detect and report fake news to 
+
+
+legal entities?  
+• How can AI applications contribute to combating fake news?  
+• What is the contribution of AI applications to real-time fact-checking? 
+Issue 7.2 - Polarization  
+• How can AI prevent the polarization of information in broadcast, online, and social 
+
+
+media? 
+8. Infrastructure management 
+Issue 8.1 - Energy 
+• To what extent could AI be used to provide real-time analysis of public trans-
+
+
+portation to optimize energy consumption?  
+• How can AI be used by cities and countries to optimize energy consumption based 
+
+
+on traffic and weather data? 
+Issue 8.2 - Real estate  
+• How can AI be used to optimize real estate investments?  
+• How can AI be used to track, monitor, and manage the real estate projects of cities? 
+Issue 8.3 - Transportation  
+• How can better image processing improve government decisions related to 
+
+
+transportation services?  
+• How can AI be combined with geographic information systems to improve transport 
+
+
+services and experience?  
+• How can AI be used for the predictive maintenance of public transport systems?  
+• How can better image processing be used in automated transportation systems and 
+
+
+robots for the benefit of society? 
+Issue 8.4 - Urban planning  
+• How can AI systems be used to optimize and predict urban planning in large cities?  
+• How can AI applications help build more efficient and sustainable public 
+
+
+infrastructure?  
+• What is the impact of AI on urban planning? 
+Issue 8.5 - Water and waste management  
+• How can AI help improve waste management in urban areas?  
+• How can AI support a circular economy in water distribution and waste 
+
+
+management?  
+• How can AI be used to manage and predict water consumption based on weather 
+
+
+data?  
+• How can AI be used with IoT devices to monitor groundwater levels? 
+9. Public and social sector management 
+Issue 9.1 - Effective management of the public sector  
+• What skills are required to use AI productively in public sector management?  
+• How will AI transform public sector service delivery and management?  
+• To what extent is the public sector ready to interact with AI systems and agents? 
+Issue 9.2 - Effective management of the social sector  
+• How can AI be used to assist social sector operations?  
+• How can AI virtual agents help workers in the social sector? 
+Issue 9.3 - Fundraising  
+• How can fundraising campaigns be improved through the use of AI systems? 
+Issue 9.4 - Public finance management  
+• To what extent can AI optimize the management of public finances? 
+Issue 9.5 - Services to citizens  
+• How could AI be used to identify and provide customized services to citizens?  
+• What new kinds of AI-based services could be provided to citizens?  
+• How can AI improve citizen experiences in cities?  
+• How can AI applications enhance public safety?  
+
+
+Table 15 (continued ) 
+
+
+Social impact domains and research questions on AI  
+
+
+• How can AI applications help identify high-risk urban areas for better government 
+interventions?  
+
+
+• How can AI applications help improve resource allocation within a city, region, or 
+country? 
+
+
+10. Security and justice 
+Issue 10.1 - Harm prevention  
+• To what extent can AI allow for a predictive or preventive justice system?  
+• How are governments across the globe deploying AI surveillance technologies? 
+Issue 10.2 - Fair prosecution  
+• How should we design AI-based diagnosis and evaluation systems to help the justice 
+
+
+system analyze evidence?  
+• Will AI be able to assist lawyers and judges in ensuring fair trials?  
+• What is the impact of AI applications on citizens’ rights (e.g., freedom of speech, 
+
+
+association, movement, strike, etc.)?  
+• How can AI applications facilitate social justice? 
+Issue 10.3 - Policing  
+• How can better image processing improve government decisions related to security 
+
+
+in society?  
+• What are the ethical issues of AI for monitoring the population?  
+• Can AI systems help police forces detect potential criminals through the real-time 
+
+
+analysis of social media data?  
+• How can computer vision help detect and identify potential crimes?  
+• Will AI be capable of assisting the police in preventing crimes?  
+• Is AI going to lead to a surveillance society, and if so how can we protect citizens’ 
+
+
+rights?  
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+https://doi.org/10.1016/j.techfore.2020.120482
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+23
+
+
+(continued )  
+
+
+Social impact 
+domain 
+
+
+Description Example use of AI 
+
+
+6 Health and hunger Addressing health and 
+hunger challenges, 
+including early-stage 
+diagnosis and optimized 
+food distribution. 
+
+
+Disease detection AI 
+system using the visual 
+diagnosis of natural 
+images. 
+
+
+7 Information 
+verification and 
+validation 
+
+
+The challenge of 
+facilitating provision, 
+validation, and 
+recommendation of 
+helpful, valuable, and 
+reliable information to all. 
+
+
+Actively presenting 
+opposing views to 
+ideologically isolated 
+pockets in social media. 
+
+
+8 Infrastructure 
+management 
+
+
+Infrastructure challenges 
+that could provide public 
+good in the categories of 
+energy, water, and waste 
+management, 
+transportation, real estate, 
+and urban planning. 
+
+
+Predictive maintenance 
+of public transportation 
+systems such as trains 
+and public 
+infrastructure. 
+
+
+9 Public and social 
+sector 
+management 
+
+
+Initiatives that are related 
+to the efficiency and 
+effective management of 
+public- and social-sector 
+entities, including strong 
+institutions, transparency, 
+and financial management. 
+
+
+Identify tax fraud using 
+alternative data such as 
+browsing data, retail 
+data, and payment 
+history. Providing 
+automated question 
+answering via email to 
+improve government 
+interaction with citizens. 
+
+
+10 Security and 
+justice 
+
+
+Challenges in society 
+include harm prevention, 
+tracking criminals, and 
+mitigating bias of police 
+forces. 
+
+
+Using AI to create 
+solutions that help 
+firefighters determine 
+safe paths through 
+burning buildings using 
+data from IoT devices.  
+
+
+Appendix 2. Acronyms used in tables  
+
+
+Acronym Description 
+
+
+≥ 500, ≥ 200, ≥ 100, ≥ 50 Documents with greater than or equal to 500, 200, 100 and 50 citations 
+<50 Documents with less than 50 citations 
+C Country name 
+C/Y Citations per year (TC/number of years) 
+CAI/Y Citations in artificial intelligence per year (TCAI/number of years) 
+CAGR Compound annual average growth rate of research output 
+hAI H-index based exclusively on artificial intelligence publications 
+IF Impact Factor (published by Clarivate) 
+IF-5Y Impact Factor for the past 5 years 
+J Abbreviated journal names 
+mAI M-index based exclusively on artificial intelligence publications 
+Main area Main research area of publication based on WoS schema 
+PCAI Average citations by artificial intelligence publications 
+%PAI Percentage of documents published in artificial intelligence (TPAI/TP) 
+PAI/th Total publications in artificial intelligence per thousands of total publications 
+Secondary area Secondary research area of publication based on WoS schema 
+T50 Articles in the top 50 
+TC Total citations in all areas 
+TCAI Total citations in artificial intelligence research 
+TP Total publications in all areas 
+TPAI Total publications in artificial intelligence 
+TPAI-W Total publications in artificial intelligence during the AI Winter period 
+TPAI-F Total publications in artificial intelligence during the AI Fall period 
+TPAI/PMH Total publications in artificial intelligence per million inhabitants 
+TCAI/PMH Total citations in artificial intelligence research per million inhabitants 
+YP Year of publication: first year of publication in the case of a journal or an author; exact year of publication in the case of a document  
+
+
+Note: CAI/Y, hAI, mAI, TCAI are based on local citations, that is citations by other publications in the corpus. 
+
+
+Appendix 3. Queries used by social impact domain 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+24
+
+
+Social impact domain Query 
+
+
+1 Crisis response disease outbreak OR migration crisis OR humanitarian cris* OR natural disaster OR man-made disaster OR search and rescue 
+2 Economic empowerment agricultural yield OR agricultural quality OR financial inclusion OR economic growth.*initiative OR initiative.*economic growth OR 
+
+
+economic growth.*empowerment OR empowerment.*economic growth OR economic growth.*inclusion OR inclusion.*economic growth 
+OR labor supply OR labor demand 
+
+
+3 Educational challenges education access OR education completion OR student performance OR student achievement OR teacher productivity OR administration 
+productivity OR education productivity 
+
+
+4 Environmental challenges animal conservation OR plant conservation OR climate change OR global warming OR energy sustainability OR energy efficiency OR land 
+conservation OR air conservation OR water conservation 
+
+
+5 Equality and inclusion access*.*disabilit* OR disabilit*.*access* OR exploitation.*handicap OR exploitation.*gender OR exploitation.*race OR exploitation.* 
+sexual OR exploitation.*religio* OR handicap.*exploitation OR gender.*exploitation OR race.*exploitation OR sexual.*exploitation OR 
+religio*.*exploitation OR discrimination.*handicap OR discrimination.*gender OR discrimination.*race OR discrimination.*sexual OR 
+discrimination.*religion OR handicap.*discrimination OR gender.*discrimination OR race.*discrimination OR sexual.*discrimination OR 
+religio*.*discrimination OR marginalized communities 
+
+
+6 Health and hunger treatment delivery OR health.*prediction OR health.*prevention OR prevention.*health OR prediction.*health OR health.*treatment OR 
+health.*long-term care OR treatment.*health OR long-term care.*health OR mental wellness OR mental health OR hunger 
+
+
+7 Information verification and 
+validation 
+
+
+fake news OR false news OR polarization 
+
+
+8 Infrastructure management energy management OR real estate management OR transportation management OR transport management OR urban planning OR water 
+management OR waste management 
+
+
+9 Public and social sector 
+management 
+
+
+public sector.*management OR social sector.*management OR fundraising OR public finance.*management OR management.*public 
+finance OR citizen service OR services to citizens OR services for citizens OR government services 
+
+
+10 Security and justice harm prevention OR fair prosecution OR policing  
+
+
+Appendix 4. Productivity and influence statistics by domain and key issue  
+
+
+Domain Count Average citations Date range 
+
+
+Crisis response 84 11.3 1996–2019 
+Disease outbreak 10 3.7 2008–2019 
+Migration crises 2 0 2018–2018 
+Natural and man-made disasters 34 7.4 1996–2019 
+Search and rescue 39 16.9 1996–2019 
+Economic empowerment 6 2 2013–2018 
+Agricultural quality and yield 3 2.7 2013–2018 
+Financial inclusion 0 0 – 
+Initiatives for economic growth 3 1.3 2016–2018 
+Labor supply and demand matching 0 0 – 
+Educational challenges 21 2.5 2000–2019 
+Access and completion of education 2 0.5 2018–2018 
+Maximizing student achievement 19 2.7 2000–2019 
+Teacher and administration productivity 0 0 – 
+Environmental challenges 113 9.8 1994–2019 
+Animal and plant conservation 31 22.7 2001–2019 
+Climate change and adaptation 105 9.9 1994–2019 
+Energy efficiency and sustainability 2 6 2018–2019 
+Land, air, and water conservation 5 12 2003–2019 
+Equality and inclusion 18 15.5 2005–2019 
+Accessibility and disabilities 6 42.1 2005–2019 
+Exploitation 12 1.5 2013–2019 
+Marginalized communities 0 0 – 
+Health and hunger 477 6.9 1992–2019 
+Treatment delivery 6 1.8 2018–2019 
+Prediction and prevention 219 5.4 1992–2019 
+Treatment and long-term care 269 6.9 1992–2019 
+Mental wellness 76 11.2 1992–2019 
+Hunger 3 4 2009–2018 
+Information verification and validation 13 1.1 2015–2019 
+False news 11 1.3 2017–2019 
+Polarization 2 0 2015–2018 
+Infrastructure 272 11.6 1991–2019 
+Energy 153 12.9 1991–2019 
+Real estate 20 1.6 1997–2019 
+Transportation 12 9.4 1996–2018 
+Urban planning 31 4 1991–2019 
+Water and waste management 76 12.7 1994–2019 
+Public and social sector 8 1.4 2014–2019 
+Effective management of the public sector 2 2 2018–2019 
+Effective management of the social sector 0 0 – 
+Fundraising 0 0 – 
+Public finance management 0 0 – 
+Services to citizens 9 1.2 2014–2019 
+Security and justice 13 69.6 1996–2019 
+Harm prevention 1 3 2019 
+Fair prosecution 2 0.5 2019–2019 
+Policing 10 69.4 1996–2019  
+
+
+Note: Domain summary measures in italics. 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+25
+
+
+References 
+
+
+Abduljabbar, R., Dia, H., Liyanage, S., Bagloee, S.A., 2019. Applications of artificial 
+intelligence in transport: an overview. Sustainability 11 (1), 189. 
+
+
+. . . Adam, B.-.L., Qu, Y., Davis, J.W., Ward, M.D., Clements, M.A., Cazares, L.H., Feng, Z., 
+2002. Serum protein fingerprinting coupled with a pattern-matching algorithm 
+distinguishes prostate cancer from benign prostate hyperplasia and healthy men 
+Cancer Res. 62 (13), 3609–3614. 
+
+
+Allam, Z., Dhunny, Z.A., 2019. On big data, artificial intelligence and smart cities. Cities 
+89, 80–91. 
+
+
+Aria, M., Cuccurullo, C., 2017. bibliometrix: an R-tool for comprehensive science 
+mapping analysis. J. Informetr. 11 (4), 959–975. 
+
+
+Asimov, I., 1942. Runaround. Street and Smith Publications, New York.  
+Barrat, J., 2013. Our Final Invention: Artificial Intelligence and the End of the Human 
+
+
+Era. Macmillan. 
+Barsalou, L.W., 1999. Perceptual symbol systems. Behav. Brain Sci. 22 (4), 577–660. 
+Batistič, S., der Laken, P., 2019. History, evolution and future of big data and analytics: a 
+
+
+bibliometric analysis of its relationship to performance in organizations. Brit. J. 
+Manag. 30 (2), 229–251. 
+
+
+Batty, M., Yeh, T., 1991. The Promise of Expert Systems for Urban Planning. Elsevier. 
+Baum, S.D., Goertzel, B., Goertzel, T.G., 2011. How long until human-level AI? Results 
+
+
+from an expert assessment. Technol. Forecast. Soc. Change 78 (1), 185–195. 
+Bawack, R.E., Fosso Wamba, S., Carillo, K., 2019. Artificial Intelligence in Practice: 
+
+
+implications for IS Research. Paper Presented At the Twenty-fifth Americas 
+Conference on Information Systems. Cancun, Mexico.  
+
+
+Berendt, B., 2019. AI for the common good?! Pitfalls, challenges, and ethics pen-testing. 
+Paladyn.  J. Behav. Robot. 10 (1), 44–65. 
+
+
+Betz, U.A.K., Betz, F., Kim, R., Monks, B., Phillips, F., 2019. Surveying the future of 
+science, technology and business – A 35 year perspective. Technol. Forecast. Soc. 
+Change 144, 137–147. 
+
+
+Bijoch, R., Harris, S., Volkmann, T., Bann, J., Wollenberg, B.F., 1991. Development and 
+implementation of the NSP intelligent alarm processor (for power systems). IEEE 
+Trans. Power Syst. 6 (2), 806–812. 
+
+
+Borges, A.F., Laurindo, F.J., Spínola, M.M., Gonçalves, R.F., Mattos, C.A., 2020. The 
+strategic use of artificial intelligence in the digital era: systematic literature review 
+and future research directions. Int. J. Inf. Manage 102–225. 
+
+
+Bornmann, L., Mutz, R., 2015. Growth rates of modern science: a bibliometric analysis 
+based on the number of publications and cited references. J. Assoc. Inf. Sci. Technol. 
+66 (11), 2215–2222. 
+
+
+Brooks, R.A., 1991. Intelligence without representation. Artif. Intell. 47 (1–3), 139–159. 
+Burns, M.N., Begale, M., Duffecy, J., Gergle, D., Karr, C.J., Giangrande, E., Mohr, D.C., 
+
+
+2011. Harnessing context sensing to develop a mobile intervention for depression. 
+J. Med. Internet Res. 13 (3), e55. 
+
+
+Callon, M., Courtial, J.P., Laville, F., 1991. Co-word analysis as a tool for describing the 
+network of interactions between basic and technological research: the case of 
+polymer Chemsitry. Scientometrics 22 (1), 155–205. 
+
+
+Cath, C., Wachter, S., Mittelstadt, B., Taddeo, M., Floridi, L., 2018. Artificial Intelligence 
+and the ‘Good Society’: the US, EU, and UK approach. Sci. Eng. Ethics 24 (2), 
+505–528. 
+
+
+Cellan-Jones, R. (2014). Stephen Hawking warns artificial intelligence could end 
+mankind. Retrieved 14 March 2019, 2020, from https://www.bbc.com/news/tech 
+nology-30290540. 
+
+
+Chan-Olmsted, S.M., 2019. A review of artificial intelligence adoptions in the media 
+industry. Int. J. Media Manag. 21 (3–4), 193–215. 
+
+
+Chaouachi, A., Kamel, R.M., Andoulsi, R., Nagasaka, K., 2012. Multiobjective intelligent 
+energy management for a microgrid. IEEE Trans. Ind. Electron. 60 (4), 1688–1699. 
+
+
+Chui, M., Harryson, M., Manyika, J., Roberts, R., Chung, R., van Heteren, A., Nel, P., 
+2018. Notes from the AI frontier: Applying AI for Social Good. McKinsey Global 
+Institute. 
+
+
+Cobo, M.J., López-Herrera, A.G., Herrera-Viedma, E., Herrera, F., 2011. An approach for 
+detecting, quantifying, and visualizing the evolution of a research field: a practical 
+application to the Fuzzy Sets Theory field. J. Informetr. 5 (1), 146–166. 
+
+
+Davenport, T., Guha, A., Grewal, D., Bressgott, T., 2020. How artificial intelligence will 
+change the future of marketing. J. Acad. Market. Sci. 48 (1), 24–42. 
+
+
+Davenport, T.H., Ronanki, R., 2018. Artificial intelligence for the real world. Harv. Bus. 
+Rev. 96 (1), 108–116. 
+
+
+de Sousa, W.G., de Melo, E.R.P., Bermejo, P.H.D.S., Farias, R.A.S., Gomes, A.O., 2019. 
+How and where is artificial intelligence in the public sector going? A literature 
+review and research agenda. Gov. Inf. Q. 101392. 
+
+
+Duan, Y., Edwards, J.S., Dwivedi, Y.K., 2019. Artificial intelligence for decision making 
+in the era of Big Data – evolution, challenges and research agenda. Int. J. Inf. 
+Manage. 48, 63–71. 
+
+
+Duda, R.O., Hart, P.E., 1973. Pattern Recognition and Scene Analysis. Wiley, New York.  
+Dwivedi, Y.K., Hughes, L., Ismagilova, E., Aarts, G., Coombs, C., Crick, T., . . . Williams, 
+
+
+M.D. (2019). Artificial Intelligence (AI): multidisciplinary perspectives on emerging 
+challenges, opportunities, and agenda for research, practice and policy. Int. J. Inf. 
+Manag. 
+
+
+Esteva, A., Kuprel, B., Novoa, R.A., Ko, J., Swetter, S.M., Blau, H.M., Thrun, S., 2017. 
+Dermatologist-level classification of skin cancer with deep neural networks. Nature 
+542 (7639), 115–118. 
+
+
+Eysenbach, G., 2006. Citation advantage of open access articles. PLoS Biol. 4 (5), e157. 
+Fahimnia, B., Sarkis, J., Davarzani, H., 2015. Green supply chain management: a review 
+
+
+and bibliometric analysis. Int. J. Prod. Econ. 162, 101–114. 
+Fernandez-Luque, L., Imran, M., 2018. Humanitarian health computing using artificial 
+
+
+intelligence and social media: a narrative literature review. Int. J. Med. Inform. 114, 
+136–142. 
+
+
+Floridi, L., & Cowls, J. (2019). A unified framework of five principles for AI in society. 
+Harvard Data Sci. Rev.. 
+
+
+. . . Floridi, L., Cowls, J., Beltrametti, M., Chatila, R., Chazerand, P., Dignum, V., Rossi, F., 
+2018. AI4People—An ethical framework for a good AI society: opportunities, risks, 
+principles, and recommendations Minds Mach. 28 (4), 689–707. 
+
+
+Fotovatikhah, F., Herrera, M., Shamshirband, S., Chau, K.-w., Faizollahzadeh 
+Ardabili, S., Piran, M.J., 2018. Survey of computational intelligence as basis to big 
+flood management: challenges, research directions and future work. Eng. Appl. 
+Comput. Fluid Mech. 12 (1), 411–437. 
+
+
+Frank, M.R., Wang, D., Cebrian, M., Rahwan, I., 2019. The evolution of citation graphs in 
+artificial intelligence research. Nature Mach. Intell. 1 (2), 79–85. 
+
+
+Gaviria-Marin, M., Merigó, J.M., Baier-Fuentes, H., 2019. Knowledge management: a 
+global examination based on bibliometric analysis. Technol. Forecast. Soc. Change 
+140, 194–220. 
+
+
+Gill, T.G., 1955. Early Expert Systems: Where Are They Now? MIS Quarterly 19 (1), 51. 
+Glover, F., 1986. Future paths for integer programming and links to artificial 
+
+
+intelligence. Comput. Oper. Res. 13 (5), 533–549. 
+Goeldner, M., Herstatt, C., Tietze, F., 2015. The emergence of care robotics — A patent 
+
+
+and publication analysis. Technol. Forecast. Soc. Change 92, 115–131. 
+Gokmen, G., Akinci, T.Ç., Tektaş, M., Onat, N., Kocyigit, G., Tektaş, N., 2010. Evaluation 
+
+
+of student performance in laboratory applications using fuzzy logic. Procedia-Soc. 
+Behav. Sci. 2 (2), 902–909. 
+
+
+Grace, K., Salvatier, J., Dafoe, A., Zhang, B., Evans, O., 2018. Viewpoint: when will AI 
+exceed human performance? Evidence from AI experts. J. Artific. Intell. Res. 62, 
+729–754. 
+
+
+Granik, M., Mesyura, V., 2017. Fake news detection using naive Bayes classifier. Paper 
+Presented at the 2017 IEEE First Ukraine Conference on Electrical and Computer 
+Engineering (UKRCON). 
+
+
+Grover, P., Kar, A.K., Dwivedi, Y.K., 2020. Understanding artificial intelligence adoption 
+in operations management: insights from the review of academic literature and 
+social media discussions. Ann. Oper. Res. 1–37. 
+
+
+Gruber, T.R., 1995. Toward principles for the design of ontologies used for knowledge 
+sharing? Int. J. Hum. Comput. Stud. 43 (5–6), 907–928. 
+
+
+Gursoy, D., Chi, O.H., Lu, L., Nunkoo, R., 2019. Consumers acceptance of artificially 
+intelligent (AI) device use in service delivery. Int. J. Inf. Manage 49, 157–169. 
+
+
+Haenlein, M., Kaplan, A., 2019. A Brief History of Artificial Intelligence: on the Past, 
+Present, and Future of Artificial Intelligence. Calif. Manage. Rev. 61 (4), 5–14. 
+
+
+Häfner, N., Wincent, J., Parida, V., Gassmann, O., 2020. Artificial intelligence and 
+innovation management: a review, framework, and research agenda✰. Technol. 
+Forecast. Soc. Change 162, 120392. 
+
+
+Harzing, A.-.W., Alakangas, S., 2016. Google scholar, Scopus and the web of science: a 
+longitudinal and cross-disciplinary comparison. Scientometrics 106 (2), 787–804. 
+
+
+Hebb, D.O., 1949. The Organization of Behavior: a Neuropsychological Theory. J. Wiley; 
+Chapman & Hall. 
+
+
+Hirsch, J.E., 2005. An index to quantify an individual’s scientific research output. Proc. 
+Natl. Acad. Sci. U.S.A. 102 (46), 16569–16572. 
+
+
+Horvitz, E. (2014). One hundred year study on artificial intelligence: reflections and 
+framing. https://ai100.stanford.edu/reflections-and-framing. 
+
+
+Horvitz, E., Selman, B., 2009. AAAI Presidential Panel on Long-Term AI Futures: Interim 
+Report from the Panel Chairs. Association for the Advancement of Artificial 
+Intelligence (AAAI). 
+
+
+Islam, J., Vasant, P.M., Negash, B.M., Laruccia, M.B., Myint, M., Watada, J., 2020. 
+A holistic review on artificial intelligence techniques for well placement 
+optimization problem. Adv. Eng. Softw. 141, 102767. 
+
+
+Jha, K., Doshi, A., Patel, P., Shah, M., 2019. A comprehensive review on automation in 
+agriculture using artificial intelligence. Artific. Intell. Agric. 2, 1–12. 
+
+
+Jin, X.-.B., Su, T.-.L., Kong, J.-.L., Bai, Y.-.T., Miao, B.-.B., Dou, C., 2018. State-of-the-Art 
+Mobile intelligence: enabling robots to move like humans by estimating mobility 
+with artificial intelligence. Appl. Sci. 8 (3), 379. 
+
+
+Kankanhalli, A., Charalabidis, Y., Mellouli, S., 2019. IoT and AI for smart government: a 
+research agenda. Gov. Inf. Q. 36 (304–309). 
+
+
+Kaplan, A., Haenlein, M., 2019. Siri, Siri, in my hand: who’s the fairest in the land? On 
+the interpretations, illustrations, and implications of artificial intelligence. Bus. 
+Horiz. 62 (1), 15–25. 
+
+
+Kaplan, A., Haenlein, M., 2020. Rulers of the world, unite! The challenges and 
+opportunities of artificial intelligence.  Bus. Horiz. 63 (1), 37–50. 
+
+
+Kisi, O., Shiri, J., Nikoofar, B., 2012. Forecasting daily lake levels using artificial 
+intelligence approaches. Comput. Geosci. 41, 169–180. 
+
+
+Klopman, G., 1984. Artificial intelligence approach to structure-activity studies. 
+Computer automated structure evaluation of biological activity of organic molecules. 
+J. Am. Chem. Soc. 106 (24), 7315–7321. 
+
+
+Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). Imagenet classification with deep 
+convolutional neural networks. Paper presented at the Advances in Neural 
+Information Processing Systems. 
+
+
+Kschischang, F.R., Frey, B.J., Loeliger, H.-.A., 2001. Factor graphs and the sum-product 
+algorithm. IEEE Trans. Inf. Theory 47 (2), 498–519. 
+
+
+Kumar, S.L., 2017. State of the art-intense review on artificial intelligence systems 
+application in process planning and manufacturing. Eng. Appl. Artif. Intell. 65, 
+294–329. 
+
+
+LeCun, Y., Bengio, Y., Hinton, G., 2015. Deep learning. Nature 521 (7553), 436–444. 
+Lei, M., Shiyan, L., Chuanwen, J., Hongling, L., Yan, Z., 2009. A review on the forecasting 
+
+
+of wind speed and generated power. Renew. Sustain. Energy Rev. 13 (4), 915–920. 
+Luger, E., & Sellen, A. (2016). " Like Having a Really Bad PA" The Gulf between User 
+
+
+Expectation and Experience of Conversational Agents. Paper Presented At the 
+Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0001
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0001
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0002
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0002
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0002
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0002
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0003
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0003
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0004
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0004
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0005
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0006
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0006
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0007
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0008
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0008
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0008
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0009
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0011
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0011
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0011
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0012
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0012
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0013
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0013
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0013
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0014
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0014
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0014
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0015
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0015
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0015
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0017
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0018
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0018
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0018
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0019
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0019
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0019
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0020
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0020
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0020
+
+https://www.bbc.com/news/technology-30290540
+
+https://www.bbc.com/news/technology-30290540
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0022
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0022
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0023
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0023
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0024
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0024
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0024
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0025
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0025
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0025
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0026
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0026
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0027
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0027
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0028
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0028
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0028
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0029
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0029
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0029
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0030
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0032
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0032
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0032
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0033
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0034
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0034
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0035
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0035
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0035
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0037
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0037
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0037
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0038
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0038
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0038
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0038
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0039
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0039
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0040
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0040
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0040
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0040a
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0041
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0041
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0042
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0042
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0043
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0043
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0043
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0044
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0044
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0044
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0045
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0045
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0045
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0046
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0046
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0046
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0047
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0047
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0048
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0048
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0049
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0049
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0051
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0051
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0052
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0052
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0053
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0053
+
+https://ai100.stanford.edu/reflections-and-framing
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0055
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0055
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0055
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0056
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0056
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0056
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0057
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0057
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0059
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0059
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0060
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0060
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0060
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0061
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0061
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0062
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0062
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0063
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0063
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0063
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0065
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0065
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0066
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0066
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0066
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0067
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0068
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0068
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+26
+
+
+Makridakis, S., 2017. The forthcoming Artificial Intelligence (AI) revolution: its impact 
+on society and firms. Futures 90, 46–60. 
+
+
+Mangels, A.R., Holden, J.M., Beecher, G.R., Forman, M.R., Lanza, E., 1993. Carotenoid 
+content of fruits and vegetables: an evaluation of analytic data. J. Am. Diet. Assoc. 
+93 (3), 284–296. 
+
+
+Manning, C.D., 2015. Computational linguistics and deep learning. Comput. Linguist. 41 
+(4), 701–707. 
+
+
+. . . Mannsfeld, S.C., Tee, B.C., Stoltenberg, R.M., Chen, C.V.H., Barman, S., Muir, B.V., 
+Bao, Z., 2010. Highly sensitive flexible pressure sensors with microstructured rubber 
+dielectric layers Nat. Mater. 9 (10), 859–864. 
+
+
+Marda, V., 2018. Artificial intelligence policy in India: a framework for engaging the 
+limits of data-driven decision-making. Philos. Trans. R. Soc. A 376 (2133), 
+20180087. 
+
+
+Marr, B. (2018). Key Milestones of Waymo - Google’s Self-Driving Cars. Forbes. 
+Retrieved from www.forbes.com website: https://www.forbes. 
+com/sites/bernardmarr/2018/09/21/key-milestones-of-waymo-googles-self- 
+driving-cars/#5c616bce5369. 
+
+
+McCulloch, W.S., Pitts, W., 1943. A logical calculus of the ideas immanent in nervous 
+activity. Bull. Math. Biophys. 5 (4), 115–133. 
+
+
+McCarthy, J., Minsky, M.L., Rochester, N., Shannon, C.E., 2006. A proposal for the 
+dartmouth summer research project on artificial intelligence, august 31, 1955. AI 
+magazine 27 (4), 12. 
+
+
+McKinnel, D.R., Dargahi, T., Dehghantanha, A., Choo, K.-K.R., 2019. A systematic 
+literature review and meta-analysis on artificial intelligence in penetration testing 
+and vulnerability assessment. Comput. Electric. Eng. 75, 175–188. 
+
+
+McNeal, M.L., Newyear, D., 2013. Introducing chatbots in libraries. Libr. Technol. Rep. 
+49 (8), 5–10. 
+
+
+Minsky, M.L., Papert, S., 1969. Perceptrons: An Introduction to Computational 
+Geometry. Mass.: MIT Press, Cambridge.  
+
+
+Mishra, D., Gunasekaran, A., Papadopoulos, T., Childe, S.J., 2016. Big Data and supply 
+chain management: a review and bibliometric analysis. Ann. Oper. Res. 270 (1–2), 
+313–336. 
+
+
+Mitchell, T.M., 1999. Machine learning and data mining. Commun. ACM 42 (11), 30–36. 
+Mittelstadt, B.D., Allo, P., Taddeo, M., Wachter, S., Floridi, L., 2016. The ethics of 
+
+
+algorithms: mapping the debate. Big. Data Soc. 3 (2), 2053951716679679. 
+Montes, G.A., Goertzel, B., 2019. Distributed, decentralized, and democratized artificial 
+
+
+intelligence. Technol. Forecast. Soc. Change 141, 354–358. 
+Moudud-Ul-Huq, S., 2014. The role of artificial intelligence in the development of 
+
+
+accounting systems: a review. IUP J. Account. Res. Audit Practic. 13 (2). 
+Murphy, R.R., 2004. Human-robot interaction in rescue robotics. IEEE Trans. Syst. Man 
+
+
+Cybernet., Part C (Appl. Rev.) 34 (2), 138–153. 
+Newborn, M., 2000. Deep Blue’s contribution to AI. Ann. Math. Artif. Intell. 28 (1), 
+
+
+27–30. 
+Nishant, R., Kennedy, M., Corbett, J., 2020. Artificial intelligence for sustainability: 
+
+
+challenges, opportunities, and a research agenda. Int. J. Inf. Manage. 53, 102104. 
+Niu, J., Tang, W., Xu, F., Zhou, X., Song, Y., 2016. Global research on artificial 
+
+
+intelligence from 1990–2014: spatially-explicit bibliometric analysis. ISPRS Int J 
+Geoinf 5 (5), 66. 
+
+
+Nobre, G.C., Tavares, E., 2017. Scientific literature analysis on big data and internet of 
+things applications on circular economy: a bibliometric study. Scientometrics 111 
+(1), 463–492. 
+
+
+Noyons, E., Moed, H., Van Raan, A., 1999. Integrating research performance analysis and 
+science mapping. Scientometrics 46 (3), 591–604. 
+
+
+Patterson, D., 1990. Introduction to Artificial Intelligence and Expert Systems. Prentice- 
+Hall, Inc. 
+
+
+Pearl, J., 2014. Probabilistic Reasoning in Intelligent Systems: Networks of Plausible 
+Inference. Elsevier. 
+
+
+Pennebaker, J.W., Mehl, M.R., Niederhoffer, K.G., 2003. Psychological aspects of natural 
+language use: our words, our selves. Annu. Rev. Psychol. 54 (1), 547–577. 
+
+
+Peuquet, D.J., 1994. It’s about time: a conceptual framework for the representation of 
+temporal dynamics in geographic information systems. Ann. Assoc. Am. Geographers 
+84 (3), 441–461. 
+
+
+Pradhan, A., Mehta, K., & Findlater, L. (2018). ``Accessibility Came by Accident" use of 
+voice-controlled intelligent personal assistants by people with disabilities. Paper 
+Presented at the Proceedings of the 2018 CHI Conference on Human Factors in 
+Computing Systems. 
+
+
+Rai, A., Constantinides, P., Sarker, S., 2019. Editor’s comments: next-generation digital 
+platforms: toward human–AI hybrids. MIS Q. 43 (1) iii-x.  
+
+
+Rajaram, N., 1990. Artificial intelligence: a technology review. ISA Trans. 29 (1), 1. 
+Redmond, M., Baveja, A., 2002. A data-driven software tool for enabling cooperative 
+
+
+information sharing among police departments. Eur. J. Oper. Res. 141 (3), 660–678. 
+Rey-Martí, A., Ribeiro-Soriano, D., Palacios-Marqués, D., 2016. A bibliometric analysis of 
+
+
+social entrepreneurship. J. Bus. Res. 69 (5), 1651–1655. 
+Roßmann, B., Canzaniello, A., von der Gracht, H., Hartmann, E., 2018. The future and 
+
+
+social impact of big data analytics in supply chain management: results from a 
+Delphi study. Technol. Forecast. Soc. Change 130, 135–149. 
+
+
+Rumelhart, D.E., McClelland, J.L., 1986. Parallel distributed processing. Explorations in 
+the Microstructure of Cognition. vol. 1: Foundations. MIT, Cambridge.  
+
+
+Russell, S., Dewey, D., Tegmark, M., 2015a. Research priorities for robust and beneficial 
+artificial intelligence. AI Mag. 36 (4), 105–114. 
+
+
+Russell, S., Dewey, D., Tegmark, M., 2015b. Research priorities for robust and beneficial 
+artificial intelligence: an open letter. AI Mag. 36 (4). 
+
+
+Russell, S.J., Norvig, P., 2010. Artificial Intelligence: A Modern Approach. Prentice-Hall, 
+Upper Saddle River.  
+
+
+Schapire, R.E., 1990. The strength of weak learnability. Mach. Learn. 5 (2), 197–227. 
+
+
+Schuetz, S., Venkatesh, V., 2020. Research perspectives: the rise of human machines: 
+how cognitive computing systems challenge assumptions of user-system interaction. 
+J. Assoc. Inf. Syst. 21 (2), 2. 
+
+
+Searle, J.R., 1980. Minds, brains, and programs. Behav. Brain Sci. 3 (3), 417–424. 
+Sell, P.S., 1986. Expert Systems: A Practical Introduction. Hampshire Macmillan, 
+
+
+Houndmills, Basingstoke.  
+Shukla, A.K., Janmaijaya, M., Abraham, A., Muhuri, P.K., 2019. Engineering applications 
+
+
+of artificial intelligence: a bibliometric analysis of 30 years (1988–2018). Eng. Appl. 
+Artif. Intell. 85, 517–532. 
+
+
+. . . Silver, D., Huang, A., Maddison, C.J., Guez, A., Sifre, L., Van Den Driessche, G., 
+Lanctot, M., 2016. Mastering the game of Go with deep neural networks and tree 
+search Nature 529 (7587), 484. 
+
+
+Simon, C.J., 2019. Will computers revolt. Technol. Forecast. Soc. Change 146, 81–87. 
+Simpson, R.C., 2005. Smart wheelchairs: a literature review. J. Rehabil. Res. Dev. 42 (4), 
+
+
+423. 
+Sipior, J.C., 2020. Considerations for development and use of AI in response to COVID- 
+
+
+19. Int. J. Inf. Manage 102170. 
+. . . Stone, P., Brooks, R., Brynjolfsson, E., Calo, R., Etzioni, O., Hager, G., Kraus, S., 2016. 
+
+
+Artificial Intelligence and Life in 2030. One Hundred Year Study on Artificial 
+intelligence: Report of the 2015-2016 Study Panel. Stanford University, Stanford, CA 
+http://ai100.stanford.edu/2016-report. Accessed: September, 6, 2016.  
+
+
+Szolovits, P., 2019. Artificial Intelligence in Medicine. Routledge. 
+Taddeo, M., Floridi, L., 2018. How AI can be a force for good. Science 361 (6404), 
+
+
+751–752. 
+Tam, K.Y., Kiang, M.Y., 1992. Managerial applications of neural networks: the case of 
+
+
+bank failure predictions. Manage. Sci. 38 (7), 926–947. 
+. . . Tran, B.X., Vu, G.T., Ha, G.H., Vuong, Q.-.H., Ho, M.-.T., Vuong, T.-.T., Nguyen, H.L. 
+
+
+T., 2019. Global evolution of research in artificial intelligence in health and 
+medicine: a bibliometric study J. Clin. Med. 8 (3), 360. 
+
+
+van Oorschot, J.A.W.H., Hofman, E., Halman, J.I.M., 2018. A bibliometric review of the 
+innovation adoption literature. Technol. Forecast. Soc. Change 134, 1–21. 
+
+
+van Vlokhoven, H., 2019. The effect of open access on research quality. J. Informetr. 13 
+(2), 751–756. 
+
+
+Venkatasubramanian, V., Rengaswamy, R., Yin, K., Kavuri, S.N., 2003. A review of 
+process fault detection and diagnosis: part I: quantitative model-based methods. 
+Comput. Chem. Eng. 27 (3), 293–311. 
+
+
+Wamba, S.F., Bawack, R.E., & Carillo, K.D.A. (2019). The State of Artificial Intelligence 
+Research in the Context of National Security: bibliometric Analysis and Research 
+Agenda. Paper Presented at the Conference on e-Business, E-Services and E-Society. 
+
+
+Wang, W., Siau, K., 2019. Artificial intelligence, machine learning, automation, robotics, 
+future of work and future of humanity: a review and research agenda. J. Database 
+Manag. (JDM) 30 (1), 61–79. 
+
+
+Weld, D., & Etzioni, O. (1994). The first law of robotics (a call to arms). Paper Presented 
+at the Proceedings of the Twelfth AAAI National Conference on Artificial 
+Intelligence. 
+
+
+Werbos, P. (1974). Beyond regression:"" new tools for prediction and analysis in the 
+behavioral sciences. 
+
+
+Wooldridge, M., Jennings, N.R., 1995. Intelligent agents: theory and practice. Knowl. 
+Eng. Rev. 10 (2), 115–152. 
+
+
+Wu, L.-.L., Luesukprasert, L., & Lee, L. (2009). Research and the long tail: a large-scale 
+citation analysis. Paper Presented At the 2009 42nd Hawaii International Conference 
+on System Sciences. 
+
+
+Zakhem, G.A., Fakhoury, J.W., Motosko, C.C., & Ho, R.S. (2020). Characterizing the role 
+of dermatologists in developing artificial intelligence for assessment of skin cancer: a 
+systematic review. J. Am. Acad. Dermatol.. 
+
+
+Zhang, Y., Huang, Y., Porter, A.L., Zhang, G., Lu, J., 2019. Discovering and forecasting 
+interactions in big data research: a learning-enhanced bibliometric study. Technol. 
+Forecast. Soc. Change 146, 795–807. 
+
+
+Zhao, H.-x., Magoulès, F., 2012. A review on the prediction of building energy 
+consumption. Renew. Sustain. Energy Rev. 16 (6), 3586–3592. 
+
+
+Dr Samuel Fosso Wamba is Full Professor at Toulouse Business School. He earned his Ph.D. 
+in industrial engineering at the Polytechnic School of Montreal, Canada. His-current 
+research focuses on business value of IT, inter-organizational systems adoption and use, 
+supply chain management, electronic commerce, blockchain, artificial intelligence in 
+business, social media, business analytics, big data and open data. He has published papers 
+in top journals including: Academy of Management Journal, European Journal of Information 
+Systems, Journal of Cleaner Production, Information Systems Frontiers, International Journal of 
+Production Economics, International Journal of Information Management, International Journal 
+of Logistics Management, International Journal of Production Research, Journal of Business 
+Research, Technology Forecasting and Social Change, Production Planning & Control, and 
+Business Process Management Journal. Prof Fosso Wamba is organizing special issues on IT- 
+related topics for leading international journals. He won the best paper award of The 
+Academy of Management Journal in 2017 and the papers of the year 2017 of The Elec-
+tronic Markets: The International Journal on Networked Business. He is an Associate 
+Editor of International Journal of Logistics Management information and The Electronic 
+Markets: The International Journal on Networked Business. He serves on editorial board of 
+five international journals. Prof Fosso Wamba is CompTIA RFID+ Certified Professional, 
+Academic Co-Founder of RFID Academia. He is the Coordinator of the newly created 
+Artificial Intelligence & Business Analytics Cluster of Toulouse Business School, France. 
+
+
+Ransome Epie Bawack is a PhD student at Toulouse 1 University Capitole working with 
+Toulouse School of Management Research and Toulouse Business School Research Center 
+on artificial intelligence. He holds a master’s degree in management and information 
+systems, and a bachelor’s degree in computer engineering. His-research focuses primarily 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0070
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0070
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0071
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0071
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0071
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0072
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0072
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0073
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0073
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0073
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0074
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0074
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0074
+
+http://www.forbes.com
+
+https://www.forbes.com/sites/bernardmarr/2018/09/21/key-milestones-of-waymo-googles-self-driving-cars/#5c616bce5369
+
+https://www.forbes.com/sites/bernardmarr/2018/09/21/key-milestones-of-waymo-googles-self-driving-cars/#5c616bce5369
+
+https://www.forbes.com/sites/bernardmarr/2018/09/21/key-milestones-of-waymo-googles-self-driving-cars/#5c616bce5369
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0076
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0076
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0076a
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0076a
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0076a
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0077
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0077
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0077
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0078
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0078
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0079
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0079
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0080
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0080
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0080
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0081
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0082
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0082
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0083
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0083
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0084
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0084
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0085
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0085
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0086
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0086
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0087
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0087
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0088
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0088
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0088
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0089
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0089
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0089
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0090
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0090
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0091
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0091
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0092
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0092
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0093
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0093
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0094
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0094
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0094
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0096
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0096
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0097
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0098
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0098
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0099
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0099
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0100
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0100
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0100
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0101
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0101
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0102
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0102
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0103
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0103
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0104
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0104
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0105
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0106
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0106
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0106
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0107
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0108
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0108
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0109
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0109
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0109
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0110
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0110
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0110
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0111
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0112
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0112
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0113
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0113
+
+http://ai100.stanford.edu/2016-report
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0115
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0116
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0116
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0117
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0117
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0119
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0119
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0120
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0120
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0121
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0121
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0121
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0123
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0123
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0123
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0126
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0126
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0129
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0129
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0129
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0130
+
+http://refhub.elsevier.com/S0040-1625(20)31308-1/sbref0130
+
+
+
+
+Technological Forecasting & Social Change xxx (xxxx) xxx
+
+
+27
+
+
+on artificial intelligence, big data, data science, mobility, data-driven economy, machine 
+learning, deep learning, computer vision, enterprise systems, cloud computing, and 
+computer networking. He is a member of the Association for Information Systems (AIS), 
+and he has authored several academic articles and book chapters in well-renowned 
+journals. 
+
+
+Kevin Carillo is an Associate Professor in Data Science & Information Systems at Toulouse 
+Business School. His-current research interests include artificial intelligence, big data and 
+data-driven business, free/open source software communities, online communities, and 
+peer production. Kevin holds a PhD degree in Information Systems from the School of 
+Information Management of Victoria University of Wellington, New Zealand, a Master’s 
+Degree in software engineering and applied mathematics (ENSEEIHT, Toulouse, France) 
+and a Master of Science in Business Administration, option Management Information 
+Systems (John Molson School of Business, Concordia University, Montreal, Canada). 
+
+
+Dr Cameron Guthrie is Associate Professor at Toulouse Business School. He earned his Ph. 
+D. in management science at the Université de Paris Panthéon-Sorbonne. His-current 
+research focuses on technology adoption, social innovation, strategic thinking and com-
+plex problem solving. He has published papers in a variety of conferences and journals 
+including Business Process Management Journal, Industrial Relations, Journal of Man-
+agement History, History of Economic Ideas, Journal of Entrepreneurship Education, 
+Journal of Information Systems Education, Americas Conference on Information Systems 
+and Latin American and European Meeting on Organization Studies. 
+
+
+Dr. Maciel M. Queiroz is a Professor at Paulista University (UNIP) in Business Networks 
+and Supply Chain Management. Maciel holds an MSc and a Ph.D. in Naval Architecture 
+and Ocean Engineering from the University of São Paulo. His-current research interests 
+focus on artificial intelligence, business networks, digital disruptions in supply chain and 
+logistics, digital supply chain capabilities, Industry 4.0, blockchain, smart cities, and big 
+data analytics, including the adoption, implementation, and diffusion stages. 
+
+
+S. Fosso Wamba et al.                                                                                                                                                                                                                         
+
+
+
+

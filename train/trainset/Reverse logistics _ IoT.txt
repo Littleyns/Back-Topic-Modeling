@@ -1,0 +1,2363 @@
+
+
+
+
+
+
+
+
+
+
+Computers in Industry 112 (2019) 103127
+
+
+Contents lists available at ScienceDirect
+
+
+Computers  in  Industry
+
+
+jou rn al hom ep age: www.elsev ier .com/ locate /compind
+
+
+An  end-to-end  Internet  of  Things  solution  for  Reverse  Supply  Chain
+Management  in  Industry  4.0
+
+
+Celia  Garrido-Hidalgoa,∗, Teresa  Olivaresb,  F.  Javier  Ramirezc,  Luis  Roda-Sancheza
+a Albacete Research Institute of Informatics at the University of Castilla-La Mancha, Albacete, Spain
+b Computing Systems Department at the University of Castilla-La Mancha, Albacete, Spain
+c School of Industrial Engineering and Department of Business Administration at the University of Castilla-La Mancha, Albacete, Spain
+
+
+a  r  t  i  c  l  e  i  n  f  o
+
+
+Article history:
+Received 15 March 2019
+Received in revised form 7 June 2019
+Accepted 11 September 2019
+Available online 24 September 2019
+
+
+Keywords:
+Reverse Supply Chain Management
+(R-SCM)
+Waste Electrical and Electronic Equipment
+(WEEE)
+IoT
+Industry 4.0
+BLE
+LoRaWAN
+
+
+a  b  s  t  r  a  c  t
+
+
+The  recent  increase  in  the  number  of  products  returned  from  customers  to  retailers,  supported  by the
+adoption  of  environment-friendly  policies,  has led to a  growing  need  to manage  backward  materials  and
+information  flows  in  the supply  chain  (SC)  domain.  Although  numerous  authors  are  contributing  towards
+circular  economy  (CE)  with  end-of-life  (EoL)  approaches  minimizing  the  negative  impact  of  Waste  Electric
+and Electronic  Equipment  (WEEE),  the  information  infrastructure  behind  SC calls  for  novel  approaches
+based  on  Information  and  Communication  Technologies  (ICT).  In fact,  this  is  one  of  the major  challenges
+for  the  so-called  Industry  4.0,  where  wireless  technologies  governed  by the  Internet  of  Things  (IoT)
+are expected  to transform  the industry  as  currently  conceived.  The  present  work  proposes  an  end-to-
+end  solution  for  Reverse  Supply  Chain  Management  (R-SCM)  based  on  cooperation  between  different
+IoT  communication  standards,  enabling  cloud-based  inventory  monitoring  of WEEE  through  embedded
+sensors.  A  case  study  was  deployed  using  IoT devices  and  sensors,  carrying  out  a  set  of experimental  tests
+focused  on  wireless  communications  to evaluate  its performance.  The  network  configuration  adopted
+overcomes  the near  real-time  challenge  and  provides  sufficient  coverage  to interconnect  industrial  areas
+such as  warehouses  or shop  floors.  The  results  point  to different  communication  bottlenecks  that  need
+to  be  addressed  in order  to enhance  the  reliability  of large-scale  Industrial  IoT  (IIoT)  networks.
+
+
+©  2019  Elsevier  B.V.  All  rights  reserved.
+
+
+1. Introduction
+
+
+The circular economy (CE) is motivated by an increasing need
+to minimize the economic and environmental impact of end-of-life
+(EoL) products [1]. This industrial strategy refers to the long-lasting
+design, refurbishment, remanufacture, repair, recycling or reuse
+of products in order to achieve the maximum benefit and avoid
+negative impacts, with Waste Electrical and Electronic Equipment
+(WEEE) being a growing concern [2]. According to the United
+Nations University (UNU), 44.7 million metric tonnes of e-waste
+was generated in 2016, with future estimations being even larger
+[3]. While posing significant risks for the environmental and human
+health, it contains recoverable raw materials with an estimated
+value of 55 billion euros.
+
+
+∗ Corresponding author. Address: Albacete Research Institute of Informatics at
+Investigacion Street, 02071 Albacete, Spain.
+
+
+E-mail addresses: celia.garrido@uclm.es (C. Garrido-Hidalgo),
+Teresa.Olivares@uclm.es (T. Olivares), FranciscoJ.Ramirez@uclm.es (F.J. Ramirez),
+Luis.Roda@alu.uclm.es (L. Roda-Sanchez).
+
+
+Reverse logistics (RL) has become a key competence of both the
+supply chain (SC) and reverse supply chain (RSC) [4,5], in which
+products flow from customers to manufacturers. Reverse Supply
+Chain Management (R-SCM) emerges as a new challenge, given the
+necessity of managing every single stage where products should
+be handled and distributed towards manufacturers, with multiple
+recovery options increasing the uncertainties faced by companies
+[6].
+
+
+The introduction of Information and Communication Tech-
+nologies (ICT) in SC and, especially, the Internet of Things (IoT)
+can significantly improve process-oriented performance, reduce
+energy consumption and provide SC with a ubiquitous informa-
+tion infrastructure [7]. By enabling the cooperation of wireless
+technologies, IoT is an accelerator of the Fourth Industrial Revolu-
+tion: Industry 4.0 [8,9]. This brand-new concept is transforming the
+industrial paradigm, being Cyber-Physical Systems (CPS), cloud and
+fog computing essential pillars [10,11]. The impact of IoT on indus-
+tries is such that the concept of Industrial IoT (IIoT) is becoming
+increasingly popular and has consequently been adopted in several
+industrial applications governed by IoT technologies [12].
+
+
+https://doi.org/10.1016/j.compind.2019.103127
+0166-3615/© 2019 Elsevier B.V. All rights reserved.
+
+
+
+https://doi.org/10.1016/j.compind.2019.103127
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://www.sciencedirect.com/science/journal/01663615
+
+http://www.elsevier.com/locate/compind
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.compind.2019.103127&domain=pdf
+
+mailto:celia.garrido@uclm.es
+
+mailto:Teresa.Olivares@uclm.es
+
+mailto:FranciscoJ.Ramirez@uclm.es
+
+mailto:Luis.Roda@alu.uclm.es
+
+https://doi.org/10.1016/j.compind.2019.103127
+
+
+
+
+2 C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127
+
+
+Nomenclature
+
+
+AWS  Amazon Web  Services
+BW Bandwidth
+BLE Bluetooth Low Energy
+CE Circular economy
+CR Coding rate
+CPS Cyber Physical Systems
+DR Data rate
+DSC Digital supply chain
+EoL End of life
+ETSI European Telecommunications Standards Institute
+IIoT Industrial Internet of Things
+ICT Information and Communication Technology
+IT Information Technology
+IoT Internet of Things
+JSON JavaScript Object Notation
+LoRaWAN Long-range wide-area network
+LPWA Low-Power Wide-Area
+MQTT Message Queing Telemetry Transport
+RFID Radio-Frequency IDentification
+RSSI Received signal strength indicator
+RL Reverse logistics
+RSC Reverse supply chain
+R-SCM Reverse Supply Chain Management
+SNR Signal-to-noise ratio
+SBC Single-board computer
+SF Spreading factor
+STD Standard deviation
+SC Supply chain
+SCM Supply chain management
+TTN The Things Network
+UNU United Nations University
+WEEE Waste Electric and Electronic Equipment
+
+
+Despite the large body of literature addressing IoT applications
+in the supply chain management (SCM) domain, the RSC field
+specifically needs more integrated approaches based on IoT com-
+munication standards to manage the RL of WEEE in real contexts.
+To fill this gap in the literature, this paper presents a novel Industry
+4.0 end-to-end IoT framework as a solution for WEEE management.
+
+
+The following aspects of this work can be highlighted. First, the
+proposal of a heterogeneous IoT network enabling low-power and
+low-cost SCM operations in the context of Industry 4.0. For this, we
+propose the cooperation of three emerging IoT technologies for R-
+SCM, presenting a case study based on the recovery of WEEE from
+computer-based components. Second, the implementation of an
+end-to-end system, addressing the deployment of sensor-nodes,
+the network infrastructure, and its integration with a cloud-based
+inventory-management platform. In order to evaluate end-to-end
+performance, a set of experimental tests are proposed, carried out
+and discussed.
+
+
+The three wireless technologies selected and addressed in this
+work are RFID [13], Bluetooth Low Energy (BLE) [14] and LoRaWAN
+[15], which are tested under different communication schemes and
+physical-layer parameters. Our results illustrate the suitability of
+the proposed IoT standards for R-SCM purposes, underlining com-
+munication optimizations for large-scale industrial deployments.
+
+
+The paper is organized as follows: in Section 2 we  review the
+literature; the IoT framework for R-SCM is presented in Section 3;
+Section 4 presents a WEEE-focused case study; Section 5 addresses
+the experiments, results and discussion; and finally, Section 6 pro-
+vides conclusions and identifies future research lines.
+
+
+2. Related works
+
+
+This section provides a review of the most relevant works and
+applications of computer-based systems in the industrial sector,
+highlighting the main contributions and gaps that encourage us to
+propose and evaluate an end-to-end heterogeneous IoT framework
+for R-SCM purposes.
+
+
+2.1. Circular economy
+
+
+The principles of CE were first outlined by Kneese et al. [16]
+dealing with the management of residuals and the improvement
+of environmental quality. Recently, its scope has been broadened
+to not only involve the minimization of natural resources but also
+the ability to reuse materials [17]. Currently, resources are mined,
+turned into products and finally discarded [18]. As a result, our soci-
+ety is generating scarcity, volatility, unaffordable manufacturing
+costs and, what is more worrying, an unprecedented absence of
+natural resources [19]. According to Vella [20], a shift towards a cir-
+cular economy could bring savings of D 600bn for EU businesses, and
+reduce greenhouse gas emissions by 2–4% every year, which highlights
+the necessity of adopting CE strategies.
+
+
+In this context, WEEE is receiving special attention, being one of
+the fastest-growing waste streams with a 33% increase in volume
+reported during the last five years [21]. The roots of this increase are
+connected with exponentially-growing consumer demand, tech-
+nology uptake, and shorter replacement cycles. Moreover, the
+adoption of free-shipping policies on part of most companies has
+accelerated electronic commerce, where the product-return ratio
+has risen to 30%, more than three times that of brick and mortar
+sales [22].
+
+
+In the European Union, e-waste is regulated by the Directive
+2012/19/EU of the European Parliament and Council [23]. Accord-
+ing to a recent communication, in 2015 only four European Union
+Member States recycled over half of the electronic products put
+on the market [24]. This is supported by Eurostat [25], which pub-
+lished a report concluding that the lowest recycling rate of waste
+streams corresponds to e-waste (32%) followed by plastics (40%). In
+fact, 44.7 million metric tonnes of e-waste was generated globally
+in 2016, with an annual growth rate up to 5% on a weight basis [3].
+Apart from the need to mitigate environmental pollution, the eco-
+nomic value associated with raw materials present in such e-waste
+is estimated at 55 billion euros [3].
+
+
+In pursuit of a reduction of waste streams through an
+environment-friendly and cost-saving approach, remanufacturing
+has become one of the most feasible EoL strategies to restore
+products to ‘like-new’ condition. If well-organized and planned,
+it can expand the life-cycle of products and increase profits of
+manufacturing companies through reducing landfills [26]. Despite
+being under-recognized in the current industrial landscape, reman-
+ufacturing generated 29.8 billion euros in turnover and 192,000
+employment in the European Union in the year 2015, with expec-
+tations of attaining an annual value of 100 billion euros in 2030
+[27].
+
+
+As part of the European Research Framework H2020, the Euro-
+pean Remanufacturing Network has facilitated the development
+of sustainable partnerships between organizations, similarly to
+the ResCoM (Resource Conservative Manufacturing) initiative and
+its successor ReCiPS (Resource-Efficient Circular Product-Service-
+Systems).
+
+
+In this context, information-sharing capabilities enable coop-
+eration among suppliers, manufacturers and recyclers, being
+necessary to take responsibility for the collection, disposal and
+recovery of products at their EoL [28]. In the literature, Garcia-
+Muiña et al. [29] explore the transition stages towards circularity
+and propose a theoretical ICT-based framework where materi-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127 3
+
+
+als are sourced to manufacturers following a CE model. A similar
+approach is provided by Asif et al. [30], who design an ICT frame-
+work for information-sharing in pursue of a product-as-a-service
+model in the washing-machine industry. Finally, Gu et al. [31] pro-
+vide a theoretical IoT framework for WEEE management but lacking
+ICT details and practical implementations.
+
+
+None of these works focus on using IoT technologies to address
+information flows being exchanged upwards the SC or evaluate the
+performance of communications, which we believe is a necessary
+condition. Our work, additionally, focuses on WEEE and provides
+a detailed framework describing the handling stages of products
+from their EoL stage to their reuse in a R-SCM context.
+
+
+2.2. Digital supply chain
+
+
+The SCM strategic objectives have been widely defined in the lit-
+erature as cost, quality,  speed, flexibility and dependability [32–34].
+During recent years, sustainability has gained special interest, with
+insufficient communication capabilities being a major obstacle to
+its adoption [35]. In this context, a number of SC information-
+infrastructure requirements have emerged, namely: flexibility, cost,
+time, quality,  accuracy, reliability, visibility and availability [36,37].
+
+
+The digital supply chain (DSC) is thus a growing area of research
+interest, calling for innovative approaches based on emergent
+technologies to manage SC processes. Its major challenges were
+recently defined by Büyüközkan and Göç er [38], converging in:
+speed (ability to react quickly to demand), flexibility (agile reac-
+tion), global connectivity (internet-enabled SC), real-time inventory
+(continuous monitoring of stocks levels), intelligence (self-learning
+smart products), cost-effectiveness (use of technology to increase
+organizational performance), transparency (adjusting networks to
+changing scenarios), scalability (optimization and duplication of
+processes), innovation (in pursue of competitiveness and excel-
+lence), proactivity (anticipating issues prior to occurrence) and
+eco-friendly (environmental emphasis).
+
+
+Information and material flows need to be managed efficiently
+in downstream and upstream directions [18,39,2]. The main differ-
+ences between forward and reverse SCs lie in distribution channels
+(standardized vs. exception-driven), transparency (asset-tracking
+information available vs. poor asset visibility) and timing require-
+ments (time-critical vs. non-time-critical), among others [40].
+
+
+2.3. The role of IoT in the Fourth Industrial Revolution
+
+
+IoT, a term first coined by Ashton [41] with regard to SCM, pro-
+vides physical objects – or Things – with sensing and ubiquitous
+communication capabilities. Despite being initially conceived for
+customer-oriented applications, the latest advances have enabled
+a broader scope for IoT, permitting the integration of sensors in
+industrial facilities, equipment and resources towards the so-called
+IIoT [42,43]. In this context, the Fourth Industrial Revolution – or
+Industry 4.0 [44] – emerged incorporating CPS into traditional fac-
+tories governed by IIoT, which promises great advances [45,46].
+
+
+Several authors provide IoT approaches to wireless com-
+munications [47]. The BLE standard has been widely studied
+from energy-efficiency [48,49] and low-latency [50] perspectives.
+Rondón et al. [51] provide an in-depth evaluation of BLE, supporting
+its suitability for time-critical industrial applications. Likewise, the
+performance of the LoRaWAN standard was studied by Sanchez-
+Iborra et al. [52]; important studies also exist on improving capacity
+[53] and communication performance [54,55].
+
+
+Hofmann and Rüsch [56] regard real-time information flows, end-
+to-end transparency and flexibility as three key objectives of Industry
+4.0, whereas Büyüközkan and Göç er [38] highlight the necessity
+of integrating sensor networks in heterogeneous environments
+towards this goal. Nevertheless, there is great disparity across coun-
+
+
+tries in terms of Industry 4.0 adoption, which is a potential barrier
+to advancement [57]. Two major areas of research are highlighted
+based on the gaps that our work aims to fill in the Industry 4.0 field:
+heterogeneous approaches based on wireless technologies collab-
+oration and end-to-end applications oriented towards specific use
+cases.
+
+
+As heterogeneous approaches, Gioia et al. [58] present an IoT
+gateway integrating multiple sensors, buses and technologies,
+while Garrido-Hidlago et al. [59] describe the implementation of a
+hybrid network to improve working conditions in industry through
+the use of industrial wearables [60]. Regarding end-to-end appli-
+cations, Tao and Qi [61] propose an IT-driven framework towards
+smart manufacturing. In the domain of SCM, Abdel-Basset et al.
+[62] present a framework for IoT-enabled securely-efficient sys-
+tems, Papert and Pflaum [63] define an ecosystem to encourage IoT
+services in the domain of SCM and Wakenshaw [64] presents an IoT
+integration framework.
+
+
+Table 1 provides a comparison of the most representative works
+in our literature review. Many of these studies address descriptive
+approaches or simulations, whereas others focus on the experi-
+mental evaluation of a single IoT standard lacking of an end-to-end
+perspective or industry-oriented deployment concerning a hetero-
+geneous IoT ecosystem. We  fill this gap in the literature proposing
+and testing a real end-to-end IoT solution based on a heterogeneous
+network proposal for R-SCM of WEEE.
+
+
+3. IoT framework for R-SCM
+
+
+This section describes an IoT R-SCM framework proposal to
+manage WEEE, aimed at providing manufacturers with a novel
+ubiquitous information infrastructure behind SC for tracking of
+parts to be recovered. For this, we first select the set of IoT standards
+for the deployment (based on a communication-range criterion)
+and, then, the main stages of the framework are described accord-
+ing to their functionality and information flows.
+
+
+Our proposed IoT-based WEEE management framework is sup-
+ported by a twofold approach: on the one hand, the presentation
+of an industrial solution to contribute to filling a real gap of WEEE
+management across SC and, on the other, the provision of an IoT
+network architecture to connect SC with a transparent inventory-
+management infrastructure in the context of Industry 4.0.
+
+
+3.1. Selection of IoT standards
+
+
+The proposed R-SCM framework distinguishes between three
+sets of IoT standards according to their communication range:
+short-range, intermediate-range and long-range. MQTT [66] was
+selected for data transmission between physical devices (IoT net-
+work deployed in the facilities) and virtual data infrastructures
+(inventory cloud platform), while a unique standard was selected
+from each set to fulfill the framework requirements:
+
+
+Short-range communication. We  selected high-frequency RFID
+[13] over NFC [67] for the identification of returned products in the
+framework. Despite being popular for contactless payment, infor-
+mation sharing and user-oriented applications, NFC is not suitable
+for industrial use. High and ultra-high frequency RFID offer robust-
+ness against metal interference and a greater communication range
+(typically in the order of tens of meters).
+
+
+Intermediate-range communication. BLE [14] was selected over
+Wi-Fi [68] or ZigBee [69] for local data transmission and inventory
+management in the framework. Although operating in the same
+frequency bands, BLE is oriented toward IoT applications where
+the volume of information to be sent is small and low power is
+encouraged, having become a disruptive standard for Industrial IoT
+applications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+ 
+
+
+C
+.
+
+
+ G
+arrid
+
+
+o-H
+id
+
+
+algo,
+ T.
+
+
+ O
+livares,
+
+
+ F.J.
+ R
+
+
+am
+irez
+
+
+ et
+ al.
+
+
+ /
+ C
+
+
+om
+p
+
+
+u
+ters
+
+
+ in
+ In
+
+
+d
+u
+
+
+stry
+ 1
+
+
+1
+2
+
+
+ (2
+0
+
+
+1
+9
+
+
+)
+ 1
+
+
+0
+3
+
+
+1
+2
+
+
+7
+
+
+Table 1
+Comparison of the main contributions found in the literature.
+Source  Method  Scope  or  domain  area End-to-end  ICT  infrastructure Heterogeneous  IoT  network
+
+
+Descriptive  Theoretical  Case  study Simulation  Implementation  Experimental  Industry  4.0 Internet  of
+Things
+
+
+Circular
+economy
+
+
+Reverse
+logistics
+
+
+WEEE  Framework  Perception
+layer
+
+
+Network
+layer
+
+
+Application
+layer
+
+
+Performance
+test
+
+
+RFID-
+based
+
+
+BLE-
+based
+
+
+LoRaWAN-
+based
+
+
+IP-based
+
+
+Abdel-Basset  et  al.
+[62]
+
+
+√ √  √ √  √  √
+
+
+Asif et  al.  [30]
+√ √ √ √ √
+
+
+Cattani et  al.  [54]
+√ √  √  √ √ √ √
+
+
+Cho et  al.  [50]
+√ √ √ √
+
+
+Cuomo et  al.  [55]
+√ √ √ √
+
+
+Dementyev  et al.
+[49]
+
+
+√  √  √  √
+
+
+Garcia-Muiña et  al.
+[29]
+
+
+√ √ √ √ √ √
+
+
+Garrido-Hidalgo
+et al.  [59]
+
+
+√ √ √ √ √ √ √ √ √ √
+
+
+Genovese et  al.  [17]
+√  √  √
+
+
+Gioia et  al.  [58]
+√  √  √ √  √
+
+
+Gu et  al.  [31]
+√  √  √ √  √  √  √
+
+
+Papert and  Pflaum
+[63]
+
+
+√ √ √ √
+
+
+Roda-Sanchez  et  al.
+[60]
+
+
+√  √ √ √ √  √ √
+
+
+Rondón et  al.  [51]
+√  √  √  √  √
+
+
+Sanchez-Iborra
+et al.  [52]
+
+
+√  √  √
+
+
+Siekkinen et  al.  [48]
+√ √ √ √ √ √
+
+
+Tao et  al.  [65]
+√ √ √ √
+
+
+Wakenshaw  [64]
+√ √ √  √
+
+
+Yang et  al.  [28]
+√  √  √  √  √  √ √  √
+
+
+Zorbas et  al.  [53]
+√  √  √  √
+
+
+Our work
+√  √  √  √  √ √  √  √  √  √  √  √ √  √  √  √  √
+
+
+
+
+
+
+C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127 5
+
+
+Fig. 1. R-SCM IoT framework based on: Identification Stage (i), Classification Stage (ii), Smart Containers (iii), Hybrid Gateway (iv), LoRaWAN Gateway (v), TTN (vi), AWS
+(vii).
+
+
+Long-range communication. Regarding Low-Power Wide-Area
+(LPWA) standards, LoRaWAN [70] was selected over NB-IoT [71]
+or Sigfox [72] for environmental monitoring of assets and inter-
+connection of industrial facilities. The main advantages of NB-IoT
+and Sigfox technologies lie in their narrowband implementation
+providing robustness against noise and, specifically, Sigfox has the
+lowest chip cost and NB-IoT the lowest network latencies. However,
+LoRaWAN is the best choice for bidirectional communication and
+provides more flexibility, enabling firmware upgrades over-the-air,
+a unique feature of this technology oriented toward large-scale IoT
+deployments. Furthermore, LoRaWAN provides better robustness
+against mobility, which we regard as an essential requirement for
+SC scenarios.
+
+
+3.2. Description of the stages
+
+
+The proposed framework offers end-to-end IoT integration com-
+bining physical devices and sensors, wireless communications
+(RFID, BLE and LoRaWAN) and platforms for data storage and ana-
+lytics. Fig. 1 shows the framework, the main components of which
+are the Identification Stage, Inspection Stage, Classification Stage,
+Smart Containers and Hybrid Gateway.
+
+
+This work is aimed at deploying the communications infras-
+tructure able to manage data gathered during the recovery of
+WEEE, with the Inspection Stage being outside the scope of the
+concerned network. Nevertheless, this stage is responsible for the
+disassembly of products and the refurbishment of modular compo-
+nents to ensure that they meet the necessary conditions for reuse.
+Non-recoverable components are sent to repair or recycling plants
+depending on their deterioration. Once reusable parts are classi-
+
+
+Table 2
+IoT standards used (classified as input or output).
+
+
+Framework stage Input standards Output standards
+
+
+(i) Identification Stage RFID BLE 4.0
+(ii)  Classification Stage BLE 4.2 None
+(iii) Smart Containers None BLE 4.0
+(iv) Hybrid Gateway BLE 4.2 LoRaWAN, MQTT
+(v) LoRaWAN Gateway LoRaWAN IP
+(vi) TTN IP None
+(vii) AWS  IoT Core MQTT MQTT
+
+
+fied into separate containers, the Hybrid Gateway is responsible
+for collecting data and managing two flows of information: global
+(inventory updates) and local (environmental information).
+
+
+Table 2 summarizes the compliance with IoT standards: the
+Identification Stage (i) combines RFID technology to scan tagged
+products with BLE to forward the information to the Classifica-
+tion Stage (ii), received via BLE 4.2. The Smart Containers (iii) use
+BLE to update inventory and environmental information, which is
+received by the Hybrid Gateway (iv) and respectively forwarded
+through the LoRaWAN Gateway (v) to The Things Network [73],
+TTN (vi) or via MQTT to IoT Core platform in Amazon Web  Services
+[74], AWS  (vii).
+
+
+Identification Stage (i).  The aim of this stage is to read informa-
+tion written on RFID tags to identify the reason of return and the
+other key aspects of products. Tags are expected to be attached
+by the retailers or manufacturers shipping the EoL products, and
+written according to an agreed data-encryption algorithm – as,
+for example, the one proposed by ElMahgoub [75] – in order to
+control data access and simplify the identification of products
+entering the system. Once read, an actuator system would intro-
+
+
+
+
+
+
+6 C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127
+
+
+Fig. 2. Algorithm used for classification and communication.
+
+
+duce reusable products into containers and let defective products
+continue through the system. At the Identification Stage the device
+is provided with RFID and BLE modules. Once the RFID tags are
+scanned, this device (under the slave BLE role) exchanges informa-
+tion with its master (Classification Stage).
+
+
+Classification Stage (ii).  This stage is the core of the framework,
+where information about products and parts is collected. The parts
+received at this stage will have passed a quality control test, and are
+thus assumed to be reusable. The device located in this stage acts
+as BLE master and receives information from the previous stage by
+discovering the services and reading the characteristics of the slave
+(according to the BLE specification in Bluetooth SIG [14]). The Clas-
+sification Stage includes a database where standard part models
+are stored to access information such as reference models, kind of
+product or weight. Subsequently, the device weighs parts to clas-
+sify them. Fig. 2 provides a detailed description of the classification
+algorithm, where producttype refers to a product subset (kind of
+product, i.e. laptop or desktop computer) and parttype to the spe-
+cific models of the parts stored with additional information in a
+JSON file.
+
+
+Smart Containers (iii). These devices integrate a microcontroller
+platform, a load cell and an accelerometer, being able to commu-
+nicate via BLE under the BLE advertiser role to update inventory
+and context information. This stage is designed to weigh parts
+and calculate the available number of parts of each type to be
+reused, turning containers into useful real-time platforms. Every
+time acceleration suffers a significant change, an interruption event
+wakes up the microcontroller and measures weight: if it has
+changed, it will recalculate the number of items (according to the
+type of parts inside each container) and send a packet via BLE (see
+Fig. 2).
+
+
+Hybrid Gateway (iv). This device is intended to collect informa-
+tion emitted by BLE advertisers,  the Smart Containers, (for which
+it assumes the role of scanner) and classify it according to a
+local/global criterion. Two kinds of information flows are created
+in the Hybrid Gateway (see Fig. 1):
+
+
+• Local information flow. This information is generated in Smart
+Containers when something unexpected occurs (i.e. low battery
+level of devices) and is sent to the Hybrid Gateway. This device
+is responsible for encapsulating this context data, adding sensed
+ambient information, and sending it through a LoRaWAN gate-
+way (v) to TTN (vi).
+
+
+Fig. 3. Disassembly stages: Identification (i), Classification (ii) and Smart Containers
+(iii).
+
+
+• Global information flow. This consists of inventory data updated
+by Smart Containers. The Hybrid Gateway, acting as a BLE scanner,
+receives a mixed information flow, filters it and publishes inven-
+tory updates via MQTT in AWS  IoT Core (vii). Once data is stored
+in AWS, any authorized entity could subscribe to get immediate
+inventory updates.
+
+
+4. Case study
+
+
+Personal computers have become one of the major concerns
+regarding waste-streams generation, given a considerable decrease
+in their average useful life over the years and a high environmental
+impact associated with their disposal. Nevertheless, most com-
+ponents found in computers are in good condition for reuse or
+refurbishment and, depending on their added value, these can be
+brought back to the required degree of quality as presented in [26].
+
+
+Following this idea, the scenario selected for the case study was
+an industrial environment focused on the recovery of computer-
+based products. Fig. 3 represents the flow of products and parts
+throughout the stages of the system in our case study scenario.
+
+
+The two subsets of products used in the experiments were
+desktop and laptop computers, which entered the system being
+identified via RFID. Then, products would be sent to the Inspec-
+tion Stage, where the appropriate EoL strategy would be applied
+according to their added value and condition (outside the scope
+of the case study). For classification, we used components disas-
+sembled from damaged computers, which are shown in Table 3, in
+addition to their approximate cost and main specifications used by
+the classification algorithm (see Fig. 2).
+
+
+The case study consisted in the identification and classification
+of components using sensors and communication modules, which
+were attached to the microcontroller-based platforms deployed
+throughout the R-SCM system. The implementation and deploy-
+ment of a real hardware prototype permitted the evaluation of IoT
+communications taking place in the end-to-end system.
+
+
+The single-board computers (SBC), sensors and radio communi-
+cation modules used to deploy the prototype are shown in Table 4.
+LightBlue Bean as an implementation of the ATmega 328P micro-
+controller with the LBM313 BLE radio was used for Identification
+Stage (i) and Smart Containers (iv); LoPy as an implementation of
+Xtensa LX6 including the BLE/Wi-Fi ESP32 and the LoRa SX1276
+radio module was used to develop the Hybrid Gateway; a Raspberry
+Pi 2B based on the BCM2836 microprocessor was used to deploy the
+LoRaWAN gateway (on the roof of the testing building); a Raspberry
+Pi Zero W based on the BCM2835 and the CYW43438 BLE radio was
+used for the Classification Stage. Additionally, we  attached two type
+of sensors to LightBlue Bean: load cells and ambient sensors, specifi-
+cally, three two-kilogram straight load cells and Pysense to test the
+proposal using the temperature-and-humidity integrated sensor
+Si7006-A20. Regarding radio modules, the RC522 RFID communi-
+cation module was included at the Identification Stage, operating at
+high-frequency (13.56 MHz) and the iC880A LoRaWAN concentra-
+tor (integrating the SX1301 transceiver) with an external 868 MHz
+
+
+
+
+
+
+C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127 7
+
+
+Table  3
+Specifications of WEEE parts used in the experiments.
+
+
+WEEE Part type Part model Subset Weight (g) Cost (D )
+
+
+Hard disk ST31000340AS Desktop 642 90
+
+
+Network card HE-012D Desktop 60 10
+
+
+Network card FT16-04B3 Desktop 55 15
+
+
+Network card GTS FC-515 Desktop 56 9
+
+
+Graphic card QUADRO FX-580 Desktop 220 139
+
+
+RAM KTM2865-SR Desktop 18 17
+
+
+RAM CF81037 Laptop 8 40
+
+
+Table 4
+Hardware used in the deployment (radio specifications are marked as input(i) or
+output(o) information flows).
+
+
+Framework stage Core Sensors Radio modules
+
+
+(i) Identification Stage ATmega 328P None MFRC522(i) , LBM313(o)
+
+
+(ii) Classification Stage BCM2835 TAL 220 CYW43438(i/o)
+
+
+(iii) Smart Containers ATmega 328P TAL 220 LBM313(o)
+
+
+(iv) Hybrid Gateway Xtensa LX6 Si7006-A20 ESP32(i/o) , SX1276(o)
+
+
+(v) LoRaWAN Gateway BCM2836 None SX1301(i) , Ethernet(o)
+
+
+Fig. 4. Prototype developed for evaluation of the R-SCM framework, showing: Iden-
+tification Stage (i), Classification Stage (ii), Smart Containers (iii) and Hybrid Gateway
+(iv).
+
+
+antenna was used for the LoRaWAN gateway deployment (located
+outdoors, on the roof of the Albacete Research Institute of Infor-
+matics).
+
+
+All the materials (except the LoRaWAN gateway) were dis-
+tributed and screwed to a wooden board in order to implement
+a low-cost prototype that permitted us to test the communication
+performance of the different standards. Fig. 4 shows the resulting
+prototype.
+
+
+5. Results and discussion
+
+
+The experiments were designed to satisfy a set of performance
+tests to assess the strengths and limitations of the R-SCM pro-
+posal under IoT criteria [76]. These tests are described in Table 5
+
+
+and scaled according to real-world experiments with IoT devices
+instead of simulations.
+
+
+The TNSC metric quantifies the influence of increasing Smart
+Containers on latency (BLE standard); TOA the Time-on-Air at
+LoRaWAN end-devices as a function of payload, complying with
+ETSI [77] regulations of 1% duty cycle, NPCK; T1, T2, T3 provide a
+disaggregated end-to-end communication latency considering the
+cooperation of all technologies; RSSI (received signal strength indi-
+cator) and SNR (signal-to-noise ratio) determine the signal quality
+perceived at the LoRaWAN Gateway depending on end-device loca-
+tion.
+
+
+Table 6 showcases the setup of the experiments, where Ga is
+the antenna gain, Ptx the transmission power and Srx the receiver
+sensitivity. The conditions for the Geographic Spread experiments
+were cloudless skies and temperatures from 26 to 30 ◦C, in Albacete,
+Spain. The height of the transmitting end-device was  2 meters,
+and the height of the LoRaWAN gateway 18 m.  The LoRaWAN
+specification [15] provides further information on physical-layer
+parameters: spreading factor (SF), coding rate (CR), data rate (DR)
+and bandwidth (BW); and the BLE specification [14] provides more
+details on the main network roles used in this work, namely: scan-
+ner/advertiser in broadcasting mode and master/slave in connection
+mode.
+
+
+5.1. Data ingest test
+
+
+A scaled system would imply the addition of new lines with
+incoming products and, thus, the increase of BLE traffic received by
+the Hybrid Gateway and forwarded via MQTT to AWS. Whereas
+the former could become a potential bottleneck for the sys-
+tem, the latter has been widely tested in the literature with no
+apparent scalability limitations for IoT, reaching up to 263,314
+packets received and 23,184 sent per hour under a 0% packet loss
+[78].
+
+
+A series of BLE-based experiments was carried out to evalu-
+ate the influence of increasing the number of Smart Containers,
+updating inventory information to a same Hybrid Gateway. For
+this, the NRF Connect [79] software was used to ingest BLE traffic
+in the network and measure the resulting TNSC . Each experi-
+
+
+
+
+
+
+8 C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127
+
+
+Table  5
+IoT-oriented tests to evaluate the prototype.
+
+
+Stages involved Test Description Metrics
+
+
+(iii), (iv) Data ingest Influence of traffic on performance TNSC
+(iv), (v) Data size Influence of payload on performance TOA , NPCK
+(i) → (iv), (vii) Network latency Disaggregated end-to-end performance T1, T2, T3
+(iv), (v) Geographic spread Influence of distance on signal quality RSSI, SNR
+
+
+Table 6
+Experiments setup: parameters and IoT standards specifications in the R-SCM solution.
+
+
+Parameter RFID Bluetooth low energy (BLE) LoRaWAN
+
+
+Role Reader Master/Slave Advertiser Scanner End-device Gateway
+Frequency 13.56 MHz  2.4 GHz 2.4 GHz 2.4 GHz 868 MHz  868 MHz
+Modulation ASK GFSK GFSK PSK LoRa LoRa
+Radiation Directional Directional Omnidirectional Omnidirectional Omnidirectional Omnidirectional
+Ga (dBi) – – 1.7 – 3 8
+Ptx (dBm) Variable 8.5 3 7.5 14 14
+Srx (dBm) – −97 −93 −98 – −136/−120
+
+
+Fig. 5. Influence of the increase of Smart Containers NSC in the minimum receiving
+time (TNSC ) for BLE advertising intervals of 100, 250 and 1000 ms.
+
+
+ment was carried out ten times increasing traffic conditions under
+low-power (1000-ms advertising), balanced (250 ms)  and low-
+latency (100 ms)  configurations. The resulting average is shown in
+Fig. 5a.
+
+
+The results provided in Fig. 5a highlight the communication
+time required in case of simultaneous transmission attempts on
+the part of Smart Containers. Fig. 5b provides the normalized min-
+imum receiving time of the Hybrid Gateway for a given number of
+Smart Containers, obtained as the inverse of the minimum receiv-
+
+
+ing time divided by the advertising interval. Eqs. (1) to (3) provide
+the tendency lines and curves obtained from the experiment data:
+
+
+!
+TNSC (100ms) = 0.0129 × NSC + 0.0183 R
+
+
+2 = 0.9547
+
+
+T̂NSC (100ms) = 1.0323 × N
+−0.530
+SC R
+
+
+2 = 0.9687
+(1)
+
+
+!
+TNSC (250ms) = 0.0189 × NSC + 0.4669 R
+
+
+2 = 0.8551
+
+
+T̂NSC (250ms) = 0.9663 × N
+−0.416
+SC R
+
+
+2 = 0.9206
+(2)
+
+
+!
+TNSC (1000ms) = 0.0529 × NSC + 1.8576 R
+
+
+2 = 0.8326
+
+
+T̂NSC (1000ms) = 0.9766 × N
+−0.368
+SC R
+
+
+2 = 0.9285
+(3)
+
+
+The advertising interval implies the reception of one packet
+of each container every 100 ms  for a low-latency configuration,
+250 ms  for balanced and 1000 ms  for low power. However, as the
+number of Smart Containers increases, we observe in the results
+how the proportional time required to receive a single packet also
+increases (see Fig. 5a). Let us consider the low-power configuration
+as an example: with devices advertising every 1000 ms,  the ideal
+TNSC would be 1000 ms,  but experimentally ranges from 2000 to
+4500 depending on NSC.
+
+
+If different advertising intervals are considered for the same
+NSC, taking into account Fig. 5b, important conclusions are reached.
+Let us consider the worst-case scenario with 50 containers trans-
+mitting simultaneously (NSC = 50): for a low-latency configuration,
+the ideal TNSC , 100 ms,  is up to 10 times lower than the experi-
+mental one (nearly 1000 ms  according to Fig. 5a), whereas for a
+low-power configuration this value is approximately 5 times lower
+than the expected (1000 ms  ideally with respect to the nearly 5000
+ms reached experimentally). This can be observed in Fig. 5b, where
+the normalized minimum receiving time (T̂NSC ) for a low-power
+configuration is two times that of low-latency.
+
+
+Thus, despite the low-power configuration having a worse abso-
+lute latency, the normalized results show that in this case the
+effectiveness of transmissions is the highest. This means that the
+proportion of packets lost during communication increases with
+the number of containers (NSC) and also with the reduction of the
+advertising interval. The origin of the problem may  be related to col-
+lisions taking place when the BLE traffic in the network is increased
+(either augmenting the transmitting frequency or the number of
+devices in the network). Further research is required to assess the
+origin of this packet loss in pursuit of more efficient large-scale
+industrial networks.
+
+
+
+
+
+
+C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127 9
+
+
+Fig. 6. Influence of LoRaWAN end-devices packet size (CR of 4/5, BW of 125 kHz and different SF) in TOA and NPCK for a 1% duty cycle.
+
+
+5.2. Data size test
+
+
+This test focuses on the LoRaWAN network, since the per-
+formance of LPWA is significantly influenced by variable data
+payloads. In contrast to the data ingest test, where scalability
+implied a scenario with increased traffic, this experiment aimed
+to highlight the required Time-on-Air (TOA metric in Table 5) of
+LoRaWAN end-devices for different configurations and volumes of
+data.
+
+
+Following the standard [15], the LoRa physical layer uses several
+chips to encode each symbol, resulting in SF configurations ranging
+typically from SF7 (27 chips/symbol) to SF12 (212 chips/symbol). In
+order to calculate the Time-on-Air required when setting different
+SFs, the symbol duration (Tsym) should be defined as shown in Eq.
+(4):
+
+
+Tsym =
+2SF
+
+
+BW
+(4)
+
+
+Eq. (5) provides the formula to obtain the TOA metric (see [80]
+design guide). The payloadSymbNb was computed considering the
+presence of a header. The preamble duration was obtained accord-
+ing to Eq. (6) as a function of the symbol duration (Tsym) and the
+number of preamble symbols (npreamble) and, then, the packet dura-
+tion was obtained according to Eq. (7) as a function of the symbol
+duration (Tsym) and the number of header and payload symbols
+(payloadSymbNb):
+
+
+TOA = Tpreamble + Theader+payload (5)
+
+
+Tpreamble = Tsym × (4.25 + npreamble) (6)
+
+
+Theader+payload = Tsym × payloadSymbNb (7)
+
+
+Fig. 6a shows the required TOA for 10-to-50-byte payloads for
+different SF configurations. The results range from approximately
+70 ms  to 2.8 s. Although, the number of LoRaWAN end-devices used
+for the experiments was not sufficiently large to involve communi-
+cation bottlenecks in the R-SCM approach proposed, the results of
+this test are useful to focus on a further industry-oriented scalability
+of the system.
+
+
+For large-scale deployments, the coexistence of several LoRa
+devices transmitting under the same SF configuration involves
+
+
+significant probability of failed transmissions due to intra-SF colli-
+sions (collisions occurring when two devices transmit at the same
+time, using the same frequency band and SF). Additionally, inter-
+collisions can also be noticed when the same frequency band is
+shared but different SFs are set up, although this is less likely to
+occur [53]. In view of the TOA results obtained, high SF configura-
+tions and long payloads should be avoided, when possible, in order
+to reduce the probability of collisions caused by a long channel-
+occupancy time.
+
+
+The results are useful to determine the maximum number of
+LoRa-based transmissions permitted for any end-device according
+to 1% duty cycle regulations (see ETSI [77] for further documenta-
+tion). Fig. 6b provides a useful approximation, based on the results
+from Fig. 6a. Let us consider a 20-byte payload configured under
+SF10 as an example: in this case, ETSI would limit an end-device to
+transmitting, at most, 2000 packets per day (more than sufficient
+for environmental monitoring in distributed warehouses). How-
+ever, TTN restrictions of 30 s of TOA per device and day [81] applied
+to Fig. 6a results would only permit 60 packets in the previous
+situation. For this reason, further research is required to use alter-
+native self-deployed network servers to enhance the framework
+flexibility.
+
+
+5.3. Network latency test
+
+
+This test quantified stage-to-stage and end-to-end latencies of
+the inventory-management functionality of the system for a given
+configuration, since the local functionality (LoRaWAN-based) was
+tested in depth in Section 5.2. The metrics used to provide the
+results are T1, T2 and T3 (see Table 5), which correspond to those
+represented in the sequence diagram in Fig. 7. This experiment pro-
+vides an overall latency approach based on the cooperation of RFID,
+BLE and MQTT standards, with all BLE devices being programmed
+with advertising intervals of 100 ms.
+
+
+In Fig. 7, T1 refers to the time elapsed from when a new product
+is identified via RFID and metadata is sent via BLE to Classifica-
+tion Stage, until the acknowledgement is received. T2 refers to
+the time elapsed from when a new part is noticed in a Smart
+Container until the BLE advertisement packet containing the inven-
+tory update reaches the Hybrid Gateway. Finally, T3 is the time
+
+
+
+
+
+
+10 C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127
+
+
+Fig. 7. Sequence diagram of the inventory-management system (T1, T2 and T3 metrics).
+
+
+Table 7
+Results of the network latency test (in ms).
+
+
+Metric Average Maximum Minimum STD Stages involved
+
+
+T1 185.530 214.184 166.960 23.220 (i), (ii)
+T2 124.635 170.744 117.920 18.631 (iii), (iv)
+T3 65.724 69.909 62.106 2.457 (iv), (vii)
+
+
+elapsed between an inventory update being received via BLE and
+a client subscribed via MQTT to the topic-of-interest receiving the
+notification.
+
+
+The measured latency of the end-to-end system is shown in
+Table 7, according to metrics T1, T2 and T3. The experimental results
+show T1 and T2 are significantly higher than T3, which means that
+no communication constraints or bottlenecks might be noticed
+when scaling MQTT connectivity with the AWS  IoT platform.
+Metrics T1 and T2 should be analyzed according to the commu-
+nication standards and industrial process associated with each
+one.
+
+
+If we consider the inspection of components between the RFID-
+based identification of products and the classification of parts (see
+Fig. 1), an average latency of approximately 185 ms,  T1, would not
+limit the performance of the R-SCM system. Conversely, our results
+point to the fact that T2, the BLE link between Smart Containers and
+their Hybrid Gateway, could limit the speed of the system if laten-
+cies of all stages are compared. Nevertheless, an overall minimum
+delay of 124 ms  would not limit the inventory-monitoring func-
+tionality of the system, especially considering the requirements
+associated with the RL purpose of the system [40].
+
+
+5.4. Geographic spread test
+
+
+This test evaluates LoRaWAN coverage based on RSSI and SNR
+(see Table 5) using the TTN Mapper [82] tool. Fig. 8 shows a map  of
+the city of Albacete (Spain), the scenario used for the experiments.
+The gateway is represented by a cross and end-device positions (P)
+into equidistant circles.
+
+
+Table 8 shows and interprets the results. Since the receiver sen-
+sitivity and, consequently, the minimum SNR is different per SF, the
+SNR results in Table 8 should only be compared in columns.
+
+
+Since RSSI and SNR should not be considered absolute values,
+Eqs. (8)a to (8)f simplify our quality (Q) interpretation criteria. Given
+the implementation of transceivers [83], when the signal is suffi-
+ciently strong, it is attenuated avoiding overload. RSSI and SNR are
+obtained after attenuation, which is why SNR values equal or higher
+than 5 dB have been attenuated. In such cases, only RSSI provides
+relevant information (the lower its absolute value, the better). Oth-
+
+
+erwise, the minimum SNR threshold supported (−7.5 dB for SF7,
+−10 dB for SF8, etc.) is considered to calculate a margin:
+
+
+(8)
+
+
+The influence of vegetation is noticed at P ♦ .1rural and P ⋆ .1rural
+as a reduction in the SNR margin with respect to right-hand-side
+locations (P ♦ .2rural and P ⋆ .2rural), under line-of-sight. The urban
+measurements show the influence of infrastructures on reliability.
+For instance, P ◦ .2urban was measured with no surrounding build-
+
+
+ings, whereas in P △ .3urban and P . 2urban buildings were present.
+Our experiments show that LoRaWAN presented no communica-
+tion problems in rural scenarios, with low SFs being sufficient for
+wide areas. Conversely, the urban results call for high SF allocations,
+since only SF12 achieved 100% of success.
+
+
+6. Conclusions
+
+
+This work presents an Industry 4.0 solution for R-SCM based
+on a heterogeneous IoT network following DSC objectives. BLE
+and RFID technologies are proposed for inventory management
+using Smart Containers, while a LoRaWAN context network is
+responsible for environmental monitoring of industrial facilities.
+The network is governed by a Hybrid Gateway, responsible for
+receiving BLE information and forwarding it to two back-ends: an
+inventory-monitoring platform in AWS  (via MQTT) and a context-
+information platform in TTN (via LoRaWAN). This solution was
+developed within a real IoT prototype and applied to an industrial
+case study regarding WEEE recovery towards CE.
+
+
+Four performance tests were conducted to evaluate the pro-
+posal: data ingest (assessing the influence of increasing traffic),
+geographical spread (wide-area communication), data size (varying
+payloads) and network latency (end-to-end evaluation). Our results
+achieve reasonably appropriate network latencies for inventory
+management, suggesting that BLE communication might become
+a potential bottleneck for large-scale deployments. In such sit-
+uations, the minimum receiving time at the Hybrid Gateway
+increases proportionally with the number of Smart Containers and,
+in addition, lower advertising intervals result in faster commu-
+nications at the expense of lower effectiveness. Furthermore, a
+LoRaWAN-based coverage study was carried out in Albacete (Spain)
+concerning urban and rural scenarios. Our results show how dis-
+
+
+
+
+
+
+C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127 11
+
+
+Fig. 8. Coverage study scenario in the city of Albacete with urban and rural locations.
+
+
+Table 8
+Geographic spread test results showing RSSI (dBm) and SNR (dB) metrics of LoRaWAN technology in urban and rural scenarios (range in meters), with a coding rate (CR) of
+4/5,  bandwidth (BW) of 125 kHz.
+
+
+tance as well as interposed buildings or vegetation areas impact
+on the perceived signal quality. Finally, we experimentally show to
+what extent higher SF allocations increase the coverage area and
+discuss its implications.
+
+
+The deployment and evaluation of a network prototype serve
+as a demonstrator of the potential of IoT adoption in R-SCM sce-
+narios, which carries important managerial insights. Stakeholders
+could benefit from this solution achieving better management
+of resources based on real-time inventory information through
+a low-cost and low-power infrastructure. Additionally, seamless
+monitoring of facilities is achieved through a self-monitored con-
+text information network able to report shop-floor incidences. With
+data-sharing being one of the barriers towards IT adoption, the
+proposed approach enables the use of data-encryption algorithms
+
+
+to control information accessibility depending on established rela-
+tionships between manufacturers and R-SCM operators. As a result,
+IoT can be conceived as a tool to facilitate information manage-
+ment in EoL product-recovery operations contributing to the shift
+towards the CE.
+
+
+As future work, we plan to assess the economic and environ-
+mental viability of the proposed approach for different types of
+products, considering factors such as their degree-of-deterioration,
+their added-value according to condition, or the required remanu-
+facturing operations. Furthermore, based on the results obtained in
+this work, the IoT communications network proposed will be used
+as a testbed to develop algorithms oriented to test and improve the
+energy efficiency and reliability of communications, while improv-
+ing the network capacity of LoRaWAN and BLE technologies in
+
+
+
+
+
+
+12 C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127
+
+
+real industrial scenarios. For this, we aim to develop scheduling
+algorithms able to minimize collisions in the network and, thus,
+improve reliability through avoiding repeated transmissions.
+
+
+Declarations of interest
+
+
+None.
+
+
+Acknowledgments
+
+
+This work was partially supported by the Spanish “Ministry
+of the Economy and Competitiveness” and the European Union
+(FEDER Funds) under projects ECO2016-75781-P and RTI2018-
+098156-B-C52, and the Engineering and Physical Sciences Research
+Council (EPSRC), UK, grant no. EP/N018524/1.
+
+
+References
+
+
+Cong, L., Zhao, F., Sutherland, J.W., 2017. Integration of dismantling operations into
+a  value recovery plan for circular economy. J. Clean. Prod. 149, 378–386.
+
+
+Islam, M.T., Huda, N., 2018. Reverse logistics and closed-loop supply chain of waste
+electrical and electronic equipment (WEEE)/E-waste: a comprehensive litera-
+ture review. Resour. Conserv. Recycl. 137, 48–75.
+
+
+Baldé, C.P., Forti, V., Gray, V., Kuehr, R., Stegmann, P., 2017. The Global E-waste
+Monitor 2017 – Quantities, Flows, and Resources. United Nations University,
+International Telecommunication Union, and International Solid Waste Associ-
+ation.
+
+
+Govindan, K., Soleimani, H., Kannan, D., 2015. Reverse logistics and closed-loop sup-
+ply chain: a comprehensive review to explore the future. Eur. J. Oper. Res. 240,
+603–626.
+
+
+Dekker, R., Fleischmann, M.,  Inderfurth, K., van Wassenhove, L.N., 2013. Reverse
+Logistics: Quantitative Models for Closed-Loop Supply Chains. Springer Science
+&  Business Media.
+
+
+Jerbia, R., Boujelben, M.K., Sehli, M.A., Jemai, Z., 2018. A stochastic Closed-Loop Sup-
+ply Chain network design problem with multiple recovery options. Comput. Ind.
+Eng. 118, 23–32.
+
+
+Gubbi, J., Buyya, R., Marusic, S., Palaniswami, M.,  2013. Internet of Things (IoT): a
+vision, architectural elements, and future directions. Fut. Gen. Comput. Syst. 29,
+1645–1660.
+
+
+Hermann, M.,  Pentek, T., Otto, B., 2016. Design principles for Industrie 4.0 scenarios.
+In: 2016 49th Hawaii International Conference on System Sciences (HICSS), IEEE,
+pp.  3928–3937.
+
+
+Zhong, R.Y., Xu, X., Klotz, E., Newman, S.T., 2017. Intelligent manufacturing in the
+context of Industry 4.0: a review. Engineering 3, 616–630.
+
+
+Helo, P., Suorsa, M.,  Hao, Y., Anussornnitisarn, P., 2014. Toward a cloud-based man-
+ufacturing execution system for distributed manufacturing. Comput. Ind. 65,
+646–656.
+
+
+Bittencourt, L.F., Diaz-Montes, J., Buyya, R., Rana, O.F., Parashar, M., 2017. Mobility-
+aware application scheduling in fog computing. IEEE Cloud Comput. 1, 26–35.
+
+
+Jeschke, S., Brecher, C., Meisen, T., Özdemir, D., Eschert, T., 2017. Industrial Internet
+of  Things and Cyber Manufacturing Systems. In: Industrial Internet of Things,
+Springer, pp. 3–19.
+
+
+Roberts, C.M., 2006. Radio frequency identification (RFID). Comput. Secur. 25, 18–26.
+Bluetooth SIG, 2014. Bluetooth 4.0, 4.1 and 4.2 Specifications (accessed 28.10.18)
+
+
+https://www.bluetooth.com/specifications/bluetooth-core-specification.
+LoRa Alliance, 2017. LoRaWAN v1.1 Specification (accessed 28.09.18) https://lora-
+
+
+alliance.org/resource-hub/lorawantm-specification-v11.
+Kneese, A.V., Ayres, R.U., d’Arge, R.C., 1971. Economics and the Environment: A
+
+
+Materials Balance Approach. Routledge.
+Genovese, A., Acquaye, A.A., Figueroa, A., Koh, S.L., 2017. Sustainable supply chain
+
+
+management and the transition towards a circular economy: evidence and some
+applications. Omega 66, 344–357.
+
+
+Preston, F., 2012. A Global Redesign? Shaping the Circular Economy. Chatham House
+London.
+
+
+The  Ellen MacArthur Foundation, 2013. Towards the circular economy. J. Ind. Ecol.
+2,  23–44.
+
+
+Vella, K., 2016. The Circular Economy: An Investment with A Triple Win. https://
+ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-
+economy-investment-triple-win en.
+
+
+Sabbaghi, M.,  Esmaeilian, B., Mashhadi, A.R., Behdad, S., Cade, W.,  2015. An inves-
+tigation of used electronics return flows: a data-driven approach to capture
+and predict consumers storage and utilization behavior. Waste Manage. 36,
+305–315.
+
+
+Pei,  Z., Paswan, A., 2018. Consumers’ legitimate and opportunistic product return
+behaviors in online shopping. J. Electron. Commerce Res. 19, 301–319.
+
+
+European Parliament and Council, 2012. Directive 2012/19/EU of the European Par-
+liament and of the Council of 4 July 2012 on Waste Electrical and Electronic
+Equipment, WEEE. Off. J. Eur. Union L 197, 38–71.
+
+
+European Commission, 2018. Communication from the Commission to the Euro-
+pean Parliament, the Council, the European Economic and Social Committee
+
+
+and the Committee of the Regions on a Monitoring Framework for the Circular
+Economy (accessed 19.02.19) https://eur-lex.europa.eu/legal-content/EN/TXT/
+?qid=1516265440535&uri=COM:2018:29:FIN#footnote25.
+
+
+Eurostat, 2015. Your Key European Statistics: Circular Economy (accessed 19.02.19)
+https://ec.europa.eu/eurostat/web/circular-economy.
+
+
+Farahani, S., Otieno, W.,  Barah, M., 2019. Environmentally friendly disposition deci-
+sions for end-of-life electrical and electronic products: the case of computer
+remanufacture. J. Clean. Prod. 224, 25–39.
+
+
+Parker, D., Riley, K., Robinson, S., Symington, H., Tewson, J., Jansson, K., Ramkumar,
+S.,  Peck, D., 2015. Remanufacturing Market Study.
+
+
+Yang, X., Moore, P., Chong, S.K., 2009. Intelligent products: from lifecycle data acqui-
+sition to enabling product-related services. Comput. Ind. 60, 184–194.
+
+
+Garcia-Mui na, F., González-Sánchez, R., Ferrari, A., Settembre-Blundo, D., 2018. The
+paradigms of Industry 4.0 and circular economy as enabling drivers for the com-
+petitiveness of businesses and territories: the case of an Italian Ceramic Tiles
+Manufacturing Company. Soc. Sci. 7, 255.
+
+
+Asif, F.M., Roci, M.,  Lieder, M.,  Rashid, A., Štimulak, M.,  Halvordsson, E., de Bruijckere,
+R.,  2018. A practical ICT framework for transition to circular manufacturing sys-
+tems. Proc. CIRP 72, 598–602, http://dx.doi.org/10.1016/j.procir.2018.03.311,
+51st  CIRP Conference on Manufacturing Systems.
+
+
+Gu, F., Ma, B., Guo, J., Summers, P.A., Hall, P., 2017. Internet of things and Big Data as
+potential solutions to the problems in Waste Electrical and Electronic Equipment
+management: an exploratory study. Waste Manage. 68, 434–448.
+
+
+De Toni, A., Tonchia, S., 2001. Performance measurement systems – models, charac-
+teristics and measures. Int. J. Oper. Prod. Manage. 21, 46–71.
+
+
+Gunasekaran, A., Patel, C., Tirtiroglu, E., 2001. Performance measures and metrics in
+a  Supply Chain environment. Int. J. Oper. Prod. Manage. 21, 71–87.
+
+
+Slack, N., Chambers, S., Johnston, R., 1995. Operations Management. Pearson Educa-
+tion.
+
+
+Rajeev, A., Pati, R.K., Padhi, S.S., Govindan, K., 2017. Evolution of sustainability in
+supply chain management: a literature review. J. Clean. Prod. 162, 299–314.
+
+
+Gunasekaran, A., Ngai, E.W., 2004. Information systems in supply chain integration
+and management. Eur. J. Oper. Res. 159, 269–295.
+
+
+Srinivasan, R., Swink, M.,  2018. An investigation of visibility and flexibility as com-
+plements to Supply Chain analytics: an organizational information processing
+theory perspective. Prod. Oper. Manage. 27, 1849–1867.
+
+
+Büyüközkan, G., Göç er, F., 2018. Digital Supply Chain: literature review and a pro-
+posed framework for future research. Comput. Ind. 97, 157–177.
+
+
+Govindan, K., Soleimani, H., 2017. A review of reverse logistics and closed-loop
+supply chains: a Journal of Cleaner Production focus. J. Clean. Prod. 142, 371–384.
+
+
+Lembke, R., Rogers, D., 2002. Differences between forward and reverse logistics in a
+retail environment. Supply Chain Manage.: Int. J. 7, 271–282.
+
+
+Ashton, K., 2009. That ‘Internet of Things’ thing. RFID J. 22, 97–114.
+Da Xu, L., He, W.,  Li, S., 2014. Internet of Things in industries: A survey. IEEE Trans.
+
+
+Ind.  Inform. 10, 2233–2243.
+Boyes, H., Hallaq, B., Cunningham, J., Watson, T., 2018. The Industrial Internet of
+
+
+Things (IIoT): an analysis framework. Comput. Ind. 101, 1–12.
+Lu, Y., 2017. Industry 4.0: a survey on technologies, applications and open research
+
+
+issues. J. Ind. Inform. Integr. 6, 1–10.
+Lee, E.A., 2008. Cyber physical systems: design challenges. In: Object Oriented Real-
+
+
+Time Distributed Computing (ISORC), 2008 11th IEEE International Symposium,
+IEEE, pp. 363–369.
+
+
+Lee, I., Lee, K., 2015. The Internet of Things (IoT): applications, investments, and
+challenges for enterprises. Business Horizons 58, 431–440.
+
+
+Lin, J., Yu, W.,  Zhang, N., Yang, X., Zhang, H., Zhao, W.,  2017. A survey on Inter-
+net of Things: architecture, enabling technologies, security and privacy, and
+applications. IEEE Internet Things J. 4, 1125–1142.
+
+
+Siekkinen, M.,  Hiienkari, M.,  Nurminen, J.K., Nieminen, J., 2012. How low energy is
+bluetooth low energy? Comparative measurements with Zigbee/802.15.4. In:
+Wireless Communications and Networking Conference Workshops (WCNCW),
+2012 IEEE, IEEE, pp. 232–237.
+
+
+Dementyev, A., Hodges, S., Taylor, S., Smith, J., 2013. Power consumption analysis of
+Bluetooth Low Energy, ZigBee and ANT sensor nodes in a cyclic sleep scenario.
+In:  Wireless Symposium (IWS), 2013 IEEE International, IEEE, pp. 1–4.
+
+
+Cho, K., Park, W.,  Hong, M.,  Park, G., Cho, W.,  Seo, J., Han, K., 2014. Analysis of latency
+performance of bluetooth low energy (BLE) networks. Sensors 15, 59–78.
+
+
+Rondón, R., Gidlund, M.,  Landernäs, K., 2017. Evaluating bluetooth low energy suit-
+ability for time-critical industrial IoT applications. Int. J. Wirel. Inform. Netw. 24,
+278–290.
+
+
+Sanchez-Iborra, R., Sanchez-Gomez, J., Ballesta-Vi nas, J., Cano, M.D., Skarmeta, A.F.,
+2018. Performance evaluation of LoRa considering scenario conditions. Sensors
+18,  772.
+
+
+Zorbas, D., Papadopoulos, G.Z., Maille, P., Montavont, N., Douligeris, C., 2018. Improv-
+ing  LoRa network capacity using multiple spreading factor configurations. In:
+2018 25th International Conference on Telecommunications (ICT), IEEE, pp.
+516–520.
+
+
+Cattani, M.,  Boano, C.A., Römer, K., 2017. An experimental evaluation of the reliability
+of LoRa long-range low-power wireless communication. J. Sens. Actuator Netw.
+6, 7.
+
+
+Cuomo, F., Campo, M.,  Caponi, A., Bianchi, G., Rossini, G., Pisani, P., 2017. EXPLoRa:
+extending the performance of LoRa by suitable spreading factor allocations. In:
+Wireless and Mobile Computing, Networking and Communications (WiMob),
+IEEE, pp. 1–8.
+
+
+Hofmann, E., Rüsch, M.,  2017. Industry 4.0 and the current status as well as future
+prospects on Logistics. Comput. Ind. 89, 23–34.
+
+
+
+https://www.bluetooth.com/specifications/bluetooth-core-specification
+
+https://www.bluetooth.com/specifications/bluetooth-core-specification
+
+https://www.bluetooth.com/specifications/bluetooth-core-specification
+
+https://www.bluetooth.com/specifications/bluetooth-core-specification
+
+https://www.bluetooth.com/specifications/bluetooth-core-specification
+
+https://www.bluetooth.com/specifications/bluetooth-core-specification
+
+https://www.bluetooth.com/specifications/bluetooth-core-specification
+
+https://www.bluetooth.com/specifications/bluetooth-core-specification
+
+https://lora-alliance.org/resource-hub/lorawantm-specification-v11
+
+https://lora-alliance.org/resource-hub/lorawantm-specification-v11
+
+https://lora-alliance.org/resource-hub/lorawantm-specification-v11
+
+https://lora-alliance.org/resource-hub/lorawantm-specification-v11
+
+https://lora-alliance.org/resource-hub/lorawantm-specification-v11
+
+https://lora-alliance.org/resource-hub/lorawantm-specification-v11
+
+https://lora-alliance.org/resource-hub/lorawantm-specification-v11
+
+https://lora-alliance.org/resource-hub/lorawantm-specification-v11
+
+https://lora-alliance.org/resource-hub/lorawantm-specification-v11
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://ec.europa.eu/commission/commissioners/2014-2019/vella/blog/circular-economy-investment-triple-win_en
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1516265440535&uri=COM:2018:29:FIN#footnote25
+
+https://ec.europa.eu/eurostat/web/circular-economy
+
+https://ec.europa.eu/eurostat/web/circular-economy
+
+https://ec.europa.eu/eurostat/web/circular-economy
+
+https://ec.europa.eu/eurostat/web/circular-economy
+
+https://ec.europa.eu/eurostat/web/circular-economy
+
+https://ec.europa.eu/eurostat/web/circular-economy
+
+https://ec.europa.eu/eurostat/web/circular-economy
+
+https://ec.europa.eu/eurostat/web/circular-economy
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+dx.doi.org/10.1016/j.procir.2018.03.311
+
+
+
+
+C. Garrido-Hidalgo, T. Olivares, F.J. Ramirez et al. / Computers in Industry 112 (2019) 103127 13
+
+
+Castelo-Branco, I., Cruz-Jesus, F., Oliveira, T., 2019. Assessing Industry 4.0 readiness
+in manufacturing: evidence for the European Union. Comput. Ind. 107, 22–32.
+
+
+Gioia, E., Passaro, P., Petracca, M.,  2016. Amber: an advanced gateway solution to
+support heterogeneous IoT technologies. In: 2016 24th International Conference
+on  Software, Telecommunications and Computer Networks (SoftCOM), IEEE, pp.
+1–5.
+
+
+Garrido-Hidalgo, C., Hortelano, D., Roda-Sanchez, L., Olivares, T., Ruiz, M.C., Lopez,
+V.,  2018. IoT heterogeneous mesh network deployment for human-in-the-
+loop challenges towards a social and sustainable Industry 4.0. IEEE Access 6,
+28417–28437.
+
+
+Roda-Sanchez, L., Garrido-Hidalgo, C., Hortelano, D., Olivares, T., Ruiz, M.C., 2018.
+OperaBLE: an IoT-based wearable to improve efficiency and smart worker care
+services in Industry 4.0. J. Sensors, 2018.
+
+
+Tao, F., Qi, Q., 2017. New IT driven service-oriented Smart Manufacturing: frame-
+work and characteristics. IEEE Trans. Syst. Man  Cybern. Syst.
+
+
+Abdel-Basset, M.,  Manogaran, G., Mohamed, M.,  2018. Internet of Things (IoT) and
+its  impact on supply chain: a framework for building smart, secure and efficient
+systems. Fut. Gen. Comput. Syst.
+
+
+Papert, M.,  Pflaum, A., 2017. Development of an ecosystem model for the realiza-
+tion  of Internet of Things (IoT) services in supply chain management. Electron.
+Markets 27, 175–189.
+
+
+Wakenshaw, S., 2017. An IoT-enabled Supply Chain Integration Framework: Empir-
+ical  Case Studies.
+
+
+Tao, M., Zuo, J., Liu, Z., Castiglione, A., Palmieri, F., 2018. Multi-layer cloud architec-
+tural model and ontology-based security service framework for IoT-based smart
+homes. Fut. Gen. Comput. Syst. 78, 1040–1051.
+
+
+ISO, 2016. ISO/IEC 20922:2016-Message Queuing Telemetry Transport (MQTT)
+v3.1.1 (accessed 01.05.18) https://www.iso.org/standard/69466.html.
+
+
+NFC, 2017. Near Field Communication Technology Standards (accessed 29.01.19)
+http://nearfieldcommunication.org.
+
+
+Wi-Fi Alliance, 2019. Wi-Fi Certified (accessed 29.01.19) https://www.wi-fi.org/.
+ZigBee Alliance, 2019. ZigBee Alliance (accessed 29.01.19) https://www.zigbee.org.
+LoRa Alliance, 2018. https://lora-alliance.org/ (accessed 30.04.18).
+
+
+NB-IoT, 2016. NB-IoT Standardized (accessed 17.03.18) http://www.3gpp.org/news-
+events/3gpp-news/1785-nb iot complete.
+
+
+Sigfox, 2019. Sigfox, The World’s Leading IoT Connectivity Service (accessed
+27.01.19) https://www.sigfox.com/.
+
+
+The Things Network, 2019. Building a Global Internet of Things Network Together
+(accessed 26.01.19) https://www.thethingsnetwork.org/.
+
+
+Amazon Web  Services, 2019. Amazon Web  Services (accessed 26.01.19) https://aws.
+amazon.com/.
+
+
+ElMahgoub, K., 2014. An Encryption Algorithm for Secured Communication with
+Passive UHF RFID Systems.
+
+
+Gurijala, Y.R., 2017. Performance Testing Internet of Things (accessed 26.09.18)
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/
+Documents/performance-testing-iot.pdf.
+
+
+ETSI, 2013. European Telecommunication Standards Institute: Compliance of
+the  SX1272/3 LoRa Modem (accessed 30.07.18) https://www.semtech.com/
+uploads/documents/etsi-compliance-sx1272-lora-modem.pdf.
+
+
+Karasiewicz, C., 2013. Why  HTTP is Not Enough for the Internet of Things
+(accessed 01.12.18) https://www.ibm.com/developerworks/community/blogs/
+mobileblog/entry/why http is not enough for the internet of things?lang=en.
+
+
+Nordic Semiconductors, 2018. Cross Platform Bluetooth Low Energy Development
+Software (accessed 11.09.18) https://www.nordicsemi.com/eng/Products/
+Bluetooth-low-energy/nRF-Connect-for-Desktop.
+
+
+Semtech, 2013. SX1272/3/6/7/8: LoRa Modem. Semtech (accessed 19.09.18).
+The Things Network, 2018. TTN Fair Access: Limitations on Data Rate, Packet
+
+
+Size and Time on Air (accessed 27.01.19) https://www.thethingsnetwork.
+org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-
+messages-downlink-per-day-fair-access-policy/.
+
+
+The Things Network, 2018. TTN Mapper (accessed 12.02.18) https://ttnmapper.org/
+.
+
+
+Semtech, 2017. LoRa Module Implementation by Semtech
+(accessed 12.02.18) http://semtech.force.com/lora/LC Answers
+Questions?id=90644000000PmGvAAK.
+
+
+
+https://www.iso.org/standard/69466.html
+
+https://www.iso.org/standard/69466.html
+
+https://www.iso.org/standard/69466.html
+
+https://www.iso.org/standard/69466.html
+
+https://www.iso.org/standard/69466.html
+
+https://www.iso.org/standard/69466.html
+
+https://www.iso.org/standard/69466.html
+
+http://nearfieldcommunication.org
+
+http://nearfieldcommunication.org
+
+http://nearfieldcommunication.org
+
+https://www.wi-fi.org/
+
+https://www.wi-fi.org/
+
+https://www.wi-fi.org/
+
+https://www.wi-fi.org/
+
+https://www.wi-fi.org/
+
+https://www.wi-fi.org/
+
+https://www.zigbee.org
+
+https://www.zigbee.org
+
+https://www.zigbee.org
+
+https://www.zigbee.org
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete
+
+https://www.sigfox.com/
+
+https://www.sigfox.com/
+
+https://www.sigfox.com/
+
+https://www.sigfox.com/
+
+https://www.sigfox.com/
+
+https://www.thethingsnetwork.org/
+
+https://www.thethingsnetwork.org/
+
+https://www.thethingsnetwork.org/
+
+https://www.thethingsnetwork.org/
+
+https://www.thethingsnetwork.org/
+
+https://aws.amazon.com/
+
+https://aws.amazon.com/
+
+https://aws.amazon.com/
+
+https://aws.amazon.com/
+
+https://aws.amazon.com/
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.infosys.com/IT-services/validation-solutions/features-opinions/Documents/performance-testing-iot.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.semtech.com/uploads/documents/etsi-compliance-sx1272-lora-modem.pdf
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_http_is_not_enough_for_the_internet_of_things?lang=en
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF-Connect-for-Desktop
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/
+
+https://ttnmapper.org/
+
+https://ttnmapper.org/
+
+https://ttnmapper.org/
+
+https://ttnmapper.org/
+
+http://semtech.force.com/lora/LC_Answers_Questions?id=90644000000PmGvAAK
+
+http://semtech.force.com/lora/LC_Answers_Questions?id=90644000000PmGvAAK
+
+http://semtech.force.com/lora/LC_Answers_Questions?id=90644000000PmGvAAK
+
+http://semtech.force.com/lora/LC_Answers_Questions?id=90644000000PmGvAAK
+
+http://semtech.force.com/lora/LC_Answers_Questions?id=90644000000PmGvAAK
+
+http://semtech.force.com/lora/LC_Answers_Questions?id=90644000000PmGvAAK
+
+http://semtech.force.com/lora/LC_Answers_Questions?id=90644000000PmGvAAK
+
+http://semtech.force.com/lora/LC_Answers_Questions?id=90644000000PmGvAAK
+
+

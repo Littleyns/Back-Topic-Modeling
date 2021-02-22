@@ -1,0 +1,1777 @@
+
+
+
+
+
+
+
+
+
+
+ScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+Procedia Manufacturing 49 (2020) 94–98
+
+
+2351-9789 © 2020 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering Service –
+TESConf 2019.
+10.1016/j.promfg.2020.07.002
+
+
+10.1016/j.promfg.2020.07.002 2351-9789
+
+
+© 2020 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering 
+Service –TESConf 2019.
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+
+
+Procedia Manufacturing 00 (2019) 000–000   
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier B.V.     
+
+
+This is an open access article under the CC BY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/)                                                                                                                                             
+
+
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering Service – TESConf 2019. 
+
+
+8th International Conference on Through-Life Engineering Service – TESConf 2019, October 27 – 29, 2019 
+
+
+Development and Application of a Method for Real Time Motor Fault 
+
+
+Detection 
+
+
+ Byung Gun Jounga* , Wo Jae Leea, Aihua Huanga, John. W. Sutherlanda 
+
+
+aEnvrionmental and Ecological Engineering, Purdue University, 610 Purdue Mall, West Lafayette, IN 47907, USA 
+
+
+* Corresponding author. Tel.: +1-765-701-8802; E-mail address: bjoung@purdue.edu 
+
+
+Abstract 
+
+
+Predictive maintenance (PdM) has been widely used in manufacturing to reduce maintenance cost and unexpected downtime. A common element 
+
+
+within manufacturing equipment/machines is a motor. This paper aims to detect motor faults by collecting and analyzing vibration data with 
+
+
+wireless sensors. A cloud-based motor condition monitoring system is also built to detect motor faults by analyzing the data. An Artificial 
+
+
+Intelligence (AI) model is trained using the collected vibration data, and principal component analysis (PCA) is utilized to detect abnormal 
+
+
+behaviors of the motor. Hostelling’s T2 statistics and squared prediction error (SPE) statistics are then applied to clarify criterions for abnormal 
+
+
+operations of the motor. 
+
+
+ 
+© 2019 The Authors. Published by Elsevier B.V.    
+
+
+This is an open access article under the CC BY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering Service – TES 
+
+
+Conf 2019. 
+
+
+ Keywords: Condition Monitoring; Smart Manufacturing; Predictive Maintenance (PdM); Artificial Intelligence (AI); Principal Component Analysis (PCA) 
+
+
+
+
+
+1. Introduction 
+
+
+Recently, the Internet of things (IoT) has accelerated the 
+
+
+transformation of manufacturing industries from the 
+
+
+conventional manufacturing system to smart and sustainable 
+
+
+manufacturing. The advantages of smart manufacturing, such 
+
+
+as reduced manufacturing costs and improved productivity, 
+
+
+have attracted more and more manufacturers’ attention to 
+
+
+adopting it. With the innovative development of wireless 
+
+
+sensors in higher availability and affordability, data acquisition 
+
+
+and accessibility in cloud-based computing networks inspired 
+
+
+manufacturers to move toward the highly interconnected 
+
+
+manufacturing systems [1]. As a part of this change, a new 
+
+
+production paradigm is offered where the cloud-based 
+
+
+technologies play a vital role in the existing manufacturing 
+
+
+industry. Artificial Intelligence (AI) is widely utilized in the 
+
+
+manufacturing industry, that has an incredible impact on data 
+
+
+characterization and prediction. As a subset of AI, machine 
+
+
+learning (e.g., supervised learning and unsupervised learning) 
+
+
+is one of the commonly used methods in machine condition 
+
+
+diagnostics (e.g., predictive maintenance, prognostics, and 
+
+
+health management). The application of machine learning in 
+
+
+machine diagnostics can effectively predict the failure or 
+
+
+abnormality of the machine in advance and further reduce 
+
+
+maintenance costs and unexpected downtime.  
+
+
+Machine diagnostics can provide predictive maintenance 
+
+
+solutions to a range of industries and have been broadly studied 
+
+
+based on machine learning. To diagnose machine conditions, 
+
+
+related data is often to be collected and analyzed. Currently, 
+
+
+various types of data have been used for failure analysis such 
+
+
+as acoustic data [2, 3, 4], acceleration data [5, 6, 7], infrared 
+
+
+images [8, 9], and multi-sensor data fusion [10, 11, 12]. In a 
+
+
+motor, each rotating component generates its own distinctive 
+
+
+vibration pattern that can provide an explicit basis for the 
+
+
+machine condition [13]. Hence, in condition-based 
+
+
+maintenance of a motor, vibration monitoring and analysis are 
+
+
+essential to the machine condition diagnostics. In addition, 
+
+
+vibration analysis can provide imperative sensitivity and 
+
+
+accuracy [14]. Therefore, the acceleration data is collected and 
+
+
+analyzed in this study for abnormality detection of a motor. 
+
+
+8th International Conference on Through-Life Engineering Service
+Case Western Reserve University, Cleveland, OH, USA. October 27-29, 2019
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+
+
+Procedia Manufacturing 00 (2019) 000–000   
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier B.V.     
+
+
+This is an open access article under the CC BY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/)                                                                                                                                             
+
+
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering Service – TESConf 2019. 
+
+
+8th International Conference on Through-Life Engineering Service – TESConf 2019, October 27 – 29, 2019 
+
+
+Development and Application of a Method for Real Time Motor Fault 
+
+
+Detection 
+
+
+ Byung Gun Jounga* , Wo Jae Leea, Aihua Huanga, John. W. Sutherlanda 
+
+
+aEnvrionmental and Ecological Engineering, Purdue University, 610 Purdue Mall, West Lafayette, IN 47907, USA 
+
+
+* Corresponding author. Tel.: +1-765-701-8802; E-mail address: bjoung@purdue.edu 
+
+
+Abstract 
+
+
+Predictive maintenance (PdM) has been widely used in manufacturing to reduce maintenance cost and unexpected downtime. A common element 
+
+
+within manufacturing equipment/machines is a motor. This paper aims to detect motor faults by collecting and analyzing vibration data with 
+
+
+wireless sensors. A cloud-based motor condition monitoring system is also built to detect motor faults by analyzing the data. An Artificial 
+
+
+Intelligence (AI) model is trained using the collected vibration data, and principal component analysis (PCA) is utilized to detect abnormal 
+
+
+behaviors of the motor. Hostelling’s T2 statistics and squared prediction error (SPE) statistics are then applied to clarify criterions for abnormal 
+
+
+operations of the motor. 
+
+
+ 
+© 2019 The Authors. Published by Elsevier B.V.    
+
+
+This is an open access article under the CC BY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering Service – TES 
+
+
+Conf 2019. 
+
+
+ Keywords: Condition Monitoring; Smart Manufacturing; Predictive Maintenance (PdM); Artificial Intelligence (AI); Principal Component Analysis (PCA) 
+
+
+
+
+
+1. Introduction 
+
+
+Recently, the Internet of things (IoT) has accelerated the 
+
+
+transformation of manufacturing industries from the 
+
+
+conventional manufacturing system to smart and sustainable 
+
+
+manufacturing. The advantages of smart manufacturing, such 
+
+
+as reduced manufacturing costs and improved productivity, 
+
+
+have attracted more and more manufacturers’ attention to 
+
+
+adopting it. With the innovative development of wireless 
+
+
+sensors in higher availability and affordability, data acquisition 
+
+
+and accessibility in cloud-based computing networks inspired 
+
+
+manufacturers to move toward the highly interconnected 
+
+
+manufacturing systems [1]. As a part of this change, a new 
+
+
+production paradigm is offered where the cloud-based 
+
+
+technologies play a vital role in the existing manufacturing 
+
+
+industry. Artificial Intelligence (AI) is widely utilized in the 
+
+
+manufacturing industry, that has an incredible impact on data 
+
+
+characterization and prediction. As a subset of AI, machine 
+
+
+learning (e.g., supervised learning and unsupervised learning) 
+
+
+is one of the commonly used methods in machine condition 
+
+
+diagnostics (e.g., predictive maintenance, prognostics, and 
+
+
+health management). The application of machine learning in 
+
+
+machine diagnostics can effectively predict the failure or 
+
+
+abnormality of the machine in advance and further reduce 
+
+
+maintenance costs and unexpected downtime.  
+
+
+Machine diagnostics can provide predictive maintenance 
+
+
+solutions to a range of industries and have been broadly studied 
+
+
+based on machine learning. To diagnose machine conditions, 
+
+
+related data is often to be collected and analyzed. Currently, 
+
+
+various types of data have been used for failure analysis such 
+
+
+as acoustic data [2, 3, 4], acceleration data [5, 6, 7], infrared 
+
+
+images [8, 9], and multi-sensor data fusion [10, 11, 12]. In a 
+
+
+motor, each rotating component generates its own distinctive 
+
+
+vibration pattern that can provide an explicit basis for the 
+
+
+machine condition [13]. Hence, in condition-based 
+
+
+maintenance of a motor, vibration monitoring and analysis are 
+
+
+essential to the machine condition diagnostics. In addition, 
+
+
+vibration analysis can provide imperative sensitivity and 
+
+
+accuracy [14]. Therefore, the acceleration data is collected and 
+
+
+analyzed in this study for abnormality detection of a motor. 
+
+
+8th International Conference on Through-Life Engineering Service
+Case Western Reserve University, Cleveland, OH, USA. October 27-29, 2019
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+
+
+Procedia Manufacturing 00 (2019) 000–000   
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier B.V.     
+
+
+This is an open access article under the CC BY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/)                                                                                                                                             
+
+
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering Service – TESConf 2019. 
+
+
+8th International Conference on Through-Life Engineering Service – TESConf 2019, October 27 – 29, 2019 
+
+
+Development and Application of a Method for Real Time Motor Fault 
+
+
+Detection 
+
+
+ Byung Gun Jounga* , Wo Jae Leea, Aihua Huanga, John. W. Sutherlanda 
+
+
+aEnvrionmental and Ecological Engineering, Purdue University, 610 Purdue Mall, West Lafayette, IN 47907, USA 
+
+
+* Corresponding author. Tel.: +1-765-701-8802; E-mail address: bjoung@purdue.edu 
+
+
+Abstract 
+
+
+Predictive maintenance (PdM) has been widely used in manufacturing to reduce maintenance cost and unexpected downtime. A common element 
+
+
+within manufacturing equipment/machines is a motor. This paper aims to detect motor faults by collecting and analyzing vibration data with 
+
+
+wireless sensors. A cloud-based motor condition monitoring system is also built to detect motor faults by analyzing the data. An Artificial 
+
+
+Intelligence (AI) model is trained using the collected vibration data, and principal component analysis (PCA) is utilized to detect abnormal 
+
+
+behaviors of the motor. Hostelling’s T2 statistics and squared prediction error (SPE) statistics are then applied to clarify criterions for abnormal 
+
+
+operations of the motor. 
+
+
+ 
+© 2019 The Authors. Published by Elsevier B.V.    
+
+
+This is an open access article under the CC BY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering Service – TES 
+
+
+Conf 2019. 
+
+
+ Keywords: Condition Monitoring; Smart Manufacturing; Predictive Maintenance (PdM); Artificial Intelligence (AI); Principal Component Analysis (PCA) 
+
+
+
+
+
+1. Introduction 
+
+
+Recently, the Internet of things (IoT) has accelerated the 
+
+
+transformation of manufacturing industries from the 
+
+
+conventional manufacturing system to smart and sustainable 
+
+
+manufacturing. The advantages of smart manufacturing, such 
+
+
+as reduced manufacturing costs and improved productivity, 
+
+
+have attracted more and more manufacturers’ attention to 
+
+
+adopting it. With the innovative development of wireless 
+
+
+sensors in higher availability and affordability, data acquisition 
+
+
+and accessibility in cloud-based computing networks inspired 
+
+
+manufacturers to move toward the highly interconnected 
+
+
+manufacturing systems [1]. As a part of this change, a new 
+
+
+production paradigm is offered where the cloud-based 
+
+
+technologies play a vital role in the existing manufacturing 
+
+
+industry. Artificial Intelligence (AI) is widely utilized in the 
+
+
+manufacturing industry, that has an incredible impact on data 
+
+
+characterization and prediction. As a subset of AI, machine 
+
+
+learning (e.g., supervised learning and unsupervised learning) 
+
+
+is one of the commonly used methods in machine condition 
+
+
+diagnostics (e.g., predictive maintenance, prognostics, and 
+
+
+health management). The application of machine learning in 
+
+
+machine diagnostics can effectively predict the failure or 
+
+
+abnormality of the machine in advance and further reduce 
+
+
+maintenance costs and unexpected downtime.  
+
+
+Machine diagnostics can provide predictive maintenance 
+
+
+solutions to a range of industries and have been broadly studied 
+
+
+based on machine learning. To diagnose machine conditions, 
+
+
+related data is often to be collected and analyzed. Currently, 
+
+
+various types of data have been used for failure analysis such 
+
+
+as acoustic data [2, 3, 4], acceleration data [5, 6, 7], infrared 
+
+
+images [8, 9], and multi-sensor data fusion [10, 11, 12]. In a 
+
+
+motor, each rotating component generates its own distinctive 
+
+
+vibration pattern that can provide an explicit basis for the 
+
+
+machine condition [13]. Hence, in condition-based 
+
+
+maintenance of a motor, vibration monitoring and analysis are 
+
+
+essential to the machine condition diagnostics. In addition, 
+
+
+vibration analysis can provide imperative sensitivity and 
+
+
+accuracy [14]. Therefore, the acceleration data is collected and 
+
+
+analyzed in this study for abnormality detection of a motor. 
+
+
+8th International Conference on Through-Life Engineering Service
+Case Western Reserve University, Cleveland, OH, USA. October 27-29, 2019
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+
+
+Procedia Manufacturing 00 (2019) 000–000   
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier B.V.     
+
+
+This is an open access article under the CC BY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/)                                                                                                                                             
+
+
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering Service – TESConf 2019. 
+
+
+8th International Conference on Through-Life Engineering Service – TESConf 2019, October 27 – 29, 2019 
+
+
+Development and Application of a Method for Real Time Motor Fault 
+
+
+Detection 
+
+
+ Byung Gun Jounga* , Wo Jae Leea, Aihua Huanga, John. W. Sutherlanda 
+
+
+aEnvrionmental and Ecological Engineering, Purdue University, 610 Purdue Mall, West Lafayette, IN 47907, USA 
+
+
+* Corresponding author. Tel.: +1-765-701-8802; E-mail address: bjoung@purdue.edu 
+
+
+Abstract 
+
+
+Predictive maintenance (PdM) has been widely used in manufacturing to reduce maintenance cost and unexpected downtime. A common element 
+
+
+within manufacturing equipment/machines is a motor. This paper aims to detect motor faults by collecting and analyzing vibration data with 
+
+
+wireless sensors. A cloud-based motor condition monitoring system is also built to detect motor faults by analyzing the data. An Artificial 
+
+
+Intelligence (AI) model is trained using the collected vibration data, and principal component analysis (PCA) is utilized to detect abnormal 
+
+
+behaviors of the motor. Hostelling’s T2 statistics and squared prediction error (SPE) statistics are then applied to clarify criterions for abnormal 
+
+
+operations of the motor. 
+
+
+ 
+© 2019 The Authors. Published by Elsevier B.V.    
+
+
+This is an open access article under the CC BY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+
+Peer-review under responsibility of the scientific committee of the 8th International Conference on Through-Life Engineering Service – TES 
+
+
+Conf 2019. 
+
+
+ Keywords: Condition Monitoring; Smart Manufacturing; Predictive Maintenance (PdM); Artificial Intelligence (AI); Principal Component Analysis (PCA) 
+
+
+
+
+
+1. Introduction 
+
+
+Recently, the Internet of things (IoT) has accelerated the 
+
+
+transformation of manufacturing industries from the 
+
+
+conventional manufacturing system to smart and sustainable 
+
+
+manufacturing. The advantages of smart manufacturing, such 
+
+
+as reduced manufacturing costs and improved productivity, 
+
+
+have attracted more and more manufacturers’ attention to 
+
+
+adopting it. With the innovative development of wireless 
+
+
+sensors in higher availability and affordability, data acquisition 
+
+
+and accessibility in cloud-based computing networks inspired 
+
+
+manufacturers to move toward the highly interconnected 
+
+
+manufacturing systems [1]. As a part of this change, a new 
+
+
+production paradigm is offered where the cloud-based 
+
+
+technologies play a vital role in the existing manufacturing 
+
+
+industry. Artificial Intelligence (AI) is widely utilized in the 
+
+
+manufacturing industry, that has an incredible impact on data 
+
+
+characterization and prediction. As a subset of AI, machine 
+
+
+learning (e.g., supervised learning and unsupervised learning) 
+
+
+is one of the commonly used methods in machine condition 
+
+
+diagnostics (e.g., predictive maintenance, prognostics, and 
+
+
+health management). The application of machine learning in 
+
+
+machine diagnostics can effectively predict the failure or 
+
+
+abnormality of the machine in advance and further reduce 
+
+
+maintenance costs and unexpected downtime.  
+
+
+Machine diagnostics can provide predictive maintenance 
+
+
+solutions to a range of industries and have been broadly studied 
+
+
+based on machine learning. To diagnose machine conditions, 
+
+
+related data is often to be collected and analyzed. Currently, 
+
+
+various types of data have been used for failure analysis such 
+
+
+as acoustic data [2, 3, 4], acceleration data [5, 6, 7], infrared 
+
+
+images [8, 9], and multi-sensor data fusion [10, 11, 12]. In a 
+
+
+motor, each rotating component generates its own distinctive 
+
+
+vibration pattern that can provide an explicit basis for the 
+
+
+machine condition [13]. Hence, in condition-based 
+
+
+maintenance of a motor, vibration monitoring and analysis are 
+
+
+essential to the machine condition diagnostics. In addition, 
+
+
+vibration analysis can provide imperative sensitivity and 
+
+
+accuracy [14]. Therefore, the acceleration data is collected and 
+
+
+analyzed in this study for abnormality detection of a motor. 
+
+
+8th International Conference on Through-Life Engineering Service
+Case Western Reserve University, Cleveland, OH, USA. October 27-29, 2019
+
+
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.promfg.2020.07.002&domain=pdf
+
+
+
+
+ Byung Gun Joung  et al. / Procedia Manufacturing 49 (2020) 94–98 95
+2 Byung Gun Joung / Procedia Manufacturing 00 (2019) 000–000 
+
+
+This work is built upon the collaboration with company 
+
+
+partners where vibration sensors are deployed on the motors. A 
+
+
+cloud-based motor condition monitoring system is then 
+
+
+implemented where AI algorithm is trained with the collected 
+
+
+data and principal component analysis (PCA), which refers an 
+
+
+unsupervised learning method that can reduce the dimension of 
+
+
+input data space for a reconfiguration of a data model, is 
+
+
+utilized to detect the abnormality of the motor. The remaining 
+
+
+sections of this paper are organized as follows. Section 2 
+
+
+describes the overall sensor networks for data acquisition and 
+
+
+analysis using AI techniques for machine diagnosis. Section 3 
+
+
+presents the acceleration data and explains the concepts used 
+
+
+for the feature extraction process from the data. Section 4 
+
+
+demonstrates Hotelling’s T2 and SPE statistics with the 
+
+
+visualization of data to clarify abnormal operations of the 
+
+
+motor. 
+
+
+2. A cloud-based motor condition monitoring system 
+
+
+In this work, continuously real-time observations on motors 
+
+
+in manufacturing plants are conducted by developing an 
+
+
+application of a cloud-based motor condition monitoring 
+
+
+system. The overview of the system is shown in Fig. 1. In this 
+
+
+system, tri-axial wireless vibration sensors are attached to the 
+
+
+motors to measure acceleration data in 3-dimensional 
+
+
+directions. Then, the measured data are transmitted to a sensor 
+
+
+gateway via Bluetooth channel that can guarantee a stable 
+
+
+connection in a short distance range. The sensor gateway is 
+
+
+then connected to Wireless Local Area Network (WLAN) with 
+
+
+IEEE 802.11 standards. Finally, the sampled data are collected 
+
+
+and recorded in the cloud server that is accessible and visible 
+
+
+online. 
+
+
+The feature extraction process and parameter manipulation 
+
+
+are conducted for training an AI model. The model utilized in 
+
+
+this work is trained to learn the data without pre-existing labels. 
+
+
+The trained model then can detect the previously unknown 
+
+
+abnormal patterns of the motors. Therefore, the outcomes of 
+
+
+this system can provide machine diagnostics for the 
+
+
+manufacturers to further optimize their maintenance plan. The 
+
+
+verification of the AI model can be achieved by comparing data 
+
+
+with the actual behavior of the observed motors. The 
+
+
+explanation of the detailed procedure will be demonstrated in 
+
+
+the following sections. 
+
+
+3. Principal component analysis of acceleration data  
+
+
+Raw acceleration signals are plotted using MATLAB and 
+
+
+shown in Fig. 2. Fig. 2(a) shows the average and peak to peak 
+
+
+acceleration value of each axis. Fig. 2(b) illustrates acceleration 
+
+
+signals which a noise reduction technique is applied following 
+
+
+normalization with zero mean and unit variance. 6 features (i.e., 
+
+
+root mean square and range of each axis) are selected and 
+
+
+generated with different central tendencies and dispersions. 
+
+
+PCA is then applied to coordinate multi-dimensional dataset to 
+
+
+new axes in a reduced dimension. The principal components 
+
+
+(PCs) are generated from the feature datasets, while the 
+
+
+interdependency between variables is minimized. 
+
+
+Simultaneously, the most variation of the dataset is preserved 
+
+
+to make it easier to distinguish abnormal data. During the 
+
+
+training process, sample data under normal operating 
+
+
+conditions are used and the covariance matrix of the data is 
+
+
+obtained, which indicates the correlation of the training dataset. 
+
+
+The PCs can then be identified after eigen decomposition of 
+
+
+the covariance matrix. That is, the covariance matrix is 
+
+
+decomposed into its eigenvectors and eigenvalues. The 
+
+
+eigenvector of the covariance matrix, which has the largest 
+
+
+variance, is called the first PC and the eigenvector with the 
+
+
+second largest variance is called the second PC. Since the 
+
+
+dimensions of original data are reduced, the number of PCs 
+
+
+needs to be carefully selected, ensuring that the new PC domain 
+
+
+conserves the information of original data. One way to 
+
+
+determine the number of PCs is to use the percentage of 
+
+
+explained variance, which has been routinely used in PCA. 
+
+
+Explained variance indicates how far each data point in the 
+
+
+dataset is from the mean. This value determines how much 
+
+
+information from the existing data will be retained. The 
+
+
+explained variance can be calculated by the ratio between the 
+
+
+variance of the selected PCs and the variation of all PCs as 
+
+
+shown in the following Eq. (1). 
+
+
+Fig. 1. Cloud-based motor condition monitoring system. 
+
+
+
+
+
+
+96 Byung Gun Joung  et al. / Procedia Manufacturing 49 (2020) 94–98
+ ByungGun Joung / Procedia Manufacturing 00 (2019) 000–000  3 
+
+
+1 1
+
+
+(%) /
+p n
+
+
+i i
+
+
+i i
+
+
+Explained Variance  
+= =
+
+
+=                    (1) 
+
+
+where λi represents i
+th principal component and p, n denote 
+
+
+the number of selected principal components and the number 
+
+
+of all principal components, respectively. It is common to 
+
+
+select the explained variance value between 70% to 95% to 
+
+
+minimize loss of information due to dimension degradation of 
+
+
+data [15]. In this research, two PCs are selected to ensure that 
+
+
+the explained variance exceeded 90%, which indicates the PCs 
+
+
+have more than 90 % associativity with the original data. The 
+
+
+training data are projected on the new PC domain to obtain the 
+
+
+retained PCs. The training and testing data utilized in this work 
+
+
+are continuously sampled for one month and 2 weeks, 
+
+
+respectively. The data are sampled at 1 data point per minute. 
+
+
+In total, 43,200 sampled data and 21,600 data are utilized to 
+
+
+train and test the AI model, respectively. The AI model can be 
+
+
+further improved by sampling more data or sampling at a higher 
+
+
+rate. 
+
+
+4. Data visualization and abnormality detection 
+
+
+The first and second PCs determined by the PCA are 
+
+
+visualized in Fig. 3. Different colors are applied to the data 
+
+
+points for each day to help identify the abnormal operation of 
+
+
+a specific day. The PCA dimension reduction automatically 
+
+
+realizes data clustering as is evident in Fig. 3. Similar data 
+
+
+points are grouped together, and the data that have different 
+
+
+properties are segregated from one another while revealing 
+
+
+underlying data patterns or outliers. However, this may not 
+
+
+provide a clear interpretation of the motor condition. To clarify 
+
+
+this ambiguity, further data interpretation through the 
+
+
+Fig. 2. (a) Raw acceleration signal plot; (b) Normalized acceleration signal plot. 
+
+
+ 
+
+
+
+
+
+
+ Byung Gun Joung  et al. / Procedia Manufacturing 49 (2020) 94–98 97
+4 Byung Gun Joung / Procedia Manufacturing 00 (2019) 000–000 
+
+
+Hotelling’s T2 and SPE analysis is conducted based on kernel 
+
+
+density estimation (KDE), which refers to a data-driven 
+
+
+technique for the non-parametric estimation of density 
+
+
+functions [16]. The Hotelling’s T2 statistics is a mathematical 
+
+
+procedure to estimate model interior data change so that it 
+
+
+reflects the change in variables by counting the fluctuation of 
+
+
+the PCs. The SPE statistics is the estimation of model exterior 
+
+
+data change, and it shows the deviation of the current measured 
+
+
+variable to the PCA model [17]. The Hotelling’s T2 and SPE 
+
+
+statistics are expressed in the following Eq. (2) and (3) [18, 19]. 
+
+
+2 1 T T
+
+
+i i k k i
+T X P P X−=    (2) 
+
+
+( )
+T T
+
+
+i i k k i
+SPE X I P P X= −   (3) 
+
+
+where Xi is the i
+th row of the input matrix X, and I is a unit 
+
+
+matrix and Pk is the kth principal component of loading matrix 
+
+
+P and λ is a diagonal matrix of the eigenvalues corresponding 
+
+
+to the selected principal components. Ti and  
+
+
+SPEi represent i
+th row element of the statistic matrices. KDE is 
+
+
+obtained by the following probability density function (PDF) 
+
+
+as shown in Eq. (4) [17]. 
+
+
+1
+
+
+1
+
+
+1
+( , ) ( ( ))
+
+
+w
+
+
+i
+
+
+i
+
+
+f x H K H x x
+n
+
+
+−
+
+
+=
+
+
+= −   (4) 
+
+
+where x is an input feature matrix, K is a kernel function, H 
+
+
+is the bandwidth, and w is the number of samples. The Gaussian 
+
+
+distribution function is a widely-used kernel function, where an 
+
+
+appropriate bandwidth matrix is chosen based on the estimated 
+
+
+standard deviation of sample data. The Gaussian kernel 
+
+
+function is expressed in Eq. (5). 
+
+
+2
+exp( / 2)
+
+
+( )
+2
+
+
+x
+K x
+
+
+
+
+
+−
+=   (5) 
+
+
+For a given confidence level, (i.e., 95%, 99%, and 99.9% as 
+
+
+the first control limit, second control limit and action limit, 
+
+
+respectively), the probability of a point falling beyond the 
+
+
+control limit is calculated based on the kernel function to 
+
+
+indicate whether the process is “in control” or “out of control.” 
+
+
+Often, the control limits for T2 and SPE control charts are 
+
+
+computed using F and χ2 distributions, respectively.  This 
+
+
+computation is typically performed upon the assumption that 
+
+
+the original data is temporal independence and follows a 
+
+
+multivariate Gaussian distribution [20]. Since such an 
+
+
+assumption may not be valid for this study, the control limits 
+
+
+are established using KDE. The corresponding control limits 
+
+
+based on KDE is calculated using the kernel density estimator, 
+
+
+as shown in Eq. (6). 
+
+
+2
+( ) ( , | )
+
+
+lc
+
+
+l
+P x c f x H T orQ dx
+
+
+−
+
+
+ =    (6) 
+
+
+where P(x) indicates the probability that a data point exceeds 
+
+
+the control limit and cl is an upper bound of the control limit. 
+
+
+This probability is then compared with the given confidence 
+
+
+levels to provide a warning action and diagnosis of the motor 
+
+
+operating condition. The SPE, which is also known as Q 
+
+
+residual, and Hotelling’s T2 control limits, are illustrated in the 
+
+
+control charts shown in Fig. 4. The first control limit is 
+
+
+emphasized in the yellow line, and the second control limit is 
+
+
+highlighted by the red line. These control charts clearly show 
+
+
+the abnormal operations exceeding control limits that are 
+
+
+indicated in the dotted circle. The established control limits are 
+
+
+then used for machine condition monitoring in actual 
+
+
+manufacturing plants. The verification of this model is 
+
+
+accomplished by comparing the analysis results with the real 
+
+
+operation of the motor. 
+
+
+5. Conclusions 
+
+
+In this work, a cloud-based motor condition monitoring 
+
+
+system was implemented to detect abnormal operations of 
+
+
+motors. Tri-axial vibration sensors were utilized to collect 
+
+
+acceleration data. The acceleration data were recorded in the 
+
+
+cloud server for sending and receiving the data. PCA technique 
+
+
+was then applied for the feature extraction and analysis of the 
+
+
+sampled data. In this research, two PCs were selected based on 
+
+
+KDE to ensure the preservation of original information. Also, 
+
+
+Hotelling’s T2 and SPE statistics were used to provide explicit 
+
+
+criteria for abnormality detection. The analyzed data were then 
+
+
+visualized in Hotelling’s T2 and SPE control charts. Relevant 
+
+
+equations were explained to demonstrate the relationship 
+
+
+between KDE and control limits of the two statistics. The 
+
+
+Fig. 3. Illustration of PC data points using two PCs. 
+
+
+
+
+
+Fig. 4. Hotelling’s T2 and SPE control charts. 
+Fig. 4. Hotelling’s T2 and SPE control charts. 
+
+
+
+
+
+
+98 Byung Gun Joung  et al. / Procedia Manufacturing 49 (2020) 94–98
+ ByungGun Joung / Procedia Manufacturing 00 (2019) 000–000  5 
+
+
+confidence levels at 95%, 99%, and 99.9% were used to 
+
+
+determine the control limits and illustrated in the control charts. 
+
+
+The Hotelling’s T2 and SPE control charts presented the data 
+
+
+exceeding the control limits to distinguish the abnormal 
+
+
+operation of the motors from the normal operation. In future 
+
+
+research, more sophisticated sensors will be applied to collect 
+
+
+data at a higher frequency that can further improve the AI/PCA 
+
+
+model. 
+
+
+Acknowledgements 
+
+
+The authors gratefully acknowledge financial support from 
+
+
+a grant from the Wabash Heartland Innovation Network 
+
+
+(WHIN). 
+
+
+References 
+
+
+[1] N. Shariatzadeh, T. Lundholm, L. Lindberg, G. Sivard, Research LettersA 
+
+
+Cyber-Physical Systems architecture for Industry4.0-based manufacturing 
+
+
+systems, Procedia CIRP, 50 (2016) 512-517.  
+
+
+[2] A. Glowacz, Z. Glowacz, Recognition of rotor damages in a DC motor 
+
+
+using acoustic signals, Bulletin of the Polish Academy of Sciences 
+
+
+Technical Sciences, 65 (2017) 187-194.  
+
+
+[3] F. Hemmati, W. Orfali, M. S. Gadala, Roller bearing acoustic signature 
+
+
+extraction by wavelet packet transform, applications in fault detection and 
+
+
+size estimation, Applied Acoustics, 104 (2016) 101-118. 
+
+
+[4] M. Orman, P. Rzeszucinski, A. Tkaczyk, K. Krishnamoorthi, C. T. Pinto 
+
+
+and M. Sulowicz, Bearing fault detection with the use of acoustic signals 
+
+
+recorded by a hand-held mobile phone, 2015 International Conference on 
+
+
+Condition Assessment Techniques in Electrical Systems (CATCON), 
+
+
+(2015) 252-256.  
+
+
+[5] W.J. Lee, H. Wu, H.T. Yun, H.J. Kim, Martin B. G. Jun, John W. 
+
+
+Sutherland, Predictive Maintenance of Machine Tool Systems Using 
+
+
+Artificial Intelligence Techniques Applied to Machine Condition Data, 
+
+
+Procedia CIRP, 80 (2019) 506-511. 
+
+
+[6] B. Samanta, Gear fault detection using artificial neural networks and 
+
+
+support vector machines with genetic algorithms, Mechanical Systems 
+
+
+and Signal Processing, 18 (2004) 625-644. 
+
+
+[7] P. K. Kankar, S. C. Sharma, S. P. Harsha, Fault diagnosis of ball bearings 
+
+
+using machine learning methods, Expert Systems with Applications, 38 
+
+
+(2011)1876-1886. 
+
+
+[8] Ali M. D. Younus, Bo-Suk Yang, Intelligent fault diagnosis of rotating 
+
+
+machinery using infrared thermal image, Expert Systems with 
+
+
+Applications, 39 (2012) 2082-2091. 
+
+
+[9] A. Glowacz, Z. Glowacz, Diagnostics of stator faults of the single-phase 
+
+
+induction motor using thermal images, MoASoS and selected classifiers, 
+
+
+Measurement, 93 (2016) 86-93. 
+
+
+[10] T. P. Banerjee, S. Das, Multi-sensor data fusion using support vector 
+
+
+machine for motor fault detection, Information Sciences, 217 (2012) 96-
+
+
+107. 
+
+
+[11] M. S. Safizadeh, S.K. Latifi, Using multi-sensor data fusion for vibration 
+
+
+fault diagnosis of rolling element bearings by accelerometer and load cell, 
+
+
+Information Fusion, 18 (2014) 1-8. 
+
+
+[12] W.J. Lee, G. P. Mendis, J. W. Sutherland, Development of an Intelligent 
+
+
+Tool Condition Monitoring System to Identify Manufacturing Tradeoffs 
+
+
+and Optimal Machining Conditions, Procedia Manufacturing, 33 (2019) 
+
+
+256-263. 
+
+
+[13] Cangelosi, Richard, A. Goriely, Component retention in principal 
+
+
+component analysis with application to cDNA microarray data, Biology 
+
+
+direct, 22 (2007). 
+
+
+[14] K. Elbhbah, J. K. Sinha, Vibration-based condition monitoring of rotating 
+
+
+machines using a machine composite spectrum, Journal of Sound and 
+
+
+Vibration, 332 (2013), 2831-2845. 
+
+
+[15] Dyer, D., and R M Stewart, Detection of Rolling Element Bearing Damage 
+
+
+by Statistical Vibration Analysis, Journal of Mechanical Design, 100 
+
+
+(1978), 229. 
+
+
+[16] Q. Chen, R.J. Wynne, P. Goulding, D. Sandoz, The application of 
+
+
+principal component analysis and kernel density estimation to enhance 
+
+
+process monitoring, Control Engineering Practice, 8 (2000) 531-543. 
+
+
+[17] L. Xiong, J. Liang, J. Qlan, Multivariate Statistical Process Monitoring of 
+
+
+an Industrial Polypropylene Catalyzer Reactor with Component Analysis 
+
+
+and Kernel Density Estimation, Chinese Journal of Chemical Engineering, 
+
+
+15 (2007) 524-532. 
+
+
+[18] Yoon, S., MacGregor, J. F, Principal-component analysis of multiscale 
+
+
+data for process monitoring and fault diagnosis, AIChE Journal, 50 
+
+
+(2004), 2891–2903. 
+
+
+[19] JiJi, R. D., Hammond, M. H., Williams, F. W., Multivariate statistical 
+
+
+process control for continuous monitoring of networked early warning fire 
+
+
+detection (EWFD) systems, Sensors and Actuators B: Chemical, 93 
+
+
+(2003), 107–116. 
+
+
+[20] B. D. Ketelaere, M. Hubert, E. Schmitt, Overview of PCA-Based 
+
+
+Statistical Process-Monitoring Methods for Time-Dependent, High-
+
+
+Dimensional Data, Journal of Quality Technology, 47 (2015), 318-335. 
+
+
+
+

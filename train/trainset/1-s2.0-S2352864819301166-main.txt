@@ -1,0 +1,2479 @@
+
+
+
+
+
+
+
+
+
+
+Digital Communications and Networks 6 (2020) 1–13
+
+Contents lists available at ScienceDirect
+
+
+Digital Communications and Networks
+
+
+journal homepage: www.keaipublishing.com/dcan
+
+Recent advances in Industrial Internet: insights and challenges
+
+
+Wei Qin, Siqi Chen, Mugen Peng *
+
+
+State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, 100876, China
+
+A R T I C L E I N F O
+
+
+Keywords:
+Industrial Internet
+Reference architectures
+Cloud computing
+Mobile edge computing
+Fog computing
+
+* Corresponding author.
+E-mail addresses: qinwei75@bupt.edu.cn (W. Qi
+
+
+https://doi.org/10.1016/j.dcan.2019.07.001
+Received 24 April 2019; Received in revised form
+Available online 10 July 2019
+2352-8648/© 2020 Chongqing University of Posts a
+open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/b
+
+A B S T R A C T
+
+
+The Industrial Internet is a promising technology combining industrial systems with Internet connectivity to
+significantly improve the product efficiency and reduce production cost by cooperating with intelligent devices, in
+which the advanced computing, big data analysis and intelligent perception techniques have been involved. This
+paper comprehensively surveys the recent advances of the Industrial Internet, including reference architectures,
+key technologies, relative applications and future challenges. Reference architectures which have been proposed
+for different application scenarios and their corresponding characteristics are summarized. Key technologies, such
+as cloud computing, mobile edge computing, fog computing, which are classified according to different layers in
+the architecture, are presented to support a variety of applications in the Industrial Internet. Meanwhile, future
+challenges and research trends are discussed as well to promote further research of the Industrial Internet.
+
+1. Introduction
+
+
+Nowadays, new production and organization methods promote the
+intelligent transformation of the global industrial system, with the rapid
+development of new information technologies, such as the Internet, big
+data, cloud computing, Internet of Things (IoT) and artificial intelligence.
+As a result, the Industrial Internet comes into being and integrates the
+advantages of both the Industrial Revolution and the Internet Revolution.
+
+
+In the recent few years, the Industrial Internet has become the focus of
+governments, manufacturing enterprises, operators and academic
+research groups from various fields in different countries. The General
+Electric (GE) proposed the convergence of industrial equipment and In-
+formation Technology (IT) in 2012.
+
+
+The concept of “Industrial Internet” was defined for the first time,
+namely, to connect equipment, people and data analysis based on an
+open, global network [1]. The objective of the concept is to upgrade the
+intelligence of aviation, medical and other industrial equipments, reduce
+energy consumption and improve efficiency through the use and analysis
+of big data. In June 2013, GE proposed the concept of Industrial Internet
+Revolution, providing operation and maintenance services for a large
+number of industrial applications, and using key technologies such as the
+Internet and big data to improve the quality of service. Then, in order to
+apply the concept of Industrial Internet to practical application scenarios,
+five leading industrial companies in the United States, including AT&T,
+Cisco, GE, IBM and Intel, established the Industrial Internet Consortium
+(IIC). The goal of IIC is to break down technical barriers and promote the
+
+n), pmg@bupt.edu.cn (M. Peng).
+
+
+2 July 2019; Accepted 4 July 201
+
+
+nd Telecommunications. Publishi
+y-nc-nd/4.0/).
+
+integration of the physical world and digital world. As a result, the In-
+dustrial Internet will produce innovative industrial products and systems
+in smart manufacturing, healthcare, transportation, and other fields. IIC
+published the Industrial Internet Reference Architecture (IIRA) v.1.8 in
+2017. The IIRA provides standards-based architectural template and
+methodology so that the Industrial Internet of Things (IIoT) system ar-
+chitects could design their own systems based on a common framework
+and concept.
+
+
+The Industrial Internet has attracted worldwide attention, thus
+developing the Industrial Internet has become a common choice for most
+industrial powers for future opportunities and challenges. The German
+government issued the strategy of Industry 4.0, which is consistent with
+the essence of the Industrial Internet. The Industry 4.0 is known as the
+fourth industrial revolution, focusing on the establishment of intelligent
+products and production processes. The term refers to a large range of
+different concepts, including smart factory, self-organization, and Cyber
+Physical Systems (CPSs). A generally accepted viewpoint is that the In-
+dustry 4.0 is the technical integration and application of CPSs. CPS is
+defined as a system integrating physical worlds and computational ca-
+pabilities that can interact humans through many new information
+technologies [2]. The CPS focuses on the close integration and coordi-
+nation of physical resources and computing resources, and is mainly used
+in some intelligent systems. The underlying concept of the term CPS is
+that it refers to embedded systems, logistics, coordination and manage-
+ment processes that utilize sensors to directly access physical information
+and actuators to perform physical processes [3]. The Industry 4.0
+
+9
+
+
+ng Services by Elsevier B.V. on behalf of KeAi Communications Co. Ltd. This is an
+
+
+
+mailto:qinwei75@bupt.edu.cn
+
+mailto:pmg@bupt.edu.cn
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.dcan.2019.07.001&domain=pdf
+
+www.sciencedirect.com/science/journal/23528648
+
+http://www.keaipublishing.com/dcan
+
+https://doi.org/10.1016/j.dcan.2019.07.001
+
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+https://doi.org/10.1016/j.dcan.2019.07.001
+
+https://doi.org/10.1016/j.dcan.2019.07.001
+
+
+
+
+Fig. 1. Structure of the paper.
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+proposes to build a CPS platform based on services and real-time support,
+and conducts research on technology, business and policy to build a
+Cyber Physical Production System (CPPS) lab.
+
+
+The Chinese government has proposed strategies to promote the deep
+integration of informatization and industrialization, and accelerate the
+development of advanced manufacturing and economy. In 2016, the
+Alliance of Industrial Internet (AII) was founded in China, aiming at
+establishing a public platform for collaborated improvement in admin-
+istration, industry and academy. The AII redefined the Industrial Internet
+as the industry and application ecology formed by the deep integration of
+the Internet, new information technologies and industrial systems.
+Meanwhile, Japan stresses the Connected Industries as a supplement to
+the Industrial Internet, creating new added value and solutions to various
+problems in society through the interconnection of enterprises, people,
+data and machines.
+
+
+Recently, the Industrial Internet is considering using the ideas of
+embedded technology and intelligent objects in the IoT. The term “IoT” is
+considered as the ultimate global network of interconnected intelligent
+objects through extended Internet technologies, which are supported by
+a set of technologies, including Radio Frequency IDentification (RFID),
+Wireless Sensor Network (WSN), controllers, machine-to-machine
+communication devices, etc. The Industrial Internet has been drawing
+on these technologies to involve increasing numbers of smart objects, and
+then it will provide promising opportunities to build powerful industrial
+systems and develop various industrial applications. In addition to the
+IoT, various technologies are needed to support the Industrial Internet,
+including network communication technology, wireless sensing, cloud
+computing technology, industrial big data technology and information
+security. As a kind of interdisciplinary science and integrated technology,
+the Industrial Internet continues to integrate with emerging technologies,
+such as edge computing, artificial intelligence, blockchain technology,
+etc.
+
+
+The Industrial Internet has rapidly emerged on a global scale with the
+rapid transformation of manufacturing from digitalization to networking.
+It has promoted the continuous integration of the cyber world and the
+physical world. At present, the relevant researches on the IoT, sensor
+networks and industrial control systems are abundant, but the research of
+domestic and international industries on the Industrial Internet itself is
+still in its infancy. The development of the Industrial Internet faces the
+coexistence of opportunities and challenges. In this paper, we conducted
+a detailed survey on the research results of the Industrial Internet. The
+main contributions of this paper are summarized as follows:
+
+
+1) A comprehensive survey of Industrial Internet architectures is pre-
+sented, including reference architectures proposed by different alli-
+ances applied for the IIoT and the Industry 4.0. In addition, an
+Industrial Internet architecture supported by wireless technologies is
+illustrated, which can better meet the requirements of real-time, low
+delay and high reliability.
+
+
+2) Key technologies applied to the Industrial Internet are comprehen-
+sively surveyed. The principles, technical solutions and recent ad-
+vances of these technologies are summarized. In particular, emerging
+technologies, such as, big data, cloud computing, Mobile Edge
+Computing (MEC), are emphasized to provide a more flexible choice
+to achieve ultra-dense, large connection, and wide coverage in the
+Industrial Internet.
+
+
+3) A comprehensive survey of various applications and use cases of the
+Industrial Internet in different fields is presented, which are sup-
+ported by both existing technologies and state-of-the-art communi-
+cation technologies. Furthermore, advantages compared with
+traditional applications and recent advances are highlighted.
+
+
+4) The future challenges and research trends related to the Industrial
+Internet are identified, especially in wireless networks, such as
+sensing, communications, computing and security, which are vital for
+further development of Industrial Internet.
+
+2
+
+The rest of this paper is organized as follows. In Section 2, several
+architectures of the Industrial Internet proposed by different countries
+and academia are presented. In Section 3, a variety of key technologies in
+the Industrial Internet are summarized, as well as their advantages and
+application scenarios are included. In Section 4, a survey of various ap-
+plications supported by emerging wireless technologies is presented. The
+current challenges and future trends are shown in Section 5. Finally,
+conclusions are drawn in Section 6. To present the flow of this paper, we
+provide the structure of the paper in Fig. 1.
+
+
+2. Architectures
+
+
+The Industrial Internet contains various processes and elements in the
+field of information technology and industry, which is complex and
+diverse. Its emergence and development have been highly valued by
+governments around the world and actively practiced by the industry.
+However, domestic and overseas researches on the Industrial Internet
+itself are still in their infancy, and there is still a lack of uniform standards
+for the architectures of the Industrial Internet. In this section, several
+Industrial Internet architectures proposed by different countries and
+academia are introduced. First, the IIRA for IIoT systems and a reference
+architecture model proposed by the Industry 4.0 are briefly surveyed,
+and then an architecture supported by wireless communication tech-
+nologies is introduced.
+
+
+2.1. IIRA
+
+
+IIC proposed the IIRA in order to meet the common technical chal-
+lenges of the IIoT, and incorporate new IIoT technologies, concepts as
+well as applications [4]. The reference architecture uses a standard-based
+framework to describe business, usage, function and implementation
+viewpoints. IIC also defined its Industrial Internet Architecture Frame-
+work (IIAF) that adopts the approach defined by the ISO/IEC/IEEE ar-
+chitecture description standard. IIAF performs as the foundation of the
+IIRA, which can be applied to present the interests in IIoT systems.
+
+
+The constructs of the IIRA and its applications are shown in Fig. 2. The
+
+
+
+
+
+
+Fig. 2. IIRA constructs and applications.
+
+
+Fig. 4. RAMI 4.0.
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+IIRA has adjusted its models slightly to adapt to the ISO architecture. The
+models and their representations in the IIRA show the key ideas of the
+reference architecture, and the establishment of the IIRA provides a
+common architecture that interconnects smart devices, machines, peo-
+ple, processes and data together.
+
+
+There are four basic viewpoints that identify the relevant stake-
+holders of systems and determine the proper framing of concerns,
+including business viewpoint (requirement model), usage viewpoint
+(use-case model), functional viewpoint (functional model) and imple-
+mentation viewpoint (deployment model). Other architectures of the
+Industrial Internet can expand their viewpoints based on these four
+viewpoints for specific requirements [4]. These viewpoints are arranged
+in order as depicted in Fig. 3. The higher-level viewpoint can guide and
+impose requirements on the lower level of viewpoints. Moreover, there
+are a number of system concerns related to safety and security that need
+to be addressed across the viewpoints. According to Ref. [5], there is a set
+of system characteristics, including safety, security, resilience, reliability
+and privacy, which emphasize how well the system works. Beside the
+characteristics about reliability, the IIRA is also provided with interop-
+erability, connectivity, data management, advanced data analysis,
+intelligent control, dynamic combination and other features.
+
+2.2. Reference architecture model industry 4.0
+
+
+Germany has officially proposed the Reference Architecture Model
+Industry 4.0 (RAMI 4.0) in order to provide a uniform architecture as
+reference for different standardization organizations and associations.
+The architecture model shown in Fig. 4 describes the Industry 4.0 from
+
+Fig. 3. Relationship among IIRA viewpoints, application scope and system
+lifecycle process.
+
+
+3
+
+three dimensions, including layers, product life cycle& value stream, and
+hierarchy levels.
+
+
+The first dimension refers to the common layered concept used in
+information and communication technologies, which is the core function
+of CPS. EU Mandate M/490’s reference architecture working group
+proposed the Smart Grid Architecture Model (SGAM) to provide a
+structured approach for architecture development [6]. The central ele-
+ments are its five interoperability layers of viewpoints, including busi-
+ness, function, information, communication, and component. Compared
+with SGAM, the RAMI 4.0 uses the asset layer to replace the component
+layer, and inserts a new integration layer. These two layers digitally
+represent various assets of the real world. The communication layer
+implements a standardized communication protocol and controls the
+integration layer. The information layer contains relevant data and ap-
+plies rules in one or more events that initiate processing in the functional
+layer. The functional layer generates rules and decision-making logic,
+and it has all necessary functions. The business layer maps the business
+models and the resulting overall process.
+
+
+The second dimension represents the associated value streams and
+the life cycle from planning to design, simulation, manufacturing, then to
+sales and service. The reference standard for this dimension is IEC 62890
+Industrial Process Measurement Control (IPMC) and Automation Systems
+and Product Lifecycle Management (ASPLM). This dimension is mainly
+embodied in three aspects. First, it is divided into simulation prototype
+and physical manufacturing based on IEC 62890 standard. Second,
+highlighting various parts of industrial production, such as machines and
+factories, must have both virtual and realistic processes. Third, in the
+process of value chain construction, industrial production factors are
+closely linked by digital systems to achieve end-links in industrial pro-
+duction links.
+
+
+The third dimension describes the functional classification of the In-
+dustry 4.0 in different production environments following the IEC 62264
+and IEC 61512 standards. Moreover, the product layer is added at the
+bottom, and the connected world layer is added at the top of the plant.
+
+2.3. Architecture supported by wireless technology
+
+
+There are many advances in wireless communication technologies,
+especially in the field of wireless sensor networks. Therefore, wireless
+technologies have become important parts of researches and innovations
+in the Industrial Internet, which support application scenarios and de-
+mand analysis for it.
+
+
+Academic and industrial circles all over the world have paid wide
+attention to the application of wireless communication technologies in
+the Industrial Internet. Germany plans to provide wide-area network
+
+
+
+
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+services for the industry by deploying the public 5G network infra-
+structure, and implement the latest wireless LAN and near-field tech-
+nologies in the Industry 4.0. There are three major components in the
+Industry 4.0, including the application layer, network layer and the layer
+consisting of physical entities. The IIC also attaches great importance to
+the research of network technologies. The study groups have divided the
+industrial network into a connection transport layer and a connection
+frame layer. Wireless technologies, such as Wi-Fi, ZigBee, 2G/3G/4G,
+become important technologies for connecting the transport layer.
+
+
+In Ref. [7], an Industrial Internet architecture supported by wireless
+mobile technologies was proposed, which was based on the demand of
+the existing industrial production business for the wireless mobile In-
+dustry Internet. Referring to this architecture model and the hierarchical
+structure of German Industry 4.0, an architecture oriented to wireless
+network is shown in Fig. 5. The architecture consists four layers,
+including the application layer, the platform layer, the network inter-
+connection layer, and the perception and control layer.
+
+
+2.3.1. Perception and control layer
+This layer is responsible for data acquisition from the physical and
+
+
+human world, and for deep perception and precise control. It consists of
+physical entities, such as machines and intelligent sensing devices con-
+trollers, actuators, material, products, etc. The core technologies include
+RF technology, emerging sensing technology, wireless network
+networking technology, and Fieldbus Control Technology (FCT).
+
+
+Wireless sensor network is usually the main way for information
+acquisition, which can integrate data from sensor nodes over a wireless
+network. Then large amounts of data are processed through identifica-
+tion and location technologies, embedded intelligence from various ac-
+tuators deployed in the field.
+
+
+Industrial control requires real-time, low delay, high reliability and
+security of network communication. As the data sensed in the physical
+processes are reflected on the Internet, control strategies need to be taken
+by the cyber world and transferred into the physical devices. Industrial
+Control Systems (ICSs) have computing and communication capabilities
+and they are critical to infrastructure critical systems. And Supervisory
+Control and Data Acquisition (SCADA) is usually used to control remote
+ICSs devices with encoded signals, and these ICSs are typical computer-
+based systems that have access to the Internet. From a communication
+perspective, monitoring and control require two-way communication:
+uplink from sensors to applications, and downlink from applications to
+actuators.
+
+
+2.3.2. Network interconnection layer
+This layer takes care of network interconnection and end-to-end data
+
+
+flow, the network is the foundation to interconnect industrial systems
+and promote the transmission and seamless integration of industrial data.
+It divides the communication networks into an enterprise external
+network and an enterprise internal network according to their ranges of
+application. The enterprise external network makes connections between
+
+Fig. 5. Architecture of the Industrial Internet.
+
+
+4
+
+different enterprises, enterprises and smart products, enterprises and
+users, etc. Moreover, the enterprise internal network connects intelligent
+machines, products, industrial control systems, people and other entities.
+
+
+The enterprise internal network consists of networks based on In-
+formation Technology (IT) and Operation Technology (OT). The enter-
+prise IT network connects the information system and terminals. While
+the OT network performs as an industrial communication gradually
+infiltrating into the industrial field, which has been used for information
+collection, non-real-time control, and internal informationization in the
+factory. Therefore, wireless technologies such as Zigbee, Wi-Fi, 2G/3G/
+LTE, WIA-PA applied for industrial process automation are already
+applied in factories. Furthermore, NarrowBand-IoT (NB-IoT) proposed by
+3GPP can be applied to industrial information and control scenarios, such
+as low power consumption and large connections, in the factory.
+
+
+The enterprise external network under the Industrial Internet scene
+mainly includes the following four parts: the public Internet based on
+IPv6, the Industrial Internet private network based on Soft Defined
+Network (SDN) or VPN, ubiquitous wireless access for massive intelligent
+products, and support for access and data collection of industrial cloud
+platforms. The enterprise external network needs to satisfy requirements
+of high transmission rate, ultra-low latency, safety and reliability, flexible
+networking, etc. Emerging wireless technologies, such as 5G, SDN [8]
+and Network Function Virtualization (NFV), canmeet these requirements
+and support the development of the Industrial Internet.
+
+
+2.3.3. Platform layer
+The platform layer executes information fusion, intelligent optimi-
+
+
+zation and decision-making. The essence of the Industrial Internet plat-
+form is to apply emerging technologies on the basis of traditional cloud
+platforms to build a more accurate, real-time and efficient data collection
+system. This layer is oriented to the digitalization, networking and in-
+telligence of manufacturing industries, and builds an intelligent service
+system by applying the digital tools, such as big data storage and pro-
+cessing, CPS, resource allocation and optimization. Meanwhile, the
+platform layer realizes the modeling and software of the industrial
+technology, and provides various innovative applications for
+manufacturing enterprises.
+
+
+2.3.4. Application layer
+The application layer analyzes and models the data information
+
+
+stored in the platform layer and forms the required information. This
+layer provides specific services that solve the problems of information
+processing and human-machine interface. Typical applications include
+quality management, energy management, manufacturing execution,
+equipment operation optimization, etc. Moreover, in Ref. [9], Applica-
+tion Programming Interfaces (APIs) are provided in the application layer
+for designing a variety of innovative applications (e.g., device failure
+monitoring, device utilization monitoring, and product processing status
+monitoring). In addition, developers can accelerate the design of new
+applications by customizing data collection, transfer and processing, then
+forms new patterns for intelligent production, personalized custom-
+ization, network collaboration and service transformation.
+
+
+3. Key technologies
+
+
+As a combination of traditional industrial systems and new informa-
+tion technology, the Industrial Internet requires the support of a variety
+of key technologies, including intelligent sensing and control technology,
+network interconnection technology, data processing technology, and
+security technology. The key technologies involved in the Industrial
+Internet are provided in this section.
+
+
+3.1. Sensing and control technology
+
+
+In the Industrial Internet, a large number of sensors for acquiring data
+and controllers for executing decisions are deployed in the smart factory.
+
+
+
+
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+Intelligent sensing and control technologies are important to the inter-
+action between the cyber technologies and the physical world.
+
+
+3.1.1. Sensing
+RFID is an important technology in industrial sensing, which uses
+
+
+radio waves to transmit and automatically identify people or objects
+[10]. In general, an RFID system consists of a tag, a reader and a mid-
+dleware. The reader transmits radio frequency signals through the an-
+tenna, and the tag obtains energy from the radio wave and sends
+information to the computer.
+
+
+Industrial Wireless Sensor Networks (IWSNs) are more adaptable to
+harsh industrial environments based on WSNs, which integrates
+embedded computing technology, sensor technology, and distributed
+information processing technology. It can collaboratively monitor, sense
+and collect information of different monitoring objects within the In-
+dustrial Internet distributed area in real time. IWSNs offers competitive
+advantages compared with traditional wired industrial monitoring and
+control system, including self-organization, rapid deployment, flexibility,
+lower cost and inherent intelligent-processing capability [11].
+
+
+3.1.2. Control
+The ICSs play an important role in infrastructure-critical systems,
+
+
+such as power, water distribution, gas pipelines, etc. The ICSs face new
+opportunities with the development of Information and Communication
+Technology (ICT) and the control technology. Reliable methods are
+needed to collaboratively design control and automation systems in the
+Industrial Internet. In Ref. [12], hybrid approaches for modeling and
+implementing distributed controllers in the Industrial Internet were
+discussed, verifying that hybrid control is suitable for Industrial Internet
+applications and can be extended appropriately.
+
+3.2. Network interconnection technology
+
+
+The networking architecture of the Industrial Internet is shown in
+Fig. 6, which takes smart factory as an application example. The network
+inside the smart factory mainly includes an OT network and an IT
+network, which connect sensors, controllers and smart devices from the
+physical layer. The network outside the smart factory connects the com-
+panies, users and other factories. The interconnection of heterogeneous
+networks in the Industrial Internet is essential for data transmission as
+well as data processing. Communication technologies in the network
+interconnection layer can be divided into wired and wireless, depending
+on ways of transmission. Fieldbus technology and Industrial Ethernet
+technology are commonly used wired technologies in the industrial field.
+While wireless technologies, such as Wi-Fi, Zigbee, 2G/3G/4G, have
+become important for connecting transport layers. The Industrial Internet
+pays more attention to the application of wireless technologies because
+
+Fig. 6. Components of the Industrial Internet. The Industrial Internet were
+discussed, verifying that hybrid control is suitable for Industrial Internet ap-
+plications and can be extended appropriately.
+
+
+5
+
+the wireless network has obvious advantages compared with the wired
+network. Firstly, the deployment of wireless networks can significantly
+reduce the cost of construction and maintenance. In addition, wireless
+networks can realize the flexible movement of equipment. Finally, wire-
+less technologies can be widely deployed in various industrial environ-
+ments, which breaks through the limitations of cable.
+
+
+3.2.1. Wired communication technology
+Fieldbus: Fieldbus connects field devices, field controllers and man-
+
+
+machine interfaces, which serves as the basis of digital communication
+in the factory [13]. Fieldbus is a combination of development automa-
+tion, computer technology and smart instruments, and it helps the in-
+dustrial automation control technology develop towards the direction of
+intelligence and integration. PROFIBUS, WorldFIP, Foundation Fieldbus,
+DeviceNet, CAN are representative technologies that belong to Fieldbus
+and they provide abundant solutions to deal with different types of data
+transmission and applications in industrial networks.
+
+
+Industrial Ethernet: Industrial Ethernet is the product of extending
+Ethernet and Internet technologies applied to industrial measurement.
+The Ethernet used by Internet and common computer network is not
+suitable to meet the requirements of industrial environments. The tech-
+nical subject of Industrial Ethernet is formed through improving the real-
+time communication of Ethernet and adding corresponding control
+application functions. Industrial Ethernet mainly consists of HSE, Mod-
+bus/TCP, PROFINET, Ethernet/IP protocols and provides advantages of
+high communication rate, good interoperability, and easy connection to
+the Internet, and abundant hardware and software support.
+
+
+In contrast to Fieldbus, Industrial Ethernet networks allow the
+transmission of large amounts of non-time critical data as well as hard
+real-time process data communication. In general, specific configuration
+tools are used to set up the network, including integrating the necessary
+hardware descriptions of the connected devices, setting cycle times and
+declaring network masters.
+
+
+TSN: Time-Sensitive Networking (TSN) has the advantages of limited
+delay variation and low data loss for time or mission critical traffic,
+making it applicable and economical in industrial automation networks.
+For example, in an industrial distributed control system, TSN can be used
+in machine-to-machine communication and motion control application.
+In addition, faced with the strict requirements of reliability and real-time
+for industrial applications, a lot of research work have proposed to
+deploy fog computing as a solution. Thus, it is critical to choose relative
+technologies to connect fog nodes to the industrial smart devices. In
+Ref. [14], TSN is advocated as a promising solution that provides related
+protocol services for fog computing in the Industrial Internet, and a
+configuration agent architecture is proposed to guarantee requirements
+of low latency and timely response.
+
+
+PON: Passive Optical Network (PON) technology has been considered
+as a key component for high-speed Internet access. Ericsson and other
+major vendors have used the PON technology in the broadband access
+portfolios. PONs can support applications, such as human-to-human and
+machine-to-machine communication, and have different traffic patterns
+as well as quality of service requirements from classical data users [15].
+
+
+3.2.2. Short-range communication technology
+Wi-Fi: Wi-Fi is widely adopted in industry and enterprises, mainly
+
+
+used for the connection of internal IT networks. The applicability of Wi-Fi
+can be extended to industrial hard real-time applications due to its
+ubiquitous coverage in industrial environments. In addition, it has the
+potential to achieve rapid IT/OT convergence and manufacturing process
+flexibility. However, Wi-Fi is usually considered as an energy-consuming
+solution, but due to advances in the implementation technology, some
+researchers studied the suitability of Wi-Fi as a candidate for low-power
+industrial demand, then low-power Wi-Fi can easily integrate with
+existing infrastructures, built-in IP network compatibility with familiar
+protocols and management tools.
+
+
+ZigBee: ZigBee is one of the well-known standards for WSNs. As
+
+
+
+
+
+
+Table 1
+Comparison between WirelessHART and ISA100.11a.
+
+
+WirelessHART ISA100.11a
+
+
+Every field instrument must be a router (real
+mesh network)
+
+
+Field instrument may not be a router
+(battery life)
+
+
+Routing at the network layer; 16 bit address Wireless subnet; Routing at DLL
+using subnet short address;
+Backbone: routing at network layer
+using IPv6
+
+
+Time slot of 10ms, a unique channel hopping
+algorithm
+
+
+Configurable time slot, 3 types of
+channel hopping,
+5 hop sequences (may cause inter-
+operability problems)
+
+
+Complete stack network in wireless
+technology, but no IP based
+
+
+IPv6 network in the backbone
+connecting wireless subnets
+
+
+Supports unicast and broadcast Supports unicast, broadcast, duocast
+and n-cast
+
+
+Transport layer with
+acknowledgement(more reliable)
+
+
+UDP-based transport layer(faster)
+
+
+Application layer uses HART7 No define application protocol
+Command oriented: command-response
+protocol
+
+
+Object oriented: virtual modeling of
+devices
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+ZigBee supports plant monitoring and control functions with its adaptive
+and scalable wireless architecture, it can be used as an advanced
+metering infrastructure for smart grids, a monitoring system for intelli-
+gent buildings and industrial control management systems, etc. Since Wi-
+Fi and ZigBee share the same frequency in the unlicensed 2.4 GHz in-
+dustrial science medical band, [16] proposes a solution for the coexis-
+tence of the two technologies to resist interference, and to realize optimal
+wireless resource allocation and reliable transmission communication in
+the Industrial Internet.
+
+
+3.2.3. Dedicated industrial wireless communication technology
+WirelessHART:WirelessHART is widely used in IWSNs with its simple
+
+
+configuration, flexible installation and easy-to-access instrument data.
+Besides, WirelessHART also has powerful and reliable communication
+capabilities, its reliability and real-time performance are essential to in-
+dustrial production, such as target tracking, industrial control, and
+remote monitoring. The generally accepted WirelessHART protocol ar-
+chitecture based on the OSI seven-layer protocol is shown in Fig. 7. The
+scale of a WirelessHART network is limited to 100 sensor/actuator de-
+vices due to limited computing power of the network manager [17]. In
+practical Industrial Internet applications, data flow scheduling and
+channel resource management are usually required in multiple coexisting
+WirelessHART networks to achieve reliability and timeliness.
+
+
+ISA100.11a: ISA100.11a is released as a wireless standard for process
+control and related applications in the industrial automation. It is based
+on hybrid channel Time Division Multiple Access (TDMA) and Carrier
+Sense Multiple Access with Collision Avoidance (CSMA/CA). ISA100.11a
+aims to realize flexibility, high reliability and integrated security in
+multiple industrial applications. At present, several works integrate
+wireless field devices by jointly using WirelessHART and ISA100.11a
+technologies, aiming to support condition monitoring of instruments or
+smart devices, and to extend existing plant control networks. The simi-
+larities of WirelessHART and ISA100.11a are shown as follows:
+
+
+Using the IEEE 802.15.4 standard for Low-Rate Wireless Personal
+Area Networks (L-R WPAN) to define the radio.
+Similar mechanisms for forming the wireless network and trans-
+porting data to and from the gateway.
+Using 2.4 GHz ISM (Instrumentation, Scientific and Medical) radio
+spectrum band and requiring no licensing.
+Similar graph routing, source routing, security and centralized
+network management functions.
+
+
+Besides, the typical differences of two standards are listed in Table 1
+[18].
+
+
+WIA-PA/FA: WIA-PA (Wireless Networks for Industrial Automation-
+Process Automation) is the standard of industrial wireless
+
+Fig. 7. Architecture of HART communication protocol.
+
+
+6
+
+communication architecture and specification for process automation
+developed by the Chinese Industrial Wireless Alliance (CI-WA). It sup-
+ports routers, gateways, field devices and handheld devices. As illus-
+trated in Fig. 8, WIA-PA networks adopt 2-layered star-mesh network
+topology [19]. The first layer is a mesh network that consists of gateway
+devices and routing devices. The second layer is a star structure consti-
+tuted by router devices and field devices or handheld devices. Field de-
+vices, including wireless sensors, actuators and controllers, can be used to
+realize fields monitoring and control in the production field. Workers use
+handheld devices to interact with the WIA-PA devices for diagnosis,
+configuration, maintenance, etc.
+
+
+3.2.4. Cellular wireless communication technology
+2G/3G/LTE: The rapid development of mobile network technologies
+
+
+has a profound impact on industry fields, such as network connection for
+intelligent products, large-scale long-distance mobile devices or vehicles,
+and handheld terminals. [20] also studied the commercial Time
+Division-Synchronous Code Division Multiple Access (TD-SCDMA),
+which can provide a relatively cost-effective way to build a full-featured
+3G core network. With the wider commercial deployment of TD-SCDMA,
+a large number of data services and value-added voice services can
+provide higher transmission rates and better Quality-of-Service (QoS) for
+the Industrial Internet.
+
+
+GE Digital collaborated with Nokia and Qualcomm Technologies to
+successfully demonstrate a private LTE network for the Industrial
+Internet with their platforms and technologies meshed together.
+
+Fig. 8. 2-layered star-mesh network topology of WIA- PA.
+
+
+
+
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+Industrial companies usually operate at remote sites, making the
+connection challenging. Private LTE-based networks utilize LTE-based
+technologies in shared/unlicensed/dedicated-licensed spectrum, which
+helps improve performance and reliability for these industrial
+connections.
+
+
+NB-IoT: The Narrow-Band Internet of Things is a cellular technology
+proposed in 3GPP Release 13, which has great potential to meet the huge
+demand for machine-type communication in the Industrial Internet. The
+NB-IoT is considered one of the most promising Low Power Wide Area
+(LPWA) technologies, with advantages of ultra-low power consumption,
+wide area coverage, long operation life and massive capacity.
+
+
+The specific application scenes of the NB-IoT include smart cities,
+smart buildings, intelligent environment monitoring, intelligent user
+services and smart metering, which can be closely connected with the
+Industrial Internet. In the process of industrial production, the factory can
+collect the operation and environmental parameters through the NB-IoT
+technology and then optimize the production process. For instance, in
+Ref. [21], the NB-IoT technology is introduced into industrial network to
+reduce transmission delays, and a path selection algorithm is proposed to
+improve the schedulability of the industrial system.
+
+
+5G: Mobile communication technology has developed rapidly over
+the past few decades. The major requirements of the 5G system include
+1–10 Gbps data rates in real networks, 1 ms round trip latency, enormous
+numbers of connected devices, reduction in energy usage by almost 90%.
+The Industrial Internet puts a wide range of requirements on the network,
+such as performance (latency, throughput), security and reliability. The
+introduction of 5G will solve problems such as low latency, and provides
+high reliability, high speed and high density deployment in industrial
+systems [22].
+
+
+Three scenarios of 5G have been identified by the ITU Radio
+communication sector (ITU-R), including enhanced Mobile BroadBand
+(eMBB) scenario, massive Machine Type Communication (mMTC) sce-
+nario and Ultra-Reliable and Low Latency Communication (URLLC)
+scenario. The typical applications of eMBB include 4 K High Definition
+(HD) video, virtual reality, augmented reality, etc. Augmented reality
+and virtual reality have potential applications in the field of
+manufacturing, such as the design, production and maintenance of the
+products. mMTC supports large-scale IoT devices. The current 3G and 4G
+transmission networks are not suitable for large-scale machine connec-
+tions within the factory. Millimeter wave technology can be adopted in
+5G, which will meet the needs of a large number of node communication
+in intelligent manufacturing. URLLC scenario refers to applications that
+require low latency and high reliability, such as driverless and industrial
+automation.
+
+
+In addition, different aspects of the Industrial Internet have different
+QoS requirements for the network. The 5G network slicing technology
+can flexibly adjust QoS requirements based on a common network plat-
+form. In Ref. [23], a novel 5G-based network slicing framework is pro-
+posed, which can support the flexibility expected by the next-generation
+manufacturing processes and realize the inter-factory cooperation.
+
+
+3.3. Data processing technology
+
+
+In the industrial process, a large amount of data will be generated,
+which needs real-time calculation, analysis, storage and other processing
+methods. Therefore, data processing technology is a key technology to
+improve the core competence and efficiency of the Industrial Internet.
+Big data analysis, cloud computing, edge computing technologies used in
+the Industrial Internet will be introduced in the following sections.
+
+
+3.3.1. Big data processing
+A large number of industrial data will be generated in the process of
+
+
+Industrial Internet applications. Industrial big data has the characteristics
+of huge data volume, wide data distribution, complex structure, diverse
+data processing speed and high confidence requirement for data analysis.
+Industrial big data includes data preprocessing technology, data storage
+
+7
+
+and management technology, data analysis and mining technology, big
+data visualization technology and other key technologies [24].
+
+
+Data preprocessing technology: The II generates massive amounts of
+data from production equipment, products, information management,
+factory exteriors and other processes. Data preprocessing technology can
+realize the preliminary cleaning as well as integration of data, and
+associate data objects with industrial systems. Thus, it will eliminate
+redundancy to avoid meaningless industrial data, reduce storage costs
+and improve analysis accuracy.
+
+
+Data storage and management technology: Distributed storage, cloud
+storage and other technologies in the II can be used to achieve the
+management of data economically, safely and reliably. MEC, cloudlets
+and fog computing services can be used to perform big data processing
+and analysis closer to data sources. Current technologies can achieve the
+goals of remote data storage, fast access to large data and so on.
+
+
+Data analysis and mining technology: Data analysis and mining tech-
+nology discovers valuable information and generates knowledge from a
+large number of noisy and random databases. At present, there are many
+technological achievements related to big data analysis. Since industrial
+data has a wide range of application objectives, it is necessary to design
+feature algorithms in depth with application objectives.
+
+
+Big data visualization technology: Big data visualization technology is
+an important method to help big data acquire a complete view of data
+and discover data values [25]. Seamless integration of big data analysis
+and visualization enables them to perform better in big data applications
+in the Industrial Internet.
+
+
+3.3.2. Cloud computing
+Cloud computing is a new universal Internet-based technology
+
+
+through which information is stored on servers and delivered to cus-
+tomers as a service. It was proposed based on various researches of vir-
+tualization, distributed computing, utility computing and software
+services. The currently accepted definition of cloud computing is “a
+model for enabling ubiquitous, convenient, on-demand network access to
+a shared pool of configurable computing resources (e.g., networks,
+servers, storage, applications, and services) that can be rapidly provi-
+sioned and released with minimal management effort or service provider
+interaction”, which was defined by the National Institute Standards and
+Technology (NIST) [26]. Based on recommendations from NIST, an ideal
+cloud should have five characteristics, namely, on-demand self-service,
+broad network access, resource pooling, rapid elasticity, and measured
+service.
+
+
+Cloud computing services represent a new business model that pro-
+vide accessible and available services to users at any time, these services
+enable multiple users to access service resources while ensuring service
+reliability. At present, the integration of Mobile Cloud Computing (MCC),
+cloud computing and mobile services significantly improves data trans-
+mission efficiency and processing power in mobile networks [27]. The
+recognized cloud computing service models mainly include Software as a
+Service (SaaS), Platform as a Service (PaaS) and Infrastructure as a Ser-
+vice (IaaS) [26]. With the deepening and continuous development of
+cloud computing in the field of Industrial Internet, the cloud computing
+model has a relatively complete technical system, including
+resource-aware technology, cloud service environment management and
+construction technology, virtualized cloud service operation technology,
+and human-machine interactive technology.
+
+
+The Cloud Radio Access Network (C-RAN) has been proposed as an
+application cloud computing in the radio access network to achieve large-
+scale cooperative processing gain [28]. The cloud computing-based radio
+access infrastructure will provide on-demand resource processing,
+latency-aware storage and high network capacity when needed [29].
+Furthermore, Heterogeneous Cloud Radio Access Networks (H-CRAN)
+were presented to enhance both spectral and energy efficiencies [30].
+Applying C-RAN and H-CRAN architecture and corresponding resource
+allocation solutions to the Industrial Internet will significantly improve
+energy efficiency. The application of cloud computing in the Industrial
+
+
+
+
+
+
+Fig. 9. Smart manufacturing systems based on 5C CPS architecture.
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+Internet involves various fields, such as manufacturing, health care, and
+transmission. Cloud computing is gaining greater competitiveness
+through greater flexibility, lower cost and optimal resource utilization.
+
+
+Cloud manufacturing is researched and promoted as an emerging
+technology in the Industrial Internet, which is defined as a service-
+oriented, customer-centered, demand-oriented manufacturing model. It
+can be applied to the automation of Industrial Internet, ICS, andmachine-
+to-machine cooperation. Besides, cloud manufacturing can use distrib-
+uted knowledge for intelligent service composition and adaptive resource
+planning, then realize digital visualization on the cloud [31].
+
+
+3.3.3. Mobile edge computing
+As data is increasingly produced at the edge of the network, cloud
+
+
+computing technology is not efficient to process the data produced at the
+edge of network. MEC was proposed as an emerging prominent
+computing paradigm to implement optimization and virtualization
+locally. ETSI definedMEC as a new technology that provides an IT service
+environment and cloud-computing capabilities at the edge of the
+network, within the Radio Access Network (RAN) and in close proximity
+to mobile subscribers.
+
+
+The combination of the Industrial Internet and MEC has attracted
+attention. The Industrial Internet requires a high demand for computing
+and data processing capabilities, while MEC provides close-range cloud
+computing services for smart devices in the Industrial Internet through
+edge servers. The edge server is a mobility-enhanced and resource-rich
+data center that provides fast access to Internet and users, and it re-
+duces the computational burden of devices through proximity-based
+services. MEC can save the response time, and reduce overall traffic
+load and energy consumption. Thus, the introduction of this technology
+can effectively optimize real-time network transmission performance.
+
+
+Although MEC shows outstanding advantages in the Industrial
+Internet, it faces unprecedented challenges, such as energy delay that has
+constrained MEC offloading and the resource allocation for various edge
+devices. Besides, the MEC system must handle rigorous latency con-
+straints while processing massive amounts of data. In the meanwhile,
+resources and running applications of individual edge servers for their
+tight connections are of great importance. Thus, novel virtualization
+technologies are required to enhance flexibility of hardware, isolation
+and scalability as a solution.
+
+
+The existing MEC resource allocation works mainly focus on MEC
+offloading, while future research will emphasize more specific MEC at-
+tributes, such as communication, compute offloading [32], security and
+virtualization. [33] illustrates an example of MEC in the application of
+IIoT, in which devices, such as mechanic hands, industrial camera, off-
+load computing-intensive tasks to nearby edge servers to save energy and
+reduce processing delays. In the Industrial Internet application scenario,
+MEC services can be extended to various types of smart objects from
+sensors [34] and actuators to smart vehicles.
+
+
+4. Applications
+
+
+Under the dual promotion of information technology and industrial
+technology, the Industrial Internet has been continuously applied in
+various fields and has begun to change our lives subtly. Driven by
+emerging wireless communication technologies, the Industrial Internet
+can achieve end-to-end integration in interconnection, improve indus-
+trial efficiency and meet the needs of industrial intelligence and digiti-
+zation. Considering these advantages, industrial powers attach great
+importance to applications of the Industrial Internet. As a result, the In-
+dustrial Internet is currently used in several vertical industries: smart
+manufacturing, intelligent transportation, medical health, commercial
+aviation, and power production.
+
+
+4.1. Smart manufacturing
+
+
+Smart manufacturing is a key application of the Industrial Internet.
+
+8
+
+The rapid development of information technology has promoted the
+transformation and upgrading from traditional manufacturing to intel-
+ligent manufacturing. Smart manufacturing can achieve the access of
+industrial devices, the scheduling and coordination of resources through
+the application of integrated information technology, such as intelligent
+sensing, emerging industrial networks and industrial big data platforms
+in the Industrial Internet.
+
+
+The manufacturing powers of industry have proposed different stra-
+tegic plans to improve the core competitiveness in the industrial field,
+and the CPS plays an important role in the field of intelligent
+manufacturing. The United States advocates the Industrial Internet, and
+in report [35], it proposes to integrate the CPS, the IoT, automation, big
+data and cloud computing together to achieve data synergy and sus-
+tainable production. Germany has proposed Industry 4.0, the core of
+which is to achieve smart manufacturing through CPS. China also has
+proposed China Manufacturing 2025, and intelligent manufacturing,
+such as intelligent equipment and smart factory, is leading the change of
+manufacturing mode.
+
+
+A 5C architecture of the CPS for Industry4.0-based manufacturing
+systems is proposed in Ref. [36], which provides guidance for the
+development of intelligent manufacturing. Therefore, in smart
+manufacturing, it will transform traditional factory management to a
+self-aware, self-predicting and self-configuring factory with CPS tech-
+nologies. The framework shown in Fig. 9 illustrates that the deployment
+of smart manufacturing systems follow a bottom-up approach in terms of
+the 5C architecture of the CPS, and the information gathered from
+various machines provides the plant with self-configuration and
+self-maintenance capabilities. Factories can achieve better product
+quality and system reliability by implementing the CPS through smarter
+and more flexible manufacturing equipment. [37] provides four repre-
+sentative examples of the CPS in smart manufacturing, including service
+oriented architecture, cloud manufacturing, adaptive manufacturing
+systems and model-driven manufacturing systems.
+
+
+A smart factory is an intelligent manufacturing solution that provides
+flexible and adaptive production processes to solve problems in pro-
+duction facilities. This solution can be related to automation and
+considered as a combination of software, hardware and mechanical. The
+deployment of smart factories can effectively lead to manufacturing
+optimization, thereby reducing unnecessary labor and resource waste. At
+present, a smart factory of Industry 4.0 can be realized by widely
+applying existing technologies while actively coping with technical
+challenges. Some studies combine industrial wireless networks, cloud,
+fixed or mobile terminals with intelligent artifacts (such as machines,
+products and conveyors) to propose a smart factory framework. The
+reference architecture of smart factory generally consists of smart de-
+vices, smart machines, smart engineering, smart logistics, smart grid,
+
+
+
+
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+smart suppliers, etc.
+Emerging information technologies and wireless communication
+
+
+technologies are driving multiple processes of smart manufacturing
+transformation, including automated and programmable product line,
+process automation, supply-chain optimization, remote human assis-
+tance, remote control of equipment, etc.
+
+
+The Industrial Internet is a key comprehensive information infra-
+structure supporting intelligent manufacturing. Based on real-time
+network transmission and efficient data analysis, the Industrial Internet
+supports the intelligence of individual machines to production lines,
+workshops, factories and even industrial systems under the premise of
+security and credibility.
+
+
+4.2. Intelligent transportation
+
+
+Researches on Intelligent Transportation Systems (ITS) were intro-
+duced more than twenty years ago and the ITS has been continuously
+improved and applied with the development of technology. Then with
+the rise of the IoT, the ITS has been gradually developed to improve
+transportation efficiency, reduce traffic load and ensure traffic safety.
+[38] integrates IoT technology and ITS technology, and discusses the
+setting of a new generation of ITS. With the application of the Internet,
+wireless communication networks and sensor technologies, ITS has great
+potential for development in the next few years.
+
+
+Technologies of the Industrial Internet such as CPS, MEC and fog
+computing applied in the field of transportation, have received extensive
+attention. The ITS based on CPS can process real-time processing and
+transmission of signals, analyze and predict traffic behaviors and con-
+ditions through various intelligent sensing devices, then the ITS will
+achieve autonomous coordination between people and vehicles, vehicles
+and vehicles, vehicles and equipment. By integrating CPS into in-
+frastructures, vehicles and roads, the ITS can achieve driver assistance,
+avoid collisions, improve travel time, reduce congestion and provide
+advanced energy-saving control.
+
+
+Several architectures of Transportation Cyber Physical Systems (T-
+CPS) are proposed, a framework of which is shown in Fig. 10. The T-CPS
+aims to solve the traffic problem by using the CPS method based on the
+integration of 3C (computing, communication, and control) technologies
+[39]. Then, it can achieve information exchange, system coordination
+and optimization decisions in the transportation system. The rapid
+development of mobile Internet provides new technical support and
+development opportunities for intelligent transportation.
+
+
+In addition, the wireless sensing and the monitors can monitor the
+vehicle condition, driving environment and external conditions. Vehicle
+Communication System (VCS) is one of the network platforms of the ITS,
+which supports message exchanges between vehicles and between ve-
+hicles and infrastructure. However, security is one of the main problems
+
+Fig. 10. Transportation cyber physical system.
+
+
+9
+
+in the VCS, thus the Industrial Internet can provide technologies and
+methods to improve transportation safety. [40] proposed a framework
+based on the concept of blockchain to provide secure management in the
+ITS.
+
+4.3. Medical health
+
+
+Smart health uses the advanced technologies of Industrial Internet to
+create interaction between patients and medical staff, medical in-
+stitutions and medical devices by creating a health record regional
+medical information platform. The intelligent management of the In-
+dustrial Internet supports digital collection, processing, transmission and
+control in hospitals, and promotes the development of medical service
+systems in the direction of intelligence and modernization.
+
+
+Some relevant use cases in the medical health where the Industrial
+Internet could play a role are discussed below.
+
+
+4.3.1. Health and wellness monitoring
+Healthcare monitoring involves the use of various types of sensors
+
+
+and wearable devices to track health-relevant indicators. At present, such
+devices use short-range communication technologies, then applications
+(e.g., smartphones) use the data detected by these devices to help in-
+dividuals monitor and manage health or disease (e.g., blood glucose level
+management). There has been a wide range of emerging applications
+based on the cloud, the IoT or other wireless communication networks
+currently used in health management and monitoring. From these
+studies, it can be seen that healthcare monitoring is one of the most
+revolutionary potential applications. The Industrial Internet based on
+cloud computing and big data will play an important role in health
+monitoring applications. Healthcare Industrial IoT (HealthIIoT) has sig-
+nificant potential in these applications. A conceptual illustration and
+scenario for HealthIIoT ecosystem is shown in Fig. 11. HealthIIoT
+seamlessly collects data from patients by using a large number of inter-
+connected machines, wearable devices (devices and sensors) and cloud
+computing technologies [41].
+
+
+Modern wearable devices, such as Fitbit health monitors, Pebble
+smart watches and Google glasses, have inspired new ways to promote
+self-management and self-monitoring in the Industrial Internet.
+
+
+4.3.2. Remote healthcare
+When the health monitoring, treatment or consultation of the patients
+
+
+need to be carried out outside the traditional medical institution (hospital
+or clinic, etc.), doctors and the patients can communicate and complete
+the treatment process through telepresence facilities and video confer-
+encing. Sensors, smart devices and wireless transmission technologies in
+the Industrial Internet can supplement these processes. Some works
+established remote healthcare systems based on WSNs. Family and
+friends can achieve remote care by inferring the condition of patients at
+home through WSNs, and the information can help to detect early
+symptoms of the disease and prevent its progression. The remote
+healthcare system can be used in a home or hospital to form a telehealth
+
+Fig. 11. HealthIIoT ecosystem.
+
+
+
+
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+system between the home, the community, and the hospital by wireless
+communication between the wireless physiological sensor nodes and the
+care base station [42].
+
+
+4.3.3. Assisted surgery and remote surgery
+A specialist can remotely assist another doctor in the operation
+
+
+through the transmission of remote data and video presentation. For
+instance, a doctor could watch a live 3D video feed and provide real-time
+guidance so that another doctor from another place can locally perform a
+surgery on a patient. The surgeon is allowed to remotely operate the
+surgical robot to perform surgery on the patient. Wireless communication
+technology is required to enable reliable transmission of video and audio
+feeds and data between surgeons and remote surgical robots in real time
+[43].
+
+
+4.4. Commercial aviation
+
+
+Aviation is a typical high-tech manufacturing enterprise. With a
+complete research and development system, aviation itself is a large-scale
+collaborative supporting industrial system, which has an inherent de-
+mand for digital development and flexible, intelligent production. The
+Industrial Internet with digital virtualization can achieve product design,
+manufacturing and testing in a cyber space, all of which can be accom-
+plished virtually. Problems of design, processing, manufacturing and
+testing will be found constantly in this process. Then the virtual model
+can be adjusted directly, which is mapped to the production process and
+the test process later.
+
+
+The integration of a cloud-based analysis with industrial machinery is
+driving the development of the Industrial Internet, which enables pre-
+dictive maintenance of aviation through continuous data collection,
+monitoring and advanced analysis applications when aircraft compo-
+nents need to be repaired or replaced [44]. Staff can control the
+machine-engine through big data analysis and complex algorithms. GE
+provides advanced technologies critical to superior aircraft performance
+and brings a future for the commercial aircraft.
+
+
+4.5. Energy
+
+
+Manufacturing and development sectors consume more energy than
+other industries. In the industrial sectors, there are still some gaps in
+intelligent operation and maintenance services, life cycle management,
+performance monitoring and fault warning of complex equipment, which
+lead to low utilization rate, frequent failure and long maintenance cycle
+of the equipment. The level of equipment management is generally
+difficult to meet the requirements of low energy consumption and green
+economic development. Since operating costs will have a significant
+impact on major decisions in the production and maintenance processes,
+the Industrial Internet connects devices to smart sensors, uses electricity
+only when needed, and consumes less energy in dormant mode to realize
+energy conservation.
+
+
+At present, all countries are striving to solve the problem of energy
+consumption in manufacturing. There are many possibilities to reduce
+energy costs and pollution emissions in manufacturing plants. [45] dis-
+cusses issues related to the combination of production systems, process
+energy and facility energy to improve manufacturing sustainability.
+Factories can adjust their production processes to a desired efficiency
+level by measuring the energy usage of each manufacturing process in
+real time. Real-time monitoring of production systems and collection of
+performance data have a positive impact on improving proactive main-
+tenance. Industrial Unmanned Aerial Vehicles (UAVs) are capable of
+automatic detection and measurement at anytime and anywhere, which
+is a promising solution for power line detection. And it is essential for
+realizing the future Industrial Internet ecosystem framework. An
+energy-saving Industrial Internet of UAVs (IIoUAVs) architecture is
+analyzed in Ref. [46], which takes advantages of multiple benefits while
+minimizing energy consumption. [47] has studied on the UAV access
+
+10
+
+selection and BS bandwidth allocation in UAV-assisted IoT communica-
+tion networks, which aims to balance available communication resources
+and service costs.
+
+
+Emerging autonomous technologies (such as loT, Industrial Internet)
+and new market demands are promoting the manufacturing trans-
+formation. Based on the implementation of Industry 4.0, [48] proposes a
+smart factory energy management method based on the IoT paradigm,
+which integrates energy data into production management. At present,
+many industries put green manufacturing and energy efficient produc-
+tion processes as their prime concern. Data acquisition in the Industrial
+Internet relies heavily on a large number of sensor nodes and smart de-
+vices, andWSNs are one of the main sources of energy consumption. [49]
+proposes a three-layer framework, which applies a new sleep scheduling
+protocol to improve energy efficiency, balance the flow load, and extend
+the life of the entire system. In the meanwhile, due to the openness of the
+wireless channel, it is necessary to jointly consider reducing the power
+consumption of the sensor nodes and improving the security performance
+when designing models or protocols.
+
+
+5. Research challenges and future trends
+
+
+The Industrial Internet pays close attention to the value brought by
+the deep integration of the industrial field and the information field,
+which is the key foundation for building modern industrial systems and
+realizing intelligent manufacturing. It can fully utilize the potential of
+physical equipment and process materials, improve production efficiency
+and optimize resource allocation. It is an important way to realize
+intelligent, digital and networked manufacturing. The Industrial Internet
+involves interdisciplinary fields, and there are differences in the standard
+definitions of Industrial Internet between industry and academia. With
+the continuous evolution of Industrial Internet, there exist various
+research challenges and open issues for future research work in the In-
+dustrial Internet. In this section, several research challenges and future
+research trends of the Industrial Internet are introduced.
+
+
+5.1. Technical challenges for IWSNs
+
+
+IWSNs are provided with self-organizing, rapid deployment, flexi-
+bility and inherent intelligent processing capabilities. IWSNs can be
+applied to industrial automation and improve system efficiency and
+productivity. However, complex Industrial Internet environments put
+forward higher technical requirements on IWSNs. The main technical
+challenges faced by IWSNs are discussed as follows.
+
+
+5.1.1. Harsh environments and interference avoidance
+Harsh industrial environments (such as corrosive environment, high
+
+
+humidity, vibration, dust, RF interference, etc.) are likely to lead to
+failure of industrial sensor nodes, thus affecting the connection and data
+transmission of the Industrial Internet. At the same time, there are many
+different wireless communication technologies in the Industrial Internet.
+Efficient solutions need to be proposed to avoid interference. Innovative
+techniques such as radio resource management with complex algorithms
+can help IWSNs avoid interference [50].
+
+
+5.1.2. QoS requirements
+Various applications of the IWSN need to meet different QoS re-
+
+
+quirements and specifications. First, wireless links exhibit widely varying
+characteristics in time and space, and their capacity is constantly
+changing due to environmental changes and interference, thus failing to
+meet QoS requirements. In addition, the IWSN also has different QoS
+requirements for transmission delay, system reliability and network
+throughput. The data collected by the sensor is usually time-sensitive, so
+it is necessary to ensure end-to-end data delivery in real time. [51]
+proposed some error control techniques to decrease the number of
+retransmissions, but innovative techniques that save energy with lower
+complexity need to be put forward as improvements.
+
+
+
+
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+5.1.3. Resource constraints
+Sensor nodes have limited battery energy supply, memory storage
+
+
+and computational processing due to their physical conditions. There-
+fore, the design and implementation of the IWSN are subject to several
+constraints. Due to the refresh rate required in process automation, it is
+difficult to save a lot of energy by minimizing the duty cycle of wireless
+field devices. The maintenance period of wireless devices is shorter than
+that of wired devices, and the regular maintenance of massive nodes
+causes great cost [52].
+
+
+5.1.4. Security
+The IWSN may encounter many new security attacks and intrusions,
+
+
+including eavesdropping transmission, modification, interruption and
+malicious modification of sensor data because of its own characteristics.
+How to integrate security mechanism into the whole automation system
+in an effective way is a key issue. More detailed challenges about
+communication safety and security in the II are discussed in the following
+section.
+
+
+5.2. New challenges of ICT
+
+
+The Industrial Internet integrates Internet-based ICT into a complete
+industrial chain to make industrial production process more efficient and
+adaptable. Various intelligent ICT technologies, such as the Internet,
+cloud computing, embedded hardware and software can realize person-
+alized products and services, adaptability, flexible processes of produc-
+tion chain and supply chain.
+
+
+At present, a large number of researches on the Industrial Internet are
+not mature enough to be applied to actual industries, and the develop-
+ment process is relatively slow. There are many reasons involved. From
+the perspective of the ICT technology, the Industrial Internet is based on
+the development of the ICT environment and has strict requirements of
+high security, ultra-reliable, low-latency, and large connections, there-
+fore the ICT technology needs to adopt adaptive optimization.
+
+
+Due to various data transmission requirements of the Industrial
+Internet, the rapid increase in data rate and processing power of the ICT
+systems require many researches to improve the energy efficiency, and
+thus new challenges have arisen. The application of ICT in the Industrial
+Internet involves many technologies such as the IoT, industrial automa-
+tion, connectivity and ubiquitous information, network security, intelli-
+gent robotics, product lifecycle management, semantic technology and
+industrial big data. [53] analyzes many challenges and trends related to
+the visual computing technology mentioned in the vision of Industry 4.0.
+
+
+5.3. Security and privacy challenges
+
+
+Under the trends of the open, interconnected and intelligent devel-
+opment in the industrial field, the Industrial Internet is facing severe
+security challenges. The integration and innovation of the Internet and
+industry continuously promote to connect a large number of industrial
+equipment and infrastructures to the public internet. If the network is
+attacked unfortunately, it will cause huge losses and even endanger
+public life. The openness of the control environment makes it possible for
+the threat of the external Internet to penetrate into the factory control
+environment. The intellectualization of equipment also makes the de-
+vices and products directly exposed to network attacks, then viruses and
+hackers have chances to attack the enterprise network. With the devel-
+opment of information technology, the protection of data and privacy is
+facing unprecedented challenges. Exhibition, network IP, wireless and
+flexible information networking will also bring greater security risks to
+the factory network. In the future, the Industrial Internet will mainly face
+the following security problems.
+
+
+5.3.1. Equipment security issues
+In future intelligent manufacturing, equipment and products will
+
+
+integrate with general embedded operating system and application
+
+11
+
+software, which will directly lead to a large number of devices exposed to
+network attacks and virus threats. The main security challenges faced by
+intelligent devices and products include chip security, application soft-
+ware/hardware security, embedded operating system and functional
+security.
+
+
+5.3.2. Network security issues
+The existing TCP/IP protocol attack methods are mature enough to
+
+
+attack the factory network directly. Smart grids are promising applica-
+tions in the Industrial Internet, but increased interconnection and inte-
+gration will also introduce network vulnerabilities into the grid. In the
+meanwhile, communication systems are vulnerable to attacks such as
+illegal intrusion, information leakage and denial of service.
+
+
+5.3.3. Control security issues
+Due to the high requirement of real-time and reliability of industrial
+
+
+control, additional information security functions, such as authentica-
+tion, authorization and encryption, will be reduced, resulting in insuffi-
+cient information security protection capability. The integration of the IT
+and the OT makes it possible for network attacks to penetrate from the IT
+layer to the OT layer and from outside to inside of the factory.
+
+
+5.3.4. Application security issues
+Complex industrial applications put forward requirements to improve
+
+
+network security isolation and security assurance capabilities. Applica-
+tion software and industrial cloud platforms will face traditional security
+challenges such as Trojan horse virus and vulnerabilities.
+
+
+5.3.5. Data security issues
+Industrial big data is numerous, complex, and openly shared inside
+
+
+and outside the factory. As a result, there will be many security threats
+such as data loss, leakage and tampering.
+
+
+5.4. Standardization
+
+
+Standardization of the Industrial Internet can improve the interop-
+erability of different applications or systems. Serious standardization
+processes and extensive coordination are required to ensure that devices
+and applications from different countries can exchange information with
+each other. Different companies and alliances in various countries have
+proposed numerous Industrial Internet standards, yet there is not a
+recognized uniform Industry Internet standard.
+
+
+Standardization plays a key role in the Industrial Internet because it
+helps resolve inter-operability, compatibility, reliability, security and
+efficient operation between heterogeneous solutions. [54] studies the
+status of Industrial Internet standardization, and the results show that
+standardization in the field of Industrial Internet has just emerged. At
+present, all walks of life need to speed up the strategic layout, accelerate
+the technical standardization process related to the Industrial Internet,
+and complete the standard setting for domestic and international
+cooperation.
+
+
+5.5. Future trends
+
+
+With the continuous development of emerging science and technol-
+ogies such as fog computing, blockchain [55] and a new generation of
+artificial intelligence, the technical system of the Industrial Internet is
+constantly improved. Though the Industrial Internet faces many chal-
+lenges, in the meanwhile, it has broad prospects for development. We
+discuss some future research trends of the Industrial Internet as follows.
+
+
+5.5.1. Integration of fog computing and Industrial Internet
+Fog computing extends powerful capabilities of cloud computing to
+
+
+the edge of the network. Cloud-based computing may encounter latency
+issues due to limited capacity of the fronthaul, and fog/edge computing
+solves real-time applications that are not suitable for the cloud at the
+
+
+
+
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+edge of the network and distributed control [56]. In fog computing, edge
+access points can directly perform Collaboration Radio Signal Processing
+(CRSP) and Cooperative Radio Resource Management (CRRM) locally,
+thus the heavy burden of fronthaul and the BBU pool is alleviated, and
+the delay is significantly reduced [57]. Meanwhile, Fog computing-based
+Radio Access Network (F-RAN) has been proposed as an advanced so-
+cially aware mobile network architecture. As a result, F-RAN can achieve
+high SE/EE, low latency and excellent reliability for different Industrial
+Internet applications such as industrial automation, transportation and
+mobile vehicle connectivity [58,59]. In the future, there will be tens of
+billions of terminal devices connected to each other. The requirements
+for massive data processing, low latency and high reliability for Industrial
+Internet applications need the integration and development of fog
+computing and Industrial Internet.
+
+
+5.5.2. Blockchain enhances the security of the Industrial Internet
+At present, the blockchain has relatively mature applications in the
+
+
+fields of finance, health care, etc. Many studies have focused on the se-
+curity, privacy and scalability of blockchains [60]. Transforming the
+Industrial Internet platform through blockchain technology can avoid
+data loss and tampering caused by attacks on a single data center, and
+improve data security of the platform. [61] proposes a distributed
+peer-to-peer platform based on blockchain technology. The platform
+enables peers in a decentralized, untrusted peer-to-peer network to
+interact with each other without a trusted intermediary by using block-
+chain technology. At the same time, the application of blockchain tech-
+nology will predict and prevent the failure of manufacturing plant
+equipment, which ensures the reliability of the equipment. With the
+technological innovations in the Industrial Internet field, blockchains can
+integrate with the Industrial Internet platforms and cloud computing
+more quickly to improve the security and intelligence of the Industrial
+Internet.
+
+
+5.5.3. Development of new generation artificial intelligence
+The information environment developed by artificial intelligence has
+
+
+undergone profound changes with the popularity of the Internet. The
+development of big data, and the interconnection and integration of
+physical space and cyber space have led to a new evolutionary phase: AI
+2.0. In the future, the Industrial Internet needs to be developed toward
+the direction of intelligence. Driven by the recent development of arti-
+ficial intelligence, [62] proposed a joint model selection and resource
+management method based on Deep Reinforcement Learning (DRL) to
+support IoT services. The deep integration of the new generation of
+artificial intelligence technology and the Industrial Internet is conducive
+to the rapid development of the application technology in the
+manufacturing industry chain, especially intelligent production and
+intelligent services.
+
+
+6. Conclusion
+
+
+The Industrial Internet is a deep integration of advanced computing,
+analysis, and sensing technologies into global industrial systems. This
+paper surveys the recent research works in the Industrial Internet,
+including the system architecture, key techniques, and open issues. To
+further understand the intricacies of the Industrial Internet, three refer-
+ence architectures of the Industrial Internet in different scenarios have
+been presented. As the stringent requirements of the Industrial Internet
+for transmission rate, low delay and high reliability require emerging
+technical support such as cloud computing, MEC, fog computing and
+intelligent artificial. Key technologies especially wireless communication
+technologies and emerging technologies are emphasized as well. More-
+over, emerging applications of Industrial Internet used in different fields
+are presented. Nevertheless, there are still a large number of challenges
+and open issues that need to be solved.
+
+12
+
+Conflict of interest
+
+
+The authors declared that they have no conflicts of interest to this
+work.
+
+
+We declare that we do not have any commercial or associative in-
+terest that represents a conflict of interest in connection with the work
+submitted。
+
+
+Authors: Wei Qin, Siqi Chen, Mugen Peng.
+
+
+Acknowledgement
+
+
+This paper was supported in part by the State Major Science and
+Technology Special Projects (Grant 2018ZX03001023-005), the National
+Natural Science Foundation of China under Grant No. 61831002,
+61728101, and 61671074, and the Beijing Natural Science Foundation
+under Grant No. JQ18016.
+
+
+Appendix A. Supplementary data
+
+
+Supplementary data to this article can be found online at https://do
+i.org/10.1016/j.dcan.2019.07.001.
+
+
+References
+
+
+[1] J. Immelt, How the Industrial Internet Is Transforming Business Today [Online].
+Available: http://www.geautomation.com/industrial-internet.
+
+
+[2] R. Baheti, H. Gill, Cyber Physical Systems, the Impact of Control Technology, 2011,
+pp. 161–166.
+
+
+[3] E. Geisberger, M. Broy, Living in a Networked World: Integrated Research Agenda
+Cyber-Physical Systems (Agenda CPS), Utz Verlag GmbH, 2015.
+
+
+[4] S.-W. Lin, et al., in: The Industrial Internet of Things, Volume G1: Reference
+Architecture, Jan. 2017 [online]. Available: https://www.iiconsortium.org/IIC PUB
+G1 V1.80 2017-01-31.pdf.
+
+
+[5] Industrial Internet Consortium: industrial internet security framework technical
+document, version 1.0, 2016 [online]. Available: http://www.iiconsortium
+.org/IISF.
+
+
+[6] J. Trefke, S. Rohjans, M. Uslar, S. Lehnhoff, L. Nordstrom, A. Saleem, Smart grid
+architecture model use case management in a large european smart grid project, in:
+Proceedings Innovative Smart Grid Technologies Europe (lSGT EUROPE), 2013,
+pp. 1–5.
+
+
+[7] H. Xia, Y. Chen, Z. Wang, et al., Wireless mobile support industrial internet
+research, Microprocessors (2) (2017).
+
+
+[8] M. Peng, T. Huang, Y.R. Yu, J. Pan, IEEE access special section editorial: recent
+advances in software defined networking for 5G networks, IEEE Access 3 (2015)
+3076–3078.
+
+
+[9] J. Wan, et al., Software-defined industrial internet of things in the context of
+industry 4.0, IEEE Sens. J. 16 (20) (2016) 7373–7380.
+
+
+[10] Y. Wang, Y. Yang, Understanding the determinants of RFID adoption in the
+manufacturing industry, Technol. Forecast. Soc. Chang. 77 (5) (2010) 803–815.
+
+
+[11] V.C. Gungor, G. Hancke, Industrial wireless sensor networks: challenges design
+principles and technical approaches, IEEE Trans. Ind. Electron. 56 (10) (Oct. 2009)
+4258–4265.
+
+
+[12] M. Moness, A.M. Moustafa, A.H. Muhammad, A.A. Younis, Hybrid controller for a
+software-defined architecture of industrial internet lab-scale process, in: 12th
+International Conference on Computer Engineering and Systems (ICCES), 2017,
+pp. 266–271, 2017.
+
+
+[13] J.- Thomesse, Fieldbus technology in industrial automation, Proc. IEEE 93 (6) (June
+2005) 1073–1101.
+
+
+[14] P. Pop, M.L. Raagaard, M. Gutierrez, W. Steiner, Enabling fog computing for
+industrial automation through time-sensitive networking (TSN), IEEE Commun.
+Stand. Mag. 2 (2) (June 2018) 55–61.
+
+
+[15] M.D. Andrade, M. Maier, M.P. McGarry, M. Reisslein, Passive optical network
+(PON) supported networking, Opt. Switch. Netw. 14 (2014) 1–10.
+
+
+[16] J. Kim, W. Jeon, K. Park, J.P. Choi, Coexistence of full- duplex-based IEEE 802.15.4
+and IEEE 802.11, IEEE Trans. Ind. Inf. 14 (Dec. 2018), 5389 C 5399.
+
+
+[17] X. Jin, F. Kong, L. Kong, W. Liu, P. Zeng, Reliability and temporality optimization
+for multiple coexisting WirelessHART networks in industrial environments, IEEE
+Trans. Ind. Electron. 64 (8) (Aug. 2017) 6591–6602.
+
+
+[18] J.D. Adriano, E. C. d. Rosario, R. Joel J. P. C, Wireless Sensor Networks in Industry
+4.0: WirelessHART and ISA100.11a, 2018 13th IEEE International Conference on
+Industry Applications (INDUSCON)., 2018, pp. 924–929.
+
+
+[19] H. Wang, L. Shao, S. Xia, P. Wang, M. Li, An efficient channel utilization scheme for
+WIA-PA industrial wireless networks based on link skipping, in: IEEE International
+Conference on Internet of Things (iThings) and IEEE Green Computing and
+Communications (GreenCom) and IEEE Cyber, Physical and Social Computing
+(CPSCom) and IEEE Smart Data, SmartData)., 2016, pp. 406–409, 2016.
+
+
+[20] M. Peng, W. Wang, H.-H. Chen, TD-SCDMA evolution, IEEE Veh. Technol. Mag. 5
+(2) (Jun. 2010) 28–41.
+
+
+
+https://doi.org/10.1016/j.dcan.2019.07.001
+
+https://doi.org/10.1016/j.dcan.2019.07.001
+
+http://www.geautomation.com/industrial-internet
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref2
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref2
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref2
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref3
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref3
+
+https://www.iiconsortium.org/IIC%20PUB%20G1%20V1.80%202017-01-31.pdf
+
+https://www.iiconsortium.org/IIC%20PUB%20G1%20V1.80%202017-01-31.pdf
+
+http://www.iiconsortium.org/IISF
+
+http://www.iiconsortium.org/IISF
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref6
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref6
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref6
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref6
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref6
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref7
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref7
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref8
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref8
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref8
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref8
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref9
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref9
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref9
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref10
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref10
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref10
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref11
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref11
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref11
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref11
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref12
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref12
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref12
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref12
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref12
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref13
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref13
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref13
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref14
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref14
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref14
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref14
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref15
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref15
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref15
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref16
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref16
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref17
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref17
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref17
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref17
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref18
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref18
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref18
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref18
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref19
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref19
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref19
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref19
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref19
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref19
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref20
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref20
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref20
+
+
+
+
+W. Qin et al. Digital Communications and Networks 6 (2020) 1–13
+
+[21] C. Xia, X. Jin, L. Kong, P. Zeng, D. Guan, Scheduling for Heterogeneous Industrial
+Networks Based on NB-IoT Technology, IECON 2017 - 43rd Annual Conference of the,
+IEEE Industrial Electronics Society, 2017, pp. 3518–3523.
+
+
+[22] Z. Zhou, M. Peng, Z. Zhao, W. Wang, R.S. Blum, Wireless- powered cooperative
+communications: power-splitting relaying with energy accumulation, IEEE J. Sel.
+Area. Commun. 34 (4) (Apr. 2016) 969–982.
+
+
+[23] T. Taleb, I. Afolabi, M. Bagaa, Orchestrating 5G Network Slices to Support Industrial
+Internet and to Shape Next-Generation Smart Factories, IEEE Network., 2019,
+pp. 1–9.
+
+
+[24] M. Chen, S. Mao, Y. Liu, Big data: a survey, Mob. Netw. Appl. 19 (2) (2014)
+171–209.
+
+
+[25] L. Wang, G. Wang, C.A. Alexander, Big data and visualization: methods challenges
+and technology progress, Digit. Technol. 1 (1) (2015) 33–38.
+
+
+[26] P. Mell, T. Grance, The NIST Definition of Cloud Computing, US Nat’l Inst. of
+Science and Technology, 2011 [online]. Available:
+http://csrc.nist.gov/publications/nistpubs/800- 145/SP800-145.pdf.
+
+
+[27] Y. Li, J. Liu, B. Cao, C. Wang, Joint optimization of radio and virtual machine
+resources with uncertain user demands in mobile cloud computing, IEEE Trans.
+Multimed. 20 (9) (Sep. 2018) 2427–2438.
+
+
+[28] M. Peng, Y. Sun, X. Li, Z. Mao, C. Wang, Recent advances in cloud radio access
+networks: system architectures key techniques and open issues, Commun. Surv.
+Tutorials, IEEE 18 (3) (2016) 2282–2308.
+
+
+[29] M. Peng, Y. Li, Z. Zhao, C. Wang, System architecture and key technologies for 5G
+heterogeneous cloud radio access networks, IEEE Network., vol. 29, no. 2, pp. 6-14,
+Mar./Apr. 2015.
+
+
+[30] M. Peng, K. Zhang, J. Jiang, J. Wang, W. Wang, Energy- efficient resource
+assignment and power allocation in heterogeneous cloud radio access networks,
+IEEE Trans. Veh. Technol. 64 (11) (Nov. 2015) 5275–5287.
+
+
+[31] Y.Q. Lu, X. Xu, A semantic web-based framework for service composition in a cloud
+manufacturing environment, J. Manuf. Syst. 42 (2017) 69–81.
+
+
+[32] B. Cao, L. Zhang, Y. Li, D. Feng, W. Cao, Intelligent offloading in multi-access edge
+computing: a state-of-the-art review and framework, IEEE Commun. Mag. 57 (3)
+(March 2019) 56–62.
+
+
+[33] W. Sun, J. Liu, Y. Yue, H. Zhang, Double auction-based resource allocation for
+mobile edge computing in industrial internet of things, IEEE Trans. Ind. Informat.
+14 (10) (Oct. 2018) 4692–4701.
+
+
+[34] B. Cao, S. Xia, J. Han, Y. Li, A distributed game method- ology for crowdsensing in
+uncertain wireless scenario, IEEE Trans. Mob. Comput. (2019), https://doi.org/
+10.1109/TMC.2019.2892953, 1-1.
+
+
+[35] Implementing 21st Century Smart Manufacturing, 2011 [online]. Available: http://
+www.smart-processmanufacturing.ucla.edu.
+
+
+[36] J. Lee, B. Bagheri, H.-A. Kao, A cyber-physical systems architecture for industry 4.0-
+based manufacturing systems, Manuf. Lett. 3 (Jan. 2015) 18–23.
+
+
+[37] L. Wang, M. Torngren, M. Onori, Current status and advancement of cyber-physical
+systems in manufacturing, J. Manuf. Syst. 37 (Oct. 2015) 517–527.
+
+
+[38] L. Chunli, Intelligent transportation based on the internet of things, Proc. Int. Conf.
+Consum. Electron. Commun. Netw. (Apr. 2012) 360–362.
+
+
+[39] D. Sun, Y. Li, W. Liu, M. Zhao, X. Liao, Research summary on transportation cyber
+physical systems and the challenging technologies, China J. Highw. Transp. 26 (1)
+(Jan. 2013) 0144–0155.
+
+
+[40] A. Lei, et al., Blockchain-based dynamic key management for heterogeneous
+intelligent transportation systems, IEEE Internet Things J.v 4 (6) (Dec. 2017)
+1832–1843.
+
+
+[41] M.S. Hossain, G. Muhammad, Cloud-assisted industrial internet of things (IIoT)-
+enabled framework for health monitoring, Comput. Network. 101 (2016) 192–202.
+
+13
+
+[42] Z. Zhao, L. Cui, A remote health care system based on wireless sensor networks, Inf.
+Control 35 (No.2) (2006) (In Chinese).
+
+
+[43] J. Marescaux, J. Leroy, F. Rubino, et al., Transcontinental Robot- Assisted Remote
+Telesurgery: Feasibility and Potential Applications, Ann. Surg, 2002, pp. 487–492.
+
+
+[44] J. Daily, J. Peterson, Predictive maintenance. how big data analysis can improve
+maintenance, in: K. Richter, J. Walther (Eds.), Supply Chain Integration Challenges
+in Commercial Aerospace, Springer International, 2017, pp. 267–278.
+
+
+[45] J. Berglund, J. Michaloski, S. Leong, G. Shao, F. Riddick, J. Arinez, S. Biller, Energy
+Efficiency Analysis for a Casting Production System, Winter Simulation Conference
+IEEE, 2011, pp. 1060–1071.
+
+
+[46] Y. Zeng, R. Zhang, Energy-efficient UAV communication with trajectory
+optimization, IEEE Trans. Wirel. Commun. 16 (6) (Jun. 2017) 3747–3760.
+
+
+[47] S. Yan, M. Peng, X. Cao, A game theory approach for joint access selection and
+resource allocation in UAV assisted IoT communication networks, IEEE Internet
+Things J. 6 (2) (April. 2019) 1663–1674.
+
+
+[48] F. Shrouf, J. Ordieres, G. Miragliotta, Smart factories in industry 4.0: a review of the
+concept and of energy management approached in production based on the internet
+of things paradigm, 2014, in: IEEE International Conference on Industrial
+Engineering and Engineering Management, 2014, pp. 697–701.
+
+
+[49] K. Wang, Y. Wang, Y. Sun, S. Guo, J. Wu, Green industrial internet of things
+architecture: an energy-efficient perspective, IEEE Commun. Mag. 54 (12) (Dec.
+2016) 48–54.
+
+
+[50] D. Yang, M. Gidlund, Y. Xu, Coexistence of ieee 802.15.4 based networks: a survey,
+36th Annual Conference on IEEE Industrial Electronics Society (IECON’10)., pp.
+2107-2113, Nov. 2010.
+
+
+[51] L. Li, R.G. Maunder, B.M. Al-Hashimi, L. Hanzo, An energy-efficient error correction
+scheme for ieee 802.15.4 wireless sensor networks, Trans. Circuits Syst. Part II 57
+(3) (March 2010) 233–237.
+
+
+[52] J. Akerbcrg, M.M. Gidlund, M. Bjorkman, Future research challenges in wireless
+sensor and actuator networks targeting industrial automation, in: 2011 9th IEEE
+International Conference on Industrial Informatics, 2011, pp. 410–415.
+
+
+[53] J. Posada, et al., Visual computing as a key enabling technology for industrie 4.0
+and industrial internet, IEEE Comput. Graph. Appl. 35 (2) (2015) 26–40.
+
+
+[54] T. Muhonen, Standardization of Industrial Internet and IoT: Perspective on
+Condition-Based Maintenance, M.S. thesis, Dept. Ind. Eng. Manag., Univ. at Oulu,
+Oulu, Finland, 2015.
+
+
+[55] B. Cao, Y. Li, L. Zhang, et al., When Internet of Things Meets Blockchain: Challenges
+in Distributed Consensus, IEEE Network, 2019, 1-1.
+
+
+[56] H.P. Breivold, K. Sandstrom, Internet of things for industrial automation: challenges
+and technical solutions, in: IEEE International Conference on Data Science and Data
+Intensive Systems, 2015, pp. 532–539. Dec. 2015.
+
+
+[57] M. Peng, S. Yan, K. Zhang, C. Wang, Fog-computing-based radio access networks:
+issues and challenges, IEEE Network 30 (4) (Jul.-Aug. 2016) 46–53.
+
+
+[58] M. Peng, K. Zhang, Recent advances in fog radio access networks: performance
+analysis and radio resource allocation, IEEE Access 4 (Sep. 2016) 5003–5009.
+
+
+[59] S. Yan, M. Peng, M.A. Abana, W. Wang, An evolutionary game for user access mode
+selection in fog radio access networks, IEEE Access 5 (2017) 2200–2210.
+
+
+[60] Y. Li, B. Cao, et al., Direct acyclic graph based blockchain for Internet of things:
+performance and security analysis [Online]. Available: https://arxiv.org/abs/1
+905.10925, 2019.
+
+
+[61] A. Bahga, V.K.Madisetti, Blockchain platform for industrial internet of things, J. Softw.
+Eng. Appl, 533-546 [Online]. Available: https://doi.org/10.4236/jsea.2016.910036.
+
+
+[62] Y. Sun, M. Peng, S. Mao, Deep reinforcement learning based mode selection and
+resource management for green fog radio access networks, IEEE Internet Things J. 6
+(2) (April. 2019) 1960–1971.
+
+
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref21
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref21
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref21
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref21
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref22
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref22
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref22
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref22
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref23
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref23
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref23
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref23
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref24
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref24
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref24
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref25
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref25
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref25
+
+http://csrc.nist.gov/publications/nistpubs/800-%20145/SP800-145.pdf
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref27
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref27
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref27
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref27
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref28
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref28
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref28
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref28
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref30
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref30
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref30
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref30
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref31
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref31
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref31
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref32
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref32
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref32
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref32
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref33
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref33
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref33
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref33
+
+https://doi.org/10.1109/TMC.2019.2892953
+
+https://doi.org/10.1109/TMC.2019.2892953
+
+http://www.smart-processmanufacturing.ucla.edu
+
+http://www.smart-processmanufacturing.ucla.edu
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref36
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref36
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref36
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref37
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref37
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref37
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref38
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref38
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref38
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref39
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref39
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref39
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref39
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref40
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref40
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref40
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref40
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref41
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref41
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref41
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref42
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref42
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref43
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref43
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref43
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref44
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref44
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref44
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref44
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref45
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref45
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref45
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref45
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref46
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref46
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref46
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref47
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref47
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref47
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref47
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref48
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref48
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref48
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref48
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref48
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref49
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref49
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref49
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref49
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref51
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref51
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref51
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref51
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref52
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref52
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref52
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref52
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref53
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref53
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref53
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref54
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref54
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref54
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref55
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref55
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref56
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref56
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref56
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref56
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref57
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref57
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref57
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref58
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref58
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref58
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref59
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref59
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref59
+
+https://arxiv.org/abs/1905.10925
+
+https://arxiv.org/abs/1905.10925
+
+https://doi.org/10.4236/jsea.2016.910036
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref62
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref62
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref62
+
+http://refhub.elsevier.com/S2352-8648(19)30116-6/sref62
+
+

@@ -1,0 +1,1193 @@
+
+
+
+
+
+
+
+
+
+
+Contents lists available at ScienceDirect
+
+
+Transportation Research Part E
+journal homepage: www.elsevier.com/locate/tre
+
+
+The strategic role of logistics in the industry 4.0 era
+Christopher S. Tanga,⁎, Lucas P. Veelenturfb
+aUCLA, United States
+b Eindhoven University of Technology, the Netherlands
+
+
+A R T I C L E I N F O
+
+
+Keywords:
+Industry 4.0
+Additive manufacturing
+Blockchain
+Drones
+Artificial intelligence
+Logistics
+Transportation
+
+
+A B S T R A C T
+
+
+By leveraging new technologies (Additive Manufacturing, Advanced Robotics, Artificial
+Intelligence, Autonomous Vehicles, Blockchain, Drones, Internet of Things, etc.), many compa-
+nies are developing cyber-physical systems that can change the competition landscape. In the
+midst of this exciting development, we examine the strategic role of logistics and transportation
+services for creating economic, environmental and social values. Also, we discuss some new
+research directions.
+
+
+1. Introduction
+
+
+Industry 4.0 is a term that originates from a German government project that promotes the computerized manufacturing in 2011.
+Industry 4.0 is also referred to as the “fourth industrial revolution” since the industrial revolution that took place in the 18th century.
+The first industrial revolution improved the productivity of the iron and textile industries by using steam power; and the second
+industrial revolution took place just before WWI and created reduced manufacturing cost by using electric power to create mass
+production. With the development of personal computers and the internet in the 1980s, the third industrial revolution transformed
+the economic landscape (Rifkin, 2011). After the term Industry 4.0 was revived in 2011 by the German economic development
+agency, the fourth industrial revolution builds on the third, leveraging emerging technologies (or Industry 4.0 technologies) such as
+Additive Manufacturing, Advanced Robotics, Artificial Intelligence, Autonomous Vehicles, Blockchain, Drones, Internet of Things,
+etc.
+
+
+Unlike the previous three, Schwab (2016) argues that the fourth industrial revolution is fundamentally different because it
+leverages connectivity and communication among billions of devices. These emerging technologies along with voluminous real-time
+data will transform the manufacturing and service operations along a global supply chain, and change the interactions between
+humans (consumers and supply chain partners) and machines. Currently, many companies are exploring ways to create value by
+exploiting these Industry 4.0 technologies. According the McKinsey Global Institute, operations and equipment optimization in the
+factory setting can generate up to $3.7 Trillion of value by 2025 (Manyika et al., 2015). More recently, Frank et al. (2019) examine
+different economic and technological drivers for companies to adopt various Industry 4.0 technologies. Based on a survey of 92
+manufacturing companies, they find that computerized (or smart) manufacturing is a key driver.
+
+
+The notion of Industry 4.0 or the Fourth Industrial Revolution has kindled public interest. For instance, according to the data
+obtained from Google Trends, the number of google searches (worldwide) that contained the term “Industry 4.0” or “Fourth
+Industrial Revolution” began in 2012 and 2015; respectively, and the number of searches continued to increase as of March 2019
+(Fig. 1). Most of the searches took place since 2016. It is interesting to note that most of the related queries are: “what is industry 4.0”,
+
+
+https://doi.org/10.1016/j.tre.2019.06.004
+Received 6 June 2019
+
+
+⁎ Corresponding author.
+E-mail address: chris.tang@anderson.ucla.edu (C.S. Tang).
+
+
+
+http://www.sciencedirect.com/science/journal/13665545
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.elsevier.com/locate/tre
+
+https://doi.org/10.1016/j.tre.2019.06.004
+
+https://doi.org/10.1016/j.tre.2019.06.004
+
+mailto:chris.tang@anderson.ucla.edu
+
+https://doi.org/10.1016/j.tre.2019.06.004
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.tre.2019.06.004&domain=pdf
+
+
+
+
+“internet of things,” or “what is the fourth industrial revolution?” Based on these queries, it appears that Industry 4.0 is a relatively
+new topic that deserves a better understanding. Currently, consulting firms such as IBM, McKinsey, and Deloitte are issuing different
+reports to explain the term Industry 4.0 and its impact (Zhang, 2017; Baur and Wee, 2015; and Deloitte Insights, 2018).
+
+
+We also searched through Scopus citation database by using the keywords “Industry 4.0” or “Fourth Industrial Revolution” that
+appear in the title, abstract, or keywords of academic articles published between 2012 and 2018. As shown in Fig. 2, there were 2320
+published articles that contain the keywords “Industry 4.0” (and 329 articles that contain the keyword “Fourth Industrial Revolu-
+tion”). Also, most of the research articles that contain the keywords “Industry 4.0” appeared in engineering journals (25%), computer
+science journals (11%) and business journals (8%). We obtain a similar result for those articles that contain the keywords “Fourth
+Industrial Revolution”.
+
+
+In summary, Figs. 1 and 2 reveal that Industry 4.0 is an emerging topic and the research in this area is nascent. Hence, there is a
+golden opportunity for the operations management (OM) research community to understand the implications of this new revolution,
+to identity novel research questions, and to examine the conditions under which these emerging technologies can create economic,
+environmental, and/or social value.
+
+
+1.1. A brief description of technologies associated with Industry 4.0
+
+
+We now provide a brief description of different technologies associated with Industry 4.0. The reader is referred to Berman (2012)
+for a detailed description about 3D printing, Babich and Hilary (2019) for an extensive discussion about the strengths and weaknesses
+of Blockchain, and Olsen and Tomlin (2019) for more discussion on other technologies.
+
+
+Fig. 1. Number of Google Searches conducted between January 2011 to March 2019 that contains the keywords “Industry 4.0” or “Fourth Industrial
+Revolution”. The vertical scale is normalized to 100.
+
+
+Fig. 2. Number of academic articles published between 2012 and 2018 that contains the keywords “Industry 4.0” or “Fourth Industrial Revolution”.
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+
+
+
+
+
+
+
+• Additive manufacturing (also known as 3D printing). This is a technology that uses a digital 3D representation of an object
+and produces the physical object by depositing layers of materials (plastic, resin, stainless steel, ceramics, etc.). Additive man-
+ufacturing can enable firms to develop prototypes (product prototypes) and personalized products (hearing aids, knee replace-
+ments, and even toys) faster, cheaper and better (Berman, 2012; Sodhi and Tang, 2017). In the context of spare parts, Song and
+Zhang (2018) find that additive manufacturing creates more value to the firm as the number of parts increases. For the design of
+components, Westerweel et al. (2018) found that the higher design cost of additive manufacturing can be overcome with reduced
+logistical cost and reduced lead-time. From the strategic perspective, Dong et al. (2018) show that a firm that adopts additive
+manufacturing will offer more product variety to compete. Motivated by RepRap, a company that produces 3D printers that can
+replicate themselves, Hu and Sun (2019) study the tradeoff between production and sales of these self-replicable 3D printers. The
+reader is referred to Rogers et al. (2016) for a comprehensive discussion of different research questions arising from 3D printing
+services. More recently, Hedenstierna et al. (2019) examine the role of 3D printing in the context of outsourcing.
+• Advanced robotics. The advancements of the communication technologies, sensor capabilities, and artificial intelligence are
+making robots smarter so that they can work safely alongside human workers. For example, BMW has robots and human workers
+work alongside on its assembly line in its plant in South Carolina. Also, wearable robotics with exoskeletons can aid human
+workers to reduce repeated motion injuries due to lifting heavy boxes in the warehouse or harvesting fruits in the field. Companies
+such as Caterpillar and GE are exploring the adoption of wearable robotics to improve worker safety. JD.com, the largest online
+retailer in China, has adopted various advanced robots to stack products on shelves and pack merchandise in 500 warehouses
+(Marr, 2018). By 2019, JD.com implemented the world’s first automated warehouse in Shanghai equipped with Mujin robots
+(Hornyak, 2019).
+• Drones. Drones are unmanned aerial vehicles that can be controlled remotely. These drones can carry different sensors to record
+data (visual and audio) for monitoring and surveying operations, to carry certain devices including robotic arms for pick up and
+drop off operations, or automated sprays for farming operations. Drones can be viewed as an element of the internet of things.
+More recently, drones have been used for search and rescue operations.
+• Internet of Things (IoT). The internet of things refers to a system of devices (e.g., sensors) that can communicate and interact
+with others over the internet, and this system can be remotely monitored and controlled. With drastic reduction in cost and
+increase in processing speed for these sensors and significant improvements in measurement and communication technologies, the
+adoption rate of internet of things is growing exponentially in recent years. Columbus (2018) reported that, by 2020, Discrete
+Manufacturing, Transportation & Logistics and Utilities industries are projected to spend $40B each on IoT platforms, systems, and
+services.
+• Blockchain. A Blockchain is a distributed and secure ledger. As articulated by Olsen and Tomlin (2019), it is distributed because
+it can be written and accessed by different (possibly authorized) entities and its data is stored on a peer-to-peer network. Also, it is
+secure because once a “block” has been added to the chain (i.e., information written by an entity), it cannot be altered uni-
+laterally. Despite these promises, Babich and Hilary (2019) identified several weaknesses of blockchain ranging from lack of
+privacy, garbage-in-garbage-out, inefficient, etc. Wang et al. (2019) conducted in-depth interviews with 14 supply chain experts
+to explore how blockchain technology may transform supply chain operations in the future.
+• Artificial Intelligence (AI). In contrast to the “natural intelligence” possessed by humans, AI mimics natural intelligence using
+computers to interpret external data, to learn from such data, and use those learnings to conduct descriptive, predictive, or
+prescriptive analysis. For example, IBM Watson is an AI system that is capable of answering questions posed in natural language.
+Also, GE uses sensors to collect data from its gas turbines or windmills via its Predix Cloud (an online platform), and then use
+machine learning and deep learning algorithms to conduct preventive maintenance before a breakdown.
+
+
+As the above technologies are being developing, many firms are exploring different ways to exploit these exciting Industry 4.0
+technologies. At the same time, OM researchers are establishing different research agendas.
+
+
+1.2. Logistics: a diamond in the rough
+
+
+Within the context of Industry 4.0, OM research has been focusing on the manufacturing applications of these exciting tech-
+nologies (Olsen and Tomlin, 2019). This trend is understandable because the term Industry 4.0 was originally intended to promote
+the computerization of manufacturing by the German government since 2011. The manufacturing focus is reflected from a recent
+survey of 1600 C-level executives across 19 countries conducted by Deloitte: 73% of the respondents reported that they are currently
+developing Industry 4.0 based technology initiatives that focus on improving operations (mostly in manufacturing), and yet only 6%
+focus on logistics (Deloitte Insights, 2018). This observation implies that many firms undervalue of the strategic role of the logistics
+function as a competitive lever or as a business model1.
+
+
+The minor role that logistics plays in the mind of company executives motivated us to examine the strategic role of logistics in the
+Industry 4.0 era in this paper. Specifically, we shall argue how companies can leverage Industry 4.0 technologies to create economic,
+
+
+1 Besides the fact that logistics originated from military operations, we define logistics more “broadly” and it includes transportation of humans
+and goods. Specifically, in our view, the logistics function deals with the detailed coordination of a complex operation involving human, materials,
+equipment, information and finance. In many instances, this coordination entails the movements of materials, humans, and/or equipment, the
+exchanges of information among humans and or devices, and the transactions of finance among entities.
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+http://JD.com
+
+http://JD.com
+
+
+
+
+environmental and social value by transforming the logistics function as:
+
+
+1. A competitive lever;
+2. A social value creator; and
+3. An enabler for sustainability.
+
+
+In the remaining of this paper, we use some real examples to illustrate how different Industry 4.0 technologies can enable a firm, a
+government, or an NGO to do good and do well at the same time. Also, we pose some research questions for OM researchers to
+explore further.
+
+
+2. Logistics service as a competitive lever
+
+
+Despite logistics is an important function that gets the right product to the right customer at the right time, many executives tend
+to view logistics as a cost to be managed and often overlook the fact that logistics can cause a company to make or break. Consider the
+downfall of Blockbuster in 2010. Being the world’s largest video rental company in 2004 with over 9000 stores world-wide,
+Blockbuster allowed each customer to rent a video from a store for a fixed fee, but the customer must return the video tape or DVD
+back to the same store within a 2-day time window (to avoid penalty). As the de facto monopoly, customers tolerated this business
+model even when they have to pay the penalty for being later or for returning the video to a different store. However, when Netflix
+came along in the late 90 s and allowed each customer to return his DVD in a pre-paid postage envelope at their own convenience and
+to receive the next DVD in his queue automatically by mail afterwards, Blockbuster lost the patronage and filed for bankruptcy in
+2010. This example highlights the importance of the logistics function from the customer perspective. Another case in point, the
+demise of online grocery store Webvan and online furniture store furniture.com was partly due to poor logistics performance:
+customers complained about late deliveries and missing items, and the firm faced high “last mile” delivery cost.
+
+
+The above examples suggest that, to compete successfully in the retail sector, logistics is key. This may explain why largest online
+retailers such as Amazon and Alibaba’s Tmall invest heavily in logistics. To compete in the e-tailing sector, fast (and even free) and
+reliable delivery services become a competitive lever for an online store to differentiate itself from other online stores selling similar
+products at similar prices. By leveraging Amazon’s Whole Foods stores2, Amazon offers 2-hour home grocery delivery services
+(Amazon Prime Now) to its prime members at selected locations in the United States. Also, instead of relying on UPS and FedEx,
+Amazon created “Amazon Logistics” delivery service in 2018 to gain better control of the last mile delivery performance (speed,
+reliability, and cost). In 2018, the company’s fulfillment and shipping expenses amounted to $34.0 billion and $27.7 billion re-
+spectively, up from just over $1 billion each in 2007. The total logistics cost $61.7 billon accounts for 27.5% of its net revenue
+(Richter, 2019). Buchman (2018) reported that Amazon operates 258 distribution and fulfillment centers in the United States and
+additional 486 such centers around the world by using thousands of trucks and 32 Boeing 767 aircraft. In China, to compete in online
+retailing, Alibaba took majority ownership of its subsidiary logistics unit Cainiao3 in 2017, and pledged to invest $15 billion over five
+years to build out a global logistics network.
+
+
+Based on the recent focus of Amazon and Alibaba on logistics, it is evident that logistics should not be viewed as a cost center.
+Instead, logistics service is a weapon that enables firms to compete on speed, reliability and cost. The advent of new technologies can
+affect the logistics function in several fundamental ways:
+
+
+1. Faster Speed: delivery services conducted by drones or delivery robots. To speed up the delivery service, Amazon is ex-
+ploring the use of drones for delivering small packages. In China, Alibaba’s food delivery unit Ele.me4 started delivering foods by
+drones in 2018 on 17 different routes from over 100 local restaurants in Shanghai’s Jinshan Industrial Park covering an area of 58
+square kilometers (Tao and Yang, 2018). In 2019, Google got approval to use its Wing drones for home deliveries in Australia. In
+the meantime, researchers started to focus on the required operational models to route the drones to different customer (e.g.
+Carlsson and Song (2018), Agatz et al. (2018)). Also on the ground, unmanned vehicles are tested for faster deliveries, like the
+delivery robots of Domino’s pizza. To speed things up even further, Amazon filed a patent called “anticipatory shipping” in 2014.
+The key idea is to use predictive analytic tools to analyze a customer’s shopping history along with other customers’ shopping
+history to predict what she may need. In theory, anticipatory shipping would enable Amazon to ship products (possibly by drones)
+to consumers even “before” they even order them (Kopalle, 2014).
+
+
+2. Higher Reliability: storage and retrieval systems using robots. To automate the storage and retrieval operations at Amazon’s
+fulfillment centers, Amazon spent $775 million in 2012 to acquire Kiva robotic system. The Kiva system improves productivity by
+
+
+2 Amazon acquired Whole Foods for $13.7 billion in 2017 so that it can expand its home grocery deliver service Amazon Fresh in selected locations
+within the United States.
+3 Cainiao Logistics is an internet technology company that specializes in “platform services” for logistics networks. It offers logistics services to
+
+
+different vendors who sell products on Alibaba’s Tmall by using an online platform to coordinate the logistics functions provided by different
+delivery service providers.
+4 Ele.me is an online platform that offers online food delivery service by coordinating customers, restaurants, and meal delivery service providers
+
+
+in China. It was acquired by Alibaba in 2018.
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+http://furniture.com
+
+
+
+
+
+http://Ele.me
+
+http://Ele.me
+
+
+
+
+recording and tracking items within the fulfillment center and by bringing the products directly to employees to pick, pack, and
+ship. These systems require careful design choices and operating strategies, for example Roy et al. (2019) analyzes the effects of
+different robot storage zone assignment and queue allocation strategies. The development of robotics exoskeletons (as wearable
+robotics along with sensors) can help the employees to improve the speed and reliability of their pick and pack operations and
+reduce repeated motion injury at the workplace (Ashley, 2017).
+
+
+3. Lower Operating Cost: inventory monitor and replenishment systems using smart sensors. In physical stores, real time
+information about inventory on the shelves is often inaccurate and costly to obtain (DeHoratius et al. 2008). The reduction in cost
+and the improvement in capability of different sensors offer a new opportunity for stores to develop “smart shelves” using weight
+sensors that can monitor the existing quantity of items on the shelves, notify stock room staff to refill inventory before the item
+gets depleted from the shelf, and inform warehouse or vendor for immediate replenishment. Besides smart shelves, start-up
+company Wasteless.co is running different pilots with supermarket chains (e.g. with Ahold-Delhaize) using electronic tags to
+implement dynamic pricing. In the shelves of fresh products (e.g., meat, cheese, etc.), different items of the same product may
+have different expiration dates, and savvy customers will purchase the freshest item that has the longest expiration date. The new
+price tags of Wasteless show different prices depending on the expiration date: items with a short expiration date is sold at a
+discount defined by a smart algorithm considering multiple factors like weather (on a rainy day almost expired BBQ meat needs
+more discount than on a sunny day). Some pilot runs conducted in Italy suggest a reduction of 89% in food waste, according to
+Wasteless (Pieters, 2019). In a related development, AWM Smart Shelf offers additional value beyond logistics: it uses cameras
+mounted on its smart shelves to gather data on shopper behavior and demographics. By using various Artificial Intelligence tools
+to analyze a massive data, AWM can develop personalized videos to display on its smart shelves according to age, gender, or
+ethnicity (Horowitz, 2019). One step further, the inventory of a final end consumer in its house can also be measured. Think of
+Samsung’s smart fridges with cameras with which the owners get full information about inventory, expiration dates etc. Finally,
+with real time inventory information at different warehouses, an online retailer can make real time decisions about product price
+and the warehouse from which an incoming order is filled (Lei et al., 2018).
+
+
+4. Improve Efficiency: Container shipping enabled by blockchain. Because ocean freight operations involve many organizations
+(exporters, terminal operators, trucking companies, customs officers, freight forwarders, ocean carriers, insurance companies,
+banks, importers, etc.) and lots of paper work (bill of lading, invoice, certificate of origin, freight shipping forms, inspection
+certificate, export packing list, insurance certificate, etc.) and because many processes are done manually, long and uncertain
+delays are commonly observed. Djankov et al. (2010) reported that the average export time in Asia is 25 days with a standard
+deviation of 12 days. When in early 2019 container ship MSC Zoe lost containers in front of the Dutch and German coast it took
+them weeks before the exact number (more than 340) of lost containers was known. To improve the efficiency of this archaic
+process of a $200 billion ocean freight industry, IBM and Maersk (the largest container carrier in the world) formed a partnership
+in 2017 to develop a blockchain platform to automate the process so that documents for shipping containers can be digitalized and
+containers can be tracked. By leveraging the distributed and secure capability of blockchain technology, all updated information
+and documentation can be verified and reconciled by all involved parties without duplication errors, and more importantly,
+without delay (Groenfeldt, 2017). In April 2019, China Shipbuilding Industry Company Limited (CSICL), a subsidiary of shipping
+giant China Shipbuilding Industry Corporation, signed an agreement with Shanghai Bank, under which it will explore the use of
+blockchain technology to financing its upstream suppliers. Besides ocean freight, Choi et al. (2019) examine the potential benefits
+of using blockchain technology on implementing the mean–variance (MV) theory for risk analysis in the context of air logistics.
+
+
+As these Industry 4.0 technologies are helping firms to transform their logistics functions as competitive weapons instead of cost
+centers, we propose a few research questions for further studies.
+
+
+1. How should a firm redesign its supply chain structure to align with the transformed logistics services in the Industry 4.0 era?
+2. How would these emerging technologies affect the way supply chain partners communicate, coordinate and collaborate? For
+example, should a retailer (customer) share its smart shelf (fridge) data with vendors so that vendors can offer “anticipatory
+replenishment” services?
+
+
+3. How would 3D-printing affect the logistics industry? For instance, instead of purchasing a physical product (e.g., a toy), customers
+can download a digital file and print the product at home, by passing the entire physical supply chain (except for the transport of
+the raw materials).
+
+
+4. Will the economic value created by blockchain outweigh its implementation cost? For example, Will the economic benefit created
+by the operational efficiency in container shipping through blockchain far exceed its implementation cost?
+
+
+5. What is the impact of advanced robotics on job design of human workers? Will advanced robotics become a complement or
+substitute of a human worker?
+
+
+6. How would drones and robots take over the home deliveries? Will there be drones and delivery robots everywhere? How to
+organize and regulate these unmanned delivery services without crating chaos?
+
+
+3. Logistics as a social value creator
+
+
+Besides transforming the logistics arm of a firm into a competitive weapon, various emerging technologies can improve the
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+
+
+
+
+http://Wasteless.co
+
+
+
+
+logistics operations by creating social value. Consider the challenges that the World Food Program5 (WFP) faces when distributing
+food and cash to refugees in war-torn countries or beneficiaries in disaster zones. Putting aside the challenges of getting the supplies,
+the distribution of food and cash is even more challenging because the distribution infrastructure is usually non-existent and the
+information record about legitimate recipients is either incomplete or inaccurate. Consequently, fraudulent claims are common and
+many legitimate recipients end up not getting the aid. With the advancements of blockchain technology, WFP worked with Parity
+Technologies, a startup led by ethereum co-founder Gavin Wood to develop a blockchain platform called “World Food Programme
+Building Blocks” in 2017 that uses a distributed ledger to record the iris image of each refugee6. In doing so, the authentication
+process is only a simple iris scan that is efficient and accurate. This way, each legitimate refugee in Jordan can get their rationed food
+supply, and even cash for women who participate in the UN Women’s Cash for Work Programme in Jordan (Judkslian, 2018). We
+now provide a few examples in this section and conclude with a few research questions.
+
+
+1. Faster and safer response and recovery operations using drones. After a natural disaster such as hurricane or forest fire, the
+traditional use of helicopters for response and recovery mission can be costly and even dangerous for the responders when the
+mission takes place at difficult terrain and at night. For example, one week after the landfall of Hurricane Harvey in 2017, FAA
+(Federal Aviation Administration) authorized 43 small drones to fly below 400 feet and away from large crowds of people to
+enable local authorities, and local transportation and utility companies to assess damage to homes, roads, bridges, power lines,
+etc. Also, Allstate insurance deployed drones to collect visual images of homes and send footage to Allstate’s claim adjusters so
+that they can evaluate different insurance claims (Marshall, 2017). In the same vein, search and rescue missions along rivers and
+coastlines are labor and resource intensive and inefficient. By using a drone equipped with a heat-sensitive infrared camera, it can
+quickly search a given search area and scan for images that fits the outline of a human being. In doing so, rescue forces can be sent
+directly to the exact location to perform the rescue function. Finally, on smaller scale accidents, drones can be life savers. In
+several countries such as US and the Netherland, some cities are equipped with automated external defibrillator (AED) drones that
+can be dispatched quickly to save patients who suffer from sudden heart attacks.
+
+
+2. Improve accessibility to diagnostic care and drug administration by using wearable medical devices. In rural areas of
+many developing countries, the access of diagnostic care and pharmacy services is limited for two key reasons: (a) rural clinics are
+either not available or over-crowded; or (b) rural clinics are perceived as low quality. Quite often, many rural patients travel long
+distance to seek health services in cities. With the advancements of different wearable medical devices, patients can share their
+medical data with their online doctors via telemedicine. A wearable medical device can be defined as a biosensor that collects
+physiological data (heart rate, body temperature, blood pressure, blood oxygen, glucose level, etc.) in real time. For example,
+Apple Watch Series 2 can monitor most data, Dexcom G6 is a continuous glucose wearable device that can sync its data with iOS
+and Android smart devices. With wearable medical devices that can sync with various smart devices, many Chinese patients are
+sharing their medical data with their online doctors via various telemedicine platforms that are more accessible and affordable
+(Liu, 2018). Besides monitoring various physiological data of a user, Covestgro (formerly Bayer MaterialSience LLC) launched a
+new wearable medical device Makroblend M525 in 2015 that can monitor vital signs during physical activity or administer drugs.
+Backed by Sanofi, Enable Injections is developing a wearable device that can deliver IV drugs that may connect to smartphones via
+Bluetooth (Muoio, 2018).
+
+
+3. Improve farmer productivity by using drones and smart sensors. As the world population continues to grow and as the size of
+arable land continues to shrink, there is a need to develop ways to improve farmer productivity for growing more food in a cost-
+effective and time-efficient manner. This need has motivated some startup companies to create innovative business services in
+agriculture (also known as Agriculture 4.0) by developing drones with special sensors and cameras that can interact with
+smartphones and computers. In France, a startup company Delair-Tech is developing a drone that can enable farmers to monitor
+crops for diseases, assess yield and identity where fertilizer is needed as in “precision farming”. This service is based on a
+subscription, and the Economist reported that it plans to charge 15 Euros per hectare.
+
+
+4. Improve provenance by using blockchain. After a series of food and drug adulteration incidents (milk formula scandal in
+China, Heparin adulterated with melamine, counterfeit drugs) in recent years (Babich and Tang, 2012) many companies are under
+pressure to disclose provenance information about names of suppliers, materials used and produced by suppliers, etc. The logistics
+for identifying, monitoring and tracking the operations along a supply chain is very costly and time consuming. For this reason,
+many firms are using blockchain technology to track the provenance of products such as fish, pork, coffee, etc. Also, Walmart and
+nine other firms (Nestle, Dole, Tyson Foods, Unilever, etc.) partnered with IBM to use blockchain to track and trace provenance so
+that they can improve food safety and be more responsive to food recalls. Besides food, Luxury brand conglomerate LVMH,
+launched a blockchain platform in 2019 to track provenance so that it can authenticate certain luxury goods (Allison, 2019).
+
+
+5. Improve mobility via smart transportation. The underlying challenges for the poor, the sick, and the elderly to get around
+result in “social exclusion”. Therefore, to improve social inclusion, easy access to affordable mobility is essential. With the advent
+of Internet of Things and the massive adoption of smartphones, Mobility as a Service (MaaS) initiatives are popping up at many
+cities with Helsinki in Finland as the leading example (Goodall et al. 2017). The underlying concept of MaaS is to provide all
+mobility options, which include public (trains, busses, etc.) and private (taxi, Uber, car/bike sharing) services as an “integrated”
+
+
+5 The World Food Program is the food-assistance branch of the United Nations. It is the world's largest humanitarian organization addressing
+hunger and promoting food security by providing food assistance to over 90 million people in over 80 countries in each year.
+6 This biometric data (e.g., iris image) is based on the refugee registration data collected by the UN Refugee Agency.
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+
+
+
+service provided by a single app (e.g., Whim in Helsinki). This app offers travel suggestions to customers based on their personal
+travel preferences in terms of modes, costs and travel time. Once a customer selected a multi-modal travel plan, he can pay for this
+travel plan via mobile payment through this app. As different cities are developing different MaaS app, there is hope that these
+apps can offer accessible and affordable mobility options to city dwellers7.
+
+
+6. Currently, many firms are developing autonomous cars/taxis for transporting people; however, due to safety concerns, it will still
+take a long time before autonomous cars are able to drive everywhere under all circumstances (especially the interaction with
+bikers and pedestrians and severe weather conditions are challenging). However, autonomous buses on dedicated lanes are
+already employed and NEXT Future Transportation Inc.8 is even testing autonomous vehicles in Dubai where people can transfer
+inside from one vehicle to another vehicle. It has the potential to make the cost of mobility even lower to improve affordable and
+accessible. There is an on-going research stream that examines the impact of the implementation of autonomous vehicles on the
+movement of people (e.g., Gkartzonikas and Gkritza, 2019; Olsen and Parker, 2019).
+
+
+7. Finally, in the Industry 4.0 era, traditional public transportation systems such as railways are going through different transfor-
+mations. For example, in the Netherlands, Netherlands Railways is using smart sensors to monitor the weights of different railcars
+and to predict the future capacity (sitting and standing) of each railcar before the train arrives at the next station. Then
+Netherlands Railways can use its mobile app to notify passengers waiting on the platform at the next station about available space
+on different railcars. This real time information can lead to faster dwell times, fewer delays, and better customer service quality.
+To shorten dwell times and reduce unnecessary delays even further, Netherlands Railways has equipped all conductors with smart
+watches informing them the exact second at which the train should depart.
+
+
+8. In the grand scheme of things, Industry 4.0 technologies enable a smart city to create new social values derived from the in-
+terconnectivity of smart buildings, smart grid, smart mobility and smart retail. Qi and Shen (2019) discuss several research
+opportunities arising from the increasing integration of smart systems and business models at the urban scale.
+
+
+The above examples illustrate how Industry 4.0 technologies can create social value. At the same time, it raises several research
+questions.
+
+
+1. By leveraging the data collected by different wearable medical devices, how should the government (or an insurance company)
+develop incentive mechanisms to encourage users to improve their health conditions?
+
+
+2. Precision farming based on drones can certainly provide value to farmers. However, to monetize this type of service when farmers
+are unsure about its value, how should a service provider determine its pricing strategies? Should it be subscription based? Should
+the firm consider a risk-sharing pricing strategy?
+
+
+3. As different firms form partnership using blockchain technology to track and trace the operations along the supply chain, there is a
+concern about privacy. How can this issue be dealt with? To ensure that the virtual copy corresponds to the physical copy of the
+supply chain operations, who should audit the records and how often should the record be audited?
+
+
+4. Mobility as a Service requires synchronization between many stakeholders (municipalities, transportation operators, data pro-
+viders etc.) and the passengers. Which pricing mechanism should one use to coordinate supply and demand? How to organize
+monthly mobility subscriptions with a fixed/unlimited amount of miles per month? How to share the profit amongst different
+transportation operators?
+
+
+4. Logistics as a sustainability enabler
+
+
+Besides economic and social values, there is a rising concern about “sustainability” and a clarion call for renewable energy, carbon
+footprint reduction, endanger species protection, and ecosystem sustainability. This concern is legitimate because the growing de-
+mand generated from the world’s growing and ageing population (from 7 billion in 2017 to over 9 billion by 2050) far exceeds the
+shrinking supply of natural resources (arable land, natural water sources, oil and gas, etc.)9. This concern has caused the public to
+become more aware about environmental issues (e.g., climate change, deforestation, and water and air pollution) and social issues
+(e.g., poverty, hunger, income inequality, gender equity, population growth) over the last two decades, and this public concern is also
+reflected in the Millennium Development Goals (United Nation 2000)10. For example, by analyzing global data on fisheries and ocean
+temperature maps between 1930 and 2010, scientists from Rutgers University in New Jersey discover that global warming has
+significantly affected fish stocks worldwide by 4% (Gerretsen, 2019). To make things worse, the ecosystem is damaged even further
+as fishing trawlers are catching all sea foods by pulling huge fishing nets along the bottom of the sea or in midwater at a specified
+
+
+7 In many cities buses are still operated with fixed timetables and routes. With GPS in each bus and widespread adaptation of smart phones, this
+can be organized (especially outside peak hours) in a more flexible way, similar as the ride sharing systems (e.g. Quadrifoglio et al., 2006, 2008 and
+Qui et al., 2015), resulting in more people taking the bus and less empty mileage outside rush-hours.
+8 https://www.next-future-mobility.com/.
+9 In 2012, WWF reported that human “used the equivalence of 1.5 planets to support their activities.” http://wwf.panda.org/about_our_earth/all_
+
+
+publications/living_planet_report_timeline/lpr_2012/demands_on_our_planet/.
+10 In 2000, all United Nations members declared their commitments to help achieve the following eight Millennium Development Goals by 2015:
+
+
+(1) Eradicate extreme poverty and hunger; (2) Achieve universal primary education; (3) Promote gender equality and empower women; (4) Reduce
+child mortality; (5) Improve maternal health; (6) Combat HIV/AIDS and other diseases; (7) Ensure environmental sustainability; and (8) Develop a
+global partnership for development.
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+
+
+
+
+https://www.next-future-mobility.com/
+
+http://wwf.panda.org/about_our_earth/all_publications/living_planet_report_timeline/lpr_2012/demands_on_our_planet/
+
+http://wwf.panda.org/about_our_earth/all_publications/living_planet_report_timeline/lpr_2012/demands_on_our_planet/
+
+
+
+
+depth in West Africa (Adams, 2019). Without immediate interventions and strict law enforcements around the world, the planet’s
+ecosystem is collapsing at an alarming rate. As the supply of natural resource is shrinking quickly, many firms are concerned about
+sustainable supply of raw materials in developing countries (e.g., coffee beans, cocoa beans, etc.) for their production. Currently,
+firms and governments are exploring ways to apply different emerging technologies to address some of the sustainability issues.
+
+
+1. Protect endangered species from extinction by using drones and AI. Across Africa and Asia, illegal trades of endangered
+species that worth $7 to $10 billion annually are threatening the survivals of elephants, rhinoceros, tigers, etc. Just between 2007 and
+2017, over 7245 African Rhinos have been lost to poaching and they will be extinct without immediate human interventions. Over
+the last decade, many organizations such as World Wildlife Fund (WWF) and Save the Rhino collected donations and contributed
+funds to recruit more rangers to safe guard these Rhinos. However, this approach is very costly and inefficient. Currently, scientists
+are developing innovative methods to save these animals. First, through direct observations obtained from various recording from
+drones, scientists from IBM learned that Zebras normally move along-side Rhinos. When facing a predator (e.g., a lion), a herd of
+zebra will scatter. However, when encountering a poacher with a gun, these animals will move in opposite direction. Anticipating this
+behavior, these scientists put radio collars on zebras so that they can monitor the location and movement of these zebras. This way,
+they can alert the rangers when the zebras move in opposite direction to reduce poaching. Second, by using machine learning and
+deep learning to analyze historical data on poaching incidents, computer scientists can predict when and where Rhinos were likely to
+be poached so that rangers and drones can patrol these target areas to prevent poaching. In 2012, Google offered $5 million to
+support WWF to expand its conservation-drone program in Africa and Asia to protect these animals from harm’s way (Tang, 2018).
+
+
+2. Reduce water waste in farming by using drones and data analytics. In Chile, researchers are developing drones with
+spectral sensors and cameras that can allow farmers to monitor the condition of their crops from their smartphones. By analyzing the
+data captured by camera using spectral analysis, farmers can monitor moisture content, ground water, plant health, and pest in-
+festation as well as growth rate of the plant. This way, farmers can “localize” water and pest control, saving water and improving
+yield (Scandella, 2015). Finally, a Spanish startup BrioAgro installs underground sensors to collect data on the moisture and light
+levels and the soil nutrients. By analyzing the data transmitted from these sensors to BrioAgro, the startup company prescribes
+“localized” water and fertilizer solutions via farmers’ mobile phone. In doing so, farmers can reduce water waste via precision
+farming.
+
+
+3. Reduce emission via smart transportation. By leveraging the ridesharing information technology that enables a platform
+(e.g., Uber, Didi) to track and trace all vehicles and all customers in the system in real time, pooling services such as Uber (Pool), VIA
+and BlaBlaCar are becoming more popular. Also, autonomous vehicles can increase the number of shared rides even more in the
+future: a study in Switzerland indicates that 61% of the respondents prefer a pooled shared autonomous vehicle over a private
+autonomous vehicle (Stoiber et al., 2019). In addition to pooling rides among passengers, pooling between parcels and drivers (so
+called “crowd shipping”) is gaining traction. A crowd shipping platform assigns drivers (ordinary persons who registered with the
+platform) to parcels for them to deliver to their neighbors on their way back home from the office or from a shop. Therefore, by
+piggybacking the rides that the drivers would have taken anyway, this crowd shipping platform reduces the number of deliveries via
+traditional delivery vans and thereby reduces emissions. To push this crowd shipping idea further, it is possible for the platform to
+facilitate transfers of goods between crowd shippers reduces the system wide required travel distances even further (Sampaio et al.
+2018). For a more detailed overview of crowd sourced logistics systems, the reader is referred to Sampaio et al. (2019b) for details.
+
+
+Crowd shipping is one of the initiatives to better utilize the space in individual’s cars. Another initiative is “trunk delivery service”
+under which a Logistics Service Provider (LSP) such as DHL can gain temporary access to the trunk of the customer’s car (Volvo, GM,
+Ford, or Lincoln) so that the LSP can deliver the goods even when the customer is not home. Doing so can reduce emissions because it
+reduces the need for the LSP to visiting the customer again or for the customer to pick up the goods at a designated collection point (Liu
+et al, 2019). However, the potential is even higher if customers can share their full itinerary with the LSP so that the LSP can choose the
+most convenient time slot and location for their deliveries (Reyes et al. 2017, Ozbaygin et al. 2017, and Sampaio et al. 2019a).
+
+
+4. Sustain supply of high quality agricultural products by using blockchain. Many well sought after agricultural products
+(e.g., coffee beans, cocoa beans, shea nuts) are produced by smallholder farmers in developing countries. Because the supply chain
+operations is complex and often opaque and the market price of these products tend to fluctuate significantly, farmers get low and
+unstable wages (or prices) for their efforts. In many cases, they may abandon one crop and switch to a different crop, making the
+supply even more unstable. To sustain the supply of high quality coffee beans, Starbucks launched the C.A.F.E. program that is
+intended to help farmers to develop sustainable farming practices (e.g., organic farming, drip irrigation, etc.) and donated millions of
+disease-resistant trees (100 millions by 2025) to help farmers fight different threats such as coffee leaf rust. At the same time,
+Starbucks worked with various NGOs (e.g., Rainforest Alliance) to ensure farmers are compensated fairly for their sustainable
+farming practices. However, such effort is labor intensive and often inaccurate. To overcome this challenge, Denver’s Coda Coffee
+partnered with a startup bext360 to develop the world’s first blockchain-traced coffee that integrates machine vision, blockchain,
+cloud computing, and AI to trace every step: coffee bean collection, washing, drying, milling, export, roasting and retail operations
+(Philips, 2018). For instance, smallholder farmers in Uganda can deposit their collected beans into a “bextmachine” that uses 3D
+scanners, machine vision, and AI (machine learning) to determine the quantity and quality of the coffee beans. Then the bextmachine
+will issue a receipt to farmers so that they can collect fair payments.
+
+
+The above examples illustrate how these emerging technologies can be used to improve sustainability. As firms and government
+are applying these emerging technologies to improve sustainability, there are some research questions that deserve our attention:
+
+
+1. Various technologies can be applied to reduce poaching of endangered species. However, as supply decreases, some ethical buyers
+may be willing to offer an even higher price. As such, more poachers will enter the market and create a potentially bigger problem.
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If one examines the supply and demand dynamics, how should the government develop programs to curb the demand instead of
+the supply of endangered species?
+
+
+2. It is well known that approximately 80% of the fresh water withdrawn from rivers and groundwater is used to produce food and
+other agricultural products, what kind of incentive programs that the government should use to provide economic incentive for
+farmers to adopt water conservation solutions willingly?
+
+
+3. Trunk deliveries and crowd shipping appear to be promising; however, the issues of trust and safety are two obstacles for these
+innovative ideas to take hold. What are the mechanisms that crowd shipping and truck deliveries should develop to ensure trust
+and safety for all involved parties?
+
+
+4. While blockchain technology appears to be promising, there are potential weaknesses that can undermine the good intentions of
+different entities (Babich and Hilary, 2019). Also, because the adoption of blockchain technology requires participation and
+commitment of different entities, conflicts ensue. Saberi et al. (2019) propose four blockchain technology adoption barriers and
+future research directions. Therefore, a natural question is: what are the mechanisms that can facilitate commitments and self-
+enforcements for different entities to adopt blockchain technology?
+
+
+5. Conclusion
+
+
+We have discussed the potential use of emerging technologies (drones, smart sensors, robotics, blockchain, artificial intelligence,
+etc.,) for transforming the logistics function from being mundane to exciting, and for enabling the logistics function as a competitive
+lever, a social value creator, and a sustainability enabler. Table 1 characterizes some of the research questions raised in this paper.
+
+
+We have also raised some concerns about the applications of these technologies. Besides many technologies are not proven, they
+may create other problems including: social unrests due to job losses to automation (e.g., autonomous vehicles, robots, drones, etc.),
+social inequality due to the fact that these technologies often involve smart phones and smart devices that are still inaccessible by the
+poor, and even more severe income inequality especially when the technologies often create more benefits for the educated class.
+Given all these challenges, researchers should also examine the impact of these emerging technologies on the welfare of different
+socio-economic classes of citizens (Sodhi and Tang, 2014).
+
+
+Also, despite recent advances of different technologies that support the Industry 4.0 movement, companies must take measures to
+mitigate several underlying risks:
+
+
+• Cyberattacks. As supply chains are becoming more digitalized and rely on real time communication and coordination of many
+different devices (sensors, robots, drones, etc.), there is a heightened concern about cybersecurity. For instance, because industry
+4.0 involves many devices communicating via different operating systems and different information systems, digitalized supply
+chains can be vulnerable to cyberattacks. These attacks can include industrial espionage, IP leakage, or even production sabotage.
+In some cases, cyberattacks can bring an entire logistics/transportation system to its knees.
+• Faulty data. Smart devices are capable of sensing, collecting, sharing, analyzing data, etc. so that they can facilitate many supply
+chain operations smoothly. However, if the system is being hacked or if the system is not functioned properly, disasters ensue as
+we witnessed two crashed of Boeing’s 737 Max in 2019 due to faulty readings of a key sensor. It is simply too risky to rely on smart
+devices to manage a supply chain; hence, companies must develop a fool-proof protocol with human interventions.
+• Safety regulations. Many firms are exploring the use of advance robotics and automated guided vehicles in manufacturing,
+robotic systems in automated storage and retrieval warehouse operations, and autonomous trucks and drones in delivery op-
+erations. Some standard safety guidelines and regulations must be developed to ensure worker and public safety. For instance, the
+operations of Heathrow and Gatwick airports in London airports were disrupted after unauthorized drones were flying within the
+restricted airspace in 2018.
+
+
+Table1
+Some key research questions arising from the logistics function in the Industry 4.0 era.
+Technology\Strategic role
+of logistics
+
+
+Competitive lever Social value creator Sustainability enabler
+
+
+Internet of Things (IoTs)/
+Drones
+
+
+How would IoTs transform the way
+supply chain partners communicate,
+coordinate, and collaborate?
+
+
+How would IoTs facilitate the development of
+“Mobility as a Service”?
+
+
+How would IoTs (drones) protect
+endanger species?
+
+
+3-D printing/Advanced
+Robotics/Autonomous
+Vehicles
+
+
+How would 3D-printing transform the
+logistics industry? How would
+advanced robotics affect job design of
+human workers?
+
+
+How should a firm leverage the
+personalization capability of 3D-printing to
+create social value? How would advanced
+robotics improve mobility and social activities
+for those who are in need?
+
+
+How would ride sharing enabled by
+autonomous vehicles reduce
+emissions?
+
+
+Data Analytics/Artificial
+Intelligence
+
+
+How would data analytics and artificial
+intelligence improve logistics
+efficiency?
+
+
+How should multiple transportation service
+providers develop an integrated service that
+benefits different stakeholders?
+
+
+How would big data analytics
+improve the productivity of
+sustainable farming?
+
+
+Blockchain How would blockchain affect the
+competitiveness of a logistics service
+provider?
+
+
+How should the government regulate
+blockchain technology that can balance
+conflicting objectives associated with different
+stakeholders?
+
+
+How would supply chain
+transparency facilitated by
+blockchain technology improve
+ethical supply chain practice?
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+• Privacy issues. Many sensors record visuals and sounds of different movements of different people in many places. For example,
+many smart shelves record shopper’s demographic data and their shopping habits within a shop. As such, there is a legitimate
+concern over privacy issues about this massive data collection. The government must develop regulatory measures to ensure
+companies collect and store this data properly for public safety.
+
+
+In summary, the emerging technologies that support the Industry 4.0 movement create excitement because they are disruptive so
+that many new business models can emerge. At the same time, they create concerns over employment and safety. However, if the
+private and public sectors can collaborate with the government to establish mutually beneficial plans, these technologies can create
+value for companies and the society at large.
+
+
+Acknowledgment
+
+
+We thank Professor T.M. Choi for inviting us to prepare this article.
+
+
+Appendix A. Supplementary material
+
+
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.tre.2019.06.004.
+
+
+References
+
+
+Adams, P. 2019. Is China’s fishing fleet taking all of West Africa’s fish? BBC world news. March 25, 2019. https://www.bbc.com/news/av/world-africa-47698314/is-
+china-s-fishing-fleet-taking-all-of-west-africa-s-fish.
+
+
+Agatz, Niels, Bouman, Paul, Schmidt, Marie, 2018. Optimization approaches for the traveling salesman problem with drone. Transport. Sci. 52 (4), 965–981.
+Allison, I. 2019. Louis Vuitton owner LVMH is launching a Blockchain to track luxury goods. Coindesk. March 26, 2019.
+Ashley, S. 2017. Robotics Exoskeletons are Changing Lives in Surprising Ways. NBCnews.com. February 21, 2017.
+Babich, V., Hilary, G., 2019. Distributed ledgers and operations: what operations management researchers should know about blockchain technology. Manuf. Serv.
+
+
+Operat. Manage forthcoming.
+Babich, V., Tang, C.S., 2012. Managing opportunistic supplier product adulteration: Deferred payments, inspection, and combined mechanisms. Manuf. Serv. Operat.
+
+
+Manage. 14 (2), 301–314.
+Baur, C., Wee, D., 2015. Manufacturing’s Next. Act. McKinsey Report.
+Berman, B., 2012. 3-D printing: the new industrial revolution. Business Horizon. 55, 155–162.
+Buchman, E., 2018. The Rise of Amazon Logistics. Transport. Top. August 20, 2018.
+Carlsson, J.G., Song, S., 2018. Coordinated logistics with a truck and a drone. Manage. Sci. 64 (9), 4052–4069.
+Choi, T.M., Wen, X., Sun, X., Chung, S.H., 2019. The mean-variance approach for global supply chain risk analysis with air logistics in the blockchain technology era.
+
+
+Transport. Res. Part E: Logist. Transport. Rev. 127, 178–191.
+Columbus, L. (2018) 10 Charts that will challenge your perspective of IoT’s growth. Forbes. June 6, 2018.
+DeHoratius, N., Mersereau, A.J., Schrage, L., 2008. Retail inventory management when records are inaccurate. Manuf. Serv. Operat. Manage. 10 (2), 257–277.
+Deloitte Insights, 2018. The fourth industrial revolution is here: are you ready? Deloitte Insights Rep. https://www2.deloitte.com/content/dam/Deloitte/tr/
+
+
+Documents/manufacturing/Industry4-0_Are-you-ready_Report.pdf.
+Djankov, S., Freund, C., Pham, C.S., 2010. Trading on time. Rev. Econ. Stat. 92 (1), 166–173.
+Dong, L., Shi, D., Zhang, F. 2018. 3D printing vs. traditional Flexible technology: Implications for manufacturing strategy. Working Paper. Washington University in St.
+
+
+Louis.
+Frank, A.G., Dalenogare, L., Ayala, N.F., 2019. Industry 4.0 technologies: Implementation patterns in manufacturing companies. Int. J. Prod. Econom. https://doi.org/
+
+
+10.1016/j.ijpe.2019.01.004.
+Lei, Y., Jasin, S., Sinha, A., 2018. Joint dynamic pricing and order fulfillment for E-commerce retailers. Manuf. Serv. Operat. Manage. 20 (2), 285–301.
+Gerretsen, I., Earth’s fish are disappearing because of climate change, study says. CNN world news. February 28, 2019.
+Gkartzonikas, C., Gkritza, K., 2019. What have we learned? A review of stated preference and choice studies on autonomous vehicles. Transport. Res. Part C: Emerg.
+
+
+Technol. 98, 323–337.
+Goodall, W., Dovey Fishman, T., Bornstein, J., Bonthron, B., 2017. The rise of mobility as a service. Deloitte Rev. 20, 111–129.
+Groenfeldt, T. 2017. IBM and Maersk Apply Blockchain to Container Shipping. Forbes. March 5, 2017.
+Hedenstierna, C.P., Disney, S.M., Eyers, D., Holmstrom, J., 2019. Economies of collaboration in build-to-model operations. J. Oper. Manage. https://doi.org/10.1002/
+
+
+joom.1014.
+Hornyak, T. 2019. The world’s first humanless warehouse is run only by robots and is a model for the future. CNBC. Feb 17, 2019. https://www.cnbc.com/2018/10/
+
+
+30/the-worlds-first-humanless-warehouse-is-run-only-by-robots.html.
+Horowitz, B. 2019. 8 Ways Artificial Intelligence is Revolutionizing Retail. PC Magazine. February 7, 2019. https://www.pcmag.com/feature/366279/8-ways-
+
+
+artificial-intelligence-is-revolutionizing-retail.
+Hu, B., Sun, Z., 2019. Managing Self-Replicating Innovative Goods. Working Paper. University of Texas at Dallas.
+Judkslian, R. 2018. Inside the Jordan refugee camp that runs on blockchain. MIT Technology Review, April 12, 2018.
+Kopalle, P. 2014. Why Amazon’s Anticipatory Shipping is Pure Genius. Forbes. January 218, 2014.
+Liu, C. 2018. China embraces telemedicine. HSBC Insights. July 26, 2018.
+Liu, C., Wang, Q., Susilo, Y.O., 2019. Assessing the impacts of collection-delivery points to individual’s activity-travel patterns: a greener last mile alternative?
+
+
+Transport. Res. Part E: Logist. Transport. Rev. 121, 84–99.
+Manyika, J., Chui, M., Bisson, P., Woetzel, J., Dobbs, R. Bughin, J., Aharaon, D. 2015. Unlocking the Potential of Internet of Things. McKinsey Global Institute Report.
+
+
+June 2015.
+Marr, J., 2018. How Chinese Retailer JD.com Uses AI, Big Data & Robotics To Take On Amazon. Forbes, Aug 3, 2018.
+Marshall, A. 2017. Above devastated Houston, armies of drones prove their worth. Wired. September 4, 2017.
+Muoio, D. 2018. Enable Injections brings in $50 M for wearable subcutaneous therapeutic delivery devices. Mobihealth News. October 25, 2018.
+Olsen, T.L., Tomlin, B., 2019. Industry 4.0: opportunities and challenges for operations management. Manuf. Serv. Operat. Manage forthcoming.
+Olsen, T.L., Parker, R. 2019. Autonomous Vehicles: A research agenda for operations management. Working paper. University of Auckland.
+Ozbaygin, G., Karasan, O.E., Savelsbergh, M., Yaman, H., 2017. A branch-and-price algorithm for the vehicle routing problem with roaming delivery locations.
+
+
+Transport. Res. Part B: Methodol. 100, 115–137.
+Philips, E. 2018. Bringing Blockchain to the Coffee Cup. Wall Street Journal. April 15, 2018.
+Pieters, J. 2019. Albert Heijn to combat food waste with “Dynamic Discounts”. NL Times. May 21, 2019 https://nltimes.nl/2019/05/21/albert-heijn-combat-food-
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+https://doi.org/10.1016/j.tre.2019.06.004
+
+https://www.bbc.com/news/av/world-africa-47698314/is-china-s-fishing-fleet-taking-all-of-west-africa-s-fish
+
+https://www.bbc.com/news/av/world-africa-47698314/is-china-s-fishing-fleet-taking-all-of-west-africa-s-fish
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0010
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0025
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0025
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0030
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0030
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0035
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0040
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0050
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0055
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0055
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0065
+
+https://www2.deloitte.com/content/dam/Deloitte/tr/Documents/manufacturing/Industry4-0_Are-you-ready_Report.pdf
+
+https://www2.deloitte.com/content/dam/Deloitte/tr/Documents/manufacturing/Industry4-0_Are-you-ready_Report.pdf
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0075
+
+https://doi.org/10.1016/j.ijpe.2019.01.004
+
+https://doi.org/10.1016/j.ijpe.2019.01.004
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0090
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0100
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0100
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0105
+
+https://doi.org/10.1002/joom.1014
+
+https://doi.org/10.1002/joom.1014
+
+https://www.cnbc.com/2018/10/30/the-worlds-first-humanless-warehouse-is-run-only-by-robots.html
+
+https://www.cnbc.com/2018/10/30/the-worlds-first-humanless-warehouse-is-run-only-by-robots.html
+
+https://www.pcmag.com/feature/366279/8-ways-artificial-intelligence-is-revolutionizing-retail
+
+https://www.pcmag.com/feature/366279/8-ways-artificial-intelligence-is-revolutionizing-retail
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0130
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0150
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0150
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0175
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0185
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0185
+
+https://nltimes.nl/2019/05/21/albert-heijn-combat-food-waste-dynamic-discounts
+
+
+
+
+waste-dynamic-discounts.
+Qi, W., Shen, Z.J.M., 2019. A smart-city scope of operations management. Prod. Operat. Manage. 28 (2), 393–406.
+Quadrifoglio, L., Dessouky, M.M., Ordóñez, 2008. A simulation study of demand responsive transit system design. Transport. Res. Part A: Policy Pract. 42 (4), 718–727.
+Quadrifoglio, L., Hall, R.W., Dessouky, M.M., 2006. Performance and design of mobility allowance shuttle transit services: bounds on the maximum longitudinal
+
+
+velocity. Transport. Sci. 40 (3), 351–363.
+Qui, F., Shen, J., Zhang, X., An, C., 2015. Demi-flexible operating policies to promote the performance of public transit in low-demand areas. Transport. Res. Part A:
+
+
+Policy Pract. 80, 215–230.
+Reyes, D., Savelsbergh, M., Toriello, A., 2017. Vehicle routing with roaming delivery locations. Transport. Res. Part C: Emerg. Technol. 80, 71–91.
+Richter, F. 2019. The Growing Weight of Amazon’s Logistics Costs. Statista. March 1, 2019.
+Rifkin, J., 2011. The Third Industrial Revolution. Palgrave MacMillan Publishers.
+Rogers, H., Baricz, N., Pawar, K., 2016. 3D printing services: classification, supply chain implications and research agenda. Int. J. Phys. Distribut. Logistics Manage. 46
+
+
+(10), 886–907.
+Roy, D., Nigam, S., de Koster, R., Adan, I., Resing, J., 2019. Robot-storage zone assignment strategies in mobile fulfillment systems. Transport. Res. Part E: Logistics
+
+
+Transport. Rev. 122, 119–142.
+Saberi, S., Kouhizadeh, M., Sarkis, J., Shen, L., 2019. Blockchain technology and its relationships to sustainable supply chain management. Int. J. Prod. Res. 47 (7),
+
+
+2117–2135.
+Sampaio, A., Savelsbergh, M., Veelenturf, L., Van Woensel, T., 2018. The Benefits of Transfers in Crowdsourced Pickup-and-Delivery Systems, working paper
+
+
+Eindhoven. University of Technology.
+Sampaio, A., Kinable, J., Veelenturf, L., Van Woensel, T., 2019a. A Scenario-Based Approach for the Vehicle Routing Problem with Roaming Delivery Locations under
+
+
+Stochastic Travel Times, working paper. Eindhoven University of Technology.
+Sampaio, A., Savelsbergh, M., Veelenturf, L., Van Woensel, T., 2019b. Crowd-based city logistics. In: Faulin, J., Grasman, S.E., Juan, A.A., Hirsch, P. (Eds.), Sustainable
+
+
+Transportation and Smart Logistics. Elsevier, pp. 381–400.
+Scandella, A. 2015. Drones in precision farming. IoT Telefonica. November 19, 2015. https://iot.telefonica.com/blog/drones-in-precision-farming.
+Schwab, K., 2016. The Fourth Industrial Revolution. World Economic Forum.
+Sodhi, M., Tang, C.S., 2014. Supply chain research opportunities with the poor as suppliers of distributors in developing countries. Prod. Operat. Manage. 23 (9),
+
+
+1483–1494.
+Sodhi, M., Tang, C.S. 2017. Supply Chains Built for Speed and Customization. Sloan Management Review, Summer Issue.
+Song, J., Zhang, Y. 2018. Stock or Print? Impact of 3D Printing on Spare Parts Logistics. Working Paper, Duke University.
+Stoiber, T., Schubert, I., Hoerler, R., Burger, P., 2019. Will consumers prefer shared and pooled-use autonomous vehicles? A stated choice experiment with Swiss
+
+
+households. Transport. Res. Part D: Transport Environ. 71, 265–282.
+Tang, C.S. 2018. Saving Rhinos from Extinction in an Intelligent Way. UCLA Anderson Supply Chain Blog. June 11, 2018. https://blogs.anderson.ucla.edu/global-
+
+
+supply-chain/2018/06/saving-rhinos-from-extinction-in-an-intelligent-way.html.
+Tao, L., Yang, Y. 2018. Your Chinese takeaway is ready to be delivered by drone. South China Morning Post. May 30, 2018.
+Wang, Y., Singghih, M., Wang, J., Mihaela, Rit, 2019. Making sense of blockchain technology: how will it transform supply chains? Int. J. Prod. Econ. https://doi.org/
+
+
+10.1016/j.ijpe.2019.02.002.
+Westerweel, B., Basten, R.J.I., van Houtum, G.-J., 2018. Traditional or additive manufacturing? : assessing component design options through lifecycle cost analysis.
+
+
+Eur. J. Oper. Res. 270 (2), 570–585.
+Zhang, J. 2017. Cognitive Manufacturing and Industry 4.0. IBM Blog. March 17, 2017.
+
+
+C.S. Tang and L.P. Veelenturf
+
+
+
+https://nltimes.nl/2019/05/21/albert-heijn-combat-food-waste-dynamic-discounts
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0200
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0205
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0210
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0210
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0215
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0215
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0220
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0230
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0235
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0235
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0240
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0240
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0245
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0245
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0250
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0250
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0255
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0255
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0260
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0260
+
+https://iot.telefonica.com/blog/drones-in-precision-farming
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0270
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0275
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0275
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0290
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0290
+
+https://blogs.anderson.ucla.edu/global-supply-chain/2018/06/saving-rhinos-from-extinction-in-an-intelligent-way.html
+
+https://blogs.anderson.ucla.edu/global-supply-chain/2018/06/saving-rhinos-from-extinction-in-an-intelligent-way.html
+
+https://doi.org/10.1016/j.ijpe.2019.02.002
+
+https://doi.org/10.1016/j.ijpe.2019.02.002
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0310
+
+http://refhub.elsevier.com/S1366-5545(19)30634-9/h0310
+
+

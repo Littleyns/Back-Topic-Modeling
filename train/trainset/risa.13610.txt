@@ -1,0 +1,2450 @@
+
+
+
+
+
+
+
+
+
+
+Risk Analysis, Vol. 00, No. 0, 2020 DOI: 10.1111/risa.13610
+
+
+Adoption of a Data-Driven Bayesian Belief Network
+Investigating Organizational Factors that Influence
+Patient Safety
+
+
+Mecit Can Emre Simsekler 1,2,∗ and Abroon Qazi 3
+
+
+Medical errors pose high risks to patients. Several organizational factors may impact the high
+rate of medical errors in complex and dynamic healthcare systems. However, limited research
+is available regarding probabilistic interdependencies between the organizational factors and
+patient safety errors. To explore this, we adopt a data-driven Bayesian Belief Network (BBN)
+model to represent a class of probabilistic models, using the hospital-level aggregate survey
+data from U.K. hospitals. Leveraging the use of probabilistic dependence models and visual
+features in the BBN model, the results shed new light on relationships existing among eight
+organizational factors and patient safety errors. With the high prediction capability, the data-
+driven approach results suggest that “health and well-being” and “bullying and harassment in
+the work environment” are the two leading factors influencing the number of reported errors
+and near misses affecting patient safety. This study provides significant insights to understand
+organizational factors’ role and their relative importance in supporting decision-making and
+safety improvements.
+
+
+KEY WORDS: Bayesian Network; healthcare operations; medical errors; patient safety; risk
+
+
+1. INTRODUCTION
+
+
+Medical errors pose significant risks to patients
+in healthcare. Since the U.S. Institute of Medicine
+(IoM) published their pioneer safety report, which
+shows up to 98,000 people dying as a consequence of
+preventable medical errors (Kohn, Corrigan, & Don-
+aldson, 2000), substantial efforts have been made to
+improve the situation (Gandhi et al., 2018; Jones,
+
+
+1Department of Industrial and Systems Engineering, Khalifa Uni-
+versity of Science and Technology, Abu Dhabi, UAE.
+
+
+2School of Management, University College London, London,
+E14 5AA, UK.
+
+
+3School of Business Administration, American University of Shar-
+jah, Sharjah, UAE.
+
+
+∗Address correspondence to Mecit Can Emre Simsekler, Khal-
+ifa University of Science and Technology, Department of Indus-
+trial and Systems Engineering, P.O. Box 127788, Abu Dhabi,
+UAE; tel: +971 (0)2 501 8410; fax: +971 (0)2 447 2442;
+emre.simsekler@ku.ac.ae
+
+
+Vaux, & Olsson-Brown, 2019). However, recent stud-
+ies still show that medical errors are among the lead-
+ing causes of deaths, which only in the U.S. estimated
+over 250,000 deaths in a year (Makary & Daniel,
+2016).
+
+
+Such medical errors occur within the dynamic
+and complex healthcare delivery systems due to sev-
+eral organizational factors (Simsekler, Gurses, Smith,
+& Ozonoff, 2019). To identify such factors, earlier
+studies evaluated the working conditions as well
+as staff experiences and observations concerning
+teamwork (Wooldridge et al., 2020), communication
+(Peadon, Hurley, & Hutchinson, 2020; Wooldridge,
+Carayon, Shaffer, & Eagan, 2018), safety climate
+(Aljabri et al., 2020; Simsekler, 2019), risk practice
+(Kaya, Ward, Pearman, & Clarkson, 2019a, 2020),
+and near miss event reporting (Patterson & Pace,
+2016), among others. While these studies focused
+solely on individual factors, they also highlighted
+
+
+1 0272-4332/20/0100-0001$22.00/1 © 2020 The Authors. Risk Analysis pub-
+lished by Wiley Periodicals LLC on behalf of Society for Risk Analysis
+
+
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium,
+provided the original work is properly cited.
+
+
+
+https://orcid.org/0000-0002-1555-5012
+
+https://orcid.org/0000-0001-6648-3306
+
+http://creativecommons.org/licenses/by/4.0/
+
+http://crossmark.crossref.org/dialog/?doi=10.1111%2Frisa.13610&domain=pdf&date_stamp=2020-10-18
+
+
+
+
+2 Simsekler and Qazi
+
+
+possible dependencies among the factors within the
+complex systems. Earlier studies also noted that var-
+ious measurement instruments are available (Kris-
+tensen, 2016) to explore the organizational factors,
+mainly in the form of cross-sectional surveys (The
+Health Foundation, 2011). However, it is impor-
+tant to note that each tool has unique cultural do-
+mains, and they experience certain limitations when
+it comes to data validity and reliability (Campione,
+Yount, & Sorra, 2018; Meddings et al., 2017). Fur-
+ther, earlier studies revealed that the limited use of
+statistical approaches might have failed to identify
+complex relationships between multidimensional or-
+ganizational factors and patient safety (Reis, Paiva,
+& Sousa, 2018).
+
+
+These concerns have led us to adopt a data-
+driven Bayesian Belief Network (BBN) model to
+help explore organizational factors that may influ-
+ence patient safety. Being at the intersection between
+statistics and machine learning, a BBN model rep-
+resents either causal probabilistic relationships or
+statistical dependencies among interconnected vari-
+ables. Further, when BBN features are exploited, the
+analysis goes beyond basic data analysis and poten-
+tially reveals deeper insights, probabilistic outcomes,
+and valuable findings.
+
+
+Identifying organizational factors that contribute
+to patient safety errors is vital toward knowing how
+to provide sustainable safety improvements. The pri-
+mary purpose of this article is to evaluate the rela-
+tionship between organizational factors and reported
+error rates related to patient safety and establish the
+relative importance of the factors through the lens of
+BBNs. In this study, our intention is not to test spe-
+cific hypotheses, but rather to explore organizational
+factors and their probabilistic dependencies on the
+safety outcome.
+
+
+The outline of the paper is as follows: The lit-
+erature review on organizational factors and patient
+safety, and BBNs is presented in Section 2. The
+methodology is explained in Section 3. The results
+and interpretations are presented in Section 4. The
+implications of our study are discussed in Section 5.
+Finally, conclusions, study limitations, and future re-
+search directions are revealed in Section 6.
+
+
+2. LITERATURE REVIEW
+
+
+2.1. Organizational Factors and Medical Errors
+
+
+Various factors may play a role in the occur-
+rence of incidents in different industries and do-
+
+
+mains (Årstad & Aven, 2017; Aven & Ylönen, 2018).
+Healthcare is not exceptional where medical errors
+occur within complex healthcare delivery systems
+due to limited communication, safety culture, risk
+practice, among other factors (Ellahham, Ellahham,
+& Simsekler, 2019; Kaya, Ward, & Clarkson, 2019b;
+Meddings et al., 2017; Simsekler, Qazi, Alalami, El-
+lahham, & Ozonoff, 2020). Further, it should be
+noted that such factors may affect patients as well
+as healthcare providers. In fact, healthcare providers
+are at a higher risk of experiencing injuries than
+in many other industries (Aljabri et al., 2020). The
+providers are threatened by burnout, pain, and even
+the risk of disease or injury—factors that inhibit
+their ability to maintain consistent, high-quality care
+(Dressner, 2017). While providers’ well-being may
+trigger undesired safety-related events, the fragile na-
+ture of safety culture may also be among the key fac-
+tors that can influence safety errors (Flin, 2007).
+
+
+Using surveys and questionnaires, valuable in-
+sights have been captured between the organiza-
+tional factors and patient safety-related measures
+(Patterson & Pace, 2016). For instance, Kristensen
+(2016) evaluated 33 questionnaires used for the
+safety culture measurement, including a range of
+organizational factors. Hospital Survey on Patient
+Safety Culture (HSOPSC) (Jones, Skinner, Xu, Sun,
+& Mueller, 2008), Patient Safety Culture in Health-
+care Organizations (PSCHO) (Singer et al., 2007),
+Safety Attitudes Questionnaire (SAQ) (Sexton et al.,
+2006), Manchester Patient Safety Assessment Frame-
+work (MAPSAF) (Parker, Kirk, Claridge, Lawrie, &
+Ashcroft, 2007), Safety Organizing Scale (SOS) (Vo-
+gus & Sutcliffe, 2007), and British National Health
+Service (NHS) Staff Surveys (NHS SCC, 2019) are
+among the most common tools capturing the expe-
+rience of healthcare providers to reveal insights on
+organizational factors in this particular healthcare
+safety context.
+
+
+Among the most common approaches discussed
+above is HSOPSC used in over 60 countries (Ble-
+gen, Gearhart, O’Brien, Sehgal, & Alldredge, 2009)
+to measure teamwork, communication, manager sup-
+port, and others (Waterson, Carman, Manser, &
+Hammer, 2019) as possible organizational factors
+affecting patient safety. A recent comprehensive
+review brought together various healthcare stud-
+ies from 21 countries from 2007 to 2016, utilizing
+HSOPSC (Reis et al., 2018). The study showed sig-
+nificant variations in the results. While some studies
+concluded that “teamwork within hospital units” was
+the most important dimension (Blegen et al., 2009;
+
+
+
+
+
+
+Adoption of a Data-Driven Bayesian Belief Network Investigating Organizational Factors 3
+
+
+Bodur & Filiz, 2010; Hellings, Schrooten, Klazinga,
+& Vleugels, 2007), others found “organizational
+learning and continuous improvement” to be more
+strongly correlated with safety errors (Al-Ahmadi,
+2009; Bagnasco et al., 2011; Nie et al., 2013). In con-
+trast, according to the study by Abdelhai, Abdelaziz,
+and Ghanem (2012), “overall perceptions of patient
+safety” was the most prominent dimension.
+
+
+The studies discussed above reveal that various
+organizational factors play a role in the patient safety
+context underlying medical errors. Therefore, health-
+care provider experience as a component can com-
+prehensively capture such factors within the complex
+healthcare environments. Recent studies support this
+idea by suggesting that provider experience needs
+to be addressed due to its close association with the
+quality of care and safety (Lee, Seo, Hladkyj, Lovell,
+& Schwartzmann, 2013). It is also worth noting that
+given the complex and dynamic nature of health-
+care systems, the use of experience can allow for the
+identification of safety beliefs, attitudes, and work-
+force behaviors thoroughly (Kouabenan, Ngueutsa,
+& Mbaye, 2015; Liu et al., 2015). Moreover, staff ex-
+perience may also identify the root causes that trig-
+ger safety outcomes, such as incidents and injuries
+(Fernández-Muñiz, Montes-Peón, & Vázquez-Ordás,
+2007).
+
+
+The systematic review by Reis et al. (2018) also
+reveals the limited nature of the statistical analyses
+of healthcare safety data. For instance, only two of
+the 33 surveys (6%) investigated the effect of mul-
+tiple survey dimensions on the patient safety using
+regression models (Al-Ahmadi, 2009; Smits et al.,
+2012). While Al-Ahmadi (2009) used a linear regres-
+sion analysis to investigate the association between
+the event reporting and safety culture components,
+Smits et al. (2012) analyzed the data using a multi-
+level logistic regression analysis. It must be stressed
+that most studies focused solely on a single organi-
+zational factor or some without simultaneously con-
+sidering all factors in a probabilistic setting. There-
+fore, their potential interdependencies have not been
+discussed with the use of probabilistic and graphical
+models. In order to explore this, the use of power-
+ful tools, such as BBN models, may significantly help
+with predicting the relationships as well as identify-
+ing the relative importance of organizational factors
+to the patient safety outcomes.
+
+
+2.2. Bayesian Belief Networks
+
+
+BBNs are probabilistic graphical models that can
+quantify and display complex relationships among
+
+
+variables (Salini & Kenett, 2009; Sener, Barut, Dag,
+& Yildirim, 2019a). A BBN model comprises a set of
+nodes representing variables and arcs that either rep-
+resent causal relationships or statistical dependencies
+among interconnected variables (Hanea, McBride,
+Burgman, & Wintle, 2018). The strength of depen-
+denices among interconnected variables is captured
+in the form of probability distributions. In earlier
+studies, BBN models have been used in a wide range
+of application areas such as project management
+(de Oliveira, Possamai, Dalla Valentina, & Flesch,
+2012), business ethics (Ekici & Önsel, 2013), sup-
+ply chain management (Sener, Barut, Oztekin, Av-
+cilar, & Yildirim, 2019b), new product development
+(Chin, Tang, Yang, Wong, & Wang, 2009), and others.
+BBNs have been extensively explored in decision-
+making under risk and uncertainty due to their abil-
+ity to generate and assess the impact of different
+what-if scenarios. Some of the risk and uncertainty-
+related application areas include eruption forecasting
+(Christophersen et al., 2018), climate change assess-
+ment (Hanea et al., 2018), coastal risk analysis (Jäger,
+Christie, Hanea, den Heijer, & Spencer, 2018), risk
+assessment in process plants (Ale et al., 2014), and
+others (Adedipe, Shafiee, & Zio, 2020; Aven, 2016).
+
+
+Earlier studies identified a range of benefits as-
+sociated with the use of BBNs (Cugnata, Kenett, &
+Salini, 2016). First, the graphical representation of
+the problem provides an opportunity for stakehold-
+ers to visualize complex interactions among different
+variables (Hanea, Kurowicka, & Cooke, 2006). Sec-
+ond, probabilistic reasoning, a key notion in risk and
+uncertainty analysis (Aven, 2017, 2018; Shortridge,
+Aven, & Guikema, 2017), is captured in a simplis-
+tic manner and distributed through the model, and
+past beliefs on uncertain variables are efficiently up-
+dated with the evidence against distinct sources in
+the network (Jäger et al., 2018). Third, uncertainty
+in reasoning is considered, and the (in)dependence
+relationships are identified (Qazi, Dikmen, & Bir-
+gonul, 2020a). All these can be achieved with even
+limited empirical data (Hanea et al., 2006). Despite
+these benefits, there are some shortcomings of the
+method to note. For instance, when data are not
+available, the development and quantification of a
+model using expert judgment is quite challenging
+(Hanea, Morales Napoles, & Ababei, 2015; Werner,
+Bedford, Cooke, Hanea, & Morales-Nápoles, 2017;
+Hanea et al., 2018). Another limitation relates to
+avoiding any feedback loops in the model, implying
+that the BBN model must be structured as an acyclic
+graph (Nielsen & Jensen, 2007). Moreover, the soft-
+ware used to develop the network may have a limited
+
+
+
+
+
+
+4 Simsekler and Qazi
+
+
+capability to work with continuous variables, which
+might then be discretized; therefore, this may capture
+limited information on the original variable distribu-
+tion (Qazi et al., 2020a).
+
+
+BBNs provide a visual ability for users and
+decision-makers to establish the propagation impact
+of variables in a network setting (Lawrence, Ibne
+Hossain, Jaradat, & Hamilton, 2020). For instance,
+BBN models can help visualize how a variable influ-
+ences other variables across a network in the event of
+its mitigation or realization (Kelangath, Das, Quigley,
+& Hirdaris, 2012). This assessment of the network-
+wide propagation impact of individual variables can
+lead to prioritizing and managing critical variables
+(Kabir & Papadopoulos, 2019). Both expert judg-
+ment and data can be utilized for developing a BBN
+model (Hanea et al., 2018). In this article, we use a
+data-driven approach for developing a BBN model.
+
+
+While BBNs have been successfully explored in
+various application areas, their potential contribution
+has not been evaluated in the patient safety context
+yet. It is, therefore, aimed to explore the application
+of BBNs in the patient safety field with a unique
+survey data-set. Using the research methodology in
+Section 3, our goal is to identify the probabilistic de-
+pendencies among organizational factors and patient
+safety errors.
+
+
+3. METHODOLOGY
+
+
+3.1. Data Sources
+
+
+Our data source is the British NHS staff survey
+data. With the availability of the data, we analyzed
+the following eight factors in the survey that could be
+related to patient safety: (X1) equality, diversity, and
+inclusion; (X2) health and well-being; (X3) immedi-
+ate managers; (X4) quality of care; (X5) safety culture;
+(X6) team working; (X7) safe environment—bullying
+and harassment (b&h); and (X8) safe environment—
+violence. Within these factors, there are 32 specific
+survey items. Table I lists all the factors, along with
+the patient safety error variable. Further informa-
+tion on the specific survey items can be found in Ap-
+pendix Table AI.
+
+
+As shown in the unit/remarks column in Table I,
+all factors (X1–X8) are scored on a scale between
+0 and 10 points, which is primarily made available
+by NHS for hospitals to benchmark their grades
+with others (NHS SCC, 2019). Responses for the
+contributing questions from each hospital were
+
+
+Table I. List of Organizational Factors Influencing Patient Safety
+Errors
+
+
+ID Organizational Factors Unit/Remarks
+
+
+X1 Equality, diversity, and
+inclusion
+
+
+0–10 pt scale
+
+
+X2 Safety culture 0–10 pt scale
+X3 Health and well-being 0–10 pt scale
+X4 Immediate managers 0–10 pt scale
+X5 Quality of care 0–10 pt scale
+X6 Team working 0–10 pt scale
+X7 Safe environment—bullying
+
+
+and harassment (b&h)
+0–10 pt scale
+
+
+X8 Safe environment—violence 0–10 pt scale
+X9 Target variable - Patient safety
+
+
+errors
+% Yes
+
+
+rescored to fit this scale by NHS. Each theme within
+the survey representing an organizational factor
+(see Table I) has a unique calculation. For instance,
+equality, diversity, and inclusion (X1) has been fed by
+four questions (see Table A.I). All participants who
+have responded to two of the questions or more get
+allocated an overall score that is the average score of
+their rescored questions. Each organizational factor’s
+score is the average score of all participants’ overall
+scores (NHS SSCC, 2019). As the outcome measure,
+we use the same survey data on the reported number
+of safety incidents that could have harmed patients
+(X9, item q16b). The calculation of this outcome
+measure is based on the percentage of staff selecting
+“yes” out of those who responded to the question
+from the respective hospital. It should be noted that
+a higher score provides a more favorable result for
+organizational factors, while it is the opposite for the
+target variable (patient safety errors).
+
+
+It should be noted that hospitals may have differ-
+ent characteristics; therefore, hospital-level compari-
+son may be limited in prediction and feature impor-
+tance analyses. However, to prevent such issues, the
+survey data have primarily been weighted by NHS
+considering the occupational group weight, trust size
+weight, and the combination of these two weights
+(NHS SCC, 2019). The weighting procedure aims to
+ensure that no organization appears worse or better
+than others due to disparities in trust sizes and occu-
+pational groups. For instance, the calculation for trust
+size weight is made for all trusts participating in the
+study. The trust size weight is calculated by dividing
+the total number of eligible staff by the number of re-
+spondents. For the calculation of occupational group
+weight, the first step is to calculate the proportion
+
+
+
+
+
+
+Adoption of a Data-Driven Bayesian Belief Network Investigating Organizational Factors 5
+
+
+Table II. Descriptive Summary for Organizational Factors and Target Variable
+
+
+ID Variable Count Mean Median SD Min Max Range
+
+
+X1 Equality, diversity, and inclusion 413 9.05 9.11 0.26 8.07 9.56 1.49
+X2 Safety culture 413 6.60 6.61 0.25 5.68 7.23 1.55
+X3 Health and well-being 413 5.95 5.95 0.29 5.19 6.78 1.59
+X4 Immediate managers 413 6.71 6.71 0.23 6.00 7.41 1.41
+X5 Quality of care 413 7.46 7.45 0.21 6.67 8.20 1.53
+X6 Team working 413 6.53 6.52 0.20 5.87 7.17 1.30
+X7 Safe environment—b&h 413 7.91 7.95 0.27 6.99 8.49 1.50
+X8 Safe environment—violence 413 9.40 9.34 0.09 9.13 9.67 0.54
+X9 Patient safety errors 413 0.29 0.29 0.03 0.19 0.39 0.20
+
+
+Table III. Intercorrelation of Organizational Factors Using Spearman’s Correlation
+
+
+ID Variable X1 X2 X3 X4 X5 X6 X7 X8
+
+
+X1 Equality, diversity, and
+inclusion
+
+
+1
+
+
+X2 Safety culture 0.14 1
+X3 Health and well-being 0.51 0.54 1
+X4 Immediate managers 0.27 0.78 0.60 1
+X5 Quality of care -0.10 0.57 0.42 0.42 1
+X6 Team working 0.25 0.73 0.61 0.82 0.52 1
+X7 Safe environment—b&h 0.67 0.47 0.70 0.53 0.17 0.47 1
+X8 Safe environment—violence 0.01 0.20 0.04 0.10 −0.01 0.10 0.11 1
+
+
+of each occupational group within each trust. The
+second step is to calculate the average proportion
+of each occupational group within each benchmark
+group. The third and last step is to divide the bench-
+mark group proportion (step 2) by the trust propor-
+tion (step 3). Finally, the combined weight is calcu-
+lated by multiplying the occupational group weight
+with the trust size weight. Further information and
+examples on the staff survey methodology and meth-
+ods used for weighting scores can be found on the
+NHS Staff Survey website (NHS SCC, 2019).
+
+
+Table II shows the descriptive statistics of the or-
+ganizational factors and target variable considered in
+this study.
+
+
+As shown in Table III, the intercorrelation anal-
+ysis of organizational factors using the Spearman’s
+coefficient was also conducted to explore the statis-
+tical properties and evaluate the strength of associa-
+tion between the factors.
+
+
+As shown in Table IV, a correlation analysis
+was carried out to examine the statistical properties
+and test each coefficient’s significance using p-values.
+Results showed that the relationships between each
+organizational factor and patient safety errors are
+statistically significant (see Table IV). Results also
+
+
+Table IV. Correlation Strengths Between Organizational Factors
+and Patient Safety Errors
+
+
+No Organizational Factors
+Spearman’s
+Coefficient
+
+
+X1 Equality, diversity, and
+inclusion
+
+
+−0.36***
+
+
+X2 Health and well-being −0.58***
+X3 Immediate managers −0.17***
+X4 Quality of care −0.35***
+X5 Safety culture −0.22***
+X6 Team working −0.21***
+X7 Safe environment—b&h −0.49***
+X8 Safe environment—violence −0.10***
+
+
+***p < 0.01, **p < 0.05, *p < 0.1.
+
+
+showed that there is a negative correlation between
+the individual factors and the target variable.
+
+
+3.2. Procedure
+
+
+As discussed earlier, we adopt a data-driven
+BBN model to investigate the probabilistic depen-
+dencies between the organizational factors and
+
+
+
+
+
+
+6 Simsekler and Qazi
+
+
+Table V. Sensitivity of the Prediction Ability of Models Relative
+to Different Discretization Schemes and Algorithms
+
+
+Discretization Scheme
+(Number of States) Algorithm
+
+
+Prediction Accuracy
+(In Percentage)
+
+
+Two states PC 74.1
+GTT 73.8
+BS 74.3
+
+
+Three states PC 78.0
+GTT 74.1
+BS 74.1
+
+
+patient safety errors. A BBN model comprises the
+following elements:
+
+
+• a set of variables along with directed edges be-
+tween variables forming a directed acyclic graph
+(Shakeri, Zarei, Azar, & Maleki Minbash Raz-
+gah, 2020). A directed graph is acyclic if no di-
+rected path is available: X1 → . . . → Xn so that
+X1 = Xn. Further, the directed edges represent
+statistical associations in a data-driven BBN as
+the primary approach in developing the model
+in this study.
+
+
+• a conditional probability table P(Xi|pa(Xi)) at-
+tached to each variable Xi with parents pa(Xi).
+For instance, if there is an arc leading from each
+of X2, X7, and X8 (organizational factors) to X9
+(target variable), X2, X7, and X8 are classified as
+the parents of X9.
+
+
+In the BBN with a specification over U =
+X1 , . . . , X9, factoring joint probabilities are obtained
+through the chain rule of probability theory resulting
+from the calculations conducted under certain prob-
+ability states. The value of a particular node is condi-
+tional solely on its parent nodes’ values in the BBN
+model. Thus, the unique joint probability distribu-
+tion, P(U ) represents the product of all conditional
+probability tables with the given Equation (1) below:
+
+
+P (U) =
+9∏
+
+
+i=1
+P (Xi|pa (Xi)) (1)
+
+
+The adoption of a discrete data-driven BBN
+model includes the discretization of the survey
+data, selection of states for each organizational fac-
+tor and patient safety errors, and establishing the
+strength of interdependency across interconnected
+variables. Many software packages, such as Hugin,
+AgenaRisk, Netica, and GeNIe, are available to
+adopt a data-driven approach (Cox, Popken, & Sun,
+
+
+2018) while using several algorithms such as Naive
+Bayes, Bayesian Search (BS), PC, and Greedy Thick
+Thinning (GTT), among others (BayesFusion, 2017;
+Kelangath et al., 2012). These algorithms can be clas-
+sified into constraint-based and score-based methods.
+The constraint-based methods, such as the PC algo-
+rithm, employ conditional independence statements
+to generate a network using data (Kelangath et al.,
+2012). On the other hand, the score-based methods,
+such as the GTT algorithm, create and score several
+network structures and finally select the structure
+with the highest score (Ekici & Önsel Ekici, 2019).
+The prediction accuracy of such data-driven models
+(Ekici & Önsel Ekici, 2019; Kelangath et al., 2012)
+can be ascertained using the Equation (2) below:
+
+
+Accuracy = number of correct predictions
+total number of records
+
+
+(2)
+
+
+We developed our model in GeNIe 2.0 while
+adopting a uniform width discretization scheme, as
+proposed by Ekici and Önsel Ekici (2019). Further,
+we tested three different algorithms utilizing a mix
+of constraint-based algorithm (PC) and score-based
+algorithms (GTT and BS), in two various discretiza-
+tion schemes, two and three states. This procedure
+was adopted to establish the sensitivity of the re-
+sults to the choice of algorithms and discretization
+states and to optimize the model for further analy-
+sis. As a result of this, the confusion matrix was con-
+structed for the model providing the best possible
+prediction capability. A confusion matrix is an output
+of a validation process that represents the relation-
+ship between actual and predicted states associated
+with a model. The BBN model was validated through
+a k-fold cross-validation scheme (Marcot & Hanea,
+2020) available in GeNIe (BayesFusion, 2017) that
+includes dividing a data-set into k parts of equal size,
+training the network developed on k-1 parts, and test-
+ing it on the last kth part. The process is repeated k
+times with a different part of the data selected for
+each testing iteration (Qazi, Dikmen, & Birgonul,
+2020b). The results were found to be insensitive to
+the increase in k beyond 6. Following this, the dis-
+crete probability distribution of factors influencing
+patient safety errors was represented in the BBN
+model.
+
+
+The results of the model and relative importance
+of factors contributing to the patient safety errors are
+presented in further detail in the next section.
+
+
+
+
+
+
+Adoption of a Data-Driven Bayesian Belief Network Investigating Organizational Factors 7
+
+
+diversity
+
+
+safety
+culture
+
+
+health and
+wellbeingmanagers
+
+
+quality of
+care
+
+
+safe
+environment
+
+
+- b&h
+
+
+safe
+environment
+- violence
+
+
+team
+working
+
+
+patient
+safety
+errors
+
+
+Fig 1. Network structure developed using the PC algorithm.
+
+
+diversity
+
+
+safety
+culture
+
+
+health and
+wellbeing
+
+
+managers
+
+
+quality of
+care
+
+
+safe
+environment
+
+
+- b&h
+
+
+safe
+environment
+
+
+- violence
+
+
+team
+working
+
+
+patient safety
+errors
+
+
+Fig 2. Network structure developed using the BS algorithm.
+
+
+diversity
+
+
+safety
+culture
+
+
+health and
+wellbeing
+
+
+managers
+
+
+quality of
+care
+
+
+safe
+environment 
+
+
+- b&h
+
+
+safe
+environment 
+
+
+- violence
+
+
+team
+working
+
+
+patient safety
+errors
+
+
+Fig 3. Network structure developed using the GTT algorithm.
+
+
+4. RESULTS
+
+
+As discussed in the procedure above, different
+network structures were developed using three algo-
+rithms. Figs. 1, 2, and 3 show the network structures
+related to the use of PC, BS, and GTT algorithms,
+respectively. As shown in each figure, the algorithms
+presented nine variables, including organizational
+factors and patient safety errors, with various arcs.
+
+
+Table VI. Confusion matrix for the PC algorithm-based network
+structure with three states for each variable
+
+
+Predicted
+
+
+s1 s2 s3
+
+
+Actual
+
+
+s1 3 48 0
+s2 2 303 2
+s3 0 39 16
+
+
+To test the effectiveness of the algorithms on the
+chosen data-set, their prediction accuracy was calcu-
+lated for the chosen two- and three-state discretiza-
+tion schemes such that each variable was discretized
+into two and three states, respectively. As shown in
+Table V, PC outperformed the other two algorithms
+with the 78% prediction accuracy, one of the earliest
+and most popular algorithms introduced by Spirtes,
+Glymour, and Scheines (1993). Therefore, the re-
+maining procedure is adopted through this specific
+algorithm in a three-state discretization scheme. Al-
+though the prediction accuracy of PC was not signifi-
+cantly greater compared to other algorithms, it was
+deemed appropriate to utilize the same algorithm-
+based model in our analysis due to its successful
+adoption in other application areas (Kelangath et al.,
+2012; Qazi & Dikmen, 2019).
+
+
+The confusion matrix in Table VI shows the as-
+sociation between the actual and predicted states for
+the PC algorithm in detail. The numbers shown in
+bold represent the correct predictions. For instance,
+out of 413 records tested in the validation stage, 322
+were correctly diagnosed with an accuracy of 78%.
+
+
+The probability distribution of organizational
+factors associated with patient safety errors is shown
+in Fig. 4b. Regarding this model, it can be said that
+13% of the cases were associated with the state 3
+(high) of patient safety errors. The underlying dis-
+tribution was highly skewed in the case of diversity
+and safe environment—b&h, while others were nor-
+mally distributed. The model (see Fig. 4b) was then
+analyzed for the low (see Fig. 4a) and high state (see
+Fig. 4c) of patient safety errors to evaluate the change
+across variables in the network.
+
+
+The impact assessment across the organiza-
+tional factors given the low and high state of patient
+safety errors is summarized in Fig. 5a and Fig. 5b,
+respectively. Overall, results showed that “health and
+well-being” and “safe environment—bullying and
+
+
+
+
+
+
+8 Simsekler and Qazi
+
+
+Fig 4. (a) Backward propagation of
+beliefs once the low state of patient
+safety errors is established. (b) Proba-
+bility distribution of factors associated
+with patent safety errors. (c) Backward
+propagation of beliefs once the high
+state of patient safety errors is estab-
+lished.
+
+
+Fig 4. Continued
+
+
+harassment” are the two leading critical factors in the
+back propagation impact assessment given the low
+and high state of patient safety errors.
+
+
+The relative importance of individual factors was
+also established by assessing the change in the proba-
+bility distribution of patient safety errors concerning
+the realization of each factor’s extreme states. Vul-
+nerability (resilience) of a factor represents its im-
+
+
+pact on a target variable associated with the realiza-
+tion of the worst (best) possible state of the factor
+(Hosseini & Ivanov, 2019). The assessment of the vul-
+nerability and resilience potential of individual fac-
+tors can help prioritize factors for developing strate-
+gies to enhance (mitigate) resilience (vulnerabil-
+ity) (Aven, 2011, 2019). “Safe environment—bullying
+and harassment” was identified as the most critical
+
+
+
+
+
+
+Adoption of a Data-Driven Bayesian Belief Network Investigating Organizational Factors 9
+
+
+Fig 4. Continued
+
+
+factor relative to its adverse impact on the target
+variable since it yielded the highest net increase in
+the probability (35%) associated with patient safety
+errors (see Fig. 6a). In contrast, “health and well-
+being” significantly reduced the probability of pa-
+tient safety errors resulting in the highest net reduc-
+tion in the probability (26%) associated with patient
+safety errors (see Fig. 6b). Other factors were found
+to be relatively noncritical. This implies that risk
+managers and policymakers may prioritize “health
+and well-being” to realize significant benefits to the
+safety program. However, they may want to de-
+velop risk mitigation strategies to reduce the nega-
+tive impact of “bullying and harassment” in the work
+environment.
+
+
+We also conducted the Spearman’s correlation
+test to establish the association between the two
+ranking schemes relative to the realization of the ex-
+treme states of individual factors (see Table VII).
+The two ranking schemes can help establish whether
+these organizational factors possess the same rela-
+tive importance in relation to their vulnerability and
+resilience potential (Qazi & Khan, 2020). The as-
+sociation is found to be statistically nonsignificant,
+which implies that the optimal choice of risk miti-
+gation strategies is contingent on individual factors’
+vulnerability and resilience potential. In other words,
+an effective strategy can only be developed after ex-
+ploring statistical dependencies among multidimen-
+
+
+Table VII. Spearman’s Correlation Analysis
+
+
+Factor
+
+
+Vulnerability-
+Based Ranking
+
+
+Scheme
+
+
+Resilience-
+Based Ranking
+
+
+Scheme
+
+
+Diversity 3 7
+Immediate Managers 4.5 3
+Quality of care 7 4.5
+Safe environment—
+
+
+violence
+8 6
+
+
+Safety culture 6 8
+Health and well-being 2 1
+Safe
+
+
+environment—b&h
+1 2
+
+
+Team working 4.5 4.5
+Spearman’s rank
+
+
+correlation
+coefficient
+
+
+0.5843
+
+
+p-value 0.1282
+
+
+sional factors and establishing the vulnerability and
+resilience potential of individual factors.
+
+
+5. DISCUSSION
+
+
+Several organizational factors may have an im-
+pact on patient safety errors. Using the survey data,
+our results revealed that the organizational factors,
+including (X1) equality, diversity, and inclusion; (X2)
+health and well-being; (X3) immediate managers;
+
+
+
+
+
+
+10 Simsekler and Qazi
+
+
+30
+
+
+35
+
+
+5
+
+
+10
+
+
+15
+
+
+20
+
+
+25
+
+
+0
+
+
+Decrease in the probability of ‘s1’ state (%)
+
+
+Increase in the probability of ‘s3’ state (%)
+
+
+Net change in the probability (%)
+
+
+50
+
+
+10
+
+
+20
+
+
+30
+
+
+40
+
+
+50
+
+
+0
+
+
+10
+
+
+Increase in the probability of ‘s1’ state (%)
+
+
+h b b l f ‘ ’ ( )Decrease in the probability of ‘s3’ state (%)
+
+
+Net change in the probability (%)
+
+
+(a)
+
+
+(b)
+
+
+Fig 5. (a) Back propagation impact assessment given the patient safety errors in “s1” state. (b) Back propagation impact assessment given
+the patient safety errors in “s3” state.
+
+
+(X4) quality of care; (X5) safety culture; (X6) team
+working, (X7) safe environment—bullying and ha-
+rassment; and (X8) safe environment—violence, have
+a statistically significant relationship with the patient
+safety errors. These factors were then fed into the
+BBN model to explore their interdependencies and
+relative importance towards patient safety errors.
+
+
+Based on the results, our model concludes that health
+and well-being (X2), and bullying and harassment in
+the work environment (X7) are the two leading fac-
+tors driving the number of reported errors and near
+misses affecting patient safety.
+
+
+In the literature, these factors have been iden-
+tified as contributing factors to the safety risks in
+
+
+
+
+
+
+Adoption of a Data-Driven Bayesian Belief Network Investigating Organizational Factors 11
+
+
+35
+
+
+10
+
+
+15
+
+
+20
+
+
+25
+
+
+30
+
+
+0
+
+
+5
+
+
+Decrease in the probability of ‘s1’ state of pa�ent safety errors (%)
+
+
+Increase in the probability of ‘s3’ state of pa�ent safety errors (%)
+
+
+Net increase in the probability of pa�ent safety errors (%)Net increase in the probability of pa�ent safety errors (%)
+
+
+30
+
+
+10
+
+
+15
+
+
+20
+
+
+25
+
+
+30
+
+
+0
+
+
+5
+
+
+Increase in the probability of ‘s1’ state of pa�ent safety errors (%)
+
+
+Decrease in the probability of ‘s3’ state of pa�ent safety errors (%)
+
+
+Net decrease in the probability of pa�ent safety errors (%)
+
+
+(a)
+
+
+(b)
+
+
+Fig 6. (a) Impact of individual factors on patient safety errors relative to their “s1” state. (b) Impact of individual factors on patient safety
+errors relative to their “s3” state.
+
+
+various industries, including healthcare. Specifically,
+work-related stress (e.g., burnout) is a trending topic
+that its role on patient and provider safety has been
+investigated widely in various healthcare settings
+(Tawfik et al., 2018; Yassi & Hancock, 2005). For
+instance, earlier studies showed that burnout con-
+tributes to emotional exhaustion and detached feel-
+ings towards patients (Koukoulaki et al., 2017; Lee
+et al., 2013). This may explain the strong relation-
+ship between health and well-being factor and patient
+safety errors that we found in this study. Therefore,
+it can be recommended that increased psychological
+and emotional support to the provider may lead to
+improved patient safety.
+
+
+Bullying and harassment in the work environ-
+ment is an interesting factor to be found as a critical
+one affecting patient safety. Although it could be
+assumed that such an inappropriate environment
+would affect the healthcare providers’ psychological
+and physical health (Vessey, Demarco, & DiFazio,
+2010) as well as financial costs (Kline & Lewis, 2019),
+it seems this also impacts patient safety outcomes
+(Chipps, Stelmaschuk, Albert, Bernhard, & Hollo-
+man, 2013; Felblinger, 2008; Johnson et al., 2019).
+For instance, a study identified bullying as an impor-
+tant factor and a “hidden threat” to patient safety
+and suggested strategies and initiatives to prevent
+such inappropriate behaviors (Longo & Hain, 2014).
+
+
+
+
+
+
+12 Simsekler and Qazi
+
+
+Further, recent empirical studies in Korean and
+Saudi hospitals also showed the relationship be-
+tween bullying and nurse-assessed patient safety
+outcomes (Al Omar, Salam, & Al-Surimi, 2019; Oh,
+Uhm, & Yoon, 2016).
+
+
+This study has made two unique contributions:
+(1) evaluating organizational factors and their influ-
+ence on patient safety errors; and (2) adopting a
+data-driven BBN approach to provide significant in-
+sights on the relative importance of the factors. To
+our knowledge, this is the first study evaluating a
+BBN-based approach in this particular safety con-
+text. Identifying the importance of organizational
+factors is essential for organizations to drive safety
+improvement. In this study, it is important to note
+that the data-driven BBN model has revealed some
+valuable insights regarding the factors’ relative im-
+portance, a central area of uncertainty in risk as-
+sessment (Aven, 2016). As earlier studies showed
+(McAfee & Brynjolfsson, 2012), there is an associa-
+tion between data use in the decision-making process
+and operational performance. This study also high-
+lighted the use of data by adopting the BBN model
+to support decision-making in this interesting rela-
+tionship between organizational factors and medical
+errors.
+
+
+Further, it is noteworthy to mention that the rela-
+tive importance of individual factors was established
+through change assessment in the probability distri-
+bution of patient safety errors regarding the realiza-
+tion of individual factors’ extreme states. In terms
+of the prediction capability, the chosen PC algorithm
+achieved a classification accuracy of 78% in a three-
+state discretization scheme. Our findings revealed
+that healthcare organizations should improve organi-
+zational factors that their providers experience in the
+work environment to accelerate patient safety im-
+provement. It is, nonetheless, important for not only
+organizations but also policymakers, such as govern-
+ments, to support the important factors’ development
+with appropriate policy implementations (Jain, Leka,
+& Zwetsloot, 2018).
+
+
+This study offers significant insights for risk prac-
+titioners and researchers to understand the impact of
+organizational factors on safety-related performance
+measures. Starting with the most important organiza-
+tional factors, healthcare organizations can improve
+their capabilities to reduce the number of errors
+affecting patient safety. Exploiting the data-driven
+BBN model, individual organizations may also de-
+termine the most important factors affecting their
+
+
+safety outcomes. Exploring the interrelation between
+organizational factors and quantitative safety perfor-
+mances may offer further motivations to investigate
+such capabilities’ strengths and limitations. For in-
+stance, safety and risk managers may identify the
+underlying reasons behind work-related stress and
+bullying to obtain positive results relative to patient
+safety. This study may also help to see the importance
+of data in this particular field. Although the survey is
+a commonly used approach for data collection and
+analysis in this specific context, they have not been
+used with the help of data-driven approaches, such
+as BBN models, to demonstrate and analyze inter-
+relations among the variables visually. The realistic
+results may encourage the healthcare managers to
+motivate data collection to improve the quality of
+analysis and knowledge gained.
+
+
+6. CONCLUSIONS
+
+
+This study identified organizational factors that
+have a significant effect on patient safety errors.
+Although a range of factors affect safety perfor-
+mance, it is vital for practicing risk and safety man-
+agers to prioritize them regarding their importance.
+This, therefore, requires the identification of the
+most important factors to add more value to the
+safety improvement process. Besides, the potential
+interactions among the organizational factors and
+safety errors are explored to provide interesting in-
+sights to both researchers and practitioners.
+
+
+Utilizing the hospital-level aggregate survey data
+from the U.K. hospitals, adoption of the BBN model
+revealed that health and well-being (X2), and bul-
+lying and harassment in the work environment (X7)
+are the leading factors driving safety errors. Future
+studies may benefit from using the same methodol-
+ogy in a specific healthcare unit or organization. Fu-
+ture research may also evaluate and integrate other
+traditional or machine learning approaches to com-
+pare prediction capabilities and possible disparities
+in the relative importance of the organizational fac-
+tors. It would also be interesting to collect data not
+only from providers but also from patients to in-
+vestigate how patient experience is related to safety
+outcomes.
+
+
+Our study has some limitations that may give a
+caution to interpret and generalize the results. First,
+this study is based on the hospital-level aggregate
+data; therefore, specific units and hospitals may have
+differences in the relative importance ranking of the
+
+
+
+
+
+
+Adoption of a Data-Driven Bayesian Belief Network Investigating Organizational Factors 13
+
+
+organizational factors. Second, the study is based on
+the data from the U.K. hospitals; therefore, the gen-
+eralizability and transferability of the results to other
+industries and countries may be limited. Therefore,
+future research might also consider replicating this
+study in different healthcare settings or industries
+to help create a more holistic conclusion regarding
+the interdependencies between organizational fac-
+tors and safety errors.
+
+
+ACKNOWLEDGMENTS
+
+
+We thank the guest editor and the two anony-
+mous reviewers for their valuable comments that
+have substantially improved the paper. This publica-
+tion is supported by the Khalifa University of Sci-
+ence and Technology under Award No. RCII-2019-
+002, Center for Digital Supply Chain and Operations
+Management.
+
+
+APPENDIX:
+
+
+Table AI. Survey Themes (Organizational Factors and Patient Safety Errors) and Items (adapted from NHS SCC (2019))
+
+
+ID Survey Question
+
+
+X1 Equality, diversity, and inclusion
+q14 Does your organisation act fairly with regard to career progression/promotion, regardless of ethnic background, gender,
+
+
+religion, sexual orientation, disability, or age?
+q15a In the last 12 months, have you personally experienced discrimination at work from patients/service users, their relatives,
+
+
+or other members of the public?
+q15b In the last 12 months, have you personally experienced discrimination at work from the manager/team leader or other
+
+
+colleagues?
+q28b Has your employer made adequate adjustment(s) to enable you to carry out your work?
+X2 Health and well-being
+q5h The opportunities for flexible working patterns.
+q11a Does your organisation take positive action on health and well-being?
+q11b In the last 12 months have you experienced musculoskeletal problems (MSK) as a result of work activities?
+q11c During the last 12 months, have you felt unwell as a result of work-related stress?
+q11d In the last three months have you ever come to work despite not feeling well enough to perform your duties?
+X3 Immediate managers
+q5b The support I get from my immediate manager.
+q8c My immediate manager gives me clear feedback on my work.
+q8d My immediate manager asks for my opinion before making decisions that affect my work.
+q8f My immediate manager takes a positive interest in my health and well-being.
+q8g My immediate manager values my work.
+q19g My manager supported me to receive this training, learning or development.
+X4 Quality of care
+q7a I am satisfied with the quality of care I give to patients/service users.
+q7b I feel that my role makes a difference to patients/service users.
+q7c I am able to deliver the care I aspire to.
+X5 Safety culture
+q17a My organization treats staff who are involved in an error, near miss, or incident fairly.
+q17c When errors, near misses or incidents, are reported, my organization takes action to ensure that they do not happen again.
+q17d We are given feedback about changes made in response to reported errors, near misses and incidents.
+q18b I would feel secure raising concerns about unsafe clinical practice.
+q18c I am confident that my organization would address my concern.
+q21b My organization acts on concerns raised by patients/service users.
+X6 Team working
+q4h The team I work in has a set of shared objectives.
+q4i The team I work in often meets to discuss the team’s effectiveness.
+
+
+Continued
+
+
+
+
+
+
+14 Simsekler and Qazi
+
+
+Table AI. Continued
+
+
+ID Survey Question
+
+
+X7 Safe environment—bullying and harassment (b&h)
+q13a In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from
+
+
+patients / service users, their relatives or other members of the public?
+q13b In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from
+
+
+managers?
+q13c In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from other
+
+
+colleagues?
+X8 Safe environment—violence
+q12a In the last 12 months how many times have you personally experienced physical violence at work from patients / service
+
+
+users, their relatives or other members of the public?
+q12b In the last 12 months how many times have you personally experienced physical violence at work from managers?
+q12c In the last 12 months how many times have you personally experienced physical violence at work from other colleagues?
+X9 Target variable—patient safety errors
+q16b In the last month, have you seen errors or near misses that could hurt patients?
+
+
+REFERENCES
+
+
+Abdelhai, R., Abdelaziz, S. B., & Ghanem, N. S. (2012). Assessing
+patient safety culture and factors affecting it among health care
+providers at Cairo University Hospitals. Journal of American
+Science, 8, 23–28.
+
+
+Adedipe, T., Shafiee, M., & Zio, E. (2020). Bayesian network mod-
+elling for the wind energy industry: An overview. Reliability En-
+gineering & System Safety, 202, 107053. https://doi.org/10.1016/
+j.ress.2020.107053
+
+
+Al Omar, M., Salam, M., & Al-Surimi, K. (2019). Workplace bul-
+lying and its impact on the quality of healthcare and patient
+safety. Human Resources for Health, 17, 89. https://doi.org/10.
+1186/s12960-019-0433-x
+
+
+Al-Ahmadi, T. A. (2009). Measuring patient safety culture in
+riyadh’s hospitals: A comparison between public and private
+hospitals. Journal of the Egyptian Public Health Association, 84,
+479–500.
+
+
+Ale, B., van Gulijk, C., Hanea, A., Hanea, D., Hudson, P., Lin, P.
+H., & Sillem, S. (2014). Towards BBN based risk modelling of
+process plants. Safety Science, PSAM11 – ESREL 2012 69, 48–
+56. https://doi.org/10.1016/j.ssci.2013.12.007
+
+
+Aljabri, D., Vaughn, A., Austin, M., White, L., Li, Z., Naessens, J.,
+& Spaulding, A. (2020). An investigation of healthcare worker
+perception of their workplace safety and incidence of injury.
+Workplace Health & Safety, 68, 214–225. https://doi.org/10.1177/
+2165079919883293
+
+
+Årstad, I., & Aven, T. (2017). Managing major accident risk: Con-
+cerns about complacency and complexity in practice. Safety Sci-
+ence, 91, 114–121. https://doi.org/10.1016/j.ssci.2016.08.004
+
+
+Aven, T. (2011). On some recent definitions and analysis frame-
+works for risk, vulnerability, and resilience. Risk Analysis, 31,
+515–522. https://doi.org/10.1111/j.1539-6924.2010.01528.x
+
+
+Aven, T. (2016). Risk assessment and risk management: Review
+of recent advances on their foundation. European Journal of
+Operational Research, 253, 1–13. https://doi.org/10.1016/j.ejor.
+2015.12.023
+
+
+Aven, T. (2017). How some types of risk assessments can support
+resilience analysis and management. Reliability Engineering &
+System Safety, Special Section, 167, 536–543. https://doi.org/10.
+1016/j.ress.2017.07.005
+
+
+Aven, T. (2018). Perspectives on the nexus between good risk com-
+munication and high scientific risk analysis quality. Reliability
+Engineering & System Safety, 178, 290–296. https://doi.org/10.
+1016/j.ress.2018.06.018
+
+
+Aven, T. (2019). The call for a shift from risk to resilience: What
+does it mean? Risk Analysis, 39, 1196–1203. https://doi.org/10.
+1111/risa.13247
+
+
+Aven, T., & Ylönen, M. (2018). A risk interpretation of so-
+ciotechnical safety perspectives. Reliability Engineering & Sys-
+tem Safety, 175, 13–18. https://doi.org/10.1016/j.ress.2018.03.004
+
+
+Bagnasco, A., Tibaldi, L., Chirone, P., Chiaranda, C., Panzone, M.
+S., Tangolo, D., … Sasso, L. (2011). Patient safety culture: An
+Italian experience. Journal of Clinical Nursing, 20, 1188–1195.
+
+
+BayesFusion. (2017). GeNIe modeler-user manual. URL Re-
+trieved from https://support.bayesfusion.com/docs/GeNIe/
+
+
+Blegen, M. A., Gearhart, S., O’Brien, R., Sehgal, N. L., & All-
+dredge, B. K. (2009). AHRQ’s hospital survey on patient safety
+culture: Psychometric analyses. Journal of Patient Safety, 5, 139–
+144.
+
+
+Bodur, S., & Filiz, E. (2010). Validity and reliability of Turkish ver-
+sion of “hospital survey on patient safety culture" and percep-
+tion of patient safety in public hospitals in Turkey. Bmc Health
+Services Research, 10, 28.
+
+
+Campione, J. R., Yount, N. D., & Sorra, J. (2018). Questions re-
+garding the authors’ conclusions about the lack of change in
+hospital survey on patient safety culture (HSOPS) scores re-
+lated to reduction of hospital-acquired infections. BMJ Quality
+& Safety, 27, e3–e3. https://doi.org/10.1136/bmjqs-2017-007360
+
+
+Chin, K. S., Tang, D. W., Yang, J. B., Wong, S. Y., & Wang,
+H. (2009). Assessing new product development project risk
+by Bayesian network with a systematic probability generation
+methodology. Expert Systems with Applications, 36, 9879–9890.
+https://doi.org/10.1016/j.eswa.2009.02.019
+
+
+Chipps, E., Stelmaschuk, S., Albert, N. M., Bernhard, L., & Hol-
+loman, C. (2013). Workplace bullying in the OR: Results of a
+descriptive study. AORN Journal, 98, 479–493. https://doi.org/
+10.1016/j.aorn.2013.08.015
+
+
+Christophersen, A., Deligne, N. I., Hanea, A. M., Chardot, L.,
+Fournier, N., & Aspinall, W. P. (2018). Bayesian network model-
+ing and expert elicitation for probabilistic eruption forecasting:
+Pilot study for Whakaari/White Island, New Zealand. Frontiers
+in Earth Science, 6. https://doi.org/10.3389/feart.2018.00211
+
+
+Cox, L. A., Popken, D. A., & Sun, R. X. (2018). Causal analytics for
+applied risk analysis. Cham, Switzerland: Springer International
+Publishing. https://doi.org/10.1007/978-3-319-78242-3
+
+
+Cugnata, F., Kenett, R. S., & Salini, S. (2016). Bayesian networks in
+survey data: Robustness and sensitivity issues. Journal of Qual-
+ity Technology, 48, 253–264. https://doi.org/10.1080/00224065.
+2016.11918165
+
+
+
+https://doi.org/10.1016/j.ress.2020.107053
+
+https://doi.org/10.1016/j.ress.2020.107053
+
+https://doi.org/10.1186/s12960-019-0433-x
+
+https://doi.org/10.1186/s12960-019-0433-x
+
+https://doi.org/10.1016/j.ssci.2013.12.007
+
+https://doi.org/10.1177/2165079919883293
+
+https://doi.org/10.1177/2165079919883293
+
+https://doi.org/10.1016/j.ssci.2016.08.004
+
+https://doi.org/10.1111/j.1539-6924.2010.01528.x
+
+https://doi.org/10.1016/j.ejor.2015.12.023
+
+https://doi.org/10.1016/j.ejor.2015.12.023
+
+https://doi.org/10.1016/j.ress.2017.07.005
+
+https://doi.org/10.1016/j.ress.2017.07.005
+
+https://doi.org/10.1016/j.ress.2018.06.018
+
+https://doi.org/10.1016/j.ress.2018.06.018
+
+https://doi.org/10.1111/risa.13247
+
+https://doi.org/10.1111/risa.13247
+
+https://doi.org/10.1016/j.ress.2018.03.004
+
+https://support.bayesfusion.com/docs/GeNIe/
+
+https://doi.org/10.1136/bmjqs-2017-007360
+
+https://doi.org/10.1016/j.eswa.2009.02.019
+
+https://doi.org/10.1016/j.aorn.2013.08.015
+
+https://doi.org/10.1016/j.aorn.2013.08.015
+
+https://doi.org/10.3389/feart.2018.00211
+
+https://doi.org/10.1007/978-3-319-78242-3
+
+https://doi.org/10.1080/00224065.2016.11918165
+
+https://doi.org/10.1080/00224065.2016.11918165
+
+
+
+
+Adoption of a Data-Driven Bayesian Belief Network Investigating Organizational Factors 15
+
+
+de Oliveira, M. A., Possamai, O., Dalla Valentina, L. V. O., &
+Flesch, C. A. (2012). Applying Bayesian networks to per-
+formance forecast of innovation projects: A case study of
+transformational leadership influence in organizations oriented
+by projects. Expert Systems with Applications, 39, 5061–5070.
+https://doi.org/10.1016/j.eswa.2011.11.033
+
+
+Dressner, M. A. (2017). Hospital workers: An assessment of
+occupational injuries and illnesses : Monthly labor review:
+U.S. bureau of labor statistics. Monthly Labor Review, 17.
+https://doi.org/10.21916/mlr.2017.17
+
+
+Ekici, A., & Önsel Ekici, Ş. (2019). Understanding and managing
+complexity through Bayesian network approach: The case of
+bribery in business transactions. Journal of Business Research.
+https://doi.org/10.1016/j.jbusres.2019.10.024
+
+
+Ekici, A., & Önsel, Ş. (2013). How ethical behavior of firms is in-
+fluenced by the legal and political environments: A bayesian
+causal map analysis based on stages of development. Journal
+of Business Ethics, 115, 271–290. https://doi.org/10.1007/s10551-
+012-1393-4
+
+
+Ellahham, S., Ellahham, N., & Simsekler, M. C. E. (2019). Ap-
+plication of artificial intelligence in the health care safety
+context: Opportunities and challenges. American Journal
+of Medical Quality, 35(4), 341–348. https://doi.org/10.1177/
+1062860619878515
+
+
+Felblinger, D. M. (2008). Incivility and bullying in the workplace
+and nurses’ shame responses. Journal of Obstetric, Gynecologic,
+and Neonatal Nursing, 37, 234–242. https://doi.org/10.1111/j.
+1552-6909.2008.00227.x
+
+
+Fernández-Muñiz, B., Montes-Peón, J. M., & Vázquez-Ordás, C. J.
+(2007). Safety culture: Analysis of the causal relationships be-
+tween its key dimensions. Journal of Safety Research, 38, 627–
+641. https://doi.org/10.1016/j.jsr.2007.09.001
+
+
+Flin, R. (2007). Measuring safety culture in healthcare: A case for
+accurate diagnosis. Safety Science, 45, 653–667. https://doi.org/
+10.1016/j.ssci.2007.04.003
+
+
+Gandhi, T. K., Kaplan, G. S., Leape, L., Berwick, D. M., Edgman-
+Levitan, S., Edmondson, A., … Wachter, R. (2018). Trans-
+forming concepts in patient safety: A progress report. BMJ
+Quality & Safety, 27, 1019–1026. https://doi.org/10.1136/bmjqs-
+2017-007756
+
+
+Hanea, A., Morales Napoles, O., & Ababei, D. (2015). Non-
+parametric Bayesian networks: Improving theory and review-
+ing applications. Reliability Engineering & System Safety, 144,
+265–284. https://doi.org/10.1016/j.ress.2015.07.027
+
+
+Hanea, A. M., Kurowicka, D., & Cooke, R. M. (2006). Hybrid
+method for quantifying and analyzing bayesian belief nets.
+Quality and Reliability Engineering International, 22, 709–729.
+https://doi.org/10.1002/qre.808
+
+
+Hanea, Anca M., McBride, M. F., Burgman, M. A., & Wintle, B.
+C. (2018). The value of performance weights and discussion
+in aggregated expert judgments. Risk Analysis, 38, 1781–1794.
+https://doi.org/10.1111/risa.12992
+
+
+Hanea, A. M., Nane, G. F., Wielicki, B. A., & Cooke, R. M. (2018).
+Bayesian networks for identifying incorrect probabilistic intu-
+itions in a climate trend uncertainty quantification context. J.
+Risk Res., 21, 1146–1161. https://doi.org/10.1080/13669877.2018.
+1437059.
+
+
+Hellings, J., Schrooten, W., Klazinga, N., & Vleugels, A. (2007).
+Challenging patient safety culture: Survey results. International
+Journal of Health Care Quality Assurance, 20, 620–632.
+
+
+Hosseini, S., & Ivanov, D. (2019). A new resilience measure
+for supply networks with the ripple effect considerations: A
+Bayesian network approach. Annals of Operations Research.
+https://doi.org/10.1007/s10479-019-03350-8
+
+
+Jäger, W. S., Christie, E. K., Hanea, A. M., den Heijer, C., &
+Spencer, T. (2018). A Bayesian network approach for coastal
+risk analysis and decision making. Coastal Engineering, RISC-
+KIT: Resilience-increasing Strategies for Coasts – Toolkit, 134,
+48–61. https://doi.org/10.1016/j.coastaleng.2017.05.004
+
+
+Jain, A., Leka, S., & Zwetsloot, G. I. J. M. (2018). Work, health,
+safety and well-being: Current state of the art. In A. Jain,
+S. Leka, & G. I. J. M. Zwetsloot (Eds.), Managing health,
+safety and well-being: Ethics, responsibility and sustainability.
+Aligning perspectives on health, safety and well-being series.
+(pp. 1–31). Dordrecht, the Netherlands: Springer. https://doi.
+org/10.1007/978-94-024-1261-1_1
+
+
+Johnson, J., Cameron, L., Mitchinson, L., Parmar, M., Opio-te, G.,
+Louch, G., & Grange, A. (2019). An investigation into the rela-
+tionships between bullying, discrimination, burnout and patient
+safety in nurses and midwives: Is burnout a mediator? Jour-
+nal of Research in Nursing, 24, 604–619. https://doi.org/10.1177/
+1744987119880329
+
+
+Jones, B., Vaux, E., & Olsson-Brown, A. (2019). How to get
+started in quality improvement. BMJ (Clinical Research Ed.),
+364. https://doi.org/10.1136/bmj.k5437
+
+
+Jones, K. J., Skinner, A., Xu, L., Sun, J., & Mueller, K. (2008). The
+AHRQ hospital survey on patient safety culture: A tool to plan
+and evaluate patient safety programs. In K. Henriksen, J. B.
+Battles, M. A. Keyes, & M. L. Grady (Eds.), Advances in pa-
+tient safety: New directions and alternative approaches, (1–22).
+Rockville, MD: Agency for Healthcare Research and Quality
+(US).
+
+
+Kabir, S., & Papadopoulos, Y. (2019). Applications of Bayesian
+networks and Petri nets in safety, reliability, and risk assess-
+ments: A review. Safety Science, 115, 154–175. https://doi.org/
+10.1016/j.ssci.2019.02.009
+
+
+Kaya, G. K., Ward, J., & Clarkson, J. (2019a). A review of risk
+matrices used in acute hospitals in England. Risk Analysis, 39,
+1060–1070. https://doi.org/10.1111/risa.13221
+
+
+Kaya, G. K., Ward, J. R., & Clarkson, P. J. (2019b). A framework
+to support risk assessment in hospitals. International Journal
+for Quality in Health Care, 31, 393–401. https://doi.org/10.1093/
+intqhc/mzy194 https://doi.org/10.1093/intqhc/mzy194
+
+
+Kaya, G. K., Ward, J., Pearman, A., & Clarkson, J. (2020). Evalua-
+tion of the formal risk assessment practice in hospitals in Eng-
+land. Journal of Risk Research, 0, 1–9. https://doi.org/10.1080/
+13669877.2020.1775682
+
+
+Kelangath, S., Das, P. K., Quigley, J., & Hirdaris, S. E. (2012).
+Risk analysis of damaged ships – a data-driven Bayesian ap-
+proach. Ships and Offshore Structures, 7, 333–347. https://doi.
+org/10.1080/17445302.2011.592358
+
+
+Kline, R., & Lewis, D. (2019). The price of fear: Estimating the fi-
+nancial cost of bullying and harassment to the NHS in England.
+Public Money & Management, 39, 166–174. https://doi.org/10.
+1080/09540962.2018.1535044
+
+
+Kohn, L. T., Corrigan, J., & Donaldson, M. S. (Eds.). (2000). To
+err is human: Building a safer health system. Washington, DC:
+National Academy Press.
+
+
+Kouabenan, D. R., Ngueutsa, R., & Mbaye, S. (2015). Safety cli-
+mate, perceived risk, and involvement in safety management.
+Safety Science, 77, 72–79. https://doi.org/10.1016/j.ssci.2015.03.
+009
+
+
+Koukoulaki, T., Pinotsi, D., Georgiadou, P., Daikou, A., Zorba, K.,
+Targoutzidis, A., … Pahkin, K. (2017). Restructuring seriously
+damages well-being of workers: The case of the restructuring
+programme in local administration in Greece. Safety Science,
+100, 30–36. https://doi.org/10.1016/j.ssci.2017.06.002
+
+
+Kristensen, S. (2016). Patient safety culture: Measurement—
+leadership—improvement. Aalborg, Denmark: Aalborg
+Universitetsforlag. https://doi.org/10.5278/VBN.PHD.MED.
+00063
+
+
+Lawrence, J. M., Ibne Hossain, N. U., Jaradat, R., & Hamil-
+ton, M. (2020). Leveraging a Bayesian network approach to
+model and analyze supplier vulnerability to severe weather
+risk: A case study of the U.S. pharmaceutical supply chain
+following Hurricane Maria. International Journal of Disaster
+Risk Reduction, 49, 101607. https://doi.org/10.1016/j.ijdrr.2020.
+101607
+
+
+
+https://doi.org/10.1016/j.eswa.2011.11.033
+
+https://doi.org/10.21916/mlr.2017.17
+
+https://doi.org/10.1016/j.jbusres.2019.10.024
+
+https://doi.org/10.1007/s10551-012-1393-4
+
+https://doi.org/10.1007/s10551-012-1393-4
+
+https://doi.org/10.1177/1062860619878515
+
+https://doi.org/10.1177/1062860619878515
+
+https://doi.org/10.1111/j.1552-6909.2008.00227.x
+
+https://doi.org/10.1111/j.1552-6909.2008.00227.x
+
+https://doi.org/10.1016/j.jsr.2007.09.001
+
+https://doi.org/10.1016/j.ssci.2007.04.003
+
+https://doi.org/10.1016/j.ssci.2007.04.003
+
+https://doi.org/10.1136/bmjqs-2017-007756
+
+https://doi.org/10.1136/bmjqs-2017-007756
+
+https://doi.org/10.1016/j.ress.2015.07.027
+
+https://doi.org/10.1002/qre.808
+
+https://doi.org/10.1111/risa.12992
+
+https://doi.org/10.1080/13669877.2018.1437059
+
+https://doi.org/10.1080/13669877.2018.1437059
+
+https://doi.org/10.1007/s10479-019-03350-8
+
+https://doi.org/10.1016/j.coastaleng.2017.05.004
+
+https://doi.org/10.1007/978-94-024-1261-1_1
+
+https://doi.org/10.1007/978-94-024-1261-1_1
+
+https://doi.org/10.1177/1744987119880329
+
+https://doi.org/10.1177/1744987119880329
+
+https://doi.org/10.1136/bmj.k5437
+
+https://doi.org/10.1016/j.ssci.2019.02.009
+
+https://doi.org/10.1016/j.ssci.2019.02.009
+
+https://doi.org/10.1111/risa.13221
+
+https://doi.org/10.1093/intqhc/mzy194
+
+https://doi.org/10.1093/intqhc/mzy194
+
+https://doi.org/10.1093/intqhc/mzy194
+
+https://doi.org/10.1080/13669877.2020.1775682
+
+https://doi.org/10.1080/13669877.2020.1775682
+
+https://doi.org/10.1080/17445302.2011.592358
+
+https://doi.org/10.1080/17445302.2011.592358
+
+https://doi.org/10.1080/09540962.2018.1535044
+
+https://doi.org/10.1080/09540962.2018.1535044
+
+https://doi.org/10.1016/j.ssci.2015.03.009
+
+https://doi.org/10.1016/j.ssci.2015.03.009
+
+https://doi.org/10.1016/j.ssci.2017.06.002
+
+https://doi.org/10.5278/VBN.PHD.MED.00063
+
+https://doi.org/10.5278/VBN.PHD.MED.00063
+
+https://doi.org/10.1016/j.ijdrr.2020.101607
+
+https://doi.org/10.1016/j.ijdrr.2020.101607
+
+
+
+
+16 Simsekler and Qazi
+
+
+Lee, R. T., Seo, B., Hladkyj, S., Lovell, B. L., & Schwartzmann,
+L. (2013). Correlates of physician burnout across regions and
+specialties: A meta-analysis. Human Resources for Health, 11,
+48. https://doi.org/10.1186/1478-4491-11-48
+
+
+Liu, X., Huang, G., Huang, H., Wang, S., Xiao, Y., & Chen, W.
+(2015). Safety climate, safety behavior, and worker injuries in
+the Chinese manufacturing industry. Safety Science, 78, 173–
+178. https://doi.org/10.1016/j.ssci.2015.04.023
+
+
+Longo, J., & Hain, D. (2014). Bullying: A hidden threat to patient
+safety. Nephrology Nursing Journal, 41, 193–199. Quiz 200.
+
+
+Makary, M. A., & Daniel, M. (2016). Medical error—the third
+leading cause of death in the US. BMJ, 353, i2139. https://doi.
+org/10.1136/bmj.i2139
+
+
+Marcot, B. G., & Hanea, A. M. (2020). What is an optimal value of
+k in k-fold cross-validation in discrete Bayesian network anal-
+ysis? Computational Statistics. https://doi.org/10.1007/s00180-
+020-00999-9
+
+
+McAfee, A., & Brynjolfsson, E. (2012). Big data: The management
+revolution. Harvard Business Review, 90(10), 60–68. https://hbr.
+org/2012/10/big-data-the-management-revolution.
+
+
+Meddings, J., Reichert, H., Greene, M. T., Safdar, N., Krein, S.
+L., Olmsted, R. N., … Saint, S. (2017). Evaluation of the as-
+sociation between Hospital Survey on Patient Safety Culture
+(HSOPS) measures and catheter-associated infections: Results
+of two national collaboratives. BMJ Quality & Safety, 26, 226–
+235. https://doi.org/10.1136/bmjqs-2015-005012
+
+
+NHS SCC. (2019). NHS staff surveys: NHS staff survey results.
+URL Retrieved from https://www.nhsstaffsurveys.com/Page/
+1085/Latest-Results/NHS-Staff-Survey-Results/
+
+
+NHS SSCC. (2019). Technical guide to the 2019 staff survey data.
+Oxford, UK: NHS England.
+
+
+Nie, Y., Mao, X., Cui, H., He, S., Li, J., & Zhang, M. (2013). Hospi-
+tal survey on patient safety culture in China. BMC Health Ser-
+vices Research, 13, 228.
+
+
+Nielsen, T. D., & Jensen, F. V. (2007). Bayesian networks and
+decision graphs (2nd ed). Information Science and Statistics.
+New York: Springer-Verlag. https://doi.org/10.1007/978-0-387-
+68282-2
+
+
+Oh, H., Uhm, D., & Yoon, Y. J. (2016). Workplace bullying, job
+stress, intent to leave, and nurses’ perceptions of patient safety
+in South Korean hospitals. Nursing Research, 65, 380–388.
+https://doi.org/10.1097/NNR.0000000000000175
+
+
+Parker, D., Kirk, S., Claridge, T., Lawrie, M., & Ashcroft, D.
+(2007). The Manchester patient safety framework (MaPSaF).
+Patient Safety Research: Shaping the European Agenda - In-
+ternational Conference Porto, Portugal.
+
+
+Patterson, M. E., & Pace, H. A. (2016). A cross-sectional
+analysis investigating organizational factors that influence
+near-miss error reporting among hospital pharmacists. Jour-
+nal of Patient Safety, 12, 114–117. https://doi.org/10.1097/PTS.
+0000000000000125
+
+
+Peadon, R. (Rod), Hurley, J., & Hutchinson, M. (2020). Hierar-
+chy and medical error: Speaking up when witnessing an error.
+Safety Science, 125, 104648. https://doi.org/10.1016/j.ssci.2020.
+104648
+
+
+Qazi, A., & Dikmen, I. (2019). From risk matrices to risk networks
+in construction projects. IEEE Transactions on Engineering
+Management, 1–12. https://doi.org/10.1109/TEM.2019.2907787
+
+
+Qazi, A., Dikmen, I., & Birgonul, M. T. (2020a). Mapping uncer-
+tainty for risk and opportunity assessment in projects. Engi-
+neering Management Journal, 32, 86–97. https://doi.org/10.1080/
+10429247.2019.1664249
+
+
+Qazi, A., Dikmen, I., & Birgonul, M. T. (2020b). Prioritization of
+interdependent uncertainties in projects. International Journal
+of Managing Projects in Business, 13, 913–935. https://doi.org/
+10.1108/IJMPB-10-2019-0253
+
+
+Qazi, A., & Khan, M. S. (2020). Exploring probabilistic network-
+based modeling of multidimensional factors associated with
+country risk. Risk Analysis. https://doi.org/10.1111/risa.13589
+
+
+Reis, C. T., Paiva, S. G., & Sousa, P. (2018). The patient safety cul-
+ture: A systematic review by characteristics of hospital survey
+on patient safety culture dimensions. International Journal for
+Quality in Health Care, 30, 660–677.
+
+
+Salini, S., & Kenett, R. S. (2009). Bayesian networks of customer
+satisfaction survey data. Journal of Applied Statistics, 36, 1177–
+1189. https://doi.org/10.1080/02664760802587982
+
+
+Sener, A., Barut, M., Dag, A., & Yildirim, M. B. (2019a). Impact
+of commitment, information sharing, and information usage on
+supplier performance: A Bayesian belief network approach.
+Annals of Operations Research. https://doi.org/10.1007/s10479-
+019-03504-8
+
+
+Sener, A., Barut, M., Oztekin, A., Avcilar, M. Y., & Yildirim, M. B.
+(2019b). The role of information usage in a retail supply chain:
+A causal data mining and analytical modeling approach. Jour-
+nal of Business Research, 99, 87–104. https://doi.org/10.1016/j.
+jbusres.2019.01.070
+
+
+Sexton, J. B., Helmreich, R. L., Neilands, T. B., Rowan, K., Vella,
+K., Boyden, J., … Thomas, E. J. (2006). The Safety Atti-
+tudes Questionnaire: Psychometric properties, benchmarking
+data, and emerging research. BMC Health Services Research
+[Electronic Resource], 6, 44. https://doi.org/10.1186/1472-6963-
+6-44
+
+
+Shakeri, M., Zarei, A., Azar, A., & Maleki Minbash Razgah, M.
+(2020). Green supply chain risk network management and per-
+formance analysis: Bayesian Belief Network Modeling. Envi-
+ronmental Energy and Economic Research, 4, 165–183. https:
+//doi.org/10.22097/eeer.2020.215399.1134
+
+
+Shortridge, J., Aven, T., & Guikema, S. (2017). Risk assessment
+under deep uncertainty: A methodological comparison. Relia-
+bility Engineering & System Safety, 159, 12–23. https://doi.org/
+10.1016/j.ress.2016.10.017
+
+
+Simsekler, M. C. E. (2019). The link between healthcare risk iden-
+tification and patient safety culture. International Journal of
+Health Care Quality Assurance, 32, 574–587. https://doi.org/10.
+1108/IJHCQA-04-2018-0098
+
+
+Simsekler, M. C. E., Gurses, A. P., Smith, B. E., & Ozonoff,
+A. (2019). Integration of multiple methods in identifying pa-
+tient safety risks. Safety Science, 118, 530–537. https://doi.org/
+10.1016/j.ssci.2019.05.057
+
+
+Simsekler, M. C. E., Qazi, A., Alalami, M. A., Ellahham, S., &
+Ozonoff, A. (2020). Evaluation of patient safety culture using
+a random forest algorithm. Reliability Engineering & System
+Safety, 204, 107186. https://doi.org/10.1016/j.ress.2020.107186
+
+
+Singer, S., Meterko, M., Baker, L., Gaba, D., Falwell, A., & Rosen,
+A. (2007). Workforce perceptions of hospital safety culture: De-
+velopment and validation of the patient safety climate in health-
+care organizations survey. Health Services Research, 42, 1999–
+2021. https://doi.org/10.1111/j.1475-6773.2007.00706.x
+
+
+Smits, M., Wagner, C., Spreeuwenberg, P., Timmermans, D. R., van
+der Wal, G., & Groenewegen, P. P. (2012). The role of patient
+safety culture in the causation of unintended events in hospitals.
+Journal of Clinical Nursing, 21, 3392–3401.
+
+
+Spirtes, P., Glymour, C., & Scheines, R. (1993). Causation, predic-
+tion, and search, lecture notes in statistics. New York: Springer-
+Verlag,. https://doi.org/10.1007/978-1-4612-2748-9
+
+
+Tawfik, D. S., Profit, J., Morgenthaler, T. I., Satele, D. V., Sinsky, C.
+A., Dyrbye, L. N., … Shanafelt, T. D. (2018). Physician burnout,
+well-being, and work unit safety grades in relationship to re-
+ported medical errors. Mayo Clinic Proceedings, 93, 1571–1580.
+https://doi.org/10.1016/j.mayocp.2018.05.014
+
+
+The Health Foundation. (2011). Research scan: Measuring safety
+culture. London, UK: The Health Foundation.
+
+
+Vessey, J. A., Demarco, R., & DiFazio, R. (2010). Bullying, harass-
+ment, and horizontal violence in the nursing workforce: The
+state of the science. Annual Review of Nursing Research, 28,
+133–157. https://doi.org/10.1891/0739-6686.28.133
+
+
+Vogus, T. J., & Sutcliffe, K. M. (2007). The safety organizing
+scale: Development and validation of a behavioral measure of
+
+
+
+https://doi.org/10.1186/1478-4491-11-48
+
+https://doi.org/10.1016/j.ssci.2015.04.023
+
+https://doi.org/10.1136/bmj.i2139
+
+https://doi.org/10.1136/bmj.i2139
+
+https://doi.org/10.1007/s00180-020-00999-9
+
+https://doi.org/10.1007/s00180-020-00999-9
+
+https://hbr.org/2012/10/big-data-the-management-revolution
+
+https://hbr.org/2012/10/big-data-the-management-revolution
+
+https://doi.org/10.1136/bmjqs-2015-005012
+
+https://www.nhsstaffsurveys.com/Page/1085/Latest-Results/NHS-Staff-Survey-Results/
+
+https://www.nhsstaffsurveys.com/Page/1085/Latest-Results/NHS-Staff-Survey-Results/
+
+https://doi.org/10.1007/978-0-387-68282-2
+
+https://doi.org/10.1007/978-0-387-68282-2
+
+https://doi.org/10.1097/NNR.0000000000000175
+
+https://doi.org/10.1097/PTS.0000000000000125
+
+https://doi.org/10.1097/PTS.0000000000000125
+
+https://doi.org/10.1016/j.ssci.2020.104648
+
+https://doi.org/10.1016/j.ssci.2020.104648
+
+https://doi.org/10.1109/TEM.2019.2907787
+
+https://doi.org/10.1080/10429247.2019.1664249
+
+https://doi.org/10.1080/10429247.2019.1664249
+
+https://doi.org/10.1108/IJMPB-10-2019-0253
+
+https://doi.org/10.1108/IJMPB-10-2019-0253
+
+https://doi.org/10.1111/risa.13589
+
+https://doi.org/10.1080/02664760802587982
+
+https://doi.org/10.1007/s10479-019-03504-8
+
+https://doi.org/10.1007/s10479-019-03504-8
+
+https://doi.org/10.1016/j.jbusres.2019.01.070
+
+https://doi.org/10.1016/j.jbusres.2019.01.070
+
+https://doi.org/10.1186/1472-6963-6-44
+
+https://doi.org/10.1186/1472-6963-6-44
+
+https://doi.org/10.22097/eeer.2020.215399.1134
+
+https://doi.org/10.22097/eeer.2020.215399.1134
+
+https://doi.org/10.1016/j.ress.2016.10.017
+
+https://doi.org/10.1016/j.ress.2016.10.017
+
+https://doi.org/10.1108/IJHCQA-04-2018-0098
+
+https://doi.org/10.1108/IJHCQA-04-2018-0098
+
+https://doi.org/10.1016/j.ssci.2019.05.057
+
+https://doi.org/10.1016/j.ssci.2019.05.057
+
+https://doi.org/10.1016/j.ress.2020.107186
+
+https://doi.org/10.1111/j.1475-6773.2007.00706.x
+
+https://doi.org/10.1007/978-1-4612-2748-9
+
+https://doi.org/10.1016/j.mayocp.2018.05.014
+
+https://doi.org/10.1891/0739-6686.28.133
+
+
+
+
+Adoption of a Data-Driven Bayesian Belief Network Investigating Organizational Factors 17
+
+
+safety culture in hospital nursing units. Medical Care, 45, 46–54.
+https://doi.org/10.1097/01.mlr.0000244635.61178.7a
+
+
+Waterson, P., Carman, E. M., Manser, T., & Hammer, A. (2019).
+Hospital survey on patient safety culture (HSPSC): A sys-
+tematic review of the psychometric properties of 62 interna-
+tional studies. BMJ Open, 9, e026896. https://doi.org/10.1136/
+bmjopen-2018-026896
+
+
+Werner, C., Bedford, T., Cooke, R. M., Hanea, A. M., & Morales-
+Nápoles, O. (2017). Expert judgement for dependence in
+probabilistic modelling: A systematic literature review and fu-
+ture research directions. European Journal of Operational Re-
+search, 258, 801–819. https://doi.org/10.1016/j.ejor.2016.10.018
+
+
+Wooldridge, A. R., Carayon, P., Hoonakker, P., Hose, B.-Z., Ei-
+thun, B., Brazelton, T., … Gurses, A. P. (2020). Work sys-
+
+
+tem barriers and facilitators in inpatient care transitions of
+pediatric trauma patients. Applied Ergonomics, 85, 103059.
+https://doi.org/10.1016/j.apergo.2020.103059
+
+
+Wooldridge, A. R., Carayon, P., Shaffer, D. W., & Eagan, B. (2018).
+Quantifying the qualitative with epistemic network analysis:
+A human factors case study of task-allocation communica-
+tion in a primary care team. IISE Transactions on Healthcare
+Systems Engineering, 8, 72–82. https://doi.org/10.1080/24725579.
+2017.1418769
+
+
+Yassi, A., & Hancock, T. (2005). Patient safety - worker safety:
+Building a culture of safety to improve healthcare worker and
+patient well-being. Healthcare Quarterly, 8, 32–38. https://doi.
+org/10.12927/hcq..17659
+
+
+
+https://doi.org/10.1097/01.mlr.0000244635.61178.7a
+
+https://doi.org/10.1136/bmjopen-2018-026896
+
+https://doi.org/10.1136/bmjopen-2018-026896
+
+https://doi.org/10.1016/j.ejor.2016.10.018
+
+https://doi.org/10.1016/j.apergo.2020.103059
+
+https://doi.org/10.1080/24725579.2017.1418769
+
+https://doi.org/10.1080/24725579.2017.1418769
+
+https://doi.org/10.12927/hcq..17659
+
+https://doi.org/10.12927/hcq..17659
+
+

@@ -1,0 +1,2027 @@
+
+
+
+
+
+
+
+
+
+
+Contents lists available at ScienceDirect
+
+
+Technology in Society
+
+
+journal homepage: www.elsevier.com/locate/techsoc
+
+
+Short-term and long-term dynamics of venture capital and economic growth
+in a digital economy: A study of European countries
+Rudra P. Pradhana,∗, Mak B. Arvinb, Mahendhiran Nairc, Sara E. Bennettd, Sahar Bahmanie
+a Vinod Gupta School of Management, Indian Institute of Technology, Kharagpur, WB 721302, India
+b Department of Economics, Trent University, Peterborough, Ontario, K9L 0G2, Canada
+c School of Business and Global Asia in the 21st Century Research Platform Monash University Malaysia, Jalan Lagoon Selatan, 47500, Malaysia
+d College of Business, University of Lynchburg, Lynchburg, VA, 24501, USA
+e Department of Economics, University of Wisconsin-Parkside, Kenosha, WI, 53144, USA
+
+
+A R T I C L E I N F O
+
+
+Keywords:
+Venture capital investment
+ICT infrastructure
+Economic growth
+Granger causality
+European countries
+
+
+JEL classification:
+O43
+O16
+E44
+E31
+
+
+A B S T R A C T
+
+
+There has been a significant transformation in the diffusion of information and communication technology (ICT),
+development of the venture capital industry, and economic growth in European countries over the past three
+decades. Using vector error-correction modelling, we examine the possible interrelations between venture ca-
+pital investment, ICT infrastructure, and economic growth, based on annual data from 25 European countries
+between 1989 and 2016. Specifically, we examine the direction of Granger causality between these variables. We
+find that the variables are cointegrated. Our empirical results also illustrate that both economic growth and the
+development of ICT infrastructure impact all stages of venture capital investment (early, late, and overall VC
+investment) in the long run. The study also shows that economic growth and late-stage venture capital invest-
+ment impact internet usage; and internet usage and late-stage venture capital impact economic growth in the
+long run. The results also reveal strong inter-linkages between the variables in the short run. Overall, empirical
+results suggest that policy-makers should give special attention to an integrated policy approach for the co-
+development of the ICT infrastructure, venture capital, and economic growth in Europe.
+
+
+1. Introduction
+
+
+The European economies have undergone a major transformation
+over the last three decades. While some economies have achieved
+sustained economic growth, many have experienced lacklustre growth
+due to declining total factor productivity and intense competition from
+other countries [1]. To ensure countries achieve sustained economic
+growth and enhanced global competitiveness, governments in Europe
+have invested significant resources to develop and upgrade the in-
+formation and communication technology infrastructure [62]. To en-
+courage greater innovation and entrepreneurship, these economies
+have also embarked on ambitious plans to nurture a vibrant venture
+capital (VC) ecosystem [2].
+
+
+Venture capital (VC) plays a critical role in the creation of wealth
+and prosperity in an economy [3–5]. Venture capital is a specialized
+form of financial intermediation or investment, which provides funding
+to innovative new ventures with high-growth prospects in exchange for
+equity stakes in the companies [6,7,10]. VC likely produces several
+
+
+positive externalities, namely, innovation, job creation, increased
+standard of living, investment in infrastructure, service sector growth,
+increased productivity, and increased value of VC-financed firms due to
+the provisions of both managerial skills and competencies (see Refs.
+[11,12]).
+
+
+We should highlight several issues related to studies of venture
+capital. First, while the theoretical foundation has been established
+with regards to VC serving as a stimulator for economic growth, there is
+still much work to be done to empirically confirm the theory [13].
+Second, the results of studies on venture capital activities have pro-
+duced a wide range of conclusions that vary considerably (see, for ex-
+ample, [14]. Third, a better understanding of the factors that play a
+vital role in motivating venture capital investment on a macro level can
+lend additional insight to policymakers as they design economic,
+technology and financial policies that can promote the growth of ven-
+ture capital and, possibly, in turn, economic growth (see, for instance,
+[15]). This study focuses on the third issue as we attempt to provide
+greater insight into the macro-level factors that are critical to
+
+
+https://doi.org/10.1016/j.techsoc.2018.11.002
+Received 21 July 2018; Received in revised form 5 October 2018; Accepted 15 November 2018
+
+
+∗ Corresponding author.
+E-mail addresses: rudrap@vgsom.iitkgp.ernet.in (R.P. Pradhan), marvin@trentu.ca (M.B. Arvin), mahendhiran.nair@monash.edu (M. Nair),
+
+
+bennett.se@lynchburg.edu (S.E. Bennett), bahmani@uwp.edu (S. Bahmani).
+
+
+Technology in Society 57 (2019) 125–134
+
+
+Available online 19 November 2018
+0160-791X/ © 2018 Elsevier Ltd. All rights reserved.
+
+
+T
+
+
+
+http://www.sciencedirect.com/science/journal/0160791X
+
+https://www.elsevier.com/locate/techsoc
+
+https://doi.org/10.1016/j.techsoc.2018.11.002
+
+https://doi.org/10.1016/j.techsoc.2018.11.002
+
+mailto:rudrap@vgsom.iitkgp.ernet.in
+
+mailto:marvin@trentu.ca
+
+mailto:mahendhiran.nair@monash.edu
+
+mailto:bennett.se@lynchburg.edu
+
+mailto:bahmani@uwp.edu
+
+https://doi.org/10.1016/j.techsoc.2018.11.002
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.techsoc.2018.11.002&domain=pdf
+
+
+
+
+stimulating venture capital investment.
+The literature confirms that there are several factors that contribute
+
+
+to venture capital investment (see Ref. [16]). Fundamentally, these
+factors correspond to foundations that provide the basic structure of an
+economy1: macroeconomic stability and the development/standard of
+institutional systems (e.g., the legal system, rule of law, quality of ac-
+counting standards, quality of regulation and regulatory compliance,
+quality of the workforce, cultural orientation, and the availability of
+other basic infrastructure such as, information and communication
+technology (ICT) infrastructure).
+
+
+Since the emergence of endogenous growth theory, several em-
+pirical studies have considered how economic growth might contribute
+to venture capital investment (for example [17–20]), how economic
+growth might impact ICT infrastructure [21–25], and how ICT infra-
+structure might impact venture capital investment [26]. However, there
+is still a dearth of research and insight on the role of ICT infrastructure
+in stimulating venture capital investment, especially at different stages.
+
+
+The contributions of this study are three-fold. First, the results of
+this study shed additional light on the Granger-causal relationships
+between economic growth and venture capital investment, and between
+economic growth and ICT infrastructure in European countries. This
+contribution is important as earlier empirical results on the nature of
+the relationships between these variables are mixed. In some cases (e.g.
+Ref. [26]), the results suggest that economic growth may actually
+hinder venture capital investment. Second, this study examines the
+trivariate Granger-causal relationship between economic growth, ven-
+ture capital investment, and ICT infrastructure. To the best of our
+knowledge, this is the first empirical study that simultaneously con-
+siders the possible Granger-causal relationships between all three
+variables. Third, based on the empirical analysis, this study will ‘tease-
+out’ key policies pertaining to ICT usage, VC industry, and economic
+growth stimulating policies that would enable the European countries
+to achieve long-term sustainable economic development.
+
+
+The paper is structured as follows. Section 2 offers a review of the
+literature, discussing what previous papers have established in this field
+and highlighting the unique contributions of this study. Section 3 de-
+scribes the methodology that is used. Section 4 discusses the empirical
+results. Section 5 is devoted to hypotheses validation and discusses the
+estimation limitations. Section 6 offers pertinent policy implications.
+
+
+2. Literature review
+
+
+2.1. Economic growth and ICT infrastructure
+
+
+The relationship between economic growth and investment in ICT
+infrastructure is well established in the literature. Early studies note the
+clear correlation between high economic development and highly de-
+veloped telecommunications infrastructure (for example, [27]; and
+[28]). ICT might contribute to economic growth through several
+channels2: 1) by serving as an important revenue-earning sector in an
+economy; 2) by improving market reach for both resources and markets
+which in turn enables economies of scale; and 3) by improving products
+and services which enables the firm to pursue economies of scale. Al-
+ternatively, other studies have shown that economic growth will in-
+crease demand for ICT services which leads to increased ICT infra-
+structure [15,29]; and [30]. In general, recent studies are interested in
+the direction of causality of this relationship between ICT and economic
+growth. Four schools of thought are discussed below.
+
+
+The first school of thought puts forward the ‘Supply-Leading
+Hypothesis’ (SLH), which suggests that ICT development leads to eco-
+nomic growth. The rationale for this relationship stems from the fact
+that ICT investment enhances growth in the ICT industry, thus creating
+
+
+employment and stimulating economic growth. ICT investment is also
+seen as an important enabler for raising the productivity and efficiency
+within the economy. It enables economic agents to enhance their reach
+for information, knowledge, resources, and markets more easily. High-
+quality infrastructure also enables firms to enhance the richness of their
+products and services by catering to specific needs of a wider spectrum
+of their clientele, all of which contribute to economic growth. Among
+the proponents of this school of thought are [22,31–36]; and [37].
+
+
+The second school of thought comprises the proponents of the
+‘Demand-Following Hypothesis’ (DFH), who postulate that economic
+growth causes ICT development. The rationale for this argument is
+related to the fact that when income levels increase, the various key
+stakeholders in the economy will demand more sophisticated tech-
+nology that enables them to access information and knowledge to en-
+hance their competitiveness and quality of life. Among the studies that
+support this hypothesis are [29,32,33,38]; and [39].
+
+
+The third school of thought advances the ‘Feedback Loop
+Hypothesis’ (FLH), which argues that there is a complex relationship
+between ICT infrastructure investment and economic growth. That is,
+ICT investments contribute to economic growth as suggested by pro-
+ponents of SLH. However, economic growth increases the demand for
+high-quality ICT infrastructure, thus supporting the DFH school of
+thought. Studies that have supported the FLH include [33,38,40]
+[8,9,41]; Shiu and Lam, (2008b), and [42].
+
+
+The fourth school of thought puts forth the ‘Neutrality Hypothesis’
+(NH), which argues that there is no causal link between ICT infra-
+structure investment and economic growth. Their line of argument
+stems from the fact that ICT infrastructure is significantly smaller than
+other investments such as the development of physical assets (land,
+roads, ports and other infrastructure development), human capital, and
+other non-ICT related technology that drive the core sectors of the
+economy. Thus, ICT investment has a negligible impact on economic
+growth and vice-versa. Studies here include [29,32,33,36]; and [43].3
+
+
+2.2. Economic growth and venture capital investment
+
+
+The relationship between the development of the VC industry and
+economic development has received considerable attention from in-
+dustry analysts, policy-makers, and researchers due to the role of VCs in
+providing alternate funding for innovative, high-technology and high-
+risk firms. Several studies show that VC development contributes to
+economic development by nurturing the development of highly in-
+novative firms [5,44]. In some instances, innovative firms can be im-
+portant disrupters that give them a competitive edge over incumbent
+firms in the global market. Alternatively, perhaps more advanced
+countries must establish new sources of funding (e.g. venture capital) to
+support the development of risky and innovative firms. As an economy
+moves up the innovation value chain, the pool of VC funding increases.
+The literature consists of four schools of thoughts regarding the direc-
+tion of causality for economic growth and venture capital investment.
+
+
+In the context of SLH, studies have argued that the development of
+the VC industry contributes to economic growth. The economic ratio-
+nale stems from the fact that innovation is critical for spurring new
+sources of growth; hence, the VC industry plays a crucial role in sup-
+porting high-risk innovative firms and ventures, which traditional fi-
+nancial markets could not provide capital for. For example, the eco-
+nomic growth of the US in the 1990s was primarily driven by VC-
+funded technology firms that made both incremental and radical in-
+novations in ICT, science, technology, engineering, mathematics
+(STEM), life sciences, pharmaceutical and medical areas that, in turn,
+transformed the global economic landscape (see, for instance, [45]; and
+[46]).
+
+
+1 [6,50]; and [19].
+2 See, for example, [68,69]; and [70].
+
+
+3 As is evident by this review, some studies support more than one hypothesis,
+depending on the sample and the period that is covered.
+
+
+R.P. Pradhan et al. Technology in Society 57 (2019) 125–134
+
+
+126
+
+
+
+
+
+
+[47] demonstrate that the effect of venture capital investment on
+economic and innovation development parameters is significant. By
+showing significant VCI influence on GDP, it is clear how important it is
+to develop an innovation economy by fostering venture capital inflows.
+It is important to treat venture capital investments as the ‘cause’ rather
+than the ‘effect’ of the development process. Due to its delayed effect,
+venture investment introduces progressive growth in the short- and
+long-term by creating competitiveness and shaping the innovation-
+based economy. Venture capital investment promotes entrepreneurs,
+exports, employment opportunities, technological growth, economic
+growth and products, which in turn improves the standard of living of
+the people [48]. suggests that the replacement of centrally planned
+economies with free-market economies stimulates the demand for
+venture capital. A government-created “enabling framework” is first
+needed in developing countries to create an attractive playing field and
+entrepreneurial infrastructure for venture capitalists. Other empirical
+studies that have supported the SLH include [12]; Keuschnigg, (2004)
+and Samila and Sorenson, (2011).
+
+
+On the other hand, the proponents of DFH have argued that, as
+economic growth intensifies, the wealth that is generated is invested to
+enhance the national innovation ecosystem by increasing investments
+in regional corridors, with highly concentrated technology-driven firms
+that power new technological developments and discoveries. These new
+discoveries have the potential to spawn new sources of economic
+growth. To support highly innovative firms, many OECD and devel-
+oping countries have opened a wide range of resources to develop the
+VC industry. These financial resources include permitting institutional
+investors such as pension funds, business angels, and government funds
+to grow the pool of VC funding [45]. There are several empirical studies
+that support the DFH and among them are [12,14,15,49]; and [30].
+
+
+There are a few empirical studies that support the FLH, which
+suggest that there is a strong feedback loop between the two variables
+for several countries, see, for example, [14]; and [12]. These studies
+argue that a growing VC industry will raise the number of firms un-
+dertaking innovations, which will spur new sectors and sources of
+economic growth.
+
+
+Finally, some studies suggest that the NH holds and that there is no
+causal relationship between VC investment and economic growth for
+some countries [12,50].
+
+
+2.3. Venture capital investment and ICT infrastructure
+
+
+Interestingly, there is little research empirically examining the re-
+lationship between VC investment and ICT infrastructure, although
+casual evidence suggests that ICT companies are major recipients of VC
+funding in many OECD countries. For example, in Europe, which is the
+focus of our analysis, more than one-third of VC investments were for
+ICT companies [51]. A majority of the studies in the literature have
+shown a correlation between VC investment and ICT infrastructure de-
+velopment [51,52]. However, to the best of our knowledge, there are no
+studies that have focused on the direction of causality between the two
+variables using rigorous econometric analysis. As such, this study at-
+tempts to address this shortcoming in the literature. While this topic is
+not well-trodden ground, there is a reason to suspect that there is in-
+deed a causal relationship between VC investment and ICT infra-
+structure, given that both the VC and ICT industries have undergone
+major transformations over the last two decades. There is likely a re-
+lationship between the two variables due to the fact that ICT-oriented
+businesses, those that create ICT infrastructure or provide ICT services,
+are often financed through VC (see, for example, [53–56]).
+
+
+Some theories and studies would suggest that ICT causes VC. For
+example, the rapid ICT diffusion and demand for ICT services across the
+globe over the last three decades have intensified R&D activities and
+have led to the emergence of new ICT start-ups. These start-ups con-
+tribute to the development of new and innovative ICT infrastructure,
+including software and applications. One of the challenges encountered
+
+
+by many of these start-ups includes access to the much-needed capital
+for R&D and commercialisation activities. To address the shortage of
+high-risk capital for these risky and innovative firms, the VC industry in
+many countries within the EU and other countries was established.
+Governments in these countries realized that traditional financial sys-
+tems would not provide sufficient funding for these high-risk firms.
+Hence, many governments created incentives to nurture ‘home-grown’
+ICT industries to power the next generation's technology and applica-
+tions. These new innovations were envisaged to not only raise the
+competitiveness of the broader economy but also to create an ICT in-
+dustry that is a revenue generator for the nation (see, for example,
+[45,51,52]; and [57]).
+
+
+Other theories and studies suggest that the development of ICT in-
+frastructure contributes to the development of the VC industry. Key
+support for this relationship is based on the argument that, VC by its
+nature, funds only firms that are innovative and have a potential to
+generate returns within 10 years. Innovative firms here are defined as
+being able to generate patents or IPs that can be commercialised. A
+study by Ref. [58] shows that ICT firms generated more patents than
+non-ICT firms. Many of the ICT firms recognise that R&D activities are
+plagued by a high risk of failure, uncertainty and asymmetric in-
+formation. To overcome these market failures, these firms tend to file
+patents to signal that they have assets in the form of patents/IPs that
+can be commercialised. Hence, it is not surprising that VC investors
+prefer investing in ICT-firms with high patent portfolios because these
+patents can be commercialised even if the firms file for bankruptcy
+[59]. Increasing digitisation of the economy and demand for new ICT
+products and services has resulted in the emergence of many start-ups
+in the ICT industry. This has led to an increase in the flow of VC funding
+from a wider segment of investors from across the globe to many of ICT
+developed regions and countries.
+
+
+3. Methodology
+
+
+3.1. Hypotheses
+
+
+Over the last four decades, many countries across the globe have
+invested significant resources to upgrade their ICT infrastructures and
+financial systems and to implement economic growth strategies to be
+globally competitive. One of the major financial reforms that have been
+undertaken is to provide access to finance for high-risk and technology-
+intensive firms and start-ups. In this context, many of the countries saw
+the emergence of vibrant VC industries from the 1980s onwards to
+support the transformation of all sectors of the economy to become
+more technology- and knowledge-intensive sectors.
+
+
+Most of the VC was targeted at developing new technology-intensive
+sectors that had the potential to raise the productivity and economic
+potential of the broader economy. These technology-based industries
+were also envisaged to be new sources of economic growth for many
+countries.
+
+
+In this study, we test the following null hypotheses:
+
+
+HA1: Venture capital investment does not Granger-cause per capita
+economic growth.
+HA2: Per capita economic growth does not Granger-cause venture
+capital investment.
+HB1: ICT infrastructure development does not Granger-cause per ca-
+pita economic growth.
+HB2: Per capita economic growth does not Granger-cause ICT infra-
+structure development.
+HC1: Venture capital investment does not Granger-cause ICT infra-
+structure development.
+HC2: ICT infrastructure development does not Granger-cause venture
+capital investment.
+These hypotheses are summarized in Fig. 1.
+
+
+R.P. Pradhan et al. Technology in Society 57 (2019) 125–134
+
+
+127
+
+
+
+
+
+
+3.2. Data
+
+
+We utilize annual time series data obtained from World Development
+Indicators published by the World Bank and the European Venture
+Capital Association's Venture Capital Database. We cover 25 European
+countries,4 for which data was readily available, from 1989-2016.5
+
+
+We use real per capita economic growth (PEG), which is measured
+as the percentage change in real per capita GDP, and three different
+indicators for venture capital investment (VCI). The three VCI in-
+dicators6 are differentiated by the stage of the investments and are
+measured as a percentage of real GDP. Early stage VC investment (VCE)
+is VC investment aimed towards young businesses that are primarily in
+their early development stage. Later stage VC investment (VCL) is the
+type of VC investment aimed at young businesses in need of funds for
+
+
+expansion. Total VC investment (VCT) combines both the early and
+later stages of VC investment.
+
+
+We use six different indicators7 as proxies for ICT infrastructure
+development: telephone landlines (TEL), mobile phones (MOB), in-
+ternet users (INU), internet servers (INS), and fixed broadband (FIB).
+We also use a composite index of ICT infrastructure (CIC8), using
+principal component analysis (PCA) (procedural details are discussed in
+Ref. [35]. These proxies have been used in several earlier studies such
+as [32,38]. A more detailed definition of these variables is available in
+Table A1 under Appendix A.9
+
+
+Our study considers three samples and six cases, where the samples
+are differentiated by choice of VCI indicator and the cases are de-
+termined by choice of ICT indicator. The first sample links VCE, ICT,
+and PEG, the second links VCL, ICT, and PEG, and the third sample links
+VCT, ICT, and PEG. In each sample, we consider six cases which differ
+based on the selection of the ICT indicator (TEL, MOB, INU, INS, FIB, or
+CIC). The sample size (using various VCI indicators) is not uniform. It
+
+
+Fig. 1. Possible Causal Relationships among Venture
+Capital Investment, ICT Infrastructure, and Per
+Capita Economic Growth.
+Note 1: The null hypotheses are:
+HA1: Venture capital investment does not Granger-
+cause per capita economic growth.
+HA2: Per capita economic growth does not Granger-
+cause venture capital investment.
+HB1: ICT infrastructure development does not
+Granger-cause per capita economic growth.
+HB2: Per capita economic growth does not Granger-
+cause ICT infrastructure development.
+HC1: Venture capital investment does not Granger-
+cause ICT infrastructure development.
+HC2: ICT infrastructure development does not
+Granger-cause venture capital investment.
+Note 2:
+If the null hypotheses are rejected, causality is in-
+dicated by the directional arrows that are shown.
+
+
+4 The choice of the European countries was due to the availability of the data
+to undertake advance panel data analysis for the three variables under study. It
+was challenging to obtain detailed data for some of the indicators, especially for
+the venture capital indicators, for countries in other regions.
+
+
+5 The countries are Austria, Belgium, Bulgaria, the Czech Republic, Denmark,
+Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia,
+Lithuania, Luxembourg, the Netherlands, Norway, Poland, Portugal, Romania,
+Spain, Sweden, Switzerland, and the United Kingdom.
+
+
+6 These proxies have been used in earlier studies such as [14].
+
+
+7 Each ICT infrastructure indicator is measured ICT use per thousand of po-
+pulation.
+
+
+8 CIC is the linear combination of the other five ICT indicators (TEL, MOB,
+INU, INS, and FIB).
+
+
+9 All the variables are converted into their natural logarithms for our em-
+pirical investigation process.
+
+
+R.P. Pradhan et al. Technology in Society 57 (2019) 125–134
+
+
+128
+
+
+
+
+
+
+varies from case to case depending upon the data availability over the
+period that is covered. Descriptive statistics (mean, maximum,
+minimum, standard deviation, skewness and kurtosis) on the variables
+as well as unit root test statistics are available in Table A2 in Appendix
+A.
+
+
+3.3. The econometric methodology
+
+
+We use the following vector error-correction model (VECM) to in-
+vestigate the possible directions of causality among our three sets of
+variables.
+
+
+= +
+
+
++ +
+
+
+=
+
+
+Venture Capital Investment
+ICT Infrastructure
+Per Capita Economic Growth
+µ
+µ
+µ
+
+
+Venture Capital Investment
+ICT Infrastructure
+Per Capita Economic Growth
+
+
+ECT
+ECT
+ECT
+
+
+ln
+ln
+ln
+
+
+ln
+ln
+ln
+
+
+it
+
+
+it
+
+
+it
+
+
+j
+
+
+j
+
+
+j k
+
+
+p
+
+
+ik
+
+
+it k
+
+
+it k
+
+
+it k
+
+
+i it
+
+
+i it
+
+
+i it
+
+
+it
+it
+it
+
+
+1
+
+
+2
+
+
+3 1
+
+
+1
+
+
+1 1
+
+
+2 1
+
+
+3 1
+
+
+1
+2
+3 (1)
+
+
+where Δ is the first difference operator; i is the country specification in
+the panel; t is year; and ε is the uncorrelated error term. Venture capital
+investment is defined as VCE, VCL, or VCT. ICT infrastructure is defined
+as TEL, MOB, INU, INS, FIB, or CIC.
+
+
+The ECTit-1 terms are the one-period lag residual of the model (the
+lagged error-correction terms), obtained from the cointegrating equa-
+tion that represents the long-run dynamics; while the differenced
+variables represent the short-run dynamics between the variables. The
+lagged ECT terms measure the rate by which the long-term dis-
+equilibrium in the dependent variable restores back to the equilibrium.
+
+
+The above model provides robust results if the variables are in-
+tegrated of order one, I [1], and cointegrated. If the variables used in
+
+
+Eq. (1) are not cointegrated, the ECT-1's are removed in the estimation
+process. The directions of causation can be identified by testing the
+significance of the coefficient of each of the dependent variables in Eq.
+(1). First, we test the long-run Granger causality by looking at the
+significance of the speed of adjustment λ, which is the coefficient of the
+error correction term. The sign of λ should be negative after estimation.
+The higher the value of λ (in absolute term), the faster is the response of
+the variable to the previous period's deviations from the long-run
+equilibrium. The significance of λ indicates the long-run relationship of
+the cointegrated process, and so movements along this path can be
+considered permanent. For long-run causality, we test H0: λji = 0 for
+j= 1, 2, and 3. Next, the study tests the short-run Granger causality test
+and for this, we test H0: гik = 0 for all three variables. Specifically, we
+are interested in the direction of causality: both directions, from one
+variable to the other, or no causality.
+
+
+4. Empirical results and discussion
+
+
+In panel data analysis, the first step is a panel unit root test to de-
+termine the stationarity properties of the relevant variables. We use two
+panel unit roots, due to [60,61] since no significant evidence of error
+cross-sectional dependence is found in the data. These tests confirm that
+all the variables are I [1].10 These results suggest cointegration between
+venture capital investment, ICT infrastructure, and per capita economic
+growth. The Johansen-Fisher Panel cointegration test with an in-
+dividual intercept is then used to test the hypothesis that there is a long-
+run relationship between these variables. The results from this test
+demonstrate the existence of a long-run equilibrium relationship be-
+tween the three variables in our three samples and six cases (see
+Table 1).
+
+
+The above findings support our VECM approach to examine the
+
+
+Table 1
+Panel cointegration test results.
+
+
+Sample 1: VCE, ICT, PEG
+Case 1 (TEL) Case 2 (MOB) Case 3 (INU) Case 4 (INS) Case 5 (FIB) Case 6 (CIC)
+
+
+Tra Max Tra Max Tra Max Tra Max Tra Max Tra Max
+None 144* 129* 185* 143* 231* 174* 241* 188* 935* 570* 218* 166*
+At most 1 66.5* 59.4* 85.9* 89.8* 122* 92.5* 73.8* 55.4* 106* 78.9* 99.9* 88.7*
+At most 2 38.2 38.2 20.6 20.6 71.6* 71.6* 50.0* 50.0* 63.6* 63.6* 50.9* 50.9*
+NOC 2 2 3 3 3 3
+Inferences Cointegrated Cointegrated Cointegrated Cointegrated Cointegrated Cointegrated
+Sample 2: VCL, ICT, PEG
+
+
+Case 1 (TEL) Case 2 (MOB) Case 3 (INU) Case 4 (INS) Case 5 (FIB) Case 6 (CIC)
+
+
+Tra Max Tra Max Tra Max Tra Max Tra Max Tra Max
+None 153* 145* 659* 491* 244* 203* 321* 241* 590* 359* 432* 300.5*
+At most 1 38.0 36.4 67.9* 60.5* 87.3* 84.4* 110* 82.5* 119* 118* 70.8* 67.4*
+At most 2 27.2 27.2 38.7 38.7 39.0 39.0 61.2* 61.2* 38.4 38.4 35.4 35.4
+NOC 1 2 2 3 2 2
+Inferences Cointegrated Cointegrated Cointegrated Cointegrated Cointegrated Cointegrated
+Sample 3: VCT, ICT, PEG
+
+
+Case 1 (TEL) Case 2 (MOB) Case 3 (INU) Case 4 (INS) Case 5 (FIB) Case 6 (CIC)
+
+
+Tra Max Tra Max Tra Max Tra Max Tra Max Tra Max
+None 150* 161* 188* 151* 228* 172* 291* 259* 590* 448* 183* 134.8*
+At most 1 37.8 35.7 78.6* 66.6* 102* 87.2* 93.6* 67.0* 112* 99.2* 87.5* 83.5*
+At most 2 27.0 27.0 46.6 46.6 53.0* 53.0* 63.0* 63.0* 52.9* 52.9* 39.8* 39.8*
+NOC 1 2 3 3 3 3
+Inferences Cointegrated Cointegrated Cointegrated Cointegrated Cointegrated Cointegrated
+
+
+Note 1: PEG is per capita economic growth, VCE is venture capital at early stage investment, VCL is venture capital at later stage investment, VCT is venture capital
+total; TEL is telephone land lines, MOB is mobile phones, INU is internet users, INS is internet servers, FIB is fixed broadband, and CIC is composite index of ICT
+infrastructure.
+Note 2: Tra is trace statistics; Max is maximum Eigen value statistics; and NOC is number of cointegrating vectors.
+Note 3: * indicates that test statistics are significant at the 1% level.
+
+
+10 The unit root test results are not reported here, but can be available from
+the authors upon request.
+
+
+R.P. Pradhan et al. Technology in Society 57 (2019) 125–134
+
+
+129
+
+
+
+
+
+
+Granger causal relationships among the variables, the results of which
+are summarized in Table 2. We first present the long-run results, as-
+certained by examining the statistical significance of the ECT-1 coeffi-
+cients. Table 2 shows that when ΔVCI11 is the dependent variable, the
+lagged ECT coefficients are negative and statistically significant at the
+1% level.12 This confirms the existence of a stable long-run relationship
+and points to a long-run cointegration relationship between these
+variables. The lagged ECTs represent the speed of adjustment to restore
+equilibrium in the dynamic model following a disturbance. The coef-
+ficients of the lagged ECTs vary between −0.32 and −0.001, implying
+that a deviation from the long-run equilibrium following a short-run
+shock is corrected by about 32%–1% after each year.
+
+
+Our results in Table 2 also reveal that venture capital investment
+tends to converge to its long-run equilibrium path in response to changes
+in ICT infrastructure and per capita economic growth. This is true for all
+three samples and six cases that we consider. Therefore, the overall
+conclusion is that venture capital investment in European countries is
+significantly influenced by both ICT infrastructure and economic growth.
+
+
+In other words, to stimulate long-run venture capital investment, it is
+important to enhance both ICT infrastructure and economic growth in
+European countries. Needless to say, smart use of ICT by businesses and
+strong formation of digital supply chains will increase the demand for
+new ICT infrastructure, which will help spawn new ICT start-up firms,
+creating a dynamic and vibrant VC industry in Europe.
+
+
+Finally, there is some evidence of feedback causality between VCI
+and economic growth in the long run. This is evident under Sample 2
+(Cases 3 and 6) and Sample 3 (Cases 1 and 2). These results show in the
+long run, economic growth and late-stage venture capital investment
+have a significant impact on internet usage. Further, internet usage and
+late-stage venture capital directly influence economic growth in the long
+run. The VC funding is given to firms after they have commenced com-
+mercialisation activities prior to moving to initial public offering (IPO).
+The late VC funding is normally used to scale-up the firms' operations,
+including expanding firms’ plant and digital capabilities, enabling them
+to enhance their product quality, market reach, branding and positioning
+prior to IPO – all of which will contribute to firm performance and
+contribute to the GDP growth of Europe. These interesting results high-
+light that the internet is increasingly becoming the backbone of the
+global supply chain. Hence, the dynamics captured by Sample 2 (Cases 3
+and 6) and Sample 3 (Cases 1 and 2) provides further support for the
+structural changes taking place in the European economies.
+
+
+Table 2
+Panel Granger causality test results.
+
+
+Dependent Variable Independent variables and ECT-1
+
+
+Sample 1: VCE, ICT, PEG
+Case 1 (TEL) Case 2 (MOB) Case 3 (INU)
+
+
+ΔVCE ΔTEL ΔPEG ECT-1 ΔVCE ΔMOB ΔPEG ECT-1 ΔVCE ΔINU ΔPEG ECT-1
+ΔVCE – 2.22 47.8* −0.26* – 3.08 19.1* −0.01* – 18.8* 19.4* −0.04*
+ΔICT 8.50* – 1.54 −0.001 5.29** – 12.2* −0.003 1.70 – 4.59*** −0.02
+ΔPEG 3.28 7.12* – −0.004 2.28 6.52** – −0.001 4.98*** 2.22 – −0.001
+
+
+Case 4 (INS) Case 5 (FIB) Case 6 (CIC)
+
+
+ΔVCE ΔINS ΔPEG ECT-1 ΔVCE ΔFIB ΔPEG ECT-1 ΔVCE ΔCIC ΔPEG ECT-1
+ΔVCE – 6.98* 33.2* −0.29* – 32.6* 25.2* −0.32** – 17.3* 36.7* −0.24*
+ΔICT 10.0* – 123.0* −0.002 1.70 – 3.60 −0.004 6.75** – 3.52 −0.005
+ΔPEG 12.7* 64.0* – −0.003 1.10 7.76* – −0.003 2.07 24.0* – −0.002
+Sample 2: VCL, ICT, PEG
+
+
+Case 1 (TEL) Case 2 (MOB) Case 3 (INU)
+
+
+ΔVCL ΔTEL ΔPEG ECT-1 ΔVCL ΔMOB ΔPEG ECT-1 ΔVCL ΔINU ΔPEG ECT-1
+ΔVCL – 5.41** 14.1* −0.03* – 11.0* 4.88*** −0.01* – 12.0* 6.54** −0.01*
+ΔICT 3.37 – 1.15 −0.001 6.02** – 10.7* −0.01 12.0* – 5.10*** −0.01**
+ΔPEG 16.9* 8.79* – −0.005 10.8* 5.70* – −0.14 12.9* 5.13*** – −0.001**
+
+
+Case 4 (INS) Case 5 (FIB) Case 6 (CIC)
+
+
+ΔVCL ΔINS ΔPEG ECT-1 ΔVCL ΔFIB ΔPEG ECT-1 ΔVCL ΔCIC ΔPEG ECT-1
+ΔVCL – 7.96* 19.1* −0.034* – 13.9* 8.07* −0.04* – 14.5* 2.98 −0.01*
+ΔICT 2.82 – 125.2* −0.01 5.73*** – 5.29* −0.02 16.0* – 3.06 −0.001
+ΔPEG 1.58 19.3* – −0.03 26.7* 5.80* – −0.001 13.6* 21.8* – −0.001**
+Sample 3: VCT, ICT, PEG
+
+
+Case 1 (TEL) Case 2 (MOB) Case 3 (INU)
+
+
+ΔVCT ΔTEL ΔPEG ECT-1 ΔVCT ΔMOB ΔPEG ECT-1 ΔVCT ΔINU ΔPEG ECT-1
+ΔVCT – 6.26** 33.0* −0.16* – 5.83** 6.44* −0.001* – 9.87* 5.04*** −0.01*
+ΔICT 9.29* – 1.54 −0.001 4.06*** – 14.6* −0.002 6.51* – 3.11 −0.004
+ΔPEG 2.08 13.0* – −0.005* 5.65*** 6.91** – −0.001** 6.07** 1.06 – −0.001
+
+
+Case 4 (INS) Case 5 (FIB) Case 6 (CIC)
+
+
+ΔVCT ΔINS ΔPEG ECT-1 ΔVCT ΔFIB ΔPEG ECT-1 ΔVCT ΔCIC ΔPEG ECT-1
+ΔVCT – 15.4* 35.1* −0.19* – 24.1* 6.22** −0.12* – 18.8* 5.04*** −0.01*
+ΔICT 1.69 – 142.6* −0.01 4.85*** – 1.07 −0.014 9.95* – 5.81** −0.004
+ΔPEG 1.31 47.2* – −0.005 6.11** 10.4* – −0.001 2.17 31.9* – −0.001
+
+
+Note 1: PEG is per capita economic growth, VCE is venture capital at early stage investment, VCL is venture capital at later stage investment, VCT is venture capital
+total; and ICT stands for information and communication technology infrastructure and indicates TEL, MOB, INU, INS, FIB, or CIC.
+Note 2: TEL is telephone land lines, MOB is mobile phones, INU is internet users, INS is internet servers, FIB is fixed broadband, CIC is a composite index of ICT
+infrastructure, and ECT-1: lagged error-correction term.
+Note 3: *, **, and *** indicate that parameter estimates are significant at 1%, 5%, and 10% levels, respectively.
+
+
+11 VCI is used for VCE, VCL, or VCT.
+12 With one exception (Sample 1, Case 5), where statistical significance is at
+
+
+the 5% level.
+
+
+R.P. Pradhan et al. Technology in Society 57 (2019) 125–134
+
+
+130
+
+
+
+
+
+
+In the short run, the results are mostly non-uniform, with two ex-
+ceptions: we found unidirectional causality from telephone landlines to
+economic growth and the bidirectional causality between the composite
+index of ICT infrastructure and venture capital investment. We sum-
+marize the non-uniform short-run results in Table 3, demonstrating that
+the short-run adjustment dynamics vary across samples/cases. The
+details of these results are presented below.
+
+
+Hypothesis 1. (HA1, 2) contends that the venture capital investment
+Granger-causes economic growth, and vice versa. We find mixed short-
+run results regarding this hypothesis. With Cases 1, 2, 5, and 6 (in
+Sample 1: VCE), Cases 4 and 6 (in Sample 2: VCL), and Cases 1, 3, and 6
+(in Sample 3: VCT), we find unidirectional causality between per capita
+economic growth and venture capital investment. Conversely, we find
+bidirectional causality between per capita economic growth and
+venture capital investment with Cases 3 and 4 (in Sample 1), Cases 1,
+2, 3, and 5 (in Sample 2), and Cases 2, 3 and 5 (in Sample 3).
+
+
+Hypothesis 2. (HA1, 2) contends that ICT infrastructure Granger-causes
+per capita economic growth, and vice versa. We also find mixed short-
+run evidence regarding this hypothesis. With Cases 1, 3, 5, and 6 (in
+Sample 1: VCE), Cases 1 and 6 (in Sample 2: VCL), and Cases 1 and 5 (in
+Sample 3: VCT), we find unidirectional causality between per capita
+economic growth and venture capital investment. We find bidirectional
+causality between per capita economic growth and venture capital
+investment with Cases 2 and 4 (in Sample 1), Cases 2, 4, and 5 (in
+Sample 2), and Cases 2, 4 and 6 (in Sample 3). We also find the evidence
+of neutrality in a few cases, such as Case 3 in both Samples 2 and 3.
+
+
+Hypothesis 3. (HA1, 2) posits that venture capital investment Granger-
+causes ICT infrastructure, and vice versa. As with the other two
+hypotheses, short-run causality results here are mixed. With Cases 1,
+2, 3, and 5 (in Sample 1: VCE), Cases 1 and 4 (in Sample 2: VCL), and
+Case 4 (in Sample 3: VCT), we find unidirectional causality between
+venture capital investment and ICT infrastructure. On the contrary, the
+study finds bidirectional causality between ICT infrastructure and
+venture capital investment with Cases 4 and 6 (in Sample 1), Cases 2,
+3, 5, and 6 (in Sample 2), and Cases 1, 2, 3, 5 and 6 (in Sample 3).
+
+
+The discussions above show that the development of the digital
+
+
+economy in Europe opens up new opportunities for firms to enhance
+their productivity and economic performance, fuelling the demand for
+VC funding. On the other hand, the strong economic growth potential of
+the firms and access to VC funding will enable firms to adopt new
+business models underpinned by advanced ICT infrastructure and sys-
+tems. This will increase the demand for and contribute to the devel-
+opment of ICT infrastructure. The results show that the impacts of ICT,
+venture capital funding and economic growth reinforce and deepen one
+another – all of which are critical for the sustained economic perfor-
+mance of in European countries.
+
+
+Evidently, the mixture of bidirectional and unidirectional causality
+results for the short-run and long-run dynamics show that there are
+strong inter-linkages between the variables. Hence, careful curation of
+policies to develop the ICT infrastructure and adoption rates, the es-
+tablishment of a vibrant VC industry, and implementation of economic
+growth promoting strategies must take into consideration the ‘spill-
+over’ impacts these policies have on the digital and VC ecosystems and
+GDP growth in Europe.
+
+
+5. Hypotheses validation and limitations of the study
+
+
+To supplement our analysis, some additional estimations were
+performed. The analyses and results, though not reported here because
+of space constraints,13 deserve a brief mention. First, the FMOLS14 and
+DOLS15 were used to capture the dynamics between venture capital
+investment, ICT infrastructure, and economic growth. Second, a
+
+
+Table 3
+Summary of short-run Granger causality results.
+
+
+Short-run Causal Relationships Between
+
+
+Samples Cases VCI and ICT VCI and PEG ICT and PEG
+
+
+1 1 TEL < =VCE PEG => VCE PEG < = TEL
+2 MOB < =VCE PEG = > VCE PEG < = > MOB
+3 INU = > VCE PEG < = > VCE PEG = > INU
+4 INS < = > VCE PEG < = > VCE PEG < = > INS
+5 FIB = > VCE PEG = > VCE PEG < = FIB
+6 CIC < = > VCE PRG = > VCE PEG< =CIC
+
+
+2 1 TEL = > VCL PEG < = > VCL PEG < = TEL
+2 MOB < = > VCL PEG < = > VCL PEG < = > MOB
+3 INU < = > VCL PEG < = > VCL PEG < # > INU
+4 INS = > VCL PEG = > VCL PEG < = > INS
+5 FIB < = > VCL PEG < = > VCL PEG < = > FIB
+6 CIC < = > VCL PEG < =VCL PEG < = CIC
+
+
+3 1 TEL < = > VCT PEG = > VCT PEG < = TEL
+3 MOB < = > VCT PEG < = > VCT PEG < = > MOB
+3 INU < = > VCT PEG < = > VCT PEG < # > INU
+4 INS = > VCT PEG = > VCT PEG < = > INS
+5 FIB < = > VCT PEG < = > VCT PEG < = FIB
+6 CIC < = > VCT PEG = > VCT PEG < = > CIC
+
+
+Note 1: PEG is per capita economic growth, VCE is venture capital at early stage investment, VCL is venture capital at later stage investment, VCT is venture capital
+total; TEL is telephone land lines, MOB is mobile phones, INU is internet users, INS is internet servers, FIB is fixed broadband, and CIC is composite index of ICT
+infrastructure.
+Note 2: VCI stands for venture capital investment and indicates VCE, VCL, or VCT.
+Note 3: ICT stands for information and communication technology infrastructure and indicates TEL, MOB, INU, INS, FIB, or CIC.
+Note 4:< = / => /< = > indicate the direction of Granger causality; and <#> indicates no causality.
+
+
+13 All of the results from additional estimations are available from the authors
+upon request.
+
+
+14 FMOLS is fully modified ordinary least squares (OLS), a non-parametric
+estimation approach, which takes into account the possible correlation between
+the error term and the first differences of regressor as well as the presence of a
+constant term to deal with corrections for serial correlation (see, for instance,
+Maeso-Fernandez et al., 2006; Pedroni, 2000).
+
+
+15 DOLS is dynamic OLS, a parametric estimation approach that adjusts the
+errors by augmenting the static regression with leads, lags, and con-
+temporaneous values of the regressor in first differences (see, for instance, Kao
+and Chiang, 2000).
+
+
+R.P. Pradhan et al. Technology in Society 57 (2019) 125–134
+
+
+131
+
+
+
+
+
+
+sensitivity analysis was performed by changing the order of the vector
+error-correction model. Third, Generalised Impulse Response Functions
+(GIRFs) were used to gain additional insights into how the shocks to the
+variables impact the other variables. These additional estimation results
+generally support our earlier overall findings. In particular, the results
+from our sensitivity analysis did not present a substantial change to our
+earlier main findings.
+
+
+Nonetheless, a brief discussion of some of the limitations of our
+study is in order. First, while the deployment of VECM is an appropriate
+methodology, our study has not considered non-linearity tests and/or
+structural breaks, which may lead to biases in the results. Second, our
+study could not incorporate some of the other ICT indicators like the
+internet of things (IoT) and usage of other ICT devices due to the lack of
+available data over the sample period for the European countries.
+
+
+6. Policy implication and concluding remarks
+
+
+This study uses advanced statistical techniques to study the complex
+short-term and long-term relationships between venture capital in-
+vestment, ICT infrastructure, and economic growth simultaneously in
+Europe. In doing so, we integrate three strands of the literature, which
+examine the link between two of these variables at a time. The em-
+pirical analysis shows that the three variables are cointegrated. Most
+importantly, there is clear evidence that both ICT infrastructure and
+economic growth matter in the determination of long-run venture ca-
+pital investment. In the short term, the results also show that in most
+cases, the development of ICT infrastructure, VC industry, and eco-
+nomic growth deepen and reinforce one another. These empirical re-
+sults confirm the view expressed by policymakers and industry experts
+that the formation of digital supply chains and the development of new
+business models using the digital platforms will create a vibrant VC
+industry and spur economic growth in Europe [62,63]; and [64].
+
+
+The empirical results also suggest that in order to stimulate sus-
+tained economic growth in the European economies, policy-makers
+should give careful thought to the inter-dependence of the various
+policy measures pertaining to the development of ICT, the VC industry,
+and economic growth. Key policies related to ICT infrastructure de-
+velopment, the creation of a vibrant VC industry, and development of a
+sound economic ecosystem in Europe are outlined below.
+
+
+First, priority should be given to putting in place a systematic fra-
+mework in Europe to continuously develop and upgrade the ICT in-
+frastructure so as to ensure that firms have access to state-of-the-art ICT
+infrastructure. This will enable them to enhance their reach for re-
+sources, knowledge and markets, and assist them in improving the
+quality of their products and services. The ICT strategy should also
+incorporate the development of user-friendly and affordable technology
+and applications for consumers to use the digital platforms to gain ac-
+cess to new products and services.
+
+
+Greater adoption of ICT will also be reinforced by facilitating af-
+fordable ICT literacy programs and strengthening the digital regulatory
+architecture to mitigate risks associated with cybercrimes. Various
+programs have been introduced by some of the countries in Europe to
+raise the firms' ICT skills, especially SMEs. Among them are the fol-
+lowing: peer-to-peer digital skill programs; mentorship of SME's by
+
+
+larger and well-established corporations; access to ICT skills training
+programs from vocational institutes, colleges and institutions of higher
+learning; and online ICT skills training programs. In this context, the
+introduction of the European e-Business Network, which helps strengthen
+ICT education and the digital supply chain for e-business, is a positive
+step towards promoting digital entrepreneurship and economic growth
+among the SMEs in Europe [65]. Further, the establishment of the
+European Cybercrime Centre, which helps monitor and put in place
+measures to address cybercrime, cybersecurity and data privacy, has
+played a key role in enhancing business and consumer confidence,
+which will likely increase the use of digital platforms by all stake-
+holders [66].
+
+
+The second priority is to pursue GDP growth-promoting strategies,
+which include creating appropriate incentives to increase domestic and
+foreign investments into the European economies, especially in the ICT-
+driven industries. These investments are important for developing the
+ICT infrastructure, increasing the supply of ICT-savvy workforces and
+strengthening the VC industry in Europe. Among the key business-
+friendly policies are the following: removal of barriers that hinder di-
+gital entrepreneurship; regulatory reforms to harmonise legislations,
+laws and business practises among the diverse member countries in
+Europe; and mobilisation of resources to nurture vibrant start-up eco-
+systems, incubators, and accelerators that foster e-governance, digital
+innovation and job creation in Europe [62,65].
+
+
+The third priority is to foster strong and vibrant VC ecosystems in
+Europe, which will not only create employment but also spawn new
+technology start-ups that will lead to the development of next-genera-
+tion competitive industries. Among the major challenges faced by the
+European VC industry are the following: lack of harmonisation of reg-
+ulatory and financial systems in member countries; low economic
+growth potential in many of the developing economies in Europe; and
+low levels of private and institutional investors [2]. Strengthening and
+harmonising the financial regulations, increasing digital entrepreneur-
+ship, and developing strong digital supply chains will be important
+drivers for increasing promising business ventures in the less developed
+or emerging regions of Europe – all of which, will result in stronger and
+more dynamic VC industries across Europe.
+
+
+In summary, this study highlights the strong interdependence be-
+tween the ICT infrastructure, venture capital, and economic growth,
+both in the short run and long run, in Europe. These results suggest that
+policymakers in the region should take an integrated approach to
+capture the positive externalities of the policy intervention strategies
+pertaining to the creation of a sound digital economy and a vibrant VC
+industry to ensure sustainable economic growth in Europe. Lessons
+from this European case study provide valuable insights for policy-
+makers in other regions on co-development strategies pertaining to the
+development of ICT infrastructure, the VC industry and other economic
+growth promoting initiatives.
+
+
+Acknowledgement
+
+
+The authors thank the editor and the two anonymous reviewers of
+this journal for their helpful comments, which have improved the
+overall presentation of this paper.
+
+
+R.P. Pradhan et al. Technology in Society 57 (2019) 125–134
+
+
+132
+
+
+
+
+
+
+Appendix A. Variables
+
+
+Table A.1
+Definition of Variables.
+
+
+Variables'
+Code
+
+
+Variables' Definition
+
+
+SET 1: VENTURE CAPITAL INVESTMENT INDICATORS
+VCE Venture capital investment at an early stage: venture capital investment aimed at young businesses in their primary development stage. This is expressed as a
+
+
+percentage of gross domestic product (GDP).
+VCL Venture capital investment at a later stage: venture capital investment aimed at young businesses in need of expansion capital (as a percentage of GDP).
+VCT Total venture capital investment: venture capital investment directed at both early stage and later stages (as a percentage of GDP).
+SET 2: ICT DEVELOPMENT INDICATORS
+TEL Telephone landlines: telephone landlines per thousand of population.
+MOB Mobile phones: mobile phone subscribers per thousand of population.
+INU Internet users: internet users per thousand of population.
+INS Internet servers: internet servers per thousand of population.
+FIB Fixed broadband: Fixed broadband per thousand of population.
+CIC Composite index of ICT infrastructure: this is the weighted average of TEL, MOB, INU, INS, and FIB.
+SET 3: ECONOMIC GROWTH INDICATOR
+PEG Per capita economic growth: Calculated as a percentage change in per capita GDP.
+
+
+Note 1: Variables above are defined in the World Development Indicators of the World Bank and the European Venture Capital Association's Venture Capital Database.
+Note 2: All monetary variables are measured in constant US dollars.
+Note 3: Natural logarithm of the variables are used in the estimation process.
+
+
+Table A.2
+Descriptive Statistics and Unit Root Statistics.
+
+
+Variable Descriptive Statistics Unit Root Statistics
+
+
+Mea Max Min Std Ske Kur LLC IPS Inference
+
+
+VCE 1.383 3.627 −5.586 1.552 −2.687 10.22 −3.663* −6.796* I [1]
+VCL 1.503 3.886 −5.075 1.622 −2.564 9.975 −3.960* −8.678* I [1]
+VCT 1.936 4.077 −2.959 1.138 −1.974 7.655 −7.924* −9.121* I [1]
+TEL 2.623 2.871 1.991 0.149 −1.150 4.757 −3.200* −2.816* I [1]
+MOB 3.036 3.236 2.239 0.111 −2.358 15.68 −3.356* −4.609* I [1]
+INU 2.794 2.988 1.657 0.188 −2.042 9.192 −8.603* −7.296* I [1]
+INS −0.535 0.492 −2.622 0.633 −0.607 2.950 −4.560* −2.990* I [1]
+FIB 2.203 2.652 −0.567 0.514 −2.742 11.97 −33.30* −18.20* I [1]
+CIC 0.548 0.803 −0.332 0.166 1.373 6.251 −4.191* −2.537* I [1]
+PEG 1.675 1.855 1.572 0.028 0.730 9.735 −41.90* −49.70* I [1]
+
+
+Note 1: VCE is venture capital at early stage investment, VCL is venture capital at later stage investment, VCT is venture capital total investment, TEL is telephone
+land lines, MOB is mobile phones, INU is internet users, INS is internet servers, FIB is fixed broadband, CIC is a composite index of ICT infrastructure, and PEG is per
+capita economic growth.
+Note 2: Mea is mean, Max is maximum, Min is minimum, Std is standard deviation, Ske is skewness, and Kur is Kurtosis.
+Note 3: Log-transformed values for the variables are reported in this table.
+Note 4: LLC is Levin-Lin-Chu statistics, and IPS is Im-Pesaran-Shin statistics. Both these statistics are reported here at first difference level only. I [1] denotes
+integration of order one.
+Note 5: * indicates significance at the 1% level.
+
+
+References
+
+
+[1] R. Veugelers, An innovation deficit behind Europe's overall productivity slowdown?
+Investment and Growth in Advanced Economies Conference Proceedings, European
+Central Bank Forum on Central Banking, 26-28 June, Sintra, Portugal, 2017
+Retrieved from: https://www.ecb.europa.eu/pub/pdf/other/ecb.
+ecbforumcentralbanking2017.en.pdf , Accessed date: 28 September 2018.
+
+
+[2] G. Metzger, General Part, Building Momentum in Venture Capital across Europe,
+Bpifrance-France, Cassa depositi e presititi Spa (CDA) – Italy, Instituto dei Credits
+Official ((CO) – Spain, British Business Bank – UK and KfW Bankengruppe (KfW) –
+Germany, (2016), pp. 13–28.
+
+
+[3] R. Florida, D.F. Smith Jr., Venture capital, innovation and economic development,
+Econ. Dev. Q. 4 (4) (1990) 345–360.
+
+
+[4] P.A. Gompers, J. Lerner, The venture capital revolution, J. Econ. Perspect. 15 (2)
+(2001) 145–168.
+
+
+[5] S. Samila, O. Sorenson, Venture capital, entrepreneurship, and economic growth,
+Rev. Econ. Stat. 93 (1) (2011) 338–349.
+
+
+[6] M. Da Rin, G. Nicodano, A. Sembenelli, Public policy and the creation of active
+venture capital markets, J. Publ. Econ. 90 (8) (2013) 1699–1723.
+
+
+[7] B.A. Jain, Predictors of performance of venture capitalist-backed organizations, J.
+Bus. Res. 52 (3) (2001) 223–233.
+
+
+[8] C. Chakraborty, B. Nandi, Telecommunications adoption and economic growth in
+
+
+developing countries: do levels of development matter, J. Acad. Bus. Econ. 9 (2)
+(2009) 51–61.
+
+
+[9] C. Chakraborty, B. Nandi, Mainline telecommunications infrastructure, levels of
+development and economic growth: evidence from a panel of developing countries,
+Telecommun. Pol. 35 (1) (2011) 441–449.
+
+
+[10] J. Wonglimpiyarat, Technology transfer and commercialization: venture capital
+financing system of Thailand, J. Private Equity 16 (1) (2012) 42–55.
+
+
+[11] T. Hellmann, M. Puri, Venture capital and the professionalization of start-up firms:
+empirical evidence, J. Finance 57 (1) (2002) 169–197.
+
+
+[12] R.P. Pradhan, R. Maradana, D. Zaki, S. Dash, M. Jayakumar, Nexus between venture
+capital and economic growth in European economic area countries: the granger
+causality approach, J. Develop. Area. 50 (6) (2016) 1–15.
+
+
+[13] I. Hasan, H. Wang, The Role of Venture Capital on Innovation, New Business
+Formation, and Economic Growth, FMA) Annual Meeting, Salt Lake City, Utah,
+2006 Presented at the 2006 Financial Management Association.
+
+
+[14] R.P. Pradhan, M.B. Arvin, M. Nair, S.E. Bennett, Venture capital investment, fi-
+nancial development, and economic growth: the case of European single market
+countries, Venture Cap. 19 (4) (2017) 313–333.
+
+
+[15] S.A. Carvell, J.Y. Kim, Q. Ma, A.D. Ukhov, Economic and capital market ante-
+cedents of venture capital commitments (1960–2010), Int. Enterpren. Manag. J. 9
+(2) (2013) 167–182.
+
+
+[16] S. Bonini, S. Alkan, The political and legal determinants of venture capital invest-
+ments around the World, Small Bus. Econ. 39 (4) (2012) 997–1016.
+
+
+R.P. Pradhan et al. Technology in Society 57 (2019) 125–134
+
+
+133
+
+
+
+https://www.ecb.europa.eu/pub/pdf/other/ecb.ecbforumcentralbanking2017.en.pdf
+
+https://www.ecb.europa.eu/pub/pdf/other/ecb.ecbforumcentralbanking2017.en.pdf
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref2
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref2
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref2
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref2
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref3
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref3
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref4
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref4
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref5
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref5
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref6
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref6
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref7
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref7
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref8
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref8
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref8
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref9
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref9
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref9
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref10
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref10
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref11
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref11
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref12
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref12
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref12
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref13
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref13
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref13
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref14
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref14
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref14
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref15
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref15
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref15
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref16
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref16
+
+
+
+
+[17] M. Cherif, K. Gazdar, What drives venture capital investments in Europe? New
+results from a panel data analysis, Journal of Applied Business and Economics 12
+(3) (2011) 122–139.
+
+
+[18] E.G.S. Felix, C.P. Pires, M.A. Gulamhussen, The determinants of venture capital in
+Europe -evidence across countries, J. Financ. Serv. Res. 44 (3) (2013) 259–279.
+
+
+[19] L.A. Jeng, P.C. Wells, The determinants of venture capital funding: evidence across
+countries, J. Corp. Finance 6 (3) (2000) 241–289.
+
+
+[20] A. Romain, B. van Pottelsberghe, The Determinants of Venture Capital: Additional
+Evidence. Working Paper No. 19/2004. Studies of the Economic Research Center,
+Deutsche Bundesbank, Frankfurt, 2004.
+
+
+[21] A. Cieslik, M. Kaniewsk, Telecommunications infrastructure and regional economic
+development: the case of Poland, Reg. Stud. 38 (6) (2004) 713–725.
+
+
+[22] R.P. Pradhan, M.B. Arvin, J.H. Hall, Economic growth, development of tele-
+communications infrastructure, and financial development in asia, 1991-2012, Q.
+Rev. Econ. Finance 59 (C) (2016) 25–38.
+
+
+[23] L. Roller, L. Waverman, Telecommunications infrastructure and economic devel-
+opment: a simultaneous approach, Am. Econ. Rev. 91 (4) (2001) 909–923.
+
+
+[24] A. Shiu, P.L. Lam, Causal relationship between telecommunications and economic
+growth in China and its regions, Reg. Stud. 42 (5) (2008) 705–718.
+
+
+[25] A. Shiu, P.L. Lam, Causal Relationship between Telecommunication and Economic
+Growth: a Study of 105 Countries, 17th Biennial Conference of the International
+Telecommunications Society (ITS). Montreal, June, 2008.
+
+
+[26] J. Adongo, Determinants of Venture Capital in Africa: Cross Section Evidence. AERC
+Research Paper, No. 237, African Economic Research Consortium, Nairobi, 2011.
+
+
+[27] E.L. Bebee, E.J.W. Gilling, Telecommunications and economic-development model
+for planning and policy making, Telecommun. J. 43 (8) (1976) 537–542.
+
+
+[28] R.R. Dholakia, B. Harlam, Telecommunications and economic development:
+econometric analysis of the US experience, Telecommun. Pol. 18 (6) (1994)
+470–477.
+
+
+[29] R.P. Pradhan, M.B. Arvin, N.R. Norman, The dynamics of information and com-
+munications technologies infrastructure, economic growth, and financial develop-
+ment: evidence from asian countries, Technol. Soc. 42 (1) (2015) 135–149.
+
+
+[30] P.A. Gompers, J. Lerner, What Drives Venture Capital Fundraising? Brookings
+Papers on Economic Activity - Microeconomics, Brookings Institution, Washington,
+D.C, 1998, pp. 149–192.
+
+
+[31] B. Mehmood, W. Siddiqui, What causes what? Panel cointegration approach on
+investment in telecommunications and economic growth: case of asian countries,
+Rom. Econ. J. 16 (47) (2013) 3–16.
+
+
+[32] R.P. Pradhan, M.B. Arvin, M. Nair, S.E. Bennett, The innovation- growth link in
+OECD countries: could other macroeconomic variables matter? Technol. Soc. 51
+(2017) 113–123.
+
+
+[33] R.P. Pradhan, M.B. Arvin, J.H. Hall, S.E. Bennett, Mobile telephony, economic
+growth, financial development, foreign direct investment, and imports of ICT goods:
+the case of the G-20 countries, Journal of Industrial and Business Economics 45 (2)
+(2018) 279–310.
+
+
+[34] R.P. Pradhan, M.B. Arvin, J. Mittal, S. Bahmani, Relationships between tele-
+communications infrastructure, capital formation, and economic growth, Int. J.
+Technol. Manag. 70 (2–3) (2016) 157–176.
+
+
+[35] R.P. Pradhan, M.B. Arvin, N.R. Norman, S.K. Bele, Economic growth and the de-
+velopment of telecommunications infrastructure in the G-20 countries: a Panel-VAR
+approach, Telecommun. Pol. 38 (7) (2014) 634–649.
+
+
+[36] R.P. Pradhan, M.B. Arvin, S. Bahmani, N.R. Norman, The development of tele-
+communications infra/structure and economic growth: using causality and missing
+variables for the G-20 countries, 2001-2012, J. Comp. Pol. Anal. 16 (5) (2014)
+401–423.
+
+
+[37] A. Dutta, Telecommunications and economic activity: an analysis of granger caus-
+ality, J. Manag. Inf. Syst. 17 (4) (2001) 71–95.
+
+
+[38] R.P. Pradhan, M.B. Arvin, M. Nair, J. Mittal, N.R. Norman, Telecommunications
+infrastructure and usage and the FDI–growth nexus: evidence from Asian-21
+countries, Inf. Technol. Dev. 23 (2) (2017) 235–260.
+
+
+[39] S.H. Lee, J. Levendis, L. Gutierrez, Telecommunications and economic growth: an
+empirical analysis of sub-saharan africa, Appl. Econ. 44 (4) (2012) 461–469.
+
+
+[40] M. Arvin, R. Pradhan, Broadband penetration and economic growth nexus: evi-
+dence from cross-country panel data, Appl. Econ. 46 (35) (2014) 4360–4369.
+
+
+[41] P.L. Lam, A. Shiu, Economic growth, telecommunications development and pro-
+ductivity growth of the telecommunications sector: evidence around the World,
+Telecommun. Pol. 34 (4) (2010) 185–199.
+
+
+[42] K. Zahra, P. Azim, A. Mahmood, Telecommunications infrastructure development
+and economic growth: a panel data approach, Pakistan Dev. Rev. 47 (4) (2008)
+711–726.
+
+
+[43] B. Veeramacheneni, E.M. Ekanayake, R. Vogel, Information technology and eco-
+nomic growth: a causal analysis, Southwestern Economic Review 34 (1) (2007)
+75–88.
+
+
+[44] C. Keuschnigg, Venture capital backed growth, J. Econ. Growth 9 (2) (2004)
+239–261.
+
+
+[45] OECD, Venture Capital: Trends and Policy Recommendations, Science Technology
+Industry Working Paper, No. 2013/12, OECD, Paris, 2003.
+
+
+[46] G. Baygan, Venture Capital Policy Review: United States. OECD Science,
+Technology and Industry Working Papers 2003/12 OECD Publishing, Paris, 2003.
+
+
+[47] V.V. Kolmakov, A.G. Polyakova, V.S. Shalaev, An Analysis of the Impact of Venture
+Capital Investment on Economic Growth and Innovation: Evidence from the U.S.A.
+and Russia, Econ. Ann. 55 (207) (2015) 7–37.
+
+
+[48] L.W. Schwartz, Venture Abroad: Developing Countries Need Venture Capital
+Strategies, Foreign Aff. 73 (6) (1994) 14–18.
+
+
+[49] R.P. Pradhan, R.P. Maradana, S. Dash, D.B. Zaki, K. Gaurav, M. Jayakumar, Venture
+Capital, Innovation Activities, And Economic Growth: Are Feedback Effects at
+Work? Innovation 19 (2) (2017) 189–207.
+
+
+[50] R. Fuss, D. Schweizer, Short and Long-term Interactions between Venture Capital
+Returns and the Macroeconomy: Evidence for the United States, Rev. Quant.
+Finance Account. 38 (3) (2012) 391–410.
+
+
+[51] G.A. Gabison, Venture Capital Principles in the European ICT Ecosystem, Joint
+Research Centre, European Union, Luxembourg, 2015.
+
+
+[52] G.A. Gabison, Birth, Survival, Growth and Death of ICT Companies, Venture Capital
+Principles in the European ICT Ecosystem, Joint Research Centre, European Union,
+Luxembourg, 2015.
+
+
+[53] G. Avnimelech, M. Teubal, Creating Venture Capital Industries that Co-Evolve with
+High Tech: Insights from an Extended Industry Lifecycle Perspective of the Israeli
+Experience, Res. Pol. 35 (10) (2006) 1477–1498.
+
+
+[54] H. Chesbrough, Making Sense of Corporate Venture Capital, Harv. Bus. Rev. 80 (3)
+(2002) 90–99.
+
+
+[55] D.J. Cumming, L. Grilli, S. Murtinu, Governmental and Independent Venture
+Capital Investments in Europe: A Firm-level Performance Analysis, J. Corp. Finance
+42 (2017) 439–459.
+
+
+[56] A. Metrick, A. Yasuda, The Best VCs, Venture Capital and the Finance of Innovation,
+John Wiley & Sons, Inc, Danvers, MA, 2011, pp. 83–98.
+
+
+[57] H. Kraemer-Eis, S. Signore, D. Prencipe, The European Venture Capital Landscape:
+an EIF Perspective, Volume 1: the Impact of EIF on the VC Ecosystem, Working
+Paper, No. 2016/34, European Investment Fund, Luxembourg, 2016.
+
+
+[58] J.S. Lantz, J.M. Sahut, F. Teulon, What is The Real Role of Corporate Venture
+Capital? Int. J. Bus. (2011) 368–382.
+
+
+[59] J.E. Dubiansky, An Analysis for the Evaluation of Venture Capital-Funded Startup
+Firm Patents, B.U, J. Sci. Technol. Law 12 (2) (2006) 170–192.
+
+
+[60] A. Levin, C.F. Lin, C.S.J. Chu, Unit Root Tests in Panel Data: Asymptotic and Finite-
+Sample Properties, J. Econom. 108 (1) (2002) 1–24.
+
+
+[61] K.S. Im, M.H. Pesaran, Y. Shin, Testing for Unit Roots in Heterogeneous Panels, J.
+Econom. 115 (1) (2003) 53–74.
+
+
+[62] European Commission, Digital4Development: Mainstreaming Digital Technologies
+and Services into EU Development Policy, EU, 2017 retrieved from: https://ec.
+europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-
+and-services-eu-development-policy_enhttps://ec.europa.eu/europeaid/
+digital4development-mainstreaming-digital-technologies-and-services-eu-
+development-policy_en , Accessed date: 27 September 2018.
+
+
+[63] R. Geissbauer, E. Lubben, S. Schrauf, S. Pillsbury, Global Digital Operations: Digital
+Champions – How Industry Leaders Build Integrated Operations Ecosystems to
+Deliver End-to-end Customer Solutions, PriceWaterCooper, 2018 retrieved from
+www.strategyand.pwc.com , Accessed date: 29 September 2018.
+
+
+[64] OECD, Entrepreneurship at a Glance 2017, OECD Publishing, 2017, http://www.
+oecd-ilibrary.org/employment/entrepreneurship-at-a-glance-2017_entrepreneur_
+aag-2017-en downloaded, 30 January 2018.
+
+
+[65] European Commission, Fostering SMEs Growth through Digital Transformation,
+Salzburg, Austria, 2016 downloaded http://ec.europa.eu/DocsRoom/documents/
+19646 , Accessed date: 30 January 2018.
+
+
+[66] European Union Agency for Law Enforcement Cooperation, Internet Organised
+Crime Threat Assessment 2018, European Union Agency for Law Enforcement
+Cooperation European, EUROPOL, retrieved from https://www.europol.europa.eu/
+internet-organised-crime-threat-assessment-2018, (2018) , Accessed date: 26
+September 2018.
+
+
+[68] D.W. Jorgensen, K.M. Vu, The ICT Revolution, World Economic Growth, and Policy
+Issues, Telecommun. Pol. 40 (5) (2016) 383–397.
+
+
+[69] M. Nair, T.M.A. Shariffadeen, Managing Innovation in the Network Economy:
+Lessons for Countries in the Asia Pacific Region, Digital Review of Asia Pacific 2009-
+2010, Orbicom and the International Development Research Centre, Sage
+Publications, New Delhi, India, 2009.
+
+
+[70] D.W. Jorgensen, M.S. Ho, J.D. Samuels, The Impact of Information Technology on
+Postwar US Economic Growth, Telecommun. Pol. 40 (5) (2016) 398–411.
+
+
+R.P. Pradhan et al. Technology in Society 57 (2019) 125–134
+
+
+134
+
+
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref17
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref17
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref17
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref18
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref18
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref19
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref19
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref20
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref20
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref20
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref21
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref21
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref22
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref22
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref22
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref23
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref23
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref24
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref24
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref25
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref25
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref25
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref26
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref26
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref27
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref27
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref28
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref28
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref28
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref29
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref29
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref29
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref30
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref30
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref30
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref31
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref31
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref31
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref32
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref32
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref32
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref33
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref33
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref33
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref33
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref34
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref34
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref34
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref35
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref35
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref35
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref36
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref36
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref36
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref36
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref37
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref37
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref38
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref38
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref38
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref39
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref39
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref40
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref40
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref41
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref41
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref41
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref42
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref42
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref42
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref43
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref43
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref43
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref44
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref44
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref45
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref45
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref46
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref46
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref47
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref47
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref47
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref48
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref48
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref49
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref49
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref49
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref50
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref50
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref50
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref51
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref51
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref52
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref52
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref52
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref53
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref53
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref53
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref54
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref54
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref55
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref55
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref55
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref56
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref56
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref57
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref57
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref57
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref58
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref58
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref59
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref59
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref60
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref60
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref61
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref61
+
+https://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_enhttps://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_en
+
+https://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_enhttps://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_en
+
+https://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_enhttps://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_en
+
+https://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_enhttps://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_en
+
+https://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_enhttps://ec.europa.eu/europeaid/digital4development-mainstreaming-digital-technologies-and-services-eu-development-policy_en
+
+http://www.strategyand.pwc.com
+
+http://www.oecd-ilibrary.org/employment/entrepreneurship-at-a-glance-2017_entrepreneur_aag-2017-en
+
+http://www.oecd-ilibrary.org/employment/entrepreneurship-at-a-glance-2017_entrepreneur_aag-2017-en
+
+http://www.oecd-ilibrary.org/employment/entrepreneurship-at-a-glance-2017_entrepreneur_aag-2017-en
+
+http://ec.europa.eu/DocsRoom/documents/19646
+
+http://ec.europa.eu/DocsRoom/documents/19646
+
+https://www.europol.europa.eu/internet-organised-crime-threat-assessment-2018
+
+https://www.europol.europa.eu/internet-organised-crime-threat-assessment-2018
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref68
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref68
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref69
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref69
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref69
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref69
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref70
+
+http://refhub.elsevier.com/S0160-791X(18)30182-9/sref70
+
+

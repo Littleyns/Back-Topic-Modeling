@@ -1,0 +1,816 @@
+
+
+
+
+
+
+
+
+
+
+ScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+Procedia Manufacturing 38 (2019) 621–628
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the Flexible Automation and Intelligent Manufacturing 2019 (FAIM 2019)
+10.1016/j.promfg.2020.01.080
+
+
+10.1016/j.promfg.2020.01.080 2351-9789
+
+
+© 2019 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the Flexible Automation and Intelligent Manufacturing 2019 (FAIM 2019)
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000  
+
+
+www.elsevier.com/locate/procedia 
+
+
+
+
+
+2351-9789 © 2019 The Authors, Published by Elsevier B.V. 
+Peer review under the responsibility of the scientific committee of the Flexible Automation and Intelligent Manufacturing 2019  
+
+
+29th International Conference on Flexible Automation and Intelligent Manufacturing 
+(FAIM2019), June 24-28, 2019, Limerick, Ireland. 
+
+
+
+
+
+Assessment of innovativeness level for chosen solutions related to 
+Logistics 4.0 
+
+
+Mariusz Kostrzewski a* Monika Kosacka-Olejnik b, Karolina Werner-Lewandowska b 
+aWarsaw University of Technology, Faculty of Transport, Koszykowa 75, 00-662 Warszawa, Poland 
+
+
+bPoznan University of Technology, Faculty of Engineering Management, Strzelecka 11, Poznan 60-965, Poland 
+
+
+Abstract 
+
+
+The paper presents an overview of “Logistics 4.0” term in chosen scientific databases in order to describe the potential of research 
+connected to this phenomena. As many solutions and devices concerning Logistics 4.0 were found, the authors of this paper decided 
+to develop a mathematical model which allows subjective (calling it the expert-oriented method) evaluation of solutions in terms 
+of their level of innovativeness. The application of this model is based on actual solutions currently used in industry and logistics 
+(both management logistics and logistics engineering), exactly 8 years after the existence of the Industry 4.0 concept in the 
+consciousness of scientists and managers. The first section of the paper is connected to the introduction of main ideas and 
+embedding the subject matter in the professional literature and scientific databases. In the second section, the authors defined a 
+mathematical model in order to make an assessment of the innovativeness level for selected solutions connected to Logistics 4.0. 
+In the third sections, authors focused on the assessment of selected solutions as such. And the fourth section consists of a particular 
+conclusion. 
+ 
+© 2019 The Authors, Published by Elsevier B.V. 
+Peer review under the responsibility of the scientific committee of the Flexible Automation and Intelligent Manufacturing 2019 
+
+
+Keywords: Logistics 4.0; Industry 4.0; innovativeness level; innovation 
+
+
+
+
+
+ 
+* Corresponding author. Tel.: +48 22 234 73 37, Fax: +48 22 234 15 97 
+
+
+E-mail address: markos@wt.pw.edu.pl 
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000  
+
+
+www.elsevier.com/locate/procedia 
+
+
+
+
+
+2351-9789 © 2019 The Authors, Published by Elsevier B.V. 
+Peer review under the responsibility of the scientific committee of the Flexible Automation and Intelligent Manufacturing 2019  
+
+
+29th International Conference on Flexible Automation and Intelligent Manufacturing 
+(FAIM2019), June 24-28, 2019, Limerick, Ireland. 
+
+
+
+
+
+Assessment of innovativeness level for chosen solutions related to 
+Logistics 4.0 
+
+
+Mariusz Kostrzewski a* Monika Kosacka-Olejnik b, Karolina Werner-Lewandowska b 
+aWarsaw University of Technology, Faculty of Transport, Koszykowa 75, 00-662 Warszawa, Poland 
+
+
+bPoznan University of Technology, Faculty of Engineering Management, Strzelecka 11, Poznan 60-965, Poland 
+
+
+Abstract 
+
+
+The paper presents an overview of “Logistics 4.0” term in chosen scientific databases in order to describe the potential of research 
+connected to this phenomena. As many solutions and devices concerning Logistics 4.0 were found, the authors of this paper decided 
+to develop a mathematical model which allows subjective (calling it the expert-oriented method) evaluation of solutions in terms 
+of their level of innovativeness. The application of this model is based on actual solutions currently used in industry and logistics 
+(both management logistics and logistics engineering), exactly 8 years after the existence of the Industry 4.0 concept in the 
+consciousness of scientists and managers. The first section of the paper is connected to the introduction of main ideas and 
+embedding the subject matter in the professional literature and scientific databases. In the second section, the authors defined a 
+mathematical model in order to make an assessment of the innovativeness level for selected solutions connected to Logistics 4.0. 
+In the third sections, authors focused on the assessment of selected solutions as such. And the fourth section consists of a particular 
+conclusion. 
+ 
+© 2019 The Authors, Published by Elsevier B.V. 
+Peer review under the responsibility of the scientific committee of the Flexible Automation and Intelligent Manufacturing 2019 
+
+
+Keywords: Logistics 4.0; Industry 4.0; innovativeness level; innovation 
+
+
+
+
+
+ 
+* Corresponding author. Tel.: +48 22 234 73 37, Fax: +48 22 234 15 97 
+
+
+E-mail address: markos@wt.pw.edu.pl 
+
+
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.promfg.2020.01.080&domain=pdf
+
+
+
+
+622 Mariusz Kostrzewski  et al. / Procedia Manufacturing 38 (2019) 621–628
+2 Author name / Procedia Manufacturing  00 (2019) 000–000 
+
+
+1. Introduction 
+
+
+Logistics 4.0 is relatively new concept straightforwardly connected to Industry 4.0 (Industry 4.0 is a term that 
+describes the general overview of the future “smart factory”, so does the term of “smart logistics” as well; Industry 
+4.0 implications in logistics are described in [1]). This relativity of novelties might be confirmed e.g. by the analysis 
+of trends in Google Trends browser or analyses used based on documents collected in scientific databases such as Web 
+of Science, Scopus, Science Direct, etc. 
+
+
+Google Trends assure checking the interest in terms of region or interest in time for any keyword searching. 
+Interest by region assures to estimate which locations was most popular for a particular keyword in a given period. 
+
+
+Whereas, interest in terms of time estimates numbers that represent individual interests towards the highest point in 
+the chart printed in the browser. A value of 100 indicates the highest popularity of a particular keyword. In order to 
+check the worldwide potential in the aspect of Logistics 4.0, checking of interest by region was sufficient. It occurred 
+that while introducing the keyword “Logistics 4.0” into Google Trends browser only one country was analyzed. It was 
+Germany, the origin country of Industry 4.0 term (date of analysis: February 22nd, 2019; Fig. 1), even after the heading 
+“Include regions with low number of search operations” has been marked. This does not mean that the subject matter 
+of Logistics 4.0 is not being discussed in other countries than Germany, which is due to the fact that the browser has 
+too little data at its disposal (as it is explained in the commentary on Google Trends, a value of 100 indicates the 
+highest popularity of particular keyword, meanwhile a value of 0 indicates that there is not enough data for the given 
+keyword – therefore, it is not reasonable to say that the data are unreliable, since it could happen that Internet users 
+searched for data in other browsers than Google). At the same time, however, it is worth noting that the global approach 
+to the topic of Logistics 4.0 is still very rarely used and it is worthwhile to address this subject matter. 
+ 
+
+
+
+
+
+Fig. 1. Effects of Google Trends searching in the case of “Logistics 4.0” keyword: (a) interest in terms of region, (b) interest in time. Source: 
+https://trends.google.pl/trends/explore?q=Logistics%204.0, last accessed 2019/02/22. 
+
+
+The analysis performed with the use of the Scopus scientific database (date of analysis: February 22nd, 2019) is also 
+worth considering. When the keyword “Logistics 4.0” was introduced in relation to the search of three records at the 
+
+
+
+
+
+
+ Mariusz Kostrzewski  et al. / Procedia Manufacturing 38 (2019) 621–628 623
+ Author name / Procedia Manufacturing 00 (2019) 000–000  3 
+
+
+same time, i.e. title, abstract, keywords, the following results were obtained. Twenty three documents were found, e.g. 
+five in 2018, three in 2017. In previous years, one or two articles were published each year, which are indexed in the 
+database. As it can be expected, taking into account the ideological issues of Industry 4.0 and Logistics 4.0 focused 
+on engineering and programming, these publications are foremost grouped in subject areas as: computer science and 
+engineering. 
+
+
+Meanwhile, Web of Science database was searched in all fields with the same keyword (“Logistics 4.0”) – date of 
+analysis: February 22nd, 2019. Also in this case not too many records have been achieved. Only ten documents were 
+found, e.g. two in 2019 up-to-date, five in 2018. 
+
+
+The analysis performed with the use of the Google Scholar scientific database (date of analysis: February 22nd, 
+2019) is worth considering as well. Two hundred seventy records were noted in that database, of which thirteen were 
+published in 2019 and one hundred eleven in 2018. 
+
+
+Table 1. Desk-research results of keyword (“Logistics 4.0”) searching in selected databases (February 22nd, 2019) 
+
+
+Year of analysis Scopus database Web of Science database Google Scholar database 
+
+
+2019  N/A 2 13 
+
+
+2018 5 5 111 
+
+
+2017 3 N/A 56 
+
+
+Total (previous years than 
+mentioned above are included) 
+
+
+23 10 270 
+
+
+The statistics given above and summarized in Table 1 prove that Logistics 4.0 is still worth researching and its 
+research potential might become very high in the nearest future. 
+
+
+Several aspects of Logistics 4.0 were described up-to-date. Authors defined maturity levels and models for Logistics 
+4.0 [2, 3]. Another considered aspect was the role of lifelong learning and education of new specialists connected to 
+subject matter [4] (which is highly important especially that “changes in the working environment in the operative 
+field of Logistics 4.0 lead to completely new competence requirements regarding the operational employees”, [5]). 
+Researchers emphasized also business models connected to Logistics 4.0 [6] and its challenges and opportunities [7]. 
+Rarely, authors were focused on analysis of technical and engineering aspects of solutions connected to subject matter, 
+especially in the context of their innovativeness (it does not mean that technical aspects of solutions are not debated 
+in literature – these were described in e.g. [8,9]). Taking into account the fact about growth of IoT (Internet of Things) 
+connected devices installed base worldwide (Fig 2.), highly more significant increase of interest in Logistics 4.0 is 
+expected among entrepreneurs and scientists. In order to clarify, it must be underlined that IoT is strongly connected 
+to idea of Industry 4.0 and Logistics 4.0 and what is more these ideas are connected to digitalization of processes what 
+would not be assured without IoT technologies. Therefore, based on data given in Fig. 2, it is assumed that interest 
+among entrepreneurs and scientists in Logistics 4.0 might arouse similarly to the subject matter of IoT in the same 
+groups of specialists.  
+
+
+In the paper, an innovativeness level is given under question. Therefore, this term should be defined adequately. 
+Innovativeness level in opinion of scientists of engineering needs less qualitative assessment methods since they 
+believe more into numbers and quantities than in qualitative assessments. Therefore, innovativeness level assessment 
+should be quantified. Some authors defined the appropriate level of innovation in terms of efficiency. They specified 
+the number of implementations in relation to all submissions initially considered as innovative ideas. For example, it 
+can be referred to the results given by Toyota and Cognizant in the publication [10]. 
+
+
+In this paper, first of all the mathematical model for innovativeness level assessment is defined and described and 
+next chosen solutions of Logistics 4.0 are given under consideration and assessment with usage of the mentioned 
+model. At the end of this paper, it is concluded and several ideas for potential research are presented. 
+
+
+ 
+
+
+
+
+
+
+624 Mariusz Kostrzewski  et al. / Procedia Manufacturing 38 (2019) 621–628
+4 Author name / Procedia Manufacturing  00 (2019) 000–000 
+
+
+
+
+
+Fig. 2. IoT connected devices installed base worldwide from 2015 to 2025 (in billions). Source: https://www.statista.com/statistics/471264/iot-
+number-of-connected-devices-worldwide/, (February 22nd, 2019). 
+
+
+2. Innovativeness level 
+
+
+First of all, it should be mentioned that innovativeness level is understood here as ratio between two numbers. The 
+first number is the quantity of solutions released after Hannover Fair of Industrial Technologies event, that are 
+considered as innovative. Hannover Fair of Industrial Technologies event has taken place in 2011, according to [1,11]. 
+The second number is the total number of post-trade fair solutions presented in this paper. The innovativeness level 
+ratio is expressed as a percentage and is a subjective value determined as a result of the expert method application. 
+Meanwhile, innovativeness is understood as tendency to innovate, or introduce something new or different, 
+characterized by innovation, [12]. However, the authors stipulate that they do not analyse which solutions are really 
+innovative and which are not. 
+
+
+This section presents the proposal of the tool for assessing the innovativeness level of the discussed solutions in 
+relation to Logistics 4.0 as a compound of Industry 4.0. The date of Hannover Fair of Industrial Technologies event 
+is useful in the proposed equation (tool redefined after [13]). 
+
+
+At first stage of assessment the following datasets should be given: 
+
+
+• A – a set of numbers of presented and assessed solutions,  ,A,a,, 1=A , 
+• S – a binary set explained by its elements,  1,0=S , where s = 0 if the solution in question existed before or during 
+
+
+2011 and s = 1 if the solution in question existed after 2011, 
+• P – a binary set that explains whether a chosen solution has been implemented,  1,0=P , p = 0 if the solution in 
+
+
+question was not implemented before, during or after 2011, p = 1 if the solution in question was implemented 
+before, during or after 2011. 
+
+
+The Cartesian product shall then be appointed as in equation (1), the elements of which are transformed into the 
+set I as it is given in equations (2) and (3). 
+
+
+( )  i Na,s,p :  0  → A S P     (1) 
+
+
+( ) ( ) ( ) i 1,0,0 , ,i a,s, p , i A,S,P , a , s , p=   I A S P    (2) 
+
+
+( )
+
+
+
+
+
+==
+===
+
+
+=
+11:1
+
+
+100:0
+,,
+
+
+ps
+pps
+
+
+psai     (3) 
+
+
+
+
+
+
+ Mariusz Kostrzewski  et al. / Procedia Manufacturing 38 (2019) 621–628 625 Author name / Procedia Manufacturing 00 (2019) 000–000  5 
+
+
+As the next stage, the parameter i , specifying the number of solutions taking the value ( ) 1, =pa,si , should be 
+computed – according to equation (4). This parameter quantifies solutions which determines the number of solutions 
+that can be considered as potentially innovative. 
+
+
+( )  =
+  A S Pa s p
+
+
+psaii ,,     (4) 
+
+
+The prerequisite for innovative solutions are as follows: 
+
+
+• 
+( )
+
+
+50.0
+Acard
+
+
+i
+ – solutions from set A (taken together) are not considered to be innovative, 
+
+
+• 
+( )
+
+
+50.0
+Acard
+
+
+i
+ – solutions from set A (taken together) can be considered as innovative, where: ( )Acard – 
+
+
+cardinality of a set A. 
+
+
+3. Assessment of innovativeness level 
+
+
+The mathematical model described in section 2 of the paper is applied for 24 solutions and results of its application 
+are given in Table 2. In the first column of Table 2 names of solutions are given. These solutions are not described in 
+detail (solutions No. 1-4, 6-13 are a matter of discussion in [13]). Authors give references only, whereby more 
+information about each solution can be found. The presented solutions are only examples – there are plenty of other 
+solutions which might be taken into consideration, however it was not a point to bullet them all in the paper. 
+
+
+Based on information given in Table 2, it can be stated that more than 71% of presented devices/solutions were 
+released after the Hannover Fair of Industrial Technologies which took place in 2011. This might mean that the idea 
+of Industry 4.0 utmost significantly contributes to the innovation of products in the sphere of Logistics 4.0. It can be 
+said that the innovativeness level of solutions suggested as belonging to Logistics 4.0 in the context of Industry 4.0 is 
+about 71% ( ( )i card 0.71=A ), therefore it is satisfactory. Although, it should be noticed that some of these solutions 
+were developed before the significant date of 2011. When digitalized and innovative technologies in the context of 
+Logistics 4.0 are discussed, human factor should not be omitted. In aspects connected to Industry 4.0 and Logistics 
+4.0, predispositions of employees are important one. As Oskar Verkamman mentioned in [55]: “(…) more than half 
+of the current workers entered the workforce without mobile telephony and smartphones. Half of them even started 
+without any computers at all. So, if we look back, it is amazing how easily and quickly we embraced all those new 
+technologies, almost without any hesitation.” This is positive opinion about the changes that occur during several last 
+years. This is also promising statement in the case of Industry 4.0 and Logistics 4.0. 
+
+
+4. Conclusion 
+
+
+The innovativeness level of solutions suggested as belonging to Logistics 4.0 is significant, as it was mentioned 
+before. It is evident that the development of Industry 4.0 based on digitization and automation represents for Logistics 
+4.0 not only huge challenges but also opportunities for increasing efficiency. It is also worth mentioning that the 
+similarity of logistics and production processes blur the differences between Logistics 4.0 and Factory 4.0 and 
+consequently also Industry 4.0. Solutions focused around Logistics 4.0 should be evaluated in terms of effectiveness 
+and efficiency according to known and commonly used modeling methods, including in particular modeling with the 
+use of simulation methods. It is also worth paying attention to forecasting these solutions which was not subject matter 
+of this paper but might be worth mentioning as future research option. Logistics 4.0, as well as Industry 4.0, is setting 
+high demands not only in technological, engineering or economic aspects but foremost on the education process, as 
+smart factories (or any other smart facilities) and smart logistics need highly skilled employees and management 
+personnel. One of main assumptions of Industry 4.0 is that not only specialists, but also operational workers will soon 
+
+
+
+
+
+
+626 Mariusz Kostrzewski  et al. / Procedia Manufacturing 38 (2019) 621–628
+6 Author name / Procedia Manufacturing  00 (2019) 000–000 
+
+
+perform mainly organizational and conceptual tasks. This is the reason of the necessity for adapting educational 
+process to a new situation. The objective of future works is to present the analysis of the challenges for logistics 
+education – this aim was taken in e.g. Universities of the Future project (https://universitiesofthefuture.eu, last 
+accessed 2019/02/23). 
+
+
+Table 2. Application of equation presented in section 2 of the paper 
+
+
+Device/solution Year of release a s p ( )psai ,,  
+Vecna [14] 2017 1 1 1 1 
+
+
+Kiva [15,16,17,18] 2006/2008 2 0 1 0 
+
+
+CEIT* [19,20] 
+*) automated guided vehicles started to be used already several 
+decades ago, however are developed with methods of control and 
+localization  
+
+
+2007 3 0 1 0 
+
+
+Geodis and Delta Drone [21] 2018 4 1 1 1 
+
+
+ERP system plus APROL – control in a high bay warehouse, 
+optimization of production logistics [22], [23] 
+*) ERP as such existed in XX century 
+
+
+2014 5 0* 1 0 
+
+
+Digital HR Assistant [24] 2018 6 1 1 1 
+
+
+EDI [25] XX century 7 0 1 0 
+
+
+butlers [26] 2018 8 1 1 1 
+
+
+CarryPick KMP600 [18] 2012 9 1 1 1 
+
+
+BinGo [27] 2016 10 1 1 1 
+
+
+MALTA, Multiple Autonomous forklifts for Loading and 
+Transportation Applications [28,29] 
+
+
+2009 11 0 1 0 
+
+
+e–Palette, [30] 2018 12 1 1 1 
+
+
+KUKA mobile platform (KMP) 1500 [31] 2017 13 1 1 1 
+
+
+RFID tags on pallet boxes [23,32] XX/XXI 
+centuries 
+
+
+14 0 1 0 
+
+
+Racrew [33,34] 2014 15 1 1 1 
+
+
+Hibrid Parcelopter 3.0 [35,36] 2016 16 1 1 1 
+
+
+Baxter [37] 2011 17 1 1 1 
+
+
+Roberta [37] 2015 18 1 1 1 
+
+
+SERVUS ARC3 [40,41,42] 
+*) estimated date based on date of award obtaining [39]  
+
+
+2013* 19 1 1 1 
+
+
+Agile1500 [43,44,45] 2017 20 1 1 1 
+TUG - AMR [46,47] 
+*) estimated date based on date in [47]  
+
+
+2013* 21 1 1 1 
+
+
+MiR100, MiR200, MiR500 [48,49] 2016 22 1 1 1 
+LD-60, LD-90 [50,51]  
+*) estimated date based on date in [50]  
+
+
+2017* 23 1 1 1 
+
+
+AutoStore [52,53,54] 
+*) estimated date based on date in [51] 
+
+
+2011* 24 0 1 0 
+
+
+ 
+The authors realise that relying only on date (Hannover Fair of Industrial Technologies event date) to determine 
+
+
+the level of innovation is not a complete approach. This may be considered a necessary but not sufficient condition 
+for determining the level of innovation. The actual innovativeness will be verified over time as a result of the analysis 
+of the usefulness and effectiveness of the proposed solutions. What is more, the authors are aware that many fragments 
+of this paper are treated briefly. Nevertheless, it is a contribution to further work on these topics. 
+
+
+
+
+
+
+ Mariusz Kostrzewski  et al. / Procedia Manufacturing 38 (2019) 621–628 627
+ Author name / Procedia Manufacturing 00 (2019) 000–000  7 
+
+
+Acknowledgements 
+
+
+This paper refers to the research conducted under Statutory activity Poznan University of Technology, Project ID: 
+11/140/DSMK/4161 and the statutory activity of Educational and Scientific Team of Modeling and Diagnostics of 
+Technical Means of Transport (Faculty of Transport, Warsaw University of Technology), both financed by Ministry 
+of Science and Higher Education. 
+
+
+References 
+
+
+[1] L. Barreto, A. Amaral, T. Pereira, Industry 4.0 implications in logistics: an overview, Procedia Manufacturing,13 (2017) 1245-1252. 
+[2] M. Sternad, T. Lerher, B. Gajsek, Maturity levels for logistics 4.0 based on NRW'a Industry 4.0 maturity model, Proceedings of International 
+
+
+Scientific Conference Business Logistics in Modern Management, (2018) 695-708. 
+[3] J. Oleśków-Szłapka, A. Stachowiak, A., The framework of logistics 4.0 maturity model, Advances in Intelligent Systems and Computing 835 
+
+
+(2019) 771-781. 
+[4] M. Wrobel-Lachowska, Z. Wisniewski, A. Polak-Sopinska, The Role of the Lifelong Learning in Logistics 4.0, Advances in Intelligent 
+
+
+Systems and Computing, 596 (2017) 402-409. 
+[5] S. Kaczmarek, N. Straub, M. Henke, How to promote self-regulated learning processes by using serious games, International Conference Of 
+
+
+Education, Research And Innovation Proceedings, (2017) 3670-3679. 
+[6] J.O. Strandhagen, L.R. Vallandingham, G. Fragapane, J.W. Strandhagen, A. B. Hætta Stangeland, N. Sharma, Logistics 4.0 and emerging 
+
+
+sustainable business models, Advances in Manufacturing, 5 (2017) 359-369. 
+[7] K. Wang., Logistics 4.0 Solution New Challenges and Opportunities, AEBMR-Advances in Economics Business and Management Research, 
+
+
+24 (2016) 68-74. 
+[8] N. Schmidtke, F. Behrendt, L. Thater, S. Meixner, Technical Potentials and Challenges within Internal Logistics 4.0, 4th IEEE International 
+
+
+Conference on Logistics Operations Management (GOL), (2018) 1-10. 
+[9] J.C. Jacintho, M.T. Da Silva, R.J. Do Nascimento, P.F. Poveda, T.N. Cevoli, V.H. Ribeiro, Ethanol loading and dispatch operation: A 
+
+
+discussion on management practices and logistics 4.0, ILS 2018 - Information Systems, Logistics and Supply Chain, (2018) 576-585. 
+[10] D. Vinay, 5 levels of innovation maturity, (2013) https://www.catalign.in/2013/05/, last accessed 2019/02/24. 
+[11] L. Bartevyan, Industry 4.0 – Summary report, DLG–Expert report, 5 (2015). 
+[12] D. Harper, Online Etymology Dictionary, (2019) https://www.dictionary.com/browse/innovativeness, last accessed 2019/02/18. 
+[13] M. Kostrzewski, P. Varjan, J. Gnap, Solutions dedicated to internal Logistics 4.0, Sustainable Logistics and Production in Industry 4.0 – new 
+
+
+opportunities and challenges (Eds. K. Grzybowska, A. Awasthi, Springer Nature Switzerland AG., Cham), (to appear) (2019) 1-20. 
+[14] S. Banker, Distinctive Warehouse Robotics Solutions Are Emerging, (2018) 
+
+
+https://www.forbes.com/sites/stevebanker/2018/02/06/distinctive–warehouse–robotics–solutions–are–emerging/#2a3c424421c7, last accessed 
+2018/04/17. 
+
+
+[15] P.R. Wurman, R. D’Andrea, M.C. Mountz, Coordinating Hundreds of Cooperative, Autonomous Vehicles in Warehouses, AI Magazine, 29 
+(2008) 9-20. 
+
+
+[16] M.C. Mountz, R. D’Andrea, J.A. LaPlante, P.L.I. David, P.K. Mansfield, B.W. Amsbury, Inventory system with mobile drive unit and 
+inventory holder, US Patent 7,402,018 (2008). 
+
+
+[17] N. Boysen, R. de Koster, F. Weidinger, Warehousing in the e–commerce era: A survey. European Journal of Operational Research, (to 
+appear) (2018) 1-34. 
+
+
+[18] Swisslog, Automated storage & retrieval systems to increase efficiency and quality in warehousing, (2018) https://www.swisslog.com/en–
+us/warehouse–logistics–distribution–center–automation/products–systems–solutions/asrs–automated–storage–,–a–,–retrieval–systems/boxes–
+cartons–small–parts–items/carrypick–storage–and–picking–system, last accessed 2018/12/15. 
+
+
+[19] J. Hercko, M. Botka, Intelligent logistic management, Next Generation Logistics: Technologies and Applications (Ed. V. Drašković, SPH – 
+The Scientific Publishing), (2017) 1-18. 
+
+
+[20] CEIT Group Automatický logistický systém AGV (Automatic Guided Vehicle), (2018) 
+http://www.ceitgroup.eu/index.php/sk/aktuality/archiv/133–vitazstvo–v–automotive–logistics–awards, last accessed 2018/12/10. 
+
+
+[21] S. Whittaker, Geodis and Delta Drone Develop Autonomous Warehouse Solution, (2018) https://dronebelow.com/2018/04/12/geodis––
+delta–drone–autonomous–warehouse–inventory/, last accessed 2018/04/17. 
+
+
+[22] H. Rauen, Industrie 4.0 in practice – Solutions for industrial applications, VDMA Industrie 4.0 Forum, (2016) 1-57. 
+[23] L. Domingo, The Challenges of Logistic 4.0 for the Supply Chain and Information Technology, Norwegian University of Science and 
+
+
+Technology, Department of Production and Quality Engineering, (2016) 1-84. 
+[24] S. Lockett, Autonomous vehicles and smart warehouses are so last year – 2018 is all about digitising your HR function, (2018) 
+
+
+http://thebusinessdebate.com/sdworx–autonomous–vehicles–and–smart–warehouses–are–so–last–year–2018–is–all–about–digitising–your–
+hr–function/, last accessed 2018/04/17. 
+
+
+[25] S. Narayanan, A.S. Marucheck, R.B. Handfield, Electronic Data Interchange: Research Review and Future Directions, Decision Sciences, 40 
+(2009) 121-163. 
+
+
+[26] Post&Parcel, Greyorange unveils butler xl warehouse robotics system, (2018) 
+https://postandparcel.info/93928/news/infrastructure/greyorange–unveils–butler–xl–warehouse–robotics–system/, last accessed 2018/12/15. 
+
+
+
+
+
+
+628 Mariusz Kostrzewski  et al. / Procedia Manufacturing 38 (2019) 621–628
+8 Author name / Procedia Manufacturing  00 (2019) 000–000 
+
+
+[27] S. Kerner, Autonomous logistic systems for smart factories. Robotics for logistics and transport - ERF 2016 Workshop, (2016) 
+http://web.itainnova.es/eurobotics/files/2016/09/ERF–2016–01c–Sören–Kerner–Autonomous–Logistic–Systems–for–Smart–Factories.pdf, 
+last accessed 2018/12/15. 
+
+
+[28] B. Astrand, B. Bouguerra, H. Andreasson, A.J. Lilienthal, T. Rognvaldsson, An Autonomous Robotic System for Load Transportation, IEEE 
+International Conference on Emerging Technologies and Factory Automation (ETFA), (2009) 1-2. 
+
+
+[29] Malta Project, (2018) http://aass.oru.se/Research/ Learning/malta/index.html, last accessed 2018/12/15. 
+[30] N. Banks, CES 2018: Meet Toyota's Flexible, Electric, Automated E-Palette, (2018) 
+
+
+https://www.forbes.com/sites/nargessbanks/2018/01/10/toyota–e–palette–ces2018/#3d910c7f5368, last accessed 2018/12/15. 
+[31] Kuka, KUKA. Mobile robotics KMP 1500, (2017) https://www.kuka.com/-/media/kuka.../kuka_kmp1500_en.pdf, last accessed 2018/12/19. 
+[32] B. Violino, The History of RFID Technology, RFID Journal, (2014), http://www.rfidjournal.com/articles/view?1338, last accessed 
+
+
+2019/02/23. 
+[33] Hitachi, Hitachi Introduces Technology for Automated Guided Vehicle: Real Time Map Update and Self-Localization Autonomous driving 
+
+
+without the floor marker guiding system, Press release, (2015) 1-4. 
+[34] Hitachi, Logistics Innovations behind the Convenience of e-Commerce Construction of a Distribution Center Designed for Automation and 
+
+
+Labor-saving Operations, Hitachi Review, 67 (2018) 166–167. 
+[35] M. Szymczak, Perspektywy rozwoju technologii i rynku dronów, E-mobliność: wizje i scenariusze rozwoju (Eds. J. Gajewski, W. Paprocki, 
+
+
+J. Pieriegud, Centrum Myśli Strategicznych, Sopot), (2017) 93-117. 
+[36] Ł. Izakowski, Bezzałogowy DHL Parcelcopter szybuje coraz wyżej, Retail Net, https://retailnet.pl/2016/01/07/15129-bezzalogowy-dhl-
+
+
+parcelcopter-szybuje-coraz-wyzej/, last accessed 2016/01/15. 
+[37] S. Vaidya, P. Ambad, S. Bhosle, Industry 4.0 – A Glimpse, Procedia Manufacturing, 20 (2018) 233-238. 
+[38] I.J. Timm, F. Lorig, Logistics 4.0-a challenge for simulation, Winter Simulation Conference Proceedings, (2015) 3118-3119. 
+[39] Heron, Presseinformation Servus Intralogistics, (2013) http://www.heron.at/download/Presseinfo-Servus-Intralogistics-reddot-award-
+
+
+2013.pdf, last accessed 2019/04/07. 
+[40] Bastian Solutions, Improve order fulfillment with automated, goods-to-person picking, (2019) 
+
+
+https://www.bastiansolutions.com/solutions/technology/goods-to-person/servus/, last accessed 2019/04/07. 
+[41] Servus Intralogistics, Intelligent Transport Robots For Your Intralogistics (2019) https://www.servus.info/en/, last accessed 2019/04/07. 
+[42] A. Gilchrist, Supply Chain 4.0: From Stocking Shelves to Running the World Fuelled by Industry 4.0, (2018) Independently published, 1-
+
+
+317. 
+[43] Comau, https://www.comau.com/EN/agile1500, last accessed 2019/04/07. 
+[44] Kollmorgen, https://www.kollmorgen.com/en-us/company/newsroom/press-releases/2017/kollmorgen-cooperates-with-comau-for-agv-
+
+
+systems/, last accessed 2019/04/07. 
+[45] O. Perez, S. Sauceda, J. Cruz, Manufacturing 4.0: The Use of Emergent Technologies in Manufacturing, Palibrio, Bloomington IN (2019) 1-
+
+
+194. 
+[46] Aethon, https://aethon.com/why-mobile-robots-from-aethon/#AGV, last accessed 2019/04/07. 
+[47] Aethon, https://aethon.com/press-release-aethon-recognized-innovator-year-game-changer/, last accessed 2019/04/07. 
+[48] Encon-Koester, http://encon-koester.com/produkt/mir100-mobilny-robot-transportu/, last accessed 2019/04/08. 
+[49] RarUK Automation, https://www.rarukautomation.com/collaborative-robots/mobile-industrial-robots/, last accessed 2019/04/08. 
+[50] Omron, http://www.ia.omron.com/products/family/3664/specification.html, last accessed 2019/04/11. 
+[51] https://industrial.omron.pl/pl/products/mobile-robot#specifications_ordering_info, last accessed 2019/04/11. 
+[52] R.B. M. de Koster, Automated and Robotic Warehouses: Developments and Research Opportunities, Logistics and Transport 38 (2018) 33-
+
+
+40. 
+[53] MWPVL, Autostore: An In-Depth Review of Automated Split Case Picking Technology for Distribution Centers, 
+
+
+http://www.mwpvl.com/html/autostore_review.html, last accessed 2019/04/14. 
+[54] J.P. Røyseth, G.F. Rolandsen, J. Lye Scheie, P. Grøssereid, Z. Lee, Bachelor Thesis - AutoStore, Norwegian Business School Fudan 
+
+
+University (2012) 1-112. 
+[55] A, Khmelevskaya, Interview with Oskar Verkamman, Chairman Logistics 4.0 & Smart Supply Chain Management Summit, (2019) https://c-
+
+
+parity.com/blog/?p=1108, last accessed 2019/04/07.  
+
+
+
+

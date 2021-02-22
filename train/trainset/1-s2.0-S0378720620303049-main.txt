@@ -1,0 +1,3022 @@
+
+
+
+
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+Available online 5 September 2020
+0378-7206/© 2020 Elsevier B.V. All rights reserved.
+
+
+The impact of psychological contract under- and over-fulfillment on client 
+citizenship behaviors in Enterprise systems projects: From the 
+client’s perspective 
+
+
+Yang Liu a, Hefu Liu a, Zhao Cai b,* 
+a School of Management, University of Science and Technology of China, 96 Jinzhai Road, Hefei, Anhui, China 
+b Nottingham University Business School China, University of Nottingham Ningbo China, 199 Taikang East Road, Ningbo, China   
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Psychological contract 
+Client citizenship behavior 
+Enterprise systems project 
+vendor–client relationship 
+
+
+A B S T R A C T   
+
+
+This study focuses on examining client citizenship behaviors (CCBs) from a psychological contract perspective in 
+enterprise systems (ES) vendor–client relationships. Using polynomial modeling to capture the discrepancy be-
+tween expected obligations and delivered fulfillments, this stud unpacks psychological contract and investigates 
+the impacts of psychological contract under-fulfillment, fulfillment, and over-fulfillment on CCBs. The results show 
+that both under-fulfillment and over-fulfillment of psychological contract are negatively related to CCBs. CCBs 
+are shown to be higher when expected obligation and delivered fulfillment are both high than when both are low. 
+The theoretical contributions and practical implications are discussed.   
+
+
+1. Introduction 
+
+
+Client participation has been regarded as a critical factor to the 
+success of enterprise systems (ES) project [1,2]. Although many ES 
+vendors have succeeded in promoting their clients to participate in ES 
+projects through contractual regulations [3,4], it is still challenging for 
+ES vendors to encourage their clients to exhibit a series of client citi-
+zenship behaviors (CCBs) which are voluntary and not explicitly detailed 
+in formal contracts [5]. CCBs, including providing ES usage feedbacks, 
+recommending ES to partners, and helping partners with ES imple-
+mentation, are critical for ES vendors to achieve competitive advantage 
+[6]. Specifically, feedbacks from clients are helpful in finetuning soft-
+ware modules to better integrate multiple business processes [7]. Cli-
+ents’ recommendations assist ES vendors in promoting their products 
+because opinions from a neutral party are more convincing [8]. Helping 
+behaviors are more effective in transferring domain knowledge and 
+achieving ES project success [9]. Conceivably, it is imperative for ES 
+vendors to understand how to increase the willingness of their clients to 
+conduct CCBs in achieving the success of ES projects. 
+
+
+As contended by literature, citizenship behavior is discretionary and 
+voluntary in nature, which is free from being explicitly regulated [10]. 
+Instead of formal written contract, psychological contract, which contains 
+a set of unwritten beliefs and expectations concerning reciprocal 
+
+
+obligations [11], is widely considered as an effective enabler of citi-
+zenship behaviors [12–14]. In the context of ES project, the ven-
+dor–client relationship is a social exchange relationship where both 
+parties pursue mutual benefits with the principle of reciprocity [15]. The 
+social exchange between an ES vendor and its client creates a set of 
+norms—beliefs and perceptions of obligations—that establish a psy-
+chological contract of client [16,17]. From the clients’ perspective, cli-
+ents tend to behave based on their own implicit beliefs rather than explicit 
+complex contractual rules that are impractical to execute [18,19]. Once 
+the psychological contracts get fulfilled, these beliefs can intrinsically 
+motivate CCBs based on the norm of reciprocity in social exchange re-
+lationships [20,21]. However, the role of psychological contracts in 
+influencing CCBs in ES projects has rarely been mentioned. Therefore, 
+this study attempts to scrutinize the influencing mechanisms of psy-
+chological contract fulfillment status on CCBs in ES projects. 
+
+
+Extant literature has widely explored the influence of breach or 
+violation of psychological contract on citizenship behaviors (e.g., [12, 
+13,22]). While findings of these studies have indeed extended our un-
+derstandings of the role of psychological contract in citizenship behav-
+iors, they still share some limitations. First, there is a paucity of research 
+concentrating on inter-organizational contexts to empirically examine 
+citizenship behaviors from the psychological contract perspective, given 
+that previous research mainly focused on intra-organizational contexts 
+
+
+* Corresponding author. 
+E-mail addresses: liuyeung@mail.ustc.edu.cn (Y. Liu), liuhf@ustc.edu.cn (H. Liu), zhao.cai@nottingham.edu.cn (Z. Cai).  
+
+
+Contents lists available at ScienceDirect 
+
+
+Information & Management 
+
+
+journal homepage: www.elsevier.com/locate/im 
+
+
+https://doi.org/10.1016/j.im.2020.103366 
+Received 8 May 2019; Received in revised form 28 August 2020; Accepted 29 August 2020   
+
+
+
+mailto:liuyeung@mail.ustc.edu.cn
+
+mailto:liuhf@ustc.edu.cn
+
+mailto:zhao.cai@nottingham.edu.cn
+
+www.sciencedirect.com/science/journal/03787206
+
+https://www.elsevier.com/locate/im
+
+https://doi.org/10.1016/j.im.2020.103366
+
+https://doi.org/10.1016/j.im.2020.103366
+
+https://doi.org/10.1016/j.im.2020.103366
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.im.2020.103366&domain=pdf
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+2
+
+
+(e.g. [12,14,23,24],). Yet, the literature indicates that, in a buyer–sup-
+plier relationship, the buyer maintains a set of expectations toward the 
+supplier’s obligations, which introduces a distinct psychological 
+element into the contractual relations [11,25,26]. This exchange of 
+obligation supports the existence of a psychological contract between 
+these two parties. In an ES project, the exchange between an ES vendor 
+and its client involves implied obligation of reciprocity for mutual 
+benefits [11], which thereby establishes a psychological contract be-
+tween them. Given this, it is appropriate and necessary to apply psy-
+chological contract as a lens to investigate the cognitive and 
+psychological aspects of managing CCBs in ES vendor–client relation-
+ships [11,25]. 
+
+
+Second, although many studies have explored the effect of the under- 
+fulfillment of psychological contract (e.g., [16,27–29]), few studies have 
+investigated its over-fulfillment [29]. In an ES project, over-fulfilling 
+obligations may come at a huge cost to ES vendors due to complex ES 
+implementation processes. Meanwhile, maintaining cooperative re-
+lationships in ES projects involves more resources and energy, for 
+example, building buffers into contracts to accommodate scope changes 
+and investing time in building good relationships [19]. Furthermore, 
+over-fulfillment may lead to clients’ perception of violation because they 
+suspect ES vendors going beyond the boundary such as deliberately 
+accessing business intelligence [30,31]. Specifically, when ES vendors 
+develop an overly close bond with staff from client firms to foster 
+knowledge sharing, it may induce clients’ concern of misappropriating 
+their intellectual assets held by staff. Thus, comparing with 
+under-fulfillment of psychological contract, its over-fulfillment deserves 
+equal attention regarding its influence in ES projects. 
+
+
+Third, scholars normally operationalize breach and fulfillment of 
+psychological contract by reflecting the extent to which a firm has kept 
+its promises (e.g., [32]), omitting the joint effects of the components that 
+comprise breach and fulfillment (i.e., expected obligations and delivered 
+fulfillments) on citizenship behaviors [33]. In ES projects, both expected 
+obligations and delivered fulfillments are critical factors that influence 
+clients’ behaviors. As ES implementation is a knowledge-intensive 
+project that requires ES vendors’ sustained support, clients believe ES 
+vendors are obligated to perform certain behaviors to ensure the success 
+of ES projects. These expected obligations involve a clear understanding 
+of ES vendors’ roles and responsibilities that clients are likely to react to. 
+The final delivered fulfillments joint with expected obligations ulti-
+mately determine the behaviors that clients respond with. Hence, it is 
+necessary to take an expanded view of psychological contract by 
+considering the distinction between obligations and associated fulfill-
+ments [33]. 
+
+
+Addressing these research gaps is practically meaningful and theo-
+retically important. Practically, although legal contracts exist between 
+ES vendors and clients, written obligations cannot cover all concerns 
+from clients and must be supplemented by unwritten promises [18]. 
+Because ES implementation implies an unwritten set of expectations 
+from clients, psychological contracts ubiquitously exist in ES ven-
+dor–client relationships. However, CCBs are free from explicit contrac-
+tual regulations but can be intrinsically motivated by fulfillment of 
+psychological contracts. Therefore, it is important for ES vendors to pay 
+attention to the influence of psychological contracts on CCBs in 
+achieving ES project success. Theoretically, the social exchange nature 
+of ES vendor–client relationship implicitly establishes psychological 
+contracts between ES vendors and clients [34,35]. While IT outsourcing 
+research has drawn on social exchange theory (SET) [34,35], little ac-
+counts for the breach and/or fulfillment of psychological contracts that 
+occur within social exchanges impacting ES vendor–client collaboration. 
+By considering the distinction between expected obligations and deliv-
+ered fulfillments, a psychological contract provides a more nuanced 
+theoretical perspective to shed light on the theoretical mechanisms that 
+how ES vendors’ fulfillment of expected obligations influences CCBs in 
+the ES implementation context. This research contributes by employing 
+SET to investigate CCBs in ES vendor–client relationships using a 
+
+
+psychological contract perspective. 
+Based on the clients’ perspective, this study aims to examine how 
+
+
+CCBs are influenced by ES vendors’ fulfillment of their clients’ psy-
+chological contracts. Specifically, we considered a full range of potential 
+situations of under-fulfillment (i.e., client perceived fulfillments fall short 
+of expected obligations), fulfillment (i.e., client perceived fulfillments 
+match expected obligations), and over-fulfillment (i.e., client perceived 
+fulfillments exceed expected obligations) of psychological contract. 
+Furthermore, we compared the performance of CCBs under perfect 
+fulfillment between situations in which delivered fulfillments and ex-
+pected obligations are both low and both are high. By capturing the 
+discrepancy between expected obligations and delivered fulfillments, 
+this study enhances the understanding of CCBs in ES projects by 
+considering the full range of psychological contract fulfillment situa-
+tions (e.g., under-fulfillment, fulfillment, and over-fulfillment) and 
+using polynomial modeling to examine the curvilinear relationships 
+between psychological contract fulfillment situations and CCBs. Our 
+research results suggest that both psychological contract under-fulfill-
+ment and over-fulfillment are negatively associated with CCBs. We further 
+observe that, in the fulfillment situation, CCBs will be higher when ful-
+fillments and obligations match at a high level as opposed to when they 
+match at a low level. 
+
+
+2. Theoretical background and hypotheses development 
+
+
+2.1. Social exchange theory 
+
+
+Social exchange theory was initially applied to examine interper-
+sonal exchanges that are not purely economic [36]. This theory defines 
+social exchange as “voluntary actions of individuals that are motivated 
+by the returns they are expected to bring and typically in fact bring from 
+others” ([37] p. 91). While developed at the individual level, scholars 
+have extended SET to the organizational level [36,38,39]. At this level, 
+SET proposes that corporate groups interact for a reward or with the 
+expectation of a reward from their interaction with partners [38,40]. 
+Generally, the exchange parties are interdependent and the exchange 
+requires a bidirectional transaction involving reciprocity [41]. The norm 
+of reciprocity that represents the “rules” governing social exchange in-
+dicates the exchange as reciprocal in that, if one party supplies a benefit, 
+the receiving party should respond in kind [41]. 
+
+
+Social exchange theory provides a general approach for under-
+standing how clients are likely to respond when they perceive their 
+psychological contracts have been fulfilled or not. Because inter- 
+organizational relationships, such as ES vendor–client relationships, 
+are not only governed by contractual elements but also regulated by 
+social norms, such as beliefs concerning reciprocity [42]. In ES ven-
+dor–client relationships, an ES vendor wants to maintain its market 
+share, while its client wants to successfully implement ES for operational 
+efficiency. Hence, ES vendors and their clients are highly interdependent 
+with mutual benefits and commitments [15]. In the course of coopera-
+tion, both parties abide by the certain “rules” of exchange that guide the 
+exchange processes [43]. For example, ES vendors maintain an expec-
+tation of return from their clients when contributing to clients. Because 
+the fulfillment status of a psychological contract may break or maintain 
+the “rules” of exchange which, in turn, affects the readiness of clients to 
+exchange with CCBs. In this view, we deem SET as an appropriate 
+theoretical lens to examine the effects of psychological contract on CCBs. 
+
+
+Social exchange theory is composed of a series of propositions that 
+outline social exchange. First, the success proposition argues that, for all 
+actions taken, the more often a particular action is rewarded, the more 
+likely the exchange partner is to perform that action again [40]. In the 
+ES vendor–client context, knowledge share between these two parties is 
+reflective of this principle. The reward proposition argues that the more 
+deprived the reward, the more value it gains [38]. The value proposition 
+argues that the more valuable the exchange one party perceives as the 
+result of an exchange, the more likely the party to perform the action 
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+3
+
+
+again [38]. In the ES vendor–client context, clients will engage in 
+reciprocal activities in response to how valuable the actions ES vendor 
+performed. The aggression proposition argues that the exchange party will 
+aggressively withhold the action in the future when its action does not 
+receive the expected reward or receive unexpected punishment [40]. 
+Finally, the rationality proposition argues that, in choosing between ac-
+tions, the exchange party will choose that which will bring a greater 
+expected value of reward [40]. Hence, we argue that SET provides a 
+general approach for understanding how clients are likely to respond 
+upon perceiving whether their psychological contracts have been ful-
+filled by their ES vendors. 
+
+
+2.2. Client citizenship behavior 
+
+
+Citizenship behavior was initially studied at the individual level (e. 
+g., [44–47]). This individual discretionary behavior promotes the 
+effective functioning of the organization but is not directly or explicitly 
+recognized by the formal reward systems [48]. Gradually, researchers 
+widely studied this behavior at the group level and consider citizenship 
+behavior as a collective voluntary behavior that done by a group (e.g. [5, 
+49–51],). Their antecedents and outcomes have been studied in diverse 
+fields such as organizational behavior (e.g. [50,52],), human resource 
+management (e.g. [52,53],), marketing (e.g. [54],), information systems 
+(e.g. [5,55],), and leadership (e.g. [46],). Recently, scholars have 
+increasingly realized that citizenship behavior might grow in a context 
+[56,57] and have called for research on citizenship behaviors at the firm 
+level [58]. Autry et al. [59], for example, contended citizenship be-
+haviors as discretionary interfirm behavioral tactics that promote the 
+effective functioning of the whole system, but are not directly or 
+explicitly included in formal agreements. Based on the work of Autry 
+et al. [59], Skinner et al. [60] described the development of a scale for 
+measuring citizenship behavior at the firm level. In IS field, researchers 
+investigated the role of citizenship behavior at various levels. Table 1 
+provides an overview of recent IS research on citizenship behavior. 
+
+
+In this study, we theoretically ground the concept of CCBs in prior 
+studies of firm-level citizenship behavior and define CCBs as a client 
+firm’s readiness to engage in extra-role behaviors that are not explicitly 
+detailed in formal business contracts [57,65]. Following Groth [65]’s 
+work, we conceptualize recommendations, helping other customers, and 
+providing feedback as three dimensions of CCBs. Because ES vendors not 
+only care about expanding their market shares but also interest in 
+improving their outsourcing service quality [66]. Therefore, the three 
+
+
+dimensions are citizenship behaviors that an ES vendor most valued in 
+an ES vendor–client relationship. Specifically, recommendations refer to 
+clients’ voluntary behavior (i.e., that which is not required by ES ven-
+dors) to recommend ES products to other firms [67]. Helping other 
+customers denotes a client’s discretionary engagement in constructive 
+behaviors to assist other customers in implementation and ES usage 
+[67]. Providing feedback refers to a client’s discretionary behaviors in 
+providing valuable information, including usage feedback and related 
+services, to ES vendors [68]. Given the significance of CCBs in ES ven-
+dor–client relationships, it is necessary to understand how to increase a 
+client’s propensity to engage in citizenship behaviors in an ES project. 
+
+
+2.3. Psychological contract 
+
+
+A psychological contract is a set of beliefs about reciprocal obliga-
+tions between two parties in an exchange relationship [69,70]. Unlike 
+expectations, psychological contracts are based on perceived promises 
+of reciprocity and are established when one party believes that the other 
+party is obligated to perform certain behaviors [71]. Hence, researchers 
+have argued that each party in a relationship possesses a unique psy-
+chological contract based on its own understanding of the reciprocal 
+obligations [19]. Central to psychological contract theory is the 
+perception of breach. Psychological contract breach is a continuum 
+ranging from under-fulfillment to fulfillment, to over-fulfillment [72]. 
+Under-fulfillment occurs when one party perceives another party’s 
+insufficient fulfillment of obligations within a psychological contract 
+[73]. Fulfillment happens when one party perceives that obligations 
+have been sufficiently fulfilled by another party [73]. Over-fulfillment 
+happens when one party perceives delivered fulfillments exceed prom-
+ised obligations [74]. 
+
+
+Most of the prior literature focuses psychological contract at the 
+individual level of analysis (e.g., [28,75–78]), while some studies have 
+extended it to relationships at the firm level (e.g. [11,19,25,79–82],). 
+Blancero and Ellram [79] noted that the key aspect of psychological 
+contract allows it to be applied in inter-organizational contexts, such as 
+relationships between buyers and suppliers. In a buyer–supplier rela-
+tionship, a psychological contract is the conceptualization of an ex-
+change agreement between the buyer and the supplier in which one 
+party maintains a set of beliefs toward the other party’s obligations [25]. 
+In an ES vendor–client relationship, clients hold beliefs about what their 
+ES vendors are obligated to provide and beliefs about how well the ES 
+vendors have fulfilled the obligations [19]. To make clear the critical 
+customer–supplier obligations in an IT outsourcing relationship, Koh 
+et al. [19] developed and empirically validated their research models of 
+customer and supplier obligations in the context of IT outsourcing. 
+Through qualitative analysis, Koh et al. [19] identified six major com-
+ponents of what clients believe are ES vendors’ obligations in IT 
+outsourcing. We draw on their finalized set of validated obligations to 
+develop our research model. These components are well established in 
+literature to reflect psychological contract in IS outsourcing relation-
+ship, which is consistent with the relationship in our research context 
+[19]. These components are evaluated from the perspective of clients to 
+reflect their opinions on key aspects in IT outsourcing relationships. 
+Particularly, clients can evaluate to what extent they believe that an ES 
+vendor should take these obligations and how well the ES vendor fulfills 
+these obligations. Table 2 shows an ES vendor’s basic obligations that 
+constitute the basis of psychological contracts in an ES vendor–client. 
+
+
+2.4. Hypotheses development 
+
+
+Under-fulfillment of psychological contracts occurs when clients 
+perceive a discrepancy between what they think ES vendors are obli-
+gated to provide and what they actually receive. In ES vendor–client 
+relationships, clients seek to maintain equality between their costs and 
+beliefs in the exchange relationship [83]. However, from the clients’ 
+perceptive, the discrepancy between delivered fulfillments and expected 
+
+
+Table 1 
+Summary of related IS research on citizenship behavior.  
+
+
+Study Context Research level Main findings 
+
+
+Han & 
+Hovav 
+[61] 
+
+
+IS 
+project 
+
+
+Individual level Helping others positively related to 
+knowledge sharing among project 
+teams. While civic virtue and 
+sportsmanship are not significantly 
+related to knowledge sharing. 
+
+
+Chou 
+et al. 
+[62] 
+
+
+IS 
+project 
+
+
+Individual level Job commitment positively 
+influences IS personnel’ citizenship 
+behavior and it serves as a mediator 
+between the organizational justices 
+and IS personnel’ citizenship 
+behavior. 
+
+
+Yen et al. 
+[63] 
+
+
+IS 
+project 
+
+
+Team level The citizenship behavior of 
+implementation team positively 
+influences IS success, which is 
+mediated by integration climate and 
+effective project management. 
+
+
+Wang 
+et al. 
+[64] 
+
+
+IS 
+project 
+
+
+Organizational 
+level 
+
+
+ES task efficiency and ES 
+coordination improvement positively 
+influence renqing, which, in turn, 
+positively impact CCBs. ES 
+coordination improvement positively 
+influences ganqing and subsequently 
+positively influences CCBs.  
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+4
+
+
+obligations creates inequality in the social exchange [84]. In this sense, 
+as long as clients perceive that they have adequately met their obliga-
+tions to their ES vendors, clients may feel shortchanged by ES vendors’ 
+failure to fulfill their obligations. Thus, clients will incline to rebalance 
+this unfair social exchange by reducing the extent of their voluntary 
+actions (i.e., CCBs). Besides, obligations are based on beliefs in promises 
+or debts [11]. ES vendors’ failure to comply with their obligations may 
+foster the clients’ perception that ES vendors not give serious consid-
+eration to the promises of ES projects success and are thereby not 
+dependable. This leads to negative beliefs on the client’s behalf about 
+the integrity of ES vendors, and, therefore, inflicts severe damage on the 
+norms of reciprocity in the social exchange relationships. Given this, the 
+under-fulfillment of a psychological contract by ES vendors may affect 
+not only what clients have expected to receive but also what clients feel 
+obligated to offer in return. In such cases, clients may feel much less 
+obligated to perform citizenship behaviors because the obligations in the 
+psychological contracts are no longer valued. Hence, we predict that 
+clients will withhold CCBs if they feel the psychological contract has not 
+been adequately fulfilled. 
+
+
+Hypothesis 1. The CCBs will be reduced to the extent that clients 
+perceive that the obligations comprising their psychological contracts 
+have been under-fulfilled by their ES vendors. 
+
+
+When delivered fulfillments exceed expected obligations, clients 
+receive more inducements than they expected. Such excess also creates 
+inequality in social exchange. SET suggests that clients are motivated to 
+engage in CCBs when they perceive that their relationships with ES 
+vendors are based on the foundation of fair social exchanges [12]. To 
+maintain equality in the reciprocal exchange, clients tend to reciprocate 
+the exceeded fulfillments by increasing their CCBs. Besides, prior 
+research suggests that excess increases client satisfaction [65,72]; the 
+more satisfied the clients are with the degree to which their ES vendors 
+are “living up to their obligations”, the more reciprocal CCBs the clients 
+are likely to respond with. Thus, as clients receive more benefits from 
+their ES vendors, they perceive that the obligations comprising their 
+psychological contracts are highly valued and that their ES vendors are 
+therefore highly dependable. This leads to clients’ positive assessment of 
+beliefs about their ES vendors’ benevolence and integrity. In this sense, 
+clients will more likely respond in kind in terms of CCBs to maintain a 
+good relationship with their ES vendors. Taken together, these argu-
+ments about the over-fulfillment of a psychological contract lead us to 
+posit the following: 
+
+
+Hypothesis 2. The CCBs will increase to the extent that clients 
+perceive the obligations comprising their psychological contracts have 
+been over-fulfilled by their ES vendors. 
+
+
+Psychological contract fulfillment is conceptualized as a continuum 
+where received inducements and promises range from low to high levels 
+with the stipulation that received inducements equal those promised. As 
+clients perceive their ES vendors’ obligations—such as clear authority 
+structures and dedicated project staffing—to be critical to the success of 
+the ES projects and difficult to accomplish, clients tend to believe that 
+their ES vendors are fulfilling an ambitious standard [19]. Compared 
+with a low level of obligation that is fulfilled, the higher the level of an 
+obligation being fulfilled, the more certain the clients believe their ES 
+vendors have fulfilled an ambitious commitment to them. For example, 
+clients may believe that their ES vendors are more obligated to assign 
+adequate staff dedicated to the project and lower the staff turnover 
+during the project than to work as a team with them. Compared with 
+fulfilling the obligation of working as a team, fulfilling the obligation of 
+dedicated project staffing is more likely to enhance the clients’ 
+perception of fulfilling an ambitious commitment. Therefore, clients will 
+willingly reciprocate the high level of delivered fulfillment with more 
+CCBs. Additionally, higher levels of obligations fulfilled will generate 
+higher levels of perceived organizational support from ES vendors, 
+which give impetus to clients to reciprocate this benefit with higher 
+performances of CCBs [23]. Following this logic, we posit the following: 
+
+
+Hypothesis 3. The CCBs will be higher when expected obligations 
+match delivered fulfillments at a high level than match at a low level. 
+
+
+3. Research methods 
+
+
+3.1. Data collection 
+
+
+As the variables we studied are primarily psychological concepts, it is 
+more effective to apply a survey design to capture the key characteristics 
+in which we are interested. A survey was conducted in collaboration 
+with one of the largest ES service suppliers, BS Company, in the Chinese 
+garment industry. We chose to collect data from its client firms whose ES 
+services are at the post-implementation stage. The post-implementation 
+stage is suitable and helpful for our research because, by this stage in the 
+process and relationship, clients can comprehensively evaluate the ES 
+vendor’s fulfillment of obligations with respect to the entirety of the ES 
+implementation service. Furthermore, clients also tend to have a clear 
+evaluation of their willingness to engage in citizenship behaviors. 
+
+
+To obtain a representative sample, we filtered 200 clients whose ES 
+services are at the post-implementation stage from a list of client firms 
+provided by BS Company. The executives in charge of ES implementa-
+tion in the client firms were selected as our key respondents because of 
+their vast amount of knowledge on ES services and their familiarity with 
+ES implementation processes. The client representatives of BS Company 
+have the names and addresses of their client firms as well as the names 
+and contact information of the key respondents. So, the client repre-
+sentatives of BS Company assisted us in distributing the questionnaires 
+to the key respondents through an online link. Meanwhile, we kept in 
+touch with client representatives in BS Company and make sure they 
+invited and distributed our questionnaires to the key respondents. The 
+liaison between client representatives in BS Company and client firms is 
+useful for improving response rate as well as quality. To minimize the 
+biases induced by personal links, we specified in questionnaires and 
+when distributing the questionnaires what our academic purpose was 
+and promised no further use of their personal information. Several 
+rounds of follow-up reminders were conducted to maximize the 
+response rate. 
+
+
+Out of a total of 200 questionnaires, 135 complete questionnaires 
+were obtained, with a response rate of 62.5 %. As all data were collected 
+through the survey, non-response bias is a concern. To access this po-
+tential non-response bias, we compared early and late responses on key 
+firm characteristics. The chi-square test on ownership type 
+(χ2(3) = 3.276, p = 0.351), firm size (χ2(5) = 8.780, p = 0.118), firm 
+history (χ2(5) = 3.576, p = 0.612), and number of IT employees 
+
+
+Table 2 
+ES vendor obligations and definitions [19].  
+
+
+ES vendor’s obligation for: 
+
+
+(1) Accurate project scoping Define precisely the nature and range of services 
+covered in the outsourcing contract, and be 
+flexible in handling customers’ requests for 
+changes in these services. 
+
+
+(2) Clear authority structures Delineate the decision-making rights and 
+reporting structures in the project, in terms of the 
+roles and responsibilities of all parties involved. 
+
+
+(3) Taking charge Complete the job and solve problems 
+independently, with minimal customer 
+involvement. 
+
+
+(4) Effective human capital 
+management 
+
+
+Assign high-quality staff to work on the project 
+and minimize staff turnover during the project. 
+
+
+(5) Effective knowledge transfer Educate customers in terms of the necessary 
+skills, knowledge, and expertise associated with 
+using the outsourced system or service. 
+
+
+(6) Building effective 
+interorganizational teams 
+
+
+Invest time and effort to foster a good working 
+relationship among the team of customer and 
+supplier staff working on the project.  
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+5
+
+
+(χ2(3) = 5.627, p = 0.131) showed no significant differences, indi-
+cating that non-response bias was not a serious problem in this study 
+[85]. Table 3 shows the demographic information. 
+
+
+3.2. Measures 
+
+
+As our domain of interest in this study concerns psychological con-
+cepts and behaviors, we reviewed the literature on psychological con-
+tracts, organizational behaviors, and interfirm relationships. Grounding 
+our theoretical model in the extant literature allowed us to adapt 
+existing scales for measurement. An English questionnaire was first 
+developed, which adopts a five-point Likert scale with measurement 
+ranging from 1 (“strongly disagree”) to 5 (“strongly agree”). Following 
+translation/back-translation procedures [86], the questionnaire was 
+then translated into Chinese and checked by two scholars and six 
+doctoral students in relevant fields to ensure content validity. The Chi-
+nese questionnaire was then translated back into English by a profes-
+sional and no semantic discrepancies were identified when compared 
+with the original English version. A complete list of items in the ques-
+tionnaire is shown in the Appendix. 
+
+
+3.2.1. Psychological contract obligation and fulfillment 
+The measurements of psychological contract obligation and psy-
+
+
+chological contract fulfillment were adapted from Koh et al. [19]. Psy-
+chological contract obligation (PCO) and psychological contract 
+fulfillment (PCF) were formulated as reflective second-order constructs, 
+each having six dimensions: accurate project scoping (APS), clear au-
+thority structures (CAS), taking charge (TAC), dedicated project staffing 
+(DPS), knowledge sharing (KNS), and building effective interorganiza-
+tional teams (BEI). The expected obligations and corresponding fulfill-
+ments were tested separately by asking: “My firm believes that the ES 
+vendor should take following obligations” and “In fact, the ES vendor 
+fulfilled the following obligations.” 
+
+
+3.2.2. Client citizenship behavior 
+The CCB measurement was adapted from Groth [65] and was 
+
+
+formulated as a reflective second-order construct with the following 
+categories: recommendations (REC), helping other customers (HEP), 
+and providing feedback (PFB). Each category was tested by asking: “My 
+firm willing to….” 
+
+
+3.2.3. Control variables 
+We controlled for several variables that could affect CCBs. Dummy 
+
+
+variables were used for firm ownership. Ownership 1 refers to state- 
+owned companies, ownership 2 refers to privately owned companies, 
+ownership 3 refers to foreign-owned companies, and ownership 4 refers 
+to sino-foreign joint companies. Dummy variables were also used for 
+firm age where firm age 1 refers to less than 1 year, firm age 2 refers to 
+1–3 years, firm age 3 refers to 4–6 years, firm age 4 refers to 7–10 years, 
+firm age 5 refers to 11–15 years, and firm age 6 refers to more than 15 
+years. Firm size was measured by dummy variables that represent the 
+number of employees, where firm size 1 refers to less than 10 employees, 
+firm size 2 refers to 10–50 employees, firm size 3 refers to 51–100 em-
+ployees, firm size 4 refers to 101–200 employees, firm size 5 refers to 
+201–300 employees, and firm size 6 refers to more than 300 employees. 
+IT department size was also measured by dummy variables representing 
+the number of IT employees, where size 1 denotes less than 2 IT em-
+ployees, size 2 denotes two to five IT employees, size 3 denotes 6–10 IT 
+employees, size 4 denotes 11–15 IT employees, and size 5 denotes more 
+than 16 IT employees. 
+
+
+3.3. Analysis 
+
+
+3.3.1. Multicollinearity and common method bias 
+Although several inter-construct correlations were greater than the 
+
+
+benchmark of 0.600 (see Table 2), the test results revealed that the 
+highest variance inflation factor (VIF) was 4.526, lower than the sug-
+gested benchmark value of 5 (e.g., [87]). Therefore, multicollinearity 
+was not a severe problem in our dataset. To further mitigate multi-
+collinearity, we mean-centered PCO and PCF before regressions were 
+conducted. 
+
+
+Since the data were perceptual and collected from one informant to 
+answer the self-reported questionnaire, common method bias might be a 
+potential threat to the validity of the study. To minimize this bias, we 
+adopted different instructions for different scales and arranged the 
+constructs into distinct sections when designing the questionnaire [88]. 
+Furthermore, we conducted three tests to check for potential common 
+method bias. First, Harman’s one-factor test was performed using 
+exploratory factor analysis (EFA) [88]. The results showed that 14 
+distinct factors with eigenvalues of more than 1.0 explained 72.5 % of 
+the total variance. The first factor explained 25.0 % of variance (not the 
+majority of the total variance), thereby indicating that the common 
+method bias was not likely to be a serious problem. Second, we 
+compared the fit between the one-factor model and measurement model 
+to assess the occurrence of common method bias [89]. The one-factor 
+model yielded fit indices (χ2/df = 3144.777/902 = 3.486, 
+CFI = 0.354, NNFI = 0.322, RMSEA = 0.136, SRMR = 0.143) that were 
+unacceptable and significantly worse than the fit of the measurement 
+model (χ2/df = 1860.003/1070 = 1.738, CFI = 0.806, NNFI = 0.778, 
+RMSEA = 0.074, SRMR = 0.061). Third, we employed the confirmatory 
+factor analysis (CFA) marker-variable technique to check whether there 
+is a significant correlation between the maker variable (i.e., a method 
+factor) and the hypothesized variables [90]. The marker variable that 
+specifically designed for observing the shared variance between a 
+method factor and hypothesized factors is theoretically unrelated to our 
+hypothesized variables. In this study, a single-item scale for the marker 
+variable was adapted from B. Fynes* et al. [91], which was included in 
+the questionnaire to evaluate the competitive intensity of the industry. 
+Respondents are asked to evaluate the question: “Competition in our 
+industry is cut-throat” (1 = strongly disagree, 5 = strongly agree). 
+Following the procedure of Malhotra et al. [90], the CFA 
+marker-variable technique evaluates common method bias by checking 
+statistical differences between a basic measurement model (with only 
+hypothesized variables) and an extended measurement model (with 
+both hypothesized variables and a marker variable). The results show no 
+significant improvement in model fit indices: the basic model 
+(χ2/df = 1860.003/1070 = 1.738, CFI = 0.806, NNFI = 0.778, 
+RMSEA = 0.074, SRMR = 0.061) vs. the extended model 
+
+
+Table 3 
+Demographic information (N = 135).   
+
+
+Frequency Percent (%) 
+
+
+Ownership   
+State-owned 3 2.22 
+Privately owned 127 94.07 
+Foreign controlled 5 3.70  
+
+
+Number of employees   
+Less than 10 8 5.93 
+10–50 73 54.07 
+51–100 46 34.07 
+More than 100 8 5.93  
+
+
+Firm age   
+Less than 4 years 14 10.37 
+4–6 59 43.70 
+7–10 45 33.33 
+More than 10 17 12.59  
+
+
+Number of IT employees   
+Less than 2 84 62.22 
+2–5 42 31.11 
+More than 5 9 6.67  
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+6
+
+
+(χ2/df = 1919.986/1105 = 1.738, CFI = 0.803, NNFI = 0.773, 
+RMSEA = 0.074, SRMR = 0.061). The results indicate that common 
+method bias was not a serious problem in this study [91]. 
+
+
+3.3.2. Confirmatory factor analysis 
+We conducted CFA to evaluate the reliability and validity of the 
+
+
+measurements. The composite reliability (CR) of first-order constructs 
+followed the procedure of first-order factor analysis [92]. The 
+second-order factors are predicted to account for the correlations among 
+the first-order factors. We followed the procedure of second-order factor 
+analysis to estimate the CR of second-order constructs (i.e., PCO, PCF, 
+and CCBs) [92]. As shown in Table 4, all items are reasonable indicators 
+of their respective first-order factors with factor loadings higher than the 
+suggested benchmark 0.700. Table 5 presents the correlations among 
+the first-order factors and are significantly interrelated, which speaks to 
+the viability of second-order constructs. Thus, the composite reliabilities 
+of second-order factors are calculated based on the loadings of their 
+respective first-order factors that loaded onto the second-order factors. 
+The results indicate that the values of CR are also higher than the 
+benchmark value of 0.700. Furthermore, the values of the average 
+variance extracted (AVE) are higher than the threshold of 0.500 [93]. 
+Therefore, the constructs have acceptable convergent validity. Table 5 
+shows that the inter-construct correlations are lower than the corre-
+sponding square root of AVEs, suggesting good discriminant validity 
+[94]. Overall, the results of second-order CFA suggest that the 
+second-order aggregates (i.e., PCO, PCF, and CCBs) fit the data appro-
+priately. To better describe and summarize features of a collection of 
+information, we presented the mean values of aggregated first-order 
+variables as well as their standardized deviations in Table 5. In the 
+subsequent regression analysis, we performed the value of the 
+second-order aggregates as the average value of their first-order aggre-
+gates that were aggregated from the value of respective indicators. 
+
+
+3.4. Polynomial regression and response surface analysis 
+
+
+To test our hypotheses and capture the differential effects of under- 
+fulfillment, fulfillment, and over-fulfillment of psychological contract, we 
+used polynomial modeling and response surface methodology to address 
+the research gaps [95–97]. Models that utilize a congruence between 
+variables are common in information systems research. Both difference 
+scores and polynomial modeling are used to examine the congruence 
+effect. However, the difference scores methodology has several 
+well-recognized limitations [98,99], including discarded information 
+because of using difference scores to gain a single measure for further 
+analyses and less robust due to unrealistically restrictive constraints on 
+the difference scores model [98]. Polynomial models address the limi-
+tations of difference scores (i.e., linear models) by allowing the exami-
+nation of curvilinear relationships between component measures [98]. 
+Therefore, Edwards and his colleagues recommended using polynomial 
+modeling to generate three-dimensional response surfaces to examine 
+the congruence/incongruence effects [95,100]. The response surface 
+methodology provides an interpretive framework with mathematical 
+and statistical techniques to show the features of the surface corre-
+sponding to polynomial equations [101]. When coupled with response 
+surface methodology, polynomial modeling can precisely capture the 
+inherent three-dimensional relationships of obligations and fulfillments 
+with CCBs [33,72], which provides a successful way of revealing the 
+complexity in theories of congruence [102]. After Klein et al. [99]’s 
+recommendation of polynomial modeling as a method of addressing 
+more complex relationships in IS studies, polynomial modeling and 
+response surface analysis have been widely used in information systems 
+(IS) research. Table 6 provides an overview. 
+
+
+The quadratic regression equation is illustrated below:  
+
+
+CCBs = b0 + b1PCF + b2PCO + b3PCF
+2 
++ b4PCF × PCO + b5PCO
+
+
+2 
++ e.   
+
+
+(1) 
+
+
+We followed the regression procedure that the dependent variable 
+(CCBs) was regressed on control variables as well as five polynomial 
+terms: psychological contract obligation (PCO), psychological contract 
+fulfillment (PCF), psychological contract obligation squared (PCO2), 
+psychological contract fulfillment times psychological contract obliga-
+tion (PCF × PCO), and psychological contract fulfillment squared 
+(PCF2). To mitigate multicollinearity between component measures and 
+their associated higher-order terms, PCF and PCO were centered around 
+the pooled grand mean before calculating the higher-order terms [105]. 
+
+
+After polynomial regression, we performed a response surface anal-
+ysis. Following the procedure described in Edwards and Parry’s [100] 
+
+
+Table 4 
+The CR and AVE for the main constructs and their components.  
+
+
+Constructs Items Loadings* CR AVE 
+
+
+Psychological 
+Contract 
+Obligation 
+
+
+Accurate project 
+scoping 
+
+
+0.711 
+
+
+0.865 0.518 
+
+
+Clear authority 
+structures 
+
+
+0.755 
+
+
+Taking charge 0.642 
+Dedicated project 
+staffing 
+
+
+0.751 
+
+
+Knowledge sharing 0.682 
+Building effective 
+interfirm teams 
+
+
+0.770 
+
+
+Accurate project 
+scoping 
+
+
+PCO_APS1 ~ 
+PCO_APS3 
+
+
+0.810~0.842 0.861 0.674 
+
+
+Clear authority 
+structures 
+
+
+PCO_CAS1 ~ 
+PCO_CAS3 
+
+
+0.832~0.846 0.881 0.712 
+
+
+Taking charge 
+PCO_TAC1 ~ 
+PCO_TAC3 
+
+
+0.829~0.885 0.888 0.726 
+
+
+Dedicated project 
+staffing 
+
+
+PCO_DPS1 ~ 
+PCO_DPS3 
+
+
+0.730~0.853 0.852 0.659 
+
+
+Knowledge sharing 
+PCO_KNS1 ~ 
+PCO_KNS4 
+
+
+0.679~0.822 0.849 0.586 
+
+
+Building effective 
+interfirm teams 
+
+
+PCO_BEI1 ~ 
+PCO_BEI3 
+
+
+0.766~0.871 0.857 0.667 
+
+
+Psychological 
+Contract 
+Fulfillment 
+
+
+Accurate project 
+scoping 
+
+
+0.741 
+
+
+0.894 0.586 
+
+
+Clear authority 
+structures 
+
+
+0.814 
+
+
+Taking charge 0.730 
+Dedicated project 
+staffing 
+
+
+0.783 
+
+
+Knowledge sharing 0.756 
+Building effective 
+interfirm teams 
+
+
+0.676 
+
+
+Accurate project 
+scoping 
+
+
+PCF_APS1 ~ 
+PCF_APS3 
+
+
+0.809~0.892 0.898 0.746 
+
+
+Clear authority 
+structures 
+
+
+PCF_CAS1 ~ 
+PCF_CAS3 
+
+
+0.818~0.915 0.899 0.749 
+
+
+Taking charge 
+PCF_TAC1 ~ 
+PCF_TAC3 
+
+
+0.843~0.852 0.886 0.721 
+
+
+Dedicated project 
+staffing 
+
+
+PCF_DPS1 ~ 
+PCF_DPS3 
+
+
+0.822~0.890 0.891 0.731 
+
+
+Knowledge sharing 
+PCF_KNS1 ~ 
+PCF_KNS4 
+
+
+0.823~0.861 0.909 0.714 
+
+
+Building effective 
+interfirm teams 
+
+
+PCF_BEI1 ~ 
+PCF_BEI3 
+
+
+0.783~0.837 0.861 0.674 
+
+
+Client Citizenship 
+Behaviors 
+
+
+Recommendations 0.916 
+
+
+0.918 0.789 
+Helping other 
+customers 
+
+
+0.893 
+
+
+Providing feedback 0.854 
+
+
+Recommendations 
+CCB_REC1 ~ 
+CCB_HEP4 
+
+
+0.718~0.853 0.866 0.618 
+
+
+Helping other 
+customers 
+
+
+CCB_HEP1 ~ 
+CCB_HEP4 
+
+
+0.812~0.876 0.910 0.716 
+
+
+Providing feedback 
+CCB_PFB1 ~ 
+CCB_PFB4 
+
+
+0.765~0.858 0.900 0.601 
+
+
+Ownership Single item 
+Firm Size Single item 
+Firm Age Single item 
+IT Department Size Single item 
+
+
+Note: CR = composite reliability; AVE = Averaged Variance Extracted. 
+* Significant at p < 0.001. 
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+7
+
+
+literature, we examined the basic features of the response surface: slopes 
+and curvatures along lines of interest—fulfillment line (PCF = PCO) and 
+breach line (PCF = - PCO). As shown in Fig. 1A, the comparison of ex-
+pected obligations and perceived fulfillments was captured by the 
+two-dimensional space on the floor of the graph. The fulfillment line 
+(PCF = PCO) proceeded from the front corner to the rear corner and 
+captured variation at absolute levels where perceived fulfillments equal 
+perceived obligations. The breach line (PCF =–PCO) proceeded from the 
+left corner to the right corner. Along this line, the region where fulfill-
+ments are less than obligations represents deficiency, whereas the region 
+where fulfillments are greater than obligations signifies excess. Fig. 1B 
+illustrates the shape of the surface along the fulfillment line and Fig. 1C 
+shows the shape of the surface along the breach line. To test Hypothesis 
+1 and Hypothesis 2, we examined two key features of the plotted 
+
+
+response surface: the slope as well as the curvature of the surface along 
+breach line (PCF = - PCO). According to Edwards and Parry [100], the 
+shape of the surface along PCF = - PCO line can be calculated by sub-
+stituting—PCF for PCO in Eq. 1. Then, the slope of the surface along PCF 
+= - PCO line can be calculated as (b1–b2) and the curvature of the surface 
+along this line is (b3–b4 + b5). When the slope along the breach line is 
+positive and significant, we are able to conclude that under-fulfillment is 
+negatively associated with CCBs (i.e., Hypothesis 1) and over-fulfillment 
+is positively associated with CCBs (i.e., Hypothesis 2). To test Hypothesis 
+3, we examined the slope as well as the curvature of the surface along 
+fulfillment line (PCF = PCO). Similarly, the shape of the surface along 
+fulfillment line (PCF = PCO) can be calculated by substituting PCF for 
+PCO in Eq. 1. Thus, along the PCF = PCO line, the slope of the surface 
+can be calculated as (b1 + b2) and the curvature of the surface is (b3 + b4 
++ b5). If the sums are zero, then the surface is flat along PCF = PCO line. 
+If the slope along the PCF = PCO line is positive and significant, we are 
+able to conclude that CCBs are higher when obligation and fulfillment 
+match at a high level than match at a low level (i.e., Hypothesis 3). 
+
+
+4. Results 
+
+
+4.1. Hypotheses testing 
+
+
+To avoid misleading interpretation of the results, we checked the 
+statistic power with our sample size of 135. We used G*Power 3.1 [106] 
+to test the statistical power of our model. Specifically, we conducted a 
+post hoc analysis (the statistical power 1 − β is calculated as a function 
+of significant level, sample size, and population effect size) and set the α 
+error probability of 0.05 [103]. The results show that the statistic power 
+(1 − β) is 0.98 (F = 3.06), above the minimum threshold of 0.80 [107]. 
+Furthermore, the join significant analysis of second-order polynomial 
+
+
+Table 5 
+Descriptive statistics: means, standard deviations, and correlations (N = 135).   
+
+
+Means SD PCO_APS PCO_CAS PCO_TAC PCO_DPS PCO_KNS PCO_BEI PCF_APS PCF_CAS PCF_TAC 
+
+
+PCO_APS 4.38 0.46 0.707         
+PCO_CAS 4.62 0.45 0.390** 0.821        
+PCO_TAC 4.46 0.51 0.388** 0.398** 0.844       
+PCO_DPS 4.55 0.44 0.359** 0.530** 0.302** 0.852      
+PCO_KNS 4.63 0.38 0.347** 0.368** 0.196* 0.479** 0.812     
+PCO_BEI 4.55 0.43 0.492** 0.453** 0.423** 0.418** 0.414** 0.766    
+PCF_APS 4.22 0.60 0.384** 0.256** 0.194* 0.112 0.222* 0.293** 0.817   
+PCF_CAS 4.46 0.52 0.104 0.586** 0.234** 0.353** 0.313** 0.261** 0.560** 0.750  
+PCF_TAC 4.34 0.53 0.152 0.218* 0.489** 0.150 0.102 0.187* 0.512** 0.527** 0.864 
+PCF_DPS 4.37 0.57 0.059 0.280** 0.047 0.406** 0.356** 0.164 0.467** 0.550** 0.481** 
+PCF_KNS 4.41 0.58 0.140 0.290** − 0.076 0.258** 0.439** 0.181* 0.437** 0.547** 0.311** 
+PCF_BEI 4.47 0.45 0.254** 0.228* 0.264** 0.187* 0.178* 0.573** 0.406** 0.474** 0.388** 
+CCB_REC 4.27 0.51 0.222* 0.120 0.380** 0.149 0.044 0.313** 0.327** 0.246** 0.456** 
+CCB_HEP 4.22 0.62 0.254** 0.119 0.301** 0.078 − 0.003 0.173 0.284** 0.162 0.313** 
+CCB_PFB 4.33 0.47 0.201* 0.098 0.520** 0.042 − 0.060 0.289** 0.318** 0.206* 0.555** 
+OWN – – − 0.288** − 0.443** − 0.240** − 0.319** − 0.147 − 0.335** − 0.205* − 0.286** − 0.115 
+SIZE – – − 0.020 0.075 0.216* − 0.022 − 0.019 0.060 0.174 0.084 0.199* 
+HIS – – − 0.038 − 0.048 0.052 − 0.061 0.013 − 0.118 0.144 0.084 0.103 
+ITS – – 0.020 − 0.052 − 0.046 0.016 0.013 − 0.080 0.153 − 0.033 − 0.042  
+
+
+Continued  
+
+
+PCF_DPS PCF_KNS PCF_BEI CTB_REC CTB_HEP CTB_PFB OWN SIZE HIS ITS 
+
+
+PCF_DPS 0.865          
+PCF_KNS 0.635** 0.849         
+PCF_BEI 0.338** 0.456** 0.855        
+CCB_REC 0.302** 0.197* 0.438** 0.845       
+CCB_HEP 0.246** 0.116 0.306** 0.779** 0.821      
+CCB_PFB 0.245** 0.027 0.310** 0.682** 0.582** 0.888     
+OWN − 0.132 − 0.230** − 0.209* 0.120 0.112 0.103 –    
+SIZE 0.195* 0.050 0.047 0.181* 0.175 0.247** 0.015 –   
+HIS 0.120 0.028 0.037 0.319** 0.183* 0.241** 0.196* 0.363** –  
+ITS 0.194* 0.069 − 0.092 0.112 0.089 0.083 0.072 0.285** 0.274** – 
+
+
+Note: SD = standardized deviations; OWN = Ownership, SIZE = Firm size, HIS = Firm age, ITS = IT department size. The diagonal elements are square roots of AVEs. 
+* p < 0.05. 
+** p < 0.01. 
+
+
+Table 6 
+An overview of polynomial modeling and response surface methodology usage 
+in IS studies.  
+
+
+Study Purpose 
+
+
+Venkatesh & Goyal 
+[102] 
+
+
+To examine the effect of usefulness and attitude in the pre- 
+exposure and post-exposure stages on the intention of 
+continuing usage of a system. 
+
+
+Brown et al. [101] To study the impact of expectations and experiences on 
+technology use by using technology acceptance model (TAM). 
+
+
+Lankton et al. [103] To understand the nonlinear nature of trust disconfirmation 
+effects on IT from an expectation disconfirmation perspective. 
+
+
+Daniel et al. [98] To examine the impact of differences in ideology between 
+employees and their coworkers, and between employees and 
+the open-source software community on employee 
+commitment and code contribution to the community. 
+
+
+Nishant et al. [104] To investigate the nonlinear relationship between perceived/ 
+expected service quality and continued use intention.  
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+8
+
+
+terms (PCF2, PCO × PCF, and PCO2) significantly lead to an increase in 
+R2 (ΔR2 = 0.109, p < 0.01). Thus, the results showed a satisfactory 
+statistical power for this research model. In addition, extant studies 
+using polynomial modeling have adopted a similar sample size as this 
+research and delivered valid results [96,103–105]. Based on the above, 
+we believe that the sample size of this study is large enough for hy-
+potheses testing. 
+
+
+Table 7 reports the polynomial regressions results as well as the 
+slopes and curvatures along the fulfillment line and breach line. Spe-
+cifically, in the regression models, we controlled for firm ownership, 
+firm size, firm history, and number of IT employees. In Model 2, we 
+considered the linear model and, in Model 3, we added the three poly-
+nomial terms. Our results indicate that the three second-order 
+
+
+polynomial terms (PCF2, PCO × PCF, and PCO2) were jointly significant 
+in predicting CCBs (F = 7.16, p < 0.001). As the variance explained by 
+higher-order terms is significantly higher than that explained by the 
+linear model (i.e., Model 2), the curvilinear model (i.e., Model 3) was 
+found to be more favorable than the linear model (see [95,108]). To 
+illustrate the principles of polynomial modeling, Fig. 1 illustrates the 
+three-dimensional response surface based on these coefficients. 
+
+
+Hypothesis 1 suggests that CCBs will be reduced to the extent that the 
+perceived fulfillments fall short of expected obligations, and Hypothesis 
+2 suggests that CCBs will increase as perceived fulfillment exceeds ex-
+pected obligations. Examining the response surface, Fig. 1C indicates an 
+inverted U-shaped surface along the breach line with the curvature 
+showing a negative significance (curvature =–1.927, p < 0.05). Fig. 1C 
+in the deficiency region shows that CCBs go down when fulfillments fall 
+short of obligations (i.e., under-fulfillment), indicating that psycholog-
+ical contract under-fulfillment is negatively associated with CCBs, thus 
+supporting Hypothesis 1. However, the inverted U-shaped surface along 
+the excess region signifies that CCBs go down when fulfillments exceed 
+obligations (i.e., over-fulfillment), indicating that psychological con-
+tract over-fulfillment is also negatively related to CCBs. This is contrary 
+to what we predicted in Hypothesis 2. Thus, Hypothesis 2 was not 
+supported. 
+
+
+Hypothesis 3 suggests that the performance of CCBs is higher when 
+perceived fulfillments and perceived obligations match at a high level as 
+opposed to when they match at a low level. As shown in Table 7, the 
+slope along the fulfillment line is significant and positive (slope = 0.908, 
+p < 0.001), indicating that the performance of CCBs is higher when 
+perceived fulfillments and expected obligations are both high as 
+opposed to when both are low. Fig. 1B also indicates that the perfor-
+mances of CCBs are higher at the rear corner (high/high congruence) 
+than at the front corner (low/low congruence), thus supporting Hy-
+pothesis 3. Additionally, the positive curvature (curvature = 0.939, p <
+0.01) along the fulfillment line indicates a nonlinear relationship be-
+tween psychological contract fulfillment and CCBs. 
+
+
+For post hoc analyses, we tested whether or not clients react differ-
+ently toward under-fulfillment and over-fulfillment, since both psycho-
+logical contract under-fulfillment and over-fulfillment were negatively 
+related to CCBs. The quantity of lateral shift of the surface along the 
+breach line is nonsignificant (lateral shift =–0.158, n.s.), indicating that 
+
+
+Fig. 1. Response surface relating CCBs to psychological contract obligation and fulfillment.  
+
+
+Table 7 
+Polynomial regressions of CCBs on psychological contract obligation and 
+fulfillment.   
+
+
+Customer citizenship behaviors 
+
+
+Variables Model 1 Model 2 Model 3 
+
+
+Ownership 0.050 0.234** 0.132 
+Firm size 0.104 0.031 0.132 
+Firm age 0.196* 0.148 0.069 
+IT department size 0.036 0.033 0.011 
+PCF  0.320** 0.117 
+PCO  0.219* 0.510*** 
+PCF2   − 0.180 
+PCF × PCO   0.576*** 
+PCO2   − 0.047 
+R2 0.079 0.258 0.366 
+ΔR2  0.180*** 0.109**  
+
+
+Fulfillment (PCF = PCO) line    
+Slope   0.908*** 
+Curvature   0.939**  
+
+
+Breach (PCF =–PCO) line    
+Slope   − 0.630 
+Curvature   − 1.927* 
+F for the quadratic   7.16*** 
+
+
+Note: N = 135; PCO = Psychological Contract Obligation, PCF = Psychological 
+Contract Fulfillment; *p < 0.05, **p < 0.01, ***p < 0.001. 
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+9
+
+
+Fig. 1C shows a symmetrical incongruence effect along the breach line. 
+Thus, CCBs were shown to decrease symmetrically when psychological 
+contract fulfillments deviated from psychological contract obligations in 
+either direction. 
+
+
+4.2. Robustness analysis 
+
+
+To provide additional evidence that both under-fulfillment and over- 
+fulfillment of psychological contract were negatively related to CCBs, we 
+introduced the concept of fulfillment-obligation match (FOM) (i.e., the 
+match between the level of delivered fulfillments and the level of ex-
+pected obligations). Following the difference scores approach [109], we 
+measured FOM as the absolute difference between the delivered ful-
+fillments and expected obligations; that is, FOM = |PCF–PCO|. The 
+higher value of FOM indicates a higher mismatch and the lower value 
+indicates a closer match between PCF and PCO. Table 8 presents the 
+results. The results show that FOM is negatively related to CCBs (β 
+=–0.253, p < 0.01). The negative correlation between FOM and CCBs 
+indicates the higher mismatch (i.e., higher FOM) the fewer CCBs. 
+Additionally, the higher FOM indicates PCF and PCO deviate from 
+perfect match in either direction (i.e., under-fulfillment or 
+over-fulfillment). In other words, both under-fulfillment and 
+over-fulfillment of psychological contracts were found to be negatively 
+related to CCBs, supporting H1 and H2. 
+
+
+5. Discussion and implications 
+
+
+5.1. Discussion of the results 
+
+
+Based on SET, this study offers a better understanding of CCBs from a 
+psychological contract perspective in the context of ES vendor–client 
+relationships. Our results support that psychological contract under- 
+fulfillment is negatively associated with CCBs, which is consistent with 
+existing individual-level research findings that psychological contract 
+breach or violation can lead to various negative employee attitudes and 
+behaviors, such as organizational citizenship behaviors (e.g., [12,13, 
+45]). This finding confirms that under-fulfillment of psychological con-
+tract leads to inequality in the social exchange between ES vendors and 
+client firms. To maintain equity, client firms tend to reciprocate this 
+unfair social exchange by reducing their CCBs [43]. The result also 
+confirms that the under-fulfillment of psychological contract leads to 
+negative beliefs and distrust which damages the reciprocal exchange 
+norms between ES vendors and client firms [29]. Consequently, client 
+firms may feel much less obligated to benefit their ES vendors through 
+CCBs. Furthermore, we found that CCBs still maintain a moderate level 
+of performance when perceived fulfillment fell a little short of expected 
+obligations, which can be explained as a situation where psychological 
+contract obligations are insufficiently fulfilled but not strong enough to 
+arouse perceived violation emotionally [25]. Our findings also support 
+that CCBs will be higher when fulfillments and obligations match at a 
+high level as opposed to when they match at a low level. This indicates 
+that ES vendors fulfilling strong obligations will earn more CCBs than 
+fulfilling weak obligations. 
+
+
+Counterintuitively, however, our results indicate that psychological 
+contract over-fulfillment is negatively associated with CCBs. This differs 
+from what we understood through SET as well as what we learned in 
+individual-level research studies claiming that over-fulfilling em-
+ployees’ expectations will enhance the exchange of positive behaviors 
+(e.g., [45,74]). We provide the following plausible explanation for this 
+counterintuitive finding. Specifically, the high level of exceeded fulfill-
+ments may indicate relatively low or even no expected obligations on 
+the clients’ behalf toward their ES vendor. Hence, clients might not be 
+willing to reward ES vendors for fulfillments they do not need. 
+Furthermore, the exceeded fulfillments may come at huge costs for ES 
+vendors, of which clients may not be willing to cover. On the other hand, 
+in ES vendor–client relationships, clients pay ES vendors for services. 
+Under this condition, clients may feel it is fair when perceiving that ES 
+vendors try to fulfill more than expected to satisfy them. More impor-
+tantly, prior research suggests that the likelihood of perceiving 
+over-fulfillment tends to be lower than the likelihood of perceiving 
+under-fulfillment [12,110,111]. Accordingly, clients tend to ignore 
+over-fulfillment behaviors, especially when they perceive their ES 
+vendor as having low levels of obligations. Clients thus have less con-
+sciousness to engage in more extra-role behaviors as social exchanges. 
+
+
+5.2. Theoretical implications 
+
+
+We expect that the findings of our study can provide the following 
+theoretical implications. First, while prior IS research focuses on 
+studying IT personnel’s or employees’ citizenship behaviors in IS con-
+tracting (e.g., [17,55]) and ES success (e.g. [7,112],), this study extends 
+individual-level citizenship behavior to an inter-organizational context 
+and examines CCBs through a psychological contract perspective in ES 
+projects. The results show that the fulfillment of psychological contract 
+exerts great influence on a client’s voluntary engagement in ES projects. 
+Therefore, this study affords a deeper understanding of psychological 
+contract theory in the context of IS outsourcing and provides new in-
+sights as to how to encourage client participation in ES projects from a 
+psychological contract perspective. 
+
+
+Second, this study focuses on both under-fulfillment and over- 
+fulfillment of psychological contract, thus enriching the un-
+derstandings of the effects of psychological contract over-fulfillment on 
+CCBs in ES vendor–client relationships. Although our results show a 
+distinct influence of psychological contract over-fulfillment on CCBs, 
+this counterintuitive finding may indicate that SET is not suitable for 
+predicting behaviors in the situation of over-fulfillment. Exceeding 
+fulfillment in situations where the goal has already been achieved 
+challenges the basic assumption of SET that self-interested parties 
+transact or exchange with each other to accomplish outcomes they could 
+not achieve on their own [113,114]. Therefore, the finding extends our 
+understanding of social exchange between ES vendors and their clients 
+and provides an anomaly that stimulates additional theorizing for future 
+research. 
+
+
+Third, by reflecting on the distinction between obligations and ful-
+fillments, this study extends psychological contract literature by 
+considering the effects of congruence between expected obligations and 
+perceived fulfillments. The results demonstrate that whether the obli-
+gations are fulfilled exerts a significant influence on clients’ engagement 
+in voluntary behaviors in ES projects. Thus, our study provides a refer-
+ence point for further research to identify those strong obligations 
+comprising psychological contracts in IS outsourcing. 
+
+
+5.3. Practical implications 
+
+
+Our findings also suggest some practical implications. This study 
+suggests that both under-fulfillment and over-fulfillment of psycholog-
+ical contracts are negatively associated with CCBs. In other words, cli-
+ents are likely to exhibit the highest performance of citizenship 
+behaviors when ES vendors perfectly fulfill the psychological contracts 
+
+
+Table 8 
+Regression results using difference scores approach.   
+
+
+Customer citizenship behaviors 
+
+
+Variables Model 1 Model 2 
+Ownership 0.050 0.055 
+Firm size 0.104 0.122 
+Firm age 0.196* 0.131 
+IT department size 0.036 0.035 
+FOM  ¡0.253** 
+R2 0.078 0.138 
+ΔR2  0.060** 
+
+
+Note: N = 135; FOM = |PCF–PCP|; *p < 0.05, **p < 0.01. 
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+10
+
+
+of clients. Thus, ES vendor managers should carefully assess their cli-
+ent’s expected obligations and pay special attention to avoiding under- 
+fulfilling and over-fulfilling. As clients behave equivalently to both 
+under-fulfillment and over-fulfillment of psychological contracts, ES 
+vendor managers are also advised not to spend more energy and re-
+sources in exceeding their clients’ expectations. Because clients have no 
+reason to kind mind or complain, ES vendors might not be aware that 
+their efforts at over-fulfillment are likely being performed in vain, and 
+might thus continue to allocate resources to maintain over-fulfillment in 
+exchange for CCBs. 
+
+
+Finally, ES vendor managers should be cautious that under-fulfilling 
+or over-fulfilling a high level of expected obligation might lead to a 
+sharp decrease in CCBs. Therefore, we suggest that ES managers care-
+fully and clearly assess which kinds of obligations are strongly expected 
+by their clients before ES implementation and, during ES implementa-
+tion, ES vendor managers should make the necessary adjustments to 
+achieve fulfillment and not seriously under-fulfill or over-fulfill these 
+obligations. 
+
+
+5.4. Limitations and future directions 
+
+
+The limitations of this study present avenues for further research. 
+First, we had no avenue to collect data from a random ES vendor–client 
+sample, and the data we did collect came from the clients of a single ES 
+vendor in China. While collecting data from a single ES vendor does 
+make the results more reliable since the obligations perceived by clients 
+are comparable because they face the same ES product and vendor, our 
+results are still limited in generalization. Collecting data from a random 
+ES vendor–client sample in future research would better address this 
+external validity problem. 
+
+
+Second, our results indicate that over-fulfillment of psychological 
+contracts exerts a negative impact on CCBs in ES vendor–client re-
+lationships. This finding is inconsistent with what we understood 
+
+
+through SET. Although we provided several plausible explanations for 
+this, further research should explore why psychological contract over- 
+fulfillment leads to a negative impact on CCBs in ES implementation. 
+
+
+Third, this study was mainly conducted from the client’s perspective 
+as we focused on the obligations expected by clients toward ES vendors. 
+Since each party possesses a unique psychological contract based on its 
+own understanding of the reciprocal obligations in an ES project [19], 
+discrepancies may occur because clients and ES vendors tend to have a 
+difference in opinion regarding what the ES vendor is obligated to 
+provide. It would thus be interesting to explore the impact of con-
+gruence/incongruence between the two parties’ perceived obligations 
+on CCBs. 
+
+
+Fourth, we focused on the relationship between psychological con-
+tracts and CCBs in a buyer–supplier relationship. This relationship may 
+be influenced by contextual elements. Future research should explore 
+environmental or relationship-specific moderators, such as competitive 
+intensity, relationship length, and interfirm governance. 
+
+
+Funding acknowledgement 
+
+
+The work described in this paper was supported by National Key 
+R&D Program of China (2018YFB1601401) and National Natural Sci-
+ence Foundation of China (NSFC: 71622009, 71801204, 71971202, 
+71571177, and 71921001 
+
+
+CRediT authorship contribution statement 
+
+
+Yang Liu: Conceptualization, Software, Formal analysis, Writing - 
+original draft, Visualization. Hefu Liu: Conceptualization, Resources, 
+Writing - review & editing, Supervision, Project administration, Funding 
+acquisition. Zhao Cai: Conceptualization, Methodology, Data curation, 
+Writing - review & editing, Funding acquisition.  
+
+
+Appendix A 
+
+
+Measurement items  
+
+
+My firm believes that the ES vendor should undertake the following obligations. (In fact, the ES vendor fulfilled the following obligations.) 
+
+
+Psychological Contract Obligation/Fulfillment (adapted from Koh et al. [19]) 
+
+
+Accurate project scoping (APS) 
+APS1: Estimates the contract scope accurately (i.e., not underbid or overbid). 
+APS2: Accepts scope change without additional charge. 
+APS3: Builds buffer into contract to accommodate scope changes. 
+
+
+Clear authority structures (CAS) 
+CAS1: Defines precisely the roles of each party. 
+CAS2: Defines precisely the responsibilities of each party. 
+CAS3: Lays out clearly what each party is to perform. 
+
+
+Taking charge (TAC) 
+TAC1: Works independently (i.e., minimal reliance on my firm) in getting the job done. 
+TAC2: Completes the job with minimal disruption to my firm’s operations. 
+TAC3: Solves problems with minimal involvement from my firm. 
+
+
+Dedicated project staffing (DPS) 
+DPS1: Assigns adequate staff dedicated to the project (i.e., few staff changes). 
+DPS2: Keeps our staff turnover low during the project. 
+DPS3: Replaces any leaving customer staff with someone more qualified or with equivalent expertise. 
+
+
+Knowledge sharing (KNS) 
+
+
+KNS1: Transfers knowledge to our staff. 
+KNS2: Shares best industry practices with us. 
+KNS3: Transfers know-how of the product or service to us. 
+KNS4: Delivers complete and comprehensive documentation (e.g., manuals, product, and design specifications). 
+
+
+Building effective interorganizational teams (BEI) 
+BEI1: Invests time in building a good relationship with us. 
+BEI2: Has a common or joint sense of mission and purpose with us. 
+BEI3: Works as a team with us.  
+
+
+My firm is willing to … 
+Client Citizenship Behavior (adapted from Groth [65]) 
+
+
+Recommendations (REC) 
+
+
+REC1: Recommend the vendor to the members in our supply chain. 
+REC2: Recommend the vendor to firms with whom we have a good personal relationship. 
+REC3: Recommend the vendor to firms interested in the business’ products/services. 
+REC4: Demonstrate ES to prospective customers. 
+
+
+Helping other customers (HEP) HEP1: Assist other customers in finding appropriate ES products provided by the vendor. 
+(continued on next page) 
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+11
+
+
+(continued ) 
+
+
+My firm believes that the ES vendor should undertake the following obligations. (In fact, the ES vendor fulfilled the following obligations.) 
+
+
+HEP2: Help other customers with their implementation of ES. 
+HEP3: Teach other customers how to use the ES correctly. 
+HEP4: Explain to other customers how to cooperate with the vendor. 
+
+
+Providing feedback (PFB) 
+
+
+PFB1: Fill out a customer satisfaction survey. 
+PFB2: Provide helpful feedback to customer service. 
+PFB3: Provide information when surveyed by the business. 
+PFB4: Inform the business about the great service received by an individual employee.  
+
+
+Note: All items are measured using 5-point Likert scales with 1 = “strongly disagree” and 5 = “strongly agree.” 
+
+
+References 
+
+
+[1] H. Zhang, Y. Lu, B. Wang, S. Wu, The impacts of technological environments and 
+co-creation experiences on customer participation, Inf. Manage. 52 (2015) 
+468–482, https://doi.org/10.1016/j.im.2015.01.008. 
+
+
+[2] A. Rai, L.M. Maruping, V. Venkatesh, Offshore information systems project 
+success: the role of social embeddedness and cultural characteristics, MIS Q. 
+(2009) 617–641. 
+
+
+[3] J. Goo, C.D. Huang, Facilitating relational governance through service level 
+agreements in IT outsourcing: an application of the commitment–trust theory, 
+Decis. Support Syst. 46 (2008) 216–232, https://doi.org/10.1016/j. 
+dss.2008.06.005. 
+
+
+[4] S. Rustagi, W.R. King, L.J. Kirsch, Predictors of formal control usage in IT 
+outsourcing partnerships, Inf. Syst. Res. 19 (2008) 126–143. 
+
+
+[5] H.R. Yen, E.Y. Li, B.P. Niehoff, Do organizational citizenship behaviors lead to 
+information system success?: testing the mediation effects of integration climate 
+and project management, Inf. Manage. 45 (2008) 394–402, https://doi.org/ 
+10.1016/j.im.2008.04.004. 
+
+
+[6] S. Parry, J. Rowley, R. Jones, B. Kupiec-Teahan, Customer-perceived value in 
+business-to-business relationships: a study of software customers, J. Mark. 
+Manage. 28 (2012) 887–911. 
+
+
+[7] C. Yoon, The effects of organizational citizenship behaviors on ERP system 
+success, Comput. Human Behav. 25 (2009) 421–428. 
+
+
+[8] C. Luo, X.R. Luo, L. Schatzberg, C.L. Sia, Impact of informational factors on online 
+recommendation credibility: the moderating role of source credibility, Decis. 
+Support Syst. 56 (2013) 92–102. 
+
+
+[9] Y.B. Chang, V. Gurbaxani, Information technology outsourcing, knowledge 
+transfer, and firm productivity: an empirical analysis, MIS Q. (2012) 1043–1063. 
+
+
+[10] M.A. Korsgaard, B.M. Meglino, S.W. Lester, S.S. Jeong, Paying you back or paying 
+me forward: understanding rewarded and unrewarded organizational citizenship 
+behavior, J. Appl. Psychol. 95 (2010) 277. 
+
+
+[11] J.A. Hill, S. Eckerd, D. Wilson, B. Greer, The effect of unethical behavior on trust 
+in a buyer–supplier relationship: the mediating role of psychological contract 
+violation, J. Oper. Manage. 27 (2009) 281–293. 
+
+
+[12] W.H. Turnley, M.C. Bolino, S.W. Lester, J.M. Bloodgood, The impact of 
+psychological contract fulfillment on the performance of in-role and 
+organizational citizenship behaviors, J. Manage. 29 (2003) 187–206. 
+
+
+[13] C.-T. Shih, C.-H. Chuang, Individual differences, psychological contract breach, 
+and organizational citizenship behavior: a moderated mediation study, Asia 
+Pacific J. Manage. 30 (2013) 191–210. 
+
+
+[14] J.A. Coyle-Shapiro, A psychological contract perspective on organizational 
+citizenship behavior, J. Organ. Behav. 23 (2002) 927–946. 
+
+
+[15] J. Lee, Y. Park, D.W. Straub, Y. Koo, Holistic archetypes of IT outsourcing 
+strategy: a contingency fit and configurational approach, MIS Q. 43 (2019) 
+1201–1225. 
+
+
+[16] J.C. Chiang, J.J.Y. Jiang, C. Liao, G. Klein, Consequences of psychological 
+contract violations for is personnel, J. Comput. Inf. Syst. 52 (2012) 78–87, 
+https://doi.org/10.1080/08874417.2012.11645579. 
+
+
+[17] D. Xuefei, W. Tawei, Understanding post-implementation support for enterprise 
+systems: an empirical study of IT personnel’s customer-oriented citizenship 
+behaviors, J. Inf. Syst. 28 (2014) 17–39, https://doi.org/10.2308/isys-50743. 
+
+
+[18] E. Lioliou, A. Zimmermann, L. Willcocks, L. Gao, Formal and relational 
+governance in IT outsourcing: substitution, complementarity and the role of the 
+psychological contract, Inf. Syst. J. 24 (2014) 503–535, https://doi.org/10.1111/ 
+isj.12038. 
+
+
+[19] C. Koh, S. Ang, D.W. Straub, IT outsourcing success: a psychological contract 
+perspective, Inf. Syst. Res. 15 (2004) 356–373. 
+
+
+[20] P.J. Ågerfalk, B. Fitzgerald, Outsourcing to an unknown workforce: exploring 
+opensurcing as a global sourcing strategy, MIS Q. (2008) 385–409. 
+
+
+[21] N.G. O’Connor, M.G. Martinsons, Management of information systems: insights 
+from accounting research, Inf. Manage. 43 (2006) 1014–1024, https://doi.org/ 
+10.1016/j.im.2006.10.001. 
+
+
+[22] C. Hui, C. Lee, D.M. Rousseau, Psychological contract and organizational 
+citizenship behavior in China: investigating generalizability and instrumentality, 
+J. Appl. Psychol. 89 (2004) 311. 
+
+
+[23] J. Coyle-Shapiro, I. Kessler, Consequences of the psychological contract for the 
+employment relationship: a large scale survey, J. Manage. Stud. 37 (2000) 
+903–930. 
+
+
+[24] M. Priesemuth, R.M. Taylor, The more I want, the less I have left to give: the 
+moderating role of psychological entitlement on the relationship between 
+
+
+psychological contract violation, depressive mood states, and citizenship 
+behavior, J. Organ. Behav. 37 (2016) 967–982. 
+
+
+[25] S. Eckerd, J. Hill, K.K. Boyer, K. Donohue, P.T. Ward, The relative impact of 
+attribute, severity, and timing of psychological contract breach on behavioral and 
+attitudinal outcomes, J. Oper. Manage. 31 (2013) 567–578, https://doi.org/ 
+10.1016/j.jom.2013.06.003. 
+
+
+[26] R.P.J. Kingshott, A. Pecotich, The impact of psychological contracts on trust and 
+commitment in supplier-distributor relationships, Eur. J. Mark. 41 (2007) 
+1053–1072. 
+
+
+[27] É. Lapointe, C. Vandenberghe, J.-S. Boudrias, Psychological contract breach, 
+affective commitment to organization and supervisor, and newcomer adjustment: 
+a three-wave moderated mediation model, J. Vocat. Behav. 83 (2013) 528–538. 
+
+
+[28] P.A. Pavlou, D. Gefen, Psychological contract violation in online marketplaces: 
+antecedents, consequences, and moderating role, Inf. Syst. Res. 16 (2005) 
+372–399. 
+
+
+[29] N. Malhotra, S. Sahadev, K. Purani, Psychological contract violation and customer 
+intention to reuse online retailers: exploring mediating and moderating 
+mechanisms, J. Bus. Res. 75 (2017) 17–28. 
+
+
+[30] S.K. Mathew, Y. Chen, Achieving offshore software development success: an 
+empirical analysis of risk mitigation through relational norms, J. Strateg. Inf. 
+Syst. 22 (2013) 298–314, https://doi.org/10.1016/j.jsis.2013.03.001. 
+
+
+[31] Y. Chen, A. Bharadwaj, K.Y. Goh, An empirical analysis of intellectual Property 
+rights sharing in software development outsourcing, MIS Q. Manage. Inf. Syst. 41 
+(2017) 131–161, https://doi.org/10.25300/MISQ/2017/41.1.07. 
+
+
+[32] N. Conway, D. Guest, L. Trenberth, Testing the differential effects of changes in 
+psychological contract breach and fulfillment, J. Vocat. Behav. 79 (2011) 
+267–276. 
+
+
+[33] S.D. Montes, P.G. Irving, Disentangling the effects of promised and delivered 
+inducements: relational and transactional contract elements and the mediating 
+role of trust, J. Appl. Psychol. 93 (2008) 1367. 
+
+
+[34] J.Y. Park, K.S. Im, J.S. Kim, The role of IT human capability in the knowledge 
+transfer process in IT outsourcing context, Inf. Manage. 48 (2011) 53–61, https:// 
+doi.org/10.1016/j.im.2011.01.001. 
+
+
+[35] H. Liang, J.J. Wang, Y. Xue, X. Cui, IT outsourcing research from 1992 to 2013: a 
+literature review based on main path analysis, Inf. Manage. 53 (2016) 227–251, 
+https://doi.org/10.1016/j.im.2015.10.001. 
+
+
+[36] T.K. Das, B.-S. Teng, Alliance constellations: a social exchange perspective, Acad. 
+Manage. Rev. 27 (2002) 445–456, https://doi.org/10.5465/amr.2002.7389937. 
+
+
+[37] P. Blau, Power and Exchange in Social Life, Wiley, NY, 1964. 
+[38] R. Narasimhan, A. Nair, D.A. Griffith, J.S. Arlbjørn, E. Bendoly, Lock-in situations 
+
+
+in supply chains: a social exchange theoretic study of sourcing arrangements in 
+buyer–supplier relationships, J. Oper. Manage. 27 (2009) 374–389. 
+
+
+[39] G.N. Nyaga, J.M. Whipple, D.F. Lynch, Examining supply chain relationships: do 
+buyer and supplier perspectives on collaborative relationships differ? J. Oper. 
+Manage. 28 (2010) 101–114. 
+
+
+[40] D.A. Griffith, M.G. Harvey, R.F. Lusch, Social exchange in supply chain 
+relationships: the resulting benefits of procedural and distributive justice, J. Oper. 
+Manage. 24 (2006) 85–98. 
+
+
+[41] R. Cropanzano, M.S. Mitchell, Social exchange theory: an interdisciplinary 
+review, J. Manage. 31 (2005) 874–900. 
+
+
+[42] T. Schoenherr, S. Narayanan, R. Narasimhan, Trust formation in outsourcing 
+relationships: a social exchange theoretic perspective, Int. J. Prod. Econ. 169 
+(2015) 401–412, https://doi.org/10.1016/j.ijpe.2015.08.026. 
+
+
+[43] K. Tanskanen, Who wins in a complex buyer-supplier relationship? A social 
+exchange theory based dyadic study, Int. J. Oper. Prod. Manage. 35 (2015) 
+577–603, https://doi.org/10.1108/IJOPM-10-2012-0432. 
+
+
+[44] L.L. Bove, S.J. Pervan, S.E. Beatty, E. Shiu, Service worker role in encouraging 
+customer organizational citizenship behaviors, J. Bus. Res. 62 (2009) 698–705, 
+https://doi.org/10.1016/j.jbusres.2008.07.003. 
+
+
+[45] S.L. Robinson, E.W. Morrison, Psychological contracts and OCB: the effect of 
+unfulfilled obligations on civic virtue behavior, J. Organ. Behav. 16 (1995) 
+289–298. 
+
+
+[46] H. Wang, K.S. Law, R.D. Hackett, D. Wang, Z.X. Chen, Leader-member exchange 
+as a mediator of the relationship between transformational leadership and 
+followers’ performance and organizational citizenship behavior, Acad. Manage. J. 
+48 (2005) 420–432. 
+
+
+[47] Y. Yi, R. Nataraajan, T. Gong, Customer participation and citizenship behavioral 
+influences on employee performance, satisfaction, commitment, and turnover 
+intention, J. Bus. Res. 64 (2011) 87–95, https://doi.org/10.1016/j. 
+jbusres.2009.12.007. 
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+https://doi.org/10.1016/j.im.2015.01.008
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0010
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0010
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0010
+
+https://doi.org/10.1016/j.dss.2008.06.005
+
+https://doi.org/10.1016/j.dss.2008.06.005
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0020
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0020
+
+https://doi.org/10.1016/j.im.2008.04.004
+
+https://doi.org/10.1016/j.im.2008.04.004
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0030
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0030
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0030
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0035
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0035
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0040
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0040
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0040
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0045
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0045
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0050
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0050
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0050
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0055
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0055
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0055
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0060
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0060
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0060
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0065
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0065
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0065
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0070
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0070
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0075
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0075
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0075
+
+https://doi.org/10.1080/08874417.2012.11645579
+
+https://doi.org/10.2308/isys-50743
+
+https://doi.org/10.1111/isj.12038
+
+https://doi.org/10.1111/isj.12038
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0095
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0095
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0100
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0100
+
+https://doi.org/10.1016/j.im.2006.10.001
+
+https://doi.org/10.1016/j.im.2006.10.001
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0110
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0110
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0110
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0115
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0115
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0115
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0120
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0120
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0120
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0120
+
+https://doi.org/10.1016/j.jom.2013.06.003
+
+https://doi.org/10.1016/j.jom.2013.06.003
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0130
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0130
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0130
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0135
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0135
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0135
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0140
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0140
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0140
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0145
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0145
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0145
+
+https://doi.org/10.1016/j.jsis.2013.03.001
+
+https://doi.org/10.25300/MISQ/2017/41.1.07
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0160
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0160
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0160
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0165
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0165
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0165
+
+https://doi.org/10.1016/j.im.2011.01.001
+
+https://doi.org/10.1016/j.im.2011.01.001
+
+https://doi.org/10.1016/j.im.2015.10.001
+
+https://doi.org/10.5465/amr.2002.7389937
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0185
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0190
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0190
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0190
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0195
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0195
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0195
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0200
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0200
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0200
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0205
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0205
+
+https://doi.org/10.1016/j.ijpe.2015.08.026
+
+https://doi.org/10.1108/IJOPM-10-2012-0432
+
+https://doi.org/10.1016/j.jbusres.2008.07.003
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0225
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0225
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0225
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0230
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0230
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0230
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0230
+
+https://doi.org/10.1016/j.jbusres.2009.12.007
+
+https://doi.org/10.1016/j.jbusres.2009.12.007
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+12
+
+
+[48] D.W. Organ, Organizational Citizenship Behavior: the Good Soldier Syndrome, 
+Lexington Books, Lexington, MA, 1988. 
+
+
+[49] W.H. Bommer, E.C. Dierdorff, R.S. Rubin, Does prevalence mitigate relevance? 
+The moderating effect of group-level OCB on employee performance, Acad. 
+Manage. J. 50 (2007) 1481–1494. 
+
+
+[50] J.N. Choi, T. Sy, Group-level organizational citizenship behavior: effects of 
+demographic faultlines and conflict in small work groups, J. Organ. Behav. 31 
+(2010) 1032–1054. 
+
+
+[51] E. Vigoda-Gadot, I. Beeri, T. Birman-Shemesh, A. Somech, Group-level 
+organizational citizenship behavior in the education system: a scale 
+reconstruction and validation, Educ. Adm. Q. 43 (2007) 462–493, https://doi. 
+org/10.1177/0013161x07299435. 
+
+
+[52] N.P. Podsakoff, S.W. Whiting, P.M. Podsakoff, B.D. Blume, Individual-and 
+organizational-level consequences of organizational citizenship behaviors: a 
+meta-analysis, J. Appl. Psychol. 94 (2009) 122. 
+
+
+[53] R.S. Dalal, A meta-analysis of the relationship between organizational citizenship 
+behavior and counterproductive work behavior, J. Appl. Psychol. 90 (2005) 
+1241. 
+
+
+[54] Y. Yi, T. Gong, The effects of customer justice perception and affect on customer 
+citizenship behavior and customer dysfunctional behavior, Ind. Mark. Manage. 37 
+(2008) 767–783. 
+
+
+[55] S. Ang, S.A. Slaughter, Work outcomes and job design for contract versus 
+permanent information systems professionals on software development teams, 
+MIS Q. (2001) 321–350. 
+
+
+[56] P.M. Podsakoff, S.B. MacKenzie, J.B. Paine, D.G. Bachrach, Organizational 
+citizenship behaviors: a critical review of the theoretical and empirical literature 
+and suggestions for future research, J. Manage. 26 (2000) 513–563. 
+
+
+[57] A. Somech, A. Drach-Zahavy, Exploring organizational citizenship behaviour 
+from an organizational perspective: the relationship between organizational 
+learning and organizational citizenship behaviour, J. Occup. Organ. Psychol. 77 
+(2004) 281–298. 
+
+
+[58] M.E. Schnake, M.P. Dumler, Levels of measurement and analysis issues in 
+organizational citizenship behaviour research, J. Occup. Organ. Psychol. 76 
+(2003) 283–301. 
+
+
+[59] C.W. Autry, L.R. Skinner, C.W. Lamb, Interorganizational citizenship behaviors: 
+an empirical study, J. Bus. Logist. 29 (2008) 53–74. 
+
+
+[60] L.R. Skinner, C.W. Autry, C.W. Lamb, Some measures of interorganizational 
+citizenship behaviors: scale development and validation, Int. J. Logist. Manage. 
+20 (2009) 228–242. 
+
+
+[61] J. Han, A. Hovav, Dimensionality of social capital and organizational citizenship 
+behavior in information systems project teams, J. Comput. Inf. Syst. 56 (2016) 
+218–227. 
+
+
+[62] T.-Y. Chou, S.-C.T. Chou, J.J. Jiang, G. Klein, The organizational citizenship 
+behavior of IS personnel: Does organizational justice matter? Inf. Manage. 50 
+(2013) 105–111, https://doi.org/10.1016/j.im.2013.02.002. 
+
+
+[63] H.R. Yen, E.Y. Li, B.P. Niehoff, Do organizational citizenship behaviors lead to 
+information system success?: testing the mediation effects of integration climate 
+and project management, Inf. Manage. 45 (2008) 394–402. 
+
+
+[64] Y. Wang, H. Liu, Z. Cai, Enhancing client citizenship behavior in enterprise 
+system service of China: the role of enterprise system benefits and guanxi, Inf. 
+Technol. Dev. 23 (2017) 507–525. 
+
+
+[65] M. Groth, Customers as good soldiers: examining citizenship behaviors in internet 
+service deliveries, J. Manage. 31 (2005) 7–27. 
+
+
+[66] K.L. Gwebu, J. Wang, L. Wang, Does IT outsourcing deliver economic value to 
+firms? J. Strateg. Inf. Syst. 19 (2010) 109–123. 
+
+
+[67] N.A. Anaza, J. Zhao, Encounter-based antecedents of e-customer citizenship 
+behaviors, J. Serv. Mark. 27 (2013) 130–140. 
+
+
+[68] R. Jayanth, V.S. Jacob, S. Radhakrishnan, Vendor and client interaction for 
+requirements assessment in software development: implications for feedback 
+process, Inf. Syst. Res. 22 (2011) 289–305. 
+
+
+[69] S.L. Robinson, E. Wolfe Morrison, The development of psychological contract 
+breach and violation: a longitudinal study, J. Organ. Behav. 21 (2000) 525–546. 
+
+
+[70] D.M. Rousseau, Psychological and implied contracts in organizations, Empl. 
+Responsib. Rights J. 2 (1989) 121–139. 
+
+
+[71] D. Rousseau, Psychological Contracts in Organizations: Understanding Written 
+and Unwritten Agreements, Sage publications, 1995. 
+
+
+[72] L.S. Lambert, J.R. Edwards, D.M. Cable, Breach and fulfillment of the 
+psychological contract: a comparison of traditional and expanded views, Pers. 
+Psychol. 56 (2003) 895–934. 
+
+
+[73] E.W. Morrison, S.L. Robinson, When employees feel betrayed: a model of how 
+psychological contract violation develops, Acad. Manage. Rev. 22 (1997) 
+226–256, https://doi.org/10.5465/amr.1997.9707180265. 
+
+
+[74] N. Conway, R.B. Briner, A daily diary study of affective responses to psychological 
+contract breach and exceeded promises, J. Organ. Behav. 23 (2002) 287–302. 
+
+
+[75] J.C. Brancheau, T.R. Hoffmann, Managing information systems for effectiveness 
+and humanity: applying research on organizational behavior, Inf. Manage. 13 
+(1987) 233–243, https://doi.org/10.1016/0378-7206(87)90047-4. 
+
+
+[76] T. Klaus, J.E. Blanton, User resistance determinants and the psychological 
+contract in enterprise system implementations, Eur. J. Inf. Syst. 19 (2010) 
+625–636. 
+
+
+[77] G. Piccoli, B. Ives, Trust and the unintended effects of behavior control in virtual 
+teams, MIS Q. (2003) 365–395. 
+
+
+[78] W. Wang, J. Xu, M. Wang, Effects of recommendation neutrality and sponsorship 
+disclosure on trust vs. Distrust in online recommendation agents: moderating role 
+of explanations for organic recommendations, Manage. Sci. 64 (2018) 
+5198–5219. 
+
+
+[79] D. Blancero, L. Ellram, Strategic supplier partnering: a psychological contract 
+perspective, Int. J. Phys. Distrib. Logist. Manage. 27 (1997) 616–629. 
+
+
+[80] S. Eckerd, K.K. Boyer, Y. Qi, A. Eckerd, J.A. Hill, Supply chain psychological 
+contract breach: an experimental study across national cultures, J. Supply Chain 
+Manage. 52 (2016) 68–82. 
+
+
+[81] R.P.J. Kingshott, The impact of psychological contracts upon trust and 
+commitment within supplier–buyer relationships: a social exchange view, Ind. 
+Mark. Manage. 35 (2006) 724–739, https://doi.org/10.1016/j. 
+indmarman.2005.06.006. 
+
+
+[82] D.W. Parker, K.A. Russell, Outsourcing and inter/intra supply chain dynamics: 
+strategic management issues, J. Supply Chain Manage. 40 (2004) 56–68, https:// 
+doi.org/10.1111/j.1745-493x.2004.tb00178.x. 
+
+
+[83] S.L. Robinson, M.S. Kraatz, D.M. Rousseau, Changing obligations and the 
+psychological contract: a longitudinal study, Acad. Manage. J. 37 (1994) 
+137–152. 
+
+
+[84] D. Corsten, N. Kumar, Do suppliers benefit from collaborative relationships with 
+large retailers? An empirical investigation of efficient consumer response 
+adoption, J. Mark. 69 (2005) 80–94. 
+
+
+[85] X. Zhao, B. Huo, W. Selen, J.H.Y. Yeung, The impact of internal integration and 
+relationship commitment on external integration, J. Oper. Manag. 29 (2011) 
+17–32. 
+
+
+[86] R.W. Brislin, Back-translation for cross-cultural research, J. Cross. Psychol. 1 
+(1970) 185–216, https://doi.org/10.1177/135910457000100301. 
+
+
+[87] J.F. Hair Jr., W.C. Black, B.J. Babin, R.E. Anderson, Multivariate Data Analysis, 
+7th ed., Pearson Education, New Jersey, 2008. 
+
+
+[88] P.M. Podsakoff, S.B. MacKenzie, J.-Y. Lee, N.P. Podsakoff, Common method 
+biases in behavioral research: a critical review of the literature and recommended 
+remedies, J. Appl. Psychol. 88 (2003) 879. 
+
+
+[89] B.B. Flynn, B. Huo, X. Zhao, The impact of supply chain integration on 
+performance: a contingency and configuration approach, J. Oper. Manage. 28 
+(2010) 58–71. 
+
+
+[90] N.K. Malhotra, S.S. Kim, A. Patil, Common method variance in IS research: a 
+comparison of alternative approaches and a reanalysis of past research, Manage. 
+Sci. 52 (2006) 1865–1883. 
+
+
+[91] B. Fynes*, S. de BÚrca, C. Voss, Supply chain relationship quality, the competitive 
+environment and performance, Int. J. Prod. Res. 43 (2005) 3303–3320. 
+
+
+[92] T.A. Brown, Confirmatory Factor Analysis for Applied Research, Guilford 
+publications, 2015. 
+
+
+[93] C. Fornell, D.F. Larcker, Evaluating structural equation models with unobservable 
+variables and measurement error, J. Mark. Res. 18 (1981) 39–50, https://doi.org/ 
+10.1177/002224378101800104. 
+
+
+[94] A. Paulraj, A.A. Lado, I.J. Chen, Inter-organizational communication as a 
+relational competency: antecedents and performance outcomes in collaborative 
+buyer–supplier relationships, J. Oper. Manage. 26 (2008) 45–64. 
+
+
+[95] J.R. Edwards, Alternatives to difference scores: polynomial regression and 
+response surface methodology, Adv. Meas. Data Anal. (2002) 350–400. 
+
+
+[96] W. Lam, C. Lee, M.S. Taylor, H.H. Zhao, Does proactive personality matter in 
+leadership transitions? Effects of proactive personality on new leader 
+identification and responses to new leaders and their change agendas, Acad. 
+Manage. J. 61 (2018) 245–263. 
+
+
+[97] S. Zenker, T. Gollan, N. Van Quaquebeke, Using polynomial regression analysis 
+and response surface methodology to make a stronger case for value congruence 
+in place marketing, Psychol. Mark. 31 (2014) 184–202. 
+
+
+[98] S.L. Daniel, L.M. Maruping, M. Cataldo, J. Herbsleb, The impact of ideology misfit 
+on open source software communities and companies, MIS Q. Manag. Inf. Syst. 42 
+(2018) 1069–1096, https://doi.org/10.25300/MISQ/2018/14242. 
+
+
+[99] G. Klein, J.J. Jiang, P. Cheney, Resolving difference score issues in information 
+systems research, MIS Q. Manage. Inf. Syst. 33 (2009) 811–826, https://doi.org/ 
+10.2307/20650328. 
+
+
+[100] J.R. Edwards, M.E. Parry, On the use of polynomial regression equations as an 
+alternative to difference scores in organizational research, Acad. Manage. J. 36 
+(1993) 1577–1613. 
+
+
+[101] S.A. Brown, V. Venkatesh, S. Goyal, Expectation confirmation in technology use, 
+Inf. Syst. Res. 23 (2012) 474–487, https://doi.org/10.1287/isre.1110.0357. 
+
+
+[102] V. Venkatesh, S. Goyal, Expectation disconfirmation and technology adoption: 
+polynomial modeling and response surface analysis, MIS Q. (2010) 281–303. 
+
+
+[103] N.K. Lankton, D. Harrison McKnight, R.T. Wright, J.B. Thatcher, Using 
+expectation disconfirmation theory and polynomial modeling to understand trust 
+in technology, Inf. Syst. Res. 27 (2016) 197–213, https://doi.org/10.1287/ 
+isre.2015.0611. 
+
+
+[104] R. Nishant, S.C. Srivastava, T.S.H. Teo, Using polynomial modeling to understand 
+service quality in e-government websites, MIS Q. Manage. Inf. Syst. 43 (2019) 
+807–826, https://doi.org/10.25300/MISQ/2019/12349. 
+
+
+[105] Z. Zhang, M.O. Wang, J. Shi, Leader-follower congruence in proactive personality 
+and work outcomes: the mediating role of leader-member exchange, Acad. 
+Manage. J. 55 (2012) 111–130. 
+
+
+[106] E. Erdfelder, F. FAul, A. Buchner, A.G. Lang, Statistical power analyses using 
+G*Power 3.1: tests for correlation and regression analyses, Behav. Res. Methods 
+41 (2009) 1149–1160, https://doi.org/10.3758/BRM.41.4.1149. 
+
+
+[107] P. Cohen, S.G. West, L.S. Aiken, Applied Multiple regression/correlation Analysis 
+for the Behavioral Sciences, Psychology Press, 2014. 
+
+
+[108] J.R. Edwards, The study of congruence in organizational behavior research: 
+critique and a proposed alternative, Organ. Behav. Hum. Decis. Process. 58 
+(1994) 51–100. 
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0240
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0240
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0245
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0245
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0245
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0250
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0250
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0250
+
+https://doi.org/10.1177/0013161x07299435
+
+https://doi.org/10.1177/0013161x07299435
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0260
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0260
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0260
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0265
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0265
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0265
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0270
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0270
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0270
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0275
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0275
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0275
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0280
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0280
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0280
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0285
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0285
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0285
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0285
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0290
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0290
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0290
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0295
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0295
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0300
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0300
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0300
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0305
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0305
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0305
+
+https://doi.org/10.1016/j.im.2013.02.002
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0315
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0315
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0315
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0320
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0320
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0320
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0325
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0325
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0330
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0330
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0335
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0335
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0340
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0340
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0340
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0345
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0345
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0350
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0350
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0355
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0355
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0360
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0360
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0360
+
+https://doi.org/10.5465/amr.1997.9707180265
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0370
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0370
+
+https://doi.org/10.1016/0378-7206(87)90047-4
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0380
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0380
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0380
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0385
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0385
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0390
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0390
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0390
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0390
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0395
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0395
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0400
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0400
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0400
+
+https://doi.org/10.1016/j.indmarman.2005.06.006
+
+https://doi.org/10.1016/j.indmarman.2005.06.006
+
+https://doi.org/10.1111/j.1745-493x.2004.tb00178.x
+
+https://doi.org/10.1111/j.1745-493x.2004.tb00178.x
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0415
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0415
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0415
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0420
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0420
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0420
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0425
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0425
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0425
+
+https://doi.org/10.1177/135910457000100301
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0435
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0435
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0440
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0440
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0440
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0445
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0445
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0445
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0450
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0450
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0450
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0455
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0455
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0460
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0460
+
+https://doi.org/10.1177/002224378101800104
+
+https://doi.org/10.1177/002224378101800104
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0470
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0470
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0470
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0475
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0475
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0480
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0480
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0480
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0480
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0485
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0485
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0485
+
+https://doi.org/10.25300/MISQ/2018/14242
+
+https://doi.org/10.2307/20650328
+
+https://doi.org/10.2307/20650328
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0500
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0500
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0500
+
+https://doi.org/10.1287/isre.1110.0357
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0510
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0510
+
+https://doi.org/10.1287/isre.2015.0611
+
+https://doi.org/10.1287/isre.2015.0611
+
+https://doi.org/10.25300/MISQ/2019/12349
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0525
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0525
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0525
+
+https://doi.org/10.3758/BRM.41.4.1149
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0535
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0535
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0540
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0540
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0540
+
+
+
+
+Information & Management 57 (2020) 103366
+
+
+13
+
+
+[109] D. Gligor, Performance implications of the fit between suppliers’ flexibility and 
+their customers’ expected flexibility: a dyadic examination, J. Oper. Manage. 58 
+(2018) 73–85. 
+
+
+[110] M.R. Carrell, J.E. Dittrich, Equity theory: the recent literature, methodological 
+considerations, and new directions, Acad. Manage. Rev. 3 (1978) 202–210, 
+https://doi.org/10.5465/amr.1978.4294844. 
+
+
+[111] P.S. Goodman, A. Friedman, An examination of Adams’ theory of inequity, Adm. 
+Sci. Q. (1971) 271–288. 
+
+
+[112] M. Narimani, E. Tabaeian, M. Khanjani, F. Soltani, The impact of organizational 
+citizenship behavior on enterprise resource planning success: the mediator role of 
+TQM, Int. J. Qual. Reliab. Manage. 31 (2013) 53–65. 
+
+
+[113] E.J. Lawler, S.R. Thye, Bringing emotions into social exchange theory, Annu. Rev. 
+Sociol. 25 (1999) 217–244, https://doi.org/10.1146/annurev.soc.25.1.217. 
+
+
+[114] J.A. Miles, Management and Organization Theory: a Jossey-bass Reader, John 
+Wiley & Sons, 2012. 
+
+
+Yang Liu is a PhD Student in Management Science and Engineering at the School of 
+Management, University of Science and Technology of China. His research focuses on 
+
+
+digital supply chain management, psychological contract, and knowledge management. 
+His work has been presented at the International Conference on Information Systems. 
+
+
+Hefu Liu is a Professor at the School of Management, University of Science and Tech-
+nology of China. He obtained his PhD from the University of Science and Technology of 
+China and City University of Hong Kong. His research interests include information system 
+management, IT value creation, operation management, business model innovation, and 
+omni-channel management. He has published in leading journals such as Journal of Op-
+erations Management, Production and Operations Management, and MIS Quarterly. 
+
+
+Zhao Cai is an Assistant Professor in Information Systems at University of Nottingham 
+Ningbo China. His research interests focus on the intersection among digital supply chain 
+management, platform competition, and sharing economy. Findings from his research 
+have appeared in journals such as MIS Quarterly, International Journal of Operations and 
+Production Management, and Information Technology and People, among others. 
+
+
+Y. Liu et al.                                                                                                                                                                                                                                      
+
+
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0545
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0545
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0545
+
+https://doi.org/10.5465/amr.1978.4294844
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0555
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0555
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0560
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0560
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0560
+
+https://doi.org/10.1146/annurev.soc.25.1.217
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0570
+
+http://refhub.elsevier.com/S0378-7206(20)30304-9/sbref0570
+
+

@@ -1,0 +1,4765 @@
+
+
+
+
+
+
+
+
+
+
+IFAC PapersOnLine 52-13 (2019) 337–342
+
+
+ScienceDirectScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+2405-8963 © 2019, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+Peer review under responsibility of International Federation of Automatic Control.
+10.1016/j.ifacol.2019.11.138
+
+
+© 2019, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+
+
+10.1016/j.ifacol.2019.11.138 2405-8963
+
+
+
+
+
+New disruption risk management perspectives in supply chains: digital twins, the rip-
+
+
+ple effect, and resileanness  
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2 
+
+
+ 
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+
+
+
+
+
+Abstract: This paper aims at delineating major features of the two new perspectives in supply chain (SC) 
+
+
+disruption risk management, i.e., ripple effect and resileanness. The methodologies to mitigate the SC dis-
+
+
+ruptions and recover in case of severe disruptions are discussed. It observes the reasons and mitigation 
+
+
+strategies for the ripple effect in the SC and presents the ripple effect control framework that is comprised 
+
+
+of redundancy, flexibility, and resilience. Even though a variety of valuable insights has been developed in 
+
+
+the given area in recent years, new research avenues and ripple effect taxonomies are identified for the 
+
+
+near future. The special focus is directed towards the supply chain risk analytics for disruption risks and 
+
+
+the ripple effect in digital supply chains. In particular, the digital SC twin framework is presented. Copy-
+
+
+right © 2019 IFAC 
+
+
+Keywords: supply chain, resilience, disruption, ripple effect, digital supply chain, digital twin, blockchain, 
+
+
+Industy 4.0, risk analytics
+
+
+1. RIPPLE EFFECT 
+
+
+
+
+
+Disruption risks represent a new challenge for supply chain 
+
+
+(SC) managers when designing and managing resilient SCs 
+
+
+(Ivanov and Arkhipov 2011, Klibi and Martel 2012, Spiegler 
+
+
+et al. 2012, Ivanov et al. 2013, Mizgier et al. 2013, Ambulkar 
+
+
+et al. 2015, Yildiz et al. 2016, Ivanov et al. 2014a,b, Fahim-
+
+
+nia et al. 2015, Ho et al. 2015, Govindan et al. 2016, Schmitt 
+
+
+et al. 2017, Sawik 2017, Rezapour et al. 2017, Ivanov 2018a, 
+
+
+Dolgui et al. 2018, Ghavamifar  et al. 2018, He et al. 2018, 
+
+
+Macdonald et al. 2018, Song et al. 2018). In many cases, we 
+
+
+face the ripple effect when considering SC disruptions. The 
+
+
+ripple effect occurs when a disruption, rather than remaining 
+
+
+localized or being contained to one SC part, cascades down-
+
+
+stream and impacts the performance of the SC (Ivanov et al. 
+
+
+2014a,b, Han and Shin 2016, Sokolov et al. 2016, Akker-
+
+
+mans, and van Wassenhove 2017, Dolgui et al. 2018, Ivanov 
+
+
+2017a,b, 2018a,b, Levner and Ptuskin 2018, Oiha et al. 2018, 
+
+
+Pavlov et al. 2018, Scheibe and Blackhurst 2018, Dubey et al. 
+
+
+2019, Hosseini et al. 2019a,b, Ivanov et al. 2019a,b). This 
+
+
+impact might include lower revenues, delivery delays, loss of 
+
+
+market share and reputation, and stock return decreases— the 
+
+
+cost of all of which could be devastating. 
+
+
+Ripple effect causes structural changes in the SC. The main 
+
+
+supply chain features is the multiple structure design and 
+
+
+changeability of structural parameters because of objective 
+
+
+and subjective factors at different stages of the SC life cycle. 
+
+
+In other words, supply chain structural dynamics is constant-
+
+
+ly encountered in practice (Ivanov and Sokolov 2010, Ivanov 
+
+
+et al. 2010, 2017a,b,c, Ivanov 2018a, 2019a,b).  
+
+
+One of the main objectives of SC disruption risk management 
+
+
+is therefore and control structural dynamics to increase total 
+
+
+SC performance. At the same time, achievement of planned 
+
+
+performance can involve the impact of disruptions in a real-
+
+
+time execution environment. SC execution is subject to un-
+
+
+certainty at the planning stage and disruption at the execution 
+
+
+stage. Cost efficiency comes with a huge hidden expense 
+
+
+should a major disruption (i.e., a more severe impact than a 
+
+
+routine disturbance) occur. This requires SC protection 
+
+
+against and efficient reaction to disturbances and disruptions. 
+
+
+Therefore, supply chains need to be planned to be stable, 
+
+
+robust and resilient enough to (1) maintain their basic prop-
+
+
+erties and ensure execution; and (2) be able to adapt their 
+
+
+behavior in the case of disturbances in order to achieve 
+
+
+planned performance using recovery actions. 
+
+
+Resilient SC design extends traditional SC design approaches 
+
+
+with regard to the incorporation of redundancies such as 
+
+
+back-up facilities, inventory and capacity flexibility. These 
+
+
+redundancies create, at the proactive planning stage, some 
+
+
+flexibility that can be used at the reactive control stage in the 
+
+
+case of disruptions in SC structures in order to recover sys-
+
+
+tem performance and operational processes. 
+
+
+There is a strong and growing literature on robustness and 
+
+
+resilience as two fundamental concepts to analyze SC per-
+
+
+formance with severe uncertainty consideration and with re-
+
+
+gards to scattered disruptive events resulting in SC structural 
+
+
+dynamics. A SC is called robust if it is able to absorb dis-
+
+
+turbances and continue execution with minimal impact on 
+
+
+performance. The performance of such a SC is insensitive to 
+
+
+the negative impacts of disruptions (Ivanov and Sokolov 
+
+
+2013, Cavalcentia et al. 2019, Hosseini et al. 2019a,b, Yoon 
+
+
+et al. 2018, Lücker et al. 2019, Pavlov 2019, Ivanov and 
+
+
+Sokolov 2019). At the same time, we may distinguish be-
+
+
+tween being safe and performing safely. In contrast to robust-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 342
+
+
+
+
+
+New disruption risk management perspectives in supply chains: digital twins, the rip-
+
+
+ple effect, and resileanness  
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2 
+
+
+ 
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+
+
+
+
+
+Abstract: This paper aims at delineating major features of the two new perspectives in supply chain (SC) 
+
+
+disruption risk management, i.e., ripple effect and resileanness. The methodologies to mitigate the SC dis-
+
+
+ruptions and recover in case of severe disruptions are discussed. It observes the reasons and mitigation 
+
+
+strategies for the ripple effect in the SC and presents the ripple effect control framework that is comprised 
+
+
+of redundancy, flexibility, and resilience. Even though a variety of valuable insights has been developed in 
+
+
+the given area in recent years, new research avenues and ripple effect taxonomies are identified for the 
+
+
+near future. The special focus is directed towards the supply chain risk analytics for disruption risks and 
+
+
+the ripple effect in digital supply chains. In particular, the digital SC twin framework is presented. Copy-
+
+
+right © 2019 IFAC 
+
+
+Keywords: supply chain, resilience, disruption, ripple effect, digital supply chain, digital twin, blockchain, 
+
+
+Industy 4.0, risk analytics
+
+
+1. RIPPLE EFFECT 
+
+
+
+
+
+Disruption risks represent a new challenge for supply chain 
+
+
+(SC) managers when designing and managing resilient SCs 
+
+
+(Ivanov and Arkhipov 2011, Klibi and Martel 2012, Spiegler 
+
+
+et al. 2012, Ivanov et al. 2013, Mizgier et al. 2013, Ambulkar 
+
+
+et al. 2015, Yildiz et al. 2016, Ivanov et al. 2014a,b, Fahim-
+
+
+nia et al. 2015, Ho et al. 2015, Govindan et al. 2016, Schmitt 
+
+
+et al. 2017, Sawik 2017, Rezapour et al. 2017, Ivanov 2018a, 
+
+
+Dolgui et al. 2018, Ghavamifar  et al. 2018, He et al. 2018, 
+
+
+Macdonald et al. 2018, Song et al. 2018). In many cases, we 
+
+
+face the ripple effect when considering SC disruptions. The 
+
+
+ripple effect occurs when a disruption, rather than remaining 
+
+
+localized or being contained to one SC part, cascades down-
+
+
+stream and impacts the performance of the SC (Ivanov et al. 
+
+
+2014a,b, Han and Shin 2016, Sokolov et al. 2016, Akker-
+
+
+mans, and van Wassenhove 2017, Dolgui et al. 2018, Ivanov 
+
+
+2017a,b, 2018a,b, Levner and Ptuskin 2018, Oiha et al. 2018, 
+
+
+Pavlov et al. 2018, Scheibe and Blackhurst 2018, Dubey et al. 
+
+
+2019, Hosseini et al. 2019a,b, Ivanov et al. 2019a,b). This 
+
+
+impact might include lower revenues, delivery delays, loss of 
+
+
+market share and reputation, and stock return decreases— the 
+
+
+cost of all of which could be devastating. 
+
+
+Ripple effect causes structural changes in the SC. The main 
+
+
+supply chain features is the multiple structure design and 
+
+
+changeability of structural parameters because of objective 
+
+
+and subjective factors at different stages of the SC life cycle. 
+
+
+In other words, supply chain structural dynamics is constant-
+
+
+ly encountered in practice (Ivanov and Sokolov 2010, Ivanov 
+
+
+et al. 2010, 2017a,b,c, Ivanov 2018a, 2019a,b).  
+
+
+One of the main objectives of SC disruption risk management 
+
+
+is therefore and control structural dynamics to increase total 
+
+
+SC performance. At the same time, achievement of planned 
+
+
+performance can involve the impact of disruptions in a real-
+
+
+time execution environment. SC execution is subject to un-
+
+
+certainty at the planning stage and disruption at the execution 
+
+
+stage. Cost efficiency comes with a huge hidden expense 
+
+
+should a major disruption (i.e., a more severe impact than a 
+
+
+routine disturbance) occur. This requires SC protection 
+
+
+against and efficient reaction to disturbances and disruptions. 
+
+
+Therefore, supply chains need to be planned to be stable, 
+
+
+robust and resilient enough to (1) maintain their basic prop-
+
+
+erties and ensure execution; and (2) be able to adapt their 
+
+
+behavior in the case of disturbances in order to achieve 
+
+
+planned performance using recovery actions. 
+
+
+Resilient SC design extends traditional SC design approaches 
+
+
+with regard to the incorporation of redundancies such as 
+
+
+back-up facilities, inventory and capacity flexibility. These 
+
+
+redundancies create, at the proactive planning stage, some 
+
+
+flexibility that can be used at the reactive control stage in the 
+
+
+case of disruptions in SC structures in order to recover sys-
+
+
+tem performance and operational processes. 
+
+
+There is a strong and growing literature on robustness and 
+
+
+resilience as two fundamental concepts to analyze SC per-
+
+
+formance with severe uncertainty consideration and with re-
+
+
+gards to scattered disruptive events resulting in SC structural 
+
+
+dynamics. A SC is called robust if it is able to absorb dis-
+
+
+turbances and continue execution with minimal impact on 
+
+
+performance. The performance of such a SC is insensitive to 
+
+
+the negative impacts of disruptions (Ivanov and Sokolov 
+
+
+2013, Cavalcentia et al. 2019, Hosseini et al. 2019a,b, Yoon 
+
+
+et al. 2018, Lücker et al. 2019, Pavlov 2019, Ivanov and 
+
+
+Sokolov 2019). At the same time, we may distinguish be-
+
+
+tween being safe and performing safely. In contrast to robust-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 342
+     
+
+
+New disruption risk management perspectives in supply chains: digital twins, the rip-
+
+
+ple effect, and resileanness  
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2 
+
+
+ 
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+
+
+
+
+
+Abstract: This paper aims at delineating major features of the two new perspectives in supply chain (SC) 
+
+
+disruption risk management, i.e., ripple effect and resileanness. The methodologies to mitigate the SC dis-
+
+
+ruptions and recover in case of severe disruptions are discussed. It observes the reasons and mitigation 
+
+
+strategies for the ripple effect in the SC and presents the ripple effect control framework that is comprised 
+
+
+of redundancy, flexibility, and resilience. Even though a variety of valuable insights has been developed in 
+
+
+the given area in recent years, new research avenues and ripple effect taxonomies are identified for the 
+
+
+near future. The special focus is directed towards the supply chain risk analytics for disruption risks and 
+
+
+the ripple effect in digital supply chains. In particular, the digital SC twin framework is presented. Copy-
+
+
+right © 2019 IFAC 
+
+
+Keywords: supply chain, resilience, disruption, ripple effect, digital supply chain, digital twin, blockchain, 
+
+
+Industy 4.0, risk analytics
+
+
+1. RIPPLE EFFECT 
+
+
+
+
+
+Disruption risks represent a new challenge for supply chain 
+
+
+(SC) managers when designing and managing resilient SCs 
+
+
+(Ivanov and Arkhipov 2011, Klibi and Martel 2012, Spiegler 
+
+
+et al. 2012, Ivanov et al. 2013, Mizgier et al. 2013, Ambulkar 
+
+
+et al. 2015, Yildiz et al. 2016, Ivanov et al. 2014a,b, Fahim-
+
+
+nia et al. 2015, Ho et al. 2015, Govindan et al. 2016, Schmitt 
+
+
+et al. 2017, Sawik 2017, Rezapour et al. 2017, Ivanov 2018a, 
+
+
+Dolgui et al. 2018, Ghavamifar  et al. 2018, He et al. 2018, 
+
+
+Macdonald et al. 2018, Song et al. 2018). In many cases, we 
+
+
+face the ripple effect when considering SC disruptions. The 
+
+
+ripple effect occurs when a disruption, rather than remaining 
+
+
+localized or being contained to one SC part, cascades down-
+
+
+stream and impacts the performance of the SC (Ivanov et al. 
+
+
+2014a,b, Han and Shin 2016, Sokolov et al. 2016, Akker-
+
+
+mans, and van Wassenhove 2017, Dolgui et al. 2018, Ivanov 
+
+
+2017a,b, 2018a,b, Levner and Ptuskin 2018, Oiha et al. 2018, 
+
+
+Pavlov et al. 2018, Scheibe and Blackhurst 2018, Dubey et al. 
+
+
+2019, Hosseini et al. 2019a,b, Ivanov et al. 2019a,b). This 
+
+
+impact might include lower revenues, delivery delays, loss of 
+
+
+market share and reputation, and stock return decreases— the 
+
+
+cost of all of which could be devastating. 
+
+
+Ripple effect causes structural changes in the SC. The main 
+
+
+supply chain features is the multiple structure design and 
+
+
+changeability of structural parameters because of objective 
+
+
+and subjective factors at different stages of the SC life cycle. 
+
+
+In other words, supply chain structural dynamics is constant-
+
+
+ly encountered in practice (Ivanov and Sokolov 2010, Ivanov 
+
+
+et al. 2010, 2017a,b,c, Ivanov 2018a, 2019a,b).  
+
+
+One of the main objectives of SC disruption risk management 
+
+
+is therefore and control structural dynamics to increase total 
+
+
+SC performance. At the same time, achievement of planned 
+
+
+performance can involve the impact of disruptions in a real-
+
+
+time execution environment. SC execution is subject to un-
+
+
+certainty at the planning stage and disruption at the execution 
+
+
+stage. Cost efficiency comes with a huge hidden expense 
+
+
+should a major disruption (i.e., a more severe impact than a 
+
+
+routine disturbance) occur. This requires SC protection 
+
+
+against and efficient reaction to disturbances and disruptions. 
+
+
+Therefore, supply chains need to be planned to be stable, 
+
+
+robust and resilient enough to (1) maintain their basic prop-
+
+
+erties and ensure execution; and (2) be able to adapt their 
+
+
+behavior in the case of disturbances in order to achieve 
+
+
+planned performance using recovery actions. 
+
+
+Resilient SC design extends traditional SC design approaches 
+
+
+with regard to the incorporation of redundancies such as 
+
+
+back-up facilities, inventory and capacity flexibility. These 
+
+
+redundancies create, at the proactive planning stage, some 
+
+
+flexibility that can be used at the reactive control stage in the 
+
+
+case of disruptions in SC structures in order to recover sys-
+
+
+tem performance and operational processes. 
+
+
+There is a strong and growing literature on robustness and 
+
+
+resilience as two fundamental concepts to analyze SC per-
+
+
+formance with severe uncertainty consideration and with re-
+
+
+gards to scattered disruptive events resulting in SC structural 
+
+
+dynamics. A SC is called robust if it is able to absorb dis-
+
+
+turbances and continue execution with minimal impact on 
+
+
+performance. The performance of such a SC is insensitive to 
+
+
+the negative impacts of disruptions (Ivanov and Sokolov 
+
+
+2013, Cavalcentia et al. 2019, Hosseini et al. 2019a,b, Yoon 
+
+
+et al. 2018, Lücker et al. 2019, Pavlov 2019, Ivanov and 
+
+
+Sokolov 2019). At the same time, we may distinguish be-
+
+
+tween being safe and performing safely. In contrast to robust-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 342
+     
+
+
+New disruption risk management perspectives in supply chains: digital twins, the rip-
+
+
+ple effect, and resileanness  
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2 
+
+
+ 
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+
+
+
+
+
+Abstract: This paper aims at delineating major features of the two new perspectives in supply chain (SC) 
+
+
+disruption risk management, i.e., ripple effect and resileanness. The methodologies to mitigate the SC dis-
+
+
+ruptions and recover in case of severe disruptions are discussed. It observes the reasons and mitigation 
+
+
+strategies for the ripple effect in the SC and presents the ripple effect control framework that is comprised 
+
+
+of redundancy, flexibility, and resilience. Even though a variety of valuable insights has been developed in 
+
+
+the given area in recent years, new research avenues and ripple effect taxonomies are identified for the 
+
+
+near future. The special focus is directed towards the supply chain risk analytics for disruption risks and 
+
+
+the ripple effect in digital supply chains. In particular, the digital SC twin framework is presented. Copy-
+
+
+right © 2019 IFAC 
+
+
+Keywords: supply chain, resilience, disruption, ripple effect, digital supply chain, digital twin, blockchain, 
+
+
+Industy 4.0, risk analytics
+
+
+1. RIPPLE EFFECT 
+
+
+
+
+
+Disruption risks represent a new challenge for supply chain 
+
+
+(SC) managers when designing and managing resilient SCs 
+
+
+(Ivanov and Arkhipov 2011, Klibi and Martel 2012, Spiegler 
+
+
+et al. 2012, Ivanov et al. 2013, Mizgier et al. 2013, Ambulkar 
+
+
+et al. 2015, Yildiz et al. 2016, Ivanov et al. 2014a,b, Fahim-
+
+
+nia et al. 2015, Ho et al. 2015, Govindan et al. 2016, Schmitt 
+
+
+et al. 2017, Sawik 2017, Rezapour et al. 2017, Ivanov 2018a, 
+
+
+Dolgui et al. 2018, Ghavamifar  et al. 2018, He et al. 2018, 
+
+
+Macdonald et al. 2018, Song et al. 2018). In many cases, we 
+
+
+face the ripple effect when considering SC disruptions. The 
+
+
+ripple effect occurs when a disruption, rather than remaining 
+
+
+localized or being contained to one SC part, cascades down-
+
+
+stream and impacts the performance of the SC (Ivanov et al. 
+
+
+2014a,b, Han and Shin 2016, Sokolov et al. 2016, Akker-
+
+
+mans, and van Wassenhove 2017, Dolgui et al. 2018, Ivanov 
+
+
+2017a,b, 2018a,b, Levner and Ptuskin 2018, Oiha et al. 2018, 
+
+
+Pavlov et al. 2018, Scheibe and Blackhurst 2018, Dubey et al. 
+
+
+2019, Hosseini et al. 2019a,b, Ivanov et al. 2019a,b). This 
+
+
+impact might include lower revenues, delivery delays, loss of 
+
+
+market share and reputation, and stock return decreases— the 
+
+
+cost of all of which could be devastating. 
+
+
+Ripple effect causes structural changes in the SC. The main 
+
+
+supply chain features is the multiple structure design and 
+
+
+changeability of structural parameters because of objective 
+
+
+and subjective factors at different stages of the SC life cycle. 
+
+
+In other words, supply chain structural dynamics is constant-
+
+
+ly encountered in practice (Ivanov and Sokolov 2010, Ivanov 
+
+
+et al. 2010, 2017a,b,c, Ivanov 2018a, 2019a,b).  
+
+
+One of the main objectives of SC disruption risk management 
+
+
+is therefore and control structural dynamics to increase total 
+
+
+SC performance. At the same time, achievement of planned 
+
+
+performance can involve the impact of disruptions in a real-
+
+
+time execution environment. SC execution is subject to un-
+
+
+certainty at the planning stage and disruption at the execution 
+
+
+stage. Cost efficiency comes with a huge hidden expense 
+
+
+should a major disruption (i.e., a more severe impact than a 
+
+
+routine disturbance) occur. This requires SC protection 
+
+
+against and efficient reaction to disturbances and disruptions. 
+
+
+Therefore, supply chains need to be planned to be stable, 
+
+
+robust and resilient enough to (1) maintain their basic prop-
+
+
+erties and ensure execution; and (2) be able to adapt their 
+
+
+behavior in the case of disturbances in order to achieve 
+
+
+planned performance using recovery actions. 
+
+
+Resilient SC design extends traditional SC design approaches 
+
+
+with regard to the incorporation of redundancies such as 
+
+
+back-up facilities, inventory and capacity flexibility. These 
+
+
+redundancies create, at the proactive planning stage, some 
+
+
+flexibility that can be used at the reactive control stage in the 
+
+
+case of disruptions in SC structures in order to recover sys-
+
+
+tem performance and operational processes. 
+
+
+There is a strong and growing literature on robustness and 
+
+
+resilience as two fundamental concepts to analyze SC per-
+
+
+formance with severe uncertainty consideration and with re-
+
+
+gards to scattered disruptive events resulting in SC structural 
+
+
+dynamics. A SC is called robust if it is able to absorb dis-
+
+
+turbances and continue execution with minimal impact on 
+
+
+performance. The performance of such a SC is insensitive to 
+
+
+the negative impacts of disruptions (Ivanov and Sokolov 
+
+
+2013, Cavalcentia et al. 2019, Hosseini et al. 2019a,b, Yoon 
+
+
+et al. 2018, Lücker et al. 2019, Pavlov 2019, Ivanov and 
+
+
+Sokolov 2019). At the same time, we may distinguish be-
+
+
+tween being safe and performing safely. In contrast to robust-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 342     
+
+
+New disruption risk management perspectives in supply chains: digital twins, the rip-
+
+
+ple effect, and resileanness  
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2 
+
+
+ 
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+
+
+
+
+
+Abstract: This paper aims at delineating major features of the two new perspectives in supply chain (SC) 
+
+
+disruption risk management, i.e., ripple effect and resileanness. The methodologies to mitigate the SC dis-
+
+
+ruptions and recover in case of severe disruptions are discussed. It observes the reasons and mitigation 
+
+
+strategies for the ripple effect in the SC and presents the ripple effect control framework that is comprised 
+
+
+of redundancy, flexibility, and resilience. Even though a variety of valuable insights has been developed in 
+
+
+the given area in recent years, new research avenues and ripple effect taxonomies are identified for the 
+
+
+near future. The special focus is directed towards the supply chain risk analytics for disruption risks and 
+
+
+the ripple effect in digital supply chains. In particular, the digital SC twin framework is presented. Copy-
+
+
+right © 2019 IFAC 
+
+
+Keywords: supply chain, resilience, disruption, ripple effect, digital supply chain, digital twin, blockchain, 
+
+
+Industy 4.0, risk analytics
+
+
+1. RIPPLE EFFECT 
+
+
+
+
+
+Disruption risks represent a new challenge for supply chain 
+
+
+(SC) managers when designing and managing resilient SCs 
+
+
+(Ivanov and Arkhipov 2011, Klibi and Martel 2012, Spiegler 
+
+
+et al. 2012, Ivanov et al. 2013, Mizgier et al. 2013, Ambulkar 
+
+
+et al. 2015, Yildiz et al. 2016, Ivanov et al. 2014a,b, Fahim-
+
+
+nia et al. 2015, Ho et al. 2015, Govindan et al. 2016, Schmitt 
+
+
+et al. 2017, Sawik 2017, Rezapour et al. 2017, Ivanov 2018a, 
+
+
+Dolgui et al. 2018, Ghavamifar  et al. 2018, He et al. 2018, 
+
+
+Macdonald et al. 2018, Song et al. 2018). In many cases, we 
+
+
+face the ripple effect when considering SC disruptions. The 
+
+
+ripple effect occurs when a disruption, rather than remaining 
+
+
+localized or being contained to one SC part, cascades down-
+
+
+stream and impacts the performance of the SC (Ivanov et al. 
+
+
+2014a,b, Han and Shin 2016, Sokolov et al. 2016, Akker-
+
+
+mans, and van Wassenhove 2017, Dolgui et al. 2018, Ivanov 
+
+
+2017a,b, 2018a,b, Levner and Ptuskin 2018, Oiha et al. 2018, 
+
+
+Pavlov et al. 2018, Scheibe and Blackhurst 2018, Dubey et al. 
+
+
+2019, Hosseini et al. 2019a,b, Ivanov et al. 2019a,b). This 
+
+
+impact might include lower revenues, delivery delays, loss of 
+
+
+market share and reputation, and stock return decreases— the 
+
+
+cost of all of which could be devastating. 
+
+
+Ripple effect causes structural changes in the SC. The main 
+
+
+supply chain features is the multiple structure design and 
+
+
+changeability of structural parameters because of objective 
+
+
+and subjective factors at different stages of the SC life cycle. 
+
+
+In other words, supply chain structural dynamics is constant-
+
+
+ly encountered in practice (Ivanov and Sokolov 2010, Ivanov 
+
+
+et al. 2010, 2017a,b,c, Ivanov 2018a, 2019a,b).  
+
+
+One of the main objectives of SC disruption risk management 
+
+
+is therefore and control structural dynamics to increase total 
+
+
+SC performance. At the same time, achievement of planned 
+
+
+performance can involve the impact of disruptions in a real-
+
+
+time execution environment. SC execution is subject to un-
+
+
+certainty at the planning stage and disruption at the execution 
+
+
+stage. Cost efficiency comes with a huge hidden expense 
+
+
+should a major disruption (i.e., a more severe impact than a 
+
+
+routine disturbance) occur. This requires SC protection 
+
+
+against and efficient reaction to disturbances and disruptions. 
+
+
+Therefore, supply chains need to be planned to be stable, 
+
+
+robust and resilient enough to (1) maintain their basic prop-
+
+
+erties and ensure execution; and (2) be able to adapt their 
+
+
+behavior in the case of disturbances in order to achieve 
+
+
+planned performance using recovery actions. 
+
+
+Resilient SC design extends traditional SC design approaches 
+
+
+with regard to the incorporation of redundancies such as 
+
+
+back-up facilities, inventory and capacity flexibility. These 
+
+
+redundancies create, at the proactive planning stage, some 
+
+
+flexibility that can be used at the reactive control stage in the 
+
+
+case of disruptions in SC structures in order to recover sys-
+
+
+tem performance and operational processes. 
+
+
+There is a strong and growing literature on robustness and 
+
+
+resilience as two fundamental concepts to analyze SC per-
+
+
+formance with severe uncertainty consideration and with re-
+
+
+gards to scattered disruptive events resulting in SC structural 
+
+
+dynamics. A SC is called robust if it is able to absorb dis-
+
+
+turbances and continue execution with minimal impact on 
+
+
+performance. The performance of such a SC is insensitive to 
+
+
+the negative impacts of disruptions (Ivanov and Sokolov 
+
+
+2013, Cavalcentia et al. 2019, Hosseini et al. 2019a,b, Yoon 
+
+
+et al. 2018, Lücker et al. 2019, Pavlov 2019, Ivanov and 
+
+
+Sokolov 2019). At the same time, we may distinguish be-
+
+
+tween being safe and performing safely. In contrast to robust-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 342
+
+
+
+
+
+New disruption risk management perspectives in supply chains: digital twins, the rip-
+
+
+ple effect, and resileanness  
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2 
+
+
+ 
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+
+
+
+
+
+Abstract: This paper aims at delineating major features of the two new perspectives in supply chain (SC) 
+
+
+disruption risk management, i.e., ripple effect and resileanness. The methodologies to mitigate the SC dis-
+
+
+ruptions and recover in case of severe disruptions are discussed. It observes the reasons and mitigation 
+
+
+strategies for the ripple effect in the SC and presents the ripple effect control framework that is comprised 
+
+
+of redundancy, flexibility, and resilience. Even though a variety of valuable insights has been developed in 
+
+
+the given area in recent years, new research avenues and ripple effect taxonomies are identified for the 
+
+
+near future. The special focus is directed towards the supply chain risk analytics for disruption risks and 
+
+
+the ripple effect in digital supply chains. In particular, the digital SC twin framework is presented. Copy-
+
+
+right © 2019 IFAC 
+
+
+Keywords: supply chain, resilience, disruption, ripple effect, digital supply chain, digital twin, blockchain, 
+
+
+Industy 4.0, risk analytics
+
+
+1. RIPPLE EFFECT 
+
+
+
+
+
+Disruption risks represent a new challenge for supply chain 
+
+
+(SC) managers when designing and managing resilient SCs 
+
+
+(Ivanov and Arkhipov 2011, Klibi and Martel 2012, Spiegler 
+
+
+et al. 2012, Ivanov et al. 2013, Mizgier et al. 2013, Ambulkar 
+
+
+et al. 2015, Yildiz et al. 2016, Ivanov et al. 2014a,b, Fahim-
+
+
+nia et al. 2015, Ho et al. 2015, Govindan et al. 2016, Schmitt 
+
+
+et al. 2017, Sawik 2017, Rezapour et al. 2017, Ivanov 2018a, 
+
+
+Dolgui et al. 2018, Ghavamifar  et al. 2018, He et al. 2018, 
+
+
+Macdonald et al. 2018, Song et al. 2018). In many cases, we 
+
+
+face the ripple effect when considering SC disruptions. The 
+
+
+ripple effect occurs when a disruption, rather than remaining 
+
+
+localized or being contained to one SC part, cascades down-
+
+
+stream and impacts the performance of the SC (Ivanov et al. 
+
+
+2014a,b, Han and Shin 2016, Sokolov et al. 2016, Akker-
+
+
+mans, and van Wassenhove 2017, Dolgui et al. 2018, Ivanov 
+
+
+2017a,b, 2018a,b, Levner and Ptuskin 2018, Oiha et al. 2018, 
+
+
+Pavlov et al. 2018, Scheibe and Blackhurst 2018, Dubey et al. 
+
+
+2019, Hosseini et al. 2019a,b, Ivanov et al. 2019a,b). This 
+
+
+impact might include lower revenues, delivery delays, loss of 
+
+
+market share and reputation, and stock return decreases— the 
+
+
+cost of all of which could be devastating. 
+
+
+Ripple effect causes structural changes in the SC. The main 
+
+
+supply chain features is the multiple structure design and 
+
+
+changeability of structural parameters because of objective 
+
+
+and subjective factors at different stages of the SC life cycle. 
+
+
+In other words, supply chain structural dynamics is constant-
+
+
+ly encountered in practice (Ivanov and Sokolov 2010, Ivanov 
+
+
+et al. 2010, 2017a,b,c, Ivanov 2018a, 2019a,b).  
+
+
+One of the main objectives of SC disruption risk management 
+
+
+is therefore and control structural dynamics to increase total 
+
+
+SC performance. At the same time, achievement of planned 
+
+
+performance can involve the impact of disruptions in a real-
+
+
+time execution environment. SC execution is subject to un-
+
+
+certainty at the planning stage and disruption at the execution 
+
+
+stage. Cost efficiency comes with a huge hidden expense 
+
+
+should a major disruption (i.e., a more severe impact than a 
+
+
+routine disturbance) occur. This requires SC protection 
+
+
+against and efficient reaction to disturbances and disruptions. 
+
+
+Therefore, supply chains need to be planned to be stable, 
+
+
+robust and resilient enough to (1) maintain their basic prop-
+
+
+erties and ensure execution; and (2) be able to adapt their 
+
+
+behavior in the case of disturbances in order to achieve 
+
+
+planned performance using recovery actions. 
+
+
+Resilient SC design extends traditional SC design approaches 
+
+
+with regard to the incorporation of redundancies such as 
+
+
+back-up facilities, inventory and capacity flexibility. These 
+
+
+redundancies create, at the proactive planning stage, some 
+
+
+flexibility that can be used at the reactive control stage in the 
+
+
+case of disruptions in SC structures in order to recover sys-
+
+
+tem performance and operational processes. 
+
+
+There is a strong and growing literature on robustness and 
+
+
+resilience as two fundamental concepts to analyze SC per-
+
+
+formance with severe uncertainty consideration and with re-
+
+
+gards to scattered disruptive events resulting in SC structural 
+
+
+dynamics. A SC is called robust if it is able to absorb dis-
+
+
+turbances and continue execution with minimal impact on 
+
+
+performance. The performance of such a SC is insensitive to 
+
+
+the negative impacts of disruptions (Ivanov and Sokolov 
+
+
+2013, Cavalcentia et al. 2019, Hosseini et al. 2019a,b, Yoon 
+
+
+et al. 2018, Lücker et al. 2019, Pavlov 2019, Ivanov and 
+
+
+Sokolov 2019). At the same time, we may distinguish be-
+
+
+tween being safe and performing safely. In contrast to robust-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 342
+
+
+
+
+
+New disruption risk management perspectives in supply chains: digital twins, the rip-
+
+
+ple effect, and resileanness  
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2 
+
+
+ 
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+
+
+
+
+
+Abstract: This paper aims at delineating major features of the two new perspectives in supply chain (SC) 
+
+
+disruption risk management, i.e., ripple effect and resileanness. The methodologies to mitigate the SC dis-
+
+
+ruptions and recover in case of severe disruptions are discussed. It observes the reasons and mitigation 
+
+
+strategies for the ripple effect in the SC and presents the ripple effect control framework that is comprised 
+
+
+of redundancy, flexibility, and resilience. Even though a variety of valuable insights has been developed in 
+
+
+the given area in recent years, new research avenues and ripple effect taxonomies are identified for the 
+
+
+near future. The special focus is directed towards the supply chain risk analytics for disruption risks and 
+
+
+the ripple effect in digital supply chains. In particular, the digital SC twin framework is presented. Copy-
+
+
+right © 2019 IFAC 
+
+
+Keywords: supply chain, resilience, disruption, ripple effect, digital supply chain, digital twin, blockchain, 
+
+
+Industy 4.0, risk analytics
+
+
+1. RIPPLE EFFECT 
+
+
+
+
+
+Disruption risks represent a new challenge for supply chain 
+
+
+(SC) managers when designing and managing resilient SCs 
+
+
+(Ivanov and Arkhipov 2011, Klibi and Martel 2012, Spiegler 
+
+
+et al. 2012, Ivanov et al. 2013, Mizgier et al. 2013, Ambulkar 
+
+
+et al. 2015, Yildiz et al. 2016, Ivanov et al. 2014a,b, Fahim-
+
+
+nia et al. 2015, Ho et al. 2015, Govindan et al. 2016, Schmitt 
+
+
+et al. 2017, Sawik 2017, Rezapour et al. 2017, Ivanov 2018a, 
+
+
+Dolgui et al. 2018, Ghavamifar  et al. 2018, He et al. 2018, 
+
+
+Macdonald et al. 2018, Song et al. 2018). In many cases, we 
+
+
+face the ripple effect when considering SC disruptions. The 
+
+
+ripple effect occurs when a disruption, rather than remaining 
+
+
+localized or being contained to one SC part, cascades down-
+
+
+stream and impacts the performance of the SC (Ivanov et al. 
+
+
+2014a,b, Han and Shin 2016, Sokolov et al. 2016, Akker-
+
+
+mans, and van Wassenhove 2017, Dolgui et al. 2018, Ivanov 
+
+
+2017a,b, 2018a,b, Levner and Ptuskin 2018, Oiha et al. 2018, 
+
+
+Pavlov et al. 2018, Scheibe and Blackhurst 2018, Dubey et al. 
+
+
+2019, Hosseini et al. 2019a,b, Ivanov et al. 2019a,b). This 
+
+
+impact might include lower revenues, delivery delays, loss of 
+
+
+market share and reputation, and stock return decreases— the 
+
+
+cost of all of which could be devastating. 
+
+
+Ripple effect causes structural changes in the SC. The main 
+
+
+supply chain features is the multiple structure design and 
+
+
+changeability of structural parameters because of objective 
+
+
+and subjective factors at different stages of the SC life cycle. 
+
+
+In other words, supply chain structural dynamics is constant-
+
+
+ly encountered in practice (Ivanov and Sokolov 2010, Ivanov 
+
+
+et al. 2010, 2017a,b,c, Ivanov 2018a, 2019a,b).  
+
+
+One of the main objectives of SC disruption risk management 
+
+
+is therefore and control structural dynamics to increase total 
+
+
+SC performance. At the same time, achievement of planned 
+
+
+performance can involve the impact of disruptions in a real-
+
+
+time execution environment. SC execution is subject to un-
+
+
+certainty at the planning stage and disruption at the execution 
+
+
+stage. Cost efficiency comes with a huge hidden expense 
+
+
+should a major disruption (i.e., a more severe impact than a 
+
+
+routine disturbance) occur. This requires SC protection 
+
+
+against and efficient reaction to disturbances and disruptions. 
+
+
+Therefore, supply chains need to be planned to be stable, 
+
+
+robust and resilient enough to (1) maintain their basic prop-
+
+
+erties and ensure execution; and (2) be able to adapt their 
+
+
+behavior in the case of disturbances in order to achieve 
+
+
+planned performance using recovery actions. 
+
+
+Resilient SC design extends traditional SC design approaches 
+
+
+with regard to the incorporation of redundancies such as 
+
+
+back-up facilities, inventory and capacity flexibility. These 
+
+
+redundancies create, at the proactive planning stage, some 
+
+
+flexibility that can be used at the reactive control stage in the 
+
+
+case of disruptions in SC structures in order to recover sys-
+
+
+tem performance and operational processes. 
+
+
+There is a strong and growing literature on robustness and 
+
+
+resilience as two fundamental concepts to analyze SC per-
+
+
+formance with severe uncertainty consideration and with re-
+
+
+gards to scattered disruptive events resulting in SC structural 
+
+
+dynamics. A SC is called robust if it is able to absorb dis-
+
+
+turbances and continue execution with minimal impact on 
+
+
+performance. The performance of such a SC is insensitive to 
+
+
+the negative impacts of disruptions (Ivanov and Sokolov 
+
+
+2013, Cavalcentia et al. 2019, Hosseini et al. 2019a,b, Yoon 
+
+
+et al. 2018, Lücker et al. 2019, Pavlov 2019, Ivanov and 
+
+
+Sokolov 2019). At the same time, we may distinguish be-
+
+
+tween being safe and performing safely. In contrast to robust-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 342
+
+
+
+
+
+New disruption risk management perspectives in supply chains: digital twins, the rip-
+
+
+ple effect, and resileanness  
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2 
+
+
+ 
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+
+
+
+
+
+Abstract: This paper aims at delineating major features of the two new perspectives in supply chain (SC) 
+
+
+disruption risk management, i.e., ripple effect and resileanness. The methodologies to mitigate the SC dis-
+
+
+ruptions and recover in case of severe disruptions are discussed. It observes the reasons and mitigation 
+
+
+strategies for the ripple effect in the SC and presents the ripple effect control framework that is comprised 
+
+
+of redundancy, flexibility, and resilience. Even though a variety of valuable insights has been developed in 
+
+
+the given area in recent years, new research avenues and ripple effect taxonomies are identified for the 
+
+
+near future. The special focus is directed towards the supply chain risk analytics for disruption risks and 
+
+
+the ripple effect in digital supply chains. In particular, the digital SC twin framework is presented. Copy-
+
+
+right © 2019 IFAC 
+
+
+Keywords: supply chain, resilience, disruption, ripple effect, digital supply chain, digital twin, blockchain, 
+
+
+Industy 4.0, risk analytics
+
+
+1. RIPPLE EFFECT 
+
+
+
+
+
+Disruption risks represent a new challenge for supply chain 
+
+
+(SC) managers when designing and managing resilient SCs 
+
+
+(Ivanov and Arkhipov 2011, Klibi and Martel 2012, Spiegler 
+
+
+et al. 2012, Ivanov et al. 2013, Mizgier et al. 2013, Ambulkar 
+
+
+et al. 2015, Yildiz et al. 2016, Ivanov et al. 2014a,b, Fahim-
+
+
+nia et al. 2015, Ho et al. 2015, Govindan et al. 2016, Schmitt 
+
+
+et al. 2017, Sawik 2017, Rezapour et al. 2017, Ivanov 2018a, 
+
+
+Dolgui et al. 2018, Ghavamifar  et al. 2018, He et al. 2018, 
+
+
+Macdonald et al. 2018, Song et al. 2018). In many cases, we 
+
+
+face the ripple effect when considering SC disruptions. The 
+
+
+ripple effect occurs when a disruption, rather than remaining 
+
+
+localized or being contained to one SC part, cascades down-
+
+
+stream and impacts the performance of the SC (Ivanov et al. 
+
+
+2014a,b, Han and Shin 2016, Sokolov et al. 2016, Akker-
+
+
+mans, and van Wassenhove 2017, Dolgui et al. 2018, Ivanov 
+
+
+2017a,b, 2018a,b, Levner and Ptuskin 2018, Oiha et al. 2018, 
+
+
+Pavlov et al. 2018, Scheibe and Blackhurst 2018, Dubey et al. 
+
+
+2019, Hosseini et al. 2019a,b, Ivanov et al. 2019a,b). This 
+
+
+impact might include lower revenues, delivery delays, loss of 
+
+
+market share and reputation, and stock return decreases— the 
+
+
+cost of all of which could be devastating. 
+
+
+Ripple effect causes structural changes in the SC. The main 
+
+
+supply chain features is the multiple structure design and 
+
+
+changeability of structural parameters because of objective 
+
+
+and subjective factors at different stages of the SC life cycle. 
+
+
+In other words, supply chain structural dynamics is constant-
+
+
+ly encountered in practice (Ivanov and Sokolov 2010, Ivanov 
+
+
+et al. 2010, 2017a,b,c, Ivanov 2018a, 2019a,b).  
+
+
+One of the main objectives of SC disruption risk management 
+
+
+is therefore and control structural dynamics to increase total 
+
+
+SC performance. At the same time, achievement of planned 
+
+
+performance can involve the impact of disruptions in a real-
+
+
+time execution environment. SC execution is subject to un-
+
+
+certainty at the planning stage and disruption at the execution 
+
+
+stage. Cost efficiency comes with a huge hidden expense 
+
+
+should a major disruption (i.e., a more severe impact than a 
+
+
+routine disturbance) occur. This requires SC protection 
+
+
+against and efficient reaction to disturbances and disruptions. 
+
+
+Therefore, supply chains need to be planned to be stable, 
+
+
+robust and resilient enough to (1) maintain their basic prop-
+
+
+erties and ensure execution; and (2) be able to adapt their 
+
+
+behavior in the case of disturbances in order to achieve 
+
+
+planned performance using recovery actions. 
+
+
+Resilient SC design extends traditional SC design approaches 
+
+
+with regard to the incorporation of redundancies such as 
+
+
+back-up facilities, inventory and capacity flexibility. These 
+
+
+redundancies create, at the proactive planning stage, some 
+
+
+flexibility that can be used at the reactive control stage in the 
+
+
+case of disruptions in SC structures in order to recover sys-
+
+
+tem performance and operational processes. 
+
+
+There is a strong and growing literature on robustness and 
+
+
+resilience as two fundamental concepts to analyze SC per-
+
+
+formance with severe uncertainty consideration and with re-
+
+
+gards to scattered disruptive events resulting in SC structural 
+
+
+dynamics. A SC is called robust if it is able to absorb dis-
+
+
+turbances and continue execution with minimal impact on 
+
+
+performance. The performance of such a SC is insensitive to 
+
+
+the negative impacts of disruptions (Ivanov and Sokolov 
+
+
+2013, Cavalcentia et al. 2019, Hosseini et al. 2019a,b, Yoon 
+
+
+et al. 2018, Lücker et al. 2019, Pavlov 2019, Ivanov and 
+
+
+Sokolov 2019). At the same time, we may distinguish be-
+
+
+tween being safe and performing safely. In contrast to robust-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 342
+
+
+
+
+
+
+338 Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 337–342 
+
+
+
+
+
+
+
+
+
+
+
+ness that considers proactive redundancy (e.g., buffer capaci-
+
+
+ties, backup suppliers, or risk mitigation inventory) at the pre-
+
+
+disruption stage, resilience deals with the system’s ability to 
+
+
+sustain or restore its functionality and performance following 
+
+
+a significant change in the system and environment condi-
+
+
+tions (Tang 2006, Aven 2017). As such, an integration of 
+
+
+pro- and reactive decisions is important for increasing SC 
+
+
+resilience by utilizing the synergetic effects between mitiga-
+
+
+tion and contingency policies.  
+
+
+According to the ripple effect control framework (Dolgui et 
+
+
+al. 2018) and other literature on the disruption propagation in 
+
+
+the SC (e.g., Scheibe and Blackhurst 2018), disruption risks 
+
+
+and their propagation in the SC are mainly caused by single 
+
+
+sourcing, low risk mitigation inventory, overutilization of 
+
+
+capacities, and missing contingency plans.  
+
+
+The width of the ripple effect and how it impacts economic 
+
+
+performance is reliant on redundancies such as inventory or 
+
+
+capacity buffers, also called robustness reserves, and on the 
+
+
+speed and extent of recovery measures. As a result, it is nec-
+
+
+essary that, in the proactive mode, risk and SC resilience are 
+
+
+assessed and incorporated at the design and planning stages. 
+
+
+In the reactive mode, operationalization of contingency plans, 
+
+
+such as alternative suppliers or shipping routes, must occur 
+
+
+quickly in the control stage.  
+
+
+Ripple effect control in the SC requires two critical capaci-
+
+
+ties: resistance and recovery. For resistance, which is the 
+
+
+SC’s ability to protect against disruptions and reduce impact 
+
+
+once the disruption occurs, some redundancy such as backup 
+
+
+sourcing, risk mitigation inventory or capacity flexibility 
+
+
+must be built in at the proactive stage. For recovery, this re-
+
+
+dundancy must be activated jointly with reactive contingency 
+
+
+plans with regards to risk mitigation inventory, capacity flex-
+
+
+ibility and backup sources. 
+
+
+Robustness reserves can include material inventory, capaci-
+
+
+ties buffers, etc. Increase in inventory, additional production 
+
+
+capacities, and alternative transportation methods or back-up 
+
+
+facilities would increase costs. At the same time, these so-
+
+
+called redundant elements would potentially lead to an in-
+
+
+crease in sales and service level. Redundancy elements may 
+
+
+also increase supply chain flexibility and have positive ef-
+
+
+fects on both service level and costs. The resilient state of a 
+
+
+SC requires a balanced robustness and flexibility which al-
+
+
+lows for achieving maximum performance with disruption 
+
+
+risk considerations at acceptable redundancy costs.  
+
+
+While ripple effect and disruption risks has attracted consid-
+
+
+erable research attention, this research domain seems to be at 
+
+
+the beginning stage of development. Some future research 
+
+
+avenues are summarized in this section. With regards to the 
+
+
+current research, we refer the readers to recent state-of-the-art 
+
+
+survey in the given domain for more detailed analysis (Ho et 
+
+
+al. 2015, Fahimnia et al. 2015, Ivanov et al. 2017c, Dolgui et 
+
+
+al. 2018, Hosseini et al. 2019a). 
+
+
+2. RISK ANALYTICS AND INDUSTRY 4.0 
+
+
+Innovations in digital technologies influence the development 
+
+
+of new paradigms, principles, and models in SCs. The Inter-
+
+
+net of Things (IoT), cyber physical systems, additive manu-
+
+
+facturing, and smart, connected products, facilitate the devel-
+
+
+opment of Industry 4.0-driven digital SC (Ivanov et al. 2016, 
+
+
+2019b). Such technology advances are facilitated by the ad-
+
+
+vent of big data analytics, and advanced tracking and tracing 
+
+
+technologies. Accompanying such technological advances are 
+
+
+similar advances in organizational practice and culture, 
+
+
+shaped by socio-technical considerations of new technology 
+
+
+use. The dynamic nature of digitalization demands research 
+
+
+that can help analyze, understand, and evaluate its drivers, 
+
+
+facilitators, and performance outcomes, Such outcomes could 
+
+
+range from time competitiveness to risk management and 
+
+
+resilience.   
+
+
+The impact of digitalization on resilient operations and the 
+
+
+SC can be quite complex. Consider some interplays. Risk in 
+
+
+the SC can be mitigated by the descriptive and predictive use 
+
+
+of big data analytics in gaining visibility and forecast accura-
+
+
+cy, reduction in information disruption risks, and improved 
+
+
+contingency plan activation. Reductions in supply and time 
+
+
+risks can be achieved by using advanced trace & tracking 
+
+
+systems leading to real-time coordinated activation of contin-
+
+
+gency policies.  
+
+
+SCs typically hedge against disruptions by means of risk mit-
+
+
+igation inventory, capacity reservations and backup sources. 
+
+
+Such protection is expensive to maintain (in anticipation), 
+
+
+and deploy. Block-chain digitalization could help reduce risk 
+
+
+and associated preventive costs, if a record of activities and 
+
+
+data needed for recovery exists for synchronized contingency 
+
+
+plans. Similarly, additive manufacturing can reduce the need 
+
+
+for risk mitigation inventory and capacity reservations, as 
+
+
+well as diminish the need for expensive backup contingent 
+
+
+suppliers. The decentralized control principles in Industry 4.0 
+
+
+systems make it possible to diversify risks and reduce the 
+
+
+need for structural SC redundancy with the help of manufac-
+
+
+turing flexibility. Big data analytics and advanced trace & 
+
+
+tracking systems in general, and blockchain technology in 
+
+
+particular, can help us to trace the roots of disruptions, to 
+
+
+observe disruption propagation (i.e., the ripple effect) (Dolgui 
+
+
+et al. 2018, Ivanov et al. 2019a), to select short-term stabili-
+
+
+zation actions based on a clear understanding of what capaci-
+
+
+ties and inventories are available (emergency planning), to 
+
+
+develop  mid-term recovery policies, and to analyse the long-
+
+
+term performance impact of  ripples effects. Additive manu-
+
+
+facturing has a potential to reduce disruption propagation in 
+
+
+the SC, since the number of SC layers and the resulting com-
+
+
+plexity would be reduced. Resilience may improve, resultant-
+
+
+ly.  
+
+
+Initial efforts to understand the impact of digital technologies 
+
+
+on the SC risk management are underway. However, both 
+
+
+conceptual and granular understandings of the contribution 
+
+
+and the interplay of different digital technologies in regard to 
+
+
+specific SC and operations resilience and sustainability re-
+
+
+quires further analysis.  
+
+
+The impact of digitalization and Industry 4.0 on the ripple 
+
+
+effect and disruption risk control analytics in the SC is there-
+
+
+fore a promising research avenue. The purpose of the re-
+
+
+search in the given are is to investigate the interplay between 
+
+
+digitalization, SC resilience, and SC risks. The scope synthe-
+
+
+sizes research from two distinct areas, i.e., the impact of digi-
+
+
+talization on logistics, and the impact of SC management on 
+
+
+risk control. As such, the topics of this domain connect busi-
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+343
+
+
+
+
+
+
+ Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 337–342 339 
+
+
+
+
+
+
+
+
+
+
+
+ness that considers proactive redundancy (e.g., buffer capaci-
+
+
+ties, backup suppliers, or risk mitigation inventory) at the pre-
+
+
+disruption stage, resilience deals with the system’s ability to 
+
+
+sustain or restore its functionality and performance following 
+
+
+a significant change in the system and environment condi-
+
+
+tions (Tang 2006, Aven 2017). As such, an integration of 
+
+
+pro- and reactive decisions is important for increasing SC 
+
+
+resilience by utilizing the synergetic effects between mitiga-
+
+
+tion and contingency policies.  
+
+
+According to the ripple effect control framework (Dolgui et 
+
+
+al. 2018) and other literature on the disruption propagation in 
+
+
+the SC (e.g., Scheibe and Blackhurst 2018), disruption risks 
+
+
+and their propagation in the SC are mainly caused by single 
+
+
+sourcing, low risk mitigation inventory, overutilization of 
+
+
+capacities, and missing contingency plans.  
+
+
+The width of the ripple effect and how it impacts economic 
+
+
+performance is reliant on redundancies such as inventory or 
+
+
+capacity buffers, also called robustness reserves, and on the 
+
+
+speed and extent of recovery measures. As a result, it is nec-
+
+
+essary that, in the proactive mode, risk and SC resilience are 
+
+
+assessed and incorporated at the design and planning stages. 
+
+
+In the reactive mode, operationalization of contingency plans, 
+
+
+such as alternative suppliers or shipping routes, must occur 
+
+
+quickly in the control stage.  
+
+
+Ripple effect control in the SC requires two critical capaci-
+
+
+ties: resistance and recovery. For resistance, which is the 
+
+
+SC’s ability to protect against disruptions and reduce impact 
+
+
+once the disruption occurs, some redundancy such as backup 
+
+
+sourcing, risk mitigation inventory or capacity flexibility 
+
+
+must be built in at the proactive stage. For recovery, this re-
+
+
+dundancy must be activated jointly with reactive contingency 
+
+
+plans with regards to risk mitigation inventory, capacity flex-
+
+
+ibility and backup sources. 
+
+
+Robustness reserves can include material inventory, capaci-
+
+
+ties buffers, etc. Increase in inventory, additional production 
+
+
+capacities, and alternative transportation methods or back-up 
+
+
+facilities would increase costs. At the same time, these so-
+
+
+called redundant elements would potentially lead to an in-
+
+
+crease in sales and service level. Redundancy elements may 
+
+
+also increase supply chain flexibility and have positive ef-
+
+
+fects on both service level and costs. The resilient state of a 
+
+
+SC requires a balanced robustness and flexibility which al-
+
+
+lows for achieving maximum performance with disruption 
+
+
+risk considerations at acceptable redundancy costs.  
+
+
+While ripple effect and disruption risks has attracted consid-
+
+
+erable research attention, this research domain seems to be at 
+
+
+the beginning stage of development. Some future research 
+
+
+avenues are summarized in this section. With regards to the 
+
+
+current research, we refer the readers to recent state-of-the-art 
+
+
+survey in the given domain for more detailed analysis (Ho et 
+
+
+al. 2015, Fahimnia et al. 2015, Ivanov et al. 2017c, Dolgui et 
+
+
+al. 2018, Hosseini et al. 2019a). 
+
+
+2. RISK ANALYTICS AND INDUSTRY 4.0 
+
+
+Innovations in digital technologies influence the development 
+
+
+of new paradigms, principles, and models in SCs. The Inter-
+
+
+net of Things (IoT), cyber physical systems, additive manu-
+
+
+facturing, and smart, connected products, facilitate the devel-
+
+
+opment of Industry 4.0-driven digital SC (Ivanov et al. 2016, 
+
+
+2019b). Such technology advances are facilitated by the ad-
+
+
+vent of big data analytics, and advanced tracking and tracing 
+
+
+technologies. Accompanying such technological advances are 
+
+
+similar advances in organizational practice and culture, 
+
+
+shaped by socio-technical considerations of new technology 
+
+
+use. The dynamic nature of digitalization demands research 
+
+
+that can help analyze, understand, and evaluate its drivers, 
+
+
+facilitators, and performance outcomes, Such outcomes could 
+
+
+range from time competitiveness to risk management and 
+
+
+resilience.   
+
+
+The impact of digitalization on resilient operations and the 
+
+
+SC can be quite complex. Consider some interplays. Risk in 
+
+
+the SC can be mitigated by the descriptive and predictive use 
+
+
+of big data analytics in gaining visibility and forecast accura-
+
+
+cy, reduction in information disruption risks, and improved 
+
+
+contingency plan activation. Reductions in supply and time 
+
+
+risks can be achieved by using advanced trace & tracking 
+
+
+systems leading to real-time coordinated activation of contin-
+
+
+gency policies.  
+
+
+SCs typically hedge against disruptions by means of risk mit-
+
+
+igation inventory, capacity reservations and backup sources. 
+
+
+Such protection is expensive to maintain (in anticipation), 
+
+
+and deploy. Block-chain digitalization could help reduce risk 
+
+
+and associated preventive costs, if a record of activities and 
+
+
+data needed for recovery exists for synchronized contingency 
+
+
+plans. Similarly, additive manufacturing can reduce the need 
+
+
+for risk mitigation inventory and capacity reservations, as 
+
+
+well as diminish the need for expensive backup contingent 
+
+
+suppliers. The decentralized control principles in Industry 4.0 
+
+
+systems make it possible to diversify risks and reduce the 
+
+
+need for structural SC redundancy with the help of manufac-
+
+
+turing flexibility. Big data analytics and advanced trace & 
+
+
+tracking systems in general, and blockchain technology in 
+
+
+particular, can help us to trace the roots of disruptions, to 
+
+
+observe disruption propagation (i.e., the ripple effect) (Dolgui 
+
+
+et al. 2018, Ivanov et al. 2019a), to select short-term stabili-
+
+
+zation actions based on a clear understanding of what capaci-
+
+
+ties and inventories are available (emergency planning), to 
+
+
+develop  mid-term recovery policies, and to analyse the long-
+
+
+term performance impact of  ripples effects. Additive manu-
+
+
+facturing has a potential to reduce disruption propagation in 
+
+
+the SC, since the number of SC layers and the resulting com-
+
+
+plexity would be reduced. Resilience may improve, resultant-
+
+
+ly.  
+
+
+Initial efforts to understand the impact of digital technologies 
+
+
+on the SC risk management are underway. However, both 
+
+
+conceptual and granular understandings of the contribution 
+
+
+and the interplay of different digital technologies in regard to 
+
+
+specific SC and operations resilience and sustainability re-
+
+
+quires further analysis.  
+
+
+The impact of digitalization and Industry 4.0 on the ripple 
+
+
+effect and disruption risk control analytics in the SC is there-
+
+
+fore a promising research avenue. The purpose of the re-
+
+
+search in the given are is to investigate the interplay between 
+
+
+digitalization, SC resilience, and SC risks. The scope synthe-
+
+
+sizes research from two distinct areas, i.e., the impact of digi-
+
+
+talization on logistics, and the impact of SC management on 
+
+
+risk control. As such, the topics of this domain connect busi-
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+343
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ness, information, engineering and quantitative analysis per-
+
+
+spectives on digitalization to control and the SC risks issues. 
+
+
+Such studies would connect business, information, engineer-
+
+
+ing and analytics perspectives on digitalization and SC risks 
+
+
+in order to bring the discussion further with the help of a con-
+
+
+ceptual framework for researching the relationships between 
+
+
+digitalization and SC disruptions risks. Examples of the ques-
+
+
+tions to be answered are, e.g., (1) what relations exist be-
+
+
+tween big data analytics, Industry 4.0, additive manufactur-
+
+
+ing, advanced trace & tracking systems and SC disruption 
+
+
+risks; (2) how digitalization can contribute to enhancing rip-
+
+
+ple effect control; and (3) what digital technology-based ex-
+
+
+tensions can trigger the developments towards SC risk analyt-
+
+
+ics. 
+
+
+At the proactive level, optimization and simulation models 
+
+
+produce notable insights for managers and can be applied 
+
+
+where the probability of disruption can be roughly estimated. 
+
+
+On the one hand, big data analytics and advanced trace and 
+
+
+tracking systems may help in predicting disruptions and 
+
+
+providing more accurate data to build sophisticated disruption 
+
+
+scenarios for resilient SC design analysis. Digital technolo-
+
+
+gies open new problems for resilient SC design. For example, 
+
+
+additive manufacturing changes SC designs whereby new 
+
+
+resilient sourcing problems may arise. This area can further 
+
+
+be enhanced using collaborative purchasing platforms. 
+
+
+At the reactive level and with regards to mitigation strategies 
+
+
+and identifying disruption impact on finance and operational 
+
+
+performance, digital technologies can be extensively used to 
+
+
+obtain real-time information on the scope and scale of disrup-
+
+
+tions, their propagation in the SC and to simulate possible 
+
+
+recovery strategies. In addition, at the reactive level, adapta-
+
+
+tion is necessary for achieving desired output performance by 
+
+
+ensuring the possibility of changing SC plans and inventory 
+
+
+policies. Adaptation processes in ripple effect control can be 
+
+
+supported by feedback and adaptive control methods using 
+
+
+decentralized agent techniques with the help of digital tech-
+
+
+nologies. Visualizing these processes through virtual reality-
+
+
+supported simulation has not yet been done extensively to 
+
+
+model the ripple effect in the SC. For this, simulation models, 
+
+
+along with new digital technologies, can improve tools which 
+
+
+are already used in developing SC agility and visibility in 
+
+
+terms of disruption velocity.  
+
+
+3 RESILEANNESS AS A COMBINATION OF RESILIENT 
+
+
+AND LEAN: LOW-CERTAINTY-NEED SUPPLY 
+
+
+CHAINS 
+
+
+Uncertainty and risk predictions are commonly researched in 
+
+
+studies of SC disruption management, mostly assuming 
+
+
+known disruptive event or disruption scenario probability. 
+
+
+The resulting resource allocation and costs have frequently 
+
+
+resulted in expensive systems which help businesses cope 
+
+
+with uncertainty. Without undermining the importance of 
+
+
+further developing this common perspective, new approaches 
+
+
+need to be developed that focus on the reduction of SC be-
+
+
+havior dependence on environmental changes.  
+
+
+The unpredictability of the occurrence of disruption and its 
+
+
+magnitude suggests that designing SCs with a low need for 
+
+
+“certainty” may be as important, if not more so, than prede-
+
+
+termined pre-disruption strategies. While the problem of dis-
+
+
+ruption impact investigation with disruption probability esti-
+
+
+mations has attracted considerable research attention, some 
+
+
+fundamental issues in this research stream need to be pointed 
+
+
+out, such as fair probability estimation of rare events, consid-
+
+
+eration of only “known” events and the exclusion of “un-
+
+
+known” events, and the consideration of mainly the direct 
+
+
+effects of disruptions in model outputs rather than disruption 
+
+
+propagation chains and the resulting indirect effects (Mizgier 
+
+
+et al. 2013, Macdonald et al. 2018). Such new perspectives in 
+
+
+SC disruption management can be placed under the umbrella 
+
+
+of low-certainty-need (LCN) SCs (Ivanov and Dolgui 2018). 
+
+
+The ultimate objective of the LCN SCs is to develop the abil-
+
+
+ity to operate according to planned performance regardless of 
+
+
+environmental changes. 
+
+
+The LCN SC framework suggests approaching SC disruption 
+
+
+risk and the ripple effect field from another perspective. Ra-
+
+
+ther than opposing the efficiency and resilience, we suggest 
+
+
+considering their mutual intersections to enhance each other 
+
+
+based on synergetic effects in terms of SC resileanness.  
+
+
+Major costs of disruption management are seen in disruption 
+
+
+prediction, protective redundancy, and reactive capabilities as 
+
+
+a result of a higher need for certainty and the resulting higher 
+
+
+redundancy and recovery efforts. As such, we suggest study-
+
+
+ing these areas from the perspective of efficiency and resili-
+
+
+ence complementarity.  
+
+
+Therefore, three key elements of the LCN SC framework can 
+
+
+be identified as follows: 
+
+
+ Structural simplification and variety 
+ Process and resource utilization flexibility  
+ Efficient parametric redundancy.  
+
+
+Let us discuss the principles of implementing the LCN SC 
+
+
+framework in practice. The ultimate objective of the LCN SC 
+
+
+design is to develop the ability to operate according to 
+
+
+planned performance regardless of environmental changes. 
+
+
+As such, the SC design from the position of resileanness (i.e., 
+
+
+a combination of resilient and lean) possess two critical capa-
+
+
+bilities, i.e., 
+
+
+ low need for uncertainty consideration in planning 
+decisions and 
+
+
+ low need for recovery coordination efforts. 
+Structural variety, process flexibility, and parametrical re-
+
+
+dundancy ensure disruption-resistance and recovery resource 
+
+
+allocation and allow for SC operation in a broad range of 
+
+
+environmental states. This means that planning activities in 
+
+
+the LCN SCs do not heavily rely on uncertainty prediction 
+
+
+and proactive protection investments. Similarly, recovery 
+
+
+coordination efforts are reduced to a minimum. Note that the 
+
+
+LCN SC design does not necessarily imply higher costs, but 
+
+
+rather seeks for an efficient combination of lean and resilient 
+
+
+elements. 
+
+
+3.1. Structural variety and complexity reduction 
+
+
+Structural complexity reduction can be achieved by product 
+
+
+line-based resilient SC segmentation with minimum intersec-
+
+
+tions between the different lines, e.g., avoiding sourcing from 
+
+
+the same supplier in the different lines. Such a composition 
+
+
+results in a combination of lean SC design in individual 
+
+
+product lines and resilient SC design. As such, disruption 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+344
+
+
+
+
+
+
+340 Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 337–342 
+
+
+
+
+
+
+
+
+
+
+
+propagation and the ripple effect can be reduced. A new re-
+
+
+search direction focusing on lean and resilient network struc-
+
+
+tures can be seen in this area. 
+
+
+With regards to the structural variety, it can be recommended 
+
+
+to continue using the consolidation effects subject to efficien-
+
+
+cy increases. A new research direction for identifying the risk 
+
+
+exposure of consolidation nodes in SCs can be pointed out in 
+
+
+this area. More specifically, resilient SC designs are expected 
+
+
+to use consolidation effects at low-exposure (i.e., non-
+
+
+critical) network nodes. The latter aspect directly interrelates 
+
+
+with the product line-based SC design. Therefore, a combina-
+
+
+tion of structural variety and complexity reduction areas is 
+
+
+the next new research avenue at the semantic level. 
+
+
+3.2. Process and resource utilization flexibility 
+
+
+Process and resource utilization flexibility means in a wider 
+
+
+sense an establishment of universal, very flexible work-
+
+
+stations such as those postulated in Industry 4.0 systems. 
+
+
+Similar, the usage of universal materials can be considered 
+
+
+with regards to recovery flexibility in the SC. Additive manu-
+
+
+facturing technology can also positively influence product 
+
+
+and process flexibility resulting in a combination of efficien-
+
+
+cy and resilience. The decentralized control principles in In-
+
+
+dustry 4.0 systems make it possible to diversify the risks with 
+
+
+the help of manufacturing flexibility increases. New research 
+
+
+directions can be seen with regards to the impact of the digi-
+
+
+talization on the SC design resilience (Ivanov et al. 2019, 
+
+
+Dubey et al. 2019a,b, Dolgui et al. 2019a,b). For example, 
+
+
+Big Data analytics and advanced Trace &Tracking systems in 
+
+
+general, and blockchain technology in particular, can help to 
+
+
+trace the roots of disruptions, to observe disruption propaga-
+
+
+tion (i.e., the ripple effect), to select short-term stabilization 
+
+
+actions based on a clear understanding of what capacities and 
+
+
+inventories are available (emergency planning), to develop a 
+
+
+mid-term recovery policy, and to analyze the long-term per-
+
+
+formance impact of the ripple effect.  
+
+
+3.3. Parametric redundancy  
+
+
+Non-expensive parametric redundancy targets the efficient 
+
+
+reservations of capacity, inventory, and lead time. More spe-
+
+
+cifically, those reservations need to be considered not as a 
+
+
+non-used redundancy, but rather for use in normal operation 
+
+
+modes as well. Network redundancy optimization can be 
+
+
+viewed as a new research topic in this area. Another aspect of 
+
+
+parametric redundancy is its efficient allocation. A new re-
+
+
+search direction extending the existing value-stream mapping 
+
+
+techniques towards the SC resilience can be considered. Effi-
+
+
+cient redundancy can be implemented by using additive man-
+
+
+ufacturing that helps to reduce the need for risk mitigation 
+
+
+inventory and capacity reservations.  
+
+
+4 PROACTIVE PLANNING, NETWORK REDUNDANCY 
+
+
+AND SITUATIONAL RECOVERY CONTROL 
+
+
+The research in ripple effect control needs to be united by 
+
+
+three basic principles of system-cybernetic research. The first 
+
+
+principle is the integrated modelling of resilient network 
+
+
+structures.  New principles and methods of SC structural dy-
+
+
+namics control will be developed using a variety of method-
+
+
+ologies for multi-criteria network synthesis and analysis. A 
+
+
+particular focus will be directed towards the deployment of 
+
+
+post-disruption management, and understanding which fac-
+
+
+tors fit the particular dynamics the SC structures confront. 
+
+
+The second principle is the proactive planning and network 
+
+
+redundancy optimization. The given paradigm combines both 
+
+
+SC robustness (i.e., the ability to absorb disturbances and 
+
+
+continue execution with minimal impact on performance), 
+
+
+monitoring (i.e., real-time disruption identification and data-
+
+
+driven re-planning preparation), and resilience (i.e., the abil-
+
+
+ity to sustain and restore SC functionality using recovery and 
+
+
+adaptation policies).  
+
+
+The third principle is the situational proactive control. A dis-
+
+
+ruptive event, planning of the recovery control policy, and 
+
+
+implementation of this policy are distributed in time and sub-
+
+
+ject to SC structural and parametrical dynamics. In other 
+
+
+words, both environment, SC structures and its operational 
+
+
+parameters may change in the period between the planning of 
+
+
+the recovery control policy and its implementation. As such, 
+
+
+situational proactive control with a combined usage of simu-
+
+
+lation-optimization and analytics is needed to improve the 
+
+
+transition processes from a disrupted to a restored SC state. 
+
+
+This allows reducing investments in robustness and increas-
+
+
+ing resilience by obviating the transition process control 
+
+
+problems. A combination of these three principles builds a 
+
+
+framework of future decision support systems for SC disrup-
+
+
+tion risk management which utilizes two major ideas, i.e., (i) 
+
+
+low-certainty need SC designs and network redundancy op-
+
+
+timization with an optimal combination of robustness and 
+
+
+adaptation elements to ensure both efficient and resilient SCs 
+
+
+and (ii) integrated SC ripple effect modeling with simulation, 
+
+
+optimization, and analytics components to support situational 
+
+
+forecasting, predictive simulation, prescriptive optimization, 
+
+
+and adaptive learning. 
+
+
+5. DIGITAL TWIN AND RIPPLE EFFECT CONTROL: 
+
+
+TOWARDS SUPPLY CHAIN RISK ANALYTICS 
+
+
+Analysis of current and future research trend in ripple effect 
+
+
+allows formulating two important insights which lead the 
+
+
+discussion further towards SC risk analytics. 
+
+
+Examples of SC and operations analytics applications include 
+
+
+logistics and SC control with real-time data, inventory con-
+
+
+trol, and management using sensing data, dynamic resource 
+
+
+allocation in Industry 4.0 customized assembly systems, im-
+
+
+proving forecasting models using Big Data, machine learning 
+
+
+techniques for process control, SC visibility and risk control, 
+
+
+optimizing systems based on predictive information (e.g., 
+
+
+predictive maintenance), combining optimization and ma-
+
+
+chine learning algorithms, and simulation-based modeling 
+
+
+and optimization for stochastic systems.  
+
+
+Success in SC competition will become more and more de-
+
+
+pendent on analytics algorithms in combination with optimi-
+
+
+zation and simulation modelling. Initially intended for pro-
+
+
+cess automation, business analytics techniques now disrupt 
+
+
+markets and business models and have a significant impact 
+
+
+on SCM development. As such, new disruptive SC business 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+345
+
+
+
+
+
+
+ Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 337–342 341 
+
+
+
+
+
+
+
+
+
+
+
+propagation and the ripple effect can be reduced. A new re-
+
+
+search direction focusing on lean and resilient network struc-
+
+
+tures can be seen in this area. 
+
+
+With regards to the structural variety, it can be recommended 
+
+
+to continue using the consolidation effects subject to efficien-
+
+
+cy increases. A new research direction for identifying the risk 
+
+
+exposure of consolidation nodes in SCs can be pointed out in 
+
+
+this area. More specifically, resilient SC designs are expected 
+
+
+to use consolidation effects at low-exposure (i.e., non-
+
+
+critical) network nodes. The latter aspect directly interrelates 
+
+
+with the product line-based SC design. Therefore, a combina-
+
+
+tion of structural variety and complexity reduction areas is 
+
+
+the next new research avenue at the semantic level. 
+
+
+3.2. Process and resource utilization flexibility 
+
+
+Process and resource utilization flexibility means in a wider 
+
+
+sense an establishment of universal, very flexible work-
+
+
+stations such as those postulated in Industry 4.0 systems. 
+
+
+Similar, the usage of universal materials can be considered 
+
+
+with regards to recovery flexibility in the SC. Additive manu-
+
+
+facturing technology can also positively influence product 
+
+
+and process flexibility resulting in a combination of efficien-
+
+
+cy and resilience. The decentralized control principles in In-
+
+
+dustry 4.0 systems make it possible to diversify the risks with 
+
+
+the help of manufacturing flexibility increases. New research 
+
+
+directions can be seen with regards to the impact of the digi-
+
+
+talization on the SC design resilience (Ivanov et al. 2019, 
+
+
+Dubey et al. 2019a,b, Dolgui et al. 2019a,b). For example, 
+
+
+Big Data analytics and advanced Trace &Tracking systems in 
+
+
+general, and blockchain technology in particular, can help to 
+
+
+trace the roots of disruptions, to observe disruption propaga-
+
+
+tion (i.e., the ripple effect), to select short-term stabilization 
+
+
+actions based on a clear understanding of what capacities and 
+
+
+inventories are available (emergency planning), to develop a 
+
+
+mid-term recovery policy, and to analyze the long-term per-
+
+
+formance impact of the ripple effect.  
+
+
+3.3. Parametric redundancy  
+
+
+Non-expensive parametric redundancy targets the efficient 
+
+
+reservations of capacity, inventory, and lead time. More spe-
+
+
+cifically, those reservations need to be considered not as a 
+
+
+non-used redundancy, but rather for use in normal operation 
+
+
+modes as well. Network redundancy optimization can be 
+
+
+viewed as a new research topic in this area. Another aspect of 
+
+
+parametric redundancy is its efficient allocation. A new re-
+
+
+search direction extending the existing value-stream mapping 
+
+
+techniques towards the SC resilience can be considered. Effi-
+
+
+cient redundancy can be implemented by using additive man-
+
+
+ufacturing that helps to reduce the need for risk mitigation 
+
+
+inventory and capacity reservations.  
+
+
+4 PROACTIVE PLANNING, NETWORK REDUNDANCY 
+
+
+AND SITUATIONAL RECOVERY CONTROL 
+
+
+The research in ripple effect control needs to be united by 
+
+
+three basic principles of system-cybernetic research. The first 
+
+
+principle is the integrated modelling of resilient network 
+
+
+structures.  New principles and methods of SC structural dy-
+
+
+namics control will be developed using a variety of method-
+
+
+ologies for multi-criteria network synthesis and analysis. A 
+
+
+particular focus will be directed towards the deployment of 
+
+
+post-disruption management, and understanding which fac-
+
+
+tors fit the particular dynamics the SC structures confront. 
+
+
+The second principle is the proactive planning and network 
+
+
+redundancy optimization. The given paradigm combines both 
+
+
+SC robustness (i.e., the ability to absorb disturbances and 
+
+
+continue execution with minimal impact on performance), 
+
+
+monitoring (i.e., real-time disruption identification and data-
+
+
+driven re-planning preparation), and resilience (i.e., the abil-
+
+
+ity to sustain and restore SC functionality using recovery and 
+
+
+adaptation policies).  
+
+
+The third principle is the situational proactive control. A dis-
+
+
+ruptive event, planning of the recovery control policy, and 
+
+
+implementation of this policy are distributed in time and sub-
+
+
+ject to SC structural and parametrical dynamics. In other 
+
+
+words, both environment, SC structures and its operational 
+
+
+parameters may change in the period between the planning of 
+
+
+the recovery control policy and its implementation. As such, 
+
+
+situational proactive control with a combined usage of simu-
+
+
+lation-optimization and analytics is needed to improve the 
+
+
+transition processes from a disrupted to a restored SC state. 
+
+
+This allows reducing investments in robustness and increas-
+
+
+ing resilience by obviating the transition process control 
+
+
+problems. A combination of these three principles builds a 
+
+
+framework of future decision support systems for SC disrup-
+
+
+tion risk management which utilizes two major ideas, i.e., (i) 
+
+
+low-certainty need SC designs and network redundancy op-
+
+
+timization with an optimal combination of robustness and 
+
+
+adaptation elements to ensure both efficient and resilient SCs 
+
+
+and (ii) integrated SC ripple effect modeling with simulation, 
+
+
+optimization, and analytics components to support situational 
+
+
+forecasting, predictive simulation, prescriptive optimization, 
+
+
+and adaptive learning. 
+
+
+5. DIGITAL TWIN AND RIPPLE EFFECT CONTROL: 
+
+
+TOWARDS SUPPLY CHAIN RISK ANALYTICS 
+
+
+Analysis of current and future research trend in ripple effect 
+
+
+allows formulating two important insights which lead the 
+
+
+discussion further towards SC risk analytics. 
+
+
+Examples of SC and operations analytics applications include 
+
+
+logistics and SC control with real-time data, inventory con-
+
+
+trol, and management using sensing data, dynamic resource 
+
+
+allocation in Industry 4.0 customized assembly systems, im-
+
+
+proving forecasting models using Big Data, machine learning 
+
+
+techniques for process control, SC visibility and risk control, 
+
+
+optimizing systems based on predictive information (e.g., 
+
+
+predictive maintenance), combining optimization and ma-
+
+
+chine learning algorithms, and simulation-based modeling 
+
+
+and optimization for stochastic systems.  
+
+
+Success in SC competition will become more and more de-
+
+
+pendent on analytics algorithms in combination with optimi-
+
+
+zation and simulation modelling. Initially intended for pro-
+
+
+cess automation, business analytics techniques now disrupt 
+
+
+markets and business models and have a significant impact 
+
+
+on SCM development. As such, new disruptive SC business 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+345
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+models will arise where SCs will be understood not as rigid 
+
+
+physical systems with a fixed and static allocation of some 
+
+
+processes to some firms. Instead, different physical firms will 
+
+
+offer services of supply, manufacturing, logistics, and sales 
+
+
+which will result in a dynamic allocation of processes and 
+
+
+dynamic SC structures (Ivanov et al. 2018).  
+
+
+With the help of optimization and simulation approaches, 
+
+
+current research generates new knowledge about the influ-
+
+
+ence of disruption propagation on SC output performance 
+
+
+considering disruption location, duration and propagation and 
+
+
+recovery policies. New digital technologies create new chal-
+
+
+lenges for the application of quantitative analysis techniques 
+
+
+to SC ripple effect analysis and open new ways and problem 
+
+
+statements for these applications. 
+
+
+The modelling stage is devoted to predictive simulation and 
+
+
+prescriptive optimization. Disruption scenario simulation, SC 
+
+
+design optimization, and recovery optimization belong to 
+
+
+major decisions to be supported at this level. Structural dy-
+
+
+namics control approach in combination with mathematical 
+
+
+optimization can be used. Real-time control area contains 
+
+
+supply flow real-time control, disruption identification, and 
+
+
+real-time performance and recovery control. Feedback con-
+
+
+trol can be applied in this domain with modifications. 
+
+
+It is commonly known that feedback control in socio-
+
+
+organizational differs from technical systems where the feed-
+
+
+back can be implemented almost immediately. As such, the 
+
+
+differences in the system states can be observed between the 
+
+
+system state at the moment of starting to prepare the adjust-
+
+
+ment decisions on the basis of the feedback information and 
+
+
+the system state at the moment of decision implementation. 
+
+
+In other words, delayed feedbacks occur due to system iner-
+
+
+tia.  The correction (adaptation) decisions need to be imple-
+
+
+mented at the object or system which is different from the 
+
+
+object or system that has been considered for the reconfigura-
+
+
+tion decision planning. Finally, learning stage is comprised of 
+
+
+risk mitigation learning, disruption recovery learning, and 
+
+
+disruption pattern recognition. A combination of control al-
+
+
+gorithms and artificial intelligence can provide a number of 
+
+
+new insights in the given area. 
+
+
+As such, a new generation of simulation and optimization 
+
+
+models can be observed that extends the decision-support 
+
+
+systems (DSS) towards decision analysis, modelling, control 
+
+
+and learning systems (DAMCLS) in the form of digital SC 
+
+
+twins. Combination of simulation, optimization and data ana-
+
+
+lytics constitutes a full stack of technologies to create a digi-
+
+
+tal supply chain twin – a model that always represents the 
+
+
+state of the network in real-time. At each point of time, a dig-
+
+
+ital twin represents the physical SC with the actual transpor-
+
+
+tation, inventory, demand, and capacity data.  
+
+
+The DAMCLS system for SC risk analytics aims at proactive, 
+
+
+resilient SC design in anticipation of disruptions and structur-
+
+
+al-parametrical adaptation in the case of disruptions. The 
+
+
+decision-support system is based on a concept that combines 
+
+
+simulation, optimization, and data analytics. The Simulation-
+
+
+Optimization part of the system is intended to provide proac-
+
+
+tive, resilient SC optimization and simulation of SC dynamic 
+
+
+behavior in the event of disruptions or disruption scenarios.  
+
+
+
+
+
+In addition, this supports reactive, predictive simulation of 
+
+
+disruption impacts on SC performance and of recovery poli-
+
+
+cies which are subsequently optimized in the prescriptive 
+
+
+manner using an analytical model. The data analytics part of 
+
+
+the system is applied to disruption identification in real-time 
+
+
+using process feedback data, e.g., from sensors and RFID. In 
+
+
+addition, this aims at automated data input of disruption data 
+
+
+into the reactive simulation model for recovery policy simu-
+
+
+lation and optimization. Finally, data analytics is used as da-
+
+
+ta-driven learning system at the proactive stage, helping to 
+
+
+generate adequate disruption scenarios for resilient SC design 
+
+
+and planning. 
+
+
+References 
+
+
+Akkermans, H., van Wassenhove L.N. (2018). Supply chain tsuna-
+
+
+mis: Research on low probability high impact disruptions. Journal of 
+
+
+Supply Chain Management, 54(1), 64-76. 
+
+
+Ambulkar, S., J. Blackhurst, S. Grawe. (2015). Firm's resilience to 
+
+
+supply chain disruptions: Scale development and empirical exami-
+
+
+nation, Journal of Operations Management, 33(34), 111–122. 
+
+
+Aven T. (2017). How some types of risk assessments can support 
+
+
+resilience analysis and management.  Reliability Engineering and 
+
+
+System Safety 167, 536–543. 
+
+
+Cavalcantea, I.M., Frazzon E.M., Forcellinia, F.A., Ivanov, D. 
+
+
+(2019). A supervised machine learning approach to data-driven 
+
+
+simulation of resilient supplier selection in digital manufacturing. 
+
+
+International Journal of Information Management, 
+
+
+https://doi.org/10.1016/j.ijinfomgt.2019.03.004 
+
+
+Dolgui, A., Ivanov, D., Sokolov, B. (2018). Ripple Effect in the 
+
+
+Supply Chain: An Analysis and Recent Literature. International 
+
+
+Journal of Production Research, 56(1-2), 414-430. 
+
+
+Dolgui A., Ivanov D., Rozhkov M. (2019a). Does the ripple effect 
+
+
+influence the bullwhip effect? An integrated analysis of structural 
+
+
+and operational dynamics in the supply chain. International Journal 
+
+
+of Production Research, in press. 
+
+
+Dolgui A., Ivanov D., Potryasaev S., Sokolov B., Ivanova M., Wer-
+
+
+ner F. (2019b). Blockchain-oriented dynamic modelling of smart 
+
+
+contract design and execution control in the supply chain. Interna-
+
+
+tional Journal of Production Research, in press. 
+
+
+Dubey R., Gunasekaran A., Childe, S. J. Wamba S.F., Roubaud D., 
+
+
+Foropon C. (2019a). Empirical Investigation of Data Analytics Ca-
+
+
+pability and Organizational Flexibility as Complements to Supply 
+
+
+Chain Resilience. International Journal of Production Research, 
+
+
+DOI: 10.1080/00207543.2019.1582820 
+
+
+Dubey, R., Gunasekaran, A., Childe, S. J, Papadopoulos, A., Blome, 
+
+
+C. and Luo, Z. (2019b) Antecedents of resilient supply chains: an 
+
+
+empirical study. IEEE Transactions on Engineering Management, 
+
+
+66(1), 8-19.  
+
+
+Fahimnia B, Tang CS, Davarzani H, Sarkis J (2015) Quantitative 
+
+
+Models for Managing Supply Chain Risks: A Review. Eur J Oper 
+
+
+Res 247(1):1-15. 
+
+
+Ghavamifar A., Makui, A., Taleizadeh, A.A. (2018). Designing a 
+
+
+resilient competitive supply chain network under disruption risks: A 
+
+
+real-world application. Transportation Research Part E: Logistics 
+
+
+and Transportation Review, 115: 87-109 
+
+
+Govindan, G., A. Jafarian, M. E. Azbari, T.M. Choi. (2016). Opti-
+
+
+mal Bi-Objective Redundancy Al-location for Systems Reliability 
+
+
+and Risk Management. IEEE Transactions on Cybernetics, 46, 
+
+
+1735-1748.  
+
+
+Han, J., Shin, K.S. (2016) Evaluation mechanism for structural ro-
+
+
+bustness of supply chain considering disruption propagation. Inter-
+
+
+national Journal of Production Research 54(1):135-151. 
+
+
+He, J, F Alavifard, D Ivanov, Jahani H. (2018). A real-option ap-
+
+
+proach to mitigate disruption risk in the supply chain. Omega: The 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+346
+
+
+
+
+
+
+342 Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 337–342
+ 
+
+
+
+
+
+
+
+
+
+
+
+International Journal of Management Science, DOI: 
+
+
+10.1016/j.omega.2018.08.008 
+
+
+Hosseini S., Ivanov D., Dolgui A. (2019a). Review of quantitative 
+
+
+methods for supply chain resilience analysis. Transportation Re-
+
+
+search: Part E, 125, 285-307. 
+
+
+Hosseini, S., Morshedlou, N., Ivanov D., Sarder, MD., Barker, K., 
+
+
+Al Khaled, A. (2019b). Resilient supplier selection and optimal 
+
+
+order allocation under disruption risks. International Journal of Pro-
+
+
+duction Economics, DOI: 10.1016/j.ijpe.2019.03.018. 
+
+
+Ivanov D. (2017a). Simulation-based ripple effect modelling in the 
+
+
+supply chain. International Journal of Production Research, 55(7), 
+
+
+2083-2101 
+
+
+Ivanov D. (2017b). Simulation-based single vs dual sourcing analy-
+
+
+sis in the supply chain with consideration of capacity disruptions, 
+
+
+Big Data and demand patterns. International Journal of Integrated 
+
+
+Supply Management, 11(1), 24-43. 
+
+
+Ivanov D. (2018a). Revealing interfaces of supply chain resilience 
+
+
+and sustainability: a simulation study. International Journal of Pro-
+
+
+duction Research, 56(10), 3507-3523 
+
+
+Ivanov D., Dolgui A. (2018). Low-Certainty-Need (LCN) Supply 
+
+
+Chains:  A New Perspective in Managing Disruption Risks and Re-
+
+
+silience in the digital era. International Journal of Production Re-
+
+
+search, https://doi.org/10.1080/00207543.2018.1521025. 
+
+
+Ivanov D., Pavlov A., Pavlov D., Sokolov B. (2017b). Minimization 
+
+
+of disruption-related return flows in the supply chain, International 
+
+
+Journal of Production Economics, 183, 503-513. 
+
+
+Ivanov D., Rozhkov M. (2017). Coordination of production and 
+
+
+ordering policies under capacity disruption and product write-off 
+
+
+risk: An analytical study with real-data based simulations of a fast 
+
+
+moving consumer goods company. Annals of Operations Research, 
+
+
+published online. 
+
+
+Ivanov D., Sokolov B., Dolgui A. (2014a). The Ripple effect in 
+
+
+supply chains: trade-off ‘efficiency-flexibility-resilience’ in disrup-
+
+
+tion management, International Journal of Production Research, 
+
+
+52(7), 2154-2172.  
+
+
+Ivanov D., Sokolov B., Pavlov, A. (2013). Dual problem formula-
+
+
+tion and its application to optimal re-design of an integrated produc-
+
+
+tion-distribution network with structure dynamics and ripple effect 
+
+
+considerations, International Journal of Production Research, 
+
+
+51(18), 5386-5403. 
+
+
+Ivanov D., Sokolov, B., & Pavlov, A. (2014b). Optimal distribution 
+
+
+(re)planning in a centralized multi-stage network under conditions 
+
+
+of ripple effect and structure dynamics. European Journal of Opera-
+
+
+tional Research, 237(2), 758–770. 
+
+
+Ivanov D., Tsipoulanidis A., Schönberger J. (2017a). Global Supply 
+
+
+Chain and Operations Management, Springer, 1st Ed. 
+
+
+Ivanov, D. (2018b). Structural Dynamics and Resilience in Supply 
+
+
+Chain Risk Management. Springer, New York. 
+
+
+Ivanov, D., Arkhipov A. (2011) Analysis of structure adaptation 
+
+
+potential in designing supply chains in an agile supply chain envi-
+
+
+ronment, International Journal of Integrated Supply Management, 
+
+
+6(2), 165-180. 
+
+
+Ivanov, D., B. Sokolov (2013) Control and system-theoretic identi-
+
+
+fication of the supply chain dynamics domain for planning, analysis, 
+
+
+and adaptation of performance under uncertainty, European Journal 
+
+
+of Operational Research, 224(2), 313–323. 
+
+
+Ivanov, D., B. Sokolov, J. Kaeschel (2010) A multi-structural 
+
+
+framework for adaptive supply chain planning and operations with 
+
+
+structure dynamics considerations, European Journal of Operational 
+
+
+Research, 200, 409–420. 
+
+
+Ivanov, D., Dolgui A., Sokolov B., Ivanova M. (2017c). Literature 
+
+
+review on disruption recovery in the supply chain. International 
+
+
+Journal of Production Research, 55(20), 6158-6174. 
+
+
+Ivanov, D., Dolgui A., Sokolov B. (Eds) (2019b). Handbook of 
+
+
+Ripple Effects in the Supply Chain. Springer, New York: 
+
+
+Ivanov, D., Dolgui, A., Sokolov, B. (2019a). The impact of digital 
+
+
+technology and Industry 4.0 on the ripple effect and supply chain 
+
+
+risk analytics. International Journal of Production Research, 57(3), 
+
+
+829-846. 
+
+
+Ivanov, D., Sokolov, B., Dolgui, A., Werner, F., Ivanova, M. 
+
+
+(2016). A dynamic model and an algorithm for short-term supply 
+
+
+chain scheduling in the smart factory Industry 4.0. International 
+
+
+Journal of Production Research, 54(2), 386-402.  
+
+
+Ivanov D., Sokolov B. (2019). Simultaneous structural-functional 
+
+
+control of supply chain dynamics and resilience under disruptions 
+
+
+and recovery. Annals of Operatios Research, forthcoming 
+
+
+Klibi W., & Martel A. (2012). Modeling approaches for the design 
+
+
+of resilient supply networks under disruptions. International Journal 
+
+
+of Production Economics, 135 (2), 882-898. 
+
+
+Levner E., Ptuskin A. (2018). Entropy-based model for the ripple 
+
+
+effect: managing environmental risks in supply chains. International 
+
+
+Journal of Production Research, 56(7), 2539-2551. 
+
+
+Lücker, F., Seifert R.W. & Biçer I. (2019) Roles of inventory and 
+
+
+reserve capacity in mitigating supply chain disruption risk. Interna-
+
+
+tional Journal of Production Research, 57(4), 1238-1249. 
+
+
+Macdonald, J.R., Zobel, C.W., Melnyk, S.A., Griffis, S.E., (2018). 
+
+
+Supply chain risk and resilience: theory building through structured 
+
+
+experiments and simulation. International Journal of Production 
+
+
+Research, 56(12), 4337-4355. 
+
+
+Mizgier, K.J., Jüttner, M., Wagner, S.M. (2013). Bottleneck Identi-
+
+
+fication in Supply Chain Networks. International Journal of Produc-
+
+
+tion Research, 51(5), 1477-1490. 
+
+
+Ojha, R., Ghadge, A., Tiwari M.K. & U. S. Bititci (2018). Bayesian 
+
+
+network modelling for supply chain risk propagation. International 
+
+
+Journal of Production Research, DOI: 
+
+
+10.1080/00207543.2018.1467059 
+
+
+Pavlov A., Ivanov D., Dolgui A., Sokolov B. (2018) Hybrid fuzzy-
+
+
+probabilistic approach to supply chain resilience assessment. IEEE 
+
+
+Transactions on Engineering Management, 65(2), 303-315. 
+
+
+Pavlov A., Ivanov D., Pavlov D., Slinko A. (2019). Optimization of 
+
+
+network redundancy and contingency planning in sustainable and 
+
+
+resilient supply chain resource management under conditions of 
+
+
+structural dynamics, Annals of Operations Research, DOI: 
+
+
+10.1007/s10479-019-03182-6 
+
+
+Rezapour, S., Farahani, R., Pourakbar, M. (2017). Resilient supply 
+
+
+chain network design under competition: a case study. European 
+
+
+Journal of Operational Research, 259(3), 1017-1035. 
+
+
+Sawik T. (2017) A portfolio approach to supply chain disruption 
+
+
+management. International Journal of Production Research, 55(7), 
+
+
+1970-1991. 
+
+
+Scheibe K.P., Blackhurst, J. (2018) Supply chain disruption propa-
+
+
+gation: a systemic risk and normal accident theory perspective. In-
+
+
+ternational Journal of Production Research, 56(1-2), 43-59. 
+
+
+Schmitt T.G., Kumar S., Stecke K.E., Glover F.W., Ehlen M.A. 
+
+
+(2017). Mitigating disruptions in a multi-echelon supply chain using 
+
+
+adaptive ordering. Omega, 68, 185-198. 
+
+
+Sokolov, B., D. Ivanov, A. Dolgui, A. Pavlov (2016). Structural 
+
+
+quantification of the ripple effect in the supply chain. International 
+
+
+Journal of Production Research, 54(1), 152-169. 
+
+
+Song, J.M., Chen W., & Lei L. (2018). Supply chain flexibility and 
+
+
+operations optimisation under demand uncertainty: a case in disaster 
+
+
+relief. International Journal of Production Research, 56(10), 3699-
+
+
+3713. 
+
+
+Spiegler V., Naim M. and Wikner J. (2012). A control engineering 
+
+
+approach to the assessment of supply chain resilience. International 
+
+
+Journal of Production Research, 50, 6162-6187. 
+
+
+Tang, C.S., (2006). Robust strategies for mitigating supply chain 
+
+
+disruptions. International Journal of Logistics: Research and Appli-
+
+
+cations, 9(1), 33-45.  
+
+
+Yildiz H., J. Yoon, S. Talluri and W. Ho (2016). Reliable Supply 
+
+
+Chain Network Design. Decision Sciences, 47(4), 661–698.  
+
+
+Yoon, J., S. Talluri, H. Yildiz, W Ho (2018). Models for Supplier 
+
+
+Selection and Risk Mitigation: A Holistic Approach. International 
+
+
+Journal of Production Research, 56(10), 3636-3661. 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+347
+
+
+
+

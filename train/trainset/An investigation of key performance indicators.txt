@@ -1,0 +1,5827 @@
+
+
+
+
+
+
+
+
+
+
+R E S E A R CH A R T I C L E
+
+
+An investigation of key performance indicators for operational
+excellence towards sustainability in the leather products
+industry
+
+
+Md. Abdul Moktadir1 | Ashish Dwivedi2 | Akib Rahman1 |
+
+
+Charbel Jose Chiappetta Jabbour3,4 | Sanjoy Kumar Paul5 | Razia Sultana1 |
+
+
+Jitender Madaan2
+
+
+1Institute of Leather Engineering and
+Technology, University of Dhaka, Dhaka,
+1209, Bangladesh
+2Department of Management Studies, Indian
+Institute of Technology Delhi, New Delhi, India
+3Lincoln International Business School,
+University of Lincoln, Linkcoln, United
+Kingdom
+4Montpellier Business School, Montpellier,
+France
+5UTS Business School, University of
+Technology Sydney, Sydney, New South
+Wales, Australia
+
+
+Correspondence
+Sanjoy Kumar Paul, UTS Business School,
+University of Technology Sydney, Sydney,
+New South Wales, Australia.
+Email: sanjoy.paul@uts.edu.au
+
+
+Abstract
+
+
+Operational excellence refers to a mixed management structure that enhances the
+
+
+productivity of an industry by exercising the best practices and efforts for continu-
+
+
+ous improvement. In order to achieve sustainability, operational excellence initia-
+
+
+tives are practiced by different organizations. The intent is to investigate how to
+
+
+perform the practices of operational excellence towards sustainability in industries.
+
+
+In the existing literature, some studies investigated key performance indicators
+
+
+(KPIs) for other domains that are not readily applicable in the background of an
+
+
+emerging economy, principally for the leather products industry. To fulfill these
+
+
+research gaps, this study contributes to the operational excellence literature by
+
+
+recognizing the KPIs of operational excellence towards sustainability by examining
+
+
+the peer-reviewed scientific articles and through expert's suggestions. The identi-
+
+
+fied KPIs are segregated into six dominant categories and 27 sub-KPIs in the field
+
+
+of leather products industry. Further, the prioritization of the KPIs is established
+
+
+by adopting the best-worst method (BWM), which involves simple pairwise com-
+
+
+parison matrices compared with other multicriteria decision making techniques.
+
+
+The findings indicate that the KPIs under the “Management” category are at the
+
+
+highest priority. It is anticipated that the results originated from the study will sup-
+
+
+port the expert's to appropriately recognize the significant KPIs and drop insignifi-
+
+
+cant KPIs for successful operational excellence towards sustainability practices in
+
+
+the supply chain of the emerging economy.
+
+
+K E YWORD S
+
+
+business strategy, key performance indicators, leather products industry, operational
+
+
+excellence, sustainability
+
+
+1 | INTRODUCTION
+
+
+Today's business scenarios are becoming more complicated due to
+
+
+the variety of customer demands, enhancements in technology, and
+
+
+global integration (Mukonz, & Swarts, 2020; Centobelli, Cerchione, &
+
+
+Ertz, 2020). Concerns about product quality, increased product diver-
+
+
+sity, and continually fluctuating markets are some of the essential
+
+
+components responsible for these varying business conditions
+
+
+(Agrawal & Singh, 2019; Bartolacci, Caputo, & Soverchia, 2019).
+
+
+Accordingly, leather, leather goods, and footwear manufacturing
+
+
+Received: 30 March 2020 Revised: 30 May 2020 Accepted: 18 June 2020
+
+
+DOI: 10.1002/bse.2575
+
+
+Bus Strat Env. 2020;29:3331–3351. wileyonlinelibrary.com/journal/bse © 2020 ERP Environment and John Wiley & Sons Ltd 3331
+
+
+
+https://orcid.org/0000-0003-1852-7815
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://orcid.org/0000-0001-5963-3556
+
+https://orcid.org/0000-0001-9523-179X
+
+mailto:sanjoy.paul@uts.edu.au
+
+https://doi.org/10.1002/bse.2575
+
+http://wileyonlinelibrary.com/journal/bse
+
+http://crossmark.crossref.org/dialog/?doi=10.1002%2Fbse.2575&domain=pdf&date_stamp=2020-07-07
+
+
+
+
+industries are under tremendous pressure to innovate their opera-
+
+
+tional performance to counter these recent advancements. These
+
+
+manufacturing industries are compelled to automate and upgrade,
+
+
+which further escalates the manufacturing expenditures (Kazancoglu,
+
+
+Sagnak, Kayikci, & Kumar Mangla, 2020). Moreover, the leather sector
+
+
+of Bangladesh is an essential domain for the financial growth of the
+
+
+country. In order to sustain a competitive edge, this industrial sector
+
+
+needs to be capable of reacting and adjusting to the modifications cre-
+
+
+ated by an ambiguous environment (Dahlmann & Roehrich, 2019;
+
+
+Schaltegger & Wagner, 2011). In order to actively react to market cir-
+
+
+cumstances, this industrial sector must practice excellence in their
+
+
+business. One approach is the quest for operational excellence, which
+
+
+helps this industrial sector navigate a pathway to attain their ambi-
+
+
+tions and objectives.
+
+
+The term “operational excellence” originated from the Shingo
+
+
+Institute at Utah State University and commonly referred to the con-
+
+
+tinuous developments various industries employ within their ecosys-
+
+
+tems to attain a competitive edge (Sony, 2019). Operational
+
+
+excellence is a necessary element of industry architecture and busi-
+
+
+ness excellence that attempts to enhance essential functioning perfor-
+
+
+mance parameters and can be accomplished by meeting the
+
+
+expectations of all participants (Shehadeh, Al-Zu'bi, Abdallah, &
+
+
+Maqableh, 2016). However, industries require practical and compre-
+
+
+hensive supervision to attain operational excellence. Similarly, indus-
+
+
+tries operating in different domains aim to achieve excellence in
+
+
+business to enhance their overall performance. Many industries fail to
+
+
+attain the height of excellence because they do not fully understand
+
+
+the true meaning of the same (Fok-Yew & Ahmad, 2014). There is
+
+
+undoubtedly a need for a list of instructions illustrating how industries
+
+
+may attain operational excellence.
+
+
+When considering operational excellence, academics and industry
+
+
+consultants prefer to associate it with the manufacturing division
+
+
+because the manufacturing process is one of the main strategic parts
+
+
+of a business (Ahmed & Nuland, 2017). In the present study, the
+
+
+leather products industry of Bangladesh, a dominant manufacturing
+
+
+sector, is taken into consideration. The Bangladeshi leather sector
+
+
+contributes significantly to the economy of the country and is the
+
+
+second-largest source of exports. It includes around 220 tanneries,
+
+
+110 large firms, and 3,500 small and medium enterprises (SMEs)
+
+
+(Moktadir, Rahman, Jabbour, Ali, & Kabir, 2018). According to the
+
+
+Export Promotion Bureau (EPB) of Bangladesh, the Bangladeshi
+
+
+leather industry contributes around 10% to the global leather busi-
+
+
+ness. The data from the EPB confirmed that in the first 8 months of
+
+
+FY2019–2020, the export of leather goods and footwear was around
+
+
+USD 851 million (Report, 2020). The industry has the capability of
+
+
+generating jobs and venture capital by creating convenience for
+
+
+export businesses, as Bangladeshi leather products including leather
+
+
+bags, ladies purses, money bags, belts, shoes, leather jackets, gloves,
+
+
+and credit card cases are imported to many countries including Italy,
+
+
+Spain, Germany, United States, United Kingdom, and Canada
+
+
+(Hoque & Clarke, 2013).
+
+
+A lump of waste is generated by different manufacturing opera-
+
+
+tions functioning within the leather products industry. If the
+
+
+manufacturing operations are green, the amount of waste generated
+
+
+should be considerably low (Dwivedi, Agrawal, & Madaan, 2019; Yang
+
+
+et al., 2019). Therefore, the employment of sustainable operational
+
+
+practices in the Bangladeshi leather products industry is a challenge.
+
+
+Studies related to performance enhancement in different manufactur-
+
+
+ing industries functional in Bangladesh primarily focused on small and
+
+
+medium organizations. In the literature, a few studies were available
+
+
+in the sphere of the leather industry, which is entirely different from
+
+
+the operational excellence and sustainability in the leather products
+
+
+industry (Moktadir, Ali, Rajesh, & Paul, 2018; Moktadir, Ali, Paul, &
+
+
+Shukla, 2019; Moktadir, Ali, Kusi-Sarpong, & Shaikh, 2018). Previous
+
+
+studies disclosed how operations management has linked sustainabil-
+
+
+ity issues via the practice of operational excellence (Mani &
+
+
+Gunasekaran, 2018). To stay upfront in the competition, the leather
+
+
+products industry needs refining, achieved by incorporating the latest
+
+
+approaches and concepts into their businesses to attain superiority
+
+
+and sustainability. Operational excellence mostly contains the most
+
+
+comprehensive and latest technological approaches for industrial utili-
+
+
+zation in the form of blockchain, Internet of things, information and
+
+
+communication technologies, artificial intelligent, cloud computing,
+
+
+and others (Gai, Beath, Fang, & Lou, 2020; Sartal & Vázquez, 2017).
+
+
+Sustainable practices can significantly contribute to achieving bril-
+
+
+liance in the industry performance (Luthra, Govindan, Kannan, Man-
+
+
+gla, & Garg, 2017) and can intensify the architecture and sustainability
+
+
+aspects of the traditional supply chains (Mangla et al., 2019).
+
+
+Operational excellence is an essential subject of interest but has
+
+
+been a challenge for both industry and academia. Most of the previ-
+
+
+ous operational excellence studies considered the case of different
+
+
+manufacturing industries, but there is a paucity of studies linked to
+
+
+operational excellence practices concerning leather industries func-
+
+
+tional in Bangladesh (Paul, Antunes, Covington, Evans, &
+
+
+Phillips, 2013; Moktadir, Ali, Rajesh, et al., 2018; Moktadir, Rahman,
+
+
+Rahman, Ali, & Paul, 2018; Moktadir, Ahmadi, Sultana, Liou, &
+
+
+Rezaei, 2020). There has been very little research conducted to estab-
+
+
+lish an operational excellence structure for the leather products indus-
+
+
+try. Therefore, scientific knowledge and research could assist the
+
+
+Bangladeshi leather products industry in employing operational excel-
+
+
+lence practices towards sustainability. To guide the leather products
+
+
+industry on their way towards sustainability via operational excellence
+
+
+approaches, this study addresses the following research questions
+
+
+(RQs):
+
+
+RQ1: What are the potential key performance indicators (KPIs)
+
+
+for operational excellence towards sustainability in the context of the
+
+
+leather products industry?
+
+
+RQ2: How to determine the relative significance of KPIs for oper-
+
+
+ational excellence?
+
+
+RQ3: How to articulate the performance index for the leather
+
+
+products companies considering KPIs?
+
+
+RQ4: What would be the managerial and policy implications of
+
+
+the study findings for the business strategy development?
+
+
+Therefore, the present study adds value to the operational excel-
+
+
+lence literature by addressing the above-mentioned RQs. The objec-
+
+
+tives of the study are
+
+
+3332 MOKTADIR ET AL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a. Identifying the most relevant KPIs under the six different prospects
+
+
+for practicing operational excellence towards sustainability in the
+
+
+leather products industry using a qualitative approach.
+
+
+b. Determining the relative significance of the identified KPIs
+
+
+employing quantitative BWM.
+
+
+c. Developing a performance index considering domain expert's input
+
+
+for the case companies to investigate the existing operational
+
+
+performance.
+
+
+d. Introducing managerial and policy implications deduced from the
+
+
+study.
+
+
+To respond to the proposed objectives listed above, an analytical
+
+
+framework based on qualitative and quantitative approaches for iden-
+
+
+tifying and investigating the KPIs is developed for the leather prod-
+
+
+ucts industry. For this, at first, a rigorous literature review is
+
+
+performed within the domain of operational excellence to identify the
+
+
+potential KPIs. Then, a qualitative approach based on expert's opin-
+
+
+ions is undertaken to identify and finalize the KPIs for the leather
+
+
+products industry. Next, to investigate the operational excellence, rel-
+
+
+ative weights of the KPIs are determined and prioritized as per their
+
+
+influence on operational excellence towards sustainability, employing
+
+
+the BWM. Next, the performance index of case companies is obtained
+
+
+to comprehend the actual operational performance of these case
+
+
+companies concerning the identified KPIs.
+
+
+In this study, a quantitative decision tool, BWM has used for the
+
+
+following reasons: (a) BWM is a novel technique where the number of
+
+
+pairwise comparison matrices is less compared with other MCDM
+
+
+techniques like analytical hierarchy process (AHP), fuzzy AHP, deci-
+
+
+sion making trial and evaluation laboratory (DEMATEL), gray-
+
+
+DEMATEL, analytical network process (ANP) resulting time-saving in
+
+
+decision making process (Mi, Tang, Liao, Shen, & Lev, 2019; Rezaei,
+
+
+2015); and (b) BWM generates exceptionally reliable results with
+
+
+lower consistency ratio (Gupta, Anand, & Gupta, 2017; van de Kaa
+
+
+et al., 2017).
+
+
+The paper is arranged as per the following sections. Section 2 dis-
+
+
+cusses the literature review on operational excellence, existing works
+
+
+on KPIs, research gaps and highlights, and categorization of KPIs. The
+
+
+research design and methodology are presented in Section 3. A real-
+
+
+world case presentation of the suggested methodology is explained in
+
+
+Section 4. Section 5 broadly discusses the results and findings from
+
+
+the study, and Section 6 includes the conclusion, implications, and
+
+
+recommendations of the study.
+
+
+2 | LITERATURE REVIEW
+
+
+In this section, the objective is to add insights towards operational
+
+
+excellence studies. The objective is attained by addressing the existing
+
+
+literature related to operational excellence and KPIs. On the basis of
+
+
+literature review, the research gaps and the key highlights are identi-
+
+
+fied. Further, the KPIs are segregated into six categories based on the
+
+
+literature survey and qualitative approach built on expert's sugges-
+
+
+tions under this section.
+
+
+2.1 | Operational excellence
+
+
+The literature assessment reveals various ways to describe operational
+
+
+excellence. The word “operational” refers to the assembly and distri-
+
+
+bution of a product and to accomplish a specific task, while “excel-
+
+
+lence” refers to a goal that must be met and sustained in order to
+
+
+remain outstanding (Mitchell, 2015). In addition, operational excel-
+
+
+lence is related to improving performance and efficiency across all
+
+
+dimensions of the industry. It is associated with both the operating
+
+
+performance (such as the measures of expense, quality, and resilience)
+
+
+and sustainable performance (such as dealing with individuals and
+
+
+resources effectively to support business expansion) (Zhu, Johnsson,
+
+
+Varisco, & Schiraldi, 2018). In order to increase customer worth, oper-
+
+
+ational excellence is equally concerned with manufacturing processes
+
+
+as it is with waste minimization, and it generates interactions between
+
+
+employees and customers (Chakraborty, Sharma, & Vaidya, 2020;
+
+
+Dev, Shankar, & Qaiser, 2020). The architecture and administration of
+
+
+operational excellence escalate operating profits by achieving stable
+
+
+operational excellence in the production system, which supports cus-
+
+
+tomers by offering them correct value for products and services.
+
+
+In order to attain operational excellence towards sustainable
+
+
+practices in industries, all three sustainability aspects (social, environ-
+
+
+mental, and economic) must be studied (Gimenez, Sierra, &
+
+
+Rodon, 2012). If operational excellence practices can assist in social
+
+
+improvement, this may lead to opening or attracting new businesses
+
+
+and sustaining the present collaborations (Sehnem, Jabbour, Pereira, &
+
+
+de Sousa Jabbour, 2019). The social aspect of sustainable operational
+
+
+excellence can escalate business expansion and stabilize operational
+
+
+excellence programs. Industries operate for economic gains and gen-
+
+
+eration of profits. The economic aspect of sustainable operational
+
+
+excellence should moderately assure economic profitability. Sustain-
+
+
+able operational excellence will only be achievable if it creates an eco-
+
+
+nomic impact, but this must not be at the expense of environmental
+
+
+and social impacts. The environmental aspect of operational excel-
+
+
+lence decisions that lead to negative environmental outcomes must
+
+
+be eradicated, even if such decisions are highly profitable for the
+
+
+industry (Sony, 2019).
+
+
+Operational excellence is the continued monitoring of the
+
+
+industry's finest practices in the domain of operational performance,
+
+
+health and safety, process reliability, and environmental conduct (Bag,
+
+
+Wood, Mangla, & Luthra, 2020). It is a means of continuous enhance-
+
+
+ment in the operations of the industries. Operational excellence has
+
+
+been accredited and employed by various industries functioning in dif-
+
+
+ferent domains. Many researchers have devoted substantial attention
+
+
+to operational excellence practices and suggested various frameworks
+
+
+for operational excellence in the context of different organizations.
+
+
+Moktadir, Ali, Rajesh, et al. (2018) identified the barriers to sustainable
+
+
+supply chain (SSC) management in the leather industry. The study
+
+
+identified 20 potential barriers in suggestion with the expert's and
+
+
+obtained the interrelationships among the barriers employing the
+
+
+gray-DEMATEL approach. Sony (2019) presented a combined per-
+
+
+spective of achieving sustainable operational excellence in industries.
+
+
+In this study, the author suggests a framework for sustainable
+
+
+MOKTADIR ET AL. 3333
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+operational excellence considering the triple bottom line of sustain-
+
+
+ability aspects. Uddin et al. (2019) suggested a framework to identify
+
+
+the barriers to green supply chain management (GSCM) in the leather
+
+
+industry. The study adopted ELimination Et Choice Translating REality
+
+
+(ELECTRE) and AHP approach to instigating GSCM in the leather
+
+
+industry. Dwivedi et al. (2019) suggested a sustainable manufacturing
+
+
+framework focusing leather industry. The study adopted the Total
+
+
+Interpretive Structural Modeling (TISM) approach and kappa analysis
+
+
+for obtaining the interrelation among the factors. Moktadir, Dwivedit,
+
+
+et al. (2019) identified the antecedents for the adoption of green
+
+
+human resource management in the context of the tannery industry.
+
+
+In this study, authors used TISM approach to make a contextual rela-
+
+
+tionship among identified antecedents.
+
+
+Similarly, Chakraborty et al. (2020) attained sustainable opera-
+
+
+tional excellence through information technology (IT) applications in
+
+
+an Indian context. The study adopted ISM and fuzzy-MICMAC meth-
+
+
+odology to analyze the barriers in effective IT implementation, consid-
+
+
+ering the expert's from the organized and unorganized logistics
+
+
+sectors. Hasan, Javed, and Farooq (2020) suggested strategies for the
+
+
+growth of the leather industry. The study has employed AHP and con-
+
+
+tent analysis to identify and rank the strategies that can be employed
+
+
+by the leather industry for effectual growth. Also, Sehnem et al. (2019)
+
+
+performed an analysis for enhancing the performance of SSCs through
+
+
+the practices of operational excellence and circular economy (CE). This
+
+
+study suggests the companies to manage the success factors related
+
+
+to CE adoption and the influence of firms' in encouraging the
+
+
+CE. Muazu (2019) studied the antecedents of research within the
+
+
+domain of the oil and gas industry. The results from the study reflect
+
+
+that health, safety, and environmental performance has declined while
+
+
+incidents and fatalities issues are rising, irrespective of the adoption
+
+
+of operational excellence practices.
+
+
+A number of studies are highlighted above in the context of oper-
+
+
+ational excellence adoption towards sustainability in different
+
+
+manufacturing industries. Although, there are numerous studies in the
+
+
+field of the leather industry, still study related to the adoption of sus-
+
+
+tainable operational excellence practices in leather products industry
+
+
+is missing in the literature. Therefore, to attain operational excellence,
+
+
+the leather products industry must search for creative ideas to inte-
+
+
+grate conformity into its production and operational framework.
+
+
+Although there are numerous studies related to this field, several
+
+
+scopes of operational excellence still require further investigation.
+
+
+2.2 | Existing work on KPIs
+
+
+The important objectives for attaining operational excellence towards
+
+
+sustainability practices are primarily revealed by an enterprise's
+
+
+demand for success. Further, each objective is assisted by a list of spe-
+
+
+cific indicators that contribute to attaining the desired objectives. As a
+
+
+set of quantitative and strategic measures that demonstrate the suc-
+
+
+cess of an organization, KPIs establish an enterprise's objectives and
+
+
+provide ways to measure and manage improvements for further learn-
+
+
+ing to achieve these objectives. There are a set of standards that
+
+
+target the most relevant elements of organizational performance and
+
+
+are necessary for future progress (Parmenter, 2007). KPIs play a vital
+
+
+role in transforming organizational objectives into existence and sup-
+
+
+port organizations to understand their performance within the context
+
+
+of their objectives. KPIs are an effective instrument for appraising per-
+
+
+formance and can be defined as a measure of success or consent.
+
+
+They allow industries to identify those operations that are performing
+
+
+well and those need future enhancements. They also facilitate to rec-
+
+
+ognize and remodel the performance systems of the manufacturing
+
+
+industries. Because KPIs consist of an extensive range of elements in
+
+
+the form of objectives, such as analysis, modeling, and measurement,
+
+
+it becomes difficult to define them accurately. Therefore, organiza-
+
+
+tions depend on managers to designate appropriate KPIs. The efficient
+
+
+adoption of KPIs is becoming increasingly important in the current
+
+
+business environment. KPIs are necessary for attaining operational
+
+
+excellence towards sustainability as
+
+
+1. KPIs can specify decisive information which can lay the ground-
+
+
+work for enforcing development planning (Bag, Xu, Dhamija, &
+
+
+Kayikci, 2020);
+
+
+2. KPIs present an approach to visualize whether strategic arrange-
+
+
+ments are working to drive the desired objectives;
+
+
+3. The adoption of KPIs can lead to improvements in the productivity
+
+
+and profitability of the organizations (Horta, Camanho, & Da
+
+
+Costa, 2010).
+
+
+In the literature survey, many studies highlighted the KPIs rele-
+
+
+vant to different industries. A few studies turned their attention to
+
+
+KPIs related to the leather industry, automobile industry, and
+
+
+healthcare, as well as looking at the pressures of sustainable
+
+
+manufacturing, but surprisingly study related to the leather products
+
+
+industry was missing. Addis, Dvivedi, and Beshah (2017) performed an
+
+
+analysis of the operational performance indicators in the background
+
+
+of Ethiopian leather industry using the customer preference rating
+
+
+approach. The study identified five key operational performance indi-
+
+
+cators that have high influence on the production performance of the
+
+
+Ethiopian leather industry. The results reported that flexibility and
+
+
+quality are the most imperative indicators for enhancing the industry's
+
+
+production performance. Also, Kaganski, Majak, and Karjust (2018)
+
+
+prioritized KPIs based on Specific, Measurable, Achievable, Relevant
+
+
+and Time-bound as well as Evaluated on a regular basis and Recog-
+
+
+nized (SMARTER) criteria. The study adopted the fuzzy AHP tech-
+
+
+nique to identify 13 KPIs and further prioritized them based on
+
+
+expert's from different SMEs.
+
+
+Similarly, Nurcahyo, Pustiwari, and Gabriel (2018) established
+
+
+KPIs for manufacturing industries in Indonesia. The study adopted the
+
+
+DEMATEL method to determine the causal relationship among the
+
+
+critical factors for improving corporate sustainability. Further, Kailash,
+
+
+Saha, and Goyal (2019) studied the KPIs of ISCM performance for
+
+
+Indian manufacturing industries. In this study, authors adopted an
+
+
+integrated fuzzy logic and AHP method to analyze the KPIs of internal
+
+
+supply chain management (SCM) based on select manufacturing com-
+
+
+panies. Amaladhasan, Parthiban, and Dhanalakshmi (2019) identified
+
+
+3334 MOKTADIR ET AL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+the KPIs for green supply chain (GSC) assessment in the domain of
+
+
+the automobile industry. The study offered fuzzy-based
+
+
+VIseKriterijumska Optimizacija I Kompromisno Resenje (VIKOR) and
+
+
+gray relational analysis to prioritize the GSC performance in sugges-
+
+
+tion with the expert's from five different industries. Feiz et al. (2020)
+
+
+demonstrated the economic and environmental KPIs of the renewable
+
+
+energy production system by adopting a life cycle assessment (LCA)
+
+
+approach and ignored to examine the significance of proposed KPIs.
+
+
+Li, Hong, Lee, and Sofos (2020) proposed system-level KPIs for build-
+
+
+ing performance evaluation using a simulation based approach, and
+
+
+the study findings were not suitable for the manufacturing industries.
+
+
+Zhu et al. (2018) identified the KPIs for the process industries, which
+
+
+were neglected by the KPIs series of ISO 22400. They offered a dis-
+
+
+cussion and highlighted the difference between process industries
+
+
+KPIs and KPIs of the manufacturing operation.
+
+
+2.3 | Research gaps and highlights
+
+
+From the above in-depth literature review, it was confirmed that, to
+
+
+date, no study has examined the KPIs for operational excellence
+
+
+towards sustainability in the field of the leather products industry. A
+
+
+few studies analyzed KPIs in the context of manufacturing industries
+
+
+but did not focus specifically on operational excellence towards sus-
+
+
+tainability. Also, no study has evaluated the KPIs for operational excel-
+
+
+lence towards sustainability based on six (management, operations,
+
+
+quality, economic, social, and environmental) different categories for
+
+
+the leather products industry. To successfully estimate operational
+
+
+excellence, KPIs must be precisely explained according to the intent
+
+
+and scope of the sustainability evaluation. In complex situations, cor-
+
+
+relations between KPIs might also occur (Tsai, Chou, & Hsu, 2009).
+
+
+Therefore, it is crucial to examine the significance of the various KPIs
+
+
+for the leather products industry. To deal with the challenges above,
+
+
+there is a need to establish a framework to identify KPIs for opera-
+
+
+tional excellence towards sustainability practices in the leather prod-
+
+
+ucts industry. Therefore, the present study is an effort to address the
+
+
+above-mentioned research gaps. The highlights of the research are
+
+
+listed below:
+
+
+a. KPIs for operational excellence towards sustainability are identified
+
+
+through literature review and qualitative expert's suggestions.
+
+
+b. An MCDM-based framework has been suggested, which supports
+
+
+the essential KPIs, and the priorities among the KPIs are deter-
+
+
+mined to achieve operational excellence.
+
+
+c. A performance index is established for the case companies by
+
+
+arresting feedback from case companies expert's to determine the
+
+
+operational performance of the industry.
+
+
+2.4 | Categorization of the KPIs
+
+
+KPIs can be arranged by a set of elements with similar characteristics.
+
+
+Each KPI reveals the performance aspect of an organization.
+
+
+Moreover, these KPIs must be reasonably categorized to explore the
+
+
+fundamental interactions between them. Therefore, it is appropriate
+
+
+to organize the KPIs into multiple groups at different levels with spe-
+
+
+cific cross-links between them. In the present study, a set of KPIs for
+
+
+operational excellence in the background of manufacturing industries
+
+
+are determined through the literature review. The suggestions of the
+
+
+expert's in the domain of leather products industry are incorporated
+
+
+to finalize 19 potential KPIs relevant to the leather products industry.
+
+
+Further, the identified 19 KPIs are clubbed under six (management,
+
+
+operations, quality, economic, social, and environmental) aspects
+
+
+based on the qualitative approach, that is, expert's suggestions as
+
+
+reflected inTable 1.
+
+
+2.4.1 | Management related KPIs
+
+
+Manufacturing organizations find it challenging to attain their goals
+
+
+due to certain process restrictions smoothly. If these restrictions are
+
+
+well understood, KPIs can be identified more accurately and can also
+
+
+assist with the improvements required to achieve goals (de Sousa
+
+
+Jabbour, de Oliveira Frascareli, & Jabbour, 2015; Seleem, Attia, & El-
+
+
+Assal, 2016). Therefore, it is essential to understand all the existing
+
+
+restrictions before employing any performance employment initia-
+
+
+tives. KPIs help management to determine the exercises that need
+
+
+improvements to support the setting of new objectives, assist in
+
+
+decision-making to attain the required performance, permit interpre-
+
+
+tation of the organization's responsibility into detailed operational
+
+
+practices, and assess the extent of the organization's success in
+
+
+achieving its goal. In suggestion with the expert's, KPIs such as the
+
+
+efficient inventory management facility, skilled management facility of
+
+
+capacity utilization, and management facility of production monitoring
+
+
+system are included within the category of management-related KPIs,
+
+
+are presented inTable 1.
+
+
+2.4.2 | Operations related KPIs
+
+
+KPIs can help maintain the capability of an organization to establish
+
+
+and transform itself while retaining productivity. They are employed
+
+
+to evaluate performance and effectiveness throughout the different
+
+
+manufacturing operations. Therefore, KPIs must be correctly identi-
+
+
+fied and adopted to the particularity of the industry and should be
+
+
+comprehensive enough to evaluate various operations effectively.
+
+
+The suggested the KPIs such as product development accuracy,
+
+
+scheduled production, timely target completion, and timely machinery
+
+
+maintenance within the category of operations related KPIs are out-
+
+
+lined inTable 1.
+
+
+2.4.3 | Quality-related KPIs
+
+
+The determination of, and improvement in, quality are the constant
+
+
+endeavors of manufacturing organizations. Typically, organizations
+
+
+MOKTADIR ET AL. 3335
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+target quality because of their commitments to their patrons of prod-
+
+
+ucts and operations (Heckl, Moormann, & Rosemann, 2010). As such,
+
+
+organizations are always in search of measures to examine and
+
+
+enhance their quality and are always ready to adopt the practices and
+
+
+methods essential for quality improvements in their operations and
+
+
+products. Customer satisfaction, less number of defective products,
+
+
+and total quality management facility are the KPIs within the category
+
+
+of quality-related KPIs as suggested by the expert's, reflected in
+
+
+Table 1.
+
+
+2.4.4 | Economic KPIs
+
+
+Economic KPIs embody the varying aspects of an organization that
+
+
+must be considered to stay competitive in their profession for the
+
+
+long term (Baumgartner & Ebner, 2010). These KPIs reflect the con-
+
+
+cerns of an organization about its economic structure, both on the
+
+
+national and international levels. This aspect of KPIs incorporates a
+
+
+set of standards to appraise the value generated by an organization
+
+
+and its collaborators. The recommended KPIs such as return on
+
+
+investment, revenue growth rate, net profit, and customer-based prof-
+
+
+itability within the category of economic KPIs are listed inTable 1.
+
+
+2.4.5 | Social KPIs
+
+
+Social KPIs are concerned with the effects of the social system on the
+
+
+organizations that operate within them. This dimension of KPIs aims
+
+
+to direct interactions between collaborators decisively, both in the
+
+
+present and in the future (Rodrigues, Pigosso, & McAloone, 2016).
+
+
+TABLE 1 List of identified KPIs from exploratory literature survey
+
+
+Major KPIs Sub-KPIs Supported references
+
+
+KPI1 Management Efficient inventory management facility Nallusamy (2016).
+
+
+Skilled management facility of capacity
+utilization
+
+
+Bendavid, Lefebvre, Lefebvre, and
+Fosso-Wamba (2009).
+
+
+Management facility of production
+monitoring system
+
+
+Snatkin, Eiskop, Karjust, and Majak (2015),
+Kaganski et al. (2018).
+
+
+KPI2 Operations Product development accuracy (PD) Gunasekaran, Patel, and
+McGaughey (2004).
+
+
+Scheduled production (order fulfillment
+cycle time)
+
+
+Lindberg, Tan, Yan, and Starfelt (2015), Bag
+et al. (2020).
+
+
+Timely target completion Rabhi (2011).
+
+
+Timely machinery maintenance Mydin (2014)
+
+
+KPI3 Quality Customer satisfaction Sawang (2011), Parmenter (2007), Bhatti,
+Awan, and Razaq (2014).
+
+
+Less number of defective products Anggradewi, Aurelia, Sardjananto, and
+Ekawati (2019)
+
+
+Total quality management facility (TQM) Friedli, Goetzfried, and Basu (2010)
+
+
+KPI4 Economic Return on investment (ROI) Wieder, Booth, Matolcsy, and
+Ossimitz (2006), Speaker (2009).
+
+
+Revenue growth rate Fernandes, Raja, and Whalley (2006).
+
+
+Net profit Demydyuk, G. (2012).
+
+
+Customer-based profitability Setijono and Dahlgaard (2007).
+
+
+KPI5 Social Workers' safety Rajendran and Gambatese (2009), Zou and
+Moon (2014)
+
+
+Employee satisfaction Tsai and Cheng (2012), Venkatraman and
+Ramanujam (1986), Radujkovi!c,
+Vukomanovi!c, & Dunovi!c (2010).
+
+
+KPI6 Environmental Environmental management system Teixeira, Mendes, Murta, and Nunes (2016),
+Kylili, Fokaides, and Jimenez (2016).
+
+
+Greenhouse gas emission rate Wu, Ma, Ji, and Ma (2017), Kourkoumpas et
+al. (2018).
+
+
+Emission to water and land Amrina and Yusof (2011), Shaw, Grant, and
+Mangan (2010).
+
+
+Abbreviation: KPI, key performance indicator.
+
+
+3336 MOKTADIR ET AL.
+
+
+
+
+
+
+KPIs such as worker's safety and employee satisfaction are included in
+
+
+the category of social KPIs, as shown inTable 1.
+
+
+2.4.6 | Environmental KPIs
+
+
+Environmental KPIs determine the efficiency of an organization in
+
+
+attaining its broader goals and targets while still achieving environ-
+
+
+mental goals. The information accumulated by organizations related
+
+
+to the environment must be utilized to the utmost extent (Boakye,
+
+
+TIngbani, Ahinful, Damoah, & Tauringana, 2020). Environmental KPIs
+
+
+must meet the binary goals of facilitating the organization and, at the
+
+
+same time, transfer the relevant information to its partners. Therefore,
+
+
+environmental KPIs should be relevant to the size of the organization
+
+
+and its requirements. The KPIs such as environmental management
+
+
+system, greenhouse gas emission rate, and emission to water and land
+
+
+under the category of environmental KPIs are outlined inTable 1.
+
+
+3 | METHODOLOGY
+
+
+3.1 | Research design
+
+
+In this study, initially, a set of KPIs for operational excellence in the
+
+
+background of the leather products industry are identified through lit-
+
+
+erature review and expert's suggestions, as reflected in Table 4. After
+
+
+that, using BWM, the weight of each identified KPIs is determined to
+
+
+examine the performance of each case company. Using those weights
+
+
+and ratings, we find out the performance of the case companies and
+
+
+rate them accordingly. This would ultimately result in determining
+
+
+how KPI index set to know the operations excellence of the case
+
+
+companies.
+
+
+3.2 | Best worst method
+
+
+The BWM was developed by Professor Jafar Rezaei in 2015 to
+
+
+explain complications in MCDM (Rezaei, 2015). The BWM method is
+
+
+gaining popularity in several disciplines due to its salient features com-
+
+
+pared with other MCDM techniques (Chowdhury & Paul, 2020). First,
+
+
+BWM needs less effort and time compared with other MCDM tech-
+
+
+niques such as AHP, ANP, and fuzzy AHP due to requiring less
+
+
+pairwise comparison vector (Mi et al., 2019). Second, results produced
+
+
+by BWM are more consistent and reliable than the other MCDM
+
+
+techniques (Rezaei, 2016). Third, BWM is recognized by the
+
+
+researchers and practitioners as a simple MCDM approach that can
+
+
+quickly assess the complex decision-making problem (Salimi &
+
+
+Rezaei, 2018). This method has already been practiced in various real-
+
+
+world problems. For example, Suhi et al. (2019) employed the BWM
+
+
+for the assessment of environmental criteria for SSCs, Moktadir, Ali,
+
+
+Jabbour, et al., (2019) used the BWM to evaluate the key factors of
+
+
+energy efficiency in the leather industry, Malek and Desai (2019)
+
+
+applied the BWM to assess barriers to sustainable manufacturing
+
+
+practices, and Munny et al. (2019) utilized BWM to evaluate enablers
+
+
+of social sustainability in the footwear industry. The rating scale used
+
+
+in BWM analysis is shown inTable 2.
+
+
+The stepwise procedure of the BWM (Rezaei, 2015) is given as
+
+
+follows.
+
+
+Step 1: Identify a set of KPIs {KPI1, KPI2, …, KPIn} to reach a decision.
+
+
+Step 2: The respondent determines the best and worst KPIs and sub-
+
+
+KPIs without any comparison.
+
+
+Step 3: Decision makers rate the best KPI over all the other KPIs using
+
+
+a 1–9 scale rating value. This is similarly applicable for all other sub-
+
+
+KPIs. The vector of KPIs and sub-KPIs would be as follows:
+
+
+AB = AB1,AB2,…,ABnð Þ,
+
+
+where aBj denotes the preference of the best KPI B over KPI j. It can
+
+
+be concluded that the value of aBB would be 1.
+
+
+Step 4: Decision makers rate all the KPIs over the worst KPI using
+
+
+a 1–9 scale rating value, as for all other sub-KPIs. The vector of
+
+
+others-to-worst KPIs and sub-KPIs would be as follows:
+
+
+Aw = A1w,A2w,…,Anwð Þ,
+
+
+where Ajw denotes the preference of KPI j over the worst KPI w. The
+
+
+value of aww would be 1.
+
+
+Step 5: The weights of (w1
+*, w2
+
+
+*, …,wn
+*) are calculated.
+
+
+The final weights of each KPI and sub-KPI are where, for each
+
+
+group of wB/wj and wj/ww, we have wB/wj = aBj and wj/ww = ajw. To ful-
+
+
+fill these conditions for all j, we need to search the optimal solution
+
+
+where the maximum absolute differences |wB/wj ― aBj| and |wj/ww ―
+
+
+ajw| for all j are minimized. Finally, the nonlinear optimixation model
+
+
+can be formed as follows:
+
+
+wB−aBjw j
+!! !! w j−ajWwW
+
+
+!! !!" #,
+
+
+min max {|wB − aBjwj|,|wj − ajWwW|},
+s.t.
+
+
+TABLE 2 Linguistic rating scale used in the best worst method
+
+
+Rating value Linguistic rating
+
+
+1 Equally important
+
+
+2 Somewhat between equal and moderate
+
+
+3 Moderately more important
+
+
+4 Somewhat between moderate and strong
+
+
+5 Strongly more important
+
+
+6 Somewhat between strong and very strong
+
+
+7 Very strongly important
+
+
+8 Somewhat between very strong and extreme
+
+
+9 Extremely more important
+
+
+MOKTADIR ET AL. 3337
+
+
+
+
+
+
+X
+
+
+j
+
+
+w j =1,
+
+
+w j ≥0,for all j: ð1Þ
+
+
+Model 1 is converted to a linear model and is displayed as
+
+
+min ξL,
+
+
+s.t.
+
+
+|wB − aBjwj|≤ ξ
+L, for all j,
+
+
+w j−ajWwW
+!! !!≤ ξL, for all j,
+
+
+X
+j
+w j =1,
+
+
+w j ≥ 0,for all j:
+
+
+ð2Þ
+
+
+To determine the optimal weights of (w#1,w
+#
+2,…,w
+
+
+#
+nÞ for each KPI and
+
+
+sub-KPI and the optimal value of ξL, Model 2 needs to be solved. For
+
+
+better consistency (ξL) of KPIs comparisons, a result close to “0” is
+
+
+desired.
+
+
+After determination of the weights of the main KPIs and sub-KPIs
+
+
+from the BWM analysis, the final weight or global weight for individ-
+
+
+ual KPIs is acquired by multiplying the major KPIs weights with their
+
+
+respective weight of sub-KPIs. The global weight is used further for
+
+
+performance determination. The KPI ratings of several companies are
+
+
+then collected based on the 1–9 rating scale to try and enhance the
+
+
+performance of each of the companies. Finally, the overall perfor-
+
+
+mance indexes of the case companies are calculated by the following
+
+
+equation:
+
+
+Vi =
+Xn
+
+
+j=1
+
+
+w jpij, ð3Þ
+
+
+where wj is the weight of sub-KPI j, which is obtained from the BWM
+
+
+analysis, and pij is the preference rating of the case company i over
+
+
+sub-KPI j.
+
+
+4 | THE CASE APPLICATION
+
+
+The proposed method was practiced in real-life case from the leather
+
+
+products industry in emerging economies. In this study, the leather
+
+
+products industry was highlighted to investigate the KPIs due to its
+
+
+remarkable contribution to the growth of the country's economy as
+
+
+well as its need for operational excellence in its manufacturing sys-
+
+
+tems. To be more sustainable in their manufacturing activities, it is
+
+
+imperative to understand the actual performance that will further sup-
+
+
+port the improvement of operational performance. To achieve the
+
+
+desired research goals, initially, the 19 KPIs were identified consider-
+
+
+ing the scientific articles from the scholarly databases, that is, Google
+
+
+Scholar, ScienceDirect, and Scopus. After that, to validate, finalize,
+
+
+and assess the KPIs, the expert's were invited in multiple stages of
+
+
+data collection using a purposive sampling technique. In this non-
+
+
+probability sampling technique, respondents are chosen selective way.
+
+
+In the first stage of data collection, we invited 25 industrial and five
+
+
+academic professionals via email communication along with the list of
+
+
+identified 19 KPIs collected from different scientific articles. In the
+
+
+first stage of data collection, we have received a total of seven
+
+
+responses; six from the six case companies and one from an academic
+
+
+professional. The six case companies were the reputed leather prod-
+
+
+ucts industry of Bangladesh, and they are producing and exporting
+
+
+high-quality leather goods (i.e., leather bags, wallets, belts, passport
+
+
+cases, ladies purses, credit card cases etc.). The six respondents are
+
+
+working in the area of production, merchandising, and the research
+
+
+and development department in the respective industry. They have a
+
+
+keen interest in the research topic and showed interest in participat-
+
+
+ing in the next stages of data collection. Accordingly, one professional
+
+
+expert from the institution domain responded to participate in the ini-
+
+
+tial stage as well as the next stages of data collection. The particulars
+
+
+of the respondents are given below inTable 3.
+
+
+The application of the proposed method is separated into the
+
+
+three phases described as follows.
+
+
+4.1 | Phase-1: Finalization of KPIs by expert's
+feedback
+
+
+In this phase, the relevant KPIs are finalized with the help of expert's
+
+
+feedback. In the first stage of data collection, we received eight new
+
+
+KPIs from the seven respondents. Further, in the second stage of data
+
+
+collection, we have communicated and arranged face-to-face
+
+
+TABLE 3 Expert profiles for best worst method analysis
+
+
+Name of expert's
+Name of company or educational
+institute Designation
+
+
+Years of experience (including part-time working
+experience)
+
+
+Industry expert (E1) X1 Production Officer 7
+
+
+Industry expert (E2) X2 Jr. Merchandiser 3
+
+
+Academic expert
+(E3)
+
+
+X3 Lecturer 5
+
+
+Industry expert (E4) X4 Sr. Merchandiser (PD) 4
+
+
+Industry expert (E5) X5 Merchandising
+Manager
+
+
+7
+
+
+Industry expert (E6) X6 Production Officer 3
+
+
+Industry expert (E7) X7 R&D Manager 11
+
+
+3338 MOKTADIR ET AL.
+
+
+
+
+
+
+
+
+
+
+meetings to categorize the finalized KPIs, and only the relevant KPIs
+
+
+in the background of emerging economies were considered for further
+
+
+evaluation process. Finally, with the expert's feedback, the identified
+
+
+KPIs were categorized under the six potential KPIs divisions, that is,
+
+
+management, operations, quality, economic, social, and environmental.
+
+
+The identified and finalized 27 sub-KPIs under the six potential KPIs
+
+
+divisions are listed inTable 4.
+
+
+4.2 | Phase-2: Assessment of identified KPIs and
+sub-KPIs
+
+
+In this phase, the assessment process of KPIs and sub-KPIs is broadly
+
+
+described.
+
+
+4.2.1 | Determination of the best and worst KPIs
+and sub-KPIs
+
+
+In the third phase of face-to-face data collection, each of the seven
+
+
+expert's was approached to determine the best and worst KPIs and
+
+
+sub-KPIs from each of the six questionnaires (presented in the
+
+
+Supporting information) provided to them. Finally, the determined
+
+
+best and worst KPIs and sub-KPIs are given inTable 5.
+
+
+4.2.2 | Determination of the best KPI and sub-KPIs
+over all the other KPIs and sub-KPIs
+
+
+In this step, the experts constructed the vectors for the best KPI over
+
+
+other KPIs, exercising the 1–9 point rating scale. The best or most
+TABLE 4 Final list of KPIs and sub-KPIs validated by expert's feedback
+
+
+Major KPIs Sub-KPIs Supported references
+
+
+KPI1
+Management
+
+
+KPI11: Time gap between buyer approach
+and order placement
+
+
+Expert's feedback
+
+
+KPI12: Efficient inventory management
+facility
+
+
+LR
+
+
+KPI13: Skilled management facility of
+capacity utilization
+
+
+LR
+
+
+KPI14: Products marketing management
+facility
+
+
+Expert's feedback
+
+
+KPI15: Management facility of production
+monitoring system
+
+
+LR
+
+
+KPI2 Operations KPI21: Product development accuracy (PD) LR
+
+
+KPI22: Scheduled production (order
+fulfillment cycle time)
+
+
+LR
+
+
+KPI23: Timely target completion LR
+
+
+KPI24: Accuracy in sewing operation Expert's feedback
+
+
+KPI25: Timely machinery maintenance LR
+
+
+KPI3 Quality KPI31: Customer satisfaction LR
+
+
+KPI32: Customer complaints rate Expert's feedback
+
+
+KPI33: Lesser number of defective products LR
+
+
+KPI34: Total quality management facility
+(TQM)
+
+
+LR
+
+
+KPI4 Economic KPI41: Penalty achievement rate Expert's feedback
+
+
+KPI42: Return on investment (ROI) LR
+
+
+KPI43: Revenue growth rate LR
+
+
+KPI44: Net profit LR
+
+
+KPI45: Customer-based profitability LR
+
+
+KPI5 Social KPI51: Staff advocacy rate (recommendation
+of staffs regarding working conditions)
+
+
+Expert's feedback
+
+
+KPI52: Workers' safety LR
+
+
+KPI53: Maternal facility Expert's feedback
+
+
+KPI54: Employee satisfaction LR
+
+
+KPI6
+Environmental
+
+
+KPI61: Solid waste management system Expert's feedback
+
+
+KPI62: Environmental management system LR
+
+
+KPI63: Greenhouse gas emission rate LR
+
+
+KPI64: Emission to water and land LR
+
+
+Abbreviations: LR, literature review; KPI, key performance indicator.
+
+
+MOKTADIR ET AL. 3339
+
+
+
+
+
+
+important KPI recognized over the other KPIs for Expert 1 (E1) is given
+
+
+below in Table 6. Those identified by Experts 2–7 are provided in the
+
+
+Supporting information.
+
+
+Similarly, the identified best or most important sub-KPI over the
+
+
+other sub-KPIs for Expert 1 (E1) is given below in Table 7. Those iden-
+
+
+tified by Experts 2–7 are provided in the Supporting information.
+
+
+TABLE 5 Best and worst KPIs and sub-KPIs selected by expert's (E1–E7)
+
+
+Main and sub-KPIs Most important Least important
+
+
+Management (KPI1) E1, E2, E4, E5, E6, E7
+
+
+KPI11: Time gap between buyer approach
+and order placement
+
+
+E2, E6
+
+
+KPI12: Efficient inventory management
+facility
+
+
+E3 E7
+
+
+KPI13: Skilled management facility of
+capacity utilization
+
+
+E1, E6, E7 E4
+
+
+KPI14: Products marketing management
+facility
+
+
+E4, E5 E1, E3
+
+
+KPI15: Management facility of production
+monitoring system
+
+
+E2 E5
+
+
+Operations (KPI2) E3
+
+
+KPI21: Product development accuracy E3, E4, E5 E1
+
+
+KPI22: Scheduled production (order
+fulfillment cycle time)
+
+
+E1, E2, E6
+
+
+KPI23: Timely target completion E7
+
+
+KPI24: Accuracy in the production system E2, E4, E6, E7
+
+
+KPI25: Timely machinery system E3, E5
+
+
+Quality (KPI3)
+
+
+KPI31: Customer satisfaction E2, E3, E4, E5, E6
+
+
+KPI32: Number of customer complaints E2, E5, E7
+
+
+KPI33: Lesser number of defective
+products
+
+
+E1, E3, E4
+
+
+KPI34: Total quality management facility
+(TQM)
+
+
+E1, E7 E6
+
+
+Economic (KPI4) E2
+
+
+KPI41: Penalty achievement rate E4, E5, E7
+
+
+KPI42: Return on investment (ROI) E1, E2, E3, E5, E6
+
+
+KPI43: Revenue growth rate E1,E6
+
+
+KPI44: Net profit E7 E2
+
+
+KPI45: Customer-based profitability E4 E3
+
+
+Social (KPI5) E1, E5, E6, E7
+
+
+KPI51: Staff advocacy rate
+(recommendation of staff about
+working environment among others)
+
+
+E4 E3, E5, E7
+
+
+KPI52: Workers' safety E3, E5
+
+
+KPI53: Maternal facilities E1, E2, E4, E6
+
+
+KPI54: Employee satisfaction E1, E2, E6, E7
+
+
+Environmental (KPI6) E4, E5
+
+
+KPI61: Solid waste management system E1, E2, E3, E6
+
+
+KPI62: Environmental management
+system
+
+
+E4, E5, E7
+
+
+KPI63: Greenhouse gas emission rate E1, E2, E3, E4, E5, E7
+
+
+KPI64: Emission to water and land E6
+
+
+Abbreviation: E, expert; KPI, key performance indicator.
+
+
+3340 MOKTADIR ET AL.
+
+
+
+
+
+
+4.2.3 | Determination of the other KPIs and sub-
+KPIs over the worst KPI and sub-KPI
+
+
+In this step, the experts were invited to signify their preference of the
+
+
+remaining KPIs over the worst KPI using the 1–9 point rating system.
+
+
+In this context, the feedback of Expert 1 (E1) is presented below in
+
+
+Table 8. The responses from Experts 2–7 are given in the Supporting
+
+
+information.
+
+
+Similarly, the identified sub-KPIs over the worst sub-KPI for
+
+
+Expert 1(E1) are given in Table 9. Those for Experts 2–7 are given in
+
+
+the Supporting information.
+
+
+4.2.4 | Determination of the optimal weights of the
+KPIs and sub-KPIs
+
+
+In this step, the optimal weights of individual KPIs and sub-KPIs were
+
+
+processed by satisfying the mentioned model and constrictions (see
+
+
+Equation 2) in the previous section for Expert 1 (E1). For KPIs, an
+
+
+example of the model for Expert 1 is reflected below:
+
+
+min ξL
+
+
+subject to,
+
+
+jwKPI1$1wKPI1 j ≤ ξl; jwKPI1$2wKPI2 j ≤ ξl ; jwKPI1$5wKPI3 j ≤ ξl;
+jwKPI1$4wKPI4 j ≤ ξl; jwKPI1$8wKPI5 j ≤ ξl ; jwKPI1$7wKPI6 j ≤ ξl;
+jwKPI1$8wKPI5 j ≤ ξl; jwKPI2$7wKPI5 j ≤ ξl ; jwKPI3$4wKPI5 j ≤ ξl;
+jwKPI4$5wKPI5 j ≤ ξl; jwKPI5$1wKPI5 j ≤ ξl ; jwKPI6$2wKPI5 j ≤ ξl;
+wKPI1 +wKPI2 +wKPI3 +wKPI4 +wKPI5 +wKPI6 = 1;
+
+
+wKPI1,wKPI2,wKPI3,wKPI4,wKPI5,wKPI6 ≥ 0:
+
+
+Similarly, the models for Expert 1 for sub-KPIs are established
+
+
+and presented below:
+
+
+For sub-KPIs of the management division
+
+
+min ξL
+
+
+subject to,
+
+
+jwKPI13$5wKPI11 j ≤ ξL; jwKPI13$3wKPI12 j ≤ ξL;
+jwKPI13$1wKPI13 j ≤ ξL; jwKPI13$6wKPI14 j ≤ ξL;
+jwKPI13$2wKPI15 j ≤ ξL; jwKPI11$2wKPI14 j ≤ ξL;
+jwKPI12$3wKPI14 j ≤ ξL; jwKPI13$6wKPI14 j ≤ ξL;
+jwKPI14$1wKPI14 j ≤ ξL; jwKPI15$5wKPI14 j ≤ ξL;
+wKPI11 +wKPI12 +wKPI13 +wKPI14 +wKPI15 = 1;
+
+
+wKPI11,wKPI12,wKPI13,wKPI14,wKPI15 ≥0:
+
+
+For sub-KPIs of the operations division
+
+
+min ξL
+
+
+subject to,
+
+
+jwKPI22$5wKPI21 j ≤ ξL; jwKPI22$1wKPI22 j ≤ ξL;
+jwKPI22$3wKPI23 j ≤ ξL; jwKPI22$2wKPI24 j ≤ ξL
+
+
+jwKPI22$4wKPI25 j ≤ ξL; jwKPI21$1wKPI21 j ≤ ξL;
+
+
+jwKPI22$5wKPI21 j ≤ ξL jwKPI23$3wKPI21 j ≤ ξL
+
+
+jwKPI24$4wKPI21 j ≤ ξL; jwKPI25$2wKPI21 j ≤ ξL;
+wKPI21 +wKPI22 +wKPI23 +wKPI24 +wKPI25 = 1;
+
+
+wKPI11,wKPI12,wKPI13,wKPI14,wKPI15 ≥0:
+
+
+TABLE 6 Best KPI over all other KPIs by Expert 1(E1)
+
+
+Best-to-others KPI1 KPI2 KPI3 KPI4 KPI5 KPI6
+
+
+Best KPI: KPI1 1 2 5 4 8 7
+
+
+Abbreviation: KPI, key performance indicator.
+
+
+TABLE 7 Best sub-KPI over all other sub-KPIs by Expert 1 (E1)
+
+
+Management (KPI1)
+
+
+Best-to-others sub-KPIs KPI11 KPI12 KPI13 KPI14 KPI15
+
+
+Best sub-KPI: KPI13 5 3 1 6 2
+
+
+Operations (KPI2) Best-to-others sub-KPIs KPI21 KPI22 KPI23 KPI24 KPI25
+
+
+Best KPI: KPI22 5 1 3 2 4
+
+
+Quality (KPI3) Best-to-others sub-KPIs KPI31 KPI32 KPI33 KPI34
+
+
+Best KPI: KPI34 2 4 5 1
+
+
+Economic (KPI4) Best-to-others sub-KPIs KPI41 KPI42 KPI43 KPI44 KPI45
+
+
+Best KPI: KPI42 3 1 2 5 7
+
+
+Social (KPI5) Best-to-others sub-KPIs KPI51 KPI52 KPI53 KPI54
+
+
+Best KPI: KPI54 3 2 4 1
+
+
+Environmental (KPI6) Best-to-others sub-KPIs KPI61 KPI62 KPI63 KPI64
+
+
+Best KPI: KPI61 1 3 7 5
+
+
+Abbreviation: KPI, key performance indicator.
+
+
+TABLE 8 Other KPIs over the worst KPI by Expert 1 (E1)
+
+
+Others-to-worst Worst KPI: KPI5
+
+
+KPI1 8
+
+
+KPI2 7
+
+
+KPI3 4
+
+
+KPI4 5
+
+
+KPI5 1
+
+
+KPI6 2
+
+
+Abbreviation: KPI, key performance indicator.
+
+
+MOKTADIR ET AL. 3341
+
+
+
+
+
+
+For sub-KPIs of the quality division
+
+
+min ξL
+
+
+subject to,
+
+
+jwKPI34$2wKPI31 j ≤ ξL; jwKPI34$4wKPI32 j ≤ ξL;
+jwKPI34$5wKPI33 j ≤ ξL; jwKPI34$1wKPI34 j ≤ ξL
+
+
+jwKPI31$4wKPI33 j ≤ ξL; jwKPI32$2wKPI33 j ≤ ξL;
+jwKPI33$1wKPI33 j ≤ ξL; jwKPI34$5wKPI33 j ≤ ξL
+
+
+wKPI31 +wKPI32 +wKPI33 +wKPI34 = 1;
+
+
+wKPI31,wKPI32,wKPI33,wKPI34 ≥ 0:
+
+
+For sub-KPIs of the economic division
+
+
+min ξL
+
+
+subject to,
+
+
+jwKPI42$3wKPI41 j ≤ ξL; jwKPI42$1wKPI42 j ≤ ξL;
+jwKPI42$2wKPI43 j ≤ ξL; jwKPI42$5wKPI44 j ≤ ξL
+
+
+jwKPI42$7wKPI45 j ≤ ξL; jwKPI41$3wKPI45 j ≤ ξL;
+jwKPI42$7wKPI45 j ≤ ξL; jwKPI43$5wKPI45 j ≤ ξL
+
+
+jwKPI44$2wKPI45 j ≤ ξL; jwKPI45$1wKPI45 j ≤ ξLwKPI41
++wKPI42 +wKPI43 +wKPI44 +wKPI45 = 1;
+
+
+wKPI41,wKPI42,wKPI43,wKPI44,wKPI45 ≥0:
+
+
+For sub-KPIs of the social division
+
+
+min ξL
+
+
+subject to,
+
+
+jwKPI54$3wKPI51 j ≤ ξL; jwKPI54$2wKPI52 j ≤ ξL;
+jwKPI54$4wKPI53 j ≤ ξL; jwKPI54$1wKPI54 j ≤ ξL
+
+
+jwKPI51$2wKPI53 j ≤ ξL; jwKPI52$3wKPI53 j ≤ ξL;
+jwKPI53$1wKPI53 j ≤ ξL; jwKPI54$5wKPI53 j ≤ ξL
+
+
+wKPI51 +wKPI52 +wKPI53 +wKPI54 = 1;
+
+
+wKPI51,wKPI52,wKPI53,wKPI54 ≥0:
+
+
+For sub-KPIs of the environmental division
+
+
+min ξL
+
+
+subject to,
+
+
+jwKPI61$1wKPI61 j ≤ ξL; jwKPI61$3wKPI62 j ≤ ξL;
+jwKPI61$7wKPI63 j ≤ ξL; jwKPI61$5wKPI64 j ≤ ξL
+
+
+jwKPI61$7wKPI63 j ≤ ξL; jwKPI62$5wKPI63 j ≤ ξL;
+jwKPI63$1wKPI63 j ≤ ξL; jwKPI64$3wKPI63 j ≤ ξL
+
+
+wKPI61 +wKPI62 +wKPI63 +wKPI64 = 1;
+
+
+wKPI61,wKPI62,wKPI63,wKPI64 ≥ 0:
+
+
+The above-mentioned linear programming models are solved in
+
+
+the Excel Solver. The optimal weights for the objective function, KPIs,
+
+
+and the sub-KPIs for Expert 1 were then computed and are presented
+
+
+inTable 10.
+
+
+Similarly, other models for KPIs and sub-KPIs were constructed
+
+
+for Expert's 2–7 (E2–E7), and the optimal weights were computed
+
+
+using Excel Solver. After that, the final average weight of each KPI
+
+
+and sub-KPI was computed by using a simple averaging technique
+
+
+(we used arithmetic mean). The average weights of KPIs and sub-KPIs
+
+
+and the global weights of sub-KPIs are presented below in Table 11.
+
+
+Multiplying the weight of the KPIs with their respective sub-KPIs, the
+
+
+global weights of sub-KPIs were computed.
+
+
+4.3 | Phase-3: Evaluation of the performance
+indexes of case companies
+
+
+In this phase, the performance index of case companies was calcu-
+
+
+lated with the assistance of expert's feedback from respective
+
+
+fields using the Equation 3. In this study, we adopted the following
+
+
+threshold values for marking the case companies to categorize their
+
+
+performances motivated from the previous study Elhuni and
+
+
+Ahmad (2017). The performance levels were categorized as
+
+
+follows:
+
+
+If the score belongs to 1 ≤ scores ≤3, then the company's perfor-
+
+
+mance level is poor.
+
+
+If the score belongs to 3 < scores ≤7, then the company's perfor-
+
+
+mance level is fair.
+
+
+If the score belongs to 7 < scores ≤9, then the company's perfor-
+
+
+mance level is good.
+
+
+If the score belongs to scores >9 then the company's perfor-
+
+
+mance level is excellent.
+
+
+Therefore, the data were collected again from the domain experts
+
+
+based on their working experiences providing the rating scale to rate
+
+
+the performance against each sub-KPI. A rating of 1 stands for the
+
+
+lowest performance, and 10 stands for an excellent performance. In
+
+
+this study, we evaluated the performance of four case companies
+
+
+based on the 27 listed sub-KPIs. The case companies were
+
+
+X1 stands for case Company 1.
+
+
+X4 stands for case Company 4.
+
+
+X5 stands for case Company 5.
+
+
+X7 stands for case Company 7.
+
+
+The ratings of each company against each sub-KPI are listed
+
+
+below in Table 12, which was constructed with the assistance of pre-
+
+
+viously purposively selected experts (E1, E4, E5, and E7) from the case
+
+
+companies (X1, X4, X5, and X7). In the performance evaluation, we
+
+
+have considered four case companies as they have high potentiality
+
+
+and decision makers are more experienced than others.
+
+
+For each of the case companies, the ratings for different sub-KPIs
+
+
+were multiplied by their respective global weights and then summed.
+
+
+The summation result provided the performance index of the respec-
+
+
+tive company.
+
+
+Using Equation 3 the global weights obtained from Table 11
+
+
+multiply with the performance rating presented below in Table 12,
+
+
+the performance index of company X1 was calculated as
+
+
+VX1 = 6.5330.
+
+
+Similarly, we determined the performance indexes of the rest of
+
+
+the companies.
+
+
+The performance index of X4 (VX4) is 6.6140.
+
+
+The performance index of X5 (VX5) is 7.5147.
+
+
+The performance index of X7 (VX7) is 4.5875.
+
+
+3342 MOKTADIR ET AL.
+
+
+
+
+
+
+5 | RESULTS AND DISCUSSIONS
+
+
+In this section, the results achieved from the BWM are discussed
+
+
+broadly with a practical point of view. Further, the performances of
+
+
+the case companies with respect to KPIs are discussed.
+
+
+5.1 | Discussions on KPIs ranking
+
+
+The findings of the study are reflected above in Table 11. In the initial
+
+
+stage of BWM analysis, “Management (KPI1)” received the highest
+
+
+weightage (0.3677), indicating its importance in achieving operational
+
+
+excellence in the leather products industry. Skilled management teams
+
+
+can help advance operational performance in the leather products
+
+
+industry. Also, in the leather products industry, the quality of the
+
+
+products as well as performances largely depends on skilled manage-
+
+
+ment (Lindberg et al., 2015). Therefore, management-related KPIs
+
+
+were prioritized the highest by the industry experts. When
+
+
+T
+A
+B
+L
+E
+9
+
+
+O
+th
+er
+
+
+su
+b
+-K
+
+
+P
+Is
+o
+ve
+
+
+r
+th
+e
+w
+o
+rs
+t
+su
+b
+-K
+
+
+P
+I
+b
+y
+E
+xp
+
+
+er
+t
+1
+
+
+M
+an
+
+
+ag
+em
+
+
+en
+t
+(K
+P
+I 1
+)
+
+
+O
+p
+er
+at
+io
+n
+s
+(K
+P
+I 2
+)
+
+
+Q
+u
+al
+it
+y
+(K
+P
+I 3
+)
+
+
+E
+co
+
+
+n
+o
+m
+ic
+(K
+P
+I 4
+)
+
+
+S
+o
+ci
+al
+
+
+(K
+P
+I 5
+)
+
+
+E
+n
+vi
+ro
+n
+m
+en
+
+
+ta
+l(
+K
+P
+I 6
+)
+
+
+O
+th
+er
+s-
+to
+-w
+
+
+o
+rs
+t
+
+
+W
+o
+rs
+t
+
+
+K
+P
+I:
+K
+P
+I 1
+4
+
+
+O
+th
+er
+s-
+to
+-w
+
+
+o
+rs
+t
+
+
+W
+o
+rs
+t
+
+
+K
+P
+I:
+K
+P
+I 2
+1
+
+
+O
+th
+er
+s-
+to
+-w
+
+
+o
+rs
+t
+
+
+W
+o
+rs
+t
+
+
+K
+P
+I:
+K
+P
+I 3
+3
+
+
+O
+th
+er
+s-
+to
+-w
+
+
+o
+rs
+t
+
+
+W
+o
+rs
+t
+
+
+K
+P
+I:
+K
+P
+I 4
+5
+
+
+O
+th
+er
+s-
+to
+-w
+
+
+o
+rs
+t
+
+
+W
+o
+rs
+t
+
+
+K
+P
+I:
+K
+P
+I 5
+3
+
+
+O
+th
+er
+s-
+to
+-w
+
+
+o
+rs
+t
+
+
+W
+o
+rs
+t
+
+
+K
+P
+I:
+K
+P
+I 6
+3
+
+
+K
+P
+I 1
+1
+
+
+2
+K
+P
+I 2
+1
+
+
+1
+K
+P
+I 3
+1
+
+
+4
+K
+P
+I 4
+1
+
+
+3
+K
+P
+I 5
+1
+
+
+2
+K
+P
+I 6
+1
+
+
+7
+
+
+K
+P
+I 1
+2
+
+
+3
+K
+P
+I 2
+2
+
+
+5
+K
+P
+I 3
+2
+
+
+2
+K
+P
+I 4
+2
+
+
+7
+K
+P
+I 5
+2
+
+
+3
+K
+P
+I 6
+2
+
+
+5
+
+
+K
+P
+I 1
+3
+
+
+6
+K
+P
+I 2
+3
+
+
+3
+K
+P
+I 3
+3
+
+
+1
+K
+P
+I 4
+3
+
+
+5
+K
+P
+I 5
+3
+
+
+1
+K
+P
+I 6
+3
+
+
+1
+
+
+K
+P
+I 1
+4
+
+
+1
+K
+P
+I 2
+4
+
+
+4
+
+
+K
+P
+I 3
+4
+
+
+5
+K
+P
+I 4
+4
+
+
+2
+
+
+K
+P
+I 5
+4
+
+
+4
+
+
+K
+P
+I 6
+4
+
+
+3
+
+
+K
+P
+I 1
+5
+
+
+5
+K
+P
+I 2
+5
+
+
+2
+K
+P
+I 4
+5
+
+
+1
+
+
+A
+b
+b
+re
+vi
+at
+io
+n
+:K
+
+
+P
+I,
+ke
+
+
+y
+p
+er
+fo
+rm
+
+
+an
+ce
+
+
+in
+d
+ic
+at
+o
+r.
+
+
+TABLE 10 Optimal weights of KPIs according to Expert 1
+
+
+KPI Weights ξL* Sub-KPIs Weights ξL*
+
+
+KPI1 0.4147 0.0829 KPI11 0.0984 0.0615
+
+
+KPI12 0.1639
+
+
+KPI13 0.4303
+
+
+KPI14 0.0615
+
+
+KPI15 0.2459
+
+
+KPI2 0.2488 KPI21 0.0717 0.0573
+
+
+KPI22 0.4158
+
+
+KPI23 0.1577
+
+
+KPI24 0.2366
+
+
+KPI25 0.1183
+
+
+KPI3 0.0995 KPI31 0.2796 0.0645
+
+
+KPI32 0.1398
+
+
+KPI33 0.0860
+
+
+KPI34 0.4946
+
+
+KPI4 0.1244 KPI41 0.1616 0.0428
+
+
+KPI42 0.4420
+
+
+KPI43 0.2424
+
+
+KPI44 0.0970
+
+
+KPI45 0.0570
+
+
+KPI5 0.0415 KPI51 0.1724 0.0517
+
+
+KPI52 0.2586
+
+
+KPI53 0.1034
+
+
+KPI54 0.4655
+
+
+KPI6 0.0711 KPI61 0.5718 0.1064
+
+
+KPI62 0.2261
+
+
+KPI63 0.0665
+
+
+KPI64 0.1356
+
+
+Abbreviation: KPI, key performance indicator.
+
+
+MOKTADIR ET AL. 3343
+
+
+
+
+
+
+
+
+
+
+management plays its role effectively, all the other KPIs remain under
+
+
+control and run accordingly (Ferreira, Shamsuzzoha, Toscano, &
+
+
+Cunha, 2012).
+
+
+In the category of “Management” related KPI, five sub-KPIs were
+
+
+analyzed for their influence on each KPI in the leather products indus-
+
+
+try. These five sub-KPIs were “time gap between buyer approach and
+
+
+order placement (KPI11),” “efficient inventory management facility
+
+
+(KPI12),” “skilled management facility of capacity utilization (KPI13),”
+
+
+“product marketing management facility (KPI14),” and “management
+
+
+facility of the production monitoring system (KPI15),” and they were
+
+
+ranked seventh, third, first, fourth, and second, respectively, in the
+
+
+final ranking. The results indicated that “skilled management facility of
+
+
+capacity utilization” was the crucial sub-KPI for achieving operational
+
+
+excellence in the leather products industry. Better utilization of
+
+
+resources in an organization emerges as a key performance indicator
+
+
+for the manufacturing industries (Bhatti et al., 2014). Hence, the sub-
+
+
+KPI “skilled management facility of capacity utilization” is a very
+
+
+crucial KPI for the leather products industry to improve operational
+
+
+performance. Next, under the category of management KPI, “manage-
+
+
+ment facility of production monitoring system” ranked second in the
+
+
+evaluation process, indicating that a well-established management
+
+
+facility of the production monitoring system can help to achieve a bet-
+
+
+ter performing production process. In the assessment, an “efficient
+
+
+inventory management facility” was ranked third. The effective man-
+
+
+agement of inventory systems is essential for enhancing business per-
+
+
+formance as inventory management frequently narrates a significant
+
+
+share of SCM costs and improves service levels (Yang, Pan, &
+
+
+Ballot, 2017). Therefore, a highly efficient leather products industry
+
+
+should have a good inventory management system. “Products market-
+
+
+ing management facility” was at the fourth position in the final KPI
+
+
+ranking, confirming its importance in attaining operational excellence.
+
+
+Lastly, the sub-KPI “time gap between buyer approach and order
+
+
+placement” ranked seventh. With most of the industries functioning
+
+
+on a just-in-time basis, there is less space for error in the delivery
+
+
+TABLE 11 Average overall weights of KPIs along with global weights and ranking
+
+
+KPI Weights Sub-KPIs Weights Global weight Rank
+
+
+Management (KPI1) 0.3677 KPI11: Time gap between buyer approach and order
+placement
+
+
+0.1408 0.05176 7
+
+
+KPI12: Efficient inventory management facility 0.1977 0.07269 3
+
+
+KPI13: Skilled management facility of capacity utilization 0.2561 0.09418 1
+
+
+KPI14: Products marketing management facility 0.1916 0.07044 4
+
+
+KPI15: Management facility of production monitoring system 0.2138 0.07861 2
+
+
+Operations (KPI2) 0.1880 KPI21: Product development accuracy (PD) 0.2576 0.04842 9
+
+
+KPI22: Scheduled production (order fulfillment cycle time) 0.2676 0.05031 8
+
+
+KPI23: Timely target completion 0.1989 0.03739 10
+
+
+KPI24: Accuracy in sewing operation 0.1485 0.02793 14
+
+
+KPI25: Timely machinery maintenance 0.1274 0.02396 20
+
+
+Quality (KPI3) 0.1337 KPI31: Customer satisfaction 0.4283 0.05726 6
+
+
+KPI32: Customer complaints rate 0.1710 0.02286 21
+
+
+KPI33: Lesser number of defective products 0.1302 0.01741 23
+
+
+KPI34: Total quality management facility (TQM) 0.2704 0.03615 11
+
+
+Economic (KPI4) 0.1683 KPI41: Penalty achievement rate 0.1494 0.02514 18
+
+
+KPI42: Return on investment (ROI) 0.3674 0.06183 5
+
+
+KPI43: Revenue growth rate 0.1508 0.02538 16
+
+
+KPI44: Net profit 0.1897 0.03193 13
+
+
+KPI45: Customer-based profitability 0.1428 0.02403 19
+
+
+Social (KPI5) 0.0669 KPI51: Staff advocacy rate (recommendation of staffs among
+others regarding working condition)
+
+
+0.1904 0.01273 24
+
+
+KPI52: Workers' safety 0.2965 0.01983 22
+
+
+KPI53: Maternal facility 0.1349 0.00902 26
+
+
+KPI54: Employee satisfaction 0.3782 0.02529 17
+
+
+Environmental (KPI6) 0.0755 KPI61: Solid waste management system 0.4287 0.03235 12
+
+
+KPI62: Environmental management system 0.3481 0.02626 15
+
+
+KPI63: Greenhouse gas emission rate 0.0914 0.00689 27
+
+
+KPI64: Emission to water and l and 0.1318 0.00994 25
+
+
+Abbreviation: KPI, key performance indicator.
+
+
+3344 MOKTADIR ET AL.
+
+
+
+
+
+
+process (Chan, Chung, & Wadhwa, 2004). Better time management
+
+
+with buyer approach and order placement may perform as important
+
+
+KPI for the leather products industry.
+
+
+The next highest-ranked KPI was “operations (KPI2)” with a
+
+
+weight of 0.1880. Thus, after attaining effective management, the
+
+
+next priority should be given to operations throughout a factory as
+
+
+the overall performance of an industry largely depends on the effi-
+
+
+cient operations of the production systems. Manufacturing firms often
+
+
+try to improve their operational efficiency for the overall improve-
+
+
+ment of the firms' performance (Badawy, El-Aziz, Idress, Hefny, &
+
+
+Hossam, 2016). In the leather products industry, many operations-
+
+
+related KPIs could be helped by better knowledge of the actual opera-
+
+
+tional performance. The operations KPI contains different sub-KPIs
+
+
+based on the running of the entire production floor. In this category,
+
+
+five sub-KPIs were assessed for their performance index. In the pri-
+
+
+mary analysis, “scheduled production (order fulfillment cycle time)”
+
+
+was in the eighth position of the BWM analysis. Scheduling is linked
+
+
+with decisions built when the production process is under operation,
+
+
+while planning is associated with decisions made before the
+
+
+production process initiates (Nakamura & Salvendy, 1994). In the
+
+
+leather products industry, scheduled production is an imperative sub-
+
+
+KPI for operational performance.
+
+
+Next, the sub-KPI “product development accuracy” came ninth in
+
+
+the final ranking. Product development has become a potential strategic
+
+
+activity in many industries as a new product creates an escalating signif-
+
+
+icant contribution to sales and profits (Koufteros, Vonderembse, &
+
+
+Jayaram, 2005). This indicates that accuracy in product development in
+
+
+the leather products industry is crucially important KPI. The sub-KPI
+
+
+“timely target completion” was ranked the tenth position in the global
+
+
+rank. Production achievement is measured in terms of attaining the
+
+
+objectives and fulfilling it on time (Haque et al., 2011). This KPI specifies
+
+
+that the timely completion of production with a target quantity could
+
+
+be an important factor for achieving operational excellence in the indus-
+
+
+try. The “accuracy in sewing operation” and “timely machinery mainte-
+
+
+nance” came 14th and 20th in the global ranking. It is important to have
+
+
+accuracy in sewing operations for the manufacturing of quality prod-
+
+
+ucts; otherwise, it can impact on the performance of the companies.
+
+
+Accordingly, robust machinery maintenance is urgently necessary for
+
+
+TABLE 12 Performance rating of case companies
+
+
+Experts
+Case
+companies
+
+
+Sub-KPIs code
+KPI11 KPI12 KPI13 KPI14 KPI15 KPI21 KPI22 KPI23
+
+
+Global weights (j)
+
+
+0.05176 0.07269 0.09418 0.07044 0.07861 0.04842 0.05031 0.03739
+
+
+E1 X1 Rating of case
+companies (i)
+
+
+5 8 7 6 6 9 9 9
+
+
+E4 X4 7 6 7 6 6 8 8 8
+
+
+E5 X5 7 6 9 7 8 7 7 9
+
+
+E7 X7 4 3 3 5 5 4 5 5
+
+
+Abbreviation: KPI, key performance indicator.
+
+
+TABLE 12 Continued
+
+
+Experts
+
+
+KPI24 KPI25 KPI31 KPI32 KPI33 KPI34 KPI41 KPI42 KPI43 KPI44
+
+
+Global weights (j)
+
+
+0.02793 0.02396 0.05726 0.02286 0.01741 0.03615 0.02514 0.06183 0.02538 0.03193
+
+
+E1 7 7 8 9 7 5 1 1 7 8
+
+
+E4 8 6 8 7 5 7 6 6 6 7
+
+
+E5 8 6 9 6 5 8 6 9 9 9
+
+
+E7 7 4 7 7 7 5 6 3 1 3
+
+
+TABLE 12 Continued
+
+
+Experts
+
+
+KPI45 KPI51 KPI52 KPI53 KPI54 KPI61 KPI62 KPI63 KPI64
+
+
+Performance
+index
+(Vi=
+
+
+Pn
+
+
+j=1
+w jpij)
+
+
+Global weights (j)
+
+
+0.02403 0.01273 0.01983 0.00902 0.02529 0.03235 0.02626 0.00689 0.00994
+
+
+E1 8 5 7 7 6 7 7 5 1 6.5330
+
+
+E4 7 5 7 7 5 5 6 3 5 6.6140
+
+
+E5 8 7 8 9 6 7 7 1 1 7.5147
+
+
+E7 5 5 6 6 6 7 5 2 1 4.5875
+
+
+Abbreviation: KPI, key performance indicator.
+
+
+MOKTADIR ET AL. 3345
+
+
+
+
+
+
+the leather goods manufacturing industry, which can regulate the main-
+
+
+tenance costs at the ground level and conserve the overall equipment
+
+
+effectiveness at the highest level (Tu, Yam, Tse, & Sun, 2001). For oper-
+
+
+ation, “scheduled production” is the most important KPI in the category
+
+
+of operations KPI, whereas timely machinery maintenance was ranked
+
+
+toward the bottom. However, it does not mean maintenance is not
+
+
+important because without machinery maintenance, production will be
+
+
+hampered. For operational excellence, both KPIs can contribute
+
+
+significantly.
+
+
+Next, the KPI “Economic” received the third position in the final
+
+
+ranking, carrying a weight of 0.1683. This KPI is naturally important
+
+
+for the leather products industry as operational excellence signifi-
+
+
+cantly depends on economic KPIs. In this category, five sub-KPIs were
+
+
+considered to guide the operational excellence of the leather products
+
+
+industry. The analysis revealed that the KPI “return on investment
+
+
+(ROI)” ranked highest in this category and received the fifth position
+
+
+in the final rank, whereas the sub-KPI “customer-based profitability”
+
+
+was ranked the lowest under this category and nineteenth in the final
+
+
+ranking. “Return on investment,” the main KPI under the economy
+
+
+heading, is achieved only when capacity is fully utilized with a lesser
+
+
+number of rejected outputs (Demydyuk, 2012). The KPI “net profit” is
+
+
+ultimately the main concern regarding profit and loss. But almost as
+
+
+important is revenue growth, which is only sustainable when a comp-
+
+
+any's motto is to grow with time. Customer-based profitability is an
+
+
+important sub-KPI as the services and products are sold by the organi-
+
+
+zations with scant knowledge, disturbing the customers who pur-
+
+
+chased the products earlier. A transformation from this product-
+
+
+centered to a customer-centered environment is visible in the current
+
+
+environment (Coussement & Van den Poel, 2008). Customer-based
+
+
+profit should probably be included within net profit as net profit plays
+
+
+an inherent part in the economic functioning of the organization
+
+
+(Elzahar, Hussainey, Mazzi, & Tsalavoutas, 2015). “Penalty achieve-
+
+
+ment rate” was rated a little lower because if the other KPIs are priori-
+
+
+tized, then penalties can generally be avoided.
+
+
+Next is the KPI “Quality” got the fourth position in the ranking and
+
+
+confirmed that without quality, a company's reputation is hindered in
+
+
+the market, ultimately affecting all the economic factors. Under the
+
+
+quality KPI, “customer satisfaction” is the leading KPI because the cus-
+
+
+tomers' standards guide the quality standard. In the present competitive
+
+
+business environment, customer satisfaction is a progressively signifi-
+
+
+cant element of an efficient organization (Fornell, Mithas, Morgeson, &
+
+
+Krishnan, 2006). In order to satisfy customers, a TQM facility should be
+
+
+maintained within the industry. TQM has become an essential manage-
+
+
+ment philosophy adopted for enhancing the quality and productivity of
+
+
+the organizations (Karia & Asaari, 2006). The KPI “Total Quality Man-
+
+
+agement (TQM) facility” was ranked 11th. Ensuring these KPIs adhere
+
+
+that would lead to lesser customer complaints. Therefore, the KPI “cus-
+
+
+tomer complaints rate” received less priority in the rank. Finally, this
+
+
+would result in a lesser number of rejected defective products. It would
+
+
+seem that quality-related KPIs are more significant for the performance
+
+
+improvement of a company.
+
+
+The environmental KPI was regarded slightly higher than the
+
+
+social KPI, but not by much. In many factories, they are major
+
+
+concerns because the surroundings must not be affected by the
+
+
+industry. Also, both environmental and social KPIs are key points for
+
+
+satisfying compliance. Thus, if all of the higher ranked KPIs run cor-
+
+
+rectly, the lower ones are automatically taken care of (Bean &
+
+
+Geraghty, 2003). Sustainability and sustainable implementation in
+
+
+businesses can be described as an amalgamation of environmental,
+
+
+social, and economic performance. Therefore, it becomes important
+
+
+for businesses to understand the KPIs to be employed to quantify the
+
+
+environmental, economic, and social aspects (Kocmanová &
+
+
+Dočekalová, 2014).
+
+
+Environmental and social KPIs are principle points of compliance
+
+
+for industry, and these days, compliance has become a vital issue
+
+
+(Rabhi, 2011). Although these KPIs might come lower down in regard
+
+
+to productivity improvement, they do affect the industry in the long
+
+
+run. In the leather products industry, solid waste is a serious concern.
+
+
+The leather products industry generates an enormous amount of solid
+
+
+wastes far exceeding the quantum of finished goods. It must be dis-
+
+
+posed of properly so as not to affect the surrounding environment. A
+
+
+major focus of any “environmental management system” is the proper
+
+
+management of solid waste. While being ranked the lowest, social
+
+
+KPIs are still a vital issue. The most significant sub-KPI of social KPI is
+
+
+“employee satisfaction.” Employee satisfaction refers to a person's
+
+
+evaluation of the overall quality of his current mission (Jung &
+
+
+Yoon, 2015). Employees who are convinced that their jobs are closely
+
+
+related to improved profit margins and enhanced productivity (Al-
+
+
+Refaie, 2015).
+
+
+Further, satisfied employees dedicate their full potential for the
+
+
+sake of the company. Workers' safety is also important to keep
+
+
+employees protected from any adverse effects of the industry. Pro-
+
+
+moting worthy occupational safety practices to workers in the leather
+
+
+products industry results in various advantages, such as enhance-
+
+
+ments in productivity, lower costs, and increases in organizational
+
+
+capability (Tafere, Beyera, & Wami, 2019). When both the above KPIs
+
+
+are managed effectively, “staff advocacy rate” automatically increases.
+
+
+Lastly, “maternal facility” does not need any separate priority because
+
+
+it would be managed under “workers' safety” and “employee satisfac-
+
+
+tion” (Shamsaei, Pourshahid, & Amyot, 2010).
+
+
+5.2 | Discussions on the performance index of case
+companies
+
+
+After the assessment of KPIs, we performed some case investigations
+
+
+for four leather products companies, using the identified KPIs. This
+
+
+analysis revealed that the case company “X5” had the highest perfor-
+
+
+mance score of 7.5147, being within the index value rated “good per-
+
+
+formance level.” Next, the performance of case companies X1 and X3
+were valued as “fair performance level” with performance indexes of
+
+
+6.5330 and 6.6140, respectively. Although companies X1 and X3 have
+
+
+gone through some ups and downs in recent times, they focused on
+
+
+achieving a perfect industrial environment throughout the premises,
+
+
+which further boosted their performance in a short time, even quicker
+
+
+than X5. Lastly, company X7 received the lowest performance index of
+
+
+3346 MOKTADIR ET AL.
+
+
+
+
+
+
+4.5875. Being a small and young company, it struggles to keep its
+
+
+head within the competition. However, they work hard to build their
+
+
+foundation, offering both local and export orders to progress their
+
+
+commitment to quality gradually.
+
+
+6 | CONCLUSIONS, IMPLICATIONS,
+RECOMMENDATIONS AND FUTURE SCOPE
+
+
+Business organizations are finding it difficult to accomplish opera-
+
+
+tional excellence within their supply chains. However, manufacturing
+
+
+firms in the emerging economies context are trying to achieve opera-
+
+
+tional excellence by being sustainable in the world market. Therefore,
+
+
+only recent business trends reflect the performance of organizations
+
+
+in attaining operational excellence in manufacturing firms. To assist
+
+
+manufacturing firms in achieving operational excellence, they must
+
+
+develop a framework. In this study, such a framework for assessing
+
+
+operational excellence in the leather products industry was proposed
+
+
+using a BWM. A list of 27 KPIs were identified from a literature sur-
+
+
+vey and using feedback of expert's from the case companies. Finally,
+
+
+an assessment model was developed using BWM to assess the indi-
+
+
+vidual KPIs and investigate their performance indexes, which helped
+
+
+further to comprehend the current functioning of these case compa-
+
+
+nies. The findings revealed that “Management” KPI received the
+
+
+highest priority, followed by operations, economic, quality, environ-
+
+
+mental, and social. When management is strong and disciplined, every
+
+
+other aspect remains under control. To advance the operational excel-
+
+
+lence of the leather products industry, management must play the key
+
+
+role for full capacity utilization, with complete accuracy in product
+
+
+development, satisfying customers by giving them what they need,
+
+
+keeping in mind what returns are achieved for the investments made,
+
+
+ensuring an effective waste management system, and always prioritiz-
+
+
+ing employees' needs and satisfaction (Lindberg et al., 2015).
+
+
+The analysis also revealed the following priority order of KPIs:
+
+
+skilled management facility of capacity utilization > management facil-
+
+
+ity of production monitoring system > efficient inventory manage-
+
+
+ment system facility > product marketing management
+
+
+facility > return on investment (ROI) > customer satisfaction > time
+
+
+gap between buyer approach and order placement > scheduled pro-
+
+
+duction (order fulfillment cycle time).
+
+
+Further, in this study, we examined the case companies' opera-
+
+
+tional performance to develop a policy for sustainable development of
+
+
+the leather products industry. The following implications may assist
+
+
+the leather products industry in advancing their operational
+
+
+performance:
+
+
+a. Maximize capacity utilization through skilled management team: For
+
+
+operational excellence, manufacturing firms need a skilled manage-
+
+
+ment team to use the capacity to its highest level. Proper utiliza-
+
+
+tion of resources can help achieve the sustainability of supply
+
+
+chains as well as profit maximization. Therefore, leather products
+
+
+manufacturing firms need to develop proper facilities or program-
+
+
+mable tools to maximize the utilization of resources.
+
+
+b. Proper management facility of production monitoring system: Indus-
+
+
+try decision makers need to think about the production monitoring
+
+
+system for achieving operational excellence. There is no reliable
+
+
+mechanism available to allow continuous monitoring of all process
+
+
+conditions and quality of leather products (i.e., leather bags, wallet,
+
+
+jacket, and ladies' purse) manufacturing (Guţ{t\hskip-0.7ex\char
+
+
+"B8}"a & Dumitrache, 2015). A robust IT framework can assist
+
+
+leather products industry to monitor their real-time production.
+
+
+Therefore, decision makers and the IT department need to work
+
+
+together to develop better production monitoring systems that
+
+
+could enhance the performance of the Bangladeshi leather prod-
+
+
+ucts industry.
+
+
+c. Develop efficient inventory management system: Real-time monitor-
+
+
+ing systems must be developed for efficient inventory manage-
+
+
+ment in order to achieve a good performance score, indicating
+
+
+operational excellence for their production systems. Therefore,
+
+
+managers of the leather products industry must need to develop a
+
+
+better inventory management system considering various types of
+
+
+inventory control models like production order quantity, economic
+
+
+order quantity, and probabilistic models.
+
+
+d. Strong product marketing management facility: A strong marketing
+
+
+management facility can help to achieve the goals of the supply
+
+
+chain. Hence, decision makers should pay excess attention to
+
+
+product marketing management facilities to enhance the perfor-
+
+
+mance of the leather products industry. Therefore, they may
+
+
+develop some business strategies to enhance the performance of
+
+
+the industry.
+
+
+e. Maximize the return on investment (ROI): Both profit margins and
+
+
+better quality are important issues for operational excellence and
+
+
+sustainability of the leather products industry. Decision makers
+
+
+should establish well-structured supply chain networks for maxi-
+
+
+mizing the ROI.
+
+
+f. Better customer satisfaction: Customer satisfaction is an essential
+
+
+element to success for business organizations. Without considering
+
+
+quality products, a leather product manufacturing firm cannot
+
+
+achieve operational excellence. Therefore, better customer satis-
+
+
+faction can help the leather products industry by providing quality
+
+
+products to the end consumers.
+
+
+This study provides a pathway to use KPIs to attain operational
+
+
+excellence in the manufacturing industry, but mainly for the leather
+
+
+products industry. However, this study does have some limitations. It
+
+
+did not consider the supply chain 4.0 aspects, a key tool for achieving
+
+
+operational excellence in the industry. In the future, an interrogation
+
+
+of KPIs and supply chain 4.0 could be assessed with statistical valida-
+
+
+tion. Further, an integrated dynamic tool could be established to
+
+
+assess the KPIs and the performance indexes of industry supply
+
+
+chains. The present study could be improved by including more KPIs
+
+
+by organizing a large-scale survey of manufacturing industries.
+
+
+ORCID
+
+
+Md. Abdul Moktadir https://orcid.org/0000-0003-1852-7815
+
+
+Charbel Jose Chiappetta Jabbour https://orcid.org/0000-0001-
+
+
+MOKTADIR ET AL. 3347
+
+
+
+https://orcid.org/0000-0003-1852-7815
+
+
+
+
+
+
+
+
+
+https://orcid.org/0000-0003-1852-7815
+
+https://orcid.org/0000-0001-5963-3556
+
+https://orcid.org/0000-0001-5963-3556
+
+
+
+
+5963-3556
+
+
+Sanjoy Kumar Paul https://orcid.org/0000-0001-9523-179X
+
+
+REFERENCES
+
+
+Addis, S., Dvivedi, A., & Beshah, B. (2017). Identifying and prioritising oper-
+ational performance indicators of the Ethiopian leather industry. Inter-
+national Journal of Productivity and Quality Management, 22(3),
+378–394. https://doi.org/10.1504/IJPQM.2017.087305
+
+
+Agrawal, S., & Singh, R. K. (2019). Analyzing disposition decisions for sus-
+tainable reverse logistics: Triple Bottom Line approach. Resources, Con-
+servation and Recycling, 150, 104448. https://doi.org/10.1016/j.
+resconrec.2019.104448
+
+
+Ahmed, A., & Nuland, Y. V. (2017). The role of strategy in the operational
+excellence journey. QUALITY WEB EXCLUSIVE, https://www.
+qualitymag.com/articles/94185-the-role-of-strategy-in-the-
+operational-excellence-journey. Access Date: 24 May 2020.
+
+
+Al-Refaie, A. (2015). Effects of human resource management on hotel per-
+formance using structural equation modeling. Computers in Human
+Behavior, 43, 293–303. https://doi.org/10.1016/j.chb.2014.11.016
+
+
+Amaladhasan, S., Parthiban, P., & Dhanalakshmi, R. (2019). Green supply
+chain performance evaluation model for automotive manufacturing
+industries by using eco-balanced scorecard. International Journal of Ser-
+vices and Operations Management, 33(4), 442–467. https://doi.org/10.
+1504/IJSOM.2019.101579
+
+
+Amrina, E., & Yusof, S. M. (2011). Key performance indicators for sustain-
+able manufacturing evaluation in automotive companies. In 2011 IEEE
+international conference on industrial engineering and engineering
+management,1093–1097.
+
+
+Badawy, M., El-Aziz, A. A., Idress, A. M., Hefny, H., & Hossam, S. (2016). A
+survey on exploring key performance indicators. Future Computing and
+Informatics Journal, 1(1–2), 47–52. https://doi.org/10.1016/j.fcij.2016.
+04.001
+
+
+Anggradewi, P., Aurelia, Sardjananto, S., & Ekawati, A. D. (2019). Improving
+quality in service management through critical key performance indi-
+cators in maintenance process: A systematic literature review. Quality
+– Access to Success, 20(173), 72–79.
+
+
+Bag, S., Wood, L. C., Xu, L., Dhamija, P., & Kayikci, Y. (2020). Big data ana-
+lytics as an operational excellence approach to enhance sustainable
+supply chain performance. Resources, Conservation and Recycling, 153,
+104559. https://doi.org/10.1016/j.resconrec.2019.104559
+
+
+Bag, S., Wood, L. C., Mangla, S. K., & Luthra, S. (2020). Procurement 4.0
+and its implications on business process performance in a circular
+economy. Resources, Conservation and Recycling, 152, 104502.
+
+
+Bartolacci, F., Caputo, A., & Soverchia, M. (2019). Sustainability and finan-
+cial performance of small and medium sized enterprises: A bibliometric
+and systematic literature review. Business Strategy and the Environ-
+ment, 29(3), 1297–1309.
+
+
+Baumgartner, R. J., & Ebner, D. (2010). Corporate sustainability strategies:
+Sustainability profiles and maturity levels. Sustainable Development, 18
+(2), 76–89. https://doi.org/10.1002/sd.447
+
+
+Bean, C., & Geraghty, K. (2003). Navigating the road to KPI success. Logis-
+tics and Transport Focus, 5(6), 37–41.
+
+
+Bendavid, Y., Lefebvre, E., Lefebvre, L. A., & Fosso-Wamba, S. (2009). Key
+performance indicators for the evaluation of RFID-enabled B-to-B e-
+commerce applications: the case of a five-layer supply chain. Informa-
+tion Systems and e-Business Management, 7(1), 1–20. https://doi.org/
+10.1007/s10257-008-0092-2
+
+
+Bhatti, M. I., Awan, H. M., & Razaq, Z. (2014). The key performance indica-
+tors (KPIs) and their impact on overall organizational performance.
+Quality & Quantity, 48(6), 3127–3143. https://doi.org/10.1007/
+s11135-013-9945-y
+
+
+Boakye, D. J., TIngbani, I., Ahinful, G., Damoah, I., & Tauringana, V. (2020).
+Sustainable environmental practices and financial performance: Evi-
+dence from listed small and medium-sized enterprise in the United
+
+
+Kingdom. Business Strategy and the Environment, 1–20. https://doi.
+org/10.1002/bse.2522
+
+
+Centobelli, P., Cerchione, R., & Ertz, M. (2020). Managing supply chain
+resilience to pursue business and environmental strategies. Business
+Strategy and the Environment, 29(3), 1215–1246.
+
+
+Chakraborty, S., Sharma, A., & Vaidya, O. S. (2020). Achieving sustainable
+operational excellence through IT implementation in Indian logistics
+sector: An analysis of barriers. Resources, Conservation and Recycling,
+152, 104506. https://doi.org/10.1016/j.resconrec.2019.104506
+
+
+Chowdhury, P., & Paul, S.K. (2020). Applications of MCDM methods in
+research on corporate sustainability: A systematic literature review.
+Management of Environmental Quality, 31(2), 385–405. https://doi.
+org/10.1108/MEQ-12-2019-0284
+
+
+Chan, F. T. S., Chung, S. H., & Wadhwa, S. (2004). A heuristic methodology
+for order distribution in a demand driven collaborative supply chain.
+International Journal of Production Research, 42(1), 1–19. https://doi.
+org/10.1080/0020754031000103293
+
+
+Coussement, K., & Van den Poel, D. (2008). Integrating the voice of
+customersthrough call center emails into a decision support system for
+churn prediction. Information & Management, 45, 164–174. https://
+doi.org/10.1016/j.im.2008.01.005
+
+
+Dahlmann, F., & Roehrich, J. K. (2019). Sustainable supply chain manage-
+ment and partner engagement to manage climate change information.
+Business Strategy and the Environment, 28(8), 1632–1647. https://doi.
+org/10.1002/bse.2392
+
+
+de Sousa Jabbour, A. B. L., de Oliveira Frascareli, F. C., &
+Jabbour, C. J. C. (2015). Green supply chain management and firms'
+performance: Understanding potential relationships and the role of
+green sourcing and some other green practices. Resources, Conserva-
+tion and Recycling, 104, 366–374. https://doi.org/10.1016/j.
+resconrec.2015.07.017
+
+
+Demydyuk, G. (2012). Optimal financial key performance indicators: evi-
+dence from the airline industry. Accounting & Taxation, 3(2), 39–51.
+
+
+Dev, N. K., Shankar, R., & Qaiser, F. H. (2020). Industry 4.0 and circular
+economy: Operational excellence for sustainable reverse supply chain
+performance. Resources. Conservation and Recycling, 153, 104583.
+
+
+Dwivedi, A., Agrawal, D., & Madaan, J. (2019). Sustainable manufacturing
+evaluation model focusing leather industries in India. Journal of Science
+and Technology Policy Management, 10(2), 319–359. https://doi.org/
+10.1108/JSTPM-06-2018-0054
+
+
+Elhuni, R. M., & Ahmad, M. M. (2017). Key performance indicators for sus-
+tainable production evaluation in oil and gas sector. Procedia
+Manufacturing., 11, 718–724. https://doi.org/10.1016/j.promfg.2017.
+07.172
+
+
+Elzahar, H., Hussainey, K., Mazzi, F., & Tsalavoutas, I. (2015). Economic
+consequences of key performance indicators' disclosure quality. Inter-
+national Review of Financial Analysis, 39, 96–112. https://doi.org/10.
+1016/j.irfa.2015.03.005
+
+
+Feiz, R., Johansson, M., Lindkvist, E., Moestedt, J., Påledal, S. N., &
+Svensson, N. (2020). Key performance indicators for biogas
+production—Methodological insights on the life-cycle analysis of bio-
+gas production from source-separated food waste. Energy, 200,
+117462. https://doi.org/10.1016/j.energy.2020.117462
+
+
+Fernandes, K. J., Raja, V., & Whalley, A. (2006). Lessons from implementing
+the balanced scorecard in a small and medium size manufacturing
+organization. Technovation, 26(5–6), 623–634. https://doi.org/10.
+1016/j.technovation.2005.03.006
+
+
+Ferreira, P. S., Shamsuzzoha, A. H. M., Toscano, C., & Cunha, P. (2012).
+Framework for performance measurement and management in a col-
+laborative business environment. International Journal of Productivity
+and Performance Management, 61(6), 672–690. https://doi.org/10.
+1108/17410401211249210
+
+
+Fok-Yew, O., & Ahmad, H. (2014). Management of change and operational
+excellence in the electrical and electronics industry. International
+Review of Management and Business Research, 3(2), 723–739.
+
+
+3348 MOKTADIR ET AL.
+
+
+
+https://orcid.org/0000-0001-5963-3556
+
+https://orcid.org/0000-0001-9523-179X
+
+https://orcid.org/0000-0001-9523-179X
+
+https://doi.org/10.1504/IJPQM.2017.087305
+
+https://doi.org/10.1016/j.resconrec.2019.104448
+
+https://doi.org/10.1016/j.resconrec.2019.104448
+
+https://www.qualitymag.com/articles/94185-the-role-of-strategy-in-the-operational-excellence-journey
+
+https://www.qualitymag.com/articles/94185-the-role-of-strategy-in-the-operational-excellence-journey
+
+https://www.qualitymag.com/articles/94185-the-role-of-strategy-in-the-operational-excellence-journey
+
+https://doi.org/10.1016/j.chb.2014.11.016
+
+https://doi.org/10.1504/IJSOM.2019.101579
+
+https://doi.org/10.1504/IJSOM.2019.101579
+
+https://doi.org/10.1016/j.fcij.2016.04.001
+
+https://doi.org/10.1016/j.fcij.2016.04.001
+
+https://doi.org/10.1016/j.resconrec.2019.104559
+
+https://doi.org/10.1002/sd.447
+
+https://doi.org/10.1007/s10257-008-0092-2
+
+https://doi.org/10.1007/s10257-008-0092-2
+
+https://doi.org/10.1007/s11135-013-9945-y
+
+https://doi.org/10.1007/s11135-013-9945-y
+
+https://doi.org/10.1002/bse.2522
+
+https://doi.org/10.1002/bse.2522
+
+https://doi.org/10.1016/j.resconrec.2019.104506
+
+https://doi.org/10.1108/MEQ-12-2019-0284
+
+https://doi.org/10.1108/MEQ-12-2019-0284
+
+https://doi.org/10.1080/0020754031000103293
+
+https://doi.org/10.1080/0020754031000103293
+
+https://doi.org/10.1016/j.im.2008.01.005
+
+https://doi.org/10.1016/j.im.2008.01.005
+
+https://doi.org/10.1002/bse.2392
+
+https://doi.org/10.1002/bse.2392
+
+https://doi.org/10.1016/j.resconrec.2015.07.017
+
+https://doi.org/10.1016/j.resconrec.2015.07.017
+
+https://doi.org/10.1108/JSTPM-06-2018-0054
+
+https://doi.org/10.1108/JSTPM-06-2018-0054
+
+https://doi.org/10.1016/j.promfg.2017.07.172
+
+https://doi.org/10.1016/j.promfg.2017.07.172
+
+https://doi.org/10.1016/j.irfa.2015.03.005
+
+https://doi.org/10.1016/j.irfa.2015.03.005
+
+https://doi.org/10.1016/j.energy.2020.117462
+
+https://doi.org/10.1016/j.technovation.2005.03.006
+
+https://doi.org/10.1016/j.technovation.2005.03.006
+
+https://doi.org/10.1108/17410401211249210
+
+https://doi.org/10.1108/17410401211249210
+
+
+
+
+Fornell, C., Mithas, S., Morgeson, F. V., & Krishnan, M. S. (2006). Customer
+satisfaction and stock prices: High returns, low risk. Journal of Market-
+ing, 70, 3–14. https://doi.org/10.1509/jmkg.2006.70.1.3
+
+
+Friedli, T., Goetzfried, M., & Basu, P. (2010). Analysis of the Implementa-
+tion of Total Productive Maintenance, Total Quality Management, and
+Just-In-Time in Pharmaceutical Manufacturing. Journal of Pharmaceuti-
+cal Innovation, 5(4), 181–192. https://doi.org/10.1007/s12247-010-
+9095-x
+
+
+Gai, H., Beath, J., Fang, J., & Lou, H. H. (2020). Alternative emission moni-
+toring technologies and industrial internet of things-based process
+monitoring technologies for achieving operational excellence. Current
+Opinion in Green and Sustainable Chemistry, 23, 31–37. https://doi.org/
+10.1016/j.cogsc.2020.04.009
+
+
+Gimenez, C., Sierra, V., & Rodon, J. (2012). Sustainable operations: Their
+impact on the triple bottom line. International Journal of Production
+Economics, 140(1), 149–159. https://doi.org/10.1016/j.ijpe.2012.
+01.035
+
+
+Gunasekaran, A., Patel, C., & McGaughey, R. E. (2004). A framework for
+supply chain performance measurement. International Journal of Pro-
+duction Economics, 87(3), 333–347. https://doi.org/10.1016/j.ijpe.
+2003.08.003
+
+
+Gupta, P., Anand, S., & Gupta, H. (2017). Developing a roadmap to over-
+come barriers to energy efficiency in buildings using best worst
+method. Sustainable Cities and Society, 31, 244–259. https://doi.org/
+10.1016/j.scs.2017.02.005
+
+
+Guţ{t\hskip-0.7ex\char "B8}"a, S. A., & Dumitrache, I. (2015). A multi-agent
+approach for leather processing monitoring and quality control. U.P.B.
+Scientific Bulletin., Series C., 77(3), 17–30.
+
+
+Haque, K. M. A., Hossain, M. M., Hossain, M. S. J., Islam, M. A., Hassan, M.,
+Shamshuzzaman, M., & Hossain, M. D. (2011). Performance evaluation
+of Bangladeshi apparel and textile supply chain network, a case study.
+Performance Evaluation, 1(1), 211–218.
+
+
+Hasan, M., Javed, M. Y., & Farooq, A. (2020). Exploring the strategic intent
+of Tamil Nadu leather industry through content analysis and AHP.
+Journal of Discrete Mathematical Sciences and Cryptography, 23(1),
+263–271. https://doi.org/10.1080/09720529.2020.1721889
+
+
+Heckl, D., Moormann, J., & Rosemann, M. (2010). Uptake and success fac-
+tors of Six Sigma in the financial services industry. Business Process
+Management Journal, 16(3), 436–472. https://doi.org/10.1108/
+14637151011049449
+
+
+Hoque, A., & Clarke, A. (2013). Greening of industries in Bangladesh: pollu-
+tion prevention practices. Journal of Cleaner Production, 51, 47–56.
+https://doi.org/10.1016/j.jclepro.2012.09.008
+
+
+Horta, I. M., Camanho, A. S., & Da Costa, J. M. (2010). Performance assess-
+ment of construction companies integrating key performance indica-
+tors and data envelopment analysis. Journal of Construction Engineering
+and Management, 136(5), 581–594. https://doi.org/10.1061/(ASCE)
+CO.1943-7862.0000145
+
+
+Jung, H. S., & Yoon, H. H. (2015). The impact of employees' positive psy-
+chological capital on job satisfaction and organizational citizenship
+behaviors in the hotel. International Journal of Contemporary Hospitality
+Management, 27, 1135–1156. https://doi.org/10.1108/IJCHM-01-
+2014-0019
+
+
+Kaganski, S., Majak, J., & Karjust, K. (2018). Fuzzy AHP as a tool for priori-
+tization of key performance indicators. Procedia CIRP, 72, 1227–1232.
+https://doi.org/10.1016/j.procir.2018.03.097
+
+
+Kailash, Saha, R. K., & Goyal, S. (2019). Benchmarking model to analyse
+ISCM performance of selected Indian manufacturing industries using
+fuzzy AHP technique. International Journal of Industrial and Systems
+Engineering, 33(1), 1–16. https://doi.org/10.1504/IJISE.2019.102038
+
+
+Karia, N., & Asaari, M. H. A. H. (2006). The effects of total quality manage-
+ment practices on employees' work-related attitudes. The TQM Maga-
+zine, 18(1), 30–43. https://doi.org/10.1108/09544780610637677
+
+
+Kazancoglu, Y., Sagnak, M., Kayikci, Y., & Kumar Mangla, S. (2020). Opera-
+tional excellence in a green supply chain for environmental
+
+
+management: A case study. Business Strategy and the Environment, 29
+(3), 1532–1547. https://doi.org/10.1002/bse.2451
+
+
+Kocmanová, A., & Dočekalová, M. (2014). Corporate sustainability: Envi-
+ronmental, social, economic and corporate performance. Acta
+Universitatis Agriculturae et Silviculturae Mendelianae Brunensis, 59(7),
+203–208.
+
+
+Koufteros, X., Vonderembse, M., & Jayaram, J. (2005). Internal and exter-
+nal integration for product development: The contingency effects of
+uncertainty, equivocality, and platform strategy. Decision Sciences, 36
+(1), 97–133. https://doi.org/10.1111/j.1540-5915.2005.00067.x
+
+
+Kourkoumpas, D. S., Benekos, G., Nikolopoulos, N., Karellas, S.,
+Grammelis, P., & Kakaras, E. (2018). A review of key environmental
+and energy performance indicators for the case of renewable energy
+systems when integrated with storage solutions. Applied Energy, 231,
+380–398. https://doi.org/10.1016/j.apenergy.2018.09.043
+
+
+Kylili, A., Fokaides, P. A., & Jimenez, P. A. L. (2016). Key performance indi-
+cators (KPIs) approach in buildings renovation for the sustainability of
+the built environment: A review. Renewable and Sustainable Energy
+Reviews, 56, 906–915. https://doi.org/10.1016/j.rser.2015.11.096
+
+
+Li, H., Hong, T., Lee, S. H., & Sofos, M. (2020). System-level key perfor-
+mance indicators for building performance evaluation. Energy Building,
+209, 109703.
+
+
+Lindberg, C. F., Tan, S., Yan, J., & Starfelt, F. (2015). Key performance indi-
+cators improve industrial performance. Energy Procedia, 75,
+1785–1790. https://doi.org/10.1016/j.egypro.2015.07.474
+
+
+Luthra, S., Govindan, K., Kannan, D., Mangla, S. K., & Garg, C. P. (2017). An
+integrated framework for sustainable supplier selection and evaluation
+in supply chains. Journal of Cleaner Production, 140, 1686–1698.
+https://doi.org/10.1016/j.jclepro.2016.09.078
+
+
+Malek, J., & Desai, T. N. (2019). Prioritization of sustainable manufacturing
+barriers using best worst method. Journal of Cleaner Production, 226,
+589–600. https://doi.org/10.1016/j.jclepro.2019.04.056
+
+
+Mangla, S. K., Kusi-Sarpong, S., Luthra, S., Bai, C., Jakhar, S. K., &
+Khan, S. A. (2019). Operational excellence for improving sustainable
+supply chain performance. Resources, Conservation and Recycling, 142,
+277–278.
+
+
+Mani, V., & Gunasekaran, A. (2018). Four forces of supply chain social sus-
+tainability adoption in emerging economies. International Journal of
+Production Economics, 199, 150–161. https://doi.org/10.1016/j.ijpe.
+2018.02.015
+
+
+Mi, X., Tang, M., Liao, H., Shen, W., & Lev, B. (2019). The state-of-the-art
+survey on integrations and applications of the best worst method in
+decision making: Why, what, what for and what's next? Omega (United
+Kingdom)., 87, 205–225.
+
+
+Mitchell, J. S. (2015). Operational excellence: Journey to creating sustainable
+value. John Wiley & Sons. ISBN: 978-1-118-61801-1.
+
+
+Moktadir, A., Rahman, T., Jabbour, C. J. C., Ali, S. M., & Kabir, G. (2018).
+Prioritization of drivers of corporate social responsibility in the foot-
+wear industry in an emerging economy: A fuzzy AHP approach. Journal
+of Cleaner Production, 201, 369–381. https://doi.org/10.1016/j.
+jclepro.2018.07.326
+
+
+Moktadir, M. A., Rahman, T., Rahman, M. H., Ali, S. M., & Paul, S. K. (2018).
+Drivers to sustainable manufacturing practices and circular economy:
+A perspective of leather industries in Bangladesh. Journal of Cleaner
+Production, 174, 1366–1380. https://doi.org/10.1016/j.jclepro.2017.
+11.063
+
+
+Moktadir, M. A., Ahmadi, H. B., Sultana, R., Liou, J. J., & Rezaei, J. (2020).
+Circular economy practices in the leather industry: A practical step
+towards sustainable development. Journal of Cleaner Production, 251,
+119737. https://doi.org/10.1016/j.jclepro.2019.119737
+
+
+Moktadir, M. A., Ali, S. M., Jabbour, C. J. C., Paul, A., Ahmed, S.,
+Sultana, R., & Rahman, T. (2019). Key factors for energy-efficient
+supply chains: Implications for energy policy in emerging econo-
+mies. Energy, 189, 116129. https://doi.org/10.1016/j.energy.2019.
+116129
+
+
+MOKTADIR ET AL. 3349
+
+
+
+https://doi.org/10.1509/jmkg.2006.70.1.3
+
+https://doi.org/10.1007/s12247-010-9095-x
+
+https://doi.org/10.1007/s12247-010-9095-x
+
+https://doi.org/10.1016/j.cogsc.2020.04.009
+
+https://doi.org/10.1016/j.cogsc.2020.04.009
+
+https://doi.org/10.1016/j.ijpe.2012.01.035
+
+https://doi.org/10.1016/j.ijpe.2012.01.035
+
+https://doi.org/10.1016/j.ijpe.2003.08.003
+
+https://doi.org/10.1016/j.ijpe.2003.08.003
+
+https://doi.org/10.1016/j.scs.2017.02.005
+
+https://doi.org/10.1016/j.scs.2017.02.005
+
+https://doi.org/10.1080/09720529.2020.1721889
+
+https://doi.org/10.1108/14637151011049449
+
+https://doi.org/10.1108/14637151011049449
+
+https://doi.org/10.1016/j.jclepro.2012.09.008
+
+https://doi.org/10.1061/(ASCE)CO.1943-7862.0000145
+
+https://doi.org/10.1061/(ASCE)CO.1943-7862.0000145
+
+https://doi.org/10.1108/IJCHM-01-2014-0019
+
+https://doi.org/10.1108/IJCHM-01-2014-0019
+
+https://doi.org/10.1016/j.procir.2018.03.097
+
+https://doi.org/10.1504/IJISE.2019.102038
+
+https://doi.org/10.1108/09544780610637677
+
+https://doi.org/10.1002/bse.2451
+
+https://doi.org/10.1111/j.1540-5915.2005.00067.x
+
+https://doi.org/10.1016/j.apenergy.2018.09.043
+
+https://doi.org/10.1016/j.rser.2015.11.096
+
+https://doi.org/10.1016/j.egypro.2015.07.474
+
+https://doi.org/10.1016/j.jclepro.2016.09.078
+
+https://doi.org/10.1016/j.jclepro.2019.04.056
+
+https://doi.org/10.1016/j.ijpe.2018.02.015
+
+https://doi.org/10.1016/j.ijpe.2018.02.015
+
+info:x-wiley/isbn/9781118618011
+
+https://doi.org/10.1016/j.jclepro.2018.07.326
+
+https://doi.org/10.1016/j.jclepro.2018.07.326
+
+https://doi.org/10.1016/j.jclepro.2017.11.063
+
+https://doi.org/10.1016/j.jclepro.2017.11.063
+
+https://doi.org/10.1016/j.jclepro.2019.119737
+
+https://doi.org/10.1016/j.energy.2019.116129
+
+https://doi.org/10.1016/j.energy.2019.116129
+
+
+
+
+Moktadir, M. A., Ali, S. M., Paul, S. K., & Shukla, N. (2019). Barriers to big
+data analytics in manufacturing supply chains: A case study from
+Bangladesh. Computers & Industrial Engineering, 128, 1063–1075.
+https://doi.org/10.1016/j.cie.2018.04.013
+
+
+Moktadir, M. A., Ali, S. M., Rajesh, R., & Paul, S. K. (2018). Modeling the
+interrelationships among barriers to sustainable supply chain manage-
+ment in leather industry. Journal of Cleaner Production, 181, 631–651.
+https://doi.org/10.1016/j.jclepro.2018.01.245
+
+
+Moktadir, M. A., Dwivedi, A., Ali, S. M., Paul, S. K., Kabir, G., & Madaan, J.
+(2019). Antecedents for greening the workforce: implications for green
+human resource management. International Journal of Manpower. Vol.
+ahead-of-print, No. ahead-of-print
+
+
+Moktadir, M. A., Ali, S. M., Kusi-Sarpong, S., & Shaikh, M. A. A. (2018).
+Assessing challenges for implementing Industry 4.0: Implications for
+process safety and environmental protection. Process Safety and Envi-
+ronmental Protection, 117, 730–741. https://doi.org/10.1016/j.psep.
+2018.04.020
+
+
+Muazu, M. H. (2019). Operational excellence and the implications for
+health, safety and environmental performance in the oil and gas indus-
+try. Journal of Technology Management and Business, 6(1), 25–31.
+https://doi.org/10.30880/jtmb.2019.06.01.003
+
+
+Mukonza, C., & Swarts, I. (2020). The influence of green marketing strate-
+gies on business performance and corporate image in the retail sector.
+Business Strategy and the Environment, 29(3), 838–845. https://doi.
+org/10.1002/bse.2401
+
+
+Munny, A. A., Ali, S. M., Kabir, G., Moktadir, M. A., Rahman, T., &
+Mahtab, Z. (2019). Enablers of social sustainability in the supply chain:
+An example of footwear industry from an emerging economy. Sustain-
+able Production and Consumption, 20, 230–242. https://doi.org/10.
+1016/j.spc.2019.07.003
+
+
+Mydin, M. A. (2014). Key Performance indicator of building maintenance
+and its effect on the building life cycle. Analele Universitatii'Eftimie
+Murgu, 21(1), 193–202.
+
+
+Nakamura, N., & Salvendy, G. (1994). Human planner and scheduler. In
+Design of work and development of personnel in advanced manufacturing
+systems (pp. 331–354).
+
+
+Nallusamy, S. (2016). Overall performance improvement of an small scale
+venture using critical key performance indicators. International Journal
+of Engineering Research in Africa, 27, 158–166. https://doi.org/10.
+4028/www.scientific.net/JERA.27.158
+
+
+Nurcahyo, R., Pustiwari, S., & Gabriel, D. S. (2018). Developing a strategy
+map based on sustainability balanced scorecard framework for
+manufacturing industry in Indonesia. International Journal of Engineer-
+ing & Technology, 7(2.34), 48–51.
+
+
+Parmenter, D. (2007). Key performance indicators: developing, implementing,
+and using winning KPIs. New York, NY, USA: John Wiley & Sons, Inc.
+2007
+
+
+Paul, H. L., Antunes, A. P. M., Covington, A. D., Evans, P., & Phillips, P. S.
+(2013). Bangladeshi leather industry: An overview of recent sustain-
+able developments. Journal of the Society of Leather Technologists and
+Chemists, 97(1), 25–32.
+
+
+Rabhi, M. (2011). Key performance indicators metrics effect on the
+advancement and sustainability of knowledge management. Electronic
+Journal of Knowledge Management, 9(2), 149–154.
+
+
+Radujkovi!c, M., Vukomanovi!c, M., & Dunovi!c, I. B. (2010). Application of
+key performance indicators in South-Eastern European construction.
+Journal of Civil Engineering and Management, 16(4), 521–530. https://
+doi.org/10.3846/jcem.2010.58
+
+
+Rajendran, S., & Gambatese, J. A. (2009). Development and initial valida-
+tion of sustainable construction safety and health rating system. Jour-
+nal of Construction Engineering and Management, 135(10), 1067–1075.
+https://doi.org/10.1061/(ASCE)0733-9364(2009)135:10(1067)
+
+
+Report, (2020). https://www.thedailystar.net/business/news/now-the-
+leather-sectors-priority-just-stay-afloat-1892416
+
+
+Rezaei, J. (2015). Best-worst multi-criteria decision-making method.
+Omega, 53, 49–57. https://doi.org/10.1016/j.omega.2014.11.009
+
+
+Rezaei, J. (2016). Best-worst multi-criteria decision-making method: Some
+properties and a linear model. Omega, 64, 126–130. https://doi.org/
+10.1016/j.omega.2015.12.001
+
+
+Rodrigues, V. P., Pigosso, D. C., & McAloone, T. C. (2016). Process-related
+key performance indicators for measuring sustainability performance
+of ecodesign implementation into product development. Journal of
+Cleaner Production, 139, 416–428. https://doi.org/10.1016/j.jclepro.
+2016.08.046
+
+
+Salimi, N., & Rezaei, J. (2018). Evaluating firms' R&D performance using
+best worst method. Evaluation and Program Planning, 66, 147–155.
+https://doi.org/10.1016/j.evalprogplan.2017.10.002
+
+
+Sartal, A., & Vázquez, X. H. (2017). Implementing information technologies
+and operational excellence: Planning, emergence and randomness in
+the survival of adaptive manufacturing systems. Journal of Manufactur-
+ing Systems, 45, 1–16. https://doi.org/10.1016/j.jmsy.2017.07.007
+
+
+Sawang, S. (2011). Key performance indicators for innovation implementa-
+tion: Perception vs. actual usage. Asia Pacific Management Review, 16
+(1), 23–29.
+
+
+Schaltegger, S., & Wagner, M. (2011). Sustainable entrepreneurship and
+sustainability innovation: categories and interactions. Business Strategy
+and the Environment, 20(4), 222–237. https://doi.org/10.1002/
+bse.682
+
+
+Sehnem, S., Jabbour, C. J. C., Pereira, S. C. F., & de Sousa Jabbour, A. B. L.
+(2019). Improving sustainable supply chains performance through
+operational excellence: Circular economy approach. Resources, Conser-
+vation and Recycling, 149, 236–248. https://doi.org/10.1016/j.
+resconrec.2019.05.021
+
+
+Seleem, S. N., Attia, E. A., & El-Assal, A. (2016). Managing performance
+improvement initiatives using DEMATEL method with application case
+study. Production Planning & Control, 27(7–8), 637–649.
+
+
+Setijono, D., & Dahlgaard, J. J. (2007). Customer value as a key perfor-
+mance indicator (KPI) and a key improvement indicator (KII). Measuring
+Business Excellence, 11(2), 44–61. https://doi.org/10.1108/
+13683040710752733
+
+
+Shamsaei, A., Pourshahid, A., & Amyot, D. (2010, September). Business
+process compliance tracking using key performance indicators. In In
+international conference on business process management (pp. 73–84).
+Heidelberg: Springer, Berlin.
+
+
+Shaw, S., Grant, D. B., & Mangan, J. (2010). Developing environmental sup-
+ply chain performance measures. Benchmarking: An International Jour-
+nal, 17(3), 320–339. https://doi.org/10.1108/14635771011049326
+
+
+Shehadeh, R., Al-Zu'bi, Z. M. F., Abdallah, A. B., & Maqableh, M. (2016).
+Investigating critical factors affecting the operational excellence of
+service firms in Jordan. Journal of Management Research, 8(1), 18–49.
+
+
+Snatkin, A., Eiskop, T., Karjust, K., & Majak, J. (2015). Production monitor-
+ing system development and modification. Proceedings the Estonian
+Academy of Sciences, 64, 567–580.
+
+
+Sony, M. (2019). Implementing sustainable operational excellence in orga-
+nizations: An integrative viewpoint. Production & Manufacturing
+Research, 7(1), 67–87. https://doi.org/10.1080/21693277.2019.
+1581674
+
+
+Speaker, P. J. (2009). Key performance indicators and managerial analysis
+for forensic laboratories. Forensic Science Policy and Management, 1(1),
+32–42. https://doi.org/10.1080/19409040802624075
+
+
+Suhi, S. A., Enayet, R., Haque, T., Ali, S. M., Moktadir, M. A., & Paul, S. K.
+(2019). Environmental sustainability assessment in supply chain: An
+emerging economy context. Environmental Impact Assessment Review,
+79, 106306. https://doi.org/10.1016/j.eiar.2019.106306
+
+
+Tafere, G. A., Beyera, G. K., & Wami, S. D. (2019). The effect of organiza-
+tional and individual factors on health and safety practices: Results
+from a cross-sectional study among manufacturing industrial workers.
+Journal of Public Health, 1–7.
+
+
+3350 MOKTADIR ET AL.
+
+
+
+https://doi.org/10.1016/j.cie.2018.04.013
+
+https://doi.org/10.1016/j.jclepro.2018.01.245
+
+https://doi.org/10.1016/j.psep.2018.04.020
+
+https://doi.org/10.1016/j.psep.2018.04.020
+
+https://doi.org/10.30880/jtmb.2019.06.01.003
+
+https://doi.org/10.1002/bse.2401
+
+https://doi.org/10.1002/bse.2401
+
+https://doi.org/10.1016/j.spc.2019.07.003
+
+https://doi.org/10.1016/j.spc.2019.07.003
+
+https://doi.org/10.4028/www.scientific.net/JERA.27.158
+
+https://doi.org/10.4028/www.scientific.net/JERA.27.158
+
+https://doi.org/10.3846/jcem.2010.58
+
+https://doi.org/10.3846/jcem.2010.58
+
+https://doi.org/10.1061/(ASCE)0733-9364(2009)135:10(1067)
+
+https://www.thedailystar.net/business/news/now-the-leather-sectors-priority-just-stay-afloat-1892416
+
+https://www.thedailystar.net/business/news/now-the-leather-sectors-priority-just-stay-afloat-1892416
+
+https://doi.org/10.1016/j.omega.2014.11.009
+
+https://doi.org/10.1016/j.omega.2015.12.001
+
+https://doi.org/10.1016/j.omega.2015.12.001
+
+https://doi.org/10.1016/j.jclepro.2016.08.046
+
+https://doi.org/10.1016/j.jclepro.2016.08.046
+
+https://doi.org/10.1016/j.evalprogplan.2017.10.002
+
+https://doi.org/10.1016/j.jmsy.2017.07.007
+
+https://doi.org/10.1002/bse.682
+
+https://doi.org/10.1002/bse.682
+
+https://doi.org/10.1016/j.resconrec.2019.05.021
+
+https://doi.org/10.1016/j.resconrec.2019.05.021
+
+https://doi.org/10.1108/13683040710752733
+
+https://doi.org/10.1108/13683040710752733
+
+https://doi.org/10.1108/14635771011049326
+
+https://doi.org/10.1080/21693277.2019.1581674
+
+https://doi.org/10.1080/21693277.2019.1581674
+
+https://doi.org/10.1080/19409040802624075
+
+https://doi.org/10.1016/j.eiar.2019.106306
+
+
+
+
+Teixeira, M. R., Mendes, P., Murta, E., & Nunes, L. M. (2016). Performance
+indicators matrix as a methodology for energy management in munici-
+pal water services. Journal of Cleaner Production, 125, 108–120.
+https://doi.org/10.1016/j.jclepro.2016.03.016
+
+
+Tsai, W. H., Chou, W. C., & Hsu, W. (2009). The sustainability balanced
+scorecard as a framework for selecting socially responsible investment:
+an effective MCDM model. Journal of the Operational Research Society,
+60(10), 1396–1410. https://doi.org/10.1057/jors.2008.91
+
+
+Tsai, Y. C., & Cheng, Y. T. (2012). Analyzing key performance indicators
+(KPIs) for E-commerce and Internet marketing of elderly products: A
+review. Archives of Gerontology and Geriatrics, 55(1), 126–132. https://
+doi.org/10.1016/j.archger.2011.05.024
+
+
+Tu, P. Y., Yam, R., Tse, P., & Sun, A. O. (2001). An integrated maintenance
+management system for an advanced manufacturing company. The
+International Journal of Advanced Manufacturing Technology, 17(9),
+692–703. https://doi.org/10.1007/s001700170135
+
+
+Uddin, S., Ali, S. M., Kabir, G., Suhi, S. A., Enayet, R., & Haque, T. (2019). An
+AHP-ELECTRE framework to evaluate barriers to green supply chain
+management in the leather industry. International Journal of Sustainable
+Development & World Ecology, 26(8), 732–751. https://doi.org/10.
+1080/13504509.2019.1661044
+
+
+van de Kaa, G., Kamp, L., & Rezaei, J. (2017). Selection of biomass thermo-
+chemical conversion technology in the Netherlands: A best worst
+method approach. Journal of Cleaner Production, 166, 32–39.
+
+
+Venkatraman, N., & Ramanujam, V. (1986). Measurement of business per-
+formance in strategy research: A comparison of approaches. Academy
+of Management Review, 11(4), 801–814. https://doi.org/10.5465/amr.
+1986.4283976
+
+
+Wieder, B., Booth, P., Matolcsy, Z. P., & Ossimitz, M. L. (2006). The impact
+of ERP systems on firm and business process performance. Journal of
+Enterprise Information Management, 19(1), 13–29. https://doi.org/10.
+1108/17410390610636850
+
+
+Wu, P., Ma, X., Ji, J., & Ma, Y. (2017). Review on life cycle assessment of
+greenhouse gas emission profit of solar photovoltaic systems. Energy
+
+
+Procedia, 105, 1289–1294. https://doi.org/10.1016/j.egypro.2017.
+03.460
+
+
+Yang, M. X., Li, J., Yu, I. Y., Zeng, K. W. W. J., & Sun, J.-M. (. J.). (2019).
+Environmentally sustainable or economically sustainable? The effect
+of Chinese manufacturing firms' corporate sustainable strategy on
+their green performances. Business Strategy and the Environment, 28(6),
+989–997. https://doi.org/10.1002/bse.2296
+
+
+Yang, Y., Pan, S., & Ballot, E. (2017). Innovative vendor-managed inventory
+strategy exploiting interconnected logistics services in the physical
+Internet. International Journal of Production Research, 55(9),
+2685–2702. https://doi.org/10.1080/00207543.2016.1275871
+
+
+Zhu, L., Johnsson, C., Varisco, M., & Schiraldi, M. M. (2018). Key perfor-
+mance indicators for manufacturing operations management—Gap
+analysis between process industrial needs and ISO 22400 standard.
+Procedia Manufacturing, 25, 82–88.
+
+
+Zou, X., & Moon, S. (2014). Hierarchical evaluation of on-site environmen-
+tal performance to enhance a green construction operation. Civil Engi-
+neering and Environmental Systems, 31(1), 5–23. https://doi.org/10.
+1080/10286608.2012.749871
+
+
+SUPPORTING INFORMATION
+
+
+Additional supporting information may be found online in the
+
+
+Supporting Information section at the end of this article.
+
+
+How to cite this article: Moktadir MA, Dwivedi A, Rahman A,
+
+
+et al. An investigation of key performance indicators for
+
+
+operational excellence towards sustainability in the leather
+
+
+products industry. Bus Strat Env. 2020;29:3331–3351.
+
+
+https://doi.org/10.1002/bse.2575
+
+
+MOKTADIR ET AL. 3351
+
+
+
+https://doi.org/10.1016/j.jclepro.2016.03.016
+
+https://doi.org/10.1057/jors.2008.91
+
+https://doi.org/10.1016/j.archger.2011.05.024
+
+https://doi.org/10.1016/j.archger.2011.05.024
+
+https://doi.org/10.1007/s001700170135
+
+https://doi.org/10.1080/13504509.2019.1661044
+
+https://doi.org/10.1080/13504509.2019.1661044
+
+https://doi.org/10.5465/amr.1986.4283976
+
+https://doi.org/10.5465/amr.1986.4283976
+
+https://doi.org/10.1108/17410390610636850
+
+https://doi.org/10.1108/17410390610636850
+
+https://doi.org/10.1016/j.egypro.2017.03.460
+
+https://doi.org/10.1016/j.egypro.2017.03.460
+
+https://doi.org/10.1002/bse.2296
+
+https://doi.org/10.1080/00207543.2016.1275871
+
+https://doi.org/10.1080/10286608.2012.749871
+
+https://doi.org/10.1080/10286608.2012.749871
+
+https://doi.org/10.1002/bse.2575
+
+

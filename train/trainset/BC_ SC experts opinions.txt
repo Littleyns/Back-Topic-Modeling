@@ -1,0 +1,2812 @@
+
+
+
+
+
+
+
+
+
+
+Contents lists available at ScienceDirect 
+
+
+Technological Forecasting & Social Change 
+journal homepage: www.elsevier.com/locate/techfore 
+
+
+Potentials of blockchain technology in supply chain management: Long-term 
+judgments of an international expert panel 
+Matthias Kopytoa, Sabrina Lechlera, Heiko A. von der Grachtb,⁎, Evi Hartmanna 
+a Chair of Supply Chain Management, Friedrich-Alexander University Nuremberg, Lange Gasse 22, Nuremberg, Germany 
+b School of International Business and Entrepreneurship, Steinbeis University, Kalkofenstr. 53, 71083 Herrenberg, Germany  
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Blockchain 
+Future 
+Technology 
+Supply chain 
+Expert judgments 
+Delphi study 
+
+
+A B S T R A C T   
+
+
+Blockchain technology offers numerous fields of application, especially for supply chain management (SCM), as 
+it could supersede the middleman activities in many transaction-based processes along the supply chain. 
+Blockchain technology has a disruptive impact on supply chain design and operations, making the exploration of 
+future application scenarios of great importance. However, knowledge in this field remains scarce, despite the 
+subject's strategical value. This empirical study addresses this gap by conducting an interdisciplinary Delphi 
+survey. Long-term judgments from an international panel of 108 designated experts from academia, industry, 
+and politics/associations with different context-related backgrounds (blockchain, SCM, hybrid functions) were 
+systematically analyzed. The results reveal prospective scenarios how blockchains will be applied in SCM by 
+2035 and which SCM-specific obstacles need to be solved in advance. One key finding reveals that even though 
+blockchain technology is said to enable transactions between untrusted parties, trust-related advantages of 
+blockchain technology are not directly transferable to SCM without additional conditions. Counterintuitively, 
+active trust management between supply chain partners will still be needed. Nonetheless, this research reveals 
+that blockchain technology will be strongly applied in SCM by 2035 and thus provides beneficial orientation and 
+stimulating perspectives for decision-makers in the field.   
+
+
+1. Introduction 
+
+
+Blockchain has become a common buzzword, first gaining attention 
+with the introduction of Bitcoin by Satoshi Nakamoto in 2008. The 
+initiator's original aim with Bitcoin was the resolution of the financial 
+double-spending problem (Nakamoto, 2008). Since then, various other 
+cryptocurrencies have emerged, and the total market capitalization of 
+cryptocurrencies grew from 1.3 billion USD in May 2013 to over 200 
+billion USD in March 2020 (CoinMarketCap, 2020). In addition to 
+cryptocurrencies, further application possibilities for blockchain – Bit-
+coin's underlying technology – were discovered, including registration 
+of electronic voting, certification of product quality, healthcare, ver-
+ified consumer reviews, escrow, and tracing of products (White, 2017;  
+Hsiao et al., 2018; Borioli and Couturier, 2018). Nowadays, blockchain 
+technology is expected to fundamentally change companies, economies, 
+and social systems (Iansiti and Lakhani, 2017), as the technology's 
+potential impact is on the same level as game-changing innovations 
+such as the wheel, the steam engine, and the Internet (Mettler, 2016). 
+
+
+Numerous blockchain-based use cases have been discussed in the 
+
+
+context of supply chain management (SCM) as well (Wang et al., 2018;  
+Wamba and Queiroz, 2020). By investigating selected blockchain-re-
+lated cases, Kshetri (2018) found that blockchain technology has the 
+potential to meet key SCM objectives such as costs, speed, depend-
+ability, risk reduction, sustainability, and flexibility. Despite these ad-
+vantages, doubts about blockchain's real potentials for SCM have also 
+been expressed. In this context, Ammous (2016, p. 1) stated that 
+blockchain is “unlikely to offer economic advantages for any commer-
+cial problem other than the one it was specifically engineered to solve.” 
+There are also various barriers mentioned in the literature that could 
+hinder the broad implementation of this technology for supply chain 
+purposes. These include, blockchain's high electricity consumption 
+(Foth, 2017; Sikorski et al., 2017), scalability problems (Foth, 2017;  
+Tian, 2017; Preuveneers et al., 2017), the lack of blockchain-related 
+regulations and laws (Yeoh, 2017), the interoperability of blockchain 
+systems (Underwood, 2016), missing blockchain knowledge within 
+organizations (Partida, 2018; Shanley, 2017), and the complex en-
+vironment of global supply chains (Kshetri, 2018). 
+
+
+These contrary views indicate a high uncertainty regarding the 
+
+
+https://doi.org/10.1016/j.techfore.2020.120330 
+Received 1 March 2019; Received in revised form 16 July 2020; Accepted 15 September 2020    
+
+
+⁎ Corresponding author. 
+E-mail addresses: matthias.kopyto@fau.de (M. Kopyto), sabrina.lechler@fau.de (S. Lechler), vondergracht@steinbeis-sibe.de (H.A. von der Gracht),  
+
+
+evi.hartmann@fau.de (E. Hartmann). 
+
+
+
+http://www.sciencedirect.com/science/journal/00401625
+
+
+
+
+
+
+
+
+
+https://www.elsevier.com/locate/techfore
+
+https://doi.org/10.1016/j.techfore.2020.120330
+
+https://doi.org/10.1016/j.techfore.2020.120330
+
+mailto:matthias.kopyto@fau.de
+
+mailto:sabrina.lechler@fau.de
+
+mailto:vondergracht@steinbeis-sibe.de
+
+mailto:evi.hartmann@fau.de
+
+https://doi.org/10.1016/j.techfore.2020.120330
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.techfore.2020.120330&domain=pdf
+
+
+
+
+future of blockchain technology in SCM. Nevertheless, managers and 
+policymakers are currently confronted with strategic decisions re-
+garding this technology, as they fear missing out on blockchain's po-
+tential benefits. In such uncertain situations, the judgments of experts 
+are often the only source of information to reduce uncertainty and 
+improve decision quality (Gray and Hovav, 2008; Skulmoski et al., 
+2007; Rowe et al., 1991). However, a comprehensive review1 of ex-
+isting research revealed that experts’ opinions on this subject have not 
+yet been systematically gathered. So far, blockchain's technical aspects 
+have been studied, but empirical research is almost completely absent 
+(Wamba and Queiroz, 2020). Empirical investigation into the techno-
+logy's practical usefulness for broad implementation, as well as its ac-
+tual influence on the current SCM regime, is therefore invaluable and 
+needs to be expanded (Wang et al., 2018). To create a clearer picture of 
+its potentials and to close the existing gap in the literature by extending 
+empirical knowledge on blockchain technology in SCM, the following 
+research question (RQ) is proposed: 
+
+
+RQ: What application scenarios and potentials of blockchain tech-
+nology are likely to be seen in supply chain management by 2035? 
+
+
+In order to answer the proposed RQ, a Delphi survey was conducted 
+and the long-term judgments of an international panel of 108 desig-
+nated experts from academia, industry, and politics/associations with 
+different context-related backgrounds (Blockchain, SCM, hybrid func-
+tions) were analyzed. The expert panel evaluated the probability of 
+occurrence, impact on the industry, and desirability of 15 far-future 
+events related to application scenarios of blockchain technology. This 
+approach was chosen because assessments of long-term expert judg-
+ments (e.g., through the application of the Delphi method) are an es-
+tablished process for studies of future scenarios and the investigation of 
+complex and uncertain circumstances (Rowe and Wright, 1999;  
+Winkler et al., 2015). In addition, this approach has a long history as an 
+accepted research method in the Journal of Technol. Forecast. Social 
+Change (Schoeman and Mahajan, 1977; Melander et al., 2019) and in 
+SCM in general (Klassen and Whybark, 1994; Ogden et al., 2005;  
+Hirschinger et al., 2015), and it has also proved its added value in 
+current managerial decision-making settings (Phadnis, 2019). 
+
+
+In order to provide a holistic picture of the likely future of block-
+chain technology in SCM based on the research findings, the paper is 
+structured as follows. After a review of the relevant literature on 
+blockchain technology, a detailed description of the research metho-
+dology is provided. Afterward, the quantitative and qualitative results 
+of the long-term judgment analysis are presented and discussed, from 
+which theoretical and practical implications are derived. The paper 
+concludes with a summary of the main findings. 
+
+
+2. Background and literature review 
+
+
+2.1. Fundamentals of blockchain technology 
+
+
+A blockchain is, in essence, a distributed database or digital ledger 
+that contains all records that result from transactions and events within 
+a network of participants (Crosby et al., 2016). More specifically, re-
+cords of network transactions are stored in blocks, which are chron-
+ologically linked to each other by cryptographic hashes and thus col-
+lectively create a chain of blocks (Bogart and Rice, 2015; Christidis and 
+Devetsikiotis, 2016). Before a new block is added to the existing chain 
+of blocks, its integrity has to be confirmed by the majority of network 
+nodes according to pre-defined consensus-based validation protocols 
+(Zheng et al., 2017). Once the verification takes place, the information 
+
+
+within a block can no longer be altered (Nakamoto, 2008). 
+Due to the design principles of a blockchain, certain advantages 
+
+
+emerge. First, a full copy of the blockchain is stored on every node of a 
+network and not on a single server. This distributed nature of the 
+technology increases information transparency, as data is visible to all 
+network participants (Abeyratne and Monfared, 2016; Casey and 
+Wong, 2017). Second, manipulation can be preempted, because data 
+cannot be altered once written in a block, and validity has to be con-
+firmed by the majority of network participants (Abeyratne and 
+Monfared, 2016; Kshetri, 2017a, 2017b; Preuveneers et al., 2017;  
+Khan and Salah, 2018). Third, the inalterability of blockchain data al-
+lows unrestricted traceability of transactions (Abeyratne and 
+Monfared, 2016; Kshetri, 2017a; Lee and Pilkington, 2017). Fourth, as 
+trust is replaced by cryptographic proof, untrusted parties can directly 
+transact with each other without the attendance of a trusted third party 
+(e.g., a financial institution) (Weber et al., 2016; Nakasumi, 2017). 
+Fifth, due to the absence of an intermediating party, transaction costs 
+can be reduced (Ahram et al., 2017; Korpela et al., 2017; Polim et al., 
+2017). 
+
+
+Three main types of blockchain architecture can be distinguished: 
+public blockchain, consortium blockchain, and private blockchain 
+(Zheng et al., 2017). Table 1 compares their attributes. 
+
+
+The most famous example of a public (permissionless) blockchain is 
+the Bitcoin system, where everyone is allowed to enter the network and 
+participate in the consensus and verification process (Pilkington, 2016). 
+A public or open blockchain gives reading permission to all system 
+users and is a so-called decentralized network, as all records of trans-
+actions are stored on every node within the network (Zheng et al., 
+2017). A private (permissioned) blockchain, in contrast, limits reading 
+permissions and access to the network to authorized users only 
+(O'Leary, 2017). It is fully controlled by a central authority responsible 
+for consensus finding and is therefore referred to as a centralized net-
+work (Zheng et al., 2017). Consortium blockchains are a combination of 
+public and private blockchain architecture (Pilkington, 2016). This 
+network type usually differs between decision-making nodes and read- 
+only nodes, where the former are allowed to participate in the con-
+sensus process to add new blocks to the chain and the latter have 
+permission to review the ledger but cannot participate in any other 
+processes (Lu and Xu, 2017). Consortium blockchains are partially 
+centralized (Zheng et al., 2017). 
+
+
+Blockchains are often mentioned in the same sentence as crypto-
+currencies, but operating a blockchain does not necessarily imply a 
+cryptocurrency. In fact, the original purpose of cryptocurrencies was to 
+provide an economic incentive to a decentralized operating group to 
+validate the transactions made in a blockchain (Tschorsch and 
+Scheuermann, 2016). Cryptocurrencies may be useful for keeping 
+public blockchains running, but they are not a necessity for operating 
+private blockchains, as private blockchains are fully maintained by one 
+organization. In addition to cryptocurrencies, smart contracts are an-
+other feature frequently referred to in blockchain discussions. Certain 
+blockchain protocols (e.g., Ethereum) allow the execution of smart 
+contracts. They are integrated into blockchains and can be character-
+ized as programmed scripts that activate themselves when receiving 
+pre-defined transactions (Christidis and Devetsikiotis, 2016). These 
+scripts enable automated transactions – for example, automated pur-
+chasing or payments between two parties (Collomb and Sok, 2016). 
+
+
+2.2. Blockchain technology in supply chain management 
+
+
+As SCM has been identified as one of blockchain's promising ap-
+plication areas in addition to finance (White, 2017), it is not surprising 
+that practitioners and scientists from this domain have started to en-
+gage with this topic. Famous prototypes and use cases include Wal-
+mart's food product tracking system and Maersk and IBM's collabora-
+tively established platform, TradeLens, which enables information 
+sharing and supply chain visibility. Nevertheless, blockchain 
+
+
+1 Database selection: Scopus, Business Source Complete, and ScienceDirect; 
+Time horizon: 2008 – March 2020; Search Terms: (“blockchain” OR “dis-
+tributed ledger”) AND (“supply chain” OR “supply network” OR “logistics” OR 
+“production” OR “manufacturing” OR “operations” OR “procurement” OR 
+“distribution” OR “delivery” OR “shipping”) 
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+
+
+
+
+applications are not yet in general use in SCM, as industry participants 
+are still working on proofing blockchain concepts and implementing 
+pilots (Banker, 2018). 
+
+
+Scientific research on this topic is also still at an early stage, and no 
+article on the subject was published before 2016 (Müßigmann et al., 
+2020). From the entirety of SCM-related blockchain papers, approxi-
+mately one third of the articles can be labeled as magazine articles, 
+where the topic of blockchain in SCM only receives superficial cov-
+erage. One third of papers were published at conferences, while the 
+other third can be referred to as scientific journal articles. While ma-
+gazine articles mostly deal with the advantages of blockchain tech-
+nology for SCM in general (e.g., Loop, 2016; Garrett, 2017;  
+Riley, 2017), conference and scientific journal articles mainly propose 
+blockchain concepts for SCM-specific use cases. Table 2 provides an 
+overview of research articles that have addressed blockchain tech-
+nology in the field of SCM. 
+
+
+Different blockchain architectures may be needed for different use 
+cases, the two most frequently used ones in SCM are Ethereum and 
+Hyperledger Fabric (Wang et al., 2018). Both of these systems support 
+the execution of smart contracts (not every blockchain has smart con-
+tract features), which opens the field for blockchain-based applications 
+in SCM even more. Smart contracts may, for example, automate pay-
+ments between a supplier and a buyer as soon as the purchased product 
+is delivered (Swan, 2015) or transfer ownership rights as soon as a 
+payment has been received (Wang et al., 2017). 
+
+
+Most of these research projects focus on the technical feasibility of 
+blockchain applications. However, the exploration of blockchain's 
+technical feasibility is insufficient to assess its potential for broad im-
+plementation in SCM, as technological transition does not depend on 
+technology-related aspects alone. It also requires other shifts of a re-
+gime (e.g., changes related to culture, science, industry, user practices, 
+and policy) (Geels, 2004). According to Geels (2002), radical innova-
+tions – which is how blockchain can be defined (Beck and Mueller- 
+Bloch, 2017; Morabito, 2017; Crosby et al., 2016) – only break out of 
+their niche-level when a window of opportunity is created. A window 
+occurs when shifts at the macro-level (landscape developments) – such 
+as changes related to macro-economics, deep cultural patterns, and 
+macro-political development – put pressure on a regime such as SCM 
+(Geels and Schot, 2007). 
+
+
+Some central trends can be identified that put pressure on the cur-
+rent SCM regime. One is the rising global competition, which is trig-
+gered by ongoing globalization and the geographical expansion of 
+manufacturing networks (Ferdows et al., 2016). Striving for efficiency is 
+becoming increasingly important for survival in the global market, and 
+supply chain processes thus have to be efficient regarding performance, 
+quality, and costs (Christopher and Towill, 2001). Another global shift 
+influencing SCM is the increasing customer demand for transparency, 
+accountability, and social responsibility (Lee and Pilkington, 2017). 
+Consequently, supply chain processes have to become transparent to 
+fulfill customers’ requests. 
+
+
+The described landscape developments show that a window of op-
+portunity for blockchain technology is created, as blockchain is said to 
+increase transparency as well as efficiency (Casey and Wong, 2017;  
+Tian, 2017). Nevertheless, the question arises as to whether blockchain 
+technology can be incorporated into the current SCM regime and 
+whether it is capable of taking advantage of the window of opportunity. 
+This study answers this question by considering experts’ long-term 
+judgments. 
+
+
+3. Research methodology 
+
+
+This research employed a Delphi survey to study forthcoming de-
+velopments of blockchain technology in SCM. The study is structured in 
+four individual phases, which are displayed in Fig. 1. 
+
+
+3.1. The Delphi method 
+
+
+The Delphi method has a proven record in judgmental foresight 
+research (Torres, 2005) and is particularly suitable for long-term re-
+search objectives (15–30 years), where uncertainty is high or there is 
+insufficient information available (Gray and Hovav, 2008;  
+Skulmoski et al., 2007; Rowe et al., 1991), and expert knowledge de-
+scribes the only source of data (Linstone and Turoff, 1975;  
+Rikkonen and Tapio, 2009). The Delphi method provides an efficiently 
+structured group communication process to obtain and exchange expert 
+opinions concerning an uncertainty-bearing field, making it a highly 
+suitable instrument for futures research (Winkler and Moser, 2016). As 
+Dalkey defines, “Delphi is the name of a set of procedures for eliciting 
+
+
+Table 1 
+Attributes of public, consortium, and private blockchains.      
+
+
+Attribute Public blockchain Consortium blockchain Private blockchain  
+
+
+Type of network Decentralized Partially decentralized Centralized 
+Authorization to read Public Limited to authorized users Limited to authorized users 
+Permission to participate Permissionless Permissioned Permissioned 
+Consensus finding All nodes of the network Selected nodes with decision-making rights Central authority 
+
+
+Table 2 
+Classification of blockchain articles by application domain or context.    
+
+
+Blockchain application domain References  
+
+
+General advantages of blockchain technology for SCM Loop (2016); Garrett (2017); Riley (2017) 
+Track and Trace Foth (2017); Alangot and Achuthan (2017); Haughwout (2018); Tse et al. (2017); Tian (2017); Tian (2016);  
+
+
+Gao et al. (2018); Wu et al. (2017) 
+Temperature recording Bocek et al. (2017) 
+Quality management Chen et al. (2017) 
+Inventory management Madhwal and Panfilov (2017) 
+Performance and usage monitoring Madhwal and Panfilov (2017) 
+Proof of origin and originality Foth (2017); Madhwal and Panfilov (2017); Mackey and Nayyar (2017) 
+Supply chain integration Korpela et al. (2017); Weber et al. (2016) 
+Information sharing Nakasumi (2017); Abeyratne and Monfared (2016); van Engelenburg et al. (2017) 
+Negotiation support regarding logistic contracts Polim et al. (2017) 
+Blockchain-driven IoT services Khan and Salah (2018); Liao et al. (2017); Christidis and Devetsikiotis (2016); Kshetri (2017a); Kshetri (2017b);  
+
+
+Preuveneers et al. (2017) 
+Digital rights management for additive manufacturing Holland et al. (2017); Kurpjuweit et al. (2019) 
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+and refining the opinions of a group of people” (Dalkey, 1967, p. 1). 
+The Delphi procedure is divided into several sections. First, Delphi 
+panelists anonymously evaluate future-oriented propositions (so-called 
+projections) according to specific numerical variables such as their 
+likelihood of occurrence or their impact (von der Gracht, 2012;  
+Rowe and Wright, 2001). At this point, the panelists are also asked to 
+enrich their quantitative assessments with written, qualitative justifi-
+cations (Graefe and Armstrong, 2011). Subsequently, the participants 
+receive feedback about the group opinion and have the option to adjust 
+their initial answers based on the provided feedback (Rowe and 
+Wright, 1999; Webler et al., 1991). These steps may be repeated several 
+times. While this procedure was originally applied to create consensus 
+among experts regarding particular propositions (Diamond et al., 2014;  
+Linstone and Turoff, 1975), today the goal of Delphi studies is to foster 
+a reliable group opinion (Landeta, 2006), which is also the focus of this 
+research. 
+
+
+Although different types of Delphi exist, the general Delphi design 
+builds on four principles: (1) anonymity; (2) iteration; (3) controlled 
+feedback; and (4) statistical group response (Dalkey and Helmer, 1963;  
+Rowe and Wright, 2001). The underlying anonymity enables mitigation 
+of negative group constraints such as the bandwagon effect, the halo 
+effect, or withholding of potentially unpopular opinions 
+(Steinert, 2009; Dinwoodie et al., 2014). Iterations and controlled 
+feedback enable systematic multi-rounded discussions, social learning, 
+and the revising of prior judgments (Dunn, 2004). Statistical group 
+responses may be returned numerically (typically in tabular format) or 
+graphically (typically in boxplot format). In general, the presentation of 
+
+
+results includes tendency measures such as a median or mean of the 
+assessments, interquartile ranges as a measure of consensus, or the 
+change in standard deviation as a measure for convergence during the 
+single Delphi rounds (Gupta and Clarke, 1996; von der Gracht, 2012). 
+Properly conducted Delphi studies show higher accuracy in forecasts 
+than conventional surveys (Rowe and Wright, 1999; von der 
+Gracht, 2008) and have proven their reliability and validity in various 
+studies (Landeta, 2006; Parenté and Anderson-Parenté, 2011). 
+
+
+3.2. Step 1: development of Delphi projections 
+
+
+As with conventional surveys, the development and design of 
+questions and projections is of particular importance for ensuring value, 
+validity, and reliability in Delphi studies (Markmann et al., 2020;  
+Mitchell, 1996; Loveridge, 2002). A rigorous and established multi- 
+stage process was therefore performed to develop concise and thought- 
+provoking projections (Jiang et al., 2017; Roßmann et al., 2018;  
+Fritschy and Spinler, 2019; von der Gracht and Darkow, 2010). An 
+overview of the projection development process is illustrated in step 1 
+of Fig. 1. 
+
+
+First, relevant journal and conference articles2 along with online 
+and blog posts were screened to identify relevant factors concerning the 
+future of blockchain technology in SCM. Additionally, a small-scale 
+
+
+Fig. 1. Structure of the Delphi process applied in the study, own design based on Gnatzy et al. (2011).  
+
+
+2 Example of key sources: e.g. Abeyratne and Monfared (2016);  
+Crosby et al. (2016); Tian (2016); Bocek et al. (2017); Korpela et al. (2017);  
+Kshetri (2017b); Wang et al. (2018). 
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+survey among industry experts and academics was performed to detect 
+further factors and to triangulate the screening process, ensuring that 
+all relevant issues were collected for projection development 
+(Gausemeier et al., 1998). For the small-scale survey, international 
+experts from industrialized countries who have published relevant pa-
+pers or books, reported at a conference, or publicly talked about 
+blockchain technology were invited to participate. Experts were con-
+tacted via email and were asked to share (a minimum) of five keywords 
+that came to their minds when thinking about the future of blockchain 
+technology. The survey was executed until redundancies and decreasing 
+returns of new aspects were experienced at large scale. At this point, 32 
+of the 68 contacted experts had replied to the request, equivalent to a 
+response rate of 48%. Altogether, a longlist of 287 factors concerning 
+the future of blockchain technology in SCM was generated through desk 
+research and the provision of the experts’ keywords. 
+
+
+The longlist was then condensed into a shortlist by two members of 
+the research team through the deletion of duplicated factors and the 
+aggregation of factors with similar meanings. After this consolidation, 
+70 factors remained. Next, we followed the approach of  
+Roßmann et al. (2018) and organized an internal projection develop-
+ment workshop with three members of the research team. The work-
+shop was conducted to cross-validate the shortlist of the previous step 
+and to develop initial projections. To ensure that the projections did not 
+only relate to blockchain's technological features, Geels’ (2004) multi- 
+level perspective on technology transition was deployed to also include 
+aspects regarding culture, science, industry, user practices, and policy. 
+With the multi-level perspective in mind, 33 provisional projections 
+were derived. To guarantee high validity and reliability of the obtained 
+projections, methodical rules concerning the formulation (Rowe and 
+Wright, 2001) and optimal number of words (Salancik et al., 1971;  
+Linstone and Turoff, 1975) were applied. Moreover, since a high 
+number of projections may lead to a reduced response rate and increase 
+the probability of a sparse completion of the questionnaires (Parenté 
+and Anderson-Parenté, 1987; Johnson, 1976), the number of projec-
+tions was further decreased to 15. This is in line with (Parenté and 
+Anderson-Parenté, 2011), who proposed limiting the number of pro-
+jections to a maximum of 20. Factors that were not yet applied for 
+projection formulation and factors linked to the eliminated projections 
+were utilized to formulate starting pro and contra arguments for the 
+first participating expert. Thus, no information was lost throughout the 
+projection development process. 
+
+
+Finally, as proposed by Warth et al. (2013), the Delphi ques-
+tionnaire was pre-tested by seven academics with deep methodological 
+and/or subject-specific knowledge in this field, who checked the pro-
+jections for precision, completeness, plausibility, and methodological 
+soundness to ensure face and content validity. Their feedback resulted 
+in slight adaptations to the questionnaire regarding wording and 
+syntax. The final set included 15 projections regarding the future of 
+blockchain in SCM for the year 2035, which are presented in Table 3. 
+
+
+3.3. Step 2: selection of experts 
+
+
+Reliability of Delphi survey results strongly depends on an adequate 
+choice of panelists (Spickermann et al., 2014; Okoli and 
+Pawlowski, 2004). Based on this fact, the expert panel was system-
+atically selected in order to achieve a high level of heterogeneity and to 
+reduce various participants’ cognitive biases, such as framing bias and 
+anchoring bias (Winkler and Moser, 2016), desirability bias 
+(Ecken et al., 2011), and the bandwagon effect (Foerster and von der 
+Gracht, 2014). Heterogeneity was achieved through the involvement of 
+experts from various domains such as Logistics, SCM, and Information 
+Technology (IT), a high spread of different countries, and through the 
+inclusion of designated experts from academia, industry, and politics/ 
+associations. Consequently, 1114 potential experts with expertise re-
+lated to the research topic were invited to participate in the expert 
+panel. While some contacts can be clearly identified and classified as 
+
+
+blockchain experts due to their presence in the media or through the 
+publication of their studies, this is not evident for others, especially in 
+the industrial sector. To ensure that the Delphi panel only covers ex-
+perts, those participants for whom it was not immediately obvious 
+whether they provide expert-level knowledge on blockchains were 
+asked to provide an additional self-assessment. Only if their answers 
+indicated considerable experience and knowledge in the field of 
+blockchains were those participants’ judgements further evaluated and 
+processed in our study. After the self-assessment, we excluded the re-
+sponses of seven panelists from further investigation in the study, re-
+sulting in a final total of 108 participating experts from 20 different 
+countries3. The methodology of self-rating has been confirmed as a 
+legitimate instrument for selecting panels (Rowe and Wright, 1996). By 
+taking these steps, we ensured that the respondents we included were 
+experts in the blockchain area. 
+
+
+The final response rate of 9.7% was found to be adequate for the 
+research aim and is similar to of the rates in comparable Delphi studies 
+(e.g. Spickermann et al., 2014; Warth et al., 2013). The responses of 54 
+experts from academia, 31 from industry, and 23 from politics/asso-
+ciations were analyzed in the Delphi study. Sixty of these panelists deal 
+with blockchain technology from a data science perspective in their 
+day-to-day business. Seventeen of them can be designated as SCM ex-
+perts with a data science background, while 31 of the experts specifi-
+cally concentrate on the intersection of blockchain technology and SCM 
+through engagement in pilot projects or research studies (see step 2 in  
+Fig. 1). 
+
+
+To verify a possible non-response bias, the Mann–Withney U-test 
+was applied. In this process, the estimates of the early and late re-
+spondents were compared, as it can be assumed that late respondents 
+demonstrate characteristics of non-respondents (Armstrong and 
+Overton, 1977; Wagner and Kemmerling, 2010). By comparing the 
+differences in responses for all 15 projections, no significant differences 
+(p < 0.05), and thus no non-response bias, could be found. 
+
+
+3.4. Step 3: execution of the Delphi study 
+
+
+In this study, an internet-based real-time Delphi approach was de-
+ployed (Aengenheyster et al., 2017; Geist, 2010; Gnatzy et al., 2011;  
+Gordon and Pease, 2006), where the quantitative analysis of the pa-
+nelists’ assessments (calculation of group opinion and boxplots in-
+dicating additional statistics) is executed immediately. This variant 
+enables a faster return of group feedback to the participants compared 
+to conventional “paper-and-pencil” Delphi studies. Research by  
+Gnatzy et al. (2011) compared both types of Delphi studies and re-
+vealed that results are comparable, while the real-time approach is 
+likely to have a more positive effect on response rates and validity due 
+to its convenience in terms of process, appearance, and reduced effort 
+(time). 
+
+
+Regarding the quantitative assessment, each expert was asked to 
+rate the projections according to their  
+
+
+• Expected probability of occurrence (EP), based on a metric scale of 
+0–100%,  
+
+
+• Impact on the industry (I), based on a 5-point Likert scale, and  • Desirability of occurrence (D), based on a 5-point Likert scale. 
+Additionally, participants had the opportunity to add qualitative 
+
+
+justifications for their given quantitative estimates. Immediately after 
+their initial assessment, the real-time Delphi tool generated quantitative 
+feedback (descriptive statistics and boxplot graphs for group opinion) 
+and qualitative feedback (other experts’ written justifications), 
+
+
+3 Australia, Austria, Belgium, Canada, Cyprus, Denmark, Finland, France, 
+Germany, India, Ireland, Italy, Japan, Korea, Netherlands, Singapore, Swiss, 
+Taiwan, UK, and USA 
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+summarizing the estimations of previously participating experts. Based 
+on this real-time feedback, panelists could reassess their provided es-
+timates as often as desired until the end of the survey period (see step 3 
+in Fig. 1). Returning both the quantitative assessments and the quali-
+tative justifications to the panelists increases the accuracy of the final 
+results (Best, 1974). More detailed information on the deployed real- 
+time Delphi approach can be found in the article by  
+Gnatzy et al. (2011). 
+
+
+3.5. Step 4: survey analysis 
+
+
+In order to visualize the groups’ long-term judgments regarding the 
+expected probability, impact, and desirability of the projections under 
+investigation, their respective arithmetic mean values were determined 
+(Jiang et al., 2017; Roßmann et al., 2018; Fritschy and Spinler, 2019;  
+von der Gracht and Darkow, 2010). Moreover, for further analysis of 
+the experts’ opinions about the projections’ probabilities of occurrence, 
+two additional measures were calculated for each projection:  
+
+
+• Convergence rates (CV), and  • Interquartile ranges (IQR). 
+Convergence rates provide information about the panels’ shift in 
+
+
+assessments and have been measured as the difference in standard de-
+viation of the average probability expectations from the first to the last 
+Delphi round. Interquartile ranges indicate the final consensus/dissent 
+levels for each projection. This study followed Warth et al. (2013) and  
+Keller and von der Gracht (2014) and defined an interquartile range of 
+≤ 25 as the threshold level for consensus about the probability of oc-
+currence. 
+
+
+In addition to the quantitative assessment, the expert panel pro-
+vided 1270 written comments, which is equivalent to 11.75 arguments 
+per expert. Overall, 62% of the experts provided at least one rationale 
+for their quantitative estimations, indicating a high level of participa-
+tion. To enhance the qualitative analysis of these comments, a coding 
+method based on Strauss and Corbin (1990) was applied. In this pro-
+cess, the content of the arguments was independently broken down by 
+two members of the research team to identify categories to which the 
+arguments could be assigned. Descriptive codes for the arguments were 
+thus derived. Subsequently, all codes were discussed by the two re-
+searchers in order to re-adjust divergent coding results until consensus 
+was achieved. The final set of codes and the quantitative estimations 
+
+
+were utilized for the discussion of the expert's long-term judgments. 
+
+
+4. Results and discussion 
+
+
+4.1. Analysis of quantitative results 
+
+
+The experts’ quantitative assessments were analyzed first. Table 3 
+illustrates the mean values of the projections’ impact, desirability, and 
+expected probability, as well as its convergence rate and interquartile 
+range. 
+
+
+The results revealed that the occurrence of all reviewed projections 
+would have a non-negligible impact on SCM, as the mean value for the 
+estimated impact of every projection was rated higher than 3.0. Thus, 
+all projections were further considered for analysis. With a mean value 
+of 4.3 on the 5-point Likert scale, Projection 3 (smart contracts) is an-
+ticipated to have the highest influence on SCM. There are two projec-
+tions, Projection 13 (data manipulation) and Projection 14 (integrated 
+blockchain), whose occurrence is not desired by the majority of the 
+participating experts. The occurrence of the remaining 13 projections is 
+desired, as their average desirability values are higher than 3.0, ranging 
+from 3.2 for Projection 15 (cryptocurrencies) to 4.5 for Projection 12 
+(technological problems). The average values of the projections’ prob-
+ability range from 33% for Projection 14 (integrated blockchain) to 
+73% for Projection 10 (job profiles). Calculating the interquartile 
+ranges of the experts’ probability expectations revealed that by ap-
+plying the common threshold value of ≤ 25, Projection 9 (product- 
+related information) and Projection 11 (risk management) yield con-
+sensus. 
+
+
+Furthermore, a closer look at the negative convergence rates of all 
+projections (see Table 3) reveals that the experts’ opinions converged 
+over time. In total, standard deviation decreased by 5.3%, which in-
+dicates a convergence toward group consensus. Overall, 483 revisions 
+conducted by the experts during the Delphi runtime were recorded, 
+whereof 253 assessments (52%) were adjusted upwards and 230 (48%) 
+downwards. On the individual projection level, experts increased their 
+estimates regarding the probability of occurrence for ten projections 
+and decreased them for the remaining five projections. The strongest 
+convergence could be observed for Projection 10 (job profiles) with a 
+12.2% decrease in standard deviation. The lowest convergence rate, 
+-2.6%, was measured for Projection 11 (risk management). This further 
+indicates that the participating experts were the most confident with 
+the assessment of this proposition. 
+
+
+Table 3 
+Analysis of experts’ ratings.         
+
+
+No. Projection EP IQR CV I D 
+
+
+P1 2035: A global legal framework for the application of blockchain technology in supply chain management has been established. 55% 54 - 4.8% 4.0 3.8 
+P2 2035: Blockchain technology has fundamentally improved companies' compliance with sustainability standards. 56% 39 - 4.1% 3.6 4.2 
+P3 2035: Smart contracts have largely replaced operational supply chain tasks. 64% 30 - 5.1% 4.3 4.2 
+P4 2035: Blockchain technology has created end-to-end transparency within multi-tier supply networks. 64% 30 - 7.9% 4.2 4.2 
+P5 2035: Active trust management between supply chain partners has lost its relevance due to blockchain technology. 42% 26 - 7.7% 3.3 3.3 
+P6 2035: Blockchain technology has evolved into the dominant standard for tracing material flows. 62% 30 - 3.3% 3.9 3.9 
+P7 2035: Access to blockchain data has fundamentally improved demand planning. 54% 40 - 3.4% 3.7 3.7 
+P8 2035: Blockchain technology has been the key trigger for the revolutionary expansion of the digital interconnection of objects and devices 
+
+
+(e.g., Internet of Things). 
+56% 40 - 3.4% 3.9 3.6 
+
+
+P9 2035: The exchange of product-related information (e.g., manufacturers’ ID, price, CO2-emission, working conditions) through 
+blockchain technology has become an imperative for supply chain management. 
+
+
+65% 20 - 4.1% 3.8 3.9 
+
+
+P10 2035: New job profiles in supply chain management have been created due to blockchain technology. 73% 30 - 12.2% 3.5 3.5 
+P11 2035: Blockchain technology has fundamentally improved supply chain risk management. 69% 20 - 2.6% 3.9 4.1 
+P12 2035: Former technological problems with blockchain technology have been resolved (e.g., scalability issues, limited data storage 
+
+
+capacities, block creation times, high transaction costs, high power consumption). 
+72% 30 - 4.1% 4.1 4.5 
+
+
+P13 2035: The manipulation of data has become a serious threat to blockchain technology. 41% 40 - 4.3% 3.6 1.6 
+P14 2035: Multiple specialized blockchains (e.g., for financial transactions, tracing of goods, proof of origin) have been replaced by one 
+
+
+integrated multi-purpose blockchain. 
+33% 40 - 7.4% 3.5 2.8 
+
+
+P15 2035: Cryptocurrencies have become the standard means of payment for business-to-business transactions. 46% 45 - 5.8% 3.6 3.2 
+
+
+Note: EP: Expected probability; I: Impact; D: Desirability; CV: Convergence (i.e., decrease in standard deviation); IQR: Interquartile Range; IQR ≤ 25 equals panel 
+consensus, highlighted in italics  
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+
+
+
+
+In addition to analysis on an aggregated panel level, further insights 
+can be provided by a deep dive into the ratings of individual subgroups 
+(see Tables 4a and 4b). The above analysis was therefore extended by 
+two different subgroup comparisons. The idea behind subgroup com-
+parisons is that experts with different backgrounds may show differ-
+entiating expectations regarding the future of blockchain technology in 
+SCM. In line with Roßmann et al. (2018), the first subgroup comparison 
+classified the panel members according to their type of organization – 
+academia (n = 54), industry (n = 31), and politics/associations 
+(n = 23) – and it was analyzed whether the stated expectations differ 
+between these three types. The second subgroup comparison divided 
+the panel into experts with experience in blockchain technology 
+(n = 60), SCM (n = 17), and both domains (n = 31) and determined 
+whether differences in ratings according to professional background 
+appeared. 
+
+
+A Kolmogorov-Smirnov test confirmed a non-normal distribution for 
+all six subgroups. A non-parametric Kruskal–Wallis H-test was then 
+conducted for the first subgroup comparison. The results revealed that 
+the estimates for the probabilities of Projection 1 (global legal frame-
+work) and Projection 6 (tracing material flows), the impact of 
+Projection 5 (trust management), and the desirability of Projection 12 
+(technological problems) differ significantly from each other. In order 
+to determine which of the three subgroups was responsible for the 
+significant difference, a post hoc Mann–Whitney U-test was performed. 
+
+
+The comparison revealed that the probability estimations for 
+Projection 1 (global legal framework) differ significantly between ex-
+perts from academia and politics/associations (p < 0.05), with aca-
+demia rating the probability of occurrence lower on average (48% 
+compared to 67%). Furthermore, the estimates of academics and in-
+dustry experts differ significantly for the impact of Projection 5 (trust 
+management) (3.6 compared to 3.0) and for the probability of 
+Projection 6 (tracing material flows) (56% compared to 67%). It was 
+further revealed that the estimates of all three subgroups show sig-
+nificant differences for the desirability of Projection 12 (technological 
+problems), which was rated at 4.1 by experts from politics/associations, 
+4.4 by industry experts, and 4.8 by academics. 
+
+
+The second subgroup comparison, which compared the estimates 
+provided by experts with experience in blockchain technology, SCM, 
+and both domains, was conducted in a similar manner to the first. It 
+revealed that the estimates regarding the desirability of Projection 14 
+(integrated blockchain) differ significantly between all three subgroups. 
+
+
+Thus, experts with experience in blockchain technology rate the evo-
+lution of one integrated multi-purpose blockchain the least desirable 
+(with an average rating of 2.5), followed by hybrid experts with 
+knowledge in both domains (with an average rating of 3.1) and SCM 
+experts (with average estimates of 3.5). Moreover, the assessments of 
+impact and desirability of Projection 15 (cryptocurrencies) indicate 
+significant differences between the opinions of experts with experience 
+in blockchain technology and those with expertise in both domains. In 
+contrast to the estimates of blockchain experts, experts with expertise in 
+both domains predict a lower impact on the industry if cryptocurrencies 
+were to serve as a standard means of payment for business-to-business 
+transactions (3.0 compared to 3.8). Additionally, the occurrence of this 
+projection is rather undesirable for hybrid experts (2.7), while it is ra-
+ther desirable for blockchain experts, who rated its desirability at an 
+average of 3.4. 
+
+
+No further significant deviations were revealed within the in-
+dividual subgroup ratings. This strengthens the credibility and validity 
+of the Delphi results, as the expected future of blockchain technology is 
+rated similarly for the remaining dimensions and topics regardless of 
+the experts’ backgrounds (Roßmann et al., 2018). 
+
+
+4.2. Discussion of experts’ long-term judgments 
+
+
+This Delphi study aims to picture the future landscape of blockchain 
+technology utilization in SCM and thus also investigate whether the 
+existing barriers, currently faced by the technology will be overcome by 
+2035. The investigation was guided by the following research question: 
+What application scenarios and potentials of blockchain technology are 
+likely to be seen in supply chain management by 2035? Matching the 
+experts’ assessments of probability and impact for each projection 
+provides the first insights regarding the experts’ opinions on this issue 
+(see Fig. 2). The subsequent analysis of the experts’ qualitative com-
+ments is divided into three separate parts, as circled in Fig. 2, and will 
+explain the respondents’ assessments in more detail. 
+
+
+4.2.1. Qualitative analysis of high-probability projections 
+In order to picture the landscape of blockchain technology utiliza-
+
+
+tion in SCM by the year 2035, the projections with the highest prob-
+ability of occurrence should be emphasized first of all. Combining them 
+creates a high-probability scenario. Fig. 2 shows that seven projections 
+share an expected probability of occurrence of over 60%, making them 
+likely to occur within the investigated horizon. As all these projections, 
+with the exception of Projection 10, have also been rated high in terms 
+of their impact (≥ 3.8), they are the ones that will shape future 
+blockchain-related SCM to a high degree. 
+
+
+Technological barriers: With an expected probability of occurrence of 
+72%, the second highest in the sample, experts assume that the tech-
+nological problems that are currently discussed in literature, such as 
+scalability issues (Foth, 2017; Tian, 2017; Preuveneers et al., 2017), 
+high transaction times (Christidis and Devetsikiotis, 2016; Tian, 2017), 
+and high power consumption (Foth, 2017; Sikorski et al., 2017), will be 
+mostly resolved by 2035 (Projection 12). The experts’ anticipation is 
+based on the ongoing development of new blockchain designs aimed at 
+
+
+Table 4a 
+Overview of significant deviations in ratings within the subgroup ”type of organization”.               
+
+
+Academia Industry Politics/Associations 
+
+
+No. Projection EP I D EP I D EP I D  
+
+
+P1 Global legal framework 48% 4.0 3.6 58% 4.2 4.1 67% 3.9 4.0 
+P5 Trust management 44% 3.6 3.3 34% 3.0 3.2 46% 3.2 3.4 
+P6 Tracing material flows 56% 3.7 3.8 67% 4.1 4.2 68% 3.9 4.0 
+P12 Technological barriers 71% 4.3 4.8 74% 3.8 4.4 72% 3.9 4.1 
+
+
+Note: EP: Expected probability; I: Impact; D: Desirability. 
+Statistically significant deviations marked in bold.  
+
+
+Table 4b 
+Overview of significant deviations in ratings within the subgroup ”professional 
+background”.               
+
+
+SCM IT SCM/IT 
+
+
+No. Projection EP I D EP I D EP I D  
+
+
+P14 Integrated blockchain 36% 3.6 3.5 34% 3.5 2.5 31% 3.5 3.1 
+P15 Cryptocurrencies 37% 3.6 2.9 51% 3.8 2.4 41% 3.0 2.7 
+
+
+Note: EP: Expected probability; I: Impact; D: Desirability. 
+Statistically significant deviations marked in bold.  
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+
+
+
+
+solving major technological problems. Through improved algorithms, 
+transaction times are expected to be reduced, scalability to be enabled, 
+and thus less power to be consumed. The Delphi panelists argue that 
+overcoming the current technological barriers will enable the wide-
+spread use of blockchain technology in SCM, which is quantified by a 
+high impact rate of 4.1 on the 5-point Likert scale. 
+
+
+Tracing material flows: One exemplary use case is its application for 
+tracing product paths along a supply chain. From a technological per-
+spective, blockchain technology is expected to be capable of providing 
+end-to-end transparency due to the secure and trustworthy exchange of 
+data. Referring to their own companies, some experts report that initial 
+projects have already been realized. The majority of panelists describe 
+the immutability of blockchain data as the main factor that makes the 
+technology suitable for tracing applications and predict a substantially 
+more extensive use by the year 2035. However, even though the experts 
+agree on its suitability for tracing products, they are uncertain as to 
+whether blockchain technology will evolve into the dominant standard 
+for tracing material flows (Projection 6). As it was argued by the pa-
+nelists, the main challenge of tracing is not necessarily keeping the 
+information saved in a database but making sure that the actual phy-
+sical item is traced. Thus, blockchain is not expected to be the stand- 
+alone solution to the tracing challenge, but will instead be combined 
+with other technologies, such as the Internet of Things (IoT), to become 
+the standard for tracing. 
+
+
+Product-related information: In addition to the business-driven tra-
+cing of goods, panelists expect that sharing other product-related in-
+formation will become an imperative as well (Projection 9), although 
+they narrowed this projection to certain data only. According to the 
+panelists’ expectations, information regarding CO2 emissions, price, or 
+working conditions will be exchanged via blockchains in the future, 
+while supply chain parties will not be interested in sharing other kinds 
+of data publicly in a blockchain – particularly confidential data, as this 
+would involve revealing business secrets. Consequently, the experts 
+stress the challenges of smart access rights and data security that need 
+to be resolved at the outset to ensure that data is accessible for the 
+desired party only. Some panelists stated that the exchange of the 
+above-mentioned data is mainly driven by societal pressure and not the 
+intrinsic motivation of organizations. Even though blockchains would 
+technologically be capable of providing absolute end-to-end transpar-
+ency, due to the above reasons it is expected that blockchain technology 
+will only create selected transparency within multi-tier supply networks 
+
+
+(Projection 4). The panelists additionally justified their estimation by 
+arguing that the integration of companies from the least developed 
+countries and of firms in remote areas are expected to be particularly 
+difficult, as these companies are unlikely to possess the necessary re-
+sources and knowhow to implement blockchain technology, at least in 
+the short term. 
+
+
+Smart contracts: The highest contribution for efficiency improve-
+ments is attributed to smart contracts, as they enable the automation of 
+supply chain processes. Due to the potential benefits of smart contracts 
+– such as the guarantee of contract enforcement, the connection of 
+unknown or untrusted parties, accuracy and efficiency gains, and cost 
+savings – industries are assumed by the Delphi panelists to strive for 
+their implementation. The disruptive character of smart contracts is 
+also underpinned by the experts' high assessment of their impact for 
+SCM (4.3), which is rated highest when compared to all other projec-
+tions in this study. An increasing flexibility regarding human interac-
+tion when things do not go as planned and the resolution of smart 
+contracts’ security problems are expected to further increase their uti-
+lization. Thus, the majority of experts estimate that operational tasks 
+will have been largely replaced by smart contracts by the year 2035 
+(Projection 3). Nevertheless, some barriers for their application are also 
+predicted. Some experts believe that the world is too complex to 
+translate the underlying processes into algorithms, which is why non- 
+standard supply chain tasks are not expected to be automated. Smart 
+contracts are also expected to be implemented at different speeds, with 
+companies from developed countries implementing them more rapidly 
+than those from developing countries, the reasons being the higher fi-
+nancial and human capital resources of the former. This inequality, say 
+the experts, will limit the broad realization of global supply chain au-
+tomation in the short run. 
+
+
+Risk management: In addition to smart contracts, another lever to 
+increase supply chain efficiency is the enhancement of supply chain risk 
+management. This has recently gained in relevance, as globalization not 
+only triggers global competition but also increases the vulnerability of 
+supply chains due to their increasing complexity (Ferdows et al., 2016;  
+Vilko et al., 2014). According to this study's interviewees, there is a 
+70% probability that the use of blockchain technology will fundamen-
+tally improve supply chain risk management by 2035 (Projection 11). 
+An interquartile range of 20 further indicates that there is a strong 
+consensus among panelists on this issue. As data shared within a 
+blockchain is usually more reliable, because it cannot be altered 
+
+
+Fig. 2. Classification of projections based on expected probability and expected impact.  
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+retrospectively, the majority of panelists foresee advantages for supply 
+chain risk management through the technology's utilization. It is as-
+sumed that the resulting gapless stream of supply chain data will lead to 
+increased transparency of supply chain processes. Due to the increased 
+transparency, supply chain risks can be handled proactively, and supply 
+chain interruptions can be identified and dealt with faster, increasing 
+the overall resilience of supply chains. The strong reliability of data is 
+also expected to lead to better anticipation and risk assessments. Con-
+sequently, all three supply chain risk management phases – identifica-
+tion, assessment, and management of risks – are assumed to be posi-
+tively influenced through the availability of blockchain data. Even 
+though the majority of experts agree on the potential of blockchain 
+technology for supply chain risk management, a few also stated that not 
+all types of risk (e.g., natural hazards) can be better managed with 
+blockchain technology, and that this will not change by 2035. Ad-
+ditionally, new risks, especially information security and privacy risks, 
+might occur through the application of blockchain technology. 
+
+
+Job profiles: When focusing on the human factor in SCM, experts 
+confirm that the utilization of blockchain technology will require new 
+skills in SCM departments (Projection 10). Within this study, it was 
+rated as the projection with the highest probability of occurrence 
+(73%). In particular, the need for skills related to IT and legal issues is 
+assumed to increase. Experts agree that increasing IT knowhow is re-
+quired for the implementation of contract-to-real-world interfaces and 
+for understanding the applicability of blockchain technology for supply 
+chain practices. There is an additional need for specialized experts with 
+expertise in planning, development, integration, operation, controlling, 
+and management of blockchain systems. Legal counseling in SCM will 
+also change due to blockchain technology, as new aspects, such as the 
+development of smarts contracts, will have to be considered. 
+Furthermore, new auditing jobs focusing on the validity of incoming 
+data will be generated, and new skills will be required to integrate 
+supply chain partners. Due to the newly required job profiles, it is as-
+sumed that a highly specialized workforce will be needed in SCM, 
+leading to a shortfall in expertise and corresponding re-skilling efforts 
+within companies. Surprisingly, the impact of this projection was rated 
+relatively low (3.5) compared to other projections (see Table 3), which 
+could be explained by the fact that job profiles are changing con-
+tinuously, especially due to the ongoing digitalization. Notwith-
+standing, investments should include a budget for re-skilling in order to 
+ensure that the workforce is qualified for its new tasks. Overall, the 
+experts’ discussion reveals that the job-related barriers listed in the 
+literature (Partida, 2018; Shanley, 2017) may challenge the im-
+plementation of blockchain technology in the short term, but they are 
+not expected to hinder its broad implementation in SCM in the future. 
+
+
+4.2.2. Qualitative analysis of medium-probability projections 
+The second set under investigation bundles projections whose 
+
+
+probability assessments concentrate in the narrow window of 54-56% 
+(see Fig. 2). All four projections are characterized by large interquartile 
+ranges, indicating a high degree of disagreement among experts. 
+Nevertheless, although the experts were not in agreement and their 
+assessments do not show any tendency toward a high or low probability 
+of occurrence, their comments reveal essential points that may influ-
+ence the future landscape of blockchain technology utilization in SCM. 
+
+
+Global legal framework: Regarding a global legal framework for the 
+application of blockchain technology in SCM, experts have differing 
+opinions on how regulations will be configured by the year 2035 
+(Projection 1). Many experts stated that the global alignment of reg-
+ulatory agreements is difficult due to complex national and interna-
+tional laws and regulations (e.g., tax and trade agreements) along with 
+different economic systems and cultures. Thus, blockchain technology 
+is not expected to be important enough to justify the enormous effort of 
+developing and agreeing on a universal international law. Others expect 
+that there will be legal agreements between certain countries only or 
+general frameworks that guide countries to develop comparable legal 
+
+
+constructs. Other experts believe that existing regulations and laws only 
+require slight adaptations, if any at all, to use blockchains in globally 
+connected supply chain networks. One panelist stated that, when 
+technology evolves, smart contracts could also be fully recognized as 
+law. 
+
+
+Regardless of the stated dissent on how regulations will be config-
+ured in the future, all statements reveal that regulations are expected to 
+be necessary for a broad implementation of blockchain technology in 
+SCM, which is why the impact of this projection was rated one of the 
+highest (4.0). According to the experts, these regulations do not have to 
+be international, as companies and involved countries will find ways to 
+regulate the application of blockchain technology by themselves. This 
+will be the standard approach, especially for private or consortium 
+blockchains, which only consist of a limited number of members. 
+Guided by their respective country-specific legal laws and data pro-
+tection regulations, member organizations will regulate the application 
+of blockchains individually. Altogether, the panelists’ comments re-
+vealed that legal issues are not expected to constitute a critical barrier 
+to blockchain's implementation in SCM in the future. Furthermore, it 
+can be concluded that, even though experts are still divided over the 
+exact configuration of blockchain regulations, they agree that regula-
+tions will be established in the future. This is in line with the study by  
+Schweizer et al. (2020), where experts predicted a legal framework for 
+blockchain applications within the European Union by the year 2028. 
+
+
+Digital interconnection: In addition to the experts’ differing opinions 
+on the probability and nature of a global legal framework by the year 
+2035, they are also are divided on blockchains role as a key trigger for 
+an IoT connected digital world (Projection 8), its ability to improve 
+companies’ demand planning capabilities (Projection 7), or companies’ 
+compliance with sustainability standards (Projection 2). 
+
+
+As the panelists stated, the use of blockchain technology will foster 
+the expansion of the IoT, especially as they foresee new solutions and 
+innovations regarding process automation; however, it will not act as 
+the key trigger. According to their argument, objects and devices may 
+be digitally connected by other technologies as well. Nevertheless, it is 
+also expected that by the year 2035, new business models combining 
+blockchain technology and IoT will be established. 
+
+
+Demand planning: In regard to Projection 7, the analysis revealed 
+that combining open access blockchain data and big data analytics 
+might have the potential to improve demand planning through the 
+provision of detailed insights into demand patterns. However, some 
+experts stated that not all demand factors are contained in blockchain 
+data (e.g., weather data) and that cybersecurity and privacy concerns 
+are additional barriers for data availability that will still exist in 2035. 
+Overall, other technologies, such as artificial intelligence and big data 
+analytics, are predicted to have a more significant impact on the im-
+provement of demand forecasts. 
+
+
+Sustainability standards: Through the improved transparency trig-
+gered by the utilization of blockchain technology in SCM, organiza-
+tions’ incentives to provide high-quality products through sustainable 
+working practices are predicted to increase (Projection 2). However, 
+with regard to accountability, it is mentioned that, even though 
+blockchain technology can prevent the manipulation of data that has 
+already been written into the blockchain, the authenticity of data inputs 
+cannot be ensured. To solve this issue in the context of sustainability, 
+physical evidence (e.g., working conditions, use of toxic material, etc.) 
+would have to be securely transferable into digital information, which 
+is currently described by experts as a bottleneck. Since no complete and 
+globally applicable solutions are expected in this regard by 2035, it is 
+assumed that future compliance with sustainability standards will be 
+ensured and reported by traditional means and selective blockchain- 
+based support in parallel. 
+
+
+4.2.3. Qualitative analysis of low-probability projections 
+The remaining four projections were evaluated with a probability of 
+
+
+occurrence of less than 50% (see Fig. 4); nevertheless, they do provide 
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+valuable insights regarding the future utilization of blockchain tech-
+nology in SCM. The discussion of these issues reveals a variety of 
+shortcomings and barriers that still need to be addressed and further 
+indicates under which circumstances the Delphi panelists expect 
+blockchain technology to be used by the year 2035. 
+
+
+Trust management: As the creation of trust is mentioned as one of the 
+most promising advantages of blockchain technology in the literature 
+(Weber et al., 2016; Nakasumi, 2017), it is surprising that the experts 
+relativize the predictions that blockchain technology will con-
+comitantly increase trust levels between SCM partners. Their assess-
+ment is based on the fact that SCM differs in one important char-
+acteristic from other areas such as finance, where trust between 
+business partners can be increased by using blockchains – namely, the 
+link with the physical world. The qualitative analysis of Projection 5 
+(trust management) reveals that experts agree unanimously on block-
+chains’ ability to increase trust for solely digital transactions, but at the 
+same time they are concerned that data might be manipulated before it 
+is entered into the blockchain. While the use of blockchains can foster 
+trust in certain business processes, experts believe that this is not en-
+sured across the entire inter-organizational SCM process chain. Thus, 
+active trust management (Projection 5) is not expected to be replaced 
+by blockchain technology by the year 2035, but rather to change its 
+focus, as only some areas of trust management, including financial 
+monitoring or tactical-spend related topics, might be completely sup-
+ported by blockchain technology. Areas such as tracing of goods or the 
+tracking of quality and social standards will stay vulnerable to data 
+entry manipulation. Due to this fact, interpersonal relationships and the 
+therewith associated high trust level are expected to be areas particu-
+larly relevant in encouraging supply chain partners to share data and in 
+ensuring the authenticity of data entered into the blockchain. This risk 
+of fraud when entering data from the physical world into a blockchain 
+led the experts in this study to regard lack of trust as a barrier for 
+blockchain implementation in SCM. To overcome this barrier, active 
+trust management is needed, which is why losing its relevance only 
+shows a low rate of desirability (3.3). 
+
+
+Data manipulation: Information security was mentioned by the ex-
+perts as a barrier for the implementation of blockchain technology in 
+SCM. This may be counterintuitive, as data immutability is a design 
+feature of the technology and one of the key reasons for its im-
+plementation. In the context of this study, experts agree that the ma-
+nipulation of data written in the blockchain will most probably not be 
+possible by the year 2035, as cybersecurity is expected to improve with 
+the massive adoption of the technology (Projection 13). Nonetheless, as 
+long as businesses are concerned that data might be manipulated before 
+it is entered into the blockchain, blockchain's security advantage as 
+proposed in the literature cannot be fully exploited in SCM. Based on 
+the analysis of Projections 5 and 13, it can be concluded that, in com-
+parison to other branches such as finance, active trust management is a 
+factor that could help to overcome these barriers and therefore is a 
+necessary factor for the successful implementation of blockchains in 
+SCM. Even though blockchain technology is evaluated as beneficial to 
+increasing transparency and improving supply chain efficiency, the 
+SCM-specific barriers related to data availability and data authenticity 
+are regarded as critical for the exploitation of blockchain's full poten-
+tial. 
+
+
+Integrated blockchain: Projection 14 focused on the interoperability 
+of blockchains, as the three trends of an increasing number of public 
+blockchain ecosystems, a growing variety of blockchain applications, 
+and the development toward private, company-owned blockchains 
+were discussed in the literature as technologically challenging for the 
+implementation of blockchain technology in SCM, raising the question 
+of inter-blockchain data exchange. Despite the increasingly fragmented 
+blockchain landscape, to exploit the full potential of this technology, 
+blockchains should be integrated in such a way that, for example, a 
+transaction on Hyperledger can retrieve information from Ethereum. In 
+an SCM context, paying a supplier via one blockchain that first requires 
+
+
+additional data from another blockchain to approve the transaction is 
+an apt example. Nevertheless, according to the majority of experts, 
+standardization of blockchain applications is not a preferred solution to 
+tackling this challenge. Thus, an integrated multi-purpose blockchain 
+that combines the features, abilities, and application areas (e.g., fi-
+nancial transactions, tracing of goods, quality control) of several spe-
+cialized, task-specific blockchains into one comprehensive blockchain 
+and operates as a standardized one-size-fits-all solution, is neither de-
+sired (2.8) nor expected (33%) (Projection 14). Instead, an integrated 
+blockchain solution is evaluated as a threat to democracy, personal 
+freedom, as well as innovation, and is assumed to represent a target for 
+all kinds of criminal and terrorist actions. Furthermore, it is expected to 
+be too complex and too energy-consuming due to the high number of 
+network partners. Application-specific and sector-specific requirements 
+will also not be covered in one single blockchain. Consequently, mul-
+tiple task-specific blockchains are expected to co-exist in the future, 
+regardless of whether they are organized as public, private, or con-
+sortium blockchains. As the need for pooling the various data of such 
+specialized blockchains increases, experts assume that in the year 2035, 
+exchanging data will be facilitated by virtual platforms. These plat-
+forms would interlink different blockchains via parent/child relation-
+ships in such a way that specialized blockchains – so-called sub- 
+blockchains – would be docked to these platforms, creating a network 
+of networks that allows different blockchains to communicate with each 
+other. According to the experts, even though the standardization of 
+blockchains might not be realized in the future, there will be suitable 
+ways to connect the increasing number of blockchains in order to ex-
+ploit the technology's full potential. It can thus be concluded that the 
+technological problem of interoperability stated in the literature 
+(Underwood, 2016) is not expected to be a barrier for the im-
+plementation of blockchains in SCM in the future. 
+
+
+Cryptocurrencies: In addition to the interoperability of blockchains, 
+the introduction of cryptocurrencies as the standard means of payment 
+for business-to-business transactions (Projection 15) is discussed by the 
+literature as another possibility for reducing transaction costs in SCM. 
+Although cryptocurrencies are expected to lower costs, speed up 
+transactions, and lead to promising use cases in combination with smart 
+contracts, the experts’ assessments suggest a divisive situation. Practical 
+hurdles and barriers predominated the experts’ evaluations. Lack of 
+governmental control, being one of cryptocurrency's potential ad-
+vantages, as well as confidentiality issues and volatility, are stated as 
+serious drawbacks. Hence, some experts assume that only if crypto-
+currency evolves and is controlled by a central bank, or if fiat money 
+becomes available in crypto form, will there be a chance that it will 
+become the standard means of payment for business-to-business 
+transactions until the year 2035. With regard to this opinion, it is also 
+mentioned that cryptocurrencies are not necessarily required as the 
+means of payment for financial, blockchain-secured business-to-busi-
+ness transactions, and the technical features of a blockchain could 
+therefore be used without the uncertainties associated with a crypto-
+currency. 
+
+
+4.3. Implications for practice and future research 
+
+
+The analysis of the projections on the basis of their probability of 
+occurrence and expected impact reveals which scenarios could arise for 
+the future application of blockchains in SCM and also reveals which 
+combined projections represent the highest-probability scenario. This 
+outlook will be of great value to researchers and managers alike, 
+especially as the quantitative results confirmed a high relevance for all 
+projections under investigation (indicated by an impact of 3.3 or 
+higher). 
+
+
+As this study looks ahead to the year 2035, it can support businesses 
+in their long-term strategic decisions, with the scenario data acting as a 
+starting point for long-term blockchain-related efforts. The derived 
+implications are valuable as guiding principles for the development of 
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+new strategies as well as reassessing existing ones. For example, man-
+agers should not solely look at the technological aspects of blockchain 
+solutions, as most technological barriers such as high energy con-
+sumption or transaction times are expected to be solved in the long run. 
+Rather, they need to focus on a secure and thorough integration of 
+supply chain partners into the blockchain network. Organizations must 
+pay particular attention to the interface between the physical world and 
+the blockchain to ensure that the data fed into the system is correct. 
+Incorrect data has a negative impact on the application of smart con-
+tracts and product tracing, hampers the success of risk management 
+activities, and reduces trust in sustainability tracking. As long as the 
+secure import of data is not guaranteed, trust management should be 
+further expanded by the organizations, even though the literature and 
+general expectations consider blockchain technology to be trust- 
+building. Regarding the legal aspects relating to the application of 
+blockchains in SCM, there was significant disagreement among experts 
+on whether a global legal framework will be established, and conse-
+quently – especially when operating private or consortium blockchains 
+that only consist of a limited number of members – organizations 
+should also think about legal aspects. Furthermore, the experts were 
+confident that job profiles in SCM will change or will be newly created 
+due to blockchain technology. As a highly specialized workforce is 
+therefore anticipated, companies should ensure that the necessary 
+personnel are hired and also take early action to initiate the required re- 
+skilling. 
+
+
+From a theoretical point of view, the study reveals areas for future 
+research. In line with other studies (Abeyratne and Monfared, 2016;  
+Kshetri, 2018; O'Leary, 2017; Bumblauskas et al., 2020), this research 
+supports the idea that blockchain technology has the potential to in-
+crease transparency and improve efficiency in supply chains. The fu-
+ture-oriented approach of the underlying study, however, revealed that 
+SCM-specific barriers related to data availability and data authenticity 
+can be regarded as critical for the exploitation of blockchain's full po-
+tential. Therefore, procedures and mechanisms for a secure and tamper- 
+proof transfer of information about physical transactions into digital 
+data need to be conceptually developed and tested in practice. The 
+results of this study also suggest that further research is needed on how 
+to combine blockchains with other technologies, for example the IoT or 
+Cyber Physical Systems – to increase the blockchain's value for tracing 
+(Projection 6). Moreover, as smart contracts (Projection 3) have been 
+rated as the application with the highest impact for SCM, the operation 
+of smart contracts in SCM should be addressed more in future research. 
+Further research should also be carried out on the contrasting assess-
+ments of the projections given by experts from academia, industry, and 
+politics/associations. For example, the estimations of academics and 
+industry experts differ significantly on the probability of Projection 6 
+(tracing material flows) (56% compared to 67%) and the impact of 
+Projection 5 (trust management) (3.6 compared to 3.0), which leads to 
+the question of why such large differences of opinion exist. It should 
+also be noted that some projections were discussed and evaluated very 
+controversially, which resulted in a lack of consensus in the experts’ 
+opinions (e.g., Projection 1). Future research projects should therefore 
+examine these projections in greater detail. 
+
+
+5. Conclusion 
+
+
+A blockchain, sometimes referred to as distributed ledger tech-
+nology, records the history of transactions between networked actors in 
+an immutable and decentralized manner; and even though a blockchain 
+has further attributes, these characteristics already indicate the poten-
+tial of the technology for SCM. In a supply chain context, blockchain 
+technology is often attributed to improvements in transparency, trust, 
+efficiency, accountability, or cost reduction (Casino et al., 2019;  
+Kshetri, 2018; O'Leary, 2017; Yong et al., 2020). However, since re-
+search on blockchain technology in the field of SCM is still in its early 
+stages and highly theoretical, there is a call for additional empirical 
+
+
+research to better understand its potential, implementation processes, 
+and future application areas (Wamba and Queiroz, 2020). This research 
+paper therefore applies a real-time Delphi methodology to gather pro-
+found long-term judgments of an international expert panel on how 
+blockchain technology will influence the future of SCM and to identify 
+potential application scenarios for the year 2035. In contrast to existing 
+scientific papers on blockchain technology in SCM, it does not only 
+consider the technical perspective, but regards policy, economics, and 
+societal aspects, taking a multi-level perspective, as these factors also 
+affect technology transition. Moreover, it involves experts with het-
+erogeneous backgrounds, providing a holistic picture of blockchain's 
+future in SCM. The study developed and discussed projections that have 
+been rated by the Delphi panelists according to their probability of 
+occurrence, impact, and desirability. 
+
+
+Through the analysis of the experts’ long-term judgments, and in 
+accordance with existing literature, transparency and efficiency are 
+confirmed as the main benefits of blockchain's utilization in SCM. 
+Moreover, the highest-ranked projections in regard to their probability 
+have been combined in a scenario, which is likely to occur within the 
+investigated horizon, offering businesses a validated starting point for 
+their blockchain strategies. The study further identifies data availability 
+and data authenticity as two major SCM-specific barriers that could 
+prevent the exploitation of potential benefits. These barriers indicate 
+that two of blockchain's promising advantages – namely manipulation 
+safety and negligibility of trust – are not entirely transferable to SCM 
+without additional conditions, as the authenticity of data entered into a 
+blockchain cannot be guaranteed. This is because SCM not only deals 
+with digital transactions, but also with physical ones that have to be 
+transferred into digital information. However, the transfer process is 
+prone to manipulation, and thus manipulated data could be entered 
+into the blockchain. Ensuring the transmission of truthful data into the 
+blockchain is therefore a crucial prerequisite for increasing the level of 
+trust and for ensuring the accuracy of all related applications, including 
+smart contracting or tracing of goods. Consequently, this study adds to 
+the existing literature by revealing that trust among business partners in 
+SCM will not be replaced by cryptographic proof alone, but that active 
+trust management at the interface between the physical and digital 
+worlds of SCM acts as the enabler. In summary, the research contributes 
+to the transfer of general technical-driven blockchain knowledge to 
+SCM-specific blockchain knowledge, which is essential, as technology 
+transition does not depend on technological aspects alone 
+(Geels, 2002). 
+
+
+As with any research, the study at hand has limitations, which 
+provide opportunities for future research. Although a systematic pro-
+cess was followed to develop the projections involving political, eco-
+nomic, social, and technological aspects, the number of projections was 
+limited to 15 to ensure an appropriate survey-processing time and to 
+reduce drop-off rates. There is therefore scope for further research, in 
+which aspects that were not explicitly considered in this Delphi study 
+could be assessed. 
+
+
+CRediT authorship contribution statement 
+
+
+Matthias Kopyto: Methodology, Validation, Formal analysis, 
+Investigation, Writing - original draft, Writing - review & editing, 
+Project administration. Sabrina Lechler: Conceptualization, 
+Methodology, Formal analysis, Investigation, Writing - original draft. 
+Heiko A. von der Gracht: Conceptualization, Methodology, Writing - 
+original draft, Writing - review & editing. Evi Hartmann: Methodology, 
+Validation, Writing - original draft. 
+
+
+References 
+
+
+Abeyratne, S.A., Monfared, R.P., 2016. Blockchain ready manufacturing supply chain 
+using distributed ledger. Int. J. Res. Eng. Technol. 5 (9), 1–10. 
+
+
+Aengenheyster, S., Cuhls, K., Gerhold, L., Heiskanen-Schüttler, M., Huck, J., Muszynska, 
+
+
+M. Kopyto, et al.   
+
+
+
+
+
+
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0001
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0001
+
+
+
+
+M., 2017. Real-time Delphi in practice – a comparative analysis of existing software- 
+based tools. Technol. Forecast. Soc. Change 118, 15–27. https://doi.org/10.1016/j. 
+techfore.2017.01.023. 
+
+
+Ahram, T., Sargolzaei, A., Sargolzaei, S., Daniels, J., Amaba, B., 2017. “Blockchain 
+technology innovations. In: Proceedings of the IEEE Technology and Engineering 
+Management Conference (TEMSCON). 8–10 June, Santa Clara, USA. 
+
+
+Alangot, B., Achuthan, K., 2017. Trace and track. Enhanced pharma supply chain infra-
+structure to prevent fraud. In: Kumar, N., Thakre, A. (Eds.), Ubiquitous 
+Communications and Network Computing: First International Conference. Springer, 
+Cham, pp. 189–195. 
+
+
+Ammous, S. (2016), “Blockchain technology. What is it good for?”, available at: https:// 
+ssrn.com/abstract=2832751 (accessed 23 March 2020). 
+
+
+Armstrong, S.J., Overton, T.S., 1977. Estimating nonresponse bias in mail surveys. J. 
+Mark. Res. 14 (3), 396–402. 
+
+
+Banker, S. (2018), “The growing maturity of blockchain for supply chain management”, 
+available at: https://www.forbes.com/sites/stevebanker/2018/02/22/the-growing- 
+maturity-of-blockchain-for-supply-chain-management/#6aba532e11da (accessed 23 
+March 2020). 
+
+
+Beck, R., Mueller-Bloch, C., 2017. “Blockchain as radical innovation. A framework for 
+engaging with distributed ledgers”. In: Proceedings of the Fiftieth Hawaii 
+International Conference on System Sciences. 4–7 Jan, Waikoloa, Hawaii. 
+
+
+Best, R.J., 1974. An experiment in Delphi estimation in marketing decision making. J. 
+Mark. Res. 11 (4), 448–452. 
+
+
+Bocek, T., Rodrigues, B.B., Strasser, T., Stiller, B., 2017. Blockchains everywhere. A use- 
+case of Blockchains in the pharma supply-chain. In: Proceedings of the IFIP/IEEE 
+Symposium on Integrated Network and Service Management (IM). 8–12 May, Lisbon, 
+Portugal. 
+
+
+Bogart, S., Rice, K., 2015. The Blockchain Report: Welcome to the Internet of Value. 
+Needham Insights. 
+
+
+Borioli, G.S., Couturier, J., 2018. How blockchain technology can improve the outcomes 
+of clinical trials. Br. J. Healthc. Manag. 24 (3), 156–162. https://doi.org/10.12968/ 
+bjhc.2018.24.3.156. 
+
+
+Bumblauskas, D., Mann, A., Dugan, B., Rittmer, J., 2020. A blockchain use case in food 
+distribution: do you know where your food has been? Int. J. Inf. Manag. 52, 102008. 
+
+
+Casey, M.J., Wong, P., 2017. Global supply chains are about to get better, thanks to 
+blockchain. Harvard Bus. Rev. 13, 2–6. 
+
+
+Casino, F., Dasaklis, T.K., Patsakis, C., 2019. A systematic literature review of blockchain- 
+based applications: current status, classification and open issues. Telem. Inform. 36, 
+55–81. 
+
+
+Chen, S., Shi, R., Ren, Z., Yan, J., Shi, Y., Zhang, J., 2017. A blockchain-based supply 
+chain quality management framework. In: Hussain, O. (Ed.), Proceedings of The 
+Fourteenth IEEE International Conference on e-Business Engineering. IEEE, 
+Piscataway, NJ, pp. 172–176. 
+
+
+Christidis, K., Devetsikiotis, M., 2016. Blockchains and smart contracts for the internet of 
+things. IEEE Access 4, 2292–2303. 
+
+
+Christopher, M., Towill, D., 2001. An integrated model for the design of agile supply 
+chains. Int. J. Phys. Distrib. Log. Manag. 31 (4), 235–246. 
+
+
+CoinMarketCap, 2020. Total market capitalization crypotcurrencies.  available at: 
+https://coinmarketcap.com/charts/ (accessed 23 March 2020). 
+
+
+Collomb, A., Sok, K., 2016. Blockchain/Distributed ledger technology (DLT): what impact 
+on the financial sector? Commun. Strat. 103, 93–111. 
+
+
+Crosby, M., Nachiappan, Pattanayak, P., Verma, S., Kalyanaraman, V., 2016. Blockchain 
+technology. Beyond bitcoin. Appl. Innov. Rev. 2, 6–19. 
+
+
+Dalkey, Norman Crolee, 1967. Delphi. Delphi. RAND Corporation, Santa Monica, 
+California Santa Monica, California. 
+
+
+Dalkey, N., Helmer, O., 1963. An Experimental application of the DELPHI method to the 
+use of experts. Manag. Sci. 9 (3), 458–467. 
+
+
+Diamond, I.R., Grant, R.C., Feldman, B.M., Pencharz, P.B., Ling, S.C., Moore, A.M., Wales, 
+P.W., 2014. Defining consensus. A systematic review recommends methodologic 
+criteria for reporting of Delphi studies. J. Clin. Epidemiol. 67 (4), 401–409. https:// 
+doi.org/10.1016/j.jclinepi.2013.12.002. 
+
+
+Dinwoodie, J., Landamore, M., Rigot-Muller, P., 2014. Dry bulk shipping flows to 2050: 
+Delphi perceptions of early career specialists. Technol. Forecast. Soc. Change 88, 
+64–75. 
+
+
+Dunn, W.N., 2004. Public Policy Analysis: An Introduction, 3rd ed. Pearson Prentice Hall. 
+Ecken, P., Gnatzy, T., von der Gracht, H.A., 2011. Desirability bias in foresight. 
+
+
+Consequences for decision quality based on Delphi results. Technol. Forecast. Soc. 
+Change 78 (9), 1654–1670. https://doi.org/10.1016/j.techfore.2011.05.006. 
+
+
+Ferdows, K., Vereecke, A., Meyer, A.de, 2016. Delayering the global production network 
+into congruent subnetworks. J. Oper. Manag. 41 (1), 63–74. 
+
+
+Foerster, B., von der Gracht, H.A., 2014. Assessing Delphi panel composition for strategic 
+foresight. A comparison of panels based on company-internal and external partici-
+pants. Technol. Forecast. Soc. Change 84, 215–229. https://doi.org/10.1016/j. 
+techfore.2013.07.012. 
+
+
+Foth, M., 2017. The promise of blockchain technology for interaction design. In: Soro, A. 
+(Ed.), Proceedings of the 29th Australian Computer-Human Interaction Conference. 
+The Association for Computing Machinery, New York, NY, pp. 513–517. 
+
+
+Fritschy, C., Spinler, S., 2019. The impact of autonomous trucks on business models in the 
+automotive and logistics industry–a Delphi-based scenario study. Technol. Forecast. 
+Soc. Change 148. 
+
+
+Gao, Z., Xu, L., Chen, L., Zhao, X., Lu, Y., Shi, W., 2018. CoC. A unified distributed ledger 
+based supply chain management system. J. Comput. Sci. Technol. 33 (2), 237–248. 
+
+
+Garrett, R., 2017. How blockchain is transforming the supply chain. Supply Demand 
+Chain Execut. 18 (2), 10–14. 
+
+
+Gausemeier, J., Fink, A., Schlake, O., 1998. Scenario management: an approach to de-
+velop future potentials. Technol. Forecast. Soc. Change 59 (2), 111–130. 
+
+
+Geels, F.W., 2002. Technological transitions as evolutionary reconfiguration processes. A 
+multi-level perspective and a case-study. Res. Policy 31, 1257–1274. 
+
+
+Geels, F.W., 2004. From sectoral systems of innovation to socio-technical systems. Res. 
+Policy 33 (6–7), 897–920. 
+
+
+Geels, F.W., Schot, J., 2007. Typology of sociotechnical transition pathways. Res. Policy 
+36 (3), 399–417. 
+
+
+Geist, M.R., 2010. Using the Delphi method to engage stakeholders. A comparison of two 
+studies. Eval. Program Plann. 33 (2), 147–154. 
+
+
+Gnatzy, T., Warth, J., von der Gracht, H.A., Darkow, I.-L., 2011. Validating an innovative 
+real-time Delphi approach – a methodological comparison between real-time and 
+conventional Delphi studies. Technol. Forecast. Soc. Change 78 (9), 1681–1694. 
+https://doi.org/10.1016/j.techfore.2011.04.006. 
+
+
+Gordon, T., Pease, A., 2006. RT Delphi: An efficient, "round-less" almost real time Delphi 
+method. Technol. Forecast. Soc. Change 73 (4), 321–333. 
+
+
+Graefe, A., Armstrong, J.S., 2011. Comparing face-to-face meetings, nominal groups, 
+Delphi and prediction markets on an estimation task. Int. J. Forecast. 27 (1), 
+183–195. 
+
+
+Gray, P., Hovav, A., 2008. From hindsight to foresight: applying futures research tech-
+niques in information systems. Commun. Assoc. Inf. Syst. 22, 211–234. 
+
+
+Gupta, U.G., Clarke, R.E., 1996. Theory and applications of the Delphi technique: a 
+bibliography (1975–1994). Technol. Forecast. Soc. Change 53 (2), 185–211. 
+
+
+Haughwout, J., 2018. Tracking medicine by transparent blockchain. Pharmaceut. 
+Process. (January/February), 24–26. 
+
+
+Hirschinger, M., Spickermann, A., Hartmann, E., von der Gracht, H.A., Darkow, I.-L., 
+2015. The future of logistics in emerging markets-fuzzy clustering scenarios grounded 
+in institutional and factor-market rivalry theory. J. Supply Chain Manag. 51 (4), 
+73–93. https://doi.org/10.1111/jscm.12074. 
+
+
+Holland, M., Nigischer, C., Stjepandic, J., 2017. Copyright protection in additive manu-
+facturing with blockchain approach. Adv. Transdiscipl. Eng. 5, 914–921. 
+
+
+Hsiao, J.-H., Tso, R., Chen, C.-M., Wu, M.-E., 2018. Decentralized E-voting systems based 
+on the blockchain technology. In: Park, J.J., Loia, V., Yi, G., Sung, Y. (Eds.), Advances 
+in Computer Science and Ubiquitous Computing, Lecture Notes in Electrical 
+Engineering 474. Springer Singapore, Singapore, pp. 305–309. 
+
+
+Iansiti, M., Lakhani, K.R., 2017. The truth about blockchain. Harvard Bus. Rev. 95 (1), 
+118–127. 
+
+
+Jiang, R., Kleer, R., Piller, F.T., 2017. Predicting the future of additive manufacturing: a 
+Delphi study on economic and societal implications of 3D printing for 2030. Technol. 
+Forecast. Soc. Change 117, 84–97. 
+
+
+Johnson, J.L., 1976. A ten-year Delphi forecast in the electronics industry. Ind. Mark. 
+Manag. 5, 45–55. 
+
+
+Keller, J., von der Gracht, H., 2014. The influence of information and communication 
+technology (ICT) on future foresight processes – results from a Delphi survey. 
+Technol. Forecast. Soc. Change 85, 81–92. 
+
+
+Khan, M.A., Salah, K., 2018. IoT security. Review, blockchain solutions, and open chal-
+lenges. Fut. Gener. Comput. Syst. 82, 395–411. 
+
+
+Klassen, R.D., Whybark, D.C., 1994. Barriers to the management of international opera-
+tions. J. Oper. Manag. (11), 385–396. 
+
+
+Korpela, K., Hallikas, J., Dahlberg, T., 2017. “Digital supply chain transformation toward 
+blockchain integration. In: Proceedings of the Fiftieth Hawaii International 
+Conference on System Sciences. 4–7 Jan, Waikoloa, Hawaii. 
+
+
+Kshetri, N., 2017a. Blockchain's roles in strengthening cybersecurity and protecting 
+privacy. Telecommun. Policy 41 (10), 1027–1038. 
+
+
+Kshetri, N., 2017b. Can blockchain strengthen the internet of things? IT Prof. 19 (4), 
+68–72. 
+
+
+Kshetri, N., 2018. 1 Blockchain's roles in meeting key supply chain management objec-
+tives. Int. J. Inf. Manag. 39, 80–89. 
+
+
+Kurpjuweit, S., Schmidt, C.G., Klöckner, M., Wagner, S.M., 2019. Blockchain in additive 
+manufacturing and its impact on supply chains. J. Bus. Logist. 1–25. 
+
+
+Landeta, J., 2006. Current validity of the Delphi method in social sciences. Technol. 
+Forecast. Soc. Change 73 (5), 467–482. 
+
+
+Lee, J.-H., Pilkington, M., 2017. How the blockchain revolution will reshape the con-
+sumer electronics industry. IEEE Consum. Electron. Mag. 6 (3), 19–23. 
+
+
+Liao, C.-F., Bao, S.-W., Cheng, C.-J., Chen, K., 2017. “On design issues and architectural 
+styles for blockchain-driven IoT services. In: Proceedings of the IEEE International 
+Conference on Consumer Electronics. 12–14 June, Taipei, Taiwan. 
+
+
+Linstone, H.A., Turoff, M., 1975. The Delphi Method: Techniques and applications. 
+Addison-Wesley Publishing, Boston, MA. 
+
+
+Loop, P., 2016. Blockchain. The next evolution of supply chains. Mater. Handl. Logist. 71 
+(10), 22–24. 
+
+
+Loveridge, D., 2002. On Delphi Quesions (No. 31). The University of Manchester, 
+Manchester, UK. 
+
+
+Lu, Q., Xu, X., 2017. Adaptable blockchain-based systems. A case study for product tra-
+ceability. IEEE Softw. 34 (6), 21–27. 
+
+
+Mackey, T.K., Nayyar, G., 2017. A review of existing and emerging digital technologies to 
+combat the global trade in fake medicines. Exp. Opin. Drug Saf. 16 (5), 587–602. 
+https://doi.org/10.1080/14740338.2017.1313227. 
+
+
+Madhwal, Y., Panfilov, P., 2017. Blockchain and supply chain management. Aircrafts’ 
+parts’ business case. In: Proceedings of the Twenty-eighth International DAAAM 
+Symposium. 8–11 Nov, Zadar, Croatia. 
+
+
+Markmann, C., Spickermann, A., Von Der Gracht, H., Brem, A., 2020. Improving the 
+question formulation in Delphi-like surveys: Analysis of the effects of abstract lan-
+guage and amount of information on response behavior. Futures & Foresight Science 
+e56. https://doi.org/10.1002/ffo2.56. 
+
+
+Melander, L., Dubois, A., Hedvall, K., Lind, F., 2019. Future goods transport in Sweden 
+2050: using a Delphi-based scenario analysis. Technol. Forecast. Social Change 138, 
+178–189. 
+
+
+Mettler, M., 2016. “Blockchain technology in healthcare. The revolution starts here”. In: 
+Proceedings of the IEEE Eighteenth International Conference on e-Health 
+Networking. 14–17 Sep, Munich, Germany. Applications and Services (Healthcom). 
+
+
+Mitchell, V., 1996. Assessing the reliability and validity of questionnaires: an empirical 
+example. J. Appl. Manag. Stud. 5 (2), 199–208. 
+
+
+Morabito, V., 2017. Business Innovation through Blockchain: The B3 Perspective. 
+Springer, Cham. 
+
+
+Müßigmann, B., von der Gracht, H.A., Hartmann, E., 2020. Blockchain technology in 
+
+
+M. Kopyto, et al.   
+
+
+
+https://doi.org/10.1016/j.techfore.2017.01.023
+
+https://doi.org/10.1016/j.techfore.2017.01.023
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0003
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0003
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0003
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0004
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0004
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0004
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0004
+
+https://ssrn.com/abstract=2832751
+
+https://ssrn.com/abstract=2832751
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0006
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0006
+
+https://www.forbes.com/sites/stevebanker/2018/02/22/the-growing-maturity-of-blockchain-for-supply-chain-management/#6aba532e11da
+
+https://www.forbes.com/sites/stevebanker/2018/02/22/the-growing-maturity-of-blockchain-for-supply-chain-management/#6aba532e11da
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0008
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0008
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0008
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0009
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0009
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0010
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0011
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0011
+
+https://doi.org/10.12968/bjhc.2018.24.3.156
+
+https://doi.org/10.12968/bjhc.2018.24.3.156
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0013
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0013
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0014
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0014
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0015
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0015
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0015
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0016
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0017
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0017
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0018
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0018
+
+https://coinmarketcap.com/charts/
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0020
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0020
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0021
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0021
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0022
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0022
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0023
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0023
+
+https://doi.org/10.1016/j.jclinepi.2013.12.002
+
+https://doi.org/10.1016/j.jclinepi.2013.12.002
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0025
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0025
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0025
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0026
+
+https://doi.org/10.1016/j.techfore.2011.05.006
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0028
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0028
+
+https://doi.org/10.1016/j.techfore.2013.07.012
+
+https://doi.org/10.1016/j.techfore.2013.07.012
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0030
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0030
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0030
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0031
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0031
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0031
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0032
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0032
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0033
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0033
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0034
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0034
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0035
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0035
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0036
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0036
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0037
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0037
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0038
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0038
+
+https://doi.org/10.1016/j.techfore.2011.04.006
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0040
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0040
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0041
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0041
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0041
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0042
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0042
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0043
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0043
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0044
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0044
+
+https://doi.org/10.1111/jscm.12074
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0046
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0046
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0047
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0047
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0047
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0047
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0048
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0048
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0049
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0049
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0049
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0051
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0051
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0051
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0052
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0052
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0053
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0053
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0054
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0054
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0054
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0055
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0055
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0056
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0056
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0057
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0057
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0059
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0059
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0060
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0060
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0061
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0061
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0061
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0062
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0062
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0063
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0063
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0064
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0064
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0065
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0065
+
+https://doi.org/10.1080/14740338.2017.1313227
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0067
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0067
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0067
+
+https://doi.org/10.1002/ffo2.56
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0068
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0068
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0068
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0069
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0069
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0069
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0070
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0070
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0071
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0071
+
+
+
+
+logistics and supply chain management—A bibliometric literature review from 2016 
+to january 2020. IEEE Trans. Eng. Manag. 1–20. https://doi.org/10.1109/TEM.2020. 
+2980733. 
+
+
+Nakamoto, S. (2008), “Bitcoin. A peer-to-peer electronic cash system”, available at: 
+https://bitcoin.org/bitcoin.pdf (accessed 23 March 2020). 
+
+
+Nakasumi, M., 2017. Information sharing for supply chain management based on block 
+chain technology. In: Proceedings of the IEEE Nineteenth Conference on Business 
+Informatics (CBI). 24-27 July, Thessaloniki, Greece. 
+
+
+Ogden, J.A., Petersen, K.J., Carter, J.R., Monczka, R.M., 2005. Supply chain management 
+strategies for the future. A Delphi study. J. Supply Chain Manag. 41 (3), 29–48. 
+
+
+Okoli, C., Pawlowski, S.D., 2004. The Delphi method as a research tool: an example, 
+design considerations and applications. Inf. Manag. 42 (1), 15–29. 
+
+
+O'Leary, D.E., 2017. Configuring blockchain architectures for transaction information in 
+blockchain consortiums: the case of accounting and supply chain systems. Intel. Syst. 
+Acc. Financ. Manag. 24 (4), 138–147. 
+
+
+Parenté, F.J., Anderson-Parenté, J.K., 1987. Delphi inquiry systems. In: Wright, G., Ayton, 
+P. (Eds.), Judgemental Forecasting. John Wiley & Sons, Chichester, pp. 129–156. 
+
+
+Parenté, R.J., Anderson-Parenté, J.K., 2011. A case study of long-term Delphi accuracy. 
+Technol. Forecast. Social Change 78 (9), 1705–1711. 
+
+
+Partida, B., 2018. Blockchain's great potential. Supply Chain Manag. Rev. 22 (4), 24–25. 
+Phadnis, S.S., 2019. Effectiveness of Delphi- and scenario planning-like processes in en-
+
+
+abling organizational adaptation: a simulation-based comparison. Fut. Foresight Sci. 
+1 (2), e9. https://doi.org/10.1002/ffo2.9. 
+
+
+Pilkington, M., 2016. Blockchain Technology: Principles and Applications. Research 
+Handbook on Digital Transformations. Edward Elgar Publishing, pp. 225–253. 
+
+
+Polim, R., Hu, Q., Kumara, S., 2017. Blockchain in megacity logistics. In: Coperich, K., 
+Cudney, E., Nembhard, H.B. (Eds.), Industrial and Systems Engineering Conference. 
+Curran Associates Inc, Red Hook, NY, pp. 1589–1594. 
+
+
+Preuveneers, D., Joosen, W., Ilie-Zudor, E., 2017. Trustworthy data-driven networked 
+production for customer-centric plants. Ind. Manag. Data Syst. 117 (10), 2305–2324. 
+
+
+Rikkonen, P., Tapio, P., 2009. Future prospects of alternative agro-based bioenergy use in 
+Finland-Constructing scenarios with quantitative and qualitative Delphi data. 
+Technol. Forecast. Soc. Change 76 (7), 978–990. 
+
+
+Riley, S., 2017. How blockchain is poised to impact supply chains. Suppl. Demand Chain 
+Execut. (September), 24–25. 
+
+
+Roßmann, B., Canzaniello, A., von der Gracht, H.A., Hartmann, E., 2018. The future and 
+social impact of Big Data Analytics in Supply Chain Management: Results from a 
+Delphi study. Technol. Forecast. Soc. Change 130, 135–149. https://doi.org/10. 
+1016/j.techfore.2017.10.005. 
+
+
+Rowe, G., Wright, G., 1996. The impact of task characteristics on the performance of 
+structured group forecasting techniques. Int. J. Forecast. 12 (1), 73–89. 
+
+
+Rowe, G., Wright, G., 1999. The Delphi technique as a forecasting tool. Issues and ana-
+lysis. Int. J. Forecast. 15 (4), 353–375. 
+
+
+Rowe, G., Wright, G., 2001. Expert opinion in forecasting. The role of the Delphi tech-
+nique. In: Armstrong, J.S. (Ed.), Principles of Forecasting: A Handbook for 
+Researchers and Practitioners. Kluwer Academic, Boston, MA, pp. 125–144. 
+
+
+Rowe, G., Wright, G., Bolger, F., 1991. Delphi: A reevaluation of research and theory. 
+Technol. Forecast. Soc. Change 39 (3), 235–251. 
+
+
+Salancik, J.R., Wenger, W., Helfer, E., 1971. The construction of Delphi event statements. 
+Technol. Forecast. Soc. Change 3 (C), 65–73. 
+
+
+Schoeman, M.E.F., Mahajan, V., 1977. Using the Delphi method to assess community 
+health needs. Technol. Forecast. Soc. Change 10 (2), 203–210. 
+
+
+Schweizer, A., Knoll, P., Urbach, N., von der Gracht, H.A., Hardjono, T., 2020. To what 
+extent will blockchain drive the machine economy? Perspectives from a prospective 
+study. IEEE Trans. Eng. Manag. 1–15. https://doi.org/10.1109/TEM.2020.2979286. 
+
+
+Shanley, A., 2017. Could blockchain improve pharmaceutical supply chain security? 
+Pharmaceut. Technol. 3, 34–39. 
+
+
+Sikorski, J.J., Haughton, J., Kraft, M., 2017. Blockchain technology in the chemical in-
+dustry. Machine-to-machine electricity market. Appl. Energy 195, 234–246. 
+
+
+Skulmoski, G.J., Hartman, F.T., Krahn, J., 2007. The Delphi method for graduate re-
+search. J. Inf. Technol. Educ. 6, 1–21. 
+
+
+Spickermann, A., Grienitz, V., von der Gracht, H.A., 2014. Heading towards a multimodal 
+city of the future?: Multi-stakeholder scenarios for urban mobility. Technol. Forecast. 
+Soc. Change 89, 201–221. https://doi.org/10.1016/j.techfore.2013.08.036. 
+
+
+Steinert, M., 2009. A dissensus based online Delphi approach: An explorative research 
+tool. Technol. Forecast. Soc. Change 76 (3), 291–300. 
+
+
+Strauss, A.L., Corbin, J.M., 1990. Basics of Qualitative Research: Grounded Theory 
+Procedures and Techniques. Sage Publications, Newbury Park. 
+
+
+Swan, M., 2015. Blockchain: Blueprint for a New Economy, First edition. O'Reilly, Beijing, 
+Sebastopol CA. 
+
+
+Tian, F., 2016. “An agri-food supply chain traceability system for China based on RFID & 
+blockchain technology. In: Proceedings of the Thirteenth International Conference on 
+Service Systems and Service Management (ICSSSM). 24-26 June, Kunming, China. 
+
+
+Tian, F., 2017. “A supply chain traceability system for food safety based on HACCP, 
+blockchain & internet of things. In: Proceedings of the International Conference on 
+Service Systems and Service Management. 16–18 June, Dalian, China. 
+
+
+Torres, L., 2005. Service charters: reshaping trust in government – the case of Spain. 
+Public Admin. Rev. 65 (6), 687–699. 
+
+
+Tschorsch, F., Scheuermann, B., 2016. Bitcoin and beyond: a technical survey on de-
+centralized digital currencies. IEEE Commun. Surv. Tutor. 18 (3), 2084–2123. 
+
+
+Tse, D., Zhang, B., Yang, Y., Cheng, C., Mu, H., 2017. “Blockchain application in food 
+supply information security. In: Proceedings of the IEEE International Conference on 
+Industrial Engineering and Engineering Management (IEEM), 10–13 Dec, Singapore. 
+Singapore. 
+
+
+Underwood, S., 2016. Blockchain beyond bitcoin. Commun. ACM 59 (11), 15–17. 
+van Engelenburg, S., Janssen, M., Klievink, B., 2017. Design of a software architecture 
+
+
+supporting business-to-government information sharing to improve public safety and 
+security. J. Intell. Inf. Syst. 30 (5), 1–24. 
+
+
+Vilko, J., Ritala, P., Edelmann, J., 2014. On uncertainty in supply chain risk management. 
+Int. J. Logist. Manag. 25 (1), 3–19. 
+
+
+von der Gracht, H.A., 2008. The Delphi Technique for Futures Research. The Future of 
+Logistics: Scenarios for 2025. Gabler, Wiesbaden, pp. 21–68. 
+
+
+von der Gracht, H.A., 2012. Consensus measurement in Delphi studies. Review and im-
+plications for future quality assurance. Technol. Forecast. Soc. Change 79 (8), 
+1525–1536. https://doi.org/10.1016/j.techfore.2012.04.013. 
+
+
+von der Gracht, H.A., Darkow, I.-L., 2010. Scenarios for the logistics services industry. A 
+Delphi-based analysis for 2025. Int. J. Prod. Econo. 127 (1), 46–59. https://doi.org/ 
+10.1016/j.ijpe.2010.04.013. 
+
+
+Wagner, S.M., Kemmerling, R., 2010. Handling nonresponse in logistics research. J. Bus. 
+Logist. 31 (2), 357–381. 
+
+
+Wamba, S.F., Queiroz, M.M., 2020. Blockchain in the operations and supply chain 
+management: benefits, challenges and future research opportunities. In. J. Inf. 
+Manag. 52, 102064. 
+
+
+Wang, J., Wu, P., Wang, X., Shou, W., 2017. The outlook of blockchain technology for 
+construction engineering management. Front. Eng. Manag. 4 (1), 67–75. 
+
+
+Wang, Y., Han, J.H., Beynon-Davies, P., 2018. Understanding blockchain technology for 
+future supply chains: a systematic literature review and research agenda. Supply 
+Chain Manag.: Int. J. 24 (1), 62–84. 
+
+
+Warth, J., von der Gracht, H.A., Darkow, I.-L., 2013. A dissent-based approach for multi- 
+stakeholder scenario development – The future of electric drive vehicles. Technol. 
+Forecast. Soc. Change 80 (4), 566–583. https://doi.org/10.1016/j.techfore.2012.04. 
+005. 
+
+
+Weber, I., Xu, X., Riveret, R., Governatori, G., Ponomarev, A., Mendling, J., 2016. 
+Untrusted business process monitoring and execution using blockchain. In: La Rosa, 
+M., Loos, P., Pastor, O. (Eds.), Business Process Management: Lecture Notes in 
+Computer Science. Springer, Cham, pp. 329–347. 
+
+
+Webler, T., Levine, D., Rakel, H., Renn, O., 1991. A novel approach to reducing un-
+certainty. The Group Delphi. Technol. Forecast. Soc. Change 39 (3), 253–263. 
+
+
+White, G.R.T., 2017. Future applications of Blockchain in business and management. A 
+Delphi Study. Strat. Change 26 (5), 439–451. 
+
+
+Winkler, J., Kuklinski, C.P.J.-W., Moser, R., 2015. Decision making in emerging markets. 
+The Delphi approach's contribution to coping with uncertainty and equivocality. J. 
+Bus. Res. 68 (5), 1118–1126. 
+
+
+Winkler, J., Moser, R., 2016. Biases in future-oriented Delphi studies. A cognitive per-
+spective. Technol. Forecast. Soc. Change 105, 63–76. 
+
+
+Wu, H., Li, Z., King, B., Ben Miled, Z., Wassick, J., Tazelaar, J., 2017. A distributed ledger 
+for supply chain physical distribution visibility. Information 8 (4), 137. 
+
+
+Yeoh, P., 2017. Regulatory issues in blockchain technology. J. Financ. Regul. Compl. 25 
+(2), 196–208. 
+
+
+Yong, B., Shen, J., Liu, X., Li, F., Chen, H., Zhou, Q., 2020. An intelligent blockchain- 
+based system for safe vaccine supply and supervision. Int. J. Inform. Manag. 52, 
+102024. 
+
+
+Zheng, Z., Xie, S., Dai, H., Chen, X., Wang, H., 2017. An overview of blockchain tech-
+nology: architecture, consensus, and future trends. In: Proceedings IEEE International 
+Congress Big Data (BigData Congress), pp. 557–564.  
+
+
+Matthias Kopyto is a Doctoral Candidate and Research Assistant at the Chair of Supply 
+Chain Management at the Friedrich-Alexander University Erlangen-Nuremberg, 
+Germany. He earned a M.Sc. in Business Administration at the Friedrich-Alexander 
+University Erlangen-Nuremberg. His research interests focus on supply chain digitaliza-
+tion, supply chain transparency and blockchain technology.  
+
+
+Dr. Sabrina Lechler is a Guest Researcher at the Chair of Supply Chain Management at 
+the Friedrich-Alexander University Erlangen-Nuremberg, Germany. She earned a M.Sc. in 
+Industrial Engineering at the Friedrich-Alexander University Erlangen-Nuremberg. Her 
+research interests focus on sustainable supply chain management, big data analytics and 
+blockchain technology.  
+
+
+Dr. Heiko A. von der Gracht is Professor of Futures Studies and Foresight at Steinbeis 
+University, School of International Business and Entrepreneurship (SIBE), in Germany. 
+Before he was Associate Professor at University of Erlangen–Nuremberg. He holds a PhD 
+in Business Studies from EBS University of Business and Law, Germany. His research 
+interests encompass corporate foresight, the Delphi and scenario techniques, foresight 
+skills and education, and quality standards in futures research. His works have been 
+published in several books and peer-reviewed journals, including Technological Forecasting 
+& Social Change, Journal of Business Research, and Journal of Supply Chain Management.  
+
+
+Evi Hartmann (Dr.-Ing., Technical University Berlin) is Professor of Supply Chain 
+Management at the Friedrich-Alexander University Erlangen-Nuremberg, Germany. Her 
+primary areas of research include purchasing and supply management, global sourcing, 
+and supply chain management. She has published in the International Journal of Production 
+Economics, Journal of Business Logistics, International Journal of Physical Distribution & 
+Logistics Management, Journal of Supply Chain Management, and other managerial and 
+academic outlets.  
+
+
+M. Kopyto, et al.   
+
+
+
+https://doi.org/10.1109/TEM.2020.2980733
+
+https://doi.org/10.1109/TEM.2020.2980733
+
+https://bitcoin.org/bitcoin.pdf
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0074
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0074
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0074
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0075
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0075
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0076
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0076
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0077
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0077
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0077
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0078
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0078
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0079
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0079
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0080
+
+https://doi.org/10.1002/ffo2.9
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0082
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0082
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0083
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0083
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0083
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0084
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0084
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0085
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0085
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0085
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0086
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0086
+
+https://doi.org/10.1016/j.techfore.2017.10.005
+
+https://doi.org/10.1016/j.techfore.2017.10.005
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0088
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0088
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0089
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0089
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0090
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0090
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0090
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0091
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0091
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0092
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0092
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0093
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0093
+
+https://doi.org/10.1109/TEM.2020.2979286
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0095
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0095
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0096
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0096
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0097
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0097
+
+https://doi.org/10.1016/j.techfore.2013.08.036
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0099
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0099
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0100
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0100
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0101
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0101
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0102
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0102
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0102
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0103
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0103
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0103
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0104
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0104
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0105
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0105
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0106
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0106
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0106
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0106
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0107
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0108
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0108
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0108
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0109
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0109
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0110
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0110
+
+https://doi.org/10.1016/j.techfore.2012.04.013
+
+https://doi.org/10.1016/j.ijpe.2010.04.013
+
+https://doi.org/10.1016/j.ijpe.2010.04.013
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0113
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0113
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0114
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0114
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0114
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0115
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0115
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0116
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0116
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0116
+
+https://doi.org/10.1016/j.techfore.2012.04.005
+
+https://doi.org/10.1016/j.techfore.2012.04.005
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0118
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0119
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0119
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0120
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0120
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0121
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0121
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0121
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0122
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0122
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0123
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0123
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0124
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0124
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0125
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0125
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0125
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0126
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0126
+
+http://refhub.elsevier.com/S0040-1625(20)31156-2/sbref0126
+
+

@@ -1,0 +1,3005 @@
+
+
+
+
+
+
+
+
+
+
+348  |    Business Ethics: A Eur Rev. 2020;29:348–359.wileyonlinelibrary.com/journal/beer
+
+
+1  | INTRODUC TION
+
+
+Since the inception of Bitcoin (Law, Sabett and Solinas 1996; 
+Nakamoto, 2008), mainstream media has been treating this particular 
+cryptocurrency as tantamount to blockchain technology in general. 
+Yet, if blockchain technology was a planet, cryptocurrencies would 
+be only a small continent, with Bitcoin registering as no more than a 
+single nation. The media hype over Bitcoin appears thus inversely pro-
+portional to the real impact to be expected from blockchain technol-
+ogy at large. The same holds true for the adverse aspects of Bitcoin. 
+While it is true, for example, that currently the mining of blockchain 
+products consumes energy of around 47 terawatt-hours per year, 
+equal to the carbon footpring of “some 6.8 million average European 
+inhabitants,” (Foteinis, 2018), high-energy use is no necessary feature 
+of blockchain technology, although frequent in first-generation ap-
+plications. Many second- and third-generation blockchains, however, 
+are so programmed as to reduce or prevent that problem—or even 
+
+
+make a net positive contribution to energy conservation, as is the case 
+with “Solar Coin” (Dierksmeier & Seele, 2016).
+
+
+Academic literature has accordingly begun to look beyond cryp-
+tocurrencies and turn its attention toward blockchain technology 
+in general. There is a plethora of work (for a recent overview see 
+Klarin, 2020 or Xu, Chen, & Kou, 2019) from the angle of information 
+technology, computer science, and network theory. Less ample but 
+also fast growing is the literature on juridical questions, on politi-
+cal regulation, and on the industrial governance of the technology. 
+What lacks, thus far, are analyses from a business ethics perspective, 
+though; a gap we wish to address in this paper.
+
+
+After outlining the ethical unfavorable and favorable applica-
+tions, we introduce three exemplary topics demonstrating the ethi-
+cal ambivalence of certain blockchain applications: the role of trust, 
+job platforms, and the impact on privacy and secrecy. These ambiv-
+alent cases are read against major ethical theories and their consid-
+eration culminates in two practical contributions: First, a call for a 
+fast regulation, similar to the ongoing standardization and regula-
+tion of corporate social responsibility (CSR) standards; and second, 
+
+
+
+
+
+Received: 15 November 2018  |  Revised: 16 November 2019  |  Accepted: 18 November 2019
+DOI: 10.1111/beer.12259  
+
+
+O R I G I N A L  A R T I C L E
+
+
+Blockchain and business ethics
+
+
+Claus Dierksmeier1  |   Peter Seele2
+
+
+1Institute for Political Science, Universität 
+Tübingen, Tübingen, Germany
+2Ethics and Communication Law Center 
+(ECLC), Università della Svizzera italiana, 
+Lugano, Switzerland
+
+
+Correspondence
+Claus Dierksmeier, Institute for 
+Political Science, Universität Tübingen, 
+Melanchthonstr. 36, Tübingen D-72074, 
+Germany.
+Email: claus.dierksmeier@uni-tuebingen.de
+
+
+Abstract
+This paper provides, from a business ethics perspective, a basic clustering of the 
+morally (a) favorable, (b) unfavorable, and (c) ambivalent dimensions of blockchain 
+technology and its various emergent applications. Instead of proffering specific as-
+sessments on particular aspects of blockchain-based business models, we aim to offer 
+an initial overview that charters the territory so that future research can bring about 
+such moral assessments in an informed and orderly fashion. The main contribution 
+of this paper lies in identifying several morally ambivalent dimensions of blockchain 
+technology, which we finally link to two strands of business ethics research: ethical 
+and legal aspects of legislation as well as a link to Habermasian corporate social re-
+sponsibility theory arguing for transparent data production and consumption on the 
+blockchain. We conclude that future research is necessary for moral assessment of 
+the ambivalent cases, since their ethical evaluation changes depending on whether 
+one analyzes them through the lenses of utilitarianism, contractarianism, deontology, 
+and virtue ethics, respectively.
+
+
+For valuable feedback and constructive criticism, we wish to thank the anonymous 
+reviewers of our paper. 
+
+
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any 
+medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+© 2019 The Authors. Business Ethics: A European Review published by John Wiley & Sons Ltd.
+
+
+
+mailto:﻿
+
+https://orcid.org/0000-0002-8760-9972
+
+https://orcid.org/0000-0002-6456-4003
+
+mailto:claus.dierksmeier@uni-tuebingen.de
+
+http://crossmark.crossref.org/dialog/?doi=10.1111%2Fbeer.12259&domain=pdf&date_stamp=2019-12-16
+
+
+
+
+     |  349DIERKSMEIER anD SEELE
+
+
+the recommendation to apply Habermasian CSR theory in pursuit of 
+a more transparent and participatory data usage on the blockchain.
+
+
+2  | CONTRIBUTION AND LIMITATIONS
+
+
+Our contribution is to offer a first overview of the significance of 
+blockchain technology for business ethics, charting the territory to 
+be investigated by further research. Our aim is to work out morally 
+salient features of the technology so as facilitate their critical scru-
+tiny. Beyond blockchain applications which uncontroversially may be 
+judged as morally good or bad, respectively, we want to draw the 
+readers’ attention even more to such aspects and use cases whose 
+ethical evaluation is anything but obvious, shifting decidedly with 
+the respective moral theory employed. This oscillation in moral as-
+sessment, we argue, indicates the issue deserves further study.
+
+
+In the scope of this paper, we probe perspectives proffered by 
+utilitarians, contractarians, deontologists, and virtue theorists. The se-
+lection of these lenses over others is a deliberate limitation, owed to 
+the exploratory nature of our paper. We hold that, at this early stage 
+of blockchain development, a versatile tool for further investigation is 
+more useful for our colleagues than any attempt on our part to advance 
+definite ethical assessments on particular features of the technology. 
+Rather, we want to provide the wherewithal to the business ethics 
+community to work toward such evaluations in a systematic fashion by 
+ordering of central aspects of blockchain technology in clusters of un-
+favorable, favorable, and yet ambiguous or ambivalent characteristics.
+
+
+Our clustering follows the ethical repercussions of the technology 
+rather than primary features of the technology itself (for a more general 
+review see Klarin, 2020 or Xu et al., 2019). Herein lies another deliber-
+ate limitation of our paper. Within the scope of this paper, we cannot 
+exhaustively describe the wide ambit of real and potential use cases. 
+We thus picked moral significance over ontological comprehensiveness. 
+By showcasing how oftentimes one and the same application may lead 
+to divergent moral judgments according to divergent ethical theories, 
+our paper aims to bring out the need for further research in this area.
+
+
+The clustering is organized around particularly significant exam-
+ples for each of the categories. The selection of the examples—being 
+by no means is comprehensive—followed a “constrained snowball 
+sampling technique” (Lecy & Beatty, 2012) and led us to 209 use 
+cases. The list was finalized in July 2018.1  The “assignment of data 
+objects [here: blockchain applications] into groups (called clusters)” 
+[here: our three clusters ethically unfavorable, favorable, and ambiv-
+ilant] helped us to cluster phenomenologically similar objects (Reddy 
+& Ussenaiah, 2012, see also Levin, 2015 or Premalatha & Natarajan, 
+2010). The clustering was accomplished in two consensus sessions 
+by the authors. In these sessions, we identified the three most perti-
+nent examples (see Table 1) by selecting those with heightened sig-
+nificance for individuals (job platforms), society at large (trust) and 
+with transverse impact upon on the micro, meso, and macro level 
+of society (privacy/secrecy). We chose the three categories of nor-
+mative evaluation (ethically favorable, unfavorable, and ambivalent) 
+which have already been applied in the literature on the related topic T
+
+
+A
+B
+
+
+L
+E
+
+
+ 1
+ 
+
+
+Ta
+bl
+
+
+e 
+of
+
+
+ s
+el
+
+
+ec
+te
+
+
+d 
+ca
+
+
+se
+s 
+
+
+w
+it
+
+
+h 
+et
+
+
+hi
+ca
+
+
+lly
+ u
+
+
+nf
+av
+
+
+or
+ab
+
+
+le
+, f
+
+
+av
+or
+
+
+ab
+le
+
+
+ a
+nd
+
+
+ a
+m
+
+
+bi
+va
+
+
+le
+nt
+
+
+ im
+pl
+
+
+ic
+at
+
+
+io
+ns
+
+
+ f
+or
+
+
+ b
+us
+
+
+in
+es
+
+
+s
+
+
+ 
+U
+
+
+nf
+av
+
+
+or
+ab
+
+
+le
+Fa
+
+
+vo
+ra
+
+
+bl
+e
+
+
+A
+m
+
+
+bi
+va
+
+
+le
+nt
+
+
+ 
+R
+
+
+ed
+uc
+
+
+in
+g 
+
+
+am
+bi
+
+
+va
+le
+
+
+nc
+es
+
+
+E
+xa
+
+
+m
+pl
+
+
+e 
+1
+
+
+A
+U
+
+
+G
+U
+
+
+R
+: “
+
+
+pe
+er
+
+
+-t
+o-
+
+
+pe
+er
+
+
+ p
+re
+
+
+di
+ct
+
+
+io
+n”
+
+
+ f
+or
+
+
+ “
+as
+
+
+-
+sa
+
+
+ss
+in
+
+
+at
+io
+
+
+n 
+m
+
+
+ar
+ke
+
+
+ts
+” 
+
+
+(O
+be
+
+
+rh
+au
+
+
+s,
+ 2
+
+
+01
+8)
+
+
+V
+eC
+
+
+ha
+in
+
+
+/C
+ir
+
+
+cu
+lo
+
+
+r/
+IB
+
+
+M
+: T
+
+
+ra
+ns
+
+
+pa
+re
+
+
+nt
+ 
+
+
+su
+pp
+
+
+ly
+ch
+
+
+ai
+ns
+
+
+ f
+or
+
+
+ in
+cr
+
+
+ea
+se
+
+
+d 
+C
+
+
+SR
+ 
+
+
+(C
+hi
+
+
+tk
+ar
+
+
+a,
+ 2
+
+
+01
+9;
+
+
+ N
+g,
+
+
+ 2
+01
+
+
+8)
+
+
+Tr
+us
+
+
+tl
+es
+
+
+s 
+tr
+
+
+us
+t 
+
+
+(D
+re
+
+
+sc
+he
+
+
+r, 
+20
+
+
+17
+)
+
+
+Tr
+an
+
+
+sp
+ar
+
+
+en
+cy
+
+
+ o
+f d
+
+
+at
+a 
+
+
+us
+ed
+
+
+ c
+ou
+
+
+ld
+ f
+
+
+ur
+th
+
+
+er
+ 
+
+
+bo
+os
+
+
+t 
+tr
+
+
+us
+t
+
+
+E
+xa
+
+
+m
+pl
+
+
+e 
+2
+
+
+C
+ry
+
+
+pt
+oj
+
+
+ac
+ki
+
+
+ng
+: m
+
+
+al
+w
+
+
+ar
+e 
+
+
+fo
+r 
+
+
+ill
+ig
+
+
+it
+im
+
+
+e 
+m
+
+
+in
+-
+
+
+in
+g 
+
+
+in
+ c
+
+
+ri
+ti
+
+
+ca
+l i
+
+
+nf
+ra
+
+
+st
+ru
+
+
+ct
+ur
+
+
+es
+ (L
+
+
+i, 
+20
+
+
+17
+)
+
+
+D
+eB
+
+
+ee
+rs
+
+
+: “
+gu
+
+
+ar
+an
+
+
+te
+ed
+
+
+ d
+ia
+
+
+m
+on
+
+
+d 
+pu
+
+
+-
+ri
+
+
+ty
+” 
+
+
+(L
+ew
+
+
+is
+, 2
+
+
+01
+8)
+
+
+Jo
+b 
+
+
+pl
+at
+
+
+fo
+rm
+
+
+s 
+an
+
+
+d 
+th
+
+
+e 
+bl
+
+
+ur
+re
+
+
+d 
+lin
+
+
+e 
+of
+
+
+ 
+pu
+
+
+bl
+ic
+
+
+/p
+ri
+
+
+va
+te
+
+
+P
+re
+
+
+vi
+ou
+
+
+s 
+au
+
+
+to
+m
+
+
+at
+iz
+
+
+ed
+ jo
+
+
+b 
+pl
+
+
+at
+fo
+
+
+rm
+s 
+
+
+lo
+st
+
+
+ c
+on
+
+
+fi
+-
+
+
+de
+nc
+
+
+e 
+du
+
+
+e 
+to
+
+
+ d
+is
+
+
+cr
+im
+
+
+in
+at
+
+
+io
+n.
+
+
+ T
+ra
+
+
+ns
+pa
+
+
+re
+nc
+
+
+y 
+of
+
+
+ 
+al
+
+
+go
+ri
+
+
+th
+m
+
+
+ic
+ ju
+
+
+dg
+m
+
+
+en
+ts
+
+
+ c
+ou
+
+
+ld
+ r
+
+
+eg
+ai
+
+
+n 
+tr
+
+
+us
+t.
+
+
+T
+iiQ
+
+
+u/
+Yo
+
+
+ur
+C
+
+
+om
+pa
+
+
+ny
+ (C
+
+
+at
+al
+
+
+in
+i, 
+
+
+20
+17
+
+
+)
+
+
+E
+xa
+
+
+m
+pl
+
+
+e 
+3
+
+
+A
+rb
+
+
+it
+ra
+
+
+ry
+ b
+
+
+lo
+ck
+
+
+ch
+ai
+
+
+n 
+co
+
+
+nt
+en
+
+
+t 
+(M
+
+
+at
+zu
+
+
+tt
+ e
+
+
+t 
+al
+
+
+., 
+20
+
+
+18
+)
+
+
+B
+as
+
+
+e-
+of
+
+
+-t
+he
+
+
+-P
+yr
+
+
+am
+id
+
+
+ 
+en
+
+
+tr
+ep
+
+
+re
+ne
+
+
+ur
+sh
+
+
+ip
+C
+
+
+ry
+pt
+
+
+ot
+ec
+
+
+hn
+ol
+
+
+og
+y 
+
+
+an
+d 
+
+
+se
+cr
+
+
+ec
+y,
+
+
+ 
+(T
+
+
+ak
+ah
+
+
+as
+hi
+
+
+, 2
+01
+
+
+8)
+O
+
+
+pe
+n 
+
+
+da
+ta
+
+
+ d
+el
+
+
+ib
+er
+
+
+at
+io
+
+
+n 
+an
+
+
+d 
+a 
+
+
+st
+ro
+
+
+ng
+ le
+
+
+ga
+l 
+
+
+ba
+si
+
+
+s 
+fo
+
+
+r 
+pr
+
+
+iv
+ac
+
+
+y 
+co
+
+
+ul
+d 
+
+
+pr
+ot
+
+
+ec
+t 
+
+
+se
+cr
+
+
+ec
+y,
+
+
+ w
+hi
+
+
+le
+ 
+
+
+pr
+oh
+
+
+ib
+it
+
+
+in
+g 
+
+
+ne
+fa
+
+
+ri
+ou
+
+
+s 
+tr
+
+
+an
+sa
+
+
+ct
+io
+
+
+ns
+.
+
+
+R
+eg
+
+
+ul
+at
+
+
+io
+n 
+
+
+(S
+ee
+
+
+le
+, 2
+
+
+01
+8)
+
+
+
+
+
+
+350  |     DIERKSMEIER anD SEELE
+
+
+of cryptocurrencies (Dierksmeier & Seele, 2016), and employed them 
+here so as analyse further morally pertinent repercussions such as 
+the undermining of public infrastructures, harm to third parties, ef-
+forts in CSR-oriented supply chain management as well as in institu-
+tion building for base-of-the-pyramid customers, and questions of 
+surveillance (Cavazos, Rutherford, & Berman, 2018).
+
+
+We begin in the subsequent section (Section 3) with a brief expo-
+sition of relevance of blockchain for the world of business. The paper 
+then proceeds as follows: A collection of applications of blockchain 
+technology cases (exempting the analysis of cryptocurrencies, already 
+dealt with in Dierksmeier & Seele, 2016) is organized in three chapters 
+illustrating unfavorable (Section 4) and favorable (Section 5) uses of 
+blockchain technology. Then we try to shed some light on morally am-
+bivalent uses (Section 6) by examining them along the lines of the eth-
+ical theories of utilitarianism, contractarianism, deontology, and virtue 
+ethics. Finally, we present specific outcomes for the field of business 
+ethics (Section 7) and arrive at proposals for future research (Section 8).
+
+
+3  | HOW ARE WE TO FR AME 
+BLOCKCHAIN TECHNOLOGY 
+THEORETIC ALLY?
+
+
+The ethical salience of blockchain technology is not merely a de-
+rivative of the real-world impact of its applications in business and 
+society. In addition, blockchain technology also deserves the atten-
+tion of ethicists for the novel ways by which these ramifications are 
+wrought. Oftentimes, when scholars underscore these latter as-
+pects of blockchain technology, they highlight its decentral, demo-
+cratic, and disintermediary nature. Indeed, decentralized networks 
+can eliminate power asymmetries that usually work to the benefit 
+of intermediaries (like notaries, banks, brokers, headhunters, etc.) 
+between contracting parties. Moreover, they can accomplish this 
+without introducing a central node able to engage in rent-seeking 
+or dominating behavior (Drescher, 2017). Consequently, the block-
+chain-based data system cannot, as a rule, be dominated by any one 
+node in the system (for a taxonomy and systems classification see 
+Ballandies, Dapp, & Pournaras, 2018, p. 10). The general assump-
+tion of commentators is, therefore, that blockchain protocols offer 
+unprecedented degrees of transparency and accuracy which, apart 
+from representing, to many authors, a direct moral advantage in 
+their own right, allow for further indirect benefits such as a dramatic 
+acceleration and cost reduction in automated transaction systems—
+with enormous disruptive potentials for more traditional, hierar-
+chical business models (Kuebler, 2018). Accordingly, the advent of 
+blockchain has been welcomed as a chance to realize humanist vi-
+sions of peaceful, collaborative forms of business by empowering 
+individuals while undermining the priviledges of the established and 
+entrenched (Pirson, Gangahar, & Wilson, 2016).
+
+
+At first, all new software-based technologies are the purview of 
+those with the requisite coding skills—but not for long. Nowadays, 
+almost anyone can build their own website by choosing from from 
+a large number of toolboxes, obviating the need for the acquisition 
+
+
+of, say, html-programming skills. Likewise, firms like Proxeus and 
+Cocol are offering programs designed to make blockchain accessible 
+to the masses. Users with standard needs can choose from a drag- 
+and-drop menu of solutions so as to construct their own custom-made 
+blockchains without having to programme them from scratch (in-
+side-it, 2018).
+
+
+Numerous pundits (such as Bobby Lee (see Deuber, 2018 or 
+Kuebler, 2018)) predict that blockchain will revolutionize various 
+fields of business, notably those reliant on intermediaries for es-
+tablishing of trust in transactions between strangers. Blockchain 
+technology, it is said, can help manage payments, facilitate micro-
+payments, deliver notary services, certify compliance and audit 
+processes, manage records, establish voting procedures (Leonard, 
+2018) as well as bring transparency to value holdings and transfers 
+(World Economic Forum, 2016). Moreover, blockchain is projected 
+to democratize venture financing through facilitating crowdfunding 
+(Greenberg & Mollick, 2016; Mollick & Nanda, 2015) and by making 
+access to capital more egalitarian.
+
+
+Blockchain's potentials also extend to tracking digital goods, 
+provenance checks, digital rights management, the securing of digital 
+identities and information, counterfeit protection, and the establish-
+ment of autonomous organizations (Goel, 2015). As a consequence, 
+the locus of value creation may meander out of the ambit of tra-
+ditional firms toward the firm–society interface and/or fluid digital 
+networks (Risius & Spohrer, 2017) with governance structures more 
+akin to informal barter, bazaars, and social contracts than to con-
+ventional corporate hierarchies (Miscione, Ziolkowski, Zavolokina, & 
+Schwabe, 2017; Reijers, O'Brolcháin, & Haynes, 2016). At the same 
+time, blockchain-based governance has the potential to impact how 
+offline or online markets are run and how commons are managed, 
+thus invigorating many a staid debate of business ethics by offering 
+novel technological avenues to challenge the status quo.
+
+
+Due to the pervasiveness of their potential use cases, the pro-
+tocols of blockchain software and the implicit social norms underly-
+ing them are bound to have notable impact on business and society 
+(Davidson, Filippi, & Potts, 2018). Present use cases—from simple 
+payment systems to so-called smart contracts that enable and en-
+force contractual performances (Buterin, 2013; Szabo, 1996)—have 
+already begun to alter the way we organize and remunerate work 
+(Iansiti & Lakhani, 2017). Over time, the nature of remunerated 
+work might change since blockchain accelerates the trend toward 
+the automation and standardization of business procedures. Jobs 
+consisting in routine tasks may be lost, opportunities for more cre-
+ative labor might open up (Stein, 2018). Should these effects not be 
+managed politically, inequality between incomes stands to increase. 
+Whether these distributional affects might be mitigated by a decou-
+pling of effort and income, for example, through a Universal Basic 
+Income, is presently being discussed. This discussion can stand in as 
+an exemplar for the need to accompany this technological shift with 
+ethical reflection and political regulation.
+
+
+We approach the ethical assessment of digital technologies from 
+the angle of “information ethics” as advanced by Floridi (1999, 2013). 
+Floridi defines “information ethics” as “the branch of the philosophy 
+
+
+
+
+
+
+     |  351DIERKSMEIER anD SEELE
+
+
+of information that investigates the ethical impact of Information and 
+Communication Technologies on human life and society” (Floridi, 2013). 
+Businesses are a key driver for information ethics and digital ethics since 
+the locus of development of such technologies is frequently in corporate 
+environments. Also, given ongoing development of blockchain technol-
+ogy in start-ups and through cryptocurrency programmers, a prima facie 
+case for including questions of digital and information ethics into the 
+field business ethics (see also the conclusions section of this paper).
+
+
+In the following sections, we present specific cases of ethically 
+unfavorable applications (Section 4) and ethically favorable applica-
+tions (Section 5) before analyzing in more depth crucial applications 
+of blockchain technology which are ethically ambivalent (Section 6).
+
+
+4  | ETHIC ALLY UNFAVOR ABLE 
+APPLIC ATIONS
+
+
+When it comes to morally unfavorable business applications, the 
+havoc wreaked by blockchain technology is often so stark as to make 
+for an additional argument for the ethical salience of the topic. The 
+same holds inversely, as shown in the subsequent section, for the 
+prosocial capacities of the technology. In either case, blockchain's abil-
+ity to remodel, on a global scale, the way people interact in business 
+and society is huge, as the subsequently selected use cases illustrate.
+
+
+It is well known that many blockchain-based cryptocurrencies 
+enable money laundering and numerous other illegal transactions via 
+anonymous black markets for drugs, illegal pornography or weap-
+ons (Seele, 2018). Beyond such currency-centered cases, blockchain 
+technology enables further types of illegal and/or immoral trans-
+actions by facilitating transactions without intermediaries who can 
+personally be held accountable for those transactions.
+
+
+A case in point are “assassination markets.” AUGUR is an 
+Ethereum-based blockchain application for the creation of “peer-to-
+peer prediction markets” which allow people to place bets secretly 
+(Orcutt, 2018). Already among conventional prediction markets, 
+death pools are nothing unfamiliar. But now AUGUR has created 
+something akin to a veritable “assassination market” (Oberhaus, 
+2018) in that it allows to place anonymous bets upon someone's 
+death, which in turn may incentivize people to kill others so as 
+to win these very bets. While versions of “digital assassination” 
+(Sukumaran, 2004) have been around for several years, what is 
+new is that through blockchain technology such bets can be placed 
+anonymously as quasi-orders. Who is to be held accountable? The 
+company behind AUGUR simply states that it “does not operate or 
+control, nor can it control, what markets and actions people perform 
+and create on the Augur protocol” (Orcutt, 2018).
+
+
+Another criminal phenomenon is “cryptojacking,” which refers to 
+programs secretly mining cryptocurrencies (Li, 2017). Initially, users were 
+tricked into downloading cryptojacking software, but increasingly such 
+malware infects also broadly used browsers. For criminals, the employ-
+ment of cryptojacking programs results the more attractive, the more 
+computing power the affected hardware has. As a consequence, crypto-
+jackers have begun attacks on critical infrastructure organizations with 
+
+
+high-performance computers. Thus their private gain-seeking comes at 
+a cost to the public because such computing infrastructure is typically 
+employed by public utilities and providers of infrastructure (Newman, 
+2018). In the case of the European water utility company Radiflow, for 
+instance, hackers installed a malware program on a network of the com-
+pany which runs a facility to monitor water supply; an action which could 
+have led to a standstill of the entire plant with serious repercussions for 
+the public (Newman, 2018).
+
+
+Whereas regular cyberjacking involves outsider hackers, there 
+are also cases of inhouse-hijacking. The BBC reported recently how 
+a number of scientists working for a top-secret Russian nuclear 
+warhead installed a software to mine cryptocurrencies on one of 
+Russia's “most powerful supercomputers” in a restricted area at the 
+“Federal Nuclear Center” in Sarow (BBC, 2018). The security threat 
+such actions pose is obviously immense.
+
+
+The risks of engaging with blockchain products extend also to 
+regular users. Blockchain software typically requires for reasons of 
+system integrity that all nodes store the entire transaction history in 
+the network's distributed ledger, including any and all past transac-
+tions. Recently, though, researchers found that such safeguarding of 
+information exposes users to the risk of being held accountable for 
+“arbitrary blockchain content” (Matzutt et al., 2018). When analyz-
+ing the blockchains of some cryptocurrencies, the researchers found 
+sensitive data from previous users in the data trail, “including poten-
+tially harmful content,” for example “illegal pornography” (Matzutt 
+et al., 2018). This makes each user—unwittingly—a co-owner of such 
+illegal data. If, however, people can incriminate themselves merely by 
+owning cryptocurrencies, then endless opportunities exist for using 
+just this feature of blockchains so as to blackmail unsuspecting users.
+
+
+In regard to such ethically unfavorable outcomes, defenders of 
+blockchain argue that these are largely attributable to a lack of reg-
+ulation. In their view, one ought to use such examples not as argu-
+ments against blockchain technology per se but instead as rationales 
+for its proper governance and policing; we will come back to this 
+point in Sections 7 and 8.
+
+
+5  | ETHIC ALLY FAVOR ABLE 
+APPLIC ATIONS
+
+
+In this section, we again present use cases of blockchain whose—
+now positive—immoral nature will appear uncontroversial and 
+whose relevance for business ethics can be gleaned, so to speak, 
+with the naked eye.
+
+
+Scholarly consensus has it that blockchain 2.0 and 3.0 appli-
+cations, especially when combining blockchains with the inter-
+net-of-things (IoT), are opening up entirely new worlds of global 
+commerce and collaboration (Swan, 2015), often with decidedly 
+pro-social ramifications (Griffith, 2018),2  which has already spawned 
+a discussion on “blockchain for good” (Adams, Kewell, & Parry, 2017).
+
+
+Blockchain advocates point, for instance, to the chance of making 
+supply chains transparent. Some blockchain providers, such as VeChain 
+(and more recently also Circulor, IBM, and several others), are combining 
+
+
+
+
+
+
+352  |     DIERKSMEIER anD SEELE
+
+
+supply chain management with the smart contract feature of block-
+chains (Chitkara, 2019). Objects in the supply chain are being linked to 
+the internet and equipped with Radio Frequency Identification chips, or 
+similar tracking devices, that can be read out remotely. This leads to a full 
+disclosure in real time of all transactions in the supply chain.
+
+
+Take a look, for instance, at VeChain's collaboration partners: PwC 
+(Ng, 2018) helps monitor the practical implementation of VeChain's 
+blockchain; Deutsche Bahn/Schenker runs a pilot project on logistics, 
+and DNV GL, a Norwegian registrar company, is co-developing with 
+VeChain a digital system to enhance the trustworthiness of blockchain 
+data through certified assurances concerning the data input. Given 
+the important role of assurance in CSR information (Martínez-Ferrero 
+& García-Sánchez, 2017), blockchain-based supply chain applications 
+make important steps toward the datafication of business ethics tenets.
+
+
+In sum, such applications are likely to impact the perception of 
+products monitored, when demonstrating to end users, for instance, 
+the environmental sustainability of the wares they are about to pur-
+chase or when assuring that no human right violations or child labor 
+were involved in their production. For corporations, the fact that thus 
+CSR governance becomes more transparent might reduce accusations 
+of greenwashing or bluewashing since supply chain data, once stored 
+in the blockchain, is tamperproof. Finally, corporate communication 
+stands to benefit from standardized, assured data management of fi-
+nancial and nonfinancial data. Much of what, say, the Global Reporting 
+Initiative aims to standardize in CSR reporting could thus digitally be 
+validated and instantly made available to regulators and investors.
+
+
+Whereas VeChain is a platform blockchain application for an in-
+definite number of users and companies, several multinational cor-
+porations develop proprietary blockchain-based applications. De 
+Beers, the South African mining company, for example, uses block-
+chain software to tackle the problem of “blood-diamonds.” As part 
+of their sustainability strategy, De Beers has embarked on a fair min-
+ing process, aiming for a “guaranteed diamond purity” (Lewis, 2018). 
+The problem they face is twofold. First, the extraction of diamonds 
+occurs frequently in countries with low respect for human rights, 
+where child labor is widespread, and/or it often involves the use of 
+toxic chemicals to separate diamonds from the soil. Second, dia-
+monds are often used for money laundering and smuggling. DeBeers 
+digital supply chain tracking has therefore “both consequences for 
+the ethicality of the diamond as well as for protecting the business 
+of the company,” as via its own blockchain DeBeers can now track 
+the diamond “each time they change hands starting from the mo-
+ment they are dug from the ground” (Lewis, 2018). The digital record 
+providing information of the origin of the diamond is public and im-
+mutable, which gives DeBeers a reputation advantage against com-
+petitors. A further implication is theft prevention, since the unique 
+molecular pattern stored on the blockchain remains always identi-
+fiable. As a result, any unauthorized owner can, in principle, be de-
+tected, and the diamond returned to the real owner.
+
+
+Also, Swiss bank UBS is after this property protection transpar-
+ency feature of blockchain software so as help art collectors pro-
+tect their assets (Gerber, 2017). The business case for registering a 
+Van Gogh on a blockchain lies in making this piece of art “bankable” 
+
+
+(Gerber, 2017), which means tradable without the help (and related 
+costs) of intermediaries such as art brokers. Here again, the moral 
+and commercial improvement go hand in hand. The consistent trace-
+ability of ownership—which reduces costs for vendors and purvey-
+ors—also prevents money laundering, black market trading, and 
+other illegal transactions common to the art market (Lewis, 2018).
+
+
+Similarly, in collaboration with the blockchain startup Xain, 
+car maker Porsche plans to implement blockchain technology 
+(Buchenau, 2018). Apart from ownership protection, Porsche's in-
+terest in storing data about its cars on a blockchain comes from its 
+efforts to advance automated driving. Managing a car's data through 
+a blockchain might help protect it against hacking; surely, an import-
+ant selling point for their automated cars, should Porsche succeed.
+
+
+Moreover, the ability to gain tamper-free proof of one's assets is of 
+particular interest to persons in environments with unsatisfying legal 
+institutions. Once digitized in the blockchain, such information can 
+be accessed remotely, without having to go through (potentially cor-
+rupt) officials. This feature may afford people additional chances to 
+capitalize on their economic properties. Several years ago, Hernando 
+de Soto (2001) argued that a key factor holding people back in pov-
+erty were bureaucratic obstacles on the path toward self-employ-
+ment and entrepreneurship. For instance, obtaining a credit to open 
+a business can be a nightmare for many slum dwellers. They might 
+not have adequate proof of their real estate so as to mortgage it and 
+put it up as collateral. Through blockchain-based data storage solu-
+tions (offered by Etherty, Trust, etc.), such information can now be 
+accessible instantaneously and worldwide, also to help address CSR 
+issues of public good (Schultz & Seele, 2019). In fact, some cities in 
+both North and South America have already begun to put up their 
+registries of deeds onto publically accessible blockchains.
+
+
+Similarly, indigenous persons often face comparable burdens 
+in authenticating their identity vis-à-vis potential lenders. Through 
+blockchain-based identity corroboration systems, borrowers would 
+no longer be confined to (potentially extortionary) lenders within their 
+local neighborhoods but could enter a global market where, at pres-
+ent, ever more fintechs and social banks are eager to serve customers 
+from the base of the pyramid. Thus the introduction of blockchain 
+technology to developing countries might, by way of institutional 
+leapfrogging, assist them to progress legally as well as economically.
+
+
+6  | ETHIC ALLY AMBIVALENT 
+APPLIC ATIONS
+
+
+Some applications of blockchain technology resist an easy clas-
+sification as either morally unfavorable or favorable. In fact, their 
+moral assessments alters according to the respective ethical lenses 
+employed. Such moral ambiguities are what the subsequent exam-
+ples—focused on trustless trust (a), job platforms (b), and privacy and 
+secrecy (c)—are meant to tease out. In the remainder of this paper, 
+we will use a utilitarian, contractarian, deontological, and virtue ethi-
+cal perspective to showcase different ethical interpretations of ap-
+plications that are presently coming to market. This list of those four 
+
+
+
+
+
+
+     |  353DIERKSMEIER anD SEELE
+
+
+ethical theories is not meant to be exhaustive but explorative, as 
+they serve to highlight contestable moral dimensions of the technol-
+ogy. We invite further research employing additional ethical lenses 
+so as to amplify these moral perspectives in the interest of a more 
+comprehensive assessment of the issue at hand.
+
+
+6.1 | Trustless trust?
+
+
+Blockchain technology reduces the need for personal or institutional 
+trust in business by offering a software-based alternative to trans-
+acting through trustworthy intermediaries. Reliant on depersonal-
+ized transparency and record-keeping, blockchain solutions can not 
+only be faster (Schütz et al., 2018), but also reduce opportunities to 
+misuse trust, or to have people pay too dearly for the assurance of 
+reliability. To the extent that classical intermediaries such as notaries, 
+banks, and assessors may overcharge clients, blockchain technology 
+promises to restore the customer-first orientation of competitive 
+markets.3  Moreover, through both the global reach of blockchain-
+based solutions and their availability at lower cost, their services 
+are now coming into the reach of clients for whom they previously 
+would have been either unattainable or unaffordable. In particular, 
+with a view to making financial and legal services more accessable to 
+the world's poor, this is a beneficial outcome (Thomason et al., 2018).
+
+
+At the same time, though, the fact that blockchains replace “trust 
+in the unerring logic of computer-based verification and the power 
+of consensus” may soon enough “change our perception of trust and 
+reliability on the individual level as well as on the level of the society.” 
+(Drescher, 2017, p. 244). How desirable would be a world of business 
+that relies less and less on face-to-face interactions and personal 
+trust? Or rather, are we simply replacing trust in familiar intermedi-
+aries with trust in software experts who facilitate and control these 
+alternatives? And how do we know that the latter deserve our trust 
+more than the former (Hawlitschek, Notheisen, & Teubner, 2018)? 
+Moreover, if ever fewer people are bestowing and earning trust in 
+the economy, how does this impact society in the long run? Is there 
+a trade-off between commercial efficiency and cultural capacity? 
+What, if so, ought to be preferred? It is in regard to such questions 
+that the grand schools of ethics come to notably different answers.
+
+
+Utilitarian's might make their peace with a shift from trust to trans-
+parency (Brännmark, 2009). Provided that the exchange of goods and 
+services would speed up and become more affordable so as to extend 
+its benefits to hitherto excluded groups, utilitarian's should be willing 
+to purchase this quantifiable increase in enhanced aggregate utility at 
+the price of a reduction in a good (i.e., commercial trust) whose contri-
+bution to the happiness of all is less tangible by comparison.
+
+
+Contractarians in turn would probably run their assessment via 
+the “volenti non fit inuria” (“to a willing person, injury is not done”)—
+formula of Roman Law (Slingerland, 2017). As long as people can 
+freely choose between conventional (trust-based) and block-
+chain-enabled (transparency-based) transactions and then opt for 
+the latter, contractarians should hold this transition to be morally 
+warranted by the free choices that drive it; the only caveat being that 
+
+
+the choice truly was voluntary, which, however, might become a pre-
+carious presupposition over time: With ever more people opting for 
+blockchain solutions, path dependencies might ensue that de facto, 
+albeit not de jure, could restrict people's options—and so force an 
+ethical reassessment on part of contractarians.
+
+
+Deontologists might have stronger qualms. While—in their legal 
+ethics—deontologists also fend for the freedom to contract (within 
+certain ethical limits) and are poised to defend people's commer-
+cial choices and the legal autonomy undergirding them, they might 
+nonetheless—within the realm of moral philosophy proper—come 
+to a different assessment. That is, whereas deontologists might not 
+want to restrict legally the options to choose from, they do exhort 
+people to scrutinize individually the moral nature of their chosen op-
+tions, for example, in regard to preserving trust throughout society.
+
+
+Kant, for one, formulated much stricter moral than legal impera-
+tives (Dierksmeier, 2013). While the former are concerned with pre-
+venting collisions of the outer freedom expressed in people's actions, 
+the latter enjoin people's outer freedom on behalf of moral goals. 
+According to Kant's moral doctrine, everyone is to contribute to a 
+“highest good” of justified happiness, that is, a state of society where 
+those, who morally deserve it, also reap just reward (Dierksmeier, 
+2013). Accordingly, both the motives for a choice between trust-
+based or transparency-based business opportunities and the 
+likely societal outcomes of this choice must be weighed by each. 
+Heteronomous motives (i.e., to choose on purely selfish grounds) 
+would have to yield to ones autonomously endorsed by universal-
+izable reasons. Likewise, the possible outcomes of technological 
+options would have to be scrutinized by taking the wider view and 
+pondering whether the foreseeable effects of these choices would 
+help or hinder a progress toward said “highest good.” As, according 
+to Kant, the outcome of such deliberations cannot be foreseen in an 
+abstract and general fashion ex ante, such problems must be worked 
+out concretely, case by case, by the moral judgment of each person in 
+their particular context. In short, a deontological evaluation does not 
+lead to a uniform stance either pro or contra making the shift from 
+trust to transparency but puts the onus of this assessment onto the 
+judgment of each and every decider personally (Lennerfors, 2007).
+
+
+Therein a Kantian comes close to the “phronesis” focus of virtue 
+ethicists. Committed to the flourishing of persons through personal 
+excellence (Sison, 2003), virtue ethicits afford a high rank to the indi-
+vidual ability to bestow and earn trust in life's long school of charac-
+ter formation and integrity development. Whether or not, given this 
+perspective, a deviation from trust-based business models could still 
+be warranted by the expected benefits of blockchain technology, 
+must be judged in each case afresh, by every concerned individual. 
+The result may then well be at times in favor of a slower but more 
+personalized conduct of business.
+
+
+6.2 | Job platforms
+
+
+At present, several start-ups are rushing to market that aspire 
+to change the way people collaborate with the goal to bring back 
+
+
+
+
+
+
+354  |     DIERKSMEIER anD SEELE
+
+
+autonomy to workers and to help them find employment that suits 
+their talents and aspirations, for example, by lowering the costs of, 
+and by reducing bias in, the recruiting process (Bhatia et al. 2018). 
+Some blockchain upstarts (like TiiQu) are cutting out conventional 
+middlemen such as headhunters and replace them with algorithms 
+that establish the professional trustworthiness of job candidates 
+based on certified competences, recorded in a globally accessible 
+and tamperproof blockchain. The matching algorithms employed are 
+deliberately designed so as to prevent the impact of stereotypes in 
+hiring decisions (based on gender, ethnicity, age, etc.) and to hinder 
+corruption (https ://github.com/TiiQu-Netwo rk/TiiQu-Netwo rk/
+wiki/White-Paper ).
+
+
+Not always, certainly, is disintermediation unambiguously bene-
+ficial. But to the extent that tasks and profiles are already standard-
+ized so as to allow for meritocratic matching, such algorithms may 
+indeed be an improvement. While previous digital technologies had 
+already dissociated capacity sets and personal identifies in digitized 
+application processes (Barron, Bishop, & Dunkelberg, 1985), they 
+were hitherto still hampered by a single point of failure: If the central 
+node in the respective network was corrupt, so might be the match-
+ings between prospective employers and employees. This problem 
+decentralized blockchains promise to solve.
+
+
+Other new entrants to the blockchain scene set out to overhaul 
+entirely how entrepreneurial ideas become realities. Assuming 
+that much more people would dare to become entrepreneurs, if 
+only the administrative, bureaucratic, logistical, and financial bur-
+dens could be lowered, some start-ups (like your company) have 
+begun to automate the process of incorporation, offering a block-
+chain-based default structure for a (financial, logistical, juridical) 
+support network for would-be entrepreneurs (https ://www.your.
+company). Anyone with spare resources (time, knowledge, skills, 
+assets, etc.) on their hand can enter this network freely and pe-
+ruse various projects on display. By self-selecting which business 
+project and/or corporate infrastructure people want to strengthen 
+through their services and assistance, supporters commit their 
+labor whichever projects appear most deserving to them. What 
+attracts collaborators is thus not money in the first place but the 
+perceived worthiness of the respective projects. This in turn in-
+troduces a democratic element into the online marketplace, since, 
+whereas capital is unequally distributed, everyone has 24 hr/day 
+on hand.
+
+
+The governance of these two aforementioned networks is 
+meant to be as democratic as its organizational structure is decen-
+tralized. For instance, people gain influence over the respective 
+network and its digital ecosystem in proportion to their contribu-
+tions to platform-based projects. As a consequence, the typical 
+bifurcation between management or owners on one hand and the 
+creative class and those putting in “sweat equity” on the other is 
+transformed into a governance structure where influence is rather 
+aligned with contribution. Such upstarts could thus not only quan-
+titatively broaden access to the global economy to all persons 
+with internet access, but also qualitatively alter the power matrix 
+characteristic of traditional job markets in a more meritocratic 
+
+
+way. Thus, blockchain technology intensifies an ongoing process 
+where inter-firm and market-firm boundaries become increasingly 
+blurred and new constellations at the business-society interface 
+arise (Catalini, 2017).
+
+
+For the reasons stated, from the perspective of utilitarianism, 
+such developments appear net-positive: To succeed, platform firms 
+need to reach economies of scale, which they will only achieve when 
+they sufficiently satisfy the wants of their clients; and where more 
+people voluntarily agree to transact, one can, supposing rational be-
+havior on the part of market participants, conclude that aggregate 
+utility must have been increased.
+
+
+Similarly optimistic should be the assessment of contractarians. 
+Where uncoerced contracts are concluded, their voluntary nature 
+signals that the freedom of the involved parties was both respected 
+and enacted: The offers of blockchain-based brokers ought thus 
+to be welcomed as advancing the liberty of each to find forms of 
+gainful employment and meaningful cooperation. This assessment, 
+however, presumes that the choice between blockchain-based and 
+conventional modes of contracting be permanent; a presupposi-
+tion endangered by any success of blockchain technology so over-
+whelming as to wipe out its conventional alternative. In that case, 
+a path-dependency toward blockchain-based contracting would be 
+created undermining the very freedom of choice that legitimated its 
+predominance in the first place. Contractarians may, given such a 
+scenario, well differ as to whether they would then reject such an 
+outcome as illiberal or still accept it as the congealed result of past 
+choices.
+
+
+Deontologists, too, aim to promote individuals’ freedom to con-
+tract, and for that reason they also might be wary of said path 
+dependencies. Their commitment to contribute to fair governance 
+for all should, however, make them chary of economic structures 
+that put public powers into private hands. Firms brokering deals 
+essential for the livelihood of many assume enormous powers 
+over people's lives and thus ought to be subject to public scru-
+tiny. Moreover, norms that regulate the encounters on such plat-
+forms are not merely technological but also expressive of value 
+standards. A deontologist should, therefore, press such firms on 
+their specific understandings of “biased” versus “meritocratic 
+standards” when they promise to replace the former through 
+the latter. Deontologists typically opt for procedures which as-
+sure that—directly or by way of representation—all concerned by 
+given decisions are involved in bringing them about (Bowie, 1998). 
+Something akin to the slogan “no regulation without representa-
+tion” might be fielded by a deontologist in pursuit of the public 
+oversight of the quasi-public powers of blockchain platforms, 
+which is why a blanket endorsement of such platforms cannot be 
+expected from a deontologist position.
+
+
+Virtue ethicists might be even more critical of the new online mar-
+kets for labor, as their focus lies on each particular individual and his 
+or her chances to develop moral excellence (Sison, 2003). The fact 
+that large numbers of would-be employees and employers may be 
+catered to by blockchain-based matching portals for the gig econ-
+omy, cannot, on this view, simply outweigh the risks posed by the 
+
+
+
+://github.com/TiiQu-Network/TiiQu-Network/wiki/White-Paper
+
+://github.com/TiiQu-Network/TiiQu-Network/wiki/White-Paper
+
+https://www.your.company
+
+https://www.your.company
+
+
+
+
+     |  355DIERKSMEIER anD SEELE
+
+
+anonymization and facelessness of these systems. For that reason, a 
+virtue ethicist would judge these novel opportunities not in bulk but 
+assess their mettle on a case-by-case basis in direct comparison with 
+the conventional conduits of match-making they replace. On bal-
+ance, though, we should assume that the very fact which advocates 
+of these platforms adduce in their favor,that is, an anonymous and 
+abstract matching of persons to tasks—should make virtue ethicists 
+skeptical rather than enthusiastic.
+
+
+6.3 | Privacy and secrecy
+
+
+Most societies highly value privacy and secrecy. The privacy of mail 
+and the secrecy of voting, for instance, are viewed widely as both 
+private and public goods of an elevated status, their protection typi-
+cally being enshrined in constitutional law. Blockchain challenges 
+this status quo, given their unlimited record-keeping. Yet, at the same 
+time, some blockchain providers already are rolling out “privacy 
+first” cloud services (e.g., the one from Oasis Labs (Takahashi, 2018)) 
+so as to recreate privacy and secrecy in blockchain environments.
+
+
+What throws blockchains’ ambivalent impact on privacy and se-
+crecy into sharp relief is the proclaimed “cryptovalley” or “cryptopo-
+lis” for the two Swiss blockchain centers Zug and Chiasso (for more 
+details see Seele, 2018). After the US had successfully pressured 
+Switzerland to modify Swiss bank secrecy laws so as to disincentiv-
+ize international tax fraud, many fear that blockchain-based cryp-
+tocurrencies may now become the “next Swiss bank account 2.0.” 
+Other countries known for their mild fiscal legislation might warm 
+to such ideas as well, like Malta which already markets itself as a 
+“Blockchain Island” (Visram, 2018).
+
+
+With a view to such regulatory grey zones, the head of the U.S. 
+finance department, Steven Mnuchin, recently declared that the US 
+was the only country that presently has the technological means to 
+track all blockchain-based transactions. If true, this introduces right 
+away the next ethical problem. Information that is secret to most but 
+transparent to a select few: how are we to assess this asymmetry? 
+And what if such powers would one day get into the hands of rogue 
+states or criminal organizations? There is a need for a deeper dis-
+cussion of the specificities of these scenarios than can be provided 
+in the scope of this paper. At a more general level, though, we can 
+glean where the respective ethical schools would place their empha-
+sis, respectively.
+
+
+As consequentialists, utilitarians value neither privacy nor se-
+crecy as good (or bad) in themselves but based on their impact on 
+aggregate utility. Where a loss of privacy or secrecy comes at low 
+social costs, the benefits from a wider dispersion of information may 
+well carry the day. The end of privacy might be welcomed on utilitar-
+ian grounds, supposing that the loss of intimacy-related happiness 
+to some would, in the sum total, be more than balanced out by the 
+thus enabled reduction of crime, tax evasion, or nefarious commerce 
+and the suffering they cause. So, for utilitarians, the fact that the US 
+might be privy to information foreclosed to other nations would not 
+be morally problematic in itself, as long as the US would thus snuff 
+
+
+out enough negative externalities that otherwise reduce people's 
+overall utility. The topic becomes an issue for utilitarians, however, 
+as soon as nations or parties reacted so adversely to this asymmet-
+ric state of affairs as to produce net-negative effects of aggregate 
+happiness.
+
+
+Contractarians, too, might find it difficult to take a principled 
+stance against the loss of privacy and secrecy. If parties agree freely 
+to disclose information, a contractarian will find no harm therein. 
+Moreover, the contractualist commitment is to a marketplace where 
+people make voluntarily exchanges. Since all turns on the voluntari-
+ness of transactions, contractarians hedge against any influence that 
+might force the hands of the contracting parties. Covert influences 
+depend on their secrecy. Less secrecy means more truly voluntary 
+commerce. As a result, contractarians can oppose a loss of privacy 
+only in cases where the exclusivity of information is both essential 
+to the nature of a commercial transaction (such as, say, in copyright 
+agreements) and of negligible harm to third parties. In most other 
+cases, they would have to embrace it.
+
+
+For deontologists, a clear ethical stance is hard to come by. On one 
+hand, with Kant, they tend to highly esteem “publicity” as a means 
+to find out whether certain policies might lesion individual rights 
+(Keienburg, 2011). Where privacy and secrecy stand to conflict with 
+such publicity, the former have to yield. On the other hand, deontol-
+ogists value that, within states of law, people enjoy autonomy so as 
+to develop themselves freely. To the extent that privacy as well as 
+secrecy contribute to the formation of characters inclined to make a 
+responsible use of their freedoms, deontologists do not want to see 
+them abolished. With blockchain technology, either orientation may 
+pull them in a different direction. Say, an individual is about to use 
+a cryptocurrency both within the limits of legality and in ways that 
+could pass an additional universalization test for morality, is this per-
+son then also to factor in how their behavior might bolster a payment 
+system which others could use for nefarious purposes? As deontol-
+ogists are wont to advise people to enact “the change they want to 
+see in the world,” for the use of blockchain-technologies this stricture 
+certainly demands acute cosmopolitan circumspection from deciders.
+
+
+Virtue ethicists might share these concerns and focus even more 
+on actor-centered aspects. Admonishing people to use commercial 
+life as a form of moral education and character formation, the man-
+date of virtue ethics would likely be that people employ blockchain 
+technologies always so as to foster individual flourishing and the 
+common good. Sometimes secrecy and privacy will be conducive 
+to this agenda, and in such instances, virtue ethicists would then as 
+clearly advocate against the employment of technologies reducing 
+informational exclusivity as they would have to come out in their 
+favor as soon as the reduction of secrecy and privacy seems likely to 
+enhance the chances for ethical flourishing on part of the transact-
+ing parties. Again, a blanket endorsement or rejection of blockchain 
+technology in this regard cannot be expected.
+
+
+In sum, to structure and visualize the previous examples we pres-
+ent a summary table (Table 1) providing guidance and information on 
+the three cases and the business ethics implications we derive from 
+them in the next chapter.
+
+
+
+
+
+
+356  |     DIERKSMEIER anD SEELE
+
+
+Before concluding, we need to point to some further ambiguities 
+resulting from fact that the technology is still very much in flux. Certain 
+problems of decentralized data keeping are presently being tackled by 
+competing approaches. This extends to alternatives within the realm 
+of blockchain software (e.g., the tension between private and public 
+blockchains) as well as to alternatives to blockchain technology (as by 
+DAG—directed acyclical graph—technology) with their very own trans-
+formational potentials and hazards (Serramia et al., 2018).
+
+
+First, there is the concern that the benefits of an unhackable 
+decentralized network rely on a vast number of nodes all busily cor-
+roborating but one transaction history. Thus, enormous amounts of 
+computing power are spent which slows down the speed of ledger 
+writing, potentially to the point of making the entire system useless 
+for mass adoption. For that reason, blockchain programmers are cur-
+rently experimenting with a wide array of alternatives to the tradi-
+tional “proof-of-work” technology characteristic of Bitcoin and other 
+first-generation blockchains. For instance, blockchains which restrict 
+access to the corroboration process to a few nodes within the network 
+deemed particularly trustworthy (as in “proof-of-stake”-procedures) 
+tend to centralize power again and thus reduce the moral benefits ger-
+mane to decentralization. Another road is taken by proponents of a 
+“proof of cooperation” that organizes the validation process by a coop-
+erative system of “certified validation nodes”, for example in the case 
+of “faircoin” (Wüstholz, 2018). It is unclear which of these approaches 
+will carry the day and so we must leave it to future publications to 
+tease out their respective ethical characteristics.
+
+
+In a similar vein, the jury is still out on DAG technology which is no 
+longer establishing a single chain of data blocks. Unlike a chain wherein 
+one link follows the previous, DAG produces something more akin to a 
+thick rope of data woven out of a large number of partly independent, 
+partly intersecting threads of data. As a result, responsibility over the 
+content of the ledger(s) is segmented, and for each given segment the 
+community of corroborating witnesses may shrink to a small number of 
+nodes—which speeds up the system but makes it also more vulnerable 
+to attack or error. While a detailed analysis of the ethical implications of 
+this technological alternative cannot be accomplished within the scope 
+of this paper, it does provide an attractive avenue for future research.
+
+
+7  | OUTCOMES FOR BUSINESS ETHIC S
+
+
+The novelty of the blockchain technology of decentralized distrib-
+uted ledgers poses the question how to deal with the technology 
+practically. Given the highly ambivalent outcomes and yet-to-be as-
+sessed ethical implications, we propose a two-pronged approach for 
+decision makers in business and policy.
+
+
+7.1 | Legal and ethical issues of transition
+
+
+The potential of the blockchain technology to disrupt existing busi-
+ness models and impact on the role of intermediaries or previous 
+levels of transparency has been elaborated above. Like kindred 
+
+
+innovations, blockchain technology challenges the existing legal 
+framework and poses new ethical questions. Take the most visible 
+example currently, for instance, the proposal of a cryptocurrency, 
+that is, Libra, to be launched by social media giant Facebook (in col-
+laboration with several other business partners and civil society 
+organizations). Libra might challenge the global financial system by 
+undermining the existing (albeit far from flawless) monetary system. 
+Hence the pushback Libra is currently facing from G20 states. This 
+case can stand as pars pro toto for blockchain-based applications 
+overall and the need for a reliable legal framework for them. Similar to 
+the legal harmonization of CSR standards (Gatti, Vishwanath, Cottier, 
+& Seele, 2018) and reporting guidelines (Wagner & Seele, 2017), such 
+a regulatory framework for blockchain technology appears requisite 
+to (re-)establish level playing field for both legal and natural persons 
+to compete without generating undue negative externalities.
+
+
+7.2 | Open data deliberation and the (political) 
+role of blockchain
+
+
+We propose to understand blockchain through the lens of Habermasian 
+or Political CSR. Building on the political philosophy of Habermas, spe-
+cifically discourse ethics and deliberative democracy, business ethics 
+scholars have ascribed a political role to corporations characterized by 
+a responsibility to engage in open discourse, to allow for societal par-
+ticipation and to contribute to the closing of regulatory gaps. What is 
+well established in general management and business ethics (Scherer 
+& Palazzo, 2011), already has been adopted for the field of digitali-
+zation, leading to the concept of “data deliberation” (Schultz & Seele, 
+2019), where private firms, governments, and other stakeholders join 
+forces to increase public goods and encounter challenges such as 
+environmental system risks. For blockchain technology, in particular 
+with a view to improved transparency in supply chain management, 
+something similar might hold. If blockchain technology is used, as de-
+scribed above, in support of a more open digital environment, it may 
+well boost forms of responsible digitalization, since the specifics of 
+distributed ledger registries allow for better structured data, not in 
+the least when it comes to open access solutions. Not incidentally, in 
+literature on “distributed autonomous organizations”, a theoretical link 
+to Habermasian arguments as well as their practical implications have 
+already been established (van den Hoven et al., 2019).
+
+
+The following Table 1 summarizes in a 3 × 3 Matrix for each cat-
+egory (unfavorable, favorable, and ambivalent) examples from the 
+reviewed applications plus offers guidance from a business ethics 
+perspective, on how to reduce the respective ethical ambivalence 
+when applying the two dimensions (regulation and transparency/
+data deliberation) from this section.
+
+
+8  | CONCLUSIONS AND OUTLOOK
+
+
+As serious as the detractions of a nefarious use (see Section 4) of 
+blockchain technology are—requiring global regulation—, they 
+
+
+
+
+
+
+     |  357DIERKSMEIER anD SEELE
+
+
+should not distract from the enormous potentials of this technol-
+ogy to be employed on behalf of the common good (Section 5). Yet 
+the most urgent need for further research is in the wide ambit of 
+ambivalent aspects of blockchain technology (Section 6). Our pre-
+liminary inspection how different ethical schools might conceptual-
+ize such cases underscores that the phenomenon deserves further 
+study by business ethicists. Future research, in our view, ought to 
+address particularly the following questions, sequenced here from a 
+micro-meso-macro-global perspective:
+
+
+• How much transparency is too much? When does an increase in 
+transparency no longer help but hinder the development and ex-
+ecution of morality on a personal level?
+
+
+• Can investments into the blockchain-based management of lux-
+ury goods and their supply chains be trailblazers for the CSR-
+oriented monitoring of a broader array of commodities?
+
+
+• How can blockchain-based business models alleviate the situation 
+at the base of the pyramid?
+
+
+• May or should private firms try to build public goods such as 
+worldwide payment systems like Libra?
+
+
+• When is ID tracking ethically advantageous and in which scenar-
+ios (refugees, dissidents, government surveillance in totalitarian 
+states) does it create a moral hazard?
+
+
+• How and at which level (local, regional, national, global) of gov-
+ernance can the negative externalities of blockchain technology 
+best be regulated?
+
+
+These questions as well as the examples of ethically sensitive 
+blockchain applications discussed above underscore the main thesis 
+of this paper about the acute relevance and the timeliness of further 
+research in the field.
+
+
+In all, we see cause for cautionary optimism. The chances that 
+this decentralized technology offers for more dispersed ways of cor-
+porate ownership and for more democratic ways of governance are 
+notable and should, in our eyes, be seized upon by practitioners as 
+well as by theoreticians.
+
+
+ACKNOWLEDG EMENT
+Open access funding enabled and organized by Projekt DEAL.
+[Correction added on 23 October, after first online publication: 
+Projekt Deal funding statement has been added.]
+
+
+ORCID
+Claus Dierksmeier  https://orcid.org/0000-0002-8760-9972 
+Peter Seele  https://orcid.org/0000-0002-6456-4003 
+
+
+ENDNOTE S
+ 1 The list incorporating also the list by Griffith (2018) is avail-
+
+
+able upon request from the corresponding author via email. 
+
+
+ 2 Due to length restrictions, we focus only on the most remark-
+able examples relevant for a business ethics assesment. The journal 
+WIRED however published a list of 187 ideas what blockchain can do 
+good for society (see Griffith, 2018). 
+
+
+ 3 It should be noted, that banks now themselves come up with 
+a blockchain-based fintec idea of an interbank information network, 
+largely to keep a foot in the door with the new blockchain-based ser-
+vices from fintec startups. Kramer (2018) reports that JP Morgan's 
+Quorum-powered interbank information network as of September 
+2018 counts 75 global banks as members. 
+
+
+R E FE R E N C E S
+Adams, R., Kewell, B., & Parry, G. (2017). Blockchain for good? Digital 
+
+
+ledger technology and sustainable development goals. In W. L. Filho, 
+R. Marans, & J. Callewaert (Eds.), Handbook of sustainability and 
+social science research (World sustainability series, pp. 127–140). 
+Cham, Switzerland: Springer.
+
+
+Adams, R., Parry, G., Godsiff, P., & Ward, P. (2017). The future of money 
+and further applications of the blockchain. Strategic Change, 26(5), 
+417–422. https ://doi.org/10.1002/jsc.2141
+
+
+Angel, J. J., & McCabe, D. (2014). The ethics of payments: Paper, plastic, 
+or bitcoin? Journal of Business Ethics, 132(3), 603–611. https ://doi.
+org/10.1007/s10551-014-2354-x
+
+
+Ballandies, M., Dapp, M., & Pournaras, E. (2018). Decrypting distributed 
+ledger design – taxonomy, classification and blockchain community 
+evaluation. arXiv preprint arXiv:1811.03419.
+
+
+Barron, J. M., Bishop, J., & Dunkelberg, W. C. (1985). Employer search: The 
+interviewing and hiring of new employees. The Review of Economics and 
+Statistics, 67, 43–52. https ://doi.org/10.2307/1928433
+
+
+BBC.(2018). Russian nuclear scientists arrested for ‘Bitcoin mining plot’. 
+Retrieved from www.bbc.com/news/world-europe-43003740
+
+
+Bhatia, G. K., Kumaraguru, P., Dubey, A., Buduru, A. B., & Kaulgud, V. 
+(2018). WorkerRep: Building trust on crowdsourcing platform using 
+blockchain (Doctoral dissertation). IIIT-Delhi.
+
+
+Bowie, N. E. (1998). A Kantian theory of meaningful work. Journal of 
+Business Ethics, 17(9–10), 1083–1092.
+
+
+Brännmark, J. (2009). Ethical theories and the transparency condition. 
+Ethical Theory and Moral Practice, 12(5), 449. https ://doi.org/10.1007/
+s10677-009-9160-z
+
+
+Buchenau, M.-W. (2018). „Mission E“ - So setzt Porsche die Blockchain 
+beim neuen Elektroflitzer ein. Handelsblatt. Retrieved from www.
+hande lsbla tt.com/unter nehme n/indus trie/missi on-e-so-setzt-porsc 
+he-die-block chain-beim-neuen-elekt rofli tzer-ein/20999 392.htm-
+l?ticke t=ST-11389 812-gwCug BlyEm CyJiT 4l9DJ-ap3
+
+
+Buterin, V. (2013). A Next-generation smart contract and decentralized 
+application platform. GitHub. Retrieved from www.github.com/ether 
+eum/wiki/wiki/White-Paper 
+
+
+Catalini, C. (2017). How blockchain technology will impact the digital 
+economy. Oxford Business Law Blog. Retrieved from www.law.ox.ac.
+uk/busin ess-law-blog/blog/2017/04/how-block chain-techn olo-
+gy-willi mpact-digit al-economy
+
+
+Cavazos, D. E., Rutherford, M., & Berman, S. L. (2018). Assessing the 
+effect of government surveillance on firm supererogation: The case 
+of the U.S. automobile industry. Business Ethics: A European Review, 
+27(2), 156–163. https ://doi.org/10.1111/beer.12179 
+
+
+Chitkara, H. (2019). sh Chitkara IBM has introduced a blockchain-based 
+supply chain verification network. Retrieved from https ://www.
+busin essin sider.com/ibm-cuts-costs-with-new-block chain-netwo 
+rk-2019-8?IR=T
+
+
+Davidson, S., De Filippi, P., & Potts, J. (2018). Blockchains and the eco-
+nomic institutions of capitalism. Journal of Institutional Economics, 
+14(4), 639–658. https ://doi.org/10.1017/S1744 13741 7000200
+
+
+de Soto, H. (2001). El misterio del capital. Finanzas y Desarrollo, 38(1), 
+29–33.
+
+
+Deuber, L. (2018). Chinas Bitcoin-Gott Bobby Lee : « Der Begriff 
+Blockchain wurde gekidnappt». Wiwo. Retrieved from www.wiwo.
+de/finan zen/gelda nlage/ chinas-bitco in-gott-bobby-lee-der-begri ff-
+block chain-wurde-gekid nappt/ 21139 612.html
+
+
+
+https://orcid.org/0000-0002-8760-9972
+
+https://orcid.org/0000-0002-8760-9972
+
+https://orcid.org/0000-0002-6456-4003
+
+https://orcid.org/0000-0002-6456-4003
+
+https://doi.org/10.1002/jsc.2141
+
+https://doi.org/10.1007/s10551-014-2354-x
+
+https://doi.org/10.1007/s10551-014-2354-x
+
+https://doi.org/10.2307/1928433
+
+http://www.bbc.com/news/world-europe-43003740
+
+https://doi.org/10.1007/s10677-009-9160-z
+
+https://doi.org/10.1007/s10677-009-9160-z
+
+http://www.handelsblatt.com/unternehmen/industrie/mission-e-so-setzt-porsche-die-blockchain-beim-neuen-elektroflitzer-ein/20999392.html?ticket=ST-11389812-gwCugBlyEmCyJiT4l9DJ-ap3
+
+http://www.handelsblatt.com/unternehmen/industrie/mission-e-so-setzt-porsche-die-blockchain-beim-neuen-elektroflitzer-ein/20999392.html?ticket=ST-11389812-gwCugBlyEmCyJiT4l9DJ-ap3
+
+http://www.handelsblatt.com/unternehmen/industrie/mission-e-so-setzt-porsche-die-blockchain-beim-neuen-elektroflitzer-ein/20999392.html?ticket=ST-11389812-gwCugBlyEmCyJiT4l9DJ-ap3
+
+http://www.handelsblatt.com/unternehmen/industrie/mission-e-so-setzt-porsche-die-blockchain-beim-neuen-elektroflitzer-ein/20999392.html?ticket=ST-11389812-gwCugBlyEmCyJiT4l9DJ-ap3
+
+http://www.github.com/ethereum/wiki/wiki/White-Paper
+
+http://www.github.com/ethereum/wiki/wiki/White-Paper
+
+http://www.law.ox.ac.uk/business-law-blog/blog/2017/04/how-blockchain-technology-willimpact-digital-economy
+
+http://www.law.ox.ac.uk/business-law-blog/blog/2017/04/how-blockchain-technology-willimpact-digital-economy
+
+http://www.law.ox.ac.uk/business-law-blog/blog/2017/04/how-blockchain-technology-willimpact-digital-economy
+
+https://doi.org/10.1111/beer.12179
+
+https://www.businessinsider.com/ibm-cuts-costs-with-new-blockchain-network-2019-8?IR=T
+
+https://www.businessinsider.com/ibm-cuts-costs-with-new-blockchain-network-2019-8?IR=T
+
+https://www.businessinsider.com/ibm-cuts-costs-with-new-blockchain-network-2019-8?IR=T
+
+https://doi.org/10.1017/S1744137417000200
+
+http://www.wiwo.de/finanzen/geldanlage/chinas-bitcoin-gott-bobby-lee-der-begriff-blockchain-wurde-gekidnappt/21139612.html
+
+http://www.wiwo.de/finanzen/geldanlage/chinas-bitcoin-gott-bobby-lee-der-begriff-blockchain-wurde-gekidnappt/21139612.html
+
+http://www.wiwo.de/finanzen/geldanlage/chinas-bitcoin-gott-bobby-lee-der-begriff-blockchain-wurde-gekidnappt/21139612.html
+
+
+
+
+358  |     DIERKSMEIER anD SEELE
+
+
+Dierksmeier, C. (2013). Kant on virtue. Journal of Business Ethics, 113(4), 
+597–609. https ://doi.org/10.1007/s10551-013-1683-5
+
+
+Dierksmeier, C., & Seele, P. (2016). Cryptocurrencies and business 
+ethics. Journal of Business Ethics, 152(1), 1–14. https ://doi.
+org/10.1007/s10551-016-3298-0
+
+
+Drescher, D. (2017). Blockchain basics: A non-technical introduction in 25 
+steps. Frankfurt, Germany: Apress.
+
+
+Floridi, L. (1999). Information ethics: On the philosophical foundation of 
+computer ethics. Ethics and Information Technology, 1(1), 33–52.
+
+
+Floridi, L. (2013). Ethics of information. Oxford, England: Oxford 
+University Press.
+
+
+Foteinis, S. (2018). Bitcoin's alarming carbon footprint. Nature, 554(7691), 
+169–169.
+
+
+Gatti, L., Vishwanath, B., Cottier, B., & Seele, P. (2018). Are we moving 
+beyond voluntary CSR? Exploring theoretical and managerial implica-
+tions of mandatory CSR resulting from the New Indian companies act. 
+Journal of Business Ethics. https ://doi.org/10.1007/s10551-018-3783-8
+
+
+Gerber, S. (2017). Wie die UBS Van Gogh in di Blockchain holt. Finews. 
+Retrieved from www.finews.ch/news/banke n/29113-ubs-axel-we-
+ber-sergio-ermot ti-block chain-ki-big-data-sf
+
+
+Goel, A. (2015). Blockchain use cases: Comprehensive analysis & start-
+ups involved. Medici. Retrieved from www.gomed ici.com/block 
+chain-use-cases-compr ehens ive-analy sis-start ups-invov ed/
+
+
+Greenberg, J., & Mollick, E. (2016). Activist choice homophily and the 
+crowdfunding of female founders. Administrative Science Quarterly, 
+62(2), 341–374. https ://doi.org/10.1177/00018 39216 678847
+
+
+Griffith, E. (2018). 187 Things the Blockchain is supposed to fix. 
+Retrieved from https ://www.wired.com/story/ 187-things-the-block 
+chain-is-suppo sed-to-fix/
+
+
+Hawlitschek, F., Notheisen, B., & Teubner, T. (2018). The limits of trust-free 
+systems: A literature review on blockchain technology and trust in 
+the sharing economy. Electronic Commerce Research and Applications, 
+29, 50–63. https ://doi.org/10.1016/j.elerap.2018.03.005
+
+
+Iansiti, M., & Lakhani, K. R. (2017). The truth about blockchain. Harvard 
+Business Review, 95(1), 118–127.
+
+
+Inside-it.(2018). Zuger Startup sammelt 25 Millionen Dollar in zwei 
+Tagen. Retrieved from www.inside-it.ch/artic les/50189 
+
+
+Keienburg, J. (2011). Immanuel Kant und die Öffentlichkeit der Vernunft. 
+Berlin, Germany: De Gruyter.
+
+
+Kramer, M. (2018).JP Morgan's quorum-powered interbank informa-
+tion network reaches 75 members. Retrieved from https ://www.
+ethne ws.com/jp-morga ns-quorum-power ed-inter bank-infor ma-
+tion-netwo rk-reach es-75-members
+
+
+Klarin, A. (2020). The decade-long cryptocurrencies and the blockchain 
+rollercoaster: Mapping the intellectual structure and charting future 
+directions. Research in International Business and Finance, 51. https ://
+doi.org/10.1016/j.ribaf.2019.101067
+
+
+Kuebler, E. (2018). Op-ed: How decentralized protocols are threatening 
+traditional business models. Bitcoin Magazine. Retrieved from www.
+bitco inmag azine.com/artic les/op-ed-how-decen trali zed-proto cols-
+are-threa tening-tradi tional-busin ess-model s/
+
+
+Law, L., Sabett, S., & Solinas, J. (1996).How to make a mint: The cryptogra-
+phy of anonymous electronic cash. National Security Agency Office 
+of Information Security Research and Technology. Retrieved from 
+http://groups.csail.mit.edu/mac/class es/6.805/artic les/money/  
+nsami nt/nsami nt.htm
+
+
+Lecy, J. D., & Beatty, K. E. (2012, January 1). Representative literature re-
+views using constrained snowball sampling and citation network anal-
+ysis. SSRN Electronic Journal. https ://doi.org/10.2139/ssrn.1992601
+
+
+Lennerfors, T. T. (2007). The transformation of transparency—On the act 
+on public procurement and the right to appeal in the context of the 
+war on corruption. Journal of Business Ethics, 73(4), 381–390. https ://
+doi.org/10.1007/s10551-006-9213-3
+
+
+Leonard, A. (2018). Meet the man with a radical plan for blockchain vot-
+ing. Wired. Retrieved from www.wired.com/story/ santi ago-siri-radic 
+
+
+al-plan-for-block chain-votin g?mbxml :id=nl_081718_daily_leadp ositi 
+on1__list1_p1&CNDID =39355374
+
+
+Levin, M. S. J. (2015). Combinatorial clustering: Literature review, meth-
+ods, examples. Journal of Communications Technology and Electronics, 
+60, 1403–1428. https ://doi.org/10.1134/S1064 22691 5120177
+
+
+Lewis, B. (2018). De Beers turns to blockchain to guarantee diamond 
+purity. Reuters. Retrieved from www.reute rs.com/artic le/us-an-
+glo-debee rs-block chain/ de-beers-turns-to-block chain-to-guara 
+ntee-diamo nd-purity-idUSK BN1F51HV
+
+
+Li, R. (2017). What is cryptojacking? Hackerbits. Retrieved from www.
+hacke rbits.com/progr ammin g/what-is-crypt ojack ing/
+
+
+Martínez-Ferrero, J., & García-Sánchez, I.-M. (2017). Sustainability assur-
+ance and cost of capital: Does assurance impact on credibility of cor-
+porate social responsibility information? Business Ethics: A European 
+Review, 26(3), 223–239. https ://doi.org/10.1111/beer.12152 
+
+
+Matzutt, R., Hiller, J., Henze, M., Ziegeldorf, J. H., Müllmann, D., Hohlfeld, 
+O., & Wehrle, K. (2018). A quantitative analysis of the impact of arbi-
+trary blockchain content on bitcoin. Financial Cryptography and Data 
+Security Conference. Curaçao.
+
+
+Miscione, G., Ziolkowski, R., Zavolokina, L., & Schwabe, G. (2017). 
+Tribal governance: The business of blockchain authentication. In 
+Proceedings of the Hawaii International Conference on System Sciences 
+(HICSS) 2018. Manoa: University of Hawaii.
+
+
+Mollick, E., & Nanda, R. (2015). Wisdom or madness? Comparing crowds 
+with expert evaluation in funding the arts. Management Science, 
+62(6), 1533–1553. https ://doi.org/10.1287/mnsc.2015.2207
+
+
+Nakamoto, S. (2008). Bitcoin: A peer-to-peer electronic cash system. 
+Retrieved from https ://bitco in.org/bitco in.pdf
+
+
+Newman, L. H. (2018). Now cryptojacking threatens critical infrastruc-
+ture, too. Wired. Retrieved from www.wired.com/story/ crypt ojack 
+ing-criti cal-infra struc ture/
+
+
+Ng, B. (2018). With PwC, VeChain is building supply chain of the future. 
+Ej Insight. Retrieved from www.ejins ight.com/20180 717-with-pwc-
+vecha in-is-build ing-supply-chain-of-the-futur e/
+
+
+Oberhaus, D. (2018). Assassination markets for Jeff Bezos, Betty White, 
+and Donald Trump are on the blockchain. Motherboard. Retrieved 
+from www.mothe roard.vice.com/en_us/artic le/gy35m x/ether 
+eum-assas sinat ion-market-augur 
+
+
+Orcutt, M. (2018). The latest blockchain use case: anonymously 
+betting on public-figure death pools. MIT Technology Review. 
+Retrieved from www.techn ology review.com/the-downl 
+oad/61172 9/the-latest-block chain-use-case-anony mously-betti 
+ng-on-public-figure-death-pools/ 
+
+
+Pirson, M., Gangahar, A., & Wilson, F. (2016). Humanistic and economis-
+tic approaches to banking—Better banking lessons from the financial 
+crisis? Business Ethics: A European Review, 25(4), 400–415. https ://doi.
+org/10.1111/beer.12131 
+
+
+Premalatha, K., & Natarajan, A. M. (2010). A literature review on docu-
+ment clustering. Information Technology Journal, 9, 993–1002. https ://
+doi.org/10.3923/itj.2010.993.1002
+
+
+Reddy, B. G., & Ussenaiah, M. (2012). Literature survey on clustering 
+techniques. Journal of Computer Engineering., 3(1), 01–12. https ://doi.
+org/10.9790/0661-0310112
+
+
+Reijers, W., O'Brolcháin, F., & Haynes, P. (2016). Governance in block-
+chain technologies & social contract theories. Ledger, 1, 134–151.
+
+
+Risius, M., & Spohrer, K. (2017). A blockchain research framework. 
+Business & Information Systems Engineering, 59(6), 385–409. https ://
+doi.org/10.1007/s12599-017-0506-0
+
+
+Scherer, A. G., & Palazzo, G. (2011). The new political role of busi-
+ness in a globalized world: A review of a new perspective on 
+CSR and its implications for the firm, governance, and democ-
+racy. Journal of Management Studies, 48(4), 899–931. https ://doi.
+org/10.1111/j.1467-6486.2010.00950.x
+
+
+Schultz, M., & Seele, P. (2019). Conceptualizing data-deliberation: The 
+starry sky beetle, environmental system risk, and Habermasian CSR 
+
+
+
+https://doi.org/10.1007/s10551-013-1683-5
+
+https://doi.org/10.1007/s10551-016-3298-0
+
+https://doi.org/10.1007/s10551-016-3298-0
+
+https://doi.org/10.1007/s10551-018-3783-8
+
+http://www.finews.ch/news/banken/29113-ubs-axel-weber-sergio-ermotti-blockchain-ki-big-data-sf
+
+http://www.finews.ch/news/banken/29113-ubs-axel-weber-sergio-ermotti-blockchain-ki-big-data-sf
+
+http://www.gomedici.com/blockchain-use-cases-comprehensive-analysis-startups-invoved/
+
+http://www.gomedici.com/blockchain-use-cases-comprehensive-analysis-startups-invoved/
+
+https://doi.org/10.1177/0001839216678847
+
+https://www.wired.com/story/187-things-the-blockchain-is-supposed-to-fix/
+
+https://www.wired.com/story/187-things-the-blockchain-is-supposed-to-fix/
+
+https://doi.org/10.1016/j.elerap.2018.03.005
+
+http://www.inside-it.ch/articles/50189
+
+https://www.ethnews.com/jp-morgans-quorum-powered-interbank-information-network-reaches-75-members
+
+https://www.ethnews.com/jp-morgans-quorum-powered-interbank-information-network-reaches-75-members
+
+https://www.ethnews.com/jp-morgans-quorum-powered-interbank-information-network-reaches-75-members
+
+https://doi.org/10.1016/j.ribaf.2019.101067
+
+https://doi.org/10.1016/j.ribaf.2019.101067
+
+http://www.bitcoinmagazine.com/articles/op-ed-how-decentralized-protocols-are-threatening-traditional-business-models/
+
+http://www.bitcoinmagazine.com/articles/op-ed-how-decentralized-protocols-are-threatening-traditional-business-models/
+
+http://www.bitcoinmagazine.com/articles/op-ed-how-decentralized-protocols-are-threatening-traditional-business-models/
+
+http://groups.csail.mit.edu/mac/classes/6.805/articles/money/nsamint/nsamint.htm
+
+http://groups.csail.mit.edu/mac/classes/6.805/articles/money/nsamint/nsamint.htm
+
+https://doi.org/10.2139/ssrn.1992601
+
+https://doi.org/10.1007/s10551-006-9213-3
+
+https://doi.org/10.1007/s10551-006-9213-3
+
+http://www.wired.com/story/santiago-siri-radical-plan-for-blockchain-voting?mbxml:id=nl_081718_daily_leadposition1__list1_p1&CNDID=39355374
+
+http://www.wired.com/story/santiago-siri-radical-plan-for-blockchain-voting?mbxml:id=nl_081718_daily_leadposition1__list1_p1&CNDID=39355374
+
+http://www.wired.com/story/santiago-siri-radical-plan-for-blockchain-voting?mbxml:id=nl_081718_daily_leadposition1__list1_p1&CNDID=39355374
+
+https://doi.org/10.1134/S1064226915120177
+
+http://www.reuters.com/article/us-anglo-debeers-blockchain/de-beers-turns-to-blockchain-to-guarantee-diamond-purity-idUSKBN1F51HV
+
+http://www.reuters.com/article/us-anglo-debeers-blockchain/de-beers-turns-to-blockchain-to-guarantee-diamond-purity-idUSKBN1F51HV
+
+http://www.reuters.com/article/us-anglo-debeers-blockchain/de-beers-turns-to-blockchain-to-guarantee-diamond-purity-idUSKBN1F51HV
+
+http://www.hackerbits.com/programming/what-is-cryptojacking/
+
+http://www.hackerbits.com/programming/what-is-cryptojacking/
+
+https://doi.org/10.1111/beer.12152
+
+https://doi.org/10.1287/mnsc.2015.2207
+
+https://bitcoin.org/bitcoin.pdf
+
+http://www.wired.com/story/cryptojacking-critical-infrastructure/
+
+http://www.wired.com/story/cryptojacking-critical-infrastructure/
+
+http://www.ejinsight.com/20180717-with-pwc-vechain-is-building-supply-chain-of-the-future/
+
+http://www.ejinsight.com/20180717-with-pwc-vechain-is-building-supply-chain-of-the-future/
+
+http://www.motheroard.vice.com/en_us/article/gy35mx/ethereum-assassination-market-augur
+
+http://www.motheroard.vice.com/en_us/article/gy35mx/ethereum-assassination-market-augur
+
+http://www.technologyreview.com/the-download/611729/the-latest-blockchain-use-case-anonymously-betting-on-public-figure-death-pools/
+
+http://www.technologyreview.com/the-download/611729/the-latest-blockchain-use-case-anonymously-betting-on-public-figure-death-pools/
+
+http://www.technologyreview.com/the-download/611729/the-latest-blockchain-use-case-anonymously-betting-on-public-figure-death-pools/
+
+https://doi.org/10.1111/beer.12131
+
+https://doi.org/10.1111/beer.12131
+
+https://doi.org/10.3923/itj.2010.993.1002
+
+https://doi.org/10.3923/itj.2010.993.1002
+
+https://doi.org/10.9790/0661-0310112
+
+https://doi.org/10.9790/0661-0310112
+
+https://doi.org/10.1007/s12599-017-0506-0
+
+https://doi.org/10.1007/s12599-017-0506-0
+
+https://doi.org/10.1111/j.1467-6486.2010.00950.x
+
+https://doi.org/10.1111/j.1467-6486.2010.00950.x
+
+
+
+
+     |  359DIERKSMEIER anD SEELE
+
+
+in the digital age. Business Ethics: A European Review. https ://doi.
+org/10.1111/beer.12256 
+
+
+Schütz, A. E., Fertig, T., Weber, K., Vu, H., Hirth, M., & Tran-Gia, T. (2018). 
+Vertrauen ist gut, Blockchain ist besser–Einsatzmöglichkeiten 
+von Blockchain für Vertrauensprobleme im Crowdsourcing. HMD 
+Praxis der Wirtschaftsinformatik, 55(6), 1155–1166. https ://doi.
+org/10.1365/s40702-018-00471-9
+
+
+Seele, P. (2018). Let us not forget: Crypto means secret. Cryptocurrencies 
+as enabler of unethical and illegal business and the question of reg-
+ulation. Humanistic Management Journal, 3(1), 133–139. https ://doi.
+org/10.1007/s41463-018-0038-x
+
+
+Serramia, M., Lopez-Sanchez, M., Rodriguez-Aguilar, J. A., Rodriguez, M., 
+Wooldridge, M., Morales, J., & Ansotegui, C. (2018, July). Moral val-
+ues in norm decision making. In Proceedings of the 17th International 
+Conference on Autonomous Agents and MultiAgent Systems (pp. 
+1294–1302). International Foundation for Autonomous Agents and 
+Multiagent Systems.
+
+
+Sison, A. G. (2003). The moral capital of leaders: Why virtue matters. 
+Cheltenham: Edward Elgar Publishing.
+
+
+Slingerland, W. (2017). Norms for networks: A contractarian approach to 
+corruption. In J. D. Rendtorff (Ed.), Perspectives on philosophy of man-
+agement and business ethics (pp. 105–119). Cham, Switzerland: Springer.
+
+
+Stein, S. (2018). Blockchain engineers are in demand. Techcrunch. 
+Retrieved from www.techc runch.com/2018/02/14/block chain-en-
+gin eers-are-in-deman d/
+
+
+Sukumaran, R. (2004). Cryptology, digital assassination and the terror-
+ism futures markets. Strategic Analysis, 28(2), 219–236. https ://doi.
+org/10.1080/09700 16040 8450129
+
+
+Swan, M. (2015). Blockchain: Blueprint for a new economy. Cambridge, MA: 
+O'Reilly.
+
+
+Szabo, N. (1996). Smart contracts: Building blocks for digital markets. 
+Retrieved from http://www.fon.hum.uva.nl/rob/Cours es/Infor matio 
+nInSp eech/CDROM/ Liter ature/ LOTwi nters chool 2006/szabo.best.
+vwh.net/smart_contr acts_2.html
+
+
+Takahashi, D. (2018). Oasis Labs raises $45 million for “privacy first” 
+cloud on blockchain. VentureBeat. Retrieved from www.ventu re-
+beat.com/2018/07/09/oasis-labs-raises-45-milli on-for-priva cy-first-
+cloud-on-block chain/ 
+
+
+Thomason, J., Ahmad, M., Bronder, P., Hoyt, E., Pocock, S., Bouteloupe, 
+J., … Joseph, L. (2018). Blockchain—Powering and empowering the 
+poor in developing countries. In A. Marke (Ed.), Transforming cli-
+mate finance and green investment with blockchains (pp. 137–152). 
+Cambridge, MA: Academic Press.
+
+
+van den Hoven, J., Pouwelse, J., Helbing, D., Klauser, S.(2019). The block-
+chain age: Awareness, empowerment and coordination. In D. Helbing 
+
+
+(Ed.), Towards digital enlightenment (pp. 163–166). Cham, Switzerland: 
+Springer.
+
+
+Visram, T. (2018). Malta wants to become “Blockchain Island”. CNN 
+Money. Retrieved from www.money.cnn.com/2018/07/18/techn 
+ology/ start ups/malta-block chain/ index.html
+
+
+Wagner, R., & Seele, P. (2017). Uncommitted deliberation? Discussing 
+regulatory gaps by comparing GRI 3.1 to GRI 4.0. Journal of 
+Business Ethics, 146(2), 333–251. https ://doi.org/10.1007/
+s10551-017-3654-8
+
+
+WEF. (2016). The future of financial infrastructure: An ambitious look 
+at how blockchain can reshape financial services. Retrieved from 
+https ://www.wefor um.org/repor ts/the-future-of-finan cial-infra 
+struc ture-an-ambit ious-look-at-how-block chain-can-resha pe-finan 
+cial-services
+
+
+Wüstholz, F. (2018). Die gerechtere Kryptowährung. Woz. Retrieved 
+from www.woz.ch/-862f
+
+
+Xu, M., Chen, X., & Kou, G. (2019). A systematic review of 
+Blockchain. Financial Innovation., 5, 27. https ://doi.org/10.1186/
+s40854-019-0147-z
+
+
+AUTHOR BIOG R APHIE S
+
+
+Claus Dierksmeier is Professor for Globalization Ethics at the 
+University of Tübingen in Germany. His areas of expertise and 
+academic work include political, economic, and religious philos-
+ophy with a particular focus on the theories of freedom and re-
+sponsibility in the age of globality.
+
+
+Peter Seele is a full professor for Corporate Social Responsibility 
+and Business Ethics at the Università della Svizzera italiana, 
+Switzerland. His research interests lie in CSR and its communica-
+tion, CSR reporting, CSR digitalization, sustainable development, 
+ethics, and law.
+
+
+How to cite this article: Dierksmeier C, Seele P. Blockchain 
+and business ethics. Business Ethics: A Eur Rev. 2020;29:348–
+359. https ://doi.org/10.1111/beer.12259 
+
+
+
+https://doi.org/10.1111/beer.12256
+
+https://doi.org/10.1111/beer.12256
+
+https://doi.org/10.1365/s40702-018-00471-9
+
+https://doi.org/10.1365/s40702-018-00471-9
+
+https://doi.org/10.1007/s41463-018-0038-x
+
+https://doi.org/10.1007/s41463-018-0038-x
+
+http://www.techcrunch.com/2018/02/14/blockchain-engineers-are-in-demand/
+
+http://www.techcrunch.com/2018/02/14/blockchain-engineers-are-in-demand/
+
+https://doi.org/10.1080/09700160408450129
+
+https://doi.org/10.1080/09700160408450129
+
+http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart_contracts_2.html
+
+http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart_contracts_2.html
+
+http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart_contracts_2.html
+
+http://www.venturebeat.com/2018/07/09/oasis-labs-raises-45-million-for-privacy-first-cloud-on-blockchain/
+
+http://www.venturebeat.com/2018/07/09/oasis-labs-raises-45-million-for-privacy-first-cloud-on-blockchain/
+
+http://www.venturebeat.com/2018/07/09/oasis-labs-raises-45-million-for-privacy-first-cloud-on-blockchain/
+
+http://www.money.cnn.com/2018/07/18/technology/startups/malta-blockchain/index.html
+
+http://www.money.cnn.com/2018/07/18/technology/startups/malta-blockchain/index.html
+
+https://doi.org/10.1007/s10551-017-3654-8WEF
+
+https://doi.org/10.1007/s10551-017-3654-8WEF
+
+https://www.weforum.org/reports/the-future-of-financial-infrastructure-an-ambitious-look-at-how-blockchain-can-reshape-financial-services
+
+https://www.weforum.org/reports/the-future-of-financial-infrastructure-an-ambitious-look-at-how-blockchain-can-reshape-financial-services
+
+https://www.weforum.org/reports/the-future-of-financial-infrastructure-an-ambitious-look-at-how-blockchain-can-reshape-financial-services
+
+http://www.woz.ch/-862f
+
+https://doi.org/10.1186/s40854-019-0147-z
+
+https://doi.org/10.1186/s40854-019-0147-z
+
+https://doi.org/10.1111/beer.12259
+
+

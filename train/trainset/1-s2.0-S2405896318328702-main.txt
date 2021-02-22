@@ -1,0 +1,4080 @@
+
+
+
+
+
+
+
+
+
+
+IFAC PapersOnLine 51-30 (2018) 733–738
+
+
+ScienceDirectScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+2405-8963 © 2018, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+Peer review under responsibility of International Federation of Automatic Control.
+10.1016/j.ifacol.2018.11.205
+
+
+© 2018, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+
+
+10.1016/j.ifacol.2018.11.205 2405-8963
+
+
+
+
+
+Data to Decision and Judgment Making – a Question of Wisdom  
+ 
+
+
+Karamjit S Gill 
+
+
+University of Brighton, Brighton, UK (e-mail: kgillbton@yahoo.co.uk). 
+
+
+
+
+
+Abstract: The technological waves of super artificial intelligence, big data, algorithms, and machine 
+
+
+learning continue to impact our thinking and actions, thereby affecting the ways individuals, professions 
+
+
+and institutions make judgments. On the one hand, there is an argument that more data and knowledge 
+
+
+together with the cyber physical system of industry4.0 will automatically push society along some track 
+
+
+toward a better world for all. On the other hand, we hear worrying voices of the imponderable downsides 
+
+
+of powerful new cyber-, bio-, Nano-technologies, and synthetic biology. In the age of uncertainties, big 
+
+
+data and the algorithm, how is the decision and judgment making process being affected?  
+
+
+Keywords: algorithms, artificial intelligence, big data, calculation, decision, judgment, wisdom 
+
+
+
+
+
+1. ENVISIONING DATA-DECISION-JUDGMENT -
+
+
+WISDOM  
+
+
+Beyond the headlines of the thrill engendered by futuristic AI 
+
+
+super machines, Big Data and Internet of Things, what are we 
+
+
+to make of artificial intelligence? The new wave of artificial 
+
+
+super intelligence raises a number of serious societal 
+
+
+concerns: What are the crises and shocks of the AI machine 
+
+
+that will trigger fundamental change and how should we cope 
+
+
+with the resulting transformation? (Ars 2017). The ways we 
+
+
+perceive and act on these questions depend upon our purpose 
+
+
+and this in turn depends upon decision and judgments we 
+
+
+make in designing and implementing AI and data systems. 
+
+
+The ideas of science with purpose, and the implication of the 
+
+
+shift from judgement to calculation, have been anchored in 
+
+
+engineering and computing writings, Architect and Bee 
+
+
+(Cooley, 1987),  Computer Power and Human Reason 
+
+
+(Weizenbaum, 1976), and Machines with Purpose 
+
+
+(Rosenbrock 1996). Cooley (1987) draws our attention to 
+
+
+data-information-knowledge-wisdom-action cycle, when he 
+
+
+says that data (calculation end) suitably organised and acted 
+
+
+upon may become information. Information absorbed, 
+
+
+understood and applied by people, may become knowledge. 
+
+
+Knowledge frequently applied in a domain may become 
+
+
+wisdom, and wisdom (judgment end) the basis for positive 
+
+
+action.  
+
+
+On Judgment, to the followers of Tao, decision making is 
+
+
+part of analytical judgment process 
+
+
+(https://mymostlyunfabulouslife.com/2013/05/16/daily-tao-
+
+
+136-judgement/). Options and choices are subliminally 
+
+
+analysed and the best alternative is selected in the given 
+
+
+circumstances. In this sense, decision making is data and 
+
+
+evidence driven while judging is “impression” driven. 
+
+
+Decision making process is result oriented while judging is 
+
+
+person oriented. Moreover, when giving a judgement, you are 
+
+
+not a part of the issue and supposed to be an outsider and 
+
+
+with no bias. You are supposed to hear both the sides and tell 
+
+
+who is right or wrong.  Here, you do not choose what is right 
+
+
+for you but tell who is right. Again to followers of Tao 
+
+
+(http://personaltao.com/teachings/taoism/learning-taoism-
+
+
+releasing-judgement/), Judgment is a social invention: 
+
+
+societies use systems of judgment to maintain “order” and a 
+
+
+balance between its membership. Judgment is all about 
+
+
+measuring what is right and what is wrong. No human 
+
+
+judgment system can be perfect. When perfect, it would 
+
+
+absolutely mean no free could exist. When perfect, there  
+
+
+would be no questions, no grey areas, no wrong actions, 
+
+
+merely only always right actions. The challenge of creating 
+
+
+frameworks and models of wise decision and wise judgments 
+
+
+is that we should never witness humanity becoming too 
+
+
+trapped by its own judgment systems, especially at risk of 
+
+
+being trapped by codified judgment systems. 
+
+
+Groumpos (2016) surmises that many times in human history 
+
+
+people have ignored and buried memories, knowledge, 
+
+
+experiences, practices and habit of the past and have focused 
+
+
+on the new and previously unimaginable bright future on 
+
+
+horizon. However this kind of ignorance has led humankind 
+
+
+to take catastrophic and unwise decisions. Based up the 
+
+
+intertwinement of knowledge and wisdom, he puts forward 
+
+
+Fuzzy Cognitive Maps as a systematic approach of Deep 
+
+
+Learning (DL) to study the role and value of past experiences 
+
+
+in making wise decisions. He, however, recognises the limits 
+
+
+of the black box approach of statistical theories of DL 
+
+
+techniques in taking into consideration effectively the 
+
+
+fuzziness and uncertainty characterizing today’s complex 
+
+
+dynamic systems, such as Health, energy, environment, 
+
+
+geology, biology, manufacturing, business and economy. In 
+
+
+pursuit of a data driven path of judgment guided by human 
+
+
+experience, we should be mindful that “stochastic” choices 
+
+
+based on the computed probabilities of alternative actions, 
+
+
+presents a flawed basis for the alignment of AI and human 
+
+
+values, as the stochastic choice is not the same thing as 
+
+
+intentional, freely willed decision-making. Whilst judgment 
+
+
+can be seen as the application of knowledge to differentiate 
+
+
+between the "right" and "wrong" facts, wisdom is about the 
+
+
+use of knowledge to perceive and choose the "right" action or 
+
+
+to avoid the "wrong" action. Wisdom here may involve 
+
+
+factors such as speculation, feelings, and moral or ethical 
+
+
+values not only of self but also of the other. Citing the 
+
+
+example of dropping atomic bombs on Hiroshima and 
+
+
+18th IFAC Conference on Technology, Culture and International
+Stability
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+Copyright © 2018 IFAC 733     
+
+
+Data to Decision and Judgment Making – a Question of Wisdom  
+ 
+
+
+Karamjit S Gill 
+
+
+University of Brighton, Brighton, UK (e-mail: kgillbton@yahoo.co.uk). 
+
+
+
+
+
+Abstract: The technological waves of super artificial intelligence, big data, algorithms, and machine 
+
+
+learning continue to impact our thinking and actions, thereby affecting the ways individuals, professions 
+
+
+and institutions make judgments. On the one hand, there is an argument that more data and knowledge 
+
+
+together with the cyber physical system of industry4.0 will automatically push society along some track 
+
+
+toward a better world for all. On the other hand, we hear worrying voices of the imponderable downsides 
+
+
+of powerful new cyber-, bio-, Nano-technologies, and synthetic biology. In the age of uncertainties, big 
+
+
+data and the algorithm, how is the decision and judgment making process being affected?  
+
+
+Keywords: algorithms, artificial intelligence, big data, calculation, decision, judgment, wisdom 
+
+
+
+
+
+1. ENVISIONING DATA-DECISION-JUDGMENT -
+
+
+WISDOM  
+
+
+Beyond the headlines of the thrill engendered by futuristic AI 
+
+
+super machines, Big Data and Internet of Things, what are we 
+
+
+to make of artificial intelligence? The new wave of artificial 
+
+
+super intelligence raises a number of serious societal 
+
+
+concerns: What are the crises and shocks of the AI machine 
+
+
+that will trigger fundamental change and how should we cope 
+
+
+with the resulting transformation? (Ars 2017). The ways we 
+
+
+perceive and act on these questions depend upon our purpose 
+
+
+and this in turn depends upon decision and judgments we 
+
+
+make in designing and implementing AI and data systems. 
+
+
+The ideas of science with purpose, and the implication of the 
+
+
+shift from judgement to calculation, have been anchored in 
+
+
+engineering and computing writings, Architect and Bee 
+
+
+(Cooley, 1987),  Computer Power and Human Reason 
+
+
+(Weizenbaum, 1976), and Machines with Purpose 
+
+
+(Rosenbrock 1996). Cooley (1987) draws our attention to 
+
+
+data-information-knowledge-wisdom-action cycle, when he 
+
+
+says that data (calculation end) suitably organised and acted 
+
+
+upon may become information. Information absorbed, 
+
+
+understood and applied by people, may become knowledge. 
+
+
+Knowledge frequently applied in a domain may become 
+
+
+wisdom, and wisdom (judgment end) the basis for positive 
+
+
+action.  
+
+
+On Judgment, to the followers of Tao, decision making is 
+
+
+part of analytical judgment process 
+
+
+(https://mymostlyunfabulouslife.com/2013/05/16/daily-tao-
+
+
+136-judgement/). Options and choices are subliminally 
+
+
+analysed and the best alternative is selected in the given 
+
+
+circumstances. In this sense, decision making is data and 
+
+
+evidence driven while judging is “impression” driven. 
+
+
+Decision making process is result oriented while judging is 
+
+
+person oriented. Moreover, when giving a judgement, you are 
+
+
+not a part of the issue and supposed to be an outsider and 
+
+
+with no bias. You are supposed to hear both the sides and tell 
+
+
+who is right or wrong.  Here, you do not choose what is right 
+
+
+for you but tell who is right. Again to followers of Tao 
+
+
+(http://personaltao.com/teachings/taoism/learning-taoism-
+
+
+releasing-judgement/), Judgment is a social invention: 
+
+
+societies use systems of judgment to maintain “order” and a 
+
+
+balance between its membership. Judgment is all about 
+
+
+measuring what is right and what is wrong. No human 
+
+
+judgment system can be perfect. When perfect, it would 
+
+
+absolutely mean no free could exist. When perfect, there  
+
+
+would be no questions, no grey areas, no wrong actions, 
+
+
+merely only always right actions. The challenge of creating 
+
+
+frameworks and models of wise decision and wise judgments 
+
+
+is that we should never witness humanity becoming too 
+
+
+trapped by its own judgment systems, especially at risk of 
+
+
+being trapped by codified judgment systems. 
+
+
+Groumpos (2016) surmises that many times in human history 
+
+
+people have ignored and buried memories, knowledge, 
+
+
+experiences, practices and habit of the past and have focused 
+
+
+on the new and previously unimaginable bright future on 
+
+
+horizon. However this kind of ignorance has led humankind 
+
+
+to take catastrophic and unwise decisions. Based up the 
+
+
+intertwinement of knowledge and wisdom, he puts forward 
+
+
+Fuzzy Cognitive Maps as a systematic approach of Deep 
+
+
+Learning (DL) to study the role and value of past experiences 
+
+
+in making wise decisions. He, however, recognises the limits 
+
+
+of the black box approach of statistical theories of DL 
+
+
+techniques in taking into consideration effectively the 
+
+
+fuzziness and uncertainty characterizing today’s complex 
+
+
+dynamic systems, such as Health, energy, environment, 
+
+
+geology, biology, manufacturing, business and economy. In 
+
+
+pursuit of a data driven path of judgment guided by human 
+
+
+experience, we should be mindful that “stochastic” choices 
+
+
+based on the computed probabilities of alternative actions, 
+
+
+presents a flawed basis for the alignment of AI and human 
+
+
+values, as the stochastic choice is not the same thing as 
+
+
+intentional, freely willed decision-making. Whilst judgment 
+
+
+can be seen as the application of knowledge to differentiate 
+
+
+between the "right" and "wrong" facts, wisdom is about the 
+
+
+use of knowledge to perceive and choose the "right" action or 
+
+
+to avoid the "wrong" action. Wisdom here may involve 
+
+
+factors such as speculation, feelings, and moral or ethical 
+
+
+values not only of self but also of the other. Citing the 
+
+
+example of dropping atomic bombs on Hiroshima and 
+
+
+18th IFAC Conference on Technology, Culture and International
+Stability
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+Copyright © 2018 IFAC 733
+
+
+
+
+
+Data to Decision and Judgment Making – a Question of Wisdom  
+ 
+
+
+Karamjit S Gill 
+
+
+University of Brighton, Brighton, UK (e-mail: kgillbton@yahoo.co.uk). 
+
+
+
+
+
+Abstract: The technological waves of super artificial intelligence, big data, algorithms, and machine 
+
+
+learning continue to impact our thinking and actions, thereby affecting the ways individuals, professions 
+
+
+and institutions make judgments. On the one hand, there is an argument that more data and knowledge 
+
+
+together with the cyber physical system of industry4.0 will automatically push society along some track 
+
+
+toward a better world for all. On the other hand, we hear worrying voices of the imponderable downsides 
+
+
+of powerful new cyber-, bio-, Nano-technologies, and synthetic biology. In the age of uncertainties, big 
+
+
+data and the algorithm, how is the decision and judgment making process being affected?  
+
+
+Keywords: algorithms, artificial intelligence, big data, calculation, decision, judgment, wisdom 
+
+
+
+
+
+1. ENVISIONING DATA-DECISION-JUDGMENT -
+
+
+WISDOM  
+
+
+Beyond the headlines of the thrill engendered by futuristic AI 
+
+
+super machines, Big Data and Internet of Things, what are we 
+
+
+to make of artificial intelligence? The new wave of artificial 
+
+
+super intelligence raises a number of serious societal 
+
+
+concerns: What are the crises and shocks of the AI machine 
+
+
+that will trigger fundamental change and how should we cope 
+
+
+with the resulting transformation? (Ars 2017). The ways we 
+
+
+perceive and act on these questions depend upon our purpose 
+
+
+and this in turn depends upon decision and judgments we 
+
+
+make in designing and implementing AI and data systems. 
+
+
+The ideas of science with purpose, and the implication of the 
+
+
+shift from judgement to calculation, have been anchored in 
+
+
+engineering and computing writings, Architect and Bee 
+
+
+(Cooley, 1987),  Computer Power and Human Reason 
+
+
+(Weizenbaum, 1976), and Machines with Purpose 
+
+
+(Rosenbrock 1996). Cooley (1987) draws our attention to 
+
+
+data-information-knowledge-wisdom-action cycle, when he 
+
+
+says that data (calculation end) suitably organised and acted 
+
+
+upon may become information. Information absorbed, 
+
+
+understood and applied by people, may become knowledge. 
+
+
+Knowledge frequently applied in a domain may become 
+
+
+wisdom, and wisdom (judgment end) the basis for positive 
+
+
+action.  
+
+
+On Judgment, to the followers of Tao, decision making is 
+
+
+part of analytical judgment process 
+
+
+(https://mymostlyunfabulouslife.com/2013/05/16/daily-tao-
+
+
+136-judgement/). Options and choices are subliminally 
+
+
+analysed and the best alternative is selected in the given 
+
+
+circumstances. In this sense, decision making is data and 
+
+
+evidence driven while judging is “impression” driven. 
+
+
+Decision making process is result oriented while judging is 
+
+
+person oriented. Moreover, when giving a judgement, you are 
+
+
+not a part of the issue and supposed to be an outsider and 
+
+
+with no bias. You are supposed to hear both the sides and tell 
+
+
+who is right or wrong.  Here, you do not choose what is right 
+
+
+for you but tell who is right. Again to followers of Tao 
+
+
+(http://personaltao.com/teachings/taoism/learning-taoism-
+
+
+releasing-judgement/), Judgment is a social invention: 
+
+
+societies use systems of judgment to maintain “order” and a 
+
+
+balance between its membership. Judgment is all about 
+
+
+measuring what is right and what is wrong. No human 
+
+
+judgment system can be perfect. When perfect, it would 
+
+
+absolutely mean no free could exist. When perfect, there  
+
+
+would be no questions, no grey areas, no wrong actions, 
+
+
+merely only always right actions. The challenge of creating 
+
+
+frameworks and models of wise decision and wise judgments 
+
+
+is that we should never witness humanity becoming too 
+
+
+trapped by its own judgment systems, especially at risk of 
+
+
+being trapped by codified judgment systems. 
+
+
+Groumpos (2016) surmises that many times in human history 
+
+
+people have ignored and buried memories, knowledge, 
+
+
+experiences, practices and habit of the past and have focused 
+
+
+on the new and previously unimaginable bright future on 
+
+
+horizon. However this kind of ignorance has led humankind 
+
+
+to take catastrophic and unwise decisions. Based up the 
+
+
+intertwinement of knowledge and wisdom, he puts forward 
+
+
+Fuzzy Cognitive Maps as a systematic approach of Deep 
+
+
+Learning (DL) to study the role and value of past experiences 
+
+
+in making wise decisions. He, however, recognises the limits 
+
+
+of the black box approach of statistical theories of DL 
+
+
+techniques in taking into consideration effectively the 
+
+
+fuzziness and uncertainty characterizing today’s complex 
+
+
+dynamic systems, such as Health, energy, environment, 
+
+
+geology, biology, manufacturing, business and economy. In 
+
+
+pursuit of a data driven path of judgment guided by human 
+
+
+experience, we should be mindful that “stochastic” choices 
+
+
+based on the computed probabilities of alternative actions, 
+
+
+presents a flawed basis for the alignment of AI and human 
+
+
+values, as the stochastic choice is not the same thing as 
+
+
+intentional, freely willed decision-making. Whilst judgment 
+
+
+can be seen as the application of knowledge to differentiate 
+
+
+between the "right" and "wrong" facts, wisdom is about the 
+
+
+use of knowledge to perceive and choose the "right" action or 
+
+
+to avoid the "wrong" action. Wisdom here may involve 
+
+
+factors such as speculation, feelings, and moral or ethical 
+
+
+values not only of self but also of the other. Citing the 
+
+
+example of dropping atomic bombs on Hiroshima and 
+
+
+18th IFAC Conference on Technology, Culture and International
+Stability
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+Copyright © 2018 IFAC 733
+
+
+
+
+
+Data to Decision and Judgment Making – a Question of Wisdom  
+ 
+
+
+Karamjit S Gill 
+
+
+University of Brighton, Brighton, UK (e-mail: kgillbton@yahoo.co.uk). 
+
+
+
+
+
+Abstract: The technological waves of super artificial intelligence, big data, algorithms, and machine 
+
+
+learning continue to impact our thinking and actions, thereby affecting the ways individuals, professions 
+
+
+and institutions make judgments. On the one hand, there is an argument that more data and knowledge 
+
+
+together with the cyber physical system of industry4.0 will automatically push society along some track 
+
+
+toward a better world for all. On the other hand, we hear worrying voices of the imponderable downsides 
+
+
+of powerful new cyber-, bio-, Nano-technologies, and synthetic biology. In the age of uncertainties, big 
+
+
+data and the algorithm, how is the decision and judgment making process being affected?  
+
+
+Keywords: algorithms, artificial intelligence, big data, calculation, decision, judgment, wisdom 
+
+
+
+
+
+1. ENVISIONING DATA-DECISION-JUDGMENT -
+
+
+WISDOM  
+
+
+Beyond the headlines of the thrill engendered by futuristic AI 
+
+
+super machines, Big Data and Internet of Things, what are we 
+
+
+to make of artificial intelligence? The new wave of artificial 
+
+
+super intelligence raises a number of serious societal 
+
+
+concerns: What are the crises and shocks of the AI machine 
+
+
+that will trigger fundamental change and how should we cope 
+
+
+with the resulting transformation? (Ars 2017). The ways we 
+
+
+perceive and act on these questions depend upon our purpose 
+
+
+and this in turn depends upon decision and judgments we 
+
+
+make in designing and implementing AI and data systems. 
+
+
+The ideas of science with purpose, and the implication of the 
+
+
+shift from judgement to calculation, have been anchored in 
+
+
+engineering and computing writings, Architect and Bee 
+
+
+(Cooley, 1987),  Computer Power and Human Reason 
+
+
+(Weizenbaum, 1976), and Machines with Purpose 
+
+
+(Rosenbrock 1996). Cooley (1987) draws our attention to 
+
+
+data-information-knowledge-wisdom-action cycle, when he 
+
+
+says that data (calculation end) suitably organised and acted 
+
+
+upon may become information. Information absorbed, 
+
+
+understood and applied by people, may become knowledge. 
+
+
+Knowledge frequently applied in a domain may become 
+
+
+wisdom, and wisdom (judgment end) the basis for positive 
+
+
+action.  
+
+
+On Judgment, to the followers of Tao, decision making is 
+
+
+part of analytical judgment process 
+
+
+(https://mymostlyunfabulouslife.com/2013/05/16/daily-tao-
+
+
+136-judgement/). Options and choices are subliminally 
+
+
+analysed and the best alternative is selected in the given 
+
+
+circumstances. In this sense, decision making is data and 
+
+
+evidence driven while judging is “impression” driven. 
+
+
+Decision making process is result oriented while judging is 
+
+
+person oriented. Moreover, when giving a judgement, you are 
+
+
+not a part of the issue and supposed to be an outsider and 
+
+
+with no bias. You are supposed to hear both the sides and tell 
+
+
+who is right or wrong.  Here, you do not choose what is right 
+
+
+for you but tell who is right. Again to followers of Tao 
+
+
+(http://personaltao.com/teachings/taoism/learning-taoism-
+
+
+releasing-judgement/), Judgment is a social invention: 
+
+
+societies use systems of judgment to maintain “order” and a 
+
+
+balance between its membership. Judgment is all about 
+
+
+measuring what is right and what is wrong. No human 
+
+
+judgment system can be perfect. When perfect, it would 
+
+
+absolutely mean no free could exist. When perfect, there  
+
+
+would be no questions, no grey areas, no wrong actions, 
+
+
+merely only always right actions. The challenge of creating 
+
+
+frameworks and models of wise decision and wise judgments 
+
+
+is that we should never witness humanity becoming too 
+
+
+trapped by its own judgment systems, especially at risk of 
+
+
+being trapped by codified judgment systems. 
+
+
+Groumpos (2016) surmises that many times in human history 
+
+
+people have ignored and buried memories, knowledge, 
+
+
+experiences, practices and habit of the past and have focused 
+
+
+on the new and previously unimaginable bright future on 
+
+
+horizon. However this kind of ignorance has led humankind 
+
+
+to take catastrophic and unwise decisions. Based up the 
+
+
+intertwinement of knowledge and wisdom, he puts forward 
+
+
+Fuzzy Cognitive Maps as a systematic approach of Deep 
+
+
+Learning (DL) to study the role and value of past experiences 
+
+
+in making wise decisions. He, however, recognises the limits 
+
+
+of the black box approach of statistical theories of DL 
+
+
+techniques in taking into consideration effectively the 
+
+
+fuzziness and uncertainty characterizing today’s complex 
+
+
+dynamic systems, such as Health, energy, environment, 
+
+
+geology, biology, manufacturing, business and economy. In 
+
+
+pursuit of a data driven path of judgment guided by human 
+
+
+experience, we should be mindful that “stochastic” choices 
+
+
+based on the computed probabilities of alternative actions, 
+
+
+presents a flawed basis for the alignment of AI and human 
+
+
+values, as the stochastic choice is not the same thing as 
+
+
+intentional, freely willed decision-making. Whilst judgment 
+
+
+can be seen as the application of knowledge to differentiate 
+
+
+between the "right" and "wrong" facts, wisdom is about the 
+
+
+use of knowledge to perceive and choose the "right" action or 
+
+
+to avoid the "wrong" action. Wisdom here may involve 
+
+
+factors such as speculation, feelings, and moral or ethical 
+
+
+values not only of self but also of the other. Citing the 
+
+
+example of dropping atomic bombs on Hiroshima and 
+
+
+18th IFAC Conference on Technology, Culture and International
+Stability
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+Copyright © 2018 IFAC 733
+
+
+
+
+
+Data to Decision and Judgment Making – a Question of Wisdom  
+ 
+
+
+Karamjit S Gill 
+
+
+University of Brighton, Brighton, UK (e-mail: kgillbton@yahoo.co.uk). 
+
+
+
+
+
+Abstract: The technological waves of super artificial intelligence, big data, algorithms, and machine 
+
+
+learning continue to impact our thinking and actions, thereby affecting the ways individuals, professions 
+
+
+and institutions make judgments. On the one hand, there is an argument that more data and knowledge 
+
+
+together with the cyber physical system of industry4.0 will automatically push society along some track 
+
+
+toward a better world for all. On the other hand, we hear worrying voices of the imponderable downsides 
+
+
+of powerful new cyber-, bio-, Nano-technologies, and synthetic biology. In the age of uncertainties, big 
+
+
+data and the algorithm, how is the decision and judgment making process being affected?  
+
+
+Keywords: algorithms, artificial intelligence, big data, calculation, decision, judgment, wisdom 
+
+
+
+
+
+1. ENVISIONING DATA-DECISION-JUDGMENT -
+
+
+WISDOM  
+
+
+Beyond the headlines of the thrill engendered by futuristic AI 
+
+
+super machines, Big Data and Internet of Things, what are we 
+
+
+to make of artificial intelligence? The new wave of artificial 
+
+
+super intelligence raises a number of serious societal 
+
+
+concerns: What are the crises and shocks of the AI machine 
+
+
+that will trigger fundamental change and how should we cope 
+
+
+with the resulting transformation? (Ars 2017). The ways we 
+
+
+perceive and act on these questions depend upon our purpose 
+
+
+and this in turn depends upon decision and judgments we 
+
+
+make in designing and implementing AI and data systems. 
+
+
+The ideas of science with purpose, and the implication of the 
+
+
+shift from judgement to calculation, have been anchored in 
+
+
+engineering and computing writings, Architect and Bee 
+
+
+(Cooley, 1987),  Computer Power and Human Reason 
+
+
+(Weizenbaum, 1976), and Machines with Purpose 
+
+
+(Rosenbrock 1996). Cooley (1987) draws our attention to 
+
+
+data-information-knowledge-wisdom-action cycle, when he 
+
+
+says that data (calculation end) suitably organised and acted 
+
+
+upon may become information. Information absorbed, 
+
+
+understood and applied by people, may become knowledge. 
+
+
+Knowledge frequently applied in a domain may become 
+
+
+wisdom, and wisdom (judgment end) the basis for positive 
+
+
+action.  
+
+
+On Judgment, to the followers of Tao, decision making is 
+
+
+part of analytical judgment process 
+
+
+(https://mymostlyunfabulouslife.com/2013/05/16/daily-tao-
+
+
+136-judgement/). Options and choices are subliminally 
+
+
+analysed and the best alternative is selected in the given 
+
+
+circumstances. In this sense, decision making is data and 
+
+
+evidence driven while judging is “impression” driven. 
+
+
+Decision making process is result oriented while judging is 
+
+
+person oriented. Moreover, when giving a judgement, you are 
+
+
+not a part of the issue and supposed to be an outsider and 
+
+
+with no bias. You are supposed to hear both the sides and tell 
+
+
+who is right or wrong.  Here, you do not choose what is right 
+
+
+for you but tell who is right. Again to followers of Tao 
+
+
+(http://personaltao.com/teachings/taoism/learning-taoism-
+
+
+releasing-judgement/), Judgment is a social invention: 
+
+
+societies use systems of judgment to maintain “order” and a 
+
+
+balance between its membership. Judgment is all about 
+
+
+measuring what is right and what is wrong. No human 
+
+
+judgment system can be perfect. When perfect, it would 
+
+
+absolutely mean no free could exist. When perfect, there  
+
+
+would be no questions, no grey areas, no wrong actions, 
+
+
+merely only always right actions. The challenge of creating 
+
+
+frameworks and models of wise decision and wise judgments 
+
+
+is that we should never witness humanity becoming too 
+
+
+trapped by its own judgment systems, especially at risk of 
+
+
+being trapped by codified judgment systems. 
+
+
+Groumpos (2016) surmises that many times in human history 
+
+
+people have ignored and buried memories, knowledge, 
+
+
+experiences, practices and habit of the past and have focused 
+
+
+on the new and previously unimaginable bright future on 
+
+
+horizon. However this kind of ignorance has led humankind 
+
+
+to take catastrophic and unwise decisions. Based up the 
+
+
+intertwinement of knowledge and wisdom, he puts forward 
+
+
+Fuzzy Cognitive Maps as a systematic approach of Deep 
+
+
+Learning (DL) to study the role and value of past experiences 
+
+
+in making wise decisions. He, however, recognises the limits 
+
+
+of the black box approach of statistical theories of DL 
+
+
+techniques in taking into consideration effectively the 
+
+
+fuzziness and uncertainty characterizing today’s complex 
+
+
+dynamic systems, such as Health, energy, environment, 
+
+
+geology, biology, manufacturing, business and economy. In 
+
+
+pursuit of a data driven path of judgment guided by human 
+
+
+experience, we should be mindful that “stochastic” choices 
+
+
+based on the computed probabilities of alternative actions, 
+
+
+presents a flawed basis for the alignment of AI and human 
+
+
+values, as the stochastic choice is not the same thing as 
+
+
+intentional, freely willed decision-making. Whilst judgment 
+
+
+can be seen as the application of knowledge to differentiate 
+
+
+between the "right" and "wrong" facts, wisdom is about the 
+
+
+use of knowledge to perceive and choose the "right" action or 
+
+
+to avoid the "wrong" action. Wisdom here may involve 
+
+
+factors such as speculation, feelings, and moral or ethical 
+
+
+values not only of self but also of the other. Citing the 
+
+
+example of dropping atomic bombs on Hiroshima and 
+
+
+18th IFAC Conference on Technology, Culture and International
+Stability
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+Copyright © 2018 IFAC 733
+
+
+
+
+
+
+734 Karamjit S Gill et al. / IFAC PapersOnLine 51-30 (2018) 733–738 
+
+
+
+
+
+
+
+
+
+
+
+Nagasaki, Groumpos (ibid.) notes that in terms of applied 
+
+
+knowledge, the judgment of dropping the bomb may be 
+
+
+obvious to their creators (self), but in terms of whether 
+
+
+applying that knowledge was wise or not is still unclear and 
+
+
+subject to intense debate when seen from the gaze of the 
+
+
+other (those affected by it).  
+When decision and judgment making are turned solely into a 
+
+
+data driven paradigm of risks and benefits, we are in danger 
+
+
+of the unquestioning faith in technology, ignoring the larger 
+
+
+social, ethical, moral and political dimensions as Wiener 
+
+
+(1980), would say. This data driven paradigm makes us 
+
+
+reliance on quantifiable measures to the exclusion of 
+
+
+qualitative assessment, thereby limiting the scope and 
+
+
+horizon of human decision making. We already see the 
+
+
+impact data driven decision making on standardisation of 
+
+
+student tests and research evaluation, that are made to fit the 
+
+
+data sets rather than data sets as one of the variables in 
+
+
+judgment making. We note from Wiener’s argument that to 
+
+
+understand the importance of technologies and their design 
+
+
+and use contexts, we must also grasp the concepts and 
+
+
+complexities of their social and political contexts.  
+Phil Rosenzweig (https://www.mckinsey.com/business-
+
+
+functions/strategy-and-corporate-finance/our-insights/the-
+
+
+benefits-and-limits-of-decision-models) asks us to understand 
+
+
+the limits of the predictability of data driven decision models, 
+
+
+technically dazzling as they are, for example in detecting 
+
+
+fraudulent credit-card use and predicting rainfall. But these 
+
+
+predictions can neither change the behaviour of card users 
+
+
+nor of the farmers to benefit from weather predictions 
+
+
+without wise counselling of card users and without the 
+
+
+wisdom of experiential knowledge of farmers to manage and 
+
+
+improve crop yields.’ Data driven decision models, in 
+
+
+computing predictions of complex and large databases ‘may 
+
+
+relieve the decision makers of some of the burden; but the 
+
+
+danger is that these decision models are often so impressive 
+
+
+that it’s easy to be seduced by them’, and to overlook the 
+
+
+need to use them wisely. As Rosenzweig says that the 
+
+
+challenge thus isn’t to predict what will happen but to make it 
+
+
+happen, and how to control avoid the adverse happenings.  
+
+
+2. DATA, DECISION AND JUDGMENT 
+
+
+For data scientists, in the realm of voices of instrumental 
+
+
+reason (https://cambridgeanalytica.org/), our brain is 
+
+
+constantly required to adapt in a rapidly changing data-driven 
+
+
+environment. When seen as predictive analytics, our brain is 
+
+
+just a complicated learning machine whose main goal is data 
+
+
+compression and interpretation. In this vision of data science, 
+
+
+data processing, occurring automatically in our brains billion 
+
+
+of times each second, is seen as an elementary step in many 
+
+
+data analysis applications. Data science algorithms can be 
+
+
+used to scan data for meaningful patterns, extracting 
+
+
+combinations of features of meaningful data clusters. Beyond 
+
+
+the voice of instrumental reason, Davies (2017) gives us an 
+
+
+insight into the impact and implication of the shifting power 
+
+
+of data, when he says that as personal data are becoming a 
+
+
+huge driver of the digital economy, the data corporations are 
+
+
+becoming ‘more and more skillful at automated decision 
+
+
+making and judgments by tracking our habits and subtly 
+
+
+manipulating our behaviors’. He cites Cambridge Analytica 
+
+
+(ibid.), which uses cutting-edge data analytics techniques, 
+
+
+draws on various data sources to develop psychological 
+
+
+profiles and targets millions of consumers with tailored 
+
+
+messaging (e.g. targeting of American voters during the 2016 
+
+
+presidential elections). He warns that in the world of data 
+
+
+analytics where secrecy surrounding methods and sources of 
+
+
+data is regarded as competitive advantage for decision 
+
+
+making, it is doubtful that the ‘big data elite’ would easily 
+
+
+give up their hold of data in favour of public interest and 
+
+
+social benefit. John Naughton (2017) alerts us to the social, 
+
+
+ethical and legal implications of big data and deep learning. 
+
+
+He cites the case of the transfer of health records of 1.6 
+
+
+million identifiable patients by The Royal Free hospital 
+
+
+London to DeepMind, a Google-owned artificial intelligence 
+
+
+firm, in July 2015, to create an app, called Streams, to help 
+clinicians manage acute kidney injury (AKI), a serious 
+
+
+disease that is linked to 40,000 deaths a year in the UK. 
+
+
+However, the transfer of medical records seem neither to 
+
+
+obey the ethical guidelines and legal requirement nor 
+
+
+compliance of the UK Data Protection Act. What we take 
+
+
+from this data driven decision making and judgement making 
+
+
+story is that we should be concerned about the prevailing 
+
+
+myth that AI tools that affect the social fabric of society 
+
+
+could be developed without abiding by the constraints of the 
+
+
+legal, ethical, social, cultural values and norms of society. 
+
+
+2.1 JUDGMENT: BEYOND THE INSTRUMENTAL 
+
+
+REASON 
+
+
+As instrumental reason continues its march in the guise of 
+
+
+machine learning algorithms, we see an increasing 
+
+
+manipulation of data to support and control institutional and 
+
+
+organizational structures. Moving beyond their (algorithms) 
+
+
+role as computational artefacts, what concerns us how these 
+
+
+algorithms take account of the limits of our ‘entrenched 
+
+
+assumptions about agency, transparency, and normativity’. 
+
+
+Reflecting on these issues Gill (2017) draws our attention to 
+
+
+the work of observant authors, Introna, Crawford, and 
+
+
+Ananny, who see data manipulation practices as problematic 
+
+
+because they are inscrutable, automatic, and subsumed in the 
+
+
+flow of daily practices. Beyond the issues of algorithmic 
+
+
+transparency and openness, calculative practices have a 
+
+
+serious impact on how domains of knowledge and expertise 
+
+
+are produced, and how such domains of knowledge become 
+
+
+internalized, affecting institutional governance. Moreover, 
+
+
+these algorithms not only work within ‘highly contested’ 
+
+
+online spaces of public discourse, they often perform with 
+
+
+little visibility or accountability. This is an argument to move 
+
+
+out of the ‘black box’ notion of the algorithm, and promote 
+
+
+the idea of a ‘networked information algorithms’ (NIAs); 
+
+
+assemblages of institutionally situated code, practices, and 
+
+
+norms with the power to create, sustain, and signify 
+
+
+relationships among people and data through minimally 
+
+
+observable, semi-autonomous action. This opens the way for 
+
+
+‘algorithmic ethics’ that resembles ‘actuarial ethics’, based 
+
+
+on the current and future risks. If AI reflections are to move 
+
+
+out of the ‘black box’ of instrumental reason, we need to 
+
+
+learn from the performance practices of experts, professional 
+
+
+and practitioners, where performance of data is seen not just 
+
+
+in terms of its transformation into information, information 
+
+
+into knowledge but also knowledge into wisdom and wisdom 
+
+
+IFAC TECIS 2018
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+734
+
+
+
+
+
+
+ Karamjit S Gill et al. / IFAC PapersOnLine 51-30 (2018) 733–738 735 
+
+
+
+
+
+
+
+
+
+
+
+Nagasaki, Groumpos (ibid.) notes that in terms of applied 
+
+
+knowledge, the judgment of dropping the bomb may be 
+
+
+obvious to their creators (self), but in terms of whether 
+
+
+applying that knowledge was wise or not is still unclear and 
+
+
+subject to intense debate when seen from the gaze of the 
+
+
+other (those affected by it).  
+When decision and judgment making are turned solely into a 
+
+
+data driven paradigm of risks and benefits, we are in danger 
+
+
+of the unquestioning faith in technology, ignoring the larger 
+
+
+social, ethical, moral and political dimensions as Wiener 
+
+
+(1980), would say. This data driven paradigm makes us 
+
+
+reliance on quantifiable measures to the exclusion of 
+
+
+qualitative assessment, thereby limiting the scope and 
+
+
+horizon of human decision making. We already see the 
+
+
+impact data driven decision making on standardisation of 
+
+
+student tests and research evaluation, that are made to fit the 
+
+
+data sets rather than data sets as one of the variables in 
+
+
+judgment making. We note from Wiener’s argument that to 
+
+
+understand the importance of technologies and their design 
+
+
+and use contexts, we must also grasp the concepts and 
+
+
+complexities of their social and political contexts.  
+Phil Rosenzweig (https://www.mckinsey.com/business-
+
+
+functions/strategy-and-corporate-finance/our-insights/the-
+
+
+benefits-and-limits-of-decision-models) asks us to understand 
+
+
+the limits of the predictability of data driven decision models, 
+
+
+technically dazzling as they are, for example in detecting 
+
+
+fraudulent credit-card use and predicting rainfall. But these 
+
+
+predictions can neither change the behaviour of card users 
+
+
+nor of the farmers to benefit from weather predictions 
+
+
+without wise counselling of card users and without the 
+
+
+wisdom of experiential knowledge of farmers to manage and 
+
+
+improve crop yields.’ Data driven decision models, in 
+
+
+computing predictions of complex and large databases ‘may 
+
+
+relieve the decision makers of some of the burden; but the 
+
+
+danger is that these decision models are often so impressive 
+
+
+that it’s easy to be seduced by them’, and to overlook the 
+
+
+need to use them wisely. As Rosenzweig says that the 
+
+
+challenge thus isn’t to predict what will happen but to make it 
+
+
+happen, and how to control avoid the adverse happenings.  
+
+
+2. DATA, DECISION AND JUDGMENT 
+
+
+For data scientists, in the realm of voices of instrumental 
+
+
+reason (https://cambridgeanalytica.org/), our brain is 
+
+
+constantly required to adapt in a rapidly changing data-driven 
+
+
+environment. When seen as predictive analytics, our brain is 
+
+
+just a complicated learning machine whose main goal is data 
+
+
+compression and interpretation. In this vision of data science, 
+
+
+data processing, occurring automatically in our brains billion 
+
+
+of times each second, is seen as an elementary step in many 
+
+
+data analysis applications. Data science algorithms can be 
+
+
+used to scan data for meaningful patterns, extracting 
+
+
+combinations of features of meaningful data clusters. Beyond 
+
+
+the voice of instrumental reason, Davies (2017) gives us an 
+
+
+insight into the impact and implication of the shifting power 
+
+
+of data, when he says that as personal data are becoming a 
+
+
+huge driver of the digital economy, the data corporations are 
+
+
+becoming ‘more and more skillful at automated decision 
+
+
+making and judgments by tracking our habits and subtly 
+
+
+manipulating our behaviors’. He cites Cambridge Analytica 
+
+
+(ibid.), which uses cutting-edge data analytics techniques, 
+
+
+draws on various data sources to develop psychological 
+
+
+profiles and targets millions of consumers with tailored 
+
+
+messaging (e.g. targeting of American voters during the 2016 
+
+
+presidential elections). He warns that in the world of data 
+
+
+analytics where secrecy surrounding methods and sources of 
+
+
+data is regarded as competitive advantage for decision 
+
+
+making, it is doubtful that the ‘big data elite’ would easily 
+
+
+give up their hold of data in favour of public interest and 
+
+
+social benefit. John Naughton (2017) alerts us to the social, 
+
+
+ethical and legal implications of big data and deep learning. 
+
+
+He cites the case of the transfer of health records of 1.6 
+
+
+million identifiable patients by The Royal Free hospital 
+
+
+London to DeepMind, a Google-owned artificial intelligence 
+
+
+firm, in July 2015, to create an app, called Streams, to help 
+
+
+clinicians manage acute kidney injury (AKI), a serious 
+
+
+disease that is linked to 40,000 deaths a year in the UK. 
+
+
+However, the transfer of medical records seem neither to 
+
+
+obey the ethical guidelines and legal requirement nor 
+
+
+compliance of the UK Data Protection Act. What we take 
+
+
+from this data driven decision making and judgement making 
+
+
+story is that we should be concerned about the prevailing 
+
+
+myth that AI tools that affect the social fabric of society 
+
+
+could be developed without abiding by the constraints of the 
+
+
+legal, ethical, social, cultural values and norms of society. 
+
+
+2.1 JUDGMENT: BEYOND THE INSTRUMENTAL 
+
+
+REASON 
+
+
+As instrumental reason continues its march in the guise of 
+
+
+machine learning algorithms, we see an increasing 
+
+
+manipulation of data to support and control institutional and 
+
+
+organizational structures. Moving beyond their (algorithms) 
+
+
+role as computational artefacts, what concerns us how these 
+
+
+algorithms take account of the limits of our ‘entrenched 
+
+
+assumptions about agency, transparency, and normativity’. 
+
+
+Reflecting on these issues Gill (2017) draws our attention to 
+
+
+the work of observant authors, Introna, Crawford, and 
+
+
+Ananny, who see data manipulation practices as problematic 
+
+
+because they are inscrutable, automatic, and subsumed in the 
+
+
+flow of daily practices. Beyond the issues of algorithmic 
+
+
+transparency and openness, calculative practices have a 
+
+
+serious impact on how domains of knowledge and expertise 
+
+
+are produced, and how such domains of knowledge become 
+
+
+internalized, affecting institutional governance. Moreover, 
+
+
+these algorithms not only work within ‘highly contested’ 
+
+
+online spaces of public discourse, they often perform with 
+
+
+little visibility or accountability. This is an argument to move 
+
+
+out of the ‘black box’ notion of the algorithm, and promote 
+
+
+the idea of a ‘networked information algorithms’ (NIAs); 
+
+
+assemblages of institutionally situated code, practices, and 
+
+
+norms with the power to create, sustain, and signify 
+
+
+relationships among people and data through minimally 
+
+
+observable, semi-autonomous action. This opens the way for 
+
+
+‘algorithmic ethics’ that resembles ‘actuarial ethics’, based 
+
+
+on the current and future risks. If AI reflections are to move 
+
+
+out of the ‘black box’ of instrumental reason, we need to 
+
+
+learn from the performance practices of experts, professional 
+
+
+and practitioners, where performance of data is seen not just 
+
+
+in terms of its transformation into information, information 
+
+
+into knowledge but also knowledge into wisdom and wisdom 
+
+
+IFAC TECIS 2018
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+734
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+into action. For example, experiential scientists, crafts people, 
+
+
+medical practitioners and engineers transform raw data into 
+
+
+information, then using their skills and experience transform 
+
+
+information into knowledge, and through the application of 
+
+
+their contextual knowledge and wisdom, make judgments 
+
+
+about the accuracy, relevance and acceptability of data that is 
+
+
+coming from many sources. In this transformation process, 
+
+
+there is always a scope for human intervention at various 
+
+
+levels of the data-to-action cycle and that intervention, which 
+
+
+reflects the many overlapping contexts, would bear witness to 
+
+
+situated judgments. This is in contrast to an intervention 
+
+
+based upon machine learning algorithmic calculations.  
+
+
+In other words, the performance of data, in the hands of 
+
+
+expert practitioners, is seen here in terms of an evolving 
+
+
+judgment-making process culminating in action. This 
+
+
+transformational process from data to action, encompassing 
+
+
+feedback loops and human intervention, provides a human-
+
+
+centred perspective of judgment that is contrary to the 
+
+
+computational model of ‘judgment to calculation’, in which 
+
+
+data are used to compute judgment. We should, however, 
+
+
+recognise that the computation model of judgment, turning 
+
+
+judgment making into a data science may be possible from a 
+
+
+computational view-point, it is highly problematic when seen 
+
+
+from a societal perspectives, especially when applied in 
+
+
+human domains such as living, working, and living. It may be 
+
+
+tempting to argue that nothing has fundamentally changed in 
+
+
+the data-action cycle except for the availability of an 
+
+
+abundance of data (big data) and the exponential processing 
+
+
+speed of computers. The fallacy of this argument then 
+
+
+revolves around the idea that only if we have an abundance of 
+
+
+data and the exponential processing speed of the computer, 
+
+
+can we construct machine learning algorithms that can 
+
+
+outstrip human cognition, to the extent that machines can 
+
+
+better humans in processing a wider variety and larger 
+
+
+number of data sets and working in different ways to those of 
+
+
+humans in reaching analytical judgments. However, this 
+
+
+calculation-centred view of judgment fails to recognise that 
+
+
+human judgment is about the process of finding a coherence 
+
+
+among often conflicting and yet creative possibilities that 
+
+
+cannot be reduced to calculation. Moreover, human judgment 
+
+
+resides in and reflects the dynamic and evolving nature of 
+
+
+professional and social practices, enriching human 
+
+
+experience, knowledge, skill and cognition. From this 
+
+
+human-centred perspective, performance of data lies in the 
+
+
+performance of practice of the ‘data–action cycle’, in other 
+
+
+words the performance of inter-relations between data, 
+
+
+information, knowledge, wisdom and action (Cooley 1987, 
+
+
+Gill, K S 2017). This view seeks to understand the nature of 
+
+
+the interface between the physical, cultural and our 
+
+
+experiential worlds. The nature and practice of the interface 
+
+
+here is fundamentally relational between, in-between, and 
+
+
+across knowledges, experiences and practices of contextual 
+
+
+domains (Gill, SP 2015), and not transactional in the sense of 
+
+
+‘cause and effect’ calculation. This view shifts our attention 
+
+
+from a purely technological fascination of machine learning 
+
+
+to the evolving interaction of human systems and technology, 
+
+
+thereby providing a symbiotic horizon of performing data. In 
+
+
+the midst of the fascination with digital technology, we are 
+
+
+cautioned to remember that performance of data in the hands 
+
+
+of creative artists and scientists embodies social/cultural and 
+
+
+spatial intelligence that conforms to the living. We cannot get 
+
+
+this from machine intelligence. Moreover, it is not clear how 
+
+
+a machine would deal with the architectural paradox: when 
+
+
+an architect draws a diagram of a building, the diagram 
+
+
+becomes a building, a static object, an exact language, an 
+
+
+exact dream; but the diagram as a model performs as a 
+
+
+process, a dynamic process in which the diagram acts an 
+
+
+algorithm of ideas. Such a discussion on the creation of an 
+
+
+ethical framework needs ‘to be infused with a more robust 
+
+
+notion of the public interest than can currently be found in the 
+
+
+realm of digital intermediary governance’ (Gill, K S op.cit).  
+
+
+2.2  COMMON SENSE AND JUDGMENT 
+
+
+As the debate on digital governance, public interest and 
+
+
+judgment takes shape, there is an intense contest between two 
+
+
+paradigms, holistic paradigm that is based on the 
+
+
+interconnected world, and the other reductionist, mechanistic 
+
+
+paradigm that sees humans as separate from nature. The 
+
+
+mechanistic paradigm has transformed the diversity of 
+
+
+knowledge systems into a hierarchy, privileging the 
+
+
+reductionist paradigm as the only science, and undermining 
+
+
+other knowledge systems. The word science is derived from 
+
+
+the Latin ‘scire’, meaning ‘to know’. To live is to know. We 
+
+
+are all knowers and judgment makers of different kinds. As 
+
+
+Siva (2018) says that diverse knowledge systems are 
+
+
+scientific within their own paradigms. Mechanistic 
+
+
+reductionist thinking does not just reduce the world to 
+
+
+fragmented, separated parts; it reduces our capacity to know 
+and make judgments. Regal (1990:4) says that society has 
+
+
+also learnt from science that logic is not in itself sufficient to 
+
+
+establish truth, nor is physical evidence. Judgments are 
+
+
+ideally made by combining logic and physical evidence. As 
+
+
+science has so far impacted thinking and now technology is 
+
+
+affecting the ways individuals, professions and institutions 
+
+
+make judgments, we face a challenge as how to 'negotiate our 
+
+
+relationship to science in a 'way of knowing'. Judgment based 
+
+
+on common sense is fragile and may prevent one from 
+
+
+adapting to changing circumstances through the inertia with 
+
+
+which it burdens individual mind and systems of authority 
+
+
+and management. Regal (ibid:115) further says that although 
+
+
+modern common sense seems to be based relatively more on 
+
+
+truths and open-mindedness, and is more adaptable, we 
+
+
+should be aware that science has its own brands of common 
+
+
+sense and myths that prevent it to adapting and advancing as 
+
+
+rapidly as societal needs and aspiration hope for. The idea of 
+
+
+scientific is rooted in the Ancient Greece of Socrates, Plato 
+
+
+and Aristotle. Socrates searched for reality and truth by 
+
+
+questioning one's psychological qualifications to capture 
+
+
+reality, and argued for knowing oneself in order to know the 
+
+
+world around us. Plato (Socrates' student) emphasised pure 
+
+
+reason as a means for finding reality and he saw the "True" 
+
+
+reality as being not in the material world in which we all live, 
+
+
+but in an abstract world of forms that can be seen only 
+
+
+through reason. Plato's student, Aristotle, as the founder of 
+
+
+formal non mathematical logic, put his efforts into the task of 
+
+
+observing nature as an important way of checking on the 
+
+
+validity on one's idea ("empiricism").  
+
+
+We get further insights into the scientific process of making 
+
+
+judgments from Bacon's ideal of gathering information open-
+
+
+mindedly before forming hypotheses, Popper's ideal that 
+
+
+IFAC TECIS 2018
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+735
+
+
+
+
+
+
+736 Karamjit S Gill et al. / IFAC PapersOnLine 51-30 (2018) 733–738 
+
+
+
+
+
+
+
+
+
+
+
+science precedes by the formulation of falsifiable hypotheses, 
+
+
+conjectures and refutations, and Kuhn's notions of paradigm 
+
+
+revolutions, that truth is only what a group of scientists 
+
+
+perceive as truth at a given time (ibid: 77). These ancient and 
+
+
+early-modern nourishing roots of science give us a sense of 
+
+
+the search for justice and wisdom and not just for material 
+
+
+power. We should, however, be alert to the context and 
+
+
+common sense reasoning of judgment, justice and wisdom. It 
+
+
+is important to note that whilst teleology, design, 
+
+
+essentialism, and natural ethics have stayed around, often 
+
+
+clustered in the Platonic and Aristotelian fashions, they have 
+
+
+been an unconscious part of the Western common sense and 
+
+
+popular thought. It is also worth remembering that our 
+
+
+common sense can often blind us to truths, retarding 
+
+
+intellectual and ethical aspirations in spite of the best 
+
+
+intentions (ibid:115) . Nevertheless, in perhaps every human 
+
+
+society wise people have sensed and reasoned that there must 
+
+
+be truths or Truth beyond everyday experience and common 
+
+
+sense.  
+
+
+Both Pythagoras and Plato reasoned that the meaningful 
+
+
+reality is not in the matter (materialism), but is in a world of 
+
+
+eternal and unchanging numbers and ideal forms (idealism) 
+
+
+and that the material form and event that we experience is 
+
+
+abort of illusion, a corrupt manifestation of the perfect and 
+
+
+the eternal. This view was to dominate Western thought even 
+
+
+into the modern times. Regal (ibid. 269) says that from the 
+
+
+times of Galileo, Newton, Kant, and Darwin it was shown 
+
+
+that simple physical mechanism can easily explain the 
+
+
+obvious features of the natural world. It was not until this 
+
+
+relatively late time period that Descartes and others began to 
+
+
+formalise a reasonably tidy division between the natural and 
+
+
+the supernatural. The Pythagorean believed that everything 
+
+
+can be reduced to numbers, and that civilisation and creative 
+
+
+energy can be reduced to competition and conflict. By 
+
+
+reducing reality to numbers and forms they helped set the 
+
+
+stage for the later emphasis on mathematics, quantification, 
+
+
+abstract models so important to the advance in modern 
+
+
+science. This proved to be to the advantage of a bureaucratic 
+
+
+system if social problems were seen as the effects of simple 
+
+
+causes that lend themselves to solutions by technical 
+
+
+inventions. But in fact, many societal problems have complex 
+
+
+causes that cannot be reduced to the quantitative measure and 
+
+
+scientific judgment. But the reductionist outlooks remain 
+
+
+attractive to agencies in bureaucracies. Although science has 
+
+
+been part of liberating movement in history, the runaway 
+
+
+technology is now changing our lives at such a rapid pace 
+
+
+and at its own momentum that we feel that decision making 
+
+
+is being turned into solving logical problems in closed, 
+
+
+known, and fully defined formal logical domains, and 
+
+
+knowledge based judgments making is slipping out of our 
+
+
+hands. However, not all problems in life are amenable to this 
+
+
+closed logical universe. The recent uncovering of the logical 
+
+
+rule based and closed universes of the Facebook and 
+
+
+Cambridge Analytic illustrates that human domains cannot be 
+
+
+treated as if they were a game of chess, bereft of the ethical 
+
+
+dimension, value judgment, social responsibility and political 
+
+
+implications. These are just exemplars of the cracks that are 
+
+
+beginning to emerge in the ivory tower of the reductionist 
+
+
+paradigm, emanating the universal language of conformity of 
+
+
+the digital echo chamber. This echo chamber, connecting the 
+
+
+world of symbols to the real world of experience is 
+
+
+increasingly problematic and undermines the human 
+
+
+dimension of human decisions processes and judgment 
+
+
+making. 
+
+
+3. ENVISIONING ETHICAL JUDGMENT  
+
+
+Tore Nordenstam (1987) gives a deep insight into ethical 
+
+
+competence (called here ethical judgment) and ethical 
+
+
+wisdom. He says that utilitarian ethics is at the heart of 
+
+
+decision making, where the human has become to be seen as 
+
+
+a rational value calculator, thereby reducing the whole of 
+
+
+ethics to a value calculus. He suggests that there are basically 
+
+
+two assumptions at the root of this view of value calculus. 
+
+
+The first assumption is that rational decision-making is to do 
+
+
+with values and norms of various actions, and their probable 
+
+
+value outcomes, we can call it Judgment. The second 
+
+
+assumption is that decision making process follows a rule 
+
+
+based step model, in which decision maker can identify 
+
+
+alternatives of action, evaluate possible effects, estimate 
+
+
+probabilities, estimate positive and negative effects, and can 
+
+
+weigh these effects to reach a decision. This process assumes 
+
+
+that the moral agent should have a number of competencies at 
+
+
+his disposal, including social and ethical competences. This 
+
+
+tacit assumption of ethical competence in rational decision-
+
+
+making makes us recognize that ethical knowledge is as 
+
+
+difficult to formulate in explicit rules and the tacit knowledge 
+
+
+itself. The rule-based part of ethics that dominates the 
+
+
+utilitarian thinking, is just a part of the ethical dimension of 
+
+
+human action. Our rules of action are often a more complex 
+
+
+kind, firmly anchored in a number of paradigms (examples), 
+
+
+personal, social experiences and judgments. Nordenstam 
+
+
+(ibid.) says that our understanding of the rule and examples is 
+
+
+very much in tune with in the ‘whole-part’ relationship of 
+
+
+“the hermeneutical circle”. In order to understand an 
+
+
+example, it has to be taken as an example of something; and 
+
+
+to understand a rule, one has to go through a number of 
+
+
+examples in which the rule is embedded. In this sense both 
+
+
+the rule and examples (paradigms) are more often implicit 
+
+
+and open, thereby cannot be detached from each other, and 
+
+
+thus cannot be applied mechanically. If rules and their 
+
+
+examples are internally related, then it is fairly misleading to 
+
+
+present ethics as a system of general rules (norms, 
+
+
+evaluations). It is good reason to suggest that examples play a 
+
+
+leading role in the field of ethics. The decisive role in all 
+
+
+ethical competence is the ability to go from one paradigm and 
+
+
+counter case to new situations. This demands actor’s insights 
+
+
+and abilities that are acquired through personal and social 
+
+
+experience. An independent moral agent should thus be able 
+
+
+to master a range of examples, structure novel situations, 
+
+
+imagine possible consequences in relation to previous 
+
+
+example and possible situations. For Nordenstam, ethics in 
+
+
+the form of practical wisdom of what is right or wrong in the 
+
+
+field of action exists primarily in the form tacit knowledge of 
+
+
+actors in the field, in the form of knowledge of familiarity in 
+
+
+various situations and structures of society. This knowledge 
+
+
+of familiarity can be seen as practical wisdom, consisting of 
+
+
+internalized ability to handle different ingredients of one’s 
+
+
+ethical paradigm. The core of practical wisdom in this sense 
+
+
+consists of tacit knowledge- all our familiarity, experience 
+
+
+and skills in handling new situations in satisfactory ways. In 
+
+
+IFAC TECIS 2018
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+736
+
+
+
+
+
+
+ Karamjit S Gill et al. / IFAC PapersOnLine 51-30 (2018) 733–738 737 
+
+
+
+
+
+
+
+
+
+
+
+science precedes by the formulation of falsifiable hypotheses, 
+
+
+conjectures and refutations, and Kuhn's notions of paradigm 
+
+
+revolutions, that truth is only what a group of scientists 
+
+
+perceive as truth at a given time (ibid: 77). These ancient and 
+
+
+early-modern nourishing roots of science give us a sense of 
+
+
+the search for justice and wisdom and not just for material 
+
+
+power. We should, however, be alert to the context and 
+
+
+common sense reasoning of judgment, justice and wisdom. It 
+
+
+is important to note that whilst teleology, design, 
+
+
+essentialism, and natural ethics have stayed around, often 
+
+
+clustered in the Platonic and Aristotelian fashions, they have 
+
+
+been an unconscious part of the Western common sense and 
+
+
+popular thought. It is also worth remembering that our 
+
+
+common sense can often blind us to truths, retarding 
+
+
+intellectual and ethical aspirations in spite of the best 
+
+
+intentions (ibid:115) . Nevertheless, in perhaps every human 
+
+
+society wise people have sensed and reasoned that there must 
+
+
+be truths or Truth beyond everyday experience and common 
+
+
+sense.  
+
+
+Both Pythagoras and Plato reasoned that the meaningful 
+
+
+reality is not in the matter (materialism), but is in a world of 
+
+
+eternal and unchanging numbers and ideal forms (idealism) 
+
+
+and that the material form and event that we experience is 
+
+
+abort of illusion, a corrupt manifestation of the perfect and 
+
+
+the eternal. This view was to dominate Western thought even 
+
+
+into the modern times. Regal (ibid. 269) says that from the 
+
+
+times of Galileo, Newton, Kant, and Darwin it was shown 
+
+
+that simple physical mechanism can easily explain the 
+
+
+obvious features of the natural world. It was not until this 
+
+
+relatively late time period that Descartes and others began to 
+
+
+formalise a reasonably tidy division between the natural and 
+
+
+the supernatural. The Pythagorean believed that everything 
+
+
+can be reduced to numbers, and that civilisation and creative 
+
+
+energy can be reduced to competition and conflict. By 
+
+
+reducing reality to numbers and forms they helped set the 
+
+
+stage for the later emphasis on mathematics, quantification, 
+
+
+abstract models so important to the advance in modern 
+
+
+science. This proved to be to the advantage of a bureaucratic 
+
+
+system if social problems were seen as the effects of simple 
+
+
+causes that lend themselves to solutions by technical 
+
+
+inventions. But in fact, many societal problems have complex 
+
+
+causes that cannot be reduced to the quantitative measure and 
+
+
+scientific judgment. But the reductionist outlooks remain 
+
+
+attractive to agencies in bureaucracies. Although science has 
+
+
+been part of liberating movement in history, the runaway 
+
+
+technology is now changing our lives at such a rapid pace 
+
+
+and at its own momentum that we feel that decision making 
+
+
+is being turned into solving logical problems in closed, 
+
+
+known, and fully defined formal logical domains, and 
+
+
+knowledge based judgments making is slipping out of our 
+
+
+hands. However, not all problems in life are amenable to this 
+
+
+closed logical universe. The recent uncovering of the logical 
+
+
+rule based and closed universes of the Facebook and 
+
+
+Cambridge Analytic illustrates that human domains cannot be 
+
+
+treated as if they were a game of chess, bereft of the ethical 
+
+
+dimension, value judgment, social responsibility and political 
+
+
+implications. These are just exemplars of the cracks that are 
+
+
+beginning to emerge in the ivory tower of the reductionist 
+
+
+paradigm, emanating the universal language of conformity of 
+
+
+the digital echo chamber. This echo chamber, connecting the 
+
+
+world of symbols to the real world of experience is 
+
+
+increasingly problematic and undermines the human 
+
+
+dimension of human decisions processes and judgment 
+
+
+making. 
+
+
+3. ENVISIONING ETHICAL JUDGMENT  
+
+
+Tore Nordenstam (1987) gives a deep insight into ethical 
+
+
+competence (called here ethical judgment) and ethical 
+
+
+wisdom. He says that utilitarian ethics is at the heart of 
+
+
+decision making, where the human has become to be seen as 
+
+
+a rational value calculator, thereby reducing the whole of 
+
+
+ethics to a value calculus. He suggests that there are basically 
+
+
+two assumptions at the root of this view of value calculus. 
+
+
+The first assumption is that rational decision-making is to do 
+
+
+with values and norms of various actions, and their probable 
+
+
+value outcomes, we can call it Judgment. The second 
+
+
+assumption is that decision making process follows a rule 
+
+
+based step model, in which decision maker can identify 
+
+
+alternatives of action, evaluate possible effects, estimate 
+
+
+probabilities, estimate positive and negative effects, and can 
+
+
+weigh these effects to reach a decision. This process assumes 
+
+
+that the moral agent should have a number of competencies at 
+
+
+his disposal, including social and ethical competences. This 
+
+
+tacit assumption of ethical competence in rational decision-
+
+
+making makes us recognize that ethical knowledge is as 
+
+
+difficult to formulate in explicit rules and the tacit knowledge 
+
+
+itself. The rule-based part of ethics that dominates the 
+
+
+utilitarian thinking, is just a part of the ethical dimension of 
+
+
+human action. Our rules of action are often a more complex 
+
+
+kind, firmly anchored in a number of paradigms (examples), 
+
+
+personal, social experiences and judgments. Nordenstam 
+
+
+(ibid.) says that our understanding of the rule and examples is 
+
+
+very much in tune with in the ‘whole-part’ relationship of 
+
+
+“the hermeneutical circle”. In order to understand an 
+
+
+example, it has to be taken as an example of something; and 
+
+
+to understand a rule, one has to go through a number of 
+
+
+examples in which the rule is embedded. In this sense both 
+
+
+the rule and examples (paradigms) are more often implicit 
+
+
+and open, thereby cannot be detached from each other, and 
+
+
+thus cannot be applied mechanically. If rules and their 
+
+
+examples are internally related, then it is fairly misleading to 
+
+
+present ethics as a system of general rules (norms, 
+
+
+evaluations). It is good reason to suggest that examples play a 
+
+
+leading role in the field of ethics. The decisive role in all 
+
+
+ethical competence is the ability to go from one paradigm and 
+
+
+counter case to new situations. This demands actor’s insights 
+
+
+and abilities that are acquired through personal and social 
+
+
+experience. An independent moral agent should thus be able 
+
+
+to master a range of examples, structure novel situations, 
+
+
+imagine possible consequences in relation to previous 
+
+
+example and possible situations. For Nordenstam, ethics in 
+
+
+the form of practical wisdom of what is right or wrong in the 
+
+
+field of action exists primarily in the form tacit knowledge of 
+
+
+actors in the field, in the form of knowledge of familiarity in 
+
+
+various situations and structures of society. This knowledge 
+
+
+of familiarity can be seen as practical wisdom, consisting of 
+
+
+internalized ability to handle different ingredients of one’s 
+
+
+ethical paradigm. The core of practical wisdom in this sense 
+
+
+consists of tacit knowledge- all our familiarity, experience 
+
+
+and skills in handling new situations in satisfactory ways. In 
+
+
+IFAC TECIS 2018
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+736
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+this perspective of ethics as practical wisdom, everything is 
+
+
+said to be open to rational scrutiny. There is nothing that is to 
+
+
+be accepted unless it has passed the test of rationality. The 
+
+
+recognition of disagreement is as important as the agreement, 
+
+
+for in agreement lies the essence of disagreement.  
+
+
+To get another deep perspective of performative judgment we 
+
+
+turn to Burdon’s (2015) insightful representation of in 
+
+
+Hannah Arendt’s perspective on judgment, how to make 
+
+
+judgments as a social act. We learn about the relevance of 
+
+
+Arendt's prescient warning about the risks, mass 
+
+
+technological society poses for the capacity of human beings 
+
+
+to think and make reflective judgments and the need for 
+
+
+protecting these uniquely human characteristics. This 
+
+
+involves the engagement of the self, ‘I’, with the other, ’we’, 
+
+
+cultivating the emergence of plural voice in the making of a 
+
+
+performative judgment on behalf of civil society and all 
+
+
+humanity. This view of the self as ‘redoubled and didactic, 
+
+
+not two selves, but a redoubling in relation to others’, sees 
+
+
+the self, 'I', as ‘plural and populated’, and this Arendt's notion 
+
+
+of the plural self turns out to be the condition of conscience 
+
+
+and of responsibility. It is this notion of conscience and 
+
+
+responsibility that designers and practitioners of AI and data 
+
+
+systems need to keep in mind that they cannot separate 
+
+
+themselves (their self) form the wider social responsibility, 
+
+
+when performing judgments on the relevance of their 
+
+
+technologies in the name of society. As Arendt’s would say 
+
+
+to the computational disciples of AI and data science, human 
+
+
+judgment should not be bound by legal rules and regulations 
+
+
+but by ethical principles by virtue of the judging activity 
+
+
+itself. But how can we reconcile values of the self to the 
+
+
+values of the plural (civic society) and in what ways these 
+
+
+values can be aligned in AI systems? 
+
+
+In exploring the case for alignment of AI and human values 
+
+
+on the assumption of finding an equivalence between human 
+
+
+ethics and (practical wisdom) and rule-based ethics, we need 
+
+
+to recognise that this notion of equivalence is flawed. If one 
+
+
+of central ethos of equivalence is mutual trust, then it is 
+
+
+difficult to visualise how an AI system can offer itself as a 
+
+
+trusted companion in an emotionally laid situation where we 
+
+
+feel personal and deep grief and pain of the loss a loved one. 
+
+
+The idea that the computer can console us by following rules 
+
+
+embedded in its system, ignores the very essence of what 
+
+
+human emotion is, tacit and personal that cannot be totally 
+
+
+explicated in the forms of rules. It can be felt but and cannot 
+
+
+be learned even in the form of rules of familiarity 
+
+
+Edwards (2018) proposes coherence as a framework for 
+
+
+making wise decision and judgement making. Coherence 
+
+
+implies harmony, interconnectedness and consistency and 
+
+
+typically including a global order where the whole is greater 
+
+
+than the sum of the parts. At the natural scientific level, auto-
+
+
+coherence or auto-correlation implies stability, at the human, 
+
+
+interpersonal, team and social levels, coherence refers to 
+
+
+harmonious relationships, synchronization and collective 
+
+
+action; at the global level, groups, nations and countries 
+
+
+working co-operatively could promote optimal ecological and 
+
+
+planetary peace and harmony.  For example, “Coherence-
+
+
+building approaches may also help health care practitioners 
+
+
+increase their effectiveness in working with patients, by 
+
+
+enabling a deeper intuitive connection and communication 
+
+
+between practitioner and patient, which can be a crucial 
+
+
+component of the healing process.” Coherence thus provides 
+
+
+a practical basis for discerning intuitions, responsible 
+
+
+decisions and effective actions by AI and machine learning 
+
+
+designers of sound moral integrity. The challenge of 
+
+
+designing AI systems that facilitate coherence in judgment 
+
+
+making is how to stimulate those uniquely human, personal 
+
+
+and transpersonal experiences, behaviour, realities or 
+
+
+phenomena (nous) that will allow further realization, and 
+
+
+human advancement of the greatest good, moral qualities and 
+
+
+general excellence, as well as ensuring survival and 
+
+
+flourishing for all sentient beings, through furthering 
+
+
+intelligence, humanity, art, science and optimizing 
+
+
+interconnectedness.  
+In moving beyond the digital echo chamber of automation of 
+
+
+decisions and judgements, we need to understand the 
+
+
+implication of the AI machine removing the need for another 
+
+
+person altogether. Kathleen Richardson (2017) asks: What if 
+
+
+the machine could become a direct-object of the interaction? 
+
+
+With social robots and the rise of chatbots we are entering an 
+
+
+era where machines are playing different roles in our lives, as 
+
+
+an ‘other’ perhaps. But if the machine can become ‘another’, 
+
+
+then what we mean by the relationship that is mutual and 
+
+
+reciprocal are tuned into instrumental relationships by the 
+
+
+echo chamber? This instrumentality promotes an ‘egocentric 
+
+
+tradition’ with its commitment to the conception of humanity 
+
+
+as a collective of lone individuals’. The impact of this ego-
+
+
+centric tradition is increasingly been seen in relation to how 
+
+
+relationships are construed instrumentally in the evolution of 
+
+
+digital echo chambers, exemplifies by Facebook and Twitter 
+
+
+feeds. We may ask whether this instrumentality shapes a new 
+
+
+future of human relations, thereby the humanity losing the 
+
+
+sense of the term ‘de-humanisation’ in today’s narratives of 
+
+
+AI and machine learning. How can we then move away from 
+
+
+the potential of a machine becoming a relational ‘other’, and 
+
+
+mitigate the impacts of technologies that produce a process of 
+
+
+becoming less than human? The work of S.P. Gill (2015) 
+
+
+Tacit Engagement: Beyond Interaction, says Richardson, 
+
+
+provides a fitting framework how we move away from the 
+
+
+dominant narrative that relations between people are merely a 
+
+
+mechanical exchange of services. In human interaction (or 
+
+
+interaction with all for that matter), the possibilities of 
+
+
+innovation, spontaneity and iteration are endless. 
+
+
+4. COMMON AND UNCOMMON VOICES OF THE 
+
+
+WAVE OF NEW TECHNOLOGIES  
+
+
+The Silicon Valley technological culture may often see 
+
+
+societal concerns and humanistic perspectives of digital 
+
+
+technologies as rather inconvenient, but in the midst of this 
+
+
+transformation, we can hear voices of existential risk, reason, 
+redemption and ethics. For Sir Martin Rees (2013) of the 
+
+
+Centre for the Study of Existential Risk (CSER) equally 
+
+
+worrying are the imponderable downsides of powerful new 
+
+
+cyber-, bio-, Nano-technologies, and synthetic biology. 
+
+
+In the very cognitively rational tradition of the Californian 
+
+
+Silicon Valley, the Stanford Panel Report (2016) surmises 
+
+
+that the frontier of AI has moved far ahead from the functions 
+
+
+of the calculator, as AI researchers work on improving, 
+
+
+generalizing, and scaling up the intelligence currently found 
+
+
+on smartphones. Bostrom (2016) expounds that if we can 
+
+
+program the right ‘‘human-friendly’’ values into AI systems, 
+
+
+IFAC TECIS 2018
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+737
+
+
+
+
+
+
+738 Karamjit S Gill et al. / IFAC PapersOnLine 51-30 (2018) 733–738 
+
+
+
+
+
+
+
+
+
+
+
+they will continue to uphold these virtues, no matter how 
+
+
+powerful the machines become. Amongst the conciliatory 
+
+
+voices is that of Joi Ito, Director of the MIT Media Lab 
+
+
+(2016), who cautions us about the exuberance of “extended 
+
+
+intelligence,” or E.I, as the dominant focus of AI on machine 
+
+
+learning. Although AI scientists may be well intentioned in 
+
+
+their building of machine intelligence tools, he says that “If 
+
+
+we allow 'extended intelligence' to develop without 
+
+
+thoughtfully managing how it integrates with, and affects, 
+
+
+society, it could be used to amplify dangerous biases and 
+
+
+entities.” Unless AI scientists embed ethical and moral 
+
+
+grounding in technology design and evaluation, the same 
+
+
+technology that is meant to advance the well-being of society 
+
+
+‘could, in fact, end up amplifying the worst aspects of our 
+
+
+society.’ The voices of redemption point to the possibilities 
+
+
+of mapping the landscape of potential AI breakthroughs and 
+
+
+their social consequences. The Industry 4.0 projects 
+
+
+(Garibaldo & Rebecchi 2018) raise issues of the convergence 
+
+
+of the cyber physical world in manufacturing and services, 
+
+
+leading to the production of smart factories, services and 
+
+
+platform capitalism. The implication of this convergence 
+
+
+goes beyond the digital platforms; for example the 
+
+
+implication of big data for and synthetic biology, raising 
+
+
+question such as virtualization, echo chambers of social 
+
+
+networks and quantified self, on-line repository a virtual copy 
+
+
+of objects and living specimen, personal platforms, personal 
+
+
+data, and the question of a regulatory regime. What matters is 
+
+
+how we talk about new technologies and how their risks and 
+
+
+benefits can significantly influence their development, 
+
+
+regulation and place in public opinion. Balancing AI’s 
+
+
+potential and its pitfalls therefore pose challenges of creating 
+
+
+frameworks and models for wise decisions making and wise 
+
+
+judgment making to navigate the emerging architectures of 
+
+
+governance and transcend the instrumental reasoning of 
+
+
+computational and automated decision and judgments. 
+
+
+
+
+
+4. CONCLUSIONS 
+
+
+New technologies, on the one hand, offer great potential and 
+
+
+possibilities in many realms of human society. One the other 
+
+
+hand, when seen through the instrumental lens, this very 
+
+
+technology leads to perceiving and thinking in singularities. 
+
+
+We should be mindful of Weizenbaum's (1976) warning of 
+
+
+instrumental reasoning, that the enormous computational 
+
+
+capability of the AI machine is no more relevant to the 
+
+
+validity of the outcome or judgment derived from the 
+
+
+computed results, than that derived from the original source 
+
+
+of data. It is enlightening to observe how the data driven 
+
+
+decision making is aligned to the notion of the limitation of 
+
+
+cognitive ability and memory capacity of humans in making 
+
+
+rational decisions and judgments, and in doing so exclude 
+
+
+experiential knowledge, intuition, creativity, imagination and 
+
+
+pattern recognition ability and capacity of human being in 
+
+
+making wise decisions and judgments. We need to reflect on 
+
+
+whether the instrumental thinking of computability would 
+
+
+continue its march of making a lasting shift from judgment to 
+
+
+calculation. Or do we still have the vision to mould new 
+technologies in a way that facilitates a recalibration of the 
+
+
+Data-Decision-Judgment–Action-Wisdom Spiral.  
+
+
+REFERENCES 
+
+
+Ars (2017). The 2017 Ars Electronica Festival. Linz, Austria, 
+
+
+September 7-11, 2017. The theme: Artificial Intelligence 
+
+
+https://www.aec.at/news/en/festival2017/ 
+
+
+Bostrom, N. (2016). Superintelligence: Paths, Dangers, 
+
+
+Strategies. OUP Oxford. 
+
+
+Burdon, P. D. (2015).  Hannah Arendt: on judgment and 
+
+
+responsibility. Griffith Law Review, 2015  Vol. 24, No.2, 
+
+
+221-243, http://dx.doi.org/IO.1080/10383441.2015.1058215 
+
+
+Cooley, M.J. (1987). Architect or Bee? Hogarth Press, 
+
+
+London  
+
+
+Davies, W. (2017). How statistics lost their power – and why 
+
+
+we should fear what comes next. The Guardian. 
+
+
+https://www.theguardian. com/politics/2017/jan/19/crisis-of-
+
+
+statistics-big-data-democracy.(Accessed 28 Apr 2017) 
+
+
+Edwards, S.D. (2018).The HeartMath coherence model: 
+
+
+implications and challenges for artificial intelligence and 
+
+
+robotics. AI & Society. https://doi.org/10.1007/s00146-018-
+
+
+0834-8 
+
+
+Garibaldo, F. & Rebecchi, E. (2018). Cyber-physical system. 
+
+
+ AI & Soc (2018). Springer https://doi.org/10.1007/s00146-
+
+
+018-0802-3  
+Gill, K. S. (2017). Hermeneutic of performing data, 
+
+
+AI&Society, Vol. 32.3. DOI 10.1007/s00146-017-0727-2 
+
+
+Gill S. P. (2015). Tacit Engagement: beyond interaction. 
+
+
+Springer  
+
+
+Groumpos, P. (2016). Deep Learning vs. Wise Learning: A 
+
+
+Critical and Challenging Overview. ifac-TECIS.2016. 
+
+
+October 26-28, 2016, Durres, Albania 
+
+
+Ito, J. (2016). Well-Intentioned Uses of Technology Can 
+
+
+Go Wrong. MIT Media Lab, 
+
+
+https://www.nytimes.com/roomfordebate/2016/12/05/is-
+
+
+artificial-intelligence-taking-over-our-lives/well-intentioned-
+
+
+uses-of-technology-can-go-wrong  
+
+
+Naughton, J. (2017). Giving Google our private NHS data is 
+
+
+simply illegal. The Guardian, Sunday 9 July 2017 
+
+
+https://www.theguardian.com/commentisfree/2017/jul/09/giv
+
+
+ing-google-private-nhs-data-is-simply-illegal 
+
+
+Nordenstam, T. (1987). Moral rules and paradigms archivio 
+
+
+di filosofia, anno lv-1987 n. 1-3:261-272. ISSN 0004-0088 
+
+
+Rees, M. (2013). Denial of Catastrophic Risks. Science  08 
+
+
+Mar 2013. Vol. 339, Issue 6124, pp. 1123. DOI: 
+
+
+10.1126/science.1236756 
+
+
+Regal, P. J. (1990). The anatomy of Judgement. University of 
+
+
+Minnesota Press, Minneapolis, 1990 
+
+
+Richardson, K. (2017). The human relationship in the ethics 
+
+
+of robotics: a call to Martin Buber’s I and Thou. AI & Soc 
+
+
+(2017). Springer. https://doi.org/10.1007/s00146-017-0699-2  
+
+
+Stanford University (2016). "Artificial Intelligence and Life 
+
+
+in 2030." One Hundred Year Study on Artificial Intelligence:  
+
+
+http://ai100.stanford.edu/2016-report. (Accessed 9 July 2017) 
+
+
+Rosenbrock. H (1990). Machines with a Purpose, Oxford 
+
+
+University Press  
+
+
+Winner, L (1980). Do Artifacts Have Politics? Daedalus, Vol. 
+
+
+109.1: 121-136. Modern Technology: Problem or 
+
+
+Opportunity? The MIT Press. 
+
+
+Weizenbaum, J. (1976). Computer power and human reason: 
+
+
+from judgment to calculation. W. H. Freeman, Francisco. 
+
+
+IFAC TECIS 2018
+Baku, Azerbaidschan, Sept 13-15, 2018
+
+
+738
+
+
+
+

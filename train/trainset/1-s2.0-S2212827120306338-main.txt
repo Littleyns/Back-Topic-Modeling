@@ -1,0 +1,1489 @@
+
+
+
+
+
+
+
+
+
+
+ScienceDirect
+
+
+Available online at www.sciencedirect.comAvailable online at www.sciencedirect.com
+
+
+ScienceDirect
+Procedia CIRP 00 (2017) 000–000
+
+
+  www.elsevier.com/locate/procedia 
+
+
+2212-8271 © 2017 The Authors. Published by Elsevier B.V. 
+Peer-review under responsibility of the scientific committee of the 28th CIRP Design Conference 2018. 
+
+
+28th CIRP Design Conference, May 2018, Nantes, France
+
+
+A new methodology to analyze the functional and physical architecture of 
+existing products for an assembly oriented product family identification 
+
+
+Paul Stief *, Jean-Yves Dantan, Alain Etienne, Ali Siadat 
+École Nationale Supérieure d’Arts et Métiers, Arts et Métiers ParisTech, LCFC EA 4495, 4 Rue Augustin Fresnel, Metz 57078, France 
+
+
+* Corresponding author. Tel.: +33 3 87 37 54 30; E-mail address: paul.stief@ensam.eu
+
+
+Abstract 
+
+
+In today’s business environment, the trend towards more product variety and customization is unbroken. Due to this development, the need of 
+agile and reconfigurable production systems emerged to cope with various products and product families. To design and optimize production
+systems as well as to choose the optimal product matches, product analysis methods are needed. Indeed, most of the known methods aim to 
+analyze a product or one product family on the physical level. Different product families, however, may differ largely in terms of the number and 
+nature of components. This fact impedes an efficient comparison and choice of appropriate product family combinations for the production
+system. A new methodology is proposed to analyze existing products in view of their functional and physical architecture. The aim is to cluster
+these products in new assembly oriented product families for the optimization of existing assembly lines and the creation of future reconfigurable 
+assembly systems. Based on Datum Flow Chain, the physical structure of the products is analyzed. Functional subassemblies are identified, and 
+a functional analysis is performed. Moreover, a hybrid functional and physical architecture graph (HyFPAG) is the output which depicts the 
+similarity between product families by providing design support to both, production system planners and product designers. An illustrative
+example of a nail-clipper is used to explain the proposed methodology. An industrial case study on two product families of steering columns of 
+thyssenkrupp Presta France is then carried out to give a first industrial evaluation of the proposed approach. 
+© 2017 The Authors. Published by Elsevier B.V. 
+Peer-review under responsibility of the scientific committee of the 28th CIRP Design Conference 2018. 
+
+
+Keywords: Assembly; Design method; Family identification
+
+
+1. Introduction 
+
+
+Due to the fast development in the domain of 
+communication and an ongoing trend of digitization and
+digitalization, manufacturing enterprises are facing important
+challenges in today’s market environments: a continuing
+tendency towards reduction of product development times and
+shortened product lifecycles. In addition, there is an increasing
+demand of customization, being at the same time in a global 
+competition with competitors all over the world. This trend, 
+which is inducing the development from macro to micro 
+markets, results in diminished lot sizes due to augmenting
+product varieties (high-volume to low-volume production) [1]. 
+To cope with this augmenting variety as well as to be able to
+identify possible optimization potentials in the existing
+production system, it is important to have a precise knowledge
+
+
+of the product range and characteristics manufactured and/or 
+assembled in this system. In this context, the main challenge in
+modelling and analysis is now not only to cope with single 
+products, a limited product range or existing product families,
+but also to be able to analyze and to compare products to define
+new product families. It can be observed that classical existing
+product families are regrouped in function of clients or features.
+However, assembly oriented product families are hardly to find. 
+
+
+On the product family level, products differ mainly in two
+main characteristics: (i) the number of components and (ii) the
+type of components (e.g. mechanical, electrical, electronical). 
+
+
+Classical methodologies considering mainly single products 
+or solitary, already existing product families analyze the
+product structure on a physical level (components level) which 
+causes difficulties regarding an efficient definition and
+comparison of different product families. Addressing this 
+
+
+Procedia CIRP 93 (2020) 1552–1557
+
+
+2212-8271 © 2020 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the 53rd CIRP Conference on Manufacturing Systems
+10.1016/j.procir.2020.04.058
+
+
+© 2020 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the 53rd CIRP Conference on Manufacturing Systems
+
+
+53rd CIRP Conference on Manufacturing Systems
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia CIRP 00 (2019) 000–000 
+
+
+  
+     www.elsevier.com/locate/procedia 
+   
+
+
+
+
+
+
+
+
+2212-8271 © 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the scientific committee of the 53rd CIRP Conference on Manufacturing Systems 
+
+
+53rd CIRP Conference on Manufacturing Systems 
+
+
+Approach for an Adaptive Control Loop between Supply Network  
+and Manufacturing 
+
+
+ Dennis Bauer*, Thomas Bauernhansl, Alexander Sauer 
+Fraunhofer Institute for Manufacturing Engineering and Automation IPA, Nobelstr. 12, 70569 Stuttgart, Germany  
+
+
+* Corresponding author. Tel.: +49 711 970 1355. E-mail address: dennis.bauer@ipa.fraunhofer.de 
+
+
+Abstract 
+
+
+The development of control loops in manufacturing has been increasingly getting attention by the scientific community. Most presented 
+approaches, however, are exclusively focused on control loops within manufacturing, e.g. between manufacturing control and shop floor. They 
+usually do not include any external factors, for example, from the supply network. To address this issue and to further contribute towards existing 
+approaches, the work herein presented shows the requirements and an initial concept of a control loop between supply network and manufacturing. 
+The findings of this work enable a more effective and efficient reaction by incorporating external factors into the control system and, therefore, 
+a closer integration between supply network and manufacturing. 
+ 
+© 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the scientific committee of the 53rd CIRP Conference on Manufacturing Systems 
+
+
+ Keywords: Supply Network; Production Planning and Control; Manufacturing Control; Closed-loop Control 
+
+
+ 
+1. Introduction 
+
+
+Manufacturing industry faces enormous challenges 
+worldwide. The complexity of supply networks is increasing 
+due to their global distribution, changing structures and fast 
+changing demands. This is enforced by the change from a 
+seller's market to a buyer's market and decreasing 
+manufacturing volumes with a simultaneously increasing 
+number of variants [1, 2]. The market environment in which 
+manufacturing companies operate is, therefore, becoming 
+increasingly complex, volatile, uncertain and ambiguous [3]. In 
+order to achieve a high level of delivery reliability and thus 
+meet the growing importance for customer satisfaction, it is 
+essential for manufacturing companies to react quickly to 
+events in the supply network [4–6]. 
+
+
+Consequently, new partnerships are established to address 
+these challenges. For example, German automobile 
+manufacturer Volkswagen has announced a collaboration with 
+cloud computing provider Amazon to develop a cloud-based 
+platform for the efficient networking of all machines, plants, 
+
+
+factories and, in the future, also suppliers [7]. The focus is put 
+on new perspectives for comprehensive process optimization in 
+the overall production process. The basis for this is the vision 
+of a horizontal and vertical integration of the supply network, 
+i.e. the integration of all relevant events, with significant 
+expected cost savings [1]. Due to the high level of automation, 
+the semiconductor industry, for example, has been working on 
+the integration of the supply network since the early 2000s [8]. 
+
+
+Current technological developments in digitalization, such 
+as cyber-physical systems, big data, machine learning and 
+artificial intelligence, are driving the development towards 
+autonomy, especially in complex systems [9]. Approaches to 
+transfer control engineering principles to production planning 
+and control (PPC) for the creation of robust processes are also 
+receiving increasing attention [5].  
+
+
+As a contribution to the integration of supply network and 
+manufacturing, this paper presents an adaptive, learning control 
+loop for efficient operative reaction to events of the supply 
+network in manufacturing contributing to the approach of 
+supply chain event management [10, 11]. 
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia CIRP 00 (2019) 000–000 
+
+
+  
+     www.elsevier.com/locate/procedia 
+   
+
+
+
+
+
+
+
+
+2212-8271 © 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the scientific committee of the 53rd CIRP Conference on Manufacturing Systems 
+
+
+53rd CIRP Conference on Manufacturing Systems 
+
+
+Approach for an Adaptive Control Loop between Supply Network  
+and Manufacturing 
+
+
+ Dennis Bauer*, Thomas Bauernhansl, Alexander Sauer 
+Fraunhofer Institute for Manufacturing Engineering and Automation IPA, Nobelstr. 12, 70569 Stuttgart, Germany  
+
+
+* Corresponding author. Tel.: +49 711 970 1355. E-mail address: dennis.bauer@ipa.fraunhofer.de 
+
+
+Abstract 
+
+
+The development of control loops in manufacturing has been increasingly getting attention by the scientific community. Most presented 
+approaches, however, are exclusively focused on control loops within manufacturing, e.g. between manufacturing control and shop floor. They 
+usually do not include any external factors, for example, from the supply network. To address this issue and to further contribute towards existing 
+approaches, the work herein presented shows the requirements and an initial concept of a control loop between supply network and manufacturing. 
+The findings of this work enable a more effective and efficient reaction by incorporating external factors into the control system and, therefore, 
+a closer integration between supply network and manufacturing. 
+ 
+© 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the scientific committee of the 53rd CIRP Conference on Manufacturing Systems 
+
+
+ Keywords: Supply Network; Production Planning and Control; Manufacturing Control; Closed-loop Control 
+
+
+ 
+1. Introduction 
+
+
+Manufacturing industry faces enormous challenges 
+worldwide. The complexity of supply networks is increasing 
+due to their global distribution, changing structures and fast 
+changing demands. This is enforced by the change from a 
+seller's market to a buyer's market and decreasing 
+manufacturing volumes with a simultaneously increasing 
+number of variants [1, 2]. The market environment in which 
+manufacturing companies operate is, therefore, becoming 
+increasingly complex, volatile, uncertain and ambiguous [3]. In 
+order to achieve a high level of delivery reliability and thus 
+meet the growing importance for customer satisfaction, it is 
+essential for manufacturing companies to react quickly to 
+events in the supply network [4–6]. 
+
+
+Consequently, new partnerships are established to address 
+these challenges. For example, German automobile 
+manufacturer Volkswagen has announced a collaboration with 
+cloud computing provider Amazon to develop a cloud-based 
+platform for the efficient networking of all machines, plants, 
+
+
+factories and, in the future, also suppliers [7]. The focus is put 
+on new perspectives for comprehensive process optimization in 
+the overall production process. The basis for this is the vision 
+of a horizontal and vertical integration of the supply network, 
+i.e. the integration of all relevant events, with significant 
+expected cost savings [1]. Due to the high level of automation, 
+the semiconductor industry, for example, has been working on 
+the integration of the supply network since the early 2000s [8]. 
+
+
+Current technological developments in digitalization, such 
+as cyber-physical systems, big data, machine learning and 
+artificial intelligence, are driving the development towards 
+autonomy, especially in complex systems [9]. Approaches to 
+transfer control engineering principles to production planning 
+and control (PPC) for the creation of robust processes are also 
+receiving increasing attention [5].  
+
+
+As a contribution to the integration of supply network and 
+manufacturing, this paper presents an adaptive, learning control 
+loop for efficient operative reaction to events of the supply 
+network in manufacturing contributing to the approach of 
+supply chain event management [10, 11]. 
+
+
+
+
+
+
+ Dennis Bauer  et al. / Procedia CIRP 93 (2020) 1552–1557 1553
+2 Bauer et al. / Procedia CIRP 00 (2020) 000–000 
+
+
+
+
+
+2. State of the Art 
+
+
+2.1. Closed-Loop Control 
+
+
+Closed-loop control, also referred to as feedback control, is 
+a process in which the controlled variable x is continuously or 
+sequentially measured, compared to the reference variable w 
+and influenced by the manipulated variable y in order to adapt 
+it to the reference variable [12, 13]. One or several disturbance 
+variables z can also be implemented. A distinction can be made 
+between continuous feedback control and sampling control as 
+well as between non-adaptive and adaptive control [13]. The 
+principle of closed-loop control has been successfully used for 
+many years in manufacturing processes and has also received a 
+great deal of attention in PPC [5, 14]. Here, the principle of the 
+control loop is transferred to the elements of the PPC to achieve 
+a continuous adaptation of manufacturing.  
+
+
+2.2. Control Loops in Manufacturing 
+
+
+An overview and classification of existing approaches for 
+control loops in PPC is given in [15]. Table 1 shows a 
+characteristic concept for each category supplemented by an 
+industry standard concept for process control. 
+
+
+Table 1. Classification of control loops in manufacturing. 
+
+
+Category according to [15] Characteristic representative 
+
+
+(1) Control of Inventory Wiendahl [16] 
+
+
+(2) Control of Capacity Begemann [17] 
+
+
+(3) Control of Load Scholz-Reiter et al. [18] 
+
+
+(4) Control by Rescheduling Brackel [19] 
+
+
+(5) Knowledge-based Control Philipp et al. [20] 
+
+
+(6) n.a. Sachs et al. [21] 
+
+
+ 
+According to [15], categories one to three are closely related 
+
+
+by the manufacturing system’s load as their controlled variable. 
+However, they can be distinguished by the method of 
+determining the load. This is achieved by either measuring the 
+inventory level, which can be controlled by order releases (1), 
+or by capacity adjustments (2), or by a complex setup of 
+multiple controlled and manipulated variables (3). Since 
+categories four and five build on a terminated production plan, 
+their control activities are only performed in case of deviations. 
+The controller type can be distinguished between rescheduling 
+the entire production plan (4) and knowledge-based and 
+predefined procedures to react in current manufacturing 
+situation (5). This is complemented by an approach from 
+discrete, model-based process control (6). 
+
+
+2.3. Machine Learning 
+
+
+If a decision problem cannot be solved mathematically in an 
+exact manner, in complexity theory of computer science it is 
+called non-deterministic polynomial-time hard (NP-hard) [22]. 
+In PPC, this is already the case for problems involving more 
+than two machines or non-predefined order sequences [23]. In 
+
+
+practice, heuristic methods are therefore mainly used for 
+optimization in PPC [22, 23]. 
+
+
+Machine learning (ML) aims at generating knowledge from 
+data by developing a complex heuristic model from training 
+data. This makes ML a key technology for the development of 
+intelligent systems, which are often referred to as artificial 
+intelligence [24]. The automated development of models from 
+data is also the main difference to earlier approaches of 
+artificial intelligence, which were based on manually 
+constructed knowledge bases [24, 25]. As ML allows 
+generalization to unknown data, it differs from mathematical 
+optimization [26].  
+
+
+The use of ML is therefore particularly worthwhile when, 
+due to the complexity of the problem, not all potentially 
+possible situations and all changes over time can be anticipated. 
+This is also the case when it is unclear what the algorithmic 
+solution to the problem must look like [27]. Experience has 
+shown that ML is much more suitable than conventional 
+methods of data analysis, especially for more than 15 
+dimensions in the data sets [28]. 
+
+
+ML methods can be categorized per type of feedback into 
+unsupervised, supervised and reinforcement learning 
+(cf. Fig. 1). In practice, however, the first two cannot always be 
+clearly distinguished [24, 27]. Each of the methods is suitable 
+for different learning tasks. 
+
+
+
+
+
+
+
+
+Fig. 1. Methods of machine learning (adapted from [24, 27]). 
+
+
+In the manufacturing environment, ML is already used, 
+among others, for pattern recognition, process control, fault 
+detection and classification, and predictive maintenance [29]. 
+Furthermore, adaptive control based on reinforcement learning 
+is used for order dispatching [30], process control [31] as well 
+as in robotics [32, 33]. An overview of suitable agorithms is 
+given by [34]. 
+
+
+2.4. Architecture to Apply Machine Learning 
+
+
+Transaction data in PPC is generated in large quantities by 
+sensors and IT systems in a diverse and heterogeneously 
+structured manner and must be processed and analyzed in 
+minimal computing time [5, 35]. In addition, reliability of the 
+data must be ensured, as they are crucial for the success of the 
+company. These challenges are also known as the 5V of big 
+data (variety, volume, velocity, veracity, value) [35, 36]. If ML 
+
+
+Feedback Task Scheme
+
+
+Unsupervised
+Learning
+
+
+Clustering,
+Distribution
+
+
+Supervised
+Learning
+
+
+Classification,
+Regression
+
+
+Reinforcement 
+Learning
+
+
+Sequential Learning
+
+
+Learning System
+
+
+OutputInput
+
+
+Learning System
+
+
+Teacher
+Target
+
+
+Training data
+
+
+Input Output
+
+
+Learning System Environment
+Assessment
+
+
+(e.g. Teacher)
+Reinforcement/Punishment
+
+
+Action
+
+
+Status
+
+
+
+
+
+
+1554 Dennis Bauer  et al. / Procedia CIRP 93 (2020) 1552–1557
+ Bauer et al. / Procedia CIRP 00 (2020) 000–000  3 
+
+
+
+
+
+procedures are used in PPC, these challenges must be 
+considered. 
+
+
+Lambda architecture is a well-known concept for addressing 
+such challenges in data analytics [37]. It structures data 
+processing into three layers. They are defined as batch, speed 
+and serving layers, which differ in particular in their latency 
+during data processing [37, 38]. This is due to the technical 
+impossibility to evaluate all historical data in acceptable 
+computing time after the occurrence of events. For this reason, 
+the large amounts of data that are made available through the 
+serving layer are pre-processed in the batch layer. Because of 
+their close connection, batch and serving layer are often 
+referred together as batch layer [37–39]. These layers are 
+always supplemented by speedy near-real-time analysis 
+efficiently and quickly carry out analysis of data when a 
+decision must be made because of an event. Exemplary 
+implementations of a lambda architecture with diverse software 
+components [38] and performance analysis [39] can be found 
+in the literature. 
+
+
+Transferred to ML, models are developed and trained in the 
+batch layer using algorithms. These models are applied to 
+events in the speed layer in near real-time computing time. 
+
+
+3. Analysis of Control Loops in Manufacturing 
+
+
+To analyze control loops in manufacturing, requirements 
+must first be defined. Then existing concepts are compared and 
+analyzed based on these requirements. 
+
+
+3.1. Requirements 
+
+
+The following requirements were synthesized from the 
+introduction and state of the art. First, the control loop must be 
+suitable for the application, meaning it must allow control of 
+manufacturing with the aim of improving key performance 
+indicators regarding the supply network (e.g. delivery 
+reliability) and taking its influences into account. The necessity 
+of this requirement results from the motivation to transfer 
+control engineering principles [5] to the interface between 
+supply network and PPC. For this purpose, it is also necessary 
+to consider external events from the supply network in the 
+control loop and that appropriate measures can be taken in 
+response to the former. Therefore, the control loop must be 
+designed in the sense of an adaptive control [13] in such a way 
+that its data-driven model is not only oriented to predefined 
+situations, but also dynamically adapts with unknown data. The 
+learning capability [40] follows on from this and should 
+enable the controller to develop new decisions from data sets. 
+For this, it is necessary that data-based decisions can be 
+abstracted and transferred to unknown data sets. In 
+combination with a high degree of automation [41], the 
+learning capability allows for controlling and adapting all result 
+variables to changed environmental conditions enabling to 
+correct defined and undefined errors. The system limits can 
+thus be continuously extended. For this purpose, the controller 
+must be able to determine multi-dimensional parameters and 
+their dependencies as manipulated variables. The complexity 
+
+
+of the problems in PPC [23] alone determines this complex 
+controller design with multi-dimensional manipulated 
+variables. 
+
+
+3.2. Comparison and Analysis 
+
+
+In the following step, the defined requirements are used to 
+compare the concepts classified in section 2.2. Table 2 shows 
+the resulting comparison and assessment of the individual 
+concepts. The rating for each requirement ranges from not in 
+scope (0) to very well suited (++++). 
+
+
+Table 2. Assessment of concepts for control loops in manufacturing. 
+
+
+Requirement [16] [17] [18] [19] [20] [21] 
+
+
+Application + ++ ++ ++ ++ 0 
+
+
+External 
+Events 
+
+
+0 0 0 0 0 0 
+
+
+Adaptivity ++ ++ ++ ++ ++ ++ 
+
+
+Learning 
+Capability 
+
+
++ + + + + + 
+
+
+Degree of 
+Automation 
+
+
++ + + + + ++ 
+
+
+Multi-dim. 
+Parameters 
+
+
++ ++ +++ ++++ ++ ++ 
+
+
+ 
+These concepts focus primarily on the internal optimization 
+
+
+of manufacturing and not on the integration with the supply 
+network. Consequently, external events are not considered. The 
+concepts are also designed adaptively for known parameters 
+only and not as learning systems. Furthermore, the degree of 
+automation is mainly less and only a few concepts intensively 
+consider multi-dimensional parameters as manipulated 
+variables. 
+
+
+4. Concept 
+
+
+The requirements are implemented with the concept of the 
+adaptive control loop for an integrated supply network 
+(ACSN). The ACSN is a discrete, event-based, adaptive and 
+learning control loop that integrates the supply network with 
+the PPC (cf. Fig. 2, blue control loop). This complements 
+existing approaches for control loops in manufacturing 
+(cf. Fig. 2, green control loop) to form a cascade control, 
+whereas state of the art forms the inner control loop and the 
+ACSN the outer control loop. 
+
+
+The ACSN consists of a controller as well as manufacturing 
+control and manufacturing as controlled system. More 
+precisely, the controller interacts with sequence deviation [42] 
+in manufacturing control. Additionally, operating and machine 
+data acquisition serves as the measuring element. 
+
+
+The reference variable for the control loop is the production 
+plan, which - adapted by the controlling element - also serves 
+as manipulated variable. This influences the controlled 
+variable, namely the expected delivery dates of the 
+manufacturing orders. However, since different use cases can 
+aim at different objectives (cf. section 5) the controlled variable 
+
+
+
+
+
+
+ Dennis Bauer  et al. / Procedia CIRP 93 (2020) 1552–1557 1555
+4 Bauer et al. / Procedia CIRP 00 (2020) 000–000 
+
+
+
+
+
+can be replaced. Events from supply network, such as 
+deviations between forecasts and actual customer behavior, are 
+considered. These events can either be detected when they 
+occur using established technologies such as statistical process 
+control [43] or be predicted in advance [44]. For effective 
+processing, events are then classified [45], before incorporating 
+them into the controlling element’s decisions. 
+
+
+
+
+
+
+
+
+Fig. 2. Adaptive control loop for an integrated supply network. 
+
+
+The ACSN becomes adaptive and learning fusing 
+reinforcement learning in the controlling element. The status 
+information (cf. Fig. 1) is reflected in the controlled variable. If 
+the deviation between planned and expected delivery date is 
+smaller, this is used as reinforcement during learning. If the 
+deviation becomes larger, this is used as so-called punishment. 
+This approach makes it possible to adjust even complex 
+manipulated variables with many dependencies automatically 
+and with better results with increasing duration. 
+
+
+To be able to work with the heterogeneous data from supply 
+network and PPC, the concept can be implemented based on 
+the lambda architecture (cf. Fig. 3). Input data for this are then 
+the production plan (reference variable), the adjusted 
+production plan (manipulated variable), the expected delivery 
+dates (controlled variable) and events from supply network 
+(disturbance variable). Subsequently, these data are used to 
+train a model in the batch layer with reinforcement learning. 
+This takes place periodically, for example at night or on 
+weekends. In the speed layer, shown here via the controlling 
+element, the model is applied to the data set when an event 
+occurs to decide on corrective measures such as order 
+prioritization and thus adjust the production plan (especially 
+after manufacturing has started). 
+
+
+5. Application and Expected Benefits 
+
+
+Since the concept of ACSN is still under research and 
+development, only preliminary experiments have been 
+conducted to date. However, to elaborate the expected benefits 
+of the approach, two applications based on the concept and the 
+preliminary findings have been discussed in expert workshops. 
+
+
+
+
+
+
+
+
+Fig. 3. Implementation of the adaptivity and learning capability of the control 
+loop according to the lambda architecture. 
+
+
+5.1. Preliminary Experiments 
+
+
+For preliminary experiments, the ACSN was implemented 
+in a simplified form and combined with a simulation model of 
+a semiconductor production as its globally distributed and 
+complex supply network with complex manufacturing suitably 
+reflects an application for the ACSN [6, 46]. 
+
+
+In the simplified implementation of the ACSN the 
+information flows are not fully automated and in the controlling 
+element a simplified classification by supervised learning is 
+used instead of reinforcement learning. The simulation model 
+is based on MIMAC Set 1, which is widely used in literature 
+and describes a simplified semiconductor manufacturing 
+process with two products and corresponding routings [47]. 
+Resulting simulation runs can be divided in three sections 
+(cf. Fig. 4). First a settling phase of about one month, in which 
+production starts up. Second, a phase in which work in progress 
+and capacity utilization converge to their limits. This also 
+reduces delivery reliability, as queues now form at machines. 
+Thirdly, a stable phase in which delivery reliability in particular 
+also stabilizes. 
+
+
+As shown in Figure 4, the corrective measures taken by the 
+ACSN have a positive effect on delivery reliability, which has 
+been increased by one to six percent. Furthermore, in the most 
+imporant stable phase delivery reliability settles at around 70 
+percent, while only around 66 percent without the ACSN. The 
+concept of the ACSN therefore works in principle and an 
+improvement in delivery reliability can be achieved.  
+
+
+However, further research and development (cf. section 6) 
+is necessary to transfer the concept and preliminary 
+experiments to practice and to allow for validation in a real 
+manufacturing environment.  
+
+
+
+
+
+Fig. 4. Delivery reliability in preliminary experiment. 
+
+
+SCM
+
+
+Event         Plan
+
+
+PP
+
+
+CustomerSupplier
+
+
+ACSN Controller
+
+
+Controlling Element
+
+
+w2 = Production Plan
+(target)
+
+
+MC
+
+
+Controlled System
+Controlling Element
+
+
+Manufacturing
+
+
+Controlled System
+Controlled System
+
+
+z1 = Internal
+Event
+
+
+r1 = Delivery Dates
+(expected)
+
+
+y1 = Sequence
+
+
+w1 = Production Plan
+(target)
+
+
+r2 = Delivery Dates (expected)
+
+
+z2 = External Event
+
+
+e1
+
+
+e2 y
+2
+
+
+=
+ A
+
+
+d
+a
+p
+
+
+te
+d
+
+
+P
+ro
+
+
+d
+u
+
+
+ctio
+n
+
+
+ P
+la
+
+
+n
+
+
+Legend
+
+
+w = Reference variable
+e = Control difference variable
+y = Manipulated variable
+z = Disturbance variable
+x = Controlled variable
+r = Feedback variable
+
+
+SCM = Supply Chain Management
+PP = Production Planning
+MC = Manufacturing Control
+ODA = Operating data acquisition
+MDA= Machine data acquisition
+ACSN= Adaptive Control Loop for an
+
+
+Integrated Supply Network 
+
+
+Blue = ACSN
+Green = State of the Art
+
+
+ODA / MDA
+
+
+Measuring Element
+Measuring Element
+
+
+x1x2
+
+
+Master 
+Dataset
+
+
+Batch 
+Function
+
+
+Batch 
+View
+
+
+Speed 
+Function
+
+
+Model application
+
+
+Real-time 
+View
+
+
+Batch Layer
+
+
+Speed Layer
+
+
+New
+Data
+
+
+Message 
+Processing
+
+
+Model training
+
+
+• Production Plan
+• Adapted Production Plan
+• Expected Delivery Dates
+• Events
+
+
+Adaptive Control Loop for an 
+Integrated Supply Network
+
+
+Model
+
+
+50%
+
+
+60%
+
+
+70%
+
+
+80%
+
+
+90%
+
+
+100%
+
+
+35 40 45 50 55 60
+
+
+D
+e
+liv
+
+
+e
+ry
+
+
+ r
+e
+lia
+
+
+b
+ili
+
+
+ty
+
+
+Time [days]
+
+
+without corrective measures with corrective measures
+
+
+IIIIII
+
+
+
+
+
+
+1556 Dennis Bauer  et al. / Procedia CIRP 93 (2020) 1552–1557
+ Bauer et al. / Procedia CIRP 00 (2020) 000–000  5 
+
+
+
+
+
+5.2. Application for Logistic Objectives 
+
+
+The first scenario aims at the already mentioned 
+improvement of delivery reliability in semiconductor 
+manufacturing. The complex manufacturing process in this 
+industry results in a lead time of up to three months [6]. 
+However, with an increasing time horizon, planning accuracy 
+decreases significantly [48]. For example, according to [49] 
+research at Intel has shown a significant deviation between 
+forecasts and actual demand. Within a time period of ten years 
+they have only matched for 35 minutes. Deviations between 
+forecasts and actual demands result in many events that require 
+appropriate responses. 
+
+
+Benefits of the ACSN in this scenario have been discussed 
+in an expert workshop with a semiconductor manufacturer. 
+Experts from the areas of supply network planning, PPC and 
+manufacturing were involved. It is expected that by automating 
+the entire process, the ACSN will enable a faster response to 
+events from supply network and thus a more efficient process. 
+The improvement in delivery reliability in the single-digit 
+percentage range as shown by the preliminary experiments 
+(cf. section 5.1) was considered realistic and promising. In 
+addition, the ACSN will make the decision on corrective 
+measures in PPC more robust by avoiding errors that occur 
+when manual interventions are made in PPC. For example, due 
+to its complexity, manufacturing can behave unexpectedly 
+when manual interventions are made; under- or over-steering 
+is also possible if parameters are manually incorrectly adjusted 
+[6, 42]. With the expected improved delivery reliability 
+customer satisfaction increases, which is of great importance 
+with regard to the buyer’s market. In addition, the deeper 
+integration of supply network and manufacturing and the 
+subsequent increase in delivery reliability allows safety stocks 
+to be reduced, which is expected to lead to significant cost 
+reductions [43]. 
+
+
+5.3. Application for Energy Objectives 
+
+
+With the ongoing debate on climate change an increasing 
+share of renewable energies becomes crucial to meet climate 
+protection goals. Consequently, with the inherent volatility of 
+renewable energies, energy supply will become more and more 
+volatile [50]. Therefore, the second scenario aims at 
+synchronizing volatile energy supply and demand by utilizing 
+price signals as triggers in the ACSN in the sense of automated 
+demand response [51].  
+
+
+Benefits of the ACSN in this scenario have been discussed 
+in an expert workshop with a manufacturing company. Experts 
+from the areas of energy procurement, PPC and manufacturing 
+were involved. Again, it is expected that by automating the 
+entire process, the ACSN will enable a faster response to events 
+representing deviations in energy price signals and thus a more 
+efficient process. In addition, the ACSN will make the decision 
+on how to react to price deviations more robustly by reducing 
+human decisions in a complex environment such as the energy 
+system with multi-dimensional parameters. Furthermore, the 
+potential for demand response is increased by lowering the 
+
+
+entry barriers for companies by incorporating energy targets in 
+the manufacturing control loop. 
+
+
+6. Summary and Outlook 
+
+
+The implementation of control loops linking supply network 
+and manufacturing is a key aspect for meeting global 
+challenges. However, existing approaches for control loops are 
+not suitable for this integration. Therefore, a concept for an 
+adaptive control loop for the integration of supply network and 
+manufacturing was developed.  
+
+
+To extend knowledge in this research field, the authors are 
+currently focusing on the following aspects. To be able to 
+validate the concept in practice, suitable algorithms for the 
+controlling element must be selected. Afterwards, the concept 
+can be implemented and trained with data relevant for a real 
+application. Prerequisites and limits can then be derived and, 
+subsequently, the concept can be applied to further use cases. 
+
+
+Acknowledgements 
+
+
+The authors gratefully acknowledge the financial support of 
+the Kopernikus-Project “SynErgie” by the Federal Ministry of 
+Education and Research of Germany (BMBF) and the project 
+supervision by the project management organization 
+Projektträger Jülich (PtJ). 
+
+
+References 
+
+
+[1] Bauernhansl T, 2017. Die Vierte Industrielle Revolution: Der Weg in ein 
+wertschaffendes Produktionsparadigma. In: B Vogel-Heuser, T 
+Bauernhansl, M ten Hompel (eds.). Handbuch Industrie 4.0: Bd. 4: 
+Allgemeine Grundlagen. Berlin: Springer Vieweg. pp. 1–31. 
+
+
+[2] Chien C-F, Dauzère-Pérès S, Ehm H et al., 2008. Modeling and analysis 
+of semiconductor manufacturing in a shrinking world. In: SJ Mason et 
+al. (eds.). 2008 Winter Simulation Conference: IEEE. pp. 2093–2099. 
+
+
+[3] Mack O, Khare A, 2016. Perspectives on a VUCA World. In: O Mack et 
+al. (eds.). Managing in a VUCA World. Cham: Springer. pp. 3–19. 
+
+
+[4] Chopra S. Supply Chain Management: Strategy, Planning, and 
+Operation, 7th edn. Boston, MA, USA: Pearson, 2018. 
+
+
+[5] Schuh G, Lödding H, Stich V et al., 2011. High Resolution Production 
+Management. In: C Brecher, F Klocke (eds.). Wettbewerbsfaktor 
+Produktionstechnik: 27. Aachener Werkzeugmaschinen Kolloquium, 
+26. - 27.05.2011. Aachen: Shaker. pp. 61–80. 
+
+
+[6] Mönch L, Fowler JW, Mason SJ. Production planning and control for 
+semiconductor wafer fabrication facilities: Modeling, analysis, and 
+systems. New York, NY, USA: Springer, 2013. 
+
+
+[7] Volkswagen. Volkswagen and Amazon Web Services to develop 
+Industrial Cloud. https://www.volkswagenag.com/en/news/2019/03/ 
+volkswagen-and-amazon-web-services-to-develop-industrial-
+cloud.html. Accessed 31 October 2019. 
+
+
+[8] Semiconductor Industry Association, 2001. The International 
+Technology Roadmap for Semiconductors (2001 ITRS). 
+https://s.fhg.de/itrs2001. Accessed 31 October 2019. 
+
+
+[9] Bauernhansl T. Cognitive Production Systems - Technologies and 
+Business Impacts. NEXCON First International Virtual Congress on 
+Smart Manufacturing. 28 February 2019. Stuttgart, 2019. 
+
+
+[10] Otto A. Supply Chain Event Management: Three Perspectives. The 
+International Journal of Logistics Management 2003 14(2). pp. 1–13. 
+
+
+[11] Konovalenko I, Ludwig A. Event processing in supply chain 
+management – The status quo and research outlook. Computers in 
+Industry 2019 105. pp. 229–249. 
+
+
+
+
+
+
+ Dennis Bauer  et al. / Procedia CIRP 93 (2020) 1552–1557 1557
+6 Bauer et al. / Procedia CIRP 00 (2020) 000–000 
+
+
+
+
+
+[12] DIN EN 60027-6, 2008. Letter symbols to be used in electrical 
+technology –Part 6: Control technology, Berlin. Beuth Verlag. 
+
+
+[13] DIN IEC 60050-351, 2013. International electrotechnical vocabulary – 
+  Part 351: Control technology, Berlin. Beuth Verlag. 
+[14] Moyne J, 2015. Run-to-Run Control in Semiconductor Manufacturing. 
+
+
+In: J Baillieul, T Samad (eds.). Encyclopedia of Systems and Control. 
+London: Springer. 
+
+
+[15] Niehues MR, Blum M, Teschemacher U et al. Adaptive job shop control 
+based on permanent order sequencing. Production Engineering 2018 
+12(1). pp. 65–71. 
+
+
+[16] Wiendahl H-P. Fertigungsregelung: Logistische Beherrschung von 
+Fertigungsabläufen auf Basis des Trichtermodells. München: Hanser, 
+1997. 
+
+
+[17] Begemann C. Terminorientierte Kapazitätssteuerung in der Fertigung. 
+Hannover: PZH Produktionstechn. Zentrum, 2005. 
+
+
+[18] Scholz-Reiter B, Windt K, Liu H. A multiple-logistic-objective-
+optimized manufacturing planning and control system. Proceedings of 
+the Institution of Mechanical Engineers, Part B: Journal of 
+Engineering Manufacture 2011 225(4). pp. 599–610. 
+
+
+[19] Brackel T. Adaptive Steuerung flexibler Werkstattfertigungssysteme: 
+Nutzung moderner Informations- und Kommunikationstechnologien 
+zur effizienten Produktionssteuerung unter Echtzeitbedingungen. 
+Wiesbaden: Gabler, 2009. 
+
+
+[20] Philipp T, de Beer C, Windt K et al., 2007. Evaluation of Autonomous 
+Logistic Processes: Analysis of the Influence of Structural 
+Complexity. In: K Windt, M Hülsmann (eds.). Understanding 
+autonomous cooperation and control in logistics: The impact of 
+autonomy on management, information, communication and material 
+flow. Berlin: Springer. pp. 302–324. 
+
+
+[21] Sachs E, Guo R-S, Ha S et al., 1990. On-line process optimization and 
+control using the sequential design of experiments. In: 1990 
+Symposium on VLSI Technology: IEEE. pp. 99–100. 
+
+
+[22] Pinedo ML. Scheduling: Theory, Algorithms, and Systems, 5th edn. 
+Cham: Springer, 2016. 
+
+
+[23] Heger J. Dynamische regelselektion in der Reihenfolgeplanung: 
+Prognose von steuerungsparametern mit Gaußschen Prozessen. 
+Wiesbaden: Springer Vieweg, 2014. 
+
+
+[24] Döbel I, Leis M, Vogelsang MM et al. Maschinelles Lernen: Eine 
+Analyse zu Kompetenzen, Forschung und Anwendung. München: 
+Fraunhofer-Gesellschaft, 2018. 
+
+
+[25] Goodfellow I, Bengio Y, Courville A. Deep learning. Cambridge, MA, 
+USA: MIT Press, 2016. 
+
+
+[26] Le Roux N, Bengio Y, Fitzgibbon A, 2012. Improving First and Second-
+Order Methods by Modeling Uncertainty. In: S Sra, S Nowozin, SJ 
+Wright (eds.). Optimization for machine learning. Cambridge, MA, 
+USA: MIT Press. pp. 403–430. 
+
+
+[27] Russell SJ, Norvig P. Artificial intelligence: A modern approach, 3rd 
+edn. Upper Saddle River, NJ, USA: Prentice-Hall, 2010. 
+
+
+[28] Bauer H, Ranade P, Randon S. Big data and the opportunities it creates 
+for semiconductor players. McKinsey on Semiconductors 
+2012(Autumn 2012). pp. 46–55. 
+
+
+[29] Susto GA, Pampuri S, Schirru A et al., 2012. Automatic Control and 
+Machine Learning for Semiconductor Manufacturing: Review and 
+Challenges. In: Proceedings of the 10th European Workshop on 
+Advanced Control and Diagnosis (ACD 2012). 
+
+
+[30] Stricker N, Kuhnle A, Sturm R et al. Reinforcement learning for 
+adaptive order dispatching in the semiconductor industry. CIRP 
+Annals - Manufacturing Technology 2018 67(1). pp. 511–514. 
+
+
+[31] Liu K, Chen Y, Zhang T et al. A survey of run-to-run control for batch 
+processes. ISA transactions 2018 83. pp. 107–125. 
+
+
+[32] Recht B. A Tour of Reinforcement Learning: The View from 
+Continuous Control. Annual Review of Control, Robotics, and 
+Autonomous Systems 2019 2(1). pp. 253–279. 
+
+
+
+
+
+[33] Jardine PT, Kogan M, Givigi SN et al. Adaptive predictive control of a 
+differential drive robot tuned with reinforcement learning. 
+International Journal of Adaptive Control and Signal Processing 2019 
+33(2). pp. 410–423. 
+
+
+[34] Lewis FL, Vrabie D, Vamvoudakis KG. Reinforcement Learning and 
+Feedback Control: Using Natural Decision Methods to Design 
+Optimal Adaptive Controllers. IEEE Control Systems 2012 32(6). pp. 
+76–105. 
+
+
+[35] Bauer D, Maurer T, Henkel C et al. Big-Data-Analytik: Datenbasierte 
+Optimierung produzierender Unternehmen. Stuttgart: Fraunhofer IPA, 
+2017. 
+
+
+[36] Demchenko Y, Laat C de, Membrey P, 2014 - 2014. Defining 
+architecture components of the Big Data Ecosystem. In: 2014 
+International Conference on Collaboration Technologies and Systems 
+(CTS): IEEE. pp. 104–112. 
+
+
+[37] Marz N, Warren J. Big data: Principles and best practices of scalable 
+real-time data systems. Shelter Island, NY, USA: Manning, 2015. 
+
+
+[38] Kassner L, Gröger C, Königsberger J et al., 2017. The Stuttgart IT 
+Architecture for Manufacturing. In: S Hammoudi et al. (eds.). 
+Enterprise Information Systems. Cham: Springer International 
+Publishing. pp. 53–80. 
+
+
+[39] Kiran M, Murphy P, Monga I et al., 2015. Lambda architecture for cost-
+effective batch and speed big data processing. In: Proceedings of the 
+2015 IEEE International Conference on Big Data: pp. 2785–2792. 
+
+
+[40] Anderson LW, Krathwohl DR. A taxonomy for learning, teaching, and 
+assessing. New York, NY, USA: Addison Wesley Longman, 2001. 
+
+
+[41] Groche P, Hoppe F, Kessler T et al., 2018. Industrial Working 
+Environment 2025. In: M Liewald (ed.). New developments in sheet 
+metal forming: Conference proceedings of the International 
+Conference on 'New Developments in Sheet Metal Forming' in 
+Fellbach (near Stuttgart) - Germany, held on May 15th and 16th, 
+2018. Stuttgart: Institute for Metal Forming Technology. pp. 125–136. 
+
+
+[42] Lödding H. Handbook of manufacturing control: Fundamentals, 
+description, configuration. Heidelberg: Springer, 2013. 
+
+
+[43] Bauer D, Schlereth A, Maier F et al., 2019. Automated Framework 
+Based on Supply Chain Events. In: SemI40 Consortium (ed.). A 
+SemI40 Project Prospective: Industry4.0 from Evolution to 
+Revolution. pp. 36–41. 
+
+
+[44] Fernández E, Salomone E, Chiotti O. A model driven development 
+approach based on a reference model for predicting disruptive events 
+in a supply process. Computers in Industry 2012 63(5). pp. 482–499. 
+
+
+[45] Bauer D, Bauernhansl T, Sauer A. Enhanced Classification of Events for 
+Manufacturing Companies in Supply Networks. Procedia CIRP 2019 
+81. pp. 87–92. 
+
+
+[46] Aelker J, Bauernhansl T, Ehm H. Managing Complexity in Supply 
+Chains: A Discussion of Current Approaches on the Example of the 
+Semiconductor Industry. Procedia CIRP 2013 7. pp. 79–84. 
+
+
+[47] Fowler JW, Trybula W, Lloyd P et al. Measurement and Improvement of 
+Manufacturing Capacity (MIMAC): Final Report. Austin, TX, USA: 
+SEMATECH, 1995. 
+
+
+[48] Schuh G, Potente T, Thomas C et al., 2013. Cyber-Physical Production 
+Management. In: V Prabhu (ed.). Advances in Production 
+Management Systems. Sustainable Production and Service Supply 
+Chains: IFIP WG 5. 7 International Conference, APMS 2013, State 
+College, PA, USA, September 9-12, 2013, Proceedings, Part II. Berlin: 
+Springer. pp. 477–484. 
+
+
+[49] Wilding R. The supply chain complexity triangle: Uncertainty 
+generation in the supply chain. International Journal of Physical 
+Distribution & Logistics Management 1998 28(8). pp. 599–616. 
+
+
+[50] Palensky P, Dietrich D. Demand Side Management: Demand Response, 
+Intelligent Energy Systems, and Smart Loads. IEEE Transactions on 
+Industrial Informatics 2011 7(3). pp. 381–388. 
+
+
+[51] Roesch M, Bauer D, Haupt L et al. Harnessing the Full Potential of 
+Industrial Demand-Side Flexibility: An End-to-End Approach 
+Connecting Machines with Markets through Service-Oriented IT 
+Platforms. Applied Sciences 2019 9(18). pp. 3796. 
+
+
+
+
+
+
+
+

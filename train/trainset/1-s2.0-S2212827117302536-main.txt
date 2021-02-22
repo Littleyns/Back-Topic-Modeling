@@ -1,0 +1,1482 @@
+
+
+
+
+
+
+
+
+
+
+ Procedia CIRP   63  ( 2017 )  465 – 470 
+
+
+Available online at www.sciencedirect.com
+
+
+2212-8271 © 2017 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Peer-review under responsibility of the scientifi c committee of The 50th CIRP Conference on Manufacturing Systems
+
+
+doi: 10.1016/j.procir.2017.03.107 
+
+
+ScienceDirect
+
+
+The 50th CIRP Conference on Manufacturing Systems 
+
+
+Construction of a virtual production line including a buffer  
+for simulation of electric power consumption 
+
+
+ Sota Matsumotoa,*, Michiko Matsudaa  
+aKanagawa Institute of Technology, 1030 Shimo-ogino, Atsugi-shi, Kanagawa, 243-0292, Japan 
+
+
+* Corresponding author. Tel.: +81-46-291-3213; fax: +81-46-242-8490. E-mail address: sotaplusplus@gmail.com 
+
+
+Abstract 
+
+
+The digital eco-factory has been proposed by the authors for simultaneous simulation of green performance, productivity and 
+manufacturability. The digital eco-factory is constructed on a virtual production line modelling an actual production line. The virtual production 
+line has been constructed by sequentially connecting machine agents which have been generated from their behaviour model. For example, a 
+virtual PCA (Printed Circuit Assembly) line was constructed by connecting sequentially a solder paste printing machine, two or three electronic 
+part mounters, reflow furnace and testing machine. In this virtual PCA line, the connection between machines is not considered exactly. 
+Usually the processing time for a job for each machine is different. It means usually there is a residence time before proceeding to the next 
+process. For smooth production processing, it is important to control the production flow. In this paper, behaviour of a buffer is modelled and a 
+buffer agent is generated. Buffer agents are put in the intervals between machine agents. A buffer agent controls flow of material/product on the 
+virtual line by communicating with other machine agents. A machine buffer has activities such as storing, loading and unloading. The buffer 
+adjusts the start timing of the job for material/product. When the next machine which processes the next step of the job is occupied, the buffer 
+agent stops to feed material/product. When the buffer storage is full, the buffer agent lets the previous position machine agent know. Buffer 
+function is important to simulate production condition with high accuracy. Through the construction of a virtual PCA line including buffers, the 
+importance of a buffer agent is shown.  
+© 2017 The Authors. Published by Elsevier B.V. 
+Peer-review under responsibility of the scientific committee of The 50th CIRP Conference on Manufacturing Systems. 
+
+
+ Keywords: machine behavior modeling, multi agent system, buffer agent, virual factory, virtual production control ; 
+
+
+ 
+1. Introduction 
+
+
+In modern production, a manufacturer should consider 
+sustainability of the global environment in addition to 
+productivity[1]. For sustainable manufacturing, a pre-view of 
+environmental items such as power consumption of a 
+production machine and illumination, material consumption, 
+and emissions of CO2 are required. Generally, in planning for 
+production, a simulation system is used for considering 
+productivity, sustainability and so on. There are various types 
+of simulation systems.  
+
+
+Recently, cyber physical production systems have been 
+prepared and have become a big trend[2-4]. The cyber 
+physical production system connects the virtual factory with 
+the real factory. At the real factory, a machine is connected 
+with the internet and sends out current machine conditions. In 
+
+
+the virtual factory, these large data provided by the machines 
+are used for constructing a precise simulation procedure. 
+There is an example of using a cyber physical production 
+system[4]. German industry, government and academia have 
+proposed industry4.0[5,6]. General Electric, an American 
+company, has proposed the Industrial Internet. Both construct 
+a virtual factory on a computer and use it for virtual 
+manufacturing. 
+
+
+The Digital Eco-Factory has been proposed by the authors 
+for simultaneous simulation of green performance, 
+productivity and manufacturability[7]. The Digital Eco-
+Factory is constructed on a virtual production line modelling 
+an actual production line. The virtual production line has been 
+constructed as a multi agent system and sequentially 
+connecting agents which have been generated from their 
+behaviour model.  
+
+
+© 2017 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Peer-review under responsibility of the scientifi c committee of The 50th CIRP Conference on Manufacturing Systems
+
+
+
+
+
+
+466   Sota Matsumoto and Michiko Matsuda  /  Procedia CIRP   63  ( 2017 )  465 – 470 
+
+
+Usually, there is a difficult for the user of a production 
+simulation system such as a production system designer and 
+operator to construct the virtual production line such as 
+writing a software program of agents. Then, it is proposed that 
+a user constructs a virtual production line by selecting an 
+adequate machine model from the repository. A machine 
+model can be called an e-catalogue of a machine and the 
+repository of machine models can be called an e-catalogue 
+library[8,9]. The difference between a Digital Eco-Factory 
+and the existing simulation tool[10-12] is the method of 
+construction of the virtual production line. When a user wants 
+to simulate their production, the existing simulation tool 
+usually requires to describe models of the machine on the 
+production line. On the other hand, a user of the Digital Eco-
+Factory can configure the virtual production line by selecting 
+a machine model which is called e-catalogue. As a result, the 
+user of the Digital Eco-Factory can change the configuration 
+of the virtual production line easily and flexibly.  
+
+
+In this paper, a buffer is introduced for more precise 
+simulation of the virtual production. In other words, a buffer 
+behaviour model is newly added as a machine model to the 
+repository. A buffer has functions for stocking and supplying 
+semi-finished products. The behaviour of a buffer is modelled 
+and a buffer agent is generated based on the model. Buffer 
+
+
+agents are put in the intervals between other machine agents. 
+A buffer agent controls the flow of material/product on the 
+virtual line. Through the construction of a virtual PCA line 
+including buffers, methods for behaviour modelling of a 
+buffer and the construction of a virtual production line 
+including buffers as multi-agent system, are discussed. 
+
+
+2. Requirements for a buffer 
+
+
+2.1. Machine model embedded equations for power 
+consumption calculation 
+
+
+To calculate power consumption, there is a requirement to 
+model the behaviour of a machine. The behaviour model can 
+be described by an activity diagram of UML. As an example, 
+the activity diagram for the behaviour model of a solder paste 
+printing machine is shown in Fig. 1. One product is produced 
+through these activities in the solder paste printing machine. 
+
+
+Each activity is embedded with equations for calculating 
+active time and power consumption to provide a high 
+accuracy simulation. Table 1 shows examples of these 
+equations. These equations include parameters which start by 
+an “o.” or “p.”. When the simulation is executed, values of 
+parameters are provided by the production scenario. The 
+others parameters are provided by the machine specification 
+data. 
+
+
+PCB Input
+
+
+[not same]
+
+
+<<Power Consumption Record>>
+idling time, idling power consumption
+
+
+PCB ID Confirmation
+
+
+Metal Mask Change
+
+
+Machine Stop
+[same]
+
+
+<<Product Information>>
+model number, PCB data, schedule, etc
+
+
+Metal Mask Set
+
+
+PCB Set
+
+
+Squeegee operation 
+and Printing
+
+
+Metal Mask Release
+
+
+PCB Output 
+
+
+<<Power Consumption Record>>
+operating time, operating power consumption
+
+
+<<Work Completion Record>>
+model number, start and end time
+
+
+[exceed a limit]
+
+
+[not exceed a limit]
+
+
+Cleaning
+
+
+[NO]
+
+
+[YES]
+
+
+PCB ID
+
+
+print number
+of times
+
+
+Idling
+
+
+production finished
+
+
+Fig. 1. Activity diagram of solder paste printing machine. 
+
+
+Fig. 3. System structure of dev 
+
+
+User of Digital Eco-Factory
+
+
+E-catalogues of machine Models
+
+
+Solder Paste Printing Machine
+
+
+Solder Paste Printing Machine
+Model #A-1
+
+
+Electric Part Mounter
+
+
+Electric Part Mounter
+Model #B-1
+
+
+Reflow Furnace 
+
+
+Reflow Furnace 
+Model #C-1
+
+
+Production Scenario
+Product Data
+Schedule Data
+Operation Data
+
+
+Virtual PCA Line
+Solder Paste 
+
+
+Printing Machine
+Agent #A-2
+
+
+Electric Part
+Mounter
+
+
+Agent #B-1
+
+
+Reflow 
+Furnace
+
+
+Agent #C-3
+
+
+Solder Paste
+Printing 
+
+
+Machine
+Agent #A-3
+
+
+Electric Part
+Mounter
+
+
+Agent #B-2
+
+
+Reflow 
+Furnace
+
+
+Agent #C-2
+
+
+Electric Part 
+Mounter
+
+
+Agent #B-3
+
+
+PCB Agent
+
+
+PCB Agent
+
+
+Virtual production according to the production scenario
+
+
+Machine Models
+which are selected from 
+
+
+e-catalogues
+
+
+Automatic generation of agent based simulation system using machine models
+
+
+Simulation 
+Results
+
+
+• Energy 
+Consumption
+
+
+• Productivity
+
+
+y
+
+
+Production Scenario Development ProcedureProduction Line Configuration Procedure
+
+
+Construction of 
+virtual PCA line
+
+
+Simulation 
+Results
+
+
+• Energy 
+Consumption
+
+
+• Productivity
+
+
+Evaluation of the 
+configuration and 
+change equipment 
+
+
+if needed
+
+
+Evaluation of the 
+production scenario
+and change them 
+
+
+if  needed
+
+
+Table 1. Examples of equations embedded in the e-catalogue of the machine. 
+
+
+Fig. 2. Template of solder paste printing machine 
+described by JAON. 
+
+
+{
+"Production_Machine_Model":
+
+
+{ 
+
+
+"Power_Consumption":
+{
+
+
+"Controlled_Equipment":NULL,
+"Squeegee_Printing_Motor":NULL,
+"Cleaning_Motor": NULL,
+"PCB_conveying_motor": NULL,
+"Mask_Lifting_Motor": NULL,
+“Power_consumption": NULL
+
+
+},
+"Mechanical_Specification":
+
+
+{
+“Cleaning": NULL,
+"Conveying_Path_Length": NULL,
+"Squeegee_Movement_Width": NULL,
+"Active_Time_Starting": NULL,
+"Active_Time_Waiting": NULL,
+"Active_Time_Stopping": NULL,
+"Active_Time_Checking_Model_Number": NULL,
+“Active_Time_Metal_Mask_Exchange": NULL,
+“Active_Time_Cleaning": NULL,
+"Between_the_PCB_Mask_Height": NULL
+
+
+}
+},
+
+
+"Behavior": 
+{
+
+
+"Number_Of_States":11,
+"State":
+
+
+{
+
+
+"PCB_Set":
+{
+
+
+"StateNO":4,
+"State_Name":"PCB_Set",
+"Active_Time_Setting_PCB":
+
+
+"(Conveying_Path_Length - p.Board_Width) / p.Substrate_Transport_Speed",
+"Power_Consumption_PCB_Set":"Active_Time_Setting_PCB * Power_consumption ",
+"Next_State":5
+
+
+},
+
+
+…
+…
+
+
+…
+
+
+Description of machine spec to
+make equations
+
+
+Description of state including  equation
+
+
+
+
+
+
+467 Sota Matsumoto and Michiko Matsuda  /  Procedia CIRP   63  ( 2017 )  465 – 470 
+
+
+Machine models with equations are described using a data 
+description language such as JSON (JavaScript Object 
+Notation) or XML. This description is called a template which 
+is prepared corresponding to machine type. The template of a 
+solder paste printing machine described by JSON is shown in 
+Fig. 2. Descriptions of machine specification are used for 
+creation of power consumption equations. An equation is 
+described for each state in the description of behaviour. An e-
+catalogue is created by filling up a template by concrete 
+values corresponding to the machine[8]. 
+
+
+2.2. Developed Digital Eco-Factory for PCA 
+
+
+As an example, a Digital Eco-Factory for a PCA is 
+developed[7-9]. Fig. 3 shows the conceptual structure of the 
+developed Digital Eco-Factory for the PCA. The Digital Eco-
+Factory is a vehicle of simulation that takes into consideration 
+unique values related to the production that can be executed 
+for the first time by inputting a production scenario after 
+selecting machines and creating a model of a virtual 
+production line. To use the Digital Eco-Factory, at first, the 
+operator selects a machine model for construction of a virtual 
+production line from e-catalogues. The virtual production line 
+is automatically constructed as a multi-agent system and each 
+machine is implemented as a software agent. Second, the 
+operator inputs a production scenario as product data, 
+schedule data and operation data. Virtual manufacturing is 
+executed and simulation results are output. Using output data, 
+the operator evaluates simulation results in order to balance 
+
+
+productivity and green performance. Balance is considered 
+from two viewpoints. One viewpoint is a line construction 
+view. In this viewpoint, the operator evaluates power 
+consumption by changing line component machines. Another 
+viewpoint is the production scenario view. In this view, the 
+operator evaluates power consumption by changing 
+scheduling data and operation data. 
+
+
+2.3. Requirements for buffers on virtual PCA line 
+
+
+In the Digital Eco-Factory developed so far, there is no 
+intermediate storage between machines. Therefore, various 
+problems occurred. These were:   
+
+
+ 
+ Virtual product waits in unknown space until the next 
+
+
+machine accepts the next task  
+ A virtual line cannot adjust to the product flow rate 
+ A virtual line does not stop until there is nothing more to 
+
+
+produce 
+ Movement on the virtual production line differs from the 
+
+
+actual line movement, as a result, it affects the accuracy of 
+the simulation 
+ 
+To solve the above problems, buffer functions are required. 
+
+
+A buffer has activities such as storing, loading and unloading. 
+The buffer adjusts the start timing of the task for  the 
+material/product. When the next machine which processes the 
+next step task is occupied, the buffer stops to feed the 
+material/product. When the buffer storage is full, the buffer 
+
+
+physical buffer virtual buffer detail of function
+
+
+Stock
+(Storage)
+
+
+Communication
+Notification whether stocker is full or not
+
+
+Acceptance of stocking request
+
+
+Recording
+(Calculation)
+
+
+Stocking- in time
+
+
+Number of stocks
+
+
+Power consumption
+
+
+Supply
+(Discharge)
+
+
+Communication
+Notification whether stocker is empty or not
+
+
+Acceptance of supply request
+
+
+Recording
+(Calculation)
+
+
+Supplying time (sending-out time)
+
+
+Number of stocks
+
+
+Power consumption
+
+
+Table 2. Required functions for a buffer in virtual production 
+li
+
+
+{
+"Production_Machine_Model":
+
+
+{ 
+"id":null,
+"Machine_Name":null,
+"Model_Number":null,
+"Machine_Type":“Buffer",
+"Basic_Machanical_Information":
+
+
+{ 
+
+
+"Power_Consumption":
+{
+
+
+"Controlled_Equipment":null,
+"PCB_conveying_motor":null,
+“Storage_Lifting_Motor":null,
+“Extruding_bar_action":null
+
+
+},
+"Mechanical_Specification":
+
+
+{
+"Conveying_Path_Length":null,
+"Active_Time_Idling": null,
+“Storage_Lifting_Distance":null,
+
+
+}
+},
+
+
+“Comunication”:
+{
+
+
+“Send” : [“Notify That Stock Is Full”, “Notify That Stock Is Not Full”]
+“Receive” : [“Receiving Request of Stock”, “Receiving Request of Discharge”]
+
+
+}
+"Behavior": 
+
+
+{
+"Number_Of_States":11,
+"State":
+
+
+{
+
+
+“Conveyin_PCB":
+{
+
+
+"StateNO":4,
+"State_Name":" Conveyin_PCB ",
+"Active_Time_ Conveyin_PCB ":"(Conveying_Path_Length - p.Board_Width) / p.PCB_Transport_Speed",
+"Power_Consumption_PCB_Set":"Active_Time_ Conveyin_PCB * PCB_conveying_motor",
+"Next_State":5
+
+
+},
+“PCB_Loading_Operation":
+
+
+{
+"StateNO":5,
+"State_Name":" PCB_Loading_Operation ",
+"Active_Time_PCB_Loading_Operation ":"(Storage_Lifting_Distance / o.Storage_Lifting_Speed)",
+"Power_Consumption_PCB_Loading_Operation ":"Active_Time_PCB_Loading_Operation
+
+
+* Storage_Lifting_Motor
++ Extruding_bar_action ",
+
+
+"Next_State":6
+},
+
+
+[ continue to the right ]
+
+
+…
+
+
+…
+…
+
+
+Description about communication
+
+
+Description of behaviour about buffer
+
+
+Description of buffer spec
+
+
+Fig. 5. The template of a buffer. 
+
+
+Idling 
+
+
+[there]
+
+
+Conveying a productRequest of stock
+
+
+[none]
+
+
+Stock Space
+
+
+[there]
+
+
+Conveying a product
+
+
+[none]
+
+
+Stocked PCB
+
+
+Stop
+
+
+Request of discharge
+
+
+Loading a product
+
+
+Discharging a product
+
+
+Notify that stock is full
+
+
+Notify that stock is empty
+
+
+<<Power Consumption Record>>
+idling time, idling power consumption
+
+
+<<Power Consumption Record>>
+conveying time, loading operation time, discharge operation time, 
+
+
+conveying power consumption, loading power consumption, discharge operation
+
+
+Fig. 4. The activity diagram for a buffer. 
+
+
+
+
+
+
+468   Sota Matsumoto and Michiko Matsuda  /  Procedia CIRP   63  ( 2017 )  465 – 470 
+
+
+ lets the previous machine know. The buffer function is 
+important to simulate production condition with high accuracy. 
+
+
+3. A buffer model 
+
+
+3.1. Functions of a virtual buffer 
+
+
+Requirement functions for a virtual buffer in a virtual 
+production line are shown in Table 2. Compared to just 
+modelling of machines, not only implementation of 
+calculation equations but also implementation of 
+communication functions with others are required as well. 
+There are two communication functions implemented for both 
+transmission and reception. For the transmission function 
+which is related to the storage function, it furnishes its state of 
+whether it is fully occupied or not. For the reception function 
+which is related to discharge, a request to supply the 
+unfinished product to the next machine from the stocker are 
+received. In the recording function, not only calculation of the 
+action time and power consumption up to now but also a 
+calculation of the number of products inside the stocker is 
+added. 
+
+
+3.2. Behaviour modelling of a buffer 
+
+
+The behaviour model of the buffer is described by the 
+UML activity diagram as shown in Fig. 4. When the buffer 
+starts up, it shifts to the idle state. When receiving a request 
+for stock, it calculates the number of unfinished products in 
+the stocker. If there is space, conveying the product to the 
+stocker and loading the product to the stocker are done. If 
+there is no space, the notification that the stocker is full is sent 
+out. When receiving a request for discharge, the number of 
+products in the stocker is calculated. If there is a product in 
+the stocker, discharging the product from the stocker and 
+conveying the products to the next machine is performed. If 
+there is no product, notification that the stocker is empty is 
+sent out. 
+
+
+To produce an e-catalogue for each concrete physical 
+buffer, a template is necessary. A template is a frame which 
+describes the buffer model using a data description language 
+such as JSON and XML based on a UML model. The 
+template of the buffer described by using JSON is shown in 
+
+
+Fig. 5. As in the machine model, the template is roughly 
+divided into two parts. One is the part for describing static 
+specifications of the buffer. The other is the part for 
+describing behaviour. A description concerning 
+communication is added. The buffer agent is automatically 
+generated based on the e-catalogue. 
+
+
+4. Construction of the virtual production line including 
+buffers 
+
+
+4.1. Addition of communication function to machine models 
+
+
+On the virtual production line in the Digital Eco-Factory, a 
+product agent leads the execution of the processing to 
+ complete itself as final product. The centre of communication 
+is a product agent. The product agent is created according to 
+the production schedule when executing the simulation. The 
+diagram for the communication example with machines is 
+shown in Fig. 6. In this figure, the communication for 
+requesting storage to the buffer and the communication for 
+requesting discharge to the next machine are shown. First, the 
+product agent asks the buffer for storage. Second, the product 
+agent asks for the work for the machine to receive the next 
+task. Third, the product agent requests the buffer to discharge 
+itself from the buffer. Finally, the product agent proceeds to 
+the next task.  
+
+
+In order to achieve the above communications, it is 
+necessary to add the communication function to machine 
+agents, just as was done for a buffer. As an example, added 
+description for communication in an agent of solder paste 
+printing machine is shown in Fig. 7. Machines have a function 
+to notify that a task can be accepted or to notify that a task 
+cannot be accepted. In addition, machines have a function to 
+receive the request for a task. 
+
+
+4.2. Construction of the virtual PCA line including buffers 
+using e-catalogues 
+
+
+Each machine agent is configured automatically based on 
+the e-catalogue which is selected by the operator of the 
+Digital Eco-Factory. Moreover, the generated machine agents 
+are sequentially connected to form a virtual production line. 
+The product agent carries out the processes of the virtual 
+production to transform itself into the completed product by 
+communicating with machines on the production line. 
+
+
+The structure of the virtual PCA line including buffers is 
+shown in Fig. 8. Buffer agents are put in the intervals between 
+machine agents. The PCA line agent manages structuring the 
+
+
+Solder 
+paste 
+
+
+Printing 
+Machine
+
+
+Electronic 
+Part 
+
+
+Mounter
+BufferPCB
+
+
+Solder paste Electronic parts
+
+
+Reflow 
+Furnace 
+
+
+PCA
+
+
+c Electronic 
+Part 
+
+
+Mounter
+
+
+cc 
+Electronic 
+
+
+Part 
+Mounter
+
+
+Actual PCA line
+
+
+Virtual PCA line
+
+
+PCB 
+Agentt
+
+
+Input
+
+
+PCB 
+AgentA
+
+
+OutputInpuut OutputO
+
+
+PCA Line Agent
+
+
+Installation
+
+
+c
+
+
+Solder 
+Paste 
+
+
+Printing 
+Machine
+
+
+Agent
+
+
+Electronic 
+Part 
+
+
+Mounter
+Agent #2
+
+
+Reflow 
+Furnace
+
+
+Agent
+
+
+Electronic 
+Part 
+
+
+Mounter
+Agent #1
+
+
+Buffer
+Agent #3
+
+
+Buffer
+Agent #1
+
+
+Buffer
+Agent #2
+
+
+Buffer
+
+
+Fig. 8. Structure of the virtual PCA line including buffers. 
+
+
+1.ask for stock
+
+
+5.ask for task
+
+
+2.accept stock
+3.task data
+4.task complete
+
+
+6.accept task
+
+
+11.task data
+12.task complete
+
+
+7.ask for discharge
+8.accept discharge
+9.task data
+10.task complete
+
+
+0.task complete
+
+
+Fig. 6. Example diagram of communication between machines. 
+
+
+“Comunication”:
+{
+
+
+“Send” : [“Notify That task Can Be Accepted”, “Notify That task Cannot Be Accepted”]
+“Receive” : “Receiving Request of task”
+
+
+}
+"Behavior": 
+
+
+{
+"Number_Of_States":11,… Description about communication function
+
+
+Fig. 7. Example of e-catalogue of solder paste printing machine  
+including communication description 
+
+
+
+
+
+
+469 Sota Matsumoto and Michiko Matsuda  /  Procedia CIRP   63  ( 2017 )  465 – 470 
+
+
+virtual PCA line. The PCA line agent activates machine 
+agents. The PCA line agent has information about the 
+structure of the virtual line such as connecting relations 
+among machine agents. In the virtual PCA line, the product 
+agent is called the PCB (Printed Circuit Board) agent. 
+
+
+A comparison of UML sequence diagrams for virtual PCA 
+line without buffers and for virtual PCA line including buffer 
+is shown in Fig. 9. Both diagrams show communication from 
+the time when the PCB agent asks for the first task to the 
+printer agent. In Fig.9. (a), the PCB agent issues a task request 
+to the printer agent and it receives a completion report from 
+the printer agent, then immediately, the PCB agent issues a 
+task request to the mounter agent and receives a completion 
+report from the mounter agent. In Fig.9. (b), the PCB agent 
+issues a task request to the printer agent, and when it receives 
+a completion report from the printer agent, it issues a storage 
+request to the buffer agent. When receiving a storage 
+completion report from the buffer agent, the PCB agent issues 
+a request for task to the mounter agent. When the request is 
+accepted, the PCB agent issues a discharge request to the 
+buffer agent. When the discharge is completed, the task data 
+is handed over to the mounter agent and the completion report 
+is received. 
+
+
+5. Operation of the virtual production line 
+
+
+5.1. Operation of the virtual PCA line including buffers 
+
+
+When the stocker of the buffer is “full”, the operation on 
+the virtual production line is shown in Fig. 10. In this figure, 
+the buffer agent assumes that the number of storable 
+unfinished PCBs is one. There are two PCB agents. In other 
+words, two PCBs are being produced. One PCB agent asks 
+
+
+the printer agent for the task. When the acceptance is 
+returned, the task data is transmitted. When the completion 
+report arrives from the printer agent, it issues a storage request 
+to the buffer agent. When the completion report comes back, 
+the PCB agent asks the mounter agent for the task. At this 
+moment, since the printer agent is free, the other PCB agent 
+requests the printer to do the task. When the completion report 
+is returned from the printer agent, the other PCB agent asks 
+the buffer agent to store. However, at this moment, the other 
+PCB agent is notified that the buffer agent cannot be stored 
+because it is “full”. When the first PCB agent receives an 
+acceptance from the mounter, it issues a discharge request to 
+the buffer agent. When the buffer agent discharges according 
+to the request, the buffer agent has one free space at the 
+stocker. The second PCB agent that is on standby is notified 
+that the buffer agent has free space to store the second PCB. 
+
+
+5.2. Trial simulation of electric power consumption using 
+virtual PCA line including buffers 
+
+
+Trial simulations are executed using constructed virtual 
+PCA lines including buffers. An example of the display for 
+electric power consumption simulation is shown in Fig. 11. 
+The upper part in this figure shows constructing the PCA line. 
+The lower part shows the time series change of power 
+consumption for each machine. On the right side are messages 
+which the buffer exchanged with other machines and PCB 
+agents. These messages indicate that the buffer controls the 
+production line.  
+
+
+To compare a virtual production line with and without 
+buffer, trial simulations are also executed using constructed 
+virtual PCA lines without buffers as shown in Fig. 12. In the 
+real line, even when the product is waiting between the 
+machine and the next machine, power consumption occurs 
+because product is stored in the buffer. However, since there 
+was no buffer, power consumption was not counted at the 
+virtual production line of Fig. 12. By implementing the buffer 
+agent, power consumption during storing in the buffer is 
+considered like shown in Fig. 11. Moreover, because of the 
+buffer, the waveform of power consumption became more 
+realistic. In the simulation without buffer, a machine keeps 
+making products until the production plan is fulfilled. So the 
+products accumulate indefinitely between the machine and the  
+
+
+ask for task
+
+
+virtual PCA line including buffer
+
+
+Printing
+
+
+PCB Agent
+Printer
+Agent
+
+
+Mounter #1
+Agent
+
+
+complete
+
+
+task data
+
+
+ask for stock
+
+
+Idling or
+Operation
+
+
+Idling or
+Operationaccept task
+
+
+accept stock
+
+
+task data
+
+
+Buffer #1
+Agent
+
+
+Idling or
+Operation
+
+
+Parts
+Mounting
+
+
+ask for task
+complete Stock
+
+
+accept task
+
+
+ask for discharge
+
+
+complete
+
+
+task data
+
+
+complete
+
+
+task data
+
+
+Discharge
+
+
+accept discharge
+
+
+(b) Communication sequence of virtual PCA line including buffers
+
+
+ask for task
+
+
+virtual PCA line
+
+
+Printing
+
+
+PCB Agent
+Printer
+Agent
+
+
+Mounter #1
+Agent
+
+
+complete
+
+
+task data
+
+
+Idling or
+Operation
+
+
+Idling or
+Operationaccept task
+
+
+Parts
+Mounting
+
+
+ask for task
+
+
+accept task
+
+
+task data
+
+
+complete
+
+
+(a) Communication sequence of virtual PCA line without buffer
+
+
+Fig. 9. Comparison of production control 
+sequence. 
+
+
+Fig. 10. Operation when buffer is full on virtual production line. 
+
+
+
+
+
+
+470   Sota Matsumoto and Michiko Matsuda  /  Procedia CIRP   63  ( 2017 )  465 – 470 
+
+
+next machine. And an unrealistic waveform of power 
+consumption that the machine always keeps moving is shown. 
+In the simulation with buffer, the simulation considering 
+capacity between the machine and next machine is executed. 
+Therefore, the waveform of power consumption in which the 
+machine waits when the capacity between machine and next 
+machine become full is confirmed.  
+
+
+At this moment, trial uses are being performed in industries. 
+Although the timing at which power consumption occurs is 
+accurate, the numerical precision of power consumption is not 
+strict. It is said that the trend is more important than the 
+numerical strictness about power consumption and that this 
+system is practically usable. 
+
+
+6. Conclusions 
+
+
+A buffer function was newly added to the virtual 
+production line for a more accurate simulation of production 
+control. In order to implement the buffer, the behaviour of the 
+buffer is modelled. Using this behaviour model for a buffer, 
+the template for creating an e-catalogue of the buffer is 
+written in a data description language called JSON. 
+Descriptions for communication functions were newly added 
+to e-catalogues for buffers and other machines. The power 
+consumption simulation was executed in the virtual PCB 
+production line including the buffer agents showed that the 
+buffer agents control production flow by communicating with 
+other machine agents and PCB agents. Based on the above 
+results, when simulating a virtual production line with high 
+accuracy, buffers with communication functions are necessary.  
+
+
+Acknowledgements 
+
+
+This work is supported by JKA and its promotion funds 
+from KEIRIN RACE. The authors thank JKA. And also, the 
+authors thank members of Technical Committee " DEcoF 
+(Digital Eco Factory) " (2012. Oct. - ) by FAOP (FA Open 
+Systems Promotion Forum) in MSTC (Manufacturing Science 
+and Technology Centre), Japan for fruitful discussions and  
+ 
+
+
+their supports. The authors are grateful to Dr. Udo Graefe, 
+retired from the National Research Council of Canada for his 
+helpful assistance with the writing of this paper in English. 
+
+
+References 
+
+
+[1] Sarkis J. Manufacturing’s role in corporate environmental sustainability – 
+concerns for the new millennium, International Journal of Operations & 
+Production Management. Vol. 21 Iss: 5/6, 2001, p. 666-686. 
+
+
+[2]  Monostori L. Váncza J., Kumara S. Agent-based systems for 
+manufacturing, CIRP Annals-Manufacturing Technology, vol. 55, no. 2, , 
+2006, p.697-720. 
+
+
+[3] Monostori L. Cyber-physical production systems: Roots, expectations and 
+R&D challenges, Procedia CIRP vol.17 (Special Issue on) 47th 
+Conference on Manufacturing Systems, Elsevier, 2014. p.9-13. 
+
+
+[4] Leitão P., Colombo W. A., Karnouskos S. Industrial automation based on 
+cyber-physical systems technologies: Prototype implementations and 
+challenges, Computers in Insudtry, Vol81(2016), p.11-25. 
+
+
+[5] Lee. J, Bagheri B., Kao H. A Cyber-Physical Systems architecture for 
+Industry 4.0-based manufacturing systems, Manufacturing Letters.Vol3, 
+p.18-23, (2015). 
+
+
+[6] Lobo A F. The Industry 4.0 revolution and the future of Manufacturing 
+Execution Systems (MES), Journal of Innovation Management, 3, 4, 
+2015, p. 16-21. 
+
+
+[7] Matsuda M., Sudo Y., Kimura F. A multi–agent based construction of the 
+digital eco-factory for a printed-circuit assembly line, Procedia CIRP 41, 
+2016, p. 218-223 
+
+
+[8] Matsuda M., Matsumoto S., Noyama N., Sudo Y., Kimura F. E-catalogue 
+library of machine for constructing virtual printed-circuit assembly lines, 
+Procedia CIRP 49th Conference on Manufacturing Systems, Vol 57, 
+2016, p.562-567. 
+
+
+[9] Matsumoto S., Noyama N., Matsuda M. Construction of Virtual Printed-
+Circuit Assembly Lines Using an E-Catalogue Library of Machines, 
+International Conference on Precision Engineering 2016. 
+
+
+[10] B. Kádár, A. Lengyel, L. Monostori, Y. Suginishi, A. Pfeiffer, Y. 
+Nonaka, Enhanced control of complex production structures by tight 
+coupling of the digital and the physical worlds, CIRP Annals - 
+Manufacturing Technology, Volume 59, Issue 1, 2010, p. 437-440 
+
+
+[11] B. Kádár, W. Terkaj, M. Sacco, Semantic Virtual Factory supporting 
+interoperable modelling and evaluation of production systems, CIRP 
+Annals - Manufacturing Technology, Volume 62, Issue 1, 2013, p. 443-
+446 
+
+
+[12] W. Terkaj, T. Tolio, M. Urgo, A virtual factory approach for in situ 
+simulation to support production and maintenance planning, CIRP Annals 
+- Manufacturing Technology, Volume 64, Issue 1, 2015, p. 451-454 
+
+
+
+
+
+
+
+
+Fig. 11. Example display of electric power consumption 
+simulation using virtual PCA line including buffer. 
+
+
+Fig. 12. Example display of electric power consumption 
+simulation using virtual PCA line excluding buffer. 
+
+
+Fig 12 Example display of electric power consumption
+
+
+
+

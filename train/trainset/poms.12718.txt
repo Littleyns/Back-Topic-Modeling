@@ -1,0 +1,4984 @@
+
+
+
+
+
+
+
+
+
+
+Contracting Models for P2P Content Distribution
+
+
+Hossein Ghasemkhani
+Krannert School of Management, Purdue University, West Lafayette, Indiana 47907, USA, hossein@purdue.edu
+
+
+Yung-Ming Li
+College of Management, National Chiao Tung University, Hsinchu 300, Taiwan, yml@mail.nctu.edu.tw
+
+
+Kamran Moinzadeh
+Michael G. Foster School of Business, University of Washington, Seattle, Washington 98195, USA, kamran@uw.edu
+
+
+Yong Tan
+Michael G. Foster School of Business, University of Washington, Seattle, Washington 98195, USA
+
+
+School of Economics and Management, Tsinghua University, Beijing, China, ytan@uw.edu
+
+
+I
+n recent years, peer-to-peer (P2P) networks have become an increasingly popular method for distributing digital con-
+tent. In this study, we consider the development of optimal contracts for a P2P network by a profit-seeking provider to
+
+
+support the operations of an online file exchange service. By utilizing the principal-agent model of incentive theory, we
+propose appropriate reward and pricing schemes for profit-seeking P2P content distribution networks. We show that
+when peers are homogeneous, upload compensation increases with propagation delay uncertainty, maximum uploading
+nodes allowed, peers’ provision cost and disutility of download delay, but decreases with the network size and content
+availability. We also characterize a general contracting model where there are a countable number of peer classes which
+are heterogeneous in their provisioning costs. For the case of two peer classes where optimal delays are separable, we
+derive the optimal upload compensations under different scenarios and show that the impact of operational parameters is
+quite similar to the case of homogeneous peers, lending support to the robustness of our analysis.
+
+
+Key words: P2P networks; content distribution; moral hazard; principal-agent model
+History: Received: April 2015; Accepted: March 2017 by Subodha Kumar, after 2 revisions.
+
+
+1. Introduction
+
+
+A peer-to-peer or P2P network is a social network for
+pooling resources, such as computing cycle, hard disk
+storage, network bandwidth and content, at numer-
+ous edge nodes. Business applications of P2P include
+grid computing, instant messaging, collaborating and
+file sharing. In 2008, Insight Research Corporation
+predicted that the global market for P2P and file shar-
+ing services would reach nearly $28 billion in reven-
+ues for carriers and ISPs by 2012 (The Insight
+Research Corporation 2008). While the growth in P2P
+file sharing experienced a decline starting in 2008 as a
+result of legal actions by the likes of RIAA and access
+to convenient alternatives like iTunes and Netflix, a
+2015 report uses data from Cisco Visual Networking
+Index and other reports to conclude that file sharing
+has likely grown by around 55% from 2008 to 2015
+(CVN Index 2015, Steele 2015).
+In this study, we argue that there are great opportu-
+
+
+nities for a commercial P2P content distribution plat-
+form, and propose a mechanism to implement such a
+
+
+platform. P2P networks are self-organizing and inde-
+pendently operated by different parties, but the
+decentralized nature of these networks has made
+them free havens for pirated content (Kalker et al.
+2004). Coming up with an effective mechanism to use
+the power of P2P networks for legal sharing will not
+only mitigate piracy, but also tap into the collective
+power of shared resources of a large number of users.
+The operational performance of a P2P network is
+strongly associated with the level of contribution by
+the peers. Therefore, in order to have a sustainable
+commercial P2P network, the most fundamental ques-
+tion is how to stimulate peers’ incentives to cooperate
+or contribute resources, a problem that poses an obvi-
+ous obstacle for P2P to be used as a distribution chan-
+nel (Krishnan et al. 2006). Many computer scientists
+have tried to address this issue from the technical per-
+spective. We address this problem from the economic
+perspective by aligning incentives.
+Considering P2P networks’ potential for both scal-
+
+
+able distribution and copyright infringement, media
+companies face the dilemma of either suppressing the
+
+
+1940
+
+
+Vol. 27, No. 11, November 2018, pp. 1940–1959 DOI 10.1111/poms.12718
+ISSN 1059-1478|EISSN 1937-5956|18|2711|1940 © 2017 Production and Operations Management Society
+
+
+
+
+
+
+diffusion of this new distribution channel or embrac-
+ing this seemingly unavoidable new technology.
+Incorporated with Digital Rights Management, P2P
+content distribution services are increasingly emerg-
+ing. For example, Snocap uses a system of sound fin-
+gerprinting which allows songs traded over a P2P
+network to be positively identified as belonging to a
+particular copyright holder (Betteridge 2004). Strea-
+merP2P applies the P2P distribution approach to deli-
+ver digital radio (StreamerP2P 2016). In 2006, Warner
+Brothers Home Entertainment announced the adop-
+tion of BitTorrent for distribution of protected movies
+and television programs (Marlowe 2006). There has
+been news circulating that even Netflix which is cur-
+rently responsible for over 30% of all downstream
+traffic might be considering using P2P technology for
+content delivery (Hastings 2014). They have also been
+hiring employees to develop the capability to use the
+P2P technology (Van der Sar 2015). If it adopts P2P
+streaming, Netflix will be number one in terms of
+upstream bandwidth too, a position currently domi-
+nated by BitTorrent traffic (TorrentFreak 2014a). P2P
+applications have also expanded to mobile platforms.
+Popcorn Time, a mobile application which offers
+BitTorrent-powered streaming became an instant hit
+and was downloaded by 1.4 million devices in the US
+in a few months (TorrentFreak 2014b).
+These emerging commercial P2P content distribu-
+
+
+tion services indicate that resources of peer nodes
+could be managed by leveraging technological and
+economic mechanisms. With the support of appropri-
+ate service quality measurement, operating policy,
+and incentive mechanism, a profitable P2P content
+distribution network with an efficient delivery service
+could be realized. However, designing an economic
+mechanism to run a commercial P2P network calls for
+attention to the unique characteristics of these net-
+works. In such a network, there are multiple agents
+who act as downloading or uploading nodes. There is
+also the platform provider who designs and imple-
+ments the protocols and acts as the governing body.
+Also the way many existing P2P content networks are
+designed makes them similar to a public good, thus,
+giving rise to the free-riding problem. Free-riding
+occurs as many users take advantage of the content
+provided through the network, but do not contribute
+back by sharing the content with others. As Krishnan
+et al. (2006) emphasize, lacking incentives in P2P net-
+works, free riding will likely abound.
+Due to the decentralized nature of P2P networks
+
+
+and the stochastic characteristics of their operating
+environments, e.g., uncertain routing and traffic in
+public network domain, it is difficult to observe and
+measure the effort exerted by peer nodes, resulting in
+information asymmetry. Thus, external nodes can
+only estimate the overall network performance
+
+
+between request and provision nodes. This is particu-
+larly relevant for commercial P2P networks and gives
+rise to moral hazard and adverse selection problems.
+The moral hazard or hidden action problem exists
+because the upload bandwidth dedicated by the peers
+is not directly observable by the provider, due to the
+existence of propagation delay or simply because the
+actual realized bandwidth might be lower than
+the nominal bandwidth. Therefore, in the absence of a
+monitoring scheme, peer nodes could shirk and avoid
+the cost incurred during file transfer. The adverse
+selection or hidden knowledge problem exists
+because peers might have different provision costs
+due to differences in their cost to acquire bandwidth
+or differences in opportunity costs of contributing
+resources.
+Extensive research has been done on technological
+
+
+design to improve P2P content distribution and on
+the design of incentives to alleviate the free-riding
+problem. However, little attention has been given to
+the development of a business contract under infor-
+mation asymmetry for profit-seeking P2P distribution
+channels, which is the economic approach to conquer
+the inherent hidden action problem. As Laffont and
+Martimort (2002) point out, the starting point of
+incentive theory is the problem of delegating a task to
+an agent with private information which can be of
+two types, moral hazard or adverse selection, and
+incentive theory considers when this private informa-
+tion is a problem for the principal and what the opti-
+mal way for the principal is to cope with it. So the
+special characteristics of the P2P networks make
+the incentive theory and principal agent model
+the approach of choice for designing an economic
+mechanism.
+In this study, we develop contracts implemented
+
+
+between the P2P provider, as the principal, and the
+peer nodes, as agents, to support content distribu-
+tion. According to our proposed reward scheme,
+the provider compensates peers for agreeing to
+become provision nodes by making content avail-
+able for download. Moreover, an additional upload
+reward is paid to peers who execute the file
+upload. Under this compensation and payment
+structure, P2P provider’s decision is to whether
+provide higher compensation to induce peers to
+exert higher provision quality, or to provide lower
+compensation to reduce operational costs. On the
+other hand, since only the provision nodes with the
+highest service quality (measured by the end-to-end
+transfer delay) will be chosen as provision nodes,
+the peers have to compete by exerting higher
+upload capacity. Thus, the fundamental trade-off
+participating peers face is allocating a higher band-
+width and increasing their chances of winning at
+the expense of incurring the additional cost.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1941
+
+
+
+
+
+
+Regarding the demand side, customers (content
+request nodes) must be charged a download fee. This
+fee pays for the the right to own the content, as well
+as the compensation awarded to uploading peers.
+Download fee is determined by the download QoS
+(i.e., overall delay), which is associated with network
+size, capacity contribution of peer nodes and the char-
+acteristics of the uncontrollable public network. It is
+important to analyze how relevant system parameters
+affect the development of reward and pricing mecha-
+nisms and adjust the system parameters to optimize
+the mechanism developed.
+By utilizing the principal-agent model from incen-
+
+
+tive theory (Gibbons 1992, Green and Stokey 1983,
+Lazear and Rosen 1981), we formulate and solve a
+multilateral contracting problem for a monopolistic
+P2P provider. We investigate the circumstances under
+which a commercial P2P network is viable. This is an
+important problem, as existing P2P platforms are pre-
+dominantly free and non-commercial. We show that
+our proposed commercial P2P platform is not viable
+for content that is extremely old or too obscure. Also
+if users have extremely low opportunity costs of time
+and do not mind very long download delays, or if it is
+prohibitively expensive for users to provide upload
+bandwidth, the commercial P2P network might not
+be profitable for any type of content. However, these
+cases are increasingly less likely given the trends in
+user behavior and internet infrastructure improve-
+ments. Finally, we show that when network connec-
+tions are too unreliable or unpredictable, a
+commercial P2P content sharing network might not
+be viable. On the other hand, the ongoing improve-
+ments in infrastructure will help the rise of commer-
+cial P2P networks.
+Our proposed contract tackles the information
+
+
+asymmetry issues we discussed earlier. It also elim-
+inates the free-riding problem, as uploading peers
+are incentivized to contribute through a reward
+mechanism and downloading peers pay to acquire
+content. We also investigate the impact of key char-
+acteristics of P2P systems such as network size and
+network dispersion, content availability, and P2P
+technology (file swarming, i.e., the maximal number
+of provision nodes allowed to execute upload, and
+bandwidth technology) on the design of the con-
+tract and the corresponding capacity provided by
+the peer nodes.
+We show that the population of P2P users and
+
+
+market structure have a significant impact on the
+resulting compensation and capacity selection. Opti-
+mal upload compensation always increases with
+propagation delay in the public network domain
+and the maximum number of peers allowed to
+upload jointly. It also always decreases with net-
+work size and content availability. These effects are
+
+
+shown to also hold for the case of two heteroge-
+neous classes of peers. Upload compensation also
+increases or remains constant with peers’ provision
+cost and disutility of delay, depending on values of
+other parameters. These same effects are also
+observed for the two-class model, only that each
+class has its own cost and the relative size of the
+costs also matters. As the network size increases,
+peer nodes provide less capacity, and individual
+provision delay also increases with content avail-
+ability. Provision cost has a similar impact on opti-
+mal delay. On the other hand, delay decreases or
+remains constant with the maximum number of
+simultaneous uploaders, propagation delay uncer-
+tainty and disutility of delay, depending on the val-
+ues of other parameters.
+In this study, we connect the profit-maximizing
+
+
+business strategy of the P2P network provider with
+operational details and derive managerial insights
+at the operational level. This work contributes to
+the literature on P2P pricing as it analyzes a rank-
+order based compensation scheme in order to
+address the hidden action problem of upload band-
+width provision. The proposed contract scheme is
+suited to the popular P2P technological protocols
+which allow simultaneous download from multiple
+provision nodes. Though conceptually similar to
+the studies in the contest literature, the analyses in
+this study are tailored to the P2P context which
+possesses some unique characteristics. For example,
+the uncertainty due to propagation delay always
+affects the overall content transfer performance and
+there exists significant positive network externalities
+on the propagation delay, whereas in traditional
+contest models, the uncertainty (noise) plays a neg-
+ligible role.
+Our mechanism has three clear advantages over
+
+
+the free mechanism. It eliminates piracy, incen-
+tivizes peers to participate in the upload of less
+popular content, and eliminates free riding. One
+other possible mechanism is a one-part flat reward
+in which peers who contribute receive a flat reward
+regardless of content and environmental character-
+istics. We will argue later that even for a very sim-
+ple case with minimal diversity, our model yields
+far superior payoffs compared to this flat reward
+model. Finally the subscription model used by
+companies like Netflix is straightforward and easy
+to implement, but it is not viable in our setting.
+First, although great for streaming, it is not suitable
+for downloading content to own. Second, if the
+reward is also paid as a fixed monthly amount, it
+will not incentivize peers to participate more in
+uploading less popular content. Finally, we cannot
+effectively deal with moral hazard and monitoring
+issues using a flat monthly compensation.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+1942 Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society
+
+
+
+
+
+
+2. Literature Review
+
+
+Numerous studies have looked at the technical
+aspects of P2P networks such as network topologies,
+search algorithms, and developing efficient communi-
+cation protocols (Gupta and Awasthi 2010, Victer Paul
+et al. 2012). Many of the existing economic studies of
+P2P networks focus on the free-riding phenomenon
+and the ways to alleviate this problem. Adar and
+Huberman (2000) analyzed user traffic on Gnutella,
+one of the most popular P2P file sharing networks,
+and found that around 70% of Gnutella users share
+no files. As a decentralized system, a P2P file sharing
+network faces similar challenges as traditional public
+goods (Cornes and Sandler 1996): under-provision
+and over-consumption of the commons. This phe-
+nomenon has been observed and analyzed (Asva-
+nund et al. 2004, Krishnan et al. 2004, Li et al. 2013),
+and many incentive mechanisms have been proposed
+to conquer this free-riding problem (Antoniadis et al.
+2004, Ghosal et al. 2005, Ma et al. 2006). Our proposed
+model deals with free-riding using two mechanisms:
+(i) users who download content, pay for doing so,
+and (ii) users who contribute to file upload are com-
+pensated by an availability reward, w0, and an upload
+reward, w1.
+Among other economic studies on P2P networks,
+
+
+Johar et al. (2011) examine the use of P2P networks
+for delivering general-purpose content over the Web
+under various congestion measures, and Hosanagar
+et al. (2010) look at the diffusion of content in P2P
+networks. Herings et al. (2010) and Johar et al.
+(2012) study the situation where an information
+goods provider has to compete with a P2P network
+where pirated content is provided. Using peer-level
+data from a music sharing network, Xia et al. (2012)
+find that the more users benefit from the network
+and the more they give to the network, the more
+likely they are to share. Guo et al. (2013) examine
+the case of Comcast slowing down P2P traffic from
+a net neutrality standpoint. Xu et al. (2010) analyze
+a P2P streaming peer selection model using mobile
+agents and a super-peer selection strategy based on
+trust.
+Our study can be placed under the general
+
+
+umbrella of the literature on pricing of information
+goods. However, we study digital content pricing in
+P2P networks where the price depends not only on
+the value of the content, but also on the delays
+incurred in the network. More specifically, our study
+is related to the literature on pricing of P2P services
+and resources. Maill�e and Toka (2008) study a simple
+P2P storage marketplace where users can buy storage
+space for a fixed unit price, and sell their own mem-
+ory space to the system at another price. Our research
+considers a commercial P2P network where the
+
+
+platform owner incentivizes peers to upload and
+downloading peers pay a fee to acquire content based
+on the quality of service. Kumar et al. (2011) design a
+pricing and allocation mechanism for a P2P network
+in an organization in a decentralized manner. They
+model the allocation of tasks to peers in a self-orga-
+nized way, while we study a network where peers
+compete to be selected to upload content. Lang and
+Vragov (2005) develop a monopolistic pricing scheme
+to reward P2P peers for contributing, however in con-
+trast to our study, their model is developed based on
+the economic growth theory and does not consider
+the competition among uploading peer nodes.
+This work is also related to network pricing litera-
+
+
+ture. Most of the research associated with communi-
+cation networks use delay as the quality measure for
+the development of pricing schemes, such as conges-
+tion-based pricing models for Internet services
+(Ganesh et al. 2007, MacKie-Mason and Varian 1995).
+Considering the delay cost, Af�eche and Mendelson
+(2004) study alternative price-service mechanisms for
+a provider that serves customers whose delay costs
+depend on their service valuations. Similar to such
+studies, we also use the end-to-end delay of file trans-
+fer as the main QoS evaluation criteria. However, we
+study delay in the P2P context where moral hazard
+and adverse selection exist.
+The problem of hidden action or moral hazard,
+
+
+has long been of interest in economics literature on
+information asymmetry, and contract and agency
+theory. This principal-agent problem has been
+widely used as a representation of various standard
+economic relations such as in the theory of insurance
+under moral hazard (Arrow 1970, Spence and Zeck-
+hauser 1971), in efficiency wage theory (Shapiro and
+Stiglitz 1984), and in teams with sequential hidden
+actions (Holmstrom 1982, Strausz 1996). More
+recently, Zhang and Zenios (2008) propose a general
+framework for a large class of multi-period princi-
+pal-agent problems and develop a dynamic pro-
+gramming algorithm to derive optimal long-term
+contracts. In the context of networks, existing studies
+mainly focus on mechanism or contract design to
+conquer the hidden action problem occurring in net-
+work routing (Feigenbaum et al. 2002, Feldman et al.
+2007). In this study, we propose a mechanism to
+overcome the hidden action problem in the context
+of P2P content distribution.
+Previous literature on P2P content distribution has
+
+
+mainly studied the problems from the perspective of
+cooperative distribution channels, without considering
+the competition and information asymmetry issues
+among the players in the digital supply chain. In this
+study, considering these important factors, we present
+reward and pricing schemes to support the operations
+of commercial P2P content sharing networks.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1943
+
+
+
+
+
+
+3. The Model
+
+
+We consider a content-sharing P2P network in
+which a profit-seeking P2P provider (firm) develops
+contracts to support the operations of an online file
+exchange service. We assume the system is in a
+stable state, meaning the P2P provider has been in
+service for some time, so there are a number of
+peers who have the P2P client installed on their
+machines. In other words, we do not model the
+decision of a potential peer to join the P2P network.
+We will study the two-sided contracts between a
+peer who is willing to pay to download content and
+the P2P provider on one hand, and the P2P provider
+and peers who are willing to contribute to file
+upload in return for some compensation on the
+other hand. Both the price and the amounts paid as
+compensation to participating peers are different for
+different content. The price that a downloading peer
+is willing to pay for a specific file is assumed to
+depend on the intrinsic value of the file and the
+end-to-end transfer delay. Intrinsic value of the file
+is the market price of the content where it is readily
+available. We also assume all files are initially pro-
+vided by the provider to ensure legality and consis-
+tent quality. So uploading peers have already
+purchased and downloaded the content on the net-
+work. After downloading a file, peers are shown the
+relevant rewards and have the choice to keep the
+content available, decide on the bandwidth and be
+prepared to participate.
+When a download request is initiated, the P2P
+
+
+provider searches the content catalog (either
+through a central index or through distributed
+search on the peer nodes), and provides download
+information (transfer delay estimation) of potential
+provision nodes. We call a node which has the
+requested content available an available peer node.
+Flow of monetary transfer is as follows: P2P provi-
+der receives the download price from the request
+peer node, and gives the provision nodes the
+upload service compensation after file transfer is
+complete. All available nodes receive a fixed avail-
+ability payment, w0, but only the available peers
+who are selected to provide the file receive the
+upload payment, w1. w0 could serve as an incentive
+for peers to have the file available (although, as we
+will discuss later, we do not model this decision). It
+also provides an additional means for the P2P pro-
+vider to control the types of peers it wants to induce
+to participate, in the case where peers are heteroge-
+neous. In the absence of information asymmetry and
+the ensuing moral hazard issue, the provider could
+simply give all the participating peers a single
+reward, w, and enforce an optimal level of provision
+capacity. However, due to information asymmetry,
+
+
+the risk associated with the uncertainty has to be
+transferred to the peers to induce them to choose
+the optimal provision capacity.
+
+
+3.1. P2P Dynamics and Operating Policies
+While a number of advanced P2P technologies have
+been developed, the operations of a typical P2P file
+sharing network can be summarized as having three
+main procedures: First, a peer node initiates a content
+request. Then, after searching the profiles of peer
+nodes, the P2P provider recommends a list of provi-
+sion nodes that have the desired file and are “close”
+to the request node (determined by the expected file
+transfer latency between these two nodes). Once this
+information is passed on to the requesting and provi-
+sion nodes, download occurs directly between the
+peers. The stated recommendation policy is com-
+monly implemented in most of the popular P2P file
+sharing platforms (such as BitTorrent and KaZaA).
+The network dynamics and operating policy are
+specifically described as follows, and the model
+parameters and decision variables are listed in
+Table 1.
+Content provision: Assume there are N active peer
+
+
+nodes in a certain P2P network. Due to the limit on
+storage capacity and the uncertainty of content avail-
+ability at the peer nodes, we introduce binary random
+variables, xik, to indicate the availability of file k stored
+on an arbitrary node i. Specifically, let
+
+
+xik ¼ 1; if node i has file k and,
+xik ¼ 0; otherwise, 8i 2 f1; . . .;Ng
+
+
+ð1Þ
+
+
+Then bk = E(xik), denotes the probability that node i
+has file k. We assume that this distribution is known
+to both the P2P provider and the peers. Later on, as
+we will study the contract for a given file, we will
+drop the k subscript.
+
+
+Table 1 Model Parameters
+
+
+Description
+
+
+Parameters
+N Total number of peer nodes
+n̂ Maximum number of provision nodes allowed to upload
+
+
+simultaneously
+s Upper bound of propagation delay for 1 byte of data
+b Probability of content availability
+ci Cost of capacity provisioning for peer i
+Ti Propagation delay of peer i for 1 byte of data
+Qi End-to-end transfer delay of peer i (Qi = Di + Ti)
+m Intrinsic value of content
+c Disutility of transfer delay for download of 1 byte of data
+Decision variables
+w0 Availability compensation
+w1 Upload compensation
+Di Provision delay (transmission delay of peer i for one byte of data)
+p0 Download price
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+1944 Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society
+
+
+
+
+
+
+Transfer delay: P2P technologies utilize the aggre-
+gate bandwidth from edge nodes for content trans-
+mission to avoid congestion at dedicated servers.
+Therefore, the effective bandwidth is scalable with the
+number of active users. End-to-end transfer delay,
+from here on referred to as transfer delay (denoted by
+Q) in a P2P content distribution network includes
+transmission delay, propagation delay, processing
+delay and queueing delay (Bertsekas and Gallager
+1992). Transmission delay occurs at the end edge of a
+provision node, so transmission delay at a peer node
+can be improved if bandwidth capacity (upload
+speed) is increased. We call the transmission delay for
+1 byte of data provision delay (denoted by D) which is
+equal to the inverse of the effective bandwidth. Di is
+endogenously decided by node i. For ease of exposi-
+tion and to highlight the most important aspect of
+the other delays (geographical dispersion), we use the
+term propagation delay (denoted by T) to refer to the
+sum of propagation, processing and queueing delays.
+In other words, propagation delay captures the addi-
+tional delay incurred on top of Di. In addition to net-
+work quality factors (such as congestion),
+propagation delay depends on the distance between
+peers, so the overall propagation delay depends on
+the number of active nodes—the more active nodes
+are available, the more likely it is to find provision
+nodes closer to the request node. Since uptime and
+location of participating peers are stochastic, propaga-
+tion delays, Ti, are assumed to be random variables,
+distributed i.i.d. across the different provision nodes
+with density function fT.
+Provision policy: n̂ is the maximum number of peer
+
+
+nodes allowed to jointly upload the requested file
+simultaneously. While a larger number of uploading
+peers could result in lower delay, the corresponding
+administrative cost of managing concurrent down-
+loads increases with the number of uploading peers.
+Therefore, there is an optimal number of provision
+nodes that a provider can set. Here, we treat n̂ as an
+exogenous parameter. If more than the maximum
+allowed nodes have a file available, only the ranked
+nodes with top-n̂ smallest estimated transfer delays
+will be selected as provision nodes. In other words,
+when node r requests file k, the transfer delay
+between request node r and provision node i is Qi,
+where Qi = Di + Ti. Let S0 ¼ Qijxik ¼ 1f g be the set of
+transfer delays of all available peer nodes and |S0| be
+the total number of available nodes. The optimal set
+of provision nodes suggested by the P2P provider is
+described as:
+
+
+U ¼ iji 2 I1 [ I2 [ � � � [ Imin jS0j;n̂ð Þ
+� �
+
+
+; ð2Þ
+
+
+where Ik ¼ ijQi ¼ inf Sk�1f g, and Sk�1 ¼ S0 � Qiji 2f
+I1 [ I2 [ � � � [ Ik�1g, for 2� k� n̂.
+
+
+As a result, if the total number of available nodes is
+fewer than or equal to n̂, all of the available nodes will
+be chosen and we will have |Φ| = |S0|. But if there are
+more than n̂ available nodes, we will have jUj ¼ n̂.
+The request peer node is assumed to be rational and
+chooses the provision nodes with the highest service
+quality (fastest transfer speeds), according to the
+information provided by the P2P software. Note that
+the recommendation of provision nodes and upload
+activities may be executed automatically by the P2P
+system. The distribution of content availability is
+commonly known to all peer nodes. For the sake of
+analytical tractability, the value of variable Ti is
+assumed to be uniformly distributed on [0, s], where
+parameter s is the upper bound of propagation delay
+per byte. The value of s has several implications for
+the network characteristics. Higher values of s could
+be interpreted as larger position or uptime dispersion
+of peer nodes or higher traffic uncertainty levels in
+the public network domain. Other than making the
+analysis tractable, the uniform distribution favors all
+possible outcomes equally. We believe this is a rea-
+sonable assumption as most peers might not know
+much about the distribution of other peers and the
+parameters affecting their effective bandwidth.
+
+
+3.2. Multilateral Contracting Model
+We formulate this problem as a multilateral contract-
+ing model as follows: The principal (the P2P provider)
+hires many agents (provision nodes) to perform a task
+(file upload). In doing so, the principal observes per-
+formance (overall transfer delay Qi = Di + Ti) and not
+the effort exerted by agents (upload capacity bi or
+equivalently, provision delay Di). As effort is costly to
+agents, the principal has to compensate them for
+incurring this cost.
+Service price and compensation: Assume the main rev-
+
+
+enue of P2P networks comes from usage-based file
+transfer service. The price of file transfer service is
+determined based on the value of the downloaded
+content and the corresponding transfer delay. Thus,
+in order to improve its revenue, the P2P provider has
+to offer the provision nodes sufficient rewards to
+induce higher effort by providing higher bandwidth
+capacity. Our proposed reward scheme includes two
+parts: a non-negative availability compensation, w0,
+that is paid to all available peer nodes (the nodes that
+have the requested content), and a non-negative
+upload compensation, w1, which is paid to those who
+take part in uploading the content. Whenever a down-
+load transaction is completed, all contracted available
+peer nodes will receive w0. However, only provision
+nodes, chosen according to Equation (2) will upload
+the content and receive upload compensation, w1.
+Therefore, peer nodes compete in providing band-
+width capacity to win the upload compensation. We
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1945
+
+
+
+
+
+
+assume that all participants are risk neutral and pay-
+ments by guaranteeing parties are enforceable.
+Stages of the contracting game: Figure 1 depicts the
+
+
+game stages and the decision variables of the players.
+In the first stage, the P2P provider makes take-it-or-
+leave-it offers to the peer nodes: a reward scheme W
+(w0, w1) for recruiting the provision nodes. In the sec-
+ond stage, P2P participants observe the offer, and
+decide whether to accept the offer or not. If they
+accept, they will have the content available, and
+decide on upload bandwidth capacity. In the third
+stage, a file download request is initiated, peers with
+the content are identified and a number of peers are
+selected to participate in uploading. Before download
+starts, the requesting peer pays the price for the file.
+In the fourth stage, the download is completed. All
+the peers who had the content available receive the
+availability reward, w0, while the ones who
+
+
+contributed to uploading also receive the upload com-
+pensation, w1.
+
+
+4. Optimal Reward Scheme
+
+
+In this section, we develop the optimal contract for a
+monopolistic P2P network, utilizing a principal-agent
+framework. If content uploading is compensated by a
+sufficiently high reward, the peer nodes become inter-
+ested in winning the reward. So they engage in provi-
+sion capacity competition in order to win the rewards
+by being selected as one of the provision nodes to
+upload the requested content. Therefore, in order to
+achieve the profit-maximization objective, the P2P
+provider can offer the appropriate reward scheme to
+induce P2P participants to exert the optimal level of
+effort. Using the backward induction approach, we
+first analyze the best response capacity provision
+
+
+w0,w1
+
+
+Timeline
+
+
+Provider offers 
+a contract
+
+
+Some peers accept
+(available nodes) 
+
+
+Download request
+ini�ated
+
+
+w0 w1
+
+
+Available nodes 
+iden�fied and some/all 
+selected to upload
+
+
+D1 D2
+
+
+D3D4
+D4+T4
+
+
+D2+T2
+
+
+D3+T3
+
+
+D1+T1
+
+
+π0
+
+
+Figure 1 Graphical Representation of the Stages of the Contracting Game [Color figure can be viewed at wileyonlinelibrary.com]
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+1946 Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society
+
+
+
+
+
+
+strategy of the peer nodes, and then develop the opti-
+mal reward scheme.
+It is worth mentioning that we are focusing on the
+
+
+peers who have the content available, and we are not
+modeling their decision to have the file or not. We
+don’t model a peer’s decision to acquire the content
+for two reasons: First, we are assuming that the P2P
+service has been working for some time and is at a
+stable state, so a reasonable number of peers who are
+uploaders have downloaded the file through the same
+P2P network. Secondly, this decision is easy to model
+and depends on the cost of acquiring and keeping the
+content and the expected demand for the content, so
+modeling it is not of much interest, while it makes the
+model more complicated. In this section, we first
+characterize the model for a general case where we
+have P classes of peers who are different with respect
+to their provisioning cost. Then we study the special
+case of homogeneous peers. The case in which we
+have two classes of peers will be discussed in the next
+section.
+
+
+4.1. General Model
+Let the optimal reward scheme be denoted by
+W w�0;w
+
+
+�
+1
+
+
+� �
+, and the provision delay choice of an arbi-
+
+
+trary peer node j, by Dj. Delays of other nodes will be
+Di ∀i 6¼ j. Notice that the decision variable of peer
+nodes is actually the upload bandwidth and provision
+delay is the inverse of the bandwidth. If the number
+of available nodes is fewer than or equal to n̂, all avail-
+able peer nodes will be provision nodes, regardless of
+their effort level.
+Cost of capacity provision: The participation cost for a
+
+
+peer node is defined as the opportunity cost of allocat-
+ing bandwidth capacity for P2P uploading service.
+Assuming that the participating peers are required to
+provide a bandwidth capacity which results in a
+delay no slower than a maximum, Dmax. The cost of
+provisioning at Dmax is fixed and normalized to zero.
+We assume that the cost for providing a faster service,
+Dj ≤ Dmax, is given by:
+
+
+C Dj
+� �
+
+
+¼ 1
+2
+cj Dmax �Dj
+� �2 ð3Þ
+
+
+where cj is the cost parameter. In the general case,
+we assume that peers are heterogeneous in their
+costs. There are P classes of peers. P could be any
+number as long as it is countable, and the cost for
+a peer belonging to class p is cp, where
+p = 1, 2, . . ., P. We label the classes such that we
+have cp < cp+1 for p = 1, . . ., P � 1. So a peer with
+c1 has the lowest cost, and a peer with cP the high-
+est. Peers only know their own cost and the provi-
+der is not aware of any given peer’s cost. However,
+they are all aware of the distribution of peer classes
+
+
+and the cost for each class. The distribution is Pr
+(peer belonging to class p) = mp, such that mp [ 0
+and RPp¼1mp ¼ 1, for p = 1, 2, . . ., P.
+We will limit our analysis to the class of symmetric
+
+
+Nash equilibria. So in equilibrium, peers with the
+same provisioning cost will choose the same delay as
+their optimal decision in a way that no peer has an
+incentive to deviate. In other words, for the same con-
+tent and given the same reward scheme, in equilib-
+rium we will have P optimal delays distributed such
+that Dp < Dp+1 for p = 1, 2, . . ., P � 1 and Pr
+(D = Dp) = mp for p = 1, 2, . . ., P. So the peer class
+with provisioning cost cp will choose their delay to be
+Dp in equilibrium.
+Reward for uploading service: The expected overall
+
+
+compensation that an arbitrary peer node j carrying
+the file earns is given by:
+
+
+W Dj
+� �
+
+
+¼ w�0 þ Pr j 2 UjDj
+� �
+
+
+w�1: ð4Þ
+
+
+Here Pr j 2 UjDj
+� �
+
+
+denotes the probability that peer
+node j who has the file will be selected as one of the
+provision nodes if she chooses provision delay Dj,
+and is explicitly written as:
+
+
+Pr j 2 UjDj
+� �
+
+
+¼
+X̂n�1
+k¼0
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+þ
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+Pr j among top-n̂jDj
+� �
+
+
+:
+
+
+ð5Þ
+
+
+The first term on the right hand side of Equation (5)
+is the probability that fewer than n̂ other peer nodes
+have the requested content. The second term
+describes the probability that peer node j’s transfer
+speed is among the top-n̂ fastest, given k other peer
+nodes (k� n̂) also have the content. The probability
+of j being among the top-n̂ fastest peers when an
+arbitrary set of k other peers also have the content
+can be expressed as follows:
+
+
+Pr j among top-n̂
+��Dj;Tj� � ¼ X̂n�1
+
+
+u¼0
+
+
+k
+
+
+u
+
+
+� �Yu
+i¼1
+
+
+Pr
+�
+Di þ Ti
+
+
+\Dj þ Tjg
+Yk
+
+
+i¼uþ1
+Pr Di þ Ti [Dj þ Tj
+� �
+
+
+¼
+X̂n�1
+u¼0
+
+
+k
+
+
+u
+
+
+� �
+F Dj þ Tj
+� �� �u
+
+
+1� F Dj þ Tj
+� �� �k�u
+
+
+: ð6Þ
+
+
+Here, nodes i = 1, . . ., u form an arbitrary set of peer
+nodes which are faster than peer node j. j is among
+the top-n̂ fastest as long as u� n̂� 1. F is the cumu-
+lative distribution function (CDF) of convolution of
+provision delay, Di, and propagation delay, Ti, for
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1947
+
+
+
+
+
+
+an arbitrary peer. If we plug (6) into (5), we will
+have:
+
+
+Pr j 2 UjDj;Tj
+� �
+
+
+¼
+X̂n�1
+k¼0
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+þ
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+X̂n�1
+u¼0
+
+
+k
+
+
+u
+
+
+� �
+F Dj þ Tj
+� �� �u
+
+
+�
+1� F
+
+
+�
+Dj þ Tj
+
+
+��k�u
+
+
+ð7Þ
+
+
+As argued before, different classes of peers will select
+different provision delays in equilibrium. Since a
+peer’s cost is a random variable and we are focusing
+on symmetric Nash equilibria, the provision delay of
+a peer in equilibrium will be a random variable with
+the same distribution as the cost. In other words, in
+equilibrium, peers choose their optimal delays
+according to the same rule d, that is, a peer with cost
+ci chooses optimal delay D
+
+
+�
+i ¼ dðciÞ. Since c is a dis-
+
+
+crete random variable, D will be a transformation of
+this random variable. Therefore, Di + Ti is the convo-
+lution of a continuous random variable and a discrete
+random variable, which is a step function. The
+expression in (7) is a function of Tj, the propagation
+delay of peer j. But the peer is not aware of the exact
+value of this delay and only knows the distribution of
+it. So we will have the following:
+
+
+Pr j 2 UjDj
+� �
+
+
+¼
+Zs
+0
+
+
+Pr j 2 UjDj;Tj
+� �
+
+
+fTðTjÞdTj; ð8Þ
+
+
+fT is the PDF of propagation delay and is assumed
+to be uniformly distributed. Thus, the probability of
+being selected as a provision node is determined by
+not only provision delays of all the participating
+peer nodes, but also the stochastic propagation
+delay incurred in the public network.
+Optimal upload capacity: The tradeoffs a P2P partici-
+
+
+pant faces are between the reward associated with
+winning the upload compensation and the corre-
+sponding capacity cost. Thus, the utility maximiza-
+tion problem of a typical P2P participant j is to select
+the optimal (maximum) provision delay Dj to achieve
+the maximum overall compensation. The objective
+function for participant j is formulated as follows:
+
+
+max
+Dj
+
+
+Uj ¼ W Dj
+� �
+
+
+� C Dj
+� �
+
+
+¼ w0
+
+
+þ Pr j 2 UjDj
+� �
+
+
+w1 �
+1
+
+
+2
+cj Dmax �Dj
+� �2
+
+
+:
+ð9Þ
+
+
+The solution to this optimization problem is
+presented in the following proposition.
+
+
+PROPOSITION 1. If propagation delay Tj is uniformly dis-
+tributed in [0, s], the optimal delay selection D�j , ∀j
+satisfies:
+
+
+w1
+s
+
+
+XN�1
+k¼n̂
+
+
+N� 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+X̂n�1
+u¼0
+
+
+k
+
+
+ur
+
+
+� �
+
+
+F D�j þ s
+	 
+	 
+u
+
+
+1� F D�j þ s
+	 
+	 
+k�u�
+
+
+� F D�j
+	 
+	 
+u
+
+
+1� F D�j
+	 
+	 
+k�u�
+
+
+þ cj Dmax �Dj
+� �
+
+
+¼ 0;
+
+
+ð10Þ
+
+
+where the CDFs are:
+
+
+F D�j þ s
+	 
+
+
+
+¼ 1
+s
+
+
+XP
+p¼1
+
+
+mp
+
+
+�
+sð Þh D�j �D�p
+	 
+
+
+
+þ D�j þ s�D�p
+	 
+
+
+
+h D�j þ s�D�p
+	 
+
+
+
+h D�p �D�j
+	 
+�
+
+
+ð11Þ
+
+
+F D�j
+	 
+
+
+
+¼ 1
+s
+
+
+XP
+p¼1
+
+
+mp
+
+
+��
+s
+�
+h
+�
+D�j �D�p � s
+
+
+�
+
+
+þ
+�
+D�j �D�p hÞ ðD�j �D�pÞh
+
+
+�
+D�p þ s�D�j
+
+
+��
+;
+
+
+ð12Þ
+and hð�Þ is the step function.
+
+
+4.2. Symmetric Model with Homogeneous Peers
+We will first study the problem for the case in which
+the peers are homogenous, meaning that we have a
+single class of peers and the provisioning cost is the
+same for everyone.
+
+
+LEMMA 1. The optimal delay selection is:
+
+
+D� w1ð Þ ¼ Dmax �
+g
+cs
+
+
+w1; ð13Þ
+
+
+where g ¼ PN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�kis the probabil-
+
+
+ity that at least n̂ other peers have the content available.
+
+
+It is indicated in Equation (13) that a peer’s optimal
+delay selection is a decreasing function of w1. After
+calculating the best response provision delay function
+D�ðw�1Þ in the second stage, the P2P provider chooses
+the optimal compensations, w�0 and w
+
+
+�
+1, in the first
+
+
+stage to maximize its profit.
+Optimal reward scheme: Assume that the value of
+
+
+a downloaded content is v. The highest price a
+peer node is willing to pay is ~p0 ¼ v� cðDþ TÞ,
+where c represents the sensitivity to delay.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+1948 Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society
+
+
+
+
+
+
+Therefore, the expected profit for the P2P provider
+is:
+
+
+p ¼ Hp0 �Nbw0 � jw1; ð14Þ
+where p0 ¼ E ~p0ð Þ ¼ v� cðDþ s=2Þ, and H ¼ 1�
+1� bð ÞNdenotes the probability that a requested
+file is available in the network and j ¼ PN
+
+
+k¼1
+
+
+N
+k
+
+
+� �
+bk 1� bð ÞN�k min k; n̂ð Þ is the expected number of
+nodes selected to jointly upload the file. Nb is the
+expected number of peers who have the content
+available. The P2P provider chooses w0 and w1 to
+maximize the expected profit, subject to the con-
+straint that a peer receives a utility no less than U0,
+her reservation utility. This can be interpreted as the
+utility a peer node will achieve if she chooses to do
+other activities instead of participating in content
+provisioning. For convenience, we assume U0 = 0.
+
+
+LEMMA 2. The equilibrium expected probability of a peer
+being selected as a provision node is:
+
+
+Pr j 2 UjDj
+� �
+
+
+¼ j
+Nb
+
+
+: ð15Þ
+
+
+Equation (15) gives an intuitive result that in equi-
+librium, the probability of an available peer node (one
+who has the content) being selected as a provision
+node is the ratio of the expected number of provision
+nodes to the expected number of available nodes.
+Hence, the expected utility of a peer node is a follows:
+
+
+U ¼w0 þ
+j
+Nb
+
+
+w1 �
+1
+
+
+2
+c Dmax �D�ð Þ2
+
+
+¼w0 þ
+j
+Nb
+
+
+w1 �
+g2
+
+
+2cs2
+w21;
+
+
+ð16Þ
+
+
+which should be non-negative. Figure 2 plots
+U � w0 as a function of upload compensation, w1.
+The expected utility increases with w1 initially as
+
+
+the benefit from upload compensation outweighs the
+cost of providing the bandwidth. But as w1 increases,
+
+
+the competition becomes fiercer and the cost of the
+bandwidth grows more significantly compared to the
+benefit from provisioning. U � w0 reaches zero at w01,
+where
+
+
+w01 ¼
+2cs2j
+Nbg2
+
+
+; ð17Þ
+
+
+and then becomes negative.
+
+
+PROPOSITION 2. The optimal reward scheme (availability
+compensation and upload compensation), and delay are
+given by the following:
+
+
+i. if j[
+cHg
+cs
+
+
+; W w�0;w
+�
+1
+
+
+� �
+¼ 0; 0ð Þ; D� ¼ Dmax; ð18Þ
+
+
+ii. if
+cHg
+2cs
+
+
+\j� cHg
+cs
+
+
+; W w�0;w
+�
+1
+
+
+� �
+¼ 0;w01
+� �
+
+
+;
+
+
+D� ¼ Dmax �
+2sj
+Nbg
+
+
+;
+ð19Þ
+
+
+iii. if j� cHg
+2cs
+
+
+; W w�0;w
+�
+1
+
+
+� �
+¼ c
+
+
+2H2
+
+
+2N2b2c
+� cHsj
+N2b2g
+
+
+;
+csH
+Nbg
+
+
+� �
+;
+
+
+D� ¼ Dmax �
+cH
+Nbc
+
+
+:
+
+
+ð20Þ
+
+
+The expected profit expressed in (14) indicates that
+the P2P provider should decrease availability com-
+pensation w0 to zero, whenever possible. While pay-
+ing out jw1 to peers, the P2P provider gains
+ðcHg=csÞw1 which is a result of a reduction in propa-
+gation delay. If the latter is smaller than the former,
+that is Case i in Proposition 2, there is no incentive for
+the P2P provider to provide any compensation. This
+happens when the number of provision nodes is rela-
+tively large. If the relative expected number of provi-
+sion nodes decreases to the range specified in case ii,
+the provider should increase w1 to gain more net ben-
+efit. For this case, w0 = 0 and w1 must be increased to
+w01 for the peers’ expected utility to be non-negative.
+If, j� cHg=2cs, w1 must be further increased. How-
+ever, the provider also needs to provide a positive
+availability reward, that is w0 > 0, so that the partici-
+pation constraints for the peers is satisfied (U = 0).
+The effects of system parameters on the reward
+
+
+scheme and capacity provision are presented in
+Table 2 and summarized as follows. Upload compen-
+sation, w�1, increases with the maximum number of
+peers allowed to upload jointly, n̂, the dispersion of
+peer positions (propagation delay uncertainty), s, and
+could increase with disutility of delay, c, and
+provision cost, c, but decreases with network size, N,
+and content availability b. Provision delay of a peer
+node, D*, increases with the network size and content
+
+
+0
+
+
+U − w0
+
+
+w10
+
+
+w1*
+w1
+
+
+Figure 2 Expected Utility as a Function of Upload Compensation
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1949
+
+
+
+
+
+
+availability, and could increase with provision cost,
+while it decreases or remains constant with the maxi-
+mum number of peers allowed to upload jointly,
+propagation delay uncertainty and disutility of delay.
+In what follows, we will study these effects in more
+
+
+depth and draw insights.
+Impact of network size: There exist both negative and
+
+
+positive scale effects. Competition intensifies as net-
+work size increases and more peers compete for the
+reward. This according to Equation (13) would
+induce the peers to choose a lower delay for a con-
+stant w1 (g is increasing in N). However, based on
+Equations (19) and (20) in cases ii and iii, upload
+reward (w�1) decreases with N, and so does the chance
+to win the reward. This effect is stronger, conse-
+quently peer nodes exert less effort in capacity provi-
+sion. So increasing competition among peers has a
+negative impact on the resulting provision delay. On
+the other hand, P2P network can benefit from a larger
+number of provision nodes due to the reduction of
+propagation delay. This result is in line with the
+empirical findings of Asvanund et al. (2004).
+Although their study focuses on existing non-com-
+mercial P2P networks, they also find that both posi-
+tive and negative externalities exist in P2P networks.
+Impact of file swarming: Advancement in file swarm-
+
+
+ing technology allows a larger number of provision
+nodes to upload simultaneously. In cases ii and iii
+where n̂ is not too high (j is increasing in n̂ while g is
+decreasing in n̂), as n̂ increases, competition among
+peer nodes decreases, which will enforce the P2P pro-
+vider to increase the upload compensation. This
+increase, in case iii, offsets the reduced competition
+effect, so optimal delay remains constant. In case ii,
+the rate of increase in w�1 is even faster, which induces
+the peers to lower their optimal delay.
+Impact of public network: In cases ii and iii where
+
+
+uncertainty is not too high (s� cHg=cj), as the uncer-
+tainty increases, the impact of information asymmetry
+increases which induces the peers to raise their opti-
+mal delay, and to counter this effect, the provider has
+to increase the upload reward. In case iiiwhere uncer-
+tainty is lowest s� cHg=2cj, this increase offsets the
+information asymmetry effect and optimal delay
+remains constant. For medium levels of uncertainty in
+case ii ðcHg=2cj\s� cHg=cjÞ, the provider responds
+to increases in uncertainty by increasing the provision
+reward such that this increase more than compensates
+
+
+for the information asymmetry effect and the peers
+start lowering their optimal delays. However, when
+uncertainty is too high as in case i ðs[ cHg=cjÞ it is
+no longer profitable for the provider to offer rewards.
+Impact of content availability: In case i, when avail-
+
+
+ability is too low (both H and g are increasing in b),
+content availability has no impact. But for medium
+and high levels of content availability in cases ii and
+iii, as b goes up, the probability that a request for con-
+tent is satisfied increases. Hence, more peers have the
+content and the competition for being selected as pro-
+vision nodes intensifies, so the P2P provider does not
+need to incentivize peers to participate as aggres-
+sively, and lowers the upload reward. The effect of
+lowering the reward is stronger than the competition
+effect, so individual peers increase their optimal
+delay. In other words, when content availability is
+low, the provider will offer higher rewards to induce
+peers to set a higher bandwidth.
+Impact of provision cost: When the cost is low (case
+
+
+iii, c� cHg=2sj), optimal delay intuitively increases
+with the cost, but upload reward is unaffected. When
+cHg=2sj\c� cHg=sj (medium levels of cost in case
+ii), provider starts compensating the peers when pro-
+vision cost increases and it offsets the effect of increas-
+ing cost, so optimal delay remains constant. When the
+cost is too high, (c[ cHg=sj in case i), it is not prof-
+itable for the provider to try to incentivize the peers,
+so upload reward is set to 0 and optimal delay is
+Dmax.
+Impact of delay disutility: If disutility of delay is small
+
+
+enough as in cases i and ii, it has no impact on upload
+reward and delay. However, in case iii, as the down-
+loading peers’ disutility of delay increases past
+2csj=Hg, the P2P provider increases the upload
+reward to induce peers to choose a higher bandwidth
+and the peers will respond by choosing a lower provi-
+sion delay.
+
+
+5. Heterogeneous Peers
+
+
+Now we look at the problem for the case in which we
+have two types of peers: low-cost peers and high-cost
+peers. The bandwidth costs for the two classes are,
+respectively, c1 and c2 such that c1 < c2. The equations
+to solve for optimal delay selections D�1 and D
+
+
+�
+2 can be
+
+
+derived from Proposition 1 and are presented explicitly
+in the Appendix A. However, the closed form solutions
+for a general setting cannot be readily obtained, there-
+fore we focus our attention on the case where classes
+are separable, that is, D�2 �D�1 � s. This will not only
+assure analytical tractability but also provide insights
+for the scenarios which are quite different from the case
+of homogeneous peers (if the delays are not separable,
+it means the difference between the two classes is not
+as significant as the case where they are separable).
+
+
+Table 2 Impact of System Parameters on Reward Scheme in Cases ii
+and iii
+
+
+N n̂ s c c
+
+
+w�1 ↓ ↑ ↑ ↓ ii: ↑, iii: – ii: –, iii: ↑
+D* ↑ ii: ↓, iii: – ii: ↓, iii: – ↑ ii: –, iii: ↑ ii: –, iii: ↓
+
+
+↑Increase; ↓Decrease; –No effect.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+1950 Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society
+
+
+
+
+
+
+PROPOSITION 3. The optimal delay selections are:
+
+
+D�1 ¼ Dmax �
+g1
+c1s
+
+
+w1; D
+�
+2 ¼ Dmax �
+
+
+g2
+c2s
+
+
+w1; ð21Þ
+
+
+where D�2 �D�1 � s is satisfied, and
+
+
+g1 ¼
+XN�1
+k¼n̂
+
+
+N�1
+k
+
+
+� �
+bk 1�bð ÞN�1�k
+
+
+Xk
+u¼n̂
+
+
+k
+u
+
+
+� �
+m1
+
+
+um2
+k�u; and
+
+
+ð22Þ
+
+
+g2 ¼ g� g1
+¼
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+X̂n�1
+u¼0
+
+
+k
+u
+
+
+� �
+m1
+
+
+um2
+k�u
+
+
+ð23Þ
+Similar to g in the case of homogenous peers, g1 is
+
+
+interpreted as the probability that at least n̂ other peers
+have the content available and among them at least n̂
+are class 1 peers. This is the probability for the situation
+where not only class 1 peers have to compete to be
+selected, but they have to compete with other class 1
+peers (not all available class 1 peers are selected). g2 is
+the probability to have competition with at least n̂ other
+available peers, but class 1 peers in this case are auto-
+matically selected, since there is fewer than n̂þ 1 class 1
+peers and they have smaller delay than class 2 peers. In
+order for the condition D�2 �D�1 � s to be satisfied, we
+require that g1/c1 > g2/c2, and the difference between
+g1/c1 and g2/c2, or w1, should be large enough. In other
+words g1 > g2c1/c2 (g1 should not be significantly smal-
+ler than g2). Looking at Equations (13) and (21), we can
+see that compared to the homogeneous peers model,
+since g1 < g, in the presence of class 2 peers, class 1
+peers select a worse quality of service (higher delay).
+To obtain the optimal availability and upload com-
+
+
+pensations, we first write the expected profit for the
+P2P provider:
+
+
+p ¼ H v� c j1
+j
+D�1 þ
+
+
+j2
+j
+D�2 þ
+
+
+s
+2
+
+
+	 
+	 
+
+�Nbw0 � jw1:
+
+
+ð24Þ
+Similar to the case of homogeneous peers, j is the
+expected number of nodes selected, and among
+them j1 are of class 1 while j2 belong to class 2. The
+explicit expressions are as follows:
+
+
+j1 ¼
+XN
+k¼1
+
+
+N
+k
+
+
+� �
+bk 1� bð ÞN�k
+
+
+Xk
+u¼0
+
+
+k
+u
+
+
+� �
+m1
+
+
+um2
+k�umin u; n̂ð Þ
+
+
+ð25Þ
+and j2 = j � j1. Note that since the separability
+constraint holds, that is, D�2 �D�1 � s, a class 2 peer
+
+
+cannot be selected unless there are fewer than n̂
+class 1 peers that have the content.
+Similarly as in Lemma 2, it can be shown that in
+
+
+equilibrium, the expected probability of a class 1
+(class 2) peer, which has the content, being selected as
+an uploading node is j1/m1Nb (j2/m2Nb). This
+allows us to write the expected utility for the two
+classes, explicitly:
+
+
+U1 ¼ w0 þ
+j1
+
+
+m1Nb
+w1 �
+
+
+1
+
+
+2
+c1 Dmax �D�1
+� �2
+
+
+¼ w0 þ
+j1
+
+
+m1Nb
+w1 �
+
+
+g1
+2
+
+
+2c1s2
+w1
+
+
+2; ð26Þ
+
+
+U2 ¼ w0 þ
+j2
+
+
+m2Nb
+w1 �
+
+
+1
+
+
+2
+c2 Dmax �D�2
+� �2
+
+
+¼ w0 þ
+j2
+
+
+m2Nb
+w1 �
+
+
+g2
+2
+
+
+2c2s2
+w21: ð27Þ
+
+
+Before we proceed to the P2P provider’s optimiza-
+tion problem, we state:
+
+
+LEMMA 3. The following inequality holds:
+
+
+j1
+m1
+
+
+[
+j2
+m2
+
+
+: ð28Þ
+
+
+This lemma indicates, intuitively, that there is a
+higher probability for a class 1 peer to be selected. With
+the help of this lemma, we need to consider three possi-
+ble cases which are depicted in Figure 3. In Case A,
+U1 � w0 becomes negative first and afterwards is
+always below U2 � w0. In Case B, U1 � w0 > U2 � w0.
+In Case C, U2 � w0 becomes negative first, but will be
+higher thanU1 � w0 after w1 [wc1, where
+
+
+wc1 ¼
+2s2
+
+
+Nb
+j1
+m1
+
+
+� j2
+m2
+
+
+� �
+g21
+c1
+
+
+� g
+2
+2
+
+
+c2
+
+
+� ��1
+: ð29Þ
+
+
+The P2P provider’s expected profit function can be
+rewritten as:
+
+
+p ¼ H v� c Dmax þ
+s
+2
+
+
+	 
+	 
+
+þ cH
+
+
+js
+j1g1
+c1
+
+
+þ j2g2
+c2
+
+
+� �
+w1
+
+
+�Nbw0 � jw1:
+ð30Þ
+
+
+In the following, we only consider the case where
+the benefit from delay reduction outweighs the
+upload compensation, explicitly:
+
+
+C � cH
+js
+
+
+j1g1
+c1
+
+
+þ j2g2
+c2
+
+
+� �
+� j[ 0; ð31Þ
+
+
+otherwise the optimal solution is Wðw�0;w�1Þ ¼ ð0; 0Þ
+which violates the separability constraint. We sum-
+marize the solutions in the following proposition.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1951
+
+
+
+
+
+
+0
+
+
+U−w0
+
+
+Class 1
+Class 2
+
+
+Case A
+
+
+0
+
+
+U−w0
+
+
+Class 1
+Class 2
+
+
+Case B
+
+
+0
+
+
+U−w0
+
+
+Class 1
+Class 2
+
+
+Case C
+
+
+Figure 3 Three Possible Scenarios for Expected Utilities of the Two Classes
+
+
+PROPOSITION 4. The optimal compensation scheme is
+given by:
+
+
+i. Case A where j1c1
+m1g21
+
+
+\ j2c2
+m2g22
+
+
+(which according to
+
+
+Lemma 3 implies
+g2
+1
+
+
+c1
+[
+
+
+g2
+2
+
+
+c2
+):
+
+
+W w�0;w
+�
+1
+
+
+� �
+¼
+
+
+0;w01;A
+
+
+	 
+
+; 0�C\ j1
+
+
+m1
+;
+
+
+w�0;A;w
+�
+1;A
+
+
+	 
+
+; j1
+
+
+m1
+�C;
+
+
+8<
+: ð32Þ
+
+
+where w01;A ¼ 2c1s
+2j1
+
+
+m1Nbg21
+, w�1;A ¼ c1s
+
+
+2
+
+
+Nbg2
+1
+
+
+Cþ j1
+m1
+
+
+	 
+
+, and
+
+
+w�0;A ¼
+w�
+
+
+1;A
+
+
+2Nb C� j1m1
+	 
+
+
+
+;
+
+
+ii. Case B where j1c1
+m1g21
+
+
+[ j2c2
+m2g22
+
+
+and
+g2
+1
+
+
+c1
+\
+
+
+g2
+2
+
+
+c2
+:
+
+
+W w�0;w
+�
+1
+
+
+� �
+¼
+
+
+0;w01;B
+
+
+	 
+
+; 0�C\ j2
+
+
+m2
+;
+
+
+w�0;B;w
+�
+1;B
+
+
+	 
+
+; j2
+
+
+m2
+�C;
+
+
+8<
+: ð33Þ
+
+
+where w01;B ¼ 2c2s
+2j2
+
+
+m2Nbg22
+, w�1;B ¼ c2s
+
+
+2
+
+
+Nbg2
+2
+
+
+Cþ j2
+m2
+
+
+	 
+
+, and
+
+
+w�0;B ¼
+w�
+
+
+1;B
+
+
+2Nb C� j2m2
+	 
+
+
+
+;
+
+
+iii. Case C where j1c1
+m1g21
+
+
+[ j2c2
+m2g22
+
+
+and
+g2
+1
+
+
+c1
+[
+
+
+g2
+2
+
+
+c2
+:
+
+
+W w�0;w
+�
+1
+
+
+� �
+¼
+
+
+0;w01;B
+
+
+	 
+
+; 0�C\ j2
+
+
+m2
+;
+
+
+w�0;B;w
+�
+1;B
+
+
+	 
+
+; j2
+
+
+m2
+�C\C2;
+
+
+wc0;w
+c
+1
+
+
+� �
+; C2 �C\C1;
+
+
+w�0;A;w
+�
+1;A
+
+
+	 
+
+; C1 �C;
+
+
+8>>>>><
+>>>>>:
+
+
+ð34Þ
+
+
+where wc0 ¼
+wc
+
+
+1
+
+
+Nb
+g2
+1
+
+
+c1
+� g
+
+
+2
+2
+
+
+c2
+
+
+	 
+�1
+j1
+m1
+
+
+g2
+2
+
+
+c2
+� j2
+
+
+m2
+
+
+g2
+1
+
+
+c1
+
+
+	 
+
+and the
+
+
+two thresholds are:
+
+
+C2 ¼2
+j1
+m1
+
+
+� j2
+m2
+
+
+� �
+g21
+c1
+
+
+� g
+2
+2
+
+
+c2
+
+
+� ��1
+g22
+c2
+
+
+� j2
+m2
+
+
+; and
+
+
+C1 ¼2
+j1
+m1
+
+
+� j2
+m2
+
+
+� �
+g21
+c1
+
+
+� g
+2
+2
+
+
+c2
+
+
+� ��1
+g21
+c1
+
+
+� j1
+m1
+
+
+:
+
+
+The solutions in Proposition 4 seem involved, but
+the intuition behind them is quite simple and surpris-
+ingly similar to what we observed for the case of
+homogeneous peers in section 4.2. First let us con-
+sider the situation where it is not profitable for the
+platform owner to offer compensation to peers for
+uploading, i.e., the case where the commercial P2P
+platform is not viable. This happens when we have
+
+
+Γ < 0 or in other words, j[ cHjs
+j1g1
+c1
+
+
+þ j2g2
+c2
+
+
+	 
+
+. So this
+
+
+happens when the number of expected provision
+nodes is relatively large. Under these circumstances,
+free P2P file sharing succeeds and there is no need for
+incentivizing peers. We see this phenomenon in the
+real world where very popular content is efficiently
+shared in free P2P platforms. In the homogeneous
+peers case, this happened when we had j[ cHg=cs,
+so the structure of the conditions is quite similar,
+except in this case, we have to account for the fact that
+there are two classes of peers.
+Now let’s look at the three different cases, A, B
+
+
+and C, where it is profitable to have a commercial
+P2P network. Again, the intuitive explanation of
+the results is much simpler than the equations in
+Proposition 4. Therefore, here we focus on Fig-
+ure 3 instead of the equations, and compare the
+findings here with the findings for the homoge-
+neous-peers model in Figure 2. Case A in Figure 3
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+1952 Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society
+
+
+
+
+
+
+and Proposition 4 represents a situation where
+there is a relatively fierce competition between
+class 1 peers. This could happen when there is a
+relatively large number of class 1 peers who have
+the content available. In this case, the platform
+owner takes advantage of the competition between
+class 1 peers by setting their expected utility to
+zero, while class 2 peers gain positive expected
+utility.
+In Case B, the situation is reverse. As there are not
+
+
+as many class 1 peers present compared to class 2
+peers, the platform owner is forced to give them posi-
+tive expected rewards. On the other hand, all the
+expected value of class 2 peers is extracted in this
+case. Cases A and B are each similar to cases i and ii
+in Proposition 2, and the optimal solution in each case
+is determined by the relative number of available
+peers from the more dominant class. One difference
+between the heterogeneous and homogeneous peer
+models is that in both cases A and B, the platform
+owner has to give one of the classes positive expected
+payoffs, so the expected profits for the platform
+owner is lower when peers are heterogeneous.
+Case C in Figure 3 is a middle ground between
+
+
+cases A and B, as the competition between class 1
+peers is not as fierce as in Case A. However, if the
+upload reward is sufficiently large, it will be enough
+to instigate a fierce competition between class 1 peers,
+so the situation could become similar to case A. In
+such a situation, the platform owner compares differ-
+ent scenarios to choose the optimal reward structure,
+and the result might be completely extracted expected
+value for either or both classes of peers.
+Although the structure of the optimal solution for
+
+
+the heterogeneous model is more involved than the
+homogeneous model, as we can see in Table 3, the
+impact of parameters on the optimal upload compen-
+sation is quite similar. Therefore, we do not provide a
+detailed discussion here as we did in section 4.2 and
+instead refer the readers to section 4.2. Instead we
+focus on the optimal upload rewards under different
+cases in Table 3 and compare the findings to the find-
+ings in the homogeneous-peers model. As we see in
+Equation (21), the structure of the optimal delay for
+both classes is similar to that of homogeneous peers
+
+
+in Equation (13), so the impact of parameters on opti-
+mal delay will also be very similar to those for homo-
+geneous peers.
+Despite having different optimal upload rewards
+
+
+depending on the relative size of parameters, the
+impact of network size, propagation delay uncer-
+tainty, content availability, and maximum number of
+peers allowed to upload simultaneously are exactly
+similar to the homogeneous-peers model for all five
+possible values of rewards in Table 3. The impact of
+delay disutility is also similar, as it either has a posi-
+tive impact under some cases, or no impact. The effect
+of the cost parameters seems to be different from the
+homogeneous-peers model. However, upon closer
+examination, we see that the effect is still the same.
+Only that in this case, the relative size of the costs as
+well as each cost parameter matter. More importantly,
+it matters which class of peers is the one having a
+more fierce competition and therefore having all their
+value extracted. In case A and sometimes in case C,
+an increase in bandwidth cost of class 1 peers results
+in an increase in upload reward. On the other hand,
+in case B and under certain circumstances in case C,
+when class 2 peers are the ones in a more fierce com-
+petition, an increase in class 2 peers’ bandwidth cost
+results in an increase in upload reward. So again, the
+result is similar to the homogeneous model, as the
+effect of an increase in bandwidth cost of the domi-
+nant class is the same.
+
+
+6. Conclusion and Discussion
+
+
+Utilizing the principal-agent model, this study pre-
+sents a contracting scheme for P2P file-sharing net-
+works which allows a profit-seeking P2P provider to
+induce peer nodes to provide appropriate upload
+capacity. In this proposed reward scheme, each con-
+tracted peer node is awarded an availability compen-
+sation, and receives an upload compensation after the
+upload is complete. The interactions among techno-
+logical issues, economic issues, and Internet environ-
+ment in a typical P2P network are investigated. In
+addition, we propose a price schedule which is deter-
+mined based on the performance of the P2P down-
+load service.
+Compared to prior studies, the contract scheme we
+
+
+develop complies with P2P technological protocols
+which allow file swarming—simultaneous download
+from various provision nodes, and recommends pro-
+vision nodes according to transfer delay performance
+in which available peer nodes are ranked according to
+their estimated transfer speed. The contract between
+the provider and an uploading peer is effectively initi-
+ated as the downloading peer agrees to make a pay-
+ment. At the end of the download, all available peers
+receive the availability reward while the peers who
+
+
+Table 3 Impact of System Parameters on Reward Scheme with Two
+Classes of Peers
+
+
+N n̂ s b c1 c2 c
+
+
+w0
+1;A
+
+
+↓ ↑ ↑ ↓ ↑ – –
+w�1;A ↓ ↑ ↑ ↓ ↑ ↓ ↑
+w0
+1;B
+
+
+↓ ↑ ↑ ↓ – ↑ –
+w�1;B ↓ ↑ ↑ ↓ ↓ ↑ ↑
+wc
+1
+
+
+↓ ↑ ↑ ↓ ↑ ↓ –
+
+
+↑Increase; ↓Decrease; –No effect.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1953
+
+
+
+
+
+
+were selected to participate in upload also receive the
+upload reward. Therefore, every instance of file
+download is associated with a set of contracts
+between the provider and the available peers. We are
+implicitly assuming that if a peer goes offline or
+removes the content in the midst of a download, they
+will not receive the upload reward. This is a reason-
+able simplifying assumption as with today’s fast
+internet connections, even large video files could be
+downloaded in a few hours. For example, assuming a
+10 Mbps download speed, a video file as large as
+5 GB could be downloaded in about an hour. An
+extension of this research can study more complicated
+scenarios where users get partial rewards for partially
+contributing.
+In sections 3 and 4, we discussed the context and
+
+
+our assumptions, and characterized the model for the
+generic case with heterogeneous peers and solved
+the model and derived the closed form solution for
+the case of homogeneous peers. We then offered com-
+parative statics and discussed what is driving the
+effects. In section 5, we extended our analysis to the
+case with two heterogeneous types of peers and
+through the analysis and comparative statics, we
+showed that the results are quite consistent with those
+for homogeneous peers when the classes are separa-
+ble. Here, we will summarize our discussions in sec-
+tions 4 and 5 and further discuss the managerial
+implications of our results.
+In Table 2, we focused on the impact of changes in
+
+
+important peer-level and environmental factors on
+upload compensation and the optimal delay chosen
+by individual peers when upload reward is offered
+by the P2P provider (cases ii and iii). For example, we
+saw that the reward offered by the provider to peers
+to upload niche content is larger than that offered for
+new and popular content. We also saw that for P2P
+networks with a smaller user base, the provider has to
+pay larger upload rewards to incentivize the peers.
+As the network grows, the provider will be able to
+lower the rewards. This indicates increasing returns
+to scale for the provider in this context which could
+serve as an additional motivation for a commercial
+P2P provider to invest in growth. We also considered
+the impact of uncertainty and observed that in the
+presence of more uncertainty, the provider has to pay
+a larger reward to peers which is partly information
+rent.
+We are assuming that the P2P platform has been
+
+
+in operation for a while and has reached a rela-
+tively stable state. Therefore, arguably there should
+not be sudden major changes in the characteristics
+of the environment. Under such circumstances, the
+platform owner is able to react to the changes in
+the market by updating the contracts offered to
+peers. The optimal contracts derived in the paper
+
+
+allow the platform owner to easily adjust the val-
+ues of prices and rewards as a function of changes
+in various environmental factors such as technolog-
+ical constraints or the size of the network.
+Another important way we can look at the problem
+
+
+is by investigating when it is profitable for the P2P
+provider to offer rewards and when the provider pre-
+fers to set the rewards to zero. This has important
+practical implications, as it essentially offers guideli-
+nes about the circumstances where commercial P2P
+networks are effective. In order to do so, we focus on
+Proposition 2 and the conditions under which each
+case is optimal. What determines the solution in equi-
+librium is the marginal profit for offering rewards for
+the provider which is calculated as cHg=cs� j. So the
+important factor is the size of the expected number of
+uploading peers relative to cHg=cs which represents
+the marginal revenue. If the expected number of peer
+nodes selected for the contract is relatively too large,
+it is not profitable for the P2P provider to offer
+rewards to the peers. Focusing on this distinction, we
+can draw the following insights.
+One of the circumstances where this happens is
+
+
+when availability is too low. So our proposed com-
+mercial P2P platform does not support content that
+is either extremely old or too obscure. The other
+important factor is the relative size of disutility of
+delay to the cost of capacity provision. If this ratio
+is too small, it is possible that the operation of the
+commercial P2P network is not profitable for any
+type of content, regardless of popularity. This hap-
+pens when the users have extremely low opportu-
+nity costs of time, so they do not mind very long
+download delays, or when it is prohibitively expen-
+sive for users to provide upload bandwidth. The
+latter case is increasingly less likely as available
+internet bandwidth increases and bandwidth costs
+go down. It also indicates that the platform is more
+effective in areas where better and cheaper internet
+connections are available. Finally, when uncertainty
+is too large, we might again have a situation where
+the commercial P2P provider is not profitable.
+Uncertainty here is represented by the upper
+bound of propagation delay which in our broad
+definition is affected by geographic dispersion and
+network quality. So when network connections are
+too unreliable or unpredictable, a commercial P2P
+content sharing network might not be viable. On
+the other hand, the ongoing improvements in
+infrastructure will help the rise of commercial P2P
+networks.
+The flip side of the above discussion is when the
+
+
+expected number of peer nodes selected is small
+enough in relative terms, which encompasses the cir-
+cumstances under which a commercial P2P content
+sharing platform is viable. Therefore a profitable
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+1954 Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society
+
+
+
+
+
+
+commercial P2P provider supports content files
+which are not too scarce, and has a user base which is
+sufficiently sensitive to download delays. In relative
+terms, for a sufficiently small expected number of
+uploading peers, it is not only profitable to offer
+upload reward, the provider also offers a fixed avail-
+ability reward to whoever carries the content and
+enters into the contract. This will be the case if cus-
+tomers are quite averse to download delays, or when
+capacity provision is inexpensive or delay uncertainty
+is small.
+Given the small size of music files, our proposed
+
+
+mechanism might be more effective for movies. How-
+ever, there has been real-world efforts to implement
+commercial P2P music sharing. For example, Groove-
+shark compensated users for distributing music, such
+that, whenever a user purchased a track, a small pay-
+ment (25 cents) was made to the user (Bryce 2007).
+Because of the small size of music files, a very small
+number of uploaders (even one) is enough to achieve
+a high QoS. Accounting for such differences, our
+model can be adjusted and applied to both video and
+music sharing.
+We proposed a two-part contracting mechanism for
+
+
+the operation of a commercial P2P content sharing
+network. Although this is not the only mechanism
+possible, we argue that for this context, it is superior
+to many other common mechanisms. Our mechanism
+has three clear advantages compared to the free
+mechanism. It eliminates piracy of copy-righted con-
+tent. It incentivizes peers to participate in the upload
+of less popular and niche content, and it eliminates
+free riding. Some P2P platforms based on the popular
+protocol, BitTorrent, offer non-monetary incentives to
+peers to participate, e.g., they give priority in down-
+loading to nodes which contribute to uploading.
+Another way to implement our proposed contract is
+to give participating peers credit points that could be
+used to download content. These points work like
+money and can ideally be bought or redeemed for
+money. So this implementation is similar to our pro-
+posed model, as long as the value of the points is
+exogenous and doesn’t depend upon the dynamics of
+the system. However, in our proposed model as
+opposed to BitTorrent, money is transferred to the
+original content owner. Moreover, our contract
+encourages participation in sharing less popular
+content.
+Another alternative mechanism is a one-part flat
+
+
+reward mechanism where peers who contribute to
+the upload receive a flat reward regardless of con-
+tent and environmental characteristics. Since the
+provider pays the same reward for all content, he
+faces a tradeoff between setting a high reward to
+include more content and excluding some content.
+We performed a numerical analysis to compare our
+
+
+model to the one-part flat reward model, and even
+for the simple case of only two content files where
+everything except availability of the files is the
+same, the increase in profits from switching to our
+proposed model is quite significant. Our model also
+has clear advantages for P2P content sharing over
+the subscription-based model which is used by
+companies like Netflix. Although the subscription-
+based model is simple and straightforward, it has
+three problems for our setting. First, this model is
+appropriate for streaming and not downloading
+content. Second, if the reward is also paid as a
+fixed monthly reward, similar to the case for flat
+rewards, it will not incentivize the peers to partici-
+pate more in uploading less popular content.
+Finally, having a flat monthly compensation is not
+practical because of moral hazard and monitoring
+problems.
+Our study shares similarities with traditional con-
+
+
+test models. However, at the operational level where
+we derive managerial implications, the results from
+the contest literature are not readily applicable.
+Specifically, compared to existing works in contest
+literature (e.g., Kalra and Shi 2001, Lazear and Rosen
+1981, Nalebuff and Stiglitz 1983), our study has sev-
+eral significant and unique contributions. First, in
+existing contest studies, the uncertainty factor (or
+noise) plays a small role in affecting the long-run out-
+put as both positive and negative noise will be bal-
+anced out to be zero and the number of contesters
+will not affect the impact of uncertainty factor on the
+long-run performance. However, in the context of
+P2P networks, the uncertainty factor (propagation
+delay) always affects the overall expected content
+transfer performance. Furthermore, there exists sig-
+nificant positive network externalities on the propaga-
+tion delay (the larger the number of participants, the
+smaller expected propagation delay). Second, while
+many existing works study the effect of the number of
+players, uncertainty, and the number of prizes on
+tournaments, the number of participants is determin-
+istic and exogenous. On the contrary, in the context of
+P2P networks, the number of participants is stochastic
+and depends on content availability. We believe this
+research expands the boundary of contest concept
+appropriately to the context of P2P networks, and
+adds value to the fields of P2P networks and contest
+literature.
+This work can be extended in a number of direc-
+
+
+tions. For example, it is interesting to study the model
+developed under other propagation delay distribu-
+tion functions. One could also study the impact of
+competition between multiple P2P providers. Design-
+ing experiments to empirically test the model in a
+controlled environment is another very interesting
+avenue for future research.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1955
+
+
+
+
+
+
+Acknowledgments
+
+
+Yong Tan is the Chang Jiang Scholar Visiting Chair Profes-
+sor at Tsinghua University, and was supported in part by
+the National Science Foundation of China (grants 71490723,
+71531013, and 71572004). The authors have made equal con-
+tributions, and their names are listed in alphabetical order.
+
+
+Appendix: Proofs
+
+
+PROOF OF PROPOSITION 1. Given other participants’
+optimal delay selection, D�i , ∀i 6¼ j, peer j’s best
+choice of provision delay, D�j , is determined by solv-
+ing the following:
+
+
+@Uj
+@Dj
+
+
+¼ w1
+XN�1
+k¼n̂
+
+
+N� 1
+k
+
+
+� �
+bk 1�bð ÞN�1�k
+
+
+� @
+@Dj
+
+
+�Zs
+0
+
+
+X̂n�1
+u¼0
+
+
+�
+k
+
+
+u
+
+
+��
+F
+�
+DjþTj
+
+
+��u
+�
+1�FðDjþTjÞ
+
+
+�k�u
+fTðTjÞdTj
+
+
+�
+þ cj
+
+
+�
+Dmax�Dj
+
+
+�
+¼ 0:
+ðA1Þ
+
+
+Given that Tj is uniformly distributed, the above
+expression can be simplified to Equation (10) in
+Proposition 1 by differentiating and integrating.
+Next, we derive the cumulative distribution func-
+tion, F, which results from a convolution of two
+delays. The PDF for the total delay (the sum of
+provision and transmission delays) can be
+expressed as:
+
+
+f xð Þ ¼ 1
+s
+
+
+XP
+p¼1
+
+
+mph x�Dp
+� �
+
+
+h Dp þ s� x
+� �
+
+
+; ðA2Þ
+
+
+where
+
+
+h yð Þ ¼
+1; if y[ 0;
+1=2 if y ¼ 0;
+0; if y\0;
+
+
+8<
+: ðA3Þ
+
+
+is a step function. Hence, integrating (A2) will yield
+the CDF:
+
+
+FðxÞ ¼ 1
+s
+
+
+XP
+p¼1
+
+
+mpððsÞhðx�Dp � sÞ
+
+
+þ ðx�DpÞhðx�DpÞhðDp þ s� xÞÞ:
+ðA4Þ
+
+
+Plugging Dj + s and Dj in Equation (A4) gives (11)
+and (12) in Proposition 1. h
+
+
+PROOF OF LEMMA 1. For homogeneous peers,
+Equations (11) and (12) in Proposition 1 give
+F Dþ sð Þ ¼ 1 and F Dð Þ ¼ 0. h
+
+
+PROOF OF LEMMA 2.
+
+
+Pr j 2 UjDj
+� �
+
+
+¼
+X̂n�1
+k¼0
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+þ
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+�
+X̂n�1
+u¼0
+
+
+k
+
+
+u
+
+
+� �Zs
+0
+
+
+Tj
+s
+
+
+� �u
+1� Tj
+
+
+s
+
+
+� �k�u
+1
+
+
+s
+dTj
+
+
+¼
+X̂n�1
+k¼0
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+þ
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k n̂
+
+
+kþ 1
+
+
+¼
+X̂n
+k¼1
+
+
+N
+
+
+k
+
+
+� �
+bk 1� bð ÞN�k k
+
+
+Nb
+
+
+þ
+XN
+
+
+k¼n̂þ1
+
+
+N
+
+
+k
+
+
+� �
+bk 1� bð ÞN�k k
+
+
+Nb
+n̂
+
+
+k
+¼ j
+
+
+Nb
+:
+
+
+ðA5Þ
+
+
+PROOF OF PROPOSITION 2. The expected profit func-
+tion for the P2P provider is:
+
+
+p ¼ H v� c Dmax þ
+s
+2
+
+
+	 
+	 
+
+þ cHg
+
+
+cs
+w1 �Nbw0 � jw1;
+
+
+ðA6Þ
+
+
+which is a strictly decreasing function of availability
+compensation w0. The effect of upload compensation
+w1 depends on the sign of:
+
+
+cHg
+cs
+
+
+� j; ðA7Þ
+
+
+which measures the difference between the benefit
+from delay reduction and cost of paying the peers.
+If Equation (A7) is negative, the P2P provider will
+decrease both compensations to 0. The expected util-
+ity of peers:
+
+
+U ¼ w0 þ
+j
+Nb
+
+
+w1 �
+1
+
+
+2
+c Dmax �D�ð Þ2
+
+
+¼ w0 þ
+j
+Nb
+
+
+w1 �
+g2
+
+
+2cs2
+w1
+
+
+2 ðA8Þ
+
+
+is zero, and individual participation constraint is
+satisfied.
+If Equation (A7) is positive, the P2P provider
+
+
+should increase w1 but decrease w0, as long as peers
+receive non-negative utility. While keeping w1 = 0,
+w1 can be increased all the way to w
+
+
+0
+1, given in
+
+
+Equation (17), where peers’ expected utility reaches
+zero.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+1956 Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society
+
+
+
+
+
+
+w1 can be further increased, however, availabil-
+ity compensation w0 has to be set at a positive
+value, such that Equation (A8) is binding, that is
+U = 0. w0 becomes a function of w1, and after
+being substituted into Equation (A6), gives the
+optimal solution w�1 described in Equation (20). In
+order for the optimal solution w�1 [w
+
+
+0
+1, we require
+
+
+that cHg
+cs [ 2j.
+
+
+The optimal delay can be found by plugging in
+the expression for w�1. h
+
+
+PROOF OF PROPOSITION 3. We use Equations (11)
+and (12) in Proposition 1 and plug them into
+Equation (10) to derive the optimal delay choice
+of each type of peer. For the low-cost peers, we
+have:
+
+
+� w1
+s
+
+
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+1�
+X̂n�1
+u¼0
+
+
+k
+
+
+u
+
+
+� �
+m1 þm2
+
+
+s� DD
+s
+
+
+h s� DDð Þ
+� �u 
+
+
+� m2 �m2
+s� DD
+
+
+s
+h s� DDð Þ
+
+
+� �k�u!
+
+
+þ c1 Dmax �D1ð Þ ¼ 0:
+
+
+ðA9Þ
+
+
+For the high-cost peers, we have:
+
+
+� w1
+s
+
+
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+X̂n�1
+u¼0
+
+
+k
+
+
+u
+
+
+� �
+m1 h DD� sð Þ þ
+
+
+DD
+s
+
+
+� �
+h s� DDð Þ
+
+
+� �� �u
+
+
+� 1� m1 h DD� sð Þ þ
+DD
+s
+
+
+� �
+h s� DDð Þ
+
+
+� �� �� �k�u
+þ c2 Dmax �D2ð Þ ¼ 0: ðA10Þ
+
+
+The closed form solutions for the general case are
+not readily available. We focus on the scenario
+where the two classes are separated, that is
+DD = D2 � D1 ≥ s. The optimal delay selections are:
+
+
+� w1
+s
+
+
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+Xk
+u¼n̂
+
+
+k
+
+
+u
+
+
+� �
+m1
+
+
+um2
+k�u
+
+
+þ c1 Dmax �D1ð Þ ¼ 0; and ðA11Þ
+
+
+� w1
+s
+
+
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+X̂n�1
+u¼0
+
+
+k
+
+
+u
+
+
+� �
+m1
+
+
+um2
+k�u
+
+
+þ c2 Dmax �D2ð Þ ¼ 0; ðA12Þ
+
+
+respectively, where
+
+
+g1 ¼
+XN�1
+k¼n̂
+
+
+N�1
+k
+
+
+� �
+bk 1�bð ÞN�1�k
+
+
+Xk
+u¼n̂
+
+
+k
+u
+
+
+� �
+m1
+
+
+um2
+k�u; and
+
+
+ðA13Þ
+
+
+g2 ¼
+XN�1
+k¼n̂
+
+
+N � 1
+k
+
+
+� �
+bk 1� bð ÞN�1�k
+
+
+X̂n�1
+u¼0
+
+
+k
+u
+
+
+� �
+m1
+
+
+um2
+k�u:
+
+
+ðA14Þ
+It can be easily verified that g = g1 + g2. Then the
+two optimal delay selections D�1 and D
+
+
+�
+2 can be
+
+
+solved as given by Equation (21).
+
+
+PROOF OF LEMMA 3. The expected number of class 1
+nodes selected is:
+
+
+j1 ¼
+XN
+k¼1
+
+
+N
+
+
+k
+
+
+� �
+bk 1� bð ÞN�k
+
+
+Xk
+u¼0
+
+
+k
+
+
+u
+
+
+� �
+mu1m2
+
+
+k�u min u; n̂ð Þ
+
+
+¼
+X̂n�1
+k¼1
+
+
+N
+
+
+k
+
+
+� �
+bkð1� bÞN�km1kþ
+
+
+XN
+k¼n̂
+
+
+N
+
+
+k
+
+
+� �
+bk 1� bð ÞN�k
+
+
+�
+�X̂n
+
+
+u¼0
+
+
+�
+k
+
+
+u
+
+
+�
+m1
+
+
+um2
+k�uuþ
+
+
+Xk
+u¼n̂þ1
+
+
+�
+k
+
+
+u
+
+
+�
+m1
+
+
+um2
+k�un̂
+
+
+�
+:
+
+
+ðA15Þ
+
+
+The expected number of class 2 nodes selected is
+j2 = j � j1, and we can express it as:
+
+
+j2 ¼
+X̂n�1
+k¼1
+
+
+N
+k
+
+
+� �
+bk 1� bð ÞN�km2k
+
+
+þ
+XN
+k¼n̂
+
+
+N
+k
+
+
+� �
+bk 1� bð ÞN�k
+
+
+X̂n
+u¼0
+
+
+k
+u
+
+
+� �
+m1
+
+
+um2
+k�u n̂� uð Þ:
+
+
+ðA16Þ
+
+
+In the following, we evaluate:
+
+
+j1
+m1
+
+
+� j2
+m2
+
+
+¼
+XN
+k¼n̂
+
+
+�
+N
+
+
+k
+
+
+�
+bkð1� bÞN�k
+
+
+�X̂n
+u¼1
+
+
+�
+k
+
+
+u
+
+
+�
+m1
+
+
+u�1m2
+k�uu
+
+
+þ n̂
+Xk
+
+
+u¼n̂þ1
+
+
+�
+k
+
+
+u
+
+
+�
+m1
+
+
+u�1m2
+k�u
+�
+�
+XN
+k¼n̂
+
+
+�
+N
+
+
+k
+
+
+�
+bk
+�
+1� b
+
+
+�N�k
+
+
+�
+X̂n
+u¼0
+
+
+�
+k
+
+
+u
+
+
+�
+m1
+
+
+um2
+k�u�1
+
+
+�
+n̂� u
+
+
+�
+¼
+XN
+k¼n̂
+
+
+�
+N
+
+
+k
+
+
+�
+bkð1� bÞN�k
+
+
+�
+�
+k
+X̂n�1
+u¼0
+
+
+�
+k� 1
+u
+
+
+�
+m1
+
+
+um2
+k�u�1 k� n̂
+
+
+k� u
+
+
+þ n̂
+Xk
+
+
+u¼n̂þ1
+
+
+�
+k
+
+
+u
+
+
+�
+m1
+
+
+u�1m2
+k�u
+�
+[ 0: ðA17Þ
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1957
+
+
+
+
+
+
+PROOF OF PROPOSITION 4. The expected price charged
+for each request is:
+
+
+p0 ¼ E v� c Dþ Tð Þð Þ ¼ v� c
+j1
+j
+D�1 þ
+
+
+j2
+j
+D�2 þ
+
+
+s
+2
+
+
+	 
+
+;
+
+
+ðA18Þ
+
+
+which gives the expected profit function:
+
+
+p ¼ H v� c Dmax þ
+s
+2
+
+
+	 
+	 
+
+þ cH
+
+
+js
+j1g1
+c1
+
+
+þ j2g2
+c2
+
+
+� �
+w1
+
+
+�Nbw0 � jw1:
+ðA19Þ
+
+
+The P2P provider optimizes the expected profit by
+choosing two compensations, subject to individual
+participation constraints of two classes:
+
+
+U1 ¼w0 þ
+j1
+
+
+m1Nb
+w1 �
+
+
+1
+
+
+2
+c1 Dmax �D�1
+� �2
+
+
+¼w0 þ
+j1
+
+
+m1Nb
+w1 �
+
+
+g21
+2c1s2
+
+
+w21 � 0;
+ðA20Þ
+
+
+U2 ¼w0 þ
+j2
+
+
+m2Nb
+w1 �
+
+
+1
+
+
+2
+c2 Dmax �D�2
+� �2
+
+
+¼w0 þ
+j2
+
+
+m2Nb
+w1 �
+
+
+g22
+2c2s2
+
+
+w21 � 0:
+ðA21Þ
+
+
+Similarly, a higher w0 decreases the expected profit,
+but the effect of w1 depends on the sign of:
+
+
+C ¼ cH
+js
+
+
+j1g1
+c1
+
+
+þ j2g2
+c2
+
+
+� �
+� j: ðA22Þ
+
+
+To obtain the separating equilibrium D2 � D1 ≥ s,
+we require Γ > 0 such that w1 is set at a positive
+value.
+We need to analyze three distinctive cases which
+
+
+show the interplay between the two classes. The
+utility functions for the two classes are plotted in
+Figure 3. Case A is specified by the following condi-
+tion:
+
+
+j1c1
+m1g21
+
+
+\
+j2c2
+m2g22
+
+
+; ðwhich implies g
+2
+1
+
+
+c1
+[
+
+
+g22
+c2
+Þ: ðA23Þ
+
+
+When we increase w1, the utility for class 1 reaches
+zero first and remains below that of class 2. There-
+fore, U2 ≥ 0 always holds while U1 remains non-
+negative. Similar to the homogeneous case, we solve
+U1 = 0 for w0, express it as a function of w1, and
+plug it in Equation (A19) to find the optimal w�1;A. If
+w�1;A\w
+
+
+0
+1;A, where U1 w0 ¼ 0;w1 ¼ w01;A
+
+
+	 
+
+¼ 0, then
+
+
+we set the optimal upload compensation to w01;A,
+and availability compensation to zero. The condition
+for w�1;A �w01;A is given by:
+
+
+cH
+js
+
+
+j1g1
+c1
+
+
+þ j2g2
+c2
+
+
+� �
+� j� j1
+
+
+m1
+; or C� j1
+
+
+m1
+: ðA24Þ
+
+
+Case B is characterized by:
+
+
+j1c1
+m1g21
+
+
+[
+j2c2
+m2g22
+
+
+; and
+g21
+c1
+
+
+\
+g22
+c2
+
+
+: ðA25Þ
+
+
+When we increase w1, the utility for class 2 reaches
+zero first and remains below that of class 1. The
+analyses can be conducted similarly to Case A.
+Case C occurs when the following condition is
+
+
+satisfied.
+
+
+j1c1
+m1g21
+
+
+[
+j2c2
+m2g22
+
+
+; and
+g21
+c1
+
+
+[
+g22
+c2
+
+
+; ðA26Þ
+
+
+The utility functions for the two classes cross at the
+following point:
+
+
+wc1 ¼
+2s2
+
+
+Nb
+j1
+m1
+
+
+� j2
+m2
+
+
+� �
+g21
+c1
+
+
+� g
+2
+2
+
+
+c2
+
+
+� ��1
+: ðA27Þ
+
+
+We can solve the optimization problem by assum-
+ing that U2 = 0 and U1 > 0 to w
+
+
+�
+1;B, or U1 = 0 and
+
+
+U2 > 0 to w
+�
+1;A, and compare them. When we
+
+
+increase Γ, both w�1;A and w
+�
+1;B increase, but w
+
+
+�
+1;A
+
+
+grows slower than w�1;B because of Equation (A26).
+Class 2 peers have U2 = 0 till w
+
+
+�
+1;B reaches w
+
+
+c
+1 (or
+
+
+Γ = Γ2) where both classes receive zero utility. As Γ
+further increases, w�1;B is larger than w
+
+
+c
+1, but w
+
+
+�
+1;A
+
+
+remains below wc1. The only feasible solution is to
+set the compensations at wc0;w
+
+
+c
+1
+
+
+� �
+, till Γ ≥ Γ1 when
+
+
+w�1;A [w
+c
+1. h
+
+
+References
+Adar, E., B. A. Huberman. 2000. Free riding on Gnutella. First
+
+
+Monday. Rishab Aiyer Ghosh. Available at http://firstmonda
+y.org/ojs/index.php/fm/article/view/792/701 (accessed date
+March 22, 2017).
+
+
+Af�eche, P., H. Mendelson. 2004. Pricing and priority auctions in
+queueing systems with a generalized delay cost structure.
+Management Sci. 50(7): 869–882.
+
+
+Antoniadis, P., C. Courcoubetis, R. Mason. 2004. Comparing eco-
+nomic incentives in Peer-to-Peer networks. Com. Nets.
+133–146.
+
+
+Arrow, K. J. 1970. Essays in the Theory of Risk Bearing. North-
+Holland, Amsterdam.
+
+
+Asvanund, A., K. Clay, R. Krishnan, M. D. Smith. 2004. An empir-
+ical analysis of network externalities in Peer-to-Peer music
+sharing networks. Inf. Syst. Res. 15(2): 155–174.
+
+
+Bertsekas, D., R. Gallager. 1992. Data Networks, 2nd edn. Prentice-
+Hall International, Englewood Cliffs, NJ.
+
+
+Betteridge, I. 2004. Napster Founder’s Snocap: DRM for P2P down-
+load sites. ExtremeTech. Retrieved March 22, 2017. Available at
+http://www.extremetech.com/article2/0,1558,1736556,00.asp
+(accessed date May 15, 2016).
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+1958 Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society
+
+
+
+http://firstmonday.org/ojs/index.php/fm/article/view/792/701
+
+http://firstmonday.org/ojs/index.php/fm/article/view/792/701
+
+http://www.extremetech.com/article2/0,1558,1736556,00.asp
+
+
+
+
+Bryce, D. 2007. P2P music sharing service Grooveshark Ups
+compensation. TechCrunch. Available at http://techcrunch.
+com/2007/10/10/p2p-music-sharing-service-grooveshark-ups-
+compensation (accessed date December 23, 2016).
+
+
+Cornes, R., T. Sandler. 1996. The Theory of Externalities, Public Goods
+and Club Goods. Cambridge University Press, Cambridge.
+
+
+CVN Index. 2015. Cisco visual networking index: Forecast and
+methodology, 2014–2019. CISCO White Paper.
+
+
+Feigenbaum, J., C. Papadimitriou, R. Sami, S. Shenker. 2002. A
+BGP-based mechanism for lowest-cost routing. Proceedings of
+the ACM Symposium on Principles of Distributed Comput-
+ing, Monterey, CA, USA.
+
+
+Feldman, M., J. Chuang, I. Stoica, S. Shenker. 2007. Hidden-action
+in network routing. IEEE J. Sel. Areas in Comms. 25(6):
+1161–1172.
+
+
+Ganesh, A., K. Laevens, R. Steinberg. 2007. Congestion Pricing
+and Noncooperative Games in Communication Networks.
+Oper. Res. 55(3): 430–438.
+
+
+Ghosal, D., B. K. Poon, K. Kong. 2005. P2P contracts: A frame-
+work for resource and service exchange. Future Generation
+Comput. Syst. 21(3): 333–347.
+
+
+Gibbons, R. 1992. Game Theory for Applied Economists. Princeton
+University Press, Princeton, NJ.
+
+
+Green, J. R., N. Stokey. 1983. A comparison of tournaments and
+contracts. J. Polit. Econ. 91: 349–364.
+
+
+Guo, H., H. K. Cheng, S. Bandyopadhyay. 2013. Broadband net-
+work management and the net neutrality debate. Prod. Oper.
+Manag. 22(5): 1287–1298.
+
+
+Gupta, A., L. Awasthi. 2010. Toward a quality-of-service framework
+for Peer-to-Peer applications. Int. J. Dist. Sys. & Tech 1(3): 1–23.
+
+
+Hastings, R. 2014. Internet tolls and the case for strong net neu-
+trality. Netflix Blog, March 20, 2014. Available at http://blog.
+netflix.com/2014/03/internet-tolls-and-case-for-strong-net.
+html (accessed date May 15, 2016).
+
+
+Herings, P. J. J., R. Peeters, M. S. Yang. 2010. Competition against
+Peer-to-Peer networks. Info. Econ. Pol. 22(4): 315–331.
+
+
+Holmstrom, B. 1982. Moral hazard in teams. Bell J. Econ. 13: 324–340.
+
+
+Hosanagar, K., P. Han, Y. Tan. 2010. Diffusion models for Peer-to-
+Peer (P2P) media distribution: On the impact of decentralized,
+constrained supply. Inf. Syst. Res. 21(2): 271–287.
+
+
+Johar, M., S. Menon, V. S. Mookerjee. 2011. Analyzing sharing in
+Peer-to-Peer networks under various congestion measures.
+Inf. Syst. Res. 22(2): 325–345.
+
+
+Johar, M., N. Kumar, V. S. Mookerjee. 2012. Content provision
+strategies in the presence of content piracy. Inf. Syst. Res.
+23(3-part-2): 960–975.
+
+
+Kalker, T., D. H. J. Epema, P. H. Hartel, R. L. Lagendijk, M. van
+Steen. 2004. Music2Share - copyright-compliant music sharing
+in P2P systems. Proc. IEEE 92(6): 961–970.
+
+
+Kalra, A., M. Shi. 2001. Designing optimal sales contests: A theo-
+retical perspective. Market. Sci. 20(3): 170–193.
+
+
+Krishnan, R., M. D. Smith, Z. Tang, R. Telang. 2004. The impact
+of free-riding on Peer-to-Peer networks. Proceedings of 37th
+Hawaii International International Conference on Systems
+Science 70199c, Big Island, HI.
+
+
+Krishnan, R., M. D. Smith, Z. Tang, R. Telang. 2006. Digital business
+models for Peer-to-Peer networks: Analysis and economic
+issues. Heinz Research Paper 50. Available at http://repository.
+cmu.edu/heinzworks/50 (accessed date April 29, 2017).
+
+
+Kumar, C., K. Altinkemer, P. De. 2011. A mechanism for pricing
+and resource allocation in Peer-to-Peer networks. Electron.
+Commer. Res. Appl. 10(1): 26–37.
+
+
+Laffont, J. J., D. Martimort. 2002. The Theory of Incentives: The Prin-
+cipal-Agent Model. Princeton University Press, Princeton, NJ.
+
+
+Lang, K. R., R. Vragov. 2005. A pricing mechanism for digital con-
+tent distribution over computer networks. J. Manage. Inf. Syst.
+22(32): 121–139.
+
+
+Lazear, E. P., S. Rosen. 1981. Rank-order tournaments as optimum
+labor contracts. J. Polit. Econ. 89: 841–864.
+
+
+Li, Y.-M., Y. Tan, P. De. 2013. Self-organized formation and
+evolution of Peer-to-Peer networks. INFORMS J. Comp. 25(3):
+502–516.
+
+
+Ma, R. T. B., S. C. M. Lee, J. C. S. Lui, D. K. Y. Yau. 2006. Incen-
+tive and service differentiation in P2P networks: a game theo-
+retic approach. IEEE/ACM Trans. Netw. 14(5): 978–991.
+
+
+Maill�e, P., L. Toka. 2008. Managing a Peer-to-Peer data storage
+system in selfish society. IEEE J. Sel. Areas Commun. 26(7):
+1295–1301.
+
+
+MacKie-Mason, J. K., H. R. Varian. 1995. Pricing congestible net-
+work resources. IEEE J. Sel. Areas Commun. 13(7): 1141–1149.
+
+
+Marlowe, C. 2006. Warners rolling with BitTorrent. The Hollywood
+Reporter, May 9. Available at http://www.hollywoodreporter.
+com/hr/search/article_display.jsp?vnu_content_id=1002464855
+(accessed date May 15, 2016).
+
+
+Nalebuff, B., J. Stiglitz. 1983. Prices and incentives: Towards a
+general theory of compensation and competition. Bell J. Econ.
+14(1): 21–43.
+
+
+Shapiro, C., J. E. Stiglitz. 1984. Equilibrium unemployment as a
+worker discipline device. Am. Econ. Rev. 74: 433–441.
+
+
+Spence, A. M., R. J. Zeckhauser. 1971. Insurance, information, and
+individual action. Am. Econ. Rev. 61: 380–387.
+
+
+Steele, R. 2015. If you think piracy is decreasing, you haven’t
+looked at the data. . .. Digital Music News. Available at http://
+www.digitalmusicnews.com/2015/07/16/if-you-think-piracy-is-
+decreasing-you-havent-looked-at-the-data-2 (accessed date
+December 24, 2016).
+
+
+Strausz, R. 1996. Moral hazard in sequential teams. Department
+Working, Free University of Berlin.
+
+
+StreamerP2P. 2016. http://www.streamerp2p.com (accessed date
+October 12, 2016).
+
+
+The Insight Research Corporation. 2008. Peer-to-Peer and file shar-
+ing services market. Available at http://www.insight-corp.
+com/reports/ipappsp2p.asp (accessed date March 22, 2017).
+
+
+TorrentFreak. 2014a. Netflix considers P2P-powered streaming
+technology. September 1, 2014. Available at https://torrent
+freak.com/netflix-considers-p2p-powered-streaming-technol
+ogy-140426 (accessed date March 22, 2017).
+
+
+TorrentFreak. 2014b. Popcorn time installed on 1.4 million devices in
+the U.S. September 1, 2014. Available at https://torrentfreak.
+com/popcorn-time-installed-1-4-million-devices-u-s-140901 (ac-
+cessed date March 22, 2017).
+
+
+Van der Sar, E. 2015. Netflix needs bittorrent expert to implement P2P
+streaming. Retrieved December 11, 2015. Available at https://tor
+rentfreak.com/netflix-needs-bittorrent-expert-to-implement-
+p2p-streaming-150520 (accessed date March 22, 2017).
+
+
+Victer Paul, P., N. Saravanan, S. K. V. Jayakumar, P. Dhavachel-
+van, R. Baskaran. 2012. QoS enhancements for global replica-
+tion management in peer to peer networks. Future Generation
+Comp. Syst. 28(3): 573–582.
+
+
+Xia, M., Y. Huang, W. Duan, A. B. Whinston. 2012. To continue
+sharing or not to continue sharing? An empirical analysis of
+user decision in Peer-to-Peer sharing networks. Inf. Syst. Res.
+23(1): 247–259.
+
+
+Xu, H., S. Wang, R. Wang, Y. Rao, X. Shao. 2010. Improving QoS
+in Peer-to-Peer streaming media system. J. Comput. Infor. Syst.
+6(5): 1387–1395.
+
+
+Zhang, H., S. Zenios. 2008. A dynamic principal-agent model with
+hidden information: Sequential optimality through truthful
+state revelation. Oper. Res. 56(3): 681–696.
+
+
+Ghasemkhani, Li, Moinzadeh, and Tan: Contracts for P2P Content Distribution
+Production and Operations Management 27(11), pp. 1940–1959, © 2017 Production and Operations Management Society 1959
+
+
+
+http://techcrunch.com/2007/10/10/p2p-music-sharing-service-grooveshark-ups-compensation
+
+http://techcrunch.com/2007/10/10/p2p-music-sharing-service-grooveshark-ups-compensation
+
+http://techcrunch.com/2007/10/10/p2p-music-sharing-service-grooveshark-ups-compensation
+
+http://blog.netflix.com/2014/03/internet-tolls-and-case-for-strong-net.html
+
+http://blog.netflix.com/2014/03/internet-tolls-and-case-for-strong-net.html
+
+http://blog.netflix.com/2014/03/internet-tolls-and-case-for-strong-net.html
+
+http://repository.cmu.edu/heinzworks/50
+
+http://repository.cmu.edu/heinzworks/50
+
+http://www.hollywoodreporter.com/hr/search/article_display.jsp?vnu_content_id=1002464855
+
+http://www.hollywoodreporter.com/hr/search/article_display.jsp?vnu_content_id=1002464855
+
+http://www.digitalmusicnews.com/2015/07/16/if-you-think-piracy-is-decreasing-you-havent-looked-at-the-data-2
+
+http://www.digitalmusicnews.com/2015/07/16/if-you-think-piracy-is-decreasing-you-havent-looked-at-the-data-2
+
+http://www.digitalmusicnews.com/2015/07/16/if-you-think-piracy-is-decreasing-you-havent-looked-at-the-data-2
+
+http://www.streamerp2p.com
+
+http://www.insight-corp.com/reports/ipappsp2p.asp
+
+http://www.insight-corp.com/reports/ipappsp2p.asp
+
+https://torrentfreak.com/netflix-considers-p2p-powered-streaming-technology-140426
+
+https://torrentfreak.com/netflix-considers-p2p-powered-streaming-technology-140426
+
+https://torrentfreak.com/netflix-considers-p2p-powered-streaming-technology-140426
+
+https://torrentfreak.com/popcorn-time-installed-1-4-million-devices-u-s-140901
+
+https://torrentfreak.com/popcorn-time-installed-1-4-million-devices-u-s-140901
+
+https://torrentfreak.com/netflix-needs-bittorrent-expert-to-implement-p2p-streaming-150520
+
+https://torrentfreak.com/netflix-needs-bittorrent-expert-to-implement-p2p-streaming-150520
+
+https://torrentfreak.com/netflix-needs-bittorrent-expert-to-implement-p2p-streaming-150520
+
+

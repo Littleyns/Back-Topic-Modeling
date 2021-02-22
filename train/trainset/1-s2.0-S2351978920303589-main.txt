@@ -1,0 +1,1182 @@
+
+
+
+
+
+
+
+
+
+
+ScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+Procedia Manufacturing 39 (2019) 1530–1537
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier Ltd.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the ICPR25 International Scientific & Advisory and Organizing  
+committee members
+10.1016/j.promfg.2020.01.294
+
+
+10.1016/j.promfg.2020.01.294 2351-9789
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000  
+
+
+www.elsevier.com/locate/procedia 
+
+
+
+
+
+____________________ 
+* Corresponding author. Tel.: +0-000-000-0000 ; fax: +0-000-000-0000 . 
+
+
+E-mail address: jukka.hallikas@lut.fi 
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Selection and peer review under the responsibility of ICPR25 International Scientific & Advisory and Organizing committee members  
+
+
+25th International Conference on Production Research Manufacturing Innovation: 
+Cyber Physical Manufacturing 
+
+
+August 9-14, 2019 | Chicago, Illinois (USA) 
+
+
+Assessing Benefits of Information Process Integration  
+in Supply Chains 
+
+
+Jukka Hallikas*, Kari Korpela, Jyri Vilko, Sirpa Multaharju 
+LUT University,Box 20 Lappeenranta, Finland 
+
+
+Abstract 
+
+
+Business process integration combines the information needed for product and service delivery within the supply chain and support 
+the management service value offering in the supply chain. In this study, we show how the improved digital integration and 
+automation of information flows enhance the speed of the purchasing and supply chain processes and thus provide cost savings by 
+reducing the amount of manual work required by organizations. This study provides a novel framework for structuring a business 
+process model that is based on global standards. The presented case study illustrates the method for evaluating the business impact of 
+supply chain process digitalization and provides novel approach to estimate both operational and financial performance improvement 
+of digitalization. 
+ 
+ 
+© 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Selection and peer review under the responsibility of ICPR25 International Scientific & Advisory and Organizing committee members 
+
+
+Keywords: Supply chains, Business processes, Standards, Monte Carlo simulation 
+
+
+1. Introduction 
+
+
+Digitalization has proven to provide multitude of both opportunities and challenges in the supply chain and it can be argues to be 
+the most important megatrend in improving supply chain value creation performance. In here, the information integration and 
+electronic business processes play a significant role.  The information exchange and manual processing of information form a major 
+part of the administrative tasks involved in the business processes of supply chains. Digitalization can bring vast amount of 
+opportunities of increasing performance of both the efficiency and accuracy of these operations. [1] [2] 
+
+
+Information exchange and integration play a vital role in supply chain performance [3][4]. Information integration not only enables 
+improvement of the information exchange and business process performance but also enables the use of analytics and modelling in a 
+supply chain level and increases the availability of essential information. Indeed, for example Tesco has saved millions through using 
+supply chain analytics in their retail chain [5]. As the impact of speedier supply chain operations has been calculated to be 2-5% of 
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000  
+
+
+www.elsevier.com/locate/procedia 
+
+
+
+
+
+____________________ 
+* Corresponding author. Tel.: +0-000-000-0000 ; fax: +0-000-000-0000 . 
+
+
+E-mail address: jukka.hallikas@lut.fi 
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Selection and peer review under the responsibility of ICPR25 International Scientific & Advisory and Organizing committee members  
+
+
+25th International Conference on Production Research Manufacturing Innovation: 
+Cyber Physical Manufacturing 
+
+
+August 9-14, 2019 | Chicago, Illinois (USA) 
+
+
+Assessing Benefits of Information Process Integration  
+in Supply Chains 
+
+
+Jukka Hallikas*, Kari Korpela, Jyri Vilko, Sirpa Multaharju 
+LUT University,Box 20 Lappeenranta, Finland 
+
+
+Abstract 
+
+
+Business process integration combines the information needed for product and service delivery within the supply chain and support 
+the management service value offering in the supply chain. In this study, we show how the improved digital integration and 
+automation of information flows enhance the speed of the purchasing and supply chain processes and thus provide cost savings by 
+reducing the amount of manual work required by organizations. This study provides a novel framework for structuring a business 
+process model that is based on global standards. The presented case study illustrates the method for evaluating the business impact of 
+supply chain process digitalization and provides novel approach to estimate both operational and financial performance improvement 
+of digitalization. 
+ 
+ 
+© 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Selection and peer review under the responsibility of ICPR25 International Scientific & Advisory and Organizing committee members 
+
+
+Keywords: Supply chains, Business processes, Standards, Monte Carlo simulation 
+
+
+1. Introduction 
+
+
+Digitalization has proven to provide multitude of both opportunities and challenges in the supply chain and it can be argues to be 
+the most important megatrend in improving supply chain value creation performance. In here, the information integration and 
+electronic business processes play a significant role.  The information exchange and manual processing of information form a major 
+part of the administrative tasks involved in the business processes of supply chains. Digitalization can bring vast amount of 
+opportunities of increasing performance of both the efficiency and accuracy of these operations. [1] [2] 
+
+
+Information exchange and integration play a vital role in supply chain performance [3][4]. Information integration not only enables 
+improvement of the information exchange and business process performance but also enables the use of analytics and modelling in a 
+supply chain level and increases the availability of essential information. Indeed, for example Tesco has saved millions through using 
+supply chain analytics in their retail chain [5]. As the impact of speedier supply chain operations has been calculated to be 2-5% of 
+
+
+© 2019 The Authors. Published by Elsevier Ltd.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the ICPR25 International Scientific & Advisory and Organizing  
+committee members
+
+
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.promfg.2020.01.294&domain=pdf
+
+
+
+
+ Jukka Hallikas  et al. / Procedia Manufacturing 39 (2019) 1530–1537 1531
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000  
+
+
+www.elsevier.com/locate/procedia 
+
+
+
+
+
+____________________ 
+* Corresponding author. Tel.: +0-000-000-0000 ; fax: +0-000-000-0000 . 
+
+
+E-mail address: jukka.hallikas@lut.fi 
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Selection and peer review under the responsibility of ICPR25 International Scientific & Advisory and Organizing committee members  
+
+
+25th International Conference on Production Research Manufacturing Innovation: 
+Cyber Physical Manufacturing 
+
+
+August 9-14, 2019 | Chicago, Illinois (USA) 
+
+
+Assessing Benefits of Information Process Integration  
+in Supply Chains 
+
+
+Jukka Hallikas*, Kari Korpela, Jyri Vilko, Sirpa Multaharju 
+LUT University,Box 20 Lappeenranta, Finland 
+
+
+Abstract 
+
+
+Business process integration combines the information needed for product and service delivery within the supply chain and support 
+the management service value offering in the supply chain. In this study, we show how the improved digital integration and 
+automation of information flows enhance the speed of the purchasing and supply chain processes and thus provide cost savings by 
+reducing the amount of manual work required by organizations. This study provides a novel framework for structuring a business 
+process model that is based on global standards. The presented case study illustrates the method for evaluating the business impact of 
+supply chain process digitalization and provides novel approach to estimate both operational and financial performance improvement 
+of digitalization. 
+ 
+ 
+© 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Selection and peer review under the responsibility of ICPR25 International Scientific & Advisory and Organizing committee members 
+
+
+Keywords: Supply chains, Business processes, Standards, Monte Carlo simulation 
+
+
+1. Introduction 
+
+
+Digitalization has proven to provide multitude of both opportunities and challenges in the supply chain and it can be argues to be 
+the most important megatrend in improving supply chain value creation performance. In here, the information integration and 
+electronic business processes play a significant role.  The information exchange and manual processing of information form a major 
+part of the administrative tasks involved in the business processes of supply chains. Digitalization can bring vast amount of 
+opportunities of increasing performance of both the efficiency and accuracy of these operations. [1] [2] 
+
+
+Information exchange and integration play a vital role in supply chain performance [3][4]. Information integration not only enables 
+improvement of the information exchange and business process performance but also enables the use of analytics and modelling in a 
+supply chain level and increases the availability of essential information. Indeed, for example Tesco has saved millions through using 
+supply chain analytics in their retail chain [5]. As the impact of speedier supply chain operations has been calculated to be 2-5% of 
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000  
+
+
+www.elsevier.com/locate/procedia 
+
+
+
+
+
+____________________ 
+* Corresponding author. Tel.: +0-000-000-0000 ; fax: +0-000-000-0000 . 
+
+
+E-mail address: jukka.hallikas@lut.fi 
+
+
+2351-9789 © 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Selection and peer review under the responsibility of ICPR25 International Scientific & Advisory and Organizing committee members  
+
+
+25th International Conference on Production Research Manufacturing Innovation: 
+Cyber Physical Manufacturing 
+
+
+August 9-14, 2019 | Chicago, Illinois (USA) 
+
+
+Assessing Benefits of Information Process Integration  
+in Supply Chains 
+
+
+Jukka Hallikas*, Kari Korpela, Jyri Vilko, Sirpa Multaharju 
+LUT University,Box 20 Lappeenranta, Finland 
+
+
+Abstract 
+
+
+Business process integration combines the information needed for product and service delivery within the supply chain and support 
+the management service value offering in the supply chain. In this study, we show how the improved digital integration and 
+automation of information flows enhance the speed of the purchasing and supply chain processes and thus provide cost savings by 
+reducing the amount of manual work required by organizations. This study provides a novel framework for structuring a business 
+process model that is based on global standards. The presented case study illustrates the method for evaluating the business impact of 
+supply chain process digitalization and provides novel approach to estimate both operational and financial performance improvement 
+of digitalization. 
+ 
+ 
+© 2019 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Selection and peer review under the responsibility of ICPR25 International Scientific & Advisory and Organizing committee members 
+
+
+Keywords: Supply chains, Business processes, Standards, Monte Carlo simulation 
+
+
+1. Introduction 
+
+
+Digitalization has proven to provide multitude of both opportunities and challenges in the supply chain and it can be argues to be 
+the most important megatrend in improving supply chain value creation performance. In here, the information integration and 
+electronic business processes play a significant role.  The information exchange and manual processing of information form a major 
+part of the administrative tasks involved in the business processes of supply chains. Digitalization can bring vast amount of 
+opportunities of increasing performance of both the efficiency and accuracy of these operations. [1] [2] 
+
+
+Information exchange and integration play a vital role in supply chain performance [3][4]. Information integration not only enables 
+improvement of the information exchange and business process performance but also enables the use of analytics and modelling in a 
+supply chain level and increases the availability of essential information. Indeed, for example Tesco has saved millions through using 
+supply chain analytics in their retail chain [5]. As the impact of speedier supply chain operations has been calculated to be 2-5% of 
+
+
+2 Jukka Hallikas, et al / Procedia Manufacturing  00 (2019) 000–000 
+
+
+organizational turnover [6], the performance it can bring to the whole supply chain processes can be considered significant. Indeed, 
+currently IT integration improvements are expected in 82% inside organizations and 77% in supply chain level [7], which 
+demonstrates the scale of change in the supply chain processes. 
+
+
+Supply chain digitalization has transformed the value creation and can have eroding effect on the traditional, institutional value 
+creation forms, when new digital-based forms of value creation take more control [8]. It is important for the organizations to identify 
+the new forms of value creation and how those impact on the whole supply chain. As the integration of supply chains is getting 
+denser, the information has become more essential element which ensures uninterrupted co-creation of value towards the end 
+customer. While many studies have focused on the benefits from value co-creation in supply chains [9] [10] the role of information 
+integration in this is still less explored. Few studies have however proven how information integration can improve both the 
+operational and financial performance of supply chains [4] [11]. 
+
+
+The impact of digitalization has received vast attention in both the academic and managerial literature, while the evidence of the 
+real impact in organizations and supply chain has been scarce [12]. Furthermore, less attention has been paid to the development of 
+novel methods to analyse the value of external integration and the ability to scale the performance at the supply chain level or even 
+the business ecosystem level [13]. Hence, this paper studies the impact of information integration in supply chain processes. More 
+precisely, we will analyse the impact of digitalization in supply chain using Monte Carlo-simulation method, through the whole 
+supply chain. 
+
+
+
+
+
+2. Supply chain process integration and information systems 
+
+
+Mentzer et al. [14] define the supply chain management as “a systemic, strategic coordination of the traditional business functions 
+and the tactics across these business functions within a particular company and across business within supply chain, for the purposes 
+of improving the long-term performance of the individual companies and the supply chain as a whole”.  In terms of SCM activities, 
+van Hoek [15] argues that the aim of supply chain management is organizational integration and coordination of flows of goods, 
+information and funds, where ICT has a critical role. The author emphasize that the supply chain have to be built for meeting 
+customer demands and expectations. Organizational integration and flow coordination only come second following the guidelines of 
+responsiveness and customer expectations. 
+
+
+Visibility in supply chains, accurate and real-time information flow among partners is essential for smoothly proceeding functions, 
+such as transportation and other related logistics activities. Even though ICT and electronic data interchange are widely identified and 
+acknowledged as significant elements for inter-firm processes, productivity and performance in supply chain [16][17][18][19][20] 
+[21] [22], there still occur obstacles for deeply automatized transactions between supply chain stakeholders. The main barriers to 
+deploy ICT technologies in supply chains are high investment costs, incompatibility of software/hardware and lack of awareness of 
+ICT benefits. [23] [24][25]). However, due to development of integration standards and technologies in supply chain information 
+exchange it is expected that these models will become more popular in various industries. 
+
+
+Collaboration and information exchanging with the partners involved is the basis for supply chain existence. In order to be 
+competitive and successful, supply chain operations and processes have to be organized in effective and reliable manner, that requires 
+changing from managing individual functions to integrating activities into key supply chain processes. Information technology has 
+been a crucial element for supporting process integration and development of supply chain management [18][26][27]. In integrated 
+processes, information gathering, sharing and exchanging among the participants is essential. Especially in supply chain, information 
+flow must be exact and real-time. Information technology enables to process more information, more accurately and frequently, from 
+more sources over the world [26]. 
+
+
+The global supply chains are complex and consists of numerous participants, there exists a risk that manually transmitted 
+information and data become distorted. Automatized information exchanging eliminates human  errors, makes processes visible to 
+others thus enabling information, generated by the SC partners, to be  available to all participants in the integrated processes. [28] 
+[29]. In addition, distortion of demand information in supply chain causes Bullwhip phenomenon (originally described by Forrester 
+[30]). There non-transparent supply channel, information delays and distortion grow inventories and costs causing inefficiency in 
+processes [31]. 
+
+
+Several studies have exposed the impact of IT on management and decision making inns supply chains and logistics. Chiu [32] 
+emphasized the importance of IT as an enabler for successful logistics management. Similarly, Angeles [33] suggested, that for any 
+management system, information and reporting systems are crucial, as they support decision making based on the collected data. 
+These elements incorporate the designing and planning of information systems, coordination and control, as well as cross-
+organizational coordination. Information technology enable integration of activities in logistics supply chain.  
+
+
+Information technology enable integration of activities in supply chain and supports supply chain process integration from 
+suppliers to customers, including logistics and finance. During these developments, new technologies, methods and applications have 
+emerged facilitating a faster response to customer demand, a better adaptation to market needs, as well as new practices in different 
+
+
+
+
+
+
+1532 Jukka Hallikas  et al. / Procedia Manufacturing 39 (2019) 1530–1537
+ Jukka Hallikas, et al / Procedia Manufacturing 00 (2019) 000–000  3 
+
+
+phase of processes. In addition, companies are increasingly utilizing e-business applications, e.g. electronic auctions, electronic 
+catalogues and customer relationship management applications to enhancing their business processes along the whole supply chain. 
+[34]; [18][26]. According to Gunasekaran and Ngai [28], e-logistics and the outsourcing of logistics business processes can be seen as 
+subsets of a wider external supply chain and logistics market. They define e-logistics as the transfer of goods and services using 
+Internet communication technologies, such as EDI (Electronic Data Interchange), WWW (World Wide Web) and e- mail. 
+
+
+Integration of transactional supply chain processes require standardized information sharing practices for implementation. EDI 
+Electronic Data Interchange (EDI) means “the computer-to-to computer exchange of business information electronically, in a 
+structured format between business trading partners” [25]. In other words, EDI enables the direct transfer of data in standardized 
+format allowing integration of inter- organizational processes. The standards for EDI-connections include Edifact, UBL and 
+RosettaNet which all support a wide range of electronic supply chain processes. These truly automatized information flows eliminate 
+the need to enter data manually and, consequently, decrease human errors. [29]. The studies of Ferguson et al. [25] and Murphy and 
+Daley [24] presented the key benefits of EDI, such as Quick access to information; Better customer service; Reduced paper work; 
+Better communication; Increased productivity; Improved tracing and expediting; Cost efficiency; Staying ahead of competitors; 
+Accuracy and; Improved billing. As the main EDI barriers proved to be High setup costs; Incompatibility of hardware/software, Lack 
+of standard formats; Lack of customer sophistication; Lack of awareness of EDI benefits; Customer education/training; Customer 
+resistance and Corporate culture. Interestingly, Murphy and Daley [24] study in logistics found that both, forwarders (3PL 
+companies) and their customers rated quick access to information as the most important benefit of EDI. Similarly, improved billing 
+proved to be the least important benefit for the both. 
+
+
+As described in the literature presented above, process integration is basic arrangement for effective supply chain performance and 
+competitiveness. Collaboration and process integration in logistics require accurate and real-time information exchanging. 
+Information technology and electronic tools, especially EDI, enable truly automatized and effective information exchanging. The 
+researches have shown that EDI reduces human errors and operating costs, amongst the other benefits. On the other hand, high 
+investment costs of EDI, as well as lack of standard formats and incompatibilities of software prevent companies to deploy this 
+technology. Electronic business process management involves investments and capabilities to establish end-to-end interoperability 
+between systems [35]. According to transaction cost (TCE) perspective the firm economizes on transaction costs through the 
+selection of the governance model that minimize the transaction costs in the supply chain relationships [36]. The TCE framework 
+emphasizes cost minimization aspects of transactions in the decision making [36]. Here, the investments and capabilities needed for 
+building interoberability between electronic business processes are justified by cost savings of the governance model. In our empiric 
+research, we are interested in benefits that are potentially achievable through automatized information exchange primarily in supply 
+chain processes. Anyhow, we suggest that this integration has essential impacts, not only on different processes but broader, 
+systemically functioning supply chain as a whole. 
+
+
+
+
+
+3. Empirical study 
+
+
+In order to make an in-depth investigation into nature and information value of supply chain processes, we have built a case study 
+and research framework that covers both the information model design elements of the electronic supply chain processes and the 
+measurement and analysis of the monetary value of the B2B integration leading to the automation in the processes We applied a 
+mixed methods approach to the case study. Yin [37] stated that case studies are used when there is a need to understand complex 
+social phenomena in a holistic manner. Furthermore, the case study research strategy is often associated with, but not restricted to, 
+descriptive or exploratory research.  In order to conduct an empirical case study of the integration of information in the selected 
+supply chain process, we first had to define a standard model of supply chain processes. In the first step, we investigated the main 
+standards developed for supply chain integration including GS1/RosettaNet, OASIS/UBL and UNCEFACT/EDIFACT. Based on the 
+literature review and existing manuals, with the help of the Expert Group, we first constructed the collaborative business process 
+model based on major standards. The studied business process model had 48 transactions divided in five process groups connected 
+mainly to the purchase-to-pay and logistics transactions between buyers and suppliers as an example shown in Table 1. This model 
+ensured that data would be collected methodically in a heterogeneous business environment in which business process standards had 
+not been used previously in the design of supply chain integration. The research process consisted of the case selection, data 
+collection from focus groups and the evaluation of simulations of the benefits of the integration of information about the supply 
+chain. Finally, we discuss the implications of the results for business environments. The phases of the research are described in the 
+following sections.  
+
+
+We selected a case study of 40 companies in the bio-refinery industry, previously known as the paper industry. The key managers 
+of 17 organizations were recruited and agreed to participate in the focus group. The companies were members of a consortium that 
+operated in 36 countries, and they were active in global business networks as buyers, suppliers, logistic partners or ICT partners. 
+These conditions formed a unique challenge to designing research and development project settings and outcomes to fit international 
+
+
+
+
+
+
+ Jukka Hallikas  et al. / Procedia Manufacturing 39 (2019) 1530–1537 1533
+ Jukka Hallikas, et al / Procedia Manufacturing 00 (2019) 000–000  3 
+
+
+phase of processes. In addition, companies are increasingly utilizing e-business applications, e.g. electronic auctions, electronic 
+catalogues and customer relationship management applications to enhancing their business processes along the whole supply chain. 
+[34]; [18][26]. According to Gunasekaran and Ngai [28], e-logistics and the outsourcing of logistics business processes can be seen as 
+subsets of a wider external supply chain and logistics market. They define e-logistics as the transfer of goods and services using 
+Internet communication technologies, such as EDI (Electronic Data Interchange), WWW (World Wide Web) and e- mail. 
+
+
+Integration of transactional supply chain processes require standardized information sharing practices for implementation. EDI 
+Electronic Data Interchange (EDI) means “the computer-to-to computer exchange of business information electronically, in a 
+structured format between business trading partners” [25]. In other words, EDI enables the direct transfer of data in standardized 
+format allowing integration of inter- organizational processes. The standards for EDI-connections include Edifact, UBL and 
+RosettaNet which all support a wide range of electronic supply chain processes. These truly automatized information flows eliminate 
+the need to enter data manually and, consequently, decrease human errors. [29]. The studies of Ferguson et al. [25] and Murphy and 
+Daley [24] presented the key benefits of EDI, such as Quick access to information; Better customer service; Reduced paper work; 
+Better communication; Increased productivity; Improved tracing and expediting; Cost efficiency; Staying ahead of competitors; 
+Accuracy and; Improved billing. As the main EDI barriers proved to be High setup costs; Incompatibility of hardware/software, Lack 
+of standard formats; Lack of customer sophistication; Lack of awareness of EDI benefits; Customer education/training; Customer 
+resistance and Corporate culture. Interestingly, Murphy and Daley [24] study in logistics found that both, forwarders (3PL 
+companies) and their customers rated quick access to information as the most important benefit of EDI. Similarly, improved billing 
+proved to be the least important benefit for the both. 
+
+
+As described in the literature presented above, process integration is basic arrangement for effective supply chain performance and 
+competitiveness. Collaboration and process integration in logistics require accurate and real-time information exchanging. 
+Information technology and electronic tools, especially EDI, enable truly automatized and effective information exchanging. The 
+researches have shown that EDI reduces human errors and operating costs, amongst the other benefits. On the other hand, high 
+investment costs of EDI, as well as lack of standard formats and incompatibilities of software prevent companies to deploy this 
+technology. Electronic business process management involves investments and capabilities to establish end-to-end interoperability 
+between systems [35]. According to transaction cost (TCE) perspective the firm economizes on transaction costs through the 
+selection of the governance model that minimize the transaction costs in the supply chain relationships [36]. The TCE framework 
+emphasizes cost minimization aspects of transactions in the decision making [36]. Here, the investments and capabilities needed for 
+building interoberability between electronic business processes are justified by cost savings of the governance model. In our empiric 
+research, we are interested in benefits that are potentially achievable through automatized information exchange primarily in supply 
+chain processes. Anyhow, we suggest that this integration has essential impacts, not only on different processes but broader, 
+systemically functioning supply chain as a whole. 
+
+
+
+
+
+3. Empirical study 
+
+
+In order to make an in-depth investigation into nature and information value of supply chain processes, we have built a case study 
+and research framework that covers both the information model design elements of the electronic supply chain processes and the 
+measurement and analysis of the monetary value of the B2B integration leading to the automation in the processes We applied a 
+mixed methods approach to the case study. Yin [37] stated that case studies are used when there is a need to understand complex 
+social phenomena in a holistic manner. Furthermore, the case study research strategy is often associated with, but not restricted to, 
+descriptive or exploratory research.  In order to conduct an empirical case study of the integration of information in the selected 
+supply chain process, we first had to define a standard model of supply chain processes. In the first step, we investigated the main 
+standards developed for supply chain integration including GS1/RosettaNet, OASIS/UBL and UNCEFACT/EDIFACT. Based on the 
+literature review and existing manuals, with the help of the Expert Group, we first constructed the collaborative business process 
+model based on major standards. The studied business process model had 48 transactions divided in five process groups connected 
+mainly to the purchase-to-pay and logistics transactions between buyers and suppliers as an example shown in Table 1. This model 
+ensured that data would be collected methodically in a heterogeneous business environment in which business process standards had 
+not been used previously in the design of supply chain integration. The research process consisted of the case selection, data 
+collection from focus groups and the evaluation of simulations of the benefits of the integration of information about the supply 
+chain. Finally, we discuss the implications of the results for business environments. The phases of the research are described in the 
+following sections.  
+
+
+We selected a case study of 40 companies in the bio-refinery industry, previously known as the paper industry. The key managers 
+of 17 organizations were recruited and agreed to participate in the focus group. The companies were members of a consortium that 
+operated in 36 countries, and they were active in global business networks as buyers, suppliers, logistic partners or ICT partners. 
+These conditions formed a unique challenge to designing research and development project settings and outcomes to fit international 
+
+
+4 Jukka Hallikas, et al / Procedia Manufacturing  00 (2019) 000–000 
+
+
+requirements. The research project was executed over three years. The selected group of companies corresponded to the structure of 
+companies in the industry sector. The bio-refinery industry is an interesting area of empirical research because the economic value of 
+the business is high, and the business conducts various types of business-to-business services and product transactions on a global 
+scale. 
+
+
+ 
+Table 1. Studied supply chain purchase to pay process 
+ 
+
+
+Catalog to quatation Order to invoice Service order to invoice Logistics order to 
+invoice 
+
+
+Invoice to pay 
+
+
+Find a new supplier 
+Request for catalog 
+Process Request for 
+catalog 
+Create Catalog 
+Process Catalog 
+Create Request for 
+Quoatation 
+Process Request for 
+Quotation 
+Create Quotation 
+Process Quotation 
+
+
+Create Purchase Order 
+Process Purchase Order 
+Create Order Response 
+Process Order Response 
+Create Change Order 
+Process Change Order 
+Create Cancel Order 
+Process Cancel Order 
+
+
+Working Hour Report 
+Create Service Done 
+Notification 
+Process Service Done 
+Notification 
+Create Service Approved 
+Report 
+Process Service 
+Approved Report 
+Reclamation material or 
+hours 
+
+
+Create Capacity 
+Availability Request  
+Process Capacity 
+Availability Request 
+Create Shipping Order 
+Process Shipping Order  
+Create Shipping Order 
+Change 
+Process Order Change 
+Create Order 
+Cancellation 
+Process Order 
+Cancellation 
+Create log Documents 
+Process Delivery Report 
+Process Delivery Report 
+(LSP) 
+Create Invoice 
+Process Invoice 
+
+
+Process Invoice (PO) 
+Invoice workflow and 
+archive 
+Create Invoice Reject 
+Process Invoice Reject 
+Create Invoice Reminder 
+Create Payment 
+Process Payment 
+Create Remittance 
+Advice 
+Process Remittance 
+Advice 
+
+
+ 
+ 
+The research process uses various data collection methods applied in five different phases. We first selected as the buyer the focal 
+
+
+companies (tier 0) that represented the focal supply chain actors. We then asked the focal companies to select the most suitable 
+suppliers (tiers -1) to be included in the study. Table 3 summarizes the volumes of the transactions of the 40 companies used in our 
+case study. The transaction volumes shown in percentages indicate that the volume of Catalogue is 3%, Quotation 8%, Orders 230%, 
+Deliveries 103% and Services 3%, compared with the transaction volumes of the invoices. This table presents the purchasing-to-pay 
+major process transactions, and it shows that there were four times more business transactions than invoices (not including payments 
+and cross-border custom transactions). Table 2 also shows the volume of electronic transactions currently used in different processes, 
+which leads to the understanding of the potential explained in this study. 
+
+
+ 
+Table 2. Process transaction volumes and electronic penetrations 
+
+
+
+
+
+
+
+
+We established the focus group workshops for the collection of information about manual process lead times and the potential of 
+digital automated processes. Lead time was used as the primary measure for the quantification of process flow efficiency in the 
+simulation. We used the process activity maps to collect data from different phases of the process. The participants in the focus group 
+evaluated the minimum, median and maximum lead times required for each step in the process when conducted manually and they 
+also gave an estimate about automated process lead times. The case business process model had 48 transactions (shown in Table 1) 
+and these processes are categorized into five different process scenarios or process groups based on major activities in the supply 
+chain transactions Catalogue-to-Quotation, Order-to-Invoice, Logistics-to-Invoice, Service-to-Invoice and Invoice-to-Pay. The 
+assigned expert measures were used as input values for the simulation. Example input datasheet for the process simulation model is 
+illustrated in Table 3. 
+
+
+
+
+
+
+1534 Jukka Hallikas  et al. / Procedia Manufacturing 39 (2019) 1530–1537
+ Jukka Hallikas, et al / Procedia Manufacturing 00 (2019) 000–000  5 
+
+
+We used Monte Carlo simulation software to calculate the lead time flows with variations. A Monte Carlo method is any method 
+that is based on computational algorithms that rely on repeated random sampling to obtain numerical results. Typically, simulations 
+are run many times in order to obtain the distribution of an unknown probabilistic entity. Monte Carlo methods are mainly used in 
+three distinct classes of problems: optimization, numerical integration and the generation of draws from a probability distribution. 
+Stanislaw Ulam and John von Neumann invented the Monte Carlo method in the late 1940s. Monte Carlo calculations are based on 
+repeated sampling to determine the properties of a phenomenon (or behaviour) [38]. The Monte Carlo simulation is a stochastic 
+method that is used to assess the interaction of several uncertain variables. The Monte Carlo simulation (i.e., probability simulation) 
+is used to understand the effects of forecasting models. The variables are not based on certainty but on the valuations of expertise 
+from which we drew an estimate. However, this estimate contains some inherent uncertainty because it is an estimate of an unknown 
+value. The key feature of a Monte Carlo simulation is that based on how the ranges of estimates are created, the model estimates the 
+likelihood of the resulting outcomes. In the Monte Carlo simulation, based on the range of estimates, a random value is selected for 
+each task. The model is calculated based on this random value. The result of the model is recorded, and the process is repeated. A 
+typical Monte Carlo simulation calculates the model hundreds or thousands of times, and each time it uses different randomly 
+selected values. By running the simulation, the results describe the probability of various results in the model. As in any forecasting 
+model, the simulation will only be as good as the estimates made. It is important to note that the simulation represents only 
+probabilities, not certainty. However, the Monte Carlo simulation is a well-known and valuable method to use in forecasting an 
+unknown. 
+
+
+
+
+
+Table 3. Example input datasheet for the process simulation model 
+ 
+
+
+Scenario Min Median Max Automated (min) Automation rate % FrequequencyCost [EUR/min]
+Find a new supplier Catalog 60 240 420 30 50 % 2500 66
+Request for catalog Catalog 6 30 54 1 10 % 60000 16
+Process Request for catalog Catalog 2 5 8 1 5 % 60000 2
+Create Catalog Catalog 8 15 22 1 5 % 60000 8
+Create Purchace Order Ordering 4 20 36 0,6 1 % 6155750 12
+Process Purchace Order Ordering 1 2 3 1 10 % 6155750 1
+Creat Order Responce Ordering 4 8 12 1 10 % 6155750 4
+Process Order Responce Ordering 7 10 13 1 10 % 6155750 5
+Create Capacity Availability Request Logistics 20 25 30 1 30 % 3444250 11
+Process Capacity Availability Reseipt Logistics 10 20 30 5 30 % 3444250 7
+Create Shipping Order Logistics 5 15 25 5 30 % 3444250 4
+Process Shipping Order Logistics 10 20 30 5 30 % 3444250 7
+Process Shipment Notification Service 18 30 42 6 10 % 3444250 14
+Reclamation material or hours Service 12 60 108 12 20 % 32912,5 24
+Create Shipment Delivery Report Service 1 6 11 0,6 1 % 3444250 3
+Working Hour Report Service 5 40 75 1 6 % 658250 23
+Process Invoice (PO) Payment 6 30 54 1 40 % 2500000 11
+Invoice workflow and archive Payment 6 15 24 0,6 50 % 2500000 5
+Create Invoice Reject Payment 12 60 108 0,6 1 % 250000 37
+Process Invoice Reject Payment 5 20 35 1 30 % 125000 8  
+
+
+ 
+ 
+ 
+In the analysis, the activity lead times were modelled as triangular distributions, which are commonly used when the expert is able 
+
+
+to evaluate the minimum, maximum and the most likely value of a variable. We restricted the usage of extreme cases by applying the 
+general rule of excluding 10% of the upper and lower boundary cases. The Monte Carlo simulation method was applied in the 
+analysis. It randomly selects values from the distribution and uses several iterations to complete the analysis. The number of 
+iterations in the model was selected as 10,000. The frequency of each process in the case supply chain and automation lead times 
+were also evaluated. The lead-time evaluations were made by two different groups of experts, one presenting the original equipment 
+manufacturers (OEM) and the other representing the suppliers of those companies. Using two different focus groups provided a good 
+source of information for the simulation. The simulation model consists of the evaluated time distributions of conducting processes in 
+the supply chains of the case industry.  
+
+
+
+
+
+
+ Jukka Hallikas  et al. / Procedia Manufacturing 39 (2019) 1530–1537 1535
+ Jukka Hallikas, et al / Procedia Manufacturing 00 (2019) 000–000  5 
+
+
+We used Monte Carlo simulation software to calculate the lead time flows with variations. A Monte Carlo method is any method 
+that is based on computational algorithms that rely on repeated random sampling to obtain numerical results. Typically, simulations 
+are run many times in order to obtain the distribution of an unknown probabilistic entity. Monte Carlo methods are mainly used in 
+three distinct classes of problems: optimization, numerical integration and the generation of draws from a probability distribution. 
+Stanislaw Ulam and John von Neumann invented the Monte Carlo method in the late 1940s. Monte Carlo calculations are based on 
+repeated sampling to determine the properties of a phenomenon (or behaviour) [38]. The Monte Carlo simulation is a stochastic 
+method that is used to assess the interaction of several uncertain variables. The Monte Carlo simulation (i.e., probability simulation) 
+is used to understand the effects of forecasting models. The variables are not based on certainty but on the valuations of expertise 
+from which we drew an estimate. However, this estimate contains some inherent uncertainty because it is an estimate of an unknown 
+value. The key feature of a Monte Carlo simulation is that based on how the ranges of estimates are created, the model estimates the 
+likelihood of the resulting outcomes. In the Monte Carlo simulation, based on the range of estimates, a random value is selected for 
+each task. The model is calculated based on this random value. The result of the model is recorded, and the process is repeated. A 
+typical Monte Carlo simulation calculates the model hundreds or thousands of times, and each time it uses different randomly 
+selected values. By running the simulation, the results describe the probability of various results in the model. As in any forecasting 
+model, the simulation will only be as good as the estimates made. It is important to note that the simulation represents only 
+probabilities, not certainty. However, the Monte Carlo simulation is a well-known and valuable method to use in forecasting an 
+unknown. 
+
+
+
+
+
+Table 3. Example input datasheet for the process simulation model 
+ 
+
+
+Scenario Min Median Max Automated (min) Automation rate % FrequequencyCost [EUR/min]
+Find a new supplier Catalog 60 240 420 30 50 % 2500 66
+Request for catalog Catalog 6 30 54 1 10 % 60000 16
+Process Request for catalog Catalog 2 5 8 1 5 % 60000 2
+Create Catalog Catalog 8 15 22 1 5 % 60000 8
+Create Purchace Order Ordering 4 20 36 0,6 1 % 6155750 12
+Process Purchace Order Ordering 1 2 3 1 10 % 6155750 1
+Creat Order Responce Ordering 4 8 12 1 10 % 6155750 4
+Process Order Responce Ordering 7 10 13 1 10 % 6155750 5
+Create Capacity Availability Request Logistics 20 25 30 1 30 % 3444250 11
+Process Capacity Availability Reseipt Logistics 10 20 30 5 30 % 3444250 7
+Create Shipping Order Logistics 5 15 25 5 30 % 3444250 4
+Process Shipping Order Logistics 10 20 30 5 30 % 3444250 7
+Process Shipment Notification Service 18 30 42 6 10 % 3444250 14
+Reclamation material or hours Service 12 60 108 12 20 % 32912,5 24
+Create Shipment Delivery Report Service 1 6 11 0,6 1 % 3444250 3
+Working Hour Report Service 5 40 75 1 6 % 658250 23
+Process Invoice (PO) Payment 6 30 54 1 40 % 2500000 11
+Invoice workflow and archive Payment 6 15 24 0,6 50 % 2500000 5
+Create Invoice Reject Payment 12 60 108 0,6 1 % 250000 37
+Process Invoice Reject Payment 5 20 35 1 30 % 125000 8  
+
+
+ 
+ 
+ 
+In the analysis, the activity lead times were modelled as triangular distributions, which are commonly used when the expert is able 
+
+
+to evaluate the minimum, maximum and the most likely value of a variable. We restricted the usage of extreme cases by applying the 
+general rule of excluding 10% of the upper and lower boundary cases. The Monte Carlo simulation method was applied in the 
+analysis. It randomly selects values from the distribution and uses several iterations to complete the analysis. The number of 
+iterations in the model was selected as 10,000. The frequency of each process in the case supply chain and automation lead times 
+were also evaluated. The lead-time evaluations were made by two different groups of experts, one presenting the original equipment 
+manufacturers (OEM) and the other representing the suppliers of those companies. Using two different focus groups provided a good 
+source of information for the simulation. The simulation model consists of the evaluated time distributions of conducting processes in 
+the supply chains of the case industry.  
+
+
+6 Jukka Hallikas, et al / Procedia Manufacturing  00 (2019) 000–000 
+
+
+
+
+
+Figure 1. Value potential of different supply chain process scenarios (in EUR) 
+ 
+The simulation results showed the large potential of automation to produce financial benefits, which caused by time savings in the 
+
+
+processes. The average hourly rate was determined according to Finnish statistics on the bio-refinery industry. It was estimated at 
+37.50 EUR/h, which is high in comparison to international rates. The total potential of the integration of the supply chain was 
+598,390,330 EUR. The potential for different process groups is illustrated in Table 4. As the figure shows, the largest potential was 
+identified in the Logistics-to-Invoice (mean value of 218,783,290 EUR) and Order-to-Invoice (mean value of 196,945,491 EUR) 
+process groups. These two process scenarios seemed the most lucrative areas of investment for supply chain companies. The 
+graphical presentation of the simulation results provided in Figure 1. The relatively low potential of the Catalogue and Payment 
+groups is explained by the high penetration rate of the automated processes payment (Invoice-to-Pay) and relatively low frequencies 
+of Catalogue transactions (Catalogue-to-Quotation) compared to other process scenarios. The simulation results are described in 
+Table 5. 
+
+
+
+
+
+Table 4. Statistical results of different scenarios 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+The supply network has to invest in integration. During the focus group workshops, we discussed the concept and the pricing 
+
+
+models of integration in order to estimate the investment costs of integration. Because of the lack of standards and non-interoperable 
+systems, we estimated the investment costs of using the may-to-many EDI operator business model to illustrate the most expensive 
+integration cost. The investment costs can be divided to the fixed and variable costs where fixed costs involve the initial investments 
+on connection fees and integration fees of processes to the buyers, suppliers and logistics service providers. The estimate for the total 
+fixed investments needed in the case supply network to achieve the automated scenario was 550 000 Eur. Variable costs in case 
+consists of the service provision of EDI operator according to transmitted transactions in the supply network (fee/ transaction) sent by 
+buyers, suppliers and logistics service providers. The annual variable cost were estimated to be 23 MEur in the case of automating 48 
+processes in the supply network. Based on the result of the scenario it can be estimated that direct effects for digital process 
+automation will be around 1% of the turnover in the case supply network. The measured and simulated potential of the study is 
+related to the savings in the manual work, it can be said that the potential cost savings of digitalization of the supply chain processes 
+could easily reach 2-4% of the turnover when the costs of errors, indirect effects on the faster processes and overall quality 
+improvements of the processes will be taken into account. 
+
+
+
+
+
+
+1536 Jukka Hallikas  et al. / Procedia Manufacturing 39 (2019) 1530–1537
+ Jukka Hallikas, et al / Procedia Manufacturing 00 (2019) 000–000  7 
+
+
+4. Discussion and Conclusions 
+
+
+The aim of this study was to investigate the value of digital supply chain investments from the tangible benefits point of view. 
+More precisely we study the operational and financial benefits of digitalizing specific transactional supply chain processes, namely 
+sourcing (catalogue to ordering), purchasing (order to invoice), logistics (shipping order to invoice and financing (invoice to 
+payment) process integration. 
+
+
+Our study has several contributions to the scientific discussion of digitalization impact on business performance. Firstly, the 
+impacts of digitalization can be measured from both the perspective of operational performance, in terms of time savings in executing 
+the tasks, accuracy and avoiding errors in handling the information as well as availability of the data to different supply chain 
+members. Secondly the impacts of digitalization can be measures in terms of financial performance, which can be noticed not only 
+directly but also indirectly through the operational benefits. The overall benefits from digitalization can be estimated to be c. 1-4% 
+from the annual turnover, and as such our results validate the findings previous research of the operational benefits [6]. 
+
+
+Recent studies in the literature emphasized the importance of business process integration in the supply chain [16][34], as well as 
+the importance of designing and implementing common standards in a global business environment. The results of the present study 
+showed the potential for the interoperability of a supply chain and information integrated in it. A large selection of business process 
+standards and specifications are used in business environments but because of their diversity, the academic literature has paid scant 
+attention to them. This study constructed and consolidated a common model for the business processes used in a supply chain for 
+both manual and electronic processes and across the major standards. Based on this process model, the supply chain valuation created 
+a comprehensive and meaningful study of cost savings. Because of its international nature and scale, the case study of the bio-
+refinery industry offers new knowledge to businesses and academics on the current business process integration potential. These 
+results can be scaled to other networks, and they can improve the understanding of cost savings and other benefits. The model also 
+enabled the analysis of the development and investment phases in the supply network, especially in the outsourcing of an information 
+service portfolio. The volume of the data provided a large sample, which, however, was dominated by large firms in one industry 
+domain.  
+
+
+The Monte Carlo method has been validated in the literature, and the tools based on these computational algorithms are suitable 
+for use in the design of case studies. Hence, the design of this study can be implemented in research on various business sectors and 
+data collections to improve the knowledge of this valuable area. The management of end-to-end supply chains is a labour-intensive 
+process. Although internal business information exists in digital form in the IT systems of organizations, information about the 
+external supply chain on a global scale is still integrated manually. Developed economies have given a competitive advantage to 
+emerging economies because of the work involved in exchanging information in the supply chain. Although standards and best 
+practices are in place, according to our findings, the penetration of information integration is still at a low level in most supply chain 
+processes. This finding is in line with those of Evangelista et al. [39]. In future research the focus should be in investigating more 
+deeply the primary and secondary impact of digitalization which would help in determining the ROI from different digital solution 
+more accurately. Therefore, future studies should be extended to cover a large population of business sectors. Small- and medium-
+sized companies and other industries should be included in future research. 
+
+
+References 
+
+
+[1] G. Büyüközkan F.Göçer, Digital supply chain: literature review and a proposed framework for future research. Computers in Industry, 97 (2018) 157-177. 
+[2] Singh, A. and Teng, J.T, (2016) Enhancing supply chain outcomes through Information Technology and Trust. Computers in human behavior, 54 290-300. 
+[3] M. Kim S. Chai, The impact of supplier innovativeness, information sharing and strategic sourcing on improving supply chain agility: Global supply chain 
+
+
+perspective. International Journal of Production Economics, 187 (2017) 42-52. 
+[4] Q. Gu T. Jitpaipoon J.Yang, The impact of information integration on financial performance: A knowledge-based view. International Journal of Production 
+
+
+Economics, 191 (2017) 221-232. 
+[5] Information age. Tesco saves millions with supply chain analytics. April (2013).  
+[6] A.P. Hameri J.M. Lehtonen, Production and supply management strategies in Nordic paper mills, Scandinavian Journal of Management, 17(3) (2001) 379-396. 
+[7] European ATKearney, Digital Supply Chains: Increasingly Critical for Competitive Edge. (2015) WHU Logistics Study. 
+[8] W. Reinartz, N. Wiegand, M. Imschloss, The impact of digital transformation on the retailing value chain, International Journal of Research in Marketing (2019). 
+[9] J. Vilko, P. Ritala, IAM Value - identification, analysis, and management of customer value in supply networks, Research report, Lappeenranta University of 
+
+
+Technology (2016). 
+[10] L. Aarikka-Stenroos E. Jaakkola, Value co-creation in knowledge intensive business services: A dyadic perspective on the joint problem solving process, 
+
+
+Industrial Marketing Management, 41(1) (2012) 15-26. 
+[11] C.W. Wong, K.H. Lai, T.C.E. Cheng, Value of information integration to supply chain management: roles of internal and external contingencies. Journal of 
+
+
+Management Information Systems, 28(3) (2011) 161-200.  
+[12] A.Q. Li P. Found, Towards sustainability: PSS, digital technology and value co-creation. Procedia CIRP, 64 (2017) 79-84. 
+[13] V. Hernández T. Pedersen, Global value chain configuration: A review and research agenda. BRQ Business Research Quarterly, 20(2) (2017) 137-150.  
+
+
+
+
+
+
+ Jukka Hallikas  et al. / Procedia Manufacturing 39 (2019) 1530–1537 1537
+ Jukka Hallikas, et al / Procedia Manufacturing 00 (2019) 000–000  7 
+
+
+4. Discussion and Conclusions 
+
+
+The aim of this study was to investigate the value of digital supply chain investments from the tangible benefits point of view. 
+More precisely we study the operational and financial benefits of digitalizing specific transactional supply chain processes, namely 
+sourcing (catalogue to ordering), purchasing (order to invoice), logistics (shipping order to invoice and financing (invoice to 
+payment) process integration. 
+
+
+Our study has several contributions to the scientific discussion of digitalization impact on business performance. Firstly, the 
+impacts of digitalization can be measured from both the perspective of operational performance, in terms of time savings in executing 
+the tasks, accuracy and avoiding errors in handling the information as well as availability of the data to different supply chain 
+members. Secondly the impacts of digitalization can be measures in terms of financial performance, which can be noticed not only 
+directly but also indirectly through the operational benefits. The overall benefits from digitalization can be estimated to be c. 1-4% 
+from the annual turnover, and as such our results validate the findings previous research of the operational benefits [6]. 
+
+
+Recent studies in the literature emphasized the importance of business process integration in the supply chain [16][34], as well as 
+the importance of designing and implementing common standards in a global business environment. The results of the present study 
+showed the potential for the interoperability of a supply chain and information integrated in it. A large selection of business process 
+standards and specifications are used in business environments but because of their diversity, the academic literature has paid scant 
+attention to them. This study constructed and consolidated a common model for the business processes used in a supply chain for 
+both manual and electronic processes and across the major standards. Based on this process model, the supply chain valuation created 
+a comprehensive and meaningful study of cost savings. Because of its international nature and scale, the case study of the bio-
+refinery industry offers new knowledge to businesses and academics on the current business process integration potential. These 
+results can be scaled to other networks, and they can improve the understanding of cost savings and other benefits. The model also 
+enabled the analysis of the development and investment phases in the supply network, especially in the outsourcing of an information 
+service portfolio. The volume of the data provided a large sample, which, however, was dominated by large firms in one industry 
+domain.  
+
+
+The Monte Carlo method has been validated in the literature, and the tools based on these computational algorithms are suitable 
+for use in the design of case studies. Hence, the design of this study can be implemented in research on various business sectors and 
+data collections to improve the knowledge of this valuable area. The management of end-to-end supply chains is a labour-intensive 
+process. Although internal business information exists in digital form in the IT systems of organizations, information about the 
+external supply chain on a global scale is still integrated manually. Developed economies have given a competitive advantage to 
+emerging economies because of the work involved in exchanging information in the supply chain. Although standards and best 
+practices are in place, according to our findings, the penetration of information integration is still at a low level in most supply chain 
+processes. This finding is in line with those of Evangelista et al. [39]. In future research the focus should be in investigating more 
+deeply the primary and secondary impact of digitalization which would help in determining the ROI from different digital solution 
+more accurately. Therefore, future studies should be extended to cover a large population of business sectors. Small- and medium-
+sized companies and other industries should be included in future research. 
+
+
+References 
+
+
+[1] G. Büyüközkan F.Göçer, Digital supply chain: literature review and a proposed framework for future research. Computers in Industry, 97 (2018) 157-177. 
+[2] Singh, A. and Teng, J.T, (2016) Enhancing supply chain outcomes through Information Technology and Trust. Computers in human behavior, 54 290-300. 
+[3] M. Kim S. Chai, The impact of supplier innovativeness, information sharing and strategic sourcing on improving supply chain agility: Global supply chain 
+
+
+perspective. International Journal of Production Economics, 187 (2017) 42-52. 
+[4] Q. Gu T. Jitpaipoon J.Yang, The impact of information integration on financial performance: A knowledge-based view. International Journal of Production 
+
+
+Economics, 191 (2017) 221-232. 
+[5] Information age. Tesco saves millions with supply chain analytics. April (2013).  
+[6] A.P. Hameri J.M. Lehtonen, Production and supply management strategies in Nordic paper mills, Scandinavian Journal of Management, 17(3) (2001) 379-396. 
+[7] European ATKearney, Digital Supply Chains: Increasingly Critical for Competitive Edge. (2015) WHU Logistics Study. 
+[8] W. Reinartz, N. Wiegand, M. Imschloss, The impact of digital transformation on the retailing value chain, International Journal of Research in Marketing (2019). 
+[9] J. Vilko, P. Ritala, IAM Value - identification, analysis, and management of customer value in supply networks, Research report, Lappeenranta University of 
+
+
+Technology (2016). 
+[10] L. Aarikka-Stenroos E. Jaakkola, Value co-creation in knowledge intensive business services: A dyadic perspective on the joint problem solving process, 
+
+
+Industrial Marketing Management, 41(1) (2012) 15-26. 
+[11] C.W. Wong, K.H. Lai, T.C.E. Cheng, Value of information integration to supply chain management: roles of internal and external contingencies. Journal of 
+
+
+Management Information Systems, 28(3) (2011) 161-200.  
+[12] A.Q. Li P. Found, Towards sustainability: PSS, digital technology and value co-creation. Procedia CIRP, 64 (2017) 79-84. 
+[13] V. Hernández T. Pedersen, Global value chain configuration: A review and research agenda. BRQ Business Research Quarterly, 20(2) (2017) 137-150.  
+
+
+8 Jukka Hallikas, et al / Procedia Manufacturing  00 (2019) 000–000 
+
+
+[14] J.T. Mentzer, W. De Witt, J.S., Keebler, S. Min, N.W. Nix, C.D. Smith, Defining Supply Chain Management, Journal of Business Logistics 22(2) (2001) 1-
+25.J.J-K. Cho J. Ozment H. Sink, Logistics Capability, Logistics Outsourcing and Firm Performance in an E-Commerce Market, International Journal of Physical 
+Distribution & Logistics Management, 38(5) (2008) 336-359.  
+
+
+[15] R.I. Hoek van, Using Information Technology to Leverage Transport and Logistics Service Operations in the Supply Chain: An Empirical Assessment of the 
+Interrelation between Technology and Operations Management, International Journal of Technology Management, 23 (2002) 207-222. 
+
+
+[16] B.T. Hazen T.A. Byrd, Toward Creating Competitive Advantage with Logistics Information Technology, International Journal of Physical Distribution & 
+Logistics Management, 42(1) (2012) 8-35. 
+
+
+[17] P.I. Jeffers W.A. Muhanna, B.R. Nault, Information Technology and Process Performance: An Empirical Investigation of the Interaction between IT and Non-IT 
+Resources, Decision Sciences, 39(4) (2008) 703-735. 
+
+
+[18] A. Ordanini, G. Rubera, Strategic Capabilities and Internet Resources in Procurement: A Resource-Based View of B-to-B Buying, International Journal of 
+Operations & Production Management, 28(1) (2008)  27-52. 
+
+
+[19] S.R. Croom, The Impact of e-Business on Supply Chain Management: An Empirical Study of Key Developments, International Journal of Operations & 
+Production Management, 25(1) (2005) 55-73. 
+
+
+[20] F. Wu, S. Yeniyurt, D. Kim, S.T. Cavusgil, The Impact of Information Technology on Supply Chain Capabilities and Firm Performance: A Resource-Based 
+View, Industrial Marketing Management, 35 (2005) 493-504 
+
+
+[21] D.J.Closs T.J. Goldsby S.R. Clinton, Information Technology Influences on World Class Logistics Capability, International Journal of Physical Distribution & 
+Logistics Management, 27(1) (1997) 4-17. 
+
+
+[22] D.J. Bowersox P.J. Daugherty, Logistics Paradigms: The Impact of Information Technology, Journal of Business Logistics, 16(1) (1995)  65-80. 
+[23] P. Evangelista H.Kilpala, The Perception of ICT use among Small Logistics Service Providers: a Comparison between Northern and Southern Europe, European 
+
+
+Transport, 35 (2007) 81-98.M.C. Cooper D.M. Lambert J.D. Pagh, Supply Chain Management: More Than a New Name for Logistics, The International Journal 
+of Logistics Management, 8(1) (1997) 1-14. 
+
+
+[24] P.R. Murphy, J.M. Daley, EDI Benefits and Barriers Comparing International Freight Forwarders and Their Customers”, International Journal of Physical 
+Distribution & Logistics Management, 29(3) (1999) 207-216. 
+
+
+[25] D.M. Ferguson N.C. Hill, J.V. Hansen, Electronic Data Interchange: Foundations and Survey Evidence on Current Use, Journal of Information Systems, 4(2) 
+(1990) 81-91.P.J. Daugherty T.P. Stank D.S. Rogers, Third-Party Logistics Service Providers: Purchasers’ Perceptions, International Journal of Purchasing and 
+Materials Management, 32(2) (1996) 23-29. 
+
+
+[26] G. Neubert, Y. Ouzrout, A.Bouras, Collaboration and Integration through Technologies in Supply Chains, International Journal of Technology Management, 
+28(2) (2004) 259-273. 
+
+
+[27] D.M. Lambert C.M. Cooper, Issues in Supply Chain Management, Industrial Marketing Management 29(1) (2000) 65-83. 
+[28] A. Gunasekaran E.W.T. Ngai, The Successful Management of a Small Logistics Company, International Journal of Physical Distribution & Logistics 
+
+
+Management, 33(9) (2003) 825-842. 
+[29] B.J. La Londe, J.M., Masters Emerging Logistics Strategies: Blueprints for the Next Century, International Journal of Physical Distribution & Logistics 
+
+
+Management, 24(7) (1994) 35-47. 
+[30] Forrester JW. Industry dynamics. Massachusetts, Cambridge. 1961. 
+[31] H.L. Lee V. Padmanabhan S.Whang, Information Distortion in a Supply Chain: The Bullwhip Effect, Management Science, 43(4) (1997) 546-558.L.M. Ellram, 
+
+
+and M.C. Cooper Supply Chain Management, Partnership, and the Shipper – Third Party Relationships, The International Journal of Logistics Management, 1(2) 
+(1990) 1-10. 
+
+
+[32] H.N. Chiu, The Integrated Logistics Management System: A Framework and Case Study, International Journal of Physical Distribution & Logistics Management, 
+25(6) (1995) 4-22. 
+
+
+[33] R. Angeles, Revisiting the Role of Internet-EDI in the Current Electronic Commerce Scene, Logistics Information Management, 13 (2000) 45-57. 
+[34] F. Wiengarten, P. Humphreys, A. McKittrick, B. Fynes, Investigating the Impact of E-Business Applications on Supply Chain Collaboration in the German 
+
+
+Automotive Industry, International Journal of Operations & Production Management, 33(1) (2012) 25-48. 
+[35] B. Dinter, G. Lahrmann, R. Winter, Information Logistics as a Conceptual Foundation for Enterprise-Wide Decision Support, Journal of Decision Systems, 19(2) 
+
+
+(2010) 175-200. 
+[36] A.H. Tsang, Strategic Dimensions of Maintenance Management, Journal of Quality in Maintenance Engineering, 8(1) (2002) 7-39. 
+[37] R.Yin, Case study research: Design and methods (2nd ed.), (1994).Thousand Oaks, CA: Sage.   
+[38] N. Metropolis, S.Ulam, The Monte Carlo Method, Journal of the American statistical association 44(247) (1949) Sep 335-41. 
+[39] P. Evangelista R. Mogre E. Sweeney A Survey Based Analysis of IT Adoption and 3PLs Performance, Supply Chain Management, An International Journal, 
+
+
+17(2) (2012) 172-186. 
+ 
+ 
+
+
+
+

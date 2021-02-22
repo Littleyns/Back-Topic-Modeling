@@ -1,0 +1,1409 @@
+
+
+
+
+
+
+
+
+
+
+ScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+Procedia Manufacturing 42 (2020) 173–180
+
+
+2351-9789 © 2020 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the International Conference on Industry 4.0 and Smart Manufacturing.
+10.1016/j.promfg.2020.02.067
+
+
+10.1016/j.promfg.2020.02.067 2351-9789
+
+
+© 2020 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the scientific committee of the International Conference on Industry 4.0 and Smart Manufacturing.
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000   
+
+
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2351-9789 © 2020 The Authors. Published by Elsevier B.V.  
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)                                                                                                                                            
+Peer-review under responsibility of the scientific committee of the International Conference on Industry 4.0 and Smart Manufacturing. 
+
+
+International Conference on Industry 4.0 and Smart Manufacturing (ISM 2019) 
+
+
+Shipbuilding Supply Chain Framework and Digital Transformation: A 
+Project Portfolios Risk Evaluation 
+
+
+ Rafael Diaz(a)*, Katherine Smith(b), Rafael Landaeta(c), Antonio Padovano(d)  
+abVirginia Modeling Analysis & Simulation Center, Old Dominion University, Suffolk, VA 23435, USA 
+
+
+cFrank Batten College of Engineering and Technology, Old Dominion University, Norfolk, VA 23529, USA  
+dDIMEG, University of Calabria, Arcavacata di Rende, 87036, Italy 
+
+
+* Corresponding author. E-mail address: RDiaz@odu.edu 
+
+
+Abstract 
+
+
+Program portfolio managers in digital transformation programs have a need for knowledge that can guide decisions related to the alignment of 
+program investments with the sustainability and strategic objectives of the organization. The purpose of this research is to illustrate the utility of 
+a framework capable of clarifying the cost-benefit tradeoffs stemming from assessing digitalization program investment risks in the military 
+shipbuilding sector. Our approach uses Artificial Neural Network to quantify benefits and risks per project while employing scenario analysis 
+to quantify the effects of operational constraints. A Monte Carlo model is used to generate data samples that support the execution of the Neural 
+Network. This enables the use of Portfolio Management Theory principles to organize and estimate measures of performance of the 
+digitalization project portfolio. We demonstrate the utility of the framework by means of a theoretical case study presenting several 
+digitalization project investment scenarios. We conclude that the framework makes a contribution and call for additional work to extend this 
+framework to formalize the portfolio assessment activity while including acceptable risk ranges that constrain the final fractions of budget 
+allocations. 
+ 
+© 2020 The Authors. Published by Elsevier B.V.  
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the scientific committee of the International Conference on Industry 4.0 and Smart Manufacturing. 
+
+
+ Keywords: Project Management; Portfolio Management; Neural Networks; Cost Analysis; Training 
+
+
+ 
+1. Introduction 
+
+
+Operational and financial pressures in tandem with the 
+increasing demands of customers have intensified stress for 
+competent operations. The evolution of industrial systems 
+operating within intricate competitive environments has 
+placed substantial constraints on the configuration and 
+performance of agile, efficient, and flexible business and 
+institutional operations. Successful firms recognize that the 
+continual enhancement of existing operations is essential to 
+gaining and maintaining a competitive edge. These 
+organizations engage in strategic management initiatives by 
+employing effective project, program, and portfolio 
+management techniques to improve their operational 
+efficiency and responsiveness. However, while 88 percent of 
+
+
+executives assert that strategy implementation is critical to 
+their firms, only 61 percent recognize that their organizations 
+frequently have struggled in bridging the gap between 
+strategic goals and their everyday operation [1]. Furthermore, 
+in the digital transformation era, a smaller fraction of 
+executives confesses to truly engaging in digitalization 
+projects as they might be considered a risky endeavor [2]. 
+This gap suggests a lack of understanding that projects and 
+programs are catalysts in strategic change [3] as they 
+represent versatile structures that enable the realization of 
+distinctive and innovative organizational offerings [4].  
+
+
+Aligning digitalization projects or programs with strategic 
+objectives has the greatest potential to add value to an 
+organization [5,6]. Although, average organizations report 
+that three of five projects and programs are not aligned to 
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000   
+
+
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2351-9789 © 2020 The Authors. Published by Elsevier B.V.  
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)                                                                                                                                            
+Peer-review under responsibility of the scientific committee of the International Conference on Industry 4.0 and Smart Manufacturing. 
+
+
+International Conference on Industry 4.0 and Smart Manufacturing (ISM 2019) 
+
+
+Shipbuilding Supply Chain Framework and Digital Transformation: A 
+Project Portfolios Risk Evaluation 
+
+
+ Rafael Diaz(a)*, Katherine Smith(b), Rafael Landaeta(c), Antonio Padovano(d)  
+abVirginia Modeling Analysis & Simulation Center, Old Dominion University, Suffolk, VA 23435, USA 
+
+
+cFrank Batten College of Engineering and Technology, Old Dominion University, Norfolk, VA 23529, USA  
+dDIMEG, University of Calabria, Arcavacata di Rende, 87036, Italy 
+
+
+* Corresponding author. E-mail address: RDiaz@odu.edu 
+
+
+Abstract 
+
+
+Program portfolio managers in digital transformation programs have a need for knowledge that can guide decisions related to the alignment of 
+program investments with the sustainability and strategic objectives of the organization. The purpose of this research is to illustrate the utility of 
+a framework capable of clarifying the cost-benefit tradeoffs stemming from assessing digitalization program investment risks in the military 
+shipbuilding sector. Our approach uses Artificial Neural Network to quantify benefits and risks per project while employing scenario analysis 
+to quantify the effects of operational constraints. A Monte Carlo model is used to generate data samples that support the execution of the Neural 
+Network. This enables the use of Portfolio Management Theory principles to organize and estimate measures of performance of the 
+digitalization project portfolio. We demonstrate the utility of the framework by means of a theoretical case study presenting several 
+digitalization project investment scenarios. We conclude that the framework makes a contribution and call for additional work to extend this 
+framework to formalize the portfolio assessment activity while including acceptable risk ranges that constrain the final fractions of budget 
+allocations. 
+ 
+© 2020 The Authors. Published by Elsevier B.V.  
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the scientific committee of the International Conference on Industry 4.0 and Smart Manufacturing. 
+
+
+ Keywords: Project Management; Portfolio Management; Neural Networks; Cost Analysis; Training 
+
+
+ 
+1. Introduction 
+
+
+Operational and financial pressures in tandem with the 
+increasing demands of customers have intensified stress for 
+competent operations. The evolution of industrial systems 
+operating within intricate competitive environments has 
+placed substantial constraints on the configuration and 
+performance of agile, efficient, and flexible business and 
+institutional operations. Successful firms recognize that the 
+continual enhancement of existing operations is essential to 
+gaining and maintaining a competitive edge. These 
+organizations engage in strategic management initiatives by 
+employing effective project, program, and portfolio 
+management techniques to improve their operational 
+efficiency and responsiveness. However, while 88 percent of 
+
+
+executives assert that strategy implementation is critical to 
+their firms, only 61 percent recognize that their organizations 
+frequently have struggled in bridging the gap between 
+strategic goals and their everyday operation [1]. Furthermore, 
+in the digital transformation era, a smaller fraction of 
+executives confesses to truly engaging in digitalization 
+projects as they might be considered a risky endeavor [2]. 
+This gap suggests a lack of understanding that projects and 
+programs are catalysts in strategic change [3] as they 
+represent versatile structures that enable the realization of 
+distinctive and innovative organizational offerings [4].  
+
+
+Aligning digitalization projects or programs with strategic 
+objectives has the greatest potential to add value to an 
+organization [5,6]. Although, average organizations report 
+that three of five projects and programs are not aligned to 
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000   
+
+
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2351-9789 © 2020 The Authors. Published by Elsevier B.V.  
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)                                                                                                                                            
+Peer-review under responsibility of the scientific committee of the International Conference on Industry 4.0 and Smart Manufacturing. 
+
+
+International Conference on Industry 4.0 and Smart Manufacturing (ISM 2019) 
+
+
+Shipbuilding Supply Chain Framework and Digital Transformation: A 
+Project Portfolios Risk Evaluation 
+
+
+ Rafael Diaz(a)*, Katherine Smith(b), Rafael Landaeta(c), Antonio Padovano(d)  
+abVirginia Modeling Analysis & Simulation Center, Old Dominion University, Suffolk, VA 23435, USA 
+
+
+cFrank Batten College of Engineering and Technology, Old Dominion University, Norfolk, VA 23529, USA  
+dDIMEG, University of Calabria, Arcavacata di Rende, 87036, Italy 
+
+
+* Corresponding author. E-mail address: RDiaz@odu.edu 
+
+
+Abstract 
+
+
+Program portfolio managers in digital transformation programs have a need for knowledge that can guide decisions related to the alignment of 
+program investments with the sustainability and strategic objectives of the organization. The purpose of this research is to illustrate the utility of 
+a framework capable of clarifying the cost-benefit tradeoffs stemming from assessing digitalization program investment risks in the military 
+shipbuilding sector. Our approach uses Artificial Neural Network to quantify benefits and risks per project while employing scenario analysis 
+to quantify the effects of operational constraints. A Monte Carlo model is used to generate data samples that support the execution of the Neural 
+Network. This enables the use of Portfolio Management Theory principles to organize and estimate measures of performance of the 
+digitalization project portfolio. We demonstrate the utility of the framework by means of a theoretical case study presenting several 
+digitalization project investment scenarios. We conclude that the framework makes a contribution and call for additional work to extend this 
+framework to formalize the portfolio assessment activity while including acceptable risk ranges that constrain the final fractions of budget 
+allocations. 
+ 
+© 2020 The Authors. Published by Elsevier B.V.  
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the scientific committee of the International Conference on Industry 4.0 and Smart Manufacturing. 
+
+
+ Keywords: Project Management; Portfolio Management; Neural Networks; Cost Analysis; Training 
+
+
+ 
+1. Introduction 
+
+
+Operational and financial pressures in tandem with the 
+increasing demands of customers have intensified stress for 
+competent operations. The evolution of industrial systems 
+operating within intricate competitive environments has 
+placed substantial constraints on the configuration and 
+performance of agile, efficient, and flexible business and 
+institutional operations. Successful firms recognize that the 
+continual enhancement of existing operations is essential to 
+gaining and maintaining a competitive edge. These 
+organizations engage in strategic management initiatives by 
+employing effective project, program, and portfolio 
+management techniques to improve their operational 
+efficiency and responsiveness. However, while 88 percent of 
+
+
+executives assert that strategy implementation is critical to 
+their firms, only 61 percent recognize that their organizations 
+frequently have struggled in bridging the gap between 
+strategic goals and their everyday operation [1]. Furthermore, 
+in the digital transformation era, a smaller fraction of 
+executives confesses to truly engaging in digitalization 
+projects as they might be considered a risky endeavor [2]. 
+This gap suggests a lack of understanding that projects and 
+programs are catalysts in strategic change [3] as they 
+represent versatile structures that enable the realization of 
+distinctive and innovative organizational offerings [4].  
+
+
+Aligning digitalization projects or programs with strategic 
+objectives has the greatest potential to add value to an 
+organization [5,6]. Although, average organizations report 
+that three of five projects and programs are not aligned to 
+
+
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.promfg.2020.02.067&domain=pdf
+
+
+
+
+174 Rafael Diaz  et al. / Procedia Manufacturing 42 (2020) 173–180
+2 Author name / Procedia Manufacturing 00 (2019) 000–000 
+
+
+strategy, those that are aligned to an organization’s strategy 
+are successfully completed (71%) more frequently than 
+projects that are misaligned (48%) [3]. Problems caused by 
+misalignment include: confusion; waste of time, money and 
+opportunity; diminished productivity; de-motivation of 
+individuals and teams; internal conflicts and power struggles 
+and ultimately project failure [7]. In a shipyard, resources that 
+have been initially allocated to specific shipbuilding projects 
+may be pulled away to temporarily serve other projects (e.g., 
+maintenance, emergency repairs) [8]. For example, in the US 
+shipbuilding industry, important delays caused by a high 
+number of interactions from liberal concurrent engineering 
+policies has led to an 18 year maintenance backlog [8,9].   
+
+
+The alignment of projects and programs to strategic goals 
+requires stakeholders to develop a consistent means of 
+identifying, prioritizing, and defining metrics/outcomes and 
+their aligned outputs [10]. In this alignment process, a 
+program or project may be seen as a line of organized 
+activities that is intended to advance a product, practice, 
+procedure, or service towards meeting a need within the 
+government or marketplace, contribute to some type of 
+benefits (e.g., readiness, revenue), and contribute to the 
+sustainability of the organization. In an intensive capital 
+industry sector such as the military shipbuilding, this 
+organizational configuration by project/program makes sense 
+given the large number of non-repetitive and complex 
+activities and tasks associated to it [11]. Firms and institutions 
+that use this managerial perspective, generally group projects 
+and programs that have the potential to advance a common 
+organizational goal into portfolios that require continuous 
+control and evaluation [12]. Thus, an organization may have 
+several concurrent programs and each program may 
+encompass one or more projects or programs that address the 
+development of a product or capability that is understood to 
+contribute to longer-term institutional sustainability.  
+
+
+The shipbuilding industry that is largely characterized by 
+using a project-based approach to manufacture ships, 
+submarines, and engage in ship repair and overhaul [9] would 
+largely benefit from the implementation of novel 
+technological and operational means that seek to enhance its 
+questionable performance. Digital transformation programs 
+emerge as a means that seek to convert slow-, outdated-, and 
+ill-defined operations into data-driven agile and at the same 
+time lean operations based on the extensive use of Industry 
+4.0 technology [13–15]. 
+
+
+Mostly organized with a project-based configuration as 
+well, resources are temporarily assigned to carry on digital 
+transformation assignments that seek to increase industrial 
+capabilities and become more efficient and largely flexible 
+while increasing process and product integrity. These 
+digitally-oriented initiatives are mostly based on data sharing 
+and processing resulting in a paradigm shift in the way that 
+organizations, such as shipbuilding, engage in decision-
+making processes toward a data-driven approach [16].  Thus, 
+a set of digital transformation projects may be further 
+represented within a larger project or program portfolio, 
+supervised by a digital transformation portfolio manager. The 
+
+
+management of either a portfolio containing several projects, 
+or a specific program encompassing a set of projects, entails 
+an understanding of the mission of the organization and 
+decision-making that will realize benefits that are of strategic 
+importance [17,18]. Since the pursuit of programs and the 
+continuation of projects require expenditure of finite 
+organizational resources, the identification of digitalization 
+projects that are most aligned with strategic priorities is 
+critical for the success of the organization [19,20]. 
+
+
+Digital portfolio and project managers must necessarily 
+determine the variations in the amount of support among the 
+projects in an effort to maximize the utility of the mix in 
+advancing the organization towards its digital transformation 
+strategic goals. This prioritization process frequently involves 
+evaluating the relative risks, benefits, and costs among the 
+projects [21]. Maximizing benefit-cost relationships while 
+minimizing risks are common tasks performed in the planning 
+and controlling stages of project portfolio management. 
+
+
+Project portfolio managers seek to select or support 
+projects within the project’s portfolio that traditionally 
+balance benefits (mean) and risks (variance). Risk, however, 
+may be measured using other forms, e.g., conditional value at 
+risk (CVaR), Tail value at risk (TVaR), also known as tail 
+conditional expectation (TCE), or conditional tail expectation 
+(CTE). In this paper, the minimum variance opportunity set 
+indicates combinations of risks and benefits that yield the 
+minimum variance for a particular benefit. Hence, an efficient 
+digitalization project portfolio frontier may identify 
+investments in a set of projects where it is not possible to 
+obtain less risky project combinations relative a desired 
+benefit level.  
+
+
+The following sections of this paper presents a background 
+section that positions this work within the industrial context, 
+presents an innovative digital shipbuilding supply chain 
+framework; outlines a neural network analysis to examine 
+digital projects using a digital shipbuilding supply chain 
+perspective; presents a brief description of stochastic portfolio 
+analysis; and introduces a framework integrating these 
+approaches. This is followed by a brief analysis of a case 
+study in the development research industry illustrating the 
+application of the framework. The results stemming from the 
+analysis of theoretical scenarios are presented and discussed. 
+We then revisit and summarize the contributions of this work. 
+
+
+2. The Shipbuilding and Shipyard Supply Chain 
+Management Context 
+
+
+In general, supply chain refers to all parties involved, 
+directly or indirectly in fulfilling customer requests [22]. In 
+the shipbuilding supply chain management context, activities 
+upstream include procuring material and components from 
+numerous, complex suppliers to managing the deactivation of 
+ships and submarines downstream once they have reached 
+their end-of-life. The basic elements of a shipbuilding supply 
+chain management framework that seek to guide an 
+understanding of a value chain of these processes is presented 
+in Figure 1. 
+
+
+ 
+
+
+
+
+
+
+ Rafael Diaz  et al. / Procedia Manufacturing 42 (2020) 173–180 175
+ Author name / Procedia Manufacturing 00 (2019) 000–000  3 
+
+
+ 
+Fig. 1. Shipbuilding Supply Chain Framework 
+
+
+3. Digital Project Portfolio: Balancing Risk and Returns 
+
+
+A balance among risks and returns is required for each 
+combination of projects that compose the portfolio frontier. In 
+an industry sector such as military shipbuilding, monitoring 
+risk is an important endeavour as delays, labour availability, 
+and large expenditures may drastically affect the readiness 
+and sustainment of the fleet. The selection of these 
+opportunity sets may be determined by the indifference curve 
+map that describes the project strategic preferences and 
+policies. Accordingly, an optimal risk management portfolio 
+maximizes the average benefit while minimizing variance. 
+The risk associated with a project portfolio containing 
+multiple projects may be different from the risk associated 
+with an individual project. The different associated risks and 
+potential relationships among projects make project portfolio 
+management a complex subject.  
+
+
+The risk-benefit relationships associated with digital 
+transformation projects in a shipbuilding project-based 
+institution further increases the complexity as different types 
+of risk exert compounding effects on the already multifaceted 
+nature of the shipbuilding process. A proficient mechanism to 
+assess this compounding effect is important for assessing and 
+prioritizing digital transformation programs. 
+
+
+We assert that Artificial Neural Network (ANN) and 
+Monte Carlo simulation may be combined to offer a capable 
+framework that assists digital transformation portfolio 
+managers in performing an effective portfolio evaluation. The 
+objective of this research is to describe this framework and its 
+capacity to clarify the cost-benefit and risk trade-offs 
+stemming from modifying project investments. The 
+framework uses a hybrid between ANN and Monte Carlo 
+capabilities to determine the benefits and risks per 
+digitalization project considering the relationships that exist 
+among multiple relevant projects’ attributes, e.g., time, 
+control, and information. This Monte Carlo simulation 
+approach generates complementary samples that assist in 
+training the network model to increase its accuracy. 
+
+
+4. Digital Transformation Risk Evaluation Framework 
+
+
+A framework based on ANN to analyse project portfolios 
+is presented in this section and illustrated in Figure 2. The 
+approach uses ANN to determine the benefits and risk 
+associated with projects within a portfolio of projects. A 
+
+
+scenario analysis is performed to gain knowledge regarding 
+impacts of new constraints per project. This knowledge is 
+used to determine portfolio management measures of 
+performance that include overall benefits and variances. In 
+addition, project portfolio optimization can be potentially 
+used to minimize the overall portfolio variance while 
+maintaining risk-aversion and budget-constrained range 
+restrictions. This framework adequately captures the 
+complexities associated with determining risks and returns, 
+relevant cost and benefit considerations guided by a proven 
+assignment method. ANN assists by providing the critical 
+elements that guide the resource assignment process. This 
+framework consists of three stages summarized as follows. 
+
+
+4.1. Quantifying risks and benefits of digital transformation 
+projects 
+
+
+Risk in projects is commonly defined in terms of exposure 
+to explicit factors that present a threat to attaining the 
+expected results. For example, the probability-weighted 
+impact of an event on a project usually defines risk in 
+software development projects [23]. The notion of risk, 
+usually measured in dollars or time, may be characterized by 
+R = P x I , where R represents the risk exposure that is related 
+to an explicit risk issue while P is the probability the adverse 
+event will be realized, and I is the effect of the loss if the 
+undesired event materializes [24]. Often digital transformation 
+development risks are managed by lists which are ranked by 
+subjective qualitative measures resulting in excessive 
+expenditure of risk management resources. Risk identification 
+is the most critical step in risk management, yet often is 
+poorly done [25]. As fundamental aspects of digitalization 
+projects resemble those factors in software and hardware 
+development, the uncertainties considered in this paper are 
+guided by [26]. These uncertainties include time uncertainty, 
+which reflects uncertainties about the occurrence of expected 
+and unexpected events and the ability to react to them; control 
+uncertainty that concerns with inadequate authority to make 
+or influence decisions or inconsistency on processes; and 
+information uncertainty, which concerns with inadequate or 
+inaccurate information on which to base decisions. These 
+authors also suggest an extensive list of potential project 
+development risk concerns that includes but is not limited to 
+creeping user requirements, large size and complexity of 
+projects, complex applications, unnecessary features, and lack 
+of user support. 
+
+
+
+
+
+
+176 Rafael Diaz  et al. / Procedia Manufacturing 42 (2020) 173–180 
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia Manufacturing 00 (2019) 000–000   
+
+
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2351-9789 © 2020 The Authors. Published by Elsevier B.V.  
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)                                                                                                                                            
+Peer-review under responsibility of the scientific committee of the International Conference on Industry 4.0 and Smart Manufacturing. 
+
+
+
+
+
+ 
+Fig. 2. Digital Transformation Risk Evaluation Framework 
+
+
+ 
+Project portfolio evaluations require reasonable estimations 
+
+
+of the risks and associated benefits per project. The complex 
+and stochastic nature of project risks makes the analysis of 
+investment choices intended to mitigate risks, a candidate for 
+ANN analysis. ANN models have been recognized in the IT 
+development context as competent tools to reasonably 
+estimate these values accurately [27].  
+
+
+ANN models employ the concept of hidden layers which 
+are composed of a number of neurons (hidden neurons). 
+These models use mathematical functions to map inputs to 
+outputs and may be conceived as a massively parallel adaptive 
+network of simple nonlinear computing neurons, which are 
+intended to characterize and mimic some of the functionality 
+of the human nervous system in an effort to partially capture 
+some of its computational strengths [28]. ANN can be 
+described as a complex nonlinear characterization where the 
+task of variable transformation, composite variable 
+transformation, and model estimation are done simultaneously 
+in such a way that a specified error function is minimized 
+[29]. An appropriate number of hidden units depend on a 
+relationship between the number of input and output units, the 
+number of training cases, the type of hidden unit activation, 
+and the training algorithm [30].  
+
+
+ As a rule of thumb, it is well known that 30 observations 
+are required in the input layer per neuron in the hidden layer. 
+The ANN model cycles through an iterative process until a 
+termination criterion is reached.  
+
+
+In the studied context, the response model may reflect the 
+risk related to the likelihood of the occurrence of undesirable 
+events.  Thus, an overall project risk factor that relates 
+individual risk elements per project can be defined as a target 
+output. The ANN model obtained with historical data 
+
+
+(supervised training) is then executed with new information 
+about the assessed project portfolio, and thus the overall risk 
+per project can be obtained (scoring process). 
+
+
+4.2. Sampling Enhancement via Monte Carlo 
+
+
+Empirically generated continuous or discrete probability 
+distribution per risk component can be elicited from historical 
+data, subject matter expert (SME) information, or a 
+combination of both. These probability distributions per 
+project risk level can be used to generate samples through a 
+Monte Carlo simulation, and thus, to train the data that is used 
+to calculate overall risk to projects. The historical data reflects 
+a set composed of individual project risk factors and overall 
+risk scores per project information. Additional Monte Carlo 
+samples can be used to extend the historical and SME input 
+data set to an acceptable number of observations to improve 
+the accuracy of the ANN analysis. In this machine learning 
+process, the sample data is partitioned into three major groups 
+that include: learning (40%), training (30%), and testing 
+(30%). The Levenberg-Marquardt optimization technique (see 
+[31] for details) is used to train the data. 
+
+
+4.3. Neural Network Scoring 
+
+
+The knowledge created during the machine learning 
+training and testing process may be described as the 
+behavioral pattern of the effects resulting from different factor 
+risk arrangements. Given a selection criterion, such as 
+minimizing a set of error functions, the neural network model 
+is generated. A second data source that corresponds to the risk 
+scores of the assessed projects is obtained by applying the 
+
+
+
+
+
+
+ Rafael Diaz  et al. / Procedia Manufacturing 42 (2020) 173–180 177
+ Author name / Procedia Manufacturing 00 (2019) 000–000  5 
+
+
+neural network model to calculate the overall risk per project 
+as a target layer. To ensure the best neural network model is 
+obtained for computing overall risk per project, different types 
+of neural architecture can be used to train the data. However, 
+workers are required to carefully assess these opportunities as 
+each one might contain unacceptable risk levels (e.g., 
+additional cyber risks) that can jeopardize the operational 
+integrity. 
+
+
+5. Case Study 
+
+
+A Research and Development (R&D) institution that 
+investigates and develops digital solutions in the military 
+domains is engaged in three types of digitalization 
+development programs categorized by three risk levels (low, 
+medium, and high) with equal possibility as exhibited in 
+Table 1. 
+
+
+ 
+Table 1. Risk Factor Probability per Project Risk Level 
+ 
+
+
+  Low Risk Level Medium Risk Level High Risk Level 
+
+
+  1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 
+
+
+Creeping user (CR) 
+requirements 
+
+
+Probability .50 .25 .15 .06 .04 .10 .25 .40 .10 .15 .10 .15 .20 .35 .20 
+
+
+CR Risk .10 .30 .45 .50 .60 .20 .30 .45 .50 .70 .30 .35 .45 .55 .60 
+
+
+Large and Complex 
+Projects (LCP) 
+
+
+Probability .50 .20 .15 .10 .05 .10 .30 .35 .20 .05 .01 .05 .34 .40 .20 
+
+
+LCP Risk .05 .30 .40 .50 .60 .20 .30 .40 .50 .60 .30 .20 .35 .50 .60 
+
+
+Delay (D) Probability .65 .15 .10 0.06 0.04 .05 .30 .40 .20 .05 .05 .10 .25 .40 .20 
+
+
+D Risk .10 .25 .40 0.45 0.5 .15 .25 .40 .55 .60 .30 .30 .40 .65 .70 
+
+
+Control (CON) Probability .65 .15 .10 0.07 0.03 .05 .40 .35 .15 .05 .10 .20 .20 .30 .20 
+
+
+CON Risk .15 .25 .35 0.50 0.60 .20 .25 .35 .50 .60 .10 .25 .30 .50 .60 
+
+
+Complex User 
+Requirements (CUR) 
+
+
+Probability .65 .25 .05 0.04 0.01 .05 .30 .35 .25 .05 .10 .20 .25 .30 .15 
+
+
+CUR Risk .10 .30 .40 0.60 0.80 .20 .30 .40 .60 .80 .30 .35 .40 .60 .80 
+
+
+Unnecessary Features 
+(UF) 
+
+
+Probability .70 .15 .08 0.05 0.02 .10 .25 .35 .25 .05 .05 .15 .20 .50 .10 
+
+
+UF Risk .05 .10 .15 0.20 0.80 .05 .10 .15 .20 .80 .30 .10 .15 .20 .80 
+
+
+Lack of User Support 
+(LUS) 
+
+
+Probability .50 .20 .15 0.10 0.05 .10 .30 .35 .20 .05 .01 .09 .20 .45 .25 
+
+
+LUS Risk .10 .40 .50 0.60 0.90 .30 .40 .50 .60 .90 .30 .40 .50 .60 .90 
+
+
+ 
+ 
+Unlike most project studies that consider risk probabilities 
+
+
+as a continuous distribution (e.g., beta or normal 
+distributions), in this paper, we consider an empirically 
+discrete modeled distribution for characterizing these 
+probabilities. Thus, each individual risk probability is 
+partitioned into five sub-levels (1-5). Each level considers 
+both the probability of occurrence and associated risk degree 
+represented nominally and measured from 0 to 1.  For each 
+factor, the probability mass function adds up to 1. The risk 
+factors considered in these projects include: 1. Creeping user 
+requirements, 2. Large and project complexity, 3. Application 
+complexity, 4. Unnecessary features, and 5. Lack of user 
+support [26]. In addition, the manager ponders uncertainties 
+within three additional dimensions that include 60% in time 
+uncertainty, 10% in control uncertainty, and 30% in 
+information uncertainty. Notice that as explained before, risk 
+value represents a convoluted measure that characterizes the 
+probability that a project will fail to meet its objectives. 
+
+
+Table 2 presents the financial and individual risk factors 
+for ten ongoing projects A through J which requires 
+evaluation. The costs of each project as well as its cost as a 
+share of the entire portfolio (estimated by the portfolio 
+manager to be $124.7 million) are presented in the second and 
+third columns, while individual project risk information is 
+presented in columns four to eleven. 
+
+
+5.1. Determine benefits and risks 
+
+
+The portfolio manager computes the overall risk associated 
+with each project in the portfolio during a risk analysis phase. 
+This is done by assessing the importance, or weight, of the 
+individual risk factor for each project. ANN is used to 
+generate a model that can be used to relate individual risk 
+factors and produce an overall risk score for each individual 
+project. A simple ANN with 2 hidden layers with 8 neurons 
+each and a single output is used to produce these risk scores 
+(8-8-1) [32]. Eight was selected as this corresponds to each 
+the five project risks and three uncertainties. SAS Miner 7.1 is 
+employed to configure, execute, and compare the ANN 
+models. 
+
+
+The risk probability distribution presented in Table 1 per 
+project risk level is used to generate samples through a Monte 
+Carlo simulation, and thus, simulate the training data that is 
+used to evaluate overall project risks of the projects presented 
+in Table 2. Notice that some analysists and researchers might 
+use the Monte Carlo technique to generate samples and then 
+calculate averages in determining the overall project risks. 
+However, in this paper the Monte Carlo simulation is limited 
+only to determine samples that will feed the neural network 
+model as other authors has considered. The machine learning 
+approach used in this paper seeks to employ ANN as a better 
+approximation of the real risk behaviour exhibited by the 
+portfolio.  
+
+
+
+
+
+
+178 Rafael Diaz  et al. / Procedia Manufacturing 42 (2020) 173–180
+6 Author name / Procedia Manufacturing 00 (2019) 000–000 
+
+
+The historical data is based on a (disguised) data set 
+comprising individual project risk factors and overall risk 
+scores per project for 30 projects. More specifically, the 
+Monte Carlo samples obtained using the probability 
+distribution presented in Table 2 are used to extend the 
+historical input data set from 30 project observations to 300 
+observations. The sample data is further partitioned into three 
+major groups that include: learning (40%), training (30%), 
+and testing (30%).  
+
+
+As previously discusses, the knowledge created during the 
+training and testing process are assessed using 1. classical 
+multilayer perceptron (MLP), 2. ordinary radial basis function 
+with equal widths (ORBFEQ), 3. ordinary radial basis 
+function with unequal widths (ORBFUN), 4. normalized 
+radial basis with equal heights (NRBFEH), 5. normalized 
+radial basis with equal volumes (NRBFEV), 6. normalized 
+radial basis with equal widths (NRBFEW), 7. normalized 
+radial basis with equal widths and heights (NRBFEQ), 8. 
+normalized radial basis with unequal widths and heights 
+(NRBFUN). As mentioned, the Average Square Error from 
+the validating stage is used as the reference for model 
+selection. Table 3 shows the statistical results of this 
+comparison that suggests the normalized radial basis with 
+equal widths and heights (NRBFEQ) architecture outperforms 
+the alternative assessed ANN architectures. Thus, the 
+NRBFEQ architecture is employed to determine the risk data. 
+Once the ANN model using the NRBFEQ architecture is 
+selected to execute the ANN model, the target variable which 
+is overall risk per project is obtained as presented below in 
+Table 4. 
+ 
+Table 2. Current Project Investment and Risk Level per Risk Factor 
+ 
+
+
+P
+ro
+
+
+je
+ct
+
+
+
+
+
+C
+os
+
+
+t (
+$ 
+
+
+m
+ill
+
+
+io
+ns
+
+
+)  
+
+
+C
+R
+
+
+
+
+
+L
+C
+
+
+P
+ 
+
+
+D
+ 
+
+
+C
+O
+
+
+N
+ 
+
+
+C
+U
+
+
+R
+ 
+
+
+U
+F
+
+
+
+
+
+L
+U
+
+
+S  
+
+
+In
+fo
+
+
+rm
+at
+
+
+io
+n 
+
+
+A 15.0 .20 .30 .25 .35 .20 .10 .30 .22 
+
+
+B 20.1 .30 .40 .15 .20 .30 .10 .45 .31 
+
+
+C 2.30 .45 .50 .25 .35 .30 .20 .45 .38 
+
+
+D 14.0 .10 .05 .10 .25 .50 .10 .50 .25 
+
+
+E 9.0 .55 .50 .70 .30 .60 .30 .55 .50 
+
+
+F 12.3 .50 .05 .10 .15 .05 .05 .10 .15 
+
+
+G 7.0 .10 .05 .10 .15 .05 .15 .10 .09 
+
+
+H 11.0 .10 .05 .25 .15 .05 .10 .10 .08 
+
+
+I 16.0 .30 .30 .15 .35 .30 .15 .50 .31 
+
+
+J 18.0 .30 .50 .10 .15 .60 .10 .10 .32 
+
+
+6. Summary and Managerial Implications 
+
+
+Organizations may benefit from applying investment 
+allocation approaches traditionally employed in financial 
+markets analyses. A framework that combines the principles 
+of Artificial Neural Network and Monte Carlo Simulation to 
+analyze project portfolios may assist portfolio managers in 
+their resource allocation activities. Our approach uses ANN to 
+
+
+quantify benefits and risks per project while employing 
+scenario analysis to quantify the effects of constraints per 
+project. Monte Carlo simulation is used to obtain sample data 
+that facilitates the execution of the neural network. The results 
+from these simulations could be used to enable the use of 
+Portfolio Management Theory principles to organize and 
+estimate measures of performance and the utilization of 
+nonlinear programming tools to minimize the overall portfolio 
+variance while maintaining risk-aversion and budget-
+constrained parameters. 
+
+
+The digital transformation project risk evaluation 
+framework offered follows a logical approach. First, it uses 
+ANN to capture individual risk factors and quantify the 
+overall risk of each project. Cost-benefit analysis is then 
+employed to provide the foundation for performing a scenario 
+analysis. An examination of the effects of selected scenarios 
+can subsequently be performed. This examination is required 
+to understand variations in the potential resources assigned 
+per digitalization projects. Afterward, correlation and 
+covariance matrices can be determined. These correlations 
+may represent elicited perceptions that indicate how 
+individual projects are related. The covariance matrix can 
+relate the project correlations, the returns, and the variability 
+or risk required. The overall digitalization project portfolio 
+returns, and the portfolio variance can be then determined. 
+Returns and variances can be subsequently recalculated given 
+additional constraints. Thus, portfolio managers are able to 
+optimize the distribution of available resources while 
+preserving portfolio integrity.  
+
+
+It is important for training analysts and managers to 
+perform risk evaluations as the organization moves through 
+digital transformation process while achieving strategic goals. 
+In particular, organizations engaged in becoming data-driven 
+managed and operated might consistently reveal vast 
+opportunities to digitalize their operations. However, workers 
+are required to carefully assess these opportunities as each one 
+might contain unacceptable risk levels (e.g., additional cyber 
+risks) that can jeopardize the operational integrity. Digital 
+project portfolio analysts and managers are required to learn 
+the type of risks that their portfolio may contain. Likewise, 
+they should be trained in the use of competent tools to elicit 
+projects risks and determine desired risk thresholds for their 
+firm. This enables the anticipation of actions and plans that 
+makes the organization more resilient as vulnerability might 
+increase if risks are not properly elicited. Training modules 
+might include introduction to digital supply chain to provide 
+an overview of the shipbuilding context and risk 
+quantification methodologies as they apply to specific settings 
+of the shipbuilding process. 
+
+
+Future research endeavours include extending this 
+framework to consider calculating the overall portfolio 
+performance, optimizing resource allocation, and determining 
+acceptable risk ranges per project that constrain the final 
+fractions of budget allocations as well as including the 
+examination of portfolio actions that balance resource 
+allocations considering risks and benefits. This might trigger 
+project removal decisions for those projects whose acceptable 
+risk ranges violate upper or lower boundaries. 
+ 
+
+
+
+
+
+
+ Rafael Diaz  et al. / Procedia Manufacturing 42 (2020) 173–180 179 Author name / Procedia Manufacturing 00 (2019) 000–000  7 
+
+
+ 
+Table 3. Neural Network Architectures: Statistical Evaluation (AIC: Akaike’s Information Criterion; SBC: Schwarz’s Bayesian Criterion; ASE: Average Squared 
+Error; MAE: Maximum Absolute Error; RASE: Root Average Squared Error; SSE: Sum of Squared Errors; FPE: Final Prediction Error; MSE: Mean Squared 
+Error; RFPE: Root Final Prediction Error; RMSE: Root Mean Squared Error; AEF: Average Error Function; EF: Error Function) 
+
+
+ 
+ANN Architecture Valid: ASE AIC SBC ASE MAE RASE SSE FPE MSE RFPE RMSE AEF EF 
+
+
+NRBFEQ 3.33E-06 -1372.62 -1169.13 3.19E-06 .0093 .0018 .0004 1.310E-05 8.15E-06 .0036 .0029 3.19E-06 .0004 
+
+
+NRFEW 4.36E-06 -1366.40 -1140.61 2.94E-06 .0057 .0017 .0004 1.518E-05 9.05E-06 .0040 .0030 2.94E-06 .0004 
+
+
+MLP 5.25E-06 -1323.98 -1098.19 4.19E-06 .0095 .0020 .0005 2.157E-05 1.29E-05 .0047 .0036 4.19E-06 .0005 
+
+
+NRBFUN 1.09E-05 -1198.70 -953.40 1.06E-05 .0107 .0033 .0013 6.888E-05 3.97E-05 .0083 .0063 1.06E-05 .0013 
+
+
+ORBFUN 1.38E-05 -1217.82 -992.03 1.01E-05 .0102 .0032 .0012 5.227E-05 3.12E-05 .0072 .0056 1.01E-05 .0012 
+
+
+NRBFEV 2.48E-05 -1311.71 -1088.71 4.72E-06 .0063 .0022 .0006 2.379E-05 1.42E-05 .0049 .0038 4.72E-06 .0006 
+
+
+ORBFEQ 3.39E-05 -1212.57 -1006.30 1.19E-05 .0086 .0035 .0014 5.024E-05 3.11E-05 .0071 .0056 1.19E-05 .0014 
+
+
+NRBFEH 1.31E-04 -1511.94 -1288.94 8.89E-07 .0037 .0009 .0001 4.446E-06 2.67E-06 .0021 .0016 8.89E-07 0.001 
+
+
+ 
+Table 4. Neural Network Architectures: Statistical Evaluation 
+ 
+
+
+Project 
+Project Cost 
+(millions) 
+
+
+Percent of 
+Portfolio Cost 
+
+
+Scored 
+Risk 
+
+
+A 15.00 .1203 .25 
+B 20.10 .1612 .20 
+C 2.30 .0184 .30 
+D 14.00 .1123 .16 
+E 9.00 .0722 .60 
+F 12.30 .0986 .12 
+G 7.00 .0561 .10 
+H 11.0 .0882 .19 
+I 16.0 .1283 .22 
+J 18.0 .1443 .17 
+
+
+Acknowledgements 
+
+
+This research has been partially supported by the Digital 
+Shipbuilding Initiative - GoVirginia.org. 
+
+
+References 
+
+
+[1] Economist Intelligence Unit, Why Good Strategies Fail: Lessons 
+for the C-Suite, 2013. https://www.pmi.org/-
+/media/pmi/documents/public/pdf/learning/thought-leadership/why-
+good-strategies-fail-report.pdf (accessed April 27, 2019). 
+
+
+[2] S.J. Andriole, Five myths about digital transformation, MIT Sloan 
+Manag Rev. 58 (2017). 
+https://doi.org/10.7551/mitpress/11633.003.0005. 
+
+
+[3] Project Management Institute, The high cost of low performance, 
+Pulse Prof. (2014). 
+
+
+[4] I.R. Bardhan, V. V. Krishnan, S. Lin, Project performance and the 
+enabling role of information Technology: An exploratory study on 
+the role of alignment, Manuf Serv Oper Manag. 9 (2007) 579–595. 
+https://doi.org/10.1287/msom.1070.0163. 
+
+
+[5] S. Ransbotham, D. Kiron, Analytics as a Source of Business 
+Innovation, MIT Sloan Manag Rev. 58 (2017). 
+https://doi.org/10.1002/ece3.1283. 
+
+
+[6] S. Ransbotham, D. Kiron, P. Gerbert, M. Reeves, Reshaping 
+business with artificial intelligence., MIT Sloan Mangement Rev. 
+59 (2017). https://doi.org/10.3934/dcdsb.2008.10.925. 
+
+
+[7] S. Box, K. Platts, Business process management: Establishing and 
+maintaining project alignment, Bus Process Manag J. 11 (2005) 
+
+
+370–387. https://doi.org/10.1108/14637150510609408. 
+[8] U.S.G.A. Office, Naval Shipyards - Actions Needed to Improve 
+
+
+Poor Conditions that Affect Operations, 2017. 
+https://www.gao.gov/assets/690/687105.pdf (accessed October 11, 
+2019). 
+
+
+[9] United States Government Accountability Office, Navy 
+Shipbuilding - Past Performance Provides Valuable Lessons for 
+Future Investments, 2018. 
+https://www.gao.gov/assets/700/692331.pdf (accessed October 11, 
+2019). 
+
+
+[10] K. Nogeste, D.H.T. Walker, Development of a method to improve 
+the definition and alignment of intangible project outcomes and 
+tangible project outputs, Int J Manag Proj Bus. 1 (2008) 279–287. 
+https://doi.org/10.1108/17538370810866377. 
+
+
+[11] W.J. Stevenson, Operations Management, McGraw-Hill Education, 
+2003. 
+
+
+[12] S.K. Sebastian Nokes, The definitive guide to project management: 
+the fast track to getting the job done on time and on budget, Pearson 
+Education, 2003. 
+
+
+[13] C. Matt, T. Hess, A. Benlian, Digital Transformation Strategies, 
+Bus Inf Syst Eng. 57 (2015) 339–343. 
+https://doi.org/10.1007/s12599-015-0401-5. 
+
+
+[14] M. Rüßmann, M. Lorenz, P. Gerbert, M.Waldner, J. Justus, P. 
+Engel, M. Harnisch., Industry 4.0: the Future of Productivity and 
+Growth in Manufacturing Industries., 2015. 
+
+
+[15] A. Ustundag, E. Cevikcan, Industry 4.0: Managing The Digital 
+Transformation, 2018. https://doi.org/10.1007/978-3-319-57870-5. 
+
+
+[16] F. Provost, T. Fawcett, Data Science and its Relationship to Big 
+Data and Data-Driven Decision Making, Big Data. 1 (2013) 51–59. 
+https://doi.org/10.1089/big.2013.1508. 
+
+
+[17] Office of Government Commerce, Managing Successful 
+Programmes, The Stationery Office, 2007. 
+
+
+[18] K. Artto, M. Martinsuo, H.G. Gemünden, J. Murtoaro, Foundations 
+of program management: A bibliometric view, Int J Proj Manag. 27 
+(2009) 1–18. https://doi.org/10.1016/j.ijproman.2007.10.007. 
+
+
+[19] T.S. Glickman, Program portfolio selection for reducing prioritized 
+security risks, Eur J Oper Res. 190 (2008) 268–276. 
+https://doi.org/10.1016/j.ejor.2007.06.006. 
+
+
+[20] Project Management Institute, A guide to the project management 
+body of knowledge (PMBOK® guide), 2008. 
+
+
+[21] G. Reiss, M. Anthony, J. Chapman, G. Leigh, A. Pyne, Gower 
+Handbook of Programme Management, Routledge, 2006. 
+
+
+
+
+
+
+180 Rafael Diaz  et al. / Procedia Manufacturing 42 (2020) 173–180
+8 Author name / Procedia Manufacturing 00 (2019) 000–000 
+
+
+[22] S. Chopra, P. Meindl, Supply Chain Management. Strategy, 
+Planning & Operation, Prentice Hall, New Jersey, 2010. 
+https://doi.org/10.1007/978-3-8349-9320-5_22. 
+
+
+[23] R.N. Charette, The mechanics of managing IT risk, J Inf Technol. 
+11 (1996) 373–378. https://doi.org/10.1057/jit.1996.10. 
+
+
+[24] P.L. Bannerman, Risk and risk management in software projects: A 
+reassessment, J Syst Softw. 81 (2008) 2118–2133. 
+https://doi.org/10.1016/j.jss.2008.03.059. 
+
+
+[25] Y.H. Kwak, J. Stoddard, Project risk management: Lessons learned 
+from software development environment, Technovation. 24 (2004) 
+915–920. https://doi.org/10.1016/S0166-4972(03)00033-6. 
+
+
+[26] D.X. Houston, G.T. Mackulak, J.S. Collofello, Stochastic 
+simulation of risk factor potential effects for software development 
+risk management, J Syst Softw. 59 (2001) 247–257. 
+https://doi.org/10.1016/S0164-1212(01)00066-8. 
+
+
+[27] H. Park, S. Baek, An empirical validation of a neural network 
+
+
+model for software effort estimation, Expert Syst Appl. 35 (2008) 
+929–937. https://doi.org/10.1016/j.eswa.2007.08.001. 
+
+
+[28] R. Lippmann, Book Review: “Neural Networks, A Comprehensive 
+Foundation”, by Simon Haykin, Int J Neural Syst. 5 (1994) 363–
+364. 
+
+
+[29] S.K. Sarma, Predicting modeling with SAS practical solution for 
+business application, (2007). 
+
+
+[30] E.B.R.D. Stuart Geman, Neural networks and the bias/variance 
+dilemma, Neural Comput. 4 (1992) 1–58. 
+
+
+[31] M.I.A. Lourakis, A Brief Description of the Levenberg-Marquardt 
+Algorithm Implemened by levmar, Found Res Technol. 4 (2005) 1–
+6. https://doi.org/10.1016/j.ijinfomgt.2009.10.001. 
+
+
+[32] J. Singh, B. Sahoo, Software Effort Estimation with Different 
+Artificial Neural Network, (2012). 
+
+
+
+
+
+ 
+
+
+
+

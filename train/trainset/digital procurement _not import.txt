@@ -1,0 +1,4583 @@
+
+
+
+
+
+
+
+
+
+
+Contents lists available at ScienceDirect
+
+
+Journal of Purchasing and Supply Management
+journal homepage: www.elsevier.com/locate/pursup
+
+
+You'll never walk alone: Why we need a supply chain practice view on
+digital procurement
+Tobias Kosmola, Felix Reimannb,∗, Lutz Kaufmannb
+a INVERTO GmbH, Schackstraße 1, 80539 Munich, Germany
+bWHU – Otto Beisheim School of Management, Burgplatz 2, 56179, Vallendar, Germany
+
+
+A R T I C L E I N F O
+
+
+Keywords:
+Digital procurement
+Supply chain practice view
+Digital readiness
+Technology adoption
+
+
+A B S T R A C T
+
+
+This paper conceptualizes digital procurement readiness as a dyadic construct and introduces the supply chain
+practice view (SCPV) as a theoretical lens that can help guide future research on digital procurement. We build on
+a literature review and on dyadic, explanatory case studies to provide a nuanced understanding of how the
+digital readiness of supply chain partners—on both sides of the dyad—needs to co-evolve for the implementation
+of digital procurement practices. Specifically, we outline how the SCPV can serve as both a holistic and a supply
+chain-specific framework for future research on the following: 1) the antecedents that help explain why supply
+chain partners adopt inter-organizational digital procurement practices, and 2) the relational performance
+outcomes derived from their use. For managers, this study implies the need to explicitly consider interactions
+with and influences of supply chain partners in their quest to rapidly and effectively digitalize procurement.
+
+
+1. Introduction
+
+
+Digital procurement practices involve “the use of advanced ‘digital
+technologies’ for procurement purposes” (Srai and Lorentz, 2019, p.
+15). Advanced digital technologies, such as big data analytics, the In-
+ternet of Things, cloud computing, and additive manufacturing, pro-
+mise to fundamentally change the way buying firms collaborate with
+their supply network around the globe (Batran et al., 2017; Pellengahr
+et al., 2016). Leading companies have obtained significant process ef-
+ficiencies and cost savings from the use of digital technologies in pro-
+curement. For example, BASF has done so by using IBM Watson's arti-
+ficial intelligence system to catalog and evaluate its suppliers (McGee,
+2018). Despite a few early success cases, the vast majority of firms still
+have a long way to go on their digitalization journey. A pilot study on
+digital procurement in Europe showed that more than two-thirds of the
+participating companies had not yet implemented any advanced digital
+technologies (Pellengahr et al., 2016, p. 15). If these firms aim to im-
+plement digital procurement practices, a vital first step is to understand
+which organizational prerequisites need to be in place for a successful
+implementation. When can a company and its purchasing function be
+considered ready to embark on the journey toward advanced digital
+procurement?
+
+
+The existing purchasing and supply management (PSM) literature
+provides only limited guidance for such a transformation. It has focused
+
+
+primarily on how the use of digital technologies (e.g., big data analytics,
+cloud computing, automated procure-to-pay processes, real-time spend
+analytics, and virtual supplier rooms) can create value (Richey et al.,
+2016; Srai and Lorentz, 2019). With this focus on the use of technolo-
+gies and applications, the literature sheds little light on the organiza-
+tional factors that need to be in place prior to use. What prevents the
+majority of firms from implementing digital procurement practices at
+this point? We know little about the factors that constitute firms’ ability
+to embrace and use new digital technologies in procurement. Adopting
+the terminology used in the wider field of technology management, we
+denote the degree to which firms fulfill these requirements as digital
+procurement readiness (Parasuraman, 2000; Richey et al., 2007).
+
+
+A second limitation of the existing literature on digital procurement
+is its strong, if not exclusive, focus on the buying firm, thus widely ne-
+glecting supply chain partners’ ability or inability to embrace and use
+new digital technologies in their interactions with buying firms.
+Procurement, by its nature, is a function that spans firm boundaries and
+connects organizations. Many digital procurement technologies connect
+systems of the buying firm with systems of the supplier. Thus, digital
+readiness is required on both sides of the buyer–supplier dyad so that
+the use of the technologies to their full extent becomes possible.
+Because of the crucial role of inter-organizational linkages in digital
+procurement, we call for a theoretical perspective that explicitly ac-
+counts for the dyad and network levels.
+
+
+https://doi.org/10.1016/j.pursup.2019.100553
+Received 28 May 2018; Received in revised form 30 June 2019; Accepted 15 July 2019
+
+
+∗ Corresponding author.
+E-mail addresses: tobias.kosmol@whu.edu (T. Kosmol), felix.reimann@whu.edu (F. Reimann), kaufmann@whu.edu (L. Kaufmann).
+
+
+
+http://www.sciencedirect.com/science/journal/14784092
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.elsevier.com/locate/pursup
+
+https://doi.org/10.1016/j.pursup.2019.100553
+
+https://doi.org/10.1016/j.pursup.2019.100553
+
+mailto:tobias.kosmol@whu.edu
+
+mailto:felix.reimann@whu.edu
+
+mailto:kaufmann@whu.edu
+
+https://doi.org/10.1016/j.pursup.2019.100553
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.pursup.2019.100553&domain=pdf
+
+
+
+
+Third, because the existing digital procurement literature has a
+strong practitioner orientation, the theoretical underpinning of many of
+these works is relatively weak (Spina et al., 2016). The few studies that
+develop theoretical arguments adopt grand theories from outside the
+PSM field, such as the resource-based view (Barney, 1991, 2012).
+However, theories specifically developed for the PSM field – or the
+broader operations and supply chain management (OSCM) discipline –
+could better incorporate key constructs associated with managing the
+supply base, such as inter-organizational buyer–supplier relationships
+or complex supply networks (Carter et al., 2015; Spina et al., 2016).
+This approach to strengthening the theoretical foundation of research
+on digital procurement is yet to be explored.
+
+
+To address these gaps, we seek to provide answers to the following
+research questions: 1) How can digital readiness be conceptualized, and
+how does it influence the implementation of digital procurement
+practices? 2) How can a theoretical perspective that explicitly accounts
+for the interplay between the buying firm and supply chain partners help to
+guide future research on digital procurement?
+
+
+Building on the notion that the breadth and depth of the digital
+transformation in procurement necessitates both a holistic and a supply
+chain-specific theoretical lens, spanning across organizational bound-
+aries, we suggest the adoption of the supply chain practice view (SCPV)
+(Carter et al., 2017b). The SCPV, a theoretical perspective developed in
+the OSCM discipline, posits that firms can use imitable, inter-organi-
+zational SCM practices to improve performance in supply chains. Ex-
+plicitly opting for the inter-organizational level of analysis, the SCPV
+seeks to explain why firms adopt SCM practices and helps to clarify how
+the use of SCM practices leads to relational performance in the supply
+chain.
+
+
+To supplement our conceptual development, we conducted ex-
+planatory case studies of six buyer–supplier dyads (Dubois and Salmi,
+2016; Ketokivi and Choi, 2014). The case studies provide a more
+nuanced understanding of how digital readiness on both sides of the
+buyer–supplier dyad mutually influences the implementation of digital
+procurement technologies.
+
+
+In sum, this research aims to make three contributions to the PSM
+literature. First, it advances the still-embryonic literature on digital
+procurement by introducing the SCPV as a comprehensive theoretical
+grounding for the discussion of digital procurement. Second, in contrast
+to prior PSM research that takes the buying firm as the unit of analysis,
+this study adopts a dyadic perspective and accounts for the digital
+readiness of both buyers and suppliers. Findings from our explanatory
+case studies underscore the importance of this dyadic perspective.
+Third, this study extends the prevailing focus on the use of digital
+technologies in PSM (Srai and Lorentz, 2019) and investigates their
+antecedents as important factors in explaining and understanding the
+adoption of digital technologies. In particular, we conceptualize digital
+procurement readiness as a critical antecedent on the side of the buying
+firm and supplier digital readiness as the necessary complement on the
+other side of the dyad.
+
+
+2. A supply chain practice view on digital procurement
+
+
+Although the field of PSM is maturing and increasing in relevance,
+academic research in the PSM field often lacks a strong theoretical
+grounding (Spina et al., 2016) – and research on digital procurement
+appears to be no exception. However, a solid theoretical foundation is
+indispensable in increasing the OSCM discipline's maturity and in de-
+veloping meaningful future research on digital procurement (Spina
+et al., 2016; Srai and Lorentz, 2019).
+
+
+To strengthen the theoretical foundation of research on digital
+procurement, two possible, complementary approaches exist (Spina
+et al., 2016): First, researchers can adopt (grand) theories from man-
+agement and economics, such as the resource-based view (Barney,
+1991, 2012) or transaction cost economics (Williamson, 2008), and
+apply them to the PSM field and, in particular, to the context of digital
+
+
+procurement. Extant studies on digital procurement that undertake
+such adoption either build on a single theory (e.g., Richey et al., 2016)
+or eclectically combine multiple theories (e.g., Srai and Lorentz, 2019).
+Adopting grand theories from management and economics helps to root
+PSM research in consolidated theoretical frameworks and facilitates
+recognition by the broader management research. Second, researchers
+can draw on (mid-range) theories developed within the PSM field or in
+the broader supply chain discipline. This approach might allow for a
+better fit with the specifics of PSM-related phenomena because it ex-
+plicitly considers key constructs associated with managing the supply
+base, such as sourcing decisions, buyer–supplier relationships, the
+supply chain, and supply networks (Carter et al., 2015; Spina et al.,
+2016).
+
+
+Following the second approach, this paper builds on the SCPV
+(Carter et al., 2017b) – a theoretical lens that examines how firms can
+use imitable, inter-organizational SCM practices to improve relational
+performance in supply chains. The SCPV builds on the practice-based
+view (Bromiley and Rau, 2014, 2016), which is a theoretical foundation
+from strategic management research, and extends it to the inter-orga-
+nizational level of analysis. In an SCPV research model, the explanatory
+variables seek to answer the question of why firms adopt SCM practices.
+In addition, the link between SCM practices and performance helps to
+better explain how using SCM practices leads to enhanced relational
+performance in the supply chain. In contrast to other theories that focus
+on inimitable resources, such as the resource-based view (Barney,
+2012) or the relational view (Dyer and Singh, 1998), the SCPV posits
+that the use of imitable SCM practices is needed as a means to explain
+performance outcomes. The explanatory variables can be viewed as
+antecedents or enablers of the SCM practice (Wang et al., 2018).
+
+
+The SCPV can be a particularly fruitful theoretical lens for research
+on digital procurement for two primary reasons: 1) It provides a holistic
+view that incorporates the antecedents to and the use of digital tech-
+nologies in procurement, as well as the performance outcome; and 2) it
+explicitly considers the interplay of the buyer and the supplier by fo-
+cusing on the dyad or network level of analysis for each of these ele-
+ments. Fig. 1 presents our theoretical model for applying the SCPV to
+digital procurement. The model extends previous studies on the use
+perspective of digitalization in PSM (Srai and Lorentz, 2019) and pro-
+vides a conceptual framework for research on digital procurement
+comprising the following three key elements: 1) Digital procurement
+readiness on both sides of the buyer–supplier dyad as an explanatory
+factor for the adoption of digital technologies; 2) digital procurement
+practices to describe the use of digital technologies across organizational
+boundaries; and 3) performance, both individual and relational, as the
+outcome variable. To expand this basic SCPV model, moderating and
+mediating effects can be considered.
+
+
+In sum, the SCPV provides a coherent and sufficiently robust orga-
+nizing framework for guiding research on digital procurement. First,
+relating to the explanatory variables, the SCPV helps to answer the
+question of why firms adopt digital procurement practices or refrain
+from doing so. This link between explanatory variables and the adop-
+tion of inter-organizational digital procurement practices is the focus of
+the empirical case studies in this paper. Second, relating to the de-
+pendent variable of interest, the SCPV encourages researchers to study
+which intermediate outcomes and relational performance effects digital
+procurement practices have on supply chains. Exemplary research
+questions might ask whether digital procurement practices measurably
+increase relational performance, or whether practice A is more effective
+than practice B. In this paper, we provide initial guidance regarding
+possible future research on performance outcomes, based on a review of
+the literature and on additional insights from our empirical cases. In the
+following sections, we build on a literature review to explain in more
+detail how the individual elements of the theoretical model apply to
+digital procurement.
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+
+
+
+
+2.1. Literature review process
+
+
+To identify digital procurement practices, relevant explanatory
+factors, and performance effects of digital procurement, we conducted
+an extensive literature review (Durach et al., 2017a) on digital pro-
+curement and organizational readiness. We focused on peer-reviewed
+articles in leading academic journals in the disciplines of supply chain
+management and information systems (IS) management. These journals
+were identified based on strong citation impact factors in the Associa-
+tion of Business Schools (2018) journal ranking (Carter et al., 2017a).
+For SCM, we included eight leading journals that also have been in-
+cluded in previous literature reviews (Johnsen et al., 2016). For IS
+management, we included four leading journals, in line with previous IS
+management research (Chen et al., 2010). (See Appendix A.) Because of
+the nascent stage of the field, we limited our search to articles published
+within the past 16 years (i.e., since 2003). To identify relevant pub-
+lications on digital procurement, we searched titles, abstracts, and
+keywords using the digitalization-related search terms identified by Srai
+and Lorentz (2019) (e.g., “digital,” “e-procurement,” and “big data”).
+To locate relevant publications on organizational readiness, we sear-
+ched titles, abstracts, and keywords using “readiness” as our search
+term. This keyword search identified a preliminary sample of 537
+journal articles. We then reviewed the titles and abstracts of each article
+and eliminated the ones that were not related to a business-to-business
+context or that did not have a PSM focus. This review yielded 77 arti-
+cles, the full text of which we examined in detail. We further excluded
+articles that were not directly related to our research questions because
+they focused on, for example, the individual or country level of ana-
+lysis. This process resulted in a final sample of 38 core articles con-
+taining detailed information about the dimensions of (digital) pro-
+curement readiness. In the next subsections, we apply the SCPV to
+digital procurement to synthesize the findings from our literature re-
+view.
+
+
+2.2. Digital procurement practices
+
+
+The term, “digital procurement practices,” refers to the use of “di-
+gital technologies,” either individually or in combination, for procure-
+ment purposes (Srai and Lorentz, 2019). Srai and Lorentz (2019) dis-
+tinguish between basic and advanced digital technologies. Basic digital
+technologies mainly include e-procurement, which refers to “the sour-
+cing of goods or services via electronic means, usually through the In-
+ternet” (Ronchi et al., 2010; Schoenherr and Tummala, 2007). E-pro-
+curement applications, such as buyer-side e-RfX systems and electronic
+
+
+marketplaces, have been used by firms for more than ten years to fa-
+cilitate internal and external procurement processes (Mishra et al.,
+2007; Ramkumar et al., 2019; Tatsis et al., 2006). Dozens of e-pro-
+curement solutions currently are on the market, and new technologies –
+like robotic process automation (RPA) – promise to automate additional
+tasks in the e-procurement process (Högel et al., 2018).
+
+
+Advanced digital technologies include a range of digital technologies
+that have emerged more recently, such as cloud computing, the Internet
+of Things, additive manufacturing, and big data analytics (Srai and
+Lorentz, 2019). As the central interface between internal and external
+business partners, procurement is in a unique position to analyze and
+use the “big data” that flow between a buying company and its sup-
+pliers (Handfield et al., 2019; Kache and Seuring, 2017). Practitioners
+expect procurement to tap new sources of value by studying these data
+using big data analytics tools (Weise et al., 2018). Examples include
+pay-per-use contracting models or artificial intelligence (AI)-based de-
+mand and supply forecasting procedures.
+
+
+Digital procurement practices can encompass both intra- and inter-
+organizational SCM practices. The SCPV defines inter-organizational
+SCM practices as “a specific activity or a set of activities that spans
+different formal organizations and that other supply chain dyads or
+networks can imitate” (Carter et al., 2017b, p. 116). The notion of
+imitability in the SCPV means that these SCM practices are amenable to
+transfer across firms – in contrast to assumptions about inimitable re-
+sources in resource-based theory. Conceptually, inter-organizational
+SCM practices differ from intra-organizational SCM practices in that
+they require mutual efforts from two or more organizations to be ef-
+fective (Carter et al., 2017b; Zimmermann and Foerstl, 2014). For ex-
+ample, use of real-time spend analytics through mobile apps can be
+classified as an intra-organizational practice because it mainly draws on
+data residing in the buying firm's internal database. In contrast, e-
+procurement can be classified as a dyadic inter-organizational SCM
+practice because it relies on bi-directional electronic information ex-
+change between buyers and suppliers. In reality, the distinction be-
+tween intra- and inter-organizational SCM practices is not always clear-
+cut; rather, the continuum can range from the organization to dyads,
+triads, and the extended network (Carter et al., 2017b).
+
+
+Although many digital procurement practices are dyadic in nature,
+the SCPV can also be applied to study digital procurement practices in
+triads or extended networks – an important shift in that “network
+practices … are likely to gain importance for the performance of supply
+chains in the future” (Carter et al., 2017b, p. 120). For example, cloud-
+based risk analytics might be classified as an inter-organizational net-
+work practice because data from multiple external sources is integrated,
+
+
+Fig. 1. A supply chain practice view on digital procurement.
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+such as suppliers' delivery status, external service providers’ weather
+data, and news feeds from social media.
+
+
+The use of inter-organizational digital procurement practices in-
+evitably is bound to the willingness and ability of all involved parties to
+collaborate and integrate with key partners in the supply chain (Kache
+and Seuring, 2017). Therefore, the SCPV, when applied to digital pro-
+curement, explicitly takes an inter-organizational perspective that en-
+ables us to account for the role of suppliers.
+
+
+2.3. Digital procurement readiness
+
+
+Factors affecting the adoption of digital technologies can be located
+at different levels of analysis. Extant studies on basic digital procure-
+ment technologies (i.e., e-procurement) have begun to explore ante-
+cedents to their use at the individual level (e.g., employee-level user
+acceptance) (Brandon-Jones and Kauppi, 2018), at the organizational
+level (e.g., management support) (Rotchanakitumnuai, 2013), and at
+the industry level (e.g., industry traditionalism) (Tatsis et al., 2006). At
+the organizational level, PSM researchers emphasize that the keys to
+technology use are related to readiness, meaning that a company must
+be “ready” – by fulfilling certain prerequisites – if it is to use the
+technology (Kros et al., 2011; Ray et al., 2005; Richey et al., 2007). In
+the context of our study, we define digital procurement readiness as a
+company's ability to embrace and use new digital technologies in pro-
+curement (Parasuraman, 2000; Richey et al., 2007).
+
+
+To conceptualize the dimensions of digital procurement readiness,
+we synthesize the dimensions used in extant research (see Table 1). To
+structure the factors that potentially influence the use of digital tech-
+nologies in procurement, we draw on the technology–organizatio-
+n–environment (TOE) framework (Tornatzky and Fleischer, 1990). This
+framework divides antecedents that affect the use of new technologies
+into three categories: technological, organizational, and environmental.
+Prior research has applied the TOE framework to study both the use of
+big data analytics in supply chain management (Chen et al., 2016) and
+Internet use in procurement (Mishra et al., 2007). Although previous
+studies generally have found empirical support for use of the TOE fra-
+mework, the specific factors used within each of the three categories
+vary across different studies (Chen et al., 2016).
+
+
+Technological readiness. The literature has identified technological
+readiness as a key factor in the adoption decision (Li et al., 2017; Zhu
+et al., 2006). Technological readiness refers to a company's “ability to
+embrace and use new technological assets” (Richey et al., 2007, p. 195).
+Prior studies have demonstrated the importance of technological
+readiness in the adoption of enterprise resource planning (ERP) systems
+(Li et al., 2017), e-business (Zhu et al., 2006), and radio frequency
+identification (RFID) technology (Kros et al., 2011). In these cases,
+technological readiness comprises two features: 1) the information
+technology (IT) infrastructure that enables digital procurement, and 2)
+the human resources that possess the knowledge and skills to implement
+digital technologies (Venkatesh and Bala, 2012; Zhu et al., 2006).
+
+
+IT infrastructure refers to information technologies that enable di-
+gital procurement practices (Zhu et al., 2006). Because firms differ
+significantly in the IT infrastructure available to them, infrastructure
+has been identified as one of the main challenges for digital procure-
+ment (Kache and Seuring, 2017; Mishra et al., 2007). Information
+technologies, such as electronic data interchange (EDI), establish a
+platform on which digital procurement practices can be built by en-
+abling information transfer within and across firm boundaries (Autry
+et al., 2010; Liu et al., 2016; Saldanha et al., 2015). Integrated systems
+at the back end, such as an ERP system and a data warehousing system,
+provide the “nerve system” for digital procurement by connecting se-
+parate systems on common data standards and communication plat-
+forms (Dong et al., 2009). A more recent type of IT infrastructure is
+cloud computing, which is “a virtualized IT resource and can take the
+form of software as a service (SaaS), infrastructure as a service (IaaS),
+and/or platform as a service (PaaS)” (Wu et al., 2013, p. 26). Ta
+
+
+bl
+e
+1
+
+
+Di
+m
+en
+sio
+ns
+of
+re
+ad
+in
+es
+sc
+on
+str
+uc
+ts.
+
+
+Re
+fer
+en
+ce
+
+
+Co
+nc
+ep
+t
+
+
+De
+fin
+iti
+on
+
+
+Co
+nc
+ep
+tu
+al
+di
+m
+en
+sio
+ns
+
+
+Pr
+ac
+tic
+e/
+Fi
+eld
+
+
+of
+ap
+pl
+ica
+tio
+n
+
+
+Ba
+kk
+er
+et
+al.
+
+
+(2
+00
+8)
+
+
+In
+te
+rn
+al
+re
+ad
+in
+es
+s
+
+
+Th
+ef
+ac
+to
+rs
+in
+th
+e
+in
+te
+rn
+al
+co
+nt
+ex
+tt
+ha
+ta
+re
+fo
+un
+d
+to
+aff
+ec
+ta
+do
+pt
+io
+n
+of
+e-
+
+
+co
+m
+m
+er
+ce
+in
+su
+pp
+ly
+ch
+ain
+
+
+s
+IT
+ch
+ar
+ac
+te
+ris
+tic
+s,
+or
+ga
+ni
+za
+tio
+na
+lc
+ha
+ra
+cte
+ris
+tic
+s,
+bu
+yi
+ng
+ne
+ed
+
+
+ch
+ar
+ac
+te
+ris
+tic
+s
+
+
+Ad
+op
+tio
+n
+of
+e-c
+om
+
+
+m
+er
+ce
+
+
+Ba
+ru
+a
+et
+al.
+
+
+(2
+00
+4)
+
+
+Su
+pp
+lie
+rr
+ea
+di
+ne
+ss
+
+
+Th
+ed
+eg
+re
+et
+ow
+
+
+hi
+ch
+afi
+
+
+rm
+'ss
+up
+pl
+ier
+sa
+re
+wi
+lli
+ng
+an
+dr
+ea
+dy
+to
+co
+nd
+uc
+tb
+us
+in
+es
+s
+
+
+ac
+tiv
+iti
+es
+ele
+ctr
+on
+ica
+lly
+
+
+N/
+A
+
+
+Su
+pp
+lie
+r-s
+id
+e
+di
+gi
+tiz
+at
+io
+n
+
+
+Ca
+ni
+ëls
+
+
+et
+al.
+
+
+(2
+01
+3)
+
+
+Su
+pp
+lie
+rr
+ea
+di
+ne
+ss
+
+
+In
+te
+rn
+al
+ch
+ar
+ac
+te
+ris
+tic
+so
+fs
+up
+pl
+ier
+s,
+in
+clu
+di
+ng
+
+
+m
+an
+ag
+er
+en
+vi
+ro
+nm
+
+
+en
+ta
+l
+
+
+aw
+ar
+en
+es
+s,
+in
+te
+r-o
+rg
+an
+iza
+tio
+na
+lc
+om
+
+
+m
+un
+ica
+tio
+n,
+an
+d
+th
+ea
+va
+ila
+bi
+lit
+yo
+fh
+um
+
+
+an
+,
+
+
+te
+ch
+ni
+ca
+l,
+an
+d
+fin
+an
+cia
+lr
+es
+ou
+rc
+es
+
+
+M
+an
+ag
+er
+en
+vi
+ro
+nm
+
+
+en
+ta
+la
+wa
+re
+ne
+ss,
+
+
+in
+te
+r-o
+rg
+an
+iza
+tio
+na
+l
+
+
+co
+m
+m
+un
+ica
+tio
+n,
+hu
+m
+an
+
+
+re
+so
+ur
+ce
+s,
+te
+ch
+ni
+ca
+lr
+es
+ou
+rc
+es
+,
+
+
+fin
+an
+cia
+lr
+es
+ou
+rc
+es
+
+
+Pa
+rti
+cip
+at
+io
+n
+in
+gr
+ee
+n
+su
+pp
+ly
+
+
+ch
+ain
+
+
+in
+iti
+at
+iv
+es
+
+
+Ch
+en
+
+
+et
+al.
+
+
+(2
+01
+6)
+
+
+Or
+ga
+ni
+za
+tio
+na
+lr
+ea
+di
+ne
+ss
+
+
+Th
+ee
+xt
+en
+tt
+o
+wh
+ich
+
+
+or
+ga
+ni
+za
+tio
+na
+lr
+es
+ou
+rc
+es
+ar
+ea
+va
+ila
+bl
+ef
+or
+us
+in
+g
+bi
+g
+da
+ta
+
+
+an
+aly
+tic
+s
+
+
+Ca
+pi
+ta
+l/fi
+
+
+na
+nc
+ial
+
+
+re
+so
+ur
+ce
+s,
+IT
+in
+fra
+str
+uc
+tu
+re
+,I
+T
+hu
+m
+an
+
+
+re
+so
+ur
+ce
+s
+
+
+Bi
+g
+da
+ta
+an
+aly
+tic
+su
+se
+
+
+Kr
+os
+et
+al.
+
+
+(2
+01
+1)
+
+
+Te
+ch
+no
+lo
+gy
+
+
+re
+ad
+in
+es
+s
+
+
+A
+fir
+m
+'s
+pr
+op
+en
+sit
+y
+to
+em
+br
+ac
+e
+an
+d
+us
+en
+
+
+ew
+te
+ch
+no
+lo
+gi
+es
+fo
+ra
+cc
+om
+
+
+pl
+ish
+in
+g
+
+
+go
+als
+
+
+Te
+ch
+no
+lo
+gy
+
+
+op
+tim
+
+
+ism
+,t
+ec
+hn
+ol
+og
+y
+in
+no
+va
+tiv
+en
+es
+s
+
+
+RF
+ID
+ac
+ce
+pt
+an
+ce
+
+
+Li
+et
+al.
+
+
+(2
+01
+7)
+
+
+Or
+ga
+ni
+za
+tio
+na
+l
+
+
+pr
+ep
+ar
+ed
+ne
+ss
+
+
+Th
+ei
+nf
+ra
+str
+uc
+tu
+ra
+lc
+on
+te
+xt
+si
+n
+an
+
+
+or
+ga
+ni
+za
+tio
+n
+th
+at
+all
+ow
+
+
+it
+to
+be
+
+
+ca
+pa
+bl
+eo
+f
+
+
+sh
+ar
+in
+g
+kn
+ow
+led
+ge
+wi
+th
+ex
+te
+rn
+al
+pa
+rtn
+er
+fir
+m
+s
+
+
+In
+te
+rn
+al
+cu
+ltu
+re
+,s
+tru
+ctu
+
+
+re
+,a
+va
+ila
+bi
+lit
+y
+of
+re
+so
+ur
+ce
+s,
+
+
+te
+ch
+no
+lo
+gi
+ca
+lc
+ap
+ab
+ili
+tie
+s
+
+
+ER
+P
+im
+pl
+em
+en
+ta
+tio
+n
+
+
+eff
+ec
+tiv
+en
+es
+s
+
+
+Ri
+ch
+ey
+et
+al.
+
+
+(2
+00
+7)
+
+
+Te
+ch
+no
+lo
+gi
+ca
+l
+
+
+co
+m
+pl
+em
+en
+ta
+rit
+y
+
+
+A
+un
+iq
+ue
+an
+ds
+ym
+
+
+m
+et
+ric
+
+
+str
+at
+eg
+ic
+co
+m
+bi
+na
+tio
+no
+ffi
+rm
+
+
+ro
+les
+,g
+oa
+ls,
+re
+ad
+in
+es
+sf
+or
+
+
+im
+pl
+em
+en
+ta
+tio
+n,
+an
+d
+us
+eo
+ft
+ec
+hn
+ol
+og
+y
+ac
+ro
+ss
+pa
+rtn
+er
+in
+g
+fir
+m
+sa
+nd
+
+
+th
+e
+
+
+ex
+te
+nd
+ed
+
+
+su
+pp
+ly
+ch
+ain
+
+
+Op
+tim
+
+
+ism
+,i
+nn
+ov
+at
+iv
+en
+es
+s,
+di
+sc
+om
+
+
+fo
+rt,
+in
+se
+cu
+rit
+y
+
+
+Lo
+gi
+sti
+cs
+se
+rv
+ice
+
+
+qu
+ali
+ty
+
+
+Ro
+tch
+
+
+an
+ak
+itu
+m
+nu
+ai
+(2
+01
+3)
+
+
+Or
+ga
+ni
+za
+tio
+na
+lr
+ea
+di
+ne
+ss
+
+
+Or
+ga
+ni
+za
+tio
+na
+lr
+ea
+di
+ne
+ss
+in
+te
+rm
+so
+fs
+uffi
+
+
+cie
+nt
+IT
+re
+so
+ur
+ce
+sa
+nd
+
+
+kn
+ow
+led
+ge
+to
+
+
+us
+ee
+-p
+ro
+cu
+re
+m
+en
+t
+
+
+Su
+ffi
+cie
+nt
+IT
+re
+so
+ur
+ce
+s,
+su
+ffi
+cie
+nt
+kn
+ow
+led
+ge
+
+
+E-
+pr
+oc
+ur
+em
+en
+ta
+uc
+tio
+n
+
+
+Ve
+nk
+at
+es
+h
+&
+Ba
+la
+(2
+01
+2)
+
+
+Te
+ch
+no
+lo
+gy
+
+
+re
+ad
+in
+es
+s
+
+
+Th
+ed
+
+
+eg
+re
+e
+to
+wh
+ich
+
+
+a
+fo
+ca
+lfi
+rm
+
+
+ha
+st
+he
+
+
+ne
+ce
+ssa
+ry
+te
+ch
+no
+lo
+gy
+
+
+in
+fra
+str
+uc
+tu
+re
+
+
+an
+d
+IT
+hu
+m
+an
+
+
+re
+so
+ur
+ce
+st
+o
+im
+pl
+em
+en
+ti
+nt
+er
+-o
+rg
+an
+iza
+tio
+na
+lb
+us
+in
+es
+sp
+ro
+ce
+ss
+
+
+sta
+nd
+ar
+ds
+
+
+Te
+ch
+no
+lo
+gy
+
+
+in
+fra
+str
+uc
+tu
+re
+,I
+T
+hu
+m
+an
+
+
+re
+so
+ur
+ce
+s
+
+
+In
+te
+r-o
+rg
+an
+iza
+tio
+na
+lb
+us
+in
+es
+s
+
+
+pr
+oc
+es
+ss
+ta
+nd
+ar
+ds
+
+
+W
+ien
+ga
+rte
+n
+et
+al.
+
+
+(2
+01
+1)
+
+
+E-
+bu
+sin
+es
+sr
+ea
+di
+ne
+ss
+
+
+Th
+ed
+eg
+re
+et
+o
+wh
+ich
+
+
+afi
+rm
+'s
+su
+pp
+lie
+rs
+ar
+ew
+
+
+ill
+in
+ga
+nd
+
+
+ab
+le
+to
+co
+nd
+uc
+tb
+us
+in
+es
+s
+
+
+ac
+tiv
+iti
+es
+ele
+ctr
+on
+ica
+lly
+
+
+(B
+ar
+ua
+
+
+et
+al.
+,2
+00
+4)
+
+
+N/
+A
+
+
+E-
+bu
+sin
+es
+sa
+pp
+lic
+at
+io
+ns
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+IT human resources refers to the professionals in an organization who
+have the technological knowledge and skills to implement digital pro-
+curement technologies (Chen et al., 2016; Turkulainen and Swink,
+2017). The influence of skilled IT human resources is critical because
+the implementation of advanced digital technologies requires personnel
+who have an understanding of both technological and process aspects of
+digital procurement (Rotchanakitumnuai, 2013; Venkatesh and Bala,
+2012). Many practitioner studies conclude that digital procurement
+practices require a very different skill set from procurement managers
+(Batran et al., 2017; Pellengahr et al., 2016). New job profiles that call
+for a diverse skill set, such as data scientists, are likely to be required for
+this transformation of procurement (Schoenherr and Speier-Pero,
+2015).
+
+
+Organizational readiness. Organizational readiness has been identi-
+fied as another key factor in the adoption decision (Bakker et al., 2008;
+Chen et al., 2016; Sternberg and Norrman, 2017). Organizational
+readiness has been defined to mean that the organizational resources
+needed for adoption are already available (Iacovou et al., 1995, p. 467).
+The term refers to the managerial prerequisites in an organization that
+allow it to embrace and use new digital technologies in procurement (Li
+et al., 2017). In this study, we include top management support, fi-
+nancial resources, and organizational structure as the main indicators of
+organizational readiness.
+
+
+Top management support denotes the degree to which top managers
+understand and appreciate the value potential of digital procurement,
+as well as the degree to which they champion and promote the use of
+digital technologies and practices in procurement (Chen et al., 2016).
+The literature widely recognizes that top management support is a
+critical enabler for strategic procurement initiatives (Li et al., 2017;
+Paulraj et al., 2012) and for IT use in organizations (Li et al., 2017;
+Liang et al., 2007; Rotchanakitumnuai, 2013). Top managers can direct
+financial and personnel resources toward the procurement function
+(Cousins et al., 2006) and can facilitate changes of organizational
+norms, values, and cultures (Chen et al., 2016; Li et al., 2017). Likewise,
+practitioners emphasize the value of top management support for
+driving the digitalization of procurement practices (Batran et al., 2017;
+Pellengahr et al., 2016).
+
+
+Financial resources allow companies to invest in hardware, software,
+and system integration and thus represent an important factor for
+technology adoption (Zhu et al., 2004). Prior literature suggests that
+companies require sufficient financial resources to implement digital
+technologies (Chen et al., 2016). The availability of needed financial
+resources can be approximated using measures of firm size and profit-
+ability.
+
+
+Organizational structure comprises the roles, responsibilities, and
+interfaces for the coordination and integration of digital procurement
+both in the company and with external partners. Coordination and in-
+tegration can be achieved through vertical mechanisms (e.g., cen-
+tralized under a chief digital officer) or through lateral mechanisms
+(e.g., decentralized across cross-functional teams). Practitioners em-
+phasize that agile teams and dedicated roles (e.g., a digital support
+team) can provide a needed organizational resource to enable the
+adoption of digital technologies and practices (Schnellbächer et al.,
+2018).
+
+
+Environmental factors. The TOE framework further recognizes that
+various environmental factors influence the use of new technologies
+(Tornatzky and Fleischer, 1990). Prior studies that have applied the
+TOE framework in a supply chain context have acknowledged the
+general relevance of suppliers as an environmental factor, but they have
+not delved into the actual interplay between buying firms and suppliers
+(Mishra et al., 2007). We discuss supplier-side digital readiness as part
+of a TOE framework in the next section.
+
+
+2.4. Supplier-side digital readiness
+
+
+Because the buyer–supplier dyad is at the core of supply chain
+
+
+management, we introduce a dyadic perspective that explicitly in-
+corporates the supplier as the complementary counterpart to the buying
+firm.
+
+
+Both the TOE framework and the SCPV recognize that firms do not
+operate in isolation but are necessarily interacting with external part-
+ners in the supply chain (Carter et al., 2017b; Mishra et al., 2007). To
+illustrate, in the early phase of e-procurement, General Electric faced
+difficulties in implementing e-procurement because a significant pro-
+portion of its suppliers was not ready to do business online (Barua et al.,
+2004). Because advanced digital procurement is characterized by re-
+lationships between companies (Srai and Lorentz, 2019), a company
+seeking to implement digital technologies today is likely to be influ-
+enced by, if not dependent on, the readiness of its suppliers (Bruque-
+Cámara et al., 2016).
+
+
+Supplier-side digital readiness is defined as the degree to which a
+firm's supplier is able to embrace and use digital technologies to engage
+in digital interactions with customers (Barua et al., 2004; Richey et al.,
+2007). When suppliers have high digitalization levels, firms can use
+digital practices across firm boundaries, whereas low digitalization le-
+vels can impede efforts to implement inter-organizational digital pro-
+curement practices (Agi et al., 2005; Mishra et al., 2007). Lack of
+supplier-side digital readiness has repeatedly been shown to inhibit
+digitalization efforts in supply chains (Barua et al., 2004; Mishra et al.,
+2007; Richey et al., 2007; Wiengarten et al., 2011).
+
+
+We conceptualize the dimensions of supplier-side digital readiness
+as complementary to digital procurement readiness on the buyer side
+because the supplier acts as the complementary counterpart to the
+buying firm in the adoption of inter-organizational practices. Therefore,
+supplier-side digital readiness also encompasses the dimensions of
+technological readiness, with its sub-dimensions of IT infrastructure and IT
+human resources, and organizational readiness, with the sub-dimensions
+of top management support, financial resources, and organizational struc-
+ture. To achieve digital complementarity, the supplier should possess
+similar or comparable degrees of readiness for implementing digital
+technologies across partnering firms and the extended supply chain
+(Richey et al., 2007). What complementarity entails for each dimension
+and sub-dimension of supplier-side digital readiness plays out differ-
+ently, depending on the digital procurement practice in focus. For ex-
+ample, providing rapid prototyping services via additive manufacturing
+requires a comprehensive IT infrastructure and experienced IT human
+resources on the supplier side, while exchanging order information and
+tracking of orders via cloud-based e-procurement applications requires
+only relatively basic IT infrastructure and IT human resources on the
+supplier side.
+
+
+2.5. Moderating effects
+
+
+A factor that potentially exerts a key moderating effect on the link
+between digital procurement readiness and digital procurement prac-
+tices is the relationship type. Extant literature has shown that buyer–-
+supplier relationships can be either transactional or collaborative in
+nature (e.g., Chicksand et al., 2016; Kaufmann et al., 2018). Transac-
+tional relationships are characterized by a relatively basic exchange of
+information, products, and services (Heide and John, 1992), and by a
+general uncertainty about the continuity and time horizon of future
+interaction (Williamson, 2008). Collaborative relationships are char-
+acterized by cooperation for mutual gain (Williamson, 2008), a norm of
+information exchange (Heide and John, 1992), and trust (Ta et al.,
+2018). Trust refers to an exchange partner's expectation that the other
+party can be relied on and will act fairly (Poppo et al., 2016; Ta et al.,
+2018). The relationship type (i.e., transactional or collaborative) can
+moderate the readiness–practice link in two ways. First, the relationship
+type can influence the decision about which digital procurement
+practices a buying company aims to adopt for a particular buyer–sup-
+plier relationship. For example, e-auctions and electronic marketplaces
+appear suitable for transactional relationships, whereas the integration
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+of supply chain partners into an industrial cloud (e.g., for production
+planning and inventory management) appears more suitable for colla-
+borative relationships. Second, the relationship type can moderate the
+adoption process of a selected digital procurement practice because it
+influences transaction costs, as well as bilateral coordination and
+knowledge exchange (Wang et al., 2016). Moreover, a lack of trust in
+the relationship might make firms hesitant to implement technologies
+that give higher transparency to their supply chain partner.
+
+
+According to the TOE framework (Tornatzky and Fleischer, 1990),
+the adoption of digital technologies can be further moderated by var-
+ious environmental factors, such as the competitive landscape (Chen
+et al., 2016) and the institutional context (Bhakoo and Choi, 2013). The
+institutional context describes the political, social, and market en-
+vironment in which a company is embedded. It encompasses a wide
+range of factors, such as data protection regulations, attitudes toward
+new technology adoption, IT expertise in the labor force, and Internet
+connection speed. In this study, we focus on the institutional context as a
+moderator on the readiness–practice link because it has been found to
+inhibit the implementation of supply chain technologies in contexts
+such as emerging markets (Saldanha et al., 2015).
+
+
+Furthermore, various factors might exert a moderating or mediating
+effect on the link between digital procurement practices and perfor-
+mance. For example, Bruque-Cámara et al. (2016) analyzed the po-
+tential mediating effects of physical and informational supply chain
+integration on the link between community cloud implementation and
+operational results. As indicated by the relevant arrow in Fig. 1, digital
+procurement readiness also might function as a moderator of the re-
+lationship between digital procurement practices and performance. To
+illustrate, RFID tracking in the supply chain might influence inventory
+costs, and this link might be moderated by the level of the supplier's IT
+infrastructure: The more advanced the infrastructure, the more accu-
+rately the system will function and the lower the inventory costs can be.
+
+
+2.6. Performance
+
+
+The SCPV further emphasizes performance as the dependent vari-
+able, rather than sustained competitive advantage, as in the resource-
+based or relational view. This emphasis implies that “the SCPV is not
+exclusively concerned with explaining the performance of the few
+supply chain leaders at the top of an industry, but is mainly interested
+in understanding performance variation among the vast majority of the
+remaining supply chain dyads or networks” (Carter et al., 2017b, pp.
+116–117). Regarding the performance outcomes, the SCPV allows for a
+range of intermediate and final dependent variables (Bromiley and Rau,
+2016). Intermediate outcomes in digital procurement might be the
+cycle time for processing purchase orders or savings on purchase costs,
+while a final outcome could be the return on supply management assets
+(ROSMA) (Blascovich et al., 2016). Furthermore, the SCPV differ-
+entiates between individual and relational performance. Individual
+performance results from the use of intra-organizational practices or
+from the interaction of intra- and inter-organizational practices (Carter
+et al., 2017b). Relational performance refers to “performance benefits
+mutually generated by two or more organizations that cannot be gen-
+erated by any one of those organizations” (Carter et al., 2017b, p. 116).
+Relational performance appears particularly relevant for a PSM context,
+where value to a large extent is created along the entire supply chain.
+
+
+Because of the nascent stage of the field, most studies are only be-
+ginning to explore the effects of advanced digital technologies on PSM
+(e.g., Durach et al., 2017b; Kache and Seuring, 2017). For example,
+Bruque-Cámara et al. (2016) have assessed the effects of cloud com-
+puting on operational performance in terms of flexibility and delivery
+performance (Bruque-Cámara et al., 2016). Anecdotal evidence in-
+dicates that leading companies that use digital technologies – for ex-
+ample, IBM Watson's use of artificial intelligence or SAP Ariba's pro-
+cure-to-pay solution – have achieved significant performance
+improvements in procurement, including more efficient operations, a
+
+
+smaller carbon footprint, and substantial cost reductions (McGee,
+2018).
+
+
+However, researchers caution that “empirical evidence about the
+more advanced forms of practical implementation in PSM is yet to be
+collected on a large scale; hence, it is difficult to draw conclusions about
+PSM digitalization-related performance associations or even causal-
+ities” (Srai and Lorentz, 2019, p. 1). The SCPV can function as a the-
+oretical lens to systematically investigate the link between digital
+procurement practices and performance; it can help to explain digital
+procurement's effects both on individual performance (regarding effi-
+ciency and effectiveness) and on the performance of supply chain dyads
+or networks. Methodologically, research questions associated with the
+performance outcomes of digital procurement practices can most re-
+liably be measured via large-N quantitative studies. Because an em-
+pirical assessment of the practice–performance link is beyond the scope
+of the present study, we join Srai and Lorentz (2019) in their call for
+future research to collect large-scale empirical evidence on the perfor-
+mance outcomes of digital procurement practices.
+
+
+In the following, we present the methodology of our empirical case
+studies, which focus on the readiness–practice link; the intermediate
+outcome we examined is whether the practice had been adopted or not.
+
+
+3. Methodology
+
+
+To help answer our first research question of how digital readiness
+influences the implementation of digital procurement practices and to
+corroborate the findings from the literature review with first empirical
+data, we conducted explanatory case studies of buyer–supplier dyads
+(Dubois and Salmi, 2016; Ketokivi and Choi, 2014). The dyadic case
+studies involve two Western European buying firms and six of their key
+suppliers in Europe and China. We have modified the names of these
+companies to maintain confidentiality. The unit of analysis is the
+buyer–supplier relationship.
+
+
+3.1. Selection of cases
+
+
+In selecting cases, we followed the theoretical sampling principle
+under which cases are chosen for their potential to illuminate and ex-
+tend relationships and logic among constructs (Corbin and Strauss,
+2008; Eisenhardt and Graebner, 2007). The selected buying companies,
+IndustryCo and AutoseatsCo, represent leaders in their respective in-
+dustries. IndustryCo is a true positive outlier (Makino and Chan, 2017)
+in the digital transformation of industry, and the Chinese manu-
+facturing site selected for this case study is recognized as a model
+“digital factory.” China was selected as a particularly information-rich
+research context (Dubois and Salmi, 2016) because the Chinese supply
+market has high empirical relevance (Kosmol et al., 2018) and is cur-
+rently undergoing digital transformation at a very rapid pace. Given
+IndustryCo's leading position in digital manufacturing technologies, its
+top executives have demonstrated a strong commitment to im-
+plementing digital procurement in the firm's Chinese model factory;
+they also have shown strong support for this research effort. In-
+dustryCo's factory manager explained the overall digitalization
+strategy:
+
+
+With “Made in China (2025),” the Chinese government is really pushing
+for Industry 4.0 in order to go away from the cheap factory of the world
+to a more advanced factory in China. We as IndustryCo really want to be
+a part of this transition. We think with our digitalization that we have
+here in our factory, we are clearly one of the most advanced factories in
+China. (Factory Manager, IndustryCo).
+In line with the theoretical sampling principle, and based on
+
+
+emergent findings from the IndustryCo cases, we also selected a re-
+presentative case to enhance the generalizability of our findings
+(Eisenhardt and Graebner, 2007). AutoseatsCo represents the broader
+group of companies that struggle in realizing the full potential of digital
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+procurement. AutoseatsCo is a leading automotive seating manu-
+facturer that embraced digital transformation early on by establishing a
+Digital Office and by implementing an organization-wide digital
+transformation program. However, the company has faced challenges in
+implementing its ambitious roadmap for digital procurement.
+
+
+A high ratio of purchasing spend to sales indicates that both
+IndustryCo and AutoseatsCo depend greatly on their supply base.
+Consequently, suppliers play a critical role in enabling the success of
+these companies. Following the theoretical sampling principle, we se-
+lected the six key suppliers for the case studies to enhance external
+validity and generalizability (Eisenhardt and Graebner, 2007;
+Flyvbjerg, 2006). We asked a senior procurement manager at each
+buying firm to identify key suppliers with which the company had ei-
+ther successfully implemented digitalization projects or encountered
+difficulties in implementing digitalization projects (i.e., to identify
+polar cases) (Eisenhardt and Graebner, 2007). Therefore, the selection
+criterion for the polar cases was whether the practice had been adopted
+at all, and not what the performance outcomes of the digital procure-
+ment practice were. IndustryCo provided two positive cases and two
+negative cases regarding the adoption or use of digital procurement
+practices, and AutoseatsCo provided one positive case and one negative
+case. Table 2 provides summary information on these six dyadic re-
+lationships and the companies involved.
+
+
+3.2. Data collection
+
+
+Data were collected through 18 in-depth, semi-structured interviews
+with IndustryCo, AutoseatsCo, and the suppliers, supplemented by
+documents and onsite visits. Our semi-structured interviews ranged
+from 20 to 195min in duration, with an average of 67min, and they
+were conducted face-to-face, except for three phone interviews. The
+interviews were carried out in English or Chinese, depending on the
+interviewee's preference. All interviews were recorded and transcribed
+verbatim or were translated as necessary (i.e., from Chinese to English).
+The informants in the buying firms represented multiple functions and
+levels of management to ensure construct validity through triangulation
+(Jick, 1979; Stuart et al., 2002). Their titles included factory manager,
+head of strategic procurement, operational purchaser, and IT manager.
+Informant job titles at the suppliers included general manager or key
+account manager. Appendix B provides further details on the in-
+formants.
+
+
+The semi-structured interview guideline (see Appendix C) was de-
+veloped from the extant literature on digital procurement and included
+open-ended questions to enable managers to describe events and pro-
+cesses. It included questions about the organization and digitalization
+strategy, digitalization initiatives, and barriers to and enablers of di-
+gitalization. To complement the interview data and obtain a more
+complete understanding of the suppliers’ digital readiness, we toured
+
+
+their production facilities; we also participated in demonstrations of the
+digital technologies used at IndustryCo and two of its suppliers. In
+addition, we collected both publicly available documents (e.g., industry
+reports and annual reports) and company-internal documents (e.g.,
+project presentations and status reports) from the case companies for
+the purpose of data triangulation (Pettigrew, 1990).
+
+
+3.3. Data analysis
+
+
+For the within-case analysis, we constructed case study reports for
+each buyer–supplier dyad to extract a rich picture of the digital readi-
+ness of the respective firms, as well as barriers and enablers en-
+countered during digitalization initiatives. In the case study reports, we
+used citations from interviews, photos, and other collected documents
+to stay close to the original data and to achieve high levels of accuracy
+(Yin, 2014). To ensure the reliability of our data, we asked the key
+informants to review the drafts of our case study reports. We then began
+the within-case analysis of each buyer–supplier dyad, the unit of ana-
+lysis; we searched for emerging themes and developed a rough theo-
+retical explanation for the adoption of digital procurement practices
+that fit each dyad. For example, top management support was a concept
+that emerged in this analysis phase.
+
+
+For the cross-case analysis, the findings from the within-case ana-
+lyses were compared to identify similarities and differences among the
+six dyadic cases (Eisenhardt, 1989; Miles et al., 2013). We coded the
+cases into constructs that emerged through the comparisons and used
+this data to develop a series of tables and graphs (Miles et al., 2013). We
+also compared and contrasted the emerging empirical patterns with the
+extant literature on digital procurement to further enhance internal and
+external validity (Gibbert et al., 2008). In the next section, we syn-
+thesize our findings on digital procurement readiness from the within-
+case analysis.
+
+
+4. Within-case analysis
+
+
+4.1. IndustryCo
+
+
+The selected manufacturing site of IndustryCo, a global industrial
+company, is a state-of-the-art model factory for industrial automation
+products in China. Despite the high level of automation within its own
+factory, IndustryCo still had a long way to go to fully establish a digi-
+tally integrated supply chain. To automate the purchase-to-pay process,
+IndustryCo had implemented e-procurement software and was in the
+process of establishing either classic electronic data interchange (EDI)
+or WebEDI integration with several of its key suppliers in China, thus
+enabling an end-to-end digital supply chain.
+
+
+We must make sure that the information from our customers goes
+
+
+Table 2
+Overview of case study companies.
+Companya Head-
+
+
+quarters
+Revenues
+(USD)
+
+
+# Employees Length of BSR
+in years
+
+
+Case type Informant job title(s) # Informants
+
+
+IndustryCob Western
+Europe
+
+
+120 million 500 N/A Outlier Factory Manager, Head of Strategic Procurement, Head of
+Operational Purchasing, Operational Purchaser, IT Manager
+
+
+10
+
+
+Electronics-SPL China 180 million 9500 5 Negative Key Account Manager 1
+Packaging-SPL China 1 million 45 5 Negative General Manager 1
+Plastics-SPL China 20 million 250 2 Positive Marketing Director 1
+Semicon-SPLc United States 13 billion 30,000 5 Positive Key Account Manager 1
+AutoseatsCo Western
+
+
+Europe
+15 billion 75,000 N/A Representative Manager Purchasing Process, Director Supplier Risk
+
+
+Management
+2
+
+
+Fasteners-SPL Spain 30 million 200 25 Negative Commercial Manager 1
+Stampings-SPL Great Britain 250 million 2000 13 Positive Senior Commercial Manager 1
+
+
+a Real names are concealed for confidentiality.
+b Figures relate to the Chinese factory of IndustryCo.
+c Figures relate to Semicon-SPL globally; IndustryCo sources from its local Chinese subsidiary.
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+through the whole supply chain quickly, and in real time. It must be a
+very efficient information transfer if we want to make sure that our whole
+supply chain responds very quickly. We expect suppliers to have the
+capability and willingness to cooperate with us—for example, on EDI
+solutions, the forecast, VMI [vendor-managed inventory]. All these tools
+aim to make sure that all the information from our customers to our
+supply chain can move very fast. (Head of Strategic Procurement,
+IndustryCo).
+Although IndustryCo followed an ambitious road map for estab-
+
+
+lishing EDI with most of its suppliers, this project remained a work-in-
+progress for many of the supplier relationships and constituted one of
+the largest digitalization projects in the procurement department. As we
+explain, the difficulties that IndustryCo faced in implementing digital
+practices with its suppliers, despite its own advanced abilities, well il-
+lustrate the importance of a dyadic perspective on digital procurement
+readiness.
+
+
+Analyzing IndustryCo through the perspective of the SCPV, we
+found that the firm's organizational readiness was high. IndustryCo's
+factory manager emphasized the strategic importance of digitalizing its
+supply chain relationships: “Procurement is clearly playing an important
+role [in the digital transformation of IndustryCo] by bringing digitalization
+to the suppliers” (Factory Manager, IndustryCo). Similarly, the Head of
+Strategic Procurement stressed the strong top management support for
+digital integration with its suppliers:
+
+
+At IndustryCo, we have high attention, on the one hand, to drive our-
+selves to use the digitalization tools—for example, data exchange be-
+tween us and the supplier. We also, on the other hand, encourage our
+suppliers to invest in these digitalization solutions to make sure that the
+two companies can exchange information very quickly. In general, our
+procurement strategy for digitalization is trying to digitalize the manual
+work and make sure that the information is more efficient. This is the
+direction we want to drive by using a lot of tools, internally and ex-
+ternally. (Head of Strategic Procurement, IndustryCo).
+In terms of financial resources, IndustryCo was in a strong financial
+
+
+position to invest in digitalization. The large industrial company – listed
+on the stock exchange – had a very good credit rating, and the selected
+manufacturing site earned high BIT margins over the previous two
+years. Regarding organizational structure, IndustryCo had installed a
+chief digital officer at the business unit level and was planning to es-
+tablish a dedicated responsibility for digitalization in the procurement
+function:
+
+
+During a town hall meeting, we recently discussed what we understand by
+digitalization.… We are now planning to have a procurement employee
+who dedicates part of her work time to digitalization and who can co-
+ordinate digitalization initiatives in procurement. (Head of Operational
+Purchasing, IndustryCo, follow-up call).
+The technological readiness of IndustryCo can be categorized as high
+
+
+as well. In terms of IT infrastructure, IndustryCo used a globally in-
+tegrated ERP system and a company-wide data warehouse that pro-
+vided transparency on supplier data. Furthermore, IndustryCo em-
+ployed sophisticated IT experts and dedicated teams that constantly
+upgraded digital procurement technologies on both the corporate level
+and the plant level, including EDI. From the perspective of the IT
+Manager at IndustryCo's Chinese plant, EDI represents “a standard
+technology that has been around for a long time” (IT Manager,
+IndustryCo), even though many Chinese suppliers encountered diffi-
+culties in implementing this technology.
+
+
+4.2. Supply relationship between IndustryCo and Electronics-SPL (negative
+case)
+
+
+Electronics-SPL has been IndustryCo's main supplier of printed cir-
+cuit boards (PCBs) in China for several years, accounting for the
+
+
+majority of spend in this strategically important purchase category. In
+turn, Electronics-SPL viewed IndustryCo as a strategic partner and
+ranked it among its top five customers globally. The buyer–supplier
+relationship can be characterized as collaborative, which implies that
+IndustryCo had targeted a deeper digital integration with Electronics-
+SPL. In 2014 both companies had initiated a joint project to implement
+EDI for streamlining the order process. However, during the im-
+plementation process, the companies encountered problems with the
+data exchange (e.g., wrongly duplicated purchase orders and difficul-
+ties in making order changes), so that they stopped using the EDI link.
+Although this negative event certainly reduced both companies' moti-
+vation to tackle the EDI implementation, we found a key underlying
+root cause of the implementation challenges was Electronics-SPL's low
+to medium level of digital procurement readiness.
+
+
+The Operational Purchaser described Electronics-SPL as “a very
+professional supplier” that “knows the benefits of EDI” and that was willing
+to adopt the technology. As a medium-sized company that had earned
+strong EBIT margins over the previous two years, Electronics-SPL also
+had sufficient financial resources to invest in digitalization. However,
+the supplier lacked the support from top management that was required
+to successfully implement this digital technology. Electronics-SPL's Key
+Account Manager explained:
+
+
+Why is our attention toward IT not developed? This depends on where the
+boss puts his emphasis with regards to the company's development. For
+example, because labor costs might be too cheap, the boss does not want
+to invest a lot of money in an IT system. So this concept of EDI first needs
+to get into the heart of the boss. (Key Account Manager, Electronics-
+SPL).
+In terms of technological readiness, Electronics-SPL can be categor-
+
+
+ized as low. The supplier used an ERP system that had been developed
+in-house, rather than buying one from an external provider “because up
+to now our boss has been more focused on the sales products” (Key Account
+Manager, Electronics-SPL). This homegrown ERP system showed poor
+compatibility with external interfaces, which meant that IndustryCo
+was linked to Electronics-SPL via a third-party EDI platform rather than
+directly. Furthermore, Electronics-SPL had to export the daily order
+information from the third-party platform using Excel and then
+manually transfer it to its ERP system because the system had no Excel
+upload functionality. This lack of an adequate IT infrastructure severely
+impeded the implementation of EDI, as IndustryCo's Operational
+Purchaser described:
+
+
+For EDI, most importantly, the supplier first needs to possess the ERP
+system himself. If the supplier himself does not possess a system that
+allows for EDI, there is no way to implement EDI. The supplier needs to
+be system-ready. (Operational Purchaser, IndustryCo).
+In addition to the poor IT infrastructure, a lack of skilled IT human
+
+
+resources at Electronics-SPL hampered the implementation of EDI, as
+the Key Account Manager explained:
+
+
+EDI requires quite grown-up IT engineering skills, it needs a very grown-
+up technology team. It depends on the company's degree of attention
+towards IT. So if our IT department is not so developed, the risks asso-
+ciated with EDI can be very big. If they do not understand the EDI system,
+this can turn into a disaster. (Key Account Manager, Electronics-SPL).
+As a consequence, Electronics-SPL represented a clear bottleneck for
+
+
+IndustryCo's efforts to establish a digitally integrated supply chain.
+Because the supply chain partners had to revert to exchanging order
+data via email, they were not able to realize joint improvements in
+efficiency:
+
+
+With the current solution via email, we need to spend more time. We
+would wish that we can use EDI with IndustryCo. This would increase
+efficiency. (Key Account Manager, Electronics-SPL).
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+4.3. Supply relationship between IndustryCo and Packaging-SPL (negative
+case)
+
+
+Packaging-SPL was a small manufacturer of cardboard boxes that
+accounted for the majority of IndustryCo's purchase volume in this
+category, and IndustryCo was the number one customer for Packaging-
+SPL. Given the relatively basic exchange of products and the fact that
+the supplier could be replaced relatively easily, the buyer–supplier re-
+lationship is characterized as transactional. The transactional nature of
+the relationship implied that IndustryCo primarily aimed to implement
+digital procurement practices that would reduce the transaction costs
+through more efficient information transfer. To reduce the lead time
+and inventory for cardboard boxes, IndustryCo shared the daily pro-
+duction forecast with Packaging-SPL via an Internet platform. However,
+purchase orders still were transferred to Packaging-SPL via email in an
+Excel file because the supplier balked at the adoption of IndustryCo's
+WebEDI solution.
+
+
+The organizational readiness of Packaging-SPL is categorized as low.
+The site visit revealed that this small, privately owned supplier so far
+had only a basic organizational structure and simple operational pro-
+cesses in place. Although no financial data was available for Packaging-
+SPL, the on-site visit revealed a high degree of manual processing in
+production and only very limited investments in machinery. Compared
+with other packaging suppliers in the industry, these findings indicated
+that Packaging-SPL had only limited financial resources and operated
+on relatively low profit margins. Although Packaging-SPL's manager
+showed “strong willingness to cooperate” (Operational Purchaser,
+IndustryCo) with IndustryCo on the solution for accessing the daily
+production forecast via the Internet platform, it was not yet willing to
+adopt the WebEDI solution to exchange order data. According to
+IndustryCo's Operational Purchaser, this WebEDI solution was not
+viewed as beneficial by the supplier because it required additional
+manual data processing on the supplier's side.
+
+
+The technological readiness of Packaging-SPL also is categorized as
+low. According to IndustryCo's Operational Purchaser, the supplier's “IT
+support is very poor,” which impeded the joint implementation of digital
+technologies like EDI:
+
+
+The reason why we did not implement EDI [with Packaging-SPL] lies
+mainly at the supplier side because its employees cannot handle our data
+very efficiently if we send the EDI data to them. So we would have to
+teach them how to understand our EDI data. They replied to us that they
+hoped to choose the traditional method to handle our purchase orders, by
+Excel and by email communication. (Operational Purchaser,
+IndustryCo).
+Because of Packaging-SPL's low technological readiness, the
+
+
+WebEDI solution could not be successfully implemented, and the order
+data were still exchanged via phone and email. Internal status pre-
+sentations from IndustryCo showed that poor “supplier EDI capability”
+and insufficient “supplier IT resources” posed a serious constraint to
+realizing IndustryCo's road map for establishing comprehensive EDI. As
+a consequence, the roadmap needed to be “adjusted to the business en-
+vironment” (internal company presentation) in the Chinese supply
+market, and the implementation of more advanced digital procurement
+technologies had to be postponed.
+
+
+4.4. Supply relationship between IndustryCo and Plastics-SPL (positive
+case)
+
+
+Plastics-SPL is a manufacturer of plastic injection parts that had
+been working with IndustryCo for about two years. Although
+IndustryCo's current order volumes were still low, the supplier showed
+“a strong desire” to expand its business with IndustryCo (Operational
+Purchaser, IndustryCo). Because some uncertainty about the future
+trajectory of the business remained, the current buyer–supplier re-
+lationship was characterized as transactional. Nevertheless, both
+
+
+companies were willing to take a ‘leap of faith’ (Chicksand et al., 2016)
+and aimed for a deeper digital integration to move toward a colla-
+borative relationship. Plastics-SPL did not even have an ERP system
+until 2016, but IndustryCo's implementation of the WebEDI solution
+with Plastics-SPL went very smoothly and had significantly reduced
+IndustryCo's workload for purchase orders.
+
+
+The organizational readiness of Plastics-SPL was categorized as
+medium to high. Plastics-SPL described itself as a modern enterprise
+with a focus on “constant innovation” for “the Industry 4.0 era.” The
+onsite visit revealed that Plastics-SPL had recently invested in a new
+production facility and modern manufacturing equipment. This in-
+vestment suggested to us that the financial resources of Plastics-SPL
+could be categorized as medium, despite its relatively small size of 250
+employees and revenues of 20 million Euros. IndustryCo's Operational
+Purchaser explained that Plastics-SPL's “internal management processes
+are very good” and that a dedicated order management team facilitated
+the adoption of the WebEDI solution. A key factor for the successful
+implementation of WebEDI was the willingness of Plastics-SPL's top
+management to strengthen the business relationship with IndustryCo:
+
+
+We are a digital factory; we require suppliers to use EDI. We also con-
+sider this when we assign future orders.… Plastics-SPL is a new supplier
+that has a strong willingness to do business with us, so it is easier to
+implement EDI with this supplier compared with other suppliers.
+(Operational Purchaser, IndustryCo).
+The technological readiness of Plastics-SPL also can be categorized as
+
+
+medium. In terms of IT infrastructure, Plastics-SPL had recently in-
+troduced an ERP system from an Asian software provider that allowed
+for the internal processing of order data, but it impeded the external
+integration with IndustryCo's WebEDI solution.
+
+
+It is a very specialized ERP system in the molding industry. The external
+interfaces are not quite the same, so there is no way to directly interface
+with IndustryCo. […] When implementing WebEDI, we had a lot of
+communication with IndustryCo, but we could not manage to directly
+transfer an order to our ERP system. (Marketing Director, Plastics-
+SPL).
+Despite the initial interface problems, Plastics-SPL acquired the
+
+
+necessary technological knowledge and skills to implement the WebEDI
+solution. Plastics-SPL's WebEDI experience with other customers was
+especially helpful in facilitating the adoption:
+
+
+What was very good was that the supplier already had experience with
+WebEDI. They already had this experience from other customers and
+were very willing to do it this way with IndustryCo. (Operational
+Purchaser, IndustryCo).
+
+
+4.5. Supply relationship between IndustryCo and Semicon-SPL (positive
+case)
+
+
+Semicon-SPL is a global manufacturer of semiconductors. The firm
+ranked among IndustryCo's top three suppliers. IndustryCo accounted
+for only a small share of Semicon-SPL's revenues, but it was valued as a
+key customer because of its leading role in the digital transformation of
+industry. The relationship between Semicon-SPL and IndustryCo was
+based on “mutual trust” (Key Account Manager, Semicon-SPL), and we
+characterized it as collaborative. Both parties saw a deep digital in-
+tegration as a means for joint improvements and as a natural trajectory
+in this buyer–supplier relationship.
+
+
+The organizational readiness of Semicon-SPL was categorized as high.
+Semicon-SPL described itself as an “advocate of Industry 4.0” and was
+committed to driving digitalization (Key Account Manager, Semicon-
+SPL). The Key Account Manager explained that Semicon-SPL required
+its business partners – and especially key customers such as IndustryCo
+– to implement EDI to reduce the workload:
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+We have a lot of business with IndustryCo worldwide so far. We will have
+more and more business with IndustryCo and grow with IndustryCo, so
+this is the reason why we implemented the EDI: to facilitate the pro-
+curement and manufacturing. (Key Account Manager, Semicon-SPL).
+As a stock-listed company, Semicon-SPL had ample financial re-
+
+
+sources to invest in digitalization; it had good credit ratings and very
+high two-digit EBIT margins over the past two years. Furthermore,
+Semicon-SPL maintained a dedicated team in the IT department that
+was responsible for the implementation of digital technologies with its
+business partners, and this team facilitated the implementation of EDI
+with IndustryCo.
+
+
+The technological readiness of Semicon-SPL also was categorized as
+high. Semicon-SPL used the same ERP system as IndustryCo, which was
+viewed as an enabler for the EDI implementation because it largely
+eliminated interface problems. Although Semicon-SPL's IT resources
+were in high demand, the company had sufficient experience in EDI
+implementation and had access to highly qualified IT experts.
+
+
+Semicon-SPL already started using EDI technology very early, so they
+probably understand this technology quite well. (Operational
+Purchaser, IndustryCo).
+Semicon's Key Account Manager also emphasized the critical role
+
+
+that IT human resources played in the successful implementation of
+EDI:
+
+
+I think the EDI implementation is dependent on the IT team's capability. If
+the IT is very genius and does not have an issue with the different ERP
+systems, then the implementation is quite fast, smooth, and safe and
+stable. (Key Account Manager, Semicon-SPL).
+
+
+4.6. AutoseatsCo
+
+
+AutoseatsCo is a global automotive seating manufacturer. It has
+pursued several digitalization initiatives in procurement across its sites.
+For example, to replace its legacy solutions, it has begun rolling out an
+e-procurement suite that includes functionalities such as e-RfX, e-
+Auctions, catalog buying, and contract management. Furthermore,
+AutoseatsCo was in the process of implementing an advanced digital
+should-cost tool to replace conventional cost breakdowns and to ana-
+lyze a purchase item's underlying cost structure. “Our should-cost tool
+calculates the cost for the ‘perfect plant,’ and then we compare this with the
+costs of our suppliers. […] Then we see where the gaps are, and we try to
+close these gaps in a joint project” (Manager Purchasing Process,
+AutoseatsCo). Our analysis focused on the implementation of this ad-
+vanced digital should-cost tool because AutoseatsCo repeatedly em-
+phasized the uniqueness of this solution; and yet, the challenges in the
+implementation process were representative of its digitalization efforts.
+
+
+Applying the analytical lens of the SCPV, we ranked the organiza-
+tional readiness of AutoseatsCo as medium to high. The leadership team
+showed “unwavering support” for digital procurement and was pursuing
+an ambitious roadmap for digital procurement. Still, AutoseatsCo
+lacked the needed financial resources for implementing digital tech-
+nologies throughout the organization:
+
+
+We have a strategy, a five-year plan. But I am not sure if we can realize
+this plan because we have a problem with the budget. (Manager
+Purchasing Process, AutoseatsCo).
+AutoseatsCo's tight financial resources were reflected in low and
+
+
+even negative EBIT margins during the past two years. Regarding the
+rollout of an integrated ERP system, the Director Supplier Risk
+Management also emphasized the financial constraints:
+
+
+We have this rollout plan, but this would have to be backed with real
+money. But since you have to show the stock market how profitable the
+company is, no money will be released. (Director Supplier Risk
+
+
+Management, AutoseatsCo).
+Although AutoseatsCo had established a Digital Office at the cor-
+
+
+porate level, no dedicated position for digital procurement existed yet.
+Instead, AutoseatsCo was using cross-functional project teams to run
+digitalization projects, such as the rollout of the new e-procurement
+suite.
+
+
+The technological readiness of AutoseatsCo was set at medium to high
+as well. Establishing an integrated ERP system was the main challenge.
+Because the company had grown through acquisitions, the IT infra-
+structure comprised several ERP systems that lacked integration.
+
+
+We have over twenty different ERP systems in use that don't talk to each
+other. […] Before we talk about digitalization, maybe we should get a
+reasonable SAP rollout done. […] We have approaches for digital pro-
+curement, but we lack the infrastructure on our side. (Director Supplier
+Risk Management, AutoseatsCo).
+The rather fragmented ERP system landscape resulted in additional
+
+
+manual data processing efforts, limited the transparency of supplier
+data, and complicated the rollout of digital technologies, such as the
+new e-procurement suite. Regarding IT human resources, the Manager
+Purchasing Process noted that “people with deep knowledge are key for
+digital procurement” and that AutoseatsCo had great SAP experts on its
+team for the rollout of the new e-procurement suite. The high potential
+of the company's human resources currently seemed to be held back by
+the issues in funding and organizational structure.
+
+
+4.7. Supply relationship between AutoseatsCo and Fasteners-SPL (negative
+case)
+
+
+Fasteners-SPL is a medium-sized supplier of nuts and bolts for the
+automotive industry and represented a C-supplier for AutoseatsCo.
+From the supplier's perspective, though, AutoseatsCo was Fastener-
+SPL's number one customer. Based on the relatively basic exchange of
+products and a perceived lack of trust, the buyer–supplier relationship
+was characterized as transactional.
+
+
+The organizational readiness of Fasteners-SPL was categorized as low.
+The medium-sized company's ability to invest in digitalization was
+constrained by limited financial resources and low EBIT margins.
+AutoseatsCo had been preparing for more than a year to implement its
+advanced digital should-cost tool with Fasteners-SPL, but the im-
+plementation was delayed because the supplier was not interested in
+adopting this digital technology.
+
+
+We are not interested in this should-cost tool because it is only suitable
+for simple parts, and we are specialized on complex parts. It would be
+perfect for us if AutoseatsCo does not implement this system.
+(Commercial Manager, Fasteners-SPL).
+The supplier was worried that the price benchmark comparisons
+
+
+were not applicable to its cost structure and that the advanced digital
+should-cost tool would be used by AutoseatsCo to negotiate lower
+prices. AutoseatsCo's Manager Purchasing Process acknowledged that
+the higher transparency through the should-cost tool might reduce the
+supplier's margins, but he also emphasized the benefits for the supplier,
+in that “using the should-cost tool is an advantage for receiving contracts.”
+
+
+The technological readiness of Fasteners-SPL was evaluated as low to
+medium. Fastener-SPL's Commercial Manager stated that its IT systems
+already fulfill the requirements of its customers and that Fasteners-SPL
+possessed sufficient IT expertise. As AutoseatsCo's Manager Purchasing
+Process acknowledged, the factor that restrained the firm's im-
+plementation of the advanced digital should-cost tool was not techno-
+logical but organizational:
+
+
+Some suppliers do not like to implement the should-cost tool because they
+have to show us everything. (Manager Purchasing Process,
+AutoseatsCo).
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+4.8. Supply relationship between AutoseatsCo and Stampings-SPL (positive
+case)
+
+
+Stampings-SPL manufactures precision stamped parts across several
+locations in Europe. AutoseatsCo was among its most important cus-
+tomers, while Stampings-SPL represented a B-supplier to AutoseatsCo.
+The buyer–supplier relationship was characterized as transactional be-
+cause the supplied products were relatively basic and the supplier
+switching costs comparatively low. Both companies successfully im-
+plemented the advanced digital should-cost tool about one year ago.
+Stampings-SPL's Senior Commercial Manager viewed “a basis of trust as
+a prerequisite” for the implementation, especially because the tool of-
+fered no transparency showing how its complex algorithms calculated
+the benchmark prices. As a result of the implementation, Stampings-SPL
+committed to significant price reductions for its current products and
+agreed on a lower cost basis for future products, but it also strengthened
+its position as a preferred supplier.
+
+
+The organizational readiness of Stampings-SPL was categorized as
+medium. With revenues of 250 million Euros and high single-digit but
+decreasing EBIT margins, Stampings-SPL's financial resources for in-
+vesting in digitalization was categorized as medium. The Senior
+Commercial Manager stated that Stampings-SPL does not proactively
+invest in digitalization but needs to “keep up with the requirements of the
+customers” (Senior Commercial Manager, Stampings-SPL). To keep pace
+with increasing customer demands, the supplier's top management
+regularly invested in advanced manufacturing technology:
+
+
+“Growth doesn't come with backward-thinking manufacturing techniques
+or methods.” (Managing Director, Stampings-SPL).
+
+
+Because AutoseatsCo was one of its most important customers,
+Stampings-SPL decided to implement the advanced digital should-cost
+tool, although its Senior Commercial Manager recognized that the in-
+creased transparency mainly served the customer's interest:
+
+
+Basically, we were open to the introduction of the should-cost tool. On
+the one hand, the should-cost tool enables us to work transparently with
+AutoseatsCo. […] That the customer requires transparency is a com-
+pletely normal process in the automotive industry. […] On the other
+hand, we know that the customer has a certain expectation and that
+behind the should-cost tool is a cost-cutting program. (Senior
+Commercial Manager, Stampings-SPL).
+A key prerequisite for the successful implementation of the ad-
+
+
+vanced digital should-cost tool was that the supplier could assert its
+commercial interests in the negotiations during the implementation
+process:
+
+
+We have been negotiating the input parameters into the should-cost tool
+for a very long time. […] We had to make sure that what came out of the
+should-cost tool in the end was comprehensible to us and that the prices
+were acceptable for the future. (Senior Commercial Manager,
+Stampings-SPL).
+The technological readiness of Stampings-SPL was categorized as low.
+
+
+After Stampings-SPL's acquisition two years ago, the IT infrastructure of
+
+
+the newly combined companies had not yet been integrated. Although
+an internal IT department managed the IT infrastructure at Stamping-
+SPL headquarters, the IT function of the acquired company was out-
+sourced to an external service provider. The Senior Commercial
+Manager explained that the IT infrastructure of Stampings-SPL was
+outdated, noting that its IT equipment had to be upgraded with larger
+storage to implement the should-cost tool.
+
+
+Our IT is not very advanced because we have always managed to get by
+with the available [systems]. Other suppliers are certainly better in this
+regard. (Senior Commercial Manager, Stampings-SPL).
+However, because the advanced digital should-cost tool did not
+
+
+place high technology requirements on the supplier, the current level of
+IT infrastructure was sufficient to implement the tool. This case illus-
+trates particularly well the importance of the dyadic perspective of
+digital procurement readiness: A fit between the aspirations and abil-
+ities of the buying firm and the supplier is a prerequisite for successful
+implementation of digital procurement practices.
+
+
+5. Cross-case analysis
+
+
+The within-case analysis discussed in the previous section looks at
+the digital readiness within each dyad. Here, we conduct our analysis
+across the six buyer–supplier dyads, based on the case analysis shown in
+Table 3 and Table 4. Our goal is to gain an in-depth understanding of
+the interplay of buyers and suppliers in the implementation of digital
+technologies.
+
+
+We first synthesize overarching patterns of digital readiness across
+the eight case companies before exploring dynamic change processes in
+the discussion section. The first general finding pertains to the firms’
+use of only relatively mature digital technologies. The case companies had
+implemented only basic digital technologies at the time of data col-
+lection, despite their leading industry positions and ambitious digita-
+lization roadmaps. We did not find evidence that advanced digital
+technologies (e.g., big data analytics, blockchain) were being im-
+plemented at the case companies, which again suggests that the vast
+majority of firms still have a long way to go on their digitalization
+journey. Bottlenecks on the supplier side might be one factor that
+hinders buying firms from implementing more advanced inter-organi-
+zational digital procurement practices.
+
+
+The results of the within-case analysis empirically support the the-
+oretically derived dimensions and sub-dimensions of digital
+
+
+Table 3
+Case analysis display of digital readiness.
+
+
+Organizational readiness Technological readiness
+Company Top management support Financial resources Organizational structure IT infrastructure IT human resources Overall digital readiness
+IndustryCo high high medium high high high
+Electronics-SPL low high medium low low low-medium
+Packaging-SPL low low low low low low
+Plastics-SPL high medium medium medium low medium
+Semicon-SPL high high medium high high high
+AutoseatsCo high low medium medium high medium-high
+Fasteners-SPL low low low low low low
+Stampings-SPL medium medium medium low low low-medium
+
+
+Table 4
+Case analysis display of moderating effects.
+Buyer-supplier dyad Institutional context Relationship type
+
+
+IndustryCo - Electronics-SPL emerging market collaborative
+IndustryCo - Packaging-SPL emerging market transactional
+IndustryCo - Plastics-SPL emerging market transactional
+IndustryCo - Semicon-SPL emerging market collaborative
+AutoseatsCo - Fasteners-SPL developed market transactional
+AutoseatsCo - Stampings-SPL developed market transactional
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+procurement readiness as relevant factors for explaining the adoption of
+digital technologies in procurement. High organizational readiness seems
+to play an enabling role for the adoption of digital technologies, al-
+though the causal mechanisms at play might differ for each of the sub-
+dimensions: top management support, financial resources, and organi-
+zational structure. Financial resources seem to be a necessary but not
+sufficient condition for companies to embrace new digital technologies
+in procurement. In the case of AutoseatsCo, tight financial resources
+constrained the implementation of the company's digitalization
+roadmap, while in the case of Electronics-SPL, sufficient financial re-
+sources alone did not result in the successful adoption of digital tech-
+nologies. The cases suggest that top management support and organi-
+zational structure are needed as critical ingredients for the adoption of
+digital technologies. Meanwhile, low technological readiness seems to
+impede the adoption of digital technologies; low levels of both IT in-
+frastructure and IT human resources were associated with unsuccessful
+technology adoption in the negative cases of Electronics-SPL,
+Packaging-SPL, and Fasteners-SPL. For example, in the case of
+Packaging-SPL, the employees displayed less than adequate technology
+competencies for dealing with the EDI technology.
+
+
+Analyzing the moderating role of the institutional context – that is,
+whether the buyer–supplier relationship is embedded in an emerging or
+developed market context – provides interesting insights. Especially in
+the institutional context in which IndustryCo's Chinese manufacturing
+site operates, the fragmented ERP landscape presented a barrier to di-
+gital integration with suppliers. As such, our findings provide support
+for the relevance of the environmental dimension of the TOE framework.
+The interoperability of ERP systems was cited as a barrier for all three
+cases where IndustryCo cooperated with local Chinese suppliers
+(Electronics-SPL, Packaging-SPL, Plastics-SPL), reflecting the challenges
+presented by the fragmented ERP landscape in China (Li et al., 2017). A
+comparison of EDI implementation ratios between IndustryCo's Chinese
+manufacturing site and its almost identical sister plant in Western
+Europe underscores the strong influence of the institutional context:
+IndustryCo's Western European plant had achieved 100% EDI integra-
+tion with its suppliers, but IndustryCo's Chinese plant had reached only
+47% EDI coverage (based on purchase volume) at the time of data
+collection. An internal presentation of IndustryCo's Chinese manu-
+facturing site stated that “the [EDI implementation] road map is adjusted
+to the business environment.” Therefore, we propose that the institutional
+context moderates the link between digital procurement readiness and
+digital procurement practices.
+
+
+The cross-case analysis on the moderating role of relationship type –
+that is, whether the buyer–supplier relationship is more transactional or
+collaborative in nature – does not suggest that the relationship type in
+itself has a universal moderating effect. Of the two negative cases in-
+volving IndustryCo (Electronics-SPL, Packaging-SPL), one had a colla-
+borative relationship and one a transactional one; the same holds for
+the two positive cases (Plastics-SPL, Semicon-SPL). Similarly, the two
+AutoseatsCo cases (Fasteners-SPL, Stampings-SPL) both involve trans-
+actional relationships but are associated with negative and positive
+technology adoption. One explanation as to why the relationship type
+did not seem to moderate the implementation process more strongly
+could be that the formal relationship type, transactional vs. collabora-
+tive, is overshadowed by the specific role of trust in the relationship. In
+the Fasteners-SPL case, the lack of trust noticeably impeded the adop-
+tion of the advanced digital should-cost tool, suggesting a negative
+moderating effect of relationship type on the readiness–practice link.
+Similarly, in the Semicon-SPL case, mutual trust enabled the EDI im-
+plementation, suggesting a positive moderating effect of relationship
+trust on the readiness–practice link. Therefore, we propose that trust
+exerts a moderating effect on the adoption of digital procurement
+practices, particularly when a deeper level of digital integration is
+targeted.
+
+
+The results of the within-case analysis also point to the importance
+of both organizational readiness and technological readiness in
+
+
+combination. Technological readiness inhibited the adoption of digital
+technologies, despite sufficient organizational readiness, in the case of
+Electronics-SPL; meanwhile, low organizational readiness appeared to
+be the constraining factor in the case of Fasteners-SPL. This finding
+implies that companies need to have a certain level of both organiza-
+tional readiness and technological readiness to successfully implement
+digital technologies.
+
+
+Our empirical findings further suggest that the required level of the
+supplier's digital readiness depends on the technological sophistication
+that a digital procurement practice requires from the buyer and/or the
+supplier. Although the examined cases involve basic digital technolo-
+gies that require relatively low levels of technological sophistication,
+the three negative cases demonstrate that a certain level of digital
+readiness nevertheless is needed for successful technology adoption.
+Analyzing the adoption patterns of digital technologies through the
+SCPV, we can see that the digital procurement practice of EDI, de-
+scribed in the IndustryCo cases, requires a higher level of digital
+readiness from the supplier side; meanwhile, digital readiness needs are
+lower for suppliers in the case of the advanced digital should-cost tool,
+analyzed in the AutoseatsCo cases. This finding implies that researchers
+should assess the degree of technological readiness in relation to the
+technological sophistication that a digital procurement practice imposes
+on or requires from the buyer and the supplier. We suggest that a digital
+procurement practice with a higher degree of technological sophisti-
+cation requires a higher level of technological readiness.
+
+
+Importantly, the findings from the case studies also reveal that the
+digital transformation of procurement at both IndustryCo and
+AutoseatsCo was at least partly impeded by the digital readiness level of
+their suppliers. IndustryCo's Head of Strategic Procurement explained
+that the heterogeneity of the supply base represented a challenge for
+digitalization:
+
+
+Our supply base is quite varied; our suppliers are not all on the same
+level. We have world-class suppliers like Semicon-SPL. We do not need to
+teach these companies about digitalization. All you need to do with these
+world-class suppliers is to coordinate, discuss, find a win–win situation,
+and align which tools to implement and what kind of information to
+share. For the middle-sized and the low-end suppliers, we also need to
+promote digitalization, to educate them on its benefits for them. (Head of
+Strategic Procurement, IndustryCo).
+Interestingly, the variation across our nested case studies can best be
+
+
+explained by looking at both the buyer side and the supplier side. When
+digital procurement readiness is held constant for each buying firm, the
+differences between successful and unsuccessful implementation seem
+rooted in varying levels of digital readiness on the supplier side. In the
+nested cases of IndustryCo, successful implementation is associated
+with medium (Plastics-SPL) and high (Semicon-SPL) levels of digital
+readiness on the supplier side. In turn, unsuccessful implementation is
+associated with low (Packaging-SPL) and low-medium (Electronics-
+SPL) levels of digital readiness on the supplier side. In the nested cases
+of AutoseatsCo, successful implementation is associated with low-
+medium (Stampings-SPL) digital readiness on the supplier side, whereas
+unsuccessful implementation is associated with low (Fasteners-SPL)
+digital readiness on the supplier side. This clear pattern proposes that
+digital readiness on the supplier side is a key explanatory variable for
+the adoption of digital procurement practices.
+
+
+The digital readiness matrix shown in Fig. 2 illustrates how com-
+bining the buyer-side and supplier-side perspectives results in a clearer
+picture of the alignments and misalignments for each dyad.
+
+
+Fig. 2 shows the buyer's digital procurement readiness on the X-axis
+and the supplier's digital readiness on the Y-axis. The digital readiness
+matrix proposes that digital procurement practices can only be suc-
+cessfully implemented if both buyer and supplier show a certain level of
+digital readiness. Although a relatively higher level of digital readiness
+in a supply chain partner is not disadvantageous, our cases point to the
+likelihood that when a supply chain partner has a lower level of digital
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+readiness, it typically creates a bottleneck for the implementation of
+digital procurement practices. Attempts by buying firms to implement
+inter-organizational digital procurement practices therefore are more
+likely to fail if suppliers are not ready to follow on the digital trans-
+formation journey. Leading suppliers trying to implement advanced
+technologies with laggard buying firms are also likely to face the same
+challenge.
+
+
+For example, IndustryCo's management recognized that digitaliza-
+tion could not stop at the factory walls; the firm needed to synchronize
+with its suppliers to deliver digitalization's full benefits. The Factory
+Manager explained:
+
+
+If you really want to digitalize, clearly also the entire supply chain has to
+follow the same way. It is not working if only we are digitalized but then
+there is a break with our suppliers. From my point of view, the supply
+base also has to upgrade to the same level.… Clearly, procurement is
+playing one of the important roles in … really bringing digitalization to
+the suppliers in the next years. (Factory Manager, IndustryCo).
+
+
+6. Practice–performance link
+
+
+Our empirical cases focused on the readiness–practice link, and the
+intermediate outcome we examined was whether the practice had been
+adopted or not. This study thus measured adoption in a binary way;
+however, we can also conceive of future studies that take more gradual
+measures of practice use, such as the adoption rate across a supplier
+portfolio or use as a percentage of transactions. Although the practi-
+ce–performance link was not the focus of the present study, we now
+briefly discuss the observed performance outcomes.
+
+
+The first tentative finding pertains to the absence of systematic and
+specific performance measurements for the effects of digital procurement
+
+
+practices at our case companies. None of the interviewees reported that
+their company tracked any performance indicators to specifically
+evaluate the effects of digital procurement practices. This finding ap-
+parently reflects a wider phenomenon in industry. A recent conference
+paper on digital procurement also finds that “neither literature, nor the
+company considered offer any performance indicators for measuring
+digital initiatives” (Elsaesser et al., 2019, p. 15). To provide managers
+with a more solid empirical basis for decisions on the adoption of ad-
+vanced digital procurement practices, we therefore call for both re-
+searchers and practitioners who have already implemented pilot in-
+itiatives to measure more systematically the performance outcomes of
+digital procurement practices.
+
+
+The digital procurement practices examined here (i.e., EDI, ad-
+vanced digital should-costing tool) mainly targeted the efficiency di-
+mension of performance (Cheung et al., 2011). For IndustryCo, the
+main goal of implementing EDI was to reduce lead times through effi-
+cient information exchange with suppliers. In the cases where EDI was
+successfully implemented (Plastics-SPL and Semicon-SPL), the inter-
+viewees on both sides of the dyad reported reduced operational work-
+load, higher information accuracy, and faster information transfer. This
+observation is in line with extant literature, which finds that supply
+chain technology use is positively associated with a firm's delivery
+performance (Liu et al., 2016). For AutoseatsCo, the main goal of im-
+plementing the advanced digital should-costing tool was to increase the
+transparency of its suppliers' cost structure and to reduce purchase
+prices. In the case where the tool was successfully implemented
+(Stampings-SPL), the supplier confirmed that the tool had resulted in
+greater transparency and reduced purchase prices.
+
+
+By increasing overall efficiency, inter-organizational digital pro-
+curement practices lead to relational performance – that is, to perfor-
+mance benefits mutually generated by two organizations that cannot be
+
+
+Fig. 2. Dyadic view on digital readiness.
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+generated by one of those organizations alone (Carter et al., 2017b).
+However, the cases seem to suggest that the share of relational per-
+formance appropriated by each supply chain member varies. Whereas
+IndustryCo's suppliers can probably appropriate at least some share of
+the relational performance for themselves through improved process
+efficiency, AutoseatsCo likely appropriates the largest share of the re-
+lational performance for itself in capturing reduced purchase prices.
+Determining the share of relational performance appropriated by buyer
+and supplier in a qualitative case study is difficult, but methodological
+approaches do exist to empirically assess the distribution of relational
+performance using dyadic quantitative data. For example, Cheung et al.
+(2011) conducted a multivariate analysis of variance (MANOVA) of a
+full set of dyadic relationships to test their hypothesis on the distribu-
+tion of relational performance in buyer–supplier dyads.
+
+
+7. Discussion and conclusion
+
+
+To summarize our findings and transform them towards a forward-
+looking research agenda, in the following we delineate implications
+from our study for an SCPV on digital procurement and consider dy-
+namic aspects of digital procurement readiness.
+
+
+7.1. Toward a supply chain practice view on digital procurement
+
+
+Our empirical observations demonstrate the value of the SCPV as a
+useful theoretical lens for research on digital procurement; it offers both
+theoretical grounding and strong managerial utility (Corley and Gioia,
+2011; Spina et al., 2016). The SCPV provides a holistic framework that
+draws attention to three elements: 1) the antecedents that help explain
+why firms adopt digital procurement practices; 2) how the use of digital
+procurement practices unfolds; and 3) what performance outcomes can
+be derived from their use. In addition, the SCPV provides a supply chain-
+specific perspective that explicitly considers the interplay of supply
+chain partners at the dyad or network level of analysis for each of these
+three elements. In digital procurement, we see an area and a range of
+practices for which the theoretical potential of the SCPV can be fully
+realized.
+
+
+An underlying assumption of the SCPV is that many of the digital
+procurement practices are imitable, and they are neither too surprising
+nor too technically complex for many firms to use (Bromiley and Rau,
+2016). The digital procurement practices examined in the present study
+(EDI, advanced digital should-costing tool) meet the imitability cri-
+terion: The advanced digital should-costing tool that AutoseatsCo uses
+had been disseminated through a management consultancy, and EDI
+has found widespread adoption across industries. Even more advanced
+digital procurement practices, such as big data analytics, are often
+based on (customizable) software solutions that can usually be bought
+on the market.
+
+
+Considering the notion that many digital procurement practices are
+transferable in principle, the question remains as to why certain firms
+adopt digital procurement practices while others refrain from doing so.
+Our empirical cases identified digital readiness as a key explanatory
+factor for the adoption of digital procurement practices in our empirical
+setting, incorporating factors such as top management support and IT
+infrastructure, which are neither rare nor inimitable. Yet, as suggested
+by a neo-configurational perspective (Kosmol et al., 2018; Misangyi
+et al., 2017), digital readiness is rarely the only factor influencing the
+adoption of digital procurement practices, and causation is often more
+complex. Our analysis identified environmental factors and relationship
+type as key moderators, while the concept of technological sophistica-
+tion illuminated a key attribute of the digital procurement practice it-
+self. Furthermore, we acknowledge that both structural states (e.g.,
+digital readiness) and events (e.g., a failed EDI implementation at-
+tempt) can have an important effect on adoption (e.g., EDI adoption
+rate), as suggested by event system theory (Morgeson et al., 2015;
+Reimann et al., 2017).
+
+
+Our findings further illustrate that a certain level of digital readiness
+on both sides of the buyer–supplier dyad is a critical antecedent to the
+adoption of digital procurement practices. This corroborates the ori-
+ginal notion of the SCPV in which the authors called for researchers to
+investigate the conditions under which “organizations, dyads, or
+broader inter-organizational networks adopt certain practices or refrain
+from doing so” (Carter et al., 2017b, p. 119). When studying ex-
+planatory variables for digital procurement, research and practice
+should therefore consider not only the focal firm but also the dyad and
+the broader inter-organizational network.
+
+
+7.2. Co-evolutionary perspective on digital readiness
+
+
+The dyadic perspective of the SCPV on digital procurement, as
+discussed above, can be further extended by incorporating a dynamic
+view on change processes (Andreasen and Gammelgaard, 2018; Langley
+et al., 2013). As a variance-based theory, the SCPV thus far has been
+concerned primarily with knowing that SCM practice B is more effective
+than SCM practice A (Langley et al., 2013). However, Andreasen and
+Gammelgaard (2018) caution that “such accounts tend to ignore how to
+move from A to B … and thus ignore the actual change processes of PSM
+organizations” (Andreasen and Gammelgaard, 2018, p. 2). Therefore,
+complementing the inter-organizational perspective inherent in the
+SCPV with an angle for studying change processes can enrich the static
+picture on digital procurement with a dynamic view on the digital
+transformation journey. Given the rapid pace of digital transformation,
+incorporating this dynamism into the SCPV on digital procurement
+appears particularly relevant.
+
+
+One possible avenue for moving in this direction would be to take a
+co-evolutionary perspective. Applied to the domain of digital procure-
+ment, the concept of co-evolution suggests that the buyer's and sup-
+pliers' digital readiness might each develop as distinct but mutually
+intertwined, co-evolutionary processes, where each party conditions
+the other's evolution (Kaufmann et al., 2016; Volberda and Lewin,
+2003; Wilhelm and Sydow, 2018). This inherently dyadic concept im-
+plies that both the buyer and its suppliers should possess and develop
+certain degrees of digital readiness.
+
+
+The digital readiness matrix, shown in Fig. 2, highlights the mutual
+dependency of the buyer's digital procurement readiness and the sup-
+plier's digital readiness, indicating a corridor of co-evolution. This
+corridor of co-evolution denotes rather synchronized development tra-
+jectories of digital readiness between the buyer and the supplier, and
+this synchronization is expected to facilitate the adoption of digital
+technologies over time. Low levels of digital readiness on both sides of
+the dyad might imply that supply chain partners can implement only
+basic digital technologies – but through the adoption process, they
+might mutually improve their digital readiness over time. High levels of
+digital readiness on both sides of the dyad might lead to higher as-
+pirations by both parties and enable them to engage in more advanced
+digital procurement practices.
+
+
+How the buyer's development pace relates to the pace of the sup-
+plier seems to play a critical role in the notion of co-evolution.
+Tentative support for this view is provided by IndustryCo's Head of
+Strategic Procurement, who suggested that buyers would need to adjust
+their digitalization pace to that of their supply base:
+
+
+IndustryCo is not independent from its environment, from the city in
+which it is located, from China. You cannot be ten years ahead of others;
+then you could not integrate with suppliers. I think the best companies are
+three or five years ahead; then you can get the most advantages. But you
+cannot be successful if you are too quick. (Head of Strategic
+Procurement, IndustryCo).
+Thus, although the corridor of co-evolution suggests that compar-
+
+
+able/aligned levels of digital readiness can facilitate the adoption of
+digital technologies over time, the concept also allows for some (tem-
+porary) differences between the digital readiness of the supply chain
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+partners. We can imagine the possibility of co-evolutionary mechanisms
+in supply chains, where the competitive dynamics play out in a way
+that buying firms exert influence on suppliers to adopt digital tech-
+nologies, or that suppliers exert influence on buyers. For example, au-
+tomotive manufacturers have successfully promoted the use of EDI
+technology in their supply chains through their buying power and the
+diffusion of industry standards (Agi et al., 2005; Huo et al., 2017).
+
+
+Another possible avenue for moving in this direction would be to
+include events as explanatory variables in the SCPV. Events might in-
+clude hiring a digital procurement officer or experiencing cyber-attacks
+in the supply chain; as such, they can trigger change processes and
+consequently can influence the trajectory of buyer–supplier relation-
+ships in critical ways (Morgeson et al., 2015; Reimann et al., 2017).
+
+
+7.3. Managerial implications
+
+
+Interest in the topic of digital procurement is growing quickly
+among practitioners, and many remain confused about which organi-
+zational prerequisites need to be in place to embark on the journey
+toward digital procurement. Our study aims to provide managers with
+initial guidance for analyzing their own and their supply base's readiness
+in terms of both organizational and technological factors. Importantly,
+managers should develop their digital procurement roadmaps with a
+close eye on the digital readiness of their supply base so that they co-
+evolve together with their supply network. Thinking of their suppliers'
+digital readiness as external to their own organization might intuitively
+seem true, but managers nevertheless should consider it to be a po-
+tential bottleneck on the road to digital procurement; avoiding the
+bottleneck requires proactive involvement by the buying firm. Buying
+firms can design certain incentive mechanisms (e.g., preferred supplier
+status and positive supplier evaluations) or invest resources (e.g.,
+trainings or technical support) to help upgrade the digital readiness of
+certain key supply chain partners. Even when a buying firm has the
+
+
+necessary digital procurement readiness, a lack of readiness on the
+supplier side impedes the implementation of digital procurement
+technologies.
+
+
+7.4. Limitations and future research directions
+
+
+We acknowledge several limitations of this study that should be
+considered in the interpretation of its results. First, as with any quali-
+tative research, despite a methodologically rigorous approach, the
+question of whether our insights can be generalized from our empirical
+setting to similar contexts is subject to future empirical research
+(Flyvbjerg, 2006).
+
+
+Second, the present study considers only one specific explanatory
+variable at the (inter-)organizational level of analysis: digital readiness.
+We can conceive of further explanatory variables at various levels of
+analysis, such as individual-level characteristics, firm-level strategies,
+and country-level factors. In that vein, future research could adopt a
+neo-configurational perspective (Kosmol et al., 2018) and analyze
+which configurations of explanatory variables support the im-
+plementation of digital procurement practices.
+
+
+Third, our study considered relational performance only at the
+dyadic level of a buyer–supplier relationship. However, relational per-
+formance also plays a role at the level of digital supply networks (Carter
+et al., 2017b). For example, the network performance of IBM's block-
+chain solution, which might increase visibility and efficiency in supply
+networks, could be measured as the aggregate performance of network
+participants (Forrester, 2018). Examining network performance further
+responds to a call from Srai and Lorentz (2019) to examine the im-
+plications of PSM digitalization beyond firm-level outcomes.
+
+
+In addition, our study provides only an initial starting point for
+further research in this exciting area. Because of the nascent stage of the
+field and the pace of the ongoing development of digitalization, many
+unanswered questions remain.
+
+
+APPENDIX
+
+
+Appendix A. Literature Review Process
+
+
+No. Journal Name Journal Area
+
+
+1 Decision Sciences Supply Chain Management
+2 International Journal of Operations and Production Management Supply Chain Management
+3 International Journal of Physical Distribution and Logistics Management Supply Chain Management
+4 Journal of Business Logistics Supply Chain Management
+5 Journal of Operations Management Supply Chain Management
+6 Journal of Purchasing and Supply Management Supply Chain Management
+7 Journal of Supply Chain Management Supply Chain Management
+8 Supply Chain Management: An International Journal Supply Chain Management
+9 Information Systems Research Information Systems Management
+10 Journal of Management Information Systems Information Systems Management
+11 Journal of the Association of Information Systems Information Systems Management
+12 MIS Quarterly Information Systems Management
+
+
+Appendix B. Profiles of Interviewees
+
+
+Interviewee Firma Informant Job Titleb Years at Firm Years in Current Position Duration of Interview (in mins.)
+
+
+X1 IndustryCo Factory Manager 23 2 50
+X2 IndustryCo Head of Strategic Procurement 6 6 90
+X3 IndustryCo Head of Operational Purchasing 10 6 195
+X4 IndustryCo Purchasing Manager - Processes & Tools 5 1 80
+X5 IndustryCo Purchasing Manager - Processes & Tools* 12 7 80
+X6 IndustryCo Operational Purchaser 3 3 75
+X7 IndustryCo Operational Purchaser 10 1 55
+X8 IndustryCo Operational Purchaser 6 3 60
+X9 IndustryCo Operational Purchaser 4 4 55
+X10 IndustryCo IT Manager 1 1 50
+X11 Electronics-SPL Key Account Manager* 9 9 70
+X12 Packaging-SPL General Manager 10 10 90
+
+
+T. Kosmol, et al.
+
+
+
+
+
+
+X13 Plastics-SPL Marketing Director 6 6 55
+X14 Semicon-SPL Key Account Manager 9 5 60
+X15 AutoseatsCo Manager Purchasing Process 5 3 55
+X16 AutoseatsCo Director Supplier Risk Management 9 2 25
+X17 Fasteners-SPL Commercial Manager* 2 2 20
+X18 Stampings-SPL Senior Commercial Manager 4 4 65
+
+
+a Real names are concealed for confidentiality.
+b Interviews were conducted face-to-face, except for the three interviews marked with an asterisk (*), which were conducted via telephone.
+
+
+Appendix C. Semi-Structured Interview Guideline
+
+
+Categories No. Questions for buying firms (suppliers)
+
+
+General overview 1.1 What is your role in the organization and what responsibilities does it include?
+1.2 Can you please give me a brief overview of your organization?
+
+
+Digitalization 2.1 How will digitalization affect the procurement function at your company (your company)? Please be specific and provide examples/anecdotes!
+2.2 How is digitalization incorporated into your purchasing strategy (company's strategy)?
+
+
+Implementation roa-
+dmap
+
+
+3.1 How would you describe your company's current level of maturity in terms of digital procurement (digitalization maturity)?
+3.2 Can you name some examples of measures contributing to the implementation of digital procurement (digitalization) at your company that have
+
+
+been completed/are planned?
+3.3 What has been the path of implementation of digital procurement measures (digitalization measures) so far?
+3.4 What is the future roadmap for the implementation of digital procurement (digitalization) at your company?
+3.5 How do you measure the success of digital procurement (digitalization) at your company?
+
+
+Digitalization project 4. Please recall a particular key supplier with whom your company has successfully implemented [met challenges or difficulties in implementing] a
+digitalization project during the past 12 months (Please recall the recent digitalization project [name/details to be added based on buying firm
+interview] in your relationship with customer XYZ.)
+
+
+4.1 Could you please give me an overview of this supplier relationship (your relationship with Company XYZ)?
+4.2 Can you please give me a brief overview of this digitalization project?
+4.3 Can you please give me a detailed account of how you implemented this digitalization project with the supplier (company XYZ)?
+4.4 What were the largest hurdles standing in the way of implementing this digitalization project with this supplier (company XYZ)?
+4.5 In your opinion, what were the important enablers for the successful implementation of the digitalization project with this supplier (company XYZ)?
+4.6 What were the effects of implementing this digitalization project with this supplier (company XYZ)?
+
+
+Closing questions 5.1 Based on your experience, what other important (but largely overlooked) areas of digital procurement should we look at? Why? (Regarding the
+implementation of digitalization projects with company XYZ, did we forget anything that should be mentioned?)
+
+
+5.2 Are there other people at your company who you think we should talk with regarding digital procurement (the implementation of this digitalization
+project)?
+
+
+a Certain aspects of the instrument were given more or less emphasis, depending on the position and knowledge of the interview partner.
+
+
+References
+
+
+Agi, M., Ballot, E., Molet, H., 2005. “100% EDI-connected suppliers” projects: an em-
+pirical investigation of success factors. J. Purch. Supply Manag. 11 (2–3), 107–115.
+
+
+Andreasen, P.H., Gammelgaard, B., 2018. Change within purchasing and supply man-
+agement organisations – assessing the claims from maturity models. J. Purch. Supply
+Manag. 24 (2), 151–163.
+
+
+Autry, C.W., Grawe, S.J., Daugherty, P.J., Richey, R.G., 2010. The effects of technological
+turbulence and breadth on supply chain technology acceptance and adoption. J.
+Operat. Manag. 28 (6), 522–536.
+
+
+Bakker, E., Zheng, J., Knight, L., Harland, C., 2008. Putting e-commerce adoption in a
+supply chain context. Int. J. Oper. Prod. Manag. 28 (4), 313–330.
+
+
+Barney, J., 1991. Firm resources and sustained competitive advantage. J. Manag. 17 (1),
+99–120.
+
+
+Barney, J., 2012. Purchasing, supply chain management and sustained competitive ad-
+vantage: the relevance of resource-based theory. J. Supply Chain Manag. 48 (2), 3–6.
+
+
+Barua, A., Konana, P., Whinston, A.B., Yin, F., 2004. An empirical investigation of net-
+enabled business value. MIS Q. 28 (4), 585–620.
+
+
+Batran, A., Erben, A., Schulz, R., Sperl, F., 2017. Procurement 4.0: A Survival Guide in a
+Digital, Disruptive World. Campus, Frankfurt.
+
+
+Bhakoo, V., Choi, T., 2013. The iron cage exposed: institutional pressures and hetero-
+geneity across the healthcare supply chain. J. Oper. Manag. 31 (6), 432–449.
+
+
+Blascovich, J., Rizzon, E., Clouse, M., 2016. What good looks like: 2016 ROSMA.
+Available at: https://www.atkearney.com/procurement/rosma/full-report, Accessed
+date: 11 May 2019.
+
+
+Brandon-Jones, A., Kauppi, K., 2018. Examining the antecedents of the technology ac-
+ceptance model within e-procurement. Int. J. Oper. Prod. Manag. 38 (1), 22–42.
+
+
+Bromiley, P., Rau, D., 2014. Towards a practice-based view of strategy. Strateg. Manag. J.
+35 (8), 1249–1256.
+
+
+Bromiley, P., Rau, D., 2016. Operations management and the resource based view: an-
+other view. J. Oper. Manag. 41, 95–106.
+
+
+Bruque-Cámara, S., Moyano-Fuentes, J., Maqueira-Marín, J.M., 2016. Supply chain in-
+tegration through community cloud: effects on operational performance. J. Purch.
+Supply Manag. 22 (2), 141–153.
+
+
+Caniëls, M.C.J., Gehrsitz, M.H., Semeijn, J., 2013. Participation of suppliers in greening
+supply chains: an empirical analysis of German automotive suppliers. J. Purch.
+Supply Manag. 19 (3), 134–143.
+
+
+Carter, C.R., Kaufmann, L., Wagner, C.M., 2017a. Reconceptualizing intuition in supply
+chain management. J. Bus. Logist. 38 (2), 80–95.
+
+
+Carter, C.R., Kosmol, T., Kaufmann, L., 2017b. Toward a supply chain practice view. J.
+Supply Chain Manag. 53 (1), 114–122.
+
+
+Carter, C.R., Rogers, D.S., Choi, T., 2015. Toward the theory of the supply chain. J. Supply
+Chain Manag. 51 (2), 89–97.
+
+
+Chen, D.Q., Mocker, M., Preston, D.S., Teubner, A., 2010. Information systems strategy:
+reconceptualization, measurement, and implications. MIS Q. 34 (2), 233–259.
+
+
+Chen, D.Q., Preston, D.S., Swink, M., 2016. How the use of big data analytics affects value
+creation in supply chain management. J. Manag. Inf. Syst. 32 (4), 4–39.
+
+
+Cheung, M.-S., Myers, M.B., Mentzer, J.T., 2011. The value of relational learning in global
+buyer-supplier exchanges: a dyadic perspective and test of the pie-sharing premise.
+Strat. Mgmt. J. 32 (10), 1061–1082.
+
+
+Chicksand, D., Staughton, R., Marshall, D., 2016. Towards an alternative paradigm for
+understanding business-to-business relationships. IPSERA Conf. Proc. 1–16.
+
+
+Corbin, J.M., Strauss, A.L., 2008. Basics of Qualitative Research: Techniques and
+Procedures for Developing Grounded Theory, third ed. Sage Publications, Thousand
+Oaks, CA.
+
+
+Corley, K.G., Gioia, D.A., 2011. Building theory about theory building: what constitutes a
+theoretical contribution? Acad. Manag. Rev. 36 (1), 12–32.
+
+
+Cousins, P.D., Lawson, B., Squire, B., 2006. An empirical taxonomy of purchasing func-
+tions. Int. J. Oper. Prod. Manag. 26 (7), 775–794.
+
+
+Dong, S., Xu, S.X., Zhu, K.X., 2009. Information technology in supply chains: the value of
+IT-enabled resources under competition. Inf. Syst. Res. 20 (1), 18–32.
+
+
+Dubois, A., Salmi, A., 2016. A call for broadening the range of approaches to case studies
+in purchasing and supply management. J. Purch. Supply Manag. 22 (4), 247–249.
+
+
+Durach, C.F., Kembro, J., Wieland, A., 2017a. A new paradigm for systematic literature
+reviews in supply chain management. J. Supply Chain Manag. 53 (4), 67–85.
+
+
+Durach, C.F., Kurpjuweit, S., Wagner, S.M., 2017b. The impact of additive manufacturing
+on supply chains. Int. J. Phys. Distrib. Logist. Manag. 47 (10), 954–971.
+
+
+Dyer, J.H., Singh, H., 1998. The relational view: cooperative strategy and sources of in-
+terorganizational competitive advantage. Acad. Manag. Rev. 23 (4), 660–679.
+
+
+Eisenhardt, K.M., 1989. Building theories from case study research. Acad. Manag. Rev. 14
+(4), 532–550.
+
+
+Eisenhardt, K.M., Graebner, M.E., 2007. Theory building from cases: opportunities and
+challenges. Acad. Manag. J. 50 (1), 25–32.
+
+
+Elsaesser, C.A., Glas, A.H., Essig, M., 2019. Enigma digital - paving the path between
+conceptual mess and empirical overload. IPSERA Conf. Proc. 1–20.
+
+
+Flyvbjerg, B., 2006. Five misunderstandings about case-study research. Qual. Inq. 12 (2),
+219–245.
+
+
+Forrester, 2018. Emerging technology projection: the total economic impact of IBM
+Blockchain. Available at: https://www.ibm.com/blockchain/industries/supply-
+
+
+T. Kosmol, et al.
+
+
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref1
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref1
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref2
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref2
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref2
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref3
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref3
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref3
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref4
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref4
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref5
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref5
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref6
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref6
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref7
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref7
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref8
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref8
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref9
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref9
+
+https://www.atkearney.com/procurement/rosma/full-report
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref11
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref11
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref12
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref12
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref13
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref13
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref14
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref14
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref14
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref96
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref96
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref96
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref15
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref15
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref16
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref16
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref17
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref17
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref18
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref18
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref19
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref19
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref20
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref20
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref20
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref21
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref21
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref22
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref22
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref22
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref23
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref23
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref24
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref24
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref25
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref25
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref26
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref26
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref27
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref27
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref28
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref28
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref29
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref29
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref30
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref30
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref31
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref31
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref32
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref32
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref33
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref33
+
+https://www.ibm.com/blockchain/industries/supply-chain#1092366
+
+
+
+
+chain#1092366, Accessed date: 11 May 2019.
+Gibbert, M., Ruigrok, W., Wicki, B., 2008. What passes as a rigorous case study? Strateg.
+
+
+Manag. J. 29 (13), 1465–1474.
+Handfield, R., Jeong, S., Choi, T., 2019. Emerging procurement technology: data analytics
+
+
+and cognitive analytics. Int. J. Phys. Distrib. Logist. Manag. https://doi.org/10.
+1108/IJPDLM-11-2017-0348.
+
+
+Heide, J.B., John, G., 1992. Do norms matter in marketing relationships? J. Mark. 56 (2),
+32–44.
+
+
+Högel, M., Schnellbächer, W., Tevelson, R., Weise, D., 2018. Delivering on digital pro-
+curement's promise. Available at: http://image-src.bcg.com/Images/BCG-
+Delivering-on-Digital-Procurements-Promise-May-2018_tcm9-193785.pdf, Accessed
+date: 11 May 2019.
+
+
+Huo, B., Flynn, B.B., Zhao, X., 2017. Supply chain power configurations and their re-
+lationship with performance. J. Supply Chain Manag. 53 (2), 88–111.
+
+
+Iacovou, C.L., Benbasat, I., Dexter, A.S., 1995. Electronic Data Interchange and small
+organizations: adoption and impact of technology. MIS Q. 19 (4), 465–485.
+
+
+Jick, T.D., 1979. Mixing qualitative and quantitative methods: triangulation in action.
+Adm. Sci. Q. 24 (4), 602–611.
+
+
+Johnsen, T.E., Mikkelsen, O.S., Paulraj, A., 2016. The character and significance of Nordic
+purchasing and supply management research: a systematic review of the literature. J.
+Purch. Supply Manag. 22 (1), 41–52.
+
+
+Kache, F., Seuring, S., 2017. Challenges and opportunities of digital information at the
+intersection of Big Data Analytics and supply chain management. Int. J. Oper. Prod.
+Manag. 37 (1), 10–36.
+
+
+Kaufmann, L., Carter, C.R., Rauer, J., 2016. The coevolution of relationship dominant
+logic and supply risk mitigation strategies. J. Bus. Logist. 37 (2), 87–106.
+
+
+Kaufmann, L., Esslinger, J., Carter, C.R., 2018. Toward relationship resilience: managing
+buyer-induced breaches of psychological contracts during joint buyer-supplier pro-
+jects. J. Supply Chain Manag. 54 (4), 62–85.
+
+
+Ketokivi, M., Choi, T., 2014. Renaissance of case research as a scientific method. J. Oper.
+Manag. 32 (5), 232–240.
+
+
+Kosmol, T., Reimann, F., Kaufmann, L., 2018. Co-alignment of supplier quality manage-
+ment practices and cognitive maps – a neo-configurational perspective. J. Purch.
+Supply Manag. 24 (1), 1–20.
+
+
+Kros, J.F., Richey, R.G., Chen, H., Nadler, S.S., 2011. Technology emergence between
+mandate and acceptance: an exploratory examination of RFID. Int. J. Phys. Distrib.
+Logist. Manag. 41 (7), 697–716.
+
+
+Langley, A., Smallman, C., Tsoukas, H., Van de Ven, A.H., 2013. Process studies of change
+in organization and management: unveiling temporality, activity, and flow. Acad.
+Manag. J. 56 (1), 1–13.
+
+
+Li, Y., Wu, F., Zong, W., Li, B., 2017. Supply chain collaboration for ERP implementation.
+Int. J. Oper. Prod. Manag. 37 (10), 1327–1347.
+
+
+Liang, H., Saraf, N., Hu, Q., Xue, Y., 2007. Assimilation of enterprise systems: the effect of
+institutional pressures and the mediating role of top management. MIS Q. 31 (1),
+59–87.
+
+
+Liu, Z., Prajogo, D., Oke, A., 2016. Supply chain technologies: linking adoption, utiliza-
+tion, and performance. J. Supply Chain Manag. 52 (4), 22–41.
+
+
+Makino, S., Chan, C.M., 2017. Skew and heavy-tail effects on firm performance. Strat.
+Mgmt. J. 38 (8), 1721–1740.
+
+
+McGee, P., 2018. Procurement comes out of the shadows: the advent of digital tools has
+put the back office at the forefront of business strategy. Available at: https://www.ft.
+com/content/3a0da70e-ad52-11e8-8253-48106866cd8a, Accessed date: 11 May
+2019.
+
+
+Miles, M.B., Huberman, A.M., Saldaña, J., 2013. Qualitative Data Analysis: A Methods
+Sourcebook, third ed. Sage Publications, Thousand Oaks, CA.
+
+
+Misangyi, V.F., Greckhamer, T., Furnari, S., Fiss, P.C., Crilly, D., Aguilera, R., 2017.
+Embracing causal complexity: the emergence of a neo-configurational perspective. J.
+Manag. 43 (1), 255–282.
+
+
+Mishra, A.N., Konana, P., Barua, A., 2007. Antecedents and consequences of Internet use
+in procurement: an empirical investigation of U.S. manufacturing firms. Inf. Syst. Res.
+(1), 103–120.
+
+
+Morgeson, F.P., Mitchell, T.R., Liu, D., 2015. Event system theory: an event-oriented
+approach to the organizational sciences. Acad. Manag. Rev. 40 (4), 515–537.
+
+
+Parasuraman, A., 2000. Technology Readiness Index (TRI): a multiple-item scale to
+measure readiness to embrace new technologies. J. Serv. Res. 2 (4), 307–320.
+
+
+Paulraj, A., Chen, I.J., Lado, A.A., 2012. An empirical taxonomy of supply chain man-
+agement practices. J. Bus. Logist. 33 (3), 227–244.
+
+
+Pellengahr, K., Schulte, A.T., Richard, J., Berg, M., 2016. Procurement 4.0: the digitali-
+sation of procurement. Available at: https://www.iml.fraunhofer.de/content/dam/
+iml/de/documents/OE260/Pilot%20Study_Procurement%204-0_Fraunhofer
+%20IML_BME.pdf, Accessed date: 11 May 2019.
+
+
+Pettigrew, A.M., 1990. Longitudinal field research on change: theory and practice. Organ.
+Sci. 1 (3), 267–292.
+
+
+Poppo, L., Zhou, K.Z., Li, J.J., 2016. When can you trust “trust”? Calculative trust, rela-
+tional trust, and supplier performance. Strateg. Manag. J. 37 (4), 724–741.
+
+
+Ramkumar, M., Schoenherr, T., Wagner, S.M., Jenamani, M., 2019. Q-TAM: A quality
+technology acceptance model for predicting organizational buyers’ continuance
+
+
+intentions for e-procurement services. Int. J. Prod. Econ. 216, 333–348.
+Ray, G., Muhanna, W.A., Barney, J.B., 2005. Information technology and the performance
+
+
+of the customer service process: a resource-based analysis. MIS Q. 29 (4), 625–652.
+Reimann, F., Kosmol, T., Kaufmann, L., 2017. Responses to supplier-induced disruptions:
+
+
+a fuzzy-set analysis. J. Supply Chain Manag. 53 (4), 37–66.
+Richey, R.G., Daugherty, P.J., Roath, A.S., 2007. Firm technological readiness and com-
+
+
+plementarity: capabilities impacting logistics service competency and performance. J.
+Bus. Logist. 28 (1), 195–228.
+
+
+Richey, R.G., Morgan, T.R., Lindsey-Hall, K., Adams, F.G., 2016. A global exploration of
+big data in the supply chain. Int. J. Phys. Distrib. Logist. Manag. 46 (8), 710–739.
+
+
+Ronchi, S., Brun, A., Golini, R., Fan, X., 2010. What is the value of an IT e-procurement
+system? J. Purch. Supply Manag. 16 (2), 131–140.
+
+
+Rotchanakitumnuai, S., 2013. Assessment of e-procurement auction with a balanced
+scorecard. Int. J. Phys. Distrib. Logist. Manag. 43 (1), 39–53.
+
+
+Saldanha, J., Mello, J.E., Knemeyer, A.M., Vijayaraghavan, T.A.S., 2015. Implementing
+supply chain technologies in emerging markets: an institutional theory perspective. J.
+Supply Chain Manag. 51 (1), 5–26.
+
+
+Schnellbächer, W., Weise, D., Tevelson, R., Högel, M., 2018. Jump-starting the digital
+procurement journey. Available at: , Accessed date: 11 May 2019 https://www.bcg.
+com/de-de/publications/2018/jump-starting-digital-procurement-journey.aspx.
+
+
+Schoenherr, T., Speier-Pero, C., 2015. Data science, predictive analytics, and big data in
+supply chain management: current state and future potential. J. Bus. Logist. 36 (1),
+120–132.
+
+
+Schoenherr, T., Tummala, V.M.R., 2007. Electronic procurement: a structured literature
+review and directions for future research. Int. J. Proc. Mgmt. 1 (1–2), 8–37.
+
+
+Spina, G., Caniato, F., Luzzini, D., Ronchi, S., 2016. Assessing the use of external grand
+theories in purchasing and supply management research. J. Purch. Supply Manag. 22
+(1), 18–30.
+
+
+Srai, J.S., Lorentz, H., 2019. Developing design principles for the digitalisation of pur-
+chasing and supply management. J. Purch. Supply Manag. 25 (1), 78–98.
+
+
+Sternberg, H., Norrman, A., 2017. The physical internet – review, analysis and future
+research agenda. Int. J. Phys. Distrib. Logist. Manag. 47 (8), 736–762.
+
+
+Stuart, I., McCutcheon, D., Handfield, R., McLachlin, R., Samson, D., 2002. Effective case
+research in operations management: a process perspective. J. Oper. Manag. 20 (5),
+419–433.
+
+
+Ta, H., Esper, T.L., Ford, K., Garcia-Dastuge, S., 2018. Trustworthiness change and re-
+lationship continuity after contract breach in financial supply chains. J. Supply Chain
+Manag. 54 (4), 42–61.
+
+
+Tatsis, V., Mena, C., van Wassenhove, L.N., Whicker, L., 2006. E-procurement in the
+Greek food and drink industry: Drivers and impediments. J. Purch. Supply Manag. 12
+(2), 63–74.
+
+
+Tornatzky, L.G., Fleischer, M., 1990. The Processes of Technological Innovation.
+Lexington Books, Lexington, MA.
+
+
+Turkulainen, V., Swink, M.L., 2017. Supply chain personnel as knowledge resources for
+innovation: a contingency view. J. Supply Chain Manag. 53 (3), 41–59.
+
+
+Venkatesh, V., Bala, H., 2012. Adoption and impacts of interorganizational business
+process standards: role of partnering synergy. Inf. Syst. Res. 23 (4), 1131–1157.
+
+
+Volberda, H.W., Lewin, A.Y., 2003. Co-evolutionary dynamics within and between firms:
+from evolution to co-evolution. J. Manag. Stud. 40 (8), 2111–2136.
+
+
+Wang, M., Zhang, Q., Wang, Y., Sheng, S., 2016. Governing local supplier opportunism in
+China: moderating role of institutional forces. J. Oper. Manag. 46, 84–94.
+
+
+Wang, Y., Kung, L., Wang, W.Y.C., Cegielski, C.G., 2018. An integrated big data analytics-
+enabled transformation model: application to health care. Inf. Manag. 55 (1), 64–79.
+
+
+Weise, D., Schnellbächer, W., Steffani, D., Schubert, O., 2018. Pushing the Value Envelope
+in Procurement: A Call to Action in 2018. Available at: http://image-src.bcg.com/
+Images/BCG-Pushing-the-Value-Envelope-in-Procurement-Feb-2018_tcm108-
+184146.pdf, Accessed date: 11 May 2019.
+
+
+Wiengarten, F., Fynes, B., Humphreys, P., Chavez, R.C., McKittrick, A., 2011. Assessing
+the value creation process of e-business along the supply chain. Supply Chain Manag.:
+Int. J. 16 (4), 207–219.
+
+
+Wilhelm, M., Sydow, J., 2018. Managing coopetition in supplier networks: a paradox
+perspective. J. Supply Chain Manag. 54 (3), 22–41.
+
+
+Williamson, O.E., 2008. Outsourcing: transaction cost economics and supply chain
+management. J. Supply Chain Manag. 44 (2), 5–16.
+
+
+Wu, Y., Cegielski, C.G., Hazen, B.T., Hall, D.J., 2013. Cloud computing in support of
+supply chain information system infrastructure: understanding when to go to the
+cloud. J. Supply Chain Manag. 49 (3), 25–41.
+
+
+Yin, R.K., 2014. Case Study Research: Design and Methods, fifth ed. Sage Publications,
+Thousand Oaks, CA.
+
+
+Zhu, K., Kraemer, K.L., Xu, S., 2006. The process of innovation assimilation by firms in
+different countries: a technology diffusion perspective on e-business. Manag. Sci.
+(10), 1557–1576.
+
+
+Zhu, K., Kraemer, K.L., Xu, S., Dedrick, J., 2004. Information technology payoff in e-
+business environments: an international perspective on value creation of e-business in
+the financial services industry. J. Manag. Inf. Syst. 21 (1), 17–54.
+
+
+Zimmermann, F., Foerstl, K., 2014. A meta-analysis of the 'purchasing and supply man-
+agement practice–performance link. J. Supply Chain Manag. 50 (3), 37–54.
+
+
+T. Kosmol, et al.
+
+
+
+https://www.ibm.com/blockchain/industries/supply-chain#1092366
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref35
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref35
+
+https://doi.org/10.1108/IJPDLM-11-2017-0348
+
+https://doi.org/10.1108/IJPDLM-11-2017-0348
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref37
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref37
+
+http://image-src.bcg.com/Images/BCG-Delivering-on-Digital-Procurements-Promise-May-2018_tcm9-193785.pdf
+
+http://image-src.bcg.com/Images/BCG-Delivering-on-Digital-Procurements-Promise-May-2018_tcm9-193785.pdf
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref39
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref39
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref40
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref40
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref41
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref41
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref42
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref42
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref42
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref43
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref43
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref43
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref44
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref44
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref45
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref45
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref45
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref46
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref46
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref47
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref47
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref47
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref48
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref48
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref48
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref49
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref49
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref49
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref50
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref50
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref51
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref51
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref51
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref52
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref52
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref53
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref53
+
+https://www.ft.com/content/3a0da70e-ad52-11e8-8253-48106866cd8a
+
+https://www.ft.com/content/3a0da70e-ad52-11e8-8253-48106866cd8a
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref55
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref55
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref56
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref56
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref56
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref57
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref57
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref57
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref58
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref58
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref59
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref59
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref60
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref60
+
+https://www.iml.fraunhofer.de/content/dam/iml/de/documents/OE260/Pilot%20Study_Procurement%204-0_Fraunhofer%20IML_BME.pdf
+
+https://www.iml.fraunhofer.de/content/dam/iml/de/documents/OE260/Pilot%20Study_Procurement%204-0_Fraunhofer%20IML_BME.pdf
+
+https://www.iml.fraunhofer.de/content/dam/iml/de/documents/OE260/Pilot%20Study_Procurement%204-0_Fraunhofer%20IML_BME.pdf
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref62
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref62
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref63
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref63
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref97
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref97
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref97
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref64
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref64
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref65
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref65
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref66
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref66
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref66
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref67
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref67
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref68
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref68
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref69
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref69
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref70
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref70
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref70
+
+https://www.bcg.com/de-de/publications/2018/jump-starting-digital-procurement-journey.aspx
+
+https://www.bcg.com/de-de/publications/2018/jump-starting-digital-procurement-journey.aspx
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref72
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref72
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref72
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref73
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref73
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref75
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref75
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref75
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref76
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref76
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref77
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref77
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref78
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref78
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref78
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref79
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref79
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref79
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref80
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref80
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref80
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref81
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref81
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref82
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref82
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref83
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref83
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref84
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref84
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref85
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref85
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref86
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref86
+
+http://image-src.bcg.com/Images/BCG-Pushing-the-Value-Envelope-in-Procurement-Feb-2018_tcm108-184146.pdf
+
+http://image-src.bcg.com/Images/BCG-Pushing-the-Value-Envelope-in-Procurement-Feb-2018_tcm108-184146.pdf
+
+http://image-src.bcg.com/Images/BCG-Pushing-the-Value-Envelope-in-Procurement-Feb-2018_tcm108-184146.pdf
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref88
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref88
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref88
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref89
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref89
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref90
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref90
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref91
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref91
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref91
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref92
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref92
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref93
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref93
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref93
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref94
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref94
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref94
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref95
+
+http://refhub.elsevier.com/S1478-4092(18)30148-1/sref95
+
+

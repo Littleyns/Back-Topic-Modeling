@@ -1,0 +1,3672 @@
+
+
+
+
+
+
+
+
+
+
+IFAC PapersOnLine 52-13 (2019) 355–360
+
+
+ScienceDirectScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+2405-8963 © 2019, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+Peer review under responsibility of International Federation of Automatic Control.
+10.1016/j.ifacol.2019.11.146
+
+
+10.1016/j.ifacol.2019.11.146 2405-8963
+
+
+
+
+
+Intellectualization of control: cyber-physical supply chain risk analytics   
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2, Boris Sokolov3, Marina Ivanova1 
+
+
+
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Chair of International Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+3St. Petersburg Institute for Informatics and Automation of the RAS (SPIIRAS) 
+
+
+V.O. 14 line, 39 199178 St. Petersburg, Russia; E-Mail: sokol@iias.spb.su 
+
+
+
+
+
+Abstract: In the frameworks of supply chain risk management, dynamics, and resilience, control theoretic 
+
+
+approaches can be considered as useful tools to tackle the issues of performance achievement under opera-
+
+
+tional and disruption risks. New analytics technologies in the framework of Industry 4.0, big data analytics 
+
+
+and artificial intelligence resulted in the creation of new domains, i.e., cyber physical supply chains and 
+
+
+supply chain risk analytics. As such two trends can be observed, i.e., integration of analytics into control 
+
+
+theory (so called intellectualization of control) and integration of analytics into supply chain risk manage-
+
+
+ment (so called cyber-physical supply chains and risk analytics). This study brings the discussion forward 
+
+
+by integrating these two perspectives. It analyses how control theory can enhance the risk analytics in the 
+
+
+cyber-physical supply chain. Based on literature and case-study analysis, the frameworks of cyber physical 
+
+
+supply chain and risk analytics control are derived. In this setting, further development of interdisciplinary 
+
+
+approaches to supply chain optimization and simulation with disruption risk considerations on the basis of 
+
+
+control analytics is argued. Copyright © 2019 IFAC 
+
+
+Keywords: supply chain, control, cyber-physical, Industry 4.0, resilience, disruption, recovery, analytics
+
+
+
+
+
+1. INTRODUCTION 
+
+
+In the frameworks of risk management in the supply chain 
+
+
+(SC), dynamics, and resilience, control theoretic approaches 
+
+
+can be considered as useful tools to tackle the issues of per-
+
+
+formance achievement under uncertainty in regard to bull-
+
+
+whip and ripple effects (Disney and Towill 2002, 2005, 
+
+
+Dejonckheere et al. 2004, Disney et al. 2006, Lalwani et al. 
+
+
+2006, Ivanov and Sokolov 2010, Spiegler et al. 2012, Ivanov 
+
+
+et al. 2012, Ivanov and Sokolov 2012a, 2013, Ivanov et al. 
+
+
+2014a,b,c, 2015, 2016a, 2018, Fu et al. 2015, Spiegler et al. 
+
+
+2016, Ivanov 2018, Dolgui et al. 2018). Control theory has 
+
+
+been widely used for studying multi-stage, multi-period dy-
+
+
+namic production, logistics, and SC systems. A broad range 
+
+
+of control theory applications can be explained by a rigor 
+
+
+quantitative basis for feedback-based and optimal control 
+
+
+policies including differential games and stochastic systems, 
+
+
+stability of controlled processes and non-linear systems, con-
+
+
+trollability and observability, and adaptation (Sethi 1978, 
+
+
+Perea et al., 2000; Sethi and Thompson, 2000, Sethi et al. 
+
+
+2002, Ortega and Li 2004, Sarimveis et al. 2008, He et al. 
+
+
+2009, Ivanov et al. 2010, Khmelnitsky et al. 2011, Scholz-
+
+
+Reiter et al. 2011, Ivanov and Sokolov 2012, Ivanov et al. 
+
+
+2014a,b,c, 2016a,b,c, Spiegler et al. 2016, Dolgui et al. 
+
+
+2018). These tools can be applied for a wide range of discrete 
+
+
+linear and stochastic non-linear systems with both stable and 
+
+
+dynamically changing structures. New digital technologies 
+
+
+Industry 4.0 provide multiple directions for future develop-
+
+
+ment of control approaches to the SC domain. One of these 
+
+
+direction is SC risk analytics that refers to usage of emerging 
+
+
+analytics techniques to analyzing, monitoring, mitigation, 
+
+
+identification, predicting, control, assessment, simulation and 
+
+
+the disruption risks in the SC and to the recovery in the case 
+
+
+of disruptions (Heckmann 2016, Dolgui et al. 2019, Dubey et 
+
+
+al. 2019, Panetto et al. 2019, Hosseini et al. 2019). 
+
+
+Industry 4.0 SCs evolve through adaptation and reconfigura-
+
+
+tion of their structures. Therefore, structural dynamics control 
+
+
+needs to be developed further (Ivanov et al. 2010, Ivanov 
+
+
+2018). With the help of smart sensors and plug-and-produce 
+
+
+cyber-physical systems, the stations in the assembly system 
+
+
+are capable of changing the operation processing and setup 
+
+
+sequences according to actual order incoming flows and ca-
+
+
+pacity utilization. Levalle and Nof (2016) develop a link to 
+
+
+resilient enterprise and provide evidence of how collaborative 
+
+
+control can be used in supply chain resilience analysis. In the 
+
+
+front opening unified pods technology in semiconductor in-
+
+
+dustry, robots are used in real-time operation sequencing. 
+
+
+Collaborative robots read the information about the products 
+
+
+from sensors and tags and decide flexibly where to forward a 
+
+
+wafer batch next (Mönch et al. 2012).  
+
+
+Short-term SC scheduling in smart factories Industry 4.0 is 
+
+
+challenged by temporal machine structures, different pro-
+
+
+cessing speeds at parallel machines and dynamic job arrivals. 
+
+
+Indus-try 4.0 technology is based on the concepts of flexibil-
+
+
+ity and dynamic assembly system design. This enables new 
+
+
+production strategies and creates new challenges for job shop 
+
+
+scheduling. In particular, manufacturing processes for differ-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 360     
+
+
+Intellectualization of control: cyber-physical supply chain risk analytics   
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2, Boris Sokolov3, Marina Ivanova1 
+
+
+
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Chair of International Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+3St. Petersburg Institute for Informatics and Automation of the RAS (SPIIRAS) 
+
+
+V.O. 14 line, 39 199178 St. Petersburg, Russia; E-Mail: sokol@iias.spb.su 
+
+
+
+
+
+Abstract: In the frameworks of supply chain risk management, dynamics, and resilience, control theoretic 
+
+
+approaches can be considered as useful tools to tackle the issues of performance achievement under opera-
+
+
+tional and disruption risks. New analytics technologies in the framework of Industry 4.0, big data analytics 
+
+
+and artificial intelligence resulted in the creation of new domains, i.e., cyber physical supply chains and 
+
+
+supply chain risk analytics. As such two trends can be observed, i.e., integration of analytics into control 
+
+
+theory (so called intellectualization of control) and integration of analytics into supply chain risk manage-
+
+
+ment (so called cyber-physical supply chains and risk analytics). This study brings the discussion forward 
+
+
+by integrating these two perspectives. It analyses how control theory can enhance the risk analytics in the 
+
+
+cyber-physical supply chain. Based on literature and case-study analysis, the frameworks of cyber physical 
+
+
+supply chain and risk analytics control are derived. In this setting, further development of interdisciplinary 
+
+
+approaches to supply chain optimization and simulation with disruption risk considerations on the basis of 
+
+
+control analytics is argued. Copyright © 2019 IFAC 
+
+
+Keywords: supply chain, control, cyber-physical, Industry 4.0, resilience, disruption, recovery, analytics
+
+
+
+
+
+1. INTRODUCTION 
+
+
+In the frameworks of risk management in the supply chain 
+
+
+(SC), dynamics, and resilience, control theoretic approaches 
+
+
+can be considered as useful tools to tackle the issues of per-
+
+
+formance achievement under uncertainty in regard to bull-
+
+
+whip and ripple effects (Disney and Towill 2002, 2005, 
+
+
+Dejonckheere et al. 2004, Disney et al. 2006, Lalwani et al. 
+
+
+2006, Ivanov and Sokolov 2010, Spiegler et al. 2012, Ivanov 
+
+
+et al. 2012, Ivanov and Sokolov 2012a, 2013, Ivanov et al. 
+
+
+2014a,b,c, 2015, 2016a, 2018, Fu et al. 2015, Spiegler et al. 
+
+
+2016, Ivanov 2018, Dolgui et al. 2018). Control theory has 
+
+
+been widely used for studying multi-stage, multi-period dy-
+
+
+namic production, logistics, and SC systems. A broad range 
+
+
+of control theory applications can be explained by a rigor 
+
+
+quantitative basis for feedback-based and optimal control 
+
+
+policies including differential games and stochastic systems, 
+
+
+stability of controlled processes and non-linear systems, con-
+
+
+trollability and observability, and adaptation (Sethi 1978, 
+
+
+Perea et al., 2000; Sethi and Thompson, 2000, Sethi et al. 
+
+
+2002, Ortega and Li 2004, Sarimveis et al. 2008, He et al. 
+
+
+2009, Ivanov et al. 2010, Khmelnitsky et al. 2011, Scholz-
+
+
+Reiter et al. 2011, Ivanov and Sokolov 2012, Ivanov et al. 
+
+
+2014a,b,c, 2016a,b,c, Spiegler et al. 2016, Dolgui et al. 
+
+
+2018). These tools can be applied for a wide range of discrete 
+
+
+linear and stochastic non-linear systems with both stable and 
+
+
+dynamically changing structures. New digital technologies 
+
+
+Industry 4.0 provide multiple directions for future develop-
+
+
+ment of control approaches to the SC domain. One of these 
+
+
+direction is SC risk analytics that refers to usage of emerging 
+
+
+analytics techniques to analyzing, monitoring, mitigation, 
+
+
+identification, predicting, control, assessment, simulation and 
+
+
+the disruption risks in the SC and to the recovery in the case 
+
+
+of disruptions (Heckmann 2016, Dolgui et al. 2019, Dubey et 
+
+
+al. 2019, Panetto et al. 2019, Hosseini et al. 2019). 
+
+
+Industry 4.0 SCs evolve through adaptation and reconfigura-
+
+
+tion of their structures. Therefore, structural dynamics control 
+
+
+needs to be developed further (Ivanov et al. 2010, Ivanov 
+
+
+2018). With the help of smart sensors and plug-and-produce 
+
+
+cyber-physical systems, the stations in the assembly system 
+
+
+are capable of changing the operation processing and setup 
+
+
+sequences according to actual order incoming flows and ca-
+
+
+pacity utilization. Levalle and Nof (2016) develop a link to 
+
+
+resilient enterprise and provide evidence of how collaborative 
+
+
+control can be used in supply chain resilience analysis. In the 
+
+
+front opening unified pods technology in semiconductor in-
+
+
+dustry, robots are used in real-time operation sequencing. 
+
+
+Collaborative robots read the information about the products 
+
+
+from sensors and tags and decide flexibly where to forward a 
+
+
+wafer batch next (Mönch et al. 2012).  
+
+
+Short-term SC scheduling in smart factories Industry 4.0 is 
+
+
+challenged by temporal machine structures, different pro-
+
+
+cessing speeds at parallel machines and dynamic job arrivals. 
+
+
+Indus-try 4.0 technology is based on the concepts of flexibil-
+
+
+ity and dynamic assembly system design. This enables new 
+
+
+production strategies and creates new challenges for job shop 
+
+
+scheduling. In particular, manufacturing processes for differ-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 360
+
+
+
+
+
+Intellectualization of control: cyber-physical supply chain risk analytics   
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2, Boris Sokolov3, Marina Ivanova1 
+
+
+
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Chair of International Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+3St. Petersburg Institute for Informatics and Automation of the RAS (SPIIRAS) 
+
+
+V.O. 14 line, 39 199178 St. Petersburg, Russia; E-Mail: sokol@iias.spb.su 
+
+
+
+
+
+Abstract: In the frameworks of supply chain risk management, dynamics, and resilience, control theoretic 
+
+
+approaches can be considered as useful tools to tackle the issues of performance achievement under opera-
+
+
+tional and disruption risks. New analytics technologies in the framework of Industry 4.0, big data analytics 
+
+
+and artificial intelligence resulted in the creation of new domains, i.e., cyber physical supply chains and 
+
+
+supply chain risk analytics. As such two trends can be observed, i.e., integration of analytics into control 
+
+
+theory (so called intellectualization of control) and integration of analytics into supply chain risk manage-
+
+
+ment (so called cyber-physical supply chains and risk analytics). This study brings the discussion forward 
+
+
+by integrating these two perspectives. It analyses how control theory can enhance the risk analytics in the 
+
+
+cyber-physical supply chain. Based on literature and case-study analysis, the frameworks of cyber physical 
+
+
+supply chain and risk analytics control are derived. In this setting, further development of interdisciplinary 
+
+
+approaches to supply chain optimization and simulation with disruption risk considerations on the basis of 
+
+
+control analytics is argued. Copyright © 2019 IFAC 
+
+
+Keywords: supply chain, control, cyber-physical, Industry 4.0, resilience, disruption, recovery, analytics
+
+
+
+
+
+1. INTRODUCTION 
+
+
+In the frameworks of risk management in the supply chain 
+
+
+(SC), dynamics, and resilience, control theoretic approaches 
+
+
+can be considered as useful tools to tackle the issues of per-
+
+
+formance achievement under uncertainty in regard to bull-
+
+
+whip and ripple effects (Disney and Towill 2002, 2005, 
+
+
+Dejonckheere et al. 2004, Disney et al. 2006, Lalwani et al. 
+
+
+2006, Ivanov and Sokolov 2010, Spiegler et al. 2012, Ivanov 
+
+
+et al. 2012, Ivanov and Sokolov 2012a, 2013, Ivanov et al. 
+
+
+2014a,b,c, 2015, 2016a, 2018, Fu et al. 2015, Spiegler et al. 
+
+
+2016, Ivanov 2018, Dolgui et al. 2018). Control theory has 
+
+
+been widely used for studying multi-stage, multi-period dy-
+
+
+namic production, logistics, and SC systems. A broad range 
+
+
+of control theory applications can be explained by a rigor 
+
+
+quantitative basis for feedback-based and optimal control 
+
+
+policies including differential games and stochastic systems, 
+
+
+stability of controlled processes and non-linear systems, con-
+
+
+trollability and observability, and adaptation (Sethi 1978, 
+
+
+Perea et al., 2000; Sethi and Thompson, 2000, Sethi et al. 
+
+
+2002, Ortega and Li 2004, Sarimveis et al. 2008, He et al. 
+
+
+2009, Ivanov et al. 2010, Khmelnitsky et al. 2011, Scholz-
+
+
+Reiter et al. 2011, Ivanov and Sokolov 2012, Ivanov et al. 
+
+
+2014a,b,c, 2016a,b,c, Spiegler et al. 2016, Dolgui et al. 
+
+
+2018). These tools can be applied for a wide range of discrete 
+
+
+linear and stochastic non-linear systems with both stable and 
+
+
+dynamically changing structures. New digital technologies 
+
+
+Industry 4.0 provide multiple directions for future develop-
+
+
+ment of control approaches to the SC domain. One of these 
+
+
+direction is SC risk analytics that refers to usage of emerging 
+
+
+analytics techniques to analyzing, monitoring, mitigation, 
+
+
+identification, predicting, control, assessment, simulation and 
+
+
+the disruption risks in the SC and to the recovery in the case 
+
+
+of disruptions (Heckmann 2016, Dolgui et al. 2019, Dubey et 
+
+
+al. 2019, Panetto et al. 2019, Hosseini et al. 2019). 
+
+
+Industry 4.0 SCs evolve through adaptation and reconfigura-
+
+
+tion of their structures. Therefore, structural dynamics control 
+
+
+needs to be developed further (Ivanov et al. 2010, Ivanov 
+
+
+2018). With the help of smart sensors and plug-and-produce 
+
+
+cyber-physical systems, the stations in the assembly system 
+
+
+are capable of changing the operation processing and setup 
+
+
+sequences according to actual order incoming flows and ca-
+
+
+pacity utilization. Levalle and Nof (2016) develop a link to 
+
+
+resilient enterprise and provide evidence of how collaborative 
+
+
+control can be used in supply chain resilience analysis. In the 
+
+
+front opening unified pods technology in semiconductor in-
+
+
+dustry, robots are used in real-time operation sequencing. 
+
+
+Collaborative robots read the information about the products 
+
+
+from sensors and tags and decide flexibly where to forward a 
+
+
+wafer batch next (Mönch et al. 2012).  
+
+
+Short-term SC scheduling in smart factories Industry 4.0 is 
+
+
+challenged by temporal machine structures, different pro-
+
+
+cessing speeds at parallel machines and dynamic job arrivals. 
+
+
+Indus-try 4.0 technology is based on the concepts of flexibil-
+
+
+ity and dynamic assembly system design. This enables new 
+
+
+production strategies and creates new challenges for job shop 
+
+
+scheduling. In particular, manufacturing processes for differ-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 360
+
+
+
+
+
+Intellectualization of control: cyber-physical supply chain risk analytics   
+ 
+
+
+Dmitry Ivanov1, Alexandre Dolgui2, Boris Sokolov3, Marina Ivanova1 
+
+
+
+1Berlin School of Economics and Law, Department of Business Administration 
+
+
+Chair of International Supply Chain Management, 10825 Berlin, Germany 
+
+
+Phone: +49 3085789155; E-Mail: divanov@hwr-berlin.de 
+2IMT Atlantique, LS2N, CNRS  
+
+
+La Chantrerie, 4, rue Alfred Kastler, 44300 Nantes, France 
+
+
+email: alexandre.dolgui@imt-atlantique.fr 
+3St. Petersburg Institute for Informatics and Automation of the RAS (SPIIRAS) 
+
+
+V.O. 14 line, 39 199178 St. Petersburg, Russia; E-Mail: sokol@iias.spb.su 
+
+
+
+
+
+Abstract: In the frameworks of supply chain risk management, dynamics, and resilience, control theoretic 
+
+
+approaches can be considered as useful tools to tackle the issues of performance achievement under opera-
+
+
+tional and disruption risks. New analytics technologies in the framework of Industry 4.0, big data analytics 
+
+
+and artificial intelligence resulted in the creation of new domains, i.e., cyber physical supply chains and 
+
+
+supply chain risk analytics. As such two trends can be observed, i.e., integration of analytics into control 
+
+
+theory (so called intellectualization of control) and integration of analytics into supply chain risk manage-
+
+
+ment (so called cyber-physical supply chains and risk analytics). This study brings the discussion forward 
+
+
+by integrating these two perspectives. It analyses how control theory can enhance the risk analytics in the 
+
+
+cyber-physical supply chain. Based on literature and case-study analysis, the frameworks of cyber physical 
+
+
+supply chain and risk analytics control are derived. In this setting, further development of interdisciplinary 
+
+
+approaches to supply chain optimization and simulation with disruption risk considerations on the basis of 
+
+
+control analytics is argued. Copyright © 2019 IFAC 
+
+
+Keywords: supply chain, control, cyber-physical, Industry 4.0, resilience, disruption, recovery, analytics
+
+
+
+
+
+1. INTRODUCTION 
+
+
+In the frameworks of risk management in the supply chain 
+
+
+(SC), dynamics, and resilience, control theoretic approaches 
+
+
+can be considered as useful tools to tackle the issues of per-
+
+
+formance achievement under uncertainty in regard to bull-
+
+
+whip and ripple effects (Disney and Towill 2002, 2005, 
+
+
+Dejonckheere et al. 2004, Disney et al. 2006, Lalwani et al. 
+
+
+2006, Ivanov and Sokolov 2010, Spiegler et al. 2012, Ivanov 
+
+
+et al. 2012, Ivanov and Sokolov 2012a, 2013, Ivanov et al. 
+
+
+2014a,b,c, 2015, 2016a, 2018, Fu et al. 2015, Spiegler et al. 
+
+
+2016, Ivanov 2018, Dolgui et al. 2018). Control theory has 
+
+
+been widely used for studying multi-stage, multi-period dy-
+
+
+namic production, logistics, and SC systems. A broad range 
+
+
+of control theory applications can be explained by a rigor 
+
+
+quantitative basis for feedback-based and optimal control 
+
+
+policies including differential games and stochastic systems, 
+
+
+stability of controlled processes and non-linear systems, con-
+
+
+trollability and observability, and adaptation (Sethi 1978, 
+
+
+Perea et al., 2000; Sethi and Thompson, 2000, Sethi et al. 
+
+
+2002, Ortega and Li 2004, Sarimveis et al. 2008, He et al. 
+
+
+2009, Ivanov et al. 2010, Khmelnitsky et al. 2011, Scholz-
+
+
+Reiter et al. 2011, Ivanov and Sokolov 2012, Ivanov et al. 
+
+
+2014a,b,c, 2016a,b,c, Spiegler et al. 2016, Dolgui et al. 
+
+
+2018). These tools can be applied for a wide range of discrete 
+
+
+linear and stochastic non-linear systems with both stable and 
+
+
+dynamically changing structures. New digital technologies 
+
+
+Industry 4.0 provide multiple directions for future develop-
+
+
+ment of control approaches to the SC domain. One of these 
+
+
+direction is SC risk analytics that refers to usage of emerging 
+
+
+analytics techniques to analyzing, monitoring, mitigation, 
+
+
+identification, predicting, control, assessment, simulation and 
+
+
+the disruption risks in the SC and to the recovery in the case 
+
+
+of disruptions (Heckmann 2016, Dolgui et al. 2019, Dubey et 
+
+
+al. 2019, Panetto et al. 2019, Hosseini et al. 2019). 
+
+
+Industry 4.0 SCs evolve through adaptation and reconfigura-
+
+
+tion of their structures. Therefore, structural dynamics control 
+
+
+needs to be developed further (Ivanov et al. 2010, Ivanov 
+
+
+2018). With the help of smart sensors and plug-and-produce 
+
+
+cyber-physical systems, the stations in the assembly system 
+
+
+are capable of changing the operation processing and setup 
+
+
+sequences according to actual order incoming flows and ca-
+
+
+pacity utilization. Levalle and Nof (2016) develop a link to 
+
+
+resilient enterprise and provide evidence of how collaborative 
+
+
+control can be used in supply chain resilience analysis. In the 
+
+
+front opening unified pods technology in semiconductor in-
+
+
+dustry, robots are used in real-time operation sequencing. 
+
+
+Collaborative robots read the information about the products 
+
+
+from sensors and tags and decide flexibly where to forward a 
+
+
+wafer batch next (Mönch et al. 2012).  
+
+
+Short-term SC scheduling in smart factories Industry 4.0 is 
+
+
+challenged by temporal machine structures, different pro-
+
+
+cessing speeds at parallel machines and dynamic job arrivals. 
+
+
+Indus-try 4.0 technology is based on the concepts of flexibil-
+
+
+ity and dynamic assembly system design. This enables new 
+
+
+production strategies and creates new challenges for job shop 
+
+
+scheduling. In particular, manufacturing processes for differ-
+
+
+9th IFAC Conference on Manufacturing Modelling, Management and
+Control
+Berlin, Germany, August 28-30, 2019
+
+
+Copyright © 2019 IFAC 360
+
+
+© 2019, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+
+
+
+
+
+
+356 Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 355–360 
+
+
+
+
+
+
+
+
+
+
+
+ent customer orders may have individual machine structures, 
+
+
+whereas the flexible stations are able to execute different 
+
+
+functions subject to individual sets of operations within the 
+
+
+jobs. Control approaches can be applied to job shop schedul-
+
+
+ing in a customized manufacturing process and job sequenc-
+
+
+ing of operations within the jobs in order to support flexible, 
+
+
+distributed scheduling in the emerging field of Industry 4.0-
+
+
+based innovative production systems (Ivanov et al. 2016b, 
+
+
+2017). 
+
+
+Feedback control principles, including new developments 
+
+
+such as Active Disturbance Rejection Control (ADRC) are of 
+
+
+vital importance in real-time manufacturing, inventory and 
+
+
+shipment tracking & tracing control in combination with 
+
+
+RFID, sensor, and blockchain transaction data. Other applica-
+
+
+tions of real-time control are seen in the SC resilience area as 
+
+
+well as production-inventory control algorithm advance-
+
+
+ments. 
+
+
+2. CONCEPT OF CYBER-PHYSICAL SUPPLY CHAIN 
+
+
+According to Zhuge (2011), the evolution from the cyber-
+
+
+space and systems to the cyber-physical-social space and 
+
+
+systems can be described by three extensions.  It distin-
+
+
+guishes two types of cyber spaces: the first one allows users 
+
+
+to read the information in the cyber space like the Web, and 
+
+
+the other one allows users to read and write information in 
+
+
+the cyber space. Both rely on humans to add information to 
+
+
+the cyber space in order to share it with others.  
+
+
+The first extension to this basic concept depicts the extension 
+
+
+of the cyber space to the physical space through various sen-
+
+
+sors. Any significant information in the physical space can be 
+
+
+automatically sensed, stored and transmitted through the 
+
+
+cyber space. Internet of Things can be considered as a kind of 
+
+
+cyber-physical space. 
+
+
+The second extension is that user behaviors can be sensed 
+
+
+and feedback to the cyber space for analyzing the patterns of 
+
+
+behaviors, and humans can remotely control the actuators to 
+
+
+behave in the physical space through the cyber space. This 
+
+
+enables the cyber space to adapt his services according to the 
+
+
+feedback since behavior change may indicate some psycho-
+
+
+logical change.  
+
+
+In the third extension, i.e., the cyber-physical system, not 
+
+
+only individual’s behaviors, but also social interactions can 
+
+
+be feedback into the cyberspace for further processing. Users 
+
+
+are considered with their social characteristics and relations 
+
+
+rather than as isolated individuals. Sensors are limited in their 
+
+
+ability to collect all information in the physical space, so us-
+
+
+ers still need to directly collect the significant information in 
+
+
+the physical space and then put them into the cyberspace after 
+
+
+analysis (including experiment). Users can also manipulate 
+
+
+physical objects in the physical space, which can also be 
+
+
+feedback into the cyber space to reflect the real-time situa-
+
+
+tion]. Users’ status, interests and knowledge evolve with so-
+
+
+cial interaction and operations in the cyber space.  
+
+
+The afore-mentioned analysis can be presented as digital 
+
+
+cyber-physical SC framework (Fig. 1).  
+
+
+Analysis of digital SC framework allows formulating two 
+
+
+important insights. 
+
+
+2.1. From competition between the SCs to competition be-
+
+
+tween the information services and analytics algorithms 
+
+
+At the times of SCM introduction into the management prac-
+
+
+tices, it was popular to say that the company is as good as the 
+
+
+SC behind it. Christopher (2005) formulated the proposition 
+
+
+that the competition is not between the firms but rather be-
+
+
+tween the SCs. Today and looking at near future, the special-
+
+
+ists say that the SC is as good as the digital technology be-
+
+
+hind it. Consider two example to support this proposition.  
+
+
+The first one is the logistics service provider UPS. Develop-
+
+
+ment of additive manufacturing leads to the possibility to 
+
+
+produce the modules, components and even end products at 
+
+
+one place, and actually at any place in the SC (Khajavi et al. 
+
+
+2014, Li et al. 2017).  This implies SC design changes, a 
+
+
+lower number of supplier layers and suppliers as such, and 
+
+
+the reduced need in transportation which is a threat for logis-
+
+
+tics companies. UPS and SAP developed a joint technology 
+
+
+which allows UPS to manufacture the items using 3D print-
+
+
+ing directly at the distribution centers. This contributes to a 
+
+
+faster and more efficient SC.  
+
+
+Such an integration of production, sourcing and distribution 
+
+
+is also positive for reactions to possible disruptions in the SC. 
+
+
+The second example is blockchain technology. Contracts in 
+
+
+SCs often involve multi-party agreements, with regulatory 
+
+
+and logistic constraints. Further complexities may arise from 
+
+
+operations in different jurisdictions, as well as dynamic fea-
+
+
+tures embedded in the contracts. The flow of information in a 
+
+
+SC plays a critical role in the efficiency of the operations. 
+
+
+Regulatory processes (e.g. customs) can be expedited by im-
+
+
+proving confidence in documentations. This, in turn, will 
+
+
+reduce wastage, risk and insurance premiums.  
+
+
+IBM and Maersk are collaborating to create trust and trans-
+
+
+parency in global SCs. They develop a distributed contract 
+
+
+collaboration platform using Blockchain technology. Maersk 
+
+
+estimates that shipping a single container of flower from 
+
+
+Kenya to Rotterdam needs nearly 200 communications. How 
+
+
+to improve the efficiency of the global SC? In their approach, 
+
+
+each distinct entity involves in the transaction are allowed to 
+
+
+access this system. Shipping from the port of Mombasa re-
+
+
+quires signatures from three different agencies and six docu-
+
+
+ments, the smart contract will automatically generate after the 
+
+
+system receive the signatures. Simultaneously, when the doc-
+
+
+uments about inspection, sealing of refrigerator, pick up by 
+
+
+the trucker and approval from customs communicated to port 
+
+
+of Mombasa are uploaded, all the participants can see the 
+
+
+data in the meantime, allowing the related entity to prepare 
+
+
+for the container. 
+
+
+These and further recent examples of digital technology ap-
+
+
+plications to SCs (Ivanov et al. 2018b, Yang et al. 2017, Cav-
+
+
+alcantea et al. 2019) allow for the new proposition that the 
+
+
+competition is not between the SCs but rather between the SC 
+
+
+services and analytics algorithms behind the SCs. The ser-
+
+
+vices may be ordered in packages or as individual modules. 
+
+
+The success in the SC service competition will be highly de-
+
+
+pendent on the analytics algorithms in combination with op-
+
+
+timization and simulation modelling. Initially intended for 
+
+
+process automation, digital technologies now disrupt markets 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+361
+
+
+
+
+
+
+ Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 355–360 357 
+
+
+
+
+
+
+
+
+
+
+
+ent customer orders may have individual machine structures, 
+
+
+whereas the flexible stations are able to execute different 
+
+
+functions subject to individual sets of operations within the 
+
+
+jobs. Control approaches can be applied to job shop schedul-
+
+
+ing in a customized manufacturing process and job sequenc-
+
+
+ing of operations within the jobs in order to support flexible, 
+
+
+distributed scheduling in the emerging field of Industry 4.0-
+
+
+based innovative production systems (Ivanov et al. 2016b, 
+
+
+2017). 
+
+
+Feedback control principles, including new developments 
+
+
+such as Active Disturbance Rejection Control (ADRC) are of 
+
+
+vital importance in real-time manufacturing, inventory and 
+
+
+shipment tracking & tracing control in combination with 
+
+
+RFID, sensor, and blockchain transaction data. Other applica-
+
+
+tions of real-time control are seen in the SC resilience area as 
+
+
+well as production-inventory control algorithm advance-
+
+
+ments. 
+
+
+2. CONCEPT OF CYBER-PHYSICAL SUPPLY CHAIN 
+
+
+According to Zhuge (2011), the evolution from the cyber-
+
+
+space and systems to the cyber-physical-social space and 
+
+
+systems can be described by three extensions.  It distin-
+
+
+guishes two types of cyber spaces: the first one allows users 
+
+
+to read the information in the cyber space like the Web, and 
+
+
+the other one allows users to read and write information in 
+
+
+the cyber space. Both rely on humans to add information to 
+
+
+the cyber space in order to share it with others.  
+
+
+The first extension to this basic concept depicts the extension 
+
+
+of the cyber space to the physical space through various sen-
+
+
+sors. Any significant information in the physical space can be 
+
+
+automatically sensed, stored and transmitted through the 
+
+
+cyber space. Internet of Things can be considered as a kind of 
+
+
+cyber-physical space. 
+
+
+The second extension is that user behaviors can be sensed 
+
+
+and feedback to the cyber space for analyzing the patterns of 
+
+
+behaviors, and humans can remotely control the actuators to 
+
+
+behave in the physical space through the cyber space. This 
+
+
+enables the cyber space to adapt his services according to the 
+
+
+feedback since behavior change may indicate some psycho-
+
+
+logical change.  
+
+
+In the third extension, i.e., the cyber-physical system, not 
+
+
+only individual’s behaviors, but also social interactions can 
+
+
+be feedback into the cyberspace for further processing. Users 
+
+
+are considered with their social characteristics and relations 
+
+
+rather than as isolated individuals. Sensors are limited in their 
+
+
+ability to collect all information in the physical space, so us-
+
+
+ers still need to directly collect the significant information in 
+
+
+the physical space and then put them into the cyberspace after 
+
+
+analysis (including experiment). Users can also manipulate 
+
+
+physical objects in the physical space, which can also be 
+
+
+feedback into the cyber space to reflect the real-time situa-
+
+
+tion]. Users’ status, interests and knowledge evolve with so-
+
+
+cial interaction and operations in the cyber space.  
+
+
+The afore-mentioned analysis can be presented as digital 
+
+
+cyber-physical SC framework (Fig. 1).  
+
+
+Analysis of digital SC framework allows formulating two 
+
+
+important insights. 
+
+
+2.1. From competition between the SCs to competition be-
+
+
+tween the information services and analytics algorithms 
+
+
+At the times of SCM introduction into the management prac-
+
+
+tices, it was popular to say that the company is as good as the 
+
+
+SC behind it. Christopher (2005) formulated the proposition 
+
+
+that the competition is not between the firms but rather be-
+
+
+tween the SCs. Today and looking at near future, the special-
+
+
+ists say that the SC is as good as the digital technology be-
+
+
+hind it. Consider two example to support this proposition.  
+
+
+The first one is the logistics service provider UPS. Develop-
+
+
+ment of additive manufacturing leads to the possibility to 
+
+
+produce the modules, components and even end products at 
+
+
+one place, and actually at any place in the SC (Khajavi et al. 
+
+
+2014, Li et al. 2017).  This implies SC design changes, a 
+
+
+lower number of supplier layers and suppliers as such, and 
+
+
+the reduced need in transportation which is a threat for logis-
+
+
+tics companies. UPS and SAP developed a joint technology 
+
+
+which allows UPS to manufacture the items using 3D print-
+
+
+ing directly at the distribution centers. This contributes to a 
+
+
+faster and more efficient SC.  
+
+
+Such an integration of production, sourcing and distribution 
+
+
+is also positive for reactions to possible disruptions in the SC. 
+
+
+The second example is blockchain technology. Contracts in 
+
+
+SCs often involve multi-party agreements, with regulatory 
+
+
+and logistic constraints. Further complexities may arise from 
+
+
+operations in different jurisdictions, as well as dynamic fea-
+
+
+tures embedded in the contracts. The flow of information in a 
+
+
+SC plays a critical role in the efficiency of the operations. 
+
+
+Regulatory processes (e.g. customs) can be expedited by im-
+
+
+proving confidence in documentations. This, in turn, will 
+
+
+reduce wastage, risk and insurance premiums.  
+
+
+IBM and Maersk are collaborating to create trust and trans-
+
+
+parency in global SCs. They develop a distributed contract 
+
+
+collaboration platform using Blockchain technology. Maersk 
+
+
+estimates that shipping a single container of flower from 
+
+
+Kenya to Rotterdam needs nearly 200 communications. How 
+
+
+to improve the efficiency of the global SC? In their approach, 
+
+
+each distinct entity involves in the transaction are allowed to 
+
+
+access this system. Shipping from the port of Mombasa re-
+
+
+quires signatures from three different agencies and six docu-
+
+
+ments, the smart contract will automatically generate after the 
+
+
+system receive the signatures. Simultaneously, when the doc-
+
+
+uments about inspection, sealing of refrigerator, pick up by 
+
+
+the trucker and approval from customs communicated to port 
+
+
+of Mombasa are uploaded, all the participants can see the 
+
+
+data in the meantime, allowing the related entity to prepare 
+
+
+for the container. 
+
+
+These and further recent examples of digital technology ap-
+
+
+plications to SCs (Ivanov et al. 2018b, Yang et al. 2017, Cav-
+
+
+alcantea et al. 2019) allow for the new proposition that the 
+
+
+competition is not between the SCs but rather between the SC 
+
+
+services and analytics algorithms behind the SCs. The ser-
+
+
+vices may be ordered in packages or as individual modules. 
+
+
+The success in the SC service competition will be highly de-
+
+
+pendent on the analytics algorithms in combination with op-
+
+
+timization and simulation modelling. Initially intended for 
+
+
+process automation, digital technologies now disrupt markets 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+361
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Physical
+
+
+Supply 
+
+
+Chain
+Supplier Factory RetailWholesale
+
+
+Cyber
+
+
+Supply 
+
+
+Chain 
+
+
+Supply 
+
+
+Service
+
+
+Manufacturing 
+
+
+Service
+
+
+Sales
+
+
+Service
+Logistics
+
+
+Service
+
+
+C
+u
+
+
+s
+to
+
+
+m
+e
+r
+
+
+O
+rd
+
+
+e
+r
+
+
+P
+ro
+
+
+d
+u
+c
+t
+
+
+Material 
+
+
+Supply Data
+
+
+Manufacturing 
+
+
+Data
+Logistics Data Sales Data
+
+
+E-Procurement
+
+
+Supply Visibility
+
+
+Control 
+
+
+Sensors / Robotics
+
+
+3D Printing
+
+
+Virtual / Augmented Reality
+
+
+Tracking and Tracing
+
+
+(T&T) Systems
+
+
+Transaction Data
+
+
+Point-of-Sale (POS) 
+
+
+Data
+
+
+Promotion Actions
+
+
+R
+F
+
+
+ID
+ /
+ G
+
+
+P
+S W
+
+
+e
+b
+
+
+E
+D
+
+
+I
+
+
+Supply 
+
+
+Chain 
+
+
+Analytics 
+
+
+System
+
+
+Physical Supply Chain Simulation and Optimization
+
+
+Cyber Supply Chain Simulation and Optimization
+
+
+Big Data Analytics / Artificial Intelligence
+
+
+ERP / APS Blockchain
+
+
+Forecasting
+
+
+Optimization
+
+
+Simulation
+
+
+• Descriptive and
+Diagnostic Analysis 
+
+
+• Predictive Simulation
+• Prescriptive Optimization
+• Adaptive Learning
+
+
+Additive Manufacturing
+
+
+• Promotion action planning
+• Supply chain simulation
+• Risk analysis and control
+• Manufacturing, inventory, and
+
+
+shipment real-time control
+
+
+• Routing optimizationReal-Time Control
+
+
+Fig. 1. Digital supply chain framework
+
+
+and business models and significantly impact the SC man-
+
+
+agement and engineering 
+
+
+As such, new disruptive SC business models will arise where 
+
+
+SCs will not more be understood as a rigid physical system 
+
+
+with a fixed and static allocation of some processes to some 
+
+
+firms. Instead, different physical firms will offer services of 
+
+
+supply, manufacturing, logistics, and sales which will result 
+
+
+in dynamic allocation of processes and dynamic SC struc-
+
+
+tures. Indeed, this ideas is not really new. We can recall the 
+
+
+virtual enterprises concept developed about 15-20 years ago 
+
+
+(Camarinha-Matos and Macedo 2010).  
+
+
+The SCs in virtual enterprises were expected to be formed 
+
+
+dynamically thru so-called competence cell or agents net-
+
+
+working (Ivanov et al. 2004, Teich and Ivanov 2012, Ivanov 
+
+
+and Sokolov 2012b,c). In essence, the suppliers were inte-
+
+
+grated in a tool that contained their technological processes 
+
+
+and the related operational parameters (e.g., costs and lead-
+
+
+times). A customer was able to place an order specification, 
+
+
+and an automatic algorithm was able to find the suppliers 
+
+
+needed to be networked to fulfil this customer order. So 
+
+
+while the individual contributors (e.g., robots, sensors, RFID 
+
+
+– radio frequency identification, agents, modular factories, 
+
+
+etc.) are not really new, they are becoming more practical and 
+
+
+companies more receptive to using them to stay competitive.  
+
+
+In addition, an attempt to interconnect these local solutions 
+
+
+using the progress in data processing technologies can be 
+
+
+observed in practice. For example, with the help of smart 
+
+
+sensors and plug-and-produce cyber-physical systems, the 
+
+
+stations in the assembly system are capable of changing the 
+
+
+operation processing and setup sequences according to actual 
+
+
+order incoming flows and capacity utilization. As such, this 
+
+
+trend calls for new principles and models to support SCM of 
+
+
+such future factories.  
+
+
+2.2. From decision support systems (DSS) to decision analy-
+
+
+sis, modelling, control and learning systems (DAMCLS) 
+
+
+The second observation concerns the quantitative analysis 
+
+
+methods in SCM. In the past decades, simulation and optimi-
+
+
+zation have played significant roles in solving complex prob-
+
+
+lems in SCM. Successful examples include production plan-
+
+
+ning and scheduling, SC design, and routing optimization, 
+
+
+just to name a few. However, many problems remain chal-
+
+
+lenging because of their complexity and large scales, and/or 
+
+
+uncertainty and stochastic nature. In addition, the major ap-
+
+
+plication of the optimization and simulation methods in the 
+
+
+last decades was seen in the decision support, meaning that 
+
+
+decision-makers were to manually provide the model input 
+
+
+and interpret the model output. On the other hand, the rapid 
+
+
+rise of business analytics provides exciting opportunities for 
+
+
+the Operations Research and to re-examine these hard opti-
+
+
+mization problems, as well as newly emerging problems in 
+
+
+SC management. 
+
+
+Examples of SC and operations analytics applications include 
+
+
+logistics and SC control with real-time data, inventory con-
+
+
+trol and management using sensing data, dynamic resource 
+
+
+allocation in Industry 4.0 customized assembly systems, im-
+
+
+proving forecasting models using Big Data, machine learning 
+
+
+techniques for process control, SC visibility and risk control, 
+
+
+optimizing systems based on predictive information (e.g., 
+
+
+predictive maintenance), combining optimization and ma-
+
+
+chine learning algorithms, and simulation-based modeling 
+
+
+and optimization for stochastic systems.  
+
+
+The application areas of SC Analytics can be classified in 
+
+
+four areas, i.e.: 
+
+
+• Descriptive and diagnostic analysis 
+
+
+• Predictive simulation and prescriptive optimization 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+362
+
+
+
+
+
+
+358 Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 355–360 
+
+
+
+
+
+
+
+
+
+
+
+• Real time control, and 
+
+
+• Adaptive learning 
+
+
+Sourcing, manufacturing, logistics and sales data are distrib-
+
+
+uted among very different systems such as ERP, RFID, sen-
+
+
+sors, and blockchain. Big Data Analytics integrates this data 
+
+
+to information used by artificial intelligence algorithms in the 
+
+
+cyber SC and managers in the physical SC. For example, 
+
+
+electronic retailers are using their extensive transactional and 
+
+
+behavioral data of their customers to offer them new ways of 
+
+
+trying, experiencing and purchasing their products.  
+
+
+PwC is working with a large car company looking to intro-
+
+
+duce autonomous vehicles for the public. Part of this work 
+
+
+employs deep reinforcement learning to develop rules. To-
+
+
+gether with simulation, deep reinforcement learning is used 
+
+
+to determine ‘optimal’ decision rules that allow the vehicles 
+
+
+to maximize efficiency while also satisfying customer trip 
+
+
+demand. The software environment for the project uses the 
+
+
+extensible and practical environment of AnyLogic multi-
+
+
+method simulation software to lever the capabilities of DL4J 
+
+
+for the deep learning environment. Autonomous cars are be-
+
+
+coming more common and the features are already in many 
+
+
+consumer cars. These examples show that artificial intelli-
+
+
+gence becomes more pervasive in the real world with every 
+
+
+project, and necessarily it must be part of simulation.  
+
+
+With regards to SC risks, Resilience360 at DHL allows com-
+
+
+prehensive disruption risk management by mapping end-to-
+
+
+end SC, building risk profiles and identifying critical hotspots 
+
+
+in order to initiate mitigation activities and alert in near-real 
+
+
+time mode on incidents that could disrupt the SC (DHL 
+
+
+2018).  
+
+
+Finally, collaborative control theory is considered as one of 
+
+
+the milestones in development of decentralized control sys-
+
+
+tems (Nof 2007). The major idea of collaborative control is to 
+
+
+com-bine decentralized agent-oriented control in the frame-
+
+
+work of bio-inspired coordination and control, adaptation and 
+
+
+learning. Nayak et al. (2016) extend the collaborative control 
+
+
+concept in direction of decentralized resource sharing in the 
+
+
+CPS setting. Moghaddam and Nof (2017) formulated the 
+
+
+principles of collaborative factory of future through the col-
+
+
+laborative control theory operators in order to address the 
+
+
+challenges of scalability, resilience and sustainability. 
+
+
+
+
+
+3. DIRECTIONS AND EXAMPLES OF CONTROL AND 
+
+
+ANALYTICS COMBINATIONS 
+
+
+Digital technology in the Industry 4.0 framework provides 
+
+
+constructive basis to implement CT models and algorithms. 
+CT is favorable in the cases of many dynamically changing 
+
+
+control parameters, obtaining analytical solutions or proper-
+
+
+ties, and in investigating different mutual impacts of SC 
+
+
+planning and control parameters (e.g., demands, resource and 
+
+
+channel capacities, lead-time, lot-sizes, and inventories) on 
+
+
+the SC tactical and operative performance (i.e., service level 
+
+
+and costs). In some cases (e.g., if many changes, many stag-
+
+
+es, and many periods), it is convenient to transit from a dis-
+
+
+crete problem statement to continuous solution procedure, 
+
+
+and then represent the result again in discrete terms due to 
+
+
+particular accuracy of continuous time models. 
+
+
+The system control has two impacts upon the system. First, 
+
+
+this is the tuning – the changing of uncertain coefficients in 
+
+
+the structure of the differential equations of the system, tak-
+
+
+ing account that the greater number of these coefficients im-
+
+
+plies a more accurate system response to a changing envi-
+
+
+ronment. Second, this is the learning – the imposing new re-
+
+
+strictions on the system behavior. The number of arbitrary 
+
+
+coefficients, in the structure of equivalent equations, changes 
+
+
+in the process of learning, of consecutive imposing new and 
+
+
+new restrictions on the system behavior.  In the systems with 
+
+
+more than six variables the number of arbitrary coefficients 
+
+
+increases first, and then, passing through the maximum be-
+
+
+gins to decrease.  
+
+
+This phenomenon makes it possible to explain the processes 
+
+
+of system growth, complication and death. The existence of 
+
+
+maximum adaptability phenomenon is observed in numerous 
+
+
+biological, economical and physical-engineering systems. It 
+
+
+is important that we describe a system with a full sum of 
+
+
+combinations and have all the variants of decisions. The lin-
+
+
+gual-combinatorial simulation is a useful heuristic approach 
+
+
+for investigation of complex, poorly formalized systems. 
+
+
+
+
+
+For technical formalization of the risk analytics in service-
+
+
+oriented cyber-physical SCs (cf. Fig. 1), a complex of control 
+
+
+theoretical models is currently under development that in-
+
+
+cludes an optimal control model of dynamics service coordi-
+
+
+nation based on the approach developed in (Ivanov et al. 
+
+
+2012b, 2014b). 
+
+
+4. DIRECTIONS OF SUPPLY CHAIN RISK ANALYTICS 
+
+
+BY CONTROL 
+
+
+Fig. 2 presents a framework that summarizes contributions of 
+
+
+control analytics to SC risk management in a cyber-physical 
+
+
+SC. At the risk analysis stage, descriptive and diagnostic 
+
+
+analysis with regards to disruption impact analysis in the 
+
+
+past, performance analysis, resilience analysis, and recovery 
+
+
+analysis is performed. Control theoretic attainable sets can be 
+
+
+used at this level (Ivanov et al. 2016a,b, Ivanov et al. 2018) 
+
+
+The modelling stage is devoted to predictive simulation and 
+
+
+prescriptive optimization. Structural dynamics control ap-
+
+
+proach in combination with mathematical optimization can 
+
+
+be used (Ivanov et al. 2013, 2014b, 2016). Real-time control 
+
+
+area contains supply flow real-time control, disruption identi-
+
+
+fication, and real-time performance and recovery control.  
+
+
+It is commonly known that feedback control in socio-
+
+
+organizational differs from technical systems where the feed-
+
+
+back can be implemented almost immediately. In socio-
+
+
+organizational systems, the feedback information first needs 
+
+
+to be evaluated by managers and the adjustment decisions 
+
+
+need to be coordinated among different department in the 
+
+
+firms or even cross-organisational. 
+ 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+363
+
+
+
+
+
+
+ Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 355–360 359 
+
+
+
+
+
+
+
+
+
+
+
+• Real time control, and 
+
+
+• Adaptive learning 
+
+
+Sourcing, manufacturing, logistics and sales data are distrib-
+
+
+uted among very different systems such as ERP, RFID, sen-
+
+
+sors, and blockchain. Big Data Analytics integrates this data 
+
+
+to information used by artificial intelligence algorithms in the 
+
+
+cyber SC and managers in the physical SC. For example, 
+
+
+electronic retailers are using their extensive transactional and 
+
+
+behavioral data of their customers to offer them new ways of 
+
+
+trying, experiencing and purchasing their products.  
+
+
+PwC is working with a large car company looking to intro-
+
+
+duce autonomous vehicles for the public. Part of this work 
+
+
+employs deep reinforcement learning to develop rules. To-
+
+
+gether with simulation, deep reinforcement learning is used 
+
+
+to determine ‘optimal’ decision rules that allow the vehicles 
+
+
+to maximize efficiency while also satisfying customer trip 
+
+
+demand. The software environment for the project uses the 
+
+
+extensible and practical environment of AnyLogic multi-
+
+
+method simulation software to lever the capabilities of DL4J 
+
+
+for the deep learning environment. Autonomous cars are be-
+
+
+coming more common and the features are already in many 
+
+
+consumer cars. These examples show that artificial intelli-
+
+
+gence becomes more pervasive in the real world with every 
+
+
+project, and necessarily it must be part of simulation.  
+
+
+With regards to SC risks, Resilience360 at DHL allows com-
+
+
+prehensive disruption risk management by mapping end-to-
+
+
+end SC, building risk profiles and identifying critical hotspots 
+
+
+in order to initiate mitigation activities and alert in near-real 
+
+
+time mode on incidents that could disrupt the SC (DHL 
+
+
+2018).  
+
+
+Finally, collaborative control theory is considered as one of 
+
+
+the milestones in development of decentralized control sys-
+
+
+tems (Nof 2007). The major idea of collaborative control is to 
+
+
+com-bine decentralized agent-oriented control in the frame-
+
+
+work of bio-inspired coordination and control, adaptation and 
+
+
+learning. Nayak et al. (2016) extend the collaborative control 
+
+
+concept in direction of decentralized resource sharing in the 
+
+
+CPS setting. Moghaddam and Nof (2017) formulated the 
+
+
+principles of collaborative factory of future through the col-
+
+
+laborative control theory operators in order to address the 
+
+
+challenges of scalability, resilience and sustainability. 
+
+
+
+
+
+3. DIRECTIONS AND EXAMPLES OF CONTROL AND 
+
+
+ANALYTICS COMBINATIONS 
+
+
+Digital technology in the Industry 4.0 framework provides 
+
+
+constructive basis to implement CT models and algorithms. 
+CT is favorable in the cases of many dynamically changing 
+
+
+control parameters, obtaining analytical solutions or proper-
+
+
+ties, and in investigating different mutual impacts of SC 
+
+
+planning and control parameters (e.g., demands, resource and 
+
+
+channel capacities, lead-time, lot-sizes, and inventories) on 
+
+
+the SC tactical and operative performance (i.e., service level 
+
+
+and costs). In some cases (e.g., if many changes, many stag-
+
+
+es, and many periods), it is convenient to transit from a dis-
+
+
+crete problem statement to continuous solution procedure, 
+
+
+and then represent the result again in discrete terms due to 
+
+
+particular accuracy of continuous time models. 
+
+
+The system control has two impacts upon the system. First, 
+
+
+this is the tuning – the changing of uncertain coefficients in 
+
+
+the structure of the differential equations of the system, tak-
+
+
+ing account that the greater number of these coefficients im-
+
+
+plies a more accurate system response to a changing envi-
+
+
+ronment. Second, this is the learning – the imposing new re-
+
+
+strictions on the system behavior. The number of arbitrary 
+
+
+coefficients, in the structure of equivalent equations, changes 
+
+
+in the process of learning, of consecutive imposing new and 
+
+
+new restrictions on the system behavior.  In the systems with 
+
+
+more than six variables the number of arbitrary coefficients 
+
+
+increases first, and then, passing through the maximum be-
+
+
+gins to decrease.  
+
+
+This phenomenon makes it possible to explain the processes 
+
+
+of system growth, complication and death. The existence of 
+
+
+maximum adaptability phenomenon is observed in numerous 
+
+
+biological, economical and physical-engineering systems. It 
+
+
+is important that we describe a system with a full sum of 
+
+
+combinations and have all the variants of decisions. The lin-
+
+
+gual-combinatorial simulation is a useful heuristic approach 
+
+
+for investigation of complex, poorly formalized systems. 
+
+
+
+
+
+For technical formalization of the risk analytics in service-
+
+
+oriented cyber-physical SCs (cf. Fig. 1), a complex of control 
+
+
+theoretical models is currently under development that in-
+
+
+cludes an optimal control model of dynamics service coordi-
+
+
+nation based on the approach developed in (Ivanov et al. 
+
+
+2012b, 2014b). 
+
+
+4. DIRECTIONS OF SUPPLY CHAIN RISK ANALYTICS 
+
+
+BY CONTROL 
+
+
+Fig. 2 presents a framework that summarizes contributions of 
+
+
+control analytics to SC risk management in a cyber-physical 
+
+
+SC. At the risk analysis stage, descriptive and diagnostic 
+
+
+analysis with regards to disruption impact analysis in the 
+
+
+past, performance analysis, resilience analysis, and recovery 
+
+
+analysis is performed. Control theoretic attainable sets can be 
+
+
+used at this level (Ivanov et al. 2016a,b, Ivanov et al. 2018) 
+
+
+The modelling stage is devoted to predictive simulation and 
+
+
+prescriptive optimization. Structural dynamics control ap-
+
+
+proach in combination with mathematical optimization can 
+
+
+be used (Ivanov et al. 2013, 2014b, 2016). Real-time control 
+
+
+area contains supply flow real-time control, disruption identi-
+
+
+fication, and real-time performance and recovery control.  
+
+
+It is commonly known that feedback control in socio-
+
+
+organizational differs from technical systems where the feed-
+
+
+back can be implemented almost immediately. In socio-
+
+
+organizational systems, the feedback information first needs 
+
+
+to be evaluated by managers and the adjustment decisions 
+
+
+need to be coordinated among different department in the 
+
+
+firms or even cross-organisational. 
+ 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+363
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Physical Supply Chain Operations
+
+
+Supplier Factory RetailWholesale
+
+
+Cyber Supply Chain Operations
+
+
+Material Supply Data
+
+
+Manufacturing Data Logistics Data
+
+
+Sales Data
+
+
+E-Procurement
+
+
+Supply Visibility Control 
+
+
+Sensors / Robotics
+
+
+3D Printing
+
+
+Virtual / Augmented Reality
+
+
+Tracking and Tracing
+
+
+(T&T) Systems
+
+
+Transaction Data
+
+
+Point-of-Sale (POS) Data
+
+
+Promotion Action Control
+
+
+BlockchainERP / APS
+
+
+Supply Chain Risk Analytics
+
+
+RFID / GPS
+
+
+Big Data 
+
+
+Analytics
+Control 
+
+
+Theory
+
+
+Modelling
+Predictive simulation
+
+
+Prescriptive optimization
+
+
+• Production-inventory
+control
+
+
+• Optimal production
+planning
+
+
+• Schedule optimization
+
+
+Analysis
+Descriptive and
+
+
+diagnostic analysis
+
+
+• Process analysis
+• Performance and
+
+
+resilience analysis
+
+
+• Marketing analysis (e.g., 
+promotions, omnichannel)
+
+
+Learning
+Adaptive algorithms
+
+
+• Machine learning
+• Algorithm
+
+
+adaptation
+
+
+• Risk mitigation
+learning
+
+
+• Adaptive control
+
+
+Control
+Real-time
+
+
+• Manufacturing, 
+inventory, and
+
+
+shipment
+
+
+feedback conrol
+
+
+• Risk control
+• Stability control
+
+
+Fig. 2. Supply Chain Risk and Control Analytics
+
+
+ 
+Fig. 2. Supply chain risk and control analytics 
+ 
+
+
+As such, the differences in the system states can be observed 
+
+
+between the system state at the moment of starting to prepare 
+
+
+the adjustment decisions on the basis of the feedback infor-
+
+
+mation and the system state at the moment of decision im-
+
+
+plementation. In other words, delayed feedbacks occur due to 
+
+
+system inertia.  The correction (adaptation) decisions need to 
+
+
+be implemented at the object or system which is different 
+
+
+from the object or system that has been considered for the 
+
+
+reconfiguration decision planning. 
+
+
+Finally, learning stage is comprised of risk mitigation learn-
+
+
+ing, disruption recovery learning, and disruption pattern 
+
+
+recognition. A combination of control algorithms and artifi-
+
+
+cial intelligence can provide a number of new insights in the 
+
+
+given area. 
+
+
+5. CONCLUSIONS 
+
+
+In the frameworks of SC risk management, dynamics, and 
+
+
+resilience, control theoretic approaches can be considered as 
+
+
+useful tools to tackle the issues of performance achievement 
+
+
+under operational and disruption risks. New analytics tech-
+
+
+nologies in the framework of Industry 4.0, big data analytics 
+
+
+and artificial intelligence resulted in the creation of new do-
+
+
+mains, i.e., cyber physical supply chains and supply chain 
+
+
+risk analytics.  
+
+
+As such two trends can be observed as follows: 
+
+
+ integration of analytics into control theory (so called 
+intellectualization of control) and  
+
+
+ integration of analytics into supply chain risk manage-
+ment (so called cyber-physical SC and risk analytics).  
+
+
+Control theory provides a variety of methods and tools for SC 
+
+
+management and takes into account dynamics, real dimen-
+
+
+sions, non-linearity and non-stationary of SC processes. In 
+
+
+addition, with the help of control theory, non-stationary per-
+
+
+formance indicators such as robustness and stability can be 
+
+
+investigated in their fullness and consistency with operations 
+
+
+planning and execution control with-in a conceptually and 
+
+
+mathematically integrated framework.  
+
+
+This study brings the discussion forward by integrating these 
+
+
+two perspectives. It analyses how control theory can enhance 
+
+
+the risk analytics in the cyber-physical SC. Based on litera-
+
+
+ture and case-study analysis, the frameworks of cyber physi-
+
+
+cal supply chain and risk analytics control have been derived.  
+
+
+The derived frameworks show that the incorporation of intel-
+
+
+ligent IT into CT, also known as intellectualization of control 
+
+
+in the framework of digital SC and operations management 
+
+
+control in Industry 4.0, can provide a variety of methods and 
+
+
+tools for dynamics in the SC domain. This can become the 
+
+
+area where the knowledge of SC and operations managers 
+
+
+and control specialists can be effectively integrated taking 
+
+
+advantages of modern IT, e.g., for investigating SC dynamics 
+
+
+or applying RFID to SC monitoring and adaptation. 
+
+
+Finally, a combination of control and analytics methods may 
+
+
+have a potential to create pioneering solutions to SC and op-
+
+
+erations reconfiguration based on the feedbacks. It is com-
+
+
+monly known that feedback control in socio-organizational 
+
+
+differs from technical systems where the feedback can be 
+
+
+implemented almost immediately. In socio-organizational 
+
+
+systems, the feedback information first needs to be evaluated 
+
+
+by managers and the adjustment decisions need to be coordi-
+
+
+nated among different department in the firms or even cross-
+
+
+organisational.  
+
+
+As such, the differences in the system states can be observed 
+
+
+between the system state at the moment of starting to prepare 
+
+
+the adjustment decisions on the basis of the feedback infor-
+
+
+mation and the system state at the moment of decision im-
+
+
+plementation. In other words, delayed feedbacks occur due to 
+
+
+system inertia.  The correction (adaptation) decisions are im-
+
+
+plemented at the object or system which is different from the 
+
+
+object or sys-tem that has been considered for the reconfigu-
+
+
+ration decision planning. Therefore, the need for proactive 
+
+
+control models arises. There are a number of possible combi-
+
+
+nations of control and analytic methods in this direction, e.g., 
+
+
+attainable set and predictive analytics combination.   
+
+
+
+
+
+References  
+
+
+Camarinha-Matos, L.M., Macedo, P. (2010), ‘A conceptual model of value 
+
+
+systems in collaborative networks’, Journal of Intelligent Manufacturing, 
+21 (3), 287-299. 
+
+
+Cavalcantea, I.M., Frazzon E.M., Forcellinia, F.A., Ivanov, D. (2019). A 
+
+
+supervised machine learning approach to data-driven simulation of resili-
+ent supplier selection in digital manufacturing. International Journal of In-
+
+
+formation Management, https://doi.org/10.1016/j.ijinfomgt.2019.03.004 
+Christopher M (2005) Logistics and Supply Chain Management: Creating 
+
+
+Value-Adding Networks. Financial Times Prentice Hall, Dorchester 
+
+
+Dejonckheere, J., Disney, S.M., Lambrecht, M.R., Towill, D.R., (2004). The 
+impact of information enrichment on the bullwhip effect in supply chains: 
+
+
+A control engineering perspective. European Journal of Operational Re-
+search, 153(3), 727–750. 
+
+
+DHL (2018). https://resilience360.com/ (accessed on February 4, 2018) 
+
+
+Disney, S.M., & Towill, D.R., (2002). A discrete linear control theory model 
+to determine the dynamic stability of vendor managed inventory supply 
+
+
+chains. International Journal of Production Research, 40(1), 179–204. 
+Disney, S.M., Towill, D.R., & Warburton, R.D.H. (2006). On the equiva-
+
+
+lence of control theoretic, differential, and difference equation approaches 
+
+
+to modeling supply chains. International Journal of Production Economics, 
+101, 194–208. 
+
+
+Disney, S.M., Towill, D.R., 2005. Eliminating inventory drift in supply 
+chains. International Journal of Production Economics 93–94, 331–344. 
+
+
+Dolgui, A., Ivanov, D., Sethi S.P., Sokolov, B. (2019a). Scheduling in pro-
+
+
+duction, supply chain and Industry 4.0 systems by optimal control. Interna-
+tional Journal of Production Research, 57(2), 411-432 
+
+
+Dolgui A., Ivanov D., Potryasaev S., Sokolov B., Ivanova M., Werner F. 
+(2019b). Blockchain-oriented dynamic modelling of smart contract design 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+364
+
+
+
+
+
+
+360 Dmitry Ivanov  et al. / IFAC PapersOnLine 52-13 (2019) 355–360
+ 
+
+
+
+
+
+
+
+
+
+
+
+and execution control in the supply chain. International Journal of Produc-
+tion Research, in press. 
+
+
+Dolgui, A., Ivanov, D., Sethi S.P., Sokolov, B. (2018). Control theory appli-
+
+
+cations to operations systems, supply chain management and Industry 4.0 
+networks. IFAC-PaperOnLine, Proceedings of IFAC INCOM 2018 Sym-
+
+
+posium. 
+Dubey R., Gunasekaran A., Childe, S. J. Wamba S.F., Roubaud D., Foropon 
+
+
+C. (2019). Empirical Investigation of Data Analytics Capability and Or-
+
+
+ganizational Flexibility as Complements to Supply Chain Resilience. In-
+ternational Journal of Production Research, DOI: 
+
+
+10.1080/00207543.2019.1582820 
+Fu D., Ionescu CM, Aghezzaf EH (2015) Quantifying and mitigating the 
+
+
+bullwhip effect in a benchmark supply chain system by an extended pre-
+
+
+diction self-adaptive control ordering policy. Computers and Industrial 
+Engineering 81, 46-57. 
+
+
+He, X., Prasad, A., & Sethi, S.P. (2009). Cooperative Advertising and Pric-
+ing in a Stochastic Supply Chain: Feedback Stackelberg Strategies. Pro-
+
+
+duction and Operations Management, 18 (1), 78–94. 
+
+
+Heckmann I. (2016). Towards Supply Chain Risk Analytics: Fundamentals, 
+Simulation, Optimization. Springer-Gabler. 
+
+
+Hosseini S., Ivanov D., Dolgui A. (2019). Review of quantitative methods 
+for supply chain resilience analysis. Transportation Research: Part E, 125, 
+
+
+285-307. 
+
+
+Ivanov D., & Sokolov B. (2013a). Control and system-theoretic identifica-
+tion of the supply chain dynamics domain for planning, analysis, and adap-
+
+
+tation of performance under uncertainty. European Journal of Operational 
+Research, 224(2), 313–323. 
+
+
+Ivanov D., Sokolov B. (2012b), ‘Structure dynamics control-based service 
+
+
+scheduling in collaborative cyber-physical supply networks, in Camarinha-
+Matos, L., Xu, L., Afsarmanesh, H. (Eds.) Proceedings of the IFIP Confer-
+
+
+ence on Virtual Enterprises PRO-VE 2012 IFIP AICT 380, pp.280-288. 
+Ivanov D., Sokolov B., Dilou Raguinia, E.A. (2014b) Integrated dynamic 
+
+
+scheduling of material flows and distributed information services in col-
+
+
+laborative cyber-physical supply networks, International Journal of Sys-
+tems Science: Operations & Logistics, 1(1), 18-26. 
+
+
+Ivanov D., Sokolov B., Dolgui, A. (2014a) Multi-stage supply chain schedul-
+ing in petrochemistry with non-preemptive operations and execution con-
+
+
+trol, International Journal of Production Research, 52(13), 4059-4077. 
+
+
+Ivanov, D. (2018). Structural Dynamics and Resilience in Supply Chain Risk 
+Management. Springer, New York. 
+
+
+Ivanov, D., Dolgui, A., Sokolov, B. (2019b). The impact of digital technolo-
+gy and Industry 4.0 on the ripple effect and supply chain risk analytics. In-
+
+
+ternational Journal of Production Research, 57(3), 829-846. 
+
+
+Ivanov, D., Sethi S., Dolgui A., Sokolov, B. (2018a). A survey on the control 
+theory applications to operational systems, supply chain management and 
+
+
+Industry 4.0. Annual Reviews in Control, 46, 134-147.  
+Ivanov, D., Arkhipov, A., Sokolov, B. (2004): Intelligent Supply Chain 
+
+
+Planning in Virtual Enterprises. In: Virtual Enterprises and Collaborative 
+
+
+Networks, Proceedings of the IFIP Conference on virtual enterprises PRO-
+VE 2004, edited by L. Camarihna-Matos, Kluwer Academic Publishers, 
+
+
+2004, pp. 215-223. 
+Ivanov, D., Dolgui, A., Sokolov, B. (2017). A dynamic approach to multi-
+
+
+stage job shop scheduling in an Industry 4.0-based flexible assembly sys-
+
+
+tem. In: Lödding, H., Riedel, R., Thoben, K.-D., Kiritsis, D., von 
+Cieminski, G. (Eds.) Advances in Production Management Systems. The 
+
+
+Path to Intelligent, Collaborative and Sustainable Manufacturing. IFIP WG 
+5.7 International Conference, APMS 2017, Hamburg, Germany, Septem-
+
+
+ber 3-7, 2017, Proceedings, Part I, pp. 475-482. 
+
+
+Ivanov, D., Dolgui, A., Sokolov, B. (2018a). Scheduling of recovery actions 
+in the supply chain with resilience analysis considerations. International 
+
+
+Journal of Production Research, 56(19), 6473-6490. 
+
+
+Ivanov, D., Sokolov B. (2012a) Dynamic supply chain scheduling, Journal of 
+Scheduling, 15(2), 201-216. 
+
+
+Ivanov, D., Sokolov B. (2012c) The Inter-Disciplinary Modelling of Supply 
+Chains in the Context of Collaborative Multi-Structural Cyber-Physical 
+
+
+Networks, Journal of Manufacturing Technology Management, Vol. 23(8), 
+
+
+976-997. 
+Ivanov, D., Sokolov B., Dolgui, A. (2012) Applicability of optimal control 
+
+
+theory to adaptive supply chain planning and scheduling, Annual Reviews 
+in Control, 36, 73-84. 
+
+
+Ivanov, D., Sokolov, B. (2010), Adaptive Supply Chain Management, 
+
+
+Springer, London et al.  
+Ivanov, D., Sokolov, B., & Kaeschel, J. (2010). A multi-structural frame-
+
+
+work for adaptive supply chain planning and operations with structure dy-
+namics considerations. European Journal of Operational Research, 200(2), 
+
+
+409–420. 
+
+
+Ivanov, D., Sokolov, B., Dolgui, A. (2014c) The Ripple effect in supply 
+chains: trade-off ‘efficiency-flexibility-resilience’ in disruption manage-
+
+
+ment, International Journal of Production Research, 52:7, 2154-2172.  
+
+
+Ivanov, D., Sokolov, B., Dolgui, A., Solovyeva,I., Jie, F. (2016a). Dynamic 
+recovery policies for time-critical supply chains under conditions of ripple 
+
+
+effect. International Journal of Production Research, 54(23), 7245-7258. 
+Ivanov, D., Sokolov, B., Dolgui, A., Werner, F., Ivanova, M. (2016b). A 
+
+
+dynamic model and an algorithm for short-term supply chain scheduling in 
+
+
+the smart factory Industry 4.0. International Journal of Production Re-
+search, 54(2), 386-402. 
+
+
+Ivanov, D., Sokolov, B., Hartl, R., Dolgui, A., Pavlov, A., Solovyeva, I. 
+(2015). Integration of aggregate distribution and dynamic transportation 
+
+
+planning in a supply chain with capacity disruptions and ripple effect con-
+
+
+siderations. International Journal of Production Research, 53(23), 6963-
+6979. 
+
+
+Khajavi SH, Partanen J., Holmström J. (2014) Additive manufacturing in the 
+spare parts supply chain. Computers in Industry, 65(1), 50-63 
+
+
+Khmelnitsky E, Presman E., Sethi S.P. (2011) Optimal production control of 
+
+
+a failure-prone machine. Ann Oper Res 182:67-86 
+Lalwani C, Disney SM, Towill DR (2006), Controllable, observable and 
+
+
+stable state space representations of a generalized order-up-to policy. Int. 
+J. Production Economics 101 (2006) 172–184 
+
+
+Levalle R R, Nof S Y (2017). Resilience in supply networks: Definition, 
+
+
+dimensions, and levels. Annual Reviews in Control, 43(1), 224–236. 
+Li J., Jia G., Cheng Y., Hu Y. (2017). Additive manufacturing technology in 
+
+
+spare parts supply chain: a comparative study. International Journal of 
+Production Research, 55(5), 1498-1515 
+
+
+Moghaddam M., Nof S.Y., “The collaborative factory of the future,” 2017, 
+
+
+International Journal of Computer Integrated Manufacturing, 30 (1), pp. 
+23-43. 
+
+
+Mönch L., Fowler J.W., Mason S. (2012). Production Planning and Control 
+for Semiconductor Wafer Fabrication Facilities: Modeling, Analysis, and 
+
+
+Systems. Springer Science & Business Media.  
+
+
+Nayak A., Reyes Levalle R., Lee S., Nof S.Y., “Resource sharing in cyber-
+physical systems: model-ling framework and case studies,” 2016, Interna-
+
+
+tional Journal of Production Research, 54(23), 6969-83. 
+Nof, S.Y., "Collaborative control theory for e-work, e-production, and e-
+
+
+service, Annual Reviews in Control, 31(2), 2007, 281-92. 
+
+
+Ortega, M. and Lin, L. (2004). Control theory applications to the production-
+inventory problem: a review. International Journal of Production Research. 
+
+
+42, 2303–2322.  
+Panetto H., Iung B., Ivanov D., Weichhart G., Wang X. (2019). Challenges 
+
+
+for the cyber-physical manufacturing enterprises of the future. Annual Re-
+
+
+views in Control, https://doi.org/10.1016/j.arcontrol.2019.02.002 
+Perea, E., Grossmann, I., Ydstie, E. and Tahmassebi, T. (2000) Dynamic 
+
+
+modeling and classical control theory for supply chain management. Com-
+puters and Chemical Engineering, 24, 1143–1149. 
+
+
+Sarimveis, H., Patrinos, P., Tarantilis, C.D., and Kiranoudis CT. (2008). 
+
+
+Dynamic modeling and control of supply chain systems: A review. Com-
+puters & Operations Research, 35, 3530–3561. 
+
+
+Scholz-Reiter, B., Dashkovskiy, S., Görges, M., and Naujok, L. (2011). 
+Stability analysis of autonomously controlled production networks. Inter-
+
+
+national Journal of Production Research, 49(16), 4857-4877. 
+
+
+Sethi SP (1978) A Survey of Management Science Applications of the De-
+terministic Maximum Principle. TIMS Studies in the Management Sci-
+
+
+ence, 9:33-68. 
+Sethi SP, Yan H, Zhang H, Zhang Q. (2002) Optimal and Hierarchical Con-
+
+
+trols in Dynamic Stochastic Manufacturing Systems: A Survey. Manuf 
+
+
+Serv Oper Mant, 4(2):133-170. 
+Sethi, S.P., Thompson, G.L. (2000). Optimal control theory: Applications to 
+
+
+Management Science and Economics, second edition. Springer: Berlin. 
+
+
+Spiegler, V., Naim, M. and Wikner, J. (2012). A control engineering ap-
+proach to the assessment of supply chain resilience. International Journal 
+
+
+of Production Research 50:6162-6187. 
+Spiegler, VLM, Naim, M. M., Towill, D. R., Wikner, J. (2016). The value of 
+
+
+nonlinear control theory in investigating the underlying dynamics and re-
+
+
+silience of a grocery supply chain. International Journal of Production Re-
+search, 54(1):265-286 
+
+
+Teich, T., Ivanov, D. (2012) Integrated customer-oriented product design and 
+process networking of supply chains in virtual environments, International 
+
+
+Journal of Networking and Virtual Organizations, 11(1), 48-61. 
+
+
+Yang, Y., et al. (2017). "Mitigating supply chain disruptions through inter-
+connected logistics services in the Physical Internet." International Journal 
+
+
+of Production Research 55(14): 3970-3983. 
+Zhuge, H. (2011), ‘Semantic linking through spaces for cyber-physical-socio 
+
+
+intelligence: A methodology. Artificial Intelligence, 175 (5–6), 988–1019. 
+
+
+2019 IFAC MIM
+Berlin, Germany, August 28-30, 2019
+
+
+365
+
+
+
+

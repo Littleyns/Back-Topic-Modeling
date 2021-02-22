@@ -1,0 +1,4464 @@
+
+
+
+
+
+
+
+
+
+
+Int. J. Production Economics 231 (2021) 107830
+
+
+Available online 30 June 2020
+0925-5273/© 2020 Elsevier B.V. All rights reserved.
+
+
+Multi-stage hybrid model for supplier selection and order allocation 
+considering disruption risks and disruptive technologies 
+
+
+Harpreet Kaur a, Surya Prakash Singh b,* 
+
+
+a Indian Institute of Management Amritsar, Amritsar, India 
+b Department of Management Studies, Indian Institute of Technology Delhi, New Delhi, India   
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Industry 4.0 
+Disruption 
+Risks 
+Mixed integer program 
+Supplier selection 
+Order allocation 
+FAHP 
+DEA 
+TOPSIS 
+Multi-criteria 
+
+
+A B S T R A C T   
+
+
+In recent times, Supply chains are required to undergo the structural changes in order to adapt to the positive 
+events such as Industry 4.0 and negative events such as natural and man-made disasters. Both positive and 
+negative events tend to cause disruptions and affect business operations continuity. Supplier selection, being the 
+critical and foremost activity must ensure that selected suppliers are capable of supporting the organizations 
+against disruptions caused by these events. Hence, supplier selection and order allocation must be restructured 
+considering the dynamics of Industry 4.0 and disaster events to ensure undisrupted flow of materials across 
+supply chain. The paper proposes a multi stage hybrid model for integrated supplier segmentation, selection and 
+order allocation considering risks and disruptions. The suppliers are then evaluated based on set of criteria 
+suitable in Industry 4.0 environment using Data Envelopment Analysis (DEA) and are further prioritized using 
+Fuzzy Analytical Hierarchical Process and Technique for Order of Preference by Similarity to Ideal Solution 
+(FAHP-TOPSIS). The risk associated with each supplier is computed. The paper also proposes a Mixed Integer 
+Program (MIP) as to optimize multi-period, multi item order allocation to suppliers in such a way that overall 
+cost and risk of disruption is simultaneously minimized. In event of any disruption either from supply or demand 
+side, the multi-stage hybrid model tends to reduce its economic impact by allocating emergency orders, thus, 
+ensuring business operations continuity. The proposed multi-stage hybrid model is illustrated using a case of an 
+automobile company.   
+
+
+1. Introduction 
+
+
+The fourth industrial revolution-Industry 4.0 has led to a significant 
+change in every business function not just manufacturing. The business 
+organizations are in the process of re-structuring their supply chains 
+using the three main components of Industry 4.0: cyber-physical sys-
+tems, Internet of things and smart factories to meet highly volatile and 
+uncertain demand (Ghadimi et al., 2019). The disruptive technologies 
+must be embedded into the entire supply chain structural design (Dolgui 
+et al., 2018; Tjahjono et al., 2017) because an organization cannot truly 
+benefit from disruptive technologies if its other supply chain partners 
+are still functioning in conventional ways. In addition to disruptive 
+technologies, ensuring business continuity in the event of disaster is also 
+an equally important concern for the global and complex supply chains. 
+The natural and manmade disasters lead to supply shortages and dis-
+ruptions across supply chains (Sheffi, 2001, 2015) and supply chains 
+must be re-structured in order to avoid the potential risks of disruptions 
+
+
+as a part of their disaster preparedness (Wunnava, 2011; Sahebjamnia 
+et al., 2015). Both the industrial revolution (positive events) and natural 
+and manmade disasters (negative events) can cause disruptions if supply 
+chains are not continuously adapted or aligned towards them. The 
+disruption is the temporary or permanent loss in business functionality 
+due to any unprecedented event (Tierney, 2007). Therefore, there is a 
+need of supply chain structural design changes to protect against the risk 
+of technological advancements as well as disruptions caused by 
+disasters. 
+
+
+Suppliers plays a vital role in efficient functioning of entire supply 
+chain. The organizations evolving into Industry 4.0 may not successfully 
+realize the benefits of Industry 4.0 (such as transparency, visualization 
+and automation) if the suppliers are still functioning in the conventional 
+manner. The supplier base much be technically as well as technologi-
+cally competent to match the requirements of an interconnected value 
+chain (Müller, 2019). The process of selecting the supplier base and 
+allocation of the final orders must be re-structured to incorporate the 
+
+
+* Corresponding author. 
+E-mail addresses: harpreetk.iitd@gmail.com (H. Kaur), surya.singh@gmail.com (S. Prakash Singh).  
+
+
+Contents lists available at ScienceDirect 
+
+
+International Journal of Production Economics 
+
+
+journal homepage: http://www.elsevier.com/locate/ijpe 
+
+
+https://doi.org/10.1016/j.ijpe.2020.107830 
+Received 7 September 2019; Received in revised form 4 June 2020; Accepted 7 June 2020   
+
+
+
+mailto:harpreetk.iitd@gmail.com
+
+mailto:surya.singh@gmail.com
+
+www.sciencedirect.com/science/journal/09255273
+
+https://http://www.elsevier.com/locate/ijpe
+
+https://doi.org/10.1016/j.ijpe.2020.107830
+
+https://doi.org/10.1016/j.ijpe.2020.107830
+
+https://doi.org/10.1016/j.ijpe.2020.107830
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.ijpe.2020.107830&domain=pdf
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+2
+
+
+potential challenges caused by disruptive technologies as well as the 
+disruption risks caused by disasters (Bhutta and Huq, 2002; Ivanov and 
+Sokolov, 2012). In addition, the suppliers must be selected based upon 
+their potential ability to support the organization during any crisis or 
+disaster (Parmar et al., 2010). Hence, the supplier selection process must 
+also consider the supplier’s resilience or ability to mitigate risks. The 
+research frameworks for resilient supplier selection proposed in litera-
+ture are mostly proactive in nature (Torabi et al., 2015; Haldar et al., 
+2014). However, the occurrence of disaster is inevitable and it can 
+disturb the entire supply chain dynamics if not handled efficiently. 
+Therefore, process of supplier selection and order allocation must also be 
+adaptive in nature and be able to minimize the impact of disruptions 
+from propagating downstream. 
+
+
+In view of this, the paper proposes a multi-stage hybrid model for 
+structural design of supplier selection and order allocation in presence of 
+disruptive technologies and disruption risks. The entire structure of 
+supplier selection and order allocation process is redesigned starting 
+from criteria definition to final order allocations. The technological 
+criteria for supplier selection in identified and evaluated using Fuzzy 
+AHP in order to match the dynamics of Industry 4.0 as well as the 
+growing need of business resilience. The suppliers are segmented using 
+the Data Envelopment Analysis (DEA) as efficient and inefficient sup-
+pliers based on their performance on the set of criteria. The inefficient 
+suppliers are not considered for further evaluation and order allocations. 
+The efficient set of suppliers is further evaluated and prioritized using 
+Technique for Order Preference by Similarity to Ideal Solution (TOPSIS). 
+The paper proposes the method to compute the average risk percentage 
+for each supplier which is associated with each supplier. Finally, the 
+paper proposes a Mixed Integer Program (MIP) considering disruption 
+risk in Industry 4.0 environment and allocates the orders to the suppliers 
+for multiple items over a multi period planning horizon such that total 
+cost of procurement and risk associated can be minimized. The proposed 
+MIP is further extended to model the demand and supply side disruption 
+scenarios and emergency order allocation to optimize the overall cost 
+and risk. The proposed multi-stage hybrid model is demonstrated using a 
+case illustration of an automobile company where supplier selection 
+process in being upgraded to address the dynamics of disruptive tech-
+nologies and disaster caused disruptions. The findings of the study 
+suggest that proactive segmentation and selection of suppliers to reduce 
+the risk of disruption can actually support an organization to handle 
+actual disruption scenarios to minimize the cost impact of disruptions 
+and ensure the continuity of business operations. However, it has also 
+been observed that in case of disaster, when demand unexpectedly 
+fluctuates or supplier capacity is disrupted, the regular orders may not 
+meet the demand. Therefore, the extended MIP proposed in paper at-
+tempts to ensure business continuity by allocating emergency orders in 
+cost efficient manner. The research attempts to highlight the role of 
+supplier’s technological capabilities in the business resilience and 
+ensuring business operations continuity. 
+
+
+The rest of the paper as structured as follows. Section 2 presents the 
+review of literature. Section 3 discusses the problem statement and the 
+proposed multi-stage hybrid model. Section 4 demonstrates the pro-
+posed model with the help of a case illustration. Section 5 discuss the 
+managerial implications and theoretical contributions of the paper. 
+Section 6 presents the conclusion and future scope of the study. 
+
+
+2. Literature review 
+
+
+This section reviews the literature on supplier selection problem. 
+Section 2.1 reviews the supply chain models considering disruption 
+risks, Section 2.2 reviews the supply chain models from Industry 4.0 
+perspective and Section 2.3 studies the supplier selection models under 
+disruptive technologies and disruption risks. Section 2.4 identifies 
+research gaps and research objectives are framed. 
+
+
+2.1. Supply chain models under disruption risks 
+
+
+In early 2000’s, it was realized that ability to manage supply chain 
+disruptions can act as a competitive edge for any organization. (Sheffi 
+and Rice, 2005). The researchers have also investigated the role of 
+flexibility of supply chain structures in order to minimize the impact of 
+disruptions. Skipper and Hanna (2009) have identified the attributes 
+helpful in contingency planning contributing to the organizational 
+flexibility in order to minimize the risk exposure. Wu et al. (2007) have 
+proposed a disruption propagation framework to assess the disrupted 
+functions of a supply chain and effect of these disruptions on perfor-
+mance measures. 
+
+
+The risk management is an important concern in supply chains as 
+organizations must not select the supply chain partners which increase 
+any kind of risk for them. Barroso et al. (2010) have identified the 
+sources of supply chain disruptions and have discussed the strategies to 
+manage the disruptions and achieve resilience across supply chain. 
+Colicchia et al. (2010) have proposed a simulation-based framework for 
+inbound supply chain risk management in a global sourcing context. 
+Schmitt and Singh (2012) suggested that in order to capture disruption 
+risks the supply chain networks must be considered as a whole and 
+strategic inventory placement and backup capacity throughout several 
+supply chain links must be used for mitigating the risks. Zhu (2013) have 
+proposed joint replenishment and production model under un-
+certainties. Backordering is allowed for higher and unfulfilled demand 
+in order to mitigate disruption. However, the occurrence of any disaster 
+is an inevitable event, and can affect any organization. Therefore, the 
+supply chains must respond to the disruptions in order to avoid their 
+propagation to other supply chain functions. Ivanov et al. (2014) have 
+studied the phenomenon of ripple effect caused by supply chain dis-
+ruptions and have compared its characteristics to bullwhip effect. Kim 
+et al. (2015) have studied the supply chain network disruptions and the 
+structural relationships among entities in the network. Any disruption in 
+any node or arc may or may not disrupt entire supply chain network 
+depending upon its structural relationships with other entities. This 
+concept can be used for managing level of resilience in supply chain 
+networks. Dubey et al. (2015) have proposed a multi objective mixed 
+integer linear program considering uncertainties and have compared the 
+results using several numerical experiments to study the effect on supply 
+chain resilience. Gupta et al. (2015) have analysed the classic dilemma 
+or single vs dual sourcing in presence of possible disruption risks. Dubey 
+et al. (2017) have investigated the role of behavioural dimensions such 
+as trust and cooperation on supply chain resilience. Khalili et al. (2017) 
+have suggested the integrated production and sourcing planning 
+considering extra capacities of production facilities, prepositioning or 
+inventories and backup logistics are some structural changes suggested 
+to improve supply chain resilience. Ivanov and Dolgui (2018) have 
+suggested the need to develop resilient as well as efficient supply chain 
+design. The low certainty need supply chains can be developed by 
+incorporating more flexibility in process and resource utilization. Altay 
+et al. (2018) have conducted an empirical study exploring the effect of 
+the resilience and agility efforts of business organizations on the 
+pre-disaster and post-disaster supply chain performance. Hosseini et al. 
+(2019a) have conducted a systematic review of literature and studied 
+the mathematical/quantitative models developed for supply chain 
+resilience. Ivanov et al. (2019a) have studied that how digitization of 
+supply chains can help in managing disruption risk and ripple effect 
+mitigation by coordinating material and information flow between 
+cyber and physical supply chains. Ivanov et al. (2019b) have studied in 
+their book that how one failure propagates through supply chain 
+structures and what supply chain structures are prone to ripple effect 
+and have explored the mitigation strategies. Ivanov (2018) have 
+explained the concepts of resilience along with structural dynamics. The 
+methodologies and models for recovery and stabilization of supply chain 
+structures are also proposed. 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+3
+
+
+2.2. Supply chain models considering disruptive technologies 
+
+
+The new technologies can also disrupt the way business organiza-
+tions functions and the supply chains must be re-structured from time to 
+time in order to keep up with changing dynamics. Fawcett et al. (2011) 
+have studied why information sharing among several supply chain 
+functions is not improved despite the infrastructure and have suggested 
+changes required to improve the same. Prajogo and Sohal (2013) have 
+studied the competencies and skills required by supply chain managers 
+for the changes expected in supply chain functions due to adoption of 
+technology and automation. Schr€oder et al. (2014) is one of the initial 
+papers mentioning the need of transitioning in supply chain required for 
+Industry 4.0. The change in risk management system and the new po-
+tential risks that supply chains are likely to encounter in Industry 4.0 are 
+also studied in literature. Brettel et al. (2014) have studied and identi-
+fied the major areas from the supply chain which needs to be developed 
+and supported for fourth industrial revolution. Parre~no-Marchante et al. 
+(2014) have proposed a system architecture using RFID to enhance 
+flexibility and traceability in supply chain. Khajavi et al. (2014) have 
+investigated the impact of additive manufacturing in case of distributed 
+production scenario and have identified major challenged in its adop-
+tion by the industry. Mohr and Khan (2015) have suggested the use of 
+flexible structural changes in supply chain to take advantage of 3D 
+printing. Gnimpieba et al. (2015) have proposed an architecture for 
+collaborative supply chain structure. With manufacturing industries 
+gradually transitioning into Industry 4.0, it has been realized that 
+several supply chain functions must also be upgraded from an Industry 
+4.0 perspective. Schlüter et al. (2016) have proposed a risk mitigation 
+framework for decentralized supply chain networks by considering In-
+dustry 4.0 factors and finance indicators. Ivanov et al. (2018) have also 
+proposed a risk mitigation research framework to control ripple effect in 
+a cyber-physical systems-based supply chain. Duarte and Cruz-Machado 
+(2017) have identified the gaps in incorporating lean and green supply 
+chain characteristics in Industry 4.0. Gamage and Rupasinghe (2017) 
+have simulated the impact of Industry 4.0 applications such as infor-
+mation sharing, prediction, resource allocation & cross functionality of 
+the impact of sustainability in carbon emissions of an apparel industry. 
+
+
+In context of factories in industries, Ivanov et al. (2016) have pro-
+posed an integrated model for machine selection and job assignment for 
+dynamic short-term scheduling for Industry 4.0. Stentoft and Rajkumar 
+(2018) have studied the reorganization of manufacturing structures due 
+to technological advancements leading to back-shoring or re-shoring. 
+Barreto et al. (2017) have explored the effect of Industry 4.0 in distri-
+bution networks. Logistics domain is undergoing several technological 
+changes involving a lot of sensor technologies and automation. Hence, 
+the managerial requirements for efficient operation of logistics domain 
+for Industry 4.0 are identified. Tjahjono et al. (2017) have studied 
+several domains within supply chain such as procurement, logistics etc. 
+and have identified the key performance indicators affected by the 
+disruptive technologies. Hoffman and Rusch (2017) have explored that 
+how logistics sector can be developed to the support industries of the 
+fourth revolution. Barata et al. (2018) have reviewed the work done for 
+supply chains in Industry 4.0 in order to identify emerging research 
+areas. Stentoft and Rajkumar (2018) have investigated how the in-
+novations in supply chain functions affect the market and operational 
+performance of an organization. Panetto et al. (2019) have identified the 
+technology enabled strategies and challenges faced by these strategies in 
+design of innovative and resilient networks. Dubey et al. (2019) have 
+investigated the relationship between data analytics, supply chain 
+resilience, organizational flexibility and competitive advantage. Ardito 
+et al. (2019) have studied the digitization of supply chain functions in 
+order to provide an interface between supply chain and marketing 
+functions. 
+
+
+2.3. Supplier selection models under disruption risks and disruptive 
+technologies 
+
+
+Suppliers have a vital role to play in ensuring business operations 
+continuity. Efficient and reliable supplier base is an essential require-
+ment in order to respond and recover from natural or man-made dis-
+ruptions. Therefore, the sourcing practices carried out by an 
+organization have an important role in ensuring the supply chain resil-
+ience and an organization’s overall preparedness. In this direction, 
+Tomlin (2006) studied several mitigation strategies for disruptions 
+coming from supplier side and have compared them by proposing an 
+ordering policy model considering volume flexibility. Yu et al. (2009) 
+have conducted a comparative analysis between single and dual sourc-
+ing methods considering disruption probability and profit. Parmar et al. 
+(2010) have proposed an algorithm for effective supplier base man-
+agement in order to minimize the supply side disruptions. Haldar et al. 
+(2012, 2014) have proposed resilient supplier selection models using 
+fuzzy MCDM methods. Supplier selection and order allocation is a core 
+business function that requires continuous structural changes from time 
+to time. Sawik (2013) proposed supplier portfolio selection model 
+considering the risk of disruption and suggested the use of inventory 
+pre-positioning with protected suppliers to mitigate the disruptions. 
+Torabi et al. (2015) have proposed a supplier selection and order allo-
+cation model considering several disruption scenarios. The total resil-
+ience level can be calculated for various strategies considered. 
+Kamalahmadi and Mellat-Parast (2016) have proposed a flexible 
+sourcing model integrating supplier selection and transportation de-
+cisions for resilience in supply chain. The study suggested that to reduce 
+the disruption risk, sourcing must be done from a fewer, however, more 
+resilient suppliers. Hosseini and Barker (2016) have proposed the 
+resilience criteria to be used for supplier selection along with primary 
+and sustainable criteria and have used Bayesian network model to study 
+the causal relationship among criteria. Parkouhi and Ghadikolaei (2017) 
+have proposed a fuzzy ANP- Grey VIKOR based model to evaluate the 
+resilience of suppliers. The model is developed for a wood and paper 
+industry. In recent times, supply failure risk as an important measure for 
+supplier selection (Lee, 2017). Hosseini and Al Khaled (2019) have 
+identified eight criteria contributing to supplier resilience and have 
+proposed a regression and AHP based hybrid model for supplier selec-
+tion. Hosseini and Ivanov (2019) and Hosseini et al. (2019b) have 
+modelled the ripple effect in the supply chain by considering supplier 
+disruption probability using Bayesian network approach considering 
+different levels of supplier capacity and stages of disruptions. Hosseini 
+et al. (2019c) have also proposed a model for resilient supplier selection 
+by considering the probability of disruption of suppliers Valipour Par-
+kouhi et al. (2019) have proposed joint supplier selection and segmen-
+tation framework by identifying the resilient criteria and classifying 
+them as enhancers or reducers. The grey DEMATEL and grey simple 
+additive weight methodology has been used. It is not possible for any 
+organization to realize the benefits of Industry 4.0 without technologi-
+cally upgrading its end to end supply chain. Real-time information 
+sharing and technical assistance among supply chain partners is the key 
+feature of Industry 4.0. Therefore, supply chain partners must be 
+selected to match the requirements of Industry 4.0 infrastructure. To 
+address this concern, Müller (2019) have studied the challenges of 
+supplier integration in Industry 4.0. The strategies of supplier integra-
+tion are proposed by drawing insights from expert interviews. Recently, 
+Ghadimi et al. (2019) have developed a multi-technology based archi-
+tecture for automated supplier selection process. Cavalcantea et al. 
+(2019) have proposed a simulation and machine learning based supplier 
+selection considering risk profiles of suppliers in a digital manufacturing 
+environment. The reviewed literature is summarized in Table 1. 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+4
+
+
+Table 1 
+Summary of literature reviewed.  
+
+
+References Main theme Methodology Resilience Disruption 
+Technologies 
+
+
+Cost 
+efficiency 
+
+
+Conceptual/ 
+theoretical/ 
+Literature based 
+Framework 
+
+
+Empirical 
+Study 
+
+
+Algorithmic/ 
+Simulation/ 
+Mathematical 
+Model 
+
+
+Pre- 
+disaster 
+
+
+Post- 
+disaster 
+
+
+Single Multiple 
+
+
+Sheffi (2001), Sheffi & Rice Jr. 
+(2005), Tomlin (2006), Ivanov 
+et al. (2014), Sahebjamnia et al. 
+(2015), Sheffi (2015) 
+
+
+Conceptualizing 
+Supply chain 
+resilience 
+
+
+✓   ✓ ✓    
+
+
+Bhutta and Huq (2002), Yu et al. 
+(2009), Parmar et al. (2010)  
+Barroso et al. (2010) Colicchia 
+et al. (2010) Haldar et al. (2012, 
+2014), Sawik (2013), Parkouhi 
+and Ghadikolaei (2017), Valipour  
+Parkouhi et al. (2019) 
+
+
+Selection of suppliers 
+considering disruption 
+risk  
+
+
+✓ ✓ ✓     
+
+
+Skipper and Hanna (2009), Lee 
+(2017) 
+
+
+Identification of 
+factors in risk 
+planning 
+
+
+✓ ✓  ✓     
+
+
+Wu et al. (2007) Assessment of 
+disrupted functions   
+
+
+✓  ✓    
+
+
+Zhu (2013) Strategies for 
+replenishment during 
+disruptions  
+
+
+✓   ✓   ✓ 
+
+
+Schmitt and Singh (2012), Kim et al. 
+(2015), 
+
+
+Supply chain network 
+design under 
+disruption risk   
+
+
+✓ ✓ ✓    
+
+
+Torabi et al. (2015), Kamalahmadi 
+and Mellat-Parast (2016), 
+
+
+Effect of supply chain 
+disruption on business 
+performance   
+
+
+✓ ✓ ✓   ✓ 
+
+
+Gupta et al. (2015), Khalili et al. 
+(2017) 
+
+
+Effect of mitigation 
+strategies on business 
+performance  
+
+
+✓  ✓ ✓   ✓ 
+
+
+Fawcett et al. (2011), Khajavi et al. 
+(2014), Mohr and Khan (2015),  
+Gnimpieba et al. (2015) 
+
+
+Study of Role of a 
+disruptive technology 
+across supply chain 
+
+
+✓     ✓   
+
+
+Prajogo and Sohal (2013), Brettel 
+et al. (2014), Parre~no-Marchante 
+et al. (2014), Stentoft and 
+Rajkumar (2018), Duarte and 
+Cruz-Machado (2017), Gamage 
+and Rupasinghe (2017), Barreto 
+et al. (2017), Tjahjono et al. 
+(2017), Hofmann and Rüsch 
+(2017),Barata et al. (2018),  
+Müller (2019) 
+
+
+Study of changes in 
+certain supply chain 
+functions due to 
+Industry 4.0 
+
+
+✓      ✓  
+
+
+Schr€oder et al. (2014), Ivanov et al. 
+(2018) 
+
+
+Conceptualizing the 
+supply chain 
+resilience using 
+disruptive 
+technologies 
+
+
+✓   ✓   ✓  
+
+
+Dubey et al. (2015) Multi objective 
+optimization 
+
+
+✓  ✓  ✓   ✓ 
+
+
+Dubey et al. (2017) Behavioural 
+dimensions for supply 
+chain resilience  
+
+
+✓  ✓     
+
+
+Altay et al. (2018) Agility and Resilience  ✓  ✓ ✓    
+Schlüter et al. (2016) Role of disruptive 
+
+
+technologies in 
+✓   ✓   ✓ ✓ 
+
+
+Ivanov et al. (2016) Scheduling model for 
+Industry 4.0    
+
+
+✓   ✓ ✓ 
+
+
+Ghadimi et al. (2019) Model for supplier 
+integration in Industry 
+4.0   
+
+
+✓    ✓  
+
+
+Panetto et al. (2019) Challenges for IOT 
+based supply chains 
+
+
+✓   ✓   ✓  
+
+
+Stentoft and Rajkumar (2018),  
+Hosseini et al. (2019a), Ivanov 
+and Dolgui (2018), Ardito et al. 
+(2019) Hosseini et al. (2019b),  
+Hosseini & Ivanov (2019) 
+
+
+Effect of disruptions of 
+supply chain 
+performance 
+
+
+✓   ✓ ✓   ✓ 
+
+
+Ivanov et al., (2019)a,b Managing disruption 
+risk using digital 
+supply chains 
+
+
+✓   ✓ ✓  ✓  
+
+
+(continued on next page) 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+5
+
+
+2.4. Research gaps and research objective 
+
+
+The supply chains are subjected to continuous transition owing to 
+increased complexity, globalization, technological advancements and 
+the risk of disruptions from natural and manmade disasters. The struc-
+ture of supply chains cannot remain static anymore, it needs to go 
+through continuous evolution and must be adaptive to both positive and 
+negative events in the business environment. It is observed that most of 
+the literature study the effect of disruptive technologies on the func-
+tioning of an organization. However, the companies cannot work in 
+isolation, therefore, the real value of these disruptive technologies 
+cannot be realized if the changes are not adopted among all the supply 
+chain. Moreover, most of the papers have considered one technology 
+and its potential for supply chains. But, Industry 4.0 is driven by a set of 
+technologies interacting with each other. There is very limited literature 
+available on the study of structural changes required in entire supply 
+chain design in order to adopt the disruptive technologies. Moreover, it 
+is also realized that the literature on disruption risks and supply chain 
+resilience is studied for the conventional supply chain structures. There 
+is a very limited literature addressing on the managing the disruption 
+risk for a highly digitized supply chain. The disruptions in supply side 
+are minimized using resilient supplier selection. However, with the 
+emerging disruptive technologies, there is a need to redesign the process 
+of supplier selection and order allocation. The conventional criteria and 
+methods used for supplier selection and handling the disruption risks 
+may not do well in presence of disruptive technologies. In view of the 
+gaps identified from literature following are the research questions 
+(RQ): 
+
+
+RQ1. What are the technological criteria for supplier selection in 
+presence of disruption risks for Industry 4.0? 
+
+
+RQ2. How to identify the most important criteria? 
+
+
+RQ3. How to create a technologically competent supplier base? 
+
+
+RQ4. How supplier risk can be computed? 
+
+
+RQ5. How supplier selection and order allocation is done for Industry 
+4.0? 
+
+
+RQ6. How to handle disruptions from supply side in Industry 4.0? 
+
+
+Based upon the above research questions, following are the research 
+objectives (RO) framed for this paper: 
+
+
+RO1. To identify and prioritize the criteria for technologically 
+competent supplier selection for Industry 4.0 
+
+
+RO2. To develop supplier segmentation methodology for Industry 4.0 
+
+
+RO3. To propose a method to calculate supplier risk. 
+
+
+RO4. To develop a Mixed Integer Program for final supplier selection 
+and order allocation for Industry 4.0 
+
+
+RO5. To develop an extended Mixed Integer Program for handling 
+disruptions in Industry 4.0 
+
+
+3. Problem statement and proposed multi-stage hybrid model 
+
+
+3.1. Problem statement 
+
+
+The paper addresses the restructuring of the supplier selection and 
+order allocation process of a global manufacturing company which is in 
+process of transition into an Industry 4.0 and the company also intend to 
+minimize the risk of disruptions due to any disaster event. Therefore, the 
+suppliers must be selected in such a manner that they are technologically 
+competent so that the company can realize the actual benefits of In-
+dustry 4.0 and ensure the undisrupted flow of materials to its 
+manufacturing facility in order to respond to the market demand. If any 
+of the supply chain partner is not technologically competent, it acts as a 
+source of risk and can lead to supply chain disruption. It is important for 
+the company to restructure its supply chain networks so that the infor-
+mation is shared across the channels on real-time basis to gain the 
+flexibility and responsiveness required in Industry 4.0 environment. 
+Therefore, the company needs to identify and evaluate the technology 
+driven as well as resilient criteria and develop a supplier segmentation, 
+selection and order allocation methodology jointly considering both 
+disruptive technologies as well as disruption risks. The supplier selection 
+and order allocation structure must be adaptive to absorb the real time 
+demand fluctuations as well as unexpected disruptions such that total 
+cost as well as risk can be simultaneously minimized considering de-
+mand fluctuations, risk and disruptions. 
+
+
+3.2. Research framework 
+
+
+The research framework for the problem stated in section 3.1 is 
+shown in Fig. 1. The initial step is to identify the set of technology driven 
+criteria from an Industry 4.0 perspective for restructuring of supplier 
+selection process. The identified criteria are then studied for their inter- 
+relationship and are evaluated using expert opinions. The suppliers are 
+initially segmented into the efficient and inefficient suppliers using data 
+envelopment analysis (DEA). The motivation to use DEA is to reduce the 
+supplier base before applying the more exhaustive method for supplier 
+prioritization and risk calculation. The inefficient suppliers are, there-
+fore, not considered for the further process selection and order alloca-
+tion. The efficient suppliers further evaluated and prioritized using 
+FAHP-TOPSIS. There are other multi criteria decision making tools 
+which can be used for the supplier prioritization, however, TOPSIS is 
+used because it is relatively less complicated and easy to understand 
+(Roszkowska, 2011). The set of criteria for supplier selection is supposed 
+to protect the organization against certain risks that can cause disrup-
+tions in entire supply chain. Therefore, the criteria-risk mapping is done 
+to understand how various criteria are protecting the organization 
+against various risks. Using the ratings given to suppliers against various 
+criteria in TOPSIS, the average risk percentage is calculated for each 
+supplier. The MIP is proposed to optimize supplier selection and order 
+allocation such that the demand is met with minimum cost (including 
+cost of risk). However, due to any unforeseen/disaster event if any 
+supplier is disrupted or the demand for any product suddenly fluctuates, 
+
+
+Table 1 (continued ) 
+
+
+References Main theme Methodology Resilience Disruption 
+Technologies 
+
+
+Cost 
+efficiency 
+
+
+Conceptual/ 
+theoretical/ 
+Literature based 
+Framework 
+
+
+Empirical 
+Study 
+
+
+Algorithmic/ 
+Simulation/ 
+Mathematical 
+Model 
+
+
+Pre- 
+disaster 
+
+
+Post- 
+disaster 
+
+
+Single Multiple 
+
+
+Hosseini and Barker (2016),  
+Hosseini and Al Khaled (2019),  
+Hosseini et al. (2019c) 
+
+
+Resilient supplier 
+selection   
+
+
+✓ ✓    ✓ 
+
+
+Proposed model Proposed hybrid 
+model for supplier 
+selection   
+
+
+✓ ✓ ✓  ✓ ✓  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+6
+
+
+the system must be adaptive enough to handle this situation using 
+emergency orders minimizing the total cost and stockouts. Therefore, 
+the MIP is further extended for a disaster scenario, where supplier dis-
+ruptions and unexpected demand fluctuations are considered and 
+managed using emergency orders and backup capacities keeping the 
+total cost of procurement, stockouts and risks at a minimal level. 
+
+
+3.3. Identification of criteria & priorities 
+
+
+The technologically driven criteria are identified using the review of 
+literature and the field survey. The conventional set of criteria used in 
+literature need to be revised to incorporate the technological re-
+quirements expected from supplier’s side for industries investing into 
+disruptive technologies. Moreover, the technological criteria must also 
+ensure the undisrupted flow of information and materials even during 
+the disasters. The priority of these criteria is established by conducting 
+pairwise comparison among the criteria. As, the adoption of disruptive 
+technologies is relatively new in industry, therefore, here is a there is a 
+slight fuzziness in clarity about the inter-relationship among various 
+technological criteria. Hence fuzzy-scale is used to capture these un-
+certainties. The criteria weights are hence obtained using FAHP. The 
+fuzzy scale used for FAHP can be referred from Appendix A1. The steps 
+
+
+to convert fuzzy weights into crisp weights can be referred from Opri-
+covic and Tzeng (2004). 
+
+
+3.4. Supplier segmentation using DEA 
+
+
+The suppliers are evaluated to be included in the pool of suppliers for 
+the company. The suppliers are rated for their expected performance on 
+the identified criteria (in section 4.1). The output-oriented DEA model is 
+used for evaluation. The outputs of all the DMU’s are evaluated for a 
+virtual output. Since, the ratings of the suppliers against all the criteria 
+are their performance measure and hence are considered to be the 
+output. The formulation of the model is given as follows: 
+
+
+In any system, let’s assume that there are r outputs and i inputs, and 
+ur is the weight if the output Yro for any particular DMU. Similarly, vi is 
+weight of input Xij, then in order to have better performing units, total 
+output should be maximized if input is fixed. The objective function is to 
+maximize the total output as shown in equation (1). For detailed 
+explanation, Lovell and Pastor (1999) can be referred. 
+
+
+Max
+Xs
+
+
+r¼1
+urYro (1) 
+
+
+Subject to, 
+
+
+Fig. 1. Proposed Multi-stage hybrid model for supplier selection and order allocation.  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+7
+
+
+Xs
+
+
+r¼1
+urjYrj �
+
+
+Xm
+
+
+i¼1
+viXij � 0 8r (2)  
+
+
+Xm
+
+
+i¼1
+viXio¼ 1 (3)  
+
+
+ur; vi � 0 8 i; r (4) 
+
+
+The model is solved for each supplier one by one and the suppliers 
+having efficiency 1 are considered in the pool, the inefficient suppliers 
+are not considered. If an organization is keeping technologically ineffi-
+cient suppliers in the pool, the chances of supply chain disruptions are 
+more during any disaster event. Hence, as a proactive measure, it is 
+important to carefully select technologically competent and compatible 
+suppliers for transparency and responsiveness across the supply chain. 
+
+
+3.5. Supplier prioritization using TOPSIS 
+
+
+Supplier selection is followed by supplier segmentation. After the 
+criteria are identified and suppliers are evaluated to be efficient or 
+inefficient on these criteria, the final selection of suppliers need to be 
+done. The efficient suppliers are only considered for further evaluation 
+using TOPSIS. TOPSIS stands for technique for preference by similarity 
+to the ideal solution is a multi-criteria decision-making method pro-
+posed by Hwang and Yoon (1981) rank the set of alternatives. The steps 
+involved in TOPSIS are described below: 
+
+
+Step-I: Performance data is obtained for j alternatives over i criteria 
+as shown in equation (5) 
+
+
+aij¼
+
+
+�
+�
+�
+�
+�
+�
+
+
+d11 d21 di1
+d12 d22 di2
+d1j dj2 dij
+
+
+�
+�
+�
+�
+�
+�
+
+
+(5a) 
+
+
+Step-II: obtain a standardized matrix Sij by using equation (6) 
+
+
+Sij¼
+dij
+
+
+�P
+jd
+
+
+2
+ij
+
+
+�1=2 8i; j (6) 
+
+
+Step III: Develop weights (wi) for each criterion. Construct the 
+weighted normalized matrix using equation (7) 
+
+
+Vij¼wiSij 8i; j (7) 
+
+
+However, if all the criteria are equally weighted than it will be 
+exactly same matrix as step II. 
+
+
+Step-IV: Identify the ideal solution and negative-ideal solution using 
+equations (8) and (9). 
+
+
+Ideal solution V*¼
+�
+
+
+max
+�
+Vij
+�
+8i
+�
+
+
+(8)  
+
+
+Negative Ideal solution V ’ ¼
+�
+
+
+min
+�
+Vij
+�
+8i
+�
+
+
+(9) 
+
+
+Step V: Calculate Separation Measure (Si*) from ideal solutions for 
+each alternative as shown in equation (10) 
+
+
+S*i ¼
+X
+
+
+j
+V* � Vij
+
+
+!
+�
+V* � Vij
+
+
+��
+V* � Vij
+
+
+�2�1=2
+8i (10) 
+
+
+Step VI: Calculate the separation measure (Si
+’) from negative ideal 
+
+
+solution for each alternative as shown in equation (1 
+
+
+S’i ¼
+X
+
+
+j
+V ’ � Vij
+
+
+!
+�
+V ’ � Vij
+
+
+��
+V ’ � Vij
+
+
+�2�1=2
+8i (11) 
+
+
+Step VII: The closeness index is computed using equation (12) and 
+suppliers are ranked in descending order of the index value. 
+
+
+C*i ¼
+S’i�
+
+
+S’i þ S*i
+� 8i (12) 
+
+
+By allocating orders to the most preferred or top ranked suppliers, 
+the risk of supply chain disruption due to disasters for an Industry 4.0 
+can be minimized. The company can also develop strategic alliance with 
+the top-ranked suppliers to ensure the business continuity in the time of 
+crises. Hence, this methodology is also used to identify suppliers worth 
+to be further developed for collaborative projects. 
+
+
+3.6. Criteria-risk mapping and supplier risk calculation 
+
+
+The criteria used for supplier selection are supposed to protect the 
+organization against one or more supply chain risks. Therefore, it is 
+important to understand how the criteria used for supplier selection are 
+linked to the supply chain risk. For the purpose of this study, the risk is 
+classified into five types namely forecast risk, procurement risk, capacity 
+risk, inventory risk and system’s risk. Each kind of risk is briefly defined 
+below. Chopra and Sodhi (2004) can be referred for further explanation. 
+
+
+Forecast risk: Mismatch between expected and actual demand 
+within supply chain. Procurement risk: Unexpected fluctuation in cost, 
+quality & time of delivered items due to supplier price hikes, improper 
+contract conditions or any inefficiency at supplier’s end. 
+
+
+Capacity risk: Risk of having excess or short capacity. 
+Inventory risk: Holding of excess inventory throughout supply chain 
+
+
+can affect the financial efficiency of the entire supply chain. 
+System’s risk: In integrated cyber physical systems, any threat or 
+
+
+failure anywhere in supply chain can affect entire supply chain. 
+Step I: The criteria-risk matrix is prepared to identify which criteria 
+
+
+is mitigating which risk. The matrix uses binary variable (Wki) which 
+takes value 1 if criteria i is covering the risk k for the organization, 
+otherwise it takes value 0. Hence The matrix W is shown below in 
+equation (13): 
+
+
+W ¼
+
+
+�
+�
+�
+�
+�
+�
+
+
+w11 w21 wk1
+w12 w22 wk2
+w1i w2i wki
+
+
+�
+�
+�
+�
+�
+�
+wki 2 f0; 1g 8k; i (13) 
+
+
+Also compute the column sum ( 
+P
+
+
+i
+wki; 8k) to determine how many 
+
+
+total criteria are covering each kind of risk for the organization. 
+Step II: The suppliers are rated against these criteria already for 
+
+
+TOPSIS (equation (5)). 
+
+
+aij¼
+
+
+�
+�
+�
+�
+�
+�
+
+
+d11 d21 di1
+d12 d22 di2
+d1j dj2 dij
+
+
+�
+�
+�
+�
+�
+�
+
+
+(5b) 
+
+
+Step III: The risk of supplier noncompliance is calculated using these 
+ratings. The risk percentage for non-compliance of each supplier against 
+each criterion is computed with the help of following equation: 
+
+
+R11 ¼
+ðmax rating � d11Þ
+
+
+maxrating
+*100 8s; 8i (14) 
+
+
+Now, the supplier-criteria risk matrix is obtained as equation 15 
+
+
+Rij¼
+
+
+�
+�
+�
+�
+�
+�
+
+
+R11 R21 Ri1
+R12 R22 Ri2
+R1j R2j Rij
+
+
+�
+�
+�
+�
+�
+�
+
+
+(15) 
+
+
+Step IV: Total risk matrix (TRkj) can be obtained by matrix multi-
+plying Wki and Rij as shown in equation 16 
+
+
+TRkj¼ ½wki�*
+�
+Rij
+�
+
+
+(16) 
+
+
+Step V: Normalize the total risk matrix by diving each value in the 
+column with column sum computed in equation X. The normalized 
+matrix is obtained as shown in equation (17): 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+8
+
+
+NRkj¼
+
+
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+
+
+TR11
+,
+X
+
+
+i
+w1i
+
+
+TR21
+,
+X
+
+
+i
+w2i
+
+
+TRk1
+,
+X
+
+
+i
+wki
+
+
+TR12
+,
+X
+
+
+i
+w1i
+
+
+TR22
+,
+X
+
+
+i
+w2i
+
+
+TRk2
+,
+X
+
+
+i
+wki
+
+
+TR1j
+,
+X
+
+
+i
+w1i
+
+
+TR2j
+,
+X
+
+
+i
+w2i
+
+
+TRkj
+,
+X
+
+
+i
+wki
+
+
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+�
+
+
+(17) 
+
+
+Step VI: The average risk percentage for each supplier is computed 
+by taking the row average of values in normalized risk matrix using 
+equation (18). In equation (18), k is the total number of risk types 
+considered. 
+
+
+Riskj¼
+X
+
+
+k
+NRik
+
+
+,
+
+
+k 8j (18) 
+
+
+Hence, average risk associated with each supplier is computed. 
+
+
+3.7. Mixed integer program for supplier selection & order allocation 
+(With and Without disruptions) 
+
+
+In this section, the mixed integer program is proposed for supplier 
+selection and order allocation jointly considering the disruptive tech-
+nologies and disruption risks. The model is proposed for multi-item and 
+multi-period planning of order allocation to the suppliers. The orders 
+can only be allocated to the efficient set of suppliers identified at 
+screening stage. The prices and capacities offered by the suppliers are 
+already known. The objective of the supplier selection and order allo-
+cation is to ensure that demand is met with minimum total cost 
+including the cost of risk. If there is no disaster, the regular orders must 
+be released in such a manner that total cost and risk can be minimized. 
+However, if there is a disaster scenario, the regular orders should remain 
+as such and disruption must be handled using emergency orders to the 
+same or different supplier. The assumptions and notations used in the 
+model are described below: 
+
+
+Assumptions for the model:  
+
+
+1. Demand is stochastic in nature. However, the mean and variance 
+tend to change before and after the disaster.  
+
+
+2. Suppliers have limited capacity and known with certainty. In case, 
+disaster occurs, suppliers can support with an additional 20% backup 
+capacity  
+
+
+3. All orders must be fulfilled in same period. Late deliveries are not 
+allowed. Penalty cost is incurred for any shortages in case of disaster 
+caused disruptions.  
+
+
+4. Emergency orders can be executed to prevent the disruptions. 
+
+
+Decision Variables. 
+XpstQuantity of order for product p ordered from supplier s in time 
+
+
+period t. 
+X’pstQuantity of Emergency order for product p ordered from supplier 
+
+
+s in time period t. 
+YpstBinary variable taking value 1 if product p is ordered from sup-
+
+
+plier s in time period t ELSE 0. 
+UpstBinary variable taking value 1 if emergency order for product p is 
+
+
+ordered from supplier s in time period t ELSE 0. 
+Ipt Inventory carried for product p in time period t. 
+ShptShortage for product p occurred in time period t. 
+Notations. 
+UPCpstUnit price of product p ordered from supplier s in time period 
+
+
+t. 
+UPC’pstSurged Unit price for emergency orders for product p ordered 
+
+
+from supplier s in time period t. 
+Rs Risk of disruption associated with supplier s. 
+
+
+RCs Cost of risk associated with supplier s. 
+OCpstCost of ordering product p from supplier s in time period t. 
+UTCpstUnit Transportation cost incurred receiving product p from 
+
+
+supplier s in time period t. 
+HCptUnit holding cost of product p in time period t. 
+CpstCapacity offered by supplier s for product p in time period t. 
+ECpstExtended suppliers offered by supplier s for product p in time 
+
+
+period t. 
+F� 1Dpt Constant inverse cumulative function of demand for given 
+
+
+mean, standard deviation and probability of meeting the demand. 
+PenptPenalty cost incurred for shortages for product p in time period 
+
+
+t. 
+MIP: Supplier selection and order allocation without disruptions 
+
+
+Zmin¼
+X
+
+
+p
+
+
+X
+
+
+s
+
+
+X
+
+
+t
+
+
+�
+UPCpstXpst þ YpstOCpst þUTCpstXpst þRsRCsYpst
+
+
+�
+
+
+þ
+X
+
+
+p
+
+
+X
+
+
+t
+HCptIpt
+
+
+(19) 
+
+
+Subject to, 
+
+
+Ipðt� 1Þ þ
+X
+
+
+s
+Xpst � F� 1Dpt
+
+
+�
+αpt
+�
+� Ipt ¼ 0 8p; t (20)  
+
+
+X
+
+
+s
+Xpst �
+
+
+X
+
+
+t
+F� 1Dpt
+
+
+�
+αpt
+�
+8p; t (21)  
+
+
+Xpst �Cpst*Ypst 8p; s; t (22)  
+
+
+X
+
+
+s
+Rs * Ypst � 0:4 8p:8t (23)  
+
+
+Xpst; Ipt are integers 8p; s; t (24)  
+
+
+Ypst 2 f0; 1g 8p; s; t (25) 
+
+
+The objective function of the model shown equation (19) is the 
+minimization of total cost of procurement comprising of unit price, 
+ordering cost, transportation and holding cost along with the total risk 
+coming from selected suppliers over the entire planning horizon. 
+Equation (20) represents the inventory balance equation balancing in-
+ventory from previous period and total orders received to the demand 
+and inventory left over in current period. Equation (21) restricts the 
+maximum order to be placed in any period to the total demand over 
+planning period. Equation (22) is the supplier capacity constraint 
+restricting the order quantity with the available supplier capacity. 
+Equation (23) restricts the maximum risk coming from suppliers for any 
+product in any period to be less than 40%. The integer nature of order 
+quantity Xpstand inventory Iptand the binary nature of variable Ypstfor 
+supplier selection is shown in equations (24) and (25) respectively. 
+
+
+Extended MIP: Supplier Selection and Order Allocation with 
+disruptions. 
+
+
+If any disaster event occurs model II is used to execute emergency 
+orders from the selected or backup suppliers. The purchase price of 
+emergency orders is higher than regular orders. The emergency orders 
+from suppliers are also associated with risk. In model II shortages can 
+occur and a penalty cost is incurred corresponding to the same. The 
+regular orders already finalized using model I must remain as such and 
+can be used as given data in Model II. The model is formulated as 
+following: 
+
+
+Zmin¼
+X
+
+
+p
+
+
+X
+
+
+s
+
+
+X
+
+
+t
+
+
+�
+UPCpstXpstþUPC’pstX
+
+
+’
+pst
+
+
+�
+þ
+X
+
+
+p
+
+
+X
+
+
+s
+
+
+X
+
+
+t
+OCpst
+
+
+�
+YpstþUpst
+
+
+�
+þ
+
+
+X
+
+
+p
+
+
+X
+
+
+s
+
+
+X
+
+
+t
+UTCpst
+
+
+�
+XpstþX’pst
+
+
+�
+þ
+X
+
+
+p
+
+
+X
+
+
+t
+HCptIptþ
+
+
+X
+
+
+P
+
+
+X
+
+
+T
+PenptShptþ
+
+
+X
+
+
+p
+
+
+X
+
+
+s
+
+
+X
+
+
+t
+RsRCs
+
+
+�
+YpstþUpst
+
+
+�
+(26) 
+
+
+Subject to, 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+9
+
+
+Ipðt� 1Þ þ
+X
+
+
+s
+Xpst þ
+
+
+X
+
+
+s
+X’pst � F
+
+
+� 1
+Dpt
+
+
+�
+αpt
+�
+� Ipt þ Shpt ¼ 0 8p; t (27)  
+
+
+X’pst �
+� �
+Cpst � Xpst
+
+
+�
+þECpst
+
+
+�
+*Upst 8p; s; t (28)  
+
+
+X
+
+
+s
+Rs *Upst � 0:3 8p;8t (29)  
+
+
+X’pst; Shpt are integers 8p; s; t (30)  
+
+
+Upst 2 f0; 1g 8p; s; t (31) 
+
+
+Equation (26) represents the objective function of the model which 
+minimizes the total cost of procurement comprising of purchase price, 
+ordering cost, transportation cost of regular as well as emergency orders, 
+holding cost, penalty cost for the shortages occurring, and the cost of risk 
+from regular orders and emergency orders. Equation (27) represents the 
+inventory balance equation, balancing the inventory on hand, the reg-
+ular orders and the emergency orders to the demand, current inventory 
+and the shortages. Equation (28) is the capacity constraint for emer-
+gency orders. During any disaster event, the suppliers offer 20% more 
+capacity as extended support. Emergency orders can be placed from the 
+same supplier as regular orders or the different one. The risk for each 
+product in each time period for extended orders should be less than 30% 
+as shown in equation (29). Equation (30) describes the integer nature of 
+emergency orders and shortages and equation (31) describes the binary 
+nature of variable for supplier selection for emergency orders. 
+
+
+4. Case illustration: XYZ automobiles private limited 
+
+
+In this section, the proposed multi stage hybrid model for supplier 
+selection and order allocation is illustrated using the case of XYZ Au-
+tomobiles Pvt. Ltd. XYZ has been a market leader in automobiles for 
+several years despite encountering some disruptions from time to time. 
+In recent years, the company has been investing heavily in disruptive 
+technologies and hence bringing in major structural changes in its 
+overall functioning. XYZ has realized that it has not been able to gain 
+any significant improvement as the technologies under the umbrella of 
+Industry 4.0 has been installed and implemented at a company’s level. 
+The other supply chain functions of the company are not yet fully in-
+tegrated with the technologies available within the company. Therefore, 
+the company has not been able to realize the potential benefits of In-
+dustry 4.0 like supply chain visibility and transparency. Supplier se-
+lection and order allocation is one key function for the company which 
+needs structural transformation. The company has been using the 
+
+
+conventional criteria and methods for supplier evaluation and therefore, 
+are not able to capture the technological competency of suppliers which 
+is now an important requirement by the company. The other major 
+concern for the company to integrate the supply chain is to minimize the 
+disruptions which are caused by the natural disasters such as floods, 
+cyclones & earthquakes as well as manmade disasters such as terrorist 
+attacks or protests. Hence, the company is required to identify and up-
+date the supplier evaluation criteria capturing the technological com-
+petency of the suppliers. The suppliers which are not technologically 
+competent may not provide the necessary visibility to the company in 
+terms of capacity and lead-times, increasing the risk of disruption and 
+hence cannot be considered for order allocations. The company is 
+required to maintain and develop a pool of suppliers based on the 
+technological criteria to ensure the efficient use of disruptive technol-
+ogies in order to fulfil the uncertain demand and to handle disaster 
+caused disruptions. The disaster events in past have caused two types of 
+disruptions for the company in the past i.e. huge fluctuation in demand 
+and/or capacity failure from supplier side. The company needs to design 
+a supplier segmentation, selection and order allocation process such that 
+the suppliers suitable to adapt to the changes in technology ongoing 
+with the company are identified and developed and can also help the 
+company in handling the sudden fluctuations in demand/capacity due to 
+disasters by providing real time visibility. The company intends to 
+develop the supplier segmentation & selection process so that overall 
+cost of procuring items over a planning horizon can be minimized. At the 
+same time, the supplier selection process is expected to be adaptive to 
+handle the potential disruption by allocating emergency orders to other 
+suppliers such that cost impact and risk is kept minimum. In order to 
+address the company’s concerns the multi-stage hybrid model for sup-
+plier selection and order allocation considering disruptive technologies 
+and disruption risks is implemented. The steps are explained in 
+following subsections. 
+
+
+4.1. Criteria identification & prioritization 
+
+
+The criteria for evaluating suppliers for their technological compe-
+tence are identified from literature and from expert opinion (top & 
+middle management of the company). The identified criteria are briefly 
+described in Table 2. The criteria are compared amongst themselves 
+using Fuzzy-AHP. The aggregated fuzzy pairwise comparison matrix is 
+provided in Appendix A2. Final priorities of the criteria are shown in 
+Table 3. It has been observed that manufacturing flexibility, cyber se-
+curity, use of RFID & data visibility are important technological re-
+quirements from the suppliers in today’s digitized supply chains. The 
+
+
+Table 2 
+Technological Criteria for supplier selection.  
+
+
+Criteria Description 
+
+
+C1 Disaster sensing using BDA Use of Big Data Analytics can help to predict the impact of disaster/market so that the organizations can prepare themselves 
+accordingly 
+
+
+C2 RFID/Barcodes It helps in visualizing the levels of inventory at all levels of supply chains, having real time information can help the organization to 
+manage disruptions from alternate/backup suppliers 
+
+
+C3 Public-Private Partnership Public-private partnerships can help in data access from government agencies and organizations can know the actual impact of 
+disaster 
+
+
+C4 Smart contracts using Block chain Can help manage the capital and resources and maintains a transparency at all supply chain links 
+C5 Data Visibility across value chain Each supply chain link must be also to provide all necessary information on real time basis to other supply chain partners to prevent 
+
+
+any chance to disruption 
+C6 IOT Infrastructure Cyber-physical systems can help reduce the lead times and increase responsiveness 
+C7 Shared platforms Shared and compatible platforms can help manage and reallocate the resources to manage supply chain disruptions 
+C8 Resource efficiency using cloud 
+
+
+computing 
+Cloud computing at real time basis can help in effective allocation & reallocation of the resources on real time 
+
+
+C9 GIS/GPS enabled Logistics Real time tracking of inventory in transitioning at several stages of the supply chain 
+C10 Manufacturing Flexibility The suppliers should be flexible to support the supply chain in disaster events 
+C11 Additive Manufacturing Can help in reducing the lead time and the cost of production 
+C12 Cyber security As several companies are sharing a lot of information across the supply chain, cyber security is an important criterion for all supply 
+
+
+chain partners  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+10
+
+
+technological criteria are used for supplier selection process in order to 
+adapt to the changing supply chain dynamics and to mitigate the risk of 
+disruption by natural and man-made disasters. 
+
+
+4.2. Supplier segmentation 
+
+
+In supplier segmentation process, the initial pool of suppliers is 
+evaluated against the identified set of criteria using Output-oriented 
+DEA model. The rating of each supplier’s potential to perform on the 
+given criteria is taken from the historic data as well as from expert’s 
+judgements. All ratings measure supplier’s performance on given 
+criteria, therefore, are considered to be the output. The suppliers are 
+then segmented into efficient and inefficient ones. After using the model 
+for all the suppliers, the efficiencies calculated are shown in Table 4. 
+
+
+Hence, efficient supplier set is {S2, S3, S4, S7, S8} is considered for 
+further selection process whereas the inefficient set of suppliers {S1, S5, 
+S6, S9, S10} are not further considered. By dropping the inefficient sup-
+pliers unable to adapt to the dynamics caused by the use of disruptive 
+technologies in supply chain, the risk of disruption likely to be caused by 
+inefficient suppliers can be avoided. 
+
+
+4.3. Supplier prioritization using TOPSIS 
+
+
+After supplier segmentation, the efficient set of suppliers are 
+considered for further procedures, whereas the inefficient suppliers are 
+dropped. The efficient suppliers are further prioritized using TOPSIS. 
+Appendix A3 shows the detailed steps of the TOPSIS for given data. The 
+weights used in TOPSIS for criteria have already been computed using 
+FAHP. Finally, using FAHP-TOPSIS, the final closeness index is 
+computed and the suppliers are ranked as shown in Table 5. The supplier 
+S4 is found to be best ranked followed by S7. Supplier S3 is ranked third 
+followed by S8 and S2. 
+
+
+4.4. Criteria-risk mapping and supplier risk calculation 
+
+
+The criteria used for supplier selection are supposed to protect the 
+company against one of the supply chain risks. The criteria-risk mapping 
+is done using expert opinions and the insights drawn from literature. In 
+Table 6, the criteria-risk matrix is shown indicating which criteria is 
+protecting the organization against which risk. For example: the for 
+criteria C1 the value is 1 against forecasting risk, indicating that criteria 
+C1 is protecting the organization against that particular risk. If the value 
+of cell is zero, it indicates no relationship. 
+
+
+Using the steps describes in section 3.6, The average risk associated 
+
+
+with each supplier is calculated. It can be observed from Table 7 that 
+supplier S3 is having least risk associated with it which is 18% and 
+supplier S2 is having highest risk percentage out of all five suppliers. 
+
+
+4.5. Supplier selection and order allocation using MIP 
+
+
+The multi-period and multi-product planning of detailed order al-
+locations to respective suppliers has to be done by the company. The 
+problem considers the order allocation problem for ten different items to 
+the five suppliers over a planning horizon of six months. The orders must 
+be allocated to the suppliers in such a way that demand is fully met at 
+minimum cost of procurement including the purchase cost, ordering 
+cost, transportation cost, holding and risk cost. The supplier capacities, 
+prices offered by suppliers and the forecast of mean and deviation for 
+stochastic demand are known to the company. The complete data for the 
+problem is given in Appendix A4. The problem is solved using mixed 
+integer program when there is no disaster/unforeseen event. The com-
+plete supplier selection and order allocation obtained for the given 
+problem in absence of any disruption is provided in Table 8. It can be 
+noted that at this stage all the orders are the regular orders. The total 
+cost of procurement is 3002984. It can be seen from the table that dy-
+namic lot sizing is followed for all the products to match the stochastic 
+demand. 
+
+
+4.5.1. Disaster scenario I: demand fluctuations 
+Now, considering a scenario when there is a disaster occurrence in 
+
+
+second time period. Due to disaster, there is a fluctuation in demand of 
+all the parts from second period onwards. In this case regular orders 
+alone will not be able to satisfy the increased demand. In this case, the 
+problem is again solved using extended MIP, which considers regular 
+orders as input and minimizes the disruptions by allocating emergency 
+orders over and above the regular orders. It is assumed that in case of 
+disaster all suppliers are bound to offer 20% more capacity than they 
+were offering initially. If demand is still not met using emergency orders 
+it will result in a stockout for which company incur the huge cost of 
+stockout. The price for emergency orders charged by the suppliers is also 
+higher than the price for regular orders. It can be seen from Fig. 2 that 
+demand has increased from time period 2 onwards and the emergency 
+order are allocated in addition to regular orders. The regular demand is 
+shown using the solid line and fluctuated demand is shown using the 
+dotted line. The regular orders and emergency orders are shown using 
+bars. It can also be seen from Fig. 2 that in most of the cases the emer-
+gency orders are given to the suppliers already given regular orders. It is 
+because it is more cost effective to order in emergency situations from 
+same supplier already supplying the regular orders. However, in some 
+cases, due to cost or capacity restrictions the emergency orders are given 
+to other suppliers as well. The total cost incurred in this case is 3267580 
+including the incremental cost of managing disruption. In this case, the 
+increased demand is fully met using emergency orders and hence no 
+shortage cost is incurred. However, if the demand fluctuations are not 
+
+
+Table 3 
+Fuzzy & Defuzzified Criteria Weights obtained after using Fuzzy AHP.  
+
+
+Criteria Fuzzy criteria weights Defuzzified criteria weights (Opricovic and 
+Tzeng, 2004) 
+
+
+C1 (0.0215,0.039,0.0735) 0.042438 
+C2 (0.0883,0.140,0.231) 0.14971 
+C3 (0.0266,0.044,0.082) 0.048201 
+C4 (0.038,0.0715,0.138) 0.079866 
+C5 (0.068,0.107,0.173) 0.115199 
+C6 (0.0351,0.0618,0.108) 0.066774 
+C7 (0.0446,0.075,0.120) 0.079148 
+C8 (0.0319,0.0625,0.108) 0.066929 
+C9 (0.0235,0.039,0.070) 0.042177 
+C10 (0.134,0.221,0.352) 0.224593 
+C11 (0.0093,0.0137,0.0215) 0.013973 
+C12 (0.0834,0.1235,0.189) 0.13034  
+
+
+Table 4 
+Supplier efficiency obtained using DEA.  
+
+
+Supplier S1 S2 S3 S4 S5 S6 S7 S8 S9 S10 
+
+
+Efficiency computed using DEA .819 1 1 1 .857 .738 1 1 .8 .917  
+
+
+Table 5 
+Final Supplier Ranking using TOPSIS.  
+
+
+Suppliers Closeness Index Rank 
+
+
+S2 0.12552 5 
+S3 0.6065 3 
+S4 0.69317 1 
+S7 0.64545 2 
+S8 0.50795 4  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+11
+
+
+managed using emergency orders, it would have resulted in shortages/ 
+disruption. It would have cost the company 1390900, which is 54% 
+higher than cost of regular orders. On the other hand, the cost of man-
+aging disruptions using incremental orders is merely 9% of regular cost. 
+The ordering patterns for each product time over entire planning hori-
+zon with or without disaster occurrence are also shown in Appendix A5. 
+
+
+4.5.2. Disaster scenario II: capacity disruption 
+In this section, another disaster scenario is considered where the 
+
+
+supplier capacity of one of the supplier’s is disrupted. In this case, 
+disaster does not affect the demand, however, the capacity of supplier 2 
+is disrupted. It is assumed that disaster occurred in time period 2, 
+therefore supplier 2 would not be able to fulfil its regular orders from 
+period 2 onwards. Therefore, in this scenario, the extended MIP is again 
+used to allocate emergency orders for the disruption caused. In this case, 
+the regular orders for supplier 2 will become zero from second period 
+onwards. The results obtained are shown in Fig. 3. It is observed from 
+the figure that corresponding to demand, the regular and emergency 
+orders placed. The incremental cost of procurement is incurred for 
+emergency orders. The ordering pattern for all the items over entire 
+planning horizon for regular and emergency orders is tabulated in detain 
+in Appendix A6. It is estimated that total cost of procurement including 
+the cost of emergency orders for this scenario is 3269683. However, in 
+case this disruption in supplier capacity cannot be managed using 
+emergency order allocation to other suppliers, it all would have resulted 
+in shortages. And the total penalty cost for shortages would amount to 
+4423800, which is 47% more than total cost of procurement (see Fig. 4). 
+
+
+4.5.3. Disaster scenario III: demand fluctuation and capacity disruption 
+(Exhibit A) 
+
+
+In third scenario, it is assumed that disaster has two-fold effect, it 
+caused demand fluctuations in addition to the capacity disruption. In 
+this scenario, it is considered that both scenario I and scenario have 
+occurred together. There is a demand fluctuation due to disaster and also 
+there is a capacity disruption from supplier side. Again, it is assumed 
+that disaster occurs in period 2, the demand for all the products fluc-
+tuates from period 2 onwards. Also, the supplier 2 is disrupted from 
+period 2 onwards and will not be able to fulfil the regular orders allo-
+cated for all the parts. In order to manage both the disruptions, the 
+extended MIP is used. The regular orders are kept as it is, however, the 
+regular orders pertaining to the disrupted supplier (S2) will become zero 
+
+
+from second period onwards. The emergency orders are allocated to the 
+suppliers with remaining & extended capacity in order to manage the 
+regular orders which supplier S2 was unable to meet and also to meet the 
+demand fluctuations as much as possible. The results obtained are 
+shown in Fig. 5. It can be seen that the demand has increased during 
+disaster as well as regular orders have reduced due to disruption. 
+Therefore, in this case the quantity and number of emergency orders 
+have significantly increased as compared to other orders. The ordering 
+pattern for all the products over the planning horizon is provided in 
+Appendix A7. In case, there is not enough backup capacity to handle 
+disruptions, it can result in shortages. For this case example, no short-
+ages are incurred. The total cost of procurement incurred for this sce-
+nario is 3565577. However, if these disruptions were not handled using 
+emergency orders, they would have resulted in shortages and cost of 
+penalty would be 5840480 which is 94% higher than the total cost of 
+procurement in this case. 
+
+
+4.5.4. Disaster scenario IV: demand fluctuation and capacity disruption 
+(Exhibit B) 
+
+
+In the fourth scenario, it is assumed that the disaster leads to both the 
+demand and supply disruptions simultaneously. This scenario is similar 
+to scenario III, however, the intensity of the disruption varies in this 
+case. It is assumed that disaster event has led to unexpectedly high de-
+mand fluctuations and on the other side some suppliers are affected by 
+the disaster leading to complete capacity loss by those suppliers. The 
+initial supplier selection and order allocation. 
+
+
+Again, it is assumed that disaster occurs in time period T2, the de-
+mand for all the products experiences huge fluctuations from time 
+period T2 onwards. The suppliers S2 and S8 are also disrupted which 
+means that they will not be able to fulfil any regular orders for any item 
+product allocated to them. The extended MIP is used to manage the 
+disruptions and revise the regular orders to meet the demand which may 
+have increased significantly due to disaster and allocate emergency or-
+ders to undisrupted suppliers in case in case some of the suppliers are 
+disrupted. Now in this case, the company will be able to manage dis-
+ruptions on the real time basis only if the supplier base is technologically 
+competent to share the effect of disruptions with the company and al-
+lows the revision of regular orders. In order to achieve the real-time 
+coordination between suppliers and buyers is only possible if real-time 
+information sharing is there between two parties. Therefore, in order 
+to minimize the impact of disruptions, the suppliers must be 
+
+
+Table 6 
+Criteria-risk matrix.   
+
+
+Forecast risk Procurement risk Capacity risk Inventory risk systems risk 
+
+
+Disaster sensing using BDA 1 0 0 1 0 
+RFID/Barcodes 0 0 0 1 0 
+Public-Private Partnership 0 1 0 0 0 
+Smart contracts using Blockchain 0 1 0 0 0 
+Data Visibility across value chain 1 0 0 0 0 
+IOT Infrastructure 0 0 1 0 1 
+Shared platforms 1 0 0 0 1 
+Resource efficiency using cloud computing 0 0 0 1 0 
+GIS/GPS enabled Logistics 0 0 0 1 0 
+Manufacturing Flexibility 0 0 1 0 0 
+Additive Manufacturing 0 0 1 0 0 
+Cyber security 0 0 0 0 1  
+
+
+Table 7 
+Supplier Average Risk calculation.  
+
+
+Suppliers Forecast risk Procurement risk Capacity risk Inventory risk systems risk Average Risk 
+
+
+S2 48% 39% 78% 50% 63% 56% 
+S3 4% 39% 33% 8% 7% 18% 
+S4 11% 33% 63% 17% 33% 31% 
+S7 33% 39% 33% 28% 48% 36% 
+S8 30% 33% 33% 17% 37% 30%  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+12
+
+
+technologically competent with the firm transitioning inti Industry 4.0. 
+The results of the extended MIP suggest that all the regular orders 
+
+
+except the orders pertaining to the disrupted suppliers (S2 & S8) will 
+become zero from second time period onwards. The emergency orders 
+are allocated to the remaining undisrupted suppliers by utilizing their 
+remaining or extended capacity available such that the demand is met as 
+much as possible and the shortages are minimized. The results obtained 
+are charted in Fig. 5. In this case, due to the huge fluctuation in the 
+demand and two suppliers being disrupted, the high amount of emer-
+gency orders allocated to the rest of the suppliers. The detailed ordering 
+plan and the emergency order allocations are provided in Appendix A8. 
+The company is able to handle the disruptions and allocate emergency 
+orders because of real time information sharing and transparency be-
+tween the company and the suppliers in Industry 4.0 environment. In 
+this case the total cost of the procurement is 3887198. However, if this 
+information sharing is not there, it can result in shortages. For this case 
+example, no shortages are incurred. However, if these disruptions were 
+not handled using emergency orders, they would have resulted in 
+shortages and cost of penalty would be 5840200 which is 1844% higher 
+than the total cost of procurement in this case. 
+
+
+Table 9 shows that some flexibility in supply chain structure can help 
+the company in preventing the disruptions by allocating emergency 
+orders to other suppliers. It can be seen from the table that cost of 
+procurement including the emergency orders is significantly less than 
+the penalty cost for shortages for all the disaster scenarios. It is also 
+realized from this case example that careful selection of suppliers in this 
+era of disruptive technologies is extremely important. In this case, the 
+suppliers are technologically competent to the organization and hence 
+the information sharing and flow of material is transparent. The supplier 
+capacity is visible to the organization and hence the emergency orders 
+can be placed. In absence of technologically competent suppliers, such 
+responsiveness and flexibility cannot be achieved. Therefore, disruptive 
+technologies play a significant role in managing disruption risks in a 
+supply chain. This case also indicates the importance of supplier-buyer 
+
+
+relationships along with the role of information sharing across supply 
+chain. The demand fluctuations in this case can be managed using 
+supplier backup capacity during disaster. 
+
+
+5. Managerial implications and theoretical contributions 
+
+
+5.1. Managerial implications 
+
+
+The outcomes of the proposed research can help supply chain man-
+agers to reconfigure their conventional supplier selection and order 
+allocation process to match the changing dynamics of the industry. The 
+proposed framework can be used as a decision making tool by the 
+business organization which can assist supply chain managers in eval-
+uation of supplier alternatives on their technological capabilities as well 
+as their ability to ensure business continuity against disruptions from 
+disasters. The findings reveals that the supplier segmentation and pri-
+oritization process proposed in the paper helps business organizations to 
+proactively design a pool of reliable suppliers minimizing the supplier 
+risk and hence the impact of disruptions in event of disaster. The pro-
+posed MIP is a unique model to assist the supply chain managers to 
+optimally design their order allocation policies from multiple sources to 
+meet the uncertain demand while keeping the overall cost and risk at 
+minimum level. Moreover, the proposed model can be also of high 
+sustainable value to business organizations in handling the disaster 
+caused disruption scenarios such as unexpectedly high demand fluctu-
+ations or supplier capacity failures in a cost-efficient manner. Another 
+unique and interesting aspect of the proposed MIP is its application in 
+the event of disruption where business organizations can be benefited by 
+the proposed extended MIP enabling them to efficiently revise the reg-
+ular orders and allocate emergency orders in an attempt to minimize the 
+cost impact of disruptions and ensure business continuity. The case- 
+illustration provided in the paper can also help managers to under-
+stand and relate to the structural dynamics of the supplier selection 
+process in presence of disruptive technologies and disaster caused 
+
+
+Table 8 
+Supplier selection and order allocation for Stochastic demand.    
+
+
+T1 T2 T3 T4 T5 T6 
+
+
+P1 Normal equivalent of stochastic demand 2581 896 3155 1673 1307 3029 
+Regular order 2581 1561 2490 4000 0 2009 
+Supplier Selection X (1, 1, 3) ¼ 2581,X (2, 1, 5) ¼ 1561,X (3, 1, 3) ¼ 2490,X (4, 1, 2) ¼ 4000,X (6, 1, 3) ¼ 2009 
+
+
+P2 Normal equivalent of stochastic demand 2689 2923 1330 1014 1732 2632 
+Regular order 3042 2570 2388 0 4320 0 
+Supplier Selection X (1, 2, 5) ¼ 3042 X (2, 2, 2) ¼ 2570 X (3, 2, 4) ¼ 2388 X (5, 2, 4) ¼ 4320 
+
+
+P3 Normal equivalent of stochastic demand 2215 2723 2055 1513 3132 881 
+Regular order 2750 2188 4760 1580 360 881 
+Supplier Selection X (1, 3, 2) ¼ 2750 X (2, 3, 4) ¼ 2188 X (3, 3, 4) ¼ 4760 X (4, 3, 2) ¼ 1580 X (5, 3, 3) ¼ 360 X (6, 3, 3) ¼ 881 
+
+
+P4 Normal equivalent of stochastic demand 1071 1547 3263 2614 1215 2704 
+Regular order 1071 4360 450 2860 969 2704 
+Supplier Selection X (1, 4, 2) ¼ 1071 X (2, 4, 5) ¼ 4360 X (3, 4, 2) ¼ 450 X (4, 4, 5) ¼ 2860 X (5, 4, 5) ¼ 969 X (6, 4, 3) ¼ 2704 
+
+
+P5 Normal equivalent of stochastic demand 2796 2997 1104 1622 1507 1914 
+Regular order 2796 2997 3807 0 2340 0 
+Supplier Selection X (1, 5, 5) ¼ 2796 X (2, 5, 5) ¼ 2997 X (3, 5, 3) ¼ 3807 X (5, 5, 3) ¼ 2340 
+
+
+P6 Normal equivalent of stochastic demand 2223 2748 1232 2707 1829 1504 
+Regular order 3221 1750 2578 3190 0 1504 
+Supplier Selection X (1, 6, 3) ¼ 3221 X (2, 6, 3) ¼ 1750 X (3, 6, 5) ¼ 2578 X (4, 6, 5) ¼ 3190 X (6, 6, 2) ¼ 1504 
+
+
+P7 Normal equivalent of stochastic demand 1456 2988 732 2899 1221 963 
+Regular order 2310 2134 732 2899 2184 0 
+Supplier Selection X (1, 7, 3) ¼ 2310 X (2, 7, 2) ¼ 2134 X (3, 7, 4) ¼ 732 X (4, 7, 4) ¼ 2899 X (5, 7, 2) ¼ 2184 
+
+
+P8 Normal equivalent of stochastic demand 2948 2871 1815 1715 1007 1799 
+Regular order 2984 4650 0 4280 0 241 
+Supplier Selection X (1, 8, 5) ¼ 2984 X (2, 8, 2) ¼ 4650 X (4, 8, 2) ¼ 4280 X (6, 8, 4) ¼ 241 
+
+
+P9 Normal equivalent of stochastic demand 1221 2056 2647 3032 964 2347 
+Regular order 1527 1750 4300 3080 1610 0 
+Supplier Selection X (1, 9, 2) ¼ 1527 X (2, 9, 5) ¼ 1750 X (3, 9, 2) ¼ 4300 X (4, 9, 3) ¼ 3080 X (5, 9, 2) ¼ 1610 
+
+
+P10 Normal equivalent of stochastic demand 1699 1797 2482 904 1882 982 
+Regular order 4940 0 1942 0 1882 982  
+Supplier Selection X (1, 10, 4) ¼ 4940 X (3, 10, 3) ¼ 1942 X (5, 10, 5) ¼ 1882 X (6, 10, 5) ¼ 982  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+13
+
+
+disruptions. 
+
+
+5.2. Theoretical contributions 
+
+
+This paper contributes to the widely and extensively researched field 
+of supplier selection. The contribution made in the paper is technically 
+
+
+and theoretically a novel attempt as an integrated supplier segmenta-
+tion, selection and order allocation in Industry 4.0 environment 
+considering the disaster caused disruptions. The proposed model pre-
+sents how the supplier selection decisions are affected when a conven-
+tional industry transition into Industry 4.0. The requirements from the 
+suppliers in industry 4.0 to handle the disaster caused disruptions are 
+
+
+Fig. 2. Ordering pattern for disaster scenario I.  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+14
+
+
+Fig. 3. Ordering pattern for disaster scenario II.  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+15
+
+
+Fig. 4. Ordering pattern for disaster scenario III.  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+16
+
+
+Fig. 5. Ordering pattern for disaster scenario IV.  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+17
+
+
+different from a conventional industry. To address this concern, the 
+proposed work presents a multi stage hybrid model for supplier seg-
+mentation, prioritization and order allocation considering the industry 
+4.0 environment in presence of demand and/or supply disruptions. The 
+paper identifies the supplier selection criteria relevant to Industry 4.0 
+environment. The set of criteria identified in the paper evaluates the 
+technical competency of the supplier and the ability to handle disrup-
+tions in Industry 4.0 environment. The paper also derives the average 
+supplier risk by mapping their performance of the set of criteria with 
+different kinds of risks involved. The supplier risk is then integrated into 
+mixed integer program where the orders are allocated to the suppliers to 
+meet the uncertain demand over a planning horizon such that total cost 
+and the risk associated is simultaneously minimized. In case of disaster 
+caused disruptions, the extended MIP tends to revise the regular order 
+allocations and allocate emergency orders with the suppliers in such a 
+way that incremental cost handling with the disruptions and overall risk 
+is again minimized. To demonstrate the applicability of the proposed 
+model, a case of an automobile company is also considered under four 
+disaster scenarios. 
+
+
+6. Conclusions and future scope of work 
+
+
+The fourth industrial revolution has led to the need of 
+
+
+technologically upgrading the supply chains and for companies to 
+identify the technologically competent partners. In addition to this, 
+global supply chains also have to select the supply chain partners 
+considering the risk of disruptions caused by natural and man-made 
+disasters. Therefore, the paper addresses the reconfiguration of sup-
+plier selection and order allocation process broadly from two perspec-
+tives i.e. disruptive technologies and disruption risks. The paper 
+proposes a multi-stage hybrid model for re-configuration of supplier 
+selection process involving criteria identification, supplier segmenta-
+tion, selection and order allocation jointly considering disruptive tech-
+nologies and disruption risks. The paper identifies and prioritizes the 
+technological criteria used for selecting suppliers for digitized supply 
+chains, which are different from conventional criteria. The supplies are 
+segmented into efficient and inefficient suppliers using DEA and the 
+efficient suppliers are further evaluated and ranked using FAHP-TOPSIS. 
+The paper also proposes a novel method to compute the supplier 
+disruption risk using criteria-risk mapping. The paper proposes an MIP 
+for the detailed supplier selection and order allocation against the un-
+certain demand considering disruption risk. The extended MIP is also 
+proposed to handle the disaster caused disruptions such as demand 
+fluctuations & supply shortages by revising the initial allocation and 
+allocating emergency orders on real time basis. The proposed multi stage 
+hybrid model is illustrated using a case of an automobile company which 
+is transitioning to Industry 4.0 and investing into disruptive technolo-
+gies. The proposed model is helpful for the companies undergoing 
+supply chain structural changes in order to adopt to disruptive tech-
+nologies and how disruptions can be handled in reconfigured supply 
+chain structure. The proposed multi-stage hybrid model can be extended 
+in future to incorporated lead-time constraints, delays and late orders. In 
+addition, the model can also be extended by integrating other supply 
+chain functions such as production, warehousing, logistics etc. with 
+supplier selection.  
+
+
+Appendix A1. Fuzzy scale used for criteria prioritization  
+
+
+Fuzzy rating Triangular Fuzzy Number Fuzzy rating Triangular Fuzzy Number 
+
+
+~1  (1,1,1) ~1  (1,1,1) 
+~2  (1,2,3) g1=2  (1/3,1/2,1) 
+~3  (2,3,4) g1=3  (1/4,1/3,1/2) 
+~4  (3,4,5) g1=4  (1/5, 1/4, 1/3) 
+~5  (4,5,6) g1=5  (1/6, 1/5, 1/4) 
+~6  (5,6,7) g1=6  (1/7, 1/6, 1/5) 
+~7  (6,7,8) g1=7  (1/8, 1/7, 1/6) 
+~8  (7,8,9) g1=8  (1/9, 1/8, 1/7) 
+~9  (8,9,9) g1=9  (1/9, 1/9, 1/8)  
+
+
+Table 9 
+Cost comparison for various scenarios.   
+
+
+Cost of  
+Procurement  
+with emergency  
+orders 
+
+
+Expressed  
+in % of  
+regular cost 
+
+
+Penalty  
+cost for  
+shortages 
+
+
+Expressed  
+in % of  
+regular cost 
+
+
+Regular 3002984  –  
+Disaster Scenario I 3267580 9% 1390900 54% 
+Disaster Scenario II 3269683 8% 4423800 47% 
+Disaster Scenario III 3565577 17% 5840480 94% 
+Disaster Scenario IV 3887198 29.44% 58402000 1844%  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+InternationalJournalofProductionEconomics231
+(2021)107830
+
+
+18
+
+
+Appendix A2. Fuzzy pairwise comparison matrix    
+
+
+Disaster  
+sensing  
+using BDA 
+
+
+RFID/ 
+Barcodes 
+
+
+Public- 
+Private  
+Partnership 
+
+
+Smart contracts 
+using Blockchain 
+
+
+Data Visibility 
+across value chain 
+
+
+IOT 
+Infrastructure 
+
+
+Shared 
+platforms 
+
+
+Resource 
+efficiency using 
+cloud computing 
+
+
+GIS/GPS enabled 
+Logistics 
+
+
+Manufacturing 
+Flexibility 
+
+
+Additive 
+Manufacturing 
+
+
+Cyber security 
+
+
+C1 Disaster sensing 
+using BDA 
+
+
+(1,1,1) (0.25,0.33,0.50) (0.33,0.50,1) (0.33,0.50,1) (0.20,0.25,0.33) (1,2,3) (0.25,0.33,0.50) (1,2,3) (0.25,0.33,0.50) (0.11,0.14,0.17) (4,5,6) (0.14,0.17,0.2) 
+
+
+C2 RFID/Barcodes (2,3,4) (1,1,1) (1, 2, 3) (3,4,5) (1,1,1) (4,5,6) (3,4,5) (5,6,7) (3,4,5) (0.33,0.5,1) (6, 7, 8) (1,1,1) 
+C3 Public-Private 
+
+
+Partnership 
+(1,2,3) (0.33,0.50,1) (1,1,1) (0.25,0.33,0.50) (0.14,0.17,0.2) (0.33,0.50,1) (1,1,1) (0.33,0.5,1) (1,2,3) (0.14,0.17,0.2) (6, 7, 8) (0.25,0.33,0.5) 
+
+
+C4 Smart contracts 
+using Blockchain 
+
+
+(1,2,3) (0.20,0.25,0.33) (2, 3, 4) (1,1,1) (0.33,0.5,1) (2,3,4) (0.25,0.33,0.5) (1,2,3) (2,3,4) (0.33,0.5,1) (4,5,6) (0.14,0.17,0.2) 
+
+
+C5 Data Visibility 
+across value chain 
+
+
+(3,4,5) (1,1,1) (5, 6, 7) (1, 2, 3) (1,1,1) (2,3,4) (1,1,1) (1,2,3) (2,3,4) (0.20,0.25,0.33) (6, 7, 8) (1,1,1) 
+
+
+C6 IOT Infrastructure (0.33,0.50,1) (0.17,0.20,0.25) (1, 2, 3) (0.25,0.33,0.50) (0.25,0.33,0.5) (1,1,1) (1,2,3) (3,4,5) (1,2,3) (0.25,0.33,0.5) (3,4,5) (1,1,1) 
+C7 Shared platforms (2,3,4) (0.20,0.50,0.33) (1,1,1) (2,3,4) (1,1,1) (0.33,0.5,1) (1,1,1) (4,5,6) (2,3,4) (0.14,0.17,0.2) (3,4,5) (0.11,0.14,0.17) 
+C8 Resource 
+
+
+efficiency using 
+cloud computing 
+
+
+(0.33, .5, 1) (0.14,0.17,0.20) (1, 2, 3) (0.33,0.50,1) (0.33,0.5,1) (0.2,0.25,0.33) (0.17,0.2,0.25) (1,1,1) (5,6,7) (0.17,0.2,0.25) (2,3, 4) (1,2,3) 
+
+
+C9 GIS/GPS enabled 
+Logistics 
+
+
+(2, 3, 4) (0.20,0.25,0.33) (0.33, 
+0.50,1) 
+
+
+(0.25,0.33,0.50) (0.25,0.33,0.5) (0.33,0.5,1) (0.25,0.33,0.5) (0.14,0.17,0.2) (1,1,1) (0.17,0.2,0.25) (5, 6, 7) (0.33,0.5,1) 
+
+
+C10 Manufacturing 
+Flexibility 
+
+
+(6, 7, 8) (1, 2, 3) (5, 6, 7) (1,2,3) (3,4,5) (2,3,4) (5, 6, 7) (4,5,6) (4,5,6) (1,1,1) (6, 7, 8) (3,4,5) 
+
+
+C11 Additive 
+Manufacturing 
+
+
+(0.17,0.20,0.25) (0.13,0.14,0.17) (0.13, 
+0.14,0.17) 
+
+
+(0.17,0.20,0.25) (0.13,0.14,0.17) (0.2,0.25,0.33) (0.2,0.25,0.33) (0.25,0.33,0.5) (0.14,0.17,0.20) (0.13,0.14,0.17) (1,1,1) (0.17,0.2,0.25) 
+
+
+C12 Cyber security (5, 6, 7) (1,1,1) (2, 3, 4) (5,6,7) (1,1,1) (1,1,1) (6,7,8) (0.33,0.5,1) (1,2,3) (0.20,0.25,0.33) (4,5,6) (1,1,1)   
+
+
+H
+. K
+
+
+aur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+InternationalJournalofProductionEconomics231
+(2021)107830
+
+
+19
+
+
+Appendix A3. Steps for TOPSIS   
+
+
+Disaster 
+sensing using 
+BDA 
+
+
+RFID/ 
+Barcodes 
+
+
+Public-Private 
+Partnership 
+
+
+Smart contracts 
+using 
+Blockchain 
+
+
+Data Visibility 
+across value 
+chain 
+
+
+IOT 
+Infrastructure 
+
+
+Shared 
+platforms 
+
+
+Resource 
+efficiency using 
+cloud computing 
+
+
+GIS/GPS 
+enabled 
+Logistics 
+
+
+Manufacturing 
+Flexibility 
+
+
+Additive 
+Manufacturing 
+
+
+Cyber 
+security 
+
+
+S2 4.0 5.0 7.0 4.0 5.0 3.0 5.0 3.0 6.0 2.0 1.0 2.0 
+S3 9.0 9.0 5.0 6.0 9.0 9.0 8.0 8.0 7.0 4.0 5.0 8.0 
+S4 8.0 8.0 3.0 9.0 7.0 2.0 9.0 7.0 7.0 6.0 2.0 7.0 
+S7 7.0 8.0 8.0 3.0 7.0 5.0 4.0 6.0 5.0 7.0 6.0 5.0 
+S8 8.0 7.0 7.0 5.0 8.0 7.0 3.0 9.0 6.0 4.0 7.0 7.0  
+
+
+Disaster 
+sensing using 
+BDA 
+
+
+RFID/ 
+Barcodes 
+
+
+Public-Private 
+Partnership 
+
+
+Smart contracts 
+using 
+Blockchain 
+
+
+Data Visibility 
+across value 
+chain 
+
+
+IOT 
+Infrastructure 
+
+
+Shared 
+platforms 
+
+
+Resource 
+efficiency using 
+cloud computing 
+
+
+GIS/GPS 
+enabled 
+Logistics 
+
+
+Manufacturing 
+Flexibility 
+
+
+Additive 
+Manufacturing 
+
+
+Cyber 
+security 
+
+
+S2 0.24165 0.29722 0.50000 0.30953 0.30542 0.23146 0.35806 0.19405 0.42967 0.18182 0.09325 0.14471 
+S3 0.54371 0.53499 0.35714 0.46429 0.54976 0.69437 0.57289 0.51748 0.50128 0.36364 0.46625 0.57886 
+S4 0.48330 0.47555 0.21429 0.69644 0.42759 0.15430 0.64450 0.45279 0.50128 0.54545 0.18650 0.50650 
+S7 0.42289 0.47555 0.57143 0.23215 0.42759 0.38576 0.28645 0.38811 0.35806 0.63636 0.55950 0.36179 
+S8 0.48330 0.41611 0.50000 0.38691 0.48868 0.54006 0.21483 0.58216 0.42967 0.36364 0.65275 0.50650 
+Identification of positive and negative ideal solutions  
+
+
+Disaster 
+sensing using 
+BDA 
+
+
+RFID/ 
+Barcodes 
+
+
+Public-Private 
+Partnership 
+
+
+Smart contracts 
+using 
+Blockchain 
+
+
+Data Visibility 
+across value 
+chain 
+
+
+IOT 
+Infrastructure 
+
+
+Shared 
+platforms 
+
+
+Resource 
+efficiency using 
+cloud computing 
+
+
+GIS/GPS 
+enabled 
+Logistics 
+
+
+Manufacturing 
+Flexibility 
+
+
+Additive 
+Manufacturing 
+
+
+Cyber 
+security 
+
+
+S2 0.010255 0.044497 0.024101 0.024721 0.035184 0.015455 0.028339 0.012988 0.018122 0.040835 0.001303 0.018862 
+S3 0.023074 0.080094 0.017215 0.037081 0.063332 0.046365 0.045343 0.034634 0.021142 0.081670 0.006515 0.075449 
+S4 0.020510 0.071195 0.010329 0.055622 0.049258 0.010303 0.051011 0.030305 0.021142 0.122505 0.002606 0.066017 
+S7 0.017947 0.071195 0.027544 0.018541 0.049258 0.025759 0.022672 0.025976 0.015102 0.142923 0.007818 0.047155 
+S8 0.020510 0.062295 0.024101 0.030901 0.056295 0.036062 0.017004 0.038963 0.018122 0.081670 0.009121 0.066017 
+Positive 
+
+
+ideal 
+0.023074 0.080094 0.027544 0.055622 0.063332 0.046365 0.051011 0.038963 0.021142 0.142923 0.009121 0.075449 
+
+
+Negative 
+ideal 
+
+
+0.010255 0.044497 0.010329 0.018541 0.035184 0.010303 0.017004 0.012988 0.015102 0.040835 0.001303 0.018862 
+
+
+Separation from positive Ideal solution  
+Disaster 
+sensing using 
+BDA 
+
+
+RFID/ 
+Barcodes 
+
+
+Public-Private 
+Partnership 
+
+
+Smart contracts 
+using 
+Blockchain 
+
+
+Data Visibility 
+across value 
+chain 
+
+
+IOT 
+Infrastructure 
+
+
+Shared 
+platforms 
+
+
+Resource 
+efficiency using 
+cloud computing 
+
+
+GIS/GPS 
+enabled 
+Logistics 
+
+
+Manufacturing 
+Flexibility 
+
+
+Additive 
+Manufacturing 
+
+
+Cyber 
+security 
+
+
+S2 0.00016433 0.00126717 0.00001185 0.00095487 0.00079229 0.00095545 0.00051400 0.00067473 0.00000912 0.01042189 0.00006112 0.00320202 
+S3 0.00000000 0.00000000 0.00010668 0.00034375 0.00000000 0.00000000 0.00003213 0.00001874 0.00000000 0.00375188 0.00000679 0.00000000 
+S4 0.00000657 0.00007920 0.00029635 0.00000000 0.00019807 0.00130047 0.00000000 0.00007497 0.00000000 0.00041688 0.00004245 0.00008894 
+S7 0.00002629 0.00007920 0.00000000 0.00137502 0.00019807 0.00042464 0.00080313 0.00016868 0.00003649 0.00000000 0.00000170 0.00080050 
+S8 0.00000657 0.00031679 0.00001185 0.00061112 0.00004952 0.00010616 0.00115650 0.00000000 0.00000912 0.00375188 0.00000000 0.00008894 
+Separation from Negative Ideal solution  
+
+
+Disaster 
+sensing using 
+BDA 
+
+
+RFID/ 
+Barcodes 
+
+
+Public-Private 
+Partnership 
+
+
+Smart contracts 
+using 
+Blockchain 
+
+
+Data Visibility 
+across value 
+chain 
+
+
+IOT 
+Infrastructure 
+
+
+Shared 
+platforms 
+
+
+Resource 
+efficiency using 
+cloud computing 
+
+
+GIS/GPS 
+enabled 
+Logistics 
+
+
+Manufacturing 
+Flexibility 
+
+
+Additive 
+Manufacturing 
+
+
+Cyber 
+security 
+
+
+S2 0.000000 0.000000 0.000190 0.000038 0.000000 0.000027 0.000129 0.000000 0.000009 0.000000 0.000000 0.000000 
+S3 0.000164 0.001267 0.000047 0.000344 0.000792 0.001300 0.000803 0.000469 0.000036 0.001668 0.000027 0.003202 
+S4 0.000105 0.000713 0.000000 0.001375 0.000198 0.000000 0.001157 0.000300 0.000036 0.006670 0.000002 0.002224 
+S7 0.000059 0.000713 0.000296 0.000000 0.000198 0.000239 0.000032 0.000169 0.000000 0.010422 0.000042 0.000801 
+S8 0.000105 0.000317 0.000190 0.000153 0.000446 0.000664 0.000000 0.000675 0.000009 0.001668 0.000061 0.002224   
+
+
+H
+. K
+
+
+aur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+20
+
+
+Appendix A4. Data set for case Illustration    
+
+
+Purchase Cost (S1,S2, …S5) Ordering Cost (S1,S2, …S5) Transportation cost (S1,S2, …S5) Supplier Capacity (S1,S2, …S5) 
+
+
+T1 P1 32, 32, 34, 8, 16 1550, 1050, 1050, 1450, 1100 26, 12, 10, 4, 10 4120, 1990, 2610, 2150, 2180 
+P2 28, 22, 14, 8, 8 2250, 2500, 1100, 1250, 1550 12, 26, 30, 28, 16 2390, 1960, 4450, 1560, 4080 
+P3 22, 10, 40, 36, 38 1500, 1450, 1000, 2350, 1100 28, 14, 2, 4, 4 3630, 2750, 4590, 4340, 1540 
+P4 16, 18, 10, 24, 26 2200, 1150, 2300, 2000, 1200 18, 18, 28, 16, 16 4030, 3040, 2610, 1500, 2520 
+P5 36, 40, 12, 32, 18 1400, 2350, 1250, 1600, 1900 26, 10, 16, 6, 16 2390, 2310, 1570, 1980, 4350 
+P6 24, 38, 14, 22, 26 1850, 1800, 2250, 1600, 1450 6, 20, 10, 18, 6 3920, 4160, 4430, 2910, 2370 
+P7 22, 36, 8, 40, 18 1100, 1750, 2150, 1100, 1000 6, 16, 12, 26, 16 3830, 2240, 2310, 4240, 4090 
+P8 12, 14, 12, 30, 10 1950, 1450, 1450, 1850, 2000 12, 16, 24, 12, 12 4710, 2460, 2710, 3290, 3880 
+P9 18, 16, 40, 40, 36 1900, 1850, 2350, 2350, 2300 2, 24, 18, 20, 24 2910, 4730, 2460, 2770, 2270 
+P10 8, 8, 40, 10, 22 2000, 2400, 1650, 1200, 1400 30, 30, 6, 2, 4 3060, 3730, 1980, 4940, 3580 
+
+
+T2 P1 18, 14, 12, 34, 12 2450, 2050, 1700, 1950, 1400 20, 22, 22, 2, 20 2520, 2600, 2620, 4430, 4970 
+P2 28, 10, 28, 28, 38 2300, 1850, 1100, 2350, 2150 30, 12, 16, 14, 24 2680, 3920, 3000, 1810, 1860 
+P3 8, 30, 18, 18, 32 2500, 2100, 1200, 1050, 2100 22, 6, 16, 16, 6 3710, 3860, 4390, 3240, 4710 
+P4 32, 40, 16, 26, 8 1100, 1450, 1700, 1450, 1500 8, 2, 14, 26, 10 3910, 2580, 1820, 2190, 4360 
+P5 26, 10, 32, 30, 22 1000, 2100, 1650, 1500, 2200 2, 26, 2, 28, 4 2170, 4420, 2800, 2280, 3170 
+P6 24, 18, 22, 32, 36 1950, 2250, 1750, 1650, 2150 4, 22, 4, 24, 20 4400, 2590, 1750, 4580, 2730 
+P7 34, 8, 26, 26, 12 1500, 1950, 1500, 2200, 1100 6, 22, 26, 24, 26 3050, 3340, 2240, 2970, 2430 
+P8 16, 8, 16, 30, 12 1750, 1150, 1100, 1500, 1950 12, 10, 22, 12, 30 2830, 2140, 4720, 3760, 2060 
+P9 16, 12, 12, 36, 8 2200, 2050, 1850, 1950, 1150 14, 28, 24, 8, 22 3380, 1670, 3920, 2580, 1750 
+P10 28, 24, 38, 28, 28 1100, 2450, 1200, 1750, 1300 22, 14, 24, 26, 28 3680, 4340, 4060, 1630, 4010 
+
+
+T3 P1 22, 28, 20, 30, 32 2300, 1800, 2400, 2450, 1650 30, 4, 2, 12, 22 4990, 4660, 2490, 2170, 1610 
+P2 24, 38, 10, 18, 18 1900, 2250, 1300, 1150, 2000 16, 16, 30, 2, 18 4040, 4170, 2030, 3010, 3000 
+P3 14, 36, 36, 8, 18 2000, 2450, 2300, 2500, 1900 14, 26, 28, 8, 8 4280, 1790, 4950, 4760, 3010 
+P4 18, 16, 32, 10, 10 2100, 1450, 2100, 2350, 1700 28, 12, 22, 28, 30 2330, 3060, 3010, 4070, 1580 
+P5 40, 22, 18, 36, 40 1700, 2250, 1100, 1200, 1300 24, 26, 4, 18, 24 4140, 2520, 4150, 4870, 2830 
+P6 14, 24, 24, 32, 24 1600, 2100, 1700, 1300, 2250 16, 8, 30, 16, 4 4310, 2680, 4080, 3470, 4860 
+P7 18, 10, 28, 14, 34 1950, 1250, 2400, 2200, 1550 30, 12, 16, 2, 20 4800, 3710, 3260, 2090, 2600 
+P8 16, 32, 32, 30, 20 2100, 1350, 1550, 1750, 1400 14, 2, 6, 2, 6 4910, 3910, 3310, 2580, 1780 
+P9 36, 10, 8, 34, 36 2150, 1050, 2400, 1300, 1500 22, 16, 30, 22, 4 2160, 2170, 4690, 3330, 3880 
+P10 36, 40, 24, 28, 34 1550, 2050, 2300, 1350, 1650 22, 22, 8, 14, 28 1660, 3060, 4230, 1780, 2580 
+
+
+T4 P1 26, 10, 18, 34, 18 1250, 2000, 1950, 1700, 2300 14, 2, 2, 22, 4 2140, 2520, 3400, 2850, 4500 
+P2 12, 18, 40, 40, 24 1000, 1450, 2300, 1500, 1550 6, 26, 4, 22, 20 4370, 2680, 4510, 3360, 2360 
+P3 36, 12, 8, 38, 32 1550, 2200, 2200, 1100, 2050 10, 2, 26, 16, 18 1580, 3710, 3290, 2360, 4230 
+P4 14, 34, 28, 32, 10 2250, 1100, 1650, 1000, 2300 20, 4, 4, 12, 2 2240, 3910, 3250, 4370, 2860 
+P5 34, 20, 16, 40, 12 1400, 1700, 2400, 2250, 1650 14, 26, 24, 10, 18 3110, 2170, 2920, 2400, 3760 
+P6 8, 34, 32, 34, 10 1350, 2350, 1200, 1950, 1450 8, 28, 24, 2, 8 3800, 1820, 4690, 3780, 3190 
+P7 32, 26, 24, 12, 34 2500, 2150, 1000, 2500, 2150 12, 20, 22, 2, 14 3070, 2800, 4750, 3740, 2600 
+P8 36, 10, 28, 34, 40 1450, 1600, 1150, 1150, 2150 24, 6, 2, 2, 30 3720, 1750, 3250, 3350, 3920 
+P9 36, 26, 8, 40, 30 1300, 2250, 1950, 2150, 1050 16, 4, 8, 4, 28 2960, 2240, 3080, 2580, 3860 
+P10 18, 20, 16, 34, 32 1050, 2050, 2300, 2350, 1700 8, 18, 28, 12, 2 3210, 4720, 2700, 3380, 2580 
+
+
+T5 P1 16, 16, 14, 40, 10 1300, 2100, 2150, 1000, 1650 18, 28, 30, 22, 26 2470, 3920, 2730, 4630, 4420 
+P2 30, 24, 16, 10, 26 1950, 2200, 1950, 1950, 1300 2, 2, 20, 10, 6 2920, 4060, 2720, 4320, 2590 
+P3 20, 38, 16, 22, 32 2500, 2150, 1300, 1650, 1050 4, 20, 10, 16, 6 4910, 2490, 4130, 1530, 3340 
+P4 8, 30, 14, 26, 24 2300, 1350, 1000, 2000, 2500 18, 24, 24, 24, 8 4260, 2030, 3910, 4790, 2140 
+P5 36, 20, 10, 18, 28 2150, 1150, 1400, 2150, 2150 16, 24, 20, 22, 20 1980, 4950, 2340, 4250, 1670 
+P6 36, 38, 38, 28, 14 1000, 2200, 1950, 1400, 1900 30, 28, 28, 24, 22 1910, 3010, 2530, 2600, 4340 
+P7 34, 10, 12, 16, 40 1100, 1850, 2250, 1400, 1400 26, 8, 16, 14, 18 4150, 4150, 3620, 2630, 4660 
+P8 34, 26, 40, 18, 26 2500, 2050, 1250, 2350, 1600 22, 26, 20, 20, 10 4860, 4080, 2010, 1570, 4170 
+P9 36, 22, 38, 8, 38 1200, 2400, 1100, 1500, 1100 22, 2, 6, 28, 16 1630, 3260, 4520, 2040, 1790 
+P10 38, 28, 36, 22, 16 2300, 1550, 1650, 1050, 1300 12, 10, 24, 22, 18 2170, 3310, 4060, 2190, 1940 
+
+
+T6 P1 8, 12, 10, 8, 38 2000, 1950, 1250, 1300, 1450 28, 12, 12, 20, 2 1740, 4690, 2470, 3350, 3120 
+P2 26, 20, 30, 8, 28 2100, 1150, 1050, 2350, 2300 4, 26, 10, 26, 8 2970, 1580, 2100, 2960, 3870 
+P3 36, 32, 20, 24, 24 1850, 1550, 2050, 1900, 1300 24, 10, 2, 12, 8 4910, 2240, 3760, 1780, 4000 
+P4 18, 34, 22, 30, 14 1250, 1700, 1750, 2050, 1750 2, 10, 14, 30, 28 3760, 3110, 2940, 1610, 2950 
+P5 38, 26, 36, 34, 24 1300, 1500, 1500, 1450, 1900 16, 14, 6, 20, 22 1980, 3800, 3120, 3430, 2180 
+P6 18, 14, 40, 28, 18 1200, 2400, 1750, 2450, 1600 18, 12, 24, 14, 16 4370, 3070, 4480, 3730, 3960 
+P7 22, 28, 30, 20, 40 1300, 1650, 1650, 2150, 1650 30, 10, 6, 26, 6 4880, 3720, 1700, 1980, 3950 
+P8 32, 16, 32, 30, 12 2050, 1150, 1300, 1550, 2350 16, 28, 26, 8, 24 1900, 2960, 4020, 3890, 2940 
+P9 18, 14, 36, 28, 36 1400, 1750, 2300, 1950, 2300 20, 30, 8, 20, 6 3180, 3210, 2250, 3500, 2890 
+P10 36, 18, 28, 40, 12 1900, 1700, 2400, 2350, 1000 18, 6, 22, 24, 10 4310, 2470, 4590, 2720, 1670  
+Stochastic Demand (mean) (P1, P2..P10) Stochastic Demand (Deviation) (P1, P2..P10) 
+
+
+T1 2400, 2500, 2100, 800, 2500, 2100, 1300, 2800, 900, 1600 110, 115, 70, 165, 180, 75, 95, 90, 195, 60 
+T2 600, 2800, 2600, 1300, 2800, 2600, 2700, 2600, 1900, 1600 180, 75, 75, 150, 120, 90, 175, 165, 95, 120 
+T3 2900, 1100, 1800, 3000, 800, 1100, 600, 1700, 2400, 2400 155, 140, 155, 160, 185, 80, 80, 70, 150, 50 
+T4 1500, 800, 1200, 2400, 1400, 2600, 2800, 1600, 2900, 600 105, 130, 190, 130, 135, 65, 60, 70, 80, 185 
+T5 1200, 1600, 3000, 1100, 1400, 1500, 900, 900, 800, 1800 65, 80, 80, 70, 65, 200, 195, 65, 100, 50 
+T6 2700, 2500, 700, 2400, 1700, 1200, 700, 1700, 2100, 900 200, 80, 110, 185, 130, 185, 160, 60, 150, 50  
+
+
+Holding cost (P1, P2..P10) Penalty cost (P1, P2..P10) 
+T1 2, 5, 2, 5, 6, 4, 5, 7, 5, 3 160, 170, 160, 200, 160, 180, 170, 170, 150, 160 
+T2 2, 5, 2, 5, 6, 4, 5, 7, 5, 3 180, 180, 170, 190, 100, 180, 100, 180, 160, 190 
+T3 2, 5, 2, 5, 6, 4, 5, 7, 5, 3 160, 190, 120, 110, 170, 140, 100, 100, 150, 110 
+T4 2, 5, 2, 5, 6, 4, 5, 7, 5, 3 160, 120, 140, 130, 130, 110, 200, 100, 170, 140 
+T5 2, 5, 2, 5, 6, 4, 5, 7, 5, 3 190, 190, 190, 100, 150, 120, 180, 120, 180, 160 
+T6 2, 5, 2, 5, 6, 4, 5, 7, 5, 3 170, 200, 140, 180, 110, 160, 170, 110, 180, 100  
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+21
+
+
+Appendix A5. Emergency supplier selection and order allocation during disaster caused demand fluctuations (Disruption scenario I)    
+
+
+T1 T2 T3 T4 T5 T6 
+
+
+P1 Demand during disaster 2581 1079 3338 1856 1490 3212 
+Regular order 2581 1561 2490 4000 0 2009 
+Emergency order 0 0 366 549 0 0 
+Supplier selection X (1, 1, 3) ¼ 2581 X (2, 1, 5) ¼ 1561,X (3, 1, 3) ¼ 2490 E(3, 1, 3)¼366,X (4, 1, 2) ¼ 4000 E(4, 1, 2)¼549,X (6, 1, 3) ¼ 2009 
+
+
+P2 Demand during disaster 2689 3106 1513 1197 1914 2814 
+Regular order 3042 2570 2388 0 4320 0 
+Emergency order 0 505 0 0 408 0 
+Supplier selection X (1, 2, 5) ¼ 3042 X (2, 2, 2) ¼ 2570 E(2, 2, 2)¼505,X (3, 2, 4) ¼ 2388 X (5, 2, 4) ¼ 4320 E(5, 2, 2)¼408 
+
+
+P3 Demand during disaster 2215 2906 2238 1695 3314 1064 
+Regular order 2750 2188 4760 1580 360 881 
+Emergency order 183 0 0 316 414 0 
+Supplier selection X (1, 3, 2) ¼ 2750 E(1, 3, 2)¼183 X (2, 3, 4) ¼ 2188 X (3, 3, 4) ¼ 4760 X (4, 3, 2) ¼ 1580 E(4, 3, 2)¼316, X (5, 3, 3) ¼ 360 E(5, 3, 3)¼414, X (6, 3, 
+
+
+3) ¼ 881 
+P4 Demand during disaster 1071 1730 3446 2797 1398 2887 
+
+
+Regular order 1071 4360 450 2860 969 2704 
+Emergency order 0 366 0 549 0 0 
+Supplier selection X (1, 4, 2) ¼ 1071 X (2, 4, 5) ¼ 4360 E(2, 4, 5)¼366,X (3, 4, 2) ¼ 450 X (4, 4, 5) ¼ 2860 E(4, 4, 5)¼549,X (5, 4, 5) ¼ 969 X (6, 4, 3) ¼ 2704 
+
+
+P5 Demand during disaster 2796 3180 1287 1805 1690 2097 
+Regular order 2796 2997 3807 0 2340 0 
+Emergency order 0 183 264 0 468 0 
+Supplier selection X (1, 5, 5) ¼ 2796 X (2, 5, 5) ¼ 2997 E(2, 5, 5)¼183,X (3, 5, 3) ¼ 3807 E(3, 5, 3)¼264,X (5, 5, 3) ¼ 2340 E(5, 5, 3)¼468 
+
+
+P6 Demand during disaster 2223 2931 1414 2890 2012 1687 
+Regular order 3221 1750 2578 3190 0 1504 
+Emergency order 0 276 0 638 0 0 
+Supplier selection X (1, 6, 3) ¼ 3221 X (2, 6, 3) ¼ 1750 E (2, 6, 3) ¼ 276,X (3, 6, 5) ¼ 2578 X (4, 6, 5) ¼ 3190 E(4, 6, 5)¼638,X (6, 6, 2) ¼ 1504 
+
+
+P7 Demand during disaster 1456 3171 914 3082 1404 1146 
+Regular order 2310 2134 732 2899 2184 0 
+Emergency order 183 0 365 0 366 0 
+Supplier selection X (1, 7, 3) ¼ 2310 E (1, 7, 3) ¼ 183X (2, 7, 2) ¼ 2134 X (3, 7, 4) ¼ 732 E (3, 7, 2) ¼ 365,X (4, 7, 4) ¼ 2899 X (5, 7, 2) ¼ 2184 E (5, 7, 2) ¼ 366 
+
+
+P8 Demand during disaster 2948 3054 1998 1898 1190 1982 
+Regular order 2984 4650 0 4280 0 241 
+Emergency order 0 366 0 549 0 0 
+Supplier selection X (1, 8, 5) ¼ 2984 X (2, 8, 2) ¼ 4650 E(2, 8, 2)¼366,X (4, 8, 2) ¼ 4280 E(4, 8, 2)¼549,X (6, 8, 4) ¼ 241 
+
+
+P9 Demand during disaster 1221 2239 2830 3214 1147 2530 
+Regular order 1527 1750 4300 3080 1610 0 
+Emergency order 0 183 0 616 115 0 
+Supplier selection X (1, 9, 2) ¼ 1527 X (2, 9, 5) ¼ 1750 E (2, 9, 5) ¼ 183,X (3, 9, 2) ¼ 4300 X (4, 9, 3) ¼ 3080 E(4, 9, 3)¼616, X (5, 9, 2) ¼ 1610, E(5, 9, 2)¼115 
+
+
+P10 Demand during disaster 1699 1980 2665 1087 2065 1165 
+Regular order 4940 0 1942 0 1882 982 
+Emergency order 0 0 0 732 0 183 
+Supplier selection X (1, 10, 4) ¼ 4940 X (3, 10, 3) ¼ 1942 E (4, 10, 5) ¼ 732,X (5, 10, 5) ¼ 1882 X (6, 10, 5) ¼ 982, E(6, 10, 5)¼183  
+
+
+Appendix A6. Emergency supplier selection and order allocation to manage disaster caused capacity disruptions (Disruption Scenario 
+II)    
+
+
+T1 T2 T3 T4 T5 T6 
+
+
+P1 Demand 2581 896 3155 1673 1307 3029 
+Regular order 2581 1561 2490 4000 0 2009 
+reduced quantity after disruption 2581 1561 2490 0 0 2009 
+Emergency orders 0 0 0 3045 0 955 
+Supplier selection X (1, 1, 3) ¼ 2581,X (2, 1, 5) ¼ 1561,X (3, 1, 3) ¼ 2490,X (6, 1, 3) ¼ 2009 E (4, 1, 3) ¼ 3045 E (6, 1, 3) ¼ 955 
+
+
+P2 Demand 2689 2923 1330 1014 1732 2632 
+Regular order 3042 2570 2388 0 4320 0 
+reduced quantity after disruption 3042 0 2388 0 4320 0 
+Emergency orders 1854 716 0 0 0 0 
+Supplier selection X (1, 2, 5) ¼ 3042,X (3, 2, 4) ¼ 2388,X (5, 2, 4) ¼ 4320, E (1, 2, 5) ¼ 1854 E (2, 2, 3) ¼ 716 
+
+
+P3 Demand 2215 2723 2055 1513 3132 881 
+Regular order 2750 2188 4760 1580 360 881 
+Reduced quantity after disruption 2750 2188 4760 0 360 881 
+Emergency orders 0 0 0 0 1580 0 
+Supplier selection X (1, 3, 2) ¼ 2750, X (2, 3, 4) ¼ 2188,X (3, 3, 4) ¼ 4760,X (5, 3, 3) ¼ 360,X (6, 3, 3) ¼ 881, E (5, 3, 3) ¼ 1580 
+
+
+P4 Demand 1071 1547 3263 2614 1215 2704 
+Regular order 1071 4360 450 2860 969 2704 
+Reduced quantity after disruption 1071 4360 0 2860 969 2704 
+Emergency orders 0 450 0 0 0 0 
+Supplier Selection X (1, 4, 2) ¼ 1071X (2, 4, 5) ¼ 4360, X (4, 4, 5) ¼ 2860, X (5, 4, 5) ¼ 969, X (6, 4, 3) ¼ 2704, E (2, 4, 5) ¼ 450 
+
+
+P5 Demand 2796 2997 1104 1622 1507 1914 
+Regular order 2796 2997 3807 0 2340 0 
+reduced quantity after disruption 2796 2997 3807 0 2340 0 
+Emergency orders 0 0 0 0 0 0 
+Supplier Selection X (1, 5, 5) ¼ 2796, X (2, 5, 5) ¼ 2997,X (3, 5, 3) ¼ 3807,X (5, 5, 3) ¼ 2340 
+
+
+P6 Demand 2223 2748 1232 2707 1829 1504 
+
+
+(continued on next page) 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+22
+
+
+(continued )   
+
+
+T1 T2 T3 T4 T5 T6 
+
+
+Regular order 3221 1750 2578 3190 0 1504 
+reduced quantity after disruption 3221 1750 2578 3190 0 0 
+Emergency orders 0 0 0 638 0 866 
+Supplier Selection X (1, 6, 3) ¼ 3221, X (2, 6, 3) ¼ 1750,X (3, 6, 5) ¼ 2578,X (4, 6, 5) ¼ 3190, E (4, 6, 5) ¼ 638, E (6, 6, 5) ¼ 866 
+
+
+P7 Demand 1456 2988 732 2899 1221 963 
+Regular order 2310 2134 732 2899 2184 0 
+reduced quantity after disruption 2310 0 732 2899 0 0 
+Emergency orders 462 1672 0 0 2184 0 
+Supplier Selection X (1, 7, 3) ¼ 2310, X (3, 7, 4) ¼ 732,X (4, 7, 4) ¼ 2899 E (1, 7, 3) ¼ 462 E (2, 7, 5) ¼ 1672, E (5, 7, 3) ¼ 2184 
+
+
+P8 Demand 2948 2871 1815 1715 1007 1799 
+Regular order 2984 4650 0 4280 0 241 
+reduced quantity after disruption 2984 0 0 0 0 241 
+Emergency orders 1672 1163 1815 2722 0 1558 
+Supplier Selection X (1, 8, 5) ¼ 2984, E (4, 8, 3) ¼ 2722, X (6, 8, 4) ¼ 241, E (1, 8, 5) ¼ 1672 E (2, 8, 3) ¼ 1163 E (3, 8, 5) ¼ 1815, E (6, 8, 5) ¼ 1558 
+
+
+P9 Demand 1221 2056 2647 3032 964 2347 
+Regular order 1527 1750 4300 3080 1610 0 
+reduced quantity after disruption 1527 1750 0 3080 0 0 
+Emergency orders 0 0 2647 616 300 2347 
+Supplier Selection X (1, 9, 2) ¼ 1527, X (2, 9, 5) ¼ 1750, X (4, 9, 3) ¼ 3080, E (3, 9, 3) ¼ 2647, E (4, 9, 3) ¼ 616, E (5, 9, 3) ¼ 300,E (6, 9, 5) ¼ 2347 
+
+
+P10 Demand 1699 1797 2482 904 1882 982 
+Regular order 4940 0 1942 0 1882 982 
+reduced quantity after disruption 4940 0 1942 0 1882 982 
+Emergency orders 0 0 0 0 0 0 
+Supplier Selection X (1, 10, 4) ¼ 4940X (3, 10, 3) ¼ 1942,X (5, 10, 5) ¼ 1882,X (6, 10, 5) ¼ 982  
+
+
+Appendix A7. Emergency supplier selection and order allocation to manage disaster caused demand fluctuations and capacity 
+disruptions (Disruption Scenario III)    
+
+
+T1 T2 T3 T4 T5 T6 
+
+
+P1 Demand 2581 896 3155 1673 1307 3029 
+Demand during disasters 2581 1079 3338 1856 1490 3212 
+Regular order 2581 1561 2490 4000 0 2009  
+reduced quantity after disruption 2581 1561 2490 0 0 2009  
+Emergency orders 0 0 366 3594 0 955  
+Supplier Selection X (1, 1, 3) ¼ 2581 X (2, 1, 5) ¼ 1561X (3, 1, 3) ¼ 2490 E (3, 1, 3) ¼ 366, X (6, 1, 3) ¼ 2009, E (4, 1, 3) ¼ 3594 E (6, 1, 3) ¼ 955 
+
+
+P2 Demand 2689 2923 1330 1014 1732 2632 
+Demand during disasters 2689 3106 1513 1197 1914 2814 
+Regular order 3042 2570 2388 0 4320 0  
+reduced quantity after disruption 3042 0 2388 0 4320 0  
+Emergency orders 1854 899 322 0 408 0  
+Supplier Selection X (1, 2, 5) ¼ 3042 X (3, 2, 4) ¼ 2388 X (5, 2, 4) ¼ 4320 E (1, 2, 5) ¼ 1854, E (2, 2, 3) ¼ 899, E (3, 2, 5) ¼ 322 E (5, 2, 5) ¼ 408 
+
+
+P3 Demand 2215 2723 2055 1513 3132 881 
+Demand during disasters 2215 2906 2238 1695 3314 1064 
+Regular order 2750 2188 4760 1580 360 881  
+reduced quantity after disruption 2750 2188 4760 0 360 881  
+Emergency orders 183 0 0 0 2310 0  
+Supplier Selection X (1, 3, 2) ¼ 2750, X (2, 3, 4) ¼ 2188 X (3, 3, 4) ¼ 4760,X (5, 3, 3) ¼ 360,X (6, 3, 3) ¼ 881,E (1, 3, 2) ¼ 183,E (5, 3, 3) ¼ 2310 
+
+
+P4 Demand 1071 1547 3263 2614 1215 2704 
+Demand during disasters 1071 1730 3446 2797 1398 2887 
+Regular order 1071 4360 450 2860 969 2704  
+reduced quantity after disruption 1071 4360 0 2860 969 2704  
+Emergency orders 0 816 0 549 0 0  
+Supplier Selection X (1, 4, 2) ¼ 1071,X (2, 4, 5) ¼ 4360,X (4, 4, 5) ¼ 2860,X (5, 4, 5) ¼ 969,X (6, 4, 3) ¼ 2704,E (2, 4, 5) ¼ 816,E (4, 4, 5) ¼ 549 
+
+
+P5 Demand 2796 2997 1104 1622 1507 1914 
+Demand during disasters 2796 3180 1287 1805 1690 2097 
+Regular order 2796 2997 3807 0 2340 0  
+reduced quantity after disruption 2796 2997 3807 0 2340 0  
+Emergency orders 0 183 264 0 468 0  
+Supplier Selection X (1, 5, 5) ¼ 2796, X (2, 5, 5) ¼ 2997,X (3, 5, 3) ¼ 3807,X (5, 5, 3) ¼ 2340,E (2, 5, 5) ¼ 183,E (3, 5, 3) ¼ 264,E (5, 5, 3) ¼ 468 
+
+
+P6 Demand 2223 2748 1232 2707 1829 1504 
+Demand during disasters 2223 2931 1414 2890 2012 1687 
+Regular order 3221 1750 2578 3190 0 1504  
+reduced quantity after disruption 3221 1750 2578 3190 0 0  
+Emergency orders 0 183 0 638 0 1597  
+Supplier Selection X (1, 6, 3) ¼ 3221X (2, 6, 3) ¼ 1750,X (3, 6, 5) ¼ 2578,X (4, 6, 5) ¼ 3190,E (2, 6, 3) ¼ 183,E (4, 6, 5) ¼ 638,E (6, 6, 5) ¼ 1597 
+
+
+P7 Demand 1456 2988 732 2899 1221 963 
+Demand during disasters 1456 3171 914 3082 1404 1146 
+Regular order 2310 2134 732 2899 2184 0  
+reduced quantity after disruption 2310 0 732 2899 0 0  
+Emergency orders 462 2220 0 0 2550 0  
+Supplier Selection X (1, 7, 3) ¼ 2310, X (3, 7, 4) ¼ 732,X (4, 7, 4) ¼ 2899,E (1, 7, 3) ¼ 462,E (2, 7, 5) ¼ 2220,E (5, 7, 3) ¼ 2550 
+
+
+P8 Demand 2948 2871 1815 1715 1007 1799 
+Demand during disasters 2948 3054 1998 1898 1190 1982 
+
+
+(continued on next page) 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+23
+
+
+(continued )   
+
+
+T1 T2 T3 T4 T5 T6 
+
+
+Regular order 2984 4650 0 4280 0 241  
+reduced quantity after disruption 2984 0 0 0 0 241  
+Emergency orders 1672 1346 1998 3088 0 1741  
+Supplier Selection X (1, 8, 5) ¼ 2984, X (6, 8, 4) ¼ 241, E (1, 8, 5) ¼ 1672, E (2, 8, 3) ¼ 1346, E (3, 8, 5) ¼ 1998,E (4, 8, 3) ¼ 3088,E (6, 8, 5) ¼ 1741 
+
+
+P9 Demand 1221 2056 2647 3032 964 2347 
+Demand during disasters 1221 2239 2830 3214 1147 2530 
+Regular order 1527 1750 4300 3080 1610 0  
+reduced quantity after disruption 1527 1750 0 3080 0 0  
+Emergency orders 0 350 2663 616 665 2530  
+Supplier Selection X (1, 9, 2) ¼ 1527 X (2, 9, 5) ¼ 1750X (4, 9, 3) ¼ 3080, E (2, 9, 5) ¼ 350,E (3, 9, 3) ¼ 2663,E (4, 9, 3) ¼ 616,E (5, 9, 3) ¼ 665,E (6, 9, 
+
+
+5) ¼ 2530 
+P10 Demand 1699 1797 2482 904 1882 982 
+
+
+Demand during disasters 1699 1980 2665 1087 2065 1165 
+Regular order 4940 0 1942 0 1882 982  
+reduced order quantity after disruption 4940 0 1942 0 1882 982  
+Emergency orders 0 0 0 732 0 183  
+Supplier Selection X (1, 10, 4) ¼ 4940,X (3, 10, 3) ¼ 1942,X (5, 10, 5) ¼ 1882,X (6, 10, 5) ¼ 982,E (4, 10, 5) ¼ 732,E (6, 10, 5) ¼ 183  
+
+
+Appendix A8. Emergency supplier selection and order allocation to manage disaster caused demand fluctuations and capacity 
+disruptions (Disruption Scenario IV)    
+
+
+T1 T2 T3 T4 T5 T6 
+
+
+P1 Regular Demand 2581 896 3155 1673 1307 3029 
+Demand during disaster 2581 1128 3387 1905 1539 3261 
+Regular orders 2581 1561 2490 4000 0 2009 
+Reduced orders after disruptions 2581 1561 2490 0 0 2009 
+Emergency orders 0 0 464 3741 0 955 
+Supplier Selection X (1, 1, 3) ¼ 2581,X (2, 1, 5) ¼ 1561,X (3, 1, 3) ¼ 2490,X (6, 1, 3) ¼ 2009,E (3, 1, 3) ¼ 464,E (4, 1, 3) ¼ 3741,E (6, 1, 3) ¼ 955 
+
+
+P2 Regular Demand 2689 2923 1330 1014 1732 2632 
+Demand during disaster 2689 3156 1563 1246 1964 2864 
+Regular orders 3042 2570 2388 0 4320 0 
+Reduced orders after disruptions 3042 0 0 0 0 0 
+Emergency orders 1854 949 2809 0 1964 2864 
+Supplier Selection X (1, 2, 5) ¼ 3042, E (1, 2, 5) ¼ 1854,E (2, 2, 3) ¼ 949,E (3, 2, 5) ¼ 2809,E (5, 2, 5) ¼ 1964,E (6, 2, 5) ¼ 2864 
+
+
+P3 Regular Demand 2215 2723 2055 1513 3132 881 
+Demand during disaster 2215 2956 2287 1745 3364 1113 
+Regular orders 2750 2188 4760 1580 360 881 
+Reduced orders after disruptions 2750 0 0 0 360 881 
+Emergency orders 0 2841 3612 0 3236 0 
+Supplier Selection X (1, 3, 2) ¼ 2750, X (5, 3, 3) ¼ 360, X (6, 3, 3) ¼ 881, E (2, 3, 3) ¼ 2841, E (3, 3, 5) ¼ 3612, E (5, 3, 3) ¼ 3236 
+
+
+P4 Regular Demand 1071 1547 3263 2614 1215 2704 
+Demand during disaster 1071 1779 3495 2846 1447 2937 
+Regular orders 1071 4360 450 2860 969 2704 
+Reduced orders after disruptions 1071 4360 0 2860 969 2704 
+Emergency orders 0 872 42 572 0 125 
+Supplier Selection X (1, 4, 2) ¼ 1071, X (2, 4, 5) ¼ 4360,X (4, 4, 5) ¼ 2860,X (5, 4, 5) ¼ 969,X (6, 4, 3) ¼ 2704,E (2, 4, 5) ¼ 872,E (3, 4, 5) ¼ 42, E (4, 4, 5) ¼
+
+
+572, E (6, 4, 3) ¼ 125 
+P5 Regular Demand 2796 2997 1104 1622 1507 1914 
+
+
+Demand during disaster 2796 3230 1337 1854 1739 2146 
+Regular orders 2796 2997 3807 0 2340 0 
+Reduced orders after disruptions 2796 2997 3807 0 2340 0 
+Emergency orders 0 233 461 0 468 0 
+Supplier Selection X (1, 5, 5) ¼ 2796, X (2, 5, 5) ¼ 2997, X (3, 5, 3) ¼ 3807, X (5, 5, 3) ¼ 2340, E (2, 5, 5) ¼ 233, E (5, 5, 3) ¼ 468 
+
+
+P6 Regular Demand 2223 2748 1232 2707 1829 1504 
+Demand during disaster 2223 2980 1464 2939 2061 1737 
+Regular orders 3221 1750 2578 3190 0 1504 
+Reduced orders after disruptions 3221 1750 2578 3190 0 0 
+Emergency orders 0 290 0 638 0 1737 
+Supplier Selection X (1,6,3) ¼ 3221, X (2, 6, 3) ¼ 1750, X (3, 6, 5) ¼ 2578, E (3, 5, 3) ¼ 461, E (2, 6, 3) ¼ 290, X (4, 6, 5) ¼ 3190, E (4, 6, 5) ¼ 638, E (6, 6, 5) 
+
+
+¼ 1737 
+P7 Regular Demand 1456 2988 732 2899 1221 963 
+
+
+Demand during disaster 1456 3220 964 3131 1453 1195 
+Regular orders 2310 2134 732 2899 2184 0 
+Reduced orders after disruptions 2310 0 0 0 0 0 
+Emergency orders 462 2868 0 3131 2648 0 
+Supplier Selection X (1, 7, 3) ¼ 2310, E (1, 7, 3) ¼ 462, E (2, 7, 5) ¼ 2868, E (4, 7, 3) ¼ 3131, E (5, 7, 3) ¼ 2648 
+
+
+P8 Regular Demand 2948 2871 1815 1715 1007 1799 
+Demand during disaster 2948 3104 2047 1947 1239 2031 
+Regular orders 2984 4650 0 4280 0 241 
+Reduced orders after disruptions 2984 0 0 0 0 0 
+Emergency orders 1672 1396 2047 3186 0 2031 
+Supplier Selection X (1, 8, 5) ¼ 2984, E (1, 8, 5) ¼ 1672, E (2, 8, 3) ¼ 1396,E (3, 8, 5) ¼ 2047, E (4, 8, 3) ¼ 3186, E (6, 8, 5) ¼ 2031 
+
+
+P9 Regular Demand 1221 2056 2647 3032 964 2347 
+
+
+(continued on next page) 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+24
+
+
+(continued )   
+
+
+T1 T2 T3 T4 T5 T6 
+
+
+Demand during disaster 1221 2289 2879 3264 1197 2579 
+Regular orders 1527 1750 4300 3080 1610 0 
+Reduced orders after disruptions 1527 1750 0 3080 0 0 
+Emergency orders 0 350 2762 616 765 2579 
+Supplier Selection X (1, 9, 2) ¼ 1527, X (2, 9, 5) ¼ 1750, X (4, 9, 3) ¼ 3080, E (2, 9, 5) ¼ 350, E (3, 9, 3) ¼ 2762, E (4, 9, 3) ¼ 616, E (5, 9, 3) ¼ 765, E (6, 9, 5) 
+
+
+¼ 2579 
+P10 Regular Demand 1699 1797 2482 904 1882 982 
+
+
+Demand during disaster 1699 2030 2714 1137 2114 1214 
+Regular orders 4940 0 1942 0 1882 982 
+Reduced orders after disruptions 4940 0 1942 0 1882 982 
+Emergency orders 0 0 0 930 0 232 
+Supplier Selection X (1, 10, 4) ¼ 4940, X (3, 10, 3) ¼ 1942, X (5, 10, 5) ¼ 1882, X (6, 10, 5) ¼ 982, E (4, 10, 5) ¼ 930, E (6, 10, 5) ¼ 232, E (6, 10, 5) ¼ 232  
+
+
+Credit author statement 
+
+
+Harpreet Kaur developed the proposed model as well as the numerical case. She solved the proposed OR based model in LINGO and prepared the 
+revised paper considering the reviewers comments. She also drafted the paper. Surya Prakash Singh provided the initial research idea of the proposed 
+work using Multi-criteria decision making tools for supplier selection and order allocation under disruption and risk. He also assisted on improving the 
+paper based on reviewer’s comments. 
+
+
+Overall, the paper was discussed and prepared by these above two authors where several round of discussion happened over phone. 
+
+
+References 
+
+
+Altay, N., Gunasekaran, A., Dubey, R., Childe, S.J., 2018. Agility and resilience as 
+antecedents of supply chain performance under moderating effects of organizational 
+culture within the humanitarian setting: a dynamic capability view. Prod. Plann. 
+Contr. 29 (14), 1158–1174. 
+
+
+Ardito, L., Petruzzelli, A.M., Panniello, U., Garavelli, A.C., 2019. Towards industry 4.0: 
+mapping digital technologies for supply chain management-marketing integration. 
+Bus. Process Manag. J. 25 (2), 323–346. 
+
+
+Barata, J., Rupino Da Cunha, P., Stal, J., 2018. Mobile supply chain management in the 
+industry 4.0 era: an annotated bibliography and guide for future research. 
+J. Enterprise Inf. Manag. 31 (1), 173–192. 
+
+
+Barreto, L., Amaral, A., Pereira, T., 2017. Industry 4.0 implications in logistics: an 
+overview. Procedia Manufacturing 13, 1245–1252. 
+
+
+Barroso, A.P., Machado, V.H., Barros, A.R., Machado, V.C., 2010. Toward a resilient 
+supply chain with supply disturbances. In: 2010 IEEE International Conference on 
+Industrial Engineering and Engineering Management. IEEE, pp. 245–249. 
+
+
+Bhutta, K.S., Huq, F., 2002. Supplier selection problem: a comparison of the total cost of 
+ownership and analytic hierarchy process approaches. Supply Chain Manag.: Int. J. 7 
+(3), 126–135. 
+
+
+Brettel, M., Friederichsen, N., Keller, M., Rosenberg, M., 2014. How virtualization, 
+decentralization and network building change the manufacturing landscape: an 
+industry 4.0 perspective. International journal of mechanical, industrial science and 
+engineering 8 (1), 37–44. 
+
+
+Cavalcantea, I.M., Frazzon, E.M., Forcellinia, F.A., Ivanov, D., 2019. A supervised 
+machine learning approach to data-driven simulation of resilient supplier selection 
+in digital manufacturing. Int. J. Inf. Manag. 49, 86–97. 
+
+
+Chopra, S., Sodhi, M.S., 2004. Supply-chain breakdown. MIT Sloan Manag. Rev. 46 (1), 
+53–61. 
+
+
+Colicchia, C., Dallari, F., Melacini, M., 2010. Increasing supply chain resilience in a 
+global sourcing context. Prod. Plann. Contr. 21 (7), 680–694. 
+
+
+Dolgui, A., Ivanov, D., Sokolov, B., 2018. Ripple effect in the supply chain: an analysis 
+and recent literature. Int. J. Prod. Res. 56 (1-2), 414–430. 
+
+
+Duarte, S., Cruz-Machado, V., 2017. An investigation of lean and green supply chain in 
+the industry 4.0. In: Proceedings of the 2017 International Symposium on Industrial 
+Engineering and Operations Management (IEOM). 
+
+
+Dubey, R., Gunasekaran, A., Childe, S.J., 2015. The design of a responsive sustainable 
+supply chain network under uncertainty. Int. J. Adv. Manuf. Technol. 80 (1-4), 
+427–445. 
+
+
+Dubey, R., Gunasekaran, A., Childe, S.J., Fosso Wamba, S., Roubaud, D., Foropon, C., 
+2019. Empirical investigation of data analytics capability and organizational 
+flexibility as complements to supply chain resilience. Int. J. Prod. Res. 1–19. https:// 
+doi.org/10.1080/00207543.2019.1582820. 
+
+
+Dubey, R., Gunasekaran, A., Childe, S.J., Papadopoulos, T., Blome, C., Luo, Z., 2017. 
+Antecedents of resilient supply chains: an empirical study. IEEE Trans. Eng. Manag. 
+(99), 1–12. 
+
+
+Fawcett, S.E., Wallin, C., Allred, C., Fawcett, A.M., Magnan, G.M., 2011. Information 
+technology as an enabler of supply chain collaboration: a dynamic-capabilities 
+perspective. J. Supply Chain Manag. 47 (1), 38–59. 
+
+
+Gamage, D.D., Rupasinghe, T.D., 2017. Supply chain collaboration for sustainable 
+Industry 4.0: a case study from the apparel industry. In: International Research 
+Symposium on Pure and Applied Sciences, 2017 Faculty of Science. University of 
+Kelaniya, Sri Lanka.  
+
+
+Ghadimi, P., Wang, C., Lim, M.K., Heavey, C., 2019. Intelligent sustainable supplier 
+selection using multi-agent technology: theory and application for industry 4.0 
+supply chains. Comput. Ind. Eng. 127, 588–600. 
+
+
+Gnimpieba, Z.D.R., Nait-Sidi-Moh, A., Durand, D., Fortin, J., 2015. Using Internet of 
+Things technologies for a collaborative supply chain: application to tracking of 
+pallets and containers. Procedia Computer Science 56, 550–557. 
+
+
+Gupta, V., He, B., Sethi, S.P., 2015. Contingent sourcing under supply disruption and 
+competition. Int. J. Prod. Res. 53 (10), 3006–3027. 
+
+
+Haldar, A., Ray, A., Banerjee, D., Ghosh, S., 2012. A hybrid MCDM model for resilient 
+supplier selection. Int. J. Manag. Sci. Eng. Manag. 7 (4), 284–292. 
+
+
+Haldar, A., Ray, A., Banerjee, D., Ghosh, S., 2014. Resilient supplier selection under a 
+fuzzy environment. Int. J. Manag. Sci. Eng. Manag. 9 (2), 147–156. 
+
+
+Hofmann, E., Rüsch, M., 2017. Industry 4.0 and the current status as well as future 
+prospects on logistics. Comput. Ind. 89, 23–34. 
+
+
+Hosseini, S., Ivanov, D., Dolgui, A., 2019a. Review of quantitative methods for supply 
+chain resilience analysis. Transport. Res. Part E 125, 285–307. 
+
+
+Hosseini, S., Al Khaled, A., 2019. A hybrid ensemble and AHP approach for resilient 
+supplier selection. J. Intell. Manuf. 30 (1), 207–228. 
+
+
+Hosseini, S., Barker, K., 2016. A Bayesian network model for resilience-based supplier 
+selection. Int. J. Prod. Econ. 180, 68–87. 
+
+
+Hosseini, S., Ivanov, D., 2019. A new resilience measure for supply networks with the 
+ripple effect considerations: a Bayesian network approach. Ann. Oper. Res. 1–27. 
+
+
+Hosseini, S., Ivanov, D., Dolgui, A., 2019c. Ripple effect modelling of supplier disruption: 
+integrated Markov chain and dynamic Bayesian network approach. Int. J. Prod. Res. 
+1–20. 
+
+
+Hosseini, S., Morshedlou, N., Ivanov, D., Sarder, M.D., Barker, K., Al Khaled, A., 2019b. 
+Resilient supplier selection and optimal order allocation under disruption risks. Int. 
+J. Prod. Econ. 213, 124–137. 
+
+
+Hwang, C.L., Yoon, K., 1981. Methods for multiple attribute decision making. In: 
+Multiple Attribute Decision Making. Springer, Berlin, Heidelberg, pp. 58–191. 
+
+
+Ivanov, D., Dolgui, A., 2018. Low-Certainty-Need (LCN) Supply Chains: a new 
+perspective in managing disruption risks and resilience. Int. J. Prod. Res. https://doi. 
+org/10.1080/00207543.2018.1521025. 
+
+
+Ivanov, D., 2018. Structural Dynamics and Resilience in Supply Chain Risk Management. 
+Springer, New York. ISBN 978-3-319-69304-0.  
+
+
+Ivanov, D., Sokolov, B., 2012. Structure dynamics control approach to supply chain 
+planning and adaptation. Int. J. Prod. Res. 50 (21), 6133–6149. 
+
+
+Ivanov, D., Dolgui, A., Sokolov, B. (Eds.), 2019a. Handbook of Ripple Effects in the 
+Supply Chain. Springer, New York. ISBN 978-3-030-14301-5.  
+
+
+Ivanov, D., Dolgui, A., Sokolov, B., 2018. The impact of digital technology and Industry 
+4.0 on the ripple effect and supply chain risk analytics. Int. J. Prod. Res. 1–18. 
+
+
+Ivanov, D., Dolgui, A., Sokolov, B., Werner, F., Ivanova, M., 2016. A dynamic model and 
+an algorithm for short-term supply chain scheduling in the smart factory Industry 
+4.0. Int. J. Prod. Res. 54 (2), 386–402. 
+
+
+Ivanov, D., Dolgui, A., Sokolov, B., 2019b. The impact of digital technology and industry 
+4.0 on the ripple effect and supply chain risk analytics. Int. J. Prod. Res. 57 (3), 
+829–846. 
+
+
+Ivanov, D., Sokolov, B., Dolgui, A., 2014. The Ripple effect in supply chains: trade-off 
+‘efficiency-flexibility-resilience’in disruption management. Int. J. Prod. Res. 52 (7), 
+2154–2172. 
+
+
+Kamalahmadi, M., Mellat-Parast, M., 2016. Developing a resilient supply chain through 
+supplier flexibility and reliability assessment. Int. J. Prod. Res. 54 (1), 302–321. 
+
+
+Khajavi, S.H., Partanen, J., Holmstr€om, J., 2014. Additive manufacturing in the spare 
+parts supply chain. Comput. Ind. 65 (1), 50–63. 
+
+
+Khalili, S.M., Jolai, F., Torabi, S.A., 2017. Integrated production–distribution planning in 
+two-echelon systems: a resilience view. Int. J. Prod. Res. 55 (4), 1040–1064. 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref1
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref1
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref1
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref1
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref2
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref2
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref2
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref3
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref3
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref3
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref4
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref4
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref5
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref5
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref5
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref6
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref6
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref6
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref7
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref7
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref7
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref7
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref8
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref8
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref8
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref9
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref9
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref10
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref10
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref11
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref11
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref12
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref12
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref12
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref13
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref13
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref13
+
+https://doi.org/10.1080/00207543.2019.1582820
+
+https://doi.org/10.1080/00207543.2019.1582820
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref15
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref15
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref15
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref16
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref16
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref16
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref17
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref17
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref17
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref17
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref18
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref18
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref18
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref19
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref19
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref19
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref20
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref20
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref21
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref21
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref22
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref22
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref23
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref23
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref24
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref24
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref25
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref25
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref26
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref26
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref27
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref27
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref28
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref28
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref28
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref29
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref29
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref29
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref30
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref30
+
+https://doi.org/10.1080/00207543.2018.1521025
+
+https://doi.org/10.1080/00207543.2018.1521025
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref32
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref32
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref33
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref33
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref34
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref34
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref35
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref35
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref36
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref36
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref36
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref37
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref37
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref37
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref38
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref38
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref38
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref39
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref39
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref40
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref40
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref41
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref41
+
+
+
+
+International Journal of Production Economics 231 (2021) 107830
+
+
+25
+
+
+Kim, Y., Chen, Y.S., Linderman, K., 2015. Supply network disruption and resilience: a 
+network structural perspective. J. Oper. Manag. 33, 43–59. 
+
+
+Lee, S.H., 2017. A fuzzy multi-objective programming approach for determination of 
+resilient supply portfolio under supply failure risks. J. Purch. Supply Manag. 23 (3), 
+211–220. 
+
+
+Lovell, C.K., Pastor, J.T., 1999. Radial DEA models without inputs or without outputs. 
+Eur. J. Oper. Res. 118 (1), 46–51. 
+
+
+Mohr, S., Khan, O., 2015. 3D printing and its disruptive impacts on supply chains of the 
+future. Technology Innovation Management Review 5 (11), 20. 
+
+
+Müller, J.M., 2019. Business model innovation in small-and medium-sized enterprises: 
+strategies for Industry 4.0 providers and users. J. Manuf. Technol. Manag. 
+
+
+Opricovic, S., Tzeng, G.H., 2004. Compromise solution by MCDM methods: a 
+comparative analysis of VIKOR and TOPSIS. Eur. J. Oper. Res. 156 (2), 445–455. 
+
+
+Panetto, H., Iung, B., Ivanov, D., Weichhart, G., Wang, X., 2019. Challenges for the cyber- 
+physical manufacturing enterprises of the future. Annu. Rev. Contr. 47, 200–213. 
+
+
+Parkouhi, S.V., Ghadikolaei, A.S., 2017. A resilience approach for supplier selection: 
+using fuzzy analytic network process and grey VIKOR techniques. J. Clean. Prod. 
+161, 431–451. 
+
+
+Parkouhi, S.V., Ghadikolaei, A.S., Lajimi, H.F., 2019. Resilient supplier selection and 
+segmentation in grey environment. J. Clean. Prod. 207, 1123–1137. 
+
+
+Parmar, D., Wu, T., Callarman, T., Fowler, J., Wolfe, P., 2010. A clustering algorithm for 
+supplier base management. Int. J. Prod. Res. 48 (13), 3803–3821. 
+
+
+Parre~no-Marchante, A., Alvarez-Melcon, A., Trebar, M., Filippin, P., 2014. Advanced 
+traceability system in aquaculture supply chain. J. Food Eng. 122, 99–109. 
+
+
+Prajogo, D., Sohal, A., 2013. Supply chain professionals: a study of competencies, use of 
+technologies, and future challenges. Int. J. Oper. Prod. Manag. 33 (11/12), 
+1532–1554. 
+
+
+Roszkowska, E., 2011. Multi-criteria decision making models by applying the TOPSIS 
+method to crisp and interval data. Multiple Criteria Decision Making/University of 
+Economics in Katowice 6, 200–230. 
+
+
+Sahebjamnia, N., Torabi, S.A., Mansouri, S.A., 2015. Integrated business continuity and 
+disaster recovery planning: towards organizational resilience. Eur. J. Oper. Res. 242 
+(1), 261–273. 
+
+
+Sawik, T., 2013. Selection of resilient supply portfolio under disruption risks. Omega 41 
+(2), 259–269. 
+
+
+Schlüter, F., Sprenger, P., Spyridakos, A., Vryzidis, L., 2016. Migration framework for 
+decentralized and proactive risk identification in a Steel Supply Chain via Industry 
+
+
+4.0 technologies. In: Conference Proceedings of the 5th International Symposium 
+and 27th National Conference on Operational Research, pp. 85–91. Athens.  
+
+
+Schmitt, A.J., Singh, M., 2012. A quantitative analysis of disruption risk in a multi- 
+echelon supply chain. Int. J. Prod. Econ. 139 (1), 22–32. 
+
+
+Schr€oder, M., Indorf, M., Kersten, W., 2014. Industry 4.0 and its impact on supply chain 
+risk management. In: Proceedings of the 14th International Conference “Reliability 
+and Statistics in Transportation and Communication, pp. 114–125. 
+
+
+Sheffi, Y., 2001. Supply chain management under the threat of international terrorism. 
+Int. J. Logist. Manag. 12 (2), 1–11. 
+
+
+Sheffi, Y., 2015. Preparing for disruptions through early detection. MIT Sloan Manag. 
+Rev. 57 (1), 31. 
+
+
+Sheffi, Y., Rice Jr., J.B., 2005. A supply chain view of the resilient enterprise. MIT Sloan 
+Manag. Rev. 47 (1), 41. 
+
+
+Skipper, J.B., Hanna, J.B., 2009. Minimizing supply chain disruption risk through 
+enhanced flexibility. Int. J. Phys. Distrib. Logist. Manag. 39 (5), 404–427. 
+
+
+Stentoft, J., Rajkumar, C., 2018. Does supply chain innovation pay off? Innovation and 
+Supply Chain Management: Relationship, Collaboration and Strategies 237–256. 
+
+
+Tierney, K.J., 2007. Businesses and disasters: vulnerability, impacts, and recovery. In: 
+Handbook of Disaster Research. Springer, New York, NY, pp. 275–296. 
+
+
+Tjahjono, B., Esplugues, C., Ares, E., Pelaez, G., 2017. What does industry 4.0 mean to 
+supply chain? Procedia Manufacturing 13, 1175–1182. 
+
+
+Tomlin, B., 2006. On the value of mitigation and contingency strategies for managing 
+supply chain disruption risks. Manag. Sci. 52 (5), 639–657. 
+
+
+Torabi, S.A., Baghersad, M., Mansouri, S.A., 2015. Resilient supplier selection and order 
+allocation under operational and disruption risks. Transport. Res. E Logist. 
+Transport. Rev. 79, 22–48. 
+
+
+Wu, T., Blackhurst, J., O’grady, P., 2007. Methodology for supply chain disruption 
+analysis. Int. J. Prod. Res. 45 (7), 1665–1682. 
+
+
+Wunnava, S., 2011. Application of Protection Motivation Theory to Study the Factors 
+that Influence Disaster Recovery Planning: an Empirical Investigation. Louisiana 
+Tech University. 
+
+
+Yu, H., Zeng, A.Z., Zhao, L., 2009. Single or dual sourcing: decision-making in the 
+presence of supply chain disruption risks. Omega 37 (4), 788–800. 
+
+
+Zhu, S.X., 2013. Dynamic replenishment, production, and pricing decisions, in the face of 
+supply disruption and random price-sensitive demand. Int. J. Prod. Econ. 146 (2), 
+612–619. 
+
+
+H. Kaur and S. Prakash Singh                                                                                                                                                                                                               
+
+
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref42
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref42
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref43
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref43
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref43
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref44
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref44
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref45
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref45
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref46
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref46
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref47
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref47
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref48
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref48
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref49
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref49
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref49
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref50
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref50
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref51
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref51
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref52
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref52
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref53
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref53
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref53
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref54
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref54
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref54
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref55
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref55
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref55
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref56
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref56
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref57
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref57
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref57
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref57
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref58
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref58
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref59
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref59
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref59
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref60
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref60
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref61
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref61
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref62
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref62
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref63
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref63
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref64
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref64
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref65
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref65
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref66
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref66
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref67
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref67
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref68
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref68
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref68
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref69
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref69
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref70
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref70
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref70
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref71
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref71
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref72
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref72
+
+http://refhub.elsevier.com/S0925-5273(20)30200-0/sref72
+
+

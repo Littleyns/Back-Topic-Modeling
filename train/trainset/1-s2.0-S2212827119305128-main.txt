@@ -1,0 +1,990 @@
+
+
+
+
+
+
+
+
+
+
+ScienceDirect
+
+
+Available online at www.sciencedirect.comAvailable online at www.sciencedirect.com
+
+
+ScienceDirect
+Procedia CIRP 00 (2017) 000–000
+
+
+  www.elsevier.com/locate/procedia 
+
+
+2212-8271 © 2017 The Authors. Published by Elsevier B.V. 
+Peer-review under responsibility of the scientific committee of the 28th CIRP Design Conference 2018. 
+
+
+28th CIRP Design Conference, May 2018, Nantes, France
+
+
+A new methodology to analyze the functional and physical architecture of 
+existing products for an assembly oriented product family identification 
+
+
+Paul Stief *, Jean-Yves Dantan, Alain Etienne, Ali Siadat 
+École Nationale Supérieure d’Arts et Métiers, Arts et Métiers ParisTech, LCFC EA 4495, 4 Rue Augustin Fresnel, Metz 57078, France 
+
+
+* Corresponding author. Tel.: +33 3 87 37 54 30; E-mail address: paul.stief@ensam.eu
+
+
+Abstract 
+
+
+In today’s business environment, the trend towards more product variety and customization is unbroken. Due to this development, the need of 
+agile and reconfigurable production systems emerged to cope with various products and product families. To design and optimize production
+systems as well as to choose the optimal product matches, product analysis methods are needed. Indeed, most of the known methods aim to 
+analyze a product or one product family on the physical level. Different product families, however, may differ largely in terms of the number and 
+nature of components. This fact impedes an efficient comparison and choice of appropriate product family combinations for the production
+system. A new methodology is proposed to analyze existing products in view of their functional and physical architecture. The aim is to cluster
+these products in new assembly oriented product families for the optimization of existing assembly lines and the creation of future reconfigurable 
+assembly systems. Based on Datum Flow Chain, the physical structure of the products is analyzed. Functional subassemblies are identified, and 
+a functional analysis is performed. Moreover, a hybrid functional and physical architecture graph (HyFPAG) is the output which depicts the 
+similarity between product families by providing design support to both, production system planners and product designers. An illustrative
+example of a nail-clipper is used to explain the proposed methodology. An industrial case study on two product families of steering columns of 
+thyssenkrupp Presta France is then carried out to give a first industrial evaluation of the proposed approach. 
+© 2017 The Authors. Published by Elsevier B.V. 
+Peer-review under responsibility of the scientific committee of the 28th CIRP Design Conference 2018. 
+
+
+Keywords: Assembly; Design method; Family identification
+
+
+1. Introduction 
+
+
+Due to the fast development in the domain of 
+communication and an ongoing trend of digitization and
+digitalization, manufacturing enterprises are facing important
+challenges in today’s market environments: a continuing
+tendency towards reduction of product development times and
+shortened product lifecycles. In addition, there is an increasing
+demand of customization, being at the same time in a global 
+competition with competitors all over the world. This trend, 
+which is inducing the development from macro to micro 
+markets, results in diminished lot sizes due to augmenting
+product varieties (high-volume to low-volume production) [1]. 
+To cope with this augmenting variety as well as to be able to
+identify possible optimization potentials in the existing
+production system, it is important to have a precise knowledge
+
+
+of the product range and characteristics manufactured and/or 
+assembled in this system. In this context, the main challenge in
+modelling and analysis is now not only to cope with single 
+products, a limited product range or existing product families,
+but also to be able to analyze and to compare products to define
+new product families. It can be observed that classical existing
+product families are regrouped in function of clients or features.
+However, assembly oriented product families are hardly to find. 
+
+
+On the product family level, products differ mainly in two
+main characteristics: (i) the number of components and (ii) the
+type of components (e.g. mechanical, electrical, electronical). 
+
+
+Classical methodologies considering mainly single products 
+or solitary, already existing product families analyze the
+product structure on a physical level (components level) which 
+causes difficulties regarding an efficient definition and
+comparison of different product families. Addressing this 
+
+
+Procedia CIRP 81 (2019) 826–831
+
+
+2212-8271 © 2019 The Authors. Published by Elsevier Ltd. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/3.0/) 
+Peer-review under responsibility of the scientific committee of the 52nd CIRP Conference on Manufacturing Systems.
+10.1016/j.procir.2019.03.207
+
+
+© 2019 The Authors. Published by Elsevier Ltd. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/3.0/) 
+Peer-review under responsibility of the scientific committee of the 52nd CIRP Conference on Manufacturing Systems.
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia CIRP 00 (2019) 000–000 
+
+
+  
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+2212-8271 © 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/3.0/) 
+Peer-review under responsibility of the scientific committee of the 52nd CIRP Conference on Manufacturing Systems. 
+
+
+52nd CIRP Conference on Manufacturing Systems 
+
+
+Distributed logistics platform based on Blockchain and IoT 
+ Nejc Rožmana, Rok Vrabiča, Marko Corna, Tomaž Požrla, Janez Diacia  
+
+
+aUniversity of Ljubljana, Faculty of Mechanical Engineering, Ljubljana, Slovenia 
+ 
+
+
+* Corresponding author. Tel.: +386-1-477-1732. E-mail address: nejc.rozman@fs.uni-lj.si 
+
+
+Abstract 
+
+
+This paper presents an approach to integrating Blockchain and IoT technologies into modern supply chains. We propose the concept of a new 
+logistics platform that is built as a distributed network of nodes and offers an alternative approach dealing with the complexity of modern supply 
+chains by breaking them into smaller, functionally independent parts. The modular structure of the platform allows users to add their own nodes 
+or extend the functionality of the existing ones. Nodes are communicating with the use of IoT technology, which serves as a bridge between the 
+virtual and real worlds, making this platform truly digital. Blockchain technology is not only used for writing down agreements and for making 
+transactions, but also as a trustworthy public listing of services and information. It connects the nodes into a public and secure system that provides 
+reliable services of a supply chain. In this work, we describe the individual nodes and their implementation and present preliminary results of 
+experiments using a laboratory model of a logistic chain.  
+ 
+© 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/3.0/) 
+Peer-review under responsibility of the scientific committee of the 52nd CIRP Conference on Manufacturing Systems. 
+
+
+ Keywords: Internet of Things; Blockchain; logistics; supply chain management; distributed network 
+
+
+ 
+1. Introduction 
+
+
+Digitalization of the logistics and supply chain has created 
+many opportunities for companies, however, it also presents 
+them with new challenges. With the arrival of e-commerce, 
+parcel industry is on a constant rise with the numbers of Stock 
+Keeping Units (SKU) historically at their highest, with 85 
+million packages and documents delivered around the world 
+every single day [1]. On the other side, customer demands are 
+getting bigger and more divergent, creating new challenges for 
+supply chain management. In order to control the whole supply 
+chain, companies are investing a lot of their time and money in 
+new technologies such as it is the Internet of Things (IoT). 
+Smart devices implemented in every part of the chain are 
+acquiring and working with enormous quantities of data. 
+Regardless of all new technologies, ever-growing complexity 
+of the supply chain still represents a major obstacle for supply 
+chain companies. For example, placement of the RFID tags in 
+parts of the supply chain alone does not fully realize its 
+
+
+potential unless the company knows how to share the data and 
+how to use it to solve the problems [2]. 
+
+
+The growth of the larger companies, taking control over the 
+supply chain as they increase their market share, has become a 
+serious problem for SMEs. In order to become a part of the 
+system, they have to compete with low prices and global reach 
+of bigger companies. Distributed digital platforms are allowing 
+small companies to have a global reach and to compete with 
+the sector’s established giants, becoming increasingly 
+important in the logistics industry. In the future, a dominant 
+global platform is going to transform the customer’s experience 
+of logistics and the companies which will be able to adapt and 
+join the platform will be the winners in a truly digital logistics 
+industry [1]. 
+
+
+A further strategic issue that provides a challenge for 
+logistics management is the continued trend towards 
+globalization which adds its own piece to the complexity of 
+supply chain management. A global company is more than a 
+multinational company. In a global business, materials and 
+
+
+
+
+
+Available online at www.sciencedirect.com 
+
+
+ScienceDirect 
+Procedia CIRP 00 (2019) 000–000 
+
+
+  
+     www.elsevier.com/locate/procedia 
+
+
+
+
+
+
+
+
+
+
+
+2212-8271 © 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/3.0/) 
+Peer-review under responsibility of the scientific committee of the 52nd CIRP Conference on Manufacturing Systems. 
+
+
+52nd CIRP Conference on Manufacturing Systems 
+
+
+Distributed logistics platform based on Blockchain and IoT 
+ Nejc Rožmana, Rok Vrabiča, Marko Corna, Tomaž Požrla, Janez Diacia  
+
+
+aUniversity of Ljubljana, Faculty of Mechanical Engineering, Ljubljana, Slovenia 
+ 
+
+
+* Corresponding author. Tel.: +386-1-477-1732. E-mail address: nejc.rozman@fs.uni-lj.si 
+
+
+Abstract 
+
+
+This paper presents an approach to integrating Blockchain and IoT technologies into modern supply chains. We propose the concept of a new 
+logistics platform that is built as a distributed network of nodes and offers an alternative approach dealing with the complexity of modern supply 
+chains by breaking them into smaller, functionally independent parts. The modular structure of the platform allows users to add their own nodes 
+or extend the functionality of the existing ones. Nodes are communicating with the use of IoT technology, which serves as a bridge between the 
+virtual and real worlds, making this platform truly digital. Blockchain technology is not only used for writing down agreements and for making 
+transactions, but also as a trustworthy public listing of services and information. It connects the nodes into a public and secure system that provides 
+reliable services of a supply chain. In this work, we describe the individual nodes and their implementation and present preliminary results of 
+experiments using a laboratory model of a logistic chain.  
+ 
+© 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/3.0/) 
+Peer-review under responsibility of the scientific committee of the 52nd CIRP Conference on Manufacturing Systems. 
+
+
+ Keywords: Internet of Things; Blockchain; logistics; supply chain management; distributed network 
+
+
+ 
+1. Introduction 
+
+
+Digitalization of the logistics and supply chain has created 
+many opportunities for companies, however, it also presents 
+them with new challenges. With the arrival of e-commerce, 
+parcel industry is on a constant rise with the numbers of Stock 
+Keeping Units (SKU) historically at their highest, with 85 
+million packages and documents delivered around the world 
+every single day [1]. On the other side, customer demands are 
+getting bigger and more divergent, creating new challenges for 
+supply chain management. In order to control the whole supply 
+chain, companies are investing a lot of their time and money in 
+new technologies such as it is the Internet of Things (IoT). 
+Smart devices implemented in every part of the chain are 
+acquiring and working with enormous quantities of data. 
+Regardless of all new technologies, ever-growing complexity 
+of the supply chain still represents a major obstacle for supply 
+chain companies. For example, placement of the RFID tags in 
+parts of the supply chain alone does not fully realize its 
+
+
+potential unless the company knows how to share the data and 
+how to use it to solve the problems [2]. 
+
+
+The growth of the larger companies, taking control over the 
+supply chain as they increase their market share, has become a 
+serious problem for SMEs. In order to become a part of the 
+system, they have to compete with low prices and global reach 
+of bigger companies. Distributed digital platforms are allowing 
+small companies to have a global reach and to compete with 
+the sector’s established giants, becoming increasingly 
+important in the logistics industry. In the future, a dominant 
+global platform is going to transform the customer’s experience 
+of logistics and the companies which will be able to adapt and 
+join the platform will be the winners in a truly digital logistics 
+industry [1]. 
+
+
+A further strategic issue that provides a challenge for 
+logistics management is the continued trend towards 
+globalization which adds its own piece to the complexity of 
+supply chain management. A global company is more than a 
+multinational company. In a global business, materials and 
+
+
+
+
+
+
+ Nejc Rožman  et al. / Procedia CIRP 81 (2019) 826–831 827
+2 Nejc Rožman et al. / Procedia CIRP 00 (2019) 000–000 
+
+
+components are sourced worldwide and products may be 
+manufactured offshore and sold in many different countries, 
+perhaps with local customization. Challenge for globalized 
+supply chain companies is in the management of the complex 
+web of relationships and flows that characterize their supply 
+chains [3]. Globalization is providing a variety of opportunities 
+for improving supply chain performance. However, the same 
+advancements also increase global competition, increasing 
+pressure on both established and emerging industries and firms 
+to design and operate their supply chains as efficiently and cost-
+effectively as possible [4]. A result of globalization is the 
+involvement of various independent parties (freight forwarders, 
+3rd party logistics service providers, multimodal transport 
+operators, carriers, etc.). Accurate communication between 
+these parties is the key to success and a platform is a common 
+way where all parties share the necessary relevant information. 
+The problem when adopting such approaches is that existing 
+platforms are managed by the central authority. While having 
+platform dominance often represents a good business 
+opportunity for the company running the platform, other actors 
+have to pay fees and follow the rules of the platform owner. 
+Furthermore, having a single player to control the rules, poses 
+a risk for diversity and fairness in the market. Multiple 
+competing platform companies, on the other hand, create the 
+risk of a splintered market resulting in non-optimal logistics 
+decisions in separate silos [5]. 
+
+
+The emerging technology of Blockchain has brought a lot of 
+attention to the supply chain companies with its functionality, 
+as they are putting a lot of their effort to integrate the 
+technology into the supply chain [6]. Manufacturing part of the 
+supply chain has already made some implementations of the 
+new technologies, to open up and share manufacturing 
+knowledge in order to increase production [7, 8, 9].  The main 
+property of the technology being a cost-effective transmission 
+of transactions in peer-to-peer networks with no central system 
+and without the mediation of a third person, can simplify B2B 
+integration and enables micro level IoT integration [10]. When 
+in 2017, IBM and Maersk have announced collaboration to 
+implement Blockchain technology in the supply chain, one of 
+the biggest steps has been made to integrate Blockchain with 
+IoT in order to transform a global supply chain [11]. Their goal 
+for the year 2017 was to enable a shipment of 10 million out of 
+70 million containers they ship yearly, over the Blockchain 
+network [12]. IBM is making even more effort to insert 
+Blockchain into the supply chain with its cooperation with 
+Walmart. In order to decrease the response time of product 
+recalls they are using Blockchain technology to improve track 
+capabilities of food supply chain [13]. So far an integration of 
+Blockchain into the supply chain has been carried out with 
+transactions on self-executing smart contracts which can serve 
+as a public database for tracking of the products [14, 15].  
+
+
+The proposed concept is addressing the described issues of 
+modern supply chain and logistics. The idea of a distributed 
+network of nodes is to deal with the complexity of the systems 
+on the local level. With Blockchain technology, the nodes are 
+connected in a public and secure system that provides efficient 
+and reliable service for procurement, storage and transport of 
+products. The concept is the next step in the evolution of the 
+digital platforms in logistics and its main purpose is to 
+
+
+liberalize and open the way for all actors to equally take their 
+part in the supply chain. 
+
+
+2. Concept 
+
+
+The proposed concept of the logistic platform is combining 
+two technologies Internet of Things (IoT) and Blockchain in a 
+new and innovative way. The structure of the platform is a 
+distributed network of nodes which provide or consume 
+different types of services. There is also a third group of nodes 
+which are universal nodes which are ubiquitous on the 
+platform, see Fig. 1. There is no central authority to supervise 
+existing nodes and their actions, relying on the behaviour of the 
+trustworthy actors supporting the platform because of their 
+needs for it, therefore the platform will eventually reject bad 
+actors and eliminate. Each node is fully autonomous and can 
+communicate and cooperate with other nodes in pursuit of its 
+goals. The main property of the platform is modularity which 
+supports the inclusion of an unlimited number of different types 
+of nodes at any given time. The main idea behind the platform 
+is to define a set of elementary nodes of the platform and the 
+most basic interactions between these nodes. As there is a 
+possibility for other users to add their own modules to the 
+system and extend already existing nodes, the platform will 
+eventually converge to the optimal distributed system based on 
+users demands and needs after some time. 
+
+
+As all parts of the supply chain are being equipped with 
+small IoT devices and the future of the supply chain is moving 
+towards fully automated processes, we are taking in account 
+that service providers like transportation companies have 
+digitalized their services in a way that they are able to connect 
+on the Internet at any given time. IoT has an important role in 
+closing the gap between physical and virtual worlds and 
+automation of the supply chain has made a huge step through 
+the involvement of this technology. Nowadays, one of the main 
+problems of the supply chain management is the growing 
+complexity of the systems which is resulting in difficulties to 
+assess the performance of the system. Implemented technology 
+of the IoT in the supply chain enables a stream of real time 
+information about the current state of single components of the 
+system from anywhere in the world. So far these streams of 
+
+
+Fig. 1. Concept of the platform. 
+
+
+
+
+
+
+
+
+
+
+828 Nejc Rožman  et al. / Procedia CIRP 81 (2019) 826–831
+ Nejc Rožman et al / Procedia CIRP 00 (2019) 000–000  3 
+
+
+information were only stored in big data centres or clouds but 
+the data was not used for analytics and system improvement. 
+With Blockchain, supply chain managers are finding new ways 
+to incorporate and optimize the supply chain. Many believe that 
+Blockchain serves as a missing piece to the puzzle of IoT, as it 
+enables agreements between two parties without the 
+intermediate party. Therefore, two smart devices from 
+opposing parties can make an agreement in the form of a smart 
+contract which is not susceptible to corruption and scams [16]. 
+Microtransactions between smart devices in an extremely safe 
+manner are now possible and can be executed without human 
+interference if devices are programmed to do so. 
+
+
+2.1. Platform nodes 
+
+
+On the proposed platform we can set different types of nodes 
+but there are some core nodes which are necessary for the 
+platform to become operational. In these next subsections, a 
+few examples of the nodes that could be used in a modern 
+supply chain are described. We are also proposing technologies 
+and methods for implementation of these nodes that are 
+currently concerned to be good practice but can be also 
+implemented differently by the users when they find better 
+solutions in future. 
+
+
+2.1.1. Genesis node 
+
+
+As the name explains, the Genesis node is the first node of 
+the platform and it holds all the information about the platform. 
+It serves as an entrance point for new users to join the platform. 
+Its purpose is to inform new users of the platform how the 
+system works and how to create new nodes. One of the 
+functions of the node is also holding a list of all elementary 
+nodes on the platform and a way to find them. The Genesis 
+node is implemented as a smart contract written on Blockchain. 
+As long as the Blockchain network is running, all the 
+information from the Genesis node is available to all users. 
+
+
+2.1.2. Service node 
+
+
+The Service node represents actors that are providing 
+services in the supply chain. In our concept, each of them is an 
+individual node, which allows them to interact with other nodes 
+of the system. The node serves as a bridge between physical 
+and virtual worlds for providers of the service. The main 
+component of these nodes is the API (Application 
+Programming Interface) in any form they want as long as it 
+enables the other nodes to use it as a mean of communication 
+over the Internet. The goal here is that in future, the whole 
+process of providing a service would be fully automated. Fig. 
+2 is representing an example of the Service node, which is 
+providing transport service. The most obvious examples of 
+service nodes are transporting companies and warehouses but 
+there are also other possibilities like insurance companies. 
+They can provide insurance in case of certain events during this 
+
+
+autonomous process, for instance, if transportation is late due 
+to the unforeseen events on the way.  
+
+
+2.1.3. User node 
+
+
+User nodes represent each user accessing the platform in 
+order to communicate or cooperate with other nodes of the 
+platform. Usually, users are looking for services provided by 
+the Services nodes. For example, the most common user would 
+probably be some production company that is looking to store 
+or to transport their products and goods. Of course, it can also 
+be an individual that finds some use in the platform. Packages 
+are getting smarter and smarter with every device pinned to 
+them and the idea is that in the future they will be able to order 
+a transport or storage by themselves. The proposed platform 
+provides them with a way to do it, as they reach service 
+providers through their API, they can order a means of 
+transport to move them to another warehouse where they 
+reserved a storage place. So technically the users of the 
+platform would rather be smart packages than the companies 
+who are shipping the product. Companies only task would be 
+to program package’s logic in a manner they would find the 
+most necessary at that moment. For example, if they wanted for 
+a package to get from production to the customer in the fastest 
+way possible, the package would acquire offers from transport 
+providers and chose the fastest possible. 
+
+
+User node is composed of two parts: the first one is a 
+physical package and the second one is a virtual representation 
+of the package in the form of a computer program. Physical 
+package is equipped with an IoT device which integrates small 
+microcomputer, powerful enough to enable communication 
+with the virtual package and management of the auxiliary 
+components for the monitoring of the package location and 
+other sensor data that are important to the package owner like 
+temperature, humidity, acceleration and others. The reason 
+behind virtualization of the package is to ensure sustainability 
+of the system. All management processes that require more 
+computations are executed away from the package on some 
+other computing resources such as personal computers, servers, 
+clouds or Blockchains. This way smart packaging is carrying 
+fewer electronics and it is easier to recycle or furthermore, we 
+
+
+Fig. 2. Service node. 
+
+
+
+
+
+
+ Nejc Rožman  et al. / Procedia CIRP 81 (2019) 826–831 829
+4 Nejc Rožman et al. / Procedia CIRP 00 (2019) 000–000 
+
+
+can reuse packaging if we can transfer the ownership of the 
+package on the virtual level. 
+
+
+2.1.4. Interface node 
+
+
+The main purpose of the Interface node is to provide easy 
+access for users to certain nodes with their functions and 
+information. To keep the idea of a distributed system the 
+implementation of the Interface node is a decentralized web 
+page based on peer-to-peer technology, but normal web pages 
+can also be an example of the Interface node implementation. 
+Example of an Interface node would be a decentralized web 
+page which extends the Genesis node. New users are more 
+likely to search on the Internet for the platform and for all the 
+information about how one can be involved in the system.  
+
+
+2.1.5. Agreement node 
+
+
+When multiple nodes of the platform reach an agreement, 
+the Agreement node takes care of writing it down in the form 
+of a contract. With the use of Blockchain and smart contracts, 
+the terms of an agreement can be implemented in a self-
+executing program. Writing down an agreement is done in four 
+main phases as it is shown on Fig. 3. If the terms are being 
+violated, consequences are forced immediately. All agreements 
+are publicly written on Blockchain whereas the content of the 
+agreement can be encrypted to enable privacy of all parties of 
+the agreement. For example, when a user node accepts an offer 
+for transportation of the package from certain transport 
+provider, the Agreement node writes it down with the terms of 
+an agreement in the smart contract. Signature is made with their 
+own private keys; thus authenticity of the signature is ensured. 
+A smart contract also locks-in some of the funds from both of 
+the parties, as one of the parties is violating the terms of an 
+agreement their locked funds are taken from the smart contract 
+and are given to the opposed party according to the predefined 
+
+
+measures. In case both parties fulfil their part of an agreement 
+all locked funds are returned to the previous owner. 
+
+
+2.1.6. Mapping node 
+
+
+The Mapping node serves as a list of connections between 
+information. It can connect only address of the node with the 
+type of the node or it can hold much more complicated 
+connections such as a discovery mechanism for the service 
+nodes APIs. Implementation of the Mapping node is a smart 
+contract on a Blockchain network. We are leveraging the 
+Blockchain property as decentralized time immutable database 
+to make our platform robust and decentralized. 
+
+
+2.1.6.1. Address Resolver Node 
+
+
+In order for the nodes to find each other and exchange 
+messages, distributed networks have a service discovery 
+mechanism. In the proposed concept of the platform, this 
+mechanism is implemented via the Address Resolver Node 
+(ARN) which maps certain nodes address with their IP 
+addresses. ARN is extending a Mapping node and has all the 
+properties of the Mapping node. ARN node is analogous to the 
+DNS mechanism that map domain names with IP addresses. 
+ARN contains address information of all service nodes so the 
+user nodes are able to communicate with them and manage 
+their supply chain. 
+
+
+ARN node structure basis on the smart contract platform like 
+Ethereum or EOS. Smart contract platform defines how the 
+smart contract is written and how to build a smart contract API 
+for the other nodes to be able to communicate with it. ARN 
+node enables public listings of service providing nodes to be 
+used by service consuming nodes. For example, if a new 
+transport provider node wants to start offering its services it 
+registers with the ARN node and its services are publicly 
+available for user nodes to use.  
+
+
+2.1.7. Rating node 
+
+
+The Rating node is serving the platform as a mean to 
+calculate the rating for each user on the platform based on their 
+actions. Platform functionality is to exclude bad actors from the 
+system and the Rating node is one way of doing it. Objective 
+calculations of the ratings are done from the trustworthy data 
+of other nodes, especially from the Agreement node where is 
+written when some actor broke terms of an Agreement. Ratings 
+can be calculated also in other ways. Users with the best rating 
+would be rewarded, financially or in other ways, in order to 
+promote fair and objective use of the platform. 
+
+
+Fig. 3. Flow chart of writing an agreement to the Agreement 
+node. 
+
+
+
+
+
+
+830 Nejc Rožman  et al. / Procedia CIRP 81 (2019) 826–831
+ Nejc Rožman et al / Procedia CIRP 00 (2019) 000–000  5 
+
+
+3. Case study 
+
+
+To represent how the proposed platform would work in real 
+life a case of a manufacturing company producing a particular 
+product will be presented. 
+
+
+Step 1 - Discovery: Together with other companies, they 
+are facing challenges of managing their supply chain. They are 
+in need of automated processes which can be controlled 
+remotely by computers, so they can optimize their production 
+and supply chain. They find the platform through the Interface 
+node as the Genesis node is using it to present information 
+about the platform. 
+
+
+Step 2 – Exploring the platform: The Genesis node 
+provides a link to all other elementary nodes of the platform. 
+Because the company is looking for a service of transport for 
+the product, their attention is focused towards the Mapping 
+node which maps transport providers with their API. The 
+Address Resolver Node (ARN) is one of the mapping nodes 
+which maps providers of service with their IP address of API. 
+Besides a list of all service providers, this type of node also 
+describes what kind of an API service providers are using and 
+what functions are integrated into the API. The main area of 
+operation of the company is in Europe, therefore they find an 
+ARN that is listing only providers of transport in Europe.  
+
+
+Step 3 – Using the platform: As the company receives the 
+list of all providers on the platform, they start sending their 
+demand to the providers by using their API. Transport 
+providers return their offers and the company can select the best 
+option for their production. When they reach an agreement, 
+everything is written on a smart contract of the Agreement 
+node, where the company and transport providers sign the 
+contract with their digital signatures. With the terms of the 
+agreement, opposing parties also decide on the penalties in case 
+of breaking the terms. Both of the parties lock a certain amount 
+of funds on the smart contract. After the service is done, they 
+report about the outcome, if they agree about the outcome the 
+funds are distributed among both parties according to the 
+written terms. To incent opposing parties of the contract to 
+report correctly about the outcome, some funds locked in the 
+contract are distributed also as a reward for the actors that 
+confirm they broke the terms. In case that all parties of the 
+contract can't reach an agreement, the funds are locked in the 
+contract. The Rating node takes in account trustworthy of the 
+users based on the amount of resolved conflicts on the 
+Agreement node and users with the best rating would get a 
+reward from the funds locked in the smart contract where there 
+are still unresolved conflicts. Another provider of the service is 
+also an insurance company which is another example of the 
+Service node on the platform. The company decides that they 
+would like to insure themselves in case of unresolved conflicts, 
+the insurance company would pay for the agreement between 
+the company and service providers. Insurance premiums for the 
+users are based on their ratings written on the Rating node, 
+which are calculated from the unresolved conflicts.  
+
+
+Step 4 – Modifying the platform: The company is pleased 
+with the way platform works, so they decide to upgrade their 
+shipments with smart packaging. Each package is running its 
+own User node and can interact with other nodes on the 
+platform. Package nodes are programmed so that they fulfil the 
+
+
+criteria set by the company. For example, if they want to 
+transport package the cheapest way possible, the package will 
+look for the cheapest offers from the service providers. While 
+they are using the platform, they recognize the need for another 
+feature of the Agreement node. In order to ensure the best 
+quality of the product at the end point of the transport, the 
+product must be shipped in the vehicle that ensures certain 
+conditions. Therefore, the company can write a smart contract 
+that extends the Agreement node. The new smart contract adds 
+to the terms of the agreement a function which obliges transport 
+company to provide a certificate from a selected institute, 
+certifying that their vehicles can provide required conditions 
+during the transport. 
+
+
+3.1. Validation 
+
+
+To validate the concept, we implemented a platform with 
+the following nodes: Address resolver node, Package node, 
+Transport node and a Storage node. The Address resolver node 
+is a smart contract written on the Blockchain network. The 
+smart contract was deployed on the test network Rinkeby. 
+Package node is a consumer of the services listed on the 
+Address resolver node. Transport and storage nodes are 
+providers of the services and are written on the list. All of these 
+nodes were implemented as IoT devices with microcomputer 
+
+
+Fig. 4. The process of getting the service from the platform. 
+
+
+Fig. 5. Physical model. 
+
+
+
+
+
+
+ Nejc Rožman  et al. / Procedia CIRP 81 (2019) 826–831 831
+6 Nejc Rožman et al. / Procedia CIRP 00 (2019) 000–000 
+
+
+Raspberry Pi and were running their own REST API. For the 
+physical model, we used ten package nodes, two warehouse 
+nodes and one transport node. On the physical model, we ran 
+different tests to determine the feasibility of the concept. In the 
+first test, the initial package distribution between warehouses 
+varied to verify if the package distribution converges to the 
+expected equilibrium (equal number of packages in the 
+warehouses) over time. The price of storing a package 
+depended on the number of packages currently stored in the 
+warehouse. The results show that even though tests were run 
+with different initial package distributions, in time, the 
+packages ended up equally distributed among the warehouses. 
+
+
+A part of testing on the physical model was also a 
+measurement of the overall system efficiency indicator which 
+was determined by the difference between the measured real 
+times of providing services and the agreed upon times. As a 
+part of the experiment, we have measured the time delays of 
+transport node during the service of transporting the package 
+from storage to storage. At first, the transport node didn’t use 
+any kind of an algorithm to determine when it should start 
+driving. It reacted on the agreed times and the measured time 
+delay average was 9.96 s. In the second part of the experiment, 
+we implemented a simple algorithm which predicts the time of 
+transport in advance. The measured time delay average with an 
+implemented algorithm was 0.77 s. The results are showing that 
+in order to increase system efficiency, existing nodes will have 
+to optimize their own algorithms first. 
+
+
+4. Conclusion 
+
+
+In this work, we are proposing a new concept of distributed 
+logistic platform based on Blockchain technology. The 
+proposed concept of the platform is solving modern supply 
+chain problems with a distributed network of nodes. By 
+breaking complex logistic system on smaller parts, individual 
+users of the platform are taking care of fewer processes at any 
+given moment. Since the platform is providing an option for a 
+fully automated supply chain, new options for the optimization 
+of all processes in the supply chain are possible. Using 
+Blockchain technology as the basis for the platform is not only 
+allowing the users to write down agreements in the self-
+executing smart contracts without an intermediate person, but 
+it is also a way for trustworthy public announcements of 
+services. Furthermore, new technology can publicly display 
+untampered information on compliance with the agreements of 
+individual platform users. This kind of trustworthy information 
+can affect the position of every actor on the free market. We 
+see the limitation of the proposed concept of the platform in the 
+critical mass of users. In order for the platform to work the way 
+it is meant to be, there has to be a certain number of users who 
+are supporting the platform. Only when the users will create 
+new nodes and change the platform according to the users’ 
+demands and needs, the platform will truly be functional. 
+Considering that the platform is providing an alternative way 
+for smaller supply chain companies to join the global market 
+and is undermining monopolies of the bigger companies, it is 
+expected a lack of interest for the platform from their side. But 
+if they want to be a part of the digital supply chain, they will 
+have to provide their own platform or join an existing one. Our 
+
+
+work in future will be focused towards the implementation of 
+all proposed nodes in the concept.  
+
+
+Acknowledgements 
+
+
+This work was supported by the Slovenian Research Agency 
+under the funding “Young researchers” and under Grant P2-
+0270 and by the Ministry of Higher Education, Science and 
+Technology of the Republic of Slovenia, grant no. C3330-16-
+529000. 
+
+
+References 
+
+
+[1] World Economic Forum. Digital Transformation of Industries Logistics 
+Industry.  Geneva: WEF; 2016. 
+
+
+[2] Fernie J, Sparks L. Logistics and retail management  emerging issues and 
+new challenges in the retail supply chain. 5th ed., Great Britain; 2019.  
+
+
+[3] Christopher M. Logistics & Supply chain managemen. 5thed., Great Britain: 
+Pearson; 2016. 
+
+
+[4] Varma VA, Reklaitis GV, Blau GE, Pekny JF. Enterprise-wide modeling 
+& optimization—An overview of emerging research challenges and 
+opportunities. Computers & Chemical Engineering, 31(5–6), Elsevier; 
+2007. p. 692–711. 
+
+
+[5] Gallay O, Korpela K, Tapio N, Nurminen JK. A peer-to-peer platform for 
+decentralized logistics. In: Proceedings of the Hamburg International 
+Conference of Logistics (HICL): 2017 Oct 12-14; Hamburg, Germany. 
+Berlin: Epubli; 2017. p. 19-34. 
+
+
+[6] Hackius N, Petersen M. lockchain in logistics and supply chain  trick or 
+treat? In: Proceedings of the Hamburg International Conference of 
+Logistics (HICL): 2017 Oct 12-14; Hamburg, Germany. Berlin: Epubli; 
+2017. p. 3-18. 
+
+
+[7] Abeyratne S, Monfared R. (2016). Blockchain Ready Manufacturing 
+Supply Chain Using Distributed Ledger. International Journal of Research 
+in Engineering and Technology. 05. 
+
+
+[8] Zhi Li, W.M. Wang, Guo Liu, Layne Liu, Jiadong He, G.Q. Huang, 
+(2018) "Toward open manufacturing: A cross-enterprises knowledge 
+and services exchange framework based on blockchain and edge 
+computing", Industrial Management & Data Systems, Vol. 118 Issue: 1, 
+pp.303-320, https://doi.org/10.1108/IMDS-04-2017-0142. 
+
+
+[9] Zhi Li, Layne Liu, Ali Vatankhah Barenji, Waiming Wang. Cloud-based 
+Manufacturing Blockchain: Secure Knowledge Sharing for Injection 
+Mould Redesign. Procedia CIRP, Volume 72, 2018, Pages 961-966, ISSN 
+2212-8271, https://doi.org/10.1016/j.procir.2018.03.004. 
+
+
+[10] Korpela K, Hallikas J, Dahlberg T. Digital Supply Chain Transformation 
+toward Blockchain Integration. In: Hawaii International Conference on 
+System Sciences (HICSS): 2017 Jan 4-7; Waikoloa Village, Hawaii; 2017. 
+p. 4182-4191. 
+
+
+[11] IBM. Maersk and IBM Unveil First Industry-Wide Cross-Border Supply 
+Chain Solution on Blockchain. IBM News room; 2017. Available from: 
+URL: https://www-03.ibm.com/press/us/en/pressrelease/51712.wss. 
+
+
+[12] Allison I. Maersk and IBM want 10 million shipping containers on the 
+global supply blockchain by year-end. 2018. Available from: URL: 
+https://www.ibtimes.co.uk/maersk-ibm-aim-get-10-million-shipping-
+containers-onto-global-supply-blockchain-by-year-end-1609778. 
+
+
+[13] Galvin D. IBM and Walmart: Blockchain for Food Safety. IBM 
+Corporation; 2017. Available from: https://www-
+01.ibm.com/events/wwe/grp/grp308.nsf/vLookupPDFs/6 Using 
+Blockchain for Food Safe 2/$file/6 Using Blockchain for Food Safe 2.pdf. 
+
+
+[14] Tian F. An agri-food supply chain traceability system for China based on 
+RFID & blockchain technology. In: 13th International Conference on 
+Service Systems and Service Management (ICSSSM): 2016 Jun 24-26; 
+Kunming, China. New Jersey: IEEE; 2016. p. 1-6. 
+
+
+[15] Wüst K, Gervais A. Do you Need a Blockchain? In: Crypto Valley 
+Conference on Blockchain Technology (CVCBT): 2018 Jun 20-22; Zug, 
+Switzerland. New Jersey: IEEE; 2018. p. 45-54. 
+
+
+[16] Christidis K, Devetsikiotis M. Blockchains and Smart Contracts for the 
+Internet of Things.  IEEE Access, 4, IEEE; 2016. p. 2292-2303. 
+
+
+
+

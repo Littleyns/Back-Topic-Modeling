@@ -1,0 +1,3454 @@
+
+
+
+
+
+
+
+
+
+
+Contents lists available at ScienceDirect 
+
+
+Industrial Marketing Management 
+
+
+journal homepage: www.elsevier.com/locate/indmarman 
+
+
+Research paper 
+
+
+The digital marketing capabilities gap 
+Dennis Herhausena,⁎, Dario Miočevićb, Robert E. Morganc,d, Mirella H.P. Kleijnene 
+a KEDGE Business School, Domaine de Luminy Rue Antoine Bourdelle, 13009 13009 Marseille, France 
+b University of Split, Faculty of Economics, Cvite Fiskovica, 5 21000 Split, Croatia 
+c Cardiff University, Cardiff Business School, Colum Drive Cardiff, CF10 3EU, United Kingdom 
+d Copenhagen Business School, Department of Marketing, Solbjerg Plads 3 DK-2000, Frederiksberg, Denmark 
+e Vrije Universiteit, Amsterdam School of Business and Economics, De Boelelaan 1105 1081, HV, Amsterdam, Netherlands  
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Digital marketing 
+Resource-based theory 
+Digital capabilities 
+Digital resources 
+Future research agenda 
+
+
+A B S T R A C T   
+
+
+Over the past two decades, digitalization has revolutionized not only consumer marketing but also industrial 
+marketing. Both industrial marketing scholars and industrial marketers seek insights to understand how our 
+knowledge and practice of digital marketing has been structured and configured. To address this gap, we adopt 
+the resource-based perspective as an organizing framework and systematically review 129 articles spanning two 
+decades of research to identify different digital marketing capabilities in industrial firms. From this analysis, we 
+identify four themes: channels, social media, digital relationships, and digital technologies. We then stress-test 
+this knowledge with managerial practices by conducting an online survey of 169 managers, designed to establish 
+the repertoire of current and future marketing capability needs of industrial firms. Herein, we identify two 
+marketing capabilities gaps: the practice gap—which identifies the deficit between managers' ‘current’ practices 
+and their ‘ideal’ digital marketing capabilities; and, the knowledge gap—which demonstrates a significant divide 
+between the digital marketing transformations in industrial firms and the extant scholarly knowledge that un-
+derpins this. Based on these results, we build an agenda for future research on digital marketing capabilities.   
+
+
+1. Introduction 
+
+
+Over the past two decades, digitalization has revolutionized not 
+only consumer marketing but also industrial marketing. E-Commerce, 
+mobile devices, smart products, the Internet of Things (IoT), and 
+Artificial Intelligence all fall within the broader concept of digital 
+marketing which includes all activities, institutions, and processes fa-
+cilitated by digital technologies for creating, communicating, and de-
+livering value for customers (American Marketing Association, 2013). 
+The growing importance of digital marketing in the industrial context is 
+underscored in several recent B2B marketing trends (e.g., Gupta, 2018;  
+Janda, 2018; O'Neill, 2018). For example, industrial marketers intensify 
+their content marketing, employ more often marketing automation 
+platforms, increasingly use chatbots for customer interactions, and 
+search for new prospects on social media sites. Against these develop-
+ments, our paper seeks to advance the understanding of how digitali-
+zation has shaped and will reformulate marketing in industrial firms. 
+
+
+While some researchers have already offered literature reviews of 
+digital, social media, and mobile marketing (e.g., Kannan & Li, 2017;  
+Lamberton & Stephen, 2016; Yadav & Pavlou, 2014), all these studies 
+
+
+exhibit three shortcomings that prevent them to fully inform the in-
+dustrial marketing field. First, these literature reviews have an implicit 
+business to consumer focus, largely neglecting the specific context of 
+industrial firms. Notable exceptions are reviews that focus on subtopics 
+within industrial marketing such as social media use of industrial firms 
+(Salo, 2017) or the impact of digitalization on salespeople (Singh et al., 
+2019). Second, most attention has been given to the tremendous op-
+portunities digital marketing presents, with little attention on the actual 
+related competences that firms need to be successful. We believe that 
+resource-based theory has the potential to bridge this gap and to guide 
+industrial managers on how to benefit from digitalization. Viewing 
+industrial firms as a bundle of capabilities (Barney, 1991) helps to 
+identify, build, and sustain sources of competitive advantage in the new 
+normal of our digital era. Third, existing literature reviews focus on 
+published research only, thereby neglecting the accelerating emergent 
+of “new” digital capabilities in managerial practice. This is trouble-
+some, especially given the speed at which digital technologies evolve 
+and impact business opportunities. 
+
+
+We address these gaps by reviewing 129 high-quality articles that 
+investigate digital marketing capabilities and related resources, by 
+
+
+https://doi.org/10.1016/j.indmarman.2020.07.022 
+Received 2 March 2020; Received in revised form 16 June 2020; Accepted 30 July 2020    
+
+
+⁎ Corresponding author. 
+E-mail addresses: dennis.herhausen@kedgebs.com (D. Herhausen), dmiocevi@efst.hr (D. Miočević), morganre@cardiff.ac.uk, reb.marktg@cbs.dk (R.E. Morgan), 
+
+
+mirella.kleijnen@vu.nl (M.H.P. Kleijnen). 
+
+
+Industrial Marketing Management 90 (2020) 276–290
+
+
+Available online 06 August 2020
+0019-8501/ © 2020 Elsevier Inc. All rights reserved.
+
+
+T
+
+
+
+http://www.sciencedirect.com/science/journal/00198501
+
+https://www.elsevier.com/locate/indmarman
+
+https://doi.org/10.1016/j.indmarman.2020.07.022
+
+https://doi.org/10.1016/j.indmarman.2020.07.022
+
+mailto:dennis.herhausen@kedgebs.com
+
+mailto:dmiocevi@efst.hr
+
+mailto:morganre@cardiff.ac.uk
+
+mailto:reb.marktg@cbs.dk
+
+mailto:mirella.kleijnen@vu.nl
+
+https://doi.org/10.1016/j.indmarman.2020.07.022
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.indmarman.2020.07.022&domain=pdf
+
+
+
+
+confronting 169 managers with the results of the literature review, and 
+by building a future research agenda for the industrial marketing field. 
+Our objectives for this paper are three-fold. First, we address the “what 
+do we know of digital marketing capabilities” question of prior research 
+and develop a framework for industrial marketing research which 
+highlights how the literature on digital capabilities and resources has 
+evolved over the past two decades. Second, we pose the question of 
+“which digital marketing capabilities will drive future value” and respond 
+by creating insights from a management survey. Finally, we consider 
+“how can the digital marketing capabilities gap be reconciled” by revealing 
+several shortcomings of extant research that have hitherto constrained 
+its relevance and created points of disconnect between academia and 
+practice; thereby informing our agenda for interesting, relevant, and 
+forward-looking digital marketing research for industrial firms. 
+
+
+2. Conceptual development 
+
+
+Resource-based theory offers a valuable framework to investigate 
+digital business strategies and their consequential competitive ad-
+vantages (Bharadwaj, El Sawy, Pavlou, & Venkatraman, 2013). More 
+generally, resource-based theory explains the development of a firm's 
+competitive advantage based on capabilities (or competences), defined 
+as a set of “skills and resources which enable the company to achieve 
+superior performance” (Harmsen & Jensen, 2004, p. 535) in a way that 
+is difficult for competitors to imitate (Barney, 1991). Although the in-
+dustrial marketing literature has often employed the resource-based 
+approach as an important theoretical platform (e.g., Morgan, Miočević, 
+& Herhausen, 2019), it is surprisingly scarce in digital marketing re-
+search. 
+
+
+In line with Guesalaga, Gabrielsson, Rogers, Ryals, and Cuevas 
+(2018), we distinguish resources from capabilities to analyze digital 
+marketing in industrial firms. Helfat and Peteraf (2003, p. 999) describe 
+a resource as “an asset or input to production (tangible or intangible) 
+that an organization owns, controls, or has access to on a semi-per-
+manent basis,” and a capability as “the ability of an organization to 
+perform a coordinated set of tasks, utilizing organizational resources, 
+for the purpose of achieving a particular end result.” The distinction of 
+resources and capabilities offers an appropriate lens for studying digital 
+marketing because its success depends on the management of assets 
+(e.g., a large data set) and the ability to undertake specific tasks and 
+processes (e.g., machine learning to uncover meaningful insights). 
+Consequently, we define a digital marketing resource as a digital-related 
+marketing asset (tangible or intangible) that a B2B firm owns, controls, 
+or has access to on a semi-permanent basis. Moreover, a digital mar-
+keting capability is the ability of a B2B firm to perform a coordinated set 
+of digital-related tasks (operational or dynamic), utilizing digital re-
+sources, for achieving a competitive advantage. 
+
+
+Importantly, in the digital context, resources often fail to meet the 
+theoretical requirements to be classified as a resource namely being 
+inimitable, rare, valuable, and non-substitutable (Lambrecht & Tucker, 
+2015). For example, data that are available due to user-generated 
+content reflecting digital behavior across the Internet can be scraped 
+with low costs from many sites, and other sites sell their user data or 
+allow firms to take advantage of user data through targeted advertise-
+ment. Consequently, such data are neither inimitable nor rare, and due 
+to its access by competitors not necessarily valuable. Given multiple 
+providers of data and access (e.g., Google versus Facebook), such data 
+are neither non-substitutable. Indeed, the unstable history of digital 
+business with examples such as Yahoo or Netscape offers little evidence 
+that the mere possession of digital resources is sufficient for value 
+creation and a competitive advantage. The focus of a digital marketing 
+strategy should therefore be on how to use digital resources as inputs 
+which, in turn, create capabilities from which value and competitive ad-
+vantage can be derived. Consequently, we mainly focus in our review on 
+digital marketing capabilities because these endow firms with the 
+means to adapt to market changes that stem from digitalization, new 
+
+
+technologies, and changing consumer behavior (Day, 2011). We thus 
+complement existing reviews1 by focusing on digital marketing cap-
+abilities for industrial firms by asking: (1) what do we know of digital 
+marketing capabilities; (2) which digital marketing capabilities will 
+drive future value; and, (3) how can the digital marketing capabilities 
+gap be reconciled. 
+
+
+3. Literature review 
+
+
+3.1. Identifying relevant articles 
+
+
+We conducted a systematic literature review to explore the cap-
+abilities that underpin digital marketing in industrial firms. Our goal 
+was to identify and classify all critical digital marketing capabilities 
+(and resources). Consistent with other systematic reviews, we limit our 
+review to high-quality sources that align with the study context. To this 
+end, all sources needed to explicitly fall within the scope of marketing 
+and to ensure that all articles included met a threshold of quality as 
+determined by journal centrality and academic standing. We thus 
+considered the following nine journals for the literature review: 
+Industrial Marketing Management; International Journal of Research in 
+Marketing; Journal of Business Research; Journal of Interactive Marketing, 
+Journal of Marketing Research; Journal of Marketing; Journal of Personal 
+Selling & Sales Management; and Journal of the Academy of Marketing 
+Science. In line with other reviews of digital marketing (e.g., Kannan & 
+Li, 2017; Lamberton & Stephen, 2016), we considered all articles 
+published after 2000 until the time of this review (i.e., mid-2019).2 A 
+total of 129 articles qualified for extraction and synthesis, with the 
+majority of articles being attributable to Industrial Marketing Manage-
+ment (99 articles, 77% of all articles). 
+
+
+3.2. Classifying digital marketing capabilities 
+
+
+All digital marketing capabilities and resources in each of the 129 
+articles were classified according to their broader topic. Thus, we coded 
+each article's constructs of interest into a set of common topics for the 
+purposes of our analysis. The authors resolved any differences of the 
+coding scheme through iteration and discussion. We identified 147 
+appearances of specific digital marketing capabilities or resources for 
+industrial firms. Several topics of domain-specific capabilities were 
+condensed and revised. For example, capabilities such as “use of social 
+networking sites,” “social media messaging,” and “social media 
+knowledge” were classified as “social media capabilities.” These efforts 
+resulted in seven first-order topics that we subsequently distilled to four 
+second-order themes. Table 1 presents the research topics and themes, 
+the number of appearances per topic, and illustrative examples for 
+capabilities and resources. 
+
+
+Given clear and apparent themes that emerged from the topics 
+considered during the census period, we use four intervals to 
+
+
+1 Yadav and Pavlou (2014) focus on marketing in computer-mediated en-
+vironments and review literature in both marketing and information systems. 
+The review by Lamberton and Stephen (2016) focuses on consumer psychology, 
+motivations, and expressions in digital environments. The review by Kannan 
+and Li (2017) focuses on the touchpoints in the marketing process where digital 
+technologies are having and will have a significant impact. 
+
+
+2 We conducted searches in citation databases for the respective journals 
+(EBSCO, Science Direct, Emerald, and Web of Knowledge), using the following 
+search terms in the abstract: (“Internet” OR “electronic” OR “online” OR “di-
+gital” OR “social media” OR “mobile”) AND (“industrial” OR “B2B” OR “busi-
+ness to business”). This initial keyword search resulted in a set of 225 articles 
+published in the eight journals, which we then filtered based on their relevance. 
+All papers not addressing capabilities or resources and all papers without an 
+industrial marketing context were excluded. The authors resolved any differ-
+ences through iteration and discussion, with reference to the full text of the 
+articles under consideration. 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+277
+
+
+
+
+
+
+Table 1 
+Literature review on digital marketing capabilities for industrial firms.      
+
+
+Themes Topics Illustrative capabilities Illustrative resources  
+
+
+Theme 1: Channels Online Channel (49 appearances)  ▪ Internet use (Avlonitis & Karayanni, 2000)  
+▪ Participation in electronic markets (Grewal et al., 2001)  
+▪ E-readiness (Berthon, Pitt, Berthon, Campbell, & 
+
+
+Thwaites, 2008)  
+
+
+▪ Website (Chakraborty, Lala, & Warren, 2002)  
+▪ Web-based portal (Clarke III & Flaherty, 2003)  
+▪ E-marketplace (Eng, 2004) 
+
+
+Multichannel (13 appearances)  ▪ Channel integration (Long et al., 2007)  
+▪ Channel coordination (Osmonbekov et al., 2009)  
+▪ Multi-channel capability (Kabadayi et al., 2007)  
+
+
+▪ Hybrid sales structure (Thaichon et al., 2018) 
+
+
+Mobile (3 appearances)  ▪ Mobile device usage (Müller et al., 2018)  ▪ Mobile sales assistants (Spreer & 
+Rauschnabel, 2016)  
+
+
+▪ Mobile app (Gill et al., 2017) 
+Theme 2: Social Media Social Media (34 appearances)  ▪ Social media use (Agnihotri, Kothandaraman, Kashyap, 
+
+
+& Singh, 2012)  
+▪ Social media messaging (Swani et al., 2014)  
+▪ Social media knowledge (Nguyen, Yu, Melewar, & Chen, 
+
+
+2015)  
+
+
+▪ Social CRM technologies (Trainor, 2012)  
+▪ Social media community (Wang, Hsiao, Yang, 
+
+
+& Hajli, 2016)  
+▪ Positive customer reviews (Steward et al., 
+
+
+2018) 
+Theme 3: Digital Relationships Interfirm Relationships (23 
+
+
+appearances)  
+▪ Digital supply chain coordination (Garcia-Dastugue & 
+
+
+Lambert, 2003)  
+▪ CRM process capabilities (Keramati, Mehrabi, & Mojir, 
+
+
+2010)  
+▪ Video conferencing usage (Hardwick & Anderson, 2019)  
+
+
+▪ Digital CRM (Keramati et al., 2010)  
+▪ CRM technology (Agnihotri et al., 2017) 
+
+
+Employees (4 appearances)  ▪ Implementing technological change (Sarin et al., 2010)  
+▪ Technology capability (Lassk et al., 2012)  
+▪ Salesperson social media competency (Guesalaga, 2016)  
+
+
+▪ Digitalization for internal branding (Li et al., 
+2018) 
+
+
+Theme 4: Digital Technologies Technologies (18 appearances)  ▪ IT capability (Grewal et al., 2001)  
+▪ Artificial intelligence and machine learning (Gordini & 
+
+
+Veglio, 2017)  
+▪ Virtual reality usage (Boyd & Koles, 2019)  
+
+
+▪ Digital selling tools (Marshall et al., 2012)  
+▪ Internet of things technology (Suppatvech 
+
+
+et al., 2019)  
+▪ Machine-to-machine communication (Leminen 
+
+
+et al., 2019)    
+
+
+0
+
+
+10
+
+
+20
+
+
+30
+
+
+40
+
+
+50
+
+
+60
+
+
+70
+
+
+19
+99
+
+
+20
+00
+
+
+20
+01
+
+
+20
+02
+
+
+20
+03
+
+
+20
+04
+
+
+20
+05
+
+
+20
+06
+
+
+20
+07
+
+
+20
+08
+
+
+20
+09
+
+
+20
+10
+
+
+20
+11
+
+
+20
+12
+
+
+20
+13
+
+
+20
+14
+
+
+20
+15
+
+
+20
+16
+
+
+20
+17
+
+
+20
+18
+
+
+20
+19
+
+
+C
+u
+
+
+m
+u
+
+
+la
+ti
+
+
+ve
+ P
+
+
+u
+b
+
+
+li
+ca
+
+
+ti
+on
+
+
+s 
+p
+
+
+er
+ T
+
+
+h
+em
+
+
+e
+
+
+Channels Social Media Digital Relationships Digital Technologies
+
+
+Mobile, Social Media, 
+and New Technologies
+
+
+Deepening
+Digital Relationships
+
+
+The Multichannel 
+Challenge
+
+
+The Rise of the 
+Online Channel
+
+
+2016: Mobile
+
+
+2002: Multichannel
+
+
+2010: Employees
+
+
+2013: AI / Machine Learning
+
+
+2007: Channel Mix
+
+
+2017: Internet of Things
+
+
+2010: Marketplaces / Platforms
+
+
+2004: Reverse Auctions
+
+
+2019: Virtual Reality
+
+
+2018: Online Reviews
+
+
+Fig. 1. Representation of the cumulative body of research on the four themes over time. 
+Note: Selected thematic inflection points are reported. 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+278
+
+
+
+
+
+
+characterize the shifting focus of industrial marketing research on di-
+gital marketing capabilities. In line with previous literature reviews 
+(e.g., Guesalaga et al., 2018; Lamberton & Stephen, 2016), we divided 
+our census period into different intervals (see Fig. 1 and Table 2). 
+Studies published from 2000 to 2004 predominantly focus on the rise of 
+the online channel, accounting for 77% of all digital capabilities con-
+sidered during the census period. While many studies published from 
+2005 to 2009 still investigated the online channel, its interplay with 
+other channels gained importance. Many publications shifted its focus 
+to multichannel capacities, in particular to the coordination and in-
+tegration of the online channel with other channels. During the years 
+2010–2014, deepening digital relationships was the main theme. This 
+includes both interfirm relationships and intrafirm relationships to 
+employees. Contemporary studies published from 2015 to 2019 are 
+characterized with three dominant topics, namely mobile, social media, 
+and digital technologies. Similar to the B2C domain, it is apparent that 
+the total number of publications devoted to digital capabilities in in-
+dustrial marketing has increased considerably in more recent years. Our 
+literature review continues with an explication of the four digital 
+marketing capability themes. 
+
+
+3.2.1. Channels 
+Most of the earlier research on digital capabilities falls under the 
+
+
+first theme of channels—consisting of online channel (48 articles), 
+multichannel (12 articles), and mobile capabilities (three arti-
+cles)—defined as the customer contact points or the mediums through 
+which the firm and the industrial customer interact. Out of the 63 ar-
+ticles, 26 are conceptual; 6 use qualitative methods; and 31 articles use 
+quantitative methods. The intellectual legacy of channel capabilities is 
+dominated by the conceptual/theoretical understanding how the 
+Internet provides a new gateway for industrial buyer-seller exchanges 
+through various types of emerging online channel capabilities and re-
+sources. The advent of the Internet inherently transformed the con-
+ception how B2B transactions were conducted (Sharma, 2002). For 
+example, industrial marketing researchers examined how Internet use 
+enhances firm level processes and performance (Avlonitis & Karayanni, 
+2000) and changes marketing activities such as managing sales (Long, 
+Tellefsen, & Lichtenthal, 2007) and communications (Lichtenthal & 
+Eliaz, 2003). 
+
+
+Scholars also discussed the plausibility of adding web portals as a 
+new resource to B2B strategies (Clarke III & Flaherty, 2003). For ex-
+ample, Perry and Bodkin (2002) study reveals crucial determinants of 
+how deep industrial firms engage in website marketing. In terms of 
+managing the firm's own website as a channel, Deeter-Schmelz, 
+Kennedy, and Goebel (2002) investigated how firms utilize the Internet 
+as a communication tool in buying-selling dyads. Ellinger, Lynch, and 
+Hansen (2003) demonstrate that industrial firms with higher invest-
+ments in website interactivity witness higher sales revenues payoff. 
+Besides for communication, scholars have found that industrial firms 
+that use websites for expressing their corporate brands report higher 
+financial performance (Simoes, Singh, & Perin, 2015). Most recently, 
+
+
+others have revealed the value of corporate blogging as an emerging 
+capability for B2B professionals (Thakur & AlSaleh, 2018), potentially 
+signaling more research on emerging communication capabilities. 
+
+
+The increasing diffusion of the Internet in the B2B sphere has en-
+abled many industrial firms to establish their own online channels 
+which resulted in disintermediation and the genesis of e-commerce. In 
+an early phase, researchers started to investigate the motivation and 
+abilities of industrial firms to participate in e-commerce as sellers 
+(Grewal, Comer, & Mehta, 2001) and buyers (Kennedy & Deeter- 
+Schmelz, 2001). As e-commerce started to gain momentum, researchers 
+engaged in revealing the structural idiosyncrasies (Dou & Chou, 2002) 
+and underlying marketing capabilities (Siu, 2002) of successful e- 
+commerce adoption. Furthermore, studies show the importance of the 
+IT infrastructure in determining e-commerce activities (Claycomb, Iyer, 
+& Germain, 2005; Min & Galle, 2003). 
+
+
+As a new form of market making, authors discussed the (dis)ad-
+vantages (Jap, 2002) as well as the cost saving potentials (Emiliani, 
+2004) of online auctions and reverse auctions. Online (reverse) auctions 
+have been considered market making mechanism that disrupts tradi-
+tional buyer-seller industrial relationships by putting the price in the 
+spotlight as a critical cue in making buying decision (Emiliani, 2005). 
+By furthering the principle of “cost savings”, authors warned that it is 
+possible for online auctions to enhance long-term relationships between 
+its constituents while simultaneously lowering the costs of transactions 
+(Daly & Nath, 2005). 
+
+
+At the same time while entering the online domain, industrial firms 
+continued to maintain their traditional channels. This led researchers to 
+scrutinize how to successfully develop multichannel capabilities (Sharma 
+& Mehrotra, 2007) while successfully integrating and optimizing all 
+online and offline channels (Rosenbloom, 2007). B2B firms that extend 
+to online channels face challenges of optimization in their general 
+business strategy but witness higher financial performance (Cheng, 
+Tsao, Tsai, and Tu, 2007; Kabadayi, Eyuboglu, & Thomas, 2007). In 
+parallel, scholars made first attempts to unfold what drives the B2B 
+buyer's decision to engage in multichannel purchasing (Merrilees & 
+Fenech, 2007) as well as B2B sellers' view how they could exploit the 
+B2B multichannel engagement (Müller, Pommeranz, Weisser, & Voigt, 
+2018). 
+
+
+With growing importance of the Internet, the phenomenon of re- 
+intermediation emerged where new types of online intermediaries in 
+the form of electronic marketplaces appeared, and industrial firms need 
+to build capabilities to deal with them. As a new phenomenon, scholars 
+sought to assess the incidence of electronic marketplaces employed by 
+industrial firms (Fu, Chao, Chang, & Chang, 2008). Following on from 
+this work, empirical evidence became a substantive means of under-
+standing when e-marketplace makers should engage in specific gov-
+ernance mechanism with a goal of enhancing e-marketplace perfor-
+mance (Grewal, Chakravarty, & Saini, 2010). Most recently, scholars 
+have investigated the evolution of two-sided online platforms, which 
+simultaneously operate in both B2C and B2B streams (Muzellec, 
+Ronteau, & Lambkin, 2015). By identifying that the supply side of two- 
+
+
+Table 2 
+Digital marketing capability second-order themes and first-order topics over time.       
+
+
+Research topics and derived 
+themes 
+
+
+2000 to 2004: The rise of 
+the online channel 
+
+
+2005 to 2009: The 
+multichannel challenge 
+
+
+2010 to 2014: deepening 
+digital relationships 
+
+
+2015 to 2019: Mobile, social 
+media, and new technologies  
+
+
+Channels 33 (85%) 17 (90%) 3 (11%) 12 (19%) 
+Online Channel 30 (77%) 10 (53%) 3 (11%) 6 (9%) 
+Multichannel 3 (8%) 7 (37%) – 3 (5%) 
+Mobile – – – 3 (5%) 
+
+
+Social media – – 8 (31%) 26 (42%) 
+Digital relationships 5 (13%) 2 (10%) 10 (39%) 11 (17%) 
+
+
+Interfirm relationships 5 (13%) 2 (10%) 8 (31%) 9 (14%) 
+Employees – – 2 (8%) 2 (3%) 
+
+
+Digital technologies 1 (2%) – 5 (19%) 14 (22%) 
+Total publications 39 19 26 63 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+279
+
+
+
+
+
+
+sided platforms is under-researched, these scholars contributed to 
+better understanding the opportunities and challenges for businesses 
+that offer products and services through such platforms (Lim, 2017). 
+Concurrently, scholars found evidence that engagement in B2B online 
+platforms creates early mover advantage benefits but only for short 
+period (Deng & Wang, 2016). 
+
+
+A small number of studies have explored the potential dark side 
+associated with B2B online exchanges. These report that conflicts may 
+surface with the implementation of demand-side e-commerce solutions 
+(Osmonbekov, Bello, & Gilliland, 2009). Since privacy may be violated, 
+researchers have examined how to enhance trust in e-commerce set-
+tings (Luo, 2002). However, this work has been transcended given 
+ubiquitous computing in B2B markets (e.g., with IoT technologies) and 
+more recent investigations on data privacy in B2C settings (Martin, 
+Borah, & Palmatier, 2017), industrial marketing research is needed that 
+addresses this important topic. 
+
+
+As technology advanced, mobile media became an important channel 
+for B2B firms. For example, Spreer and Rauschnabel (2016) identified 
+six factors that inhibit the use of mobile devices in sales assistance. In 
+addition, others have investigated the benefits of using mobile apps as a 
+resource for customer engagement and found that such initiatives result 
+in higher sales through empowering business customer to participate 
+(Gill, Sridhar, & Grewal, 2017). Recent studies have started to shed 
+light on the multichannel capabilities needed to integrate mobile and 
+social media into a firm's existing marketing channels (Thaichon, 
+Surachartkumtonkun, Quach, Weaven, & Palmatier, 2018). 
+
+
+3.2.2. Social media 
+A second theme, associated with 31 articles, focuses on digital 
+
+
+capabilities that are specific to social media, which are defined as di-
+gital communication platforms and services that allow parties to con-
+nect with one another, to share information, and engage in dialogue. 
+These include social networking sites, collaborative projects, blogs, 
+content communities, and virtual worlds (Kaplan & Haenlein, 2010). 
+Industrial marketing publications related to social media capabilities 
+started to appear after 2010, and research on this topic was sub-
+stantially stimulated by a special issue in the Journal of Personal Selling 
+& Sales Management in 2012 and two special sections of Industrial 
+Marketing Management in 2016 and 2019. Although a relatively young 
+research stream, social media in the field of industrial marketing has 
+already evoked an informative literature review (Salo, 2017). While 
+that literature review sheds light on the opportunities of social media 
+for industrial firms, it does not address social media-related capabilities 
+and resources as we do. Out of the 31 articles identified for our review, 
+four are conceptual, seven use qualitative methods, and 20 articles 
+employ quantitative methods. 
+
+
+The preponderance of articles investigate the capability of industrial 
+firms to use social media as a marketing tool and its related resources (26 
+articles), on either the employee or the organizational level. On the 
+employee level (i.e., salespersons, 14 articles), studies have mostly 
+identified the expected utility, usability, and usefulness as primary 
+reasons for employees to use social media, and improved market 
+knowledge and a higher communication quality as the direct outcomes 
+of social media use. Illustrative of this stream of research is Itani, 
+Agnihotri, and Dingus's (2017) study in which the authors examine 
+attitude towards social media usefulness as an antecedent and compe-
+titive intelligence collection as well as adaptive selling behavior as 
+outcomes of social media use. Other antecedents for employees' social 
+media usage are individual proficiency and familiarity with social 
+media tools as well as the organizational social media expertise 
+(Guesalaga, 2016). All studies on the employee level report positive 
+effects of social media use on relevant outcomes (e.g., Ogilvie, 
+Agnihotri, Rapp, & Trainor, 2018; Rodriguez, Peterson, & Krishnan, 
+2012). 
+
+
+Research on the organizational level largely mirrors research on the 
+employee level (12 articles). Perceived usefulness and ease of use 
+
+
+motivate B2B firms to adopt social media (Siamagka, Christodoulides, 
+Michaelidou, & Valvi, 2015), and higher communication quality is an 
+expected outcomes of social media use (Wang, Pauleen, & Zhang, 
+2016). Moreover, organizational social media use has been con-
+ceptually and qualitatively linked to co-creating value (Trainor, 2012), 
+interfirm cooperation (Chirumalla, Oghazi, & Parida, 2018), and net-
+work creation (Quinton & Wilson, 2016). However, although all studies 
+on the organizational level expect positive effects of social media use, 
+no study so far has quantified a potential organizational performance 
+effect for B2B firms. This might be the reason for an interesting 
+paradox. Despite the high interest in social media for industrial firms in 
+academia and practice (e.g., O'Neill, 2018), an early study found that a 
+majority of B2B companies considered social media use as irrelevant for 
+them (Michaelidou, Siamagka, & Christodoulides, 2011), and a more 
+recent survey found little evidence that this has changed: B2B managers 
+perceived social media as less important and less effective than other 
+managers (Iankova, Davies, Archer-Brown, Marder, & Yau, 2019). 
+Moreover, there is little research on the microfoundations of social 
+media use, in other words the processes and routines that enable B2B 
+firms to engage in social media conversations. 
+
+
+Four articles investigate the content management capabilities of in-
+dustrial firms, all on the organizational level. These articles shed light 
+on the distinct semantic approaches (Mehmet & Clarke, 2016), distinct 
+functions (Leek, Canning, & Houghton, 2016), and distinct commu-
+nication strategies (Swani, Brown, & Milne, 2014) that underpin social 
+media messages for B2B firms. Moreover, investigating different com-
+munication strategies in business markets, Swani, Milne, Brown, Assaf, 
+and Donthu (2017) found that the inclusion of the brand name, func-
+tional and emotional appeals, and information search cues increases the 
+popularity of B2B messages. Research is silent on the topic of what 
+guides salespeople in their individual content management strategies 
+when they use social media relevant for customer relationships (in 
+particular LinkedIn). Finally, one article considers B2B online reviews as 
+an important resource for industrial firms (Steward, Narus, & Roehm, 
+2018). However, no further research is apparent on this valuable topic 
+which lags the B2C context and for which there is no direct comparison 
+(e.g., Bruhn, Schnebelen, & Schäfer, 2014). 
+
+
+3.2.3. Digital relationships 
+The third theme is devoted to digital relationship capabilities which 
+
+
+we define as the dynamic and ongoing interactions between trusted 
+parties that are interdependent and enable value to be appropriated by 
+any actor. Twenty seven articles are attributable to this theme from our 
+review. The majority of these were quantitative studies from a range of 
+research designs (16 articles) through to qualitative studies including 
+content analyses as well as case methods and interviews (9 articles). 
+Two of these articles reported conceptual insights from agenda setting 
+reviews on supply chain coordination (Garcia-Dastugue & Lambert, 
+2003) and sales management training (Lassk, Ingram, Kraus, & Mascio, 
+2012) in B2B relationship building. 
+
+
+Digital marketing capabilities are largely derived from sources de-
+voted to interfirm relationships as well as relationships with employees. 
+These include digital supply chain management, managing virtual 
+networks, collaboration marketplaces, governance mechanisms, and 
+customer relationship management as capabilities related to interfirm 
+relationships, and intra-firm relationship management, employee 
+training, and the digital sales interface as employee capabilities. 
+Although the majority of the articles considered relationships at the 
+inter-organizational interface(s) as the unit of analysis (23 articles), 4 
+articles examined relationships at the individual employee level. 
+Scholarly attention was originally devoted to firm capabilities in their 
+upstream digital relationships with the purpose of improving buyer-sup-
+plier relations (Leek, Turnbull, & Naude, 2003), creating more timely 
+communication (MacDonald & Smith, 2004), coordinating network 
+performance (Gupta, Cadeaux, & Dubelaar, 2006; Gupta, Cadeaux, & 
+Woodside, 2005), and ensuring improved supply chain coordination 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+280
+
+
+
+
+
+
+(Garcia-Dastugue & Lambert, 2003). The early stages of B2B relation-
+ships are characteristically chaotic for both sides of the exchange (La 
+Rocca, Perna, Caruana, & Snehota, 2016). Relationships build through 
+interactions and, evidently, digital technologies have provided the 
+means to improve search, selection, and communication with upstream 
+partners thereby facilitating greater coordination. Initially, digital 
+technologies enabled firms to create rudimentary capabilities for in-
+strumental purposes designed primarily to improve information sharing 
+within supply chains (Bharadwaj et al., 2013). As relationships con-
+solidated between firms, our knowledge of the impact of firms' cap-
+abilities with digital marketing communications have been evaluated. 
+Evidence indicates that personal relationships still drive interactivity, 
+but the merits of digital relationships are that they are more favorable 
+than impersonal communications because they allow rationality to be 
+exhibited and reciprocal feedback to be created which are important 
+drivers of relational satisfaction at scale (Murphy & Sashi, 2018). 
+
+
+The nature of this work coincided with the greater adoption of 
+technology from upstream coordination to begin to span the value 
+chain. Thus, midstream digital relationships came to the fore by ex-
+amining virtual networks, collaboration marketplaces, and governance 
+mechanisms for collaboration. Topics that emerged here included em-
+pirical works investigating e-market orientation (Shaltoni & West, 
+2010), central actors in platform relationships (Laczko, Hullova, 
+Needham, Rossiter, & Battisti, 2019), and governance mechanisms in 
+electronic markets (Grewal et al., 2010) as interfirm capabilities. 
+
+
+Of note here are the lateral and network relationships that Pagani 
+and Pardo (2017) identify. Their work revealed that digital marketing 
+capabilities enable three forms of related parallel effects being: (1) 
+activities-linked centered digitalization leading to the optimization and 
+coordination of existing activities; (2) resource-ties centered digitali-
+zation leading to the combinations of new resources which, in turn, 
+generate new activities; and, (3) actor-bonds centered digitalization 
+leading to new bonds among actors not previously linked (p. 191). 
+Furthermore, Wang, Potter, Naim, and Beevo (2011) investigated col-
+laborative (as opposed to closed) electronic logistics marketplaces, 
+which have evolved significantly since this time, and were among the 
+first to analyze how such a system can be configured through the 
+marketing integrations capabilities of information processing and col-
+laborative structures. 
+
+
+Downstream digital relationships provide the greatest number of ar-
+ticles in the digital relationships literature because fundamentally, “one 
+of the most important tasks in marketing is to create and communicate 
+value to customers to drive their satisfaction, loyalty, and profitability” 
+(Kumar & Reinartz, 2016, p. 36). Moreover, particular challenges and 
+opportunities exist for delivering customer value using digital re-
+lationships in the B2B setting. In this regard, B2B relationships go 
+deeper—B2B journeys are longer and more complex and typically in-
+volve many individuals; customization is widespread leading to greater 
+coordination demands; and, the stakes tends to be very high in B2B 
+digital relationships (Maechler, Poenaru, von Collenberg, & Schulze, 
+2017). 
+
+
+These downstream articles are generally more recent and provide a 
+consolidation and synthesis of many of the previous burgeoning lit-
+erature streams. The preponderance of topics reflect the ‘outside-in’ 
+perspective in B2B marketing and are devoted to sales-based digital 
+capabilities. These included: return on engagement activities within 
+B2B relationships (Guesalaga, 2016); customer relationship manage-
+ment in post-sales service (Agnihotri, Trainor, Itani, & Rodriguez, 
+2017); as well as digital sales resources deployed to identify franchisees 
+(López-Fernández & Perrigot, 2018). Sales-based studies are com-
+plemented by intra-firm digital relationships such as the work by Li, 
+Guo, Cao, and Li (2018) on internal branding, as well as the higher- 
+order exploitation of resources deployed to deliver innovation 
+(Hardwick & Anderson, 2019; Zahay, Hajli, & Sihi, 2018) and advanced 
+coordination, collaboration, and integration capabilities between firms 
+and platforms (Laczko et al., 2019; Mallapragada, Grewal, Mehta, & 
+
+
+Dharwadkar, 2015). It is clear that the diffusion of the mature digital 
+relationship adoption practices in B2C markets are diffusing to B2B 
+markets, albeit at a slower rate. For example, Gill et al. (2017) in-
+vestigate a mobile app that a tool manufacturer provides for free to 
+engage its buyers and find that the app increased annual sales revenues 
+by up to 23%. They identify, importantly, that the form and nature of 
+organizational buyer participation intensity is the critical mechanism to 
+deliver these returns. 
+
+
+Regarding employee digital marketing capabilities, scholars have 
+primarily considered individual competency of their roles fulfilling 
+organizational routines. These efforts have explored the extent to which 
+greater investments in sales training (Sarin, Sego, Kohli, & Challagalla, 
+2010) and understanding how technological capabilities could support 
+the sales environment (Marshall, Moncrief, Rudd, & Lee, 2012). Fur-
+thermore, Lassk et al. (2012) explain how training influences a sales-
+person's ability to manage technological change in the firm's sales 
+strategy. Specifically, they find program formality is important to 
+trigger training effectiveness provided the training is mandatory. Some 
+resistance to digital marketing capabilities in sales was evident among 
+older salespeople but overall when engaged, the training effectiveness 
+delivers a series of behavioral- and outcome-based performance in-
+dicators. 
+
+
+3.2.4. Digital technologies 
+The fourth research theme consists of 18 articles focusing on digital 
+
+
+technologies. Eight of these articles are conceptual; four use qualitative 
+methods; and six articles use quantitative methods. At the start of the 
+century with electronic markets still being relatively novel, Grewal 
+et al. (2001) focused on basic IT capabilities and discussed the im-
+portance of the industrial firm's IT capabilities in order to be able to 
+participate in such markets and to deal with the dynamic environment 
+that often characterizes the digital world. As with any introduction of 
+new technology, it is important that firms are ready to embrace such 
+technologies (Vize, Coughlan, Kennedy, & Ellis-Chadwick, 2013). At 
+that time, some firms were evidently more technology ready than others, 
+which impacts the way they are able to capitalize on these new op-
+portunities. 
+
+
+Later publications reflected the development and increasing pro-
+gress of electronic commerce, becoming later known as digital, tech-
+nologies. Kuruzovich (2013) finds that sales technology resources are 
+important for lead sales management in online channels. Such IT sys-
+tems are designed specifically for sales processes and allow for more 
+effective information management by the sales force. Sales organiza-
+tions have been transitioning from traditional, outside sales forces, i.e., 
+field sales, to structures that facilitate online sales management 
+(Thaichon et al., 2018). The accompanying Internet technologies have 
+taken fundamental data management software to intelligent, digitized 
+selling, providing the resources needed for customer-centric relation-
+ship management. Järvinen and Taiminen (2016) concur that mar-
+keting automation plays an important role in increasing high-quality 
+sales leads and the quality of such resources can substantially impact 
+customer satisfaction and loyalty (Kingshott, Sharma, & Nair, 2020). 
+
+
+Automation can significantly contribute to the generation of content 
+that is personalized and thus more relevant to the target audience, in-
+creasing chances of conversion. Moreover, in order to fully exploit the 
+potential of digital marketing, it is important that industrial firms are 
+able to assess how such activities impact performance. This calls for an 
+alignment between the firm strategy and the metrics selected; a strong 
+knowledge base and skills to utilize web analytics; and an organization 
+structure that embeds a marketing metrics system as a resource 
+(Järvinen & Karjaluoto, 2015). 
+
+
+Social communication technologies extend sales technologies to an-
+other level. While both theory and practice seem to be vastly skewed 
+towards B2C applications, B2B practice is reorienting itself towards this 
+new way of acquisition, lead generation, and relationship management 
+(Janda, 2018). The use of social communication technology in B2B is 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+281
+
+
+
+
+
+
+not new, but they have often been considered secondary to more tra-
+ditional means of communication. Yet, the technologies underpinning 
+social media offer new ways to connect firms, i.e., sales managers and 
+their customers (Marshall et al., 2012). Social media can transform both 
+the sales structures and processes (Moncrief, 2017) and extend the way 
+relationships can be facilitated as their reach can be larger. As  
+Coreynen, Matthyssens, and Van Bockhaven (2017) point out, digital 
+technologies are an essential resource to support this transition, where 
+different resource configurations can offer distinctly different ad-
+vantages that range from industrial, commercial, and value-based 
+propositions. 
+
+
+While social media enables human interaction via a technological 
+interface, recent developments in IoT technology presents new config-
+urations including machine-to-machine interactions (Leminen, 
+Rajahonka, Wendelin, & Westerlund, 2019). IoT resources and cap-
+abilities allow for new, modular configurations, where components that 
+can interact with each other independent of human intervention, which 
+are likely to radically transform interactions between people, as well as 
+people and objects (Sousa & Rocha, 2019). IoT technology can provide 
+a supporting backbone in B2B communications where information can 
+be exchanged between objects that deliver input for example for 
+maintenance and support (Falkenreck & Wagner, 2017). 
+
+
+When designed well, this can create smart ecosystems for custo-
+mized solutions, which is often essential in B2B settings and helps 
+manufacturing companies in their transition of moving from sales to 
+services. For example, Suppatvech, Godsell, and Day (2019) develop 
+four archetypes of IoT-enabled servitized business models, where IoT is 
+used as a resource to create additional functions such as personalized 
+services or to connect customers and assets in smart ways (e.g., loca-
+tion-based services). While there are plentiful examples of IoT solutions 
+in B2C by now (Ng & Wakenshaw, 2017), B2B firms are recognizing this 
+potential as well. This is likely to lead to new business opportunities but 
+also new risks, as loci of control are likely to shift (Sousa & Rocha, 
+2019). IoT also can be used as a resource for facilitating new servitized 
+models that are user-based (Suppatvech et al., 2019) and thus parti-
+cularly interesting for any type of subscription-based payment. Re-
+cently, Philips Lighting collaborated with Deloitte to create an IoT 
+based system for one of the Deloitte offices, where Deloitte no longer 
+buys lights, but a lighting solution that is owned and maintained by 
+Philips, challenging the company to offer the most sustainable solution. 
+Finally, in the solution-oriented business model IoT allows firms to offer 
+integrated solutions specifically tailored to the customer's needs. In B2B 
+this typically translates to maintenance and support as well as optimi-
+zation solutions, where IoT can create unique configurations to more 
+effectively build such solutions to support B2B firms in their core ac-
+tivities and processes. Key to the success of IoT technologies the per-
+ceived credibility and usefulness of such technologies by B2B channel 
+partners (Falkenreck & Wagner, 2017). 
+
+
+Artificial intelligence presents firms yet again with a technology that 
+can significantly impact sales, both in the offline and online environ-
+ment (Moncrief, 2017, Sousa & Rocha, 2019). Within that, big data has 
+also led to new technologies and techniques to analyze new types of 
+data, such as image, text or speech in different ways than before (Sousa 
+& Rocha, 2019). By means of machine learning techniques, big data and 
+predictive analysis that take future forward approach, firms are able to 
+improve for example activities along the sales funnel, such as targeting 
+and positioning (Syam & Sharma, 2018) but also customer churn 
+management and eCRM (Gordini & Veglio, 2017). While AI is typically 
+recognized as an essential element in B2B production and manu-
+facturing, the emergence of robotics in customer-facing activities 
+cannot be ignored (Martínez-López & Casillas, 2013). Today, robots 
+start to work along-side humans, and at times even independently in 
+various points of the value chain, including the front office (Sousa & 
+Rocha, 2019). Ultimately, these technologies are indicative of a shift in 
+decision making from humans to machines (Syam & Sharma, 2018). 
+
+
+Finally, while the concept of virtual reality emerged already a few 
+
+
+decades ago, only in recent years the true business potential of virtual 
+reality technology for industrial firms has been recognized. Academic 
+research has only begun to investigate the impact of virtual reality 
+usage can reshape B2B firms and their market performance (Boyd & 
+Koles, 2019). Virtual reality literally takes IT capabilities from 2D to 
+3D, with recent breakthroughs in this field offering a new level of 
+realism to this technology. VR has shifted from a technical to an ex-
+periential focus, where “VR applications capture three-dimensional, 
+computer-generated spaces that enable vivid and multi-sensory ex-
+periences within rich media settings” (Boyd & Koles, 2019). 
+
+
+4. Management interviews and survey 
+
+
+4.1. Data collection 
+
+
+A two-phase data collection process captured the managerial view 
+on the current development and future importance of the digital mar-
+keting capabilities. Phase 1 was aimed at evaluating and where needed 
+refining, adjusting, and completing the list of capabilities and tech-
+nologies derived from the literature review. This round consisted of a 
+roundtable discussion of the first author with 17 managers during a 
+university workshop. Participants all worked in marketing, sales, or key 
+account manager roles and operated in various industries, including 
+manufacturing, IT and technology, and professional services. 
+Confronted with the four themes and an initial list of digital marketing 
+capabilities and technologies based on the literature review, the man-
+agers renamed some of the capabilities and technologies (e.g., platform 
+
+
+Table 3 
+Profile analysis of participants in the management survey.       
+
+
+Full Sample B2B Respondents B2C Respondents  
+
+
+Country 
+Switzerland 67 48% 25% 
+Germany 15 10% 6% 
+Austria 12 4% 7% 
+Croatia 10 3% 4% 
+United Kingdom 8 10% 8% 
+Other 57 25% 54%  
+
+
+Industry 
+IT and Technology 23 19% 5% 
+Fast-Moving Consumer Goods 19 9% 16% 
+Retailing 13 5% 13% 
+Optics, Medicine, and 
+
+
+Measurement 
+11 8% 5% 
+
+
+Financial Services 10 6% 6% 
+Manufacturing 10 9% 2% 
+Service Provider 10 9% 2% 
+Other 73 35% 51%  
+
+
+Position 
+General Management 67 48% 25% 
+Marketing 64 27% 49% 
+Sales 27 20% 10% 
+Product Development 6 5% 2% 
+Other 5 0% 14%     
+
+
+Yearly turnover 
+up to 1 million Euro 31 20% 16% 
+1 million to 5 million Euro 13 9% 6% 
+5 million to 20 million Euro 15 11% 5% 
+20 million to 50 million Euro 12 9% 3% 
+50 million to 100 Euro 19 14% 6% 
+more than 100 million Euro 63 37% 38% 
+No response 16 0% 25%  
+
+
+Organizational Size (Employees) 9736 10,802 7312 
+Organizational Age 59.69 56.80 66.62  
+
+
+Tenure in Years 8.70 9.19 7.57 
+Age in Years 43.48 43.69 43.00 
+Gender (Female) 26% 28% 22% 
+
+
+Note: NB2B = 106 managers, NB2C = 63 managers.  
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+282
+
+
+
+
+
+
+instead of E-marketplace), grouped some of the capabilities and tech-
+nologies (e.g., channel integration and channel coordination into multi- 
+channel capability), excluded capabilities and technologies that they 
+deemed irrelevant in 2019 (e.g., E-readiness), and added new cap-
+abilities and technologies (e.g., scraping and web crawling). The first 
+author then reviewed the revised list of the digital marketing cap-
+abilities, resolved any disagreements among participants in a group 
+discussion, and consolidated all suggested changes. 
+
+
+Phase 2 aimed to contrast the view of B2B and B2C managers on 
+their digital marketing capabilities and technologies because previous 
+research has found meaningful differences in how consumer and in-
+dustrial firms approach digital topics (Iankova et al., 2019). We used an 
+online survey in which participants considered the current situation in 
+their firm and rated how well each digital capability or technology is 
+developed within their firm (1 = not at all developed / 7 = fully de-
+veloped), as well as the future importance of each digital capability or 
+technology over the next five years (1 = further development is not 
+important at all / 7 = further development is of uttermost importance). 
+Additionally, they selected what they believed to be the most important 
+digital capabilities or technologies for their marketing from a drop-down 
+list (participants were provided with the opportunity to choose as many 
+capabilities or technologies as they wished). We also asked all partici-
+pants whether any important digital marketing capabilities or tech-
+nologies were missing in the list and they were provided with an open 
+option to enter this. 
+
+
+A link to the questionnaire was distributed to managers via LinkedIn 
+on the authors' profiles and via email among B2B and B2C managers 
+from an alumni panel of the first author's university. A total of 169 
+managers fully completed the questionnaire (106 B2B and 63 B2C 
+managers). Table 3 contains the summary profiles of the survey re-
+spondents. 
+
+
+4.2. Survey results 
+
+
+When comparing the data on the actual state and future develop-
+ment, both B2B and B2C respondents clearly agree that almost all di-
+gital marketing capabilities will become more instrumental in the fu-
+ture (see Table 4). With regard to their currently most important digital 
+capabilities for their marketing activities, both B2B and B2C managers 
+selected their own company website and multichannel capability most 
+often (Table 5). Additional channel-related capabilities that were pro-
+minent include the use of third-party e-commerce for selling and pro-
+viding a mobile app for customers. Regarding social media, the B2B 
+managers named social media for organizational communication, taking 
+
+
+advantage of positive customer reviews and reacting appropriately on 
+negative customer reviews, salespersons' social media competency, and 
+engaging in digital business communities. The importance of digital re-
+lationships is highlighted by the identification of social and digital CRM 
+technologies, digital selling tools, and implementing digital change as im-
+portant capabilities. The importance of advanced data analytics relates 
+to digital technologies. 
+
+
+Moreover, when we compare the current development and future 
+importance of digital marketing capabilities, we encounter meaningful 
+gaps in many capabilities. Many industrial marketers are being chal-
+lenged by a deluge of data that is well beyond the capacity of their firms 
+to comprehend and use, as pointed out by the gaps regarding big data 
+infrastructure for machine generated data and unstructured data, big data 
+visualization, artificial intelligence and machine learning, and advanced 
+data analytics (Table 6). Moreover, the survey revealed multichannel 
+capability gaps, also in terms of providing a mobile app for customers, 
+digital selling tools, and IoT technology. In addition, B2B firms have a 
+capability gap when it comes to taking advantage of positive customer 
+reviews. 
+
+
+We also found some meaningful differences between the B2B vs. 
+B2C perspective on digital marketing capabilities. Capabilities related 
+to mobile apps, the management of customer reviews, and digital 
+selling tools are much more developed in B2C firms, and B2B firms 
+should learn from more advanced firms and adapt the obtained insights 
+to the industrial context. The same applies to big data-related insights, 
+such as machine generated data, cloud computing, and scraping and 
+web crawling. On the contrary, B2B firms seemed to be more advanced 
+than B2C firms in capabilities related to social media for salespersons 
+and social CRM technologies. 
+
+
+Finally, we also encountered some newly generated digital mar-
+keting capabilities in the survey.3 Some of the B2B participants in-
+dicated that they miss digital marketing capabilities on our list that are 
+important to them. First, several additional communication channels 
+were mentioned. For instance, e-mail marketing and newsletter marketing 
+were highlighted as important communication channels to build and 
+nurture customer relationships. Other participants indicated the in-
+creasing importance of instant messaging such as WhatsApp, Viber, and 
+Telegram for professional relationships. Nonetheless, in order to or-
+chestrate multiple communication channels, several participants 
+
+
+Table 4 
+Most important digital marketing capabilities.        
+
+
+Most Important Capabilities for B2B Firms  Most Important Capabilities for B2C Firms   
+
+
+1. Own company website 75% 1. Own company website 56% 
+2. Multichannel capability 48% 2. Multichannel capability 48% 
+3. Social CRM technologies 45% 3. Social media for organizational communication 30% 
+4. Social media for organizational communication 43%  Providing a mobile app for customers 30% 
+5. Digital selling tools 31% 4. Social CRM technologies 24% 
+6. Digital CRM technologies 30% 5. Implementing digital change 22%  
+
+
+Taking advantage of positive customer reviews 30% 6. Digital CRM technologies 21% 
+7. Implementing digital change 26%  Reacting appropriately on negative customer reviews 21%  
+
+
+Engaging in digital business communities 26%  Use of third party e-commerce for selling 21% 
+8. Reacting appropriately on negative customer reviews 25%  Digital selling tools 21%  
+
+
+Use of third party e-commerce for selling 25% 7. Own social media community 19% 
+9. Advanced data analytics 25%  Advanced data analytics 19% 
+10. Providing a mobile app for customers 23% 8. Taking advantage of positive customer reviews 17%  
+
+
+Salesperson social media competency 23%  Use of company-sponsored blogs as communication channel 17%    
+9. Use of mobile sales assistants 14%     
+
+
+Big data visualization 14%    
+10. Salesperson social media competency 13% 
+
+
+Note: NB2B = 106 managers, NB2C = 63 managers. All participants could select as many digital marketing capabilities that are most important to them as they want 
+(participants selected 1 to 19 digital marketing capabilities).  
+
+
+3 These newly generated digital marketing capabilities were coded by the 
+author team from answers to the question whether any important digital 
+marketing capabilities or technologies were missing in the list. 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+283
+
+
+
+
+
+
+pointed out that industrial firms need to better understand how to take 
+advantage of marketing automation platforms. Second, the role of search 
+engines and online advertisement in an industrial context has been 
+highlighted, including topics such as search engine optimization, search 
+
+
+engine advertisement, open ad auctions, programmatic advertisement, 
+retargeting, and pay per click optimization. Third, some participants 
+already experiment with paid social media and in particular influencer 
+marketing in a B2B context, without a clear understanding whether and 
+
+
+Table 5 
+Current development and future importance of digital marketing capabilities.             
+
+
+Current development Future importance Capabilities gap  
+
+
+B2B B2C Diff. B2B B2C Diff. ΔB2B ΔB2C ΔDIFF  
+
+
+Channels 
+Own company website 5.55 5.39 0.16 6.26 5.83 0.43 0.71 0.44 0.27 
+Use of third party e-commerce for purchasing 3.10 3.58 −0.48 3.74 3.94 −0.20 0.64 0.36 0.28 
+Use of third party e-commerce for selling 3.27 3.68 −0.41 4.43 5.02 −0.59 1.16 1.34 −0.18 
+Use of two-sided platforms for purchasing 2.01 2.12 −0.11 2.66 2.90 −0.24 0.65 0.78 −0.13 
+Use of two-sided platforms for selling 1.98 2.10 −0.12 3.05 3.59 −0.54 1.07 1.49 −0.42 
+Use of company-sponsored blogs 3.40 3.89 −0.49 4.72 4.75 −0.03 1.32 0.86 0.46 
+Multichannel capability 3.48 3.42 0.06 5.33 5.31 0.02 1.85 1.89 −0.04 
+Use of mobile sales assistants 2.62 2.87 −0.24 4.41 4.87 −0.46 1.79 2.00 −0.21 
+Providing a mobile app for customers 2.87 4.00 −1.13 4.75 5.24 −0.49 1.88 1.24 0.64  
+
+
+Social media 
+Social media for organizational communication 4.81 5.00 −0.19 5.29 5.16 0.13 0.48 0.16 0.32 
+Social media for salespersons 3.40 2.95 0.45 4.94 4.57 0.37 1.54 1.62 −0.08 
+Social CRM technologies 3.95 3.57 0.38 5.37 5.31 0.06 1.42 1.74 −0.32 
+Own social media community 3.31 3.54 −0.23 4.77 4.80 −0.03 1.46 1.26 0.20 
+Reacting appropriately on negative customer reviews 4.16 4.89 −0.73 5.90 6.10 −0.20 1.74 1.21 0.53 
+Taking advantage of positive customer reviews 3.78 4.19 −0.41 5.93 5.73 0.20 2.15 1.54 0.61  
+
+
+Digital relationships 
+Digital supply chain coordination 3.15 3.20 −0.05 4.56 4.55 0.01 1.41 1.35 0.06 
+Digital CRM technologies 4.16 4.07 0.10 5.39 5.45 −0.06 1.23 1.38 −0.15 
+Engaging in digital business communities 3.50 3.30 0.20 4.92 4.34 0.58 1.42 1.04 0.38 
+Video conferencing usage 4.63 4.51 0.13 5.52 4.36 1.16 0.89 −0.15 1.04 
+Implementing digital change 4.30 4.37 −0.07 5.98 5.84 0.14 1.68 1.47 0.21 
+Salesperson social media competency 3.36 3.39 −0.04 5.13 4.66 0.47 1.77 1.27 0.50  
+
+
+Digital technologies 
+Advanced data analytics 3.36 3.67 −0.31 5.17 5.33 −0.16 1.81 1.66 0.15 
+Artificial intelligence and machine learning 2.52 2.71 −0.19 4.61 4.49 0.12 2.09 1.78 0.31 
+Big data infrastructure for structured data 3.17 3.48 −0.30 4.92 5.18 −0.26 1.75 1.70 0.05 
+Big data infrastructure for unstructured data 2.32 2.44 −0.11 4.41 4.57 −0.16 2.09 2.13 −0.04 
+Big data infrastructure for machine generated data 2.10 2.66 −0.57 4.29 4.54 −0.25 2.19 1.88 0.31 
+Big data visualization 2.63 3.00 −0.37 4.60 4.87 −0.27 1.97 1.87 0.10 
+Block chain technology 1.90 1.84 0.05 3.36 3.35 0.01 1.46 1.51 −0.05 
+Cloud computing 3.42 3.83 −0.41 5.18 5.08 0.10 1.76 1.25 0.51 
+Digital selling tools 3.50 4.13 −0.62 5.37 5.35 0.02 1.87 1.22 0.65 
+Internet of things technology 2.40 2.56 −0.16 4.42 4.16 0.26 2.02 1.60 0.42 
+Machine-to-machine communication 2.48 2.55 −0.07 4.22 3.94 0.28 1.74 1.39 0.35 
+Monitoring of social media data 3.47 3.97 −0.50 5.10 5.37 −0.27 1.63 1.40 0.23 
+Scraping and web crawling 2.28 2.90 −0.62 3.84 4.60 −0.76 1.56 1.70 −0.14 
+Virtual reality tools 2.13 2.45 −0.32 3.91 4.00 −0.09 1.78 1.55 0.23 
+Voice interfaces 2.44 2.40 0.04 4.09 4.02 0.07 1.65 1.62 0.03 
+Overall 3.19 3.41 −0.22 4.74 4.75 −0.01 1.55 1.34 0.21 
+
+
+Note: NB2B = 106 managers, NB2C = 63 managers. Current development and future importance are measured on 7-point scales. For means and Δ, the Top 10 are in 
+bold and the Bottom 10 are in italics. Differences between B2B and B2C above 0.5 are highlighted.  
+
+
+Table 6 
+The digital marketing capabilities gap.        
+
+
+Capabilities Gap for B2B Firms Δ Capabilities Gap for B2C Firms Δ  
+
+
+1. Big data infrastructure for machine generated data (DT) 2.19 1. Big data infrastructure for unstructured data 2.13 
+2. Taking advantage of positive customer reviews 2.15 2. Use of mobile sales assistants 2.00 
+3. Artificial intelligence and machine learning (DT) 2.09 3. Multichannel capability 1.89 
+4. Big data infrastructure for unstructured data (DT) 2.08 4. Big data infrastructure for machine generated data 1.88 
+5. Internet of things technology (DT) 2.01 5. Big data visualization 1.87 
+6. Big data visualization (DT) 1.98 6. Artificial intelligence and machine learning 1.78 
+7. Providing a mobile app for customers 1.88 7. Social CRM technologies 1.74 
+8. Digital selling tools (DT) 1.86 8. Big data infrastructure for structured data 1.70    
+
+
+8. Scraping and web crawling 1.70 
+9. Multichannel capability 1.85 9. Advanced data analytics 1.66 
+10. Advanced data analytics (DT) 1.81 10. Social media for salespersons 1.62    
+
+
+10. Voice interfaces 1.62 
+
+
+Note: NB2B = 106 managers, NB2C = 63 managers. Gaps are calculated by subtracting the current development from the future importance. The Top 10 digital 
+marketing capabilities gap are reported.  
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+284
+
+
+
+
+
+
+how these digital activities pay off. Fourth, it was pointed out that 
+online product configurators are important for B2C but so far overlooked 
+for B2B firms although they could be used for similar purposes. Finally, 
+chatbots offer the potential to make online conversations more efficient 
+but are according to some participants not yet used for professional 
+relationships. 
+
+
+5. Discussion and future research agenda 
+
+
+We contribute to the understanding of how digital marketing has 
+evolved and will further mature in industrial marketing practices by 
+using the resource-based perspective to identify different digital mar-
+keting capabilities, by reviewing 129 relevant articles investigating 
+these capabilities over the past two decades, and by confronting 169 
+managers with the identified capabilities and the results of the litera-
+ture review. We find seven categories of capabilities that can be 
+grouped in four research themes: channels, social media, digital re-
+lationships, and digital technologies. In the light of several short-
+comings of the current state of research that have limited its relevance 
+and created points of disconnect between academia and practice, we 
+build a future research agenda of emerging research topics related to 
+digital capabilities in the industrial marketing field (see Table 7). Due 
+to the evolution of the Internet and the shrinking cost of communica-
+tion, there is a widening gap between the accelerating complexity of 
+markets and the capacity of most marketing organizations to compre-
+hend and cope with this complexity (Day, 2011). This gap is evident 
+when we compare the current development and future importance of 
+digital marketing capabilities within the four themes. 
+
+
+5.1. Channels 
+
+
+Similar to the current developments related to channels that is lower 
+in B2B than B2C (ΔB2B vs. B2C = −0.31), also research in industrial 
+
+
+marketing lags considerably behind the omnichannel developments in 
+B2C research. While the online channel has been studied and the im-
+portance of multichannel strategies is recognized (e.g., Manser-Payne, 
+Peltier, & Barger, 2017), a vast amount of research still departs from 
+more traditional channel structures or concentrates on either the online 
+channel in isolation (e.g., Gregory, Ngo, & Karavdic, 2019). For the 
+online channel, optimization through tools such as SEO remains a 
+challenge and a better understanding of how such tools and adver-
+tisement (still) plays a role continues to be important. While most B2B 
+managers consider the firm's own website as instrumental in their 
+marketing strategy, this is rudimentary and multichannel capabilities 
+are also a top priority for the future (ct. Hossain, Akter, 
+Kattiyapornpong, & Dwivedi, 2020). 
+
+
+What the value of each channel is in serving business clients, how to 
+seamlessly integrate those channels in (existing) structures, and how to 
+optimize conversion from one point to the next is far from clear from 
+extant knowledge. Inspired by the developing literature dedicated to 
+customer experience management in B2C (Kranzbühler, Kleijnen, 
+Morgan, & Teerling, 2018), industrial marketers could benefit from 
+developing more insights in what the value-in-use of various touch-
+points (Maechler et al., 2017) is and what this entails for the optimi-
+zation of the sales funnel. Specific topics of attention here are the use of 
+mobile as well as the role of third parties. Mobile had long been in-
+tegrated in the back office of many industrial firms, but the role of 
+mobile applications in general and mobile as a sales assistant specifi-
+cally is less well studied in B2B, despite its importance for practice 
+(Archacki, Protextor, Barrios, & de Bellefonds, 2017). 
+
+
+In the light of channels and touch point analysis, it is important to 
+consider the role of third parties in aiding and/or complimenting the 
+customer journey. Emerging trends in service research and B2C mar-
+keting is stressing the importance of a network approach (Zolkiewski 
+et al., 2017), where different parties that influence the customer in 
+various stages of the journey should be explicitly considered, and the 
+
+
+Table 7 
+Agenda for future research.    
+
+
+Themes (Gaps) Topics and Research Questions for Exploration  
+
+
+Channels (ΔB2B = 1.23)  ▪ How can industrial firms optimize the sales funnel in a multichannel environment?  
+▪ Given the increasing use of mobile and social media, how can industrial firms integrate these new channels into their existing channel 
+
+
+structure?  
+▪ How do search engine optimization and search engine advertisement contribute to customer conversion and loyalty in an industrial context?  
+▪ How can marketing automation platforms orchestrate multiple communication channels and different campaigns for industrial firms?  
+▪ How can corporate blogging generate value for industrial firms?  
+▪ To what extent can instant messaging such as WhatsApp, Viber, and Telegram be used for building and developing communications and 
+
+
+rapport? 
+Social Media (ΔB2B = 1.47)  ▪ What are the microfoundations of social media use that enable industrial firms to engage in successful social media conversations?  
+
+
+▪ Which content management strategies should salespeople follow in their use of social media for customer relationships (in particular on 
+LinkedIn)?  
+
+
+▪ Does social media use of industrial firms contribute to organizational performance? If so, what are the magnitude and contingencies of the 
+performance effect?  
+
+
+▪ How can firms take advantage of positive customer reviews and react appropriately on negative customer reviews in an industrial context?  
+▪ Do paid social media and influencer marketing work for industrial firms  
+▪ What are the contingent influences on the social media adoption by salespeople and customer loyalty? 
+
+
+Digital relationships (ΔB2B = 1.40)  ▪ For which tasks can digital marketing capabilities be developed in industrial firms so as to reduce the reliance on personal interaction?  
+▪ What are the sources of resistance to developing digital capabilities at the individual employee level?  
+▪ What are the appropriate digital metrics for gauging the extent and quality of capabilities underlying digital relationships along the 
+
+
+industrial sales funnel?  
+▪ What are the ‘new’ internal boundaries, interfaces, and interdependencies of the marketing organization with other functional areas in 
+
+
+industrial firms in determining decision rights over digital marketing practices?  
+▪ What form of digital relationships emerge from Internet-of-Things technologies? How do these interactions manifest themselves in terms of 
+
+
+the capability ecosystem supporting this form of digital relationship?  
+▪ Similar to consumer markets, can online product configurators be used for industrial products to replace costly customization processes? 
+
+
+Digital technologies (ΔB2B = 1.82)  ▪ How can industrial firms integrate intelligent sales technologies into the sales channel to nurture relationships and create a substantial 
+advantage?  
+
+
+▪ Given a higher willingness to do business via digital technology, how does the high-tech vs. high-touch debate from the service context affect 
+the industrial context?  
+
+
+▪ In particular, can chatbots enhance professional relationships?  
+▪ How can industrial marketers capture, organize, comprehend, and use complex big data from multiple sources?  
+▪ In the light of successful examples in consumer markets, how can industrial firms generate value with Internet-of-Things technologies?  
+▪ How can industrial firms use Virtual Reality to enhance experiences and to shift existing business models into new competitive spaces? 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+285
+
+
+
+
+
+
+discussion on owned versus earned touchpoints has yet to arise in in-
+dustrial marketing. Third party-selling, while not a top priority, is a 
+relevant theme in B2B and how to manage the implications of such 
+partnership in a multichannel environment is an undeniable part of 
+future B2B business. 
+
+
+5.2. Social media 
+
+
+Building on the role of channels and multichannel capabilities, so-
+cial media capabilities warrant greater attention in their own right 
+(ΔB2B vs. B2C = −0.12). Overall, this was regarded as a theme with high 
+future importance, but also where most development needs to take 
+place demonstrating a significant digital marketing capabilities gap. 
+Again, this is a field that has developed at remarkable pace in B2C (e.g.,  
+Herhausen, Ludwig, Grewal, Wulf, & Schoegel, 2019, 2020), and is only 
+evolving in B2B (Bill, Feurer, & Klarmann, 2020). We might speculate 
+that this is due to the fact that social media is often seen as a haven for 
+consumers to interact with consumers and where consumer empower-
+ment is considered superior to the role of the firm. Additionally, there is 
+the traditional assumption that B2C is a high-volume customer market 
+and B2B tends to deal with less customers and thus naturally geared 
+towards more face-to-face interactions. That assumption however has 
+been overhauled by the reality of contemporary industrial markets and 
+customer expectations. 
+
+
+There are several social media initiatives that focus specifically on 
+B2B and business opportunities (e.g., Linkedin, Google Plus, and 
+Slideshare). However, research in this area has devoted little attention 
+to how interactions on such platforms can systematically fertilize (new) 
+business opportunities. While social media is often recognized as a lead 
+generator (Bill et al., 2020), some work has also pointed out the value 
+of social media for relationship management (Ogilvie et al., 2018). 
+Equally, others have proclaimed it as the new way of (net)working 
+(Katona & Sarvary, 2014). Also, it is not clear yet what the micro-
+foundations of social media use are that enable industrial firms to en-
+gage in successful social media conversations. Social media often car-
+ries connotations of being “personal” and the need to be authentic, 
+which has led to some backlash for companies that have taken strategic 
+direction towards their employees and their social media interactions, 
+with customers or otherwise (Mehmet & Clarke, 2016). Hence it re-
+mains unclear, what the role of the firm should be in developing social 
+media strategies, how employees can be engaged in the right types of 
+social media interactions, and how these translate to employee and firm 
+performance. Early research seems to indicate that social media had 
+value for industrial marketing, but how value creation and appropria-
+tion via these platforms emerges and which contingencies play a role in 
+this is an important avenue for further research. 
+
+
+Corporate blogging was recognized as an emerging opportunity. 
+While B2C practice as well as research on blogging, vlogging and in-
+fluencer marketing has steadily developed into a mature field (e.g.,  
+Hughes, Swaminathan, & Brooks, 2019), B2B marketers struggle with 
+how to develop corporate blogging into a strategically relevant tool. As 
+it is difficult to draw upon analogies from the B2C world, where just 
+about any consumer can become a b/vlogger, research in this field can 
+make a substantial contribution in exploring the mechanisms of how 
+corporate blogging can become an influential communication strategy 
+in industrial marketing. 
+
+
+Specifically in relation to social media, the question arises how in-
+dustrial firms can capitalize on the “voice of the customer”. From the 
+start, social media has developed a strong stand in the reviewing 
+sphere. In B2C, consumers consider social media as an important source 
+of information and reviews, both positive and negative, are highly in-
+fluential in the decision-making process (Rosario, Sotgiu, de Valck, & 
+Bijmolt, 2016). Industrial marketers have yet to appreciate and em-
+brace how this dimension of social media can be used effectively in 
+B2B. Given that the decision making process in B2B is often sub-
+stantially different from that of the individual consumer, it is important 
+
+
+to understand which factors would drive the impact of such review 
+platforms in industrial marketing and to what extent firms can strate-
+gically influence these factors in order to capitalize on the review 
+phenomenon in social media. Recent compelling insights by Bill et al. 
+(2020) have found no fundamental support for the B2B salesperson 
+social media use-customer loyalty relationship which challenges social 
+media's role as a ‘game-changer’ (Kumar, 2015) and a ‘revolution in 
+sales’ (Marshall et al., 2012). However, there are important con-
+tingencies to this relationship Bill et al. (2020) identify, whereby cus-
+tomer status and the size of the buying center exhibit significant posi-
+tive relationship in enhancing loyalty. Consequently, social media 
+adoption is not a panacea. Rather we need to examine the adoption 
+practices and behaviors that trigger intermediate customer outcomes 
+such as loyalty, lifetime value, and brand equity while recognizing that 
+several contingencies potentially magnify these differential effects. 
+
+
+5.3. Digital relationships 
+
+
+Given the developments in the previous two themes, the theme of 
+both inter- and intra-firm digital relationships emerges naturally as a 
+point of interest. Relationship marketing has strong roots in industrial 
+marketing (as indicated by ΔB2B vs. B2C = 0.05). However, personal re-
+lationships are often equated with face-to-face interactions in B2B. Such 
+a narrow understanding neglects that employees may also play a pivotal 
+role of in digital interactions. For example, Herhausen, Emrich, Grewal, 
+Kipfelsberger, and Schoegel (2020) provide evidence of the positive 
+effects of employees' digital presence on customer loyalty, and Singh, 
+Marinova, and Singh (2020) shed light on salespersons' influence tactics 
+in digital negotiations. Moreover, there is the belief that the sales-
+person's tacit knowledge is pivotal to successful relationship manage-
+ment. In fact, attempts to transform to (digital) technologies to capture 
+such tacit knowledge and manage relationships using a more data- 
+driven approach often meets resistance from employees as they feel 
+threatened by such transformational changes. Moving forward how-
+ever, digital relationships are important in developing and sustaining a 
+successful business, especially for those firms operating on an interna-
+tional or even global level. In fact, as the scope of the firm increases, 
+personal and customized interactions and solutions can be achieved in 
+many different ways (e.g., online product configurators), especially 
+when digital CRM capabilities are developed in the right way. Online 
+product configurators allow organizational buyers to select from pro-
+duct variants and construct a customized product solution manner. 
+Building these capabilities at scale enables firms to provide mass cus-
+tomization to products that are high complex. An example of this is 
+Zeppelin's configurator that provides B2B customers of Caterpillar 
+construction machinery the platform upon which to design configure to 
+specific performance requirements. 
+
+
+Cloud computing infrastructure provides B2B operatives on-demand 
+network access to a pool of configurable resources. Commonly con-
+sidered the responsibility of the Chief Digital Officer, decision rights 
+over these and other new digital capabilities are becoming increasingly 
+blurred. Whilst digital transformations is becoming seamless and core, 
+important questions over the decison rights remain—who owns what, 
+which processes, and what rules apply to understand the evolution of 
+digital transformation. For example, Péladeau and Acker (2019) assert 
+that: “Previously, Chief Digital Officer roles tended to be filled by 
+people from market-facing functions, including marketing, customer 
+services, sales, or distribution. Now, however, organizations are in-
+creasingly seeking Chief Digital Officer s with strategy and technology 
+backgrounds—those who are able to work at the C-level across func-
+tional silos and who are capable of understanding the disruptions en-
+abled by technology”. 
+
+
+The same applies to better understanding how different digital 
+marketing capabilities across the B2B firm's portfolio, both complement 
+and/or substitute across these ‘new’ internal boundaries, interfaces, and 
+interdependencies of the marketing organization with other functional 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+286
+
+
+
+
+
+
+areas in industrial firms. This question can be taken further by asking 
+for which relational tasks can digital marketing capabilities be devel-
+oped in industrial firms so as to reduce the reliance on personal inter-
+action? Yadav and Pavlou (2020) pose a similar question for B2C 
+contexts in order to better understand how relationships can alter 
+within technology-enabled interactions. In setting management inter-
+ventions then to develop such capabilities in B2B firms, it is important 
+to understand clearly what are the sources of resistance to developing 
+these at the individual employee level? 
+
+
+5.4. Digital technologies 
+
+
+Underlying all themes is the development of digital technologies as 
+an essential resource feeding into digital capabilities, which is more in 
+B2C settings (ΔB2B vs. B2C = −0.30). To fuel marketing automation 
+(e.g., website and search optimization, CRM), it is important to un-
+derstand how integrating intelligent sales technologies into the sales 
+channel can nurture relationships and create a substantial advantage 
+for industrial firms. The qualities of those technologies substantially 
+impact customer satisfaction and loyalty (Kingshott et al., 2020), hence 
+it is important to understand both the characteristics of the technology 
+that will make it successful as well as those that will drive employees' 
+optimal use of it. Even though not fully accepted yet, there are signs 
+that the need for personal contact is changing also in B2B (i.e., more 
+willingness to do business via digital technology; Tan & Ludwig, 2016). 
+Future research might transfer the high-tech vs. high-touch debate from 
+the service context to an industrial context (Wirtz & Zeithaml, 2018). 
+Interestingly, while technology interfaces have typically been regarded 
+as less personal and less rich, arising technologies such as VR might 
+actually shift this discussion to a more experiential focus, also in in-
+dustrial marketing as these technologies are offering vivid and multi- 
+sensory experiences (Boyd & Koles, 2019). 
+
+
+What is important to pay attention to in this digital transformation 
+is the role of the employee and the negative consequences that such 
+networks tend to be “always on” (i.e., 24/7 availability; Marshall et al., 
+2012). Especially in competitive environments, employees' wellbeing 
+might be at serious risk here, especially when at the same time digital 
+transformation can be perceived as a threat to the employees' job (i.e., 
+being replaced by technology). More and more attention is being de-
+voted to this issue, especially in light of the upcoming IoT and AI 
+technologies and their potential to transform business models alto-
+gether (Huang & Rust, 2018). Along with these technology develop-
+ments, it is important to understand the interplay of management skills 
+such as innovation skills, leadership skills, management skills (Sousa & 
+Rocha, 2019) to successfully translate these developments internally 
+and externally. 
+
+
+Given the complexity of industrial markets, the potential of AI and 
+IoT might be even larger than for B2C. Such technologies can deal with 
+far more complex problems than humans can, so the potential to shift 
+boundaries and create new paradigms is substantial. However, this also 
+implies that there are new risks to account for, “as loci of control are 
+likely to shift” (Sousa & Rocha, 2019), not just to customers but also to 
+systems and technologies itself, as they start to interact independently. 
+Consequently, future research directions emerge that call for specific 
+industrial context. 
+
+
+5.5. Limitations 
+
+
+Our literature review is necessarily ‘retrospective’, restricted to ex-
+isting research topics, and subject to the limitations inherent in the 
+original studies. Only few of the articles deal with performance out-
+comes of digital marketing capabilities. For instance, many studies in-
+vestigated the relationship between digital marketing capabilities and 
+related constructs from a nomological network (e.g., social media use 
+influences better collection of market intelligence online) but we know 
+very little whether these digital marketing capabilities provide a 
+
+
+positive return to investment (because building these capabilities can 
+be costly) or whether they increase sales or another financial outcome. 
+In addition, most articles do not consider contingency effects in the 
+outcomes of digital marketing capabilities. Whereas “mainstream” 
+capability research is already saturated with a contingency approach 
+(Morgan et al., 2019), we hardly found any papers on digital cap-
+abilities in an industrial marketing context. Such important nuances 
+should be addressed by future research. Our subsequent interviews and 
+the survey were designed to gain insight into the current development 
+and future importance of digital marketing capabilities among practi-
+tioners, none of which allows us to measure actual usage or outcomes. 
+More fine-grained empirical studies could determine the relative per-
+formance effects of different digital marketing capabilities for industrial 
+firms, and a larger sample could examine industry-specific differences 
+in the importance of the digital marketing capabilities. 
+
+
+6. Conclusion 
+
+
+Taken together, the literature review, the management interviews, 
+and the survey revealed two marketing capabilities gaps: the practice 
+gap—which identifies the deficit between managers' ‘current’ practices 
+and their ‘ideal’ digital marketing capabilities; and, the knowledge 
+gap—which demonstrates a significant divide between the digital 
+marketing transformations in industrial firms and the extant scholarly 
+knowledge that underpins this. We strongly believe that the current 
+COVID-19 crisis further increases the opportunities and importance of 
+digital marketing capabilities for B2B firms (e.g., Pedersen, Ritter, & Di 
+Benedetto, 2020). Many governments implemented social distancing at 
+large scales to limit spreading of the virus, and digital sales channels 
+took priority during the COVID-19 crisis. Given that by the time we 
+write this article there is no sign that personal meetings will be the 
+norm again, B2B firms and B2B scholars need to close the digital 
+marketing capabilities gap as fast as possible. We hope that our research 
+agenda provide guidance for this endeavor. 
+
+
+Acknowledgments 
+
+
+The authors are grateful to the marketing managers that provided us 
+with primary data allowing us to develop an agenda for future research 
+that is distilled from the current challenges confronting industrial 
+marketing in firms. We thank Special Area Editor, John Nicholson and 
+the Review Team for their constructive and helpful suggestions on 
+previous drafts of this manuscript. We are also grateful to the following 
+collaborators for discussions that have helped to shape the formulations 
+in this manuscript: Chad Autry, Anthony di Benedetto, Pierre Berthon, 
+Fu-Mei Chuang, Andreas Eggert, Ruud Frambach, Lilla Hortoványi, 
+Kerry Hudson, Mathew Hughes, Paul Hughes, Christos Koritos, Adam 
+Lindgreen, Luigi de Luca, Neil Morgan, Matthew Robson, Robert 
+Spencer, Roland Szabo, and Douglas Vorhies. 
+
+
+References 
+
+
+Agnihotri, R., Kothandaraman, P., Kashyap, R., & Singh, R. (2012). Bringing “social” into 
+sales: The impact of salespeople's social media use on service behaviors and value 
+creation. Journal of Personal Selling & Sales Management, 32(3), 333–348. 
+
+
+Agnihotri, R., Trainor, K. J., Itani, O. S., & Rodriguez, M. (2017). Examining the role of 
+sales-based CRM technology and social media use on post-sale service behaviors in 
+India. Journal of Business Research, 81, 144–154. 
+
+
+American Marketing Association (2013). Definitions of marketing. https://www.ama. 
+org/the-definition-of-marketing/. 
+
+
+Archacki, R., Protextor, K., Barrios, G., & de Bellefonds, N. (2017). Mobile marketing and 
+the new B2B buyer. Boston consulting group report. https://www.bcg.com/en-gb/ 
+publications/2017/marketing-sales-digital-go-to-market-transformation-mobile- 
+marketing-new-b2b-buyer.aspx. 
+
+
+Avlonitis, G. J., & Karayanni, D. A. (2000). The impact of internet use on business-to- 
+business marketing: Examples from American and European companies. Industrial 
+Marketing Management, 29(5), 441–459. 
+
+
+Barney, J. (1991). Firm resources and sustained competitive advantage. Journal of 
+Management, 17(1), 99–120. 
+
+
+Berthon, P., Pitt, L., Berthon, J. P., Campbell, C., & Thwaites, D. (2008). E-relationships 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+287
+
+
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0005
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0005
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0005
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0010
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0010
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0010
+
+https://www.ama.org/the-definition-of-marketing/
+
+https://www.ama.org/the-definition-of-marketing/
+
+https://www.bcg.com/en-gb/publications/2017/marketing-sales-digital-go-to-market-transformation-mobile-marketing-new-b2b-buyer.aspx
+
+https://www.bcg.com/en-gb/publications/2017/marketing-sales-digital-go-to-market-transformation-mobile-marketing-new-b2b-buyer.aspx
+
+https://www.bcg.com/en-gb/publications/2017/marketing-sales-digital-go-to-market-transformation-mobile-marketing-new-b2b-buyer.aspx
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0030
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0030
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0030
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0035
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0035
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0040
+
+
+
+
+for e-readiness: Culture and corruption in international e-B2B. Industrial Marketing 
+Management, 37(1), 83–91. 
+
+
+Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business 
+strategy: Toward a next generation of insights. MIS Quarterly, 37(2), 471–482. 
+
+
+Bill, F., Feurer, S., & Klarmann, M. J. (2020). Salesperson social media use in business-to- 
+business relationships: An empirical test of an integrative framework linking ante-
+cedents and consequences. Journal of the Academy of Marketing Science, 48, 734–752. 
+
+
+Boyd, D. E., & Koles, B. (2019). Virtual reality and its impact on B2B marketing: A value- 
+in-use perspective. Journal of Business Research, 100, 590–598. 
+
+
+Bruhn, M., Schnebelen, S., & Schäfer, D. (2014). Antecedents and consequences of the 
+quality of e-customer-to-customer interactions in B2B brand communities. Industrial 
+Marketing Management, 43(1), 164–176. 
+
+
+Chakraborty, G., Lala, V., & Warren, D. (2002). An empirical investigation of antecedents 
+of B2B Websites' effectiveness. Journal of Interactive Marketing, 16(4), 51–72. 
+
+
+Cheng, J. M. S., Tsao, S. M., Tsai, W. H., & Tu, H. H. J. (2007). Will eChannel additions 
+increase the financial performance of the firm?—The evidence from Taiwan. 
+Industrial Marketing Management, 36(1), 50–57. 
+
+
+Chirumalla, K., Oghazi, P., & Parida, V. (2018). Social media engagement strategy: 
+Investigation of marketing and R&D interfaces in manufacturing industry. Industrial 
+Marketing Management, 74(5), 138–149. 
+
+
+Clarke, I., III, & Flaherty, T. B. (2003). Web-based B2B portals. Industrial Marketing 
+Management, 32(1), 15–23. 
+
+
+Claycomb, C., Iyer, K., & Germain, R. (2005). Predicting the level of B2B e-commerce in 
+industrial organizations. Industrial Marketing Management, 34(3), 221–234. 
+
+
+Coreynen, W., Matthyssens, P., & Van Bockhaven, W. (2017). Boosting servitization 
+through digitization: Pathways and dynamic resource configurations for manu-
+facturers. Industrial marketing management, 60, 42–53. 
+
+
+Daly, S. P., & Nath, P. (2005). Reverse auctions for relationship marketers. Industrial 
+Marketing Management, 34(2), 157–166. 
+
+
+Day, G. S. (2011). Closing the marketing capabilities gap. Journal of Marketing, 75(4), 
+183–195. 
+
+
+Deeter-Schmelz, D. R., Kennedy, K. N., & Goebel, D. J. (2002). Understanding sales 
+manager effectiveness: Linking attributes to sales force values. Industrial Marketing 
+Management, 31(7), 617–626. 
+
+
+Deng, Z., & Wang, Z. (2016). Early-mover advantages at cross-border business-to-business 
+e-commerce portals. Journal of Business Research, 69(12), 6002–6011. 
+
+
+Dou, W., & Chou, D. C. (2002). A structural analysis of business-to-business digital 
+markets. Industrial marketing management, 31(2), 165–176. 
+
+
+Ellinger, A. E., Lynch, D. F., & Hansen, J. D. (2003). Firm size, web site content, and 
+financial performance in the transportation industry. Industrial Marketing 
+Management, 32(3), 177–185. 
+
+
+Emiliani, M. L. (2004). Sourcing in the global aerospace supply chain using online reverse 
+auctions. Industrial Marketing Management, 33(1), 65–72. 
+
+
+Emiliani, M. L. (2005). Regulating B2B online reverse auctions through voluntary codes of 
+conduct. Industrial Marketing Management, 34(5), 526–534. 
+
+
+Eng, T. Y. (2004). The role of e-marketplaces in supply chain management. Industrial 
+Marketing Management, 33(2), 97–105. 
+
+
+Falkenreck, C., & Wagner, R. (2017). The Internet of Things–Chance and challenge in 
+industrial business relationships. Industrial Marketing Management, 66, 181–195. 
+
+
+Fu, H. P., Chao, P., Chang, T. H., & Chang, Y. S. (2008). The impact of market freedom on 
+the adoption of third-party electronic marketplaces: A fuzzy AHP analysis. Industrial 
+Marketing Management, 37(6), 698–712. 
+
+
+Garcia-Dastugue, S. J., & Lambert, D. M. (2003). Internet-enabled coordination in the 
+supply chain. Industrial Marketing Management, 32(3), 251–263. 
+
+
+Gill, M., Sridhar, S., & Grewal, R. (2017). Return on engagement initiatives: A study of a 
+business-to-business mobile app. Journal of Marketing, 81(4), 45–66. 
+
+
+Gordini, N., & Veglio, V. (2017). Customers churn prediction and marketing retention 
+strategies. An application of support vector machines based on the AUC parameter- 
+selection technique in B2B e-commerce industry. Industrial Marketing Management, 
+62(3), 100–107. 
+
+
+Gregory, G. D., Ngo, L. V., & Karavdic, M. (2019). Developing e-commerce marketing 
+capabilities and efficiencies for enhanced performance in business-to-business export 
+ventures. Industrial Marketing Management, 78(3), 146–157. 
+
+
+Grewal, R., Chakravarty, A., & Saini, A. (2010). Governance mechanisms in business-to- 
+business electronic markets. Journal of Marketing, 74, 45–62 July. 
+
+
+Grewal, R., Comer, J. M., & Mehta, R. (2001). An investigation into the antecedents of 
+organizational participation in business-to-business electronic markets. Journal of 
+Marketing, 65(3), 17–33. 
+
+
+Guesalaga, R. (2016). The use of social media in sales: Individual and organizational 
+antecedents, and the role of customer engagement in social media. Industrial 
+Marketing Management, 54(3), 71–79. 
+
+
+Guesalaga, R., Gabrielsson, M., Rogers, B., Ryals, L., & Cuevas, J. M. (2018). Which re-
+sources and capabilities underpin strategic key account management? Industrial 
+Marketing Management, 75(4), 160–172. 
+
+
+Gupta, A. (2018). 7 not-to-miss digital marketing trends for B2B. https://thenextscoop. 
+com/digital-marketing-trends-b2b/. 
+
+
+Gupta, S., Cadeaux, J., & Dubelaar, C. (2006). Uncovering multiple champion roles in 
+implementing new-technology ventures. Journal of Business Research, 59(5), 549–563. 
+
+
+Gupta, S., Cadeaux, J., & Woodside, A. (2005). Mapping network champion behavior in 
+B2B electronic venturing. Industrial Marketing Management, 34(5), 495–503. 
+
+
+Hardwick, J., & Anderson, A. R. (2019). Supplier-customer engagement for collaborative 
+innovation using video conferencing: A study of SMEs. Industrial Marketing 
+Management, 80, 43–57. 
+
+
+Harmsen, H., & Jensen, B. (2004). Identifying the determinants of value creation in the 
+market: A competence-based approach. Journal of Business Research, 57(5), 533–547. 
+
+
+Helfat, C. E., & Peteraf, M. A. (2003). The dynamic resource‐based view: Capability 
+
+
+lifecycles. Strategic management journal, 24(10), 997–1010. 
+Herhausen, D., Emrich, O., Grewal, D., Kipfelsberger, P., & Schoegel, M. (2020). Face 
+
+
+forward: How employees' digital presence on service websites affects customer per-
+ceptions of website and employee service quality. Journal of Marketing Research 
+(forthcoming). 
+
+
+Herhausen, D., Ludwig, S., Grewal, D., Wulf, J., & Schoegel, M. (2019). Detecting, pre-
+venting, and mitigating online firestorms in brand communities. Journal of Marketing, 
+83(3), 1–21. 
+
+
+Herhausen, D., Ludwig, S., Grewal, D., Wulf, J., & Schoegel, M. (2020). How to keep 
+complaints from spreading. Harvard Business Review, 99(3), 19–23. 
+
+
+Hossain, T. M. T., Akter, S., Kattiyapornpong, U., & Dwivedi, Y. (2020). 
+Reconceptualizing integration quality dynamics for Omnichannel marketing. 
+Industrial Marketing Management, 87(4), 225–241. 
+
+
+Huang, M. H., & Rust, R. T. (2018). Artificial intelligence in service. Journal of Service 
+Research, 21(2), 155–172. 
+
+
+Hughes, C., Swaminathan, V., & Brooks, G. (2019). Driving brand engagement through 
+online social influencers: An empirical investigation of sponsored blogging cam-
+paigns. Journal of Marketing, 83(5), 78–96. 
+
+
+Iankova, S., Davies, I., Archer-Brown, C., Marder, B., & Yau, A. (2019). A comparison of 
+social media marketing between B2B, B2C, and mixed business models. Industrial 
+Marketing Management, 81(4), 169–179. 
+
+
+Itani, O. S., Agnihotri, R., & Dingus, R. (2017). Social media use in B2B sales and its 
+impact on competitive intelligence collection and adaptive selling: Examining the 
+role of learning orientation as an enabler. Industrial Marketing Management, 66(3), 
+64–79. 
+
+
+Janda, J. (2018). 2018 industrial marketing trends and challenges. https://www.weidert. 
+com/whole_brain_marketing_blog/industrial-marketing-trends-and-challenges. 
+
+
+Jap, S. D. (2002). Online reverse auctions: Issues, themes, and prospects for the future. 
+Journal of the Academy of Marketing Science, 30(4), 506–525. 
+
+
+Järvinen, J., & Karjaluoto, H. (2015). The use of Web analytics for digital marketing 
+performance measurement. Industrial Marketing Management, 50, 117–127. 
+
+
+Järvinen, J., & Taiminen, H. (2016). Harnessing marketing automation for B2B content 
+marketing. Industrial Marketing Management, 54, 164–175. 
+
+
+Kabadayi, S., Eyuboglu, N., & Thomas, G. P. (2007). The performance implications of 
+designing multiple channels to fit with strategy and environment. Journal of 
+Marketing, 71(4), 195–211. 
+
+
+Kannan, P. K., & Li, H. (2017). Digital marketing: A framework, review and research 
+agenda. International Journal of Research in Marketing, 34(1), 22–45. 
+
+
+Kaplan, A. M., & Haenlein, M. (2010). Users of the world, unite! The challenges and 
+opportunities of social media. Business Horizons, 53(1), 59–68. 
+
+
+Katona, Z., & Sarvary, M. (2014). Maersk line: B2B social media—“It's communication, 
+not marketing”. California management review, 56(3), 142–156. 
+
+
+Kennedy, K. N., & Deeter-Schmelz, D. R. (2001). Descriptive and predictive analyses of 
+industrial buyers' use of online information for purchasing. Journal of Personal Selling 
+& Sales Management, 21(4), 279–290. 
+
+
+Keramati, A., Mehrabi, H., & Mojir, N. (2010). A process-oriented perspective on cus-
+tomer relationship management and organizational performance: An empirical in-
+vestigation. Industrial Marketing Management, 39(7), 1170–1185. 
+
+
+Kingshott, R. P., Sharma, P., & Nair, S. R. (2020). Social and technical chains-of-effects in 
+business-to-business (B2B) service relationships. European Journal of Marketing, 54(6), 
+1225–1246. 
+
+
+Kranzbühler, A. M., Kleijnen, M. H., Morgan, R. E., & Teerling, M. (2018). The multilevel 
+nature of customer experience research: An integrative review and research agenda. 
+International Journal of Management Reviews, 20(2), 433–456. 
+
+
+Kumar, V. (2015). Evolution of marketing as a discipline: What has happened and what to 
+look out for. Journal of Marketing, 79(1), 1–9. 
+
+
+Kumar, V., & Reinartz, W. (2016). Creating enduring customer value. Journal of 
+Marketing, 80(6), 36–68. 
+
+
+Kuruzovich, J. (2013). Sales technologies, sales force management, and online in-
+fomediaries. Journal of Personal Selling & Sales Management, 33(2), 211–224. 
+
+
+La Rocca, A., Perna, A., Caruana, A., & Snehota, I. (2016). Developing new business re-
+lationships: An outside-in perspective. In C. Campbell, & J. Ma (Eds.). Looking 
+Forward, Looking Back: Drawing on the Past to Shape the Future of Marketing. 
+Developments in marketing science: Proceedings of the academy of marketing science. New 
+York, NY: Springer. 
+
+
+Laczko, P., Hullova, D., Needham, A., Rossiter, A.-M., & Battisti, M. (2019). The role of a 
+central actor in increasing platform stickiness and stakeholder profitability: Bridging 
+the gap between value creation and value capture in the sharing economy. Industrial 
+Marketing Management, 76(1), 214–230. 
+
+
+Lamberton, C., & Stephen, A. T. (2016). A thematic exploration of digital, social media, 
+and mobile marketing: Research evolution from 2000 to 2015 and an agenda for 
+future inquiry. Journal of Marketing, 80(6), 146–172. 
+
+
+Lambrecht, A., & Tucker, C. E. (2015). Can big data protect a firm from competition? 
+Available at SSRN 2705530 https://papers.ssrn.com/sol3/papers.cfm?abstract_id= 
+2705530. 
+
+
+Lassk, F. G., Ingram, T. N., Kraus, F., & Mascio, R. D. (2012). The future of sales training: 
+Challenges and related research questions. Journal of Personal Selling & Sales 
+Management, 32(1), 141–154. 
+
+
+Leek, S., Canning, L., & Houghton, D. (2016). Revisiting the task media fit model in the 
+era of web 2.0: Twitter use and interaction in the healthcare sector. Industrial 
+Marketing Management, 54(2), 25–32. 
+
+
+Leek, S., Turnbull, P. W., & Naude, P. (2003). How is information technology affecting 
+business relationships? Results from a UK survey. Industrial marketing management, 
+32(2), 119–126. 
+
+
+Leminen, S., Rajahonka, M., Wendelin, R., & Westerlund, M. (2019). Industrial internet of 
+things business models in the machine-to-machine context. Industrial Marketing 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+288
+
+
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0040
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0040
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0045
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0045
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0050
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0050
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0050
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0055
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0055
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0060
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0060
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0060
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0065
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0065
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0070
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0070
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0070
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0075
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0075
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0075
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0080
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0080
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0085
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0085
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0090
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0090
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0090
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0095
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0095
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0100
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0100
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0105
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0105
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0105
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0110
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0110
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0115
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0115
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0120
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0120
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0120
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0125
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0125
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0130
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0130
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0135
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0135
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0140
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0140
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0145
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0145
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0145
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0150
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0150
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0155
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0155
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0160
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0160
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0160
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0160
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0165
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0165
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0165
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0170
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0170
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0175
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0175
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0175
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0180
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0180
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0180
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0185
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0185
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0185
+
+https://thenextscoop.com/digital-marketing-trends-b2b/
+
+https://thenextscoop.com/digital-marketing-trends-b2b/
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0195
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0195
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0200
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0200
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0205
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0205
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0205
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0210
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0210
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0215
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0215
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0220
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0220
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0220
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0220
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0225
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0225
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0225
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0230
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0230
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0235
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0235
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0235
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0240
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0240
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0245
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0245
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0245
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0250
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0250
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0250
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0255
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0255
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0255
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0255
+
+https://www.weidert.com/whole_brain_marketing_blog/industrial-marketing-trends-and-challenges
+
+https://www.weidert.com/whole_brain_marketing_blog/industrial-marketing-trends-and-challenges
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0265
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0265
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0270
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0270
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0275
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0275
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0280
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0280
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0280
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0290
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0290
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0295
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0295
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0300
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0300
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0305
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0305
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0305
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0310
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0310
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0310
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0315
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0315
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0315
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0320
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0320
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0320
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0325
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0325
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0330
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0330
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0335
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0335
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0340
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0340
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0340
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0340
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0340
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0345
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0345
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0345
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0345
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0350
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0350
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0350
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2705530
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2705530
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0360
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0360
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0360
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0365
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0365
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0365
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0370
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0370
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0370
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0375
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0375
+
+
+
+
+Management, 84, 298–311. 
+Li, C., Guo, S., Cao, L., & Li, J. (2018). Digital enablement and its role in internal 
+
+
+branding: A case study of Huanyi travel agency. Industrial Marketing Management, 
+72(1), 152–160. 
+
+
+Lichtenthal, J. D., & Eliaz, S. (2003). Internet integration in business marketing tactics. 
+Industrial marketing management, 32(1), 3–13. 
+
+
+Lim, W. M. (2017). Online group buying: Some insights from the business-to-business 
+perspective. Industrial Marketing Management, 65, 182–193. 
+
+
+Long, M. M., Tellefsen, T., & Lichtenthal, J. D. (2007). Internet integration into the in-
+dustrial selling process: A step-by-step approach. Industrial Marketing Management, 
+36(5), 676–689. 
+
+
+López-Fernández, B., & Perrigot, R. (2018). Using websites to recruit franchisee candi-
+dates. Journal of Interactive Marketing, 42(May), 80–94. 
+
+
+Luo, X. (2002). Trust production and privacy concerns on the Internet: A framework 
+based on relationship marketing and social exchange theory. Industrial Marketing 
+Management, 31(2), 111–118. 
+
+
+MacDonald, J. B., & Smith, K. (2004). The effects of technology-mediated communication 
+on industrial buyer behaviour. Industrial Marketing Management, 33(2), 107–116. 
+
+
+Maechler, N., Poenaru, A., von Collenberg, T. R., & Schulze, P. (2017). Finding the right 
+digital balance in B2B customer experience. McKinsey & Company Reporthttps://www. 
+mckinsey.com/business-functions/marketing-and-sales/our-insights/finding-the-right- 
+digital-balance-in-b2b-customer-experience. 
+
+
+Mallapragada, G., Grewal, R., Mehta, R., & Dharwadkar, R. (2015). Virtual inter-
+organizational relationships in business-to-business electronic markets: 
+Heterogeneity in the effects of organizational interdependence on relational out-
+comes. Journal of the Academy of Marketing Science, 43(5), 610–628. 
+
+
+Manser-Payne, E., Peltier, J., & Barger, V. (2017). Omni-channel marketing, integrated 
+marketing communications and consumer engagement: A research agenda. Journal of 
+Research in Interactive Marketing, 11(2), 185–197. 
+
+
+Marshall, G. W., Moncrief, W. C., Rudd, J. M., & Lee, N. (2012). Revolution in sales: The 
+impact of social media and related technology on the selling environment. Journal of 
+Personal Selling & Sales Management, 32(3), 349–363. 
+
+
+Martin, K. D., Borah, A., & Palmatier, R. W. (2017). Data privacy: Effects on customer and 
+firm performance. Journal of Marketing, 81(1), 36–58. 
+
+
+Martínez-López, F. J., & Casillas, J. (2013). Artificial intelligence-based systems applied in 
+industrial marketing: An historical overview, current and future insights. Industrial 
+Marketing Management, 42(4), 489–495. 
+
+
+Mehmet, M. I., & Clarke, R. J. (2016). B2B social media semantics: Analyzing multimodal 
+online meanings in marketing conversations. Industrial Marketing Management, 54(4), 
+92–106. 
+
+
+Merrilees, B., & Fenech, T. (2007). From catalog to Web: B2B multi-channel marketing 
+strategy. Industrial marketing management, 36(1), 44–49. 
+
+
+Michaelidou, N., Siamagka, N. T., & Christodoulides, G. (2011). Usage, barriers, and 
+measurement of social media marketing: An exploratory investigation of small and 
+medium B2B brands. Industrial Marketing Management, 40(7), 1153–1159. 
+
+
+Min, H., & Galle, W. P. (2003). E-purchasing: profiles of adopters and nonadopters. 
+Industrial Marketing Management, 32(3), 227–233. 
+
+
+Moncrief, W. C. (2017). Are sales as we know it dying… or merely transforming? Journal 
+of Personal Selling & Sales Management, 37(4), 271–279. 
+
+
+Morgan, R. E., Miočević, D., & Herhausen, D. (2019). Capability-driven industrial firms: 
+Considering resources, capabilities, and competencies for marketing developments. 
+Industrial Marketing Management, 83(Nov), 1–7. 
+
+
+Müller, J. M., Pommeranz, B., Weisser, J., & Voigt, K. I. (2018). Digital, social media, and 
+Mobile marketing in industrial buying: Still in need of customer segmentation? 
+Empirical evidence from Poland and Germany. Industrial Marketing Management, 
+73(1), 70–83. 
+
+
+Murphy, M., & Sashi, C. M. (2018). Communication, interactivity, and satisfaction in B2B 
+relationships. Industrial Marketing Management, 68, 1), 1–12. 
+
+
+Muzellec, L., Ronteau, S., & Lambkin, M. (2015). Two-sided Internet platforms: A business 
+model lifecycle perspective. Industrial Marketing Management, 45, 139–150. 
+
+
+Ng, I. C., & Wakenshaw, S. Y. (2017). The internet-of-things: Review and research di-
+rections. International Journal of Research in Marketing, 34(1), 3–21. 
+
+
+Nguyen, B., Yu, X., Melewar, T. C., & Chen, J. (2015). Brand innovation and social media: 
+Knowledge acquisition from social media, market orientation, and the moderating 
+role of social media strategic capability. Industrial Marketing Management, 51(8), 
+11–25. 
+
+
+Ogilvie, J., Agnihotri, R., Rapp, A., & Trainor, K. (2018). Social media technology use and 
+salesperson performance: A two study examination of the role of salesperson beha-
+viors, characteristics, and training. Industrial Marketing Management, 75(6), 55–65. 
+
+
+O'Neill, M. (2018). 11 exciting B2B marketing trends you need to know in 2019. https:// 
+www.brafton.com/blog/strategy/11-exciting-b2b-marketing-trends-you-need-to- 
+know-for-2018/. 
+
+
+Osmonbekov, T., Bello, D. C., & Gilliland, D. I. (2009). The impact of e-business infusion 
+on channel coordination, conflict, and reseller performance. Industrial Marketing 
+Management, 38(7), 778–784. 
+
+
+Pagani, M., & Pardo, C. (2017). The impact of digital technology on relationships in a 
+business network. Industrial Marketing Management, 67(9), 185–192. 
+
+
+Pedersen, C. L., Ritter, T., & Di Benedetto, C. A. (2020). Managing through a crisis: 
+Managerial implications for business-to-business firms. Industrial Marketing 
+Management, 88, 314–322. 
+
+
+Péladeau, P., & Acker, A. (2019). Have we reached “peak” chief digital officer? Strategy 
++Business. March 26. PwC, London https://www.strategy-business.com/blog/have- 
+we-reached-peak-chief-digital-officer. 
+
+
+Perry, M., & Bodkin, C. D. (2002). Fortune 500 manufacturer web sites: Innovative 
+marketing strategies or cyberbrochures? Industrial Marketing Management, 31(2), 
+133–144. 
+
+
+Quinton, S., & Wilson, D. (2016). Tensions and ties in social media networks: Towards a 
+model of understanding business relationship development and business performance 
+enhancement through the use of LinkedIn. Industrial Marketing Management, 54(2), 
+15–24. 
+
+
+Rodriguez, M., Peterson, R. M., & Krishnan, V. (2012). Social media's influence on 
+business-to-business sales performance. Journal of Personal Selling & Sales 
+Management, 32(3), 365–378. 
+
+
+Rosario, A. B., Sotgiu, F., de Valck, K., & Bijmolt, T. H. A. (2016). The effect of electronic 
+word of mouth on sales: A meta-analytic review of platform, product, and metric 
+factors. Journal of Marketing Research, 53(3), 297–318. 
+
+
+Rosenbloom, B. (2007). Multi-channel strategy in business-to-business markets: Prospects 
+and problems. Industrial marketing management, 36(1), 4–9. 
+
+
+Salo, J. (2017). Social media research in the industrial marketing field: Review of lit-
+erature and future research directions. Industrial Marketing Management, 66, 115–129. 
+
+
+Sarin, S., Sego, T., Kohli, A. K., & Challagalla, G. (2010). Characteristics that enhance 
+training effectiveness in implementing technological change in sales strategy: A field- 
+based exploratory study. Journal of Personal Selling & Sales Management, 30(2), 
+143–156. 
+
+
+Shaltoni, A. M., & West, D. C. (2010). The measurement of e-marketing orientation (EMO) 
+in business-to-business markets. Industrial Marketing Management, 39(7), 1097–1102. 
+
+
+Sharma, A. (2002). Trends in Internet-based business-to-business marketing. Industrial 
+marketing management, 31(2), 77–84. 
+
+
+Sharma, A., & Mehrotra, A. (2007). Choosing an optimal channel mix in multichannel 
+environments. Industrial Marketing Management, 36(1), 21–28. 
+
+
+Siamagka, N. T., Christodoulides, G., Michaelidou, N., & Valvi, A. (2015). Determinants of 
+social media adoption by B2B organizations. Industrial Marketing Management, 51(6), 
+89–99. 
+
+
+Simoes, C., Singh, J., & Perin, M. G. (2015). Corporate brand expressions in business-to- 
+business ompanies' websites: evidence from Brazil and India. Industrial Marketing 
+Management, 51, 59–68. 
+
+
+Singh, J., Flaherty, K., Sohi, R. S., Deeter-Schmelz, D., Habel, J., Le Meunier-FitzHugh, K., 
+... Onyemah, V. (2019). Sales profession and professionals in the age of digitization 
+and artificial intelligence technologies: concepts, priorities, and questions. Journal of 
+Personal Selling & Sales Management, 39(1), 2–22. 
+
+
+Singh, S. K., Marinova, D., & Singh, J. (2020). Business-to-business E-negotiations and 
+influence tactics. Journal of Marketing, 84(2), 47–68. 
+
+
+Siu, W. S. (2002). Marketing activities and performance: A comparison of the Internet- 
+based and traditional small firms in Taiwan. Industrial Marketing Management, 31(2), 
+177–188. 
+
+
+Sousa, M. J., & Rocha, Á. (2019). Strategic Knowledge Management in the Digital Age. 
+Journal of Business Research, 94, 223–226. 
+
+
+Spreer, P., & Rauschnabel, P. A. (2016). Selling with technology: Understanding the re-
+sistance to mobile sales assistant use in retailing. Journal of Personal Selling & Sales 
+Management, 36(3), 240–263. 
+
+
+Steward, M. D., Narus, J. A., & Roehm, M. L. (2018). An exploratory study of business-to- 
+business online customer reviews: External online professional communities and in-
+ternal vendor scorecards. Journal of the Academy of Marketing Science, 46(2), 
+173–189. 
+
+
+Suppatvech, C., Godsell, J., & Day, S. (2019). The roles of internet of things technology in 
+enabling servitized business models: A systematic literature review. Industrial 
+Marketing Management, 82(7), 70–86. 
+
+
+Swani, K., Brown, B. P., & Milne, G. R. (2014). Should tweets differ for B2B and B2C? An 
+analysis of fortune 500 companies' twitter communications. Industrial Marketing 
+Management, 43(5), 873–881. 
+
+
+Swani, K., Milne, G. R., Brown, B. P., Assaf, A. G., & Donthu, N. (2017). What messages to 
+post? Evaluating the popularity of social media communications in business versus 
+consumer markets. Industrial Marketing Management, 62, 77–87. 
+
+
+Syam, N., & Sharma, A. (2018). Waiting for a sales renaissance in the fourth industrial 
+revolution: Machine learning and artificial intelligence in sales research and practice. 
+Industrial Marketing Management, 69, 135–146. 
+
+
+Tan, J., & Ludwig, S. (2016). Regional adoption of business-to-business electronic com-
+merce in China: Role of E-readiness. International Journal of Electronic Commerce, 
+20(3), 408–439. 
+
+
+Thaichon, P., Surachartkumtonkun, J., Quach, S., Weaven, S., & Palmatier, R. W. (2018). 
+Hybrid sales structures in the age of e-commerce. Journal of Personal Selling & Sales 
+Management, 38(3), 277–302. 
+
+
+Thakur, R., & AlSaleh, D. (2018). A comparative study of corporate user-generated media 
+behavior: Cross-cultural B2B context. Industrial Marketing Management, 73, 125–136. 
+
+
+Trainor, K. J. (2012). Relating social media technologies to performance: A capabilities- 
+based perspective. Journal of Personal Selling & Sales Management, 32(3), 317–331. 
+
+
+Vize, R., Coughlan, J., Kennedy, A., & Ellis-Chadwick, F. (2013). Technology readiness in 
+a B2B online retail context: An examination of antecedents and outcomes. Industrial 
+Marketing Management, 42(6), 909–918. 
+
+
+Wang, W. Y., Pauleen, D. J., & Zhang, T. (2016). How social media applications affect B2B 
+communication and improve business performance in SMEs. Industrial Marketing 
+Management, 54(2), 4–14. 
+
+
+Wang, Y., Hsiao, S. H., Yang, Z., & Hajli, N. (2016). The impact of sellers' social influence 
+on the co-creation of innovation with customers and brand awareness in online 
+communities. Industrial Marketing Management, 54(3), 56–70. 
+
+
+Wang, Y., Potter, A., Naim, M., & Beevo, D. (2011). A case study exploring drivers and 
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+289
+
+
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0375
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0380
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0380
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0380
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0385
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0385
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0390
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0390
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0395
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0395
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0395
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0400
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0400
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0405
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0405
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0405
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0410
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0410
+
+https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/finding-the-right-digital-balance-in-b2b-customer-experience
+
+https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/finding-the-right-digital-balance-in-b2b-customer-experience
+
+https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/finding-the-right-digital-balance-in-b2b-customer-experience
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0420
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0420
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0420
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0420
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0425
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0425
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0425
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0430
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0430
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0430
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0435
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0435
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0440
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0440
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0440
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0445
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0445
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0445
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0450
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0450
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0455
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0455
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0455
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0460
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0460
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0465
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0465
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0470
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0470
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0470
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0475
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0475
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0475
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0475
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0480
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0480
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0485
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0485
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0490
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0490
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0495
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0495
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0495
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0495
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0500
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0500
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0500
+
+https://www.brafton.com/blog/strategy/11-exciting-b2b-marketing-trends-you-need-to-know-for-2018/
+
+https://www.brafton.com/blog/strategy/11-exciting-b2b-marketing-trends-you-need-to-know-for-2018/
+
+https://www.brafton.com/blog/strategy/11-exciting-b2b-marketing-trends-you-need-to-know-for-2018/
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0510
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0510
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0510
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0515
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0515
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0520
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0520
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0520
+
+https://www.strategy-business.com/blog/have-we-reached-peak-chief-digital-officer
+
+https://www.strategy-business.com/blog/have-we-reached-peak-chief-digital-officer
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0530
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0530
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0530
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0535
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0535
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0535
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0535
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0545
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0545
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0545
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0550
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0550
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0550
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0555
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0555
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0560
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0560
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0565
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0565
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0565
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0565
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0570
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0570
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0575
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0575
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0580
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0580
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0585
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0585
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0585
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0590
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0590
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0590
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf2000
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf2000
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf2000
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf2000
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0595
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0595
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0600
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0600
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0600
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0605
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0605
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0610
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0610
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0610
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0615
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0615
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0615
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0615
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0620
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0620
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0620
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0625
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0625
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0625
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0630
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0630
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0630
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0635
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0635
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0635
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0640
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0640
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0640
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0645
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0645
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0645
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0650
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0650
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0655
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0655
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0660
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0660
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0660
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0665
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0665
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0665
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0670
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0670
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0670
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0675
+
+
+
+
+implications of collaborative electronic logistics marketplaces. Industrial Marketing 
+Management, 40(4), 612–623. 
+
+
+Wirtz, J., & Zeithaml, V. (2018). Cost-effective service excellence. Journal of the Academy 
+of Marketing Science, 46(1), 59–80. 
+
+
+Yadav, M. S., & Pavlou, P. A. (2014). Marketing in computer-mediated environments: 
+Research synthesis and new directions. Journal of Marketing, 78(1), 20–40. 
+
+
+Yadav, M. S., & Pavlou, P. A. (2020). Technology-enabled interactions in digital 
+
+
+environments: A conceptual foundation for current and future research. Journal of the 
+Academy of Marketing Science, 48(1), 132–136. 
+
+
+Zahay, D., Hajli, N., & Sihi, D. (2018). Managerial perspectives on crowdsourcing in the 
+new product development process. Industrial Marketing Management, 71(4), 41–53. 
+
+
+Zolkiewski, J., Story, V., Burton, J., Chan, P., Gomes, A., Hunter-Jones, P., ... Robinson, 
+W. (2017). Strategic B2B customer experience management: The importance of 
+outcomes-based measures. Journal of Services Marketing, 31(2), 172–184.  
+
+
+D. Herhausen, et al.   Industrial Marketing Management 90 (2020) 276–290
+
+
+290
+
+
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0675
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0675
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0680
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0680
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0685
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0685
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0690
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0690
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0690
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0695
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0695
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0700
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0700
+
+http://refhub.elsevier.com/S0019-8501(20)30185-1/rf0700
+
+

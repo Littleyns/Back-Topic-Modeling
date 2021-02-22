@@ -1,0 +1,1345 @@
+
+
+
+
+
+
+
+
+
+
+OR I G I N A L A R T I C L E
+
+
+Measures of learning and teaching material
+availability and use in sub-Saharan Africa and other
+low-income countries
+
+
+Nicholas Read
+
+
+ICON4ED Ltd, 6 Turner Drive, Oxford,
+
+
+United Kingdom
+
+
+Correspondence
+
+
+Nicholas Read, ICON4ED Ltd, 6 Turner
+
+
+Drive, Oxford, United Kingdom.
+
+
+Email: nick.read@icon4ed.com
+
+
+Abstract
+This article reviews the accuracy and relevance of the national moni-
+
+
+toring mechanisms currently used to establish national learning and
+
+
+teaching material (LTM) availability indicators. In many countries, only
+
+
+very basic LTM monitoring requirements are provided. These are not
+
+
+updated regularly and are usually not designed specificially to support
+
+
+effective LTM provision. One of the most disturbing conclusions
+
+
+emerging from recent research is the very widespread lack of invest-
+
+
+ment in the provision of reading books and reading materials for use
+
+
+in schools and the equally widespread lack of usable data on the avail-
+
+
+ability of reading books in relevant languages at any levels in the
+
+
+education systems of most developing countries, particularly in lower
+
+
+primary and pre-school grades. Effective LTM provision requires reli-
+
+
+able information on a number of different activities and inputs that
+
+
+must operate efficiently in sequence. This sequence of activities is
+
+
+often referred to as the Book Chain. If one of the links in the chain is
+
+
+dysfunctional, then there is a risk that the whole system will function
+
+
+ineffectively or inefficiently—or both! Most countries aim to collect
+
+
+their EMIS data, including LTM-related data, on a national basis by
+
+
+drawing information from every school and then consolidating the
+
+
+data gathered on a sub-district, district, regional and eventually
+
+
+national basis. The combination of large numbers of schools located in
+
+
+different regions, often with radically different facilities and opera-
+
+
+tional environments, with large numbers of titles supplied in differing
+
+
+quantities based on grade level enrolments and supply assumptions
+
+
+and potentially in different languages, is very difficult to manage on a
+
+
+manual basis with non-specialist managers. Investments in more
+
+
+sophisticated computerised information management systems are rec-
+
+
+ommended to ensure that decisions can be made quickly, based on
+
+
+good information, sound future planning and adequate financial allo-
+
+
+cations to maintain textbook, teachers’ guides and other essential
+
+
+hard copy LTM supplies equitably at target levels for every school
+
+
+Eur J Educ. 2017;52:523–532. wileyonlinelibrary.com/journal/ejed VC 2017 JohnWiley & Sons Ltd | 523
+
+
+DOI: 10.1111/ejed.12242
+
+
+
+
+
+
+and grade level in the country. Although bespoke, computerised infor-
+
+
+mation management systems probably represent the way ahead in
+
+
+terms of reliable annual provision of accurate LTM-related data they
+
+
+are expensive and there are immediate changes that can be intro-
+
+
+duced at low cost which will improve the usefulness of the data
+
+
+collected. In most countries, a review needs to take place to ascertain
+
+
+exactly what data need to be collected, how often, and in what for-
+
+
+mats different MOE departments require this information. This
+
+
+review should be accompanied by a plan for reducing the duplication
+
+
+of work, district/school administration overhead and data collection
+
+
+methodology.
+
+
+1 | INTRODUCTION
+
+
+The key role of textbooks and other learning and teaching materials (LTMs) in enhancing the quality of learning is
+
+
+widely recognised and supported by more than 40 years of international research (Read, 2015).1 This role is especially
+
+
+important in low-income countries where textbooks and other instructional materials can compensate for factors such
+
+
+as large class-sizes, poorly-trained or even untrained teachers, reduced teacher/student contact hours, high levels of
+
+
+illiteracy among parents and a widespread lack of reading materials in homes and schools. However, despite decades
+
+
+of funding by governments and development partners, few low-income countries have been able to establish sustain-
+
+
+able systems for the provision of adequate high-quality supplies of textbooks and other instructional materials. As a
+
+
+result, essential LTMs remain in short supply or are inequitably distributed in most developing countries. Although the
+
+
+general conclusion of significant under-provision of essential learning and teaching materials is widely accepted, the
+
+
+country data on which this conclusion is based are often flawed and inaccurate, thereby undermining attempts to
+
+
+determine LTM availability across different countries.
+
+
+This article reviews the accuracy and relevance of the national monitoring mechanisms currently used to establish
+
+
+national LTM availability indicators. As a rule, most developing countries do not have clearly-defined achievable LTM
+
+
+provision profiles. Only rarely do countries have access to data that enable them to do more than guess the total num-
+
+
+ber and types of national materials supplied and how and where they should be allocated to individual schools, includ-
+
+
+ing the projected budgets needed to provide and maintain priority LTMs in the school locations to which they should
+
+
+be delivered. Up-to-date and reliable information on textbook stocks held in schools in usable condition is not available
+
+
+to most Ministry of Education (MOE) management institutions (because it is not systematically collected and main-
+
+
+tained and is rarely verified). There is even less readily available information on the extent to which LTM stocks are
+
+
+used in class by teachers and students. If this information is generally unavailable to MOEs, then it cannot be included
+
+
+in the comparative indicators reported by the UNESCO Institute of Statistics (UIS). All countries should have a clear
+
+
+idea of the core textbook, teachers’ guide and reading book provision targets for each grade level, the number of stu-
+
+
+dents who have access to these materials, and the extent to which the materials are being used effectively in the class-
+
+
+room. Different countries will tend to have different curricula with different LTM specifications and target levels of
+
+
+provision. Accurate comparability of levels of provision between different countries only becomes possible and rele-
+
+
+vant when the country differences are known and clearly stated.
+
+
+This review is confined to hard copy print materials—textbooks, teachers’ guides and reading books. In many
+
+
+developing countries, there are now broad policies in place that anticipate a shift towards the provision of digital text-
+
+
+books and reading books to replace hard copy LTMs. In some countries, digital materials are perceived to be in direct
+
+
+competition for funding with hard copy LTMs. In almost all cases, there is inadequate information available on the key
+
+
+digital indicators needed to plan the transition from hard copy to digital requirements or to contribute to realistic esti-
+
+
+mates of the comparative costs involved. As a result, this review focuses on the monitoring of essential hard copy
+
+
+524 | READ
+
+
+
+
+
+
+material provision to schools, maps the different ways used to measure textbook availability in schools and in the class-
+
+
+room; describes the relative advantages and disadvantages of different approaches to data collection and presentation
+
+
+and proposes improvements based on current conditions.
+
+
+The most basic information needed to monitor learning and teaching materials includes accurate, comprehensive,
+
+
+reliable and up-to-date information on schools, school locations, and grade level students (number of students at each
+
+
+grade), students with special education needs (and the type of disability) and teacher numbers. Almost all systems use
+
+
+historical enrolment data to purchase textbooks and other instructional materials for the upcoming year and provision
+
+
+needs to be made for rates of grade progression, drop out, etc. There needs to be information on LTM grade level
+
+
+stock levels and condition in schools and sufficient data on the classroom usage of the available materials. There also
+
+
+needs to be information on MOE policies and assumptions, national language of instruction policies and their implica-
+
+
+tions and the numbers of students and teachers using or learning different languages by location and grade level.
+
+
+Finally, there needs to be accurate assumptions for planning purposes, based on sound data analysis of realistic LTM
+
+
+classroom life and annual loss and damage rates. Both classroom life expectations and annual loss and damage rates
+
+
+tend to vary by grade level and urban/rural location and thus need to be taken into account when gathering essential
+
+
+data.
+
+
+2 | COMMON PROBLEMS IN DATA COLLECTION
+
+
+In many countries, only very basic LTM monitoring requirements are provided. These are not updated regularly and
+
+
+are usually not designed specificially to support effective LTM provision. Many factors influence data collection. For
+
+
+example, many school systems cannot provide regular, annual, comprehensive, reliable and up-to-date lists of schools
+
+
+and their locations (ideally with individual schools GPS coordinates to support easy distribution) with appropriate cate-
+
+
+gorisations. If data on the numbers of schools and their locations are lacking, then one cannot calculate requirements
+
+
+for textbooks. Within this main problem, there are numerous other points to note: schools can also be listed incor-
+
+
+rectly—or even simultaneously—as both government and private schools and may be listed under more than one name
+
+
+and belong to more than one administrative unit. Main schools and feeder schools may be confused and some may
+
+
+not be listed at all. Different MOE departments may collect essentially the same data, but in different formats for dif-
+
+
+ferent purposes. In some countries, enrolment data, for example, may be collected independently by 6 to10 different
+
+
+MOE departments. This increases the administrative overhead of schools and of the MOE, is obviously a waste of
+
+
+scarce MOE resources and signals the need for a more controlled data collection for agreed priority purposes. Grade
+
+
+level student roll numbers are often inaccurate, exaggerated or diminished according to the perceived benefits or dis-
+
+
+advantages of inaccurate data recording. For example, exaggerated roll numbers are often used as evidence to justify
+
+
+increased levels of resources, including in LTM supplies and even teacher postings to schools. Student enrolments
+
+
+often vary during the school year because of drop-outs. Moreover, they are typically more volatile in lower grades
+
+
+than in upper grades, although there are common dips in grade level enrolments between primary and lower secondary
+
+
+and between lower and upper secondary grades.
+
+
+Among the acute problems faced by school systems is the reliability of the different data collection methods; the
+
+
+difficulties and costs of cleaning, checking and verifying the data collected; the stability of grade level enrolments
+
+
+throughout the school year; and the practicalities of delivering on time national school and enrolment data covering all
+
+
+schools according to required national deadlines. Since national data are typically unavailable, donors, NGOs and gov-
+
+
+ernments tend to work in isolation, uncoordinatedly, duplicating LTM investments and distribution.
+
+
+Many school data collection systems are not designed to maintain accurate and up-to-date records of the LTMs
+
+
+supplied to schools and thus stock levels. National LTM management systems may have data on what is supplied to
+
+
+districts, but frequently fail to maintain data on what has been supplied to schools. In 2010, a district level LTM track-
+
+
+ing survey in Ghana (Ghana National Education Campaign Coalition [GNECC], 2010) reported among a number of
+
+
+stock recording discrepancies that 29% of English language stock for primary schools supplied to the district could not
+
+
+be accounted for, including a loss rate of 57% for primary English Book 3. Whilst it noted poor record-keeping as a
+
+
+READ | 525
+
+
+
+
+
+
+general problem in the district and commented unfavourably on stock accountability, it failed to record any stock levels
+
+
+in schools.
+
+
+The widespread absence of well-performed annual stock-taking of LTM stocks within schools and the lack of regu-
+
+
+lar external stock monitoring have several implications. First, it means that real loss and damage rates and actual class-
+
+
+room life assumptions are not as widely known and understood within national LTM management systems and thus
+
+
+are ignored in the process of deciding about supplies. As a result, second, there is a tendency in many countries to
+
+
+assume levels of classroom materials longevity that are likely to be greater than those achievable in practice. This typi-
+
+
+cal outcome is reinforced by MOE budget considerations because longer classroom life leads to reduced procurement
+
+
+quantities and reduced expenditure on learning and teaching materials.
+
+
+A minority of developing country education systems attempt to specify classroom materials considered essential
+
+
+for the effective delivery of the curriculum and the achievement of specified learning outcomes. These are often
+
+
+referred to as the Minimum Profile of Learning and Teaching Materials (MPoLTM) and can include a variable selection of
+
+
+the following types of materials with their typical target levels of provision:
+
+
+� textbooks—typically 1 per student as the target, although this is not commonly achieved or sustained in practice;
+� teacher guides—1 per grade level subject specialist teacher;
+� big books for shared reading practice—1 per 5–10 students;
+� reading books—1 per enrolled grade level student according to the language of instruction and other curriculum
+
+
+specified languages in each area;
+
+
+� flash cards—1 per target class per language;
+� posters—1 set per target class;
+� grammar books—1 per specialist language teacher;
+� atlases—1 per 10 students according to level;
+� dictionaries—1 per 10 students according to language and level.
+
+
+This list is indicative only and is not intended to be an exhaustive list of potential LTMs or typical provision targets.
+
+
+In 2000, Uganda established a Minimum Profile of LTMs to support its new curriculum; however, in 2009 this list
+
+
+was withdrawn as it was no longer affordable. Since this date, only textbooks, teachers’ guides and a limited number of
+
+
+reading books have been funded, but without meeting Uganda’s own basic provision targets.
+
+
+Rwanda established a comprehensive Minimum Profile of learning and teaching materials in 2009 and in 2016 this
+
+
+profile is still operational and supports the introduction of its new competency-based curriculum. That said, current
+
+
+budget allocations for LTMs in 2016 and 2017 may not be sufficient for Rwanda to achieve its own target provision
+
+
+rates for any of the specified materials, except for the core textbooks and teachers’ guides.
+
+
+In a recent research study into LTM provision funding in 13 developing countries in the Caribbean, Africa, the
+
+
+Indian Sub-Continent and South-East Asia only 2 were attempting to fund more than just basic textbooks and teach-
+
+
+ers’ guides and none of the 13 countries covered by the surveys were managing to achieve and maintain their own
+
+
+basic provision targets even for the most basic level of textbooks and teachers’ guides.
+
+
+3 | READING BOOK PROVISION
+
+
+One of the most disturbing conclusions emerging from recent research is the very widespread lack of investment in
+
+
+the provision of reading books and reading materials for use in schools and the equally widespread lack of usable data
+
+
+on the availability of reading books in relevant languages at any levels in the education systems of most developing
+
+
+countries and particularly in lower primary and pre-school grades. Failure to provide suitable reading books to schools
+
+
+in adequate quantities is likely to be a major factor in undermining progress towards early literacy, which, in turn, will
+
+
+impact adversely on levels of student achievement in successor grades. Failure to provide reading books to schools
+
+
+526 | READ
+
+
+
+
+
+
+also hinders the development of the reading habit among students and the under-investment in school and classroom
+
+
+libraries inhibits practice in student research skills.
+
+
+Very few developing education systems provide useful data for planning the provision, availability and use of read-
+
+
+ing books in different target languages. In practice, very few school systems even provide useful guidance on target
+
+
+levels of provision or methods of usage in the classroom. To this extent most developing education systems and the
+
+
+classroom teachers inside these systems are operating in the dark on the ways in which reading books and other read-
+
+
+ing materials should be used to best effect in school classrooms. Upgraded information on reading book availability in
+
+
+schools and use in classrooms should be a priority data collection target in all countries.
+
+
+4 | LOCAL LANGUAGES AS LANGUAGES OF INSTRUCTION
+
+
+Several countries, particularly in SSA, have policies that encourage local languages to be used as LOIs, usually for the
+
+
+first 3 or 4 grades of primary school. Thus, both Nigeria and Kenya have national policies that support the use of catch-
+
+
+ment area languages as LOIs for primary grades 1–3 with transition to English as the LOI in P4. Although these are
+
+
+national policies in both countries, they are not widely enforced by the responsible MOEs and are widely ignored by
+
+
+individual schools. Perhaps more significant is the lack of reliable data in these countries on the schools using different
+
+
+catchment area languages as LOIs and the number of students affected at each grade level. Under these circumstances
+
+
+publishers do not have accurate information on which to base their print run projections and the tendency generally is
+
+
+towards under-printing rather than over-printing as a result.
+
+
+In 2016, Uganda approved 12 local languages as LOIs in P1–3 with English as a default LOI in cosmopolitan urban
+
+
+schools where there may be difficulties in agreeing a single LOI out of several competing possibilities. Unfortunately,
+
+
+the currently available data on schools using different LOIs and the grade level enrolments for different languages
+
+
+make it difficult to calculate LTM print runs and the creation of accurate distribution lists. South Sudan probably
+
+
+achieves the current worst extreme of local language difficulty. Current policy is to use 37 local languages as LOIs for
+
+
+pre-schools and P1–3, but there is no local data yet on which schools in which counties will use which languages and
+
+
+the grade level enrolments required for each LOI. Under these circumstances the mismatch between LOI-related LTM
+
+
+supply policies and their implications and the availability of reliable data to support the efficient implementation of
+
+
+these supply policies remains a serious problem in an increasing number of countries, particularly in SSA where the use
+
+
+of multiple languages of instruction in lower primary grades continues to be a growing objective.
+
+
+5 | LTM CLASSROOM LIFE ASSUMPTIONS
+
+
+Accurate LTM classroom life assumptions are important planning components in the management of LTM provision
+
+
+systems. Clearly, if the LTM management system assumes that overall classroom life for lower grade textbooks is 5
+
+
+years before replacements are required and yet the actual achievable classroom life is only 3 years, then the costs of
+
+
+effective textbook provision will increase by 40% or there will be 2 years when textbooks are not available in class-
+
+
+rooms. Establishing accurate classroom life assumptions and associated annual loss and damage rates requires the
+
+
+maintenance of accurate school stock records across a range of different schools in different urban/rural locations and
+
+
+measuring changing indicators of longevity based on physical production specifications combined with the quality of
+
+
+school materials management and security standards. Once again this is not a widely-practiced discipline within MOEs
+
+
+and in most countries classroom life assumptions are based on little more than guesswork or wishful thinking.
+
+
+6 | DATA COLLECTION ISSUES
+
+
+All the issues listed above depend for their effective resolution upon the availability of sufficient information, where
+
+
+the key considerations are comprehensiveness, accuracy and timing. Most countries aim to collect their EMIS data,
+
+
+including LTM-related data, on a national basis by drawing information from every school and then consolidating the
+
+
+READ | 527
+
+
+
+
+
+
+data gathered on a sub-district, district, regional and eventually national basis. The two most basic approaches to the
+
+
+information gathering process are self-reporting by head teachers via the completion of EMIS questionnaires by indi-
+
+
+vidual schools or by district or sub-district education officers working closely with schools that they know quite well.
+
+
+This is probably the commonest data gathering method. The second approach is direct school surveying by inter-
+
+
+viewers who visit schools specifically for data collection. The interviewers are often university students who may
+
+
+know neither the schools nor the localities very well.
+
+
+Where school surveying is the selected methodology there have been examples of surveyors not visiting difficult
+
+
+access schools and submitting fictitious data instead. A solution to this problem is the use of mobile devices for data
+
+
+collection and transmission where school GPS locations are known, which can be used to prove that surveyors have
+
+
+visited the schools concerned. This methodology was successfully used in Rwanda’s 2013 national inventory of school
+
+
+ICT hardware and software. The success of this project in Rwanda has encouraged the Rwandan Education Board to
+
+
+use this technology on five subsequent surveys. Rwanda in 2017 are using mobile technology to interview 50,000
+
+
+teachers to track ‘Ghost’ teachers within the education system. There are plans to expand the use of this technology
+
+
+to collect school enrolment data from all schools in 2017/2018.
+
+
+The design of the data collection questionnaire is a critical first issue. Some national EMIS questionnaires can be
+
+
+more than 40 pages long and may pose questions that many head teachers may find difficult or even impossible to
+
+
+answer. Any data questionnaire that requires excessive head teacher time and work to complete is a risk. As a rule the
+
+
+longer and more complex the data questionnaire the higher will be the risks of non or incomplete or inaccurate returns.
+
+
+The most basic school level LTM data required on an annual basis are typically grade level enrolment by gender, grade
+
+
+level stock of specified high priority LTMs (usually core textbooks, teachers’ guides and reading books) and loss and
+
+
+damage rates over previous 12 months.
+
+
+The verification of the data collected to determine the level of accuracy should also be considered as part of the
+
+
+design of a reliable LTM-related data collection system. Most schools and head teachers are conscious that school
+
+
+EMIS data could be used as the basis for MOE decisions that could have an impact on their operational capacity and
+
+
+thus head teachers can be tempted to manipulate the data to their perceived advantage. If the data collection system
+
+
+is well established with easy access to previously collected school data then school data comparisons can provide an
+
+
+indicator of school level accuracies. An alternative approach is by random school data checking visits. Data checking by
+
+
+visits to 5% of national schools should provide a good indication of the accuracy of the data collected although the
+
+
+checking visits should take place according to a schedule that broadly reflects the urban/rural/remote national school
+
+
+distribution pattern
+
+
+National data collection systems struggle to deliver their data on time every year, usually as a result of delays in
+
+
+returning the data collection instruments by schools by the stipulated deadlines. In this situation, it is recommended
+
+
+that data entry and analysis should always proceed on schedule and that the data presentation should be published
+
+
+with an indication of the percentage data collection achieved. Schools who fail to deliver their data on time can always
+
+
+be chased up and monitored for on-time delivery in subsequent years.
+
+
+A cheaper and more convenient alternative to national data collection is the design and creation of a sample
+
+
+school survey covering perhaps 5–10% of national schools. The sample should be designed around a pattern that
+
+
+reflects as accurately as possible national patterns of urban, rural and remote schools. It should be noted that sample
+
+
+studies can be used to determine important classroom material indicators within the school system, including loss and
+
+
+damage rates, but it cannot be used as the basis of an LTM management system, which will always require full national
+
+
+coverage of schools.
+
+
+7 | COMPUTERISED LTM INFORMATION SYSTEMS
+
+
+Effective LTM provision requires reliable information on a number of different activities and inputs that have to oper-
+
+
+ate efficiently in sequence. This sequence of activities is often referred to as the Book Chain. If one of the links in the
+
+
+chain is dysfunctional then there is a risk that the whole system will function ineffectively or inefficiently—or both! The
+
+
+528 | READ
+
+
+
+
+
+
+basic links in the textbook chain that determine LTM information requirements are: curriculum and Syllabus Design
+
+
+(including the specification of the grade level Minimum Profile of Required LTMs to deliver curriculum objectives); supply
+
+
+assumptions (student/LTM ratios, book life, loss and damage rates, etc.); financing policies (essentially, who pays and
+
+
+how?); pricing (how much control over pricing is required and how is it applied); school management and conservation;
+
+
+usage at home and in the classroom; supervision and monitoring of implementation.
+
+
+There is a range of different policies and practices that can be applied to each of the links in the textbook chain
+
+
+specified above and these variables will have an impact on LTM information needs and costs and the ease of data col-
+
+
+lection. The combination of large numbers of schools located in different regions, often with radically different facilities
+
+
+and operational environments, with large numbers of titles supplied in differing quantities based on grade level enrol-
+
+
+ments and supply assumptions and potentially in different languages, is very difficult to manage on a manual basis with
+
+
+non-specialist managers. Investments in more sophisticated computerized information management systems are rec-
+
+
+ommended to ensure that decisions can be made quickly based on good information, sound future planning and
+
+
+adequate financial allocations to maintain textbook, teachers’ guides and other essential hard copy LTM supplies equi-
+
+
+tably at target levels for every school and grade level in the country.
+
+
+Effective data management is the basis of proper planning, as well as the key to the proper monitoring of the use
+
+
+of funds and supplies. Standard EMIS systems should be able to provide accurate data on schools, teachers and grade
+
+
+level students, but often they only provide approximate or incomplete data on total textbooks per subject per grade
+
+
+level by school. Most MOEs fail to record textbook supply data by individual schools based on actual orders from
+
+
+schools or on MOE allocations to schools or stock delivered to schools. This is frequently a simple problem of data sys-
+
+
+tem design, but where annual school orders, MOE stock allocations or delivered stock are accumulated year on year to
+
+
+form indicative school stock levels, then other factors have to be taken into account. If accurate and well performed
+
+
+annual LTM stock taking is available, then total school stocks will need to be adjusted accordingly. However, this is an
+
+
+unlikely scenario in most countries and most accumulated school stock records will need to be adjusted downwards
+
+
+using realistic classroom life data and annual estimated loss and damage rates. Care is also needed to ensure that
+
+
+stocks of old and redundant textbooks retained in school stores are excluded from school stock records. This is obvi-
+
+
+ously much easier and faster using a computerised system. Core data should include electronic records of at least the
+
+
+orders submitted to distributors (date submitted, book titles, grade level quantities, schools), books delivered to
+
+
+schools, the accumulated inventory of each title in each school in the country and textbook allocations granted by the
+
+
+region (or centrally) to each school and spending on textbooks (either by region or by school).
+
+
+A good LTM information database should provide the basis for the control of the learning and teaching materials
+
+
+supply processes and annual budget projections to enable MOEs to meet their supply targets. It should provide the
+
+
+basic information on school inventories in order to identify those with high levels of loss and damage. It can be
+
+
+designed to provide a wide range of reports for planning and management purposes according to system needs.
+
+
+Rwanda has a fully-operational computerised LTM MIS and Namibia has a system in the process of design and
+
+
+development.
+
+
+8 | RWANDA LEARNING AND TEACHING MATERIALS, MANAGEMENT
+INFORMATION SYSTEM
+
+
+In 2009, the Rwandan Education Board (REB), with assistance from DFID, BTC and UNICEF, developed a computer-
+
+
+ised Management Information System (MIS) to look after national LTM provision for all schools in Rwanda. Due to the
+
+
+success of the system after implementation in 2009/2010 three further versions of the MIS were developed. The
+
+
+Rwanda MIS manages national publisher orders, school deliveries, management of stock (lost and damaged, LTM life,
+
+
+student/teacher/subject ratios) as well as providing MOE and donors with financial and other indicators for future
+
+
+budget allocations.
+
+
+The Rwanda LTM MIS contains comprehensive data on every public, state aided and private school, including all
+
+
+pre-schools, primary, secondary, combined schools (primary and secondary), VTC (vocational technical schools) and
+
+
+READ | 529
+
+
+
+
+
+
+TSS (technical secondary schools). The database also holds all GPS location data on almost every school entered and is
+
+
+provided to publishers on their school delivery forms to facilitate smooth delivery of materials. Individual school enrol-
+
+
+ment data (boys and girls) are collected and updated annually to the database which enables MOE budgets to be as
+
+
+accurate as possible. The LTM MIS also holds information on teacher employment data by subject; student enrolment
+
+
+data by subject for those grades where elective subjects were specified; procurement budgets; Special Educational
+
+
+Needs (SEN) enrolment data by grade and subject; the LTM Approved catalogue; approved publishers; annual school
+
+
+orders; annual deliveries to schools; LTM technical specification data; target supply assumptions; late deliveries and
+
+
+publisher payment schedules.
+
+
+The LTM MIS can provide REB with information on individual school LTM stock levels; loss and damage rates per
+
+
+school, sector, cell, district and nationally; book Life projected vs book life achieved; LTM to Student ratios by subject
+
+
+per school, sector, cell, district and nationally; LTM to teacher ratios by subject per school, sector, cell, district and
+
+
+nationally; LTM to subject ratios by subject per school, sector, cell, district and nationally; financial projection system—
+
+
+forecasting future budgets based on projected ratios and successful/unsuccessful deliveries.
+
+
+From 2009 to 2017, additional tools were developed on the MIS to provide the MOE with the ability to manage a
+
+
+school demand-based supply system and plan and manage the system cost effectively and efficiently. The tools also
+
+
+helped strengthen the links between schools, districts and the MOE and provided the inspectorate with reliable infor-
+
+
+mation to undertake school stock inspections. Feedback from these inspections provided the basis for assessing school
+
+
+levels of usage, stock management, loss and damage rates, management practices, levels of conservation which are a
+
+
+key factor in bringing the loss and damage rates in schools under control and thus reducing costs and improving sup-
+
+
+plies. The MOE is now able to generate reports to provide detailed and customised data split into national, regional, cir-
+
+
+cuit and school’s sections.
+
+
+From 2016, REB has decided to change the model for a school demand- and order-based system to a government
+
+
+supply-based system, which will require enrolment data collection (independent of EMIS, which is not scheduled to
+
+
+provide the information required by the MOE at the time required for LTM allocations), a system to enable REB to allo-
+
+
+cate LTMs equitably direct to individual schools and monitoring of deliveries—Completed, Incomplete or incorrect
+
+
+deliveries.
+
+
+The Rwanda LTM MIS is accessed via a website URL. Users are provided with a username and password so that,
+
+
+for example, every school can view its own inventory and place its own orders. Publishers and distributors can down-
+
+
+load consolidated national and regional orders, print completed delivery certificates for school signature and stamping
+
+
+as the basis for payment claims and view customised order, delivery and payment reports. The MOE can view and
+
+
+monitor the progress of every aspect of the supply cycle. Thus, the MOE is now able to monitor the process of LTM
+
+
+provision from collection of enrolment data, to school ordering/REB allocations, publisher deliveries to distributors and
+
+
+regional distributor deliveries direct to schools.
+
+
+From 2010 to 2017, USD $47,000,000 (18,000,000 units) have been allocated to schools via a capitation grant
+
+
+and central allocation by government for the procurement of textbooks and supplementary materials in Rwanda. The
+
+
+LTM MIS has firstly been able to track if the money allocated to classroom materials procurement has been spent by
+
+
+schools. In the 4-year period USD1,620,414 of this budget remained unused. Looking closely at the figures it can be
+
+
+noted that of this USD1.6 million underspend USD1,435,628 was not spent in the first year of operation of the LTM
+
+
+MIS. The subsequent 3 years’ underspend amounts to only USD184,786. The reason for the large underspend in 2010
+
+
+resulted from schools and REB not being familiar with the ordering process. When schools received their 2010 order
+
+
+form they did not order up to the budget allocation provided by REB. In subsequent years, a threshold setting was
+
+
+applied within the LTM MIS during ordering that flagged any schools not ordering up to within 10% of their
+
+
+budget allocation. REB could see which schools were not ordering correctly, contacted the schools and provided addi-
+
+
+tional support in operating the ordering process to the affected schools.
+
+
+Not only was the LTM MIS able to guide and support REB in the allocation and ordering of classroom materials,
+
+
+but the MIS tracked deliveries of ordered books to the schools. Publishers were only paid on schools providing a ‘Con-
+
+
+firmed Delivery Certificate’ (CDC) to REB which was signed and stamped by both publisher and school.
+
+
+530 | READ
+
+
+
+
+
+
+With the delivery data entered on the MIS, the calculation of the success of publisher deliveries to schools was
+
+
+made possible. In 2010, an excess of materials were delivered by publishers to schools and in each of the following 3
+
+
+years the LTM MIS achieved delivery success rates exceeding 99% of materials ordered. Even more importantly, the
+
+
+REB knew every year the status of its own progress towards meeting its own learning and teaching materials supply
+
+
+targets.
+
+
+The Rwandan Education Board (REB), having successfully used the LTM MIS since 2009, decided in 2017 to
+
+
+upgrade the LTM MIS for a fourth revision. It is currently being developed to include a ‘Supply Based Distribution
+
+
+Model’. The MIS will be able to centrally allocate materials to schools using enrolment data and LTM:student class ratios
+
+
+when required.
+
+
+9 | S IMPLIFYING INFORMATION COLLECTION
+
+
+Although bespoke computerised information management systems probably represent the way ahead in terms
+
+
+of the reliable annual provision of accurate LTM-related data they are expensive and there are immediate
+
+
+changes that can be introduced at low cost, which will improve the usefulness of the data collected. In most
+
+
+countries, a review needs to take place to ascertain exactly what data needs to be collected, how often, and
+
+
+in what formats different MOE departments require this information. This review should be accompanied by
+
+
+a plan to reduce the duplication of work, district/school administration overhead and data collection
+
+
+methodology.
+
+
+Where there is an objective to provide data which can be used to compare the performance of national LTM pro-
+
+
+vision between different countries, one of the most important variables is the differences in national curricula and in
+
+
+particular in the specified number of required compulsory subjects at different grade levels. For lower primary grades
+
+
+the variation in the number of subjects requiring textbooks can range from zero (Uganda for local language thematic
+
+
+curriculum) to two, four or even eight subjects. When schools provide data on their current grade level textbook stocks
+
+
+as part of annual LTM information returns it is critical that this data is closely linked to official national specifications
+
+
+on the number of required subject textbooks. In practice in most countries certain subjects, typically language and
+
+
+maths, get more priority than other subjects in lower primary grades. Lower primary learning objectives increasingly
+
+
+emphasize the early achievement of literacy and numeracy so the concentration of LTM data on language and maths
+
+
+textbooks is also a national policy option.
+
+
+The priority is the establishment by all MOEs of the key ‘norms’ that will apply to their own LTM supply systems.
+
+
+Examples of typical ‘norms’ are priority LTMs—textbooks, teachers’ guides, reading books; number of required text-
+
+
+books by grade levels; target student:textbook ratios by grade levels; target numbers of reading books per student by
+
+
+grade levels; target/assumed annual LTM loss and damage rates (to be determined by sample studies) and target LTM
+
+
+classroom usage rates (to be determined by sample studies).
+
+
+Most of the norms listed above are MOE policy decisions and will require little additional work, but they are
+
+
+important so that data returned by schools can be accurately analysed both at a national level and internationally for
+
+
+country comparison purposes. When the norms have been agreed and specified, the annual data collection profile can
+
+
+be agreed. Simple, limited data collection profiles are recommended. These could be an accurate and comprehensive
+
+
+list of schools, grade level enrolments by gender on a specified date, stocks of priority LTMs by grade level (language
+
+
+and maths textbooks could be highlighted within this data if so desired), loss and damage rates by grade level, class-
+
+
+room usage levels by grade level (classroom usage levels, or classroom useage hasn’t been explained in this paper,
+
+
+although it is often referred to. It could be simply how often the books are used in class by the teachers and students.
+
+
+I am not sure how much detailed use info can be obtained through ‘simple limited data collection profiles’ It was tried in
+
+
+Rwanda but that was not very simple or limited, classroom use (this is something to recommend as part of any survey,
+
+
+or as independently funded research. After all, if the books are not used, or are wrongly used, what is the point of hav-
+
+
+ing them? Need to find out if they are correctly used, which requires accurate data collection/observation and very
+
+
+well trained data collectors).
+
+
+READ | 531
+
+
+
+
+
+
+10 | CONCLUSIONS
+
+
+The discussion above demonstrates the complexities and potential problems associated with the collection of national
+
+
+LTM Information needs, which require the collection, verification, analysis and the storage and maintenance of reliable
+
+
+data covering schools, students, teachers, subject options and quantities, price and condition details of the LTMs in
+
+
+schools.
+
+
+An ideal basic information collection system would also provide some level of usage monitoring and supervision
+
+
+information and the ability to vary target supply ratios as required.
+
+
+Any information collection system also needs to provide budget projections to ensure sustainability. Most LTM
+
+
+system financing in developing countries is based on arbitrary annual financial allocations rather than financing aimed
+
+
+to ensure that specific LTM supply targets are met on a regular, sustainable and predictable basis, which should also
+
+
+take into full account annual loss and damage rates and school enrolment growth rates. Generally, the MOE staff
+
+
+employed to run LTM an information collection system described above will not be specialists. Under these circum-
+
+
+stances a custom-designed computerised LTM data collection system is more likely to provide reliable annual informa-
+
+
+tion on schedule than manual systems. Unfortunately, these systems are expensive to design and install and in 2017
+
+
+very few developing country education systems have invested in computerised LTM information systems. Thus,
+
+
+national LTM information collection remains largely uncoordinated, inaccurate and ineffective in most countries.
+
+
+The LTM Management system described above has provided the MOE and donors with the capability to manage
+
+
+LTM distribution effectively, on time while maximising the available finances. Accountable delivery has reduced was-
+
+
+tage in the distribution process to less than 1% per annum. The MOE can see student/teacher/subject to LTM ratios
+
+
+in schools, districts/regions and nationally. Data has begun to be shared between MOE departments enabling Inspec-
+
+
+torates to target poor performing schools or schools that can be highlighted with high LTM wastage levels.
+
+
+None of this would be possible without computerising the supply chain process. The success of the implementa-
+
+
+tion of a digital supply chain highlights failures elsewhere in the education system.
+
+
+NOTE
+1 The notion of ‘learning and teaching materials’ or LTMs mainly refers to textbooks but also to anxillary materials used by
+teachers and students such as teacher guides, student books or booklets, supplementary materials, teacher aids, audio stories
+and any other instructional materials produced for and used in the classroom. The term ‘instructional materials’ is used as a
+synonym in this article.
+
+
+REFERENCES
+
+
+Ghana National Education Campaign Coalition (GNECC). (2010). Tracking survey for textbooks, school uniforms, capitation
+grants, school infrastructure and teachers. Accra: Author.
+
+
+Read, T. (2015). Where have all the textbooks gone? Toward sustainable provision of teaching and learning materials in sub-
+Saharan Africa. Washington, DC: World Bank.
+
+
+How to cite this article: Read N. Measures of learning and teaching material availability and use in sub-Saharan
+
+
+Africa and other low-income countries. Eur J Educ. 2017;52:523–532. https://doi.org/10.1111/ejed.12242
+
+
+532 | READ
+
+
+
+https://doi.org/10.1111/ejed.12242
+
+

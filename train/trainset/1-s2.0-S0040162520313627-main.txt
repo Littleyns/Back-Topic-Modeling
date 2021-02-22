@@ -1,0 +1,3433 @@
+
+
+
+
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+0040-1625/© 2020 Elsevier Inc. All rights reserved.
+
+
+A readiness assessment framework for Blockchain adoption: A healthcare 
+case study 
+
+
+Sreejith Balasubramanian a, Vinaya Shukla b, Jaspreet Singh Sethi a, Nazrul Islam c,*, 
+Roy Saloum a 
+
+
+a Middlesex University Dubai, Dubai, UAE 
+b Middlesex University Business School, London, United Kingdom 
+c University of Exeter Business School, Exeter, United Kingdom   
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Blockchain 
+Readiness assessment framework 
+Healthcare 
+Stakeholder 
+Covid-19 
+Case study 
+UAD 
+
+
+A B S T R A C T   
+
+
+Blockchain technology has been gaining traction across different sectors. It has the potential to immensely 
+benefit the healthcare sector, given the sector’s inherent complexities, problems, and inefficiencies. However, to 
+date, no comprehensive, evidence-based effort has been made to understand the readiness of this sector for 
+blockchain adoption. We proposed a readiness assessment framework that encompasses the complex interplay of 
+different underlying factors, social structures, and institutional mechanisms and that covers all key stakeholders. 
+Based on a systematic literature review, the framework is applied to the UAE’s healthcare sector and its appli-
+cability and usefulness is established. The findings show the multifaceted significance of government readiness in 
+driving blockchain initiatives. Large firms are found to be more willing to leverage the opportunities afforded by 
+blockchain. Lack of clarity on blockchain regulations and laws, and issues pertaining to privacy and trust are 
+found to affect the readiness of all stakeholders. The proposed framework and the study’s findings will be useful 
+in guiding policy interventions and developing support mechanisms to strengthen areas related to blockchain 
+adoption.   
+
+
+1. Introduction 
+
+
+Blockchain or distributed ledger technology has attracted significant 
+interest in recent years (White et al., 2020; Marsal-Llacuna, 2017). 
+Governments and businesses are exploring ways to exploit the disruptive 
+potential of this technology in various sectors, which would result in 
+immutable, transparent, secure, and trustworthy solutions in both public 
+and private settings (Casino et al., 2019). Among the various sectors, 
+healthcare is highlighted as one of the key sectors to potentially benefit 
+from blockchain adoption (McGhin et al., 2019; Tandon et al., 2020). 
+Blockchain appears to be a natural fit for overcoming problems and 
+inefficiencies inherent to the healthcare sector, such as counterfeiting, 
+inaccurate healthcare data, lack of stakeholder collaboration, and pri-
+vacy and security concerns (Mettler, 2016; Chukwu and Garg, 2020; 
+Onik et al., 2019). 
+
+
+However, a sector-wide implementation of any disruptive technol-
+ogy (such as blockchain) is challenging. Assessing the “readiness” for 
+new technology projects is critical; unanticipated challenges during 
+
+
+implementation may result in failure (Razmi et al., 2009; Kiberu et al., 
+2019). Given that blockchain is only as strong as its weakest link, un-
+derstanding the differences in the readiness of the sector’s stakeholders 
+is critical (Pólvora et al., 2020). 
+
+
+Despite this criticality, however, research on blockchain readiness 
+assessment is nascent. We encountered only two studies (Ozturan et al., 
+2019; Vlachos et al., 2019), neither of which involved healthcare. 
+Furthermore, these studies had a narrow scope with regard to devel-
+oping a blockchain readiness index score and did not take into account 
+the perspectives of different stakeholders and their mutual in-
+terdependencies. This theoretical and empirical void motivated this 
+work, which aimed to develop and apply a multi-dimensional block-
+chain readiness assessment framework for the healthcare sector. In 
+realizing this aim, the following questions are answered: 1) Who are the 
+key stakeholders, and how do they collaborate and/or cooperate? 2) 
+What are the key readiness dimensions of individual stakeholders, and 
+how do they influence the sector? 3) What are the key facilitating 
+conditions? 
+
+
+* Corresponding author. 
+E-mail address: N.Islam@exeter.ac.uk (N. Islam).  
+
+
+Contents lists available at ScienceDirect 
+
+
+Technological Forecasting & Social Change 
+
+
+journal homepage: www.elsevier.com/locate/techfore 
+
+
+https://doi.org/10.1016/j.techfore.2020.120536 
+Received 6 July 2020; Received in revised form 12 December 2020; Accepted 15 December 2020   
+
+
+
+mailto:N.Islam@exeter.ac.uk
+
+www.sciencedirect.com/science/journal/00401625
+
+https://www.elsevier.com/locate/techfore
+
+https://doi.org/10.1016/j.techfore.2020.120536
+
+https://doi.org/10.1016/j.techfore.2020.120536
+
+https://doi.org/10.1016/j.techfore.2020.120536
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.techfore.2020.120536&domain=pdf
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+2
+
+
+This study makes several contributions. For its theoretical contri-
+bution, it presents a novel blockchain readiness assessment framework 
+and then tests its applicability through a multi-method case study in the 
+UAE healthcare sector. The proposed framework fills a considerable gap 
+in the literature, especially in healthcare, where no such framework 
+exists. The framework is also adaptable and, given its conceptual 
+comprehensiveness, has the potential to be applied in any sector or 
+country. We expect practitioners and policymakers to find this frame-
+work to be a valuable tool for assessing the readiness levels of key 
+stakeholders and for understanding the multifaceted interplay of various 
+factors and mechanisms. The study is timely; the inefficiencies of the 
+healthcare sector have been exposed by the COVID-19 pandemic. The 
+findings can guide policy interventions and support mechanisms to 
+strengthen blockchain adoption in the healthcare sector. 
+
+
+The remainder of the paper is structured as follows. In the next 
+section, we review blockchain studies in the healthcare sector. The 
+development of the blockchain readiness assessment framework is dis-
+cussed in Section 3. Section 4 details the methodology used in applying 
+the framework. The research findings are presented in Section 5 and 
+further discussed in Section 6. We conclude in Section 7 with implica-
+tions and suggestions for future research. 
+
+
+2. Literature review and the development of blockchain 
+readiness assessment framework 
+
+
+A systematic review of the blockchain literature was undertaken 
+using the Scopus database because of its broad coverage of journals. The 
+keywords used to identify the initial list included “blockchain” or “block 
+chain.” Conference proceedings, working papers, and book chapters 
+were not considered to maintain rigor and quality of content. 
+
+
+The initial search identified all the blockchain studies. After 
+removing duplicates and limiting studies to those published in the 
+business and management domain, the list was narrowed to 598 articles. 
+Title and abstract screening were undertaken to further refine the list to 
+studies that focused on healthcare in their investigation. Technical 
+
+
+studies, such as those on blockchain architecture and algorithms, were 
+excluded. The references cited in the shortlisted studies were also 
+reviewed to identify (eight) additional articles, leaving twenty studies 
+on blockchain in the healthcare sector for detailed analysis. Fig. 1 
+summarizes the systematic review process followed. 
+
+
+Our review of the studies (Table 1) revealed several gaps. First and 
+foremost, no previous research was found to have examined the block-
+chain readiness assessment in the healthcare sector. Second, the studies 
+were either descriptive or conceptual, using secondary data. Attempts to 
+gain first-hand insights into different aspects of blockchain adoption in 
+healthcare through interviews, case studies, or surveys appeared to be 
+limited. Moreover, the studies had a weak emphasis regarding under-
+standing the interplay of underlying factors, social structures, and 
+institutional mechanisms affecting the adoption of blockchain 
+technologies. 
+
+
+Despite these gaps, careful syntheses of these studies enabled us to 
+understand various applications of blockchain in healthcare, its benefits, 
+and implementation challenges. The roles of key stakeholders associated 
+with blockchain adoption in healthcare and their concerns regarding 
+various regulatory, privacy, and security issues were also explored. The 
+review provided the initial conceptual base for the development of the 
+blockchain readiness assessment framework. 
+
+
+2.1. Components of the assessment framework 
+
+
+The components of the framework were derived from key technology 
+readiness assessment framework–related studies on blockchain 
+(Ozturan et al., 2019; Vlachos et al., 2019), e-health (Li et al., 2012; 
+Rezai-Rad et al., 2012; Kiberu et al., 2019), e-records (Malanga and 
+Kamanga, 2019), cloud computing (Colicchio et al., 2015), enterprise 
+resource planning (Razmi et al., 2009), and e-government (Shareef 
+et al., 2008). 
+
+
+Though most of these studies were narrow in scope, they provided a 
+strong theoretical foundation for the development of the proposed 
+framework. Combining existing frameworks into a comprehensive 
+
+
+Fig. 1. Systematic Review of Blockchain Studies on the Healthcare Sector.  
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+3
+
+
+Table 1 
+Summary of Blockchain Studies in the Healthcare Sector.  
+
+
+Study Country Methodology Primary Focus Relevant Stakeholders* Key Findings 
+
+
+Nugent et al. 
+(2016) 
+
+
+UK Experimental Use of smart contracts Regulators; 
+pharmaceuticals 
+
+
+Application: Smart contracts; clinical trials with time- 
+stamped data 
+Benefits: Tamper-proof solution; enhanced trust and 
+credibility; issues with clinical trials (missing data or data 
+manipulation) can be addressed using blockchain 
+
+
+Kuo et al. (2017) Generic Secondary 
+research 
+
+
+Blockchain for 
+biomedical and healthcare 
+applications 
+
+
+Patients; business entities; 
+service providers. 
+
+
+Application: Medical record management; insurance claim 
+process; clinical/biomedical research 
+Benefits: Decentralized management; immutable audit trail; 
+data provenance; robustness/availability; security/privacy 
+Challenges: Transparency; confidentiality; speed; 
+scalability; threat of a 51% attack 
+
+
+Przhedetskiy 
+et al. (2019) 
+
+
+Russia Secondary 
+research 
+
+
+Security and stakeholder 
+cooperation 
+
+
+Government; healthcare 
+institutions 
+
+
+Application: A mechanism for electronic interaction 
+between the government and healthcare institutions using 
+blockchain technology 
+Benefits: Simplicity in information access to all 
+stakeholders; reduction in data errors; less maintenance, 
+enhanced transparency and accountability of the data 
+systems 
+
+
+Bell et al. (2018) Generic Secondary 
+research 
+
+
+Applications of blockchain Patients; government; 
+business entities; 
+researchers 
+
+
+Application: Pharmaceutical traceability to fight 
+counterfeiting; data sharing; overcoming fraudulent results 
+in clinical trials; consent management; medical device/asset 
+tracking 
+
+
+Gassner (2018) Generic Secondary 
+research 
+
+
+Blockchain and General Data 
+Protection Regulation (GDPR) 
+compliance issues 
+
+
+Government; regulatory 
+bodies; business entities; 
+customers 
+
+
+Benefits: Integration of various tasks; enhanced 
+transparency and accountability; privacy and confidentiality 
+Privacy issues with GDPR: Tensions between the rights to 
+forget data in GDPR versus immutability of data in the 
+blockchain 
+
+
+Katuwal et al. 
+(2018) 
+
+
+Generic Secondary 
+research 
+
+
+Applications of blockchain Business entities; service 
+providers 
+
+
+Application: Management of electronic health records 
+(EHR), genomic, and imaging data; clinical trials and data 
+sharing; supply chain visibility; prescription management; 
+data analytics; telemedicine; blockchain as a service 
+Challenges: Technical (interoperability, scalability); legal 
+(adherence of regulation, data privacy); governance (e.g., 
+who controls the blockchain) 
+
+
+Radanovic and 
+Likic (2018) 
+
+
+Generic Secondary 
+research 
+
+
+Applications of blockchain and 
+challenges 
+
+
+Government; business 
+entities 
+
+
+Application areas: Public health; medical education; health 
+insurance; biomedical research; procurement; drug supply 
+chain management 
+Challenges: Lack of public and expert knowledge; data 
+security and privacy 
+
+
+Dhagarra et al. 
+(2019) 
+
+
+Generic Secondary 
+research 
+
+
+Sharing of medical records Patients; government; 
+business entities; 
+researchers 
+
+
+Application: Medical record sharing with storage in the 
+cloud; biometric-enabled smart contracts for data access; big 
+data analytics on cloud data for various stakeholder 
+decision-making 
+Success factors for implementation: Internet penetration; 
+a capable IT sector; experience with public-private 
+partnership (PPP) model; a centralized and unique ID system 
+Implementation barriers: Technology barriers; lack of 
+government support; intra-stakeholder, inter-stakeholder 
+collaboration issues 
+
+
+Dimitrov (2019) Generic Secondary 
+research 
+
+
+Applications of blockchain Patients; business entities  Application: Electronic medical record; data management; 
+healthcare data protection; healthcare analytics; 
+telemedicine, monetization of user-controlled genomic data; 
+smart contracts for patient data sharing 
+
+
+Mackey et al. 
+(2019) 
+
+
+Generic Practitioner 
+views 
+
+
+Governance of blockchain and 
+applications 
+
+
+– Governance aspects: Goal of the blockchain and the need 
+for it; decision on blockchain design type (private, public, 
+hybrid); data sharing and access (who and what); control 
+(who has the control); incentive schemes Application: 
+Privacy-preserving predictive models; licensing and 
+credentialing of medical professionals; improvement of 
+clinical trials; biomedical research; supply chain 
+management; genomics 
+
+
+McGhin et al. 
+(2019) 
+
+
+Generic Literature 
+Review 
+
+
+Challenges and opportunities of 
+blockchain in healthcare 
+
+
+– Application: Smart contracts; fraud detection; identify 
+verification; clinical trials; precision medicine 
+Benefits: Interoperability; data sharing; mobility; security 
+Challenges: Lack of standardization; privacy leakage; 
+scalability; threat of a 51% attack 
+
+
+Onik et al. 
+(2019) 
+
+
+Generic Secondary 
+research 
+
+
+Data privacy using blockchain Customers; business 
+entities; service providers 
+
+
+Privacy concerns: Privacy concerns of personally 
+identifiable information  
+Application areas: Intelligent data management; smart 
+ecosystem; digital supply chain; IoT and big data; health 
+claims; medication adherence; improved R&D; countering 
+fake medicines 
+Benefits: Enhanced digital trust (security, identifiability, 
+and traceability), the security of medical devices; 
+
+
+(continued on next page) 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+4
+
+
+framework allows simultaneous investigation of multiple theoretical 
+perspectives (Carter and Easton, 2011). While we concede that no single 
+framework is sufficient to fully assess the readiness of a sector, a 
+concerted effort was made to ensure the comprehensiveness of the 
+proposed framework. This included addressing pitfalls in the existing 
+readiness frameworks as well as contextualizing (as opposed to aggre-
+gating) these frameworks. Thus, the key components of the proposed 
+framework are not directly inherited from other sectors; instead, it was 
+carefully designed and contextualized based on our understanding of the 
+healthcare sector and blockchain technologies. 
+
+
+For instance, most studies have looked at readiness at an organiza-
+tional level (e.g., Razmi et al., 2009). However, because stakeholders (e. 
+g., service providers, governments, consumers) have different levels of 
+readiness, readiness assessment at the firm level may not provide a 
+
+
+complete picture (Li et al., 2012). The central task when developing any 
+technology-oriented readiness assessment framework is defining the key 
+stakeholders responsible for technology adoption. This is especially true 
+for a multi-stakeholder–operated sector like healthcare, where the 
+weakest one determines the blockchain’s strength (Chukwu and Garg, 
+2020). Gaining acceptance from all stakeholders is important for 
+blockchain’s sector-wide adoption. The key stakeholders identified in 
+the literature review are i) governments, ii) business entities, iii) 
+blockchain solution providers, and iv) customers/end-users (Table 1). 
+The subsequent goal of the framework is to assess the readiness levels of 
+individual stakeholders. The four key dimensions identified by the 
+literature are motivational readiness, engagement readiness, technology 
+readiness, and structural readiness (e.g., Li et al., 2012; Rezai-Rad et al., 
+2012; Kiberu et al., 2019). 
+
+
+Table 1 (continued ) 
+
+
+Study Country Methodology Primary Focus Relevant Stakeholders* Key Findings 
+
+
+interoperability and data sharing 
+Challenges: Data storage on the blockchain; medical data 
+volume and size; scalability; privacy 
+Regulatory issues: GDPR does not approve on-chain data 
+storage, so data has to be stored off-chain 
+
+
+Patel (2019) Generic Secondary 
+research 
+
+
+A framework for  
+sharing of medical 
+imaging data via blockchain 
+
+
+Patient; business entities Application: Use of blockchain for distributed data storage 
+and sharing of medical imaging data of patients 
+Benefits: No need for third-party intermediaries (clearing 
+houses) as it enables patient-controlled image sharing; 
+facilitates interoperability between providers; no need for 
+the use of physical copy (e.g., a CD or DVD) and courier 
+service for data transfer 
+Challenges: Privacy and security concerns; perceived ease 
+of use in using the system for patients; regulatory 
+compliance 
+
+
+Siyal et al. 
+(2019) 
+
+
+Generic Secondary 
+research 
+
+
+Applications of blockchain; 
+implementation challenges 
+
+
+Patient; business entities Application: Individualized and life-long patient care data 
+on the blockchain; clinical trials; pharmaceutical supply 
+chain management; countering fake drugs; biomedical 
+research in precision medicine; neural control systems for 
+storing brain data 
+Benefits: Longitudinal patient data (valuable for chronic 
+diseases); patient control of data; security and privacy; audit 
+control of data; enhancing data integrity in clinical trials – 
+enrolling patients, getting their consent 
+Challenges: Privacy in the absence of the third party for 
+authorization; the threat of a 51% attack; blockchain not 
+designed for heavy data generated by the medical industry; 
+interoperability between multiple blockchains; social 
+acceptance by professionals; limited solution providers 
+
+
+Yoon (2019) Generic Opinion piece Patient-centric blockchain Patients Benefits: Transition from institutional-driven 
+interoperability to patient-centered interoperability 
+Challenges: Sensitivity and volume of medical data would 
+result in it being stored somewhere else, and only tag that 
+information on the blockchain 
+
+
+De Aguiar et al. 
+(2020) 
+
+
+Generic Secondary 
+research 
+
+
+Applications of blockchain; 
+implementation challenges 
+
+
+Business entities; service 
+providers; customers. 
+
+
+Application: Sharing healthcare records; sharing imaging in 
+radiology safely; securing logs generated in accessing patient 
+information; remote care; supply chain management 
+Challenges: Throughput; latency due to increasing 
+transactions causing a delay in diagnosis; security risks; 
+resource consumption; usability issues due to technical 
+complexity; privacy concerns 
+
+
+Albahli et al. 
+(2020) 
+
+
+Saudi 
+Arabia 
+
+
+Secondary 
+research 
+
+
+User-controlled data sharing Patients; business entities; 
+service providers 
+
+
+Application: Patient data sharing using a combination of 
+public and private blockchain with users owning their data 
+on the cloud 
+
+
+Chukwu and 
+Garg (2020) 
+
+
+Generic Literature 
+Review 
+
+
+Blockchain as an alternative to 
+EHR 
+
+
+– Benefits: Enhanced trust; security; privacy 
+Challenges: High costs; lower performance; data storage 
+issues 
+
+
+Khatoon (2020) Ireland Secondary 
+research 
+
+
+Developing a smart contract 
+system 
+
+
+Patients; business entities; 
+researchers. 
+
+
+Application: Medical record handling and sharing with 
+multiple stakeholders 
+Benefits: Low cost of smart contracts; enhanced auditability; 
+interoperability; accessibility 
+
+
+Tandon et al. 
+(2020) 
+
+
+Generic Literature 
+Review 
+
+
+Development of a framework for 
+Block-chain based healthcare 
+ecosystem 
+
+
+Patients; business entities; 
+government; service 
+providers 
+
+
+Application: Medical diagnostics; research; treatment 
+protocol; disease calibration 
+Benefits: Enhanced performance and value creation 
+Challenges: Costs; data protection and data sharing 
+concerns; security concerns 
+Regulatory issues: Compliance and data ownership issues  
+
+
+* Blank cell means specific stakeholders are not considered in those studies. 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+5
+
+
+In addition, assessing engagement levels among stakeholders, which 
+has been missing from existing frameworks, is important; the main 
+roadblock to blockchain adoption is their lack of cooperation, collabo-
+ration, communication, and coordination (Dhagarra et al., 2019). Un-
+derstanding and enhancing multi-stakeholder relationships are, 
+therefore, critical for blockchain adoption in healthcare (Katuwal et al., 
+2018; Pólvora et al., 2020). 
+
+
+The final aspect of the framework involves an understanding of the 
+facilitating conditions required for blockchain adoption. This is critical 
+because these conditions could directly influence the readiness of 
+stakeholders. While studies have considered some facilitating conditions 
+in their assessment frameworks, most have overlooked several key 
+conditions. Those most relevant for blockchain adoption in the health-
+care sector include regulatory and legal aspects, innovation propensity, 
+privacy and trust, and supporting infrastructure (e.g., Dhagarra et al., 
+2019; Gassner, 2018; Onik et al., 2019). 
+
+
+2.1.1. Key stakeholders 
+Governments: They are regarded as the most important stakeholder 
+
+
+as their involvement in blockchain adoption can be multifaceted. First, 
+they can themselves implement blockchain solutions to make public 
+sector services more efficient, secure, and transparent (Nugent et al., 
+2016; Przhedetskiy et al., 2019). Second, governments can encourage 
+other stakeholders to implement blockchain solutions by designing 
+blockchain-friendly legislation or by providing related funding or in-
+centives such as tax exemptions (Clohessy and Acton, 2019). 
+
+
+Business Entities: “Business entities” here refers to the complex 
+network of organizations in the healthcare sector, such as healthcare 
+service providers (hospitals, clinics), pharmacies, insurance providers, 
+health research centers, and drug and equipment manufacturing com-
+panies, among others. Depending on the blockchain solutions, the 
+involvement of all or a limited number of business entities is required. 
+For instance, for the implementation of a patient records management 
+system, the direct participation of manufacturing companies or research 
+centers may not be required, though they may be interested. By contrast, 
+for an end-to-end supply chain traceability solution in the blockchain (to 
+tackle counterfeit goods), all supply chain entities from research centers 
+to pharmacies would have to be involved. Typically, business entities 
+have the option of either developing their own blockchain solutions or 
+participating in others’. 
+
+
+Blockchain Solution Providers: These are companies such as IBM, 
+Microsoft, Amazon, and consortiums such as R3 that provide purpose- 
+built tools to implement blockchain solutions. The healthy competi-
+tion among these large corporations is facilitating faster adoption of 
+blockchain solutions. There are also over 11,000 startups offering 
+blockchain solutions for businesses and governments, with a significant 
+number receiving funding (Tracxn, 2020). The healthcare sector is 
+receiving increasing attention from these companies and startups. For 
+instance, the IBM Rapid Supplier Connect blockchain network was 
+developed during the COVID-19 pandemic to equip frontline workers 
+with necessary equipment. This platform enables governments, hospi-
+tals, pharmacies, and others to locate pre-qualified suppliers of medical 
+gowns, surgical masks, and gloves with greater efficiency (IBM, 2020). 
+
+
+Customers/End-users: The willingness and ability of customers to 
+participate in a blockchain ecosystem are critical to its widespread 
+adoption. Thus, most blockchain solutions are customer-centric as 
+opposed to institution-centric (Yoon, 2019). Customers should see 
+tangible payoffs in participating in blockchain-enabled services. This is 
+even more relevant to healthcare, where patients have the rights to 
+consent and to choose how their data is used in exchange for health 
+services or even compensation (Albahli et al., 2020). This shift from 
+provider-centric to patient-centric permissioned blockchain system 
+empowers the patient and provides an immutable audit trail of the 
+“whose,” “when,” “where,” and “what” of accessing personal health data 
+(Mackey et al., 2019). The need for patient-centric healthcare is ex-
+pected to promote the sector-wide adoption of blockchain solutions. 
+
+
+2.1.2. Dimensions of individual stakeholder readiness 
+Motivational Readiness: Also known as “core readiness,” this refers 
+
+
+to a recognized need for change vis-à-vis an existing service or circum-
+stance (Kiberu et al., 2019). It usually starts with dissatisfaction with 
+practices or services presently offered (Li et al., 2012). Unless this 
+motivation is activated, an individual or organization is unlikely to 
+initiate change in behaviors. In the healthcare sector, for example, this 
+could be a realization of problems pertaining to poor service or breached 
+patient privacy. 
+
+
+Engagement Readiness: This refers to knowledge and awareness of 
+new initiatives as well as clear recognition of their benefits and potential 
+challenges (Li et al., 2012; Rezai-Rad et al., 2012; Kiberu et al., 2019). 
+For blockchain technologies, this includes knowledge of how they 
+function, potential impacts on current systems, difficulties related to 
+developmental costs, risks of failure, and potential benefits of smart 
+contracts (Ozturan et al., 2019). Any stakeholder with high engagement 
+readiness would explore the possibility of using blockchain technology 
+as well as express any fears or concerns about using the technology. 
+
+
+Technology Readiness: This refers to the individual or organiza-
+tional predispositions to embrace new technologies (Kamble et al., 
+2019). The contributing factors include the availability, ability, and 
+compatibility of existing hardware, software, networks, applications, 
+and other information and communications technology (ICT) resources 
+that facilitate the new technology (Kiberu et al., 2019). Further, the 
+robustness of an organization’s security infrastructure, cloud infra-
+structure, and internet connection bandwidth also contributes to tech-
+nology readiness (Rezai-Rad et al., 2012; Kiberu et al., 2019). In the case 
+of individual customers, this refers to having access to/ownership of 
+technologies such as personal computers, tablets, smartphones, 
+high-speed internet, and 4 G/5 G mobile connectivity. 
+
+
+Structural Readiness: This refers to the availability of non-technical 
+resources—financial and human resources—to invest in the adoption of 
+new processes or technologies, as well as having supporting organiza-
+tional structures and policies in place (Li et al., 2012; Kiberu et al., 
+2019). Implementation of blockchain technologies would demand 
+valuable resources, such as time, money, and personnel, from an orga-
+nization. Organizations with greater resource availability, such as ICT 
+experts, would be more confident in implementing blockchain tech-
+nologies (Rezai-Rad et al., 2012). Conversely, resource scarcity could 
+hinder the pursuit of new initiatives. From a customer perspective, 
+structural readiness relates to the ability to use computers, smartphones, 
+and the internet for daily tasks (Rezai-Rad et al., 2012). 
+
+
+2.1.3. Key stakeholder relationships for blockchain adoption 
+Governments and Business Entities: Public-private collaboration 
+
+
+is important for co-designing and piloting innovative blockchain pro-
+jects (World Economic Forum, 2019). For instance, the US Food and 
+Drug Administration (FDA) worked with Pfizer, a pharmaceutical 
+company that has lost billions in revenue due to counterfeit drugs, on an 
+RFID-based blockchain solution where patients and doctors could trust 
+the source and capabilities of medicines. This also allowed wholesalers 
+and pharmacists to verify the authenticity of medicines using a simple 
+RFID scanner (Bell et al., 2018). The European Commission Research & 
+Innovation Program has developed a pilot project, “Blockchain-Enabled 
+Healthcare,” in partnership with Novartis on the Ethereum platform 
+(Dimitrov, 2019). Russia has also effectively rolled out blockchain 
+technologies in the healthcare sector, using effective public-private 
+partnerships (Przhedetskiy et al., 2019). 
+
+
+Government and Blockchain Solution Providers: For large-scale 
+government projects, developing formal partnerships with established 
+blockchain solution providers and working closely with them is essen-
+tial. For instance, the government of Estonia worked with Guardtime, an 
+enterprise blockchain solution provider, to develop the world’s largest 
+blockchain platform, with almost 100% of government services, 
+including healthcare, being offered through this platform (Onik et al., 
+2019; Siyal et al., 2019; Chukwu and Garg, 2020). In the healthcare 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+6
+
+
+sector, for example, Booz Allen Hamilton Consulting developed and 
+implemented a blockchain-based pilot on the Ethereum platform; it was 
+designed to help the FDA explore using the technology for healthcare 
+data management (Dimitrov, 2019). 
+
+
+Government and Customers: Governments worldwide are 
+attempting to be more efficient by reaching out to people directly 
+without intermediaries. For example, Smart Dubai, a Dubai government 
+initiative, has developed a blockchain platform that allows citizens, 
+residents, visitors, and businesses to pay online for government trans-
+actions (Smart Dubai, 2020a). In 2018, Smart Dubai conducted more 
+than 10.4 million transactions through its blockchain platform (World 
+Economic Forum, 2020). The United Nations’ World Food Programme 
+has used blockchain technology to help more than 10,000 Syrian refu-
+gees in Jordan receive rations from supermarkets near their camp. The 
+blockchain system uses retina scans instead of cash, vouchers, or e‑cards, 
+thereby ensuring that food reaches the right person (World Food Pro-
+gramme, 2017). In Estonia, 99% of patients have access to their digital 
+health records through their country’s blockchain platform (Chukwu 
+and Garg, 2020). 
+
+
+Business Entities and Blockchain Solution Providers: A close 
+association between various business entities and blockchain solution 
+providers, including niche and startup providers, is critical for novel 
+blockchain solutions. For instance, researchers at Massachusetts General 
+Hospital, one of the top five US hospitals, are collaborating with Korean 
+blockchain startup MediBloc to find better ways to store and share pa-
+tient data (Waxman et al., 2019). Similarly, several pharmaceutical 
+companies have collaborated with software corporation SAP on block-
+chain solutions for supply chain tracking and counterfeit drug identifi-
+cation during the COVID-19 pandemic (Bio World, 2020). IBM is leading 
+a multi-stakeholder collaboration with healthcare service providers, 
+insurance providers, and banks to create a blockchain healthcare 
+network for information exchange that improves transparency and 
+interoperability (Reuters, 2019). 
+
+
+Business Entities and Customers: The need for direct, fast, and 
+automated interaction between business entities and customers is rising. 
+Wang et al. (2019) highlighted the importance of activating blockchain 
+technology to deepening consumer relationships. Their study found that 
+blockchain applications can improve both intrinsic and extrinsic moti-
+vations of customers in loyalty programs. AXA, a leading French insur-
+ance group, has developed its own Ethereum-based platform called 
+“Fizzy.” It offers automatic flight delay insurance for its customers, thus 
+avoiding the need for additional paperwork (Radanović and Likić, 
+2018). In the healthcare sector, companies have realized the value of 
+dealing with customers directly, albeit enabled via blockchain. For 
+example, Nebula Genomics offers whole-genome sequencing free of 
+charge for customers in return for data ownership to build their 
+blockchain-based genetic marketplace (Ahmed and Shabani, 2019). 
+
+
+Blockchain Solution Providers and Customers: Consulting firms 
+such as Deloitte have developed proofs-of-concept for customer-centric 
+blockchain solutions such as Know Your Customer (KYC) re-
+quirements. This complete customer profile will be useful for financial 
+institutions, insurance companies, exchanges, and solutions vendors. It 
+allows a seamless onboarding experience for customers and eliminates 
+costly background checks and overheads (George et al., 2019). Deloitte 
+has also developed a blockchain proof-of-concept for automobile loans 
+that simplifies the lending process. It creates an automobile loan 
+marketplace that connects dealers, lenders, and customers through the 
+blockchain network and facilitates the process of smart loans (Deloitte, 
+2020). In the healthcare sector, EpigenCare, a blockchain startup, uses 
+blockchain technology to recommend beauty products to customers 
+directly by examining their DNA and skin epigenetics (PR Newswire, 
+2018). 
+
+
+Multi-stakeholder Engagement: In addition to the dyadic re-
+lationships between stakeholders, multi-stakeholder engagement, 
+including with competitors, is critical for developing blockchain solu-
+tions (Pólvora et al., 2020). For instance, the US FDA has worked with 
+
+
+four companies—IBM, Merck, KPMG, and Walmart—on a pilot project 
+developing an interoperable system that will identify and trace pre-
+scription drugs (FDA DSCSA, 2020). Similarly, MiPasa is a multi-party 
+(involving IBM, Microsoft, the Wharton School, and scientists), 
+multi-source verifiable data-sharing blockchain platform that was 
+established to provide timely, trustworthy data as well as associated 
+analytics on the COVID-19 outbreak (MiPasa, 2020). 
+
+
+2.1.4. Key facilitating conditions 
+Supportive Regulatory and Legal Structures: This includes gov-
+
+
+ernment policies, directives, regulations, laws, and judicial in-
+terpretations (Vlachos et al., 2019). Depending on the appetite for 
+innovation, policies can be either restrictive or permissive. Leaning too 
+far on either end of this spectrum can yield negative results: stagnation if 
+the policy is too restrictive, or harmful compromise if it is too permissive 
+(Kimani et al., 2020). Many blockchains are associated with smart 
+contracts; the legal validity of these contracts, as opposed to traditional 
+ones, could be a concern for businesses (Giancaspro, 2017). These 
+concerns would be even more valid in healthcare, where a patient’s 
+health or even life could be at stake (McGhin et al., 2019). Therefore, to 
+facilitate blockchain adoption, regulatory and legal frameworks must 
+evolve parallelly with the development of new blockchain applications, 
+and blockchain applications must learn to comply with these 
+regulations. 
+
+
+Innovation Propensity: Innovation culture is critical for wide-
+spread blockchain adoption. Several studies have used innovation the-
+ory to explain blockchain adoption (Clohessy and Acton, 2019). Here, 
+innovation includes not only technological innovation but also service 
+innovation, service delivery innovation, administrative and organiza-
+tional innovation, conceptual innovation, policy innovation, and sys-
+temic innovation (Windrum, 2008). Supportive policies and 
+public-private partnerships to bolster innovation are likely to facilitate 
+additional blockchain applications (Dhagarra et al., 2019). 
+
+
+Privacy and Trust: Sensitive and personal healthcare data must be 
+handled with the utmost privacy and trust because of their potential for 
+abuse and discrimination. According to a global IPSOS/World Economic 
+Forum study in 2019, 41% of people do not trust their healthcare pro-
+viders with regard to their private data (IPSOS, 2019). According to 
+estimates, an individual patient’s data could be worth as much as USD 
+7000 per year (Dimitrov, 2019). Assuring stakeholders that their infor-
+mation is private, safe, and anonymous is critical for the adoption of 
+blockchain applications. Stakeholder trust in the blockchain technology 
+as well as the blockchain consensus mechanisms (participants agreeing 
+to trust the network consensus) are also essential, especially for auto-
+mated smart contracts (Mackey et al., 2019; Onik et al., 2019). While the 
+blockchain itself may be trustworthy, in the case of private-permissioned 
+blockchains, the network participants must be carefully selected as they 
+will have access to sensitive data on the chain. 
+
+
+Supporting Infrastructure: These are diverse factors that act as 
+accelerants for blockchain adoption. They include attracting and sup-
+porting startups developing blockchain technologies, such as through 
+accelerator programs (Vlachos et al., 2019). The other critical factor that 
+hastens blockchain adoption is the ability of the sector to attract in-
+vestors to fund blockchain companies and projects (Vlachos et al., 
+2019). Collaboration with sectors such as telecommunications and cloud 
+solution providers also enhances blockchain solution–related infra-
+structure (Dhagarra et al., 2019). 
+
+
+2.2. Proposed blockchain readiness assessment framework 
+
+
+Fig. 2 shows the proposed integrated readiness assessment frame-
+work for blockchain. Central to the framework is the stakeholders and 
+their strategic relationships. The overall readiness of each stakeholder is 
+captured through the four readiness dimensions. Finally, the differential 
+influence of the facilitating conditions on the readiness of stakeholders is 
+captured. The framework provides a comprehensive approach for 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+7
+
+
+researchers and policymakers to assess the blockchain adoption readi-
+ness of the healthcare sector or any other sector in any country. 
+
+
+3. Application of the framework in the healthcare sector 
+
+
+Once we developed the assessment framework, the next stage was to 
+test its applicability. While it could be tested anywhere, a setting that is 
+experiencing a significant push toward blockchain adoption and 
+healthcare advancement could be more practically relevant. The UAE 
+was chosen as the case country as it is among the few countries in the 
+world to have adopted a national blockchain strategy (UAE, 2020). 
+Providing world-class healthcare is also one of the six pillars of the UAE 
+agenda (UAE Vision 2021, 2019). Thus, the UAE provides an ideal 
+setting to assess opportunities and challenges associated with block-
+chain adoption in healthcare. 
+
+
+A case study approach was deemed most appropriate because we 
+were examining a contemporary topic in a real-world situation (Yin, 
+2009). Although the study adopted was a single case design (UAE 
+healthcare sector), it featured an embedded case design with multiple 
+units of analysis (Yin, 2009). In terms of methods, a pragmatic, 
+sequential multi-methodology approach was employed to develop a 
+comprehensive understanding of various strands of the framework and, 
+in the process, answer the research questions. The use of a pragmatic 
+approach was justified given that practical, realistic solutions are needed 
+to inform practice, especially considering the newness of the topic. 
+Therefore, as in other case study research into blockchain, empirical 
+data were compiled via multiple methods and sources (Islam et al., 
+2019), as shown in Table 2. 
+
+
+First, qualitative, secondary data from reliable sources relevant to 
+blockchain adoption in UAE healthcare (refer Table 2) were assembled, 
+coded, and analyzed in line with the research questions. To ensure 
+reliability and rigor in the secondary data, we considered only reports 
+from leading consulting firms, governments, and global organizations. 
+
+
+In the next phase, primary research was conducted to complement 
+and to fill the gaps in the secondary sources. For consumers, primary 
+data were collected in two consecutive phases using a sequential 
+explanatory design. First, a customer/patient-centric survey was con-
+ducted, followed by semi-structured interviews with individuals 
+residing in the UAE for at least five years. 
+
+
+The non-technical, random-sample survey (response rate of 22%) 
+targeted 100 residents. The survey assessed the following: their general 
+
+
+Fig. 2. Blockchain Readiness Assessment Framework.  
+
+
+Table 2 
+Summary of Primary and Secondary Information Sources.  
+
+
+Primary Sources Secondary Sources 
+
+
+Interviewee 1 – Chief Technology Architect 
+- Experience - 25+ years in IT 
+- Responsible for leading the 
+
+
+blockchain initiative at the hospital 
+Interviewee 2 – IT Security and 
+Compliance Lead  
+
+
+- Experience - 30+ years in IT 
+- Expert knowledge in blockchain 
+
+
+technologies and has led several 
+blockchain projects 
+Interviewee 3 –Head of Fintech, 
+Blockchain & Emerging  
+
+
+- Experience - 15 years in the legal 
+field 
+
+
+- Expert Legal Consultant, 
+responsible for advising government 
+agencies, businesses as well as startup 
+advisor on blockchain and other 
+emerging technologies 
+Interviewee 4 -Service Delivery Manager, 
+Infrastructure & Data Center  
+
+
+- Experience – 12 years in IT 
+- Expert in Cloud computing and 
+
+
+blockchain technologies 
+Interviewee 5 – Healthcare Researcher 
+(Government entity) 
+
+
+- Experience – 10 years as a 
+healthcare researcher 
+
+
+- Expert in healthcare policies and 
+regulatory compliance of new 
+technologies 
+Interviews with Customers 
+
+
+- Six customer interviews 
+- The average number of years 
+
+
+residing in the UAE – 9 years 
+- Three working professionals and 
+
+
+three homemakers 
+Survey with Customers 
+
+
+- 22 responses from 100 random 
+samples (22% response rate) 
+
+
+- The average number of years 
+residing in the UAE – 9 years 
+
+
+- All working professionals 
+
+
+• Industry reports - e.g., 
+Pricewatercoopers, KPMG 
+• Government reports 
+• Global Organizations Report – e.g., 
+World Bank, World Economic Forum 
+• Government policy documents  
+• News Articles 
+• Websites  
+• Global Survey Reports - e.g., World 
+Economic Forum, United Nations 
+• Industry Case Studies 
+• Successful Use Cases 
+• Miscellaneous – e.g., Blogs, Public 
+forums  
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+8
+
+
+willingness to voluntarily share data with other stakeholders; privacy 
+and security concerns regarding their healthcare data; the effort taken to 
+gage whether the medical products they purchased were original; the 
+importance allocated to the country of origin of products; the need to 
+have access to healthcare data at any time; concerns relating to the 
+quality of imported medicines/products; general awareness of block-
+chain and decentralized systems; and willingness to use/participate in 
+these systems. 
+
+
+The in-depth semi-structured customer interviews involved six par-
+ticipants selected using a purposive sampling technique to encourage 
+diversity of gender and nationality. Each interview was approximately 
+50–60 min. The interviewees were briefed on blockchain technology 
+and questioned on the lines of the survey questions and responses with a 
+focus on “how,” “what,” and “why.” In addition, they were asked about 
+the positives and negatives of the UAE healthcare system and changes 
+they would like to see post-COVID-19 pandemic. Follow-up questions 
+were also asked regarding anticipated benefits and challenges with the 
+implementation of blockchain technologies, with cues occasionally 
+provided to generate meaningful insights. The responses to the survey 
+and interviews were then compiled with the secondary data to derive a 
+meaningful generalization of customer readiness for blockchain 
+adoption. 
+
+
+Additionally, five expert interviews were conducted to complement 
+and triangulate the secondary findings and to identify discrepancies (if 
+any). Again, purposive sampling was used to ensure that we included 
+key stakeholders with a strong understanding of blockchain technolo-
+gies. The experts were probed on their readiness across different readi-
+ness dimensions, their association with other stakeholders, and the 
+influence of various facilitating conditions. These interviews lasted 
+approximately 45–60 min. 
+
+
+The data drawn from the various sources (Table 2) were categorized 
+and coded. Two authors independently coded the data to ensure con-
+sistency. The first stage involved a thematic analysis of data for each 
+stakeholder. The categorized data for each stakeholder group were 
+further identified and classified into four readiness sub-themes. The 
+second stage of the analysis involved axial coding, in which pairs of 
+stakeholder groups were analyzed together to identify and code dyadic 
+relationships. For this, data corresponding to stakeholder groups was 
+examined together. For example, relevant data for the association be-
+tween a government and a blockchain solution provider were coded and 
+categorized. Any evidence of multi-stakeholder relationships (involving 
+more than two stakeholders) or international stakeholder relationships 
+(involving entities in different countries) were categorized separately 
+and coded. In the third stage, the secondary and corresponding primary 
+data were categorized and coded under the facilitating conditions. 
+Finally, findings related to each stakeholder were summarized as “Low,” 
+“Moderate,” or “High” based on the amount and strength of the evidence 
+identified. To improve reliability, the summarization was conducted 
+independently by two authors. 
+
+
+4. Case study findings 
+
+
+The findings are organized in line with the readiness assessment 
+framework and research questions. However, before the findings are 
+provided, an overview of the UAE healthcare sector is provided to give 
+context. 
+
+
+The UAE healthcare sector has witnessed astonishing growth, from a 
+few hospitals to over 125 public and private hospitals (US-UAE Business 
+Council, 2018). The sector is competitive, with healthy rivalries among 
+several foreign and domestic players. The UAE government has also 
+implemented several citizen-centric initiatives in the sector. For 
+instance, healthcare insurance is mandatory in the UAE, providing basic 
+coverage for all citizens and residents. Moreover, medical tourism is on 
+the rise; Dubai alone is expecting 500,000+ international health tourists 
+annually by 2021. Blockchain has been recognized as a potential inno-
+vation area of focus for the sector (US-UAE Business Council, 2018). 
+
+
+4.1. Stakeholder readiness for blockchain adoption 
+
+
+Stakeholder readiness gauges the extent to which UAE healthcare 
+stakeholders are ready to support and promote the awareness, imple-
+mentation, and use of blockchain solutions. 
+
+
+4.1.1. Government readiness 
+The UAE government is not only the most important stakeholder for 
+
+
+blockchain adoption—it is evidently the readiest. All expert in-
+terviewees agreed that the federal and state governments are the key 
+stakeholders responsible for the growing interest in blockchain. At the 
+emirate level, participants highlighted various initiatives such as Dubai 
+Health Strategy and Abu Dhabi Healthcare Strategic Plan (for devel-
+oping a world-class healthcare ecosystem), demonstrating strong moti-
+vational readiness. 
+
+
+Interviewees also highlighted the UAE government’s support of 
+blockchain technology, particularly its Blockchain Strategy 2021 (UAE, 
+2020) and the fact that many public sector entities are adopting block-
+chain solutions (World Economic Forum, 2020). An interviewee from a 
+government entity described several programs undertaken by the Dubai 
+government, such as the “Dubai Blockchain Strategy” for migrating key 
+government processes including healthcare records to blockchain, in 
+addition to the “Dubai Blockchain Policy,” which encourages businesses 
+to adopt blockchain technologies, thereby demonstrating strong 
+engagement readiness. In technology readiness, the UAE was ranked 
+first in the world in government procurement of advanced technology 
+products (Network Readiness Index, 2019). The UAE government is also 
+well-positioned from a structural readiness perspective as it is the largest 
+spender in the healthcare sector. 
+
+
+4.1.2. Business entity readiness 
+Several issues related to motivational and engagement readiness 
+
+
+were echoed throughout the interviews. According to respondents, core 
+challenges facing UAE healthcare firms, especially small and medium 
+enterprises (SMEs), in blockchain implementation are related to lack of 
+knowledge and awareness, and regulatory rather than technical issues. 
+One interviewee (from a blockchain solution provider) mentioned that 
+many small firms are unfamiliar with the term “blockchain,” but have 
+heard of Bitcoin. According to a recent study of UAE SMEs, 63% of firms 
+are unaware of industry 4.0 technologies, including blockchain, and 
+their relevance to their business operations (Dubai SME, 2019). For 
+SMEs that are aware of blockchain, according to respondents, their 
+reluctance is potentially due to the poor reputation of cryptocurrency, 
+and many firms perceive them as indistinguishable and are therefore 
+concerned about legal and regulatory issues. This is in line with gov-
+ernment findings that SMEs in the UAE are not adequately aware of key 
+contemporary technologies and trends; thus, their preparedness for the 
+adoption of such technologies in the near future is reduced (Dubai SME, 
+2019). This is a concern given that the majority (more than 95%) of 
+businesses in the UAE (including in healthcare) are SMEs. 
+
+
+Most entities in the UAE private sector that have engaged with 
+blockchain technologies are large corporations. Some of the successful 
+use cases in blockchain implementation in the UAE involve large firms in 
+banking (e.g., Emirates Bank), airlines (e.g., Emirates Airlines), logistics 
+and supply chain (e.g., Dubai Ports), and telecommunications (e.g., 
+Etisalat). As evidenced in the interviews, this was primarily because the 
+implementation of blockchain is part of the long-term strategic focus of 
+large firms, while the focus of SMEs is more short-term and cost- 
+oriented. One interviewee (chief technology architect responsible for 
+blockchain implementation in a large multinational hospital) high-
+lighted the importance of having a long-term strategy to leverage the full 
+benefits of blockchain. Other respondents echoed this; firms looking to 
+implement blockchain must not look for immediate but rather long-term 
+benefits. 
+
+
+From the technological and structural readiness perspectives, the 
+readiness of UAE business entities is relatively high. Evidence from a 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+9
+
+
+recent study suggests that the readiness of private-sector firms to adopt 
+current ICT is high; 98% in Dubai use computing devices with connec-
+tivity for daily business operations, and 74% use cloud storage. The 
+percentage of SMEs in the UAE with a dedicated IT budget has increased 
+from 27% in 2013 to 73% in 2019 (Dubai SME, 2019). 
+
+
+4.1.3. Solution provider readiness 
+The results of the interviews indicated that the general readiness of 
+
+
+UAE blockchain solution providers across all four dimensions is rela-
+tively high. Many leading global enterprise IT and business consulting 
+firms are actively involved in promoting blockchain in the UAE. Com-
+panies such as Microsoft, SAP, IBM, and Cisco are part of the Dubai 
+Future Foundations’ Global Blockchain Council (DMCC, 2020). Several 
+large domestic enterprises have also started offering the blockchain 
+platform. Over 120 blockchain companies are present in the UAE, 
+including many startups; more than 200 projects are active (World 
+Economic Forum, 2020). Leading consulting firms such as Pricewa-
+terhouseCoopers are working with governments and businesses to 
+establish blockchain policies and strategies (PwC, 2019). 
+
+
+While general readiness is promising, the focus of blockchain solu-
+tion providers on the healthcare sector is not. However, this is not a 
+problem specific to the UAE given that the healthcare sector, in general, 
+have been lagging in blockchain implementation. When we interrogated 
+interviewees on the lack of focus on healthcare among blockchain so-
+lution providers, the respondents highlighted that this is mainly due to 
+the complexity associated with the sector and compliance-related issues 
+regarding patient data. According to the interviewees, other sectors, 
+including the public sector, are in focus as they are considered low- 
+hanging fruit by providers. However, the respondents were confident 
+that providers would eventually turn their attention to the healthcare 
+sector. They stated that at present, the proof-of-concept to imple-
+mentation ratio is very low in the healthcare sector. One interviewee 
+from the healthcare sector mentioned that they were receiving calls from 
+blockchain solution providers daily and that providers were sending 
+technical materials and successful blockchain use cases regarding 
+implementation. One respondent expressed a desire to see more niche 
+blockchain solution providers in the fitness and wellness domains—two 
+growth areas in the UAE. Another respondent expressed disappointment 
+with regard to the vast amount of healthcare data that is generated in the 
+UAE, but not analyzed. However, he expressed confidence that post- 
+COVID-19, there will be more government and private-sector spending 
+in the sector to enhance its preparedness for future pandemics. 
+
+
+4.1.4. Customer readiness 
+The findings of the interviews and survey show a relatively high 
+
+
+customer (general public) readiness across all four readiness di-
+mensions. The high motivational readiness is largely due to dissatis-
+faction with the services presently offered in the UAE healthcare sector. 
+Most customers interviewed expressed a desire to see changes to existing 
+services. The interviewees were unified concerns related to long wait 
+times, improper diagnoses, and the interoperability of healthcare service 
+providers. One interviewee stated, “even when I went to a different 
+clinic within the same provider network, they didn’t have access to my 
+medical records, which made diagnosis difficult.” Another respondent 
+had similar concerns: “I lost all my medical records with my provider 
+after they changed their software or application; any previous data they 
+had was lost forever.” One interviewee highlighted that their pediatri-
+cian lost access to their children’s data when he switched jobs to another 
+provider. Two respondents noted their displeasure with the insurance 
+claims process. One remarked, “the insurance provider and the hospital 
+will blame each other for the delay, and as customers, we are ones who 
+suffer.” Some interviewees mentioned that they had experienced some 
+form of data entry error with a healthcare service provider, either in 
+their own profile or in the profile of a family member. Motivation 
+readiness was reflected in the customer survey as well. For instance, 
+95% of respondents reported that they were concerned whether the 
+
+
+medical products they were buying, especially medications, were 
+original. 
+
+
+Regarding engagement readiness, when we explained to in-
+terviewees, in layperson terms, some of the benefits of blockchain, such 
+as accurate electronic health records (EHRs), data sharing, and inter-
+operability, most expressed excitement and readiness to engage with 
+these applications. One expressed a desire to have their family health 
+records data linked (with their consent), in order to understand patterns 
+and vulnerabilities in their family health histories and enhance pre-
+ventive measures. Others mentioned that these solutions (such as EHRs 
+and patient data sharing) would improve the accuracy and usefulness of 
+patient information, especially during emergencies such as road acci-
+dents. One respondent (along similar lines) highlighted the possible 
+benefits that accurate historical records would have provided in the 
+context of the ongoing COVID-19 pandemic, not just in the UAE but 
+worldwide. More than 85% of the survey participants mentioned that 
+they had heard or had some understanding of blockchain and that they 
+were willing to use/participate in blockchain networks. 
+
+
+The evidence from the customer survey showed high technical and 
+structural readiness, in general, for new technologies. For instance, 86% 
+of the respondents indicated that they would like to have ready access to 
+their medical reports and tests. Further, 85% stated they would use 
+blockchain or similar technologies to track the country of origin of 
+products and their condition during transit through the supply chain. 
+This was not surprising given that drug and product counterfeiting is a 
+major concern in healthcare (Mettler, 2016). 
+
+
+4.2. Stakeholder engagement in blockchain initiatives 
+
+
+The engagement (cooperation, collaboration, communication, and 
+coordination) of stakeholders is critical for blockchain adoption. This 
+includes exploring new opportunities together and working together 
+during and after implementation to ensure project success. As else-
+where, stakeholder engagement is a challenge in the UAE. The lack of 
+stakeholder engagement is an even greater concern for the healthcare 
+sector. This is because, vis-à-vis other sectors, the sector has seen limited 
+blockchain initiatives. Table 3 summarizes the key initiatives. More than 
+half of the projects involved government entities. This reaffirms our 
+findings that the government is the key stakeholders responsible for 
+driving blockchain initiatives in the UAE, including the healthcare 
+sector. The evidence also indicates that except for two startup initiatives, 
+all projects involved large firms. This supports our interview findings. 
+Another concern is the lack of consortium or multi-stakeholder projects 
+involving multiple hospitals, as witnessed in other sectors, and the lack 
+of international collaboration or global blockchain partnerships. 
+
+
+Challenges in stakeholder engagement were also evidenced during 
+the expert interviews. One respondent stated: “Blockchain is not a pri-
+vate or single entity–held technology; hence, if you are planning to 
+implement, then all the stakeholders should take the same step because 
+each stakeholder has their own actionable part in it.” Most respondents 
+highlighted issues relating to interoperability across healthcare entities. 
+One interviewee gave an example that if a hospital in the UAE or else-
+where wanted to view patient data, they would be able to do so only 
+after becoming part of the blockchain network. If other entities are not 
+using blockchain or are not part of the destination entity blockchain, 
+they cannot access or add to existing patient records on the blockchain of 
+the destination entity, defeating the purpose of having a blockchain. One 
+respondent highlighted the importance of stakeholders working 
+together to achieve seamless connectivity or interoperability between 
+independent blockchain platforms. 
+
+
+However, there are certain advantages as well. First, most blockchain 
+projects that have been initiated are customer/patient-centric and have 
+a direct, positive impact on people’s lives. For instance, the Hayat donor 
+registry has been able to record the will of thousands of registered do-
+nors on their blockchain-based application. Participating hospitals can 
+verify through the platform DNA matches of donors and recipients, 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+10
+
+
+thereby reducing organ trafficking. Similarly, the emergence of two 
+promising blockchain startups, BodyO and Liber Health, is encouraging 
+enough to provide the impetus for other health-tech startups to use 
+blockchain technologies. The relevance of the technology will be even 
+higher given the COVID-19 pandemic because healthcare providers are 
+looking for solutions such as contactless biometric identification 
+systems. 
+
+
+4.3. Facilitating conditions 
+
+
+The various conditions facilitating blockchain adoption and their 
+influence on the readiness of stakeholders are discussed in the following 
+sections. 
+
+
+4.3.1. Regulatory and policy environment 
+While the UAE is making significant efforts to develop sound policies 
+
+
+and a friendly regulatory environment for blockchain adoption, several 
+concerns remain. According to the interviewees, “regulatory uncer-
+tainty” is the topmost challenge for both business entities and block-
+chain solution providers. According to one respondent, “regulation in 
+the UAE to date has considered blockchain as a crypto asset and there-
+fore applies the same legal framework that is used to regulate crypto-
+currencies.” Another respondent highlighted that their legal team was 
+working hard to gain insights into the current regulatory framework 
+governing blockchain technologies and that they were conducting in-
+ternal assessments to ensure compliance. The interviewee (a legal expert 
+in fintech and blockchain) stated that there is still no clear regulation of 
+blockchain in the UAE in any sector, let alone healthcare and, therefore, 
+concerns exist with regard to implementing smart contracts. Another 
+interviewee highlighted a concern about the lack of consumer data 
+protection laws specific to blockchain in the UAE. The interview findings 
+are in line with the World Economic Forum (2020) report on lessons 
+learned from the 200+ active blockchain projects in the UAE, which 
+stated that the main challenge to blockchain deployment is regulatory 
+issues. This accords with the literature; governments are lagging in 
+developing regulations to deal with technological innovations such as 
+blockchain (Kimani et al., 2020). 
+
+
+4.3.2. Innovation propensity 
+In the UAE, significant efforts have been undertaken by governments 
+
+
+to promote innovation, as it is one of the six pillars of the national 
+agenda. For instance, the UAE launched the National Innovation Strat-
+egy in 2014 and the National Strategy for Advanced Innovation in 2018. 
+This was echoed in the interviews as well. According to a respondent 
+from a government entity, blockchain is central to Dubai’s “Paperless 
+Strategy,” which aims to build an integrated paper-free government 
+framework by the year 2021 and, in the process, eliminate more than a 
+billion pieces of paper used for government transactions, including 
+healthcare, every year (Smart Dubai, 2020b). Similarly, Dubai aims to 
+become the first city to be fully powered by blockchain (Smart Dubai, 
+2020a). The establishment of the Global Blockchain Council is part of 
+
+
+Table 3 
+Key Blockchain Initiatives and Key Stakeholders in UAE healthcare.  
+
+
+Initiative Description/Key 
+Objectives 
+
+
+Key Stakeholders 
+involved 
+
+
+References 
+
+
+Enhance 
+electronic 
+health records 
+(EHR) 
+
+
+Application of 
+Blockchain 
+Technology to 
+Electronic Health 
+Records will benefit 
+in collection and 
+management of all 
+patient information 
+within UAE in the 
+most secure and 
+reliable way 
+
+
+Hospital (NMC); 
+Blockchain 
+Solution Providers 
+(GaurdTime and 
+Du) 
+
+
+(Du, 2017;  
+US-UAE 
+Business 
+Council, 
+2018) 
+
+
+Sheryan smart 
+licensing 
+system 
+
+
+Deploy blockchain 
+technology-based 
+smart licensing 
+system for licensing 
+healthcare 
+professionals looking 
+to work in the UAE 
+from anywhere in the 
+world. 
+
+
+Government (The 
+Dubai Health 
+Authority and 
+Dubai Healthcare 
+City Authority); 
+Customers 
+(doctors, nurses, 
+pharmacists, and 
+technicians) 
+
+
+(Dubai 
+Health 
+Authority, 
+2018) 
+
+
+Healthcare 
+assessment 
+system 
+
+
+Deploy blockchain- 
+based system to save 
+and share assessment 
+information of health 
+professionals with 
+local licensing health 
+authorities. 
+
+
+Government 
+(Ministry of Health 
+and Prevention); 
+Customers 
+(doctors, 
+pharmacists, and 
+technicians) 
+
+
+(MOHAP, 
+2019) 
+
+
+Patient Safety 
+solution 
+
+
+UAE’s first patients’ 
+blockchain-powered 
+safety solution will 
+make it easier for 
+patients and 
+healthcare providers 
+to verify the 
+authenticity as well as 
+the conditions of 
+medicines. 
+
+
+Blockchain 
+Solution Provider 
+(Du); Healthcare 
+Solution Provider 
+(Dhonor 
+HealthTech) 
+
+
+(Zawya, 
+2019) 
+
+
+Hayat donor 
+registry 
+
+
+The blockchain 
+solution is intended at 
+improving and 
+securing organ 
+donation. The 
+platform will be used 
+to register donors’ 
+pledge to donate 
+organs. 
+
+
+Government 
+(Ministry of Health 
+and Prevention); 
+Customers (donors 
+and receivers) 
+
+
+World 
+Economic 
+Forum 
+(2020) 
+
+
+Blockchain-based 
+platform for 
+storing 
+healthcare 
+sector data 
+
+
+It is UAE’s first 
+advanced digital 
+platform to store the 
+data for health, 
+pharmaceutical 
+government and 
+private facilities, 
+health practitioners, 
+and drug information. 
+
+
+Government 
+(Ministry of Health 
+and Prevention; 
+Dubai Healthcare 
+City); Business 
+Entities (hospitals, 
+clinics, 
+pharmacies, and 
+laboratories) 
+
+
+WAM (2020) 
+
+
+Health and 
+Wellness – 4P 
+Solution 
+
+
+It’s a UAE based 
+health-tech startup 
+company that utilizes 
+a blockchain platform 
+in 4P healthcare: 
+Predictive, 
+Preventive, 
+Personalized, and 
+Participatory. It 
+captures vital health 
+parameters to create 
+personalized 
+prevention programs 
+for individuals, as 
+well as to detect and 
+monitor community 
+and population health 
+data. 
+
+
+Blockchain 
+Solution Provider 
+(BodyO); 
+Customers (general 
+public) 
+
+
+DIFC (2019)  
+
+
+Table 3 (continued ) 
+
+
+Initiative Description/Key 
+Objectives 
+
+
+Key Stakeholders 
+involved 
+
+
+References 
+
+
+Contactless IRIS 
+identification 
+technology 
+
+
+It’s a UAE based 
+health-tech startup 
+company that utilizes 
+blockchain and 
+biometrics-powered 
+patient identification 
+platform for 
+contactless IRIS 
+identification 
+technology for secure 
+and reliable patient 
+data. 
+
+
+Blockchain 
+Solution Provider 
+(Liber Health); 
+Healthcare 
+Providers 
+
+
+Emirates 24/ 
+7 (2020)  
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+11
+
+
+the UAE government’s efforts to enhance UAE’s position as a leading 
+center for innovation and knowledge economy (DMCC, 2020). In line 
+with national innovation strategies, the Ministry of Health and Pre-
+vention (MOHAP) has its own Innovation Health Strategy, the goals of 
+which include creating advanced technology-based healthcare solutions 
+(MOHAP, 2020). This innovation propensity of MOHAP has culminated 
+in several blockchain projects (Table 3). In the private sector, the pro-
+portion of SMEs investing in one or more innovation projects has almost 
+doubled, from 29% in 2013 to 54% in 2019 (Dubai SME, 2019). 
+Blockchain solution providers, especially large multinational providers 
+such as IBM and Microsoft, are very innovative by nature, and therefore 
+we expect to see more innovative blockchain proofs-of-concept and 
+projects in the near future. 
+
+
+4.3.3. Privacy and trust 
+Building trust among stakeholders is critical for the adoption of 
+
+
+blockchain technologies. Overall, considerable progress has been made 
+by the UAE government and business entities in enhancing the privacy 
+and trust of all stakeholders, especially customers. One interviewee 
+highlighted the initiative of the Dubai Health Authority in implementing 
+a smart contract that gives patients full control and ownership in 
+approving the disclosure of their medical information to any 
+stakeholder. 
+
+
+Despite progress, privacy and trust remain a concern in the UAE since 
+the regulatory framework is at a nascent stage. This was echoed in the 
+interviews. According to the government respondent, patient privacy is 
+the main challenge for blockchain in the healthcare sector. Another 
+concern highlighted by respondents (from a blockchain solution pro-
+vider) is the lack of secure internet servers in the country as most data 
+are hosted on third-party servers of blockchain solution providers in 
+other countries. This was not surprising given the UAE’s relatively low 
+ranking (59th) for “secure internet servers” in a global network readi-
+ness index survey (Network readiness index, 2019). 
+
+
+One interviewee (chief technology architect in a multinational hos-
+pital) mentioned the challenge in ensuring the security of patient data 
+hosted in the blockchain. He said that if a patient has a chronic or ter-
+minal illness, they may not want everyone to see that they have this 
+health problem. It is their responsibility as healthcare providers to 
+ensure that patient data are not misused, especially given that it is 
+immutable. One legal expert mentioned the lack of clarity regarding the 
+patient’s right to have their data erased (“right to be forgotten”), in 
+accordance with GDPR. 
+
+
+Customers expressed even greater concerns. Customer interviewees 
+explicitly expressed fears over “who gets access” to view their health 
+data and “whether patient consent will be sought.” A main concern for 
+respondents was that governments and businesses could indirectly 
+coerce their consent or make it mandatory for issuing visas or making 
+job offers. Respondents mentioned that immutability would lead to 
+more stringent audits and security checks on health conditions. In the 
+words of an interviewee, “private healthcare consultations, especially 
+with psychologists and psychiatrists, can be used against the patient, for 
+example, in hiring decisions.” Another mentioned that “patients who 
+had a history of addictions and chronic illness could be disadvantaged, 
+as it could affect their employment status or even their legal residence 
+status in the country.” In sum, once a customer understood what 
+blockchain is and how it works, concerns related to privacy and trust 
+outweighed the benefits. They expressed the desire for complete control 
+over what goes into the blockchain as immutable data as well as their 
+voluntary consent (without any compulsion) regarding who is able to 
+view the data. 
+
+
+4.3.4. Supporting infrastructure 
+It was evident in this research that the UAE, especially during the 
+
+
+past decade, has invested significantly in establishing a robust infra-
+structure to become a global leader in the adoption of the latest tech-
+nologies and to develop a robust healthcare sector. Expert interviewees 
+
+
+generally expressed satisfaction with the supporting infrastructure for 
+blockchain adoption. According to one, the UAE government’s liberal 
+policies in attracting foreign investment, especially from developed 
+countries, in the healthcare sector, will facilitate technology transfer, 
+including blockchain technologies. 
+
+
+In addition, interviewees highlighted the role of tech startups and 
+universities in promoting blockchain. It is encouraging to see the UAE 
+government actively supporting tech startups through startup in-
+cubators and accelerators. For instance, the Dubai International Finan-
+cial Centre’s startup accelerator program is supporting six startup 
+companies in blockchain, including one in healthcare. Similarly, in5 is a 
+startup incubator based in Dubai, supporting several blockchain start-
+ups, including in healthcare (in5, 2020). UAE universities and global 
+consulting firms have started offering training and certification pro-
+grams in blockchain technologies, which will enhance the blockchain 
+ecosystem. From a consumer perspective, access to 4 G/5 G internet 
+encourages the use of blockchain applications. Also, the UAE is among 
+the countries with the highest per capita income, and customers thus 
+have access to digital devices such as smartphones and laptops to sup-
+port blockchain adoption. 
+
+
+5. Discussion 
+
+
+The validity of a framework is established qualitatively if the con-
+structs and categories, explanations, and interpretations of the frame-
+work make sense. Specifically, findings should meet most of the 
+requirements of framework validity such as credibility, transferability, 
+dependability, confirmability, fairness, and authenticity to improve 
+understanding, stimulate action, and empower action (Creswell and 
+Miller, 2000). 
+
+
+Table 4 summarizes the blockchain readiness assessment findings for 
+the UAE healthcare sector. It provides a snapshot of key findings related 
+to the various components of the readiness framework. We were able to 
+clearly organize the case study findings as per the components of the 
+framework and provide adequate explanations regarding the blockchain 
+readiness of the sector. A categorization of “Low,” “Moderate,” and 
+“High” was used to summarize individual stakeholder readiness (gov-
+ernments, business entities, solution providers, and customers) and their 
+collaboration readiness. The same categorization was used to capture 
+the facilitating conditions influencing the readiness of stakeholders. The 
+categorization provides a simple, generic understanding of blockchain 
+readiness for relevant practitioners and policymakers devising policies 
+and support mechanisms to address readiness-related differences. 
+
+
+The findings demonstrate the strong readiness of the UAE govern-
+ment in all four readiness dimensions. They affirm that the government 
+is the most important stakeholder for driving blockchain initiatives and 
+that they play multiple roles such as enablers, adopters, and regulators. 
+However, the relatively low readiness of business entities, especially 
+SMEs, in motivational and engagement readiness is a concern because 
+over 90% of the firms in the UAE (and globally) are SMEs. If blockchain 
+adoption is not inclusive, it will enhance the digital divide between 
+SMEs and large firms, creating new inequalities or reinforcing existing 
+ones. More support, education, and awareness are required to improve 
+their engagement in blockchain projects. The successful use cases of 
+SME blockchain projects will provide an impetus for other SMEs to 
+explore blockchain solutions. Larger firms showed a greater propensity 
+toward blockchain technologies and appeared to be in a much better 
+position to leverage opportunities afforded by the technology. 
+
+
+The moderate to high readiness of blockchain solution providers 
+across the four dimensions is encouraging, though their focus on 
+healthcare is comparatively smaller vis-à-vis other sectors. Furthermore, 
+the majority of blockchain solution providers are large non-domestic 
+multinational firms. To promote local solution providers and startups, 
+policymakers and industry groups could facilitate diffusion of innova-
+tion through collaborative partnerships such as international joint 
+ventures and/or by non-domestic firms mentoring local firms and 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+12
+
+
+Table 4 
+Summary of Blockchain Readiness Assessment of UAE healthcare.  
+
+
+Readiness  Government Business Entities Blockchain Solution Providers Customers 
+
+
+Individual Stakeholder Readiness 
+Motivational 
+
+
+Readiness 
+→ High 
+
+
+• UAE Vision 2021 aims to achieve a world- 
+class healthcare sector 
+• Dubai’s healthcare strategy aims to 
+transform Dubai into a leading healthcare 
+destination 
+• Abu Dhabi Healthcare Strategic Plan seeks 
+to improve the quality of healthcare 
+services, patient safety, and experience as 
+well as develop an e-health program 
+
+
+Low 
+• In general, firms, especially 
+SMEs, are not up-to-date 
+with key contemporary 
+technologies and trends 
+• Many small firms have not 
+heard of “blockchain.” 
+
+
+Moderate to High 
+• Solution providers and consulting 
+firms are trying to change the status 
+quo of business entities regarding 
+blockchain implementation 
+• Focus on healthcare solutions is 
+still limited 
+
+
+High 
+• Customers want to see 
+improvements in existing 
+practices/services 
+• Dissatisfaction with long 
+waiting times, improper 
+diagnosis, data entry errors, and 
+importantly, interoperability 
+
+
+Engagement 
+Readiness 
+
+
+→ High 
+• Launch of UAE Blockchain Strategy 2021 
+• Launch of Dubai Blockchain Strategy 
+• Establishment of Global Blockchain 
+Council 
+
+
+Low 
+• Lack of knowledge and 
+awareness  
+• Lack of clarity on 
+regulatory issues 
+
+
+Moderate to High 
+• More than 120 blockchain 
+companies in the UAE 
+• Several blockchain start-ups 
+• More than 200 active projects but 
+few in healthcare 
+• Healthcare-specific blockchain 
+firms are limited 
+
+
+High 
+• Keen awareness of and 
+willingness to engage with 
+blockchain technologies 
+• The desire for supply chain 
+traceability of medicines/ 
+products and country of origin 
+
+
+Technical 
+Readiness 
+
+
+→ High 
+Leverage technological innovation through 
+the Smart Dubai 2021 initiative 
+Exploit disruptive innovation through Dubai 
+10X initiative to be ten years ahead of other 
+world cities 
+Ranked first in the world in government 
+procurement of advanced technology 
+products 
+
+
+Moderate to High 
+• Most firms use the latest 
+ICTs 
+
+
+Moderate to High 
+• All major global blockchain 
+providers are active in the UAE (e. 
+g., Microsoft, SAP, IBM, Amazon, 
+etc.) 
+• Support for start-ups 
+• Availability of wireless and cloud 
+infrastructure, faster connectivity, 
+and higher bandwidth 
+• Set to leverage 5 G networks 
+
+
+High 
+• Availability of technological 
+resources such as smart devices, 
+computers, tablets, and 
+smartphones 
+• Availability of mobile and home 
+internet for anytime and 
+anywhere access to health records 
+and services 
+
+
+Structural 
+Readiness 
+
+
+→ High 
+The government is the biggest spender in the 
+healthcare sector at approximately USD 10 
+billion 
+The strategic partnership between Abu 
+Dhabi Health Services Company and 
+LinkedIn 
+
+
+Moderate to High 
+• A significant increase in IT 
+budget among firms  
+• Most firms have dedicated 
+IT budgets 
+
+
+Moderate to High 
+• All major global blockchain 
+providers have strong financial and 
+human resource backing as well as 
+worldwide R&D divisions 
+• Healthcare division is lacking in 
+most major firms 
+
+
+High 
+• High per-capita income to 
+afford the technology 
+• Strong familiarity and expertise 
+in using various technologies 
+
+
+Stakeholder Collaboration Readiness 
+Government ↔ Moderate to High 
+
+
+• Evidence of cooperation/ collaboration 
+between different government entities (e.g., 
+Dubai Health Authority and Dubai 
+Healthcare City Authority; Ministry of 
+Health and Prevention and Dubai 
+Healthcare City) 
+
+
+Low 
+• Only evidenced for a 
+blockchain-based platform 
+for storing healthcare sector 
+data 
+
+
+Low 
+• No direct evidence from the case 
+study 
+
+
+High 
+• Evidence of direct collaboration 
+(e.g., Sheryan smart licensing 
+system; Healthcare assessment 
+system; Hayat donor registry) 
+
+
+Business Entities ↔ – Low 
+• No direct evidence from the 
+case study 
+
+
+Moderate to High 
+• Evidence of collaboration 
+witnessed (e.g., for electronic 
+health records and contactless IRIS 
+identification technology) 
+
+
+Low 
+• No direct evidence from the case 
+study 
+
+
+Blockchain 
+Solution 
+Providers 
+
+
+↔ – – Moderate to High 
+• Evidence of collaboration 
+witnessed (e.g., for EHRs and 
+patient safety solution) 
+
+
+Low 
+• Only evidenced for BodyO, the 
+health-tech startup firm 
+
+
+Customers ↔ – – – Low 
+• No direct evidence from the case 
+study 
+
+
+Facilitating Conditions Readiness 
+Regulatory and 
+
+
+Legal 
+→ Low 
+
+
+• Launch of Dubai Blockchain Policy is 
+promising, but there is no federal-level 
+blockchain policy and regulation 
+• Blockchain considered under the legal 
+framework of cryptocurrencies 
+
+
+Low 
+• High stakeholder concerns related to blockchain regulatory and legal environment 
+• Concerns related to the validity of smart contracts 
+• The regulatory issue emerged as the top challenge in the World Economic Forum report on UAE 
+blockchain projects 
+
+
+Innovation 
+Propensity 
+
+
+→ High 
+• Innovation is one of the six pillars of the 
+UAE national agenda 
+• Established the National Innovation 
+Strategy in 2014 
+• Launched National Strategy for Advanced 
+Innovation in 2018 
+• Dubai government’s Paperless Strategy 
+2021 
+• Launch of Center for Fourth Industrial 
+
+
+Moderate 
+• Large firms found to be 
+more innovative than small 
+firms 
+• SME innovation almost 
+doubled from 29% in 2013 to 
+54% in 2019. 
+
+
+Moderate to High 
+• Most large multinational 
+blockchain providers such as IBM, 
+Microsoft, Amazon have high 
+innovation propensity 
+• Limited evidence regarding small 
+and medium blockchain providers 
+• Few blockchain start-ups in 
+healthcare are very innovative (e. 
+g., Body0, Liber Health) 
+
+
+Moderate to High 
+• Customers, in general, have 
+demonstrated innovation 
+propensity in using smart devices, 
+smart payments gateways, etc. 
+
+
+(continued on next page) 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+13
+
+
+startups (Balasubramanian and Shukla, 2020). The relatively high 
+customer readiness across all four dimensions is encouraging, given that 
+their willingness and ability to participate in the blockchain ecosystem 
+are critical to its widespread adoption. 
+
+
+Regarding stakeholder collaboration readiness, government entities 
+have shown strong readiness to collaborate with other government en-
+tities. Unfortunately, only limited evidence of public-private partner-
+ships, multi-stakeholder consortium projects, and international 
+collaboration was available. Enhancing government collaboration with 
+business entities and blockchain solution providers is critical to facili-
+tating complementary knowledge and skill acquisition for innovative 
+blockchain solutions. However, it was encouraging to identify several 
+customer-centric blockchain projects initiated by public sector entities. 
+This shows that the UAE public sector is responding to recommendations 
+in the literature to implement patient/customer-centric blockchain so-
+lutions (Dimitrov, 2019; Siyal et al., 2019). Overall, difficulty in 
+bringing different stakeholders to the table for blockchain initiatives 
+remains the topmost challenge for blockchain adoption. This is in line 
+with previous findings that intra- and inter-stakeholder collaboration 
+issues are a significant barrier to blockchain adoption in the healthcare 
+sector (Dhagarra et al., 2019). 
+
+
+In terms of facilitating conditions, customer concerns related to 
+privacy and trust remain a prominent issue requiring immediate atten-
+tion. The evidence points to a need for customer-first, privacy-first 
+blockchain solutions that give customers full ownership and control over 
+their data. The general public should also clearly see the full benefits of 
+participation, especially solutions with the potential to positively impact 
+people’s lives. Hence, educating and creating awareness of the benefits 
+of blockchain and addressing concerns regarding privacy and trust are 
+critical for public participation. Similarly, addressing the privacy and 
+trust concerns of business entities and blockchain providers, such as 
+those related to secure internet servers and GDPR, is important. In 
+response, the UAE government is making efforts to increase the number 
+of local servers. Leading blockchain solution providers such as IBM, 
+Microsoft, and Amazon have recently opened state-of-the-art data cen-
+ters in the UAE to support their blockchain and cloud solutions (The 
+National, 2020). The UAE Center for the Fourth Industrial Revolution is 
+working with key stakeholders in the healthcare and public sectors to co- 
+develop consent and data privacy frameworks to protect patient data 
+(C4IR, 2020). 
+
+
+Lack of clarity on blockchain regulations and laws such as those 
+regarding consumer data protection and the legal validity of smart 
+contracts are pressing concerns holding back firms from implementing 
+blockchain solutions (Kimani et al., 2020). For example, tensions sur-
+rounding whether data should be mutable or erasable should be 
+addressed upfront before any blockchain solutions are implemented. 
+From a regulatory and legal perspective, it is important that appropriate 
+policy measures are in place to enable individuals and businesses to 
+benefit from blockchain technologies. However, a balancing act is 
+
+
+required when developing the policy framework, which should be 
+neither too restrictive nor too lax. It should be capable of supporting the 
+appetite for innovation of the sector and the country but not compromise 
+on the potential downside/unknown risks of the new technology, 
+thereby protecting the interests of all stakeholders. Previous studies 
+have highlighted that unregulated innovations might pose hazards in the 
+conduct of business (Kimani et al., 2020). 
+
+
+A strong readiness to innovation was witnessed across stakeholders, 
+with the public sector leading the way in promoting an innovative cul-
+ture in the UAE. For example, public sector innovations such as 
+“paperless Dubai” have paved the way for blockchain adoption. Simi-
+larly, supportive and robust infrastructure such as ICT infrastructure and 
+the establishment of free economic zones to attract outside firms and 
+investors were found to have been critical in supporting the adoption of 
+emerging technologies such as blockchain. The other key finding in 
+terms of supporting infrastructure is the support extended to startups by 
+governments and other stakeholders, such as with the establishment of 
+innovation hubs and accelerators programs. These are vital to sustaining 
+the growth of blockchain technologies. 
+
+
+Overall, Table 4 confirms the validity of the framework. It shows that 
+the framework is credible and can be applied in any research setting to 
+assess the blockchain readiness of the healthcare sector. 
+
+
+6. Conclusions 
+
+
+Only a few years have passed since the world realized the disruptive 
+potential of blockchain in areas other than cryptocurrencies. While an-
+ecdotes and use cases about the impact of this technology abound, 
+sectors and countries have shown varied readiness toward its adoption. 
+Yet, no comprehensive evidence-based and structured approach has 
+been made to understanding such readiness. A comprehensive, multi- 
+dimensional blockchain readiness assessment framework with the po-
+tential to be applied to any sector or country context was developed in 
+this study. The usefulness and applicability of the framework was 
+demonstrated in a real-life setting through a case study of the UAE 
+healthcare sector. In the process, the authors answered several pressing 
+research questions that have implications for the adoption of blockchain 
+technologies. 
+
+
+The implications of this study are manifold. For its research impli-
+cations, the authors were able to identify and integrate various isolated 
+components into an empirically tractable and meaningful readiness 
+assessment framework. Key stakeholders, their extent of readiness, and 
+their readiness to collaborate with other stakeholders were understood. 
+The key facilitating conditions necessary for the widespread adoption of 
+blockchain, such as infrastructure, privacy, trust, regulatory/legal as-
+pects, and innovation propensity, were identified. This is the first 
+investigation of blockchain in the UAE healthcare sector, and the find-
+ings are, therefore, both novel and significant. 
+
+
+In terms of practical implications, this research demonstrates that 
+
+
+Table 4 (continued ) 
+
+
+Readiness  Government Business Entities Blockchain Solution Providers Customers 
+
+
+Revolution 
+• Launch of Innovation Health Strategy 
+
+
+Privacy and 
+Trust 
+
+
+→ Moderate 
+• Most initiatives are in the planning phase 
+such as consent and data privacy 
+frameworks to protect patients’ data, and 
+smart contract, which gives the patient the 
+full control and ownership of their health 
+data 
+
+
+Low 
+• Concerns related to the privacy of patient data 
+• Lack of secure internet servers in the UAE 
+• Lack of consumer data protection law specific to blockchain 
+• Concerns related to the incompatibility of UAE blockchain 
+regulations and GDPR 
+
+
+Low 
+• Strong concerns expressed by 
+consumers related to the misuse 
+of data by business and 
+governments 
+
+
+Supportive 
+Infrastructure 
+
+
+→ High 
+• Established free zones to attract leading global healthcare providers 
+• Strong support for startup incubators and accelerators 
+• Availability of university programs, and training and certification programs in blockchain in the UAE 
+• Robust IT infrastructure of the UAE 
+
+
+High 
+• Free Wi-Fi for public 
+• Availability of Smart Kiosks 
+• Internet and mobile coverage 
+throughout the country 
+• Availability of 5 G networks  
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+14
+
+
+blockchain has enormous potential to transform the healthcare sector. 
+From managing patient data to tracking drugs through the supply chain, 
+blockchain could solve pressing problems in the industry. Moreover, the 
+case study findings are relevant for other countries, especially for those 
+that share a vision similar to the UAE—to become a global leader in 
+providing world-class health services as well as be open to disruptive 
+technologies such as blockchain. 
+
+
+With regard to societal implications, we found both positive and 
+negative implications. The positive implications include that blockchain 
+can be effectively utilized in countering the problem of fake drugs and 
+medical equipment, thereby saving lives. Patient-centric blockchain 
+solutions have the potential to enhance precision medicine, biomedical 
+research, genetic engineering, and other advancements. Importantly, 
+individualized, life-long patient care data stored on the blockchain can 
+be easily shared digitally. It also facilitates real-time and remote patient 
+care, which is critical for many patients. Further, applications of 
+blockchain such as smart contracts help reduce the use of paper, related 
+travel, and couriers, thereby supporting the environment. However, 
+data-related privacy and security are some of the societal concerns 
+surrounding blockchain. Many patients wish to keep their treatment 
+private, and concerns/fears related to who has access to their health data 
+and whether it will be misused need to be addressed. 
+
+
+The study has some limitations. Although the proposed framework 
+was developed based on an extensive review, it may not cover every 
+facet critical for blockchain adoption. Furthermore, the application of 
+the framework was tested only in one sector in a single country, and it 
+was demonstrated through a predominantly qualitative approach, and 
+therefore a statistical/quantitative precision validating the framework is 
+missing. Finally, though the results are generalized for business entities, 
+insights were obtained mostly from hospitals/clinics. Given that several 
+other entities come under the umbrella of “business entities” in the 
+framework, such as pharmacies, insurance providers, health research 
+centers, drug and equipment manufacturing companies, among others, 
+more in-depth investigation is required to delineate the nuances in the 
+readiness of various entities. 
+
+
+For future research, given the conceptual comprehensiveness and 
+generic nature of the framework, researchers in different industrial 
+settings could adapt and use the framework in their respective contexts; 
+healthcare represents a myriad of sectors, such as manufacturing (drug 
+and medical equipment), services (e.g., insurance, ambulatory trans-
+portation) and research and development (e.g., clinical trials, laboratory 
+experiments). Its potential applicability to other sectors is therefore 
+high, provided that they are carefully designed and contextualized. 
+Furthermore, future research could apply more rigor in their primary 
+investigation and potentially conduct a large-scale survey–based study 
+to test the statistical appropriateness and generalizability of the frame-
+work in different settings. Moreover, given that blockchain in healthcare 
+is a relatively new and promising domain, future studies could attempt 
+to strengthen the proposed framework through refinement and valida-
+tion across countries and test its usefulness and applicability in different 
+settings and sectors. 
+
+
+Despite these limitations, we believe that the proposed framework 
+and its successful application will significantly enhance understanding 
+of blockchain in the healthcare sector. We anticipate that this study will 
+encourage more research on blockchain in healthcare and other in-
+dustries and will contribute to theoretical advancement in the field. 
+
+
+References 
+
+
+Ahmed, E., Shabani, M., 2019. DNA data marketplace: an analysis of the ethical concerns 
+regarding the participation of the individuals. Front. Genet. 10, 1–6. https://doi.org/ 
+10.3389/fgene.2019.01107. 
+
+
+Albahli, S., Khan, R.U., Qamar, A.M., 2020. A blockchain-based architecture for smart 
+healthcare system: a case study of Saudi Arabia. Adv. Sci. Technol. Eng. Syst. J. 5 (1), 
+40–47. https://doi.org/10.25046/aj050106. 
+
+
+Balasubramanian, S., Shukla, V., 2020. Foreign versus local firms: implications for 
+environmental sustainability. Benchmarking 7 (5), 1739–1768. https://doi.org/ 
+10.1108/BIJ-12-2019-0526. 
+
+
+Bell, L., Buchanan, W.J., Cameron, J., Lo, O., 2018. Applications of blockchain within 
+healthcare. Blockchain Healthcare Today 1, 1–7. https://doi.org/10.30953/bhty. 
+v1.8. 
+
+
+Bio World, 2020. Blockchain adoption could help in COVID-19 fight. https://www. 
+bioworld.com/articles/435042-blockchain-adoption-could-help-in-covid-19-fight 
+(Accessed 02 June 2020). 
+
+
+C4IR, 2020. United Arab Emirates Centre for the Fourth Industrial Revolution https:// 
+c4ir.ae/portfolios/ (Accessed 06 June 2020.  
+
+
+Carter, C.R., Easton, L.P., 2011. Sustainable supply chain management: evolution and 
+future directions. Int. J. Phys. Distribut. Logistics Manag. 41 (1), 46–62. https://doi. 
+org/10.1108/09600031111101420. 
+
+
+Casino, F., Dasaklis, T.K., Patsakis, C., 2019. A systematic literature review of 
+blockchain-based applications: current status, classification and open issues. 
+Telematics Inf. 36, 55–81. https://doi.org/10.1016/j.tele.2018.11.006. 
+
+
+Chukwu, E., Garg, L., 2020. A systematic review of blockchain in healthcare: 
+frameworks, prototypes, and implementations. IEEE Access 8, 21196–21214. 
+https://doi.org/10.1109/ACCESS.2020.2969881. 
+
+
+Clohessy, T., Acton, T., 2019. Investigating the influence of organizational factors on 
+blockchain adoption. Ind. Manag. Data Syst. 119 (7), 1457–1491. https://doi.org/ 
+10.1108/IMDS-08-2018-0365. 
+
+
+Colicchio, C., Giovanoli, C., Grivas, S.G., 2015. A cloud readiness assessment framework 
+for enterprise content management and social software (E-Collaboration) in small 
+and medium sized enterprises. In Proceedings of the Third International Conference 
+on Enterprise Systems, IEEE, pp. 177–183. doi: 10.1109/ES.2015.24. 
+
+
+Creswell, J.W., Miller, D.L., 2000. Determining validity in qualitative inquiry. Theory 
+Pract. 39 (3), 124–130. https://doi.org/10.1207/s15430421tip3903_2. 
+
+
+De Aguiar, E.J., Faiçal, B.S., Krishnamachari, B., Ueyama, J., 2020. A survey of 
+blockchain-based strategies for healthcare. ACM Comput. Surv. (CSUR) 53 (2), 1–27. 
+https://doi.org/10.1145/3376915. 
+
+
+Deloitte, 2020. Blockchain Services and Solutions https://www2.deloitte.com/ru/en/ 
+pages/consulting/solutions/blockchain-services-and-solutions.html (Accessed 08 
+June 2020.  
+
+
+Dhagarra, D., Goswami, M., Sarma, P.R.S., Choudhury, A., 2019. Big Data and 
+blockchain supported conceptual model for enhanced healthcare coverage. Bus. 
+Process Manag. J. 25 (7), 1612–1632. https://doi.org/10.1108/BPMJ-06-2018- 
+0164. 
+
+
+Dimitrov, D.V., 2019. Blockchain applications for healthcare data management. Healthc 
+Inform. Res. 25 (1), 51–56. https://doi.org/10.4258/hir.2019.25.1.51. 
+
+
+DU, 2017. Du Partners With NMC Hospital to Revolutionize Electronic Health Records 
+with Blockchain Technology for 100% Data Security https://www.du.ae/about/ 
+media-centre/newsdetail/du%20partners%20with%20NMC%20Hospital%20to% 
+20revolutionize%20Electronic%20Health (Accessed 30 May 2020).  
+
+
+DMCC, 2020. Global Blockchain Council. https://www.dmcc.ae/about-us/global-bloc 
+kchain-council. Accessed 18 June 2020.  
+
+
+Dubai Health Authority, 2018. The Dubai Health Authority and Dubai Healthcare City 
+Authority Sign MoU to Link License Data of Health Professionals Using Blockchain 
+https://www.dha.gov.ae/en/DHANews/Pages/DHANews1538378411-21-10-2018. 
+aspx (Accessed 30 May 2020.  
+
+
+Dubai SME, 2019. The State of Small & Medium Enterprises (SMEs) in Dubai. https:// 
+sme.ae/SME_File/Files/SME%20REPORT%202019.pdf. Accessed 05 June 2020.  
+
+
+FDA DSCSA, 2020. Blockchain Interoperability Pilot Project Report.. https://www.ibm. 
+com/downloads/cas/9V2LRYG5. Accessed 16 June 2020.  
+
+
+Gassner, U.M., 2018. Blockchain in EU E-health–blocked by the barrier of data 
+protection? Compliance Elliance J. 4 (2), 3–20. https://ul.qucosa.de/api/qucosa% 
+3A32043/attachment/ATT-0/. Accessed 28 May 2020.  
+
+
+George, D., Wani, A., Bhatia, A., 2019. A Blockchain based Solution to Know Your 
+Customer (KYC) Dilemma. In Proceedings of 2019 IEEE International Conference on 
+Advanced Networks and Telecommunications Systems (ANTS), IEEE, pp. 1–6. doi: 
+10.1109/ANTS47819.2019.9118042. 
+
+
+Giancaspro, M., 2017. Is a ‘smart contract’ really a smart idea? Insights from a legal 
+perspective. Computer law & security review 33 (6), 825–835. https://doi.org/ 
+10.1016/j.clsr.2017.05.007. 
+
+
+IBM, 2020. IBM Rapid Supplier Connect: Emergency Supplier Onboarding and Inventory 
+Availability. https://www.ibm.com/blockchain/solutions/rapid-supplier-connect. 
+Accessed 20 June 2020.  
+
+
+in5, 2020. An Enabling Platform for Entrepreneurs and Start-ups https://infive.ae/ 
+(Accessed 20 June 2020).  
+
+
+IPSOS, 2019. Global Citizens & Data Privacy. https://www.ipsos.com/sites/default/ 
+files/ct/news/documents/2019-01/ipsos-wef_-_global_consumer_views_on_data_ 
+privacy_-_2019-01-25-final.pptx_lecture_seule_0.pdf (Accessed 10 June 2020). 
+
+
+Islam, A.N., Mäntymäki, M., Turunen, M., 2019. Why do blockchains split? An actor- 
+network perspective on Bitcoin splits. Technol. Forecast. Soc. Change 148, 1–10. 
+https://doi.org/10.1016/j.techfore.2019.119743. 
+
+
+Kamble, S., Gunasekaran, A., Arha, H., 2019. Understanding the Blockchain technology 
+adoption in supply chains-Indian context. Int. J. Prod. Res. 57 (7), 2009–2033. 
+https://doi.org/10.1080/00207543.2018.1518610. 
+
+
+Katuwal, G.J., Pandey, S., Hennessey, M., Lamichhane, B., 2018. Applications of 
+Blockchain in Healthcare: Current Landscape & Challenges. https://arxiv.org/abs/1 
+812.02776. Accessed 28 May 2020.  
+
+
+Khatoon, A., 2020. A blockchain-based smart contract system for healthcare 
+management. Electronics (Basel) 9 (94), 1–23. https://doi.org/10.3390/ 
+electronics9010094. 
+
+
+Kiberu, V.M., Mars, M., Scott, R.E., 2019. Development of an evidence-based e-health 
+readiness assessment framework for Uganda. Health Inf. Manag. J. https://doi.org/ 
+10.1177/1833358319839253. 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+https://doi.org/10.3389/fgene.2019.01107
+
+https://doi.org/10.3389/fgene.2019.01107
+
+https://doi.org/10.25046/aj050106
+
+https://doi.org/10.1108/BIJ-12-2019-0526
+
+https://doi.org/10.1108/BIJ-12-2019-0526
+
+https://doi.org/10.30953/bhty.v1.8
+
+https://doi.org/10.30953/bhty.v1.8
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0006
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0006
+
+https://doi.org/10.1108/09600031111101420
+
+https://doi.org/10.1108/09600031111101420
+
+https://doi.org/10.1016/j.tele.2018.11.006
+
+https://doi.org/10.1109/ACCESS.2020.2969881
+
+https://doi.org/10.1108/IMDS-08-2018-0365
+
+https://doi.org/10.1108/IMDS-08-2018-0365
+
+https://doi.org/10.1207/s15430421tip3903_2
+
+https://doi.org/10.1145/3376915
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0014
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0014
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0014
+
+https://doi.org/10.1108/BPMJ-06-2018-0164
+
+https://doi.org/10.1108/BPMJ-06-2018-0164
+
+https://doi.org/10.4258/hir.2019.25.1.51
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0018
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0018
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0018
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0018
+
+https://www.dmcc.ae/about-us/global-blockchain-council
+
+https://www.dmcc.ae/about-us/global-blockchain-council
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0020
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0020
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0020
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0020
+
+https://sme.ae/SME_File/Files/SME%20REPORT%202019.pdf
+
+https://sme.ae/SME_File/Files/SME%20REPORT%202019.pdf
+
+https://www.ibm.com/downloads/cas/9V2LRYG5
+
+https://www.ibm.com/downloads/cas/9V2LRYG5
+
+https://ul.qucosa.de/api/qucosa%3A32043/attachment/ATT-0/
+
+https://ul.qucosa.de/api/qucosa%3A32043/attachment/ATT-0/
+
+https://doi.org/10.1016/j.clsr.2017.05.007
+
+https://doi.org/10.1016/j.clsr.2017.05.007
+
+https://www.ibm.com/blockchain/solutions/rapid-supplier-connect
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0028
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0028
+
+https://doi.org/10.1016/j.techfore.2019.119743
+
+https://doi.org/10.1080/00207543.2018.1518610
+
+https://arxiv.org/abs/1812.02776
+
+https://arxiv.org/abs/1812.02776
+
+https://doi.org/10.3390/electronics9010094
+
+https://doi.org/10.3390/electronics9010094
+
+https://doi.org/10.1177/1833358319839253
+
+https://doi.org/10.1177/1833358319839253
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+15
+
+
+Kimani, D., Adams, K., Attah-Boakye, R., Ullah, S., Frecknall-Hughes, J., Kim, J., 2020. 
+Blockchain, business and the fourth industrial revolution: whence, whither, 
+wherefore and how. Technol. Forecast. Soc. Change 161, 1–16. https://doi.org/ 
+10.1016/j.techfore.2020.120254. 
+
+
+Kuo, T.T., Kim, H.E., Ohno-Machado, L., 2017. Blockchain distributed ledger 
+technologies for biomedical and health care applications. J. Am. Med. Inf. Assoc. 24 
+(6), 1211–1220. https://doi.org/10.1093/jamia/ocx068. 
+
+
+Li, J., Ray, P., Seale, H., MacIntyre, R., 2012. An E-Health readiness assessment 
+framework for public health services–Pandemic perspective. In Proceedings of 45th 
+Hawaii International Conference on System Sciences, IEEE, pp. 2800–2809. doi: 
+10.1109/HICSS.2012.95. 
+
+
+Mackey, T.K., Kuo, T.T., Gummadi, B., Clauson, K.A., Church, G., Grishin, D., Obbad, K., 
+Barkovich, R., Palombini, M., 2019. ‘Fit-for-purpose?’–challenges and opportunities 
+for applications of blockchain technology in the future of healthcare. BMC Med. 17 
+(68), 1–17. https://doi.org/10.1186/s12916-019-1296-7. 
+
+
+Malanga, D.F., Kamanga, B.C., 2019. E-records readiness at Karonga District Council in 
+Malawi: applying IRMT e-Records readiness assessment framework. Inf. Dev. 35 (3), 
+482–491. https://doi.org/10.1177/0266666918766971. 
+
+
+Marsal-Llacuna, M.L., 2017. Future living framework: is blockchain the next enabling 
+network? Technol. Forecast. Soc. Change 128, 226–234. https://doi.org/10.1016/j. 
+techfore.2017.12.005. 
+
+
+McGhin, T., Choo, K.K.R., Liu, C.Z., He, D., 2019. Blockchain in healthcare applications: 
+research challenges and opportunities. J. Netw. Comput. Appl. 135, 62–75. https:// 
+doi.org/10.1016/j.jnca.2019.02.027. 
+
+
+Mettler, M., 2016. Blockchain technology in healthcare: the revolution starts here. In 
+Proceedings of 18th international conference on e-health networking, applications 
+and services (Healthcom), IEEE, pp. 1–3. doi: 10.1109/HealthCom.2016.7749510. 
+
+
+Mipasa, 2020. Together On the Path from Data to Action. https://app.mipasa.org/. 
+Accessed 26 June 2020.  
+
+
+MOHAP, 2019. Ministry of Health and Prevention launches the first blockchain-based 
+system. https://www.mohap.gov.ae/en/MediaCenter/News/Pages/2184.aspx 
+(Accessed 25 May 2020). 
+
+
+MOHAP, 2020. Innovation Health Strategy. https://www.mohap.gov.ae/en/Aboutus/Pa 
+ges/InnovationHealthStrategy.aspx (Accessed 25 May 2020). 
+
+
+Network Readiness Index, 2019. The Network Readiness Index 2019: Towards a Future- 
+Ready Society. https://networkreadinessindex.org/wp-content/uploads/2020/03/ 
+The-Network-Readiness-Index-2019-New-version-March-2020-2.pdf. Accessed 28 
+May 2020.  
+
+
+Nugent, T., Upton, D., Cimpoesu, M., 2016. Improving Data Transparency in Clinical 
+Trials Using Blockchain Smart contracts. F1000Research 5, 2541. https://doi.org/ 
+10.12688/f1000research.9756.1. 
+
+
+Onik, M.M.H., Aich, S., Yang, J., Kim, C.S., Kim, H.C., 2019. Blockchain in healthcare: 
+challenges and solutions. Big Data Analytics For Intelligent Healthcare Management, 
+197-226. Academic Press, Cambridge, MA. https://doi.org/10.1016/B978-0-12- 
+818146-1.00008-8.  
+
+
+Ozturan, M., Atasu, I., Soydan, H., 2019. Assessment of Blockchain Technology 
+Readiness Level of Banking Industry: case of Turkey. Int. J. Bus. Market. Manag. 4 
+(12), 1–13. 
+
+
+Patel, V., 2019. A framework for secure and decentralized sharing of medical imaging 
+data via blockchain consensus. Health Informatics J. 25 (4), 1398–1411. https://doi. 
+org/10.1177/1460458218769699. 
+
+
+Pólvora, A., Nascimento, S., Lourenço, J.S., Scapolo, F., 2020. Blockchain for industrial 
+transformations: a forward-looking approach with multi-stakeholder engagement for 
+policy advice. Technol. Forecast. Soc. Change 157, 1–18. https://doi.org/10.1016/j. 
+techfore.2020.120091. 
+
+
+PR Newswire, 2018. EpigenCare’s Personalized Skincare Test Brings Epigenetics Closer 
+to Consumer Applications. https://www.prnewswire.com/news-releases/epige 
+ncares-personalized-skincare-test-brings-epigenetics-closer-to-consumer-applicati 
+ons-300614426.html. Accessed 21 May 2020.  
+
+
+Przhedetskiy, Y.V., Przhedetskaya, N.V., Borzenko, K.V., Bondarenko, V.A., 2019. 
+Blockchain technologies in healthcare institutions: focus on security and effective 
+cooperation with the government. Int. J. Econ. Bus. Admin. 7 (2), 92–99. htt 
+ps://www.ijeba.com/journal/373/download. Accessed 26 May 2020.  
+
+
+PwC, 2019. Establishing Blockchain Policy-Strategies For the Governance of Distributed 
+Ledger Technology Ecosystems. https://www.pwc.com/m1/en/publications/docu 
+ments/establishing-blockchain-policy-pwc.pdf. Accessed 28 May 2020.  
+
+
+Radanović, I., Likić, R., 2018. Opportunities for use of blockchain technology in 
+medicine. Appl. Health Econ. Health Policy 16, 583–590. https://doi.org/10.1007/ 
+s40258-018-0412-8. 
+
+
+Razmi, J., Sangari, M.S., Ghodsi, R., 2009. Developing a practical framework for ERP 
+readiness assessment using fuzzy analytic network process. Adv. Eng. Softw. 40 (11), 
+1168–1178. https://doi.org/10.1016/j.advengsoft.2009.05.002. 
+
+
+Reuters, 2019. Aetna, Other Health Insurers Team Up With IBM On Blockchain Project 
+https://www.reuters.com/article/us-health-insurers-blockchain/aetna-other-health- 
+insurers-team-up-with-ibm-on-blockchain-project-idUSKCN1PI2K0 (Accessed 18 
+May 2020.  
+
+
+Rezai-Rad, M., Vaezi, R., Nattagh, F., 2012. E-health readiness assessment framework in 
+Iran. Iran. J. Public Health 41 (10), 43–51. 
+
+
+Shareef, M., Ojo, A., Janowski, T., 2008. A readiness assessment framework for e- 
+government planning: design and application. In Proceedings of the 2nd 
+international Conference on theory and Practice of Electronic Governance, ACM, pp. 
+403–410. doi: 10.1145/1509096.1509180. 
+
+
+Siyal, A.A., Junejo, A.Z., Zawish, M., Ahmed, K., Khalil, A., Soursou, G., 2019. 
+Applications of blockchain technology in medicine and healthcare: challenges and 
+future perspectives. Cryptography 3 (3), 1–16. https://doi.org/10.3390/ 
+cryptography3010003. 
+
+
+Smart Dubai, 2020a. Blockchain. https://www.smartdubai.ae/initiatives/blockchain. 
+Accessed 21 June 2020.  
+
+
+Smart Dubai, 2020b. Paperless. https://www.smartdubai.ae/initiatives/paperless. 
+Accessed 21 June 2020).  
+
+
+Tandon, A., Dhir, A., Islam, N., Mäntymäki, M., 2020. Blockchain in healthcare: a 
+systematic literature review, synthesizing framework and future research agenda. 
+Comput. Ind. 122, 1–22. https://doi.org/10.1016/j.compind.2020.103290, 103290.  
+
+
+Tracxn, 2020. Top Emerging Blockchain Startups. https://tracxn.com/d/emerging-star 
+tups/top-blockchain-startups-2020. Accessed 06 June 2020.  
+
+
+UAE, 2020. Emirates Blockchain Strategy 2021 https://u.ae/en/about-the-uae/ 
+strategies-initiatives-and-awards/federal-governments-strategies-and-plans/ 
+emirates-blockchain-strategy-2021 (Accessed 24 May 2020.  
+
+
+UAE Vision 2021, 2019. World-class Healthcare. https://www.vision2021.ae/en/natio 
+nal-agenda-2021/list/world-class-circle (Accessed 26 May 2020).  
+
+
+US-UAE Business Council, 2018. The UAE Healthcare Sector https://usuaebusiness.org/ 
+wp-content/uploads/2018/01/Healthcare-Report-Final-January-2018-Update-1.pdf 
+(Accessed 04 June 2020.  
+
+
+Vlachos, A., Christodoulou, K., Iosif, E., 2019. An Algorithmic Blockchain Readiness 
+Index. Proceedings 28 (4), 1–12. https://doi.org/10.3390/proceedings2019028004. 
+
+
+Wang, L., Luo, X.R., Lee, F., 2019. Unveiling the interplay between blockchain and 
+loyalty program participation: a qualitative approach based on Bubichain. Int. J. Inf. 
+Manage. 49, 397–410. https://doi.org/10.1016/j.ijinfomgt.2019.08.001. 
+
+
+Waxman, J.M., Faget, K., Daniels, B., 2019. Blockchain: a tool with a future in 
+healthcare. Med. Econ. https://www.medicaleconomics.com/view/blockchain-too 
+l-future-healthcare Accessed 02 June 2020).  
+
+
+White, R., Marinakis, Y., Islam, N., Walsh, S., 2020. Is Bitcoin a currency, a technology- 
+based product, or something else? Technol. Forecast. Soc. Change 151, 119877. 
+https://doi.org/10.1016/j.techfore.2019.119877. 
+
+
+Windrum, P., 2008. Innovation and entrepreneurship in public services. Innovation in 
+Public Sector services: Entrepreneurship, Creativity and Management. Edward Elgar 
+Publishing, Northampton, MA, pp. 3–20. 
+
+
+World Economic Forum, 2019. Inclusive Deployment of Blockchain for Supply Chains: 
+part 1 – Introduction. http://www3.weforum.org/docs/WEF_Introduction_to_Blo 
+ckchain_for_Supply_Chains.pdf (Accessed 12 June 2020). 
+
+
+World Economic Forum, 2020. Inclusive Deployment of Blockchain: case studies and 
+learnings from the United Arab Emirates. http://www3.weforum.org/docs/WEF_I 
+nclusive_Deployment_of_Blockchain_Case_Studies_and_Learnings_from_the_United_ 
+Emirates.pdf (Accessed 12 June 2020). 
+
+
+World Food Programme, 2017. Blockchain Against Hunger: Harnessing Technology in 
+Support of Syrian Refugees. https://www.wfp.org/news/blockchain-against-hun 
+ger-harnessing-technology-support-syrian-refugees. Accessed 26 May 2020.  
+
+
+Yin, R.K., 2009. Case Study Research: Design and Methods. SAGE Publications Ltd, 
+London.  
+
+
+Yoon, H.J., 2019. Blockchain technology and healthcare. Healthc Inform. Res 25 (2), 
+59–60. https://doi.org/10.4258/hir.2019.25.2.59. 
+
+
+Zawya, 2019. Du Announces Its First Health Blockchain Solution to Ensure Patient Safety 
+in UAE https://www.zawya.com/mena/en/press-releases/story/du_announces_its_ 
+first_health_blockchain_solution_to_ensure_Patient_Safety_in_UAE- 
+ZAWYA20190115112842/ (Accessed 26 May 2020.   
+
+
+Sreejith Balasubramanian is a Senior Lecturer in Supply 
+Chain Management, and Chair of the Research Committee at 
+Middlesex University, Dubai. He completed his PhD from 
+Middlesex University Business School, London. His-areas of 
+expertise include supply chain, operations management, 
+disruptive technologies, sustainability, and knowledge man-
+agement. His-work has been published in academic and 
+practitioner-focused journals, including Supply Chain Manage-
+ment: An International Journal, Production, Planning and Control, 
+and Journal of Knowledge Management. He has been a consultant 
+for several public and private sector entities, including the Abu 
+Dhabi Chamber of Commerce and Bridgestone Middleseast.  
+
+
+Vinaya Shukla is a Senior Lecturer in Operations and Supply 
+Chain Management at Middlesex University Business School, 
+London. He has a PhD from Cardiff Business School, UK. Prior 
+to academia, he spent many years as a Management Consultant 
+advising clients on how to improve their operations perfor-
+mance. His-research interests are in Industry 4.0 and Block-
+chain, supply chain sustainability, supply chain systems and 
+supply chain risk management. He has published in several 
+prestigious journals including the International Journal of Pro-
+duction Economics, International Journal of Production Research, 
+Supply Chain Management-An International Journal, Production 
+Planning and Control, International Journal of Logistics Manage-
+ment & Journal of Manufacturing Technology Management.  
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+https://doi.org/10.1016/j.techfore.2020.120254
+
+https://doi.org/10.1016/j.techfore.2020.120254
+
+https://doi.org/10.1093/jamia/ocx068
+
+https://doi.org/10.1186/s12916-019-1296-7
+
+https://doi.org/10.1177/0266666918766971
+
+https://doi.org/10.1016/j.techfore.2017.12.005
+
+https://doi.org/10.1016/j.techfore.2017.12.005
+
+https://doi.org/10.1016/j.jnca.2019.02.027
+
+https://doi.org/10.1016/j.jnca.2019.02.027
+
+https://app.mipasa.org/
+
+https://www.mohap.gov.ae/en/MediaCenter/News/Pages/2184.aspx
+
+https://www.mohap.gov.ae/en/Aboutus/Pages/InnovationHealthStrategy.aspx
+
+https://www.mohap.gov.ae/en/Aboutus/Pages/InnovationHealthStrategy.aspx
+
+https://networkreadinessindex.org/wp-content/uploads/2020/03/The-Network-Readiness-Index-2019-New-version-March-2020-2.pdf
+
+https://networkreadinessindex.org/wp-content/uploads/2020/03/The-Network-Readiness-Index-2019-New-version-March-2020-2.pdf
+
+https://doi.org/10.12688/f1000research.9756.1
+
+https://doi.org/10.12688/f1000research.9756.1
+
+https://doi.org/10.1016/B978-0-12-818146-1.00008-8
+
+https://doi.org/10.1016/B978-0-12-818146-1.00008-8
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0050
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0050
+
+https://doi.org/10.1177/1460458218769699
+
+https://doi.org/10.1177/1460458218769699
+
+https://doi.org/10.1016/j.techfore.2020.120091
+
+https://doi.org/10.1016/j.techfore.2020.120091
+
+https://www.prnewswire.com/news-releases/epigencares-personalized-skincare-test-brings-epigenetics-closer-to-consumer-applications-300614426.html
+
+https://www.prnewswire.com/news-releases/epigencares-personalized-skincare-test-brings-epigenetics-closer-to-consumer-applications-300614426.html
+
+https://www.prnewswire.com/news-releases/epigencares-personalized-skincare-test-brings-epigenetics-closer-to-consumer-applications-300614426.html
+
+https://www.ijeba.com/journal/373/download
+
+https://www.ijeba.com/journal/373/download
+
+https://www.pwc.com/m1/en/publications/documents/establishing-blockchain-policy-pwc.pdf
+
+https://www.pwc.com/m1/en/publications/documents/establishing-blockchain-policy-pwc.pdf
+
+https://doi.org/10.1007/s40258-018-0412-8
+
+https://doi.org/10.1007/s40258-018-0412-8
+
+https://doi.org/10.1016/j.advengsoft.2009.05.002
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0058
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0059
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0059
+
+https://doi.org/10.3390/cryptography3010003
+
+https://doi.org/10.3390/cryptography3010003
+
+https://www.smartdubai.ae/initiatives/blockchain
+
+https://www.smartdubai.ae/initiatives/paperless
+
+https://doi.org/10.1016/j.compind.2020.103290
+
+https://tracxn.com/d/emerging-startups/top-blockchain-startups-2020
+
+https://tracxn.com/d/emerging-startups/top-blockchain-startups-2020
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0067
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0067
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0067
+
+https://www.vision2021.ae/en/national-agenda-2021/list/world-class-circle
+
+https://www.vision2021.ae/en/national-agenda-2021/list/world-class-circle
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0069
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0069
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0069
+
+https://doi.org/10.3390/proceedings2019028004
+
+https://doi.org/10.1016/j.ijinfomgt.2019.08.001
+
+https://www.medicaleconomics.com/view/blockchain-tool-future-healthcare
+
+https://www.medicaleconomics.com/view/blockchain-tool-future-healthcare
+
+https://doi.org/10.1016/j.techfore.2019.119877
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0075
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0075
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0075
+
+http://www3.weforum.org/docs/WEF_Introduction_to_Blockchain_for_Supply_Chains.pdf
+
+http://www3.weforum.org/docs/WEF_Introduction_to_Blockchain_for_Supply_Chains.pdf
+
+http://www3.weforum.org/docs/WEF_Inclusive_Deployment_of_Blockchain_Case_Studies_and_Learnings_from_the_United_Emirates.pdf
+
+http://www3.weforum.org/docs/WEF_Inclusive_Deployment_of_Blockchain_Case_Studies_and_Learnings_from_the_United_Emirates.pdf
+
+http://www3.weforum.org/docs/WEF_Inclusive_Deployment_of_Blockchain_Case_Studies_and_Learnings_from_the_United_Emirates.pdf
+
+https://www.wfp.org/news/blockchain-against-hunger-harnessing-technology-support-syrian-refugees
+
+https://www.wfp.org/news/blockchain-against-hunger-harnessing-technology-support-syrian-refugees
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0079
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0079
+
+https://doi.org/10.4258/hir.2019.25.2.59
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0081
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0081
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0081
+
+http://refhub.elsevier.com/S0040-1625(20)31362-7/sbref0081
+
+
+
+
+Technological Forecasting & Social Change 165 (2021) 120536
+
+
+16
+
+
+Jaspreet Singh Sethi is a Senior Lecturer in IT with the 
+Computer Engineering and Informatics Department at Mid-
+dlesex University Dubai. He holds a Masters in International 
+Business and a Bachelors in Computer Science (Software 
+Development) from the University of Wollongong. His- 
+teaching expertise is in the area of Software/Web Develop-
+ment, Information Systems, and Computer Networking. His- 
+research interests are in the domain of Blockchain, Disruptive 
+Technologies, Information Retrieval, and E-learning. Jaspreet 
+is also involved in mentoring students on numerous industry- 
+backed competitions and hackathons. He is also leading ini-
+tiatives related to the adoption of technology within the 
+Teaching and Learning committee at the university.  
+
+
+Nazrul Islam is Associate Professor of Innovation/Entrepre-
+neurship at the University of Exeter Business School, England, 
+UK. He holds a PhD in innovation management. His-research 
+interests include innovation in high-tech industries, the man-
+agement of emerging and discontinuous innovations. His- 
+research was published in the leading international journals 
+and he has complemented his peer reviewed journal efforts 
+with three books. Prof Islam’s research received awards 
+including the ‘Brad Hosler Award for Outstanding Paper’ from 
+USA; and the ‘Pratt & Whitney Canada Best Paper Award’ from 
+Canada. Prof Islam serves on the board of directors for Business 
+and Applied Sciences Academy of North America. He is 
+currently an Associate Editor of Technological Forecasting & 
+Social Change and Editor-in-Chief of International Journal of 
+Technology Intelligence and Planning.  
+
+
+Roy Saloum is a Service Delivery Manager with IBM and is 
+affiliated with Middlesex University Dubai. With more than 12 
+years of industrial IT experience, Roy has a wealth of trans-
+ferable skills gained in infrastructure and data center man-
+agement, cloud computing, and Blockchain. He holds an MSc in 
+Business Information Systems Management from Middlesex 
+University Dubai and a Bachelor’s degree from Wadi Interna-
+tional University Syria & Otto-Von-Geurke University, Ger-
+many. He has been able to reduce costs by implementing 
+processes that are more efficient and repeatable and maxi-
+mizing profits by analyzing trends and providing advice and 
+guidance to junior colleagues. 
+
+
+S. Balasubramanian et al.                                                                                                                                                                                                                     
+
+
+
+

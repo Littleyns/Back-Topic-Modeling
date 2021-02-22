@@ -1,0 +1,3714 @@
+
+
+
+
+
+
+
+
+
+
+Int. J. Production Economics 229 (2020) 107853
+
+
+Available online 10 July 2020
+0925-5273/© 2020 Elsevier B.V. All rights reserved.
+
+
+A performance measurement system for industry 4.0 enabled smart 
+manufacturing system in SMMEs- A review and empirical investigation 
+
+
+Sachin S. Kamble a, Angappa Gunasekaran b,*, Abhijeet Ghadge c, Rakesh Raut d 
+
+
+a EDHEC Business School, Roubaix, 59057, France 
+b School of Business and Public Administration, California State University, Bakersfield 9001 Stockdale Highway, 20BDC/140, Bakersfield, CA, 93311-1022, USA 
+c Centre for Logistics and Supply Chain Management, Cranfield School of Management, Cranfield University, UK 
+d National Institute of Industrial Engineering (NITIE), Mumbai, 400087, India   
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Smart manufacturing system 
+Industry 4.0 
+Performance measurement 
+SMMEs 
+Automotive industry 
+Digital transformation 
+
+
+A B S T R A C T   
+
+
+The smart manufacturing systems (SMS) offer several advantages compared to the traditional manufacturing 
+systems and are increasingly being adopted by manufacturing organizations as a strategy to improve their 
+performance. Developing an SMS is expensive and complicated, integrating together various technologies such as 
+automation, data exchanges, cyber-physical systems (CPS), artificial intelligence, internet of things (IoT), and 
+semi-autonomous industrial systems. The Small, Medium and Micro Enterprises (SMMEs) have limited resources 
+and therefore, would like to see the benefits from investments before allowing adopting SMS. This study uses a 
+combination of exploratory and empirical research design to identify and validate the performance measures 
+relevant to the evaluation of SMS investments in auto-component manufacturing SMMEs based in India. The 
+study found that an Industry 4.0 enabled SMS offer more competitive benefits compared to a traditional 
+manufacturing system. The planned investments in SMS can be evaluated on ten performance dimensions 
+namely, cost, quality, flexibility, time, integration, optimized productivity, real-time diagnosis & prognosis, 
+computing, social and ecological sustainability. Proposed novel Smart Manufacturing Performance Measurement 
+System (SMPMS) framework is expected to guide the practitioners in SMMEs to evaluate their SMS investments.   
+
+
+1. Introduction 
+
+
+Small, Medium and Micro enterprises (SMMEs) have helped to 
+accelerate economic development in Asia (Ndubisi et al., 2020). Along 
+with the large enterprises, they are also adopting Industry 4.0 technol-
+ogies for improved performance. Industry 4.0 is the latest trend in the 
+manufacturing technologies that transform the existing manufacturing 
+systems to Smart Manufacturing Systems (SMS) through the support of 
+automation, data exchanges, cyber-physical systems (CPS), cloud 
+computing, robotics, big data, artificial intelligence, internet of things 
+(IoT) and semi-autonomous industrial techniques (Kamble et al., 
+2018a). The manufacturing goals achieved by the Industry 4.0 lies in the 
+intersection of people, technologies and innovation. With tremendous 
+development in the field of manufacturing and data analytics technol-
+ogies (Zhang et al., 2019; Qu et al., 2019). Much of these developments 
+are focused on digital manufacturing systems and artificial intelligence 
+techniques, transforming the systems to become smart and intelligent 
+
+
+(Edgar and Pistikopoulos, 2018). The SMS generates a considerable 
+amount of data; however, the use and volume of the data collected vary 
+across the industries, their scale, and operations (Kusiak, 2019). 
+
+
+Zheng et al. (2018) identified significant applications of SMS in 
+design, machining, monitoring, control and scheduling. The use of 
+computer-aided design and manufacturing software, immersive and 
+non-invasive hybrid prototyping technologies-such as augmented reality 
+(AR) and visual reality (VR) and the ability to interact within the 
+cyber-physical systems in a manufacturing environment help companies 
+to establish smart design architectures (Kamble et al., 2018a). The SMS 
+eliminates the need for post-process quality inspections and enables a 
+self-optimization control system with the use of sensors, IoT, machine 
+learning and cloud computing technologies (Stoyanov et al., 2019). The 
+deployment of IoT provides SMS the capability for real-time monitoring 
+and control, resulting in the improved quality of operations, reduction in 
+product and machine failures and development of optimal schedules (He 
+et al., 2019; Liang et al., 2019). 
+
+
+* Corresponding author. 
+E-mail addresses: sachin.kamble@edhec.edu (S.S. Kamble), agunasekaran@csub.edu (A. Gunasekaran), Abhijeet.Ghadge@cranfield.ac.uk (A. Ghadge), rraut@ 
+
+
+nitie.ac.in (R. Raut).  
+
+
+Contents lists available at ScienceDirect 
+
+
+International Journal of Production Economics 
+
+
+journal homepage: http://www.elsevier.com/locate/ijpe 
+
+
+https://doi.org/10.1016/j.ijpe.2020.107853 
+Received 31 August 2019; Received in revised form 9 June 2020; Accepted 1 July 2020   
+
+
+
+mailto:sachin.kamble@edhec.edu
+
+mailto:agunasekaran@csub.edu
+
+mailto:Abhijeet.Ghadge@cranfield.ac.uk
+
+mailto:rraut@nitie.ac.in
+
+mailto:rraut@nitie.ac.in
+
+www.sciencedirect.com/science/journal/09255273
+
+https://http://www.elsevier.com/locate/ijpe
+
+https://doi.org/10.1016/j.ijpe.2020.107853
+
+https://doi.org/10.1016/j.ijpe.2020.107853
+
+https://doi.org/10.1016/j.ijpe.2020.107853
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.ijpe.2020.107853&domain=pdf
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+2
+
+
+Several organizations are implementing Industry 4.0 technologies to 
+address the challenges of increasing manufacturing complexity (Oh and 
+Jeong, 2019). The real-time based technologies transform the reactive 
+operational approach of the manufacturing facilities into a proactive 
+approach (Davis et al., 2012). Jung et al. (2015) report that for the SMS 
+to be efficient, they need to be able to respond to the information quickly 
+and effectively, and in the process may disrupt the ongoing operations. 
+
+
+The SMS need to be agile and able to meet the rigorous performance 
+requirements to become successful in achieving their implementation 
+goals. No doubt that the implementation of SMS in the SMMEs will in-
+crease the production activities, but would also result in complex 
+operational issues, with concerns for the economic, environment, social 
+and resource sustainability (Ndubisi et al., 2020). The literature suggest 
+that even though Industry 4.0 has demonstrated significant potential in 
+value creation and digital supply chain transformation, the scholarly 
+research emphasizing the significance of Industry 4.0 on the 
+manufacturing supply chain is still embryonic and the sustainability 
+issues has received little attention (Büyük€ozkan and G€oçer, 2018). 
+
+
+The performance measurement of SMS is one of the most critical 
+issues from the managerial viewpoint. The development of an SMS re-
+quires support from different supply chain partners in terms of collab-
+oration, human resources, coordination, organizational and 
+technological capabilities (Kamble et al., 2020c). Further, with the 
+implementation of SMS, the SMMEs will expect improvements in the 
+areas of productivity, integration, transparency, flexibility and profit-
+ability (Ndubisi et al., 2020). To ensure that the SMS will pursue those 
+aspects, a performance measurement system plays a vital role in sys-
+tematic management (Kamble and Gunasekaran, 2020). However, the 
+research in SMS performance measurement is largely scarce. In the past, 
+there have been numerous studies in the literature to identify and collate 
+performance measures to evaluate supply chain performance. These 
+studies classified the performance measures as; ‘qualitative’ or ‘quanti-
+tative’ (Beamon, 1999; Shepherd and Günter, 2006); ‘cost’ or ‘non-cost’ 
+(Gunasekaran et al., 2001), ‘quality,’ ‘cost,’ ‘delivery,’ ‘flexibility,’ 
+‘strategic,’ ‘operational’ or ‘tactical’ (Shepherd and Günter, 2006). Few 
+studies classified the measures based on ‘resource utilization,’ ‘visibility, 
+’ ‘trust,’ and ‘innovativeness’ (Chan, 2003) and ‘supply chain opera-
+tional reference’ framework (Lockamy and McCormack, 2004). 
+
+
+Continuous review of the performance measures is required to be 
+undertaken, as they keep changing with the developments in the 
+competitive environment; hence, making the design, development and 
+implementation of the performance measurement system a continuous 
+process and not a one-time activity (Beamon, 1999; Kamble and Guna-
+sekaran, 2020). In traditional manufacturing systems, the performance 
+measurement systems are based on historical information that is isolated 
+and static (Lapide, 2010). The SMS are highly proactive with the capa-
+bility to collect information that is fast-changing and highly volatile. 
+Hence, the decision-makers will be interested in anticipating future 
+performance instead of reacting to problems that occurred in the past 
+(Stefanovic, 2015). Researchers have highlighted the need for studies on 
+performance measurement in the changing context of Industry 4.0 and 
+smart manufacturing systems (Frederico et al. 2019, 2020; Kamble et al., 
+2018a; Ghadge et al., 2020). 
+
+
+Few research studies have proposed a performance measurement 
+framework for Industry 4.0 based manufacturing systems (Shin et al., 
+2018; Miragliotta et al., 2018; Bauters et al., 2018; Ante et al., 2018; 
+Emmer et al., 2018). However, the proposed performance measures in 
+these studies are limited to the evaluation of a specific performance 
+dimension; such as data quality, productivity or product quality. 
+Moreover, these studies used literature reviews or case study approaches 
+and lack in providing empirical validity for the measures. There is a need 
+to conduct empirical studies seeking practitioners’ views on the ade-
+quacy and applicability of performance dimensions in the Industry 4.0 
+context (Frederico et al., 2020). Thus, a significant knowledge gap is 
+evident in developing a holistic performance measurement system for 
+SMS within the context of Industry 4.0. Accordingly, this paper aims to 
+
+
+address the research gap in the literature by identifying the performance 
+measures using a combination of literature review and empirical vali-
+dation. The empirical validation in this study is performed on selected 
+Industry practitioners from SMMEs in India. This is relevant considering 
+the substantial investment costs in implementing Industry 4.0 based 
+SMS and the limited financing options available to the SMMEs 
+(Gawankar et al., 2020; Kiel et al., 2017a, 2017b). The SMMEs would 
+prefer to apply SMS in gradual steps and see the results before pro-
+ceeding further with holistic implementation. The contribution of 
+SMMEs towards a country’s economic and social development is high 
+(Ndubisi et al., 2020), and SMS implementation will provide a consid-
+erable stimulus for the nation’s growth. The performance measures 
+identified in this study are expected to support and foster the speed of 
+Industry 4.0 enabled SMS implementation in SMMEs. More specifically, 
+the following research questions (RQ) were addressed in this study. 
+
+
+RQ1. What performance measures can be used to evaluate the per-
+formance of SMS in SMMEs? 
+
+
+RQ2. How can these measures be used to evaluate the SMS perfor-
+mance in SMMEs? 
+
+
+The study uses a three-phase research methodology to seek answers 
+to the above research questions. Phase-I used a literature review to 
+identify the performance measures in the context of SMS. In phase-II, a 
+preliminary survey was conducted in 142 auto-component 
+manufacturing SMMEs to explore the possible underlying factor struc-
+ture of the performance measures. The final study was conducted in 
+Phase-III on 254 practitioners from 180 auto-component manufacturing 
+SMMEs to validate the factor structure of performance measures iden-
+tified in Phase-II. A Smart Manufacturing Performance Measurement 
+System (SMPMS) framework is developed based on the findings of the 
+study, which will guide the practitioners in the SMMEs on how to 
+evaluate the SMS performance. 
+
+
+The remaining of the paper is structured as follows; section two 
+presents the conceptual background of the study and relevant literature 
+review on performance measures in SMS. The third section discusses the 
+three-phase research methodology adopted in this study. The results of 
+the study are presented in the fourth section. The fifth section offers the 
+discussions and implications of the study. The SMPMS framework is 
+discussed in section six. Finally, in the sixth section, conclusions with 
+future research possibilities and limitations are discussed. 
+
+
+2. The conceptual background of the study 
+
+
+2.1. Overview of SMMEs in India 
+
+
+The estimated market growth driven by SMAC (social, mobile, ana-
+lytics, and cloud) is expected to be 30% (US$1 trillion) by 2020 
+(NASSCOM, 2018). The SMMEs will play a leading role in the adoption 
+of SMAC to bring operational efficiency and transform the customer 
+experience. The SMMEs are continually looking forward to enhancing 
+their competitiveness by adopting Industry 4.0 technologies (Mashelkar, 
+2018). There exists a significant economic potential for the SMMEs to 
+transform into smart factories, integrating information communication 
+technologies (ICT) and CPS with manufacturing, logistics, and supply 
+chain planning (Lee and Lapira, 2013; Ndubisi et al., 2020). In India, the 
+SMMEs are the major contributors to industrial development, with a 
+share of 40% in industrial production and 35% of the total manufactured 
+exports (Mathur, 2019). The literature identifies pressure on SMMEs to 
+achieve continuous quality improvements, extensive manual in-
+terventions in processes, interrupted data flow and lack of skilled 
+workforce as the critical barriers for implementing Industry 4.0 tech-
+nologies (Kamble et al., 2018b). The Government of India is supporting 
+the SMMEs to develop SMS through various initiatives such as ‘Make in 
+India,’ ‘Technological up-gradation,’ and ‘Establishment of facilitation cen-
+ters.’ The government is in the process of developing a regulatory 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+3
+
+
+framework that is more conducive for enabling an Industry 4.0 
+ecosystem in the country (KPMG-AIMA, 2018). 
+
+
+In India, the Micro, Small and Medium Enterprises (MSMEs) are 
+classified in two classes as per the provision of the MSMEs Development 
+Act, 2006 of the Government of India. The first class pertains to the 
+“enterprises that are engaged in the manufacturing or production of goods or 
+employing plant and machinery in the process of value addition to the final 
+product having a distinct name or character or use” (Ministry of MSME, 
+2019). The second class includes the “enterprises engaged in providing or 
+rendering of services and are defined in terms of investment in equipment” 
+(Ministry of MSME, 2019). The limit of investments that are used to 
+categorize these enterprises into micro, small and medium categories is 
+presented in Table 1. 
+
+
+In spite of several benefits offered by the Industry 4.0 technologies, 
+very few SMMEs can afford the smart manufacturing solutions. The ICT 
+based technology adoption in the Indian SMMEs can be described in four 
+stages. Stage 1 includes organizations that have a basic level of tech-
+nology for communication and data processing. In stage 2, the organi-
+zations use standalone software to execute functional tasks without any 
+cross-functional interactions or linkages. For e.g., the use of accounting 
+software to generate profit and loss statements. In the third stage, the 
+organizations use enterprise resource planning applications to automate 
+and integrate their core business functions. The fourth stage represents 
+the highest level of technological maturity with the SMMEs using digital 
+networks and real-time decision-making systems. The organizations in 
+this stage are willing to invest in innovative IT solutions to enhance their 
+value chain integration (Ndubisi, 2008; Ndubisi et al., 2020). 
+
+
+The present status of SMMEs in India reveals that medium-sector 
+enterprises have more matured technology than micro and small-scale 
+enterprises (Mathur, 2019). The huge upfront investment cost in tech-
+nology is identified as a significant barrier to SMS adoption (Kamble 
+et al., 2018b). Understandably, the SMMEs prefers to invest in such 
+systems using a step-by-step approach as these SMMEs are constrained 
+with the budget and, therefore, would see the benefits from the in-
+vestments before allowing their management, customers, and em-
+ployees to adopt the technology (Ndubisi, 2008). Thus, the focus of this 
+study is to provide a validated set of performance measures and a per-
+formance measurement system for the SMMEs to manage successful SMS 
+implementation. 
+
+
+2.2. Performance measures in traditional manufacturing systems 
+
+
+Performance measurement is defined as “the process of quantifying the 
+efficiency and effectiveness of action” (Neely et al., 1995). The perfor-
+mance measures should support improving organizational performance 
+and create a supportive work environment (Bititci et al., 2005). Majority 
+of the previous studies have developed performance measures and 
+metrics for overall supply chain management (Gunasekaran et al., 2001; 
+Bititci et al., 2005; Shepherd and Günter, 2006). Although these studies 
+offered some performance measures for manufacturing systems, the 
+primary focus of these studies was supply chain performance measures. 
+
+
+The measurement of manufacturing performance is a challenging 
+task because of the diverse and multi-dimensional nature of 
+manufacturing. Hon (2005) conducted a survey to identify widely used 
+performance measures in the aerospace industry. The measures were 
+classified into five dimensions, namely, cost, quality, flexibility, time 
+
+
+and productivity. The study identified that most of the organizations 
+used overall lead-time, on-time delivery, operating costs, inventory 
+level, and scrap rate as relevant measures along with quality. Diego 
+Fernando and Rivera Cadavid (2007) combined various metrics 
+consistent with the different stages and elements of lean manufacturing. 
+They classified 21 performance metrics in six categories that included 
+elimination of waste, continuous improvement, continuous flow, pull 
+driven system, multifunctional teams, and information systems. The 
+high investment and operating costs in developing automated 
+manufacturing systems required many organizations to consider Overall 
+Equipment Effectiveness (OEE) as one of the critical metrics in perfor-
+mance measurement (Mathur et al., 2011). The maintenance perfor-
+mance measures, such as condition-based maintenance and 
+reliability-centered maintenance were found to create value for the or-
+ganizations (Kumar et al., 2013). While classifying 73 measures into 
+twelve performance dimensions, Gosselin (2005) found that 
+manufacturing organizations prefer financial measures over the 
+non-financial measures (Gosselin, 2005). Kamble and Gunasekaran 
+(2020) conducted a study in the context of the big data-driven supply 
+chain, identifying new measures such as predictive quality, real-time 
+fault-finding and predictive machine failure to evaluate the 
+manufacturing systems. The study highlighted that the predictive ana-
+lytics capability of data-driven manufacturing supply chains provides 
+organizations the ability to proactively plan for, what may occur in the 
+future instead of analysing the reasons for what has happened in the 
+past. 
+
+
+The measurement systems should be dynamic and align 
+manufacturing strategy to drive competitive and innovative perfor-
+mance (Hon, 2005). The above discussions suggest that the performance 
+measures have evolved with the changing environment, and the recent 
+advancements in the Industry 4.0 technologies are offering new possi-
+bilities to monitor and control performance in real-time. This justifies 
+the need to review and validate relevant performance measures for the 
+SMS. 
+
+
+2.3. Performance measures for smart manufacturing systems 
+
+
+2.3.1. Cost measures 
+The literature reveals that the reduction in manufacturing costs is 
+
+
+one of the critical focus of SMS. The performance measures used to 
+demonstrate the benefits of SMS are general cost measures that are used 
+in the traditional manufacturing systems and included profit (Pistolesi 
+et al., 2018; Roy et al., 2015), work-in-process cost (Fan et al., 2019), 
+energy cost (Gadaleta et al., 2019; Edgar and Pistikopoulos, 2018), 
+maintenance cost (Vogl et al., 2019), waste treatment cost (Santos et al., 
+2019) and inventory cost (Chen and Kuo, 2019; Castellano et al., 2019). 
+Most of the above studies compared the SMS performance with the 
+traditional manufacturing systems on the cost measures and claimed 
+that an SMS performs far better than a conventional manufacturing 
+system offering higher cost-saving benefits (Alqahtani et al., 2019; 
+Gadaleta et al., 2019). 
+
+
+2.3.2. Quality measures 
+The use of information and communication technologies such as IoT, 
+
+
+machine learning and predictive analytics enable SMS to perform real- 
+time monitoring and proactive control of the products, processes and 
+equipment. The predictive capability of SMS makes them superior to the 
+traditional manufacturing systems, enabling the SMS to detect product 
+failure in real-time (He et al., 2019; Liang et al., 2019), predict the 
+remaining useful life of the machine (Kumar et al., 2019; He et al., 
+2019), early process fault detection (Carvajal Soto et al., 2019) and 
+process visualizations (Qian et al., 2019). Further, the SMS performs 
+efficiently on the measures of warranty claims by the customers 
+(Alqahtani et al., 2019), reduced scrap (Chauhan et al., 2019; Rajput and 
+Singh, 2019), the defective product (Kucukoglu et al., 2018; Kang et al., 
+2018) and inspection errors (Kang et al., 2018; Uva et al., 2018). The 
+
+
+Table 1 
+Investment limit in the plant, machinery, and equipment for MSMEs (Source: 
+Ministry of MSME, India).  
+
+
+Size Investment Limit (INR) 
+
+
+Manufacturing Enterprise Service Enterprise 
+
+
+Micro Less than 2.5 million Less than 1 million 
+Small 2.5 million - 50 million 1 million – 20 million 
+Medium 50 million – 100 million 20 million – 50 million  
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+4
+
+
+SMS promotes supply chain integration by developing the superior 
+quality of supplier relationships, collaborative partnerships (Longo 
+et al., 2019; Wang et al., 2019b) and improved customer satisfaction 
+(Petrillo et al., 2019). 
+
+
+2.3.3. Computing measures 
+The Industry 4.0 technologies and architectures are required to 
+
+
+connect and extend the physical factory operations with the cyber world 
+needing greater information consistency, data reliability, information 
+privacy and security (O’Donovan et al., 2019). Zhao et al. (2019) suggest 
+the use of advanced ICT and IoT for effective implementation of SMS for 
+improved product traceability and information security. Data storage 
+capacity, lack of human skills, information privacy and high latency are 
+significant challenges that affect the performance of an SMS (Li et al., 
+2019). The highly secured network is identified as a critical requirement 
+for managing the human-robot collaboration in enhancing SMS perfor-
+mance (Khalid et al., 2018). Hence, for the efficient performance of SMS, 
+it is critical to have a reliable data management system that includes 
+data collection, data transfer, data storage and data analytical 
+capabilities. 
+
+
+2.3.4. Human measures 
+The impact of technological advancements on the human resources 
+
+
+have also received attention in the literature (Pinzone et al., 2019; 
+Eimontaite et al., 2019; Kamble et al., 2020c; Tortorella et al., 2020). 
+Pinzone et al. (2019) suggest that SMS supports building a robust social 
+environment enabling improved employee health, learning and opera-
+tive performance. The technologies such as virtual and augmented re-
+ality accelerate employee learning, thus reducing the work pressure and 
+increase in morale (Uva et al., 2018; Kamble et al., 2018a, 2018b; 
+Blanco-Novoa et al., 2018). The other human factors on which the SMS 
+performance could be evaluated are reduced human efforts & anxiety, 
+improved working conditions and non-invasive interventions (Kamble 
+et al., 2018a, 2018b; Roldan et al., 2019; Eimontaite et al., 2019). The 
+above studies suggest that the SMS support in developing a 
+human-friendly environment by not only offering improved physical 
+comfort, but also relieving the psychological stress on the employees. 
+
+
+2.3.5. Productivity measures 
+SMS encourages the use of advanced optimization and simulation 
+
+
+techniques because of the availability of a considerable amount of data 
+that is generated in real-time at different locations in the manufacturing 
+supply chains. The literature reveals that the prescriptive analytical 
+techniques have been deployed extensively in SMS to optimize the 
+machining processes (Liang et al., 2019; Zhao et al., 2019; Biondi et al., 
+2017), plant and warehouse layouts (B�anyai et al., 2019; Peruzzini et al., 
+2019), use of materials (Chauhan et al., 2019; Meng et al., 2018), 
+workstation design (Pistolesi et al., 2018) and workflows (Tufano et al., 
+2018). Compared to the conventional manufacturing systems, the pro-
+ductivity measures in the SMS relies more on the use of optimization and 
+simulation techniques to make the operations productive. 
+
+
+2.3.6. Flexibility measures 
+In the traditional manufacturing systems, flexibility is evaluated on 
+
+
+various performance measures that include the system flexibility in 
+terms of product mix, delivery, process, machine, and volume. However, 
+SMS extends these flexibility performance measures to include the 
+ability to execute real-time job scheduling (Saif et al., 2019; Fan et al., 
+2019; Framinan et al., 2019) real-time design and engineering changes 
+(Davis et al., 2012), real-time monitoring of customer orders (Qu et al., 
+2019; Petrillo et al., 2019), and real-time supply status of products 
+(Longo et al., 2019; Oh and Jeong, 2019). Hence, the SMS performs 
+efficiently on providing real-time flexibility to the manufacturing or-
+ganizations, enabling them to make real-time decisions on various as-
+pects such as interaction with the suppliers, internal customers, and the 
+end customers. 
+
+
+The list of performance measures reviewed from the literature on 
+SMS is summarised in Table 2. The dimensions used for classification of 
+these measures were based on existing classification schemes used in the 
+literature and the discussion with the industry practitioners from the 
+auto-component manufacturing SMMEs. 
+
+
+2.4. Performance measurement of smart manufacturing systems 
+
+
+The research on performance measurement systems for Industry 4.0 
+is scarce, with limited research studies attempting to develop evaluation 
+systems for smart manufacturing projects in Industry 4.0 (Ante et al., 
+2018). Ante et al. (2018) proposed a performance management system 
+for lean production system in the automotive industry in the Industry 4.0 
+context. Emmer et al. (2018) proposed a comprehensive measurement 
+data management (MDM) system focused on the technological re-
+quirements of Industry 4.0 for complex process chains. The proposed 
+framework integrated the flow of information within quality assurance 
+using neutral data formats and achieved comprehensive interoperability 
+of the individual system components. Miragliotta et al. (2018) identified 
+the need to measure data productivity in the context of Industry 4.0. 
+Inspired by the traditional OEE framework, the data measurement 
+model measures data productivity on the performance dimensions of 
+data availability, quality and decision-making process. The performance 
+measurement model developed by Shin et al. (2018) evaluated the 
+quality aspects of an organization in the context of Industry 4.0. The 
+framework used the existing performance measures regarding the costs 
+of quality items and developed a virtual tool to assess weaknesses in the 
+current manufacturing systems. Frederico et al. (2019) developed a 
+performance measurement system for Industry 4.0 based supply chains 
+using the Balanced Scorecard (BSC) framework. 
+
+
+Although above discussed studies in the literature have attempted to 
+establish measurement systems in the Industry 4.0 context, the measures 
+considered by them are not comprehensive and directed towards a 
+specific performance dimension. Further, these studies have used con-
+ceptual frameworks or case studies within the organization to develop 
+the measurement system, lacking empirical validation of the identified 
+measures. 
+
+
+3. Research methodology 
+
+
+A three-phase research methodology with a combination of explor-
+atory and empirical investigations was adopted to propose a validated 
+set of measures and to evaluate the SMS performance in SMMEs. As 
+shown in Fig. 1, phase one of the study was aimed at the development of 
+the measurement items and establish content validity. An extant liter-
+ature review and interview with the industry practitioners were con-
+ducted in this phase (Flynn et al., 1990). Phase two used a preliminary 
+survey to explore possible underlying factor structure of the perfor-
+mance measures identified in phase-I, to finalize the measurement items 
+(Child, 1990; DeVellis, 1991). The factor structure of performance 
+measures determined from Phase-II was validated in Phase III of the 
+study. The investigation resulted in the development of a Smart 
+Manufacturing Performance Measurement System (SMPMS) framework 
+that can be used by the SMMEs practitioners to guide the SMS perfor-
+mance in their organizations. 
+
+
+3.1. Development of measurement instrument (Phase-I) 
+
+
+3.1.1. Literature review 
+The measurement items for the performance measures were devel-
+
+
+oped using an extant literature review followed by an in-depth un-
+structured discussion with the practitioners from the manufacturing 
+industry. The discussions with the practitioners helped us to establish 
+the content validity of the identified measures. Similar approaches were 
+used in the previous studies focused on developing measurement items 
+(Parasuraman et al., 1985; Peter et al., 1982). The literature search was 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+5
+
+
+Table 2 
+Literature review on performance measures in smart manufacturing systems.  
+
+
+Dimensions Measures Key Sources 
+
+
+Cost Employee training cost 
+(C1) 
+
+
+Chen et al. (2019); Roy et al. (2015) 
+
+
+Cost per unit produced 
+(C2) 
+
+
+Stoyanov et al. (2019); Edgar and 
+Pistikopoulos (2018); Gosselin (2005) 
+
+
+Energy cost (C3) Gadaleta et al. (2019); Santos et al. 
+(2019); Edgar and Pistikopoulos 
+(2018); Meng et al. (2018) 
+
+
+Process maintenance 
+cost (C4) 
+
+
+Vogl et al. (2019); Kumar et al. 
+(2019); Alqahtani et al. (2019) 
+
+
+Product maintenance 
+cost (C5) 
+
+
+Vogl et al. (2019); Rivera Tores et al. 
+(2018) 
+
+
+Profit (C6) Pistolesi et al. (2018); Roy et al. 
+(2015); Kamble et al. (2019a), 2019b 
+
+
+R&D cost (C7) Wang and Nee (2009) 
+New product 
+development cost (C8) 
+
+
+Roy et al. (2015) 
+
+
+Raw material purchasing 
+cost (C9) 
+
+
+Kamble et al. (2019a), 2019b 
+
+
+Rework cost (C10) Alqahtani et al. (2019); Stoyanov 
+et al. (2019) 
+
+
+Waste treatment cost 
+(C11) 
+
+
+Kamble et al. (2019a), 2019b; Santos 
+et al. (2019) 
+
+
+WIP Cost (C12) Fan et al. (2019) 
+Energy consumption 
+prediction (C13) 
+
+
+Chen et al. (2019); Raileanu et al. 
+(2017) 
+
+
+Return on Asset (C14) Roy et al. (2015); Kusiak (2019) 
+Operating cost (C15) Castellano et al. (2019); Zhang et al. 
+
+
+(2019); Mathur et al. (2011); Renna 
+(2019) 
+
+
+Manufacturing cost 
+(C16) 
+
+
+Giusti et al. (2018); B�anyai et al. 
+(2019); Zhang et al. (2019) 
+
+
+Setup cost (C17) Renna (2019); Zhang et al. (2018) 
+Inventory cost (C18) Chen and Kuo (2019); Fan et al. 
+
+
+(2019); Castellano et al. (2019) 
+Downtime cost (C19) Yang et al. (2018); Muhuri et al. 
+
+
+(2019) 
+Quality Tolerance value (Q1) Edgar and Pistikopoulos (2018) 
+
+
+Warranty claims (Q2) Alqahtani et al. (2019); 
+Scrap rate (Q3) Chauhan et al. (2019); Rajput and 
+
+
+Singh (2019) 
+Defective product (Q4) Kucukoglu et al. (2018); Kang et al. 
+
+
+(2018) 
+Reduced inspection error 
+(Q5) 
+
+
+Renna (2019) 
+
+
+Mean time between 
+failures (Q6) 
+
+
+Kang et al. (2018); Uva et al. (2018) 
+
+
+Real-time detection of 
+product failure (Q7) 
+
+
+He et al. (2019); Liang et al. (2019);  
+Carvajal Soto et al. (2019); Fantini 
+et al. (2018) 
+
+
+Process visualization and 
+control (Q8) 
+
+
+Qian et al. (2019); Edgar and 
+Pistikopoulos (2018) 
+
+
+Machine life prediction 
+(Q9) 
+
+
+He et al. (2019); Kumar et al. (2019);  
+Zhang et al. (2018) 
+
+
+Redundancy (backup 
+stations) (Q10) 
+
+
+Muller et al. (2018) 
+
+
+Early fault detection 
+(Q11) 
+
+
+He et al. (2019); Liang et al. (2019);  
+Carvajal Soto et al. (2019); Lu et al. 
+(2019); Bagheri et al. (2018) 
+
+
+Machine state condition 
+monitoring (Q12) 
+
+
+Liang et al. (2019); Fu et al. (2019);  
+Wang et al. (2019a); Mourtzis and 
+Vlachou, 2018 
+
+
+Reduced inspection 
+quantities(Q13) 
+
+
+Kang et al. (2018) 
+
+
+Product qualification 
+testing time(Q14) 
+
+
+Stoyanov et al. (2019); 
+
+
+Customer satisfaction 
+(Q15) 
+
+
+Petrillo et al. (2019); Kamble et al. 
+(2019a), 2019b 
+
+
+Collaboration among 
+partners (Q16) 
+
+
+Longo et al. (2019); Wang et al. 
+(2019b); Bouzary and Chen (2019). 
+
+
+Number of customer 
+complaints (Q17) 
+
+
+Expert 
+
+
+Number of completed 
+customer orders (Q18) 
+
+
+Expert  
+
+
+Table 2 (continued ) 
+
+
+Dimensions Measures Key Sources 
+
+
+Supplier relationship 
+(Q19) 
+
+
+Longo et al. (2019); Wang et al. 
+(2019b); Wang and Nee (2009) 
+
+
+Precise alignment of 
+tools and fixture (Q20) 
+
+
+Experts 
+
+
+Productivity Optimized production 
+test procedures (P1) 
+
+
+Stoyanov et al. (2019); 
+
+
+Overall equipment 
+effectiveness (P2) 
+
+
+Pistolesi et al. (2018); Jia et al. (2018) 
+
+
+Effective Capacity of a 
+machine (P3) 
+
+
+Experts 
+
+
+Equipment Utilization 
+(P4) 
+
+
+Wang and Li (2019) 
+
+
+Assembly Line efficiency 
+(P5) 
+
+
+Gamberini et al. (2017) 
+
+
+Capacity utilization (P6) Giusti et al. (2018) 
+Optimized machining 
+process (P7) 
+
+
+Liang et al. (2019); Edgar and 
+Pistikopoulos (2018); Biondi et al. 
+(2017); Giorgio Bort et al. (2016) 
+
+
+Optimized plant layout 
+(P8) 
+
+
+B�anyai et al., 2019; Peruzzini et al. 
+(2019) 
+
+
+Optimized use of 
+materials (P9) 
+
+
+Chauhan et al. (2019); Rajput and 
+Singh (2019); Meng et al. (2018) 
+
+
+Optimized warehouse 
+layout (P10) 
+
+
+B�anyai et al., 2019; Peruzzini et al. 
+(2019) 
+
+
+Optimized workstation 
+design (P11) 
+
+
+Pistolesi et al. (2018) 
+
+
+Labor productivity (P12) Peruzzini et al. (2019); Tufano et al. 
+(2018) 
+
+
+Optimized workflow 
+(P13) 
+
+
+Edgar and Pistikopoulos (2018); 
+
+
+Machine productivity 
+(P14) 
+
+
+Santos et al. (2019) 
+
+
+Space utilization (P15) Expert 
+Number of system 
+instructions (P16) 
+
+
+Hu et al. (2019) 
+
+
+Raw material 
+productivity (P17) 
+
+
+Chauhan et al. (2019); Rajput and 
+Singh (2019) 
+
+
+Flexibility Product customization 
+(F1) 
+
+
+Kamble et al. (2018a) 
+
+
+Product mix flexibility 
+(F2) 
+
+
+Delbrugger et al. (2019); Oh and 
+Jeong (2019) 
+
+
+Expansion flexibility 
+(F3) 
+
+
+Oh and Jeong (2019) 
+
+
+Delivery flexibility (F4) Oh and Jeong (2019) 
+Process flexibility (F5) Delbrugger et al. (2019); Oh and 
+
+
+Jeong (2019) 
+Routing flexibility (F6) Oh and Jeong (2019) 
+Volume flexibility (F7) Hu et al. (2019); Oh and Jeong (2019) 
+Machine flexibility (F8) Delbrugger et al. (2019); Oh and 
+
+
+Jeong (2019) 
+Real-time monitoring of 
+suppliers (F9) 
+
+
+Longo et al. (2019); Oh and Jeong 
+(2019); Wang and Nee (2009);  
+Lazarova-Molnar et al. (2018) 
+
+
+Real-time monitoring of 
+processes (F10) 
+
+
+Carvajal Soto et al. (2019); 
+
+
+Real-time monitoring of 
+customer order (F11) 
+
+
+Qu et al. (2019); Petrillo et al. (2019) 
+
+
+Real-time job scheduling 
+(F12) 
+
+
+Saif et al. (2019); Fan et al. (2019);  
+Framinan et al. (2019); Rossit et al. 
+(2019); Mourtzis and Vlachou (2018); 
+Raileanu et al. (2017) 
+
+
+Real-time labor 
+efficiency prediction 
+(F13) 
+
+
+Expert 
+
+
+Real-time design and 
+engineering changes 
+(F14) 
+
+
+Davis et al. (2012) 
+
+
+Dynamic order 
+allocation (F15) 
+
+
+Expert 
+
+
+Frequency of re- 
+scheduling (F16) 
+
+
+Expert 
+
+
+Dynamic workstation 
+assignments (F17) 
+
+
+Tufano et al. (2018) 
+
+
+Dynamic line balancing 
+(F18) 
+
+
+Experts 
+
+
+Time Production time (T1) 
+
+
+(continued on next page) 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+6
+
+
+performed on the Scopus database using the keywords; “Smart 
+manufacturing” and “Industry 4.0" and “Intelligent Manufacturing” and 
+“Digital manufacturing” in pairwise comparison with “Performance mea-
+surement” and “Performance management.” The initial search resulted in a 
+total of 1469 papers, which was further reduced to 348 articles by 
+limiting the search to papers published in academic journals in the 
+subject categories: business management, operations management, de-
+cision sciences, and computer/technology management. Those papers 
+that did not align with the search objectives were not considered for 
+further review. In the end, 98 research papers were selected for the final 
+review. A summary of the chosen articles is presented in Appendix A. 
+
+
+3.1.2. Content validity of performance measures 
+Twenty-two in-depth interviews with industry participants were 
+
+
+conducted using open-ended questions to validate the measures identi-
+fied from the literature subjectively. The practitioners were selected 
+from five Tier-I auto-component manufacturing organizations and had 
+prior knowledge about SMS. Out of these five participating organiza-
+tions, all of them are using sensor/IoT and cloud computing-based 
+manufacturing systems, two of them have adopted additive 
+manufacturing, and one of them is using virtual reality for training and 
+maintenance activities. The practitioners represented different func-
+tional backgrounds that included-manufacturing, maintenance, quality 
+and utilities. The selected practitioners varied in experience levels and 
+held managerial positions like- Vice-president, Chief Manager, Associate 
+Manager, Manager, Director, etc. The practitioners were interviewed on 
+a broad range of SMS performance measures (e.g., what measures they 
+perceived to be necessary for evaluating SMS performance?, Are the 
+performance measures used for traditional manufacturing systems 
+relevant in Industry 4.0 environment?) Few measures were added and 
+some dropped based on the recommendation of the practitioners. The 
+final list of 102 measures was subjectively classified in seven perfor-
+mance dimensions namely, cost, quality, productivity, flexibility, time, 
+human and computing performance as presented in Table 2. 
+
+
+3.2. Exploring the underlying factors of performance measures (phase II) 
+
+
+In this phase, a preliminary study was conducted to establish the 
+statistical validity of the measurement items identified from Phase I. 
+Exploratory Factor Analysis (EFA) was performed in this phase to 
+determine the underlying performance dimensions and finalize the 
+measurement items for use in the final survey. The data was collected 
+through an online survey of 210 working practitioners from 142 auto- 
+component manufacturers in India. The questionnaire for the second 
+
+
+Table 2 (continued ) 
+
+
+Dimensions Measures Key Sources 
+
+
+Sari and Yulia (2019);  
+Lazarova-Molnar et al. (2018) 
+
+
+Mean Flow time (T2) Rossit et al. (2019) 
+Processing time (T3) Fu et al. (2019) 
+On-time delivery (T4) Expert 
+Makespan (T5) Wei et al. (2018) 
+Job flow time (T6) Rossit et al. (2019) 
+Throughput time (T7) Castellano et al. (2019); Muller et al. 
+
+
+(2018) 
+Cycle time (T8) Experts 
+Lead time (T9) Giusti et al. (2018); Mittal and Jain 
+
+
+(2014) 
+Setup time (T10) Renna (2019) 
+Machine uptime (T11) Santos et al. (2019) 
+
+
+Human 
+Interaction 
+
+
+Reduced human efforts 
+(H1) 
+
+
+Pinzone et al. (2019); Blanco-Novoa 
+et al. (2018); Uva et al. (2018) 
+
+
+Improved employee 
+health (H2) 
+
+
+Kamble et al. (2019a), 2019b 
+
+
+Improved employee 
+learning (H3) 
+
+
+Pinzone et al. (2019); Blanco-Novoa 
+et al. (2018); Uva et al. (2018) 
+
+
+Employee morale (H4) Kamble et al. (2019a), 2019b;  
+Tortorella et al. (2020); Bordel and 
+Alcarria (2017) 
+
+
+Reduced work pressure 
+(H5) 
+
+
+Kamble et al. (2019a), 2019b;  
+Tortorella et al. (2020) 
+
+
+Improved working 
+conditions (H6) 
+
+
+Kamble et al. (2019a), 2019b;  
+Tortorella et al. (2020) 
+
+
+Reduced incidence of 
+injuries (H7) 
+
+
+Kamble et al. (2019a), 2019b 
+
+
+Reduced labor claims 
+(H8) 
+
+
+Kamble et al. (2019a), 2019b 
+
+
+Non-invasive 
+interactions (H9) 
+
+
+Rold�an et al., 2019c 
+
+
+Reduced employee 
+anxiety (H10) 
+
+
+Eimontaite et al. (2019) 
+
+
+Computing Computing skills (CC1) Expert 
+Data reliability (CC2) Tao et al. (2019); Li et al. (2019) 
+Data speed (CC3) Li et al., 2019; Tao et al. (2019) 
+Information security and 
+privacy (CC4) 
+
+
+(2019); O’Donovan et al. (2019);  
+Khalid et al. (2018) 
+
+
+Latency (CC5) (O’Donovan et al. (2019); Tao et al. 
+(2019) 
+
+
+Data storage (CC6) Zhao et al. (2019); O’Donovan et al. 
+(2019); Tao et al. (2019) 
+
+
+Analytical skills (CC7) Zhao et al. (2019); O’Donovan et al. 
+(2019); Wu et al. (2017)  
+
+
+Fig. 1. Research methodology.  
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+7
+
+
+phase of the study included 102 measures. Out of 102 measures, 52 were 
+worded positively and 50 were worded negatively. A five-point Likert 
+scale with the extreme values ranging from “Strongly Disagree” (1) to 
+“Strongly Agree” (5) was developed and the respondents were asked 
+about their agreement to what extent the measures could be used for the 
+competitive benefits occurring from SMS investments. 
+
+
+The list of measurement items with the literature source is presented 
+in Table 2. 
+
+
+The success of Indian SMMEs is driven by auto-component 
+manufacturing companies because of its high technological maturity 
+and massive development prospects. The auto-component industry 
+contributes seven percent of India’s Gross Domestic Product (GDP), 
+employing around 19 million people (Arcot, 2017). The auto-component 
+industry is expected to achieve a turnover of USD 113 billion by 2020 
+and become a significant manufacturing cluster in Asia (Smeventure, 
+2017). A report by KPMG states that the Indian automotive industry has 
+a high robot density of 58 robots/10000 employees compared to the 
+industry density of just three robots/10000 employees (KPMG-AIMA, 
+2018). Most of the Indian auto-component manufacturing organizations 
+are in the process of adopting Industry 4.0 based SMS (Kamble et al., 
+2020c). The potential of auto-component SMMEs and their gradual in-
+terest in developing SMS ensured that the sample respondents are aware 
+of the opportunities and challenges in developing SMS and qualified to 
+participate in the survey. The online survey link was sent to 640 re-
+spondents, and 210 completed responses were obtained (32.18% 
+response rate) representing 142 SMMEs. The profile of the selected re-
+spondents and SMMEs in the preliminary survey is shown in Table 3. 
+
+
+3.3. Statistical validation of the factor structure of performance measures 
+
+
+In this phase, the underlying factors from Phase II were used to 
+conduct the final survey and confirm the factor structure of the perfor-
+mance measures. The measurement items used in this survey were 
+restricted to the underlying performance dimensions identified in Phase- 
+II. A similar profile of respondents who participated in the second phase 
+was approached for the survey. 254 respondents from 180 SMMEs 
+participated in the online survey, which was coordinated by a local 
+survey agency based in India. The design of the study required re-
+spondents to answer all the questions before the final submission, 
+eliminating the issue of the incomplete questionnaire and missing 
+values. Similar sample sizes were used in the previous studies that 
+empirically tested the effects of Industry 4.0 technologies on an orga-
+nizational performance involving around 100 measurement items 
+(Tortorella et al., 2020; Kamble et al., 2020c). The statistical analysis in 
+the Phase I and II was performed after averaging the items with multiple 
+responses from a single organization to obtain a single value for each 
+item (Venkatraman and Grant, 1986). Hence, the effective sampling unit 
+for analysis was the number of participating SMMEs. The profile of the 
+selected respondents and SMMEs in the final survey is shown in Table 3. 
+
+
+The measurement items were tested for convergent and discriminant 
+validity using Composite Scale Reliability (CSR) and Average Variance 
+Extracted (AVE) as per the suggested guidelines (Hair et al., 2014). CFA 
+was used to validate the measurement model and model fit indices such 
+as Chi-square value (χ2), degrees of freedom (df), Comparative Fit Index 
+(CFI), Tuckers Lewis Index (TLI) and Root Mean Square Error of 
+Approximation (RMSEA) was used as per the guidelines (Hu and Bentler, 
+1999; Fan et al., 2016). 
+
+
+4. Analysis and findings 
+
+
+4.1. The underlying factors of performance measures 
+
+
+The measures derived from the literature review exhibited some 
+overlap across the different performance dimensions and showed a 
+possibility of combining a few of them. This might be due to the 
+exploratory nature of this phase and subjectivity of the experts while 
+
+
+validating these measures. An EFA was conducted to overcome the 
+subjectivity involved in identifying the performance and determine the 
+underlying dimensions (Dick and Hagerty, 1971). 
+
+
+4.1.1. Resolving the multi-dimensionality issues 
+Skewness was used to measure the symmetry of data and Kurtosis to 
+
+
+test whether the data are heavy-tailed or light-tailed relative to a normal 
+distribution. The maximum absolute values for Skewness and Kurtosis 
+were 1.139 (standard error of 0.181), and 2.564 (standard error of 
+0.359) were within the permissible limits (Skewness < 2, Kurtosis <7) 
+indicating that the data followed a normal distribution (Curran et al., 
+1996). The possibility of multidimensionality of the performance mea-
+sures imposed the need to compute Cronbach alpha (α) for all the seven 
+dimensions separately. The α values helped to ascertain the measures 
+that contributed to making up each dimension. The α values ranged from 
+0.54 to 0.72. Selected measures from each dimension were dropped to 
+improve the α values within the acceptable range (above 0.70) as per the 
+guidelines suggested for the development of new measures (Hair et al., 
+2014). An iterative procedure was used to increase the α values, deleting 
+those measures with very low correlations and recomputing the new α 
+values with a revised set of dimensions. The repeated procedure resulted 
+in a set of 84 items, with the α values ranging between 0.76 and 0.94 
+across the seven dimensions. 
+
+
+The next step was to examine the dimensionality of the 86 perfor-
+mance measures for which EFA with varimax rotation, constrained to a 
+
+
+Table 3 
+Respondent profile.  
+
+
+Parameter Information of 
+respondent 
+
+
+Preliminary 
+survey 
+
+
+Final 
+survey 
+
+
+Phase II Phase III 
+(CFA) 
+
+
+(%) (%) 
+
+
+Gender Male 87.14 84.26 
+Female 12.86 15.74 
+
+
+Age Less than 35 years 18.09 22.09 
+35–50 years 42.85 46.06 
+50–60 years 36.19 30.31 
+Above 60 years 02.87 01.59 
+
+
+Education College level (diploma/ 
+certificate) 
+
+
+08.11 12.20 
+
+
+Undergraduate 18.09 22.04 
+Postgraduate and 
+Doctorate 
+
+
+73.80 65.76 
+
+
+Experience in 
+Manufacturing 
+domain 
+
+
+Less than 5 years 44.28 48.03 
+5–10 years 33.33 37.00 
+10–15 years 20.00 10.23 
+Above 15 years 02.39 04.74 
+
+
+Work Domain Plant manager 03.80 03.54 
+Manufacturing/ 
+production 
+
+
+33.33 36.22 
+
+
+Digitalization and 
+technology 
+
+
+28.57 25.19 
+
+
+Maintenance 14.28 11.02 
+Quality 08.09 10.23 
+Plant Utilities 07.14 06.29 
+Safety and Environment 04.79 07.51 
+
+
+Industry classification Carburetor and battery 08.57 12.22 
+Brake, lever, and 
+clutches 
+
+
+07.14 14.44 
+
+
+Interior and exterior 
+press component 
+
+
+22.38 24.44 
+
+
+Electronic and electrical 
+components 
+
+
+15.72 18.88 
+
+
+Bearing 08.09 03.88 
+Paint/coating/chemical 
+lubricant 
+
+
+11.43 08.33 
+
+
+Gear/transmission 09.53 06.15 
+Casting and casings 17.14 11.66 
+
+
+No. of employees Less than 50 15.00 22.22 
+Between 50 and 250 85.00 77.78  
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+8
+
+
+fixed number of factors (seven), was used. The varimax rotation is found 
+to maximize the squared factor loadings variations for each component, 
+providing a linear transformation to components (Dillon and Goldstein, 
+1984). No clear dimensions emerged from EFA as many of the items 
+(performance measures) loaded simultaneously on several dimensions 
+signifying that the measures overlapped or were dependent on each 
+other. To overcome this problem, the EFA was re-run allowing the in-
+tercorrelations among the dimensions by removing the fixed factor 
+constraint. The EFA resulted in evolving a validated set of ten perfor-
+mance dimensions re-assigning many of the measures from the previous 
+dimensions. The inclusion of a performance measure in a dimension was 
+made, if the factor loading score was above 0.5, ensuring that only the 
+measures that contributed highly to the formation of a given factor were 
+considered. The final list included 59 performance measures. The factor 
+loading details of the 74 performance measures and their assigned 
+dimension are presented in Table 3. As shown in Table 3, five of the 
+seven dimensions developed in the first phase of the study-cost, time, 
+flexibility, quality, and computing performance were retained with a 
+reduced number of measures. Additionally, five new performance di-
+mensions were evolved from the findings of the EFA viz., optimized 
+productivity, integration, real-time diagnosis & prognosis, social and 
+ecological sustainability. 
+
+
+4.2. Validation of the factor structure of performance measures 
+
+
+Although the EFA established the convergent validity of the mea-
+surement items in Phase II; it was necessary to confirm the statistical 
+significance of the measurement model involving 59 performance 
+measures in 10 dimensions. The results presented in Table 5 indicated 
+that the measurement items have no convergent validity concerns (CSR 
+> 0.70, and AVE > 0.50). Further, for all the constructs the square root 
+AVE was higher than the correlations between that specific construct, 
+and all the other constructs indicating that the performance dimensions 
+had no discriminant validity issues (Cooper and Zmud, 1990; Hair et al., 
+2014). The CFA indicated a satisfactory model fit for the ten perfor-
+mance dimensions with positive degrees of freedom ¼ 1280, χ2 ¼
+3199.32, χ2/df ratio ¼ 2.49, CFI ¼ 0.912, TLI ¼ 0.897, and RMSEA ¼
+0.081. All the above findings indicated that the identified performance 
+dimensions were unidimensional. 
+
+
+5. Discussion and implications 
+
+
+This study presented relevant performance measures and a perfor-
+mance measurement system that can be used for the assessment of SMS 
+investments in SMMEs. The measures were identified using a combi-
+nation of the exploratory and empirical validation process in the auto- 
+component manufacturing sector. The study found that the SMMEs are 
+convinced that the implementation of SMS will provide them with the 
+competitive benefits of improved costs, quality, time, flexibility, opti-
+mized productivity, real-time diagnosis and prognosis, computing per-
+formance, integration, social, and ecological sustainability dimensions. 
+SMS contributes to achieving improvements in the overall performance 
+of the organization. Tortorella et al. (2020) identified that emerging 
+technologies lead to an improvement in the quality of the products and 
+customer service level satisfaction, thereby increasing the overall effi-
+ciency of the organization. However, to achieve these benefits, organi-
+zations are required to create an environment of learning and knowledge 
+sharing. The present study statistically validated ten performance di-
+mensions. These measures can be used by the practitioners to evaluate 
+their SMS and build a performance-oriented manufacturing system. 
+
+
+In this section, we first discuss the findings, including implications 
+for theory and practice. Following this, a smart manufacturing perfor-
+mance measurement system (SMPMS) is proposed which is expected to 
+guide practitioners from the SMMEs to plan, measure, and control their 
+SMS for the improved performance. 
+
+
+5.1. Theoretical implications 
+
+
+The SMMEs significantly contributes to the economic and regional 
+development of a country. SMMEs are continually looking forward to 
+enhancing their competitiveness by adopting innovative technological 
+solutions. However, during the implementation of these technologies, 
+SMMEs face issues related to economic, social, and ecological sustain-
+ability that discourages them from proceeding with the investments. The 
+previous studies in the literature have focused on identifying the 
+implementation drivers and barriers of such technologies in SMMEs; 
+however, they fail to provide a comprehensive system to guide and 
+evaluate the implementation (Kamble et al., 2018a). The main contri-
+bution of this study is to identify and develop a complete system that 
+guides the implementation of Industry 4.0 enabled SMS in SMMEs. The 
+Smart Manufacturing Performance Measurement System framework 
+(presented below) is novel contribution of the study. The study extends 
+the literature in two significant ways. Firstly, it contributes to the 
+research of SMMEs by offering a performance measurement system that 
+can be used to guide and evaluate the investments in innovative tech-
+nologies such as Industry 4.0. Secondly, it extends the literature on In-
+dustry 4.0 by identifying a set of empirically validated performance 
+measures to evaluate SMS performance. It is expected that the findings 
+of the study will lead to more focused research on innovative technology 
+evaluations and investment opportunities in SMMEs. 
+
+
+5.2. Managerial implications 
+
+
+The ‘cost’ have been one of the critical performance criteria, which 
+finds its origin from the discipline of cost accounting. This study found 
+ten significant cost measures that are related to the productivity and 
+efficiency of the organizations and provide a straightforward interpre-
+tation of SMS performance. The quality measures focused on the 
+objective parameters such as scrap, defects, and inspection quantities. 
+The quality measures identified for evaluation of SMS investments were 
+less in number compared to the conventional manufacturing systems, 
+because SMS enables continuous monitoring and control of the products, 
+processes and actors that lead to reduced quality issues. Although the 
+exploratory study had identified twenty measures under the quality 
+dimension, the empirical validation clustered many of these measures to 
+form new dimensions such as real-time diagnosis & prognosis and 
+optimized productivity, which were not observed in the previous 
+studies. Similar findings were observed for the flexibility measures 
+wherein only five out of eighteen measures identified in the exploratory 
+phase were retained in the empirical validation. The measures in the 
+optimized productivity dimension focused on the optimized use of re-
+sources such as labor, materials and machines. 
+
+
+The integration dimension evaluates the extent of influence SMS has 
+on improved internal and external relationships. The finding implies 
+that SMS should use a suitable IoT platform to integrate the suppliers, 
+distributed manufacturing services, and manufacturing facilities to 
+reduce the complicated manufacturing tasks. The IoT based SMS enables 
+collaboration between the manufacturing services that are geographi-
+cally distributed; and optimize the logistics routes on the dimensions of 
+time, cost, and reliability (Wang et al., 2019b). The Industry 4.0 para-
+digm supported by CPS offers the SMS promising capabilities leading to 
+effective and flexible manufacturing. It is implied that to exploit the 
+benefits of collaborative sharing and networked manufacturing re-
+sources, the organizations should focus on automatic control of 
+manufacturing equipment adaptively and effectively (Kamble et al., 
+2018a). 
+
+
+Blockchain technology is recommended for reducing information 
+asymmetry, which has led to overcoming the issues of trust and 
+collaboration among the supply chain partners (Longo et al., 2019; 
+Kamble et al., 2020b). Blockchain adoption discourages counterfeiting 
+of data and poor information quality, which have a negative influence 
+on manufacturing performance. The use of blockchain, together with 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+9
+
+
+other technologies such as IoT and big data, can provide manufacturing 
+organizations the benefit of traceability, information security, and sus-
+tainable manufacturing (Kamble et al., 2019a). However, for effective 
+implementation of blockchain, the organizations will be required to 
+overcome the barriers of information storage capacity and scalability, 
+high cost of implementation, regulatory issues, and lack of skills (Zhao 
+et al., 2019; Kamble et al., 2019a, 2019b). 
+
+
+The Industry 4.0 technologies and architectures are expected to 
+perform high on parameters of latency and reliability or resilience of 
+cyber-physical interfaces. These interfaces support SMS applications 
+required for data storage, analysis, and transfer (Zhou and Yao, 2017). 
+The measures identified in the computing performance dimension im-
+plies that the SMMEs should consider beyond cloud computing tech-
+nology and consider the decentralized fog computing architectures to 
+provide higher data consistency, reliability, privacy, and security 
+(O’Donovan et al., 2019). Fog computing is found to be an efficient 
+technology for enabling real-time monitoring and control, reducing the 
+delay in transmitting the information, reduced energy consumption, 
+improved memory utilization, and throughput (Wu et al., 2017). The 
+SMMEs have to develop an efficient computing system to provide a high 
+level of controllability and security from vulnerable cyber-attack (Khalid 
+et al., 2018). Frameworks based on edge computing and artificial in-
+telligence are found to improve the resource efficiency of computing 
+services and improve the quality of diagnostic and prognostic perfor-
+mance in SMS (Li et al., 2019). The SMMEs should consider moving 
+some critical services and data from the centralized data server to the 
+data source for enhanced computational efficiency (Yen et al., 2019) and 
+consider use of proactive caching strategy in edge computing environ-
+ment for improved goodput and real-time performance (Li et al., 2019). 
+
+
+The results of the study also identified the need to evaluate SMS 
+investments on the benefits of social and environmental sustainability. 
+With the evolution of emerging technologies, the major challenge for 
+organizations is to integrate people within the CPS. The finding implies 
+that SMS must include the unique characteristics of the human labor and 
+the CPS, addressing various scenarios of irregularities such as detection 
+of machine failure or identification of process bottlenecks and guide the 
+managers in developing human resource strategy (Fantini et al., 2018). 
+Industry 4.0 capabilities offer an adaptive, continuous interaction be-
+tween the operator and the machines improving operator safety, per-
+formance, well-being, and satisfaction (Golan et al., 2019). The SMMEs 
+should use immersive interface systems such as AR, VR based systems, 
+process mining tools, and expert guidance received from the knowl-
+edgeable workers to improve the performance of the product assemblies 
+(Rold�an et al., 2019). The innovative virtual prototypes consisting of 
+eye-tracking and wearable sensor devices are being developed for 
+improved interactions between the workers and the digital factory. Such 
+a human-machine interaction system should be formed by SMMEs to 
+assist in the improvement and optimization of shop-floor operation, 
+process workflow, workstation design, and layout (Peruzzini et al., 
+2019). The other developments which should be considered by the 
+MSMEs to improve work performance and reduce the worker’s anxiety 
+include use of collaborative robots (Eimontaite et al., 2019), wearable 
+digital assembly gloves to find defective products and processes using 
+the vibrations and force values on the fingers ((Eimontaite et al., 2019). 
+
+
+The emerging technologies provide an overload of environmental 
+information to the SMMEs. The main challenge for the SMMEs is to 
+select the relevant ecological data and relate it to the productivity of the 
+organization (Santos et al., 2019). High consumption of energy acts as a 
+critical barrier for the use of industrial robots in SMS, affecting the 
+manufacturing process sustainability. It is, therefore, essential to reduce 
+the energy efficiency of the robotic cell, maintaining high productivity 
+levels and manufacturing quality (Gadaleta et al., 2019). SMMEs should 
+realize the role played by IoT in analyzing the remaining life of the as-
+sets, plan product warranty and maintenance schedules of the rema-
+nufactured products (Alqahtani et al., 2019; Meng et al., 2018; Pistolesi 
+et al., 2018). 
+
+
+The twelve performance measures identified in the real-time diag-
+nosis & prognosis dimension focused on proactive performance man-
+agement. The study implies that the SMS has replaced most of the 
+diagnostic analysis that is based on an off-line review, human inter-
+vention, relying mainly on the past experience of the operator and 
+knowledge on the known parameters (Lu et al., 2019). The SMS uses 
+powerful data-driven prognosis techniques that are more agile and 
+adaptable to complex situations (Bagheri et al., 2018; Jung et al., 2015; 
+Kamble et al., 2020a). The SMMEs may consider the use of image pro-
+cessing techniques to automate the observation and evaluation of the 
+manufacturing process (Zhao et al., 2019) and fault diagnosis (Fu et al., 
+2019). Machine learning algorithms and artificial intelligence are found 
+to be highly useful to predict process performance (Huang et al., 2019; 
+Jia et al., 2018). The real-time monitoring capabilities provide SMMEs 
+with insights into possible states, operating, and failure modes that can 
+occur and support the improvement of the existing manufacturing pro-
+cesses (Rivera Torres et al., 2018). Learning effects can be exploited for 
+preparing batches by grouping customized orders based on similarities 
+in the production process, reducing the average throughput time (Cas-
+tellano et al., 2019). The existing planning and scheduling methods in 
+mixed-model production industries are not efficient enough to be uti-
+lized in SMS. There is a need to update the plan and schedule in real-time 
+(Saif et al., 2019). The simultaneous rate for the arrival of orders and the 
+product delivery schedule in SMS are identified as the two significant 
+complexities in scheduling (Fan et al., 2019). Efficient scheduling sys-
+tems result in a reduced number of works in process and less pressure on 
+the buffer. One of the important aspects of SMS is regarding when and 
+how the information is used for decision making. The real-time infor-
+mation on the completion of jobs may be used for rescheduling of jobs. 
+However, the SMMEs should understand that the efficiency of these 
+schedules will be dependent on the variability in the processing time and 
+the quality of the initially generated schedules (Framinan et al., 2019). 
+
+
+The diagnosis & prognosis measures also support redundancy plan-
+ning and reducing the quality inspections at the manufacturing shop 
+floor. Renna (2019) suggests that the cyber-physical interface, combined 
+with the use of artificial intelligence and self-adapting activities, can 
+enable a station of the automated flow line, reducing the time 
+consuming and costly setups for the SMMEs. Quality control is a crucial 
+aspect of any manufacturing organization and includes product in-
+spection at different stages of manufacturing. The SMMEs with the in-
+vestments in the SMS can aim to minimize the inspection cost, improve 
+the outgoing quality, and reduce inspection requirements (Kang et al., 
+2018). The time consuming and costly product qualification testing, 
+which is performed using conventional standards and user-defined re-
+quirements, can be made efficient by using predictive analytics (Stoya-
+nov et al., 2019). 
+
+
+The above discussions and implications provide valuable informa-
+tion to the SMMEs on the crucial performance dimensions and the 
+measures they need to consider for managing SMS performance. Based 
+on the above discussions and implications of the study, a general 
+framework on how to use the identified performance measures and 
+evaluate the SMS performance is presented in the following section. 
+
+
+6. Smart manufacturing performance measurement system 
+
+
+The study identified ten performance dimensions, namely, cost, 
+quality, flexibility, time, integration, optimized productivity, real-time 
+diagnosis & prognosis, computing, social and ecological sustainability, 
+that can be considered as the competitive benefits resulting from an 
+investment in SMS. Based on above findings, this study proposes a Smart 
+Manufacturing Performance Measurement System (SMPMS) framework. 
+The framework presented in Fig. 2 is expected to guide SMMEs in 
+evaluating SMS investments. 
+
+
+Although the study was specific to auto-component manufacturers, 
+the SMPMS framework can be used by any Industry after validating 
+these performance dimensions. The study found that the benefits offered 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+10
+
+
+by SMS are far more significant than the narrow focus of traditional 
+manufacturing systems on dimensions of cost, quality, flexibility, and 
+optimized productivity. The SMPMS framework proposes that the 
+evaluation considers the impact of SMS on all the ten performance di-
+mensions relative to their importance to achieving the business objec-
+tives. Typically, there will be trade-offs engaged in adopting an SMS. For 
+e.g., an SMMEs may consider implementing AR for employee training. 
+This may improve the performance of the SMMEs in developing an 
+excellent social eco-system with satisfied employees and non-invasive 
+machine interaction. However, this may impact the SMMEs more by 
+increased cost than is gained by the development of a social eco-system. 
+Once the SMMEs selects the appropriate performance dimensions, the 
+next step is to set the performance target using suitable performance 
+measures from Table 4. Usually, several performance measures are 
+needed to describe broader or more aggregated performance dimensions 
+adequately. The performance targets are set against historical standards, 
+future improvement goals or level of competition in market. The 
+manufacturing goals and the performance targets guide the develop-
+ment of an SMS action plan, that may involve the implementation of 
+Industry 4.0 technologies such as IoT, Blockchain, additive 
+manufacturing, Big data analytics, AR/VR, etc. On application, the 
+performance targets are needed to be closely monitored continuously 
+and any deviations from the manufacturing goals should be addressed 
+with an improvement plan. 
+
+
+A brief illustration of the SMPMS framework is presented below. 
+
+
+6.1. Manufacturing goals 
+
+
+The manufacturing goals should be aligned with the overall business 
+objectives of the SMMEs and should be guided by the competitive 
+benefit the SMMEs would like to achieve. The manufacturing goals 
+could be one or several performance dimensions. However, the decision- 
+maker should take care that the selected dimensions are not conflicting 
+
+
+with each other. For e.g., Integration would be the most appropriate 
+manufacturing goal for SMMEs to address the changing needs of the 
+customer proactively. Accordingly, the SMMEs may also select real-time 
+diagnosis & prognosis as the supporting goal to become highly 
+proactive. 
+
+
+6.2. Performance measures 
+
+
+The relevant measures to evaluate the performance of SMMEs for 
+achieving the manufacturing goals should be selected (Refer to Table 4). 
+For e.g., most of the measures would be selected from the integration 
+dimension; however, relevant measures from the dimensions of real- 
+time diagnosis & prognosis and computing performance will also be 
+chosen. Let us assume that the SMMEs decides to select the measures 
+real-time design & engineering changes, real-time monitoring of sup-
+pliers, real-time monitoring of customer orders, dynamic line balancing, 
+and dynamic order allocation to react proactively to their customers. 
+
+
+6.3. Performance targets 
+
+
+The targets set for the performance measures should be measurable 
+and realistic. These performance targets should be communicated to all 
+the functional managers to guide their operational decisions. This will 
+help the SMMEs to collect all the relevant information for performance 
+evaluation without any disruption. For e.g. the SMMEs may want to 
+achieve dynamic order allocations to be executed in 20 min. 
+
+
+6.4. SMS action plan 
+
+
+In SMPMS, the action plan revolves around the implementation of 
+suitable Industry 4.0 technology to develop SMS. For e.g., the best action 
+plan to achieve the performance targets on the measures of real-time 
+design & engineering changes, real-time monitoring of suppliers, real- 
+
+
+Fig. 2. A smart manufacturing performance measurement system.  
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+11
+
+
+Table 4 
+Underlying factor structure of performance measures.  
+
+
+Performance Measures Performance Dimensions 
+
+
+Cost Real-time diagnosis & 
+Prognosis 
+
+
+Optimized 
+productivity 
+
+
+Quality Integration Flexibility Computing Time Social Ecological 
+
+
+Cost per unit produced (C2) .759          
+Product maintenance cost (C5) .805          
+Profit (C6) .734          
+R&D cost (C7) .832          
+New product development cost 
+
+
+(C8) 
+.874          
+
+
+Return on Asset (C14) .764          
+Operating cost (C15) .874          
+Manufacturing cost (C16) .875          
+Setup cost (C17) .844          
+Inventory cost (C18) .766          
+Real-time monitoring of processes 
+
+
+(F10)  
+.892         
+
+
+Real-time job scheduling (F12)  .829         
+Real-time labor efficiency 
+
+
+prediction (F13)  
+.774         
+
+
+Dynamic workstation assignments 
+(F17)  
+
+
+.768         
+
+
+Dynamic line balancing (F18)  .906         
+Real-time detection of product 
+
+
+failure (Q7)  
+.661         
+
+
+Process visualization and control 
+(Q8)  
+
+
+.759         
+
+
+Early fault detection (Q11)  .700         
+Machine state condition 
+
+
+monitoring (Q12)  
+.901         
+
+
+Energy consumption prediction 
+(C13)  
+
+
+.635         
+
+
+Overall equipment effectiveness 
+(P2)   
+
+
+.758        
+
+
+Optimized machining process 
+(P7)   
+
+
+.661        
+
+
+Optimized plant layout (P8)   .586        
+Optimized use of materials (P9)   .632        
+Optimized warehouse layout 
+
+
+(P10)   
+.659        
+
+
+Labor productivity (P12)   .712        
+Warranty claims (Q2)    .865       
+Scrap rate (Q3)    .854       
+Defective product (Q4)    .862       
+Reduced inspection error (Q5)    .842       
+Reduced inspection quantities 
+
+
+(Q13)    
+.881       
+
+
+Real-time monitoring of suppliers 
+(F9)     
+
+
+.826      
+
+
+Real-time monitoring of customer 
+order (F11)     
+
+
+.800      
+
+
+Real-time design and engineering 
+changes (F14)     
+
+
+.823      
+
+
+Collaboration among partners 
+(Q16)     
+
+
+.801      
+
+
+Number of customer complaints 
+(Q17)     
+
+
+.823      
+
+
+Number of completed customer 
+orders (Q18)     
+
+
+.696      
+
+
+Product mix flexibility (F2)      .787     
+Expansion flexibility (F3)      .783     
+Delivery flexibility (F4)      .754     
+Volume flexibility (F7)      .791     
+Machine flexibility (F8)      .799     
+Data reliability (CC2)       .817    
+Information security and privacy 
+
+
+(CC4)       
+.817    
+
+
+Latency (CC5)       .831    
+Data storage (CC6)       .980    
+Analytical skills (CC7)       .613    
+Processing time (T3)        .938   
+Throughput time (T7)        .904   
+Lead time (T9)        .921   
+Setup time (T10)        .936   
+Improved employee health (H2)         .848  
+Improved employee learning (H3)         .849  
+
+
+(continued on next page) 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+12
+
+
+time monitoring of customer orders, dynamic line balancing, and dy-
+namic order allocation could be to implement a system involving ad-
+ditive manufacturing, IoT, cloud computing and big data analytics. 
+
+
+6.5. Performance evaluation and monitoring 
+
+
+The performance evaluation and monitoring are done by comparing 
+the actual performance with the target performance as per the schedule. 
+Based on the assessment, the SMMEs may come across the following 
+situations.  
+
+
+� No change in the performance measures, targets, and the SMS action 
+plan: This is possible when the selected measures and targets 
+contribute towards the achievement of manufacturing goals without 
+deviation.  
+� Removal or revision of performance measures: The SMMEs may identify 
+
+
+after the first stage of evaluation that few measures need to be 
+replaced or removed, as they are found to be irrelevant or insignif-
+icant with no contribution to the manufacturing goals.  
+� Revision in performance targets: The SMMEs may realize that the set 
+
+
+targets are not measurable due to the unavailability of relevant in-
+formation or they are unrealistic. In such scenarios, the targets need 
+to be revised. 
+
+
+Following above structured approach, it is believed that the SMPMS 
+will support the SMMEs in developing a robust SMS, aligned with the 
+manufacturing goals and the business objectives. 
+
+
+7. Limitations and future research 
+
+
+SMS is different from the traditional manufacturing systems in terms 
+of the way operations are performed, quality is checked, maintenance is 
+performed and employees’ relationships are developed; and therefore, 
+requires different measures for performance evaluation. The study had 
+few limitations, which provides opportunities for future research. 
+
+
+Although the study setup is based on the India-based empirical data, 
+India is a unique economy being one of the largest economies in Asia, 
+with a large number of SMMEs, and many diaspora Indian entrepreneurs 
+scattered around Asia and the Globe, there is some potential for gener-
+alizability, albeit this is not the main objective of the study. Nonetheless, 
+focus on India creates significant future research opportunities for 
+scholars, and we invite them to test the measures in other economies in 
+and outside Asia. 
+
+
+The measures used in this study are statistically validated using data 
+collected from medium-sized auto-component manufacturing organi-
+zations based in India. Therefore, it would be necessary to conduct 
+similar studies and confirm the findings in other industries such as 
+pharmaceuticals, chemicals, FMCG, etc. It would also be interesting to 
+find out which performance dimensions are more powerful or more 
+fundamental than others while evaluating SMS. 
+
+
+The SMS is a change initiative and needs different technologies such 
+as IoT, cloud computing, CPS to be implemented. Therefore, SMS 
+implementations will differ from one organization to the next due to 
+differences in the market being served, technological maturity, 
+competitive and regulatory environment. The previous studies have 
+identified barriers to implementation of SMS and provided solutions to 
+overcome them (Kamble et al., 2018b). However, it is presumed that 
+SMS being a huge transformation process, it is sure to be influenced by 
+the organizational culture, its values, and traditions. The present study 
+has not considered this aspect, requiring future studies to investigate the 
+influence of organizational culture on SMS performance and provide 
+insights on how to measure them for effective implementation of SMS. 
+
+
+The study identified a set of sustainable dimensions, namely, social 
+and ecological, that influence the SMS. However, the extent of influence 
+these measures have on the SMS is dependent on the existing practices of 
+the organizations. The literature reveals that lean and circular economy 
+practices provide a facilitating environment for Industry 4.0 and data- 
+driven supply chains, leading to sustainable organizational perfor-
+mance (Kamble et al., 2019a, 2019b; Belhadi et al., 2020). Therefore, it 
+would be interesting to investigate how the identified performance 
+
+
+Table 4 (continued ) 
+
+
+Performance Measures Performance Dimensions 
+
+
+Cost Real-time diagnosis & 
+Prognosis 
+
+
+Optimized 
+productivity 
+
+
+Quality Integration Flexibility Computing Time Social Ecological 
+
+
+Reduced incidence of injuries 
+(H7)         
+
+
+.558  
+
+
+Reduced labor claims (H8)         .745  
+Energy cost (C3)          .863 
+Raw material purchasing cost 
+
+
+(C9)          
+.909 
+
+
+Rework cost (C10)          .885 
+Waste treatment cost (C11)          .777  
+
+
+Table 5 
+Confirmatory and discriminant validity measures.  
+
+
+DIMENSIONS CSR AVE COST RTFD OP QUAL INT FLEX ECO SOC COMP TIME 
+
+
+COST 0.959 0.747 0.864          
+RTPD 0.933 0.646 0.333*** 0.803         
+OP 0.976 0.852 0.595*** 0.415*** 0.923        
+QUAL 0.981 0.929 0.372*** 0.266** 0.690*** 0.964       
+INT 0.985 0.916 0.530*** 0.355*** 0.687*** 0.567*** 0.957      
+FLEX 0.976 0.910 0.521*** 0.523*** 0.609*** 0.408*** 0.484*** 0.954     
+ECO 0.876 0.648 0.372*** 0.261** 0.332*** 0.103 0.289*** 0.282*** 0.805    
+SOC 0.910 0.725 0.182*** 0.045 0.171*** 0.098** 0.187*** 0.129*** 0.141*** 0.852   
+COMP 0.766 0.541 0.067 0.078 0.167 0.071 0.214* 0.059 0.165 0.063 0.735  
+TIME 0.944 0.809 0.006 0.006 0.087 0.060 0.028 0.053 0.005 0.003 0.026 0.899 
+
+
+Significance of Correlations. 
+*p < 0.050, **p < 0.010, ***p < 0.001. 
+RTFD: Real-time diagnosis and prognosis, OP: Optimized productivity, QUAL: Quality, INT: Integration, FLEX: Flexibility, ECO: Ecological Sustainability, SOC: Social 
+Sustainability, COMP: Computing. 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+13
+
+
+measure dimensions are used in organizations with different levels of lean and circular economy practices.  
+
+
+Appendix A. List of Journals  
+
+
+Journal Name No. of Articles 
+
+
+International Journal of Advanced Manufacturing Technology 12 
+International Journal of Production Research 10 
+Computers and Industrial Engineering 8 
+Journal of Intelligent Manufacturing 6 
+IEEE Access 6 
+Robotics and Computers Integrated Manufacturing 5 
+Journal of Manufacturing Systems 5 
+IEEE Transactions on Information Informatics 5 
+Computers in Industry 5 
+Journal of Ambient Intelligence and Humanized Computing 4 
+Computers in Chemical Engineering 4 
+International Journal of Production Economics 3 
+TQM and Business Excellence 2 
+Procedia Manufacturing 2 
+International Journal of Computers Integrated Manufacturing 2 
+Future Generation Computers System 2 
+Engineering Applications of Artificial Intelligence 2 
+Benchmarking: An International Journal 2 
+Sensors 1 
+Procedia Engineering 1 
+Mm Science Journal 1 
+Measuring Business Excellence 1 
+Journal of Quality in Maintenance Engineering 1 
+Journal of Industrial Information Integration 1 
+IEEE Sensors 1 
+Concurrent Engineering Research and Applications 1 
+Collaboration Design and Planning for Digital Manufacturing 1 
+Applied Soft Computing Journal 1 
+Applied Sciences 1 
+Annual Reviews in Control 1 
+Advances in Engineering Software 1 
+Total 98  
+
+
+References 
+
+
+Alqahtani, A.Y., Gupta, S.M., Nakashima, K., 2019. Warranty and maintenance analysis 
+of sensor embedded products using internet of things in industry 4.0. Int. J. Prod. 
+Econ. 208, 483–499. https://doi.org/10.1016/j.ijpe.2018.12.022. 
+
+
+Ante, G., Facchini, F., Mossa, G., Digiesi, S., 2018. Developing a key performance 
+indicators tree for lean and smart production systems. IFAC-PapersOnLine 51 (11), 
+13–18. 
+
+
+Arcot, R., 2017. Move over, IT: IIoT is the next big thing for SMMESs. Available at: htt 
+ps://economictimes.indiatimes.com/small-biz/sme-sector/move-over-it-iiot-is-the 
+-next-big-thing-for-SMMEss/articleshow/57040654.cms?from¼mdr. 
+
+
+Bagheri, M., Zollanvari, A., Nezhivenko, S., 2018. Transformer fault condition prognosis 
+using vibration signals over cloud environment. IEEE Access 6, 9862–9874. 
+
+
+B�anyai, �A., Ill�es, B., Glistau, E., Machado, N.I.C., Tam�as, P., Manzoor, F., B�anyai, T., 
+2019. Smart cyber-physical manufacturing: extended and real-time optimization of 
+logistics resources in matrix production. Appl. Sci. 9 (7), 1287. 
+
+
+Bauters, K., Cottyn, J., Claeys, D., Slembrouck, M., Veelaert, P., Van Landeghem, H., 
+2018. Automated work cycle classification and performance measurement for 
+manual workstations. Robot. Comput. Integrated Manuf. 51, 139–157. 
+
+
+Beamon, B.M., 1999. Measuring SC performance. Int. J. Oper. Prod. Manag. 19 (3), 
+275–292. 
+
+
+Belhadi, A., Kamble, S.S., Zkik, K., Cherrafi, A., Touriki, F.E., 2020. The integrated effect 
+of big data analytics, lean six sigma and green manufacturing on the environmental 
+performance of manufacturing companies: the case of North Africa. J. Clean. Prod. 
+252, 119903. 
+
+
+Biondi, M., Sand, G., Harjunkoski, I., 2017. Optimization of multipurpose process plant 
+operations: a multi-time-scale maintenance and production scheduling approach. 
+Comput. Chem. Eng. 99, 325–339. 
+
+
+Bititci, U.S., Mendibil, K., Martinez, V., Albores, P., 2005. Measuring and managing 
+performance in extended enterprises. Int. J. Oper. Prod. Manag. 25 (4), 333–353. 
+
+
+Blanco-Novoa, O., Fern�andez-Caram�es, T.M., Fraga-Lamas, P., Vilar-Montesinos, M.A., 
+2018. A practical evaluation of commercial industrial augmented reality systems in 
+an industry 4.0 shipyard. IEEE Access 6, 8201–8218. 
+
+
+Bordel, B., Alcarria, R., 2017. Assessment of human motivation through analysis of 
+physiological and emotional signals in Industry 4.0 scenarios. J. Ambient Intell. 
+Humanit. Comput. 1–21. https://doi.org/10.1007/s12652-017-0664-4. 
+
+
+Bouzary, H., Chen, F.F., 2019. A hybrid grey wolf optimizer algorithm with evolutionary 
+operators for optimal QoS-aware service composition and optimal selection in cloud 
+manufacturing. Int. J. Adv. Manuf. Technol. 101 (9–12), 2771–2784. 
+
+
+Büyük€ozkan, G., G€oçer, F., 2018. Digital Supply Chain: literature review and a proposed 
+framework for future research. Comput. Ind. 97, 157–177. 
+
+
+Carvajal Soto, J.A., Tavakolizadeh, F., Gyulai, D., 2019. An online machine learning 
+framework for early detection of product failures in an Industry 4.0 context. Int. J. 
+Comput. Integrated Manuf. 32 (4–5), 452–465. 
+
+
+Castellano, D., Gallo, M., Grassi, A., Santillo, L.C., 2019. Batching decisions in multi-item 
+production systems with learning effect. Comput. Ind. Eng. 131, 578–591. 
+
+
+Chan, F.T., 2003. Performance measurement in a SC. Int. J. Adv. Manuf. Technol. 21 (7), 
+534–548. 
+
+
+Chauhan, C., Sharma, A., Singh, A., 2019. A SAP-LAP linkages framework for integrating 
+Industry 4.0 and circular economy. Benchmark Int. J. https://doi.org/10.1108/BIJ- 
+10-2018-0310. 
+
+
+Chen, Z.Y., Kuo, R.J., 2019. Combining SOM and evolutionary computation algorithms 
+for RBF neural network training. J. Intell. Manuf. 30 (3), 1137–1154. 
+
+
+Chen, C., Liu, Y., Kumar, M., Qin, J., Ren, Y., 2019. Energy consumption modelling using 
+deep learning embedded semi-supervised learning. Comput. Ind. Eng. 135, 757–765. 
+https://doi.org/10.1016/j.cie.2019.06.052. 
+
+
+Child, D., 1990. The Essentials of Factor Analysis, second ed. Cassel Educational Limited, 
+London.  
+
+
+Cooper, R.B., Zmud, R.W., 1990. Information technology implementation research: a 
+technological diffusion approach. Manag. Sci. 36 (2), 123–139. 
+
+
+Curran, P.J., West, S.G., Finch, J.F., 1996. The robustness of test statistics to 
+nonnormality and specification error in confirmatory factor Analysis. Psychol. 
+Methods 1 (1), 16–29. 
+
+
+Davis, J., Edgar, T., Porter, J., Bernaden, J., Sarli, M., 2012. Smart manufacturing, 
+manufacturing intelligence and demand-dynamic performance. Comput. Chem. Eng. 
+47, 145–156. https://doi.org/10.1016/j.compchemeng.2012.06.037. 
+
+
+Delbrügger, T., Meißner, M., Wirtz, A., Biermann, D., Myrzik, J., Rossmann, J., 
+Wiederkehr, P., 2019. Multi-level simulation concept for multidisciplinary analysis 
+and optimization of production systems. Int. J. Adv. Manuf. Technol. 103 (9–12), 
+3993–4012. https://doi.org/10.1007/s00170-019-03722-1. 
+
+
+DeVellis, R.F., 1991. Scale Development: Theory and Applications. Sage Publications, 
+Newbury Park, California.  
+
+
+Dick, W., Hagerty, N., 1971. Topics in Measurement � Reliability and Validity. McGraw- 
+Hill, New York, NY.  
+
+
+Diego Fernando, M.D., Rivera Cadavid, L., 2007. Lean manufacturing measurement: the 
+relationship between lean activities and lean metrics. Estud. Gerenciales 23 (105), 
+69–83. https://doi.org/10.1016/s0123-5923(07)70026-8. 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+https://doi.org/10.1016/j.ijpe.2018.12.022
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref2
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref2
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref2
+
+https://economictimes.indiatimes.com/small-biz/sme-sector/move-over-it-iiot-is-the-next-big-thing-for-SMMEss/articleshow/57040654.cms?from=mdr
+
+https://economictimes.indiatimes.com/small-biz/sme-sector/move-over-it-iiot-is-the-next-big-thing-for-SMMEss/articleshow/57040654.cms?from=mdr
+
+https://economictimes.indiatimes.com/small-biz/sme-sector/move-over-it-iiot-is-the-next-big-thing-for-SMMEss/articleshow/57040654.cms?from=mdr
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref4
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref4
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref5
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref5
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref5
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref6
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref6
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref6
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref7
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref7
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref8
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref8
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref8
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref8
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref9
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref9
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref9
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref10
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref10
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref11
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref11
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref11
+
+https://doi.org/10.1007/s12652-017-0664-4
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref13
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref13
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref13
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref14
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref14
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref15
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref15
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref15
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref16
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref16
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref17
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref17
+
+https://doi.org/10.1108/BIJ-10-2018-0310
+
+https://doi.org/10.1108/BIJ-10-2018-0310
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref19
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref19
+
+https://doi.org/10.1016/j.cie.2019.06.052
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref21
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref21
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref22
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref22
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref23
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref23
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref23
+
+https://doi.org/10.1016/j.compchemeng.2012.06.037
+
+https://doi.org/10.1007/s00170-019-03722-1
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref26
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref26
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref27
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref27
+
+https://doi.org/10.1016/s0123-5923(07)70026-8
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+14
+
+
+Dillon, W.R., Goldstein, M., 1984. Multivariate Analysis � Methods and Applications. 
+John Wiley & Sons, New York, NY.  
+
+
+Edgar, T.F., Pistikopoulos, E.N., 2018. Smart manufacturing and energy systems. 
+Comput. Chem. Eng. 114, 130–144. https://doi.org/10.1016/j. 
+compchemeng.2017.10.027. 
+
+
+Eimontaite, I., Gwilt, I., Cameron, D., Aitken, J.M., Rolph, J., Mokaram, S., Law, J., 2019. 
+Language-free graphical signage improves human performance and reduces anxiety 
+when working collaboratively with robots. Int. J. Adv. Manuf. Technol. 100 (1–4), 
+55–73. https://doi.org/10.1007/s00170-018-2625-2. 
+
+
+Emmer, C., Hofmann, T.M., Schmied, T., Stjepandi�c, J., Strietzel, M., 2018. A neutral 
+approach for interoperability in the field of 3D measurement data management. 
+J. Ind. Inf. Integr. 12, 47–56. 
+
+
+Fan, Y., Chen, J., Shirkey, G., John, R., Wu, S.R., Park, H., Shao, C., 2016. Applications of 
+structural equation modeling (SEM) in ecological studies: an updated review. 
+Ecological Processes 5 (1), 19. 
+
+
+Fan, B., Yang, W., Zhang, Z., 2019. Solving the two-stage hybrid flow shop scheduling 
+problem based on mutant firefly algorithm. J. Ambient Intell. Humanit. Comput. 10 
+(3), 979–990. https://doi.org/10.1007/s12652-018-0903-3. 
+
+
+Fantini, P., Pinzone, M., Taisch, M., 2018. Placing the operator at the centre of Industry 
+4.0 design: modelling and assessing human activities within cyber-physical systems. 
+Comput. Ind. Eng. https://doi.org/10.1016/j.cie.2018.01.025. 
+
+
+Flynn, B.B., Sakakibara, S., Schroeder, R.G., Bates, K.A., Flynn, J.B., 1990. Empirical 
+research methods in operations management. J. Oper. Manag. 9 (2), 250–284. 
+
+
+Framinan, J.M., Fernandez-Viagas, V., Perez-Gonzalez, P., 2019. Using real-time 
+information to reschedule jobs in a flowshop with variable processing times. 
+Comput. Ind. Eng. 129, 113–125. https://doi.org/10.1016/j.cie.2019.01.036. 
+
+
+Frederico, G.F., Garza-Reyes, J.A., Anosike, A., Kumar, V., 2019. Supply Chain 4.0: 
+concepts, maturity and research agenda. Supply Chain Manag. 25 (2), 262–282. 
+https://doi.org/10.1108/SCM-09-2018-0339. 
+
+
+Frederico, G.F., Garza-Reyes, J.A., Kumar, A., Kumar, V., 2020. Performance 
+measurement for supply chains in the Industry 4.0 era: a balanced scorecard 
+approach. Int. J. Prod. Perform. Manag. https://doi.org/10.1108/IJPPM-08-2019- 
+0400 ahead-of-print No. ahead-of-print.  
+
+
+Fu, Y., Zhang, Y., Gao, H., Mao, T., Zhou, H., Sun, R., Li, D., 2019. Automatic feature 
+constructing from vibration signals for machining state monitoring. J. Intell. Manuf. 
+30 (3), 995–1008. 
+
+
+Gadaleta, M., Pellicciari, M., Berselli, G., 2019. Optimization of the energy consumption 
+of industrial robots for automatic code generation. Robot. Comput. Integrated 
+Manuf. 57, 452–464. https://doi.org/10.1016/j.rcim.2018.12.020. 
+
+
+Gamberini, R., Galloni, L., Lolli, F., Rimini, B., 2017. On the analysis of effectiveness in a 
+manufacturing cell: a critical implementation of existing approaches. Procedia 
+Manufact. 11, 1882–1891. 
+
+
+Gawankar, S.A., Gunasekaran, A., Kamble, S., 2020. A study on investments in the big 
+data-driven supply chain, performance measures and organisational performance in 
+Indian retail 4.0 context. Int. J. Prod. Res. 58 (5), 1574–1593. 
+
+
+Ghadge, A., Kara, M.E., Moradlou, H., Goswami, M., 2020. The impact of Industry 4.0 
+implementation on supply chains. J. Manuf. Technol. Manag. 31 (4), 669–686. 
+
+
+Giorgio Bort, C.M., Leonesio, M., Bosetti, P., 2016. A model-based adaptive controller for 
+chatter mitigation and productivity enhancement in CNC milling machines. Robot. 
+Comput. Integrated Manuf. 40, 34–43. 
+
+
+Giusti, F., Bevilacqua, M., Tedeschi, S., Emmanouilidis, C., 2018. Data analytics and 
+production efficiency evaluation on a flexible manufacturing cell. In: I2MTC 2018 - 
+2018 IEEE International Instrumentation and Measurement Technology Conference: 
+Discovering New Horizons in Instrumentation and Measurement, Proceedings, vols. 
+1–6. https://doi.org/10.1109/I2MTC.2018.8409677. 
+
+
+Golan, M., Cohen, Y., Singer, G., 2019. A framework for operator– workstation 
+interaction in Industry 4. Int. J. Prod. Res. https://doi.org/10.1080/ 
+00207543.2019.1639842. 
+
+
+Gosselin, M., 2005. An empirical study of performance measurement in manufacturing 
+firms. Int. J. Prod. Perform. Manag. 54 (5–6), 419–437. https://doi.org/10.1108/ 
+17410400510604566. 
+
+
+Gunasekaran, A., Patel, C., Tirtiroglu, E., 2001. Performance measures and metrics in a 
+SC environment. Int. J. Oper. Prod. Manag. 21 (1/2), 71–87. 
+
+
+Hair, J., Black, W., Babin, B.Y.A., Anderson, R., Tatham, R., 2014. Multivariate Data 
+Analysis. A Global Perspective. Pearson Prentice Hall, London, UK.  
+
+
+He, Q.P., Wang, J., Shah, D., 2019. Feature space monitoring for smart manufacturing 
+via statistics pattern analysis. Comput. Chem. Eng. 321–331. https://doi.org/ 
+10.1016/j.compchemeng.2019.04.010. 
+
+
+Hon, K.K.B., 2005. Performance and evaluation of manufacturing systems. CIRP Ann. - 
+Manuf. Technol. 54 (2), 139–154. 
+
+
+Hu, L., Bentler, P.M., 1999. Cutoff criteria for fit indexes in covariance structure analysis: 
+conventional criteria versus new alternatives. SEM 6 (1), 1–55. 
+
+
+Hu, L., Miao, Y., Wu, G., Hassan, M.M., Humar, I., 2019. iRobot-Factory: an intelligent 
+robot factory based on cognitive manufacturing and edge computing. Future 
+Generat. Comput. Syst. 90, 569–577. 
+
+
+Huang, J., Kong, L., Chen, G., Wu, M.-Y., Liu, X., Zeng, P., 2019. Towards secure 
+industrial iot: blockchain system with credit-based consensus mechanism. IEEE 
+Trans. Ind. Inf. 15 (6), 3680–3689. https://doi.org/10.1109/TII.2019.2903342 art. 
+no. 8661654.  
+
+
+Jia, Z., Zhao, K., Zhang, Y., Dai, Y., Liu, C., 2018. Real-time performance evaluation and 
+improvement of assembly systems with Bernoulli machines and finite production 
+runs. Int. J. Prod. Res. https://doi.org/10.1080/00207543.2018.1544426. 
+
+
+Jung, K., Morris, K.C., Lyons, K.W., Leong, S.W.E.E., Cho, H., 2015. Using formal 
+methods to scope performance challenges for Smart Manufacturing Systems: focus 
+on agility. Concurr. Eng. Res. Appl. 23 (4), 343–354. 
+
+
+Kamble, S.S., Gunasekaran, A., 2020. Big data-driven supply chain performance 
+measurement system: a review and framework for implementation. Int. J. Prod. Res. 
+58 (1), 65–86. 
+
+
+Kamble, S.S., Gunasekaran, A., Gawankar, S.A., 2018a. Sustainable Industry 4.0 
+framework: a systematic literature review identifying the current trends and future 
+perspectives. Process Saf. Environ. Protect. 117, 408–425. 
+
+
+Kamble, S.S., Gunasekaran, A., Sharma, R., 2018b. Analysis of the driving and 
+dependence power of barriers to adopt industry 4.0 in Indian manufacturing 
+industry. Comput. Ind. 101, 107–119. 
+
+
+Kamble, S.S., Gunasekaran, A., Parekh, H., Joshi, S., 2019a. Modeling the internet of 
+things adoption barriers in food retail supply chains. J. Retailing Consum. Serv. 48, 
+154–168. 
+
+
+Kamble, S., Gunasekaran, A., Arha, H., 2019b. Understanding the Blockchain technology 
+adoption in supply chains-Indian context. Int. J. Prod. Res. 57 (7), 2009–2033. 
+
+
+Kamble, S.S., Gunasekaran, A., Gawankar, S.A., 2020a. Achieving sustainable 
+performance in a data-driven agriculture supply chain: a review for research and 
+applications. Int. J. Prod. Econ. 219, 179–194. 
+
+
+Kamble, S.S., Gunasekaran, A., Sharma, R., 2020b. Modeling the blockchain enabled 
+traceability in agriculture supply chain. Int. J. Inf. Manag. 52, 101967. 
+
+
+Kamble, S., Gunasekaran, A., Dhone, N.C., 2020c. Industry 4.0 and lean manufacturing 
+practices for sustainable organisational performance in Indian manufacturing 
+companies. Int. J. Prod. Res. 58 (5), 1319–1337. 
+
+
+Kang, C.W., Ramzan, M.B., Sarkar, B., Imran, M., 2018. Effect of inspection performance 
+in smart manufacturing system based on human quality control system. Int. J. Adv. 
+Manuf. Technol. 94 (9–12), 4351–4364. 
+
+
+Khalid, A., Kirisci, P., Khan, Z.H., Ghrairi, Z., Thoben, K.-D., Pannek, J., 2018. Security 
+framework for industrial collaborative robotic cyber-physical systems. Comput. Ind. 
+97, 132–145. 
+
+
+Kiel, D., Arnold, C., Voigt, K.I., 2017a. The influence of the Industrial Internet of Things 
+on business models of established manufacturing companies–A business level 
+perspective. Technovation 68, 4–19. 
+
+
+Kiel, D., Müller, J.M., Arnold, C., Voigt, K.I., 2017b. Sustainable industrial value 
+creation: benefits and challenges of industry 4.0. Int. J. Innovat. Manag. 21, 
+1740015, 08.  
+
+
+KPMG-AIMA, 2018. Industry 4.0, India Inc. Gearing up for Change, 2018. Available at: 
+http://resources.aima.in/presentations/AIMA-KPMG-industry-4-0-report.pdf. 
+
+
+Kucukoglu, I., Atici-Ulusu, H., Gunduz, T., Tokcalar, O., 2018. Application of the 
+artificial neural network method to detect defective assembling processes by using a 
+wearable technology. J. Manuf. Syst. 49, 163–171. 
+
+
+Kumar, U., Galar, D., Parida, A., Stenstr€om, C., Berges, L., 2013. Maintenance 
+performance metrics: a state-of-the-art review. J. Qual. Mainten. Eng. 19 (3), 
+233–277. https://doi.org/10.1108/JQME-05-2013-0029. 
+
+
+Kumar, A., Chinnam, R.B., Tseng, F., 2019. An HMM and polynomial regression-based 
+approach for remaining useful life and health state estimation of cutting tools. 
+Comput. Ind. Eng. 128, 1008–1014. https://doi.org/10.1016/j.cie.2018.05.017. 
+
+
+Kusiak, A., 2019. Fundamentals of smart manufacturing: a multi-thread perspective. 
+Annu. Rev. Contr. 47 (xxxx), 214–220. https://doi.org/10.1016/j. 
+arcontrol.2019.02.001. 
+
+
+Lapide, L., 2010. Predictive metrics. J. Bus. Forecast. 29 (2), 23. 
+Lazarova-Molnar, S., Mohamed, N., Al-Jaroodi, J., 2018. Collaborative data analytics for 
+
+
+industry 4.0: challenges, opportunities and models. In: Proceedings - 2018 6th 
+International Conference on Enterprise Systems, pp. 100–107. https://doi.org/ 
+10.1109/ES.2018.00023. ES 2018.  
+
+
+Lee, J., Lapira, E., 2013. Predictive factories: the next transformation. Manufact. 
+Leadership J. 20 (1), 13–24. 
+
+
+Li, X., Wan, J., Dai, H.-N., Imran, M., Xia, M., Celesti, A., 2019. A hybrid computing 
+solution and resource scheduling strategy for edge computing in smart 
+manufacturing. IEEE Trans. Ind. Inf. 15 (7), 4225–4234. https://doi.org/10.1109/ 
+TII.2019.2899679 art. no. 8643392.  
+
+
+Liang, Y.C., Li, W.D., Lu, X., Wang, S., 2019. Fog computing and convolutional neural 
+network enabled prognosis for machining process optimization. J. Manuf. Syst. 52, 
+32–42. https://doi.org/10.1016/j.jmsy.2019.05.003. 
+
+
+Lockamy III, A., McCormack, K., 2004. Linking SCOR planning practices to SC 
+performance: an exploratory study. Int. J. Oper. Prod. Manag. 24 (12), 1192–1218. 
+
+
+Longo, F., Nicoletti, L., Padovano, A., d’Atri, G., Forte, M., 2019. Blockchain-enabled 
+supply chain: an experimental study. Comput. Ind. Eng. 136, 57–69. https://doi.org/ 
+10.1016/j.cie.2019.07.026. 
+
+
+Lu, Y., Xie, R., Liang, S.Y., 2019. Bearing fault diagnosis with nonlinear adaptive 
+dictionary learning. Int. J. Adv. Manuf. Technol. https://doi.org/10.1007/s00170- 
+019-03455-1. 
+
+
+Mashelkar, R.A., 2018. Exponential technology, industry 4.0 and future of jobs in India. 
+Rev. Mark. Integr. 10 (2), 138–157. 
+
+
+Mathur, S., 2019. The digital enterprise - thinking Indian industry further. Available at: 
+https://www.businesstoday.in/opinion/columns/digital-enterprise-indian-indust 
+ry-digitalisation/story/345714.html. 
+
+
+Mathur, A., Dangayach, G.S., Mittal, M.L., Sharma, M.K., 2011. Performance 
+measurement in automated manufacturing. Measuring Business Excellence 15 (1), 
+77–91. https://doi.org/10.1108/13683041111113268. 
+
+
+Meng, K., Qian, X., Lou, P., Zhang, J., 2018. Smart recovery decision-making of used 
+industrial equipment for sustainable manufacturing: belt lifter case study. J. Intell. 
+Manuf. https://doi.org/10.1007/s10845-018-1439-2. 
+
+
+Ministry of SMMES, 2019. Available here: https://SMMEs.gov.in/know-about-SMMEs. 
+Miragliotta, G., Sianesi, A., Convertini, E., Distante, R., 2018. Data driven management 
+
+
+in Industry 4.0: a method to measure Data Productivity. IFAC-PapersOnLine 51 (11), 
+19–24. 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref29
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref29
+
+https://doi.org/10.1016/j.compchemeng.2017.10.027
+
+https://doi.org/10.1016/j.compchemeng.2017.10.027
+
+https://doi.org/10.1007/s00170-018-2625-2
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref32
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref32
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref32
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref33
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref33
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref33
+
+https://doi.org/10.1007/s12652-018-0903-3
+
+https://doi.org/10.1016/j.cie.2018.01.025
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref36
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref36
+
+https://doi.org/10.1016/j.cie.2019.01.036
+
+https://doi.org/10.1108/SCM-09-2018-0339
+
+https://doi.org/10.1108/IJPPM-08-2019-0400
+
+https://doi.org/10.1108/IJPPM-08-2019-0400
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref41
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref41
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref41
+
+https://doi.org/10.1016/j.rcim.2018.12.020
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref43
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref43
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref43
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref44
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref44
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref44
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref45
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref45
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref46
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref46
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref46
+
+https://doi.org/10.1109/I2MTC.2018.8409677
+
+https://doi.org/10.1080/00207543.2019.1639842
+
+https://doi.org/10.1080/00207543.2019.1639842
+
+https://doi.org/10.1108/17410400510604566
+
+https://doi.org/10.1108/17410400510604566
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref50
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref50
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref51
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref51
+
+https://doi.org/10.1016/j.compchemeng.2019.04.010
+
+https://doi.org/10.1016/j.compchemeng.2019.04.010
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref53
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref53
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref54
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref54
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref55
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref55
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref55
+
+https://doi.org/10.1109/TII.2019.2903342
+
+https://doi.org/10.1080/00207543.2018.1544426
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref59
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref59
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref59
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref60
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref60
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref60
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref61
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref61
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref61
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref62
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref62
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref62
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref63
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref63
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref63
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref64
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref64
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref65
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref65
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref65
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref66
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref66
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref67
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref67
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref67
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref68
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref68
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref68
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref70
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref70
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref70
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref71
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref71
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref71
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref72
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref72
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref72
+
+http://resources.aima.in/presentations/AIMA-KPMG-industry-4-0-report.pdf
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref74
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref74
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref74
+
+https://doi.org/10.1108/JQME-05-2013-0029
+
+https://doi.org/10.1016/j.cie.2018.05.017
+
+https://doi.org/10.1016/j.arcontrol.2019.02.001
+
+https://doi.org/10.1016/j.arcontrol.2019.02.001
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref78
+
+https://doi.org/10.1109/ES.2018.00023
+
+https://doi.org/10.1109/ES.2018.00023
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref80
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref80
+
+https://doi.org/10.1109/TII.2019.2899679
+
+https://doi.org/10.1109/TII.2019.2899679
+
+https://doi.org/10.1016/j.jmsy.2019.05.003
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref83
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref83
+
+https://doi.org/10.1016/j.cie.2019.07.026
+
+https://doi.org/10.1016/j.cie.2019.07.026
+
+https://doi.org/10.1007/s00170-019-03455-1
+
+https://doi.org/10.1007/s00170-019-03455-1
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref86
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref86
+
+https://www.businesstoday.in/opinion/columns/digital-enterprise-indian-industry-digitalisation/story/345714.html
+
+https://www.businesstoday.in/opinion/columns/digital-enterprise-indian-industry-digitalisation/story/345714.html
+
+https://doi.org/10.1108/13683041111113268
+
+https://doi.org/10.1007/s10845-018-1439-2
+
+https://SMMEs.gov.in/know-about-SMMEs
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref91
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref91
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref91
+
+
+
+
+International Journal of Production Economics 229 (2020) 107853
+
+
+15
+
+
+Mittal, K.K., Jain, P.K., 2014. An overview of performance measures in reconfigurable 
+manufacturing system. Procedia Eng. 69, 1125–1129. https://doi.org/10.1016/j. 
+proeng.2014.03.100. 
+
+
+Mourtzis, D., Vlachou, E., 2018. A cloud-based cyber-physical system for adaptive shop- 
+floor scheduling and condition-based maintenance. J. Manuf. Syst. 47, 179–198. 
+
+
+Muhuri, P.K., Shukla, A.K., Abraham, A., 2019. Industry 4.0: a bibliometric analysis and 
+detailed overview. Eng. Appl. Artif. Intell. 78 (December 2018), 218–235. https:// 
+doi.org/10.1016/j.engappai.2018.11.007. 
+
+
+Müller, C., Grunewald, M., Spengler, T.S., 2018. Redundant configuration of robotic 
+assembly lines with stochastic failures. Int. J. Prod. Res. 56 (10), 3662–3682. 
+
+
+NASSCOM, 2018. “Digitalization: the next “big thing” for India’s SMEs”. Available at: 
+https://www.ey.com/in/en/services/advisory/ey-digitalization-the-next-big-thing- 
+for-indias-smes. 
+
+
+Ndubisi, N.O., 2008. Small and Medium Enterprises in the Pacific Rim. Arah 
+Publications, Malaysia.  
+
+
+Ndubisi, N.O., Zhai, X., Lai, K.H., 2020. Small and medium manufacturing enterprises 
+and Asia’s sustainable economic development. In: International Journal of 
+Production Economics. Forthcoming.  
+
+
+Neely, A., Gregory, M., Platts, K., 1995. Performance measurement system design: a 
+literature review and research agenda. Int. J. Oper. Prod. Manag. 15 (4), 80–116. 
+
+
+O’Donovan, P., Gallagher, C., Leahy, K., O’Sullivan, D.T.J., 2019. A comparison of fog 
+and cloud computing cyber-physical interfaces for Industry 4.0 real-time embedded 
+machine learning engineering applications. Comput. Ind. 110, 12–35. https://doi. 
+org/10.1016/j.compind.2019.04.016. 
+
+
+Oh, J., Jeong, B., 2019. Tactical supply planning in smart manufacturing supply chain. 
+Robot. Comput. Integrated Manuf. 55 (April 2017), 217–233. https://doi.org/ 
+10.1016/j.rcim.2018.04.003. 
+
+
+Parasuraman, A., Zeithaml, V.A., Berry, L.L., 1985. A conceptual model of service quality 
+and its implications for future research. J. Market. 49 (4), 41. https://doi.org/ 
+10.2307/1251430. 
+
+
+Peruzzini, M., Grandi, F., Pellicciari, M., 2019. Exploring the Potential of Operator 4.0 
+Interface and Monitoring. Comput. Ind. Eng. https://doi.org/10.1016/j. 
+cie.2018.12.047. 
+
+
+Peter, J.P., Olson, J., Ray, M.L., Ryan, M.J., Sawyer, A.G., Silk, A.J., 1982. Measurement 
+abstracts. J. Market. Res. 19 (1), 152–155. https://doi.org/10.1177/ 
+002224378201900115. 
+
+
+Petrillo, A., De Felice, F., Zomparelli, F., 2019. Performance measurement for world-class 
+manufacturing: a model for the Italian automotive industry. Total Qual. Manag. Bus. 
+Excel. 30 (7–8), 908–935. https://doi.org/10.1080/14783363.2017.1408402. 
+
+
+Pinzone, M., Alb�e, F., Orlandelli, D., Barletta, I., Berlin, C., Johansson, B., Taisch, M., 
+2019. A framework for operative and social sustainability functionalities in Human- 
+Centric Cyber-Physical Production Systems. Comput. Ind. Eng. https://doi.org/ 
+10.1016/j.cie.2018.03.028. 
+
+
+Pistolesi, F., Lazzerini, B., Mura, M.D., Dini, G., 2018. EMOGA: a hybrid genetic 
+algorithm with extremal optimization core for multiobjective disassembly line 
+balancing. IEEE Trans. Ind. Inf. 14 (3), 1089–1098. 
+
+
+Qian, X., Tu, J., Lou, P., 2019. A general architecture of a 3D visualization system for 
+shop floor management. J. Intell. Manuf. 30 (4), 1531–1545. 
+
+
+Qu, Y.J., Ming, X.G., Liu, Z.W., Zhang, X.Y., Hou, Z.T., 2019. Smart manufacturing 
+systems: state of the art and future trends. Int. J. Adv. Manuf. Technol. https://doi. 
+org/10.1007/s00170-019-03754-7. 
+
+
+Raileanu, S., Anton, F., Iatan, A., Borangiu, T., Anton, S., Morariu, O., 2017. Resource 
+scheduling based on energy consumption for sustainable manufacturing. J. Intell. 
+Manuf. 28 (7), 1519–1530. 
+
+
+Rajput, S., Singh, S.P., 2019. Industry 4.0 � challenges to implement circular economy. 
+Benchmarking. https://doi.org/10.1108/BIJ-12-2018-0430. 
+
+
+Renna, P., 2019. Evaluation of redundant configurations and backup stations to support 
+fault tolerant flow line design. Int. J. Adv. Manuf. Technol. 101 (1–4), 825–837. 
+
+
+Rivera Torres, P.J., Serrano Mercado, E.I., Llanes Santiago, O., Anido Rif�on, L., 2018. 
+Modeling preventive maintenance of manufacturing processes with probabilistic 
+Boolean networks with interventions. J. Intell. Manuf. 29 (8), 1941–1952. 
+
+
+Rold�an, J.J., Crespo, E., Martín-Barrio, A., Pe~na-Tapia, E., Barrientos, A., 2019. 
+A training system for Industry 4.0 operators in complex assemblies based on virtual 
+reality and process mining. Robot. Comput. Integrated Manuf. 59, 305–316. https:// 
+doi.org/10.1016/j.rcim.2019.05.004. 
+
+
+Rossit, D.A., Tohm�e, F., Frutos, M., 2019. A data-driven scheduling approach to smart 
+manufacturing. J. Ind. Inf. Integr. https://doi.org/10.1016/j.jii.2019.04.003. 
+
+
+Roy, U., Li, Y., Zhu, B., 2015. Building a rigorous foundation for performance assurance 
+assessment techniques for “smart” manufacturing systems. In: Proceedings - 2014 
+IEEE International Conference on Big Data, pp. 1015–1023. https://doi.org/ 
+10.1109/BigData.2014.7004335. IEEE Big Data 2014.  
+
+
+Saif, U., Guan, Z., Wang, C., He, C., Yue, L., Mirza, J., 2019. Drum buffer rope-based 
+heuristic for multi-level rolling horizon planning in mixed model production. Int. J. 
+Prod. Res. 57 (12), 3864–3891. https://doi.org/10.1080/00207543.2019.1569272. 
+
+
+Santos, J., Mu~noz-Villamizar, A., Ormaz�abal, M., Viles, E., 2019. Using problem-oriented 
+monitoring to simultaneously improve productivity and environmental performance 
+in manufacturing companies. Int. J. Comput. Integrated Manuf. 32 (2), 183–193. 
+https://doi.org/10.1080/0951192X.2018.1552796. 
+
+
+Sari, A., Yulia, Y.C., 2019. The effect of the processing time’s variance to the 
+performance of sequencing rule. IOP Conf. Ser. Mater. Sci. Eng. 528 (1) https://doi. 
+org/10.1088/1757-899X/528/1/012053. 
+
+
+Shepherd, C., Günter, H., 2006. Measuring SC performance: current research and future 
+directions. Int. J. Prod. Perform. Manag. 55 (3), 242–258. 
+
+
+Shin, W.S., Dahlgaard, J.J., Dahlgaard-Park, S.M., Kim, M.G., 2018. A quality scorecard 
+for the era of industry 4.0. Total Qual. Manag. Bus. Excel. 29 (9–10), 959–976. 
+
+
+Smeventure, 2017. Available at: https://www.moneycontrol.com/news/business/s 
+tartup/industries-40-roadmap-for-smes-989555.html. 
+
+
+Stefanovic, N., 2015. Collaborative predictive business intelligence model for spare parts 
+inventory replenishment. Comput. Sci. Inf. Syst. 12 (3), 911–930. 
+
+
+Stoyanov, S., Ahsan, M., Bailey, C., Wotherspoon, T., Hunt, C., 2019. Predictive analytics 
+methodology for smart qualification testing of electronic components. J. Intell. 
+Manuf. 30 (3), 1497–1514. 
+
+
+Tao, F., Tang, Y., Zou, X., Qi, Q., 2019. A field programmable gate array implemented 
+fibre channel switch for big data communication towards smart manufacturing. 
+Robot. Comput. Integrated Manuf. 57, 166–181. https://doi.org/10.1016/j. 
+rcim.2018.12.005. 
+
+
+Tortorella, G.L., Cawley Vergara, A.M., Garza-Reyes, J.A., Sawhney, R., 2020. 
+Organizational learning paths based upon industry 4.0 adoption: an empirical study 
+with Brazilian manufacturers. Int. J. Prod. Econ. 219, 284–294. https://doi.org/ 
+10.1016/j.ijpe.2019.06.023. 
+
+
+Tufano, A., Accorsi, R., Garbellini, F., Manzini, R., 2018. Plant design and control in food 
+service industry. A multi-disciplinary decision-support system. Comput. Ind. 103, 
+72–85. 
+
+
+Uva, A.E., Gattullo, M., Manghisi, V.M., Spagnulo, D., Cascella, G.L., Fiorentino, M., 
+2018. Evaluating the effectiveness of spatial augmented reality in smart 
+manufacturing: a solution for manual working stations. Int. J. Adv. Manuf. Technol. 
+94 (1–4), 509–521. 
+
+
+Venkatraman, N., Grant, J.H., 1986. Construct measurement in organizational strategy 
+research: a critique and proposal. Acad. Manag. Rev. 11 (1), 71–87. 
+
+
+Vogl, G.W., Weiss, B.A., Helu, M., 2019. A review of diagnostic and prognostic 
+capabilities and best practices for manufacturing. J. Intell. Manuf. 30 (1), 79–95. 
+https://doi.org/10.1007/s10845-016-1228-8. 
+
+
+Wang, J., Li, D., 2019. Task scheduling based on a hybrid heuristic algorithm for smart 
+production line with fog computing. Sensors 19 (5). https://doi.org/10.3390/ 
+s19051023. 
+
+
+Wang, L., Nee, A.Y.C., 2009. Collaborative design and planning for digital 
+manufacturing. In: Collaborative Design and Planning for Digital Manufacturing, 
+pp. 1–413. https://doi.org/10.1007/978-1-84882-287-0. 
+
+
+Wang, J., Wang, K., Wang, Y., Huang, Z., Xue, R., 2019a. Deep Boltzmann machine-based 
+condition prediction for smart manufacturing. J. Ambient Intell. Humanit. Comput. 
+10 (3), 851–861. 
+
+
+Wang, Y., Zhang, Y., Tao, F., Chen, T., Cheng, Y., Yang, S., 2019b. Logistics-aware 
+manufacturing service collaboration optimisation towards industrial internet 
+platform. Int. J. Prod. Res. 57 (12), 4007–4026. https://doi.org/10.1080/ 
+00207543.2018.1543967. 
+
+
+Wei, H., Li, S., Jiang, H., Hu, J., Hu, J., 2018. Hybrid genetic simulated annealing 
+algorithm for improved flow shop scheduling with makespan criterion. Appl. Sci. 8 
+(12) art. no. 2621.  
+
+
+Wu, D., Liu, S., Zhang, L., Terpenny, J., Gao, R.X., Kurfess, T., Guzzo, J.A., 2017. A fog 
+computing-based framework for process monitoring and prognosis in cyber- 
+manufacturing. J. Manuf. Syst. 43, 25–34. https://doi.org/10.1016/j. 
+jmsy.2017.02.011. 
+
+
+Yang, M., Zhang, L., Denno, P., 2018. Transients of synchronous serial production lines 
+with non-exponential reliability machines. In: IEEE International Conference on 
+Automation Science and Engineering, pp. 1507–1512. https://doi.org/10.1109/ 
+COASE.2018.8560592, 2018-August.  
+
+
+Zhang, J., Wang, P., Yan, R., Gao, R.X., 2018. Long short-term memory for machine 
+remaining life prediction. J. Manuf. Syst. 48, 78–86. 
+
+
+Yen, C.-T., Tsung, C.-K, Wu, W.-F, 2019. Detecting removed attributes in the cyber 
+system for smart manufacturing. J. Supercomp. https://doi.org/10.1007/s11227- 
+019-02809-6. 
+
+
+Zhang, Z., Wang, X., Wang, X., Cui, F., Cheng, H., 2019. A simulation-based approach for 
+plant layout design and production planning. J. Ambient Intell. Humanit. Comput. 
+10 (3), 1217–1230. 
+
+
+Zhao, G., Liu, S., Lopez, C., Lu, H., Elgueta, S., Chen, H., Boshkoska, B.M., 2019. 
+Blockchain technology in agri-food value chain management: a synthesis of 
+applications, challenges and future research directions. Comput. Ind. 109, 83–99. 
+https://doi.org/10.1016/j.compind.2019.04.002. 
+
+
+Zheng, P., Sang, Z., Zhong, R.Y., Liu, Y., Liu, C., Mubarok, K., et al., 2018. Smart 
+manufacturing systems for Industry 4.0: conceptual framework, scenarios, and 
+future perspectives. Front. Mech. Eng. 13 (2), 137–150. 
+
+
+Zhou, J, Yao, X, 2017. Multi-population parallel self-adaptive differential artificial bee 
+colony algorithm with application in large-scale service composition for cloud 
+manufacturing. Appl. Soft Comp. J. https://doi.org/10.1016/j.asoc.2017.03.017. 
+
+
+S.S. Kamble et al.                                                                                                                                                                                                                               
+
+
+
+https://doi.org/10.1016/j.proeng.2014.03.100
+
+https://doi.org/10.1016/j.proeng.2014.03.100
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref93
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref93
+
+https://doi.org/10.1016/j.engappai.2018.11.007
+
+https://doi.org/10.1016/j.engappai.2018.11.007
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref95
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref95
+
+https://www.ey.com/in/en/services/advisory/ey-digitalization-the-next-big-thing-for-indias-smes
+
+https://www.ey.com/in/en/services/advisory/ey-digitalization-the-next-big-thing-for-indias-smes
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref97
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref97
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref98
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref98
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref98
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref99
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref99
+
+https://doi.org/10.1016/j.compind.2019.04.016
+
+https://doi.org/10.1016/j.compind.2019.04.016
+
+https://doi.org/10.1016/j.rcim.2018.04.003
+
+https://doi.org/10.1016/j.rcim.2018.04.003
+
+https://doi.org/10.2307/1251430
+
+https://doi.org/10.2307/1251430
+
+https://doi.org/10.1016/j.cie.2018.12.047
+
+https://doi.org/10.1016/j.cie.2018.12.047
+
+https://doi.org/10.1177/002224378201900115
+
+https://doi.org/10.1177/002224378201900115
+
+https://doi.org/10.1080/14783363.2017.1408402
+
+https://doi.org/10.1016/j.cie.2018.03.028
+
+https://doi.org/10.1016/j.cie.2018.03.028
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref107
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref107
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref107
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref108
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref108
+
+https://doi.org/10.1007/s00170-019-03754-7
+
+https://doi.org/10.1007/s00170-019-03754-7
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref110
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref110
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref110
+
+https://doi.org/10.1108/BIJ-12-2018-0430
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref112
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref112
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref113
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref113
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref113
+
+https://doi.org/10.1016/j.rcim.2019.05.004
+
+https://doi.org/10.1016/j.rcim.2019.05.004
+
+https://doi.org/10.1016/j.jii.2019.04.003
+
+https://doi.org/10.1109/BigData.2014.7004335
+
+https://doi.org/10.1109/BigData.2014.7004335
+
+https://doi.org/10.1080/00207543.2019.1569272
+
+https://doi.org/10.1080/0951192X.2018.1552796
+
+https://doi.org/10.1088/1757-899X/528/1/012053
+
+https://doi.org/10.1088/1757-899X/528/1/012053
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref120
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref120
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref121
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref121
+
+https://www.moneycontrol.com/news/business/startup/industries-40-roadmap-for-smes-989555.html
+
+https://www.moneycontrol.com/news/business/startup/industries-40-roadmap-for-smes-989555.html
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref123
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref123
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref124
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref124
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref124
+
+https://doi.org/10.1016/j.rcim.2018.12.005
+
+https://doi.org/10.1016/j.rcim.2018.12.005
+
+https://doi.org/10.1016/j.ijpe.2019.06.023
+
+https://doi.org/10.1016/j.ijpe.2019.06.023
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref127
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref127
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref127
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref128
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref128
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref128
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref128
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref129
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref129
+
+https://doi.org/10.1007/s10845-016-1228-8
+
+https://doi.org/10.3390/s19051023
+
+https://doi.org/10.3390/s19051023
+
+https://doi.org/10.1007/978-1-84882-287-0
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref133
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref133
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref133
+
+https://doi.org/10.1080/00207543.2018.1543967
+
+https://doi.org/10.1080/00207543.2018.1543967
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref135
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref135
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref135
+
+https://doi.org/10.1016/j.jmsy.2017.02.011
+
+https://doi.org/10.1016/j.jmsy.2017.02.011
+
+https://doi.org/10.1109/COASE.2018.8560592
+
+https://doi.org/10.1109/COASE.2018.8560592
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref138
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref138
+
+https://doi.org/10.1007/s11227-019-02809-6
+
+https://doi.org/10.1007/s11227-019-02809-6
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref139
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref139
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref139
+
+https://doi.org/10.1016/j.compind.2019.04.002
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref141
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref141
+
+http://refhub.elsevier.com/S0925-5273(20)30217-6/sref141
+
+https://doi.org/10.1016/j.asoc.2017.03.017
+
+

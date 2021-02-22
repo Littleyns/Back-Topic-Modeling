@@ -1,0 +1,3667 @@
+
+
+
+
+
+
+
+
+
+
+IFAC-PapersOnLine 49-31 (2016) 103–108
+
+
+ScienceDirectScienceDirect
+
+
+Available online at www.sciencedirect.com
+
+
+2405-8963 © 2016, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+Peer review under responsibility of International Federation of Automatic Control.
+10.1016/j.ifacol.2016.12.169
+
+
+© 2016, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.
+
+
+
+
+
+Manufacturing Information Bus from the Perspective of Cyber Physical 
+
+
+Manufacturing System (CPMS) 
+ 
+
+
+SooCheol Yoon*, Suk-Hwan Suh** 
+
+
+ 
+
+
+
+*Department of Industrial Engineering and Management & Center for u-Manufacturing, POSTECH, Pohang, 
+
+
+Republic of Korea (Tel: +82-54-279-2852; e-mail: darkhell@postech.ac.kr). 
+
+
+**Center for u-Manufacturing & Graduate School of Engineering Mastership (GEM)                                                  
+
+
+POSTECH, Pohang, Republic of Korea (e-mail: shs@postech.ac.kr) 
+
+
+Abstract: Smart Factory of Industry 4.0 is a complex system containing various aspects and capabilitis 
+
+
+of the factory of the future based on Internet of Things (IoT), Internet of Men (IoM), and Internet of 
+
+
+Service (IoS). There have been numerous concepts and scenarios how it looks like, how it should be, and 
+
+
+commercial vendors advocate their products can provide solutions to some parts of the Smart Factory. 
+
+
+This often confuses stakeholders who want to adopt Smart Factory. To show and guide the multi-aspects 
+
+
+and technology for Smart Factory in a comprehensive fashion, our research team developed a conceptual 
+
+
+framework, called Cyber Physical Manufacturing System (CPMS
+PS
+
+
+). In this paper, we focus on the 
+
+
+manufacturing information bus from the perspective of CPMS. Specifically, we developed a reference 
+
+
+architecture for the manufacturing information bus for the Smart Factory that can be used for information 
+
+
+acquisition, analysis, and application for the various stakeholders at the levels of Machine, Factory, and 
+
+
+Enterprise Resource Planning. Also in this paper, an implementation process of the reference architecture 
+
+
+is presented and demonstrated via case study. 
+
+
+Keywords: Smart Factory, Manufacturing Information Service, Manufacturing Information Pipeline, 
+
+
+Cyber Physical Manufacturing System 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+Industry 4.0 has been highlighted as one of the key issues of 
+
+
+global industry, and a concept of smart factory is emerging as 
+
+
+a means of achieving Industry4.0 by incorporating recent 
+
+
+Information and Communication Technology (ICT) in 
+
+
+manufacturing system, especially Internet-of-Things(IoT). 
+
+
+Factory-of-things using wireless technology and Service 
+
+
+Oriented Architecture(SOA)based automation is suggested as 
+
+
+one of smart factory model(Zuehlke 2010), and Cyber-
+
+
+Physical System is being highlighted as means of achieving 
+
+
+industry 4.0 (Lee et al. 2015). There are many definitions and 
+
+
+description of the smart factory, but most have the following 
+
+
+aspects in common: 1) Components in smart factories are 
+
+
+networked and it is possible to collect useful data from them; 
+
+
+2) The current status of manufacturing components can be 
+
+
+determined and visualized in real time; 3) Autonomous and 
+
+
+automatic processes can be executed based on optimized 
+
+
+manufacturing plans; and 4) Advanced manufacturing 
+
+
+services can be provided on shopfloor and to external 
+
+
+systems.  
+
+
+Cyber Physical Manufacturing System (CPMS
+PS
+
+
+), developed 
+
+
+by POSTECH Center for Ubiquitous Manufacturing, 
+
+
+provides well-organized architecture to realize smart factory 
+
+
+for Industry 4.0 into in an optimized and systematic fashion 
+
+
+(Fig. 1). CPMS is composed of four components: 1) smart 
+
+
+shop floor, 2) smart manufacturing execution system (MES), 
+
+
+3) smart factory service, and adoption engineering. Smart 
+
+
+shop floor is a key driver for making the manufacturing 
+
+
+system smart based on IoT and factory things. Smart MES is 
+
+
+capable of carrying out legacy functions as well as smart 
+
+
+functions. Smart factory service provides advanced factory 
+
+
+applications as service item through enterprise network. 
+
+
+Smart factory adoption engineering provides methodology 
+
+
+about how to adapt and develop the smart factory in a 
+
+
+systematic way. 
+
+
+In terms of information, the essence of a smart factory is how 
+
+
+data are acquired, analyzed, and applied for the various 
+
+
+internal and external stakeholders. To access the full potential 
+
+
+of the IoT for efficient data and information flow, a 
+
+
+specialized information service bus is needed for 
+
+
+manufacturing in a smart factory, as described in Fig. 1 as 
+
+
+Enterprise network for office floor, and Real-time Network 
+
+
+for shop floor. This paper is concerned with such a bus, 
+
+
+namely the "Manufacturing Information Bus for CPMS" 
+
+
+(MIB). The purpose of MIB is to transfer manufacturing 
+
+
+information and services efficiently so that the total 
+
+
+manufacturing performance can be improved. 
+
+
+Nowadays, Manufacturing Service Bus(MSB) which 
+
+
+incorporating Enterprise Service Bus(ESB) in manufacturing 
+
+
+domain is widely used(Boyd el al. 2008). The core of MSB is 
+
+
+to provide standard manufacturing data format and to 
+
+
+integrate legacy information systems based on Service 
+
+
+Oriented Architecture (SOA) paradigm. There are 
+
+
+commercial solutions containing MSB concept such as 
+
+
+12th IFAC Workshop on Intelligent Manufacturing Systems
+December 5-7, 2016. Austin, TX, USA
+
+
+Copyright@ 2016 IFAC 111     
+
+
+Manufacturing Information Bus from the Perspective of Cyber Physical 
+
+
+Manufacturing System (CPMS) 
+ 
+
+
+SooCheol Yoon*, Suk-Hwan Suh** 
+
+
+ 
+
+
+
+*Department of Industrial Engineering and Management & Center for u-Manufacturing, POSTECH, Pohang, 
+
+
+Republic of Korea (Tel: +82-54-279-2852; e-mail: darkhell@postech.ac.kr). 
+
+
+**Center for u-Manufacturing & Graduate School of Engineering Mastership (GEM)                                                  
+
+
+POSTECH, Pohang, Republic of Korea (e-mail: shs@postech.ac.kr) 
+
+
+Abstract: Smart Factory of Industry 4.0 is a complex system containing various aspects and capabilitis 
+
+
+of the factory of the future based on Internet of Things (IoT), Internet of Men (IoM), and Internet of 
+
+
+Service (IoS). There have been numerous concepts and scenarios how it looks like, how it should be, and 
+
+
+commercial vendors advocate their products can provide solutions to some parts of the Smart Factory. 
+
+
+This often confuses stakeholders who want to adopt Smart Factory. To show and guide the multi-aspects 
+
+
+and technology for Smart Factory in a comprehensive fashion, our research team developed a conceptual 
+
+
+framework, called Cyber Physical Manufacturing System (CPMS
+PS
+
+
+). In this paper, we focus on the 
+
+
+manufacturing information bus from the perspective of CPMS. Specifically, we developed a reference 
+
+
+architecture for the manufacturing information bus for the Smart Factory that can be used for information 
+
+
+acquisition, analysis, and application for the various stakeholders at the levels of Machine, Factory, and 
+
+
+Enterprise Resource Planning. Also in this paper, an implementation process of the reference architecture 
+
+
+is presented and demonstrated via case study. 
+
+
+Keywords: Smart Factory, Manufacturing Information Service, Manufacturing Information Pipeline, 
+
+
+Cyber Physical Manufacturing System 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+Industry 4.0 has been highlighted as one of the key issues of 
+
+
+global industry, and a concept of smart factory is emerging as 
+
+
+a means of achieving Industry4.0 by incorporating recent 
+
+
+Information and Communication Technology (ICT) in 
+
+
+manufacturing system, especially Internet-of-Things(IoT). 
+
+
+Factory-of-things using wireless technology and Service 
+
+
+Oriented Architecture(SOA)based automation is suggested as 
+
+
+one of smart factory model(Zuehlke 2010), and Cyber-
+
+
+Physical System is being highlighted as means of achieving 
+
+
+industry 4.0 (Lee et al. 2015). There are many definitions and 
+
+
+description of the smart factory, but most have the following 
+
+
+aspects in common: 1) Components in smart factories are 
+
+
+networked and it is possible to collect useful data from them; 
+
+
+2) The current status of manufacturing components can be 
+
+
+determined and visualized in real time; 3) Autonomous and 
+
+
+automatic processes can be executed based on optimized 
+
+
+manufacturing plans; and 4) Advanced manufacturing 
+
+
+services can be provided on shopfloor and to external 
+
+
+systems.  
+
+
+Cyber Physical Manufacturing System (CPMS
+PS
+
+
+), developed 
+
+
+by POSTECH Center for Ubiquitous Manufacturing, 
+
+
+provides well-organized architecture to realize smart factory 
+
+
+for Industry 4.0 into in an optimized and systematic fashion 
+
+
+(Fig. 1). CPMS is composed of four components: 1) smart 
+
+
+shop floor, 2) smart manufacturing execution system (MES), 
+
+
+3) smart factory service, and adoption engineering. Smart 
+
+
+shop floor is a key driver for making the manufacturing 
+
+
+system smart based on IoT and factory things. Smart MES is 
+
+
+capable of carrying out legacy functions as well as smart 
+
+
+functions. Smart factory service provides advanced factory 
+
+
+applications as service item through enterprise network. 
+
+
+Smart factory adoption engineering provides methodology 
+
+
+about how to adapt and develop the smart factory in a 
+
+
+systematic way. 
+
+
+In terms of information, the essence of a smart factory is how 
+
+
+data are acquired, analyzed, and applied for the various 
+
+
+internal and external stakeholders. To access the full potential 
+
+
+of the IoT for efficient data and information flow, a 
+
+
+specialized information service bus is needed for 
+
+
+manufacturing in a smart factory, as described in Fig. 1 as 
+
+
+Enterprise network for office floor, and Real-time Network 
+
+
+for shop floor. This paper is concerned with such a bus, 
+
+
+namely the "Manufacturing Information Bus for CPMS" 
+
+
+(MIB). The purpose of MIB is to transfer manufacturing 
+
+
+information and services efficiently so that the total 
+
+
+manufacturing performance can be improved. 
+
+
+Nowadays, Manufacturing Service Bus(MSB) which 
+
+
+incorporating Enterprise Service Bus(ESB) in manufacturing 
+
+
+domain is widely used(Boyd el al. 2008). The core of MSB is 
+
+
+to provide standard manufacturing data format and to 
+
+
+integrate legacy information systems based on Service 
+
+
+Oriented Architecture (SOA) paradigm. There are 
+
+
+commercial solutions containing MSB concept such as 
+
+
+12th IFAC Workshop on Intelligent Manufacturing Systems
+December 5-7, 2016. Austin, TX, USA
+
+
+Copyright@ 2016 IFAC 111
+
+
+
+
+
+Manufacturing Information Bus from the Perspective of Cyber Physical 
+
+
+Manufacturing System (CPMS) 
+ 
+
+
+SooCheol Yoon*, Suk-Hwan Suh** 
+
+
+ 
+
+
+
+*Department of Industrial Engineering and Management & Center for u-Manufacturing, POSTECH, Pohang, 
+
+
+Republic of Korea (Tel: +82-54-279-2852; e-mail: darkhell@postech.ac.kr). 
+
+
+**Center for u-Manufacturing & Graduate School of Engineering Mastership (GEM)                                                  
+
+
+POSTECH, Pohang, Republic of Korea (e-mail: shs@postech.ac.kr) 
+
+
+Abstract: Smart Factory of Industry 4.0 is a complex system containing various aspects and capabilitis 
+
+
+of the factory of the future based on Internet of Things (IoT), Internet of Men (IoM), and Internet of 
+
+
+Service (IoS). There have been numerous concepts and scenarios how it looks like, how it should be, and 
+
+
+commercial vendors advocate their products can provide solutions to some parts of the Smart Factory. 
+
+
+This often confuses stakeholders who want to adopt Smart Factory. To show and guide the multi-aspects 
+
+
+and technology for Smart Factory in a comprehensive fashion, our research team developed a conceptual 
+
+
+framework, called Cyber Physical Manufacturing System (CPMS
+PS
+
+
+). In this paper, we focus on the 
+
+
+manufacturing information bus from the perspective of CPMS. Specifically, we developed a reference 
+
+
+architecture for the manufacturing information bus for the Smart Factory that can be used for information 
+
+
+acquisition, analysis, and application for the various stakeholders at the levels of Machine, Factory, and 
+
+
+Enterprise Resource Planning. Also in this paper, an implementation process of the reference architecture 
+
+
+is presented and demonstrated via case study. 
+
+
+Keywords: Smart Factory, Manufacturing Information Service, Manufacturing Information Pipeline, 
+
+
+Cyber Physical Manufacturing System 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+Industry 4.0 has been highlighted as one of the key issues of 
+
+
+global industry, and a concept of smart factory is emerging as 
+
+
+a means of achieving Industry4.0 by incorporating recent 
+
+
+Information and Communication Technology (ICT) in 
+
+
+manufacturing system, especially Internet-of-Things(IoT). 
+
+
+Factory-of-things using wireless technology and Service 
+
+
+Oriented Architecture(SOA)based automation is suggested as 
+
+
+one of smart factory model(Zuehlke 2010), and Cyber-
+
+
+Physical System is being highlighted as means of achieving 
+
+
+industry 4.0 (Lee et al. 2015). There are many definitions and 
+
+
+description of the smart factory, but most have the following 
+
+
+aspects in common: 1) Components in smart factories are 
+
+
+networked and it is possible to collect useful data from them; 
+
+
+2) The current status of manufacturing components can be 
+
+
+determined and visualized in real time; 3) Autonomous and 
+
+
+automatic processes can be executed based on optimized 
+
+
+manufacturing plans; and 4) Advanced manufacturing 
+
+
+services can be provided on shopfloor and to external 
+
+
+systems.  
+
+
+Cyber Physical Manufacturing System (CPMS
+PS
+
+
+), developed 
+
+
+by POSTECH Center for Ubiquitous Manufacturing, 
+
+
+provides well-organized architecture to realize smart factory 
+
+
+for Industry 4.0 into in an optimized and systematic fashion 
+
+
+(Fig. 1). CPMS is composed of four components: 1) smart 
+
+
+shop floor, 2) smart manufacturing execution system (MES), 
+
+
+3) smart factory service, and adoption engineering. Smart 
+
+
+shop floor is a key driver for making the manufacturing 
+
+
+system smart based on IoT and factory things. Smart MES is 
+
+
+capable of carrying out legacy functions as well as smart 
+
+
+functions. Smart factory service provides advanced factory 
+
+
+applications as service item through enterprise network. 
+
+
+Smart factory adoption engineering provides methodology 
+
+
+about how to adapt and develop the smart factory in a 
+
+
+systematic way. 
+
+
+In terms of information, the essence of a smart factory is how 
+
+
+data are acquired, analyzed, and applied for the various 
+
+
+internal and external stakeholders. To access the full potential 
+
+
+of the IoT for efficient data and information flow, a 
+
+
+specialized information service bus is needed for 
+
+
+manufacturing in a smart factory, as described in Fig. 1 as 
+
+
+Enterprise network for office floor, and Real-time Network 
+
+
+for shop floor. This paper is concerned with such a bus, 
+
+
+namely the "Manufacturing Information Bus for CPMS" 
+
+
+(MIB). The purpose of MIB is to transfer manufacturing 
+
+
+information and services efficiently so that the total 
+
+
+manufacturing performance can be improved. 
+
+
+Nowadays, Manufacturing Service Bus(MSB) which 
+
+
+incorporating Enterprise Service Bus(ESB) in manufacturing 
+
+
+domain is widely used(Boyd el al. 2008). The core of MSB is 
+
+
+to provide standard manufacturing data format and to 
+
+
+integrate legacy information systems based on Service 
+
+
+Oriented Architecture (SOA) paradigm. There are 
+
+
+commercial solutions containing MSB concept such as 
+
+
+12th IFAC Workshop on Intelligent Manufacturing Systems
+December 5-7, 2016. Austin, TX, USA
+
+
+Copyright@ 2016 IFAC 111
+
+
+
+
+
+Manufacturing Information Bus from the Perspective of Cyber Physical 
+
+
+Manufacturing System (CPMS) 
+ 
+
+
+SooCheol Yoon*, Suk-Hwan Suh** 
+
+
+ 
+
+
+
+*Department of Industrial Engineering and Management & Center for u-Manufacturing, POSTECH, Pohang, 
+
+
+Republic of Korea (Tel: +82-54-279-2852; e-mail: darkhell@postech.ac.kr). 
+
+
+**Center for u-Manufacturing & Graduate School of Engineering Mastership (GEM)                                                  
+
+
+POSTECH, Pohang, Republic of Korea (e-mail: shs@postech.ac.kr) 
+
+
+Abstract: Smart Factory of Industry 4.0 is a complex system containing various aspects and capabilitis 
+
+
+of the factory of the future based on Internet of Things (IoT), Internet of Men (IoM), and Internet of 
+
+
+Service (IoS). There have been numerous concepts and scenarios how it looks like, how it should be, and 
+
+
+commercial vendors advocate their products can provide solutions to some parts of the Smart Factory. 
+
+
+This often confuses stakeholders who want to adopt Smart Factory. To show and guide the multi-aspects 
+
+
+and technology for Smart Factory in a comprehensive fashion, our research team developed a conceptual 
+
+
+framework, called Cyber Physical Manufacturing System (CPMS
+PS
+
+
+). In this paper, we focus on the 
+
+
+manufacturing information bus from the perspective of CPMS. Specifically, we developed a reference 
+
+
+architecture for the manufacturing information bus for the Smart Factory that can be used for information 
+
+
+acquisition, analysis, and application for the various stakeholders at the levels of Machine, Factory, and 
+
+
+Enterprise Resource Planning. Also in this paper, an implementation process of the reference architecture 
+
+
+is presented and demonstrated via case study. 
+
+
+Keywords: Smart Factory, Manufacturing Information Service, Manufacturing Information Pipeline, 
+
+
+Cyber Physical Manufacturing System 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+Industry 4.0 has been highlighted as one of the key issues of 
+
+
+global industry, and a concept of smart factory is emerging as 
+
+
+a means of achieving Industry4.0 by incorporating recent 
+
+
+Information and Communication Technology (ICT) in 
+
+
+manufacturing system, especially Internet-of-Things(IoT). 
+
+
+Factory-of-things using wireless technology and Service 
+
+
+Oriented Architecture(SOA)based automation is suggested as 
+
+
+one of smart factory model(Zuehlke 2010), and Cyber-
+
+
+Physical System is being highlighted as means of achieving 
+
+
+industry 4.0 (Lee et al. 2015). There are many definitions and 
+
+
+description of the smart factory, but most have the following 
+
+
+aspects in common: 1) Components in smart factories are 
+
+
+networked and it is possible to collect useful data from them; 
+
+
+2) The current status of manufacturing components can be 
+
+
+determined and visualized in real time; 3) Autonomous and 
+
+
+automatic processes can be executed based on optimized 
+
+
+manufacturing plans; and 4) Advanced manufacturing 
+
+
+services can be provided on shopfloor and to external 
+
+
+systems.  
+
+
+Cyber Physical Manufacturing System (CPMS
+PS
+
+
+), developed 
+
+
+by POSTECH Center for Ubiquitous Manufacturing, 
+
+
+provides well-organized architecture to realize smart factory 
+
+
+for Industry 4.0 into in an optimized and systematic fashion 
+
+
+(Fig. 1). CPMS is composed of four components: 1) smart 
+
+
+shop floor, 2) smart manufacturing execution system (MES), 
+
+
+3) smart factory service, and adoption engineering. Smart 
+
+
+shop floor is a key driver for making the manufacturing 
+
+
+system smart based on IoT and factory things. Smart MES is 
+
+
+capable of carrying out legacy functions as well as smart 
+
+
+functions. Smart factory service provides advanced factory 
+
+
+applications as service item through enterprise network. 
+
+
+Smart factory adoption engineering provides methodology 
+
+
+about how to adapt and develop the smart factory in a 
+
+
+systematic way. 
+
+
+In terms of information, the essence of a smart factory is how 
+
+
+data are acquired, analyzed, and applied for the various 
+
+
+internal and external stakeholders. To access the full potential 
+
+
+of the IoT for efficient data and information flow, a 
+
+
+specialized information service bus is needed for 
+
+
+manufacturing in a smart factory, as described in Fig. 1 as 
+
+
+Enterprise network for office floor, and Real-time Network 
+
+
+for shop floor. This paper is concerned with such a bus, 
+
+
+namely the "Manufacturing Information Bus for CPMS" 
+
+
+(MIB). The purpose of MIB is to transfer manufacturing 
+
+
+information and services efficiently so that the total 
+
+
+manufacturing performance can be improved. 
+
+
+Nowadays, Manufacturing Service Bus(MSB) which 
+
+
+incorporating Enterprise Service Bus(ESB) in manufacturing 
+
+
+domain is widely used(Boyd el al. 2008). The core of MSB is 
+
+
+to provide standard manufacturing data format and to 
+
+
+integrate legacy information systems based on Service 
+
+
+Oriented Architecture (SOA) paradigm. There are 
+
+
+commercial solutions containing MSB concept such as 
+
+
+12th IFAC Workshop on Intelligent Manufacturing Systems
+December 5-7, 2016. Austin, TX, USA
+
+
+Copyright@ 2016 IFAC 111
+     
+
+
+Manufacturing Information Bus from the Perspective of Cyber Physical 
+
+
+Manufacturing System (CPMS) 
+ 
+
+
+SooCheol Yoon*, Suk-Hwan Suh** 
+
+
+ 
+
+
+
+*Department of Industrial Engineering and Management & Center for u-Manufacturing, POSTECH, Pohang, 
+
+
+Republic of Korea (Tel: +82-54-279-2852; e-mail: darkhell@postech.ac.kr). 
+
+
+**Center for u-Manufacturing & Graduate School of Engineering Mastership (GEM)                                                  
+
+
+POSTECH, Pohang, Republic of Korea (e-mail: shs@postech.ac.kr) 
+
+
+Abstract: Smart Factory of Industry 4.0 is a complex system containing various aspects and capabilitis 
+
+
+of the factory of the future based on Internet of Things (IoT), Internet of Men (IoM), and Internet of 
+
+
+Service (IoS). There have been numerous concepts and scenarios how it looks like, how it should be, and 
+
+
+commercial vendors advocate their products can provide solutions to some parts of the Smart Factory. 
+
+
+This often confuses stakeholders who want to adopt Smart Factory. To show and guide the multi-aspects 
+
+
+and technology for Smart Factory in a comprehensive fashion, our research team developed a conceptual 
+
+
+framework, called Cyber Physical Manufacturing System (CPMS
+PS
+
+
+). In this paper, we focus on the 
+
+
+manufacturing information bus from the perspective of CPMS. Specifically, we developed a reference 
+
+
+architecture for the manufacturing information bus for the Smart Factory that can be used for information 
+
+
+acquisition, analysis, and application for the various stakeholders at the levels of Machine, Factory, and 
+
+
+Enterprise Resource Planning. Also in this paper, an implementation process of the reference architecture 
+
+
+is presented and demonstrated via case study. 
+
+
+Keywords: Smart Factory, Manufacturing Information Service, Manufacturing Information Pipeline, 
+
+
+Cyber Physical Manufacturing System 
+
+
+
+
+
+1. INTRODUCTION 
+
+
+Industry 4.0 has been highlighted as one of the key issues of 
+
+
+global industry, and a concept of smart factory is emerging as 
+
+
+a means of achieving Industry4.0 by incorporating recent 
+
+
+Information and Communication Technology (ICT) in 
+
+
+manufacturing system, especially Internet-of-Things(IoT). 
+
+
+Factory-of-things using wireless technology and Service 
+
+
+Oriented Architecture(SOA)based automation is suggested as 
+
+
+one of smart factory model(Zuehlke 2010), and Cyber-
+
+
+Physical System is being highlighted as means of achieving 
+
+
+industry 4.0 (Lee et al. 2015). There are many definitions and 
+
+
+description of the smart factory, but most have the following 
+
+
+aspects in common: 1) Components in smart factories are 
+
+
+networked and it is possible to collect useful data from them; 
+
+
+2) The current status of manufacturing components can be 
+
+
+determined and visualized in real time; 3) Autonomous and 
+
+
+automatic processes can be executed based on optimized 
+
+
+manufacturing plans; and 4) Advanced manufacturing 
+
+
+services can be provided on shopfloor and to external 
+
+
+systems.  
+
+
+Cyber Physical Manufacturing System (CPMS
+PS
+
+
+), developed 
+
+
+by POSTECH Center for Ubiquitous Manufacturing, 
+
+
+provides well-organized architecture to realize smart factory 
+
+
+for Industry 4.0 into in an optimized and systematic fashion 
+
+
+(Fig. 1). CPMS is composed of four components: 1) smart 
+
+
+shop floor, 2) smart manufacturing execution system (MES), 
+
+
+3) smart factory service, and adoption engineering. Smart 
+
+
+shop floor is a key driver for making the manufacturing 
+
+
+system smart based on IoT and factory things. Smart MES is 
+
+
+capable of carrying out legacy functions as well as smart 
+
+
+functions. Smart factory service provides advanced factory 
+
+
+applications as service item through enterprise network. 
+
+
+Smart factory adoption engineering provides methodology 
+
+
+about how to adapt and develop the smart factory in a 
+
+
+systematic way. 
+
+
+In terms of information, the essence of a smart factory is how 
+
+
+data are acquired, analyzed, and applied for the various 
+
+
+internal and external stakeholders. To access the full potential 
+
+
+of the IoT for efficient data and information flow, a 
+
+
+specialized information service bus is needed for 
+
+
+manufacturing in a smart factory, as described in Fig. 1 as 
+
+
+Enterprise network for office floor, and Real-time Network 
+
+
+for shop floor. This paper is concerned with such a bus, 
+
+
+namely the "Manufacturing Information Bus for CPMS" 
+
+
+(MIB). The purpose of MIB is to transfer manufacturing 
+
+
+information and services efficiently so that the total 
+
+
+manufacturing performance can be improved. 
+
+
+Nowadays, Manufacturing Service Bus(MSB) which 
+
+
+incorporating Enterprise Service Bus(ESB) in manufacturing 
+
+
+domain is widely used(Boyd el al. 2008). The core of MSB is 
+
+
+to provide standard manufacturing data format and to 
+
+
+integrate legacy information systems based on Service 
+
+
+Oriented Architecture (SOA) paradigm. There are 
+
+
+commercial solutions containing MSB concept such as 
+
+
+12th IFAC Workshop on Intelligent Manufacturing Systems
+December 5-7, 2016. Austin, TX, USA
+
+
+Copyright@ 2016 IFAC 111
+
+
+
+
+
+
+104 SooCheol Yoon et al. / IFAC-PapersOnLine 49-31 (2016) 103–108 
+
+
+
+
+
+
+
+
+
+
+
+SIMENS WinCC OA, or Rockwell Automation FactoryTalk 
+
+
+PhamaSuite, but more shopfloor oriented middleware is 
+
+
+required for CPMS
+PS
+
+
+ and industry 4.0. 
+
+
+Previous research on data and information technology has 
+
+
+been concerned with information content such as the design 
+
+
+and exchange of product, process, resource (Lee and Jeong 
+
+
+2006; Suh et al. 2008; Wang and Xu 2012), manufacturing 
+
+
+(Lee et al. 2012; Yoon et al. 2012), monitoring (Bogdanski et 
+
+
+al. 2012), and maintenance (Espindola et al. 2013). As far as 
+
+
+information services are concerned, the ubiquitous product 
+
+
+lifecycle support (UPLS) system has been proposed (Lee and 
+
+
+Suh 2009). UPLS is an information middleware that supports 
+
+
+product related activities in the product lifecycle with product 
+
+
+data models. However, since UPLS deals with product-
+
+
+oriented data, it is not suitable to be adapted as a smart 
+
+
+factory information middleware. Smart factories aim to 
+
+
+improve the overall manufacturing performance, so the data 
+
+
+target should cover machine, factory and enterprise levels. 
+
+
+As far as information content is concerned, previous research 
+
+
+has mostly used productivity as the key performance 
+
+
+indicator (KPI). However, the manufacturing information and 
+
+
+architecture should be designed to cover various KPIs 
+
+
+comprehensively. In this research, productivity, environment, 
+
+
+and social impact are used as the components of the total 
+
+
+performance index (TPI) of a generic smart factory, rather 
+
+
+than focusing on specific KPIs. 
+
+
+Based on the state-of-the-art outlined, this paper proposes a 
+
+
+reference architecture for an information bus or middleware 
+
+
+as a means of network system for CPMS. The middleware 
+
+
+can be used for information acquisition, analysis, and 
+
+
+application by the various stakeholders at machine, factory, 
+
+
+and ERP levels. This paper suggests characteristics and 
+
+
+architecture of the information service bus, and 
+
+
+implementation procedure. 
+
+
+2. ARCHITECTURE OF INFORMATION BUS 
+
+
+In this section, a conceptual model of MIB will be developed 
+
+
+that reflects its role and significance in delivering smart-
+
+
+factory services. 
+
+
+2.1  Vision of Information Bus 
+
+
+A smart factory is expected to provide various services for 
+
+
+improved manufacturing performance based on 
+
+
+manufacturing information. However, it is not easy to find 
+
+
+the desired service among numerous sources because the 
+
+
+services are scattered all over the manufacturing system. 
+
+
+MIB acts as an intelligent information middleware that helps 
+
+
+users to find the desired information and deliver the 
+
+
+corresponding service by collecting, linking and summarizing 
+
+
+distributed services as shown in Fig. 2. MIB provides 
+
+
+services in a well-structured form, and users can request 
+
+
+services and get results easily and quickly.  
+
+
+2.2  Characteristics of Information Bus 
+
+
+In order to realize the vision of MIB, four major functions are 
+
+
+required: 1) Connect to the manufacturing services; 2) 
+
+
+Itemize the services in a well-defined structure; 3) Describe 
+
+
+the detail of each service; and 4) Manage service requests and 
+
+
+their subsequent provision. In this section, the characteristics 
+
+
+of MIB for implementing each function will be introduced. 
+
+
+First characteristic is conceptual aspects. If user-specific 
+
+
+smart-factory services are provided by the middleware, rather 
+
+
+than by separate and specific service providers, then the user 
+
+
+feels as though the middleware is providing all the services. 
+
+
+This is a simple description of the conceptual aspects of MIB. 
+
+
+Real-time Network (Shop Floor)
+
+
+Smart
+Factory
+Service
+
+
+Smart Factory Service Network (Office Floor)
+Data Flow Mgt. Svc. Orchestration User Authorization … UDDI
+
+
+FIL 
+Contr.
+
+
+Supp’t
+Tech.
+
+
+Systems 
+Engineering for 
+
+
+adoption
+
+
+Product Industry (Factory) Process Industry (Plant)
+
+
+Man
+
+
+Method
+
+
+Material
+
+
+EnvironmentWearable com.
+
+
+…
+
+
+Machine Material
+
+
+Environment
+
+
+Method
+
+
+Man
+
+
+Gateway hub
+
+
+MT-connect
+OPC-UA
+
+
+RFID/RTLS
+
+
+Smart Sensors
+
+
+Beacon
+
+
+Smart Device
+
+
+AutomationML
+
+
+Smart
+
+
+MES
+
+
+Interface Mgt.
+
+
+Service
+Items
+
+
+(Cloud) 
+Service  
+
+
+Bus
+
+
+Predictive
+maintenance
+
+
+Global Monitoring 
+& Diagnostic
+
+
+Integrated
+Energy Mgt.
+
+
+Shop Floor 
+Performance Ind. 
+
+
+Connected Smart 
+Factory
+
+
+Worker Safety
+
+
+… 
+
+
+IIoT
+
+
+Factory 
+Things
+
+
+Smart 
+Shop 
+Floor
+
+
+Data Encryption
+
+
+Smart Factory Adoption Engineering
+
+
+Target Def. StR & ORD System Spec Architecture Implementation O&M
+
+
+MES Backbone 
+Integrated 
+Monitoring
+
+
+Integrated 
+Analysis
+
+
+Integrated 
+Prediction
+
+
+Shop floor 
+Optimization
+
+
+Execution… Near R/T Simulation
+Legacy 
+
+
+Functions
+Reconfig.
+
+
+Data
+Analytics
+
+
+Eco
+Factory
+
+
+Modular 
+FactoryCPS
+
+
+Cloud Service for 
+CAx
+
+
+3D Printer
+Mock-Up
+
+
+Urban Factory
+AR-based 
+
+
+Training & Mtn.
+
+
+Standard
+ization
+
+
+Type
+
+
+… Agent 
+Based
+
+
+System 
+Opt.
+
+
+ 
+Fig. 1. Architecture of Cyber Physical Manufacturing System (CPMS
+
+
+PS
+) 
+
+
+2017 IFAC IMS
+December 5-7, 2016. Austin, TX, USA
+
+
+112
+
+
+
+
+
+
+ SooCheol Yoon et al. / IFAC-PapersOnLine 49-31 (2016) 103–108 105 
+
+
+
+
+
+
+
+
+
+
+
+SIMENS WinCC OA, or Rockwell Automation FactoryTalk 
+
+
+PhamaSuite, but more shopfloor oriented middleware is 
+
+
+required for CPMS
+PS
+
+
+ and industry 4.0. 
+
+
+Previous research on data and information technology has 
+
+
+been concerned with information content such as the design 
+
+
+and exchange of product, process, resource (Lee and Jeong 
+
+
+2006; Suh et al. 2008; Wang and Xu 2012), manufacturing 
+
+
+(Lee et al. 2012; Yoon et al. 2012), monitoring (Bogdanski et 
+
+
+al. 2012), and maintenance (Espindola et al. 2013). As far as 
+
+
+information services are concerned, the ubiquitous product 
+
+
+lifecycle support (UPLS) system has been proposed (Lee and 
+
+
+Suh 2009). UPLS is an information middleware that supports 
+
+
+product related activities in the product lifecycle with product 
+
+
+data models. However, since UPLS deals with product-
+
+
+oriented data, it is not suitable to be adapted as a smart 
+
+
+factory information middleware. Smart factories aim to 
+
+
+improve the overall manufacturing performance, so the data 
+
+
+target should cover machine, factory and enterprise levels. 
+
+
+As far as information content is concerned, previous research 
+
+
+has mostly used productivity as the key performance 
+
+
+indicator (KPI). However, the manufacturing information and 
+
+
+architecture should be designed to cover various KPIs 
+
+
+comprehensively. In this research, productivity, environment, 
+
+
+and social impact are used as the components of the total 
+
+
+performance index (TPI) of a generic smart factory, rather 
+
+
+than focusing on specific KPIs. 
+
+
+Based on the state-of-the-art outlined, this paper proposes a 
+
+
+reference architecture for an information bus or middleware 
+
+
+as a means of network system for CPMS. The middleware 
+
+
+can be used for information acquisition, analysis, and 
+
+
+application by the various stakeholders at machine, factory, 
+
+
+and ERP levels. This paper suggests characteristics and 
+
+
+architecture of the information service bus, and 
+
+
+implementation procedure. 
+
+
+2. ARCHITECTURE OF INFORMATION BUS 
+
+
+In this section, a conceptual model of MIB will be developed 
+
+
+that reflects its role and significance in delivering smart-
+
+
+factory services. 
+
+
+2.1  Vision of Information Bus 
+
+
+A smart factory is expected to provide various services for 
+
+
+improved manufacturing performance based on 
+
+
+manufacturing information. However, it is not easy to find 
+
+
+the desired service among numerous sources because the 
+
+
+services are scattered all over the manufacturing system. 
+
+
+MIB acts as an intelligent information middleware that helps 
+
+
+users to find the desired information and deliver the 
+
+
+corresponding service by collecting, linking and summarizing 
+
+
+distributed services as shown in Fig. 2. MIB provides 
+
+
+services in a well-structured form, and users can request 
+
+
+services and get results easily and quickly.  
+
+
+2.2  Characteristics of Information Bus 
+
+
+In order to realize the vision of MIB, four major functions are 
+
+
+required: 1) Connect to the manufacturing services; 2) 
+
+
+Itemize the services in a well-defined structure; 3) Describe 
+
+
+the detail of each service; and 4) Manage service requests and 
+
+
+their subsequent provision. In this section, the characteristics 
+
+
+of MIB for implementing each function will be introduced. 
+
+
+First characteristic is conceptual aspects. If user-specific 
+
+
+smart-factory services are provided by the middleware, rather 
+
+
+than by separate and specific service providers, then the user 
+
+
+feels as though the middleware is providing all the services. 
+
+
+This is a simple description of the conceptual aspects of MIB. 
+
+
+Real-time Network (Shop Floor)
+
+
+Smart
+Factory
+Service
+
+
+Smart Factory Service Network (Office Floor)
+Data Flow Mgt. Svc. Orchestration User Authorization … UDDI
+
+
+FIL 
+Contr.
+
+
+Supp’t
+Tech.
+
+
+Systems 
+Engineering for 
+
+
+adoption
+
+
+Product Industry (Factory) Process Industry (Plant)
+
+
+Man
+
+
+Method
+
+
+Material
+
+
+EnvironmentWearable com.
+
+
+…
+
+
+Machine Material
+
+
+Environment
+
+
+Method
+
+
+Man
+
+
+Gateway hub
+
+
+MT-connect
+OPC-UA
+
+
+RFID/RTLS
+
+
+Smart Sensors
+
+
+Beacon
+
+
+Smart Device
+
+
+AutomationML
+
+
+Smart
+
+
+MES
+
+
+Interface Mgt.
+
+
+Service
+Items
+
+
+(Cloud) 
+Service  
+
+
+Bus
+
+
+Predictive
+maintenance
+
+
+Global Monitoring 
+& Diagnostic
+
+
+Integrated
+Energy Mgt.
+
+
+Shop Floor 
+Performance Ind. 
+
+
+Connected Smart 
+Factory
+
+
+Worker Safety
+
+
+… 
+
+
+IIoT
+
+
+Factory 
+Things
+
+
+Smart 
+Shop 
+Floor
+
+
+Data Encryption
+
+
+Smart Factory Adoption Engineering
+
+
+Target Def. StR & ORD System Spec Architecture Implementation O&M
+
+
+MES Backbone 
+Integrated 
+Monitoring
+
+
+Integrated 
+Analysis
+
+
+Integrated 
+Prediction
+
+
+Shop floor 
+Optimization
+
+
+Execution… Near R/T Simulation
+Legacy 
+
+
+Functions
+Reconfig.
+
+
+Data
+Analytics
+
+
+Eco
+Factory
+
+
+Modular 
+FactoryCPS
+
+
+Cloud Service for 
+CAx
+
+
+3D Printer
+Mock-Up
+
+
+Urban Factory
+AR-based 
+
+
+Training & Mtn.
+
+
+Standard
+ization
+
+
+Type
+
+
+… Agent 
+Based
+
+
+System 
+Opt.
+
+
+ 
+Fig. 1. Architecture of Cyber Physical Manufacturing System (CPMS
+
+
+PS
+) 
+
+
+2017 IFAC IMS
+December 5-7, 2016. Austin, TX, USA
+
+
+112
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MIB is linked to each manufacturing system and delivers the 
+
+
+results of services to users. MIB plays the role of a trigger for 
+
+
+performing actual smart factory services, and it visualizes 
+
+
+services in a well-defined structure. 
+
+
+MIB service description language is the second characteristic. 
+
+
+Before requesting manufacturing services, a user needs to 
+
+
+know exactly which services can be provided. To deliver 
+
+
+such details, the middleware should have a standard for 
+
+
+describing services. For this, a service description language is 
+
+
+defined for MIB. Using the language, the service can 
+
+
+represent which functions will be executed, what information 
+
+
+will be delivered, what input and output will be. 
+
+
+The last one is service request process application. Various 
+
+
+systems and users are connected through MIB. There are 
+
+
+many issues in service provision, such as convenience, 
+
+
+reusability, security, and different data models between 
+
+
+systems. For this, the MIB process application modules for 
+
+
+service requests are developed. There are six main modules 
+
+
+of the unified product lifecycle data model: (i) unified 
+
+
+product lifecycle data model (ii) process execution 
+
+
+management, (iii) user authentication and data accessibility, 
+
+
+(iv) user-defined process support, (v) service search support, 
+
+
+and (vi) service history management. 
+
+
+2.3  Reference Architecture of Information Bus 
+
+
+The characteristics of MIB relate its functionalities as 
+
+
+information middleware. However, the middleware aspect is 
+
+
+not enough to satisfy the requirements of a smart factory. As 
+
+
+stated earlier, a smart factory aims to enhance TPI through 
+
+
+manufacturing services, so the middleware should reflect TPI 
+
+
+perspectives. In this section, a reference architecture of MIB 
+
+
+is proposed, with lists of services according to the service 
+
+
+level.  
+
+
+The services and reference architecture for MIB are 
+
+
+developed (Fig. 3). Each service is categorized as Smart 
+
+
+Machine Controller (SMC), Smart Manufacturing Optimizer 
+
+
+(SMO), Smart Manufacturing Execution System (SMES), or 
+
+
+Smart Enterprise Contents Management (SECM) according 
+
+
+to its characteristics. Process application modules are applied 
+
+
+for the sound use of each service.  
+
+
+SMC is composed of services for controlling and managing 
+
+
+manufacturing machines. Intelligent resource control and 
+
+
+monitoring services are defined, and it is possible to evaluate 
+
+
+manufacturing processes at the machine level. 
+
+
+SMO is composed of services for optimizing manufacturing 
+
+
+processes. It provides machine-level process planning and 
+
+
+services for sustainable TPI improvement.  
+
+
+SMES is composed of services for manufacturing execution. 
+
+
+It provides services for manufacturing-process planning and 
+
+
+execution, monitoring, measuring, and maintenance. In order 
+
+
+to provide SMES services, three smart agents are designed as 
+
+
+a sub-module of SMES. 
+
+
+The product agent provides services for supporting the 
+
+
+manufacturing progress of a product. Through the product 
+
+
+agent, the location and information of product are managed in 
+
+
+real time. The resource agent provides services for 
+
+
+monitoring the condition of a resource. Through the resource 
+
+
+agent, it is possible to provide sensor data, to identify the 
+
+
+machine, and to react quickly to unforeseen events. People 
+
+
+are sources of data for some services and consumers of other 
+
+
+services. Thus, the human agent contains two types of 
+
+
+services: customer and provider. As a customer, the human 
+
+
+agent provides support for smart-device usage, augmented 
+
+
+reality support, knowledge for manufacturing and 
+
+
+maintenance operations, and other context-based information. 
+
+
+As a data provider, it mainly reports the person’s current state. 
+
+
+ 
+Fig. 2. Conceptual model of MIB 
+
+
+2017 IFAC IMS
+December 5-7, 2016. Austin, TX, USA
+
+
+113
+
+
+
+
+
+
+106 SooCheol Yoon et al. / IFAC-PapersOnLine 49-31 (2016) 103–108 
+
+
+
+
+
+
+
+
+
+
+
+SECM provides services for managing the information of a 
+
+
+manufacturing system. Through SECM services, it is possible 
+
+
+to manage manufacturing process history, knowledge for 
+
+
+operation and control, real-time manufacturing information, 
+
+
+criteria for process evaluation, and maintenance information 
+
+
+and knowledge. The delivery date can be controlled in 
+
+
+conjunction with a process plan and performance can be 
+
+
+evaluated on the entire manufacturing-system level. SECM 
+
+
+generates reports for the operational results. 
+
+
+3. IMPLEMENTATION PROCEDURE 
+
+
+The MIB reference architecture presents the smart-factory 
+
+
+services needed to improve productivity, environment, and 
+
+
+social impact. However, not every manufacturing company 
+
+
+needs to introduce all services at once when implementing a 
+
+
+smart factory. Rather, they need services for each specific 
+
+
+performance that requires improvement. In this section, an 
+
+
+implementation procedure for extracting such services is 
+
+
+proposed based on the MIB reference architecture. 
+
+
+The methodology supports the identification of services to be 
+
+
+implemented in the shopfloor and management service layers 
+
+
+in the MIB architecture. Implementation Procedure consists 
+
+
+of eight steps, as shown in Fig. 4, and some of which can be 
+
+
+operated repeatedly according to the implementing procedure. 
+
+
+The following are detailed descriptions of each step. 
+
+
+ Goal and scope definition: Define the goal of the smart 
+factory to be implemented and the scope of the system. 
+
+
+The goal represents performances to be improved in the 
+
+
+manufacturing system, and scope refers to the range of 
+
+
+information the system has to include.  
+
+
+ Build factory model: Build an As-Is model representing 
+current features of the manufacturing system and a To-Be 
+
+
+one representing the system after smart-factory 
+
+
+implementation. In the latter model, the effect of the 
+
+
+smart factory should be described. Each model has to 
+
+
+show the factory elements, the level of each 
+
+
+manufacturing process, and the manufacturing activity 
+
+
+flow.  
+
+
+ Identify information flow of As-Is factory model: Identify 
+and describe the information flow between elements and 
+
+
+activities in the current manufacturing system.  
+
+
+ Identify information flow required for To-Be model: 
+Identify and describe the information flow to achieve a 
+
+
+goal from the perspective of the data acquisition, data 
+
+
+analysis and application provided.  
+
+
+SMO
+
+
+Process Program Generation
+
+
+Modelling of sustainability
+
+
+Manufacturing Simulation
+
+
+Corrective actions
+
+
+D
+B
+
+
+C
+M
+
+
+SMC
+
+
+Resource Control
+
+
+Resource Monitoring
+
+
+Mfg real time evaluation
+
+
+Machine Sustainability 
+evaluation
+
+
+D
+B
+
+
+C
+M
+
+
+Resource Agent
+
+
+Sensor & Resource signal 
+acquisition
+
+
+Resource Identification
+
+
+Tool usage history
+
+
+Unforeseen event detection
+
+
+Product Agent
+
+
+Product Identification
+
+
+Product Tracking
+
+
+Product Information
+
+
+Tool management
+
+
+Material Flow Scheduling
+
+
+SMES
+
+
+Production Planning & 
+Scheduling
+
+
+Execution and Control
+
+
+Sustainability Evaluation
+
+
+Operation Monitoring
+
+
+Proactive Maintenance
+
+
+D
+B
+
+
+C
+M
+
+
+Human Agent
+
+
+Smart Device & 
+communication module
+
+
+Augmented reality Support
+
+
+Work process knowledge 
+provide
+
+
+Process Information Display 
+
+
+Current status acquisition
+
+
+SECM
+
+
+Entire Performance evaluation
+
+
+Knowledge Management
+
+
+Performance Criteria 
+Management
+
+
+Maintenance  Management
+
+
+D
+B
+
+
+C
+MDelivery Date Management
+
+
+Production Report
+
+
+Process layerShopfloor Service Layer Management Service Layer
+
+
+Process Application
+
+
+Unified Product Lifecycle Data Model
+
+
+User authentication & Data accessibility
+
+
+Process Execution Management
+
+
+User Defined Process Support
+
+
+Service Search Support
+
+
+Service History Management
+
+
+D
+B
+
+
+C
+M
+
+
+D
+B
+
+
+C
+M
+
+
+D
+B
+
+
+C
+M
+
+
+ 
+Fig. 3. Reference architecture for MIB 
+
+
+Is all Information 
+
+
+Identified?
+
+
+As-Is & To-Be
+
+
+Factory Model
+
+
+SIBUS Architecture
+
+
+for To-Be Model
+
+
+Is information 
+
+
+flow Complete?
+
+
+1. Goal and Scope Definition
+
+
+2. Build Factory Model
+
+
+3. Identify Information flow of As-Is 
+
+
+Factory Model
+
+
+4. Identify Information flow required in To-
+
+
+Be Model
+
+
+5. Identify Smart Factory Services
+
+
+6. Define SIBUS for Smart Factory
+
+
+7. Verify To-Be Model Information Flow
+
+
+8. Implement Service
+
+
+Start
+
+
+End
+ 
+
+
+
+
+
+Fig. 4. Implementation Procedure 
+
+
+2017 IFAC IMS
+December 5-7, 2016. Austin, TX, USA
+
+
+114
+
+
+
+
+
+
+ SooCheol Yoon et al. / IFAC-PapersOnLine 49-31 (2016) 103–108 107 
+
+
+
+
+
+
+
+
+
+
+
+SECM provides services for managing the information of a 
+
+
+manufacturing system. Through SECM services, it is possible 
+
+
+to manage manufacturing process history, knowledge for 
+
+
+operation and control, real-time manufacturing information, 
+
+
+criteria for process evaluation, and maintenance information 
+
+
+and knowledge. The delivery date can be controlled in 
+
+
+conjunction with a process plan and performance can be 
+
+
+evaluated on the entire manufacturing-system level. SECM 
+
+
+generates reports for the operational results. 
+
+
+3. IMPLEMENTATION PROCEDURE 
+
+
+The MIB reference architecture presents the smart-factory 
+
+
+services needed to improve productivity, environment, and 
+
+
+social impact. However, not every manufacturing company 
+
+
+needs to introduce all services at once when implementing a 
+
+
+smart factory. Rather, they need services for each specific 
+
+
+performance that requires improvement. In this section, an 
+
+
+implementation procedure for extracting such services is 
+
+
+proposed based on the MIB reference architecture. 
+
+
+The methodology supports the identification of services to be 
+
+
+implemented in the shopfloor and management service layers 
+
+
+in the MIB architecture. Implementation Procedure consists 
+
+
+of eight steps, as shown in Fig. 4, and some of which can be 
+
+
+operated repeatedly according to the implementing procedure. 
+
+
+The following are detailed descriptions of each step. 
+
+
+ Goal and scope definition: Define the goal of the smart 
+factory to be implemented and the scope of the system. 
+
+
+The goal represents performances to be improved in the 
+
+
+manufacturing system, and scope refers to the range of 
+
+
+information the system has to include.  
+
+
+ Build factory model: Build an As-Is model representing 
+current features of the manufacturing system and a To-Be 
+
+
+one representing the system after smart-factory 
+
+
+implementation. In the latter model, the effect of the 
+
+
+smart factory should be described. Each model has to 
+
+
+show the factory elements, the level of each 
+
+
+manufacturing process, and the manufacturing activity 
+
+
+flow.  
+
+
+ Identify information flow of As-Is factory model: Identify 
+and describe the information flow between elements and 
+
+
+activities in the current manufacturing system.  
+
+
+ Identify information flow required for To-Be model: 
+Identify and describe the information flow to achieve a 
+
+
+goal from the perspective of the data acquisition, data 
+
+
+analysis and application provided.  
+
+
+SMO
+
+
+Process Program Generation
+
+
+Modelling of sustainability
+
+
+Manufacturing Simulation
+
+
+Corrective actions
+
+
+D
+B
+
+
+C
+M
+
+
+SMC
+
+
+Resource Control
+
+
+Resource Monitoring
+
+
+Mfg real time evaluation
+
+
+Machine Sustainability 
+evaluation
+
+
+D
+B
+
+
+C
+M
+
+
+Resource Agent
+
+
+Sensor & Resource signal 
+acquisition
+
+
+Resource Identification
+
+
+Tool usage history
+
+
+Unforeseen event detection
+
+
+Product Agent
+
+
+Product Identification
+
+
+Product Tracking
+
+
+Product Information
+
+
+Tool management
+
+
+Material Flow Scheduling
+
+
+SMES
+
+
+Production Planning & 
+Scheduling
+
+
+Execution and Control
+
+
+Sustainability Evaluation
+
+
+Operation Monitoring
+
+
+Proactive Maintenance
+
+
+D
+B
+
+
+C
+M
+
+
+Human Agent
+
+
+Smart Device & 
+communication module
+
+
+Augmented reality Support
+
+
+Work process knowledge 
+provide
+
+
+Process Information Display 
+
+
+Current status acquisition
+
+
+SECM
+
+
+Entire Performance evaluation
+
+
+Knowledge Management
+
+
+Performance Criteria 
+Management
+
+
+Maintenance  Management
+
+
+D
+B
+
+
+C
+MDelivery Date Management
+
+
+Production Report
+
+
+Process layerShopfloor Service Layer Management Service Layer
+
+
+Process Application
+
+
+Unified Product Lifecycle Data Model
+
+
+User authentication & Data accessibility
+
+
+Process Execution Management
+
+
+User Defined Process Support
+
+
+Service Search Support
+
+
+Service History Management
+
+
+D
+B
+
+
+C
+M
+
+
+D
+B
+
+
+C
+M
+
+
+D
+B
+
+
+C
+M
+
+
+ 
+Fig. 3. Reference architecture for MIB 
+
+
+Is all Information 
+
+
+Identified?
+
+
+As-Is & To-Be
+
+
+Factory Model
+
+
+SIBUS Architecture
+
+
+for To-Be Model
+
+
+Is information 
+
+
+flow Complete?
+
+
+1. Goal and Scope Definition
+
+
+2. Build Factory Model
+
+
+3. Identify Information flow of As-Is 
+
+
+Factory Model
+
+
+4. Identify Information flow required in To-
+
+
+Be Model
+
+
+5. Identify Smart Factory Services
+
+
+6. Define SIBUS for Smart Factory
+
+
+7. Verify To-Be Model Information Flow
+
+
+8. Implement Service
+
+
+Start
+
+
+End
+ 
+
+
+
+
+
+Fig. 4. Implementation Procedure 
+
+
+2017 IFAC IMS
+December 5-7, 2016. Austin, TX, USA
+
+
+114
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Identify smart factory services: Define the services that 
+provide the information identified in step 4. Generally, 
+
+
+two types of services are defined: generating information 
+
+
+and transport. If all the information is identified, go to 
+
+
+step 6; otherwise, go back to step 4.  
+
+
+ Define MIB for smart factory: Define MIB architecture 
+by organizing the identified systems and services. Define 
+
+
+detailed information of each service and assign a system 
+
+
+that will actually work. 
+
+
+ Verify To-Be model information flow: Verify the 
+information flow of the TO-BE model and whether all 
+
+
+information and services have been defined sufficiently to 
+
+
+achieve the goal. If not, go back to step 4. 
+
+
+ Implement service: Implement MIB and the service 
+systems. 
+
+
+4. CASE STUDY 
+
+
+To show the effect of MIB architecture and implementation 
+
+
+methodology, a case study has been conducted for general 
+
+
+maintenance activity. Currently a maintainer does operations 
+
+
+without any help of IT, and brings himself procedure and 
+
+
+manual for the operations. Now the company is trying to 
+
+
+build smart maintenance system which automatically notice 
+
+
+the breakdown and inform the maintainer what to do. A smart 
+
+
+factory system and MIB architecture will be developed by 
+
+
+following implementation procedure described in section 3. 
+
+
+In goal and scope definition, the goal is defined as to provide 
+
+
+maintenance procedure and manual automatically to 
+
+
+maintainer when machine breakdown. The system includes 
+
+
+maintainer, resource and information system as scope. In 
+
+
+build factory model, As-Is and To-Be factory model are 
+
+
+defined (Fig. 5).  Currently, maintainer checks the machine 
+
+
+breakdown and does maintenance using paper manual. When 
+
+
+smart factory has been adapted, the machine checks the 
+
+
+breakdown by itself, and inform to information system. The 
+
+
+information system generates maintenance procedure and 
+
+
+manual, and assigns to maintainer. The maintainer does 
+
+
+operations according to procedure and manual received. 
+
+
+In identify information flow of As-Is factory model, only 
+
+
+factory elements can be found since there is no information 
+
+
+flow in As-Is model (Fig. 6 left). In identify information flow 
+
+
+in To-Be model, and in identify smart factory services, 3 of 
+
+
+information flow and 3 of service are identified (Fig. 6 right). 
+
+
+As a first, the maintainer needs maintenance procedure and 
+
+
+manual, and they are defined as d1, and d2. Maintenance 
+
+
+Management of SECM is needed to generate d1 and d2, and 
+
+
+it is defined as one of service. To operate Maintenance 
+
+
+Management, Machine breakdown notice is required, and 
+
+
+defined as d3. Similarly, Resource Monitoring of SMC, d4. 
+
+
+Unforeseen event notice, d5. Sensor data, d6. Resource 
+
+
+Signal data, Sensor & Resource Signal Acquisition, and 
+
+
+Unforeseen event detection of resource agent is figured out 
+
+
+sequentially. 
+
+
+In define MIB for smart factory, tailored architecture is 
+
+
+defined using data and services (Fig. 6 bottom). In verify To-
+
+
+Be model information flow, all data flow from resource to 
+
+
+maintainer is verified. Implementation of service is supposed 
+
+
+to be operated in this study. 
+
+
+In this case study, KPI can be defined as Mean time to repair 
+
+
+(MTTR) based on ISO 22400 for general manufacturing 
+
+
+purpose. In As-Is model, there are times to repair including 
+
+
+t1: recognizing breakdown, t2: finding tools and manual, t3: 
+
+
+approaching to machine and t4: repairing machine. Total time 
+
+
+to repair is sum of t1 to t4. In To-Be model, the system itself 
+
+
+recognize breakdown and provide manual automatically, so 
+
+
+t1 and t2 are decreased dramatically. As a result, MTTR is 
+
+
+decreased through MIB and services, which means that TPI is 
+
+
+increased. 
+
+
+5.  CONCLUSION 
+
+
+ 
+Fig. 5. As-Is and To-Be Factory Model for case study 
+
+
+2017 IFAC IMS
+December 5-7, 2016. Austin, TX, USA
+
+
+115
+
+
+
+
+
+
+108 SooCheol Yoon et al. / IFAC-PapersOnLine 49-31 (2016) 103–108
+ 
+
+
+
+
+
+
+
+
+
+
+
+This paper developed the MIB architecture as an information 
+
+
+middleware for smart factory. The architecture and its 
+
+
+implementation procedure are useful in designing smart-
+
+
+factory systems and identifying required services according 
+
+
+to the purposes of stakeholders. MIB supports service 
+
+
+exchanges as a middleware and provides lists of services, 
+
+
+reflecting general requirements to improve the TPI in terms 
+
+
+of productivity, environment, and social impact. 
+
+
+The most novel aspect of MIB is that MIB aims to improve 
+
+
+TPI according to the purpose of the stakeholder. Based on 
+
+
+this property, it can support activities that improve 
+
+
+productivity, environment, and sociality at the machine, 
+
+
+factory, and enterprise levels, respectively. 
+
+
+To realize MIB and smart factories it is necessary to develop 
+
+
+technologies for factory elements. In particular, smart agent 
+
+
+technology is needed to enable each element to provide a 
+
+
+service. In addition, many platform technologies are needed 
+
+
+to handle massive calls for services; basically platforms for 
+
+
+machine learning, factory simulation, complex event 
+
+
+processing, and distributed databases are needed, all of which 
+
+
+are commonly required by current factories. 
+
+
+Acknowledgment 
+
+
+This research was supported by the Ministry of Trade, 
+
+
+Industry and Energy of Korea (Development of Integrated 
+
+
+Operational Technologies for Smart Factory Application with 
+
+
+Manufacturing Big Data), and by the Institute for Information 
+
+
+and Communications Technology Promotion of Korea 
+
+
+(Establishment of the Testbed for a convergence of IoTs and 
+
+
+manufacturing technology). 
+
+
+REFERENCES 
+
+
+Bogdanski, G., Spiering, T., Li, W., Herrmann, C., & Kara, 
+
+
+S. (2012). Energy monitoring in manufacturing 
+
+
+companies–generating energy awareness through 
+
+
+feedback. In Leveraging technology for a sustainable 
+
+
+world (pp. 539-544). Springer Berlin Heidelberg. 
+
+
+Boyd, A., Noller, D., Peters, P., Salkeld, D., Thomasma, T., 
+
+
+Gifford, C., ... & Smith, A. (2008). SOA in 
+
+
+manufacturing—guidebook. MESA International, IBM 
+
+
+Corporation and Capgemini Co-Branded White Paper. 
+
+
+Espíndola, D. B., Fumagalli, L., Garetti, M., Pereira, C. E., 
+
+
+Botelho, S. S., & Henriques, R. V. (2013). A model-
+
+
+based approach for data integration to improve 
+
+
+maintenance management by mixed reality. Computers 
+
+
+in Industry, 64(4), 376-391. 
+
+
+Lee, B. E., & Suh, S. H. (2009). An architecture for 
+
+
+ubiquitous product life cycle support system and its 
+
+
+extension to machine tools with product data model. The 
+
+
+International Journal of Advanced Manufacturing 
+
+
+Technology,42(5-6), 606-620. 
+
+
+Lee, J., Bagheri, B., & Kao, H. A. (2015). A cyber-physical 
+
+
+systems architecture for industry 4.0-based 
+
+
+manufacturing systems. Manufacturing Letters, 3, 18-23. 
+Lee, S., Han, S., & Mun, D. (2012). Integrated management 
+
+
+of facility, process, and output: data model perspective. 
+
+
+Science China Information Sciences, 55(5), 994-1007. 
+
+
+Lee, S. H., & Jeong, Y. S. (2006). A system integration 
+
+
+framework through development of ISO 10303-based 
+
+
+product model for steel bridges. Automation in 
+
+
+Construction, 15(2), 212-228. 
+
+
+Suh, S. H., Shin, S. J., Yoon, J. S., & Um, J. M. (2008). 
+
+
+UbiDM: A new paradigm for product design and 
+
+
+manufacturing via ubiquitous computing 
+
+
+technology. International Journal of Computer 
+Integrated Manufacturing, 21(5), 540-549. 
+
+
+Wang, X. V., & Xu, X. W. (2012). DIMP: an interoperable 
+
+
+solution for software integration and product data 
+
+
+exchange. Enterprise Information Systems, 6(3), 291-
+
+
+314.  
+
+
+Yoon, J. S., Shin, S. J., & Suh, S. H. (2012). A conceptual 
+
+
+framework for the ubiquitous factory. International 
+
+
+Journal of Production Research, 50(8), 2174-2189. 
+Zuehlke, D. (2010). SmartFactory—Towards a factory-of-
+
+
+things. Annual Reviews in Control, 34(1), 129-138. 
+
+
+ 
+Fig. 6. Information flow and Tailored MIB Architecture for case study 
+
+
+2017 IFAC IMS
+December 5-7, 2016. Austin, TX, USA
+
+
+116
+
+
+
+

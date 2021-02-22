@@ -1,0 +1,17626 @@
+
+
+
+
+
+
+
+
+
+
+Contents lists available at ScienceDirect 
+
+
+Journal of Business Research 
+journal homepage: www.elsevier.com/locate/jbusres 
+
+
+Supply network design to address United Nations Sustainable Development 
+Goals: A case study of blockchain implementation in Thai fish industry 
+Naoum Tsolakisa,⁎, Denis Niedenzub, Melissa Simonettob, Manoj Dorac, Mukesh Kumarb,⁎ 
+a Centre for International Manufacturing, Institute for Manufacturing (IfM), Department of Engineering, School of Technology, University of Cambridge, Cambridge CB3 
+0FS, United Kingdom 
+b Industrial Resilience Research Group, Institute for Manufacturing (IfM), Department of Engineering, School of Technology, University of Cambridge, Cambridge CB3 0FS, 
+United Kingdom 
+c Brunel Business School, Brunel University London, London UB8 3PH, United Kingdom  
+
+
+A R T I C L E  I N F O   
+
+
+Keywords: 
+Fish supply networks 
+Blockchain 
+Sustainable Development Goals 
+Transparency 
+Traceability 
+Supply chain design 
+
+
+A B S T R A C T   
+
+
+Sustainable Development Goals present an opportunity for industries to (re)design their supply chains. It is 
+understood that digital technologies like blockchain can be helpful in achieving certain Sustainable Development 
+Goals linked to livelihoods, food security, and the environment, by identifying issues and implementing inter-
+ventions in real-time. However, there is limited understanding over data structure requirements for blockchain 
+technology implementation in digitally-enabled food supply chains. Therefore, this research studies the design of 
+blockchain-centric food supply chains that promote Sustainable Development Goals, within the context of the 
+Thai fish industry. Key findings suggest that data asymmetry exists in supply chains to achieve Sustainable 
+Development Goals. This research presents four design principles and an integrated technology implementation 
+framework, derived from empirical data, for blockchain-centric food supply chains. The research outcome 
+contributes to the supply chain management field and could ultimately impact the resilience of fishery eco-
+systems and the achievement of Sustainable Development Goals.   
+
+
+1. Introduction 
+
+
+Digitalisation in the manufacturing sector unveils the potential to 
+capture Big Data from an end-to-end manufacturing network perspec-
+tive and drive operational improvements (Tiwari, Wee, & Daryanto, 
+2018). However, applications that entail the management of huge da-
+tasets encounter several challenges that mainly relate to the limited 
+processing capability of incomplete, unstructured, and inaccurate data 
+(Choi, Guo, & Luo, 2020). To that end, blockchain technology, a de-
+centralised ledger which facilitates transactions of cryptographed data 
+in blocks, has attracted increased academic and business interest as it 
+enables authentication, auditability, and confidentiality of transmitted 
+data and information (Lin, He, Huang, Choo, & Vasilakos, 2018). In a 
+supply chain operations management context, blockchain has great 
+implementation potential as it can facilitate complex interactions 
+among network stakeholders and address the issue of data incon-
+sistencies (Min, 2019). Business reports indicate that about 62% of 
+supply chain executives have engaged with blockchain (Garner, 2018), 
+while the expected business value added by this Industry 4.0 con-
+stituent technology is projected to exceed US$3.1 trillion by 2030 
+
+
+(Furlonger & Valdes, 2017). 
+A range of fraud vulnerabilities and counterfeiting issues are iden-
+
+
+tified in food supply chains (van Ruth, Luning, Silvis, Yang, & Huisman, 
+2018), which motivate promising experimental applications of block-
+chain technology in the food and agriculture industries (Kshetri, 2018). 
+In particular, the food industry highly appreciates the food safety and 
+transparency benefits emanating from potential implementations of 
+blockchain as the technology enables efficient data capture, manage-
+ment and control (Bumblauskas, Mann, Dugan, & Rittmer, 2020). 
+However, the extant body of literature is fragmented as the majority of 
+the related research studies myopically focuses on the transparency and 
+traceability benefits of blockchain in supply networks rather than spe-
+cific design interventions that deliver such benefits. The sustainability 
+implications of blockchain pose an emerging topic in the supply chain 
+management research agenda (Saberi, Kouhizadeh, Sarkis, & Shen, 
+2019), while the sparsity of relevant studies on food chains motivates 
+research in the field (Feng, Wang, Duan, Zhang, & Zhang, 2020). To a 
+greater extent, Hughes et al. (2019) declared the potential of block-
+chain to contribute to a range of the United Nations Sustainable De-
+velopment Goals (SDGs) via articulating a number of research 
+
+
+https://doi.org/10.1016/j.jbusres.2020.08.003 
+Received 30 August 2019; Received in revised form 30 July 2020; Accepted 1 August 2020    
+
+
+⁎ Corresponding authors. 
+E-mail addresses: nt377@cam.ac.uk (N. Tsolakis), mk501@cam.ac.uk (M. Kumar). 
+
+
+
+http://www.sciencedirect.com/science/journal/01482963
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.elsevier.com/locate/jbusres
+
+https://doi.org/10.1016/j.jbusres.2020.08.003
+
+https://doi.org/10.1016/j.jbusres.2020.08.003
+
+mailto:nt377@cam.ac.uk
+
+mailto:mk501@cam.ac.uk
+
+https://doi.org/10.1016/j.jbusres.2020.08.003
+
+
+
+
+propositions; however, the authors’ recommendations are not industry 
+or use case specific. Notably, the authors did not investigate the role of 
+blockchain towards promoting particular SDGs but rather claimed that 
+the blockchain-targeted propositions can be valid in case specific SDGs 
+are realised. Therefore, the lack of studies exploring the role of block-
+chain in promoting SDGs, especially with an emphasis on the food in-
+dustry, constitutes an evident gap in the pertinent literature. 
+
+
+Notwithstanding the proclaimed traceability, transparency, and 
+sustainability benefits of blockchain in global supply networks (Saberi 
+et al., 2019), the technology has not yet been applied on real-world end- 
+to-end network applications (Dallasega & Sarkis, 2018). The most sig-
+nificant challenge that hinders blockchain implementation for value 
+creation relates to high-level collaboration requirements (Kittipanya- 
+ngam & Tan, 2020), along with inconsistencies in data structures across 
+the distributed data sources (Muzammal, Qu, & Nasrulin, 2019). 
+However, unless data elements and their structure integrate across end- 
+to-end networks, the value of information flows that could fuel per-
+formance improvements in supply chain operations is not realised 
+(Gavirneni, Kapuscinski, & Tayur, 1999) while the supply chain ma-
+turity process stagnates (Trkman, Štemberger, Jaklič, & Groznik, 2007). 
+
+
+Blockchain along with Big Data can expedite Industry 4.0 ad-
+vancements in food value chain management (Zhao et al., 2019). 
+However, motivated by the evident paucity of studies exploring the 
+usability of blockchain in real-world contexts (Zhao et al., 2019), this 
+research argues that blockchain implementation is not understood from 
+the perspective of supply chain (re)design. From an academic per-
+spective, Treiblmaier (2018) provided a framework linking blockchain 
+attributes to the characteristics of four supply chain management-cen-
+tric theories, but the provided conceptual construct considered block-
+chain in a broader sense and did not identify data structure require-
+ments as a distinctive blockchain attribute that can foster the 
+technology’s implementation. From a technical viewpoint, the sustain-
+able food supply chain literature lacks application frameworks that can 
+contribute to information visibility in data-driven environments 
+(Kamble, Gunasekaran, & Gawankar, 2020), while the operability of 
+typical assets and transaction data in blockchain applications (e.g., 
+business documents, images) is disregarded (Kumar, Liu, & Shan, 
+2020). Considering that blockchain technology in sustainable food 
+supply networks is a nascent, yet unexplored, research field with un-
+determined real-world challenges (Kamble, Gunasekaran, & Arha, 
+2019), this study bridges this gap by attempting to answer the following 
+research question: How can blockchain-centric supply chains be de-
+signed and managed in the food industry in order to achieve SDGs? 
+
+
+It is essential to tackle the abovementioned research question to 
+operationalise blockchain technology for delivering sustainable value 
+networks (Capgemini Research Institute, 2018). More specifically, to 
+address the research question, this study focused on empirically derived 
+value chain effectuation by identifying necessary Key Data Elements 
+and via proposing a framework for the implementation of blockchain in 
+food supply network designs, particularly focusing on the Thai fish 
+industry. The limited number of relevant research studies provides 
+high-level discussions over the sustainability benefits of blockchain in 
+fish supply chain management (Howson, 2020), while overlooking 
+data-related implementation aspects of the technology at an operational 
+level. Therefore, to tackle the research question, this study further de-
+veloped four principles for blockchain-centric food supply chain designs 
+to contribute to SDGs. 
+
+
+The research emphasis on the fish industry was stimulated by a 
+range of reasons, including (Gopi, Mazumder, Sammut, & Saintilan, 
+2019): (i) global increasing demand on seafood; (ii) essential nutritional 
+role of fish to human diets; (iii) significance of the seafood market to 
+national economies and global trade; and (iv) increasing global con-
+cerns over fish provenance and authenticity, mainly in terms of food 
+safety, quality, and fraud. In particular, sustainable fisheries manage-
+ment in Thailand is crucial owing to the significance of the seafood 
+sector to the national economy. Based on the National Food Institute, 
+
+
+Thailand is the leading global producer and exporter of canned tuna 
+with a market share of about 40% (Kittipanya-ngam & Tan, 2020). 
+However, the Thai fish industry encounters major sustainability chal-
+lenges including illegal fishing activities amounting to financial losses 
+of about US$5 billion (Wipatayotin, 2019), and unethical labour prac-
+tices (Sasipornkarn, 2019). Therefore, Thailand’s food supply chains 
+need to continuously demonstrate efficiency and sustainability to 
+maintain the leadership position in global exports. 
+
+
+This research employed a multiple case study approach, involving 
+data and information collection from both interviews with stakeholders 
+and field observations, to answer the enunciated research query. More 
+specifically, three case studies were conducted within the context of the 
+Thai fish industry via leveraging three data and information collection 
+mechanisms – semi-structured interviews, field observations, official 
+documentation of supply chain operations – to identify data sources, 
+ensure data validity, and generate insights (McCutcheon & Meredith, 
+1993). The paradigm of the Thai fish industry aligns with the SDGs and 
+helps link blockchain implementation requirements to supply chain 
+design. To the best of our knowledge, no peer-reviewed research article 
+on blockchain technology in end-to-end fish supply chains has com-
+bined literature analysis and empirical evidence. 
+
+
+Our research contributes to the Operations Management field by 
+applying a multiple case study approach to develop a pragmatic view of 
+traceability in blockchain enabled fish supply chains. In addition, this 
+research studies the relationship between blockchain technology and 
+supply chain design within the prospect of product traceability. 
+
+
+The remainder of this research is structured as follows. Section 2 
+summarises indicative studies examining blockchain in the food industry 
+and provides the research background of blockchain implementation and 
+supply chain design. Section 3 details the research methodology applied to 
+gather and analyse evidence on the application of blockchain technology 
+in the fish industry. Section 4 investigates the fishery ecosystem in Thai-
+land. An integrated framework capturing supply chain (re)design im-
+plications stemming from the implementation of blockchain technology is 
+proposed in Section 5. Critical evaluation of the research findings along 
+with academic and management implications, limitations, and future re-
+search avenues, are explored in the final Section 6. 
+
+
+2. Research background 
+
+
+Key studies discussing blockchain in end-to-end food supply net-
+works were reviewed followed by an investigation of pertinent extant 
+works focusing on the fish industry and on sustainability implications. 
+Additionally, major literature evidence on the design of technology- 
+enabled supply networks was retrieved. 
+
+
+2.1. Blockchain in food supply networks 
+
+
+Blockchain technology’s expected benefits are clearly documented 
+for the food industry, mainly referring to advanced traceability cap-
+abilities and increased food safety leading to enhanced consumers’ 
+trust. In addition, blockchain could help mitigate the ripple effect that 
+describes the propagation of any risks downstream a food supply chain, 
+hence further impacting a network’s structural design and planning 
+parameters (Dolgui, Ivanov, & Sokolov, 2018). 
+
+
+Key studies investigating the potential application and im-
+plementation of blockchain within a food supply network context were 
+recognised and taxonomised as part of this research; an exhaustive re-
+view of all research works in the field extends the current research 
+scope. Most recently published review articles on the topic indicatively 
+include the studies of Antonucci et al. (2019), Kamble et al. (2020), and  
+Lezoche, Panetto, Kacprzyk, Hernandez, and Alemany Díaz (2020). 
+
+
+2.1.1. End-to-end food chains 
+Crew (2018a,b) discussed the role of blockchain in enhancing con-
+
+
+sumers’ trust and food safety as the technology enables transparency, 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tracking, and traceability in transactions among end-to-end food supply 
+network stakeholders. Notwithstanding the conceptual discussions in 
+the domain, the need for feasible food traceability systems led Behnke 
+and Janssen (2020) to investigate four dairy supply chain processes and 
+identify five boundary conditions (recognised across the business, 
+quality, and traceability categories) for the implementation of block-
+chain technology. In a similar vein, Chen, Liu, Yan, Hu, and Shi (2020) 
+performed a thematic analysis of news articles and research studies 
+jointly discussing blockchain and food networks, while the authors 
+identified processes, benefits, and challenges prevalent in the adoption 
+of the technology in food supply chains. 
+
+
+Furthermore, Kim and Laskowski (2018) developed a proof-of- 
+concept ontology-based blockchain and investigated the feasibility of a 
+traceability ontology for food supply chain provenance. Marfia and 
+Degli Esposti (2017) considered blockchain for the case of organic 
+farming to guarantee trust and increase product value. Similarly,  
+Mondal et al. (2019) implemented a blockchain architecture enabled by 
+a Radio-Frequency Identification (RFID) sensor to develop a tamper- 
+proof digital database of food packages. 
+
+
+Sander, Semeijn, and Mahr (2018) surveyed the perceptions of meat 
+supply chain stakeholders about blockchain, as a viable meat trans-
+parency and traceability system, and concluded that the technology 
+could positively influence consumers’ purchasing decisions in case trust 
+towards blockchain is established. In cold food supply chains, block-
+chain is highly appreciated as the technology can promote transparency 
+of temperature information about food products, particularly during 
+storage and distribution, thus supporting waste mitigation (Ndraha, 
+Hsiao, Vlajic, Yang, & Lin, 2018). Additionally, Tian (2017) con-
+ceptually investigated the architecture of a food supply chain trace-
+ability system enabled by HACCP (Hazard Analysis and Critical Control 
+Points), blockchain, and Internet of Things, as a solution to support 
+food safety and consumers’ trust in the industry. 
+
+
+On a more pragmatic basis, Kamilaris, Fonts, and Prenafeta-Boldύ 
+(2019) reviewed ongoing initiatives and projects on blockchain tech-
+nology in agriculture and food supply networks, and further discussed 
+related implications, benefits, and challenges. Indicatively, Walmart 
+leads an initiative along with Nestlé SA, Unilever NV and other global 
+companies to develop the Food Trust blockchain with the aim to trace 
+and manage potential risks across end-to-end food supply chains (Nash, 
+2018). Likewise, Pendrous (2017) discussed trends and business in-
+itiatives (e.g., the joint initiative by Arc-net and PwC Netherlands) re-
+garding the development of a blockchain-based platform across food 
+supply networks to deliver product safety, quality and integrity. 
+
+
+2.1.2. Fish industry 
+From a fish supply chain operational perspective, Cook (2018) re-
+
+
+ported the benefits and challenges of a related pilot project on block-
+chain implementation, led by the World Wide Fund for Nature (WWF), 
+particularly focusing on tuna caught in a Fijian longline fishery. Fur-
+thermore, Intel applied its proprietary open source blockchain platform, 
+named Hyperledger Sawtooth, to enable seafood traceability and ensure 
+compliance with storage conditions across fish supply chains (del 
+Castillo, 2017). Fishcoin, a blockchain-based data ecosystem dedicated 
+to the seafood industry, utilises tokens for incentivising data capture 
+and transmission across fish supply chains in order to increase trace-
+ability (Fishcoin, 2018). 
+
+
+In addition, the social enterprise Project Provenance Ltd tested a 
+prototype blockchain model to track and trace responsibly caught tuna 
+fish in Indonesia by gathering diversified data across operations, from 
+vessel tracking and registration to self-reporting of fish catch and fish 
+tagging (Provenance, 2016). Moreover, WWF piloted the use of block-
+chain technology in the Pacific tuna industry to trace fish provenance, 
+track illegal fishing instances, and eliminate abuses of human rights 
+(WWF, 2018). Visser and Hanich (2018) discussed the transparency and 
+traceability benefits of blockchain in aforementioned real-world pilot 
+implementations, further highlighting the technology’s contribution in 
+
+
+tackling poor human working conditions in low-income countries. From 
+a fish supply chain management perspective, Mathisen (2018) in-
+vestigated the strategic compliance of blockchain technology to Nor-
+wegian aquaculture producers and discussed potential benefits with 
+regard to the expected efficiency in terms of quality, cost, sustainability, 
+and dependability. 
+
+
+2.1.3. Sustainability 
+In terms of sustainability, Ahmed and Broek (2017) summarised the 
+
+
+potential food security benefits stemming from the adoption of block-
+chain technology in food supply networks, particularly stressing the 
+emanating possibilities of distributing surplus food supplies to bene-
+ficiary bodies and enhancing the visibility over the environmental 
+footprint of commodities/products. Chapron (2017) critically discussed 
+governance and sustainability benefits stemming from the im-
+plementation of blockchain technology in manufacturing and food 
+supply chain operations and particularly highlighted the associated 
+potential of natural resources stewardship along with social sustain-
+ability implications. Moreover, Lin et al. (2017) discussed the evolu-
+tionary role of blockchain in agriculture to enable efficient water 
+quality monitoring in farms. 
+
+
+In a humanitarian context, Juskalian (2018) presented the case of 
+the “Building Blocks” initiative, set by the World Food Programme of 
+the United Nations, which uses blockchain technology and iris scanning 
+technology to allow refugees in Jordan to purchase daily grocery sup-
+plies. The author also discussed the efficiency gains deriving from the 
+adoption of blockchain for humanitarian operations, including: (i) re-
+duced bank fees applicable to transfers of humanitarian aid funds; (ii) 
+digital proof of refugees’ identity and educational/employment history 
+that increases employment opportunities in hosting countries; and (iii) 
+enhanced efficiency of humanitarian aid operations deployed by in-
+ternational organisations. 
+
+
+2.1.4. Critical taxonomy 
+A critical taxonomy of the reviewed literature on blockchain tech-
+
+
+nology in food supply chains is presented in Table 1. The taxonomy 
+reveals that most of the studies published in peer-reviewed scientific 
+journals are limited on a discussion of potential benefits and challenges 
+related to the adoption of blockchain technology in food supply net-
+works. Few studies, mainly retrieved from grey literature, focus on real- 
+world implementation cases while no articles highlight the role of data 
+structures and supply chain (re)design opportunities. The general con-
+sensus is that blockchain technology can mainly ensure transparency 
+and traceability in food systems with further positive effects regarding 
+food safety and consumers’ trust. 
+
+
+2.2. Technology-enabled supply network design 
+
+
+Blockchain is recognised as an ordered list of blocks which contain 
+data and information regarding transactions, records, and events 
+(Kamble, Gunasekaran, & Sharma, 2019). However, the structure of the 
+gathered and transmitted data along with the need to (re)design pro-
+spective blockchain-enabled supply networks are often being neglected 
+in the extant literature. 
+
+
+2.2.1. Data and supply chain design implications 
+Sener, Barut, Oztekin, Avcilar, and Yildirim (2019) found that in-
+
+
+formation usage, rather than information sharing, among supply chain 
+stakeholders could result in significantly better performance in terms of 
+inventory, transportation, warehousing, and communication related 
+costs. In tandem with the tamper proof records of blockchain that help 
+cultivate a culture of trust, the commercially viable nature of end-to- 
+end supply networks could be ensured (Nidumolu, Ellison, Whalen, & 
+Billman, 2014). Within a digitalised business environment, we adopt 
+the suggestion of Kohtamäki, Parida, Oghazi, Gebauer, and Baines 
+(2019) who recognised that data alignment among firms within specific 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+
+
+
+
+Ta
+bl
+
+
+e 
+1 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ te
+
+
+ch
+no
+
+
+lo
+gy
+
+
+ in
+ fo
+
+
+od
+ su
+
+
+pp
+ly
+
+
+ n
+et
+
+
+wo
+rk
+
+
+s: 
+An
+
+
+ o
+ve
+
+
+rv
+iew
+
+
+.  
+   
+
+
+
+
+
+Sc
+op
+
+
+e 
+Au
+
+
+th
+or
+
+
+(s)
+ 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ A
+
+
+im
+ 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ Im
+
+
+pl
+em
+
+
+en
+ta
+
+
+tio
+n 
+
+
+Be
+ne
+
+
+fit
+s 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ Im
+
+
+pl
+em
+
+
+en
+ta
+
+
+tio
+n 
+
+
+Ch
+all
+
+
+en
+ge
+
+
+s 
+Th
+
+
+eo
+re
+
+
+tic
+al 
+
+
+Fo
+un
+
+
+da
+tio
+
+
+n 
+St
+
+
+ud
+y 
+
+
+Na
+tu
+
+
+re
+ 
+
+
+St
+ud
+
+
+y 
+M
+
+
+et
+ho
+
+
+do
+lo
+
+
+gy
+  
+
+
+En
+d-
+
+
+to
+-e
+
+
+nd
+ F
+
+
+oo
+d 
+
+
+Ch
+ai
+
+
+ns
+ 
+
+
+Be
+hn
+
+
+ke
+ a
+
+
+nd
+ 
+
+
+Ja
+ns
+
+
+se
+n 
+
+
+(2
+02
+
+
+0)
+ 
+
+
+En
+su
+
+
+re
+ fo
+
+
+od
+ tr
+
+
+ac
+ea
+
+
+bi
+lit
+
+
+y  
+• En
+
+
+ab
+les
+
+
+ in
+te
+
+
+rn
+al 
+
+
+an
+d 
+
+
+ch
+ain
+
+
+ tr
+ac
+
+
+ea
+bi
+
+
+lit
+y 
+
+
+of
+ 
+
+
+fo
+od
+
+
+ in
+gr
+
+
+ed
+ien
+
+
+ts 
+ 
+
+
+• En
+su
+
+
+re
+s t
+
+
+ru
+st 
+
+
+am
+on
+
+
+g 
+su
+
+
+pp
+ly
+
+
+ ch
+ain
+
+
+ p
+ar
+
+
+tn
+er
+
+
+s  
+• En
+
+
+ab
+les
+
+
+ co
+nfi
+
+
+de
+nc
+
+
+e o
+ve
+
+
+r f
+oo
+
+
+d 
+sa
+
+
+fet
+y 
+
+
+an
+d 
+
+
+qu
+ali
+
+
+ty
+  
+
+
+• En
+ab
+
+
+les
+ e
+
+
+ffe
+cti
+
+
+ve
+ m
+
+
+an
+ag
+
+
+em
+en
+
+
+t o
+f r
+
+
+ec
+all
+
+
+s  
+
+
+• Lo
+w 
+
+
+pr
+oc
+
+
+es
+sin
+
+
+g 
+ra
+
+
+te
+ o
+
+
+f t
+ra
+
+
+ns
+ac
+
+
+tio
+ns
+
+
+  
+• Ex
+
+
+pa
+nd
+
+
+in
+g 
+
+
+sto
+ra
+
+
+ge
+ ca
+
+
+pa
+cit
+
+
+y 
+re
+
+
+qu
+ire
+
+
+m
+en
+
+
+ts 
+fo
+
+
+r b
+lo
+
+
+ck
+s  
+
+
+• In
+te
+
+
+lle
+ctu
+
+
+al 
+pr
+
+
+op
+er
+
+
+ty
+ o
+
+
+wn
+er
+
+
+sh
+ip
+
+
+ a
+nd
+
+
+ 
+an
+
+
+on
+ym
+
+
+ity
+ o
+
+
+f u
+se
+
+
+rs 
+ 
+
+
+• Se
+cu
+
+
+rit
+y 
+
+
+iss
+ue
+
+
+s d
+ue
+
+
+ to
+ cy
+
+
+be
+r a
+
+
+tta
+ck
+
+
+s 
+
+
+Co
+nc
+
+
+ep
+tu
+
+
+al 
+fo
+
+
+od
+ tr
+
+
+ac
+ea
+
+
+bi
+lit
+
+
+y 
+fra
+
+
+m
+ew
+
+
+or
+k 
+
+
+of
+ A
+
+
+un
+g 
+
+
+an
+d 
+
+
+Ch
+an
+
+
+g 
+(2
+
+
+01
+4)
+
+
+
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Ca
+
+
+se
+ st
+
+
+ud
+y 
+
+
+Ch
+en
+
+
+ e
+t a
+
+
+l. 
+(2
+
+
+02
+0)
+
+
+ 
+En
+
+
+su
+re
+
+
+ fo
+od
+
+
+ tr
+an
+
+
+sp
+ar
+
+
+en
+cy
+
+
+  
+• En
+
+
+su
+re
+
+
+s r
+eli
+
+
+ab
+ili
+
+
+ty
+ a
+
+
+nd
+ tr
+
+
+an
+sp
+
+
+ar
+en
+
+
+cy
+ o
+
+
+f 
+in
+
+
+fo
+rm
+
+
+at
+io
+
+
+n 
+tra
+
+
+ns
+ac
+
+
+tio
+ns
+
+
+  
+• Im
+
+
+pr
+ov
+
+
+es
+ fo
+
+
+od
+ q
+
+
+ua
+lit
+
+
+y 
+m
+
+
+an
+ag
+
+
+em
+en
+
+
+t  
+• Pr
+
+
+ov
+id
+
+
+es
+ p
+
+
+er
+ks
+
+
+ to
+ a
+
+
+ll 
+sta
+
+
+ke
+ho
+
+
+ld
+er
+
+
+s s
+uc
+
+
+h 
+as
+
+
+ b
+y 
+
+
+eli
+m
+
+
+in
+at
+
+
+in
+g 
+
+
+th
+e 
+
+
+ne
+ed
+
+
+ fo
+r i
+
+
+nt
+er
+
+
+m
+ed
+
+
+iar
+ies
+
+
+  
+• En
+
+
+ha
+nc
+
+
+es
+ th
+
+
+e e
+ffi
+
+
+cie
+nc
+
+
+y 
+of
+
+
+ su
+pp
+
+
+ly
+ ch
+
+
+ain
+ 
+
+
+op
+er
+
+
+at
+io
+
+
+ns
+  
+
+
+• En
+ab
+
+
+les
+ q
+
+
+ui
+ck
+
+
+ a
+nd
+
+
+ a
+cc
+
+
+ur
+at
+
+
+e f
+oo
+
+
+d 
+tra
+
+
+ce
+ab
+
+
+ili
+ty
+
+
+
+
+
+• Hi
+gh
+
+
+ co
+m
+
+
+pl
+ex
+
+
+ity
+ o
+
+
+f d
+at
+
+
+a 
+an
+
+
+d 
+sy
+
+
+ste
+m
+
+
+s 
+in
+
+
+te
+gr
+
+
+at
+io
+
+
+n 
+ 
+
+
+• Ab
+se
+
+
+nc
+e o
+
+
+f r
+eg
+
+
+ul
+at
+
+
+io
+ns
+
+
+, l
+eg
+
+
+isl
+at
+
+
+io
+n,
+
+
+ 
+an
+
+
+d 
+glo
+
+
+ba
+l s
+
+
+ta
+nd
+
+
+ar
+ds
+
+
+ o
+ve
+
+
+r b
+lo
+
+
+ck
+ch
+
+
+ain
+ 
+
+
+te
+ch
+
+
+no
+lo
+
+
+gy
+  
+
+
+• Co
+nf
+
+
+us
+io
+
+
+n 
+an
+
+
+d 
+im
+
+
+m
+at
+
+
+ur
+e a
+
+
+pp
+lic
+
+
+at
+io
+
+
+n 
+of
+
+
+ b
+lo
+
+
+ck
+ch
+
+
+ain
+ te
+
+
+ch
+no
+
+
+lo
+gy
+
+
+  
+• Bo
+
+
+un
+di
+
+
+ng
+ b
+
+
+lo
+ck
+
+
+ch
+ain
+
+
+ te
+ch
+
+
+no
+lo
+
+
+gy
+ 
+
+
+ch
+ar
+
+
+ac
+te
+
+
+ris
+tic
+
+
+s  
+• Hi
+
+
+gh
+ in
+
+
+ve
+stm
+
+
+en
+t r
+
+
+eq
+ui
+
+
+re
+m
+
+
+en
+ts 
+
+
+on
+ 
+
+
+bl
+oc
+
+
+kc
+ha
+
+
+in
+-b
+
+
+as
+ed
+
+
+ sy
+ste
+
+
+m
+s 
+
+
+Di
+ffu
+
+
+sio
+n 
+
+
+of
+ In
+
+
+no
+va
+
+
+tio
+n 
+
+
+th
+eo
+
+
+ry
+; T
+
+
+ec
+hn
+
+
+ol
+og
+
+
+y, 
+Or
+
+
+ga
+ni
+
+
+za
+tio
+
+
+n,
+ a
+
+
+nd
+ 
+
+
+En
+vi
+
+
+ro
+nm
+
+
+en
+t f
+
+
+ra
+m
+
+
+ew
+or
+
+
+k 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Th
+
+
+em
+at
+
+
+ic 
+an
+
+
+aly
+sis
+
+
+
+
+
+Cr
+ew
+
+
+ (2
+01
+
+
+8a
+) 
+
+
+Pr
+om
+
+
+ot
+e c
+
+
+on
+su
+
+
+m
+er
+
+
+ tr
+us
+
+
+t  
+• En
+
+
+ab
+les
+
+
+ co
+nfi
+
+
+de
+nc
+
+
+e o
+ve
+
+
+r f
+oo
+
+
+d 
+pr
+
+
+ov
+en
+
+
+an
+ce
+
+
+, 
+in
+
+
+te
+gr
+
+
+ity
+ a
+
+
+nd
+ sa
+
+
+fet
+y  
+
+
+• En
+su
+
+
+re
+s p
+
+
+ro
+ve
+
+
+na
+nc
+
+
+e v
+ali
+
+
+da
+tio
+
+
+n 
+ 
+
+
+• Al
+lo
+
+
+ws
+ en
+
+
+d-
+to
+
+
+-en
+d 
+
+
+vi
+sib
+
+
+ili
+ty
+
+
+  
+• Pr
+
+
+ev
+en
+
+
+ts 
+fo
+
+
+od
+ fr
+
+
+au
+d 
+
+
+an
+d 
+
+
+co
+un
+
+
+te
+rfe
+
+
+iti
+ng
+
+
+  
+• En
+
+
+su
+re
+
+
+s s
+ec
+
+
+ur
+ity
+
+
+, c
+on
+
+
+fid
+en
+
+
+tia
+lit
+
+
+y 
+an
+
+
+d 
+ro
+
+
+bu
+stn
+
+
+es
+s o
+
+
+f i
+nf
+
+
+or
+m
+
+
+at
+io
+
+
+n 
+tra
+
+
+ns
+ac
+
+
+tio
+ns
+
+
+
+
+
+• In
+te
+
+
+lle
+ctu
+
+
+al 
+pr
+
+
+op
+er
+
+
+ty
+ o
+
+
+wn
+er
+
+
+sh
+ip
+
+
+ a
+nd
+
+
+ 
+in
+
+
+fo
+rm
+
+
+at
+io
+
+
+n 
+co
+
+
+nfi
+de
+
+
+nt
+ial
+
+
+ity
+ 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Cr
+
+
+iti
+ca
+
+
+l d
+isc
+
+
+us
+sio
+
+
+n 
+
+
+Cr
+ew
+
+
+ (2
+01
+
+
+8b
+) 
+
+
+Pr
+om
+
+
+ot
+e f
+
+
+oo
+d 
+
+
+sa
+fet
+
+
+y  
+• As
+
+
+sis
+ts 
+
+
+in
+ el
+
+
+im
+in
+
+
+at
+in
+
+
+g 
+fo
+
+
+od
+ fr
+
+
+au
+d 
+
+
+an
+d 
+
+
+co
+un
+
+
+te
+rfe
+
+
+iti
+ng
+
+
+ ri
+sk
+
+
+s  
+• En
+
+
+ha
+nc
+
+
+es
+ fo
+
+
+od
+ su
+
+
+pp
+ly
+
+
+ ch
+ain
+
+
+ tr
+an
+
+
+sp
+ar
+
+
+en
+cy
+
+
+, 
+tra
+
+
+ck
+in
+
+
+g 
+an
+
+
+d 
+tra
+
+
+ce
+ab
+
+
+ili
+ty
+
+
+  
+• En
+
+
+ab
+les
+
+
+ th
+e i
+
+
+de
+nt
+
+
+ifi
+ca
+
+
+tio
+n 
+
+
+of
+ fo
+
+
+od
+bo
+
+
+rn
+e 
+
+
+ill
+ne
+
+
+sse
+s f
+
+
+or
+ th
+
+
+e 
+eff
+
+
+ec
+tiv
+
+
+e m
+an
+
+
+ag
+em
+
+
+en
+t o
+
+
+f 
+re
+
+
+ca
+lls
+
+
+  
+• He
+
+
+lp
+s p
+
+
+ro
+m
+
+
+ot
+e 
+
+
+fo
+od
+
+
+ se
+cu
+
+
+rit
+y  
+
+
+• Fo
+ste
+
+
+rs 
+tru
+
+
+st,
+ a
+
+
+cc
+ou
+
+
+nt
+ab
+
+
+ili
+ty
+
+
+, a
+nd
+
+
+ 
+tra
+
+
+ns
+pa
+
+
+re
+nc
+
+
+y 
+ac
+
+
+ro
+ss 
+
+
+fo
+od
+
+
+ su
+pp
+
+
+ly
+ n
+
+
+et
+wo
+
+
+rk
+s  
+
+
+• En
+su
+
+
+re
+s s
+
+
+ec
+ur
+
+
+ity
+, c
+
+
+on
+fid
+
+
+en
+tia
+
+
+lit
+y 
+
+
+an
+d 
+
+
+ro
+bu
+
+
+stn
+es
+
+
+s o
+f i
+
+
+nf
+or
+
+
+m
+at
+
+
+io
+n 
+
+
+tra
+ns
+
+
+ac
+tio
+
+
+ns
+  
+
+
+• Pr
+om
+
+
+ot
+es
+
+
+ re
+du
+
+
+cti
+on
+
+
+s i
+n 
+
+
+fo
+od
+
+
+ w
+as
+
+
+te
+  
+
+
+• En
+su
+
+
+re
+s s
+
+
+m
+oo
+
+
+th
+er
+
+
+ a
+nd
+
+
+ fa
+ste
+
+
+r t
+ra
+
+
+de
+ (i
+
+
+.e.
+ 
+
+
+im
+po
+
+
+rt/
+ex
+
+
+po
+rt)
+
+
+ tr
+an
+
+
+sa
+cti
+
+
+on
+s  
+
+
+• En
+su
+
+
+re
+s a
+
+
+ck
+no
+
+
+wl
+ed
+
+
+ge
+m
+
+
+en
+t o
+
+
+f s
+up
+
+
+pl
+ier
+
+
+s/
+ 
+
+
+pr
+od
+
+
+uc
+er
+
+
+s  
+• Su
+
+
+pp
+or
+
+
+ts 
+br
+
+
+an
+d 
+
+
+re
+pu
+
+
+ta
+tio
+
+
+n 
+ 
+
+
+• Ve
+ra
+
+
+cit
+y 
+
+
+of
+ re
+
+
+co
+rd
+
+
+ed
+ d
+
+
+at
+a  
+
+
+• Sa
+feg
+
+
+ua
+rd
+
+
+ o
+f t
+
+
+he
+ p
+
+
+hy
+sic
+
+
+al 
+in
+
+
+te
+gr
+
+
+ity
+ o
+
+
+f 
+leg
+
+
+iti
+m
+
+
+at
+e 
+
+
+go
+od
+
+
+s  
+• Te
+
+
+ch
+no
+
+
+lo
+gy
+
+
+ d
+ev
+
+
+elo
+pm
+
+
+en
+t t
+
+
+im
+e t
+
+
+o 
+en
+
+
+su
+re
+
+
+ st
+ak
+
+
+eh
+ol
+
+
+de
+r i
+
+
+nc
+lu
+
+
+siv
+en
+
+
+es
+s  
+
+
+• Sy
+ste
+
+
+m
+ a
+
+
+lig
+nm
+
+
+en
+t a
+
+
+nd
+ in
+
+
+te
+gr
+
+
+ity
+  
+
+
+• In
+te
+
+
+lle
+ctu
+
+
+al 
+pr
+
+
+op
+er
+
+
+ty
+ o
+
+
+wn
+er
+
+
+sh
+ip
+
+
+ a
+nd
+
+
+ 
+in
+
+
+fo
+rm
+
+
+at
+io
+
+
+n 
+co
+
+
+nfi
+de
+
+
+nt
+ial
+
+
+ity
+ 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Cr
+
+
+iti
+ca
+
+
+l d
+isc
+
+
+us
+sio
+
+
+n 
+
+
+Ka
+m
+
+
+ila
+ris
+
+
+ e
+t a
+
+
+l. 
+(2
+
+
+01
+9)
+
+
+ 
+En
+
+
+su
+re
+
+
+ fo
+od
+
+
+ su
+pp
+
+
+ly
+ ch
+
+
+ain
+ 
+
+
+tra
+ns
+
+
+pa
+re
+
+
+nc
+y  
+
+
+• Fa
+cil
+
+
+ita
+te
+
+
+s fi
+na
+
+
+nc
+ial
+
+
+ tr
+an
+
+
+sa
+cti
+
+
+on
+s a
+
+
+nd
+ 
+
+
+pr
+om
+
+
+ot
+es
+
+
+ v
+iab
+
+
+ili
+ty
+
+
+ o
+f s
+
+
+m
+all
+
+
+ fa
+rm
+
+
+er
+s  
+
+
+• Fa
+cil
+
+
+ita
+te
+
+
+s m
+or
+
+
+e 
+in
+
+
+fo
+rm
+
+
+ed
+ co
+
+
+ns
+um
+
+
+er
+ 
+
+
+pu
+rc
+
+
+ha
+sin
+
+
+g 
+de
+
+
+cis
+io
+
+
+ns
+  
+
+
+• Pr
+om
+
+
+ot
+es
+
+
+ su
+sta
+
+
+in
+ab
+
+
+ili
+ty
+
+
+ a
+lo
+
+
+ng
+ w
+
+
+ith
+ e
+
+
+m
+iss
+
+
+io
+ns
+
+
+ 
+an
+
+
+d 
+wa
+
+
+ste
+ re
+
+
+du
+cti
+
+
+on
+  
+
+
+• El
+im
+
+
+in
+at
+
+
+es
+ th
+
+
+e n
+ee
+
+
+d 
+fo
+
+
+r i
+nt
+
+
+er
+m
+
+
+ed
+iar
+
+
+ies
+  
+
+
+• En
+ab
+
+
+les
+ co
+
+
+nfi
+de
+
+
+nc
+e o
+
+
+ve
+r f
+
+
+oo
+d 
+
+
+sa
+fet
+
+
+y 
+an
+
+
+d 
+qu
+
+
+ali
+ty
+
+
+  
+• En
+
+
+ab
+les
+
+
+ fo
+od
+
+
+ tr
+ac
+
+
+ea
+bi
+
+
+lit
+y  
+
+
+• Ab
+se
+
+
+nc
+e o
+
+
+f r
+eg
+
+
+ul
+at
+
+
+io
+ns
+
+
+ o
+ve
+
+
+r 
+bl
+
+
+oc
+kc
+
+
+ha
+in
+
+
+ te
+ch
+
+
+no
+lo
+
+
+gy
+  
+
+
+• Li
+m
+
+
+ite
+d 
+
+
+or
+ga
+
+
+ni
+sa
+
+
+tio
+na
+
+
+l e
+du
+
+
+ca
+tio
+
+
+n 
+an
+
+
+d 
+sk
+
+
+ill
+s, 
+
+
+pa
+rti
+
+
+cu
+lar
+
+
+ly
+ in
+
+
+ S
+M
+
+
+Es
+  
+
+
+• In
+te
+
+
+lle
+ctu
+
+
+al 
+pr
+
+
+op
+er
+
+
+ty
+ o
+
+
+wn
+er
+
+
+sh
+ip
+
+
+ a
+nd
+
+
+ 
+an
+
+
+on
+ym
+
+
+ity
+ o
+
+
+f u
+se
+
+
+rs 
+ 
+
+
+• Bo
+un
+
+
+di
+ng
+
+
+ b
+lo
+
+
+ck
+ch
+
+
+ain
+ te
+
+
+ch
+no
+
+
+lo
+gy
+
+
+ 
+ch
+
+
+ar
+ac
+
+
+te
+ris
+
+
+tic
+s  
+
+
+• Co
+ns
+
+
+id
+er
+
+
+ab
+le 
+
+
+in
+ve
+
+
+stm
+en
+
+
+t c
+os
+
+
+t o
+n 
+
+
+re
+qu
+
+
+ire
+d 
+
+
+co
+m
+
+
+pu
+tin
+
+
+g 
+or
+
+
+ In
+te
+
+
+rn
+et
+
+
+ o
+f 
+
+
+Th
+in
+
+
+gs
+ eq
+
+
+ui
+pm
+
+
+en
+t  
+
+
+• Ve
+ra
+
+
+cit
+y 
+
+
+of
+ re
+
+
+co
+rd
+
+
+ed
+ d
+
+
+at
+a 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Re
+
+
+vi
+ew
+
+
+ o
+f i
+
+
+ni
+tia
+
+
+tiv
+es
+
+
+ 
+an
+
+
+d 
+pr
+
+
+oj
+ec
+
+
+ts 
+
+
+(co
+nt
+
+
+inu
+ed
+
+
+ o
+n 
+
+
+ne
+xt
+
+
+ p
+ag
+
+
+e) 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+Ta
+bl
+
+
+e 
+1 
+
+
+(co
+nt
+
+
+inu
+ed
+
+
+)  
+   
+
+
+
+
+
+Sc
+op
+
+
+e 
+Au
+
+
+th
+or
+
+
+(s)
+ 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ A
+
+
+im
+ 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ Im
+
+
+pl
+em
+
+
+en
+ta
+
+
+tio
+n 
+
+
+Be
+ne
+
+
+fit
+s 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ Im
+
+
+pl
+em
+
+
+en
+ta
+
+
+tio
+n 
+
+
+Ch
+all
+
+
+en
+ge
+
+
+s 
+Th
+
+
+eo
+re
+
+
+tic
+al 
+
+
+Fo
+un
+
+
+da
+tio
+
+
+n 
+St
+
+
+ud
+y 
+
+
+Na
+tu
+
+
+re
+ 
+
+
+St
+ud
+
+
+y 
+M
+
+
+et
+ho
+
+
+do
+lo
+
+
+gy
+   
+
+
+• Hi
+gh
+
+
+ co
+m
+
+
+pl
+ex
+
+
+ity
+ o
+
+
+f d
+at
+
+
+a 
+an
+
+
+d 
+sy
+
+
+ste
+m
+
+
+s 
+in
+
+
+te
+gr
+
+
+at
+io
+
+
+n 
+Ki
+
+
+m
+ a
+
+
+nd
+ 
+
+
+La
+sk
+
+
+ow
+sk
+
+
+i 
+(2
+
+
+01
+8)
+
+
+
+
+
+En
+su
+
+
+re
+ su
+
+
+pp
+ly
+
+
+ ch
+ain
+
+
+ 
+pr
+
+
+ov
+en
+
+
+an
+ce
+
+
+  
+• En
+
+
+ab
+les
+
+
+ p
+ro
+
+
+ve
+na
+
+
+nc
+e t
+
+
+ra
+cin
+
+
+g  
+• En
+
+
+fo
+rc
+
+
+es
+ tr
+
+
+ac
+ea
+
+
+bi
+lit
+
+
+y  
+• En
+
+
+su
+re
+
+
+s f
+oo
+
+
+d 
+sa
+
+
+fet
+y  
+
+
+• Di
+str
+
+
+ib
+ut
+
+
+ed
+ d
+
+
+at
+ab
+
+
+as
+es
+
+
+ m
+ay
+
+
+ n
+ot
+
+
+ b
+e 
+
+
+co
+ns
+
+
+ist
+en
+
+
+t w
+ith
+
+
+ a
+ b
+
+
+lo
+ck
+
+
+ch
+ain
+
+
+ d
+es
+
+
+ig
+n 
+
+
+ 
+• Bu
+
+
+sin
+es
+
+
+s p
+ra
+
+
+cti
+ce
+
+
+s a
+nd
+
+
+ p
+ro
+
+
+ce
+sse
+
+
+s m
+ay
+
+
+ 
+no
+
+
+t h
+av
+
+
+e a
+do
+
+
+pt
+ed
+
+
+ co
+m
+
+
+m
+on
+
+
+ d
+at
+
+
+a 
+sta
+
+
+nd
+ar
+
+
+ds
+  
+
+
+• Co
+m
+
+
+m
+on
+
+
+ in
+te
+
+
+rp
+re
+
+
+ta
+tio
+
+
+n 
+of
+
+
+ d
+at
+
+
+a 
+fro
+
+
+m
+ 
+
+
+di
+ffe
+
+
+re
+nt
+
+
+ en
+te
+
+
+rp
+ris
+
+
+es
+ is
+
+
+ la
+ck
+
+
+in
+g 
+
+
+Co
+m
+
+
+pu
+ta
+
+
+tio
+na
+
+
+l o
+nt
+
+
+ol
+og
+
+
+y 
+Pr
+
+
+og
+ra
+
+
+m
+m
+
+
+in
+g 
+
+
+– 
+Co
+
+
+de
+ d
+
+
+ev
+elo
+
+
+pm
+en
+
+
+t 
+Pr
+
+
+oo
+f-o
+
+
+f-c
+on
+
+
+ce
+pt
+
+
+ 
+on
+
+
+to
+lo
+
+
+gy
+ 
+
+
+M
+ar
+
+
+fia
+ a
+
+
+nd
+ D
+
+
+eg
+li 
+
+
+Es
+po
+
+
+sti
+ (2
+
+
+01
+7)
+
+
+ 
+Pr
+
+
+om
+ot
+
+
+e c
+on
+
+
+su
+m
+
+
+er
+ tr
+
+
+us
+t  
+
+
+• He
+lp
+
+
+s m
+ain
+
+
+ta
+in
+
+
+ fi
+de
+
+
+lit
+y 
+
+
+of
+ th
+
+
+e 
+cu
+
+
+sto
+m
+
+
+er
+ b
+
+
+as
+e  
+
+
+• En
+su
+
+
+re
+s q
+
+
+ua
+lit
+
+
+y 
+at
+
+
+tri
+bu
+
+
+te
+s o
+
+
+f p
+ro
+
+
+du
+cts
+
+
+  
+• In
+
+
+sp
+ire
+
+
+s r
+es
+
+
+ho
+rin
+
+
+g 
+of
+
+
+ b
+us
+
+
+in
+es
+
+
+s a
+cti
+
+
+vi
+tie
+
+
+s  
+• Su
+
+
+pp
+or
+
+
+ts 
+fo
+
+
+od
+ b
+
+
+ra
+nd
+
+
+ im
+ag
+
+
+e  
+• El
+
+
+im
+in
+
+
+at
+es
+
+
+ th
+e i
+
+
+ssu
+es
+
+
+ o
+f s
+
+
+yb
+il 
+
+
+at
+ta
+
+
+ck
+s  
+
+
+• Ve
+ra
+
+
+cit
+y 
+
+
+of
+ re
+
+
+co
+rd
+
+
+ed
+ d
+
+
+at
+a 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Co
+
+
+nc
+ep
+
+
+tu
+al 
+
+
+ca
+se
+
+
+ st
+ud
+
+
+y 
+
+
+M
+on
+
+
+da
+l e
+
+
+t a
+l. 
+
+
+(2
+01
+
+
+9)
+ 
+
+
+Pr
+om
+
+
+ot
+e f
+
+
+oo
+d 
+
+
+sa
+fet
+
+
+y 
+& 
+
+
+m
+iti
+
+
+ga
+te
+
+
+ fo
+od
+
+
+ w
+as
+
+
+te
+  
+
+
+• Im
+pr
+
+
+ov
+es
+
+
+ in
+te
+
+
+gr
+ity
+
+
+ o
+f d
+
+
+ig
+ita
+
+
+l d
+at
+
+
+a  
+• En
+
+
+ab
+les
+
+
+ e
+nd
+
+
+-to
+-en
+
+
+d 
+fo
+
+
+od
+ p
+
+
+ro
+du
+
+
+ct 
+vi
+
+
+sib
+ili
+
+
+ty
+  
+
+
+• En
+ab
+
+
+les
+ re
+
+
+al-
+tim
+
+
+e t
+ra
+
+
+ck
+in
+
+
+g 
+an
+
+
+d 
+se
+
+
+ns
+in
+
+
+g 
+of
+
+
+ 
+fo
+
+
+od
+ p
+
+
+ro
+du
+
+
+cts
+  
+
+
+• Di
+sc
+
+
+ou
+ra
+
+
+ge
+s a
+
+
+du
+lte
+
+
+ra
+tio
+
+
+n 
+of
+
+
+ fo
+od
+
+
+ p
+ro
+
+
+du
+cts
+
+
+  
+• He
+
+
+lp
+s d
+
+
+et
+er
+
+
+m
+in
+
+
+e t
+he
+
+
+ sh
+elf
+
+
+ li
+fe 
+
+
+of
+ fo
+
+
+od
+ 
+
+
+pr
+od
+
+
+uc
+ts,
+
+
+ th
+us
+
+
+ le
+ad
+
+
+in
+g 
+
+
+to
+ re
+
+
+du
+ce
+
+
+d 
+wa
+
+
+ste
+  
+
+
+• Al
+lo
+
+
+ws
+ sp
+
+
+ec
+ifi
+
+
+c a
+nd
+
+
+ ta
+rg
+
+
+et
+ed
+
+
+ re
+ca
+
+
+lls
+  
+
+
+• Ad
+di
+
+
+ng
+ a
+
+
+ si
+ng
+
+
+le 
+bl
+
+
+oc
+k 
+
+
+in
+ e
+
+
+xis
+tin
+
+
+g 
+bl
+
+
+oc
+kc
+
+
+ha
+in
+
+
+ le
+ad
+
+
+s t
+o 
+
+
+ex
+te
+
+
+ns
+iv
+
+
+e 
+co
+
+
+m
+pu
+
+
+ta
+tio
+
+
+na
+l r
+
+
+eq
+ui
+
+
+re
+m
+
+
+en
+ts 
+
+
+an
+d 
+
+
+ele
+ctr
+
+
+ici
+ty
+
+
+ co
+ns
+
+
+um
+pt
+
+
+io
+n 
+
+
+ 
+• In
+
+
+cr
+ea
+
+
+se
+d 
+
+
+op
+er
+
+
+at
+io
+
+
+na
+l c
+
+
+os
+t  
+
+
+• Se
+cu
+
+
+rit
+y 
+
+
+iss
+ue
+
+
+s d
+ue
+
+
+ to
+ cy
+
+
+be
+r a
+
+
+tta
+ck
+
+
+s 
+
+
+Pr
+oo
+
+
+f-o
+f-o
+
+
+bj
+ec
+
+
+t-b
+as
+
+
+ed
+ 
+
+
+au
+th
+
+
+en
+tic
+
+
+at
+io
+
+
+n 
+pr
+
+
+ot
+oc
+
+
+ol
+ 
+
+
+Pr
+og
+
+
+ra
+m
+
+
+m
+in
+
+
+g 
+– 
+
+
+Co
+de
+
+
+ d
+ev
+
+
+elo
+pm
+
+
+en
+t 
+
+
+Pr
+oo
+
+
+f-o
+f-c
+
+
+on
+ce
+
+
+pt
+ 
+
+
+bl
+oc
+
+
+kc
+ha
+
+
+in
+ a
+
+
+rc
+hi
+
+
+te
+ctu
+
+
+re
+ 
+
+
+Na
+sh
+
+
+ (2
+01
+
+
+8)
+ 
+
+
+Pr
+om
+
+
+ot
+e c
+
+
+on
+su
+
+
+m
+er
+
+
+ tr
+us
+
+
+t  
+• En
+
+
+ab
+les
+
+
+ fo
+od
+
+
+ tr
+ac
+
+
+ki
+ng
+
+
+ a
+nd
+
+
+ tr
+ac
+
+
+in
+g  
+
+
+• He
+lp
+
+
+s e
+ns
+
+
+ur
+e 
+
+
+fo
+od
+
+
+ sa
+fet
+
+
+y  
+• Im
+
+
+pr
+ov
+
+
+es
+ p
+
+
+ro
+du
+
+
+ct 
+re
+
+
+ca
+lls
+
+
+  
+• Li
+
+
+m
+its
+
+
+ th
+e 
+
+
+tim
+e p
+
+
+er
+io
+
+
+d 
+du
+
+
+rin
+g 
+
+
+wh
+ich
+
+
+ 
+co
+
+
+ns
+um
+
+
+er
+s a
+
+
+re
+ a
+
+
+t r
+isk
+
+
+ d
+ue
+
+
+ to
+ fo
+
+
+od
+ 
+
+
+co
+nt
+
+
+am
+in
+
+
+at
+io
+
+
+n 
+ 
+
+
+• He
+lp
+
+
+s l
+im
+
+
+it 
+bu
+
+
+sin
+es
+
+
+s fi
+na
+
+
+nc
+ial
+
+
+ lo
+sse
+
+
+s f
+ro
+
+
+m
+ 
+
+
+ov
+er
+
+
+ly
+ b
+
+
+ro
+ad
+
+
+ re
+ca
+
+
+lls
+  
+
+
+• He
+lp
+
+
+s e
+lim
+
+
+in
+at
+
+
+e 
+co
+
+
+stl
+y 
+
+
+m
+id
+
+
+dl
+e l
+
+
+ay
+er
+
+
+s o
+f 
+
+
+op
+er
+
+
+at
+io
+
+
+ns
+ d
+
+
+ue
+ to
+
+
+ th
+e b
+
+
+lo
+ck
+
+
+ch
+ain
+
+
+ p
+ee
+
+
+r-t
+o-
+
+
+pe
+er
+
+
+ 
+str
+
+
+uc
+tu
+
+
+re
+  
+
+
+• In
+te
+
+
+gr
+at
+
+
+io
+n 
+
+
+ch
+all
+
+
+en
+ge
+
+
+s o
+f p
+
+
+ro
+pr
+
+
+iet
+ar
+
+
+y 
+da
+
+
+ta
+ m
+
+
+an
+ag
+
+
+em
+en
+
+
+t s
+of
+
+
+tw
+ar
+
+
+e t
+oo
+
+
+ls 
+cu
+
+
+rre
+nt
+
+
+ly
+ u
+
+
+se
+d 
+
+
+by
+ su
+
+
+pp
+ly
+
+
+ ch
+ain
+
+
+ a
+cto
+
+
+rs 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Cr
+
+
+iti
+ca
+
+
+l d
+isc
+
+
+us
+sio
+
+
+n 
+
+
+Nd
+ra
+
+
+ha
+ et
+
+
+ a
+l. 
+
+
+(2
+01
+
+
+8)
+ 
+
+
+M
+iti
+
+
+ga
+te
+
+
+ fo
+od
+
+
+ w
+as
+
+
+te
+  
+
+
+• Fa
+cil
+
+
+ita
+te
+
+
+s s
+ec
+
+
+ur
+e a
+
+
+nd
+ tr
+
+
+an
+sp
+
+
+ar
+en
+
+
+t 
+in
+
+
+fo
+rm
+
+
+at
+io
+
+
+n 
+tra
+
+
+ns
+fer
+
+
+s  
+• En
+
+
+ab
+les
+
+
+ th
+e e
+
+
+xe
+cu
+
+
+tio
+n 
+
+
+of
+ p
+
+
+re
+-d
+
+
+efi
+ne
+
+
+d 
+cr
+
+
+ite
+ria
+
+
+ 
+(e
+
+
+.g.
+, t
+
+
+em
+pe
+
+
+ra
+tu
+
+
+re
+ le
+
+
+ve
+l o
+
+
+f a
+ fo
+
+
+od
+ p
+
+
+ro
+du
+
+
+ct)
+ 
+
+
+be
+yo
+
+
+nd
+ p
+
+
+re
+-d
+
+
+efi
+ne
+
+
+d 
+th
+
+
+re
+sh
+
+
+ol
+ds
+
+
+
+
+
+• Te
+ch
+
+
+ni
+ca
+
+
+l r
+ea
+
+
+lis
+at
+
+
+io
+n 
+
+
+ch
+all
+
+
+en
+ge
+
+
+s  
+• In
+
+
+fra
+str
+
+
+uc
+tu
+
+
+ra
+l c
+
+
+on
+fig
+
+
+ur
+at
+
+
+io
+n 
+
+
+re
+qu
+
+
+ire
+m
+
+
+en
+ts 
+
+
+ 
+• Hi
+
+
+gh
+ co
+
+
+m
+pu
+
+
+ta
+tio
+
+
+n 
+po
+
+
+we
+r 
+
+
+re
+qu
+
+
+ire
+m
+
+
+en
+ts 
+
+
+ 
+• Sc
+
+
+ala
+bi
+
+
+lit
+y 
+
+
+iss
+ue
+
+
+s  
+• Pr
+
+
+iv
+ac
+
+
+y 
+an
+
+
+d 
+da
+
+
+ta
+ le
+
+
+ak
+ag
+
+
+e i
+ssu
+
+
+es
+  
+
+
+• In
+ad
+
+
+eq
+ua
+
+
+te
+ le
+
+
+ga
+l f
+
+
+ra
+m
+
+
+ew
+or
+
+
+k 
+in
+
+
+ 
+pr
+
+
+ac
+tic
+
+
+e  
+• La
+
+
+ck
+ o
+
+
+f g
+ui
+
+
+de
+lin
+
+
+es
+ b
+
+
+y 
+re
+
+
+lev
+an
+
+
+t 
+re
+
+
+gu
+lat
+
+
+or
+y 
+
+
+au
+th
+
+
+or
+iti
+
+
+es
+ 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Cr
+
+
+iti
+ca
+
+
+l d
+isc
+
+
+us
+sio
+
+
+n 
+
+
+Pe
+nd
+
+
+ro
+us
+
+
+ (2
+01
+
+
+7)
+ 
+
+
+En
+su
+
+
+re
+ su
+
+
+pp
+ly
+
+
+ ch
+ain
+
+
+ 
+pr
+
+
+ov
+en
+
+
+an
+ce
+
+
+  
+• En
+
+
+ab
+les
+
+
+ re
+co
+
+
+rd
+in
+
+
+g 
+of
+
+
+ tr
+an
+
+
+sa
+cti
+
+
+on
+s i
+
+
+n 
+a 
+
+
+ve
+rifi
+
+
+ab
+le 
+
+
+an
+d 
+
+
+pe
+rm
+
+
+an
+en
+
+
+t m
+an
+
+
+ne
+r  
+
+
+• As
+su
+
+
+re
+s p
+
+
+ro
+ve
+
+
+na
+nc
+
+
+e a
+nd
+
+
+ a
+ut
+
+
+he
+nt
+
+
+ici
+ty
+
+
+ o
+f f
+
+
+oo
+d 
+
+
+pr
+od
+
+
+uc
+ts 
+
+
+ 
+• En
+
+
+ab
+les
+
+
+ co
+nfi
+
+
+de
+nc
+
+
+e o
+ve
+
+
+r f
+oo
+
+
+d 
+qu
+
+
+ali
+ty
+
+
+, 
+in
+
+
+te
+gr
+
+
+ity
+ a
+
+
+nd
+ sa
+
+
+fet
+y  
+
+
+• En
+ha
+
+
+nc
+es
+
+
+ fo
+od
+
+
+ su
+pp
+
+
+ly
+ ch
+
+
+ain
+ tr
+
+
+an
+sp
+
+
+ar
+en
+
+
+cy
+ an
+
+
+d 
+tra
+
+
+ce
+ab
+
+
+ili
+ty
+
+
+  
+• Su
+
+
+pp
+or
+
+
+ts 
+fo
+
+
+od
+ fr
+
+
+au
+d 
+
+
+pr
+ev
+
+
+en
+tio
+
+
+n 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Cr
+
+
+iti
+ca
+
+
+l d
+isc
+
+
+us
+sio
+
+
+n 
+
+
+Sa
+nd
+
+
+er
+ e
+
+
+t a
+l. 
+
+
+(2
+01
+
+
+8)
+ 
+
+
+Pr
+om
+
+
+ot
+e c
+
+
+on
+su
+
+
+m
+er
+
+
+ tr
+us
+
+
+t  
+• En
+
+
+ha
+nc
+
+
+es
+ fo
+
+
+od
+ su
+
+
+pp
+ly
+
+
+ ch
+ain
+
+
+ tr
+an
+
+
+sp
+ar
+
+
+en
+cy
+
+
+ an
+d 
+
+
+tra
+ce
+
+
+ab
+ili
+
+
+ty
+  
+
+
+• Co
+m
+
+
+pa
+tib
+
+
+ili
+ty
+
+
+ is
+su
+
+
+es
+ o
+
+
+f s
+ys
+
+
+te
+m
+
+
+s a
+cr
+
+
+os
+s 
+
+
+th
+e s
+
+
+up
+pl
+
+
+y 
+ch
+
+
+ain
+ 
+
+
+St
+ak
+
+
+eh
+ol
+
+
+de
+r t
+
+
+he
+or
+
+
+y 
+Qu
+
+
+an
+tit
+
+
+at
+iv
+
+
+e 
+
+
+(co
+nt
+
+
+inu
+ed
+
+
+ o
+n 
+
+
+ne
+xt
+
+
+ p
+ag
+
+
+e) 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+Ta
+bl
+
+
+e 
+1 
+
+
+(co
+nt
+
+
+inu
+ed
+
+
+)  
+   
+
+
+
+
+
+Sc
+op
+
+
+e 
+Au
+
+
+th
+or
+
+
+(s)
+ 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ A
+
+
+im
+ 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ Im
+
+
+pl
+em
+
+
+en
+ta
+
+
+tio
+n 
+
+
+Be
+ne
+
+
+fit
+s 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ Im
+
+
+pl
+em
+
+
+en
+ta
+
+
+tio
+n 
+
+
+Ch
+all
+
+
+en
+ge
+
+
+s 
+Th
+
+
+eo
+re
+
+
+tic
+al 
+
+
+Fo
+un
+
+
+da
+tio
+
+
+n 
+St
+
+
+ud
+y 
+
+
+Na
+tu
+
+
+re
+ 
+
+
+St
+ud
+
+
+y 
+M
+
+
+et
+ho
+
+
+do
+lo
+
+
+gy
+   
+
+
+• En
+su
+
+
+re
+s i
+
+
+nd
+ep
+
+
+en
+de
+
+
+nc
+e, 
+
+
+in
+te
+
+
+gr
+ity
+
+
+, a
+nd
+
+
+ 
+cr
+
+
+ed
+ib
+
+
+ili
+ty
+
+
+  
+• En
+
+
+ab
+les
+
+
+ co
+nfi
+
+
+de
+nc
+
+
+e o
+ve
+
+
+r f
+oo
+
+
+d 
+qu
+
+
+ali
+ty
+
+
+
+
+
+• Re
+sis
+
+
+ta
+nc
+
+
+e t
+o 
+
+
+ch
+an
+
+
+ge
+ a
+
+
+m
+on
+
+
+g 
+su
+
+
+pp
+ly
+
+
+ 
+ch
+
+
+ain
+ a
+
+
+cto
+rs 
+
+
+ 
+• In
+
+
+fo
+rm
+
+
+at
+io
+
+
+n 
+ov
+
+
+er
+lo
+
+
+ad
+  
+
+
+• Co
+st 
+
+
+di
+str
+
+
+ib
+ut
+
+
+io
+n 
+
+
+of
+ b
+
+
+lo
+ck
+
+
+ch
+ain
+
+
+ 
+te
+
+
+ch
+no
+
+
+lo
+gy
+
+
+
+
+
+Qu
+es
+
+
+tio
+nn
+
+
+air
+e-b
+
+
+as
+ed
+
+
+ 
+su
+
+
+rv
+ey
+
+
+; S
+em
+
+
+i- 
+str
+
+
+uc
+tu
+
+
+re
+d 
+
+
+in
+te
+
+
+rv
+iew
+
+
+s 
+
+
+Ti
+an
+
+
+ (2
+01
+
+
+7)
+ 
+
+
+Pr
+om
+
+
+ot
+e c
+
+
+on
+su
+
+
+m
+er
+
+
+ tr
+us
+
+
+t  
+• En
+
+
+ha
+nc
+
+
+es
+ fo
+
+
+od
+ su
+
+
+pp
+ly
+
+
+ ch
+ain
+
+
+ tr
+an
+
+
+sp
+ar
+
+
+en
+cy
+
+
+ an
+d 
+
+
+tra
+ce
+
+
+ab
+ili
+
+
+ty
+  
+
+
+• En
+su
+
+
+re
+s f
+
+
+oo
+d 
+
+
+sa
+fet
+
+
+y  
+
+
+• Sc
+ala
+
+
+bi
+lit
+
+
+y 
+iss
+
+
+ue
+s i
+
+
+n 
+te
+
+
+rm
+s o
+
+
+f 
+th
+
+
+ro
+ug
+
+
+hp
+ut
+
+
+, l
+at
+
+
+en
+cy
+
+
+, a
+nd
+
+
+ ca
+pa
+
+
+cit
+y  
+
+
+• Ve
+ra
+
+
+cit
+y 
+
+
+of
+ re
+
+
+co
+rd
+
+
+ed
+ d
+
+
+at
+a  
+
+
+• Se
+cu
+
+
+rit
+y 
+
+
+iss
+ue
+
+
+s d
+ue
+
+
+ to
+ cy
+
+
+be
+r a
+
+
+tta
+ck
+
+
+s 
+
+
+HA
+CC
+
+
+P 
+pr
+
+
+oc
+es
+
+
+s c
+on
+
+
+tro
+l 
+
+
+sy
+ste
+
+
+m
+ 
+
+
+Qu
+an
+
+
+tit
+at
+
+
+iv
+e 
+
+
+Co
+nc
+
+
+ep
+tu
+
+
+al 
+sc
+
+
+en
+ar
+
+
+io
+s 
+
+
+in
+ve
+
+
+sti
+ga
+
+
+tio
+n 
+
+
+Fi
+sh
+
+
+ In
+du
+
+
+str
+y 
+
+
+Co
+ok
+
+
+ (2
+01
+
+
+8)
+ 
+
+
+En
+su
+
+
+re
+ re
+
+
+sp
+on
+
+
+sib
+le 
+
+
+an
+d 
+
+
+et
+hi
+
+
+ca
+l p
+
+
+ro
+du
+
+
+ce
+rs’
+
+
+ re
+wa
+
+
+rd
+ &
+
+
+ 
+pr
+
+
+om
+ot
+
+
+e 
+co
+
+
+ns
+um
+
+
+er
+ tr
+
+
+us
+t  
+
+
+• En
+ha
+
+
+nc
+es
+
+
+ se
+af
+
+
+oo
+d 
+
+
+su
+pp
+
+
+ly
+ ch
+
+
+ain
+ tr
+
+
+an
+sp
+
+
+ar
+en
+
+
+cy
+ 
+
+
+an
+d 
+
+
+tra
+ce
+
+
+ab
+ili
+
+
+ty
+  
+
+
+• He
+lp
+
+
+s e
+lim
+
+
+in
+at
+
+
+e 
+ill
+
+
+eg
+al 
+
+
+or
+ u
+
+
+ne
+th
+
+
+ica
+l s
+
+
+ea
+fo
+
+
+od
+  
+
+
+• Su
+pp
+
+
+or
+ts 
+
+
+re
+gu
+
+
+lat
+or
+
+
+y 
+au
+
+
+th
+or
+
+
+iti
+es
+
+
+ to
+ id
+
+
+en
+tif
+
+
+y 
+an
+
+
+d 
+ad
+
+
+dr
+es
+
+
+s p
+ot
+
+
+en
+tia
+
+
+l r
+isk
+
+
+s  
+• St
+
+
+re
+ng
+
+
+th
+en
+
+
+s s
+us
+
+
+ta
+in
+
+
+ab
+ili
+
+
+ty
+ p
+
+
+ra
+cti
+
+
+ce
+s  
+
+
+• Al
+lo
+
+
+ws
+ sp
+
+
+ec
+ifi
+
+
+c a
+nd
+
+
+ ta
+rg
+
+
+et
+ed
+
+
+ re
+ca
+
+
+lls
+  
+
+
+• En
+ab
+
+
+les
+ co
+
+
+nfi
+de
+
+
+nc
+e o
+
+
+ve
+r s
+
+
+ea
+fo
+
+
+od
+ q
+
+
+ua
+lit
+
+
+y  
+• As
+
+
+su
+re
+
+
+s p
+ro
+
+
+ve
+na
+
+
+nc
+e o
+
+
+f s
+ea
+
+
+fo
+od
+
+
+  
+• Al
+
+
+lo
+ws
+
+
+ th
+e 
+
+
+in
+sta
+
+
+nt
+an
+
+
+eo
+us
+
+
+ ex
+ec
+
+
+ut
+io
+
+
+n 
+of
+
+
+ 
+pa
+
+
+ym
+en
+
+
+ts 
+an
+
+
+d 
+ot
+
+
+he
+r t
+
+
+ra
+ns
+
+
+ac
+tio
+
+
+na
+l 
+
+
+ar
+ra
+
+
+ng
+em
+
+
+en
+ts 
+
+
+
+
+
+• Ve
+ra
+
+
+cit
+y 
+
+
+of
+ re
+
+
+co
+rd
+
+
+ed
+ d
+
+
+at
+a  
+
+
+• Di
+gi
+
+
+ta
+lis
+
+
+at
+io
+
+
+n 
+of
+
+
+ su
+pp
+
+
+ly
+ ch
+
+
+ain
+ 
+
+
+pr
+oc
+
+
+es
+se
+
+
+s i
+s r
+
+
+eq
+ui
+
+
+re
+d 
+
+
+ 
+• In
+
+
+te
+ro
+
+
+pe
+ra
+
+
+bi
+lit
+
+
+y 
+of
+
+
+ in
+fo
+
+
+rm
+at
+
+
+io
+n 
+
+
+sy
+ste
+
+
+m
+s i
+
+
+s n
+ec
+
+
+es
+sa
+
+
+ry
+  
+
+
+• Pl
+at
+
+
+fo
+rm
+
+
+s t
+ha
+
+
+t c
+ap
+
+
+tu
+re
+
+
+ K
+ey
+
+
+ D
+at
+
+
+a 
+El
+
+
+em
+en
+
+
+ts 
+ar
+
+
+e r
+eq
+
+
+ui
+re
+
+
+d 
+ 
+
+
+• Su
+pp
+
+
+ly
+, i
+
+
+m
+pl
+
+
+em
+en
+
+
+ta
+tio
+
+
+n,
+ a
+
+
+nd
+ 
+
+
+m
+ain
+
+
+te
+na
+
+
+nc
+e o
+
+
+f d
+ig
+
+
+ita
+l t
+
+
+oo
+ls 
+
+
+(e
+.g.
+
+
+, 
+RF
+
+
+ID
+ eq
+
+
+ui
+pm
+
+
+en
+t, 
+
+
+ta
+gs
+
+
+, s
+en
+
+
+so
+rs)
+
+
+ ca
+n 
+
+
+be
+ 
+
+
+ch
+all
+
+
+en
+gi
+
+
+ng
+ a
+
+
+t a
+ lo
+
+
+ca
+l l
+
+
+ev
+el 
+
+
+ 
+• Lo
+
+
+ng
+ tr
+
+
+an
+sa
+
+
+cti
+on
+
+
+ ti
+m
+
+
+es
+ m
+
+
+ay
+ li
+
+
+m
+it 
+
+
+bl
+oc
+
+
+kc
+ha
+
+
+in
+ fe
+
+
+as
+ib
+
+
+ili
+ty
+
+
+  
+• Co
+
+
+ns
+id
+
+
+er
+ab
+
+
+le 
+in
+
+
+ve
+stm
+
+
+en
+t c
+
+
+os
+t 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Ca
+
+
+se
+ st
+
+
+ud
+y 
+
+
+de
+l C
+
+
+as
+til
+
+
+lo
+ 
+
+
+(2
+01
+
+
+7)
+ 
+
+
+Pr
+om
+
+
+ot
+e c
+
+
+on
+su
+
+
+m
+er
+
+
+ tr
+us
+
+
+t  
+• In
+
+
+cr
+ea
+
+
+se
+s a
+
+
+cc
+ur
+
+
+ac
+y 
+
+
+of
+ d
+
+
+at
+a 
+
+
+re
+co
+
+
+rd
+in
+
+
+gs
+  
+
+
+• En
+su
+
+
+re
+s c
+
+
+om
+pl
+
+
+ian
+t s
+
+
+ea
+fo
+
+
+od
+ st
+
+
+or
+ag
+
+
+e c
+on
+
+
+di
+tio
+
+
+ns
+ 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Di
+
+
+sc
+us
+
+
+sio
+n 
+
+
+Fi
+sh
+
+
+co
+in
+
+
+ (2
+01
+
+
+8)
+ 
+
+
+En
+su
+
+
+re
+ re
+
+
+sp
+on
+
+
+sib
+le 
+
+
+an
+d 
+
+
+et
+hi
+
+
+ca
+l p
+
+
+ro
+du
+
+
+ce
+rs’
+
+
+ re
+wa
+
+
+rd
+ &
+
+
+ 
+de
+
+
+liv
+er
+
+
+ effi
+cie
+
+
+nt
+ b
+
+
+us
+in
+
+
+es
+s 
+
+
+ec
+os
+
+
+ys
+te
+
+
+m
+  
+
+
+• En
+ha
+
+
+nc
+es
+
+
+ se
+af
+
+
+oo
+d 
+
+
+su
+pp
+
+
+ly
+ ch
+
+
+ain
+ tr
+
+
+an
+sp
+
+
+ar
+en
+
+
+cy
+ 
+
+
+an
+d 
+
+
+tra
+ce
+
+
+ab
+ili
+
+
+ty
+  
+
+
+• St
+re
+
+
+ng
+th
+
+
+en
+s s
+
+
+us
+ta
+
+
+in
+ab
+
+
+ili
+ty
+
+
+ p
+ra
+
+
+cti
+ce
+
+
+s  
+• He
+
+
+lp
+s v
+
+
+er
+ify
+
+
+ se
+af
+
+
+oo
+d 
+
+
+leg
+ali
+
+
+ty
+, s
+
+
+af
+et
+
+
+y 
+an
+
+
+d 
+qu
+
+
+ali
+ty
+
+
+  
+• Im
+
+
+pr
+ov
+
+
+es
+ in
+
+
+te
+gr
+
+
+ity
+ o
+
+
+f d
+at
+
+
+a  
+
+
+• Se
+af
+
+
+oo
+d 
+
+
+in
+du
+
+
+str
+y 
+
+
+is 
+fra
+
+
+gm
+en
+
+
+te
+d 
+
+
+– 
+co
+
+
+nn
+ec
+
+
+tio
+n 
+
+
+be
+tw
+
+
+ee
+n 
+
+
+ha
+rv
+
+
+es
+t a
+
+
+nd
+ 
+
+
+co
+ns
+
+
+um
+pt
+
+
+io
+n 
+
+
+po
+in
+
+
+ts 
+is 
+
+
+sc
+ar
+
+
+ce
+  
+
+
+• Do
+m
+
+
+in
+an
+
+
+t r
+ol
+
+
+e 
+of
+
+
+ m
+id
+
+
+dl
+em
+
+
+en
+ cr
+
+
+ea
+te
+
+
+s 
+in
+
+
+fo
+rm
+
+
+at
+io
+
+
+n 
+as
+
+
+ym
+m
+
+
+et
+rie
+
+
+s 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Ca
+
+
+se
+ st
+
+
+ud
+y 
+
+
+M
+at
+
+
+hi
+se
+
+
+n 
+(2
+
+
+01
+8)
+
+
+ 
+En
+
+
+su
+re
+
+
+ su
+pp
+
+
+ly
+ ch
+
+
+ain
+ 
+
+
+op
+er
+
+
+at
+io
+
+
+na
+l e
+
+
+ffi
+cie
+
+
+nc
+y  
+
+
+• En
+ha
+
+
+nc
+es
+
+
+ fi
+sh
+
+
+ su
+pp
+
+
+ly
+ ch
+
+
+ain
+ tr
+
+
+ac
+ea
+
+
+bi
+lit
+
+
+y  
+• Im
+
+
+pr
+ov
+
+
+es
+ se
+
+
+af
+oo
+
+
+d 
+sa
+
+
+fet
+y 
+
+
+an
+d 
+
+
+qu
+ali
+
+
+ty
+ 
+
+
+as
+su
+
+
+ra
+nc
+
+
+e  
+• Su
+
+
+pp
+or
+
+
+ts 
+se
+
+
+af
+oo
+
+
+d 
+fra
+
+
+ud
+ p
+
+
+re
+ve
+
+
+nt
+io
+
+
+n 
+ 
+
+
+• Im
+pr
+
+
+ov
+es
+
+
+ p
+ro
+
+
+du
+ct 
+
+
+re
+ca
+
+
+lls
+  
+
+
+• As
+su
+
+
+re
+s p
+
+
+ro
+ve
+
+
+na
+nc
+
+
+e o
+f s
+
+
+ea
+fo
+
+
+od
+ p
+
+
+ro
+du
+
+
+cts
+  
+
+
+• Su
+pp
+
+
+or
+ts 
+
+
+re
+gu
+
+
+lat
+or
+
+
+y 
+au
+
+
+di
+ts 
+
+
+ 
+• As
+
+
+su
+re
+
+
+s p
+ro
+
+
+ve
+na
+
+
+nc
+e o
+
+
+f fi
+sh
+
+
+  
+• Im
+
+
+pr
+ov
+
+
+es
+ in
+
+
+fo
+rm
+
+
+at
+io
+
+
+n 
+flo
+
+
+ws
+ a
+
+
+nd
+ m
+
+
+in
+im
+
+
+ise
+s 
+
+
+bu
+re
+
+
+au
+cr
+
+
+ac
+y  
+
+
+• In
+te
+
+
+ro
+pe
+
+
+ra
+bi
+
+
+lit
+y 
+
+
+of
+ in
+
+
+fo
+rm
+
+
+at
+io
+
+
+n 
+sy
+
+
+ste
+m
+
+
+s i
+s n
+
+
+ec
+es
+
+
+sa
+ry
+
+
+  
+• Li
+
+
+m
+ite
+
+
+d 
+or
+
+
+ga
+ni
+
+
+sa
+tio
+
+
+na
+l e
+
+
+du
+ca
+
+
+tio
+n 
+
+
+an
+d 
+
+
+sk
+ill
+
+
+s  
+• Re
+
+
+lu
+cta
+
+
+nc
+e t
+
+
+o 
+th
+
+
+e t
+ec
+
+
+hn
+ol
+
+
+og
+y 
+
+
+ad
+op
+
+
+tio
+n 
+
+
+til
+l e
+
+
+vi
+de
+
+
+nt
+ fu
+
+
+ll-
+sc
+
+
+ale
+ 
+
+
+su
+cc
+
+
+es
+sfu
+
+
+l i
+m
+
+
+pl
+em
+
+
+en
+ta
+
+
+tio
+n 
+
+
+pa
+ra
+
+
+di
+gm
+
+
+s 
+
+
+In
+no
+
+
+va
+tio
+
+
+n 
+th
+
+
+eo
+ry
+
+
+ 
+Qu
+
+
+ali
+ta
+
+
+tiv
+e 
+
+
+Ca
+se
+
+
+ st
+ud
+
+
+y 
+
+
+Pr
+ov
+
+
+en
+an
+
+
+ce
+ 
+
+
+(2
+01
+
+
+6)
+ 
+
+
+En
+su
+
+
+re
+ re
+
+
+sp
+on
+
+
+sib
+le 
+
+
+an
+d 
+
+
+et
+hi
+
+
+ca
+l p
+
+
+ro
+du
+
+
+ce
+rs’
+
+
+ re
+wa
+
+
+rd
+ &
+
+
+ 
+pr
+
+
+om
+ot
+
+
+e 
+co
+
+
+ns
+um
+
+
+er
+ tr
+
+
+us
+t  
+
+
+• En
+ha
+
+
+nc
+es
+
+
+ fi
+sh
+
+
+ su
+pp
+
+
+ly
+ ch
+
+
+ain
+ tr
+
+
+an
+sp
+
+
+ar
+en
+
+
+cy
+ a
+
+
+nd
+ 
+
+
+tra
+ce
+
+
+ab
+ili
+
+
+ty
+  
+
+
+• He
+lp
+
+
+s i
+n 
+
+
+tra
+ck
+
+
+in
+g 
+
+
+re
+sp
+
+
+on
+sib
+
+
+ly
+-ca
+
+
+ug
+ht
+
+
+ fi
+sh
+
+
+  
+• He
+
+
+lp
+s i
+
+
+n 
+eli
+
+
+m
+in
+
+
+at
+in
+
+
+g 
+ill
+
+
+eg
+al,
+
+
+ u
+nr
+
+
+ep
+or
+
+
+te
+d 
+
+
+an
+d 
+
+
+un
+re
+
+
+gu
+lat
+
+
+ed
+ se
+
+
+af
+oo
+
+
+d 
+ 
+
+
+• Su
+pp
+
+
+or
+ts 
+
+
+re
+gu
+
+
+lat
+or
+
+
+y 
+au
+
+
+di
+ts 
+
+
+ 
+• Fo
+
+
+ste
+rs 
+
+
+tru
+st,
+
+
+ a
+cc
+
+
+ou
+nt
+
+
+ab
+ili
+
+
+ty
+, a
+
+
+nd
+ 
+
+
+tra
+ns
+
+
+pa
+re
+
+
+nc
+y 
+
+
+ac
+ro
+
+
+ss 
+se
+
+
+af
+oo
+
+
+d 
+su
+
+
+pp
+ly
+
+
+ n
+et
+
+
+wo
+rk
+
+
+s  
+
+
+• Di
+ffe
+
+
+re
+nt
+
+
+ d
+at
+
+
+a 
+re
+
+
+co
+rd
+
+
+in
+g 
+
+
+m
+ec
+
+
+ha
+ni
+
+
+sm
+s 
+
+
+am
+on
+
+
+g 
+su
+
+
+pp
+ly
+
+
+ ch
+ain
+
+
+ a
+cto
+
+
+rs 
+ 
+
+
+• In
+te
+
+
+ro
+pe
+
+
+ra
+bi
+
+
+lit
+y 
+
+
+of
+ in
+
+
+fo
+rm
+
+
+at
+io
+
+
+n 
+sy
+
+
+ste
+m
+
+
+s i
+s n
+
+
+ec
+es
+
+
+sa
+ry
+
+
+
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Ca
+
+
+se
+ st
+
+
+ud
+y 
+
+
+Vi
+sse
+
+
+r a
+nd
+
+
+ 
+Ha
+
+
+ni
+ch
+
+
+ (2
+01
+
+
+8)
+ 
+
+
+Ta
+ck
+
+
+le 
+ill
+
+
+eg
+al 
+
+
+an
+d 
+
+
+un
+su
+
+
+sta
+in
+
+
+ab
+le 
+
+
+fis
+hi
+
+
+ng
+ 
+
+
+pr
+ac
+
+
+tic
+es
+
+
+  
+• He
+
+
+lp
+s i
+
+
+n 
+eli
+
+
+m
+in
+
+
+at
+in
+
+
+g 
+ill
+
+
+eg
+al,
+
+
+ u
+nr
+
+
+ep
+or
+
+
+te
+d,
+
+
+ a
+nd
+
+
+ 
+un
+
+
+re
+gu
+
+
+lat
+ed
+
+
+ se
+af
+
+
+oo
+d 
+
+
+ 
+• He
+
+
+lp
+s i
+
+
+n 
+eli
+
+
+m
+in
+
+
+at
+in
+
+
+g 
+po
+
+
+or
+ h
+
+
+um
+an
+
+
+ w
+or
+
+
+ki
+ng
+
+
+ 
+co
+
+
+nd
+iti
+
+
+on
+s  
+
+
+• En
+ha
+
+
+nc
+es
+
+
+ se
+af
+
+
+oo
+d 
+
+
+su
+pp
+
+
+ly
+ ch
+
+
+ain
+ tr
+
+
+an
+sp
+
+
+ar
+en
+
+
+cy
+ 
+
+
+an
+d 
+
+
+tra
+ce
+
+
+ab
+ili
+
+
+ty
+  
+
+
+• Im
+pl
+
+
+em
+en
+
+
+ta
+tio
+
+
+n 
+is 
+
+
+ch
+all
+
+
+en
+gi
+
+
+ng
+ to
+
+
+ th
+e 
+
+
+ra
+ng
+
+
+e o
+f f
+
+
+oo
+d 
+
+
+pr
+od
+
+
+uc
+ts 
+
+
+de
+riv
+
+
+in
+g 
+
+
+fro
+m
+
+
+ 
+a 
+
+
+sin
+gle
+
+
+ fi
+sh
+
+
+  
+• Co
+
+
+ns
+id
+
+
+er
+ab
+
+
+le 
+in
+
+
+ve
+stm
+
+
+en
+t c
+
+
+os
+t o
+
+
+n 
+re
+
+
+qu
+ire
+
+
+d 
+co
+
+
+m
+pu
+
+
+tin
+g 
+
+
+or
+ In
+
+
+te
+rn
+
+
+et
+ o
+
+
+f 
+Th
+
+
+in
+gs
+
+
+ eq
+ui
+
+
+pm
+en
+
+
+t 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Ca
+
+
+se
+ st
+
+
+ud
+y 
+
+
+(co
+nt
+
+
+inu
+ed
+
+
+ o
+n 
+
+
+ne
+xt
+
+
+ p
+ag
+
+
+e) 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+Ta
+bl
+
+
+e 
+1 
+
+
+(co
+nt
+
+
+inu
+ed
+
+
+)  
+   
+
+
+
+
+
+Sc
+op
+
+
+e 
+Au
+
+
+th
+or
+
+
+(s)
+ 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ A
+
+
+im
+ 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ Im
+
+
+pl
+em
+
+
+en
+ta
+
+
+tio
+n 
+
+
+Be
+ne
+
+
+fit
+s 
+
+
+Bl
+oc
+
+
+kc
+ha
+
+
+in
+ Im
+
+
+pl
+em
+
+
+en
+ta
+
+
+tio
+n 
+
+
+Ch
+all
+
+
+en
+ge
+
+
+s 
+Th
+
+
+eo
+re
+
+
+tic
+al 
+
+
+Fo
+un
+
+
+da
+tio
+
+
+n 
+St
+
+
+ud
+y 
+
+
+Na
+tu
+
+
+re
+ 
+
+
+St
+ud
+
+
+y 
+M
+
+
+et
+ho
+
+
+do
+lo
+
+
+gy
+  
+
+
+W
+W
+
+
+F 
+(2
+
+
+01
+8)
+
+
+ 
+De
+
+
+liv
+er
+
+
+ so
+cia
+
+
+l i
+m
+
+
+pa
+ct 
+
+
+ 
+• He
+
+
+lp
+s i
+
+
+n 
+eli
+
+
+m
+in
+
+
+at
+in
+
+
+g 
+ill
+
+
+eg
+al,
+
+
+ u
+nr
+
+
+ep
+or
+
+
+te
+d,
+
+
+ a
+nd
+
+
+ 
+un
+
+
+re
+gu
+
+
+lat
+ed
+
+
+ se
+af
+
+
+oo
+d 
+
+
+ 
+• He
+
+
+lp
+s i
+
+
+n 
+eli
+
+
+m
+in
+
+
+at
+in
+
+
+g 
+po
+
+
+or
+ h
+
+
+um
+an
+
+
+ w
+or
+
+
+ki
+ng
+
+
+ 
+co
+
+
+nd
+iti
+
+
+on
+s  
+
+
+• St
+re
+
+
+ng
+th
+
+
+en
+s s
+
+
+us
+ta
+
+
+in
+ab
+
+
+ili
+ty
+
+
+ p
+ra
+
+
+cti
+ce
+
+
+s 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Ca
+
+
+se
+ st
+
+
+ud
+y 
+
+
+Su
+sta
+
+
+in
+ab
+
+
+ili
+ty
+
+
+ 
+Ah
+
+
+m
+ed
+
+
+ a
+nd
+
+
+ 
+Br
+
+
+oe
+k 
+
+
+(2
+01
+
+
+7)
+ 
+
+
+De
+te
+
+
+rm
+in
+
+
+e 
+ec
+
+
+ol
+og
+
+
+ica
+l 
+
+
+fo
+ot
+
+
+pr
+in
+
+
+t  
+• El
+
+
+im
+in
+
+
+at
+es
+
+
+ fo
+od
+
+
+ fr
+au
+
+
+d a
+nd
+
+
+ co
+un
+
+
+te
+rfe
+
+
+iti
+ng
+
+
+ ri
+sk
+
+
+s  
+• Pr
+
+
+om
+ot
+
+
+es
+ fo
+
+
+od
+ sa
+
+
+fet
+y 
+
+
+an
+d 
+
+
+se
+cu
+
+
+rit
+y  
+
+
+• Pr
+om
+
+
+ot
+es
+
+
+ re
+du
+
+
+cti
+on
+
+
+s i
+n 
+
+
+fo
+od
+
+
+ w
+as
+
+
+te
+  
+
+
+• En
+ab
+
+
+les
+ id
+
+
+en
+tifi
+
+
+ca
+tio
+
+
+n 
+of
+
+
+ fo
+od
+
+
+bo
+rn
+
+
+e 
+ill
+
+
+ne
+sse
+
+
+s  
+• Pr
+
+
+om
+ot
+
+
+es
+ a
+
+
+pp
+ro
+
+
+pr
+iat
+
+
+e d
+ist
+
+
+rib
+ut
+
+
+io
+n 
+
+
+of
+ su
+
+
+rp
+lu
+
+
+s 
+fo
+
+
+od
+ su
+
+
+pp
+lie
+
+
+s  
+• In
+
+
+cr
+ea
+
+
+se
+s f
+
+
+oo
+d 
+
+
+en
+vi
+
+
+ro
+nm
+
+
+en
+ta
+
+
+l i
+m
+
+
+pa
+ct 
+
+
+vi
+sib
+
+
+ili
+ty
+
+
+
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Cr
+
+
+iti
+ca
+
+
+l d
+isc
+
+
+us
+sio
+
+
+n 
+
+
+Ch
+ap
+
+
+ro
+n 
+
+
+(2
+01
+
+
+7)
+ 
+
+
+In
+fo
+
+
+rm
+ m
+
+
+an
+ag
+
+
+em
+en
+
+
+t o
+f 
+
+
+na
+tu
+
+
+ra
+l r
+
+
+es
+ou
+
+
+rc
+es
+
+
+  
+• Im
+
+
+pr
+ov
+
+
+es
+ in
+
+
+te
+gr
+
+
+ity
+ o
+
+
+f r
+ec
+
+
+or
+de
+
+
+d 
+da
+
+
+ta
+  
+
+
+• En
+su
+
+
+re
+s t
+
+
+ru
+st 
+
+
+am
+on
+
+
+g 
+su
+
+
+pp
+ly
+
+
+ ch
+ain
+
+
+ p
+ar
+
+
+tn
+er
+
+
+s  
+• Al
+
+
+lo
+ws
+
+
+ th
+e 
+
+
+in
+sta
+
+
+nt
+an
+
+
+eo
+us
+
+
+ ex
+ec
+
+
+ut
+io
+
+
+n 
+of
+
+
+ 
+pa
+
+
+ym
+en
+
+
+ts 
+an
+
+
+d 
+ot
+
+
+he
+r t
+
+
+ra
+ns
+
+
+ac
+tio
+
+
+na
+l 
+
+
+ar
+ra
+
+
+ng
+em
+
+
+en
+ts 
+
+
+ 
+• Li
+
+
+m
+its
+
+
+ th
+e 
+
+
+ev
+ict
+
+
+io
+n 
+
+
+of
+ lo
+
+
+ca
+l p
+
+
+op
+ul
+
+
+at
+io
+
+
+ns
+  
+
+
+• En
+ha
+
+
+nc
+es
+
+
+ tr
+ac
+
+
+ea
+bi
+
+
+lit
+y 
+
+
+of
+ su
+
+
+sta
+in
+
+
+ab
+ly
+
+
+ ca
+ug
+
+
+ht
+ 
+
+
+fis
+h 
+
+
+ 
+• En
+
+
+su
+re
+
+
+s t
+ra
+
+
+ck
+in
+
+
+g 
+of
+
+
+ w
+at
+
+
+er
+, e
+
+
+ne
+rg
+
+
+y, 
+an
+
+
+d 
+ra
+
+
+w 
+m
+
+
+at
+er
+
+
+ial
+s’ 
+
+
+us
+e  
+
+
+• He
+lp
+
+
+s i
+n 
+
+
+pr
+om
+
+
+ot
+in
+
+
+g 
+cir
+
+
+cu
+lar
+
+
+ ec
+on
+
+
+om
+y  
+
+
+• Pr
+om
+
+
+ot
+es
+
+
+ a
+cc
+
+
+ou
+nt
+
+
+ab
+ili
+
+
+ty
+ o
+
+
+f d
+ec
+
+
+isi
+on
+
+
+-m
+ak
+
+
+er
+s  
+
+
+• Ve
+ra
+
+
+cit
+y 
+
+
+of
+ re
+
+
+co
+rd
+
+
+ed
+ d
+
+
+at
+a  
+
+
+• Lo
+w 
+
+
+pr
+oc
+
+
+es
+sin
+
+
+g 
+ra
+
+
+te
+ o
+
+
+f t
+ra
+
+
+ns
+ac
+
+
+tio
+ns
+
+
+  
+• Hi
+
+
+gh
+ e
+
+
+ne
+rg
+
+
+y 
+co
+
+
+ns
+um
+
+
+pt
+io
+
+
+n 
+ 
+
+
+• Hi
+gh
+
+
+ co
+m
+
+
+pu
+ta
+
+
+tio
+na
+
+
+l p
+ow
+
+
+er
+ 
+
+
+re
+qu
+
+
+ire
+m
+
+
+en
+ts 
+
+
+ 
+• Re
+
+
+lu
+cta
+
+
+nc
+e t
+
+
+o 
+th
+
+
+e t
+ec
+
+
+hn
+ol
+
+
+og
+y 
+
+
+ad
+op
+
+
+tio
+n 
+
+
+ 
+• Ab
+
+
+se
+nc
+
+
+e o
+f r
+
+
+eg
+ul
+
+
+at
+io
+
+
+ns
+ an
+
+
+d 
+leg
+
+
+isl
+at
+
+
+io
+n 
+
+
+ov
+er
+
+
+ b
+lo
+
+
+ck
+ch
+
+
+ain
+ te
+
+
+ch
+no
+
+
+lo
+gy
+
+
+
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Cr
+
+
+iti
+ca
+
+
+l d
+isc
+
+
+us
+sio
+
+
+n 
+
+
+Ju
+sk
+
+
+ali
+an
+
+
+ (2
+01
+
+
+8)
+ 
+
+
+Im
+pr
+
+
+ov
+e h
+
+
+um
+an
+
+
+ita
+ria
+
+
+n 
+aid
+
+
+ 
+effi
+
+
+cie
+nc
+
+
+y  
+• El
+
+
+im
+in
+
+
+at
+es
+
+
+ b
+an
+
+
+k 
+tra
+
+
+ns
+ac
+
+
+tio
+n 
+
+
+co
+sts
+
+
+ a
+nd
+
+
+ fe
+es
+
+
+  
+• Sa
+
+
+feg
+ua
+
+
+rd
+s p
+
+
+er
+so
+
+
+na
+l i
+
+
+de
+nt
+
+
+ify
+ (e
+
+
+sp
+ec
+
+
+ial
+ly
+
+
+ in
+ 
+
+
+ca
+se
+
+
+ o
+f r
+
+
+efu
+ge
+
+
+es
+)  
+
+
+• Re
+du
+
+
+ce
+s r
+
+
+isk
+ o
+
+
+f s
+ha
+
+
+rin
+g 
+
+
+re
+fu
+
+
+ge
+es
+
+
+’ d
+at
+
+
+a  
+• Pr
+
+
+om
+ot
+
+
+es
+ tr
+
+
+an
+sp
+
+
+ar
+en
+
+
+cy
+ in
+
+
+ o
+rg
+
+
+an
+iza
+
+
+tio
+ns
+
+
+’ 
+op
+
+
+er
+at
+
+
+io
+ns
+
+
+
+
+
+• Ch
+all
+
+
+en
+gi
+
+
+ng
+ co
+
+
+lla
+bo
+
+
+ra
+tio
+
+
+n 
+wi
+
+
+th
+ lo
+
+
+ca
+l 
+
+
+or
+ re
+
+
+gi
+on
+
+
+al 
+fin
+
+
+an
+cia
+
+
+l i
+ns
+
+
+tit
+ut
+
+
+io
+ns
+
+
+  
+• Lo
+
+
+w 
+pr
+
+
+oc
+es
+
+
+sin
+g 
+
+
+ra
+te
+
+
+ o
+f t
+
+
+ra
+ns
+
+
+ac
+tio
+
+
+ns
+  
+
+
+• In
+cr
+
+
+ea
+se
+
+
+d 
+op
+
+
+er
+at
+
+
+io
+na
+
+
+l c
+os
+
+
+t  
+• Et
+
+
+hi
+ca
+
+
+l c
+on
+
+
+ce
+rn
+
+
+s o
+ve
+
+
+r a
+pp
+
+
+lic
+at
+
+
+io
+ns
+
+
+ 
+fo
+
+
+cu
+sin
+
+
+g 
+on
+
+
+ v
+ul
+
+
+ne
+ra
+
+
+bl
+e p
+
+
+op
+ul
+
+
+at
+io
+
+
+ns
+ 
+
+
+N.
+A.
+
+
+ –
+ N
+
+
+.S.
+ 
+
+
+Qu
+ali
+
+
+ta
+tiv
+
+
+e 
+Ca
+
+
+se
+ st
+
+
+ud
+y 
+
+
+Li
+n 
+
+
+et
+ a
+
+
+l. 
+(2
+
+
+01
+7)
+
+
+ 
+Re
+
+
+m
+ov
+
+
+e o
+pa
+
+
+qu
+en
+
+
+es
+s i
+
+
+n 
+ag
+
+
+ric
+ul
+
+
+tu
+ra
+
+
+l e
+nv
+
+
+iro
+nm
+
+
+en
+ta
+
+
+l 
+da
+
+
+ta
+ m
+
+
+an
+ag
+
+
+em
+en
+
+
+t  
+
+
+• En
+ha
+
+
+nc
+es
+
+
+ co
+ns
+
+
+um
+er
+
+
+ tr
+us
+
+
+t  
+• Pr
+
+
+op
+els
+
+
+ en
+vi
+
+
+ro
+nm
+
+
+en
+ta
+
+
+l s
+us
+
+
+ta
+in
+
+
+ab
+ili
+
+
+ty
+  
+
+
+• El
+im
+
+
+in
+at
+
+
+es
+ in
+
+
+te
+rm
+
+
+ed
+iar
+
+
+y 
+bo
+
+
+di
+es
+
+
+  
+• El
+
+
+im
+in
+
+
+at
+es
+
+
+ d
+at
+
+
+a 
+m
+
+
+an
+ip
+
+
+ul
+at
+
+
+io
+n 
+
+
+ris
+k 
+
+
+ 
+• En
+
+
+ha
+nc
+
+
+es
+ e
+
+
+ng
+ag
+
+
+em
+en
+
+
+t w
+ith
+
+
+ th
+e p
+
+
+ub
+lic
+
+
+  
+• Fa
+
+
+cil
+ita
+
+
+te
+s e
+
+
+m
+po
+
+
+we
+rm
+
+
+en
+t a
+
+
+nd
+ ca
+
+
+pa
+cit
+
+
+y-
+ 
+
+
+bu
+ild
+
+
+in
+g  
+
+
+• In
+cr
+
+
+ea
+se
+
+
+s p
+ub
+
+
+lic
+ su
+
+
+pp
+or
+
+
+t t
+o 
+
+
+im
+pr
+
+
+ov
+e w
+
+
+at
+er
+
+
+ 
+re
+
+
+so
+ur
+
+
+ce
+s u
+
+
+se
+  
+
+
+• Sc
+ala
+
+
+bi
+lit
+
+
+y 
+iss
+
+
+ue
+s  
+
+
+• Lo
+w 
+
+
+pr
+oc
+
+
+es
+sin
+
+
+g 
+ra
+
+
+te
+ o
+
+
+f t
+ra
+
+
+ns
+ac
+
+
+tio
+ns
+
+
+  
+• Se
+
+
+cu
+rit
+
+
+y 
+iss
+
+
+ue
+s d
+
+
+ue
+ to
+
+
+ cy
+be
+
+
+r a
+tta
+
+
+ck
+s  
+
+
+• Ve
+ra
+
+
+cit
+y 
+
+
+of
+ re
+
+
+co
+rd
+
+
+ed
+ d
+
+
+at
+a  
+
+
+• Na
+tu
+
+
+ra
+l d
+
+
+isa
+ste
+
+
+rs 
+co
+
+
+m
+pr
+
+
+om
+isi
+
+
+ng
+ 
+
+
+se
+rv
+
+
+er
+s 
+
+
+Co
+nc
+
+
+ep
+tu
+
+
+al 
+fra
+
+
+m
+ew
+
+
+or
+k 
+
+
+of
+  
+
+
+Su
+ich
+
+
+ies
+ (2
+
+
+01
+5)
+
+
+ 
+Qu
+
+
+ali
+ta
+
+
+tiv
+e 
+
+
+Co
+nc
+
+
+ep
+tu
+
+
+al 
+sy
+
+
+ste
+m
+
+
+ 
+m
+
+
+od
+el 
+
+
+an
+d 
+
+
+ev
+alu
+
+
+at
+io
+
+
+n 
+to
+
+
+ol
+ 
+
+
+Sy
+mb
+
+
+ol:
+ N
+
+
+.A
+. –
+
+
+ N
+.S.
+
+
+ re
+fer
+
+
+s t
+o 
+
+
+“N
+ot
+
+
+ A
+pp
+
+
+lic
+ab
+
+
+le 
+– 
+
+
+No
+t S
+
+
+pe
+cifi
+
+
+ed
+”. 
+
+
+
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+ecosystems can propel value capture by all involved stakeholders. To 
+that end, supply chain processes need to be (re)designed to accom-
+modate blockchain-related data requirements and specifications. 
+
+
+2.2.2. Blockchain implementation elements 
+Astill et al. (2019) identified key technological enablers required to 
+
+
+advance transparency in food supply chains, namely: (i) data acquisi-
+tion technologies; (ii) Internet of Things; (iii) data management plat-
+forms; and (iv) Big Data analytics solutions. Furthermore, dos Santos, 
+Torrisi, Yamada, and Pantoni (2019) described the implementation of 
+smart contracts and blockchain tokens, based on the ISO 22005:2007 
+standard, to certify the origin of food ingredients via a mobile phone 
+application. Also, Borrero (2019) provided an overview of blockchain 
+implementation in the supply chain of berries in southern Spain and 
+highlighted basic technical requirements. 
+
+
+Kumar, Liu, and Shan (2019) examined blockchain design and im-
+plementation phases in a food supply chain context with the aim to 
+provide a pragmatic view about the associated key challenges of sto-
+rage, networking, and processing costs. Moreover, Kamble, 
+Gunasekaran, and Sharma (2019) identified thirteen enablers of 
+blockchain technology in agriculture supply chains and further in-
+vestigated the underpinning causal relationships. Table 2 summarises 
+blockchain implementation elements in supply networks and further 
+depicts the particular lack of focus in the structure of the data needed to 
+be collected across different echelons of operations. 
+
+
+3. Materials and methods 
+
+
+Considering that the outcome of this research shall contribute to 
+SDGs through developing principles for blockchain-centric supply chain 
+design, along with a technology implementation framework, the object 
+of scrutiny has to be a critical analysis of the relevant literature 
+(Tranfield, Denyer, & Smart, 2003), whilst further supported by real- 
+world case studies (Gibbert, Ruigrok, & Wicki, 2008). Therefore, fol-
+lowing the provided literature overview in the field, the theoretical lens 
+and the research design underpinning this study are detailed in the sub- 
+sections that follow. 
+
+
+3.1. Theoretical lens 
+
+
+The realisation of food traceability is not underpinned by any gen-
+erally approved conceptual framework or theory (Karlsen, Dreyer, 
+Olsen, & Elvevoll, 2013). To that end, motivated by the need to support 
+real-world blockchain implementation in fish supply network opera-
+tions, this study followed a pragmatist research philosophy to allow the 
+collection of both objective and subjective data (Saunders, Lewis, & 
+Thornhill, 2009). 
+
+
+From a theoretical standpoint, the enabling role of blockchain 
+technology in fulfilling supply chain management objectives (e.g., cost, 
+quality, flexibility) is recognised (Ksherti, 2018). However, to 
+
+
+systematically investigate blockchain in the supply chain management 
+arena, we complementarily adopted the “Principal-Agent Theory” and 
+the “Transaction Cost Analysis” Theory for blockchain-centric supply 
+chain (re)design, along with the “Resource-Based View” and the 
+“Network Theory” for blockchain-centric supply chain management 
+(Halldórsson, Kotzab, Mikkola, & Skjøtt-Larsen, 2007). A combination 
+of these theories has been applied to motivate middle-range theory 
+development for interpreting structural and management changes in 
+supply chains imposed by disruptive technologies (Treiblmaier, 2018). 
+
+
+Following the theoretical framework of Halldórsson et al. (2007), 
+and considering that data structure was not distinctly contemplated by  
+Treiblmaier (2018), this research selected blockchain data as the pri-
+mary focus of analysis. In particular:  
+
+
+• “Principal-Agent Theory” – Information asymmetry between supply 
+and demand echelons is a common issue in supply chain manage-
+ment that can negatively impact stakeholders’ relationship (Whipple 
+& Roh, 2010). Therefore it can be argued that consistent data 
+structures enable blockchain technology implementation and are a 
+requisite to align priorities and inter-firm contracting perspectives 
+(Jensen & Meckling, 1976).  
+
+
+• “Transaction Cost Analysis” Theory – Data visibility and reliability 
+are key in governing production and transaction costs in a supply 
+chain owing to the higher level of information sharing that helps 
+assess performance of contractual agreements and reduce opportu-
+nistic behaviour (Wacker, Yang, & Sheu, 2016). Therefore, based on 
+the “Transaction Cost Analysis” Theory, asset specificity from the 
+angle of data capture is a key attribute of supply chain transactions 
+enabled by blockchain technology (Rindfleisch & Heide, 1997).  
+
+
+• “Resource-Based View” Theory – Accurate data is recognised as a 
+primary resource for supply chain operational performance and 
+competitive advantage (Chae, Yang, Olson, & Sheu, 2014). How-
+ever, data can be available in various types within a supply chain 
+that serve data usability purposes only within specific analytical 
+systems or software. In particular, understanding the stratification 
+and identification of existing data types could help tackle triple 
+bottom-line sustainability concerns (Raut et al., 2019), like food 
+losses and waste generation (Irani et al., 2018). To that effect, fol-
+lowing the “Resource-Based View” Theory, data interoperability 
+even at the level of insignificant processes can assist in tackling the 
+heterogeneity of supply chain data sources and capabilities, and to 
+the configuration of operational competency (Halldórsson & Skjøtt- 
+Larsen, 2004).  
+
+
+• “Network Theory” – Except for transactions in supply chains, data is 
+a driver of interorganisational relationships and can be used to es-
+tablish interfaces among the different types of resources at the in-
+volved operational echelons (Rinehart, Eckert, Handfield, Page, & 
+Atkin, 2004). Consequently, according to the “Network Theory”, 
+streamlining data archetypes among the various dispersed data sets 
+is essential for assuring two types of stakeholder interactions 
+(Johanson & Mattsson, 1987): (i) exchange processes (e.g., in-
+formation, products); and (ii) adaptation processes (e.g., legal, ad-
+ministrative elements). 
+
+
+Therefore, this research investigated the unexplored linkages be-
+tween the unit of analysis per considered complementary theory to 
+understand supply chain (re)design and management opportunities 
+enabled by blockchain technology (Fig. 1). Specifically, we argue that 
+supply chain (re)design should include the elements of data consistency 
+and data capture to eliminate any transaction errors that can impact 
+operational and sustainability performance assessment, along with the 
+pertinent decision-making process. Ensuring data unit consistency 
+across end-to-end supply chain operations and utilising digital tech-
+nologies to capture data can help eliminate human errors. Furthermore, 
+to manage blockchain and the available multiple types of data in sus-
+tainable supply networks, SDG-centric data interoperability and data 
+
+
+Table 2 
+Blockchain implementation elements in supply networks.            
+
+
+Research Study Blockchain Implementation Elements 
+
+
+[1] [2] [3] [4] [5] [6] [7] [8] [9]  
+
+
+Astill et al. (2019) • • • •      
+Borrero (2019) • • •      • 
+dos Santos et al. (2019) • • •  • • • • • 
+Kamble, Gunasekaran, 
+
+
+and Sharma (2019)  
+• • • •     
+
+
+Kumar et al. (2019) • • •  •    • 
+
+
+Symbol: [1] Data acquisition technologies; [2] Internet of Things; [3] Data 
+management platforms; [4] Big Data analytics solutions; [5] Traceability plans; 
+[6] Responsibilities and Training plans; [7] Monitoring mechanisms; [8] Key 
+performance indicators; [9] Critical tracking events and Key Data Elements.  
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+archetypes are required. Traditional data interoperability and data ar-
+chetypes typically have a financial focus and may not capture sustain-
+able development perspectives. 
+
+
+3.2. Research design 
+
+
+Considering that the aim of this research is to derive theoretical 
+findings with practical implementation potential, a multiple case study 
+research strategy was adopted (Yin, 2003). The case study approach 
+allowed to combine a range of data and information gathering methods, 
+like interviews and field observations, thus fostering the understanding 
+of the real-world context of blockchain-enabled food supply chains 
+(Eisenhardt, 1989). This research is inductive as it employed a bottom- 
+up approach to collect data and information, map fish supply chain 
+operations, and generate insights. 
+
+
+3.2.1. Case identification 
+Aquaculture constitutes an important source of national incomes, 
+
+
+specifically for developing countries; hence, blockchain could catalyse 
+seafood trade and logistics by establishing direct links between pro-
+ducers and consumers (Bush, Belton, Little, & Islam, 2019). In-
+dicatively, Thailand is a major global seafood trader with exports va-
+lued at US$5.8 billion in 2017, contributing about 20% to the national 
+food exports (USDA, 2018). However, the limited application of effi-
+cient and reliable traceability systems across end-to-end fish supply 
+chains often results in significant overexploitation of the marine fishery 
+resources, product recalls, foodborne illnesses, and financial losses 
+(Xiong et al., 2016). For example, overfishing phenomena exert sig-
+nificant pressure on the marine fisheries’ stock in the Andaman Sea and 
+the Gulf of Thailand. Notably, the European Commission asserted 
+pressure on Thailand to proceed to timely improvements on the gov-
+ernance of illegal, unreported and unregulated fishing activities by is-
+suing the country with a yellow card (European Commission, 2015). In 
+this regard, implementing a reliable full-chain traceability system in the 
+Thai fishery ecosystem could improve the export outlook of the sector. 
+
+
+The main SDG challenges related to the Thai fish industry are in-
+serted in Table 3. To develop a more robust construct about blockchain 
+in the Thai fishery ecosystem, we conducted three case studies to collect 
+essential data, namely: (i) Case study #1 – Local fishing operations; (ii) 
+Case study #2 – Commercial fishing operations and trade; and (iii) Case 
+study #3 – Canned tuna manufacturing. The different scale of opera-
+tions that were investigated through these case studies allowed the 
+identification of particularities along with the examination of block-
+chain implementation challenges and potential in the Thai fishery 
+ecosystem. This multi-scale perspective assisted in generating robust 
+and valid results. 
+
+
+3.2.2. Data collection 
+The approached Thai fish supply chain stakeholders were initially 
+
+
+involved in semi-structured interviews and field research; the interview 
+participants represent the main stakeholders in the Thai fishery eco-
+system hence allowing the collection of data and information from 
+different perspectives and over a range of processes, technical aspects, 
+social angles, and legal related issues. In particular, seven key cate-
+gories of actors were recognised involving a total of fifteen informants, 
+namely: (i) fishermen; (ii) traders; (iii) processors; (iv) wholesalers; (v) 
+technology providers; (vi) certification organisations; and (vii) gov-
+ernmental bodies. 
+
+
+Especially, data and information were collected via three case stu-
+dies involving: (i) thirteen semi-structured interviews with stakeholders 
+in the Thai fish industry; (ii) three physical walkthroughs; and (iii) 
+official documentation that is used during the operations. Table 4 en-
+lists the interviews’ informants along with the selection criteria and the 
+utilised data collection methodology. Table A1 in the Appendix sum-
+marises the salient points of the interviews. The triangulation of data 
+captured via direct field observations and documentation of operations 
+
+
+helped in mitigating the bias from the semi-structured interviews and in 
+ensuring validity and quality of the findings (Yin, 2009). 
+
+
+3.2.3. Data analysis 
+The data and information collected were analysed based on the 
+
+
+principles adopted from the Best Practice Guidelines on Traceability 
+(FAO, 2014), as summarised in Fig. 2. Initially, TraceFish (i.e. a series 
+of voluntary standards relating to information recorded at every fish 
+supply chain echelon) was used to evaluate the completeness of data 
+collection by different supply chain stakeholders as being the accep-
+table standard in the industry (Konovalenko & Ludwig, 2019). The data 
+collected from the case studies was compared to the list of Key Data 
+Elements recommended by TraceFish to determine the completeness of 
+stakeholders’ data sets. Secondly, the “Unique Identification” (i.e. any 
+unit or actor that modifies the product should be recognisable) was 
+assessed by using a process mapping framework for seafood firms’ 
+traceability systems developed by Mai, Margeirsson, Stefansson, and 
+Arason (2010). Thirdly, data sharing was evaluated by analysing the 
+communication method between various stakeholders and vertical in-
+tegration. Finally, the capabilities of the technology were analysed 
+against a set of criteria gathered from literature and the case studies. 
+
+
+4. Fish supply network ecosystem in Thailand 
+
+
+The fishery ecosystem in Thailand consists of thirteen distinct ac-
+tors, as these are mapped on three clusters (Fig. 3), namely: (i) national 
+bodies; (ii) key stakeholders; and (iii) certification bodies. Notably, 
+every national entity utilises its proprietary database despite any 
+overlaps of the gathered data. Therefore, an increased probability of 
+maintaining duplicate and/or incomplete databases exists. 
+
+
+From a legislative perspective, fishing is only allowed to registered 
+vessels. Officially, two types of vessels are recognised in Thailand 
+(Table 5): (i) local fishing vessels; and (ii) commercial vessels. Local 
+fishing vessels are neither required to install a Global Positioning 
+System tracker nor to have a logbook. On the other end, commercial 
+vessels are required to both have an installed Global Positioning System 
+tracker, called Vessel Monitoring System, to inform about the real-time 
+location of the vessel and to record all required information onto an 
+issued logbook. Currently, a total of 27,261 registered local vessels and 
+10,615 registered commercial vessels operate in Thailand. 
+
+
+4.1. Case study #1 – local fishing operations 
+
+
+In order to map local fishing operations, the activities of “Fishermen 
+1”, who own a 9 Gt vessel in Prachuap Kiri Khan, were observed. The 
+laws applicable to local fishermen are loose and this reflects upon the 
+management style of “Fishermen 1”. 
+
+
+4.1.1. Fishing processes 
+At the predeparture stage, “Fishermen 1” load ice and insulation 
+
+
+storage boxes on the vessels while the fishing equipment (e.g., sonar) is 
+prepared the previous day (see Image S1 in the Supplementary 
+Material). Regarding the fishing method, “Fishermen 1” use the ‘purse 
+seining’ approach which allows the capturing of targeted fish species 
+with a low probability of unintentional by-catches. The captured fish 
+are sorted by size and stored inside boxes/buckets of ice (see Image S2 
+in the Supplementary Material). After the fishing is completed, “Fish-
+ermen 1” return to the port to unload the catch and trade with fish-
+mongers. 
+
+
+“Fishermen 1” return to the departed port, without having to 
+comply to a particular schedule or inform any authority, and then un-
+load and weight the fish catch. The empirical study revealed that ap-
+proximately 3% of the catch would be characterised by minor damages 
+such as bruises; however, these fish are not discarded as such defects 
+are considered insignificant. Thereafter, fishmongers would sell the fish 
+to the local market. The market usually consists of local restaurants and 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+Fig. 1. Data-centric research model for supply chain design and management enabled by blockchain technology.  
+
+
+Table 3 
+Blockchain in the Thai fish industry and relevant United Nations Sustainable Development Goals challenges.     
+
+
+Sustainable Development Goal 
+(SDG) 
+
+
+Description Selected Supporting Study(ies)   
+
+
+▪ SDG #1 – No Poverty Due to the low compensation generated from traditional monocrop 
+plantations, viability in the fish industry can enhance household 
+income. In addition, the Asian crisis during the 1990s followed by the 
+recent global economic crisis affected Thailand in terms of food price 
+shocks and inflationary pressures. Thus, fish exports could support the 
+local and national economy. However, blockchain technology could 
+ensure exports’ potential and help transform the traditional fishery 
+ecosystem to high-value business chains via building trust in the 
+international markets. 
+
+
+Klasen, Lechtenfeld, and Povel (2015), Tanielian (2018), 
+Viswanathan (2008)  
+
+
+▪ SDG #3 – Good Health and 
+Wellbeing 
+
+
+Blockchain in the fish industry could eliminate illegal, unreported, 
+and unregulated fishing in Thai waters and limit the provision of 
+products with uncertain quality, hence allowing the national fishery 
+ecosystem to sustain its contribution to food security. 
+
+
+Nong (2019)  
+
+
+▪ SDG #5 – Gender Equality In Thai rural provinces, about 21% of households are female-headed. 
+Also, female-headed households in Thailand lose significant more 
+assets due to food price shocks compared to male-headed households. 
+Blockchain implementations can help record labour statistics and 
+motivate gender equality in the industry. 
+
+
+Klasen et al. (2015)  
+
+
+▪ SDG #8 – Decent Work and 
+Economic Growth 
+
+
+In Thailand, illegal labour practices in the fish industry are prevalent. 
+Thai fishing fleets are mainly staffed by poor migrant workers (mainly 
+from Myanmar, Laos, and Cambodia) who often encounter rights 
+abuses and receive very small salaries. Blockchain implementations 
+can help assure visibility over labour working conditions and 
+motivate fair trade agreements. 
+
+
+Lindley and Techera (2017)  
+
+
+▪ SDG #12 – Responsible 
+Consumption and Production 
+
+
+The Thai fish industry is characterised by major sustainability 
+challenges related to responsible production, including: (i) illegal, 
+unreported and unregulated fishing activities resulting to 11–26 
+million tons of illegal caught fish per annum; and (ii) forced labour 
+along with human and labour rights abuses. Blockchain ensures 
+transparency, traceability and visibility over the sustainable 
+performance across the supply chain. 
+
+
+Poseidon (2019), Sasipornkarn (2019), Wipatayotin (2019)  
+
+
+▪ SDG #14 – Life Below Water Illegal, unreported and unregulated fishing activities in Thailand have 
+resulted in declining fish species populations like seahorses and tuna. 
+Blockchain could help monitor overexploitation fishing activities and 
+inform targeted policies for the conservation of the marine ecosystem. 
+
+
+Foster, Kuo, Wan, and Vincent (2019), Kuo, Laksanawimol, 
+Aylesworth, Foster, and Vincent (2018), Loh, Tewfik, Aylesworth, 
+and Phoonsawat (2016), Perry, Lunn, and Vincent (2010), Poseidon 
+
+
+(2019) 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+consumers. The process flow diagram of “Fishermen 1”, resulting from 
+observations and interview insights, is illustrated in Fig. 4. 
+
+
+4.1.2. Data captured 
+Considering the legislative requirements for vessels with size less 
+
+
+than 10 Gt, “Fishermen 1” are not obliged to gather any data related to 
+fishing operations and to the fish catch per se. The only recorded in-
+formation refers to the invoices of fishmongers which state the weight, 
+species, and price of the traded fish. 
+
+
+4.2. Case study #2 – commercial fishing operations and trade 
+
+
+Commercial fishing operations are performed by “Fishermen 2” who 
+are located in Phuket. The entire process is more complicated compared 
+to local fishing operations owing to the dominant interdependency 
+among storage duration, fish freshness, and profit, which could affect 
+the scheduling of the operations and the quality of the traded seafood. 
+
+
+4.2.1. Fishing processes 
+“Fishermen 2” empirically prepare sufficient volumes of ice for 
+
+
+storing and preserving the catch during fishing to achieve maximum 
+profit under the constraints of seafood freshness and the vessel’s fuel. 
+Fishing vessels cannot be sailing for more than thirty consecutive days; 
+nevertheless, “Fishermen 2” return to port within about fifteen days of 
+departure to maintain the freshness of the caught fish. Every vessel is 
+equipped with a Vessel Monitoring System that tracks and monitors the 
+fishing operations while the data are centrally stored and managed by 
+the Department of Fisheries to inspect for any illegal, unreported and 
+unregulated activities. “Fishermen 2” use the ‘fishing trawler’ method 
+which is considered unsustainable as it associates to high killing rates of 
+by-catches. In this regard, any endangered fish species caught are 
+
+
+required to be recorded on the vessel’s logbook (see Image S3 in the 
+Supplementary Material). The trawling process is performed three to 
+four times during a day. Thereafter, the catch is released onto the vessel 
+and the sorting process begins while the trapping is repeated (see Image 
+S4 in the Supplementary Material). 
+
+
+Table 4 
+Interviews’ informants, selection criteria, and data collection mechanism.      
+
+
+Category of Informant Number of 
+Informants 
+
+
+Selection Criteria Data Collection Mechanism   
+
+
+▪ Fishermen 1  • Fishermen 1 uses a 9-ton gross fishing vessel.  • 1 Physical Walkthrough/Field Observation Visit 
+Observation of the process after the vessel, which is full of wild 
+caught seafood, arrives at the port, up until the process of selling 
+the seafood.  
+
+
+▪ Fishermen 2  • Fishermen 2 uses a 67-ton gross fishing vessel.  • 1 Physical Walkthrough/Field Observation Visit 
+Observation of the process after the vessel, which is full of wild 
+caught seafood, arrives at the port, up until the process of selling 
+the seafood.  • 1 Interview 
+Interview with the vessel owner.  
+
+
+▪ Traders 1  • Seafood trader is based in Phuket.  • 1 Interview 
+Interview with trader.  
+
+
+▪ Processors 1  • Processor purchases frozen tunas worldwide according to 
+customers’ specifications and produces canned tuna 
+products to export.  
+
+
+• 1 Physical Walkthrough/Field Observation Visit 
+Factory visit.  • 1 Interview 
+Interview with the purchasing, quality and production manager.  
+
+
+▪ Wholesalers 1  • An original equipment manufacturing company which 
+supplies customers’ labels.  • The wholesaler imports processed fish products (mainly 
+canned fish) and exports them worldwide.  • The wholesaler does not own any manufacturing sites. 
+The operations only include importing, storage, 
+delivering, and exporting.  • All the suppliers of the wholesaler are certified by the 
+British Retail Consortium Global Standard for Food 
+Safety.  
+
+
+• 1 Interview 
+Interview with the purchasing and responsible sourcing 
+manager.  
+
+
+▪ Tech Providers 6  • A combination of non-blockchain and blockchain 
+technology providers to compare the capabilities of 
+different technologies.  
+
+
+• 6 Interviews 
+Interview with information technology managers and 
+developers.  
+
+
+▪ Marine Stewardship 
+Council 
+
+
+1  • Organisation which conducts audits and provides 
+certification for sustainable fishing.  
+
+
+• 1 Interview 
+Interview with the information technology manager and auditor.  
+
+
+▪ Government 2  • Department of Fisheries.  • ‘Port-In-Port-Out’.  • 2 Interviews Interviews with officers. 
+Total Engagements: Thee (3) Physical Walkthroughs/Field Observation Visits; Τhirteen (13) Interviews.  
+
+
+Fig. 2. Fish supply chain analysis framework, based on the Best Practice 
+Guidelines on Traceability (FAO, 2014). 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+In Thailand there are thirty ports that can accept commercial vessels 
+for unloading seafood to prevent unreported catch. In this regard, 
+fishermen are required to book a date and request a specific time- 
+window from the destination port to land vessels and unload the catch. 
+In addition, a ‘Port-In-Port-Out’ form must be administered to the 
+Department of Fisheries while a photographic copy of the logbook data 
+recorded during the trip must be submitted via a public messaging 
+application to obtain approval prior to unloading the catch at a speci-
+fied port (see Image S5 in the Supplementary Material). “Fishermen 2” 
+then unload and deliver the catch to the trader. Notably, the fish sto-
+rage containers include a varying amount of ice due to lack of storage 
+conditions’ monitoring or differences in the dates of the catch (see  
+Image S6 in the Supplementary Material). The process flow diagram of 
+“Fishermen 2” is depicted in Fig. 5. 
+
+
+4.2.2. Trading processes 
+Traders are responsible for supplying the consumers’ market with 
+
+
+seafood delivered by the fishermen, with the risk of unsold units. A 
+trader proceeds to a more accurate seafood sorting process performed 
+on an aluminium platform (see Image S7 in the Supplementary 
+Material). The seafood is segregated into different containers according 
+to species, size, freshness, and appearance; the fish are not preserved in 
+ice until the end of the auction. Each sorting container is labelled by the 
+fishermen with a paper-based printed vessel code (see Image S8 in the 
+Supplementary Material) to account for traceability (see Image S9 in 
+the Supplementary Material). Following the seafood weighting and 
+provision to the market (see Image S10 and Image S11 in the 
+Supplementary Material), the gathered data (already recorded onto the 
+vessels’ logbook) is reported to the ‘Port-In-Port-Out’ form by the tra-
+ders to prevent overfishing and illegal trade. The process flow diagram 
+of the “Trader” is shown in Fig. 6. 
+
+
+4.2.3. Data captured 
+Every stakeholder involved in commercial fishing activities needs to 
+
+
+record data. “Fishermen 2” are required to record all their data onto the 
+fishing logbook while, prior to unloading the catch, a ‘Port-In-Port-Out’ 
+form must be completed. Traders need to record less data compared to 
+fishermen. Data required for international customers, where interna-
+tional standards apply, would be different. The detailed list of Key Data 
+Elements recorded in commercial fishing operations is inserted in Table 
+A2 in the Appendix. 
+
+
+4.3. Case study #3 – canned tuna manufacturing 
+
+
+The approached canned tuna processor is located in the Hat-Yai city 
+and produces personalised fish product labels according to customer 
+
+
+Fig. 3. Key actors in the fish supply network ecosystem in Thailand.  
+
+
+Table 5 
+Major Thai fishery legislative requirements by vessel type (Source: Department 
+of Fishery, 2018).     
+
+
+Requirements by Thai 
+Fishery Legislation 
+
+
+Vessel Type 
+
+
+Local Fishing 
+Vessel 
+
+
+Commercial Vessel  
+
+
+Vessel size Less than 10 Gt Greater than or equal to 10 Gt 
+Vessel registration Yes Yes 
+Fishing logbook No Yes 
+Fishing area Within 3 miles 
+
+
+from the coastline 
+Beyond 3 miles from the 
+
+
+coastline, but within the Thai 
+borders 
+
+
+Tracking devices No Yes 
+Fishing quota No Yes 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+specifications. In 2017, the manufacturer received 45 million kg of 
+tuna, 80% of which was imported. 
+
+
+4.3.1. Canned tuna processes 
+In terms of inbound logistics, tuna is delivered in containers which 
+
+
+would then be loaded onto a conveyor so that fish are manually sorted 
+by weight. To conduct quality control tests, a random sample is taken 
+from the batch. Following the inspection and sorting process, the batch 
+is registered to the inventory system and transferred to the cold storage 
+warehouse with a maximum storage duration of three months. 
+
+
+Regarding the manufacturing process, tuna would be taken out for 
+the thawing process and would be traced with the use of a production 
+card as a tool for tracing material flows (see Image S12 in the 
+Supplementary Material). After the cleaning, tunas are placed on trol-
+leys where relevant information would be recorded on the production 
+card. Herein, all data are recorded by RFID tags (see Image S13 in the 
+Supplementary Material) which accompany the tuna until the end of 
+the filleting process. The fillets are then automatically canned. The 
+ingredients and packaging identification number would be linked to the 
+product identification number for traceability purposes. 
+
+
+Production output is affected by three main factors, namely: (i) tuna 
+size; (ii) tuna species; and (iii) skills of operators. The process flow 
+diagram of the canned tuna manufacturing activities is illustrated in  
+Fig. 7. 
+
+
+4.3.2. Data captured 
+Data required to be captured by the canned tuna manufacturer de-
+
+
+pends on the specifications of the customers. After the tunas are being 
+weighted and sorted, the traceability information provided by the 
+supplier for the production batch would be linked to each batch’s 
+identification number. A final sealing report for each batch would be 
+created and approved by the quality control department. The compre-
+hensive list of Key Data Elements for the canned tuna manufacturing 
+supply chain is provided in Table A3 in the Appendix. 
+
+
+5. Discussion 
+
+
+Evidence derived from the literature and empirical observations 
+reveal that notwithstanding the proliferation of industrial discussions 
+and academic studies on blockchain, limited understanding is 
+
+
+Fig. 4. Local fishing operations process flow diagram.  
+
+
+Fig. 5. Commercial fishing operations process flow diagram.  
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+demonstrated over the data structure requirements for supporting the 
+technology implementation and the respective supply chain (re)design. 
+The results of the case studies suggest that data consistency, capture, 
+interoperability and archetypes-related issues exist in the Thai fish 
+
+
+s-
+u-
+
+
+pply chain that could ultimately impact the resilience of the fishery 
+system and the achievement of SDGs. To that end, this research ar-
+ticulates four principles for blockchain implementation, namely:  
+
+
+• Principle #1 “Data Archetypes” – Linking data sets available in 
+
+
+Fig. 6. Seafood trading process flow diagram.  
+
+
+Fig. 7. Canned tuna manufacturing process flow diagram.  
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+multiple echelons of supply chains is essential.  
+• Principle #2 “Data Capture” – Data on technology limitations needs 
+
+
+to be captured.  
+• Principle #3 “Data Consistency” – Data archetypes should not only 
+
+
+be developed for compliance purposes, but they have to extend 
+beyond regulatory requirements.  
+
+
+• Principle #4 “Data Interoperability” – Insignificant supply chain 
+processes and operations have to be accounted. 
+
+
+5.1. Data archetypes (Principle #1) 
+
+
+The observations of fishermen, traders and the manufacturer’s ac-
+tivities emphasise the lack of interface between operations and in-
+formation flow, in terms of workflows and data triggers, meaning that 
+the granularity of data is lost at the transition points from upstream to 
+downstream supply chain operations thus limiting transparency and 
+traceability. Key observations with regard to the limited possibility of 
+linking data across fish supply chains include:  
+
+
+• Legislative voids – Fish supply network stakeholders might leverage 
+legislation to avoid recording data that could reassure traceability 
+and food safety. For example, local fishermen are not obliged to 
+record any data. However, considering the local fishing capacity 
+(~72% of total vessels) and the short cycle-times of the respective 
+operations, fishmongers have access to fish supplies that are only 
+accounted for their weight and species. The absence of any records 
+also allows the possibility for overfishing and by-catches of en-
+dangered species. In addition, commercial fishermen and traders are 
+not required to record any data with regard to fish unloading, 
+sorting, and storage conditions.  
+
+
+• Not standardised data structure and recording format – The lack of 
+standardisation in data structures and means of data recording es-
+tablishes decoupling points across supply chain transactions. Firstly, 
+local fishermen do not need to record any data and fishmongers 
+have visibility only about the species and the weight of the traded 
+fish supplies. Secondly, commercial vessels use a manually updated 
+logbook to record data with regard to the fishing activities while the 
+Vessel Monitoring System is only used for verifying the location of 
+vessels and not to record or transmit fish catch reports. Furthermore, 
+the arrival ports require only a pictorial copy of the logbook, a 
+format that does not allow the automatic extraction and analysis of 
+the data gathered during fishing activities. Thereafter, traders sort 
+the fish into containers and the only traceability element refers to a 
+hand-written note with each vessel’s code. Thirdly, the canned tuna 
+manufacturer receives fish containers without having access to data 
+about the geographical origin of the fish. Quality inspections on the 
+production line are based on random samplings without providing 
+the capability to track the vessel of origin or even the trapping 
+process. 
+
+
+Therefore, linking the data sets that are available across the dif-
+ferent supply chain echelons of operations is essential to ensure sus-
+tainable performance. Adopting common data archetypes can assist 
+towards this direction. 
+
+
+5.2. Data capture (Principle #2) 
+
+
+Data capture mechanisms and technologies have inherent technical 
+limitations and functional challenges that raise data reliability con-
+cerns. On the one end, paper-based data recording on logbooks entails 
+bias, lacks accuracy, enables duplicated data recordings, and renders 
+the data not reliable or even not accessible in case the physical logbook 
+is damaged. On the other end, functional disruption of the data re-
+cording mechanisms could result in data inconsistencies or gaps. 
+Indicatively, during commercial fishing operations the intentional or 
+unintentional malfunction of the Vessel Monitoring System could result 
+
+
+in the manipulation of the fishing location data thus raising visibility 
+concerns over illegal fishing operations. 
+
+
+Another technical aspect refers to the calibration of any used 
+equipment. For example, the mere common metric used to assess the 
+traded seafood is the fish weight; however, the weighting process is 
+typically executed by using a probably decalibrated or malfunctioning 
+equipment. In addition, quality controls, if any applied in practice, are 
+based on visual inspection that entails the subjective judgement of the 
+involved operators. Therefore, capturing data with regard to technology 
+limitations is essential to allow for data accountability and trust. 
+
+
+5.3. Data consistency (Principle #3) 
+
+
+Empirical evidence led to the conclusion that data regarding the 
+flow of food products throughout the observed fish supply network is 
+only recorded for merely regulatory compliance purposes. However, the 
+magnitude of the gathered data is not leveraged to essentially support 
+fish traceability or to inform downstream operations. 
+
+
+In a future state, to realise the potential of advanced traceability 
+systems, data collection accountability would require stakeholders to 
+demonstrate relevant responsibility. For example, local fishermen ac-
+count for about 70% of the total fishing vessels and are not required to 
+install a Vessel Monitoring System. Therefore, adulteration, commercial 
+frauds, and dangerous substitutions are possible, whereas in case of 
+quality and safety incidents food recalls of particular fish batches will 
+not be feasible. Moreover, the reporting of by-catches of endangered 
+species is manual, thus the monitoring of any environmentally or 
+wildlife biodiversity damaging actions is not ascertained. To that end, 
+data consistency is needed as data archetypes should not only be de-
+veloped for compliance purposes, but they have to extend beyond 
+regulatory requirements. 
+
+
+5.4. Data interoperability (Principle #4) 
+
+
+The scope of traceability needs to guide the design of data collection 
+and sharing. For the case of the Thai fish industry, the primary aim of 
+data recording is to avoid illegal, unregulated and unreported fishing 
+operations. However, this is contradictory to the fact that around 70% 
+of the fishing vessels are not required to be equipped with an electronic 
+positioning system. In addition, certain critical operations are over-
+looked in terms of data monitoring, including:  
+
+
+• Ice preparation – The volume and condition of the ice prepared prior 
+to fishing activities is not monitored. The temperature of the ice is 
+not recorded while the ice might not ensure the appropriate pre-
+servation conditions for the stored fish after the catch. Similar rea-
+soning applies for the ice used to store fish in containers for trading.  
+
+
+• Fish unloading – The unloading of the fish occurs on the vessel’s 
+deck or on aluminium platforms at the port. The cleaning process of 
+these surfaces, if any exists, is not documented.  
+
+
+• Fish sorting – The sorting of fish, occurring either on a vessel’s deck 
+or at the port, is prone to subjectivity errors particularly in terms of 
+species and skin quality. 
+
+
+In this regard, data interoperability is important as multiple insig-
+nificant supply chain operations are often being overlooked; however, 
+the aggregate effect of such neglected processes could severely impact 
+the sustainability of fish supply network operations. 
+
+
+5.5. Blockchain-centric supply networks design and implementation 
+framework 
+
+
+Main concerns relating to fish supply chain operations include: (i) 
+lack of connectivity between different departmental databases; (ii) no 
+logbook requirement for local fishing vessels; (iii) lack of requirement 
+for Vessel Monitoring System installation on local fishing vessels; (iv) 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+inability to share logbook information in real-time; (v) 20% tolerance 
+allowance on the accuracy of the amount of fish catch; and (vi) un-
+registered vessels. To that end, blockchain could be a feasible tech-
+nology intervention for the viability and sustainability of the fishery 
+ecosystem in Thailand but requires a set of supply chain design and 
+technology implementation decisions. 
+
+
+5.5.1. Research findings 
+Lack of databases’ integrity in the Thai government system in-
+
+
+stigates data inaccuracy issues in the fish industry, like incorrect 
+number of registered vessels, thus overlooking illegal activities and 
+impeding traceability. As local fishing vessels are triple in number 
+compared to commercial vessels, about 11–26 million tons of fish 
+caught annually are not recorded and are not considered in the sus-
+tainability assessment of the national aquaculture ecosystem. In addi-
+tion, due to the technical inability for real-time sharing of the vessels’ 
+logbook information, a tolerance level of 20% is allowed on the accu-
+racy of the amount of the fish catch. Considering the nature of the 
+challenges in the Thai fish industry, Table 6 summarises relevant 
+blockchain-centric supply chain design recommendations. 
+
+
+5.5.2. Blockchain implementation framework 
+Blockchain applications in the food sector provide added value in 
+
+
+areas like trust, security, and decentralisation (Galvez, Mejuto, & Simal- 
+Gandara, 2018). However, extant studies focus on the business benefits 
+or information technology elements of traceability systems without 
+discussing the data structures and their importance to supply chain 
+management. Our claim is that the design of blockchain-centric supply 
+chains should first consider the existing data structures and technology 
+specifications in place. To that effect, the adoption process of an ef-
+fective blockchain platform includes decisions at both supply chain 
+design and technology implementation levels, as depicted in the pro-
+posed framework in Fig. 8. 
+
+
+5.5.2.1. Design decisions. Transitioning towards value networks 
+enabled by blockchain technology requires that fundamental 
+traceability systems are implemented to achieve tangible (e.g., market 
+growth) and intangible (e.g., corporate reputation) benefits (Mai, 
+Bogason, Arason, Árnason, & Matthíasson, 2010). In this regard, an 
+effective production identification system has to already link resources 
+to other Key Data Elements and to the finished product. Following that, 
+on the condition that Key Data Elements are complete, the data 
+gathering method is important for ensuring data accuracy. A 
+blockchain database is a trusted database in an untrusted 
+environment. In this sense, blockchain could be complemented by 
+Internet of Things technologies to increase productivity and food 
+traceability (Tian, 2017). Automation (e.g., RFID e-tagging and 
+scanning of fish) ensures data accuracy as it eliminates human errors 
+and intentional fraud that typically result in incorrect information 
+(Girard & Du Payrat, 2017). The use of sensors and automation allows 
+the integration of total quality management in the blockchain. Basic 
+digital technologies that need to underpin blockchain include: 
+
+
+• RFID tags to trace fish from origin and collect data transmitted di-
+rectly from sensors (e.g., date, time, temperature).  
+
+
+• Smart weighting system that takes into consideration a vessel’s 
+movement while weighting the fish catch during fishing operations. 
+Weight logging could be automated to help forecast the landing date 
+to the selected port.  
+
+
+• On-board survey cameras and electronic monitoring systems to help 
+identify interactions with by-catches and protected fish species. 
+
+
+The benefits of blockchain in end-to-end supply networks can be 
+operationalised through the establishment of a trustworthy traceability 
+system that enables sharing of critical data among all collaborating 
+actors. For instance, upstream suppliers would benefit from improved 
+
+
+relationships with corporate customers to generate more business op-
+portunities while downstream customers gain access to trusted data 
+that prevent fraud and ensure food safety. Collaboration is re-
+commended both among companies to improve the audit process and 
+between governmental authorities of neighbouring countries to im-
+prove accuracy in aquaculture monitoring and fishing operations. 
+
+
+Furthermore, a major design decision is to select the on-chain or off- 
+chain attributes to be shared on a blockchain. Companies need to bal-
+ance among performance, privacy, and risk as the blockchain will be 
+growing continuously due to data agglomerations. 
+
+
+5.5.2.2. Implementation decisions. Integrated off-the-self blockchain 
+solutions for supply chains are being developed and tested. However, 
+depending on the blockchain implementation purpose, type of data, and 
+participants in the blockchain, enterprises can select the type of 
+permission, consensus, smart contracts, and storage location, 
+accordingly. In particular, for enterprises some data would be 
+confidential, therefore a permissioned or hybrid blockchain would be 
+more suitable to maintain firm proprietary competitive edge. 
+
+
+6. Conclusions 
+
+
+This research extends the “Principal Agent Theory” and the 
+“Transaction Cost Analysis” Theory into the digital supply chain design 
+domain, while contemporarily broadening the “Resource-Based View” 
+Theory and the “Network Theory” view into the digital supply chain 
+management field, specifically within the context of SDGs. In response 
+to the research question considered in this study, blockchain-centric 
+food supply chain designs that foster SDGs need to ensure data con-
+sistency for extending the focus on regulatory compliance purposes 
+towards sustainability impact. To this end, the pivotal role of data 
+capture is recognised to alleviate any data consistency challenges. In 
+addition, blockchain-centric food supply chain management for SDGs 
+needs to consider data interoperability among the dispersed systems 
+and services to enable the efficient sharing of the content and context of 
+the captured data. To that effect, the management of data archetypes is 
+essential to link the different data sets that are available across multiple 
+supply chain echelons. 
+
+
+From a technical viewpoint, key primary and secondary research 
+evidence suggests that data asymmetry exists in the Thai fish supply 
+chain that hinders the achievement of SDGs. Especially, the require-
+ments of a blockchain implementation should derive from: (i) the ex-
+pected scope of the technology application; (ii) the nature and speci-
+ficities of the targeted operations; (iii) the type of data to be gathered 
+and shared; and (iv) the participants in the blockchain. Thereafter, 
+organisations can consider the type of permission, consensus, smart 
+contracts, and storage locations, accordingly. Furthermore, the study 
+findings confirm that the application opportunities of blockchain in fish 
+supply networks clearly indicate that a single technological solution to 
+tackle supply chain transparency and traceability challenges is not 
+feasible. The design of a respective supply network depends on the 
+fundamentals of traceability systems, namely Key Data Elements and 
+collection mechanisms thereof. These elements need to be designed and 
+managed properly for enabling the benefits of blockchain. From an 
+implementation perspective, in human-dependent data entry points, 
+errors or even fraud incidents could occur; hence, Internet of Things 
+applications can help address data inaccuracy issues. Except for the 
+non-exclusive traceability, immutability and trust related benefits, 
+blockchain enables sustainability performance and helps promote 
+SDGs. 
+
+
+6.1. Academic contributions 
+
+
+Within the particular context of SDGs, this research extends the 
+“Principal Agent Theory” and the “Transaction Cost Analysis” Theory 
+into the digital supply chain design domain. Cotemporally, the study 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+
+
+
+
+Table 6 
+Blockchain-centric supply chain design recommendations for the fish industry.      
+
+
+Case Observations and Issues Consequences Blockchain-centric Supply Chain Design 
+Recommendations   
+
+
+▪ Governmental 
+Challenge  
+
+
+• Different databases for different fisheries-related 
+departments.  
+
+
+• Different data in different databases.  • Create a decentralised database using 
+blockchain to gain access to data in near real- 
+time.  
+
+
+▪ Governmental 
+Challenge  
+
+
+• 20% tolerance on weight of catch allowed to 
+fishermen.  
+
+
+• Over-fishing.  • Data inaccuracy.  • Implement an on-board smart weighting system to increase weighting accuracy 
+during fishing; automatically record the 
+weight and transmit this information to the 
+blockchain.  
+
+
+▪ Governmental 
+Challenge  
+
+
+• Unregistered vessels are untraceable.  • Illegal, unreported and unregulated 
+fishing.  
+
+
+• Detect unregistered/illegal vessels with 
+coastal radars and satellites.  
+
+
+▪ Case Study #1 & 
+Case Study #2  
+
+
+• Paper-based logbook delays data transmission into 
+the government’s traceability system.  
+
+
+• Fraud opportunities.  • Low efficiency.  • Implement Electronic Catch Documentation Traceability or Electronic Recording and 
+Reporting System or E-logbook where catch 
+data can be immediately recorded and 
+become accessible to the government in near 
+real-time. Information on the location from 
+the Vessel Monitoring System can also be 
+automatically linked to the catch data. These 
+data can be immutably stored on a 
+blockchain.  
+
+
+▪ Case Study #2  • With the current Vessel Monitoring System 
+fishermen can decide to switch it off at any point in 
+time but would risk getting caught and fined.  
+
+
+• Illegal, unreported and unregulated 
+fishing.  
+
+
+• Install a motion sensor at ports to monitor 
+incompliance of vessel entry at ‘Port-In’ case 
+of illegal unloading of catch.  • Use alternative technological solutions, such as 
+the Pelagic Data System which is a solar- 
+powered Global Positioning System that can 
+operate 24 h per day.  
+
+
+▪ Case Study #2  • Unmonitored storage temperature of fish on 
+vessels.  • Inconsistency in the amount of ice mixed with 
+seafood in each basket.  
+
+
+• Inappropriate storage temperature 
+has a high probability in impacting 
+seafood freshness, thus resulting in 
+food safety issues.  
+
+
+• Install a temperature sensor to continuously 
+monitor storage temperature. An approval 
+process can be self-executed by creating a 
+protocol to verify the seafood storage 
+temperature with a smart contract. This can 
+improve the safety and quality of the seafood 
+and can accelerate the verification process 
+using a trusted mechanism.  
+
+
+▪ Case Study #2  • Lack of batch identification number and tracking 
+mechanism.  
+
+
+• Lack of traceability.  • Implement Radio-Frequency Identification to 
+trace the product. Radio-Frequency 
+Identification can be linked to different 
+sensors and data can be automatically stored 
+to a blockchain.  
+
+
+▪ Case Study #2  • Inaccuracy in identifying the weight of catch as it 
+is technically difficult to measure weight on a 
+moving vessel.  
+
+
+• Inaccurate data collection.  • Implement smart weighting system at sea to 
+increase accuracy of measurement while 
+data can be automatically transmitted on a 
+blockchain.  
+
+
+▪ Case Study #2  • Limitation in monitoring off-shore activities such 
+as actual fishing equipment used and illegal by- 
+catches caught.  
+
+
+• Illegal, unreported and unregulated 
+fishing.  
+
+
+• Use digital documentation, through for 
+example photos or videos, as proof of 
+equipment used and desired information 
+recorded and time-stamped off-chain 
+(because the file sizes are big).  
+
+
+▪ Case Study #3  • Duplication can occur with Catch Certificates in 
+terms that a single ‘Catch_Certificate.pdf’ file is 
+sent to multiple buyers. Currently, there is no 
+platform for cross-checking Catch Certificates.  
+
+
+• Product delivered may be mixed or 
+replaced by illegal, unreported and 
+unregulated fish but stated in the 
+documents as ‘certified’.  • Sales exceed the amount of certified 
+provisioned fish.  
+
+
+• Transmit the available information in a 
+public blockchain, as being a responsibility 
+of the government. A consensus can be 
+created to validate the transactions in case a 
+particular Catch Certificate reference 
+number has not already been taken by 
+someone else, i.e. a different buyer. 
+Blockchain can make this possible to prevent 
+sending duplicate certificates to multiple 
+buyers.  
+
+
+▪ Case Study #3  • Data interoperability is limited with the use of 
+paper-based systems.  
+
+
+• Interoperability issues.  • Implement, depending on the business 
+model, a hybrid/permissioned blockchain as 
+the most desirable type for fishery industries 
+where a selection of data would be shared to 
+the public (such as origin of catch, storage 
+temperature, etc.) and confidential 
+information would be shared with 
+permissioned stakeholders across the value 
+chain. 
+
+
+(continued on next page) 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+findings extend the “Resource-Based View” Theory and the “Network 
+Theory” view into the digital supply chain management field. 
+
+
+In the financial market, cautions about the prevalence of blockchain 
+technology relate to the lack of governance as capital market regulators 
+continue to raise disclosure requirements (Tappsocott & Tapscott, 
+2017). However, in the case of food supply networks, operational and 
+governance requirements are not significant thus fuelling the rapid and 
+disruptive role of the technology, particularly in case blockchain is 
+standardised and matures to accommodate considerable transaction 
+volumes (Knezevic, 2018). 
+
+
+Notably, uncertainties around data structure and blockchain im-
+plementation result in only generic understanding over the issue and 
+create confusion. On the contrary, this study contributes to the 
+Operations Management field by applying a multiple case study ap-
+proach, combining both primary and secondary data and information, 
+
+
+to develop an integrated and pragmatic view over data structure and 
+transparency in end-to-end fish supply networks enabled by blockchain 
+technology. 
+
+
+In addition, the findings of this research recognise the potential of 
+blockchain to promote sustainability across a range of SDGs, depending 
+on the particular operational context. In principal, blockchain promotes 
+collaboration among stakeholders, hence allowing resources to be di-
+rected to priority areas. For the case of fish supply networks, blockchain 
+could help remove from the food market environmentally damaging, 
+illegal or unethical products of uncertain geographical origin and 
+quality, whilst enhancing consumers’ trust. Contemporarily, the in-
+creased transparency and accountability could stimulate business 
+growth in local fish industries, subsequently contributing to the well-
+being of vulnerable populations. More specifically, this research ar-
+ticulates four principles for blockchain-centric supply chain design, 
+
+
+Table 6 (continued)     
+
+
+Case Observations and Issues Consequences Blockchain-centric Supply Chain Design 
+Recommendations   
+
+
+▪ Wholesaler  • Audits and certification are usually only conducted 
+once per year.  • Lack of full-chain real-time transparency and 
+auditability.  
+
+
+• Does not provide full prevention from 
+fraud on days where suppliers were 
+not audited but products can still be 
+sold as ‘certified’.  
+
+
+• Implement blockchain and Internet of Things 
+to potentially solve this issue. Data can be 
+collected in real-time onto a blockchain with 
+the use of Internet of Things technologies. 
+Certification organisations and customers 
+can then audit the data at any point.  
+
+
+▪ All Stakeholders  • Problems with not having access to real-time data.  • Less efficiency and safety of data.  • Use blockchain so that every organisation in 
+the value chain would be able to access the 
+same copy of data simultaneously. 
+
+
+Fig. 8. Integrated framework of blockchain-centric supply chain design and technology implementation.  
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+along with a technology implementation framework, that could ulti-
+mately impact the resilience of the fishery system and the achievement 
+of SDGs, namely:  
+
+
+• Principle #1 “Data Archetypes” – Linking data sets available in 
+multiple echelons of supply chains is essential.  
+
+
+• Principle #2 “Data Capture” – Data on technology limitations needs 
+to be captured.  
+
+
+• Principle #3 “Data Consistency” – Data archetypes should not only 
+be developed for compliance purposes, but they have to extend 
+beyond regulatory requirements.  
+
+
+• Principle #4 “Data Interoperability” – Insignificant supply chain 
+processes and operations have to be accounted. 
+
+
+In line with the research concerns identified by Kouhizadeh and 
+Sarkis (2018), this research contributes to the blockchain body of re-
+search by investigating the real-world potential of blockchain im-
+plementation to support the competitiveness and export dynamics of 
+the Thai fish industry. At a greater extent, blockchain could enable the 
+holistic consideration of a supply chain to integrate all involved sta-
+keholders, data and technologies thereof, in a collaborative style and 
+promote environmental sustainability in a consistent manner (Koh 
+et al., 2013). 
+
+
+6.2. Management implications 
+
+
+The extant literature on blockchain technology is proliferated by 
+conceptual expositions while real-word empirical cases in the non-fi-
+nance sector are scarce (Ying, Jia, & Du, 2018). On the contrary, the 
+findings of this research assist in addressing real-world practical issues 
+by investigating fish supply chains in Thailand. The outcome of this 
+research contributes to the management field by developing four 
+principles for blockchain-centric supply chain design (i.e., “Data Ar-
+chetypes” – “Data Capture” – “Data Consistency” –“Data Interoper-
+ability”), along with proposing a blockchain implementation frame-
+work structured around these principles. The proposed framework 
+could assist the decision-making process of managers towards the 
+achievement of SDGs. 
+
+
+Blockchain in the fish industry can enable the development of the 
+necessary real-time supply network capabilities (e.g., visibility and 
+data-enabled product quality reporting) to catapult network perfor-
+mance and competitiveness (de Oliveira & Handfield, 2019). Our study 
+reveals that the use of more sensors and automation inspires total 
+
+
+quality management to include devices’ certification and calibration 
+into the blockchain. Moreover, contrary to established blockchain ap-
+plications for cryptocurrency purposes, food supply networks entail 
+physical commodities/products. Therefore, cryptographical proofs of 
+the provenance and handling condition of fish could possibly disrupt 
+the food certification industry as the cost of audits and certifications can 
+be reduced. 
+
+
+6.3. Limitations 
+
+
+Few limitations that characterise this study occur that could moti-
+vate further research. Firstly, during the fieldwork few fishermen 
+seemed to be reluctant in providing direct answers about the fishing 
+methods and records. As the Thailand’s Fishery Foundation informed, 
+such an attitude could be attributed to the abrupt changes in the leg-
+islation that did not allow enough time for the fishermen to adapt. 
+Secondly, our research focused on the diversified data structures and 
+recording practises while the provided blockchain-centric supply chain 
+design and technology implementation framework does not capture 
+technical details. 
+
+
+6.4. Future research 
+
+
+In the future, we aim to perform a similar detailed study on the 
+agricultural sector to support the dual objective of efficiency and sus-
+tainability, particularly with refer to natural and business resources’ 
+appropriation in sensitive regions (Leng, Bi, Jing, Fu, & Van 
+Nieuwenhuyse, 2018). Regarding data privacy concerns, further re-
+search should also explore ownership and analytics functions that bal-
+ance privacy preservation to information loss (Wieringa et al., 2019). 
+
+
+Finally, we aspire to conduct pertinent studies on multiple food 
+products and industrial sectors such as automotive, aerospace, and 
+pharmaceuticals. Additionally, the proposed blockchain implementa-
+tion framework requires multiple testing through action research in 
+order to observe key patterns on how principles on blockchain-centric 
+supply chain design and management vary in different sectors and how 
+does product-process-location characteristics impact data consistency, 
+data capture, data interoperability, and data archetypes. 
+
+
+Acknowledgements 
+
+
+This research is supported by the Industrial Resilience Research at 
+the University of Cambridge.   
+
+
+Appendix A 
+
+
+See Tables A1–A3. 
+
+
+Table A1 
+Interviews’ salient points.    
+
+
+Informant Key Points of Interview  
+
+
+Wholesaler  • The Wholesaler, as a private-labelled supplier, is prone to the fish and seafood sourcing standards dictated by the customers.  • All the Wholesaler’s suppliers are certified by the British Retail Consortium, and therefore the Wholesaler has Good Manufacturing Practise, 
+Hazard Analysis Critical Control Point, and Threat Assessment Critical Control Point systems in place. In addition, the Wholesaler has a Marine 
+Stewardship Council Chain of Custody certification and uses a corresponding ecolabel on the packaging.  • The Wholesaler conducts on-site due diligence audits and routine traceability checks which cover a range of quality areas depending on the 
+specific customers.  • The Wholesaler’s suppliers are required to have sufficient information to complete a full supply chain map back to source, a full vessel list, and 
+ethical and sustainability risk assessment.  • Prior to signing a contract for supply, the Wholesaler seeks independent verification (by a consultant) that systems, documentation and evidence 
+is in place for: (i) legal conformity; (ii) adherence to the Wholesaler’s policies (e.g., tuna sourcing protocol); and (iii) compliance to any specific 
+customer requirements. The effectiveness of the system and processes is then checked at regular intervals by audits conducted by the Wholesaler.  • Wholesaler’s internal traceability is achieved through a commercial Enterprise Resource Planning system. Several of the Wholesaler’s suppliers 
+who also use the same system would be able to share ‘few’ documents using Electronic Data Interchange. According to the Wholesaler, the 
+
+
+(continued on next page) 
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+Table A1 (continued)   
+
+
+Informant Key Points of Interview  
+
+
+Electronic Data Interchange has limitations and can only allow the sharing of few documents. Therefore, communication and data sharing with 
+suppliers and customers is mainly performed via e-mails and telephone calls.  • Shared database would reduce administrative burden and time spent on individual requests on sustainability information.  • Intentional or unintentional substitution of fish species can occur in the supply chain. An incentive for fraud or intentional substitution is cost 
+reduction. When two species of fish look very similar, it is easy to mix them up. When the fishes are processed, it is even harder to differentiate 
+them. For instance, Yellow Fin and Big Eye Tuna look and taste very similar; however, there is a difference in price. In case intentional 
+substitution does occur, it is possible that the supplier could have also modified the paperwork to hide this fraudulent information.  • The Wholesaler does not raise any concerns regarding fraud, mislabelling or substitution with suppliers.  • The Wholesaler encounters minor losses sometimes where pallets or containers are accidentally damaged or poorly packed. The Wholesaler 
+monitors these incidents to prevent them; however, major challenges include:  
+
+
+1. Fish unavailability leading to shifting sources and processing sites at a challenging pace.  
+2. Visibility that inevitably ‘blinds’ the Wholesaler regarding the current end-to-end supply chain operations.  • To gain visibility downstream the supply chain, the Wholesaler must engage with direct suppliers (Tier 1) who may be able to provide the 
+
+
+information or can communicate with their suppliers (Tier 2) to gather this information. 
+Marine Stewardship Council  • In the auditing process, the auditors would verify the absence of illegal, unreported and unregulated fishing activities according to the fisheries 
+
+
+and chain of custody standards. For fisheries, the assessment reports need to clearly state that there is no illegal fishing. Auditors would 
+prepare an assessment report and send it to the Marine Stewardship Council that assesses the report. In case the report is approved, it is 
+uploaded to the Council’s website for allowing public access. For Chain of Custody audits, there is a checklist for auditors. All data from Chain 
+of Custody audits is however confidential due to agreements that the Marine Stewardship Council sets-up with clients.  • The Marine Stewardship Council is moving towards digital traceability systems for certifying supply chains and verifying the absence of illegal, 
+unreported and unregulated fishing. Such a digital system would be able to integrate into any client’s current Information Technology system 
+and facilitate data sharing. Data can be then digitally tracked and verified against the data collected by the client and against other sources of 
+information such as a new vessel’s registry by the Food and Agriculture Organization. Information such as provenance can be captured in near 
+real-time. Such a digital system is in the late design stage and is planned to be launched within the forthcoming two years.  • The Marine Stewardship Council is aware of the blockchain potential and has considered integrating blockchain into its digital system under 
+development; however, the Council decided to delay this implementation due to high cost, high technology risk, and the long development time.  • Blockchain offers a unique opportunity to secure shared information. The information is neutral, distributed and cannot be orchestrated by one 
+company. The Marine Stewardship Council is of the opinion that blockchain can amplify trust on fishermen and the certification per se. Although 
+the Council had never come across concerns with regards to security, blockchain could be a disruptive technology for the certification 
+organisation as the technology gains more trust over the organisation.  • The major weakness of blockchain is the cost of scalability. The cost would be too high for the fisheries’ industry since a fee/payment would be 
+required for such a service.  • A key challenge of blockchain technology is consolidation of data and stakeholders’ collaboration. The Council revealed that there have been 
+examples in other organisations where similar projects were unsuccessful because stakeholders did not collaborate. 
+
+
+Tech Provider #1  • Tech Provider #1 has developed a pilot Electronic Catch Documentation Traceability system that has been implemented by some fishermen in 
+Thailand.  • The developed Electronic Catch Documentation Traceability system can automatically record the date, time, location and speed of each vessel at 
+any time. The system allows robust communication beyond 10 miles from the coastline (mobile telecommunication networks are not accessible 
+beyond this point). The developed Electronic Catch Documentation Traceability system can also be used to record the amount of catch and 
+automatically link this information to the catch location.  • The developed Electronic Catch Documentation Traceability system associates to significant investment cost. The installation cost is 
+approximately THB 100,000 and the subscription cost, dependent on airtime, is approximately THB 4,000–5,000. 
+
+
+Tech Provider #2  • Tech Provider #2 provides a cloud-based Enterprise Resource Planning solution through subscription by offering a full range of services for the 
+entire value chain, including: Hazard Analysis and Critical Control Points quality control; fishery quota; manufacturing management; financial 
+management; business analytics; retail management; internal and external traceability etc. Data backup, updates, Structured Query Language 
+database and security are also included. The installation can be done remotely and incurs minimal installation cost because software licenses 
+and a centralised computer system are not required. Data can be entered using peripherals and scales. The information can be accessed 
+anywhere in the world. The system can be customised according to customers’ requirements. 
+
+
+Tech Provider #3  • Tech Provider #3 is a blockchain start-up company which offers solutions for pharmaceutical supply chains to comply to regulations, such as 
+tracking temperatures and keeping a safe record.  • Tech Provider #3 has integrated Internet of Things with blockchain for automated and tamper-proof data collection by using temperature 
+sensors during the transportation of pharmaceutical products with the information stored in the blockchain.  • Tech Provider #3 developed a web application and a dashboard control panel that analyses and presents data and information in real-time.  • Tech Provider #3 has included a module to monitor weather and uses Big Data and machine learning to create predictive models for better 
+informed supply chain management.  • The blockchain implementation is only limited to transportation operations of medications and has not yet been integrated to other echelons of 
+the pharmaceutical supply chain. 
+
+
+Tech Provider #4  • Tech Provider #4 is an Information Technology consulting firm which has advised and assisted in the implementation of blockchain into 
+supply chains.  • Tech Provider #4 recognises the beneficial role of blockchain for mutual stakeholders’ access to the same data without having to send data ‘back- 
+and-forth’, especially in complex ecosystems.  • According to Tech Provider #4, benefits of blockchain include: auditability; tamper-proof data; decentralisation; proof-of-origin. Tampering can 
+only be achieved in case the entire ecosystem fraudsters the digital platform at exactly the same time.    
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+Table A2 
+Key Data Elements recorded during commercial fishing operations.       
+
+
+Key Data Element Data Recording Responsibility Data source 
+
+
+“Fishermen 2” ‘Port-In-Port- 
+Out’ form 
+
+
+“Trader”   
+
+
+• Vessel name • • • Department of Fishery; Vessel owner  • Vessel identification number • •  Department of Fishery  • Vessel registration code • •  Department of Fishery  • Date of departure • •  Department of Fishery; Vessel owner/Vessel 
+Monitoring System  • Departure port name • •  Vessel Monitoring System; Vessel owner/ 
+
+
+Vessel Monitoring System  • Return port city •   Vessel Monitoring System  • Date of return • •  Vessel Monitoring System; Vessel owner/ 
+Vessel Monitoring System  • Return port name • •  Vessel Monitoring System; Vessel owner/ 
+Vessel Monitoring System  • Departure time  •  Vessel owner/Vessel Monitoring System  • Return time  •  Vessel owner/Vessel Monitoring System  • Latitude and longitude of the catch • •  Vessel Monitoring System; Vessel owner/ 
+
+
+captain  • Fishing round number •   Logbook  • Time fishing started •   Fishermen’s clock  • Duration of catch •   Fishermen’s clock  • Total amount of catch during the entire duration of the harvest (in kilograms) •   Fishermen’s approximation  • Amount of catch per species (in kilograms) •   Fishermen’s approximation  • Total amount of catch per fishing day (in kilograms) •   Fishermen’s approximation  • Amount of aquaculture released back to the sea (in kilograms) •   Fishermen  • Observations of caught rare species •   Fishermen  • Number of days at sea entitled  •  Department of Fishery  • Number of days departed  •  Automatically calculated by the system  • Number of days already at sea    Department of Fishery  • Fishery identification number  •  Department of Fishery  • Fishery equipment  •  Department of Fishery  • Vessel Monitoring System’s brand, model and identification number  •  Department of Fishery  • Radio (VHF/FM, HF/CB, HF/SSB)  •  Department of Fishery  • List of seafood species with the top three catches (in kilograms)  •  Logbook  • Objective of departure (i.e. fishing, maintenance, other)  •  Vessel owner  • Objective of arrival (i.e. unloading catches of certain weight, refilling supplies, 
+maintenance, other)  
+
+
+•  Vessel owner  
+
+
+• Telephone number  •  Vessel owner  • Vessel captain’s name, certificate identification number, citizenship 
+identification number, address, telephone number  
+
+
+•  Vessel owner  
+
+
+• Vessel owner’s name, citizenship identification number, address, telephone 
+number  
+
+
+•  Vessel owner  
+
+
+• List of vessel workers’ names, age, gender, nationality, citizenship 
+identification number, responsibilities in the vessel, working contract  
+
+
+•  Vessel owner  
+
+
+• Date of trade   • Calendar  • Weight of traded seafood   • Conventional weight scale  • Seafood species traded   • Visual inspection  • Price per kilogram of traded seafood   • Trader/auction  • Total price of traded seafood   • Weight of traded seafood × Price per 
+kilogram of traded seafood  • Buyer’s code   • Auction  • Payment method for traded seafood (bank transaction/cash)   • Decision by buyer    
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+Ta
+bl
+
+
+e 
+A3
+
+
+ 
+Ke
+
+
+y 
+Da
+
+
+ta
+ E
+
+
+lem
+en
+
+
+ts 
+re
+
+
+co
+rd
+
+
+ed
+ b
+
+
+y 
+th
+
+
+e c
+an
+
+
+ne
+d 
+
+
+tu
+na
+
+
+ m
+an
+
+
+uf
+ac
+
+
+tu
+re
+
+
+r a
+t t
+
+
+he
+ d
+
+
+iff
+er
+
+
+en
+t s
+
+
+up
+pl
+
+
+y 
+ch
+
+
+ain
+ e
+
+
+ch
+elo
+
+
+ns
+.  
+
+
+
+
+
+Su
+pp
+
+
+lie
+rs 
+
+
+Pa
+ck
+
+
+ag
+in
+
+
+g 
+Ba
+
+
+tch
+ (b
+
+
+y 
+Su
+
+
+pp
+lie
+
+
+r) 
+Qu
+
+
+ali
+ty
+
+
+ C
+on
+
+
+tro
+l 
+
+
+Fi
+na
+
+
+l B
+at
+
+
+ch
+ R
+
+
+ep
+or
+
+
+t  
+ 
+
+
+1.
+ In
+
+
+vo
+ice
+
+
+  
+1.
+
+
+ P
+ro
+
+
+du
+ct 
+
+
+id
+en
+
+
+tifi
+ca
+
+
+tio
+n 
+
+
+nu
+m
+
+
+be
+r  
+
+
+1.
+ P
+
+
+all
+et
+
+
+ n
+um
+
+
+be
+r  
+
+
+1.
+ H
+
+
+ist
+am
+
+
+in
+e l
+
+
+ev
+els
+
+
+  
+1.
+
+
+ P
+ro
+
+
+du
+ct 
+
+
+nu
+m
+
+
+be
+r  
+
+
+2.
+ S
+
+
+up
+pl
+
+
+ier
+ n
+
+
+am
+e  
+
+
+2.
+ B
+
+
+at
+ch
+
+
+ n
+um
+
+
+be
+r  
+
+
+2.
+ F
+
+
+ish
+ sp
+
+
+ec
+ies
+
+
+  
+2.
+
+
+ %
+ sa
+
+
+lt 
+ 
+
+
+2.
+ C
+
+
+us
+to
+
+
+m
+er
+
+
+ id
+en
+
+
+tifi
+ca
+
+
+tio
+n 
+
+
+nu
+m
+
+
+be
+r  
+
+
+3.
+ P
+
+
+ac
+ki
+
+
+ng
+ li
+
+
+st 
+ 
+
+
+3.
+ R
+
+
+ec
+eiv
+
+
+al 
+nu
+
+
+m
+be
+
+
+r  
+3.
+
+
+ S
+ize
+
+
+  
+3.
+
+
+ H
+ea
+
+
+vy
+ m
+
+
+et
+als
+
+
+ (e
+.g.
+
+
+, m
+er
+
+
+cu
+ry
+
+
+, 
+ca
+
+
+dm
+iu
+
+
+m
+)  
+
+
+3.
+ L
+
+
+ot
+/v
+
+
+es
+se
+
+
+l  
+
+
+4.
+ B
+
+
+ill
+ o
+
+
+f l
+an
+
+
+di
+ng
+
+
+  
+4.
+
+
+ Q
+ua
+
+
+nt
+ity
+
+
+  
+4.
+
+
+ D
+at
+
+
+e r
+ec
+
+
+eiv
+ed
+
+
+  
+4.
+
+
+ A
+pp
+
+
+ea
+ra
+
+
+nc
+e b
+
+
+efo
+re
+
+
+ a
+nd
+
+
+ a
+fte
+
+
+r s
+te
+
+
+am
+ 
+
+
+co
+ok
+
+
+ed
+  
+
+
+4.
+ R
+
+
+ec
+eiv
+
+
+e d
+at
+
+
+e  
+
+
+5.
+ D
+
+
+ol
+ph
+
+
+in
+ sa
+
+
+fe 
+ce
+
+
+rti
+fic
+
+
+at
+e  
+
+
+5.
+ T
+
+
+ot
+al 
+
+
+we
+ig
+
+
+ht
+  
+
+
+5.
+ D
+
+
+eli
+ve
+
+
+ry
+ tr
+
+
+uc
+k 
+
+
+lic
+en
+
+
+se
+ n
+
+
+um
+be
+
+
+r  
+5.
+
+
+ B
+on
+
+
+e t
+em
+
+
+pe
+ra
+
+
+tu
+re
+
+
+  
+5.
+
+
+ S
+ize
+
+
+  
+6.
+
+
+ C
+ap
+
+
+ta
+in
+
+
+ st
+at
+
+
+em
+en
+
+
+t  
+6.
+
+
+ S
+up
+
+
+pl
+ier
+
+
+ n
+am
+
+
+e  
+6.
+
+
+ L
+ot
+
+
+ n
+um
+
+
+be
+r  
+
+
+6.
+ S
+
+
+en
+so
+
+
+ry
+ o
+
+
+f fi
+sh
+
+
+ b
+efo
+
+
+re
+ a
+
+
+nd
+ a
+
+
+fte
+r 
+
+
+ste
+am
+
+
+ co
+ok
+
+
+ed
+  
+
+
+6.
+ T
+
+
+im
+e 
+
+
+ta
+ke
+
+
+n 
+ou
+
+
+t o
+f s
+
+
+to
+ra
+
+
+ge
+  
+
+
+7.
+ F
+
+
+ish
+er
+
+
+ies
+ ce
+
+
+rti
+fic
+
+
+at
+e o
+
+
+f o
+rig
+
+
+in
+ N
+
+
+OA
+A 
+
+
+fo
+rm
+
+
+ 3
+70
+
+
+  
+7.
+
+
+ M
+ar
+
+
+in
+e S
+
+
+te
+wa
+
+
+rd
+sh
+
+
+ip
+ C
+
+
+ou
+nc
+
+
+il 
+(if
+
+
+ re
+qu
+
+
+ire
+d)
+
+
+  
+7.
+
+
+ S
+up
+
+
+pl
+ier
+
+
+ co
+de
+
+
+   
+7.
+
+
+ S
+te
+
+
+am
+in
+
+
+g 
+du
+
+
+ra
+tio
+
+
+n 
+ 
+
+
+8.
+ C
+
+
+er
+tifi
+
+
+ca
+te
+
+
+ o
+f o
+
+
+rig
+in
+
+
+  
+8.
+
+
+ O
+rig
+
+
+in
+ o
+
+
+f c
+at
+
+
+ch
+  
+
+
+8.
+ M
+
+
+ar
+in
+
+
+e S
+te
+
+
+wa
+rd
+
+
+sh
+ip
+
+
+ C
+ou
+
+
+nc
+il 
+
+
+(if
+ re
+
+
+qu
+ire
+
+
+d 
+by
+
+
+ 
+th
+
+
+e c
+us
+
+
+to
+m
+
+
+er
+)  
+
+
+ 
+8.
+
+
+ D
+ur
+
+
+at
+io
+
+
+n 
+in
+
+
+ co
+ol
+
+
+in
+g 
+
+
+ro
+om
+
+
+
+
+
+9.
+ B
+
+
+en
+efi
+
+
+cia
+ry
+
+
+’s 
+let
+
+
+te
+r o
+
+
+f g
+ua
+
+
+ra
+nt
+
+
+ee
+  
+
+
+9.
+ V
+
+
+es
+se
+
+
+l n
+um
+
+
+be
+r  
+
+
+9.
+ O
+
+
+rig
+in
+
+
+ o
+f c
+
+
+at
+ch
+
+
+   
+9.
+
+
+ F
+ish
+
+
+ w
+eig
+
+
+ht
+  
+
+
+10
+. H
+
+
+ea
+lth
+
+
+ ce
+rti
+
+
+fic
+at
+
+
+e  
+10
+
+
+. C
+at
+
+
+ch
+ m
+
+
+et
+ho
+
+
+d 
+ 
+
+
+10
+. Y
+
+
+ea
+r  
+
+
+ 
+10
+
+
+. I
+ng
+
+
+re
+di
+
+
+en
+t l
+
+
+ot
+ n
+
+
+um
+be
+
+
+r  
+11
+
+
+. C
+at
+
+
+ch
+ ce
+
+
+rti
+fic
+
+
+at
+e (
+
+
+un
+iq
+
+
+ue
+ re
+
+
+fer
+en
+
+
+ce
+ n
+
+
+um
+be
+
+
+r; 
+da
+
+
+te
+ o
+
+
+f 
+ca
+
+
+tch
+; a
+
+
+m
+ou
+
+
+nt
+ o
+
+
+f c
+at
+
+
+ch
+)  
+
+
+11
+. N
+
+
+on
+-il
+
+
+leg
+al,
+
+
+ u
+nr
+
+
+ep
+or
+
+
+te
+d 
+
+
+an
+d 
+
+
+un
+re
+
+
+gu
+lat
+
+
+ed
+ 
+
+
+ce
+rti
+
+
+fic
+at
+
+
+e  
+11
+
+
+. C
+at
+
+
+ch
+ m
+
+
+et
+ho
+
+
+d 
+  
+
+
+11
+. %
+
+
+ sa
+lt 
+
+
+in
+ b
+
+
+rin
+e  
+
+
+12
+. A
+
+
+gg
+re
+
+
+ga
+te
+
+
+ ca
+tch
+
+
+ ce
+rti
+
+
+fic
+at
+
+
+e f
+or
+
+
+ tr
+ac
+
+
+ea
+bi
+
+
+lit
+y 
+
+
+– 
+Ha
+
+
+rv
+es
+
+
+t 
+an
+
+
+d 
+lan
+
+
+di
+ng
+
+
+/r
+ec
+
+
+eip
+t  
+
+
+12
+. C
+
+
+at
+ch
+
+
+ ce
+rti
+
+
+fic
+at
+
+
+e (
+fo
+
+
+r t
+he
+
+
+ E
+ur
+
+
+op
+ea
+
+
+n 
+Un
+
+
+io
+n 
+
+
+m
+ar
+
+
+ke
+t) 
+
+
+ 
+12
+
+
+. N
+on
+
+
+-il
+leg
+
+
+al,
+ u
+
+
+nr
+ep
+
+
+or
+te
+
+
+d 
+an
+
+
+d 
+un
+
+
+re
+gu
+
+
+lat
+ed
+
+
+ 
+ce
+
+
+rti
+fic
+
+
+at
+e  
+
+
+ 
+12
+
+
+. Q
+ua
+
+
+nt
+ity
+
+
+
+
+
+13
+. C
+
+
+at
+ch
+
+
+ ce
+rti
+
+
+fic
+at
+
+
+e f
+or
+
+
+ tr
+ac
+
+
+ea
+bi
+
+
+lit
+y 
+
+
+– 
+Ha
+
+
+rv
+es
+
+
+t a
+nd
+
+
+ 
+lan
+
+
+di
+ng
+
+
+/r
+ec
+
+
+eip
+t  
+
+
+ 
+13
+
+
+. S
+eq
+
+
+ue
+nc
+
+
+e n
+um
+
+
+be
+r  
+
+
+ 
+13
+
+
+. %
+ co
+
+
+ok
+ed
+
+
+ fi
+sh
+
+
+
+
+
+14
+. R
+
+
+ep
+ro
+
+
+ce
+ss 
+
+
+ce
+rti
+
+
+fic
+at
+
+
+e f
+or
+
+
+ tr
+ac
+
+
+ea
+bi
+
+
+lit
+y 
+
+
+– 
+Pr
+
+
+im
+ar
+
+
+y 
+or
+
+
+ 
+se
+
+
+co
+nd
+
+
+ar
+y 
+
+
+pr
+oc
+
+
+es
+sin
+
+
+g  
+   
+
+
+14
+. S
+
+
+ta
+rt 
+
+
+se
+am
+
+
+
+
+
+15
+. D
+
+
+et
+ail
+
+
+ lo
+ad
+
+
+in
+g 
+
+
+co
+nt
+
+
+ain
+er
+
+
+
+
+
+15
+. S
+
+
+to
+p 
+
+
+se
+am
+
+
+  
+16
+
+
+. I
+nt
+
+
+er
+na
+
+
+tio
+na
+
+
+l P
+&L
+
+
+ F
+ou
+
+
+nd
+at
+
+
+io
+n 
+
+
+m
+em
+
+
+be
+r o
+
+
+r p
+ar
+
+
+tic
+ip
+
+
+at
+e 
+
+
+let
+te
+
+
+r  
+   
+
+
+16
+. T
+
+
+im
+e 
+
+
+pr
+es
+
+
+su
+re
+
+
+
+
+
+17
+. M
+
+
+ar
+in
+
+
+e S
+te
+
+
+wa
+rd
+
+
+sh
+ip
+
+
+ C
+ou
+
+
+nc
+il 
+
+
+(if
+ re
+
+
+qu
+ire
+
+
+d)
+   
+
+
+  
+17
+
+
+. F
+ill
+
+
+et
+in
+
+
+g 
+lin
+
+
+e n
+um
+
+
+be
+r  
+
+
+18
+. D
+
+
+at
+e a
+
+
+nd
+ ti
+
+
+m
+e 
+
+
+re
+ce
+
+
+iv
+ed
+
+
+
+
+
+18
+. S
+
+
+ea
+m
+
+
+er
+ n
+
+
+um
+be
+
+
+r  
+19
+
+
+. D
+eli
+
+
+ve
+ry
+
+
+ tr
+uc
+
+
+k 
+lic
+
+
+en
+se
+
+
+ n
+um
+
+
+be
+r  
+
+
+   
+19
+
+
+. B
+at
+
+
+ch
+ n
+
+
+um
+be
+
+
+r  
+20
+
+
+. R
+ec
+
+
+eiv
+al 
+
+
+nu
+m
+
+
+be
+r  
+
+
+   
+20
+
+
+. S
+te
+
+
+am
+er
+
+
+ n
+um
+
+
+be
+r  
+
+
+N. Tsolakis, et al.   
+
+
+
+
+
+
+Appendix B. Supplementary material 
+
+
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.jbusres.2020.08.003.  
+
+
+References 
+
+
+Ahmed, S., & Broek, N. T. (2017). Blockchain could boost food security. Nature, 
+550(7674), 43. https://doi.org/10.1038/550043e. 
+
+
+Antonucci, F., Figorilli, S., Costa, C., Pallottino, F., Raso, L., & Menesatti, P. (2019). A 
+review on blockchain applications in the agri-food sector. Journal of the Science of 
+Food and Agriculture, 99(14), 6129–6138. https://doi.org/10.1002/jsfa.9912. 
+
+
+Astill, J., Dara, R. A., Campbell, M., Farber, J. M., Fraser, E. D. G., Sharif, S., & Yada, R. Y. 
+(2019). Transparency in food supply chains: A review of enabling technology solu-
+tions. Trends in Food Science and Technology, 91, 240–247. https://doi.org/10.1016/j. 
+tifs.2019.07.024. 
+
+
+Aung, M. M., & Chang, Y. S. (2014). Traceability in a food supply chain: Safety and 
+quality perspectives. Food Control, 39(1), 172–184. https://doi.org/10.1016/j. 
+foodcont.2013.11.007. 
+
+
+Behnke, K., & Janssen, M. F. W. H. A. (2020). Boundary conditions for traceability in food 
+supply chains using blockchain technology. International Journal of Information 
+Management, 52, Article 101969. https://doi.org/10.1016/j.ijinfomgt.2019.05.025. 
+
+
+Borrero, J. D. (2019). Agri-food supply chain traceability for fruit and vegetable co-
+operatives using Blockchain technology [Sistema de trazabilidad de la cadena de 
+suministro agroalimentario para cooperativas de frutas y hortalizas basado en la 
+tecnología Blockchain]. CIRIEC-Espana Revista de Economia Publica, Social y 
+Cooperativa, 95, 71–94. https://doi.org/10.7203/CIRIEC-E.95.13123. 
+
+
+Bumblauskas, D., Mann, A., Dugan, B., & Rittmer, J. (2020). A blockchain use case in food 
+distribution: Do you know where your food has been? International Journal of 
+Information Management, 52, Article 102008. https://doi.org/10.1016/j.ijinfomgt. 
+2019.09.004. 
+
+
+Bush, S. R., Belton, B., Little, D. C., & Islam, M. S. (2019). Emerging trends in aquaculture 
+value chain research. Aquaculture, 498, 428–434. https://doi.org/10.1016/j. 
+aquaculture.2018.08.077. 
+
+
+Capgemini Research Institute (2018). Does blockchain hold the key to a new age of supply 
+chain transparency and trust? Capgemini Research Institute, October 2018 Available 
+at: https://www.capgemini.com/wp-content/uploads/2018/10/Digital-Blockchain- 
+in-Supply-Chain-Report.pdf. Accessed: March 2020. 
+
+
+Chae, B., Yang, C., Olson, D., & Sheu, C. (2014). The impact of advanced analytics and 
+data accuracy on operational performance: A contingent resource based theory (RBT) 
+perspective. Decision Support Systems, 59, 119–126. https://doi.org/10.1016/j.dss. 
+2013.10.012. 
+
+
+Chapron, G. (2017). The environment needs cryptogovernance. Nature, 545(7655), 
+403–405. https://doi.org/10.1038/545403a. 
+
+
+Chen, S., Liu, X., Yan, J., Hu, G., & Shi, Y. (2020). Processes, benefits, and challenges for 
+adoption of blockchain technologies in food supply chains: A thematic analysis. 
+Information Systems and e-Business Management. https://doi.org/10.1007/s10257- 
+020-00467-3 in press. 
+
+
+Choi, T.-M., Guo, S., & Luo, S. (2020). When blockchain meets social-media: Will the 
+result benefit social media analytics for supply chain operations management? 
+Transportation Research Part E: Logistics and Transportation Review, 135, Article 
+101860. https://doi.org/10.1016/j.tre.2020.101860. 
+
+
+Cook, B. (2018). Blockchain: Transforming the seafood supply chain. WWF, September 
+2018 Available at: http://awsassets.wwfnz.panda.org/downloads/draft_blockchain_ 
+report_1_4_1.pdf. Accessed: March 2020. 
+
+
+Crew, S. (2018a). How blockchain can build trust in food. Food Manufacture, 2018(May) 
+ISSN: 00156477. 
+
+
+Crew, S. (2018b). The potential of blockchain. Food Science and Technology, 32(1), 54–56 
+ISSN: 14753324. 
+
+
+Dallasega, P., & Sarkis, J. (2018). Understanding greening supply chains: Proximity 
+analysis can help. Resources, Conservation and Recycling, 139, 76–77. https://doi.org/ 
+10.1016/j.resconrec.2018.07.032. 
+
+
+del Castillo, M. (2017). Intel demos seafood tracking on Sawtooth Lake blockchain. 
+CoinDesk, April 2017. Available at: https://www.coindesk.com/intel-demos-seafood- 
+tracking-sawtooth-lake-blockchain/. Accessed: September 2018. 
+
+
+Department of Fishery (2018). Department of Fishery. Web: Department of Fishery. 
+Available at: https://www4.fisheries.go.th/index.php/dof/main. Accessed: August 
+2018. 
+
+
+Dolgui, A., Ivanov, D., & Sokolov, B. (2018). Ripple effect in the supply chain: An analysis 
+and recent literature. International Journal of Production Research, 56(1–2), 414–430. 
+https://doi.org/10.1080/00207543.2017.1387680. 
+
+
+dos Santos, R. B., Torrisi, N. M., Yamada, E. R. K., & Pantoni, R. P. (2019). IGR token-raw 
+material and ingredient certification of recipe based foods using smart contracts. 
+Informatics, 6(1), 11. https://doi.org/10.3390/informatics6010011. 
+
+
+Eisenhardt, K. M. (1989). Building theories from case study research. The Academy of 
+Management Review, 14(4), 532–550. https://doi.org/10.2307/258557. 
+
+
+European Commission (2015). EU acts on illegal fishing: Yellow card issued to Thailand 
+while South Korea & Philippines are cleared. European Commission, 2015. Available 
+at: http://europa.eu/rapid/press-release_IP-15-4806_en.htm. Accessed: October 
+2018. 
+
+
+FAO (2014). Best practice guidelines on traceability. Bergen, Norway: Food and Agriculture 
+Organization of the United Nations. 
+
+
+Feng, H., Wang, X., Duan, Y., Zhang, J., & Zhang, X. (2020). Applying blockchain 
+
+
+technology to improve agri-food traceability: A review of development methods, 
+benefits and challenges. Journal of Cleaner Production, 260, Article 121031. https:// 
+doi.org/10.1016/j.jclepro.2020.121031. 
+
+
+Fishcoin (2018). Fishcoin: A blockchain based data ecosystem for the global seafood in-
+dustry. White Paper. Web: Fishcoin. Available at: https://fishcoin.co/files/fishcoin. 
+pdf. Accessed: September 2018. 
+
+
+Foster, S. J., Kuo, T.-C., Wan, A. K. Y., & Vincent, A. C. J. (2019). Global seahorse trade 
+defies export bans under CITES action and national legislation. Marine Policy, 103, 
+33–41. https://doi.org/10.1016/j.marpol.2019.01.014. 
+
+
+Furlonger, R. and Valdes, R. (2017). Practical blockchain: A gartner trend insight report. 
+Stamford: Gartner. Available at: https://haas.campusgroups.com/htc/get_file?eid= 
+139611897577441f06512fc062b0a63e. Accessed: October 2018. 
+
+
+Galvez, J. F., Mejuto, J. C., & Simal-Gandara, J. (2018). Future challenges on the use of 
+blockchain for food traceability analysis. TrAC Trends in Analytical Chemistry, 107, 
+222–232. https://doi.org/10.1016/j.trac.2018.08.011. 
+
+
+Garner, H. (2018). 2017 Supply chain trends recap: Looking back at where we got to 
+informs where we need to go now. Global Trade, January 2018. Available at: http:// 
+www.globaltrademag.com/features/2017-supply-chain-trends-recap. Accessed: 
+October 2018. 
+
+
+Gavirneni, S., Kapuscinski, R., & Tayur, S. (1999). Value of information in capacitated 
+supply chains. Management Science, 45(1), 16–24. https://doi.org/10.1287/mnsc.45. 
+1.16. 
+
+
+Gibbert, M., Ruigrok, W., & Wicki, B. (2008). What passes as a rigorous case study? 
+Strategic Management Journal, 29(13), 1465–1474. https://doi.org/10.1002/smj.722. 
+
+
+Girard, P. and Du Payrat, T. (2017). An inventory of new technologies in fisheries. 
+Organisation for Economic Co-operation and Development, November 2017. 
+Available at: https://www.oecd.org/greengrowth/GGSD_2017_Issue%20Paper_New 
+%20technologies%20in%20Fisheries_WEB.pdf. Accessed: October 2018. 
+
+
+Gopi, K., Mazumder, D., Sammut, J., & Saintilan, N. (2019). Determining the provenance 
+and authenticity of seafood: A review of current methodologies. Trends in Food 
+Science and Technology, 91, 294–304. https://doi.org/10.1016/j.tifs.2019.07.010. 
+
+
+Halldórsson, Á., & Skjøtt-Larsen, T. (2004). Developing logistics competencies through 
+third party logistics relationships. International Journal of Operations and Production 
+Management, 24(2), 192–206. https://doi.org/10.1108/01443570410514885. 
+
+
+Halldórsson, Á., Kotzab, H., Mikkola, J., & Skjøtt-Larsen, T. (2007). Complementary 
+theories to supply chain management. Supply Chain Management: An International 
+Journal, 12(4), 284–296. https://doi.org/10.1108/13598540710759808. 
+
+
+Howson, P. (2020). Building trust and equity in marine conservation and fisheries supply 
+chain management with blockchain. Marine Policy, 115, Article 103873. https://doi. 
+org/10.1016/j.marpol.2020.103873. 
+
+
+Hughes, L., Dwivedi, Y. K., Misra, S. K., Rana, N. P., Raghavan, V., & Akella, V. (2019). 
+Blockchain research, practice and policy: Applications, benefits, limitations, emer-
+ging research themes and research agenda. International Journal of Information 
+Management, 49, 114–129. https://doi.org/10.1016/j.ijinfomgt.2019.02.005. 
+
+
+Irani, Z., Sharif, A. M., Lee, H., Aktas, E., Topaloğlu, Z., Van,t Wout, T., & Huda, S. (2018). 
+Managing food security through food waste and loss: Small data to big data. 
+Computers and Operations Research, 98, 367–383. https://doi.org/10.1016/j.cor.2017. 
+10.007. 
+
+
+Jensen, M. C., & Meckling, W. H. (1976). Theory of the firm: Managerial behavior, agency 
+costs and ownership structure. Journal of Financial Economics, 3(4), 305–360. https:// 
+doi.org/10.1016/0304-405X(76)90026-X. 
+
+
+Johanson, J., & Mattsson, L.-G. (1987). Interorganizational relations in industrial systems: 
+A network approach compared with the transaction-cost approach. International 
+Studies of Management and Organization, 17(1), 34–48. https://doi.org/10.1080/ 
+00208825.1987.11656444. 
+
+
+Juskalian, R. (2018). The place where life hangs by a chain. MIT Technology Review, 
+121(3), 42–51 ISSN: 1099274X. 
+
+
+Kamble, S. S., Gunasekaran, A., & Arha, H. (2019). Understanding the blockchain tech-
+nology adoption in supply chains-Indian context. International Journal of Production 
+Research, 57(7), 2009–2033. https://doi.org/10.1080/00207543.2018.1518610. 
+
+
+Kamble, S. S., Gunasekaran, A., & Sharma, R. (2019). Modeling the blockchain enabled 
+traceability in agriculture supply chain. International Journal of Information 
+Management. https://doi.org/10.1016/j.ijinfomgt.2019.05.023 in press. 
+
+
+Kamble, S. S., Gunasekaran, A., & Gawankar, S. A. (2020). Achieving sustainable per-
+formance in a data-driven agriculture supply chain: A review for research and ap-
+plications. International Journal of Production Economics, 219, 179–194. https://doi. 
+org/10.1016/j.ijpe.2019.05.022. 
+
+
+Kamilaris, A., Fonts, A., & Prenafeta-Boldύ, F. X. (2019). The rise of blockchain tech-
+nology in agriculture and food supply chains. Trends in Food Science and Technology, 
+91, 640–652. https://doi.org/10.1016/j.tifs.2019.07.034. 
+
+
+Karlsen, K. M., Dreyer, B., Olsen, P., & Elvevoll, E. O. (2013). Literature review: Does a 
+common theoretical framework to implement food traceability exist? Food Control, 
+32(2), 409–417. https://doi.org/10.1016/j.foodcont.2012.12.011. 
+
+
+Kim, H. M., & Laskowski, M. (2018). Toward an ontology-driven blockchain design for 
+supply-chain provenance. Intelligent Systems in Accounting, Finance and Management, 
+25(1), 18–27. https://doi.org/10.1002/isaf.1424. 
+
+
+Kittipanya-ngam, P., & Tan, K. H. (2020). A framework for food supply chain digitali-
+zation: Lessons from Thailand. Production Planning and Control, 31(2–3), 158–172. 
+https://doi.org/10.1080/09537287.2019.1631462. 
+
+
+N. Tsolakis, et al.   
+
+
+
+https://doi.org/10.1016/j.jbusres.2020.08.003
+
+https://doi.org/10.1038/550043e
+
+https://doi.org/10.1002/jsfa.9912
+
+https://doi.org/10.1016/j.tifs.2019.07.024
+
+https://doi.org/10.1016/j.tifs.2019.07.024
+
+https://doi.org/10.1016/j.ijinfomgt.2019.05.025
+
+https://doi.org/10.7203/CIRIEC-E.95.13123
+
+https://doi.org/10.1016/j.ijinfomgt.2019.09.004
+
+https://doi.org/10.1016/j.ijinfomgt.2019.09.004
+
+https://doi.org/10.1016/j.aquaculture.2018.08.077
+
+https://doi.org/10.1016/j.aquaculture.2018.08.077
+
+https://www.capgemini.com/wp-content/uploads/2018/10/Digital-Blockchain-in-Supply-Chain-Report.pdf
+
+https://www.capgemini.com/wp-content/uploads/2018/10/Digital-Blockchain-in-Supply-Chain-Report.pdf
+
+https://doi.org/10.1016/j.dss.2013.10.012
+
+https://doi.org/10.1016/j.dss.2013.10.012
+
+https://doi.org/10.1038/545403a
+
+https://doi.org/10.1007/s10257-020-00467-3
+
+https://doi.org/10.1007/s10257-020-00467-3
+
+https://doi.org/10.1016/j.tre.2020.101860
+
+http://awsassets.wwfnz.panda.org/downloads/draft_blockchain_report_1_4_1.pdf
+
+http://awsassets.wwfnz.panda.org/downloads/draft_blockchain_report_1_4_1.pdf
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0075
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0075
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0080
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0080
+
+https://doi.org/10.1016/j.resconrec.2018.07.032
+
+https://doi.org/10.1016/j.resconrec.2018.07.032
+
+https://www.coindesk.com/intel-demos-seafood-tracking-sawtooth-lake-blockchain/
+
+https://www.coindesk.com/intel-demos-seafood-tracking-sawtooth-lake-blockchain/
+
+https://www4.fisheries.go.th/index.php/dof/main
+
+https://doi.org/10.1080/00207543.2017.1387680
+
+https://doi.org/10.3390/informatics6010011
+
+https://doi.org/10.2307/258557
+
+http://europa.eu/rapid/press-release_IP-15-4806_en.htm
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0120
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0120
+
+https://doi.org/10.1016/j.jclepro.2020.121031
+
+https://doi.org/10.1016/j.jclepro.2020.121031
+
+https://fishcoin.co/files/fishcoin.pdf
+
+https://fishcoin.co/files/fishcoin.pdf
+
+https://doi.org/10.1016/j.marpol.2019.01.014
+
+https://haas.campusgroups.com/htc/get_file%3feid%3d139611897577441f06512fc062b0a63e
+
+https://haas.campusgroups.com/htc/get_file%3feid%3d139611897577441f06512fc062b0a63e
+
+https://doi.org/10.1016/j.trac.2018.08.011
+
+http://www.globaltrademag.com/features/2017-supply-chain-trends-recap
+
+http://www.globaltrademag.com/features/2017-supply-chain-trends-recap
+
+https://doi.org/10.1287/mnsc.45.1.16
+
+https://doi.org/10.1287/mnsc.45.1.16
+
+https://doi.org/10.1002/smj.722
+
+https://www.oecd.org/greengrowth/GGSD_2017_Issue%2520Paper_New%2520technologies%2520in%2520Fisheries_WEB.pdf
+
+https://www.oecd.org/greengrowth/GGSD_2017_Issue%2520Paper_New%2520technologies%2520in%2520Fisheries_WEB.pdf
+
+https://doi.org/10.1016/j.tifs.2019.07.010
+
+https://doi.org/10.1108/01443570410514885
+
+https://doi.org/10.1108/13598540710759808
+
+https://doi.org/10.1016/j.marpol.2020.103873
+
+https://doi.org/10.1016/j.marpol.2020.103873
+
+https://doi.org/10.1016/j.ijinfomgt.2019.02.005
+
+https://doi.org/10.1016/j.cor.2017.10.007
+
+https://doi.org/10.1016/j.cor.2017.10.007
+
+https://doi.org/10.1016/0304-405X(76)90026-X
+
+https://doi.org/10.1016/0304-405X(76)90026-X
+
+https://doi.org/10.1080/00208825.1987.11656444
+
+https://doi.org/10.1080/00208825.1987.11656444
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0205
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0205
+
+https://doi.org/10.1080/00207543.2018.1518610
+
+https://doi.org/10.1016/j.ijinfomgt.2019.05.023
+
+https://doi.org/10.1016/j.ijpe.2019.05.022
+
+https://doi.org/10.1016/j.ijpe.2019.05.022
+
+https://doi.org/10.1016/j.tifs.2019.07.034
+
+https://doi.org/10.1016/j.foodcont.2012.12.011
+
+https://doi.org/10.1002/isaf.1424
+
+https://doi.org/10.1080/09537287.2019.1631462
+
+
+
+
+Klasen, S., Lechtenfeld, T., & Povel, F. (2015). A feminization of vulnerability? Female 
+headship, poverty, and vulnerability in Thailand and Vietnam. World Development, 
+71, 36–53. https://doi.org/10.1016/j.worlddev.2013.11.003. 
+
+
+Knezevic, D. (2018). Impact of blockchain technology platform in changing the financial 
+sector and other industries. Montenegrin Journal of Economics, 14(1), 109–120. 
+https://doi.org/10.14254/1800-5845/2018.14-1.8. 
+
+
+Koh, S. C. L., Genovese, A., Acquaye, A. A., Barratt, P., Rana, N., Kuylenstierna, J., & 
+Gibbs, D. (2013). Decarbonising product supply chains: Design and development of 
+an integrated evidence-based decision support system – The supply chain environ-
+mental analysis tool (SCEnAT). International Journal of Production Research, 51(7), 
+2092–2109. https://doi.org/10.1080/00207543.2012.705042. 
+
+
+Kohtamäki, M., Parida, V., Oghazi, P., Gebauer, H., & Baines, T. (2019). Digital serviti-
+zation business models in ecosystems: A theory of the firm. Journal of Business 
+Research, 104, 380–392. https://doi.org/10.1016/j.jbusres.2019.06.027. 
+
+
+Konovalenko, I., & Ludwig, A. (2019). Event processing in supply chain management – 
+The status quo and research outlook. Computers in Industry, 105, 229–249. https:// 
+doi.org/10.1016/j.compind.2018.12.009. 
+
+
+Kouhizadeh, M., & Sarkis, J. (2018). Blockchain practices, potentials, and perspectives in 
+greening supply chains. Sustainability, 10(10), 3652. https://doi.org/10.3390/ 
+su10103652. 
+
+
+Kshetri, N. (2018). Blockchain’s roles in meeting key supply chain management objec-
+tives. International Journal of Information Management, 39, 80–89. https://doi.org/10. 
+1016/j.ijinfomgt.2017.12.005. 
+
+
+Kumar, A., Liu, R., & Shan, Z. (2019). Is blockchain a silver bullet for supply chain 
+management? Technical challenges and research opportunities. Decision Sciences. 
+https://doi.org/10.1111/deci.12396. 
+
+
+Kumar, A., Liu, R., & Shan, Z. (2020). Is blockchain a silver bullet for supply chain 
+management? Technical challenges and research opportunities. Decision Sciences, 
+51(1), 8–37. https://doi.org/10.1111/deci.12396. 
+
+
+Kuo, T.-C., Laksanawimol, P., Aylesworth, L., Foster, S. J., & Vincent, A. C. J. (2018). 
+Changes in the trade of bycatch species corresponding to CITES regulations: The case 
+of dried seahorse trade in Thailand. Biodiversity and Conservation, 27(13), 3447–3468. 
+https://doi.org/10.1007/s10531-018-1610-2. 
+
+
+Leng, K., Bi, Y., Jing, L., Fu, H.-C., & Van Nieuwenhuyse, I. (2018). Research on agri-
+cultural supply chain system with double chain architecture based on blockchain 
+technology. Future Generation Computer Systems, 86, 641–649. https://doi.org/10. 
+1016/j.future.2018.04.061. 
+
+
+Lezoche, M., Panetto, H., Kacprzyk, J., Hernandez, J. E., & Alemany Díaz, M. M. E. 
+(2020). Agri-food 4.0: A survey of the supply chains and technologies for the future 
+agriculture. Computers in Industry, 117, Article 103187. https://doi.org/10.1016/j. 
+compind.2020.103187. 
+
+
+Lin, C., He, D., Huang, X., Choo, K.-K. R., & Vasilakos, A. V. (2018). BSeIn: A blockchain- 
+based secure mutual authentication with fine-grained access control system for in-
+dustry 4.0. Journal of Network and Computer Applications, 116, 42–52. https://doi.org/ 
+10.1016/j.jnca.2018.05.005. 
+
+
+Lin, Y.-P., Petway, J. R., Anthony, J., Mukhtar, H., Liao, S.-W., Chou, C.-F., & Ho, Y.-F. 
+(2017). Blockchain: The evolutionary next step for ICT e-agriculture. Environments, 
+4(3), 50. https://doi.org/10.3390/environments4030050. 
+
+
+Lindley, J., & Techera, E. J. (2017). Overcoming complexity in illegal, unregulated and 
+unreported fishing to achieve effective regulatory pluralism. Marine Policy, 81, 
+71–79. https://doi.org/10.1016/j.marpol.2017.03.010. 
+
+
+Loh, T.-L., Tewfik, A., Aylesworth, L., & Phoonsawat, R. (2016). Species in wildlife trade: 
+Socio-economic factors influence seahorse relative abundance in Thailand. Biological 
+Conservation, 201, 301–308. https://doi.org/10.1016/j.biocon.2016.07.022. 
+
+
+Mai, N., Bogason, S. G., Arason, S., Árnason, S. V., & Matthíasson, T. G. (2010). Benefits of 
+traceability in fish supply chains – Case studies. British Food Journal, 112(9), 
+976–1002. https://doi.org/10.1108/00070701011074354. 
+
+
+Mai, N. T. T., Margeirsson, S., Stefansson, G., & Arason, S. (2010). Evaluation of a seafood 
+firm traceability system based on process mapping information: More efficient use of 
+recorded data. Journal of Food, Agriculture and Environment, 8(2), 51–59. 
+
+
+Marfia, G., & Degli Esposti, P. (2017). Blockchain and sensor-based reputation enforce-
+ment for the support of the reshoring of business activities. In A. Vecchi (Ed.). 
+Reshoring of manufacturing. Measuring operations performance (pp. 125–139). Cham: 
+Springer. 
+
+
+Mathisen, M. (2018). The application of blockchain technology in Norwegian fish supply 
+chains - A case study. Norwegian University of Science and Technology. 
+
+
+McCutcheon, D. M., & Meredith, J. R. (1993). Conducting case study research in opera-
+tions management. Journal of Operations Management, 11(3), 239–256. https://doi. 
+org/10.1016/0272-6963(93)90002-7. 
+
+
+Min, H. (2019). Blockchain technology for enhancing supply chain resilience. Business 
+Horizons, 62(1), 35–45. https://doi.org/10.1016/j.bushor.2018.08.012. 
+
+
+Mondal, S., Wijewardena, K. P., Karuppuswami, S., Kriti, N., Kumar, D., & Chahal, P. 
+(2019). Blockchain inspired RFID-based information architecture for food supply 
+chain. IEEE Internet of Things Journal, 6(3), 5803–5813. https://doi.org/10.1109/ 
+JIOT.2019.2907658. 
+
+
+Muzammal, M., Qu, Q., & Nasrulin, B. (2019). Renovating blockchain with distributed 
+databases: An open source system. Future Generation Computer Systems, 90, 105–117. 
+https://doi.org/10.1016/j.future.2018.07.042. 
+
+
+Nash, K. S. (2018). Walmart-led blockchain effort seeks farm-to-grocery-aisle view of food 
+supply chain. The Wall Street Journal, June 2018. Available at: https://blogs.wsj. 
+com/cio/2018/06/25/walmart-led-blockchain-effort-seeks-farm-to-grocery-aisle- 
+view-of-food-supply-chain/. Accessed: September 2018. 
+
+
+Ndraha, N., Hsiao, H.-I., Vlajic, J., Yang, M.-F., & Lin, H.-T. V. (2018). Time-temperature 
+abuse in the food cold chain: Review of issues, challenges, and recommendations. 
+Food Control, 89, 12–21. https://doi.org/10.1016/j.foodcont.2018.01.027. 
+
+
+Nidumolu, R., Ellison, J., Whalen, J., & Billman, E. (2014). The collaboration imperative. 
+
+
+Harvard Business Review, 92(4), 76–84. 
+Nong, D. (2019). Potential economic impacts of global wild catch fishery decline in 
+
+
+Southeast Asia and South America. Economic Analysis and Policy, 62, 213–226. 
+https://doi.org/10.1016/j.eap.2019.04.004. 
+
+
+de Oliveira, M. P. V., & Handfield, R. (2019). Analytical foundations for development of 
+real-time supply chain capabilities. International Journal of Production Research, 57(5), 
+1571–1589. https://doi.org/10.1080/00207543.2018.1493240. 
+
+
+Pendrous, R. (2017). Blockchain takes off in food and drink. Food Manufacture, 
+2017(October) ISSN: 00156477. 
+
+
+Perry, A. L., Lunn, K. E., & Vincent, A. C. J. (2010). Fisheries, large-scale trade, and 
+conservation of seahorses in Malaysia and Thailand. Aquatic Conservation: Marine and 
+Freshwater Ecosystems, 20(4), 464–475. https://doi.org/10.1002/aqc.1112. 
+
+
+Poseidon (2019). The illegal, unreported ad unregulated fishing index. The Global 
+Initiative Against Transnational Organised Crimes, January 2019 Available at: 
+https://globalinitiative.net/wp-content/uploads/2019/02/IUU-Fishing-Index- 
+Report-web-version.pdf. Accessed: March 2020. 
+
+
+Provenance (2016). From shore to plate: Tracking tuna on blockchain. Provenance, July 
+2016. Available at: https://www.provenance.org/tracking-tuna-on-the-blockchain# 
+blockchains. Accessed: September 2018. 
+
+
+Raut, R. D., Mangla, S. K., Narwane, V. S., Gardas, B. B., Priyadarshinee, P., & Narkhede, 
+B. E. (2019). Linking big data analytics and operational sustainability practices for 
+sustainable business management. Journal of Cleaner Production, 224, 10–24. https:// 
+doi.org/10.1016/j.jclepro.2019.03.181. 
+
+
+Rindfleisch, A., & Heide, J. B. (1997). Transaction cost analysis: Past, present, and future 
+applications. Journal of Marketing, 61(4), 30–54. https://doi.org/10.2307/1252085. 
+
+
+Rinehart, L. M., Eckert, J. A., Handfield, R. B., Page, T. J., & Atkin, T. (2004). An as-
+sessment of supplier-customer relationships. Journal of Business Logistics, 25(1), 
+25–62. https://doi.org/10.1002/j.2158-1592.2004.tb00169.x. 
+
+
+Saberi, S., Kouhizadeh, M., Sarkis, J., & Shen, L. (2019). Blockchain technology and its 
+relationships to sustainable supply chain management. International Journal of 
+Production Research, 57(7), 2117–2135. https://doi.org/10.1080/00207543.2018. 
+1533261. 
+
+
+Sander, F., Semeijn, J., & Mahr, D. (2018). The acceptance of blockchain technology in 
+meat traceability and transparency. British Food Journal, 120(9), 2066–2079. https:// 
+doi.org/10.1108/BFJ-07-2017-0365. 
+
+
+Sasipornkarn, E. (2019). Thai fishing industry makes headway, but challenges remain. 
+Deutsche Welle, November 2019 Available at: https://p.dw.com/p/3SvXf. Accessed: 
+March 2020. 
+
+
+Saunders, M. N. K., Lewis, P., & Thornhill, A. (2009). Research methods for business students 
+(5th ed.). New York, USA: Prentice Hall. 
+
+
+Sener, A., Barut, M., Oztekin, A., Avcilar, M. Y., & Yildirim, M. B. (2019). The role of 
+information usage in a retail supply chain: A causal data mining and analytical 
+modeling approach. Journal of Business Research, 99, 87–104. https://doi.org/10. 
+1016/j.jbusres.2019.01.070. 
+
+
+Suichies, B. (2015). Why blockchain must die in 2016. Medium, December 2015 
+Available at: https://medium.com/block-chain/why-blockchain-must-die-in-2016- 
+e992774c03b4. Accessed: March 2020. 
+
+
+Tanielian, A. (2018). Sustainability and competitiveness in Thai rubber industries. 
+Copenhagen Journal of Asian Studies, 36(1), 50–78. 
+
+
+Tappsocott, D., & Tapscott, A. (2017). Realizing the potential of blockchain: A multi-
+stakeholder approach to the stewardship of blockchain and cryptocurrencies. World eco-
+nomic forum. Cologny/Geneva: World Economic Forum. 
+
+
+Tian, F. (2017). A supply chain traceability system for food safety based on HACCP, 
+blockchain & Internet of things. International conference on service systems and service 
+management, Dalian (pp. 1–6). . https://doi.org/10.1109/ICSSSM.2017.7996119. 
+
+
+Tiwari, S., Wee, H. M., & Daryanto, Y. (2018). Big data analytics in supply chain man-
+agement between 2010 and 2016: Insights to industries. Computers and Industrial 
+Engineering, 115, 319–330. https://doi.org/10.1016/j.cie.2017.11.017. 
+
+
+Tranfield, D., Denyer, D., & Smart, P. (2003). Towards a methodology for developing 
+evidence-informed management knowledge by means of systematic review. British 
+Journal of Management, 14(3), 207–222. https://doi.org/10.1111/1467-8551.00375. 
+
+
+Treiblmaier, H. (2018). The impact of the blockchain on the supply chain: A theory-based 
+research framework and a call for action. Supply Chain Management: An International 
+Journal, 23(6), 545–559. https://doi.org/10.1108/SCM-01-2018-0029. 
+
+
+Trkman, P., Štemberger, M. I., Jaklič, J., & Groznik, A. (2007). Process approach to supply 
+chain integration. Supply Chain Management, 12(2), 116–128. https://doi.org/10. 
+1108/13598540710737307. 
+
+
+USDA (2018). Seafood report: Thailand. Bangkok: United States Department of Agriculture 
+Foreign Agricultural Service, Global Agricultural Information Network. 
+
+
+van Ruth, S. M., Luning, P. A., Silvis, I. C. J., Yang, Y., & Huisman, W. (2018). Differences 
+in fraud vulnerability in various food supply chains and their tiers. Food Control, 84, 
+375–381. https://doi.org/10.1016/j.foodcont.2017.08.020. 
+
+
+Visser, C. & Hanich, Q. (2018). How blockchain is strengthening tuna traceability to 
+combat illegal fishing. University of Wollongong, January 2018 Available at: https:// 
+ro.uow.edu.au/cgi/viewcontent.cgi?article=4374&context=lhapapers. Accessed: 
+March 2020. 
+
+
+Viswanathan, P. (2008). Emerging smallholder rubber farming systems in India and 
+Thailand: A comparative economic analysis. Asian Journal of Agriculture and 
+Development, 5(2), 1–20. https://doi.org/10.22004/ag.econ.198984. 
+
+
+Wacker, J. G., Yang, C., & Sheu, C. (2016). A transaction cost economics model for es-
+timating performance effectiveness of relational and contractual governance: Theory 
+and statistical results. International Journal of Operations and Production Management, 
+36(11), 1551–1575. https://doi.org/10.1108/IJOPM-10-2013-0470. 
+
+
+Whipple, J., & Roh, J. (2010). Agency theory and quality fade in buyer-supplier re-
+lationships. International Journal of Logistics Management, 21(3), 338–352. https://doi. 
+org/10.1108/09574091011089781. 
+
+
+N. Tsolakis, et al.   
+
+
+
+https://doi.org/10.1016/j.worlddev.2013.11.003
+
+https://doi.org/10.14254/1800-5845/2018.14-1.8
+
+https://doi.org/10.1080/00207543.2012.705042
+
+https://doi.org/10.1016/j.jbusres.2019.06.027
+
+https://doi.org/10.1016/j.compind.2018.12.009
+
+https://doi.org/10.1016/j.compind.2018.12.009
+
+https://doi.org/10.3390/su10103652
+
+https://doi.org/10.3390/su10103652
+
+https://doi.org/10.1016/j.ijinfomgt.2017.12.005
+
+https://doi.org/10.1016/j.ijinfomgt.2017.12.005
+
+https://doi.org/10.1111/deci.12396
+
+https://doi.org/10.1111/deci.12396
+
+https://doi.org/10.1007/s10531-018-1610-2
+
+https://doi.org/10.1016/j.future.2018.04.061
+
+https://doi.org/10.1016/j.future.2018.04.061
+
+https://doi.org/10.1016/j.compind.2020.103187
+
+https://doi.org/10.1016/j.compind.2020.103187
+
+https://doi.org/10.1016/j.jnca.2018.05.005
+
+https://doi.org/10.1016/j.jnca.2018.05.005
+
+https://doi.org/10.3390/environments4030050
+
+https://doi.org/10.1016/j.marpol.2017.03.010
+
+https://doi.org/10.1016/j.biocon.2016.07.022
+
+https://doi.org/10.1108/00070701011074354
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0330
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0330
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0330
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0335
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0335
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0335
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0335
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/optYl8AGy5tSA
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/optYl8AGy5tSA
+
+https://doi.org/10.1016/0272-6963(93)90002-7
+
+https://doi.org/10.1016/0272-6963(93)90002-7
+
+https://doi.org/10.1016/j.bushor.2018.08.012
+
+https://doi.org/10.1109/JIOT.2019.2907658
+
+https://doi.org/10.1109/JIOT.2019.2907658
+
+https://doi.org/10.1016/j.future.2018.07.042
+
+https://blogs.wsj.com/cio/2018/06/25/walmart-led-blockchain-effort-seeks-farm-to-grocery-aisle-view-of-food-supply-chain/
+
+https://blogs.wsj.com/cio/2018/06/25/walmart-led-blockchain-effort-seeks-farm-to-grocery-aisle-view-of-food-supply-chain/
+
+https://blogs.wsj.com/cio/2018/06/25/walmart-led-blockchain-effort-seeks-farm-to-grocery-aisle-view-of-food-supply-chain/
+
+https://doi.org/10.1016/j.foodcont.2018.01.027
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0370
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0370
+
+https://doi.org/10.1016/j.eap.2019.04.004
+
+https://doi.org/10.1080/00207543.2018.1493240
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0385
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0385
+
+https://doi.org/10.1002/aqc.1112
+
+https://globalinitiative.net/wp-content/uploads/2019/02/IUU-Fishing-Index-Report-web-version.pdf
+
+https://globalinitiative.net/wp-content/uploads/2019/02/IUU-Fishing-Index-Report-web-version.pdf
+
+https://www.provenance.org/tracking-tuna-on-the-blockchain%23blockchains
+
+https://www.provenance.org/tracking-tuna-on-the-blockchain%23blockchains
+
+https://doi.org/10.1016/j.jclepro.2019.03.181
+
+https://doi.org/10.1016/j.jclepro.2019.03.181
+
+https://doi.org/10.2307/1252085
+
+https://doi.org/10.1002/j.2158-1592.2004.tb00169.x
+
+https://doi.org/10.1080/00207543.2018.1533261
+
+https://doi.org/10.1080/00207543.2018.1533261
+
+https://doi.org/10.1108/BFJ-07-2017-0365
+
+https://doi.org/10.1108/BFJ-07-2017-0365
+
+https://p.dw.com/p/3SvXf
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0435
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0435
+
+https://doi.org/10.1016/j.jbusres.2019.01.070
+
+https://doi.org/10.1016/j.jbusres.2019.01.070
+
+https://medium.com/block-chain/why-blockchain-must-die-in-2016-e992774c03b4
+
+https://medium.com/block-chain/why-blockchain-must-die-in-2016-e992774c03b4
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0450
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0450
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0455
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0455
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0455
+
+https://doi.org/10.1109/ICSSSM.2017.7996119
+
+https://doi.org/10.1016/j.cie.2017.11.017
+
+https://doi.org/10.1111/1467-8551.00375
+
+https://doi.org/10.1108/SCM-01-2018-0029
+
+https://doi.org/10.1108/13598540710737307
+
+https://doi.org/10.1108/13598540710737307
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0485
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0485
+
+https://doi.org/10.1016/j.foodcont.2017.08.020
+
+https://ro.uow.edu.au/cgi/viewcontent.cgi%3farticle%3d4374%26context%3dlhapapers
+
+https://ro.uow.edu.au/cgi/viewcontent.cgi%3farticle%3d4374%26context%3dlhapapers
+
+https://doi.org/10.22004/ag.econ.198984
+
+https://doi.org/10.1108/IJOPM-10-2013-0470
+
+https://doi.org/10.1108/09574091011089781
+
+https://doi.org/10.1108/09574091011089781
+
+
+
+
+Wieringa, J., Kannan, P. K., Ma, X., Reutterer, T., Risselada, H., & Skiera, B. (2019). Data 
+analytics in a privacy-concerned world. Journal of Business Research. https://doi.org/ 
+10.1016/j.jbusres.2019.05.005 in press. 
+
+
+Wipatayotin, A. (2019). IUU fishing is a crime issue, says Prawit. Bangkok Post, January 
+2019 Available at: https://globalinitiative.net/wp-content/uploads/2019/02/IUU- 
+Fishing-Index-Report-web-version.pdf. Accessed: March 2020. 
+
+
+WWF (2018). New blockchain project has potential to revolutionise seafood industry. 
+WWF, January 2018 Available at: https://www.wwf.org.nz/media_centre/news/? 
+15541/New-Blockchain-Project-has-Potential-to-Revolutionise-Seafood-Industry. 
+Accessed: September 2018. 
+
+
+Xiong, X., D’Amico, P., Guardone, L., Castigliego, L., Guidi, A., Gianfaldoni, D., & Armani, 
+A. (2016). The uncertainty of seafood labeling in China: A case study on Cod, Salmon 
+and Tuna. Marine Policy, 68, 123–135. https://doi.org/10.1016/j.marpol.2016.02. 
+024. 
+
+
+Yin, R. K. (2003). Case study research: Design and methods (3rd ed.). Thousand Oaks, 
+California: SAGE Publications. 
+
+
+Yin, R. K. (2009). Case study research: Design and methods (4th ed.). Thousand Oaks, 
+California: SAGE Publications. 
+
+
+Ying, W., Jia, S., & Du, W. (2018). Digital enablement of blockchain: Evidence from HNA 
+group. International Journal of Information Management, 39, 1–4. https://doi.org/10. 
+1016/j.ijinfomgt.2017.10.004. 
+
+
+Zhao, G., Liu, S., Lopez, C., Lu, H., Elgueta, S., Chen, H., & Boshkoska, B. M. (2019). 
+Blockchain technology in agri-food value chain management: A synthesis of appli-
+cations, challenges and future research directions. Computers in Industry, 109, 83–99. 
+https://doi.org/10.1016/j.compind.2019.04.002.  
+
+
+Dr Naoum Tsolakis is Research Associate in Industrial Systems and Network Analysis at 
+the Department of Engineering, University of Cambridge, where he focusses on the de-
+sign, analysis and management of multi-level operations in sustainable supply network 
+systems. More specifically, his main research and practice interests include the areas of 
+simulation modelling and optimisation of end-to-end supply chain operations, enabled by 
+digital technologies, to assess emerging configurational designs for the efficient man-
+agement of industrial manufacturing networks. Naoum holds a 5-year Engineering 
+Diploma (top graduate for the Academic Year 2005-2006) and a PhD degree in 
+Mechanical Engineering, along with four Masters degrees in the engineering and business 
+
+
+management domains.  
+
+
+Mr Denis Niedenzu, Master of Philosophy Degree in Industrial Systems, Manufacture and 
+Management, University of Cambridge is currently a PhD candidate in the Industrial 
+Resilience Research Group at the Institute for International Manufacturing, University of 
+Cambridge. His research focuses on the operationalisation of circularity in manufacturing 
+operations. He is particularly interested in the system change requirements for circularity 
+and the environmental and economic evaluation of a circular manufacturing system.  
+
+
+Ms Melissa Simonetto, Master of Industrial Manufacture and Management, University of 
+Cambridge, currently consults in strategy and operations at a leading international con-
+sulting firm. Her professional experience encompasses quality assurance and control in 
+the luxury motorcycle industry; and entrepreneurial roles in FMCG and other consumer 
+businesses. Her interests lay in the areas of sustainable technology implementation and 
+food security.  
+
+
+Dr Manoj Dora is the founder of “Circular Food Forum” in the UK which brings together 
+academic, industries and policy makers to facilitate dialogue and take forward research 
+agenda. His areas of specializations are Sustainable Value Chain and Quality Management 
+with a focus on Lean Six Sigma in the agro-food sector. Manoj’s current research aims to 
+map the circular pathway for food supply chain and its impact across different stake-
+holders using “lean thinking” principles. Manoj has been successful in acquiring research 
+grants from the World Bank, European Commission, British Academy, and several private 
+companies.  
+
+
+Dr Mukesh Kumar is a lecturer in Industrial Engineering and Operations Management, 
+Institute for Manufacturing, University of Cambridge. His main research and practice 
+interests are in the areas of sustainability, risk and resilience in emerging and developed 
+industrial systems. He has developed risk management processes for global manu-
+facturing investment decisions and supply networks. Before joining the University of 
+Cambridge, his previous roles were in the financial sector as a senior analyst and cor-
+porate finance consultant. He holds a PhD from the University of Cambridge in the area of 
+Manufacturing Investment Risk.  
+
+
+N. Tsolakis, et al.   
+
+
+
+https://doi.org/10.1016/j.jbusres.2019.05.005
+
+https://doi.org/10.1016/j.jbusres.2019.05.005
+
+https://globalinitiative.net/wp-content/uploads/2019/02/IUU-Fishing-Index-Report-web-version.pdf
+
+https://globalinitiative.net/wp-content/uploads/2019/02/IUU-Fishing-Index-Report-web-version.pdf
+
+https://www.wwf.org.nz/media_centre/news/%3f15541/New-Blockchain-Project-has-Potential-to-Revolutionise-Seafood-Industry
+
+https://www.wwf.org.nz/media_centre/news/%3f15541/New-Blockchain-Project-has-Potential-to-Revolutionise-Seafood-Industry
+
+https://doi.org/10.1016/j.marpol.2016.02.024
+
+https://doi.org/10.1016/j.marpol.2016.02.024
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0535
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0535
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0540
+
+http://refhub.elsevier.com/S0148-2963(20)30491-4/h0540
+
+https://doi.org/10.1016/j.ijinfomgt.2017.10.004
+
+https://doi.org/10.1016/j.ijinfomgt.2017.10.004
+
+https://doi.org/10.1016/j.compind.2019.04.002
+
+

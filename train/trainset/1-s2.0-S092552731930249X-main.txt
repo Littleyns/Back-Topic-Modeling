@@ -1,0 +1,2044 @@
+
+
+
+
+
+
+
+
+
+
+Contents lists available at ScienceDirect
+
+
+International Journal of Production Economics
+
+
+journal homepage: www.elsevier.com/locate/ijpe
+
+
+Supply chain digitisation trends: An integration of knowledge management
+Dara G. Schniederjansa, Carla Curadob, Mehrnaz Khalajhedayatia,∗
+aUniversity of Rhode Island, USA
+b ISEG – Technical University of Lisbon, USA
+
+
+A R T I C L E I N F O
+
+
+Keywords:
+Digitisation
+Knowledge management
+Forecasting
+Supply chain
+
+
+A B S T R A C T
+
+
+The rapid digitisation of industry, or industry 4.0, is trending in supply chain management. While the amount of
+data made available through digitisation has enabled supply chain benefits, there still exist challenges regarding
+the rapid digitisation of the field. Therein lies opportunities for scholars to leverage the growing amount of data
+through knowledge management to cultivate valuable information for organisations. The purpose of this paper is
+to understand future inquiries for scholars to broaden their perspectives and leveraging knowledge management
+to enhance the supply chain digitisation research paradigm. This is done through both a large-scale literature
+review as well as a textual analysis and forecasting on industry- and field-applications, technologies and topics in
+digitisation. Utilizing textual data as well as google trends data from 2010 to 2018, comparisons are conducted
+on two measurements (prevalence and growth) to determine significant differences between the scholarly
+publications and practitioner (news and video) media to compare scholarly vs. practitioner activity in the
+aforementioned areas of supply chain digitisation. Applying the field of knowledge management to supply chain
+management through a knowledge management theoretical framework, this paper provides future research
+inquiries pertaining to how scholars can utilize the largely ignored areas of supply chain digitisation as well as
+the growing areas to explain how the human dimension of supply chain management can be further explored for
+the purposes of optimizing supply chain digital performance.
+
+
+1. Introduction
+
+
+The rapid digitisation of industry, or Industry 4.0, is trending in
+supply chain management. The opportunities surrounding digitisation
+have made it possible for supply chains to access, store and process a
+large amount of data both from within a firm and externally. For ex-
+ample, manufacturing firms are now able to obtain individualized
+customer data to personalize the sales process, product design and
+service. One application of this is through smart devices which record
+and share data in order to identify opportunities using learning algo-
+rithms (Feng and Shanthikumar, 2018). Digitisation also allows for
+demand information to be shared directly to actuators in manufacturing
+plants, leading to shorter changeover time and enhanced service level.
+The amount of data stored and disseminated has also enhanced both
+predictive accuracy and facilitation of prescriptive solutions. Specifi-
+cally, forecasting applications of big data have recently proliferated in
+such areas as entertainment (Goel et al., 2010); auto parts (Choi and
+Varian, 2012), hotels (Yang et al., 2014) and the retail industry (Cui
+et al., 2017). Retail stores can now collect data from their consumers
+including an entire purchase history, where they can be subsequently
+identified through membership information or payment methods
+
+
+allowing the company to understand and analyze the characteristics of
+the shopper and predict consumer behavior (Guha and Kumar, 2018).
+In addition to demand planning, digitisation has also had a profound
+impact on the manufacturing environment with sensors, processors and
+actuators collecting real time data about machines, enabling not only
+communication between machines but also sharing the data throughout
+the supply chain network to keep downstream and upstream supply
+chain partners informed of various processes.
+
+
+While the amount of data made available throughout digitisation
+has enabled these benefits, there are a myriad of challenges that are
+currently unaddressed in scholarly literature. This is made evident in
+both news and media where there is a lack of knowledge surrounding
+how to implement and utilize the proliferation of data for the strategic
+vision of the supply chain network. For example, the adequate assess-
+ment and detection of biases, noise and abnormality in data as well as
+the information sharing across the boundaries of legally independent
+organisations is needed to enhance the sharing of competencies and the
+exploitation of opportunities not only between large entities in the
+supply chain but also the small and medium enterprises who have
+limited resources and capabilities (Feng and Shanthikumar, 2018).
+Another facet understudied in scholarly literature is trust in knowledge
+
+
+https://doi.org/10.1016/j.ijpe.2019.07.012
+Received 2 November 2018; Received in revised form 14 June 2019; Accepted 13 July 2019
+
+
+∗ Corresponding author. College of Business, Supply Chain Management, University of Rhode Island, 7 Lippitt road, Ballentine Hall, Office 216, USA.
+E-mail addresses: schniederjans@uri.edu (D.G. Schniederjans), ccurado@iseg.ulisboa.pt (C. Curado), mkhalajhedayati@uri.edu (M. Khalajhedayati).
+
+
+International Journal of Production Economics 220 (2020) 107439
+
+
+Available online 16 July 2019
+0925-5273/ Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+
+T
+
+
+
+http://www.sciencedirect.com/science/journal/09255273
+
+https://www.elsevier.com/locate/ijpe
+
+https://doi.org/10.1016/j.ijpe.2019.07.012
+
+https://doi.org/10.1016/j.ijpe.2019.07.012
+
+mailto:schniederjans@uri.edu
+
+mailto:ccurado@iseg.ulisboa.pt
+
+mailto:mkhalajhedayati@uri.edu
+
+https://doi.org/10.1016/j.ijpe.2019.07.012
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.ijpe.2019.07.012&domain=pdf
+
+
+
+
+sharing which is vital especially considering the increased need to store
+proprietary data in a globally connected digitized environment. As an
+example, equipment suppliers are often reluctant to share machine
+status which ultimately impacts both productivity and quality. Finally,
+when it comes to coordination, the ultimate goal of balancing and
+consolidating limited resources across different organisations requires
+the optimization of resource allocation as well as human resource
+capability investments in knowledge sharing distributed networks
+(Feng and Shanthikumar, 2018).
+
+
+Digitisation has caused both excitement and fear speculating both
+the possibilities to supply chain management as well as inevitable
+threats including the loss of jobs in the field. Articles like Lyall et al.
+(2018) foretell the “death of supply chain”, explaining that leading
+companies are utilizing robotics and artificial intelligence to automate
+labor-intensive tasks and processes in purchasing, invoicing, accounts
+payable and customer service. Further sensor data has rendered ma-
+chine use and maintenance to an automatic state. Blockchains are be-
+ginning to reduce third party involvement. Robots are utilized to au-
+tomate production. Lastly, drones and autonomous vehicles are
+beginning to approach implementation, soon to automate transporta-
+tion. Lyall et al. (2018) concludes that it is these developments in di-
+gitisation that will allow a single organisation to manage the supply
+chain remotely while reducing safety concerns and the need for workers
+in remote locations. Yet despite this concern, organisations still face the
+challenges of extracting knowledge from data as well as implementing
+these technologies within a small portion of the supply chain, much
+less, end-to-end.
+
+
+However, individuals are still needed to optimize the use of these
+technologies for supply chain network performance. Knowledge man-
+agement, which involves the process of creating, sharing, using and
+managing knowledge and information in an organisation, is needed to
+facilitate the process of converting these vast amounts of data to
+knowledge. Although facets of digitisation including machine learning
+seek to automate “learning” in organisations, the proliferation of these
+technologies are not yet viable in strategic thinking for supply chain
+management. Yet, with all the data made available, understanding how
+to extract, share and use knowledge is becoming more fundamental.
+Thus, this paper seeks to address the following research questions: what
+industry- and field-applications, technologies and topics in supply chain
+digitisation are prevalent and growing among scholars and practi-
+tioners? And further are there differences between the prevalence and
+growth between scholars and practitioners? Finally, if there are dif-
+ferences, from a knowledge management perspective, how can supply
+chain scholars apply knowledge management to specific industry- and
+field-applications, technologies and topics to benefit not only scholarly
+research but practitioner insight?
+
+
+To address these questions, this study utilizes a large-scale literature
+review as well as a textual analysis and forecasting (on scholarly pub-
+lications and news/video media data) referencing the industry- and
+field-applications, technologies and topics in digitisation. Utilizing
+textual data as well as google trends data from 2010 to 2018, com-
+parisons are conducted on two measurements (prevalence and growth)
+to determine significant differences between the scholarly publications
+and practitioner (news and video) media to compare scholarly vs.
+practitioner activity in the aforementioned areas of supply chain digi-
+tisation. Applying the field of knowledge management to supply chain
+management through a knowledge management theoretical framework,
+this paper provides future research inquiries pertaining to how scholars
+can utilize the largely ignored areas of supply chain digitisation as well
+as the growing areas to explain how the human dimension of supply
+chain management can be further explored for the purposes of opti-
+mizing supply chain digital performance.
+
+
+The paper is organized as follows: first, an overview of knowledge
+management and its relation to supply chain digitisation is presented.
+Following this, the paper presents the methodology including the col-
+lection and interpretation of textual data from both scholars and
+
+
+practitioners as well as the statistical analyses conducted to assess the
+differences in frequencies. Additionally, a variant of the Croston
+method of forecasting (Linear Exponential smoothing) is utilized to
+forecast both scholarly publications as well as practitioner media to
+determine growth in specific industry- and field-applications, technol-
+ogies and topics. A research model is then presented which indicates the
+two dimensions of frequency and growth on industry- and field-appli-
+cations as well as technologies and topics from both a scholar and
+practitioner standpoint. Similarities between these two dimensions are
+then applied to the field of knowledge management to gather scholarly
+insights and future research directions to utilize knowledge manage-
+ment for enhancing the benefits of digitisation for supply chain man-
+agement.
+
+
+2. Literature review
+
+
+Knowledge management (KM) bridges information demand and
+supply on behalf of learning processes and, consequently, organisa-
+tional performance improvement (Curado and Bontis, 2011). Knowl-
+edge assumes tacit and explicit forms (Polanyi, 1962). Tacit knowledge
+is deeply rooted in action, commitment, and involvement and, thus, it is
+hard to formalize and communicate. Explicit knowledge is codified and
+transmittable in formal, systematic language and thus it is captured in
+libraries, archives, and databases (Nonaka, 1994). There is a permanent
+interaction between tacit and explicit knowledge that moves across
+individuals, groups, organisations, and back to individuals again
+(Nonaka and Toyama, 2003). The theory of knowledge creation
+(Nonaka, 1994) proposes that knowledge is created over an endless
+cycle and, thus, increases organisational knowledge via: a) socializa-
+tion, b) externalization, c) combination and d) internalization. Socia-
+lization demands face-to-face communications among organisation
+members to exchange tacit knowledge. Externalization requires in-
+dividuals to transform tacit into explicit knowledge thereby allowing it
+to be captured by others in the organisation. Combination consists of
+transforming explicit knowledge into more complex forms, and inter-
+nalization converts explicit knowledge back into tacit form allowing
+individuals to include it into their personal routines (Curado and Bontis,
+2011). Given such a theory, we must acknowledge that a major step in
+the knowledge creation process is based upon human interaction,
+challenging the technology basis of supply chain digitisation.
+
+
+According to the (March 1991) model, knowledge management
+relies on the tension between the processes of exploration and ex-
+ploitation. Exploration consists of the development of new organisa-
+tional routines and solutions. Whereas exploitation consists of lever-
+aging current routines to refine solutions and pre-existing knowledge.
+Both knowledge management strategies should be applied for sustain-
+able competitive advantage. The correct balance is hard to achieve
+since organisations learn from experience how to divide resources be-
+tween exploration (efficacy driven) and exploitation (efficiency driven)
+(Curado and Bontis, 2011). In order to use the exploration strategy
+(creating innovations) digitisation supports high-qualified employees;
+whereas when opting for applying an exploitation strategy (improving
+routines) digitisation replaces low-qualified employees (Wilkesmann
+and Wilkesmann, 2018). According to Cepeda Carrión et al. (2004)
+acquiring, managing and transferring knowledge involves technology,
+processes and people. These are considered the three pillars of knowl-
+edge management. They are involved in knowledge management pro-
+cesses and they serve both exploration and/or exploitation.
+
+
+Alavi and Leidner (2001) framework of knowledge management
+processes encompasses; a) knowledge creation, b) knowledge storage/
+retrieval, c) knowledge transfer, and d) knowledge application, to
+create value from the knowledge assets the firm possesses. Knowledge
+management involves not only technical capabilities of managers and
+workers, but also social networks to design, modify and execute work
+flows thus enabling the free circulation of knowledge in internal pro-
+cesses as well as to reach search engines to capture and apply external
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+2
+
+
+
+
+
+
+knowledge (Rojas et al., 2017). The use of digitisation technologies
+assists routines that support knowledge management practices within
+industrial applications (Wilkesmann and Wilkesmann, 2018), thus, lit-
+erature often relates knowledge management and Digitisation
+(Cárdenas et al., 2018; Ilvonen et al., 2018; Shamim et al., 2017;
+Wilkesmann and Wilkesmann, 2018). According to Schneider Electric
+(2017) there are six main managerial challenges of digitisation: (1)
+strategy and analysis, (2) planning and implementation, (3) coopera-
+tion and networks, (4) business models, (5) human resources and (6)
+change and leadership. To overcome these challenges firms must use a
+combination of the three pillars of knowledge management: tech-
+nology, processes and people.
+
+
+In general, knowledge management relates to supply chain man-
+agement by providing the tools necessary to manage large amounts of
+data generated by supply chain operators and their customers (Carlos
+et al., 2013; Dost et al., 2016; Olson, 2018; Pérez-Salazar et al., 2017;
+Schoenherr et al., 2014). Supply chain management demands managers
+to understand, monitor and control operations in the entire supply
+chain, from sourcing, logistics, production and retail delivery to cus-
+tomers (Olson, 2018). All these tasks involve managing knowledge not
+only from the technology side through information systems
+(Gunasekaran and Ngai, 2007) but also the quality of knowledge pro-
+vided in the supply chain through data management and analytics
+(Olson, 2018), regarding either tacit or explicit knowledge (Schoenherr
+et al., 2014). As a result, knowledge management contributes to supply
+chain performance (Dost et al., 2016; Schoenherr et al., 2014) since the
+domains of knowledge management in supply chain management are
+both intra- and inter-organisational (Carlos et al., 2013) allowing firms
+to respond to internal and external stakeholder needs. While the role of
+knowledge management in supply chain management is established in
+current literature, the role of knowledge management as it relates to
+digitisation has yet to be fully explored provided the recency of digital
+technology in both areas of study. A general understanding is needed on
+the digitisation eco-system.
+
+
+Fig. 1, adapted from (Stroup, 2017) provides a general overview of
+the defining characteristics of digitisation as well as the inter-
+disciplinary nature of digitisation. While the figure is not all encom-
+passing of the various technologies that exist, it provides a basic over-
+view of the eco-system of digitisation and how it works toward not only
+the proliferation of big data applications but also internal and external
+stakeholder value. The technologies are separated into common fields
+based on the review of literature conducted, however, many of these
+technologies can be applied in different contexts and other fields.
+
+
+Digitisation commonly referred to as internet of things (IOT) is
+
+
+defined as, “intelligent production incorporated with the internet of
+things, cloud technology and big data. With the ability to collect, share
+and use information to make better decisions and be more productive
+through decentralizing technology processes” (Stroup, 2017). What
+distinguishes the new era of digitisation is the trend toward the de-
+centralization of information sharing and automation. For example,
+traditionally, actuators in manufacturing facilities would be connected
+through a super computer which would directly send data to stations
+independently. In the new digitisation environment, these actuators can
+communicate directly with one another, bypassing the super computer
+through sensor capabilities. Additionally data through sensors can be
+collected and shared throughout the supply chain network via in-
+formation technologies and systems such as cloud computing (Stroup,
+2017). This trend toward not only the rapid and real time sharing of
+information but also of automation has given rise to various other
+technologies that can be controlled with minimal to no human inter-
+vention. However, as seen through the definitions of these technologies,
+while these technologies provide opportunities for data flow and in-
+formation processing, the dissemination of knowledge is still a much-
+needed consideration among scholars.
+
+
+On the information systems side are the technologies that consist of:
+cloud computing and blockchain. Cloud computing is a massively
+scalable computing paradigm that offers software, infrastructure and
+platforms as a service, providing real time data sharing capability
+throughout the supply chain (Cao et al., 2017). Whereas blockchain
+technology refers to incorruptible digital ledgers of transactions that are
+programmed to record value of any type of transaction, allowing for a
+secure and transparent form of sharing transactional data (Tapscott and
+Tapscott, 2016; Underwood, 2016).
+
+
+Other technologies have been developed not only for the aggrega-
+tion and dissemination of large amounts of data but also to aid in
+transportation/warehouse/and distribution management. Drones are
+aerial vehicles that require no human pilot on board (Floreano and
+Wood, 2015). Various applications exist in supply chain including
+transportation of last-mile delivery as well as replacement for conveyor
+systems in the warehouse. For individual drivers, autonomous vehicles
+are any type of vehicle capable of utilizing sensors to detect environ-
+mental changes rendering the capability of navigation without human
+input (Gehrig and Stein, 1998). Companies like Uber have already in-
+itiated the utilization of self-driving trucks to haul freight in Arizona.
+While the current undertakings are a lower level of automation, Uber
+has invested in implementation plans for higher level autonomous ve-
+hicles (Bhuiyan, 2017).
+
+
+From the warehouse management side, augmented reality (AR) is an
+interactive digital experience of a real-world environment where ob-
+jects are augmented by computer generated perceptual data which may
+include visual, auditory, haptic, somatosensory and olfactory percep-
+tions (Schuettel, 2017). Wearable devices are particularly becoming
+more prevalent in warehouse management, where pickers now utilize
+glasses which instruct where to pick, how much to pick and will record
+this information.
+
+
+Sensors that detect physical phenomenon (i.e. pressure, force, ac-
+celeration, temperature, etc.) can convert data into an output typically
+in the form of an electronic signal. Sensors are not only used in a
+manufacturing environment, but now some freight contain sensors that
+detects miles, miles per gallon, fuel, location, speed, etc. The digitisa-
+tion of industry requires machines that are self-aware learning and
+maintained. Where technologies actively suggest task arrangements and
+adjust operational parameters to maximize quality (Feng and
+Shanthikumar, 2018). The design of robotics is progressively improving
+through developments like artificial intelligence. For example, the ex-
+ternal communication between human beings averages approximately
+10 bits per second, whereas robots can communicate at rates over one
+gigabyte per second. Facets like machine learning and artificial in-
+telligence are enhancing the uses of robotics. Machine learning is a
+subset of artificial intelligence where computers are given the ability toFig. 1. Digital technologies.
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+3
+
+
+
+
+
+
+progressively improve their performance on a task with data but
+without the need for explicit programming (Michalski et al., 1984).
+Finally from the production side are technologies like 3D printing and
+reconfigurable manufacturing have the potential to greatly reduce lead
+time and transportation costs throughout the supply chain
+(Schniederjans, 2017). 3D Printing is the process in which material is
+joined and solidified through computer aided design to create a three-
+dimensional object. In addition reconfigurable manufacturing systems
+are designed to accommodate rapid changes in structure (inclusive of
+hardware and software components) in order to adjust to production
+capacity and functionality which is capable of being altered by market
+or an intrinsic system change (Koren et al., 1999).
+
+
+All these technologies serve as a catalyst for greater dissemination of
+information and big data analytics which have been applied to a variety
+of supply chain problems in network design, risk management, in-
+ventory management and retail. In general, the eco-system of digitisa-
+tion has adjusted from being regarded as a connected network between
+things to an extended connection between things, items and all stake-
+holders contributing to the evolution of the business eco-system
+through big data applications and greater amounts of information
+(Rong et al., 2015). The enhanced connectivity and automation pro-
+vided by digitisation continues to proliferate new supply chain appli-
+cations and innovative practices for companies. However, the chal-
+lenges persist without human intervention to adequately extract
+knowledge from this connectivity. The importance of knowledge
+management in the new era of digitisation is further solidified by stu-
+dies like (Xue, 2014) who found that when an IT department is allo-
+cated with more decision rights and has more business knowledge, then
+knowledge creation capability drives the firm toward more strategic
+risk which in turn results in operational and strategic benefits to the
+firm. While previous research has been conducted on business appli-
+cations in a variety of industries (Atzori et al., 2010; Karakostas, 1962;
+Paschou et al., 2013; Turcu and Turcu, 2013) as well as security and
+privacy (Kothmayr et al., 2013; Roman et al., 2013), digitisation lit-
+erature is currently in its infancy, with scholarly and practitioner in-
+terest but minimal insights into avenues to assess the importance of
+industry- and field-applications as well as technologies and topics from
+both a scholar and practitioner standpoint. Further, as knowledge
+management is likely to enhance the benefits to a supply chain, ap-
+plying knowledge management to the specific industry- and field-ap-
+plications as well as technologies and topics will be necessary to ensure
+optimization of supply chain digitisation.
+
+
+3. Methodology
+
+
+The research questions in this study seeks to assess first: what in-
+dustry- and field-applications, technologies and topics in supply chain
+digitisation are prevalent and growing among scholars and practi-
+tioners? And further are there differences between the prevalence and
+growth between scholars and practitioners? Finally, if there are dif-
+ferences, from a knowledge management perspective, how can supply
+chain scholars apply knowledge management to specific industry- and
+field-applications, technologies and topics to benefit not only scholarly
+research but practitioner insight? Thus, the most appropriate method to
+use was content analysis of both scholarly publications and practitioner
+news/video media. Content analysis is a research method that utilizes a
+set of procedures in order to make valid inferences from textual (and/or
+visual and auditory) data (Weber, 1990). Used as a means of describing
+trends in communication content and comparing media or levels of
+communication (Weber, 1990), content analysis was the most appro-
+priate methodology for the research questions developed.
+
+
+3.1. Data acquisition
+
+
+3.1.1. Scholarly textual data
+To address the first research question, a variant of the systematic
+
+
+literature review proposed by Durach et al. (2015) was conducted on
+scholarly publications as well as practitioner media. The units of ana-
+lyses (scholarly publications in supply chain digitisation and practi-
+tioner media in supply chain digitisation) required several sets of media
+platform searches. A scholarly literature review search was performed
+through ABI/INFORM Complete (ProQuest) and Academic Search
+Complete (EBSCOhost) databases. A search string1 was initially devel-
+oped by a co-author whose areas of expertise are in technology and
+supply chain management. Later, two reference librarians helped to
+refine the search string based on domain knowledge in the databases as
+well as the topic. Further inclusion/exclusion criteria included: peer
+reviewed articles in supply chain digitisation, (2) removal of predatory
+journals as indicated on 2018 Beall's List of predatory journals and
+publishers and (3) Removal of articles not written in the English lan-
+guage. Further revisions to the search string were necessary to ensure a
+focus on supply chain digitisation. Both reference librarians suggested
+including a title search specifying supply chain keywords, as well as an
+abstract and subject search on digitisation. This was the higher-level
+exclusion criteria which significantly decreased the number of refer-
+enced articles but ensured any article whose focus was not on supply
+chain digitisation was removed from further consideration. Articles
+were accessed from a period of January 2010–June 2018. Some of the
+journals included: Decision Support Systems, Supply Chain Management:
+An International Journal, Management Science, Operations Research, In-
+ternational Journal of Physical Distribution and Logistics Management, In-
+ternational Journal of Management and Information Systems, etc. A total of
+52 academic articles on supply chain digitisation were utilized as a
+basis for examining scholarly activity in supply chain digitisation.
+
+
+3.1.2. Practitioner magazine textual data
+Practitioner Magazines were utilized to gather textual data re-
+
+
+presentative of the practitioner standpoint on supply chain digitisation.
+Practitioner magazines including: Supply Chain Quarterly, Supply Chain
+Management Review, DC Velocity, Inbound Logistics, Logistics Management,
+Supply Chain Dive, Modern Materials Handing, TechCrunch, CIO Magazine,
+InfoSecurity Group Magazine, Wired, Fast Company, and ComputerWorld
+were accessed to obtain an interdisciplinary perspective of supply chain
+digitisation (i.e. computer science and information technology per-
+sonnel insights can provide a more broad understanding of how supply
+chain digitisation fits into the larger inter-organisational network di-
+gitized eco-system).
+
+
+To ensure the focus on supply chain digitisation similar exclusion/
+inclusion criteria to the scholarly textual data was also utilized. This
+criterion included: (1) title on supply chain; topic/focus on digitisation
+(2) company/practitioner focus (i.e. interviews with supply chain di-
+gitisation implementations, specific company representatives, or talks
+about a company implementing, using or considering supply chain di-
+gitisation). (3) removal of any advertisements (4) removal of new
+company announcements (5) removal of text not related to digitisation
+(i.e. with large interviews with one question pertaining to supply chain
+digitisation, only the textual data related to that question was kept).
+
+
+This data was initially collected through a web scraper. This in-
+cluded accessing the practitioner magazine websites and running the
+web scraper code to collect data including: “title”, “date”, “author”,
+
+
+1 “supply chains” OR “supply chain” OR “supply chain management” OR
+“suppliers” OR “supply network” OR “logistical network” OR “demand chain”
+OR “supply management” OR “reverse logistics” AND “Fourth industrial re-
+volution” OR “smart factory” OR “Connected Enterprise” OR “Industrie 4.0″ OR
+“Industry 4.0″ OR “smart industry” OR “smart manufacturing” OR “Industrial
+internet” OR “re-industrialization” OR “Digitisation” OR “Digital” OR
+“Digitisation” OR “Internet of things” OR “IoT” OR “location detection tech-
+nologies” OR “location detection technology” OR “Advanced human-machine
+interfaces” OR “fraud detection” OR “3D print” OR “additive manufacturing”
+OR “smart sensors” OR “big data” OR “augmented reality” OR “cloud com-
+puting".
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+4
+
+
+
+
+
+
+“affiliation”, “main text”, and “abstract text”. Coding was altered based
+on the layout type of each publication. A total of 353 practitioner
+magazine articles on supply chain digitisation were utilized as a basis
+for examining practitioner activity in supply chain digitisation.
+
+
+3.1.3. Video textual data
+Along with structured data (i.e. scholarly and practitioner magazine
+
+
+articles), unstructured data (via video) was also utilized. It is suggested
+up to 80% of the world's data are unstructured (Tachizawa et al., 2015),
+which are currently underutilized in current research. Video data pro-
+vides supplementary practitioner insight not only from different re-
+presentatives within one company but also different thoughts (maybe
+from a lower level employee) on supply chain digitisation.
+
+
+Video data was collected through YouTube and Google Video with a
+revised search string but with the same search criteria (i.e. title on
+supply chain; topic focus: digitisation). In addition, our research ques-
+tions focus on practitioner perspective required us to refine the video
+inclusion/exclusion criteria to include (1) company/practitioner focus
+(i.e. interviews with supply chain digitisation implementations, specific
+company representatives, or talks about a company implementing,
+using or considering supply chain digitisation): (2) removal of any
+advertisements (3) removal musical only videos with just pictorial data
+(i.e. no textual data) (3) videos without English subtitles.
+
+
+Video data was collected by two graduate assistants and a co-au-
+thor. Facets including: “title”, “date”, “author”, “affiliation”, “text” and
+“summary” data when available were retrieved through YouTube and
+Google Video. Textual data was collected by a main interface and closed
+captioning, when available. Textual data was reviewed and subse-
+quently adjusted by the co-author to ensure accuracy.
+
+
+Data acquisition and subsequent cleansing of data occurred over a
+seven-month period between January 2018–July 2018. Data was col-
+lected and cleansed by one professor and two graduate student assis-
+tants whose expertise lies in social media and supply chain manage-
+ment. Table 1 presents the textual sources and inclusion/exclusion
+criteria. A total of 74 videos on supply chain digitisation were utilized
+as a basis for examining a supplementary viewpoint of practitioner
+activity in supply chain digitisation.
+
+
+3.2. Coding of data
+
+
+Researchers coded the textual data in two stages (1) coding of the
+scholarly data and (2) coding of the news/video data. For each stage:
+independent coders tagged each document on (1) industry- and field-
+applications, (2) technologies and (3) topics in supply chain digitisa-
+tion. Coded classifications were first conducted through term fre-
+quencies (i.e. “autonomous vehicles or self-driving cars” mentioned 49
+times in article 1). Only frequencies above three mentions were utilized
+
+
+to tag articles. These tags were then validated by reading through each
+document. Any deletions (i.e. social responsibility was mentioned twice
+but not related to supply chain digitisation) were recorded and then
+checked for interrater agreement afterwards. Initial industry- and field-
+applications, technologies and topics were informed by a 20%/80%
+randomized split in (1) scholarly data and (2) practitioner data. That is
+initial topics were developed through a thorough analysis of the 20%
+and then subsequent industry- and field-applications as well as tech-
+nologies and topics were added when the remaining 80% did not fit into
+one category. Since the research question requires a comparison be-
+tween the scholarly and practitioner data, the process only coded in-
+dustry- and field-applications, technologies and topics that both sets of
+data have in common. For example, some practitioner media focused on
+journalism applications while the scholarly data did not, thus this was
+not utilized for further comparison. Table 2A (Available in Appendix A)
+provides the final list of 1) industry- and field-applications, (2) tech-
+nologies and (3) topics in supply chain digitisation as well as sample
+articles for each.
+
+
+4. Analyses
+
+
+To address the first research question of “what industry- and field-
+applications, technologies and topics in supply chain digitisation are
+prevalent and growing among scholar and practitioners, this study
+presents data on the prevalence of (1) industry- and field-applications,
+(2) technologies and (3) topics in supply chain digitisation as well as
+how this has evolved over time in both scholarly publications and
+news/video media. To address the differences between the prevalence
+between scholars and practitioners a Mann Whitney U test is performed
+iteratively to determine significant differences. The similarities and the
+differences are accounted for in a model depicting “high vs. low” pre-
+valence in both scholarly and practitioner publications. Following this
+and utilizing a variant of the Croston method of forecasting linear ex-
+ponential smoothing is applied to each set of data to determine growth
+and decay in each (1) industry- and field-applications, (2) technologies
+and (3) topics among both the scholarly publications and practitioner
+media. This is then compared to account for differences in growth/
+
+
+Table 1
+Practitioner and scholarly publications sources, exclusion criteria and frequencies.
+
+
+Type Sources Exclusion Criteria Frequencies
+
+
+Practitioner publications
+(Video)
+
+
+YouTube; Google Video Advertisements, Non-English (without
+English subtitles), No subtitles
+
+
+Initial: 11,200
+Company use and focus on digitisation: 360
+Date Range: 340
+Repeats on similar platforms: 120
+English or Subtitles: 74
+
+
+Practitioner Publication
+(News)
+
+
+Practitioner Magazines Advertisements, New Company
+Announcements, Interviews
+
+
+Initial: 143,222
+Company use and focus on digitisation: 10,347 (title
+summary search)
+Date Range: 538
+Repeats on similar platforms, advertisements, new
+company announcements, interviews: 353
+
+
+Scholarly Publications ABI/INFORM Complete (ProQuest) and
+Academic Search Complete (EBSCOhost)
+databases
+
+
+Peer Reviewed Scholarly Publications;
+Beall's list; English
+
+
+Initial: 3,800
+Peer Scholarly Publications: 1,546; Beall's List and English:
+1080 Title and subject/abstract classifications and date
+range: 52
+
+
+Table 2
+Growth rate comparison of technologies in different data sets.
+
+
+Technology Practitioner publication growth
+rate
+
+
+Google trends growth
+rate
+
+
+IOT 410.85 158.73
+Big Data 149.74 347.34
+Augmented reality 111.20 245.20
+Artificial intelligence 33.00 12.17
+Blockchain 60.48 39.20
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+5
+
+
+
+
+
+
+decay. These analyses will then finish addressing the first two research
+questions. Finally, after comparing both prevalence and growth a final
+model will be applied to knowledge management to help scholarly in-
+sight into developing research questions to help addressing growing but
+also limited research areas for supply chain digitisation.
+
+
+4.1. Prevalence-scholarly publications
+
+
+4.1.1. Industry- and field-applications
+The prevalence of scholarly publications from 2010 to 2018 in-
+
+
+dicates a proliferation of studies in industries including: healthcare,
+aerospace, finance and humanitarian relief. Both food supply chain
+(including agriculture) (10.20%), healthcare (8.16%) appeared to have
+higher frequencies than any other industry which did not surpass 2.04%
+of scholarly publications. These industries became particularly pre-
+valent in 2017. Areas of interest in supply chain digitisation included
+logistics/transportation (16.33%), manufacturing (12.24%), procure-
+ment (6.12%), information systems and information technology (IS/IT)
+(6.12%) and distribution (4.08%) were particularly prevalent. Areas
+including procurement and IS/IT became more prevalent in 2013 and
+continued into 2018. This was followed shortly by logistics/transpor-
+tation which became more prevalent in 2014 as did distribution.
+Manufacturing also became more prevalent in 2013 but diminished in
+2017.
+
+
+4.1.2. Technologies
+From 2010 to 2018, the most prevalent technology discussed was
+
+
+cloud computing (22.45%), which was particularly prevalent in
+2011–2013. Many studies also focused on internet of things (IOT)
+(38.78%) e-commerce (4.08%) or big data (16.33%) in general with
+minimal focus on a technology or facet. This was common throughout
+2011–2017. Other common technologies referenced were 3D printing
+(6.12%), Sensors (4.08%) and radio frequency identification coupled
+with big-data (2.04%). E-commerce was more prevalent in 2010 but has
+since made a resurgence. 3D-printing became more prevalent in 2016.
+Minimal research was found on other technologies or facets of tech-
+nologies including: blockchain, artificial intelligence, drones, autono-
+mous vehicles, augmented reality, or robotics.
+
+
+4.1.3. Topics
+Most scholarly publications included in this study reference poten-
+
+
+tial benefits of utilizing the technology including economic, environ-
+mental and social benefits for various stakeholders (38.78%) which
+grew particularly in 2015–2018. This is followed by scholarly pub-
+lication referencing social implications of utilizing such technology (i.e.
+worker safety, impacts on jobs, customer wellbeing, etc.) which became
+particularly prevalent in the latter part of 2011, decreased and then
+came back in 2015. Following this is inter-organisational collaboration/
+integration (18.37%), global and environmental impacts (both at
+14.29%), digitisation problems/challenges (12.24%), and economic
+implications (both at 4.08%). Other topics including company appli-
+cations and mergers and acquisitions did not reach beyond 2.04%.
+
+
+4.2. Prevalence- practitioner (news/video) publications
+
+
+4.2.1. Industry- and field-applications
+Similar to scholarly publications, the prevalence of practitioner
+
+
+publications from 2010 to 2018 indicates food supply chain (including
+agriculture) as the top industry (4.02%) which rapidly grew in 2014
+and maintained in 2016 and 2017 and healthcare at 2.36%. Other
+common industries included: textiles and courier (both at 1.89%),
+electrical manufacturing (1.65%), finance and humanitarian (both at
+1.18%). Other industries did not surpass 0.24%. Areas of interest in
+supply chain digitisation included: logistics/transportation (25.77%),
+manufacturing (8.27%), IS/IT (10.87%), strategy (6.62%), customer
+relationship management (6.15%) and distribution and retail (both at
+
+
+3.07%). Other areas of interest did not exceed 2.13%. Practitioner
+publications in IS/IT lead the frequencies in 2010 and resurged in
+2015–2016. During that time warehouse and procurement became
+more popular in 2014.
+
+
+4.2.2. Technologies
+Dissimilar from scholarly publications, facets of technologies in-
+
+
+cluding big data represented the most prevalent technology topic in
+news/video literature (11.58%) which had an initial emergence in 2011
+and increased to a large extent in 2015. Further, the majority of news/
+video tended to focus on IOT rather than specific technologies
+(51.77%). Following big data, was blockchain (8.98%) and closely
+following was cloud computing (7.80%). E-commerce also was com-
+monly discussed at 5.20% as was augmented reality (4.96%), artificial
+intelligence (4.49%), and sensors (4.02%). At the lower end was 3D
+printers (3.78%), autonomous vehicles and mobile applications (both at
+3.55%), and robotics (3.07%). RFID and drones did not exceed more
+than 1.18%. Most technologies had a larger emergence in 2015, except
+for mobile applications which remained steady from 2010 to 2018.
+
+
+4.2.3. Topics
+Similar to the scholarly publications, most practitioner publications
+
+
+included in this study reference potential benefits of utilizing the
+technology (30.02%) which grew particularly in early 2014. Unlike the
+scholarly publications, Economic implications followed shortly there-
+after (23.17%). This was then followed by social implications (19.86%),
+global implications and collaboration/integration (both at 15.37%),
+company applications and future oriented discussions (both at 13.00%).
+Challenges and environmental implications did not exceed 8.27%.
+Benefits and future oriented discussion were especially prevalent in the
+early years (i.e. 2011–2012) whereas other topics appeared to increase
+in the early half of 2015.
+
+
+4.3. Frequency analysis and model
+
+
+Frequencies of each industry and field application, technologies and
+topic were tabulated for both scholarly publications and news/video
+publications. Since our study also addressed growth, summed fre-
+quencies and percentages of those frequencies are utilized to rank and
+conduct and iterative Mann-Whitney U test to determine significant
+differences. This is done iteratively where we first determine similar
+rankings between scholarly and news/video media (i.e. Food supply
+chain both received the highest ranking of 1 for both scholarly and
+news/video media), if the null hypothesis cannot be rejected (at a cri-
+tical value of U as defined by the smallest of the U1 or U2 (at α= 0.05),
+where
+
+
+= +
++
+
+
+U n n
+n n
+
+
+R1
+( 1)
+
+
+21 2
+1 1
+
+
+1 (1)
+
+
+= +
++
+
+
+U n n
+n n
+
+
+R2
+( 1)
+
+
+21 2
+2 2
+
+
+2 (2)
+
+
+Where =U the lowest value of U or U n1 2, 1 is the number of each
+industry and field application or technologies or topics in scholarly
+publications and n2 is the number of each industry and field application,
+or technologies, or topics in news/video publications, R1 represents the
+sum of ranks in the scholarly publications, and R2 represents the sum of
+ranks in the news/video publications. We utilize those industry- and
+field-applications, technologies and topics and classify them into four
+categorizations in the research model presented in Fig. 2, where (high,
+high) refers to (scholarly publications ranked high/practitioner pub-
+lications ranked high) and (low, low) refers to (scholarly publications
+ranked low/practitioner publications ranked low). The significant dif-
+ferences are then utilized to determine (high, low) vs. (low, high) ca-
+tegorizations where (high low) refers to (scholarly publications ranked
+high/practitioner publications ranked low) and (low, high) refers to
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+6
+
+
+
+
+
+
+(scholarly publications ranked low/practitioner publications ranked
+high). This was done for each industry and field application, technol-
+ogies and topic categorization. At the two sided-level of significance
+(α= 0.05), for the industry- and field-applications a critical value of
+U≤ 75 was obtained for n1 and n2= 16. For the technologies a critical
+value of U≤ 13 was obtained for n1 and n2= 8. For the topics, a
+critical value of U≤5 was obtained for n1 and n2=6.
+
+
+4.4. Growth-forecasting analysis
+
+
+To adequately compare scholarly publications (which typically get
+published either annually, bi-annually, or quarterly), dates of publica-
+tion were collected and then condensed to reflect bi-annual frequencies.
+Following this, a variant of the Croston method of forecasting which
+accurately accounts for intermittency and obsolescence in data was
+used to forecast growth into six period progressions. This variant, re-
+ferred to as the linear exponential smoothing (LES) method (Prestwich
+et al., 2014), is similar to hyperbolic exponential smoothing (HES) but
+uses a different forecasting function to control the rate of the decay of
+the data by adjusting . Specifically, LES applies single exponential
+smoothing (SES) to generate smoothed estimates of t̂ by using the
+formula,
+
+
+= +ˆ (1 ) ˆt t t 1 (3)
+
+
+where (0,1) is a smoothing parameter and observed values are in-
+dicated by t . The forecast ft for LES utilizes the following formula,
+
+
+=
+>
+
+
++ =( )( )
+f
+
+
+if
+
+
+if
+
+
+, 0
+
+
+1 , 0
+t
+
+
+t
+
+
+t
+
+
+ˆ
+ˆ
+
+
+ˆ
+ˆ 2ˆ
+
+
+t
+t
+
+
+t
+t
+
+
+t
+t (4)
+
+
+where +x demotes max x(0, ). During obsolescence forecasts will decay
+to zero controlled by . When zero is reaches, this remains until further
+nonzero periods occur.
+
+
+LES was utilized after conducting a review of the data which con-
+tained intermittent periods as well as some obsolescence. Provided the
+findings of Prestwich et al. (2014) who compare LES with two other
+Croston variants designed to adjust for obsolescence and intermittent
+data (i.e. Teunter, Syntetos and Babai (TSB) method and HES) and
+suggests it to be the best variant for handling obsolescence.
+
+
+After forecasting the data into six periods, the growth is determined
+through the formula,
+
+
+= +Growth Rate
+f
+
+
+x 100t t
+t
+
+
+6
+
+
+(5)
+
+
+Where +ft 6 is the final (six period) forecasted value from the last
+observed value t from the first half of 2018. Growth rates for each
+industry and field application, technologies and topic were tabulated
+for both scholarly publications and practitioner media. These were then
+grouped according to four categorizations with NGD referring to “no
+growth, decline”, (growth, growth), (growth, NGD), (NGD, growth),
+and (NGD, NGD). The categorization of (growth, growth) indicates
+growth in both scholarly and practitioner publications. The categor-
+ization of (growth, NGD) indicates growth in scholarly publication and
+no growth or decline in practitioner publications. The categorization of
+(NGD, growth) indicates no growth or decline in scholarly publications
+and growth in practitioner publications. Finally, the categorization of
+(NGD, NGD) indicates no growth or decline in both scholarly and
+practitioner publications.
+
+
+4.5. Growth scholarly publications
+
+
+4.5.1. Industry- and field-applications
+Growth in scholarly publications was particularly prevalent in
+
+
+scholarly healthcare publications (78.17%) followed by food supply
+chains (12.91%). Areas covered included logistics/transportation
+(50%), IS/IT, manufacturing, procurement and distribution (all
+growing at an average rate of 25%), aeronautical increased by only
+6.46%. Decreasing industry scholarly research included courier, elec-
+trical manufacturing, textiles, energy, equipment automobile and che-
+mical engineering and manufacturing (100%), humanitarian (32.39%),
+and public service (3.68%). Fields including strategy, CRM, retail and
+warehouse management showed no growth.
+
+
+4.5.2. Technologies
+From 2010 to 2018, IoT is forecasted to increase 164.66%. With
+
+
+specific areas including big data (20.9%) and cloud computing
+(64.44%) to increase. Technologies like augmented reality, block chain,
+autonomous vehicles, robotics, artificial intelligence and drones have
+yet to emerge and thus project forward. Additionally, e-commerce,
+mobile applications, and 3D printing were projected to decrease over
+time.
+
+
+4.5.3. Topics
+All supply chain digitisation topics were projected to increase at a
+
+
+steady rate 25% this included: benefits, global issues, future transfor-
+mation, company applications, challenges, economic impacts, as well as
+social and environmental implications. The only topic that was set to
+gradually increase by 6.58% was collaboration and mergers and ac-
+quisitions.
+
+
+4.6. Growth news/video practitioner publications
+
+
+4.6.1. Industry- and field-applications
+Similar to scholarly publications, food/agriculture (60.22%) and
+
+
+healthcare (13.56%) were both set to increase. However, growth was
+also indicated for public service (42.49%) followed by finance
+(13.56%), courier (8.56%), electrical manufacturing (6.42%) and by a
+slight amount humanitarian relief (0.05%). Unlike scholarly data, an
+industry that was projected to decline included aeronautical en-
+gineering (−21.82%). However, industries including chemical manu-
+facturing (36.58%) automobile manufacturing (−27.40%), energy
+(−22.62%), equipment manufacturing (−22.61%) were all forecasted
+to decrease. All areas were set to increase to differing degrees. The
+largest area was logistics/transportation at 92.1% increased followed
+by IS/IT (39.95%), strategy (38.13%), CRM (34.42%), retail (27.14%),
+manufacturing, procurement, distribution (all at 25%) and warehouse
+management at 13.32%.
+
+
+Fig. 2. Prevalence of industry- and field-applications, topics and technologies.
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+7
+
+
+
+
+
+
+4.6.2. Technologies
+From 2010 to 2018, practitioner publications dealing with IoT
+
+
+(410.85%), big data (149.74%) and cloud computing (91.72%) were all
+projected to increase to a large extent. Also similar to scholarly data
+drones (−12.09%) were projected to decrease. Unlike scholarly data,
+technologies including augmented reality (111.20%) was set to increase
+by a substantial amount. Followed by sensors (72.13%), mobile appli-
+cations (66.68%), blockchain (60.48%), robotics (48.57%), autono-
+mous vehicles (45.94%), E-commerce (41.44%), artificial intelligence
+(33%), ad 3D printing (27.95%) were projected to grow.
+
+
+4.6.3. Topics
+The topics of supply chain digitisation in practitioner publications
+
+
+followed a similar trajectory as scholarly publications. Except for col-
+laboration/integration and mergers and acquisitions (0%), all topics
+were expected to grow to varying degrees. Benefits surpassed all topics
+with 125.67% growth. Followed by global implications (57.03%),
+company applications (54.88%), challenges (53.60%), social implica-
+tions (41.77%), economic implications (39.35%) and environmental
+implications (30.7%). Fig. 3 depicts the delineated categories and the
+industries/fields, technologies and topics within these categorizations.
+
+
+4.7. Comparison of prevalence and growth
+
+
+Fig. 4, presents the consolidated models of Figs. 2 and 3. Specifi-
+cally, Fig. 4 identifies the similarities between growth and prevalence
+among industry, technology and topic. It identifies which topics, tech-
+nologies and industries are growing and prevalent from a practitioner
+and scholarly perspective. However, it goes a step further by also
+identifying what industries, technologies and topics are growing and
+prevalent among practitioners but not growing and prevalent among
+scholars for the purpose of identifying what is currently weak in the
+scholarly arena. Therefore, this figure addresses the final research
+question of this paper, from a knowledge management perspective, how
+can supply chain scholars apply knowledge management to specific
+industry- and field-applications, technologies and topics to benefit not
+only scholarly research but practitioner insight.
+
+
+A sensitivity analysis was performed on the technologies presented
+in Fig. 4 to determine the efficacy of growth in each technology. This
+was done utilizing a google trends search, where the technology key-
+word was utilized and searched on google trends from January
+2010–June 2018. Search data was then downloaded, where we com-
+bined the monthly data to bi-annual and utilized the Holt's technique to
+project six periods into the future. The Holt's method was utilized based
+on the differences in the data. Growth rates were then computed and
+compared. Although the growth rates varied (i.e. due to a combination
+of scholarly and practitioner interest), similar growth rates were found
+between the practitioner-oriented data in prevalence and growth.
+Table 2 presents these statistics.
+
+
+5. Results
+
+
+In a context of technological evolution that supports digitisation of
+industry, the traditional Knowledge Pyramid (Ackoff, 1989) suffered an
+enlargement to incorporate the origin of the building blocks for data,
+subsequent information and later knowledge, resulting in organisa-
+tional actionable intelligence (Jennex, 2017). The available sensors
+allow us to collect and analyze internal and external realities and
+generate data, therefore the roots of data are digitalized. Considering
+such context, we apply the knowledge management approach by Alavi
+and Leidner (2001) to supply chain digitisation and propose an in-
+tegrative approach to enhance the benefits of digitisation for supply
+chain management. Although the specific issues of industries are not
+accounted for generalization's sake, we offer an integrative model in
+Fig. 5 to highlight the supply chain digital optimization contribution to
+organisational digital performance and benefits through the use of
+knowledge management.
+
+
+Considering the proposed integrated approach and the reported
+
+
+Fig. 3. Growth of industry- and field-applications, topics and technologies.
+
+
+Fig. 4. Industry and field application, topics and technologies for scholarly attention.
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+8
+
+
+
+
+
+
+industry applications, technologies and topics for practitioner and
+scholarly attention, we suggest insights and questions for future re-
+search to apply knowledge management in support the supply chain
+digitisation.
+
+
+The research questions in Table 4 are based on the framework
+presented in Table 3 which is combined with the findings presented in
+Fig. 4. Provided concerns about substantial job losses and the related
+decline of supply chain management as a field (Lyall et al., 2018), the
+research questions presented in Table 4 detail the application of
+knowledge management for the purpose of enhancing supply chain
+digital performance. Specifically, these questions can be utilized to
+further support socialization and human level engagement through
+knowledge management for the purpose of enhancing supply chain
+digital performance (Corso et al., 2010).
+
+
+We summarize our proposed questions from three perspectives: in-
+dustry, technology, and management. From an industry perspective,
+research in knowledge management and industry digitisation is typi-
+cally studied in health industries (Barata et al., 2018) particularly ad-
+dressing tacit and explicit knowledge challenges (Al-Karaghouli et al.,
+2013). However, this research is analyzed at the technology- and pro-
+cess-level rather than the individual-level (Lombardi et al., 2015). As a
+result, we specify research questions that focus on the human require-
+ments and consequences of knowledge management use in supply chain
+
+
+digitisation as they relate to health industries. Even in non-intensive
+knowledge management industries (i.e. food industries), we see evi-
+dence of digitisation having a potential to support socialization and
+engagement for the purposes of sharing tacit knowledge (Curado and
+Bontis, 2011; Corso et al., 2010). Thus, one of our questions calls for
+research assessing the use of digital technologies in improving supply
+chain network performance in the food/agricultural industries.
+
+
+From a technology perspective, we focus our questions on how
+technology might be able to address large-scale problems and facilitate
+supply chain performance through knowledge management capability.
+Specifically, IoT in literature has been associated with helping to solve
+issues in information asymmetry (i.e., differing information processing
+capabilities between suppliers and buyers) as well as complexity in
+information (i.e., where suppliers do not understand how to manage
+information in order to engage in customization) (Ng et al., 2015).
+Thus, some of our proposed questions focus on the implications of IoT
+in increasing/decreasing knowledge among personnel. Another ex-
+ample is in blockchain implications towards cyber security. Future re-
+search might even reference the theory knowledge creation proposing
+how blockchain moves the knowledge from socialization to ex-
+ternalization to combination and then to internalization (Nonaka,
+1994). Referencing knowledge management theory, questions per-
+taining to the role of blockchain in cybersecurity and how knowledge
+management can facilitate this process is likely to foster greater insight
+for the technology itself.
+
+
+Regarding managerial issues, according to industry experts and
+academics (Schneider, 2018) combining practical and scholarly im-
+portance of challenges of Digitisation should result in high impact re-
+search further exploring: a) creating conditions for acceptance for
+change; b) building digital capabilities; c) developing new business
+models, and d) providing implications for future business models as
+they relate to knowledge management. These topics reflect the need of
+several combinations of the three pillars of knowledge management:
+technology, processes and people. Hence, research on knowledge
+management should provide a lens for designing and implementing the
+requested solutions. Supply chain knowledge management capability
+(knowledge acquisition, conversion, application and protection within
+the supply chain) contributes to knowledge in the supply chain (both
+tacit and explicit) and enhances the supply chain performance. Future
+research in knowledge management as it relates to supply chain digi-
+tisation helps to foster a greater understanding of the human role in
+supply chain digitisation.
+
+
+6. Discussion and conclusion
+
+
+In this study, content analysis was carried out to collect and inter-
+pret textual data from scholars and practitioners to validate the itera-
+tion of different applications of industry and field, technologies and
+topics. Statistical analyses were performed to determine significant
+differences between the frequencies and growth of supply chain digi-
+tisation industry/field applications, technologies and topics in scholarly
+and practitioner-oriented literature. Finally, a comparison was made to
+consider the differences in prevalence as well as growth/decay to derive
+future research inquiries that relate to the utilization of knowledge
+management in supply chain digitisation.
+
+
+Fig. 5. Proposed integrated approach for supply chain digitisation and knowl-
+edge management (Adopted from (Cárdenas et al., 2018; Wilkesmann and
+Wilkesmann, 2018)).
+
+
+Table 3
+Alavi and Leidner (2001) Basic concepts.
+
+
+Knowledge Perspective Role of Digitisation
+
+
+1 Knowledge vis-à-vis data and information (personalized information) Help the user assimilate information
+2 State-of-mind (knowing/understanding) Provide access to sources of knowledge
+3 Object (object to be stored/manipulated) Gathering, storing, and transferring knowledge
+4 Process (applying expertise) Provide Link among sources of knowledge (depth/breadth)
+5 Access to Information (condition of access to information) Provide effective search and retrieval for locating relevant information
+6 Capability (potential to influence action) Enhance intellectual capital by supporting development of org. competencies
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+9
+
+
+
+
+
+
+To address the first question (i.e. what industry- and field-applica-
+tions, technologies and topics in supply chain digitisation are prevalent
+and growing among scholars and practitioners), we looked at pre-
+valence as well as growth. To do this, a variant of the Croston method of
+forecasting was utilized for intermittency and obsolescence in data to
+forecast growth (Prestwich et al., 2014). This method was applied after
+conducting a review of the data which included intermittent periods
+and some obsolescence as well. Our analyses show that healthcare and
+food supply chain (including agriculture) are the most prevalent in-
+dustries and logistics/transportation and CRM are the most prevalent
+topics considered in both scholarly and practitioner’ publications. Ad-
+ditionally, the most prevalent technologies include IoT and big data. In
+terms of growth, our analyses show growth in such industries and field
+applications as: food/agriculture, healthcare, logistics and transporta-
+tion, IS/IT, manufacturing, procurement, and distribution. Technolo-
+gies including IoT, big data and cloud computing continue to see
+growth in the coming years. Additionally, areas of growth are expected
+in such topics as benefits derived from the technologies, global issues,
+future, applications, challenges, collaborative and economic implica-
+tions as well as social and environmental issues involved in a shift to-
+ward supply chain digitisation.
+
+
+In addressing the second question, (i.e. are there differences be-
+tween the prevalence and growth between scholars and practitioners?),
+our analyses see distinct differences in the prevalence and growth in
+industry, technologies and topics among the practitioner and scholarly
+communities. Specifically, block chain, artificial intelligence and aug-
+mented reality tended towards high levels of prevalence among prac-
+titioners and low levels among scholars. This was also true in growth.
+Additionally, while practitioners are expected to continue to apply
+these technologies to such industries as courier, electrical, strategy and
+retail, the scholarly community does not appear to show much potential
+for growth in these industries.
+
+
+To address the third research question (i.e. how can supply chain
+scholars apply knowledge management to specific industry- and field-
+applications, technologies and topics in order to benefit not only
+scholarly research but practitioner insight?), the two models presented
+
+
+in Figs. 2 and 3 were then compared and combined to obtain a con-
+ception of industries, technologies and topics that were both growing
+and prevalent among scholars as well as those areas that have shown
+growth and prevalence among practitioners but not scholars. In this
+sense, a framework was offered to develop research questions that can
+be used to reflect how supply chain management and knowledge can
+combine to create a new paradigm reflecting the benefits of digitisation
+while mitigating the social concerns often plaguing supply chain digi-
+tisation (i.e. potential loss of jobs). While this framework provides
+fundamental insights on future areas of inquiry, we are not suggesting
+that research should ignore the industries, technologies and topics in
+the (not prevalent/no growth/decline) categorization. For example,
+there is much insight to be made on drones as well as the applications in
+the automotive industry, textile industry etc. This study simply im-
+plores researchers to assess certain areas that have yet to be fully ex-
+plored as the next decade will likely see tremendous advancements in
+our understanding of how knowledge management and digitisation
+influences supply chain digital performance.
+
+
+Acknowledgement
+
+
+The authors gratefully acknowledge financial support from FCT-
+Fundação para a Ciência e Tecnologia (Portugal), national funding
+through research grant UID/SOC/04521/2019.
+
+
+References
+
+
+Ackoff, R.L., 1989. From data to wisdom. J. Appl. Syst. Anal. 16 (1), 3–9. https://doi.org/
+10.1080/00207543.2013.849827.
+
+
+Al-Karaghouli, W., Ghoneim, A., Sharif, A., Dwivedi, Y.K., 2013. The effect of knowledge
+management in enhancing the procurement process in the UK healthcare supply
+chain. Inf. Syst. Manag. 30 (1), 35–49. https://doi.org/10.1080/10580530.2013.
+739888.
+
+
+Alavi, M., Leidner, D.E., 2001. Knowledge management and knowledge management
+systems: conceptual foundations and research issues. MIS Q. 107–136.
+
+
+Atzori, L., Iera, A., Morabito, G., 2010. The internet of things: a survey. Comput. Network.
+54 (15), 2787–2805.
+
+
+Barata, J., Rupino Da Cunha, P., Stal, J., 2018. Mobile supply chain management in the
+Industry 4.0 era. J. Enterp. Inf. Manag. 31 (1), 173–192. https://doi.org/10.1108/
+
+
+Table 4
+Research questions.
+
+
+Alavi and Leidner knowledge perspective
+(2001)
+
+
+Suggested research inquiries
+
+
+1 1. In what ways does IOT improve and/or worsen transparency within a supply chain network as it relates to data/information/
+knowledge exchange?
+2. To what degree does the application of IOT/Blockchain/big data increase or decrease the transfer of knowledge within
+healthcare supply chains? And does this impact supply chain performance?
+
+
+2 1. How does blockchain affect security and safety of patient medical records? And how might knowledge management and supply
+chain personnel protect patient rights?
+2. What are the downsides of IOT use in electrical manufacturing? And how might human tacit knowledge help to decrease these
+issues?
+
+
+3 1. How can supply chain management professionals leverage the innovative use of knowledge management applications supported
+by digital technologies (including but not limited to augmented reality) to attract and retain logistics/transportation talent?
+2. Does big data through IOT impact knowledge creation in retail healthcare for the purpose of increasing return on investment?
+
+
+4 1. How can knowledge management affect integration among supply chain internal and external stakeholders to optimize value
+creation and mitigate problems associated with blockchain implementation?
+2. As retailers look to combine their online presence with physical stores, how can knowledge management foster the initial
+collection and dissemination of data into knowledge for customer and supplier value creation?
+
+
+5 1. How can artificial intelligence/augmented reality help to accelerate and/or simplify digital supply chain integration in logistics/
+transportation?
+2. How can knowledge management contribute to the maturity of the demand-driven value network through both intra- and inter-
+organisational domain of knowledge management allowing firms to respond to internal and external stakeholders' needs? And how
+might personnel knowledge foster this relationship?
+
+
+6 1. How can knowledge management be integrated with supply chain processes (including but not limited to customer/supplier
+relationship management, demand management, order fulfillment, product development and returns management) to optimize the
+use of technologies involving artificial intelligence/augmented reality to improve supply chain network performance in the food/
+agricultural industry?
+2. How can logistics/transportation evoke an intrapreneurial spirit among employees and foster an ability to keep pace with the
+technological and business changes brought about through supply chain digitisation?
+3. How can knowledge management be applied by leadership to support the convergence of the digital and physical supply chains
+and foster internal and external stakeholder value creation in supply chain networks?
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+10
+
+
+
+https://doi.org/10.1080/00207543.2013.849827
+
+https://doi.org/10.1080/00207543.2013.849827
+
+https://doi.org/10.1080/10580530.2013.739888
+
+https://doi.org/10.1080/10580530.2013.739888
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref3
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref3
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref4
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref4
+
+https://doi.org/10.1108/JEIM-09-2016-0156
+
+
+
+
+JEIM-09-2016-0156.
+Bhuiyan, J., 2017. Uber's Autonomous Cars Drove 20,354 Miles and Had to Be Taken over
+
+
+at Every Mile, According to Documents - Recode. Retrieved. from. https://www.
+recode.net/2017/3/16/14938116/uber-travis-kalanick-self-driving-internal-metrics-
+slow-progress, Accessed date: 22 October 2018.
+
+
+Cao, Q., Schniederjans, D.G., Schniederjans, M., 2017. Establishing the use of cloud
+computing in supply chain management. Oper. Manag. Res. 10 (1–2), 47–63.
+
+
+Cárdenas, L.J.A., Ramírez, W.F.T., Rodríguez Molano, J.I., 2018. Model for the
+Incorporation of Big Data in Knowledge Management Oriented to Industry 4.0.
+Springer, Cham, pp. 683–693. https://doi.org/10.1007/978-3-319-93803-5_64.
+
+
+Carlos, A., Maçada, G., Cristina Costa, J., Oliveira, M., Curado, C., 2013. Information
+management and knowledge sharing in supply chains operating in Brazil. Int. J.
+Automot. Technol. Manag. 13 Retrieved from. https://s3.amazonaws.com/
+academia.edu.documents/43458566/Information_management_and_knowledge_
+sha20160307-9605-1sb2cyc.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&
+Expires=1540011812&Signature=Aa7EnY2Bv20058ch7CbZenQkjik%3D&
+response-content-disposition=inline%3Bfilename%3DInformation_management_
+and_knowledge_sha.pdf.
+
+
+Cepeda Carrión, G., Luis Galán González, J., Leal, A., 2004. Identifying key knowledge
+area in the professional services industry: a case study. J. Knowl. Manag. 8 (6),
+131–150. https://doi.org/10.1108/13673270410567684.
+
+
+Choi, H., Varian, H., 2012. Predicting the present with google trends. Econ. Rec. 88, 2–9.
+Corso, M., Dogan, S.F., Mogre, R., Perego, A., 2010. The role of knowledge management
+
+
+in supply chains: evidence from the Italian food industry. Int. J. Netw. Virtual Organ.
+7 (2–3), 163–183.
+
+
+Cui, R., Gallino, S., Moreno, A., Zhang, D.J., 2017. The Operational Value of Social Media
+Information. Prod. Oper. Manag.
+
+
+Curado, C., Bontis, N., 2011. Parallels in knowledge cycles. Comput. Hum. Behav. 27 (4),
+1438–1444. https://doi.org/10.1016/J.CHB.2010.09.011.
+
+
+Dost, B., Rehman, C.A., Commer, P.J., Sci, S., Khyzer, M., 2016. Significance of knowl-
+edge management practices effecting supply chain performance. Pak. J. Commer.
+Soc. Sci. 10 Retrieved from. http://jespk.net/publications/330.pdf.
+
+
+Durach, C.F., Wieland, A., Machuca, J.A.D., 2015. Antecedents and dimensions of supply
+chain robustness: a systematic literature review. Int. J. Phys. Distrib. Logist. Manag.
+45 (1/2), 118–137.
+
+
+Feng, Q., Shanthikumar, J.G., 2018. How research in production and operations man-
+agement may evolve in the era of big data. Prod. Oper. Manag. 27 (9), 1670–1684.
+
+
+Floreano, D., Wood, R.J., 2015. Science, technology and the future of small autonomous
+drones. Nature 521 (7553), 460.
+
+
+Gehrig, S.K., Stein, F.J., 1998. A trajectory-based approach for the lateral control of car
+following systems. In: In: Systems, Man, Cybernetics (Eds.), IEEE International
+Conference on, vol. 4. IEEE, pp. 3596–3601 1998. 1998.
+
+
+Goel, S., Hofman, J.M., Lahaie, S., Pennock, D.M., Watts, D.J., 2010. Predicting consumer
+behavior with Web search. In: Proceedings of the National Academy of Sciences.
+
+
+Guha, S., Kumar, S., 2018. Emergence of big data research in operations management,
+information systems, and healthcare: past contributions and future roadmap. Prod.
+Oper. Manag. 27 (9), 1724–1735.
+
+
+Gunasekaran, A., Ngai, E.W.T., 2007. Knowledge management in 21st century manu-
+facturing. Int. J. Prod. Res. 45 (11), 2391–2418. https://doi.org/10.1080/
+00207540601020429.
+
+
+Ilvonen, I., Thalmann, S., Manhart, M., Sillaber, C., 2018. Reconciling digital transfor-
+mation and knowledge protection: a research agenda. Knowl. Manag. Res. Pract. 16
+(2), 235–244. https://doi.org/10.1080/14778238.2018.1445427.
+
+
+Jennex, M., 2017. Re-examining the jennex olfman knowledge management success
+model. Retrieved from. https://scholarspace.manoa.hawaii.edu/handle/10125/
+41691.
+
+
+Karakostas, B., 1962. A DNS architecture for the internet of things: a case study in
+transport logistics. Procedia Computer Science 34 (4), 594–601. https://doi.org/10.
+1016/J.PROCS.2013.06.079.
+
+
+Koren, Y., Heisel, U., Jovane, F., Moriwaki, T., Pritschow, G., Ulsoy, G., Van Brussel, H.,
+1999. Reconfigurable manufacturing systems. CIRP Annals 48 (2), 527–540.
+
+
+Kothmayr, T., Schmitt, C., Hu, W., Brünig, M., Carle, G., 2013. DTLS based security and
+two-way authentication for the Internet of Things. Ad Hoc Netw. 11 (8), 2710–2723.
+
+
+Lombardi, S., Giustiniano, L., Cavaliere, V., 2015. Organizational creativity in multi-
+national companies: knowledge collecting, ICT use and top management support.
+Retrieved from. https://iris.luiss.it/handle/11385/147257#.W8qw70tKhPY.
+
+
+Lyall, A., Gstettner, S., Mercier, P., 2018. The death of supply chain management. Harv.
+Bus. Rev. 49 (3), 1–5.
+
+
+March, J.G., 1991. Exploration and exploitation in organizational learning. Organ. Sci. 2
+(1), 71–87. https://doi.org/10.1287/orsc.2.1.71.
+
+
+Michalski, R.S., Carbonell, J.G., Mitchell, T.M., 1984. Machine Learning: an Artificial
+Intelligence Approach. Springer Science & Business Media.
+
+
+Ng, S.C.H., Rungtusanatham, J.M., Zhao, X., Lee, T.S., 2015. Examining process man-
+agement via the lens of exploitation and exploration: Reconceptualization and scale
+development. Int. J. Prod. Econ. 163, 1–15. https://doi.org/10.1016/J.IJPE.2015.01.
+021.
+
+
+Nonaka, Byosière, Toyama, 2003. A Theory of Organizational Knowledge Creation:
+Understanding the Dynamic Process of Creating Knowledge. Handbook of
+Organizational Learning & Knowledge.
+
+
+Nonaka, I., 1994. A dynamic theory of organizational knowledge creation. Organ. Sci. 5
+(1), 14–37. https://doi.org/10.1287/orsc.5.1.14.
+
+
+Olson, D.L., 2018a. View of IJPR contributions to knowledge management in supply
+chains. Int. J. Prod. Res. 56 (1–2), 733–742. https://doi.org/10.1080/00207543.
+2017.1398427.
+
+
+Olson, R., 2018b. Don't Be Such a Scientist: Talking Substance in an Age of Style. Island
+Press.
+
+
+Paschou, M., Sakkopoulos, E., Sourla, E., Tsakalidis, A., 2013. Health Internet of Things:
+metrics and methods for efficient data transfer. Simul. Model. Pract. Theory 34,
+186–199.
+
+
+Pérez-Salazar, M. del R., Aguilar Lasserre, A.A., Cedillo-Campos, M.G., Hernández
+González, J.C., González, J.C.H., 2017. The role of knowledge management in supply
+chain management: a literature review. J. Ind. Eng. Manag. 10 (4), 711. https://doi.
+org/10.3926/jiem.2144.
+
+
+Polanyi, M., 1962. Tacit knowing: its bearing on some problems of philosophy. Rev. Mod.
+Phys. 34 (4), 601–616. https://doi.org/10.1103/RevModPhys.34.601.
+
+
+Prestwich, S., Tarim, A., Rossi, R., Hnich, B., 2014. Intermittency and Obsolescence: a
+Croston Method with Linear Decay. ArXiv Preprint ArXiv:1409.1609.
+
+
+Rojas, R., Morales, V.J., Sánchez, E., Jiménez, A.E., 2017. El aprendizaje colaborativo en
+la docencia sobre empresa. Dialnet 235–235. Retrieved from. https://dialnet.
+unirioja.es/servlet/articulo?codigo=6274710.
+
+
+Roman, R., Zhou, J., Lopez, J., 2013. On the features and challenges of security and
+privacy in distributed internet of things. Comput. Network. 57 (10), 2266–2279.
+
+
+Rong, K., Hu, G., Lin, Y., Shi, Y., Guo, L., 2015. Understanding business ecosystem using a
+6C framework in Internet-of-Things-based sectors. Int. J. Prod. Econ. 159, 41–55.
+
+
+Schneider Electric, 2017. IoT EcoStruxureTM Ensures Efficiency for CNBM - YouTube.
+Retrieved. from. https://www.youtube.com/watch?v=zV7l-wavtCA, Accessed
+date: 20 October 2018.
+
+
+Schneider, P., 2018. Managerial challenges of Industry 4.0: an empirically backed re-
+search agenda for a nascent field. Review of Managerial Science 12 (3), 803–848.
+https://doi.org/10.1007/s11846-018-0283-2.
+
+
+Schniederjans, D.G., 2017. Adoption of 3D-printing technologies in manufacturing: a
+survey analysis. Int. J. Prod. Econ. 183, 287–298.
+
+
+Schoenherr, T., Griffith, D.A., Chandra, A., 2014. Intangible capital, knowledge and new
+product development competence in supply chains: process, interaction and con-
+tingency effects among SMEs. Int. J. Prod. Res. 52 (16), 4916–4929. https://doi.org/
+10.1080/00207543.2014.894258.
+
+
+Schuettel, P., 2017. The Concise Fintech Compendium. School of Management Fribourg/
+Switzerland, Fribourg.
+
+
+Shamim, S., Cang, S., Yu, H., Li, Y., Shamim, S., Cang, S., et al., 2017. Examining the
+feasibilities of industry 4.0 for the hospitality sector with the lens of management
+practice. Energies 10 (4), 499. https://doi.org/10.3390/en10040499.
+
+
+Stroup, J., 2017. Industry 4.0 • A Brief History - YouTube. Retrieved. from. https://
+www.youtube.com/watch?v=JCswJIdVoXk, Accessed date: 20 October 2018.
+
+
+Tachizawa, E.M., Alvarez-Gil, M.J., Montes-Sancho, M.J., 2015. How “smart cities” will
+change supply chain management. Supply Chain Manag.: Int. J. 20 (3), 237–248.
+
+
+Tapscott, D., Tapscott, A., 2016. Blockchain Revolution: How the Technology behind
+Bitcoin Is Changing Money, Business, and the World. Penguin.
+
+
+Turcu, C.E., Turcu, C.O., 2013. Internet of things as key enabler for sustainable healthcare
+delivery. Procedia-Social and Behavioral Sciences 73, 251–256.
+
+
+Underwood, S., 2016. Blockchain beyond bitcoin. Commun. ACM 59 (11), 15–17.
+Weber, R.P., 1990. Basic Content Analysis, vol. 49 Sage.
+Wilkesmann, M., Wilkesmann, U., 2018. Industry 4.0 – organizing routines or innova-
+
+
+tions? VINE J. Inf. Knowl. Manag. Syst. 48 (2), 238–254. https://doi.org/10.1108/
+VJIKMS-04-2017-0019.
+
+
+Xue, L., 2014. Governance–knowledge fit and strategic risk taking in supply chain digi-
+tisation. Decis. Support Syst. 62, 54–65. https://doi.org/10.1016/J.DSS.2014.03.
+003.
+
+
+Yang, Y., Pan, B., Song, H., 2014. Predicting hotel demand using destination marketing
+organization's web traffic data. J. Travel Res. 53 (4), 433–447.
+
+
+D.G. Schniederjans, et al. International Journal of Production Economics 220 (2020) 107439
+
+
+11
+
+
+
+https://doi.org/10.1108/JEIM-09-2016-0156
+
+https://www.recode.net/2017/3/16/14938116/uber-travis-kalanick-self-driving-internal-metrics-slow-progress
+
+https://www.recode.net/2017/3/16/14938116/uber-travis-kalanick-self-driving-internal-metrics-slow-progress
+
+https://www.recode.net/2017/3/16/14938116/uber-travis-kalanick-self-driving-internal-metrics-slow-progress
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref7
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref7
+
+https://doi.org/10.1007/978-3-319-93803-5_64
+
+https://s3.amazonaws.com/academia.edu.documents/43458566/Information_management_and_knowledge_sha20160307-9605-1sb2cyc.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1540011812&Signature=Aa7EnY2Bv20058ch7CbZenQkjik%3D&response-content-disposition=inline%3Bfilename%3DInformation_management_and_knowledge_sha.pdf
+
+https://s3.amazonaws.com/academia.edu.documents/43458566/Information_management_and_knowledge_sha20160307-9605-1sb2cyc.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1540011812&Signature=Aa7EnY2Bv20058ch7CbZenQkjik%3D&response-content-disposition=inline%3Bfilename%3DInformation_management_and_knowledge_sha.pdf
+
+https://s3.amazonaws.com/academia.edu.documents/43458566/Information_management_and_knowledge_sha20160307-9605-1sb2cyc.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1540011812&Signature=Aa7EnY2Bv20058ch7CbZenQkjik%3D&response-content-disposition=inline%3Bfilename%3DInformation_management_and_knowledge_sha.pdf
+
+https://s3.amazonaws.com/academia.edu.documents/43458566/Information_management_and_knowledge_sha20160307-9605-1sb2cyc.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1540011812&Signature=Aa7EnY2Bv20058ch7CbZenQkjik%3D&response-content-disposition=inline%3Bfilename%3DInformation_management_and_knowledge_sha.pdf
+
+https://s3.amazonaws.com/academia.edu.documents/43458566/Information_management_and_knowledge_sha20160307-9605-1sb2cyc.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1540011812&Signature=Aa7EnY2Bv20058ch7CbZenQkjik%3D&response-content-disposition=inline%3Bfilename%3DInformation_management_and_knowledge_sha.pdf
+
+https://s3.amazonaws.com/academia.edu.documents/43458566/Information_management_and_knowledge_sha20160307-9605-1sb2cyc.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1540011812&Signature=Aa7EnY2Bv20058ch7CbZenQkjik%3D&response-content-disposition=inline%3Bfilename%3DInformation_management_and_knowledge_sha.pdf
+
+https://doi.org/10.1108/13673270410567684
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref11
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref12
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref12
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref12
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref13
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref13
+
+https://doi.org/10.1016/J.CHB.2010.09.011
+
+http://jespk.net/publications/330.pdf
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref16
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref16
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref16
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref17
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref17
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref18
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref18
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref19
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref19
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref19
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref20
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref20
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref21
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref21
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref21
+
+https://doi.org/10.1080/00207540601020429
+
+https://doi.org/10.1080/00207540601020429
+
+https://doi.org/10.1080/14778238.2018.1445427
+
+https://scholarspace.manoa.hawaii.edu/handle/10125/41691
+
+https://scholarspace.manoa.hawaii.edu/handle/10125/41691
+
+https://doi.org/10.1016/J.PROCS.2013.06.079
+
+https://doi.org/10.1016/J.PROCS.2013.06.079
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref26
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref26
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref27
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref27
+
+https://iris.luiss.it/handle/11385/147257#.W8qw70tKhPY
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref29
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref29
+
+https://doi.org/10.1287/orsc.2.1.71
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref31
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref31
+
+https://doi.org/10.1016/J.IJPE.2015.01.021
+
+https://doi.org/10.1016/J.IJPE.2015.01.021
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref34
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref34
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref34
+
+https://doi.org/10.1287/orsc.5.1.14
+
+https://doi.org/10.1080/00207543.2017.1398427
+
+https://doi.org/10.1080/00207543.2017.1398427
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref37
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref37
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref38
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref38
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref38
+
+https://doi.org/10.3926/jiem.2144
+
+https://doi.org/10.3926/jiem.2144
+
+https://doi.org/10.1103/RevModPhys.34.601
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref41
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref41
+
+https://dialnet.unirioja.es/servlet/articulo?codigo=6274710
+
+https://dialnet.unirioja.es/servlet/articulo?codigo=6274710
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref43
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref43
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref44
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref44
+
+https://www.youtube.com/watch?v=zV7l-wavtCA
+
+https://doi.org/10.1007/s11846-018-0283-2
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref47
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref47
+
+https://doi.org/10.1080/00207543.2014.894258
+
+https://doi.org/10.1080/00207543.2014.894258
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref49
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref49
+
+https://doi.org/10.3390/en10040499
+
+https://www.youtube.com/watch?v=JCswJIdVoXk
+
+https://www.youtube.com/watch?v=JCswJIdVoXk
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref52
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref52
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref53
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref53
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref54
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref54
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref55
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref56
+
+https://doi.org/10.1108/VJIKMS-04-2017-0019
+
+https://doi.org/10.1108/VJIKMS-04-2017-0019
+
+https://doi.org/10.1016/J.DSS.2014.03.003
+
+https://doi.org/10.1016/J.DSS.2014.03.003
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref59
+
+http://refhub.elsevier.com/S0925-5273(19)30249-X/sref59
+
+

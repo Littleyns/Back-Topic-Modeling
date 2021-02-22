@@ -1,0 +1,1395 @@
+
+
+
+
+
+
+
+
+
+
+Contents lists available at ScienceDirect
+
+
+International Journal of Production Economics
+
+
+journal homepage: www.elsevier.com/locate/ijpe
+
+
+The impact of 3D Printing Technology on the supply chain: Manufacturing
+and legal perspectives
+
+
+Hing Kai Chana,∗, James Griffinb, Jia Jia Lima, Fangli Zenga, Anthony S.F. Chiuc
+aNottingham University Business School China, University of Nottingham Ningbo China
+b Law School, University of Exeter, Exeter, UK
+c De La Salle University, Manila, Philippines
+
+
+A R T I C L E I N F O
+
+
+Keywords:
+3D printing
+Intellectual property rights
+Supply chain
+Digital manufacturing
+
+
+A B S T R A C T
+
+
+3D Printing (3DP) technology has been receiving increased public attention. Many companies are seeking ways
+to develop new means of creating and disseminating 3DP content, in order to capture new business opportu-
+nities. However, to date the true business opportunities of 3DP have not been completely uncovered. This re-
+search explores the challenges posed in the development and deployment of 3DP and focuses on China, which is
+still the main manufacturing hub of the world. The main purpose of this research is to uncover the obstacles that
+resist mass-scale applications of 3DP. By means of empirical semi-structured interviews with 3DP companies in
+China, it is found that many companies can see the benefits of 3DP, but its potential has not been delivered as
+promised. One reason is due to the fact that 3DP has not been integrated well in the supply chain. The other
+reason concerns potential intellectual property issues that cannot effectively prevent counterfeiting. To tackle
+the above issues, several areas have been identified that could be improved further. In particular, the legal
+complications concerning 3D-printed content could be overcome by a licensing platform.
+
+
+1. Introduction
+
+
+3D Printing (3DP) is a disruptive and innovative technology in the
+digital manufacturing era (Berman, 2012; Khajavi et al., 2014; Sasson
+and Johnson, 2015). 3DP is known as additive manufacturing, rapid
+manufacturing or direct digital manufacturing (Khajavi et al., 2014;
+Holmström et al., 2010; Sasson and Johnson, 2015; Rogers et al., 2016).
+It is a revolutionary digital technology utilising an abstract digital de-
+sign file that can be transformed to a physical object by using a 3D
+printer.
+
+
+The development of 3DP can be traced back to the 1980s (Khajavi
+et al., 2014; Rogers et al., 2016), but it is now more popular mainly
+because the process cost has reached an affordable level. This is parti-
+cularly true for mass customisation and large-scale applications
+(Gosselin et al., 2016; Rayna and Striukova, 2016). 3DP is no longer
+distant from designers in the industry and is within easy reach of the
+public, including home users (Rayna and Striukova, 2016). A huge
+number of manufacturers, innovation companies, and even e-commerce
+companies have already benefited, or will benefit, from this technology.
+The expansion of the mobile communication industry and the Internet
+offers great opportunity for online 3DP platforms, the customised de-
+sign service industry, and the 3DP content sharing community (Rayna
+
+
+et al., 2015). Moreover, the existence of 3DP technology accelerates the
+development of certain industries, for instance, spare parts manu-
+facturing (Khajavi et al., 2014).
+
+
+Despite the merits 3DP can potentially offer, it has not yet delivered
+its full capability to industry (Rogers et al., 2016). 3DP is not a tech-
+nology to replace traditional manufacturing methods, at least in its
+current form from an operating cost perspective (Holweg, 2015). Ar-
+guably, energy consumption may pose an issue from a sustainability
+point of view, which is estimated to be one hundred times higher in 3DP
+processes than in traditional manufacturing processes (Yoon et al.,
+2014). This assertion is subject to debate as some other studies pro-
+posed the opposite (e.g., Gebler et al., 2014; Ford and Despeisse, 2016).
+Furthermore, legislation always follows, and lags behind, innovation.
+Copyright law is a classic example (Rideout, 2011). While a great
+number of individuals and companies are enjoying the benefits that
+3DP can deliver, there is another group who is struggling with, if not
+suffering from, the Intellectual Property (IP) protection issues. All these
+obstacles hinder the applications of 3DP in the industry. There are lots
+of research studies that have investigated 3DP technology, especially in
+the material science and advanced manufacturing engineering dis-
+ciplines. Nevertheless, such effort would become a waste if the tech-
+nology cannot be deployed successfully in the industry.
+
+
+https://doi.org/10.1016/j.ijpe.2018.09.009
+Received 26 March 2018; Received in revised form 15 August 2018; Accepted 8 September 2018
+
+
+∗ Corresponding author.
+E-mail address: hingkai.chan@nottingham.edu.cn (H.K. Chan).
+
+
+
+http://www.sciencedirect.com/science/journal/09255273
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.elsevier.com/locate/ijpe
+
+https://doi.org/10.1016/j.ijpe.2018.09.009
+
+https://doi.org/10.1016/j.ijpe.2018.09.009
+
+mailto:hingkai.chan@nottingham.edu.cn
+
+https://doi.org/10.1016/j.ijpe.2018.09.009
+
+http://crossmark.crossref.org/dialog/?doi=10.1016/j.ijpe.2018.09.009&domain=pdf
+
+
+
+
+Broadly construed, there are three related gaps in research that can
+be identified from the literature to be presented in Section 2. The first
+one is that there is a need to understand the opportunities and chal-
+lenges of using 3DP in industry. Although 3DP is a popular topic for
+discussion, the application of 3DP in the industry is still very limited.
+There are obvious obstacles that restrict 3DP from having an applica-
+tion on a larger scale. The technology itself is mature, which indicates
+that the application side could be the source of hurdles. The second
+research gap is an extension of the first research gap to supply chain
+management. There are many studies that advocate the use of 3DP,
+which can lower operating costs, reduce the amount of inventory, im-
+prove the ability of mass customisation, and provide quicker response
+to demand. Nevertheless, 3DP has not been integrated into supply chain
+processes. Replacement of traditional manufacturing processes alone
+cannot deliver the true value of 3DP. Innovative applications are re-
+quired to boost mass scale applications of 3DP in the industry. The last
+research gap are IP issues, namely that the law that cannot prevent
+counterfeiting in 3DP applications effectively. This could also be one
+reason why 3DP has not been integrated into the supply chain yet.
+
+
+The major objective of this study is to address two research ques-
+tions: (1) the current application of 3DP technology in the industry and
+the associated challenges; and (2) from the legal perspective, how to
+protect innovative 3D-printed content in order to help improve the
+penetration of the technology within industry. Question one aims to
+understand why the adoption rate of 3DP technology in the industry is
+still low, and to uncover the associated challenges and obstacles. The
+second research question originated from the legal perspective and
+reveals how 3DP content can be protected in order to facilitate in-
+novative applications of 3DP. Since this is an emerging topic, an ex-
+ploratory qualitative approach is employed. To address the gaps and
+questions, evidence is collected using a systematic qualitative approach
+via semi-structured interviews. Details will be presented in subsequent
+sections.
+
+
+The rest of this paper is organised as follows: Section 2 reviews
+relevant literature. Section 3 summarises the research method em-
+ployed in this study, whereas Section 4 discusses the findings from 28
+qualitative semi-structured interviews. Finally, Section 5 concludes this
+paper.
+
+
+2. Literature review
+
+
+2.1. Introduction to 3DP
+
+
+Since 3DP is not a new concept, this section will only briefly review
+the technology itself from the manufacturing and supply chain per-
+spective. The technical development of 3DP is not the focus of this
+paper. We mainly focus on the implementation and management of the
+3DP technology in the industry.
+
+
+3DP is a cost-effective solution for many applications, including
+home users, or Do-It-Yourself (DIY) users (Rideout, 2011; Doherty,
+2012; Gao et al., 2015; Rayna and Striukova, 2016). From a business
+perspective, the technology can offer quick customised solutions, and
+create a great opportunity for made-to-order production (Gao et al.,
+2015). Even if the process costs may be higher than traditional manu-
+facturing methods at this stage, the technological process can reduce
+other type of costs, such as inventory and warehouse costs. From a
+product design and quality management point of view, such technolo-
+gies can phase in new revisions (be it due to upgrading of product
+features or fixing design quality issue) without scrapping obsolete in-
+ventory.
+
+
+From a manufacturing and supply chain point of view, Holmström
+et al. (2014) opinion on the advantages of using 3DP are widely cited:
+(1) No tooling is needed significantly reducing production ramp-up
+time and expense; (2) Small production batches are feasible and eco-
+nomical; (3) Possibility to quickly change design; (4) Allows product to
+be optimised for function (for example optimised cooling channels); (5)
+
+
+Allows economical custom products (batch of one); (6) Possibility to
+reduce waste; (7) Potential for simpler supply chains; shorter lead
+times, lower inventories; and (8) Design customisation.
+
+
+In addition, in the report “Made in China 2025” which was pub-
+lished by the China State Council in 2015, China has put the 3DP in-
+dustry as one of the priorities in the first ten-year plan to upgrade the
+manufacturing industry (China State Council, 2015). Indeed, 3DP is a
+great challenge and also provides an extraordinary chance of historical
+improvement for traditional Chinese manufactures (Lipson and
+Kurman, 2013). Therefore, there is a need to understand the opportu-
+nities and challenges of using 3DP in China. D'Aveni (2013) predicted
+that the manufacturing edge of China would be fading out due to the
+3DP technology. This is the reason why this study focuses on companies
+in China.
+
+
+2.2. 3DP and supply chain
+
+
+If we have started a new industrial revolution (inter alia digital
+manufacturing, Industry 4.0), 3DP is definitely a part of it and is con-
+sidered as a game changer (Fawcett and Waller, 2014). 3DP production
+can be started on a made-to-order basis (Gao et al., 2015). This will
+reduce the amount of inventory stock up along a supply chain (Liu
+et al., 2014). In other words, excessive inventory stocking due to un-
+certain demand along a supply chain, known as the famous ‘Bullwhip
+Effect’ (Lee et al., 1997), should accordingly be reduced. If the ‘Bull-
+whip Effect’ is a critical problem in any supply chain, perhaps 3DP can
+be the solution?
+
+
+Numerous studies have discussed the impact of 3DP on manu-
+facturing and supply chain. The majority of these studies point to
+customisation (Eyers and Dotchev, 2010; Berman, 2012; Rayna et al.,
+2015). One extreme of the spectrum is, of course, to produce a quantity
+of one single unit. This was coined by Petrick and Simpson (2013) as
+“economies of one,” in contrast to economies of scale for mass pro-
+duction. Undoubtedly most companies will fall between the extremes of
+this spectrum. The implication, however, is that with the 3DP tech-
+nology, the configuration of the supply chain and hence the associated
+business models would inevitably be changed. Customisation will allow
+easier product differentiation than the traditional supply chain models,
+and also allow for small quantity production by companies. Both fea-
+tures will change the way the traditional supply chain operates. One
+simple effect is that the number of suppliers can be reduced drastically
+due to the flexibility 3DP can deliver. In an extreme scenario, the only
+supplier would be the materials supplier for the 3DP process during the
+production phase (Mellor et al., 2014). The focus will be leaning more
+towards the customer end (Christopher and Ryals, 2014).
+
+
+Since 3DP production can take place with minimum amount of la-
+bour involved, labour cost is less of an issue in view of the overall
+product cost. The location of production thus becomes less sensitive and
+there could be a re-shuffle of production facilities. For example, some
+factories may move back to the source of consumption, as with many
+developed countries (D'Aveni, 2013; Gebler et al., 2014; Mellor et al.,
+2014). At least the existing outsourcing models may change accord-
+ingly. This may also create a new paradigm of distributed manu-
+facturing (Khajavi et al., 2014).
+
+
+Another potential advantage of 3DP to the supply chain is that the
+technology can simplify some production processes (e.g. a module can
+be printed in one 3DP process rather than by assembling several com-
+ponents which may require different supply chains). It is a decen-
+tralized manufacturing technique that will alter distribution network.
+In this sense, the level of complexity and overhead required of a product
+or a supply chain can be reduced, and consequently the operation of the
+supply chain is more efficient (Holmström and Partanen, 2013), and the
+flexibility that 3DP offers more variety of end products. This efficiency
+can also be complemented by the increased quality for simplified parts
+or modules that the 3DP process can achieve compared to traditional
+labour intensive operations.
+
+
+H.K. Chan et al.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In practice, some large shipping companies and port authorities
+have started to encompass 3DP technology in their supply chain. For
+example, Maersk has installed 3D printers in their ships since 2014 to
+guarantee smooth operation in their shipping logistics. By utilising the
+technology's characteristic of print on demand, it solved any impromptu
+scenarios occurring due to malfunctioning mechanical ship parts. The
+technical support on the ship is able to immediate replace a spare part
+before reaching port. Meanwhile, the Port of Rotterdam has initiated
+3D Fieldlab, to improve digital manufacturing infrastructure knowledge
+regarding additive manufacturing and to apply that knowledge to
+maritime and port-related industries (Port of Rotterdam, 2017).
+
+
+Rogers et al. (2016) have provided a comprehensive review re-
+garding the implications of 3DP on the supply chain. Therefore, the
+authors will not elaborate that point further and readers are referred to
+Rogers et al. (2016) for more details. The interesting findings from the
+literature is that the benefits of 3DP on manufacturing and supply chain
+management have been discussed widely, but there is limited evidence
+to demonstrate that successful mass scale applications of 3DP have
+taken place. In this connection, this research aims to explore this issue
+in order to uncover the challenges in deploying the 3DP technology.
+
+
+2.3. 3DP and IP
+
+
+3DP technology can be used to create any genre of product.
+Therefore, the ability to print unethical objects, such as lethal weapons
+or more specifically guns, would jeopardise public security and safety
+(Desai and Magliocca, 2013). Therefore, regulation should cover what
+should be, and what should not be, permissible objects to print. There
+has been much coverage in countries such as the UK and US on this
+point, with variable results (e.g., BBC News, 2018; Farivar, 2018).
+Nevertheless, this is not the core focus of this paper and hence no
+further discussion is made in this paper on this area of debate.
+
+
+In addition, it is very easy to apply the technology to infringe IP in
+digital and analogue content, even if the users are infringing unin-
+tentionally. Due to the wide coverage of the Internet and the develop-
+ment of communication technology, the owners of printable content are
+able to upload files onto the Internet. Thus, interested individuals or
+companies are able to download the file without payment (Depoorter,
+2013; Peacock, 2014). Afterwards, it is possible to redesign the down-
+loaded content and print it out very easily. It might be acceptable if it is
+for individual use or educational use. However, there is a possibility
+that the newly printed content will go to the market for commercial
+reasons. Likewise, the contents of legally patented products are acces-
+sible to the public, who might print the products and sell exactly the
+same products to the market directly by scanning the objects. Larger
+companies have the resources available to them in assisting them with
+tracking the origin of printed goods shared without their permission,
+however, it is difficult for small and medium size enterprises (Lessig,
+2001).
+
+
+In principle, the design of any physical object could be capable of
+some form of IP protection, so any means of replication (e.g., scanning,
+in other words copying, a physical object and then printing it using a 3D
+printer) could be a breach of an IP right. The 3DP process is digital in
+nature so it is easier than ever before to “steal” a product design and
+then make small batch production. The situation is complicated by the
+current e-commerce technology. Imagine if these infringed products are
+sold online (e.g., e-bay or Taobao in China) - it is very difficult for the IP
+owners to track the origin of the infringement.
+
+
+Additionally, 3DP processes and products differ from other ‘pro-
+ducts’, like physical products, music, films, and so forth. The products
+are more complex and, currently, new to the public. For example,
+Chinese IP regulation has not yet covered this area. Meanwhile, many
+3DP companies attempt to develop a new means of creating and dis-
+seminating 3D printed content utilising their 3DP systems and to cap-
+ture new business opportunities. However, their opportunities have
+been limited because of the complex legal licensing environment, a lack
+
+
+of appropriate digital licensing standards, and the possibility of being
+held liable for the infringing acts of users.
+
+
+In this connection, a proactive approach to protect copyrighted
+objects is more desirable (Rideout, 2011). In fact, many companies do
+respect IP, for example, by paying for the corresponding licensing fee.
+Without seeing real business potential, companies will not invest in 3DP
+though. In the UK, the relevant regulatory body called the Copyright
+Hub has set out a list of licensing standards to use in online licensing
+systems (El-Nazer, 2016). One objective of this research is to explore
+the appropriateness of these guidelines to the Chinese context, in order
+to propose a suitable licensing system in China.
+
+
+2.4. Concluding remark from the review
+
+
+This section briefly summarises the findings from the review and
+how they are related to the research questions discussed in Section 1.
+Many authors have discussed and suggested the merits of 3DP. Never-
+theless, there is limited research to reveal mass applications of 3DP in
+the industry. Current applications are mainly to replace existing pro-
+cesses, rather than innovative application of 3DP. The situation is si-
+milar to the adoption of other technologies (e.g., RFID). Many inter-
+viewees considered that 3DP is an important element to pursue within a
+digital supply chain, but it can be achieved only if 3DP can be in-
+tegrated into supply chains well. In addition, legislation does not pro-
+vide sufficient support to protect 3D printed contents. The digital
+nature of the 3DP process make content infringement easy. This is
+analogous to downloading music or videos from web pages. Many
+people download the content without permission of the right holder
+(Gower, 2006). A licencing framework could be the solution, and
+coupled with current information technology, an online automatic li-
+censing mechanism could promote the applications of 3DP. This can
+also facilitate the integration of 3DP into supply chains as well. In order
+to substantiate this, the study aims to discuss the opportunities and
+challenges of using 3DP from manufacturing and legal perspective. This
+is the first study in the literature to investigate these two perspectives
+and to suggest this solution.
+
+
+3. Research design and method
+
+
+Based on the reviews in Section 2.2 and Section 2.3, two research
+questions are investigated in this paper: (1) the current application of
+3DP technology in the industry and the associated challenges; and (2)
+from a legal perspective how to protect 3D-printed content in order to
+help improve the penetration of the technology to the industry.
+
+
+In order to address the above research questions, empirical quali-
+tative data is required. The nature of the problem is exploratory in
+nature, and a qualitative type of research is more appropriate at this
+stage. In April 2016, 14 semi-structured interviews were thus con-
+ducted, each of which lasts for around 1 h. Another 14 semi-structure
+interviews were conducted in August 2016. Table A1 in the Appendix
+lists the 28 companies and their information.
+
+
+The sampling of these interviews is chosen to cover companies that
+are related to various 3DP stakeholders. They could be printers, man-
+ufacturers, and so on. The natures of their business are: (1) Chinese 3DP
+manufacturer and 3DP distributor of foreign brands; (2) 3DP and
+scanning software suppliers; (3) 3DP material suppliers and material
+institutions; and (4) 3DP solution providers. The business area of the
+majority of the companies covers rapid prototyping and moulding of
+fashion products, mass customisation of spare parts (in ships, jet en-
+gines, and aerospace), and for education science training. The compa-
+nies interviewed are located in major industrial areas in China in-
+cluding Beijing, Shanghai, Guangzhou, Hangzhou and Ningbo. The
+interviewees are either founders, general managers, legal officers or
+technical managers who have good understanding on the 3DP operation
+and business in China.
+
+
+H.K. Chan et al.
+
+
+
+
+
+
+4. Findings and discussions
+
+
+4.1. 3DP and supply chain
+
+
+Our initial questions are related to the application of 3DP in the
+manufacturing and supply chain sectors. This serves to confirm the
+potential capability of 3DP to the industry, and to explore the chal-
+lenges faced by the industry. Generally, the responses about the ap-
+plication of 3DP are positive. In particular, three areas can be identified
+which are discussed further in the following sub-sections.
+
+
+4.1.1. R&D and design
+Although material costs and operating costs of the 3DP process may
+
+
+still be higher than traditional manufacturing process, it is generally
+agreed that 3DP can help reduce the development cost of products.
+Interviewee 2 stated that “3DP does have some significant impact in some
+industries. It is mainly because with 3DP technology, it will improve effi-
+ciency and significantly lower the cost”. In addition, 3DP can shorten the
+development time drastically. It is because, according to interviewee
+22, “traditionally you have to design the machine and mould based on what
+you like to produce, but 3DP changes the old way so that you don't have to
+design them”. Interviewee 18 supplemented this, by stating that “it is a
+waste to develop a prototype and mould by using conventional method. 3DP
+can stand out and give you an economic solution” in this aspect. This is
+also the early utilisation of 3DP, i.e., rapid prototyping.
+
+
+One of the interviewees, interviewee 5, provides such a service to
+foreign trading customers. When the company receives a physical
+sample from the customers, they scan it and then 3D-print it out. It is
+even easier if the customers can provide the company with a digital file.
+This is a new business model that can provide a fast turnaround time to
+the end customers without any tooling. This business model enables the
+customers to modify the design based on the 3D-printed samples and
+they can get the revised version very quickly. With such physical
+samples, the customers can minimise the risks in the product design
+process. They can also order a number of samples with different design
+options for testing at the same time, without expending extreme effort.
+Interviewee 7 mentioned that a WiFi device took half a year to progress
+through the tooling fabrication and testing phases, not to mention the
+high tooling cost involved. 3DP can also reduce both development lead
+time and associated costs.
+
+
+The main implication of this area is that it is easier to produce a new
+product in smaller quantities with relatively affordable capital, by using
+3DP technology. It is also easier to build a new brand in the market, and
+this is particularly favourable to small and start-up companies. With the
+assistance of 3DP, companies can then move from Original Equipment
+Manufacturing (OEM) or contract manufacturing to Original Design
+Manufacturing (ODM). In ODM manufacturing mode, designers and
+manufacturers in the value chain must communicate and collaborate
+during the manufacturing process. Liao et al. (2017) have proved that
+supply chain collaboration enhances innovation of firms, which even-
+tually provide a competitive advantage (Liao et al., 2017). This is ex-
+actly what the ‘Made-in-China 2025’ initiative would like to achieve in
+China. However, how such start-ups and small companies, normally
+faced with limited resources, can protect their IP and ensure that the
+design is free from infringement, is another challenge that we will
+discuss further in a subsequent section.
+
+
+4.1.2. Manufacturing and supply chain
+Notwithstanding the cost benefit 3DP can bring to the product de-
+
+
+sign process, the shortcoming of 3DP aligns with the reported studies
+that the unit manufacturing cost is still significantly higher than the
+traditional counterpart. This is still the major barrier in achieving the
+full potential of 3DP. In other words, there is a pressing need to in-
+corporate additional value in the 3D printed parts or components to
+compensate for this high cost. For example, 3DP is (almost) mould-free.
+This characteristic of 3DP can reduce the maintenance costs and tooling
+
+
+costs of moulds, which can bring some benefits to some industries.
+According to interviewee 22, the next question is how to leverage costs,
+such as economy of scale from mass production. This is also echoed by
+interviewee 18, that in some industries “current moulding is quite con-
+venient and we can make it cheap and nice”.
+
+
+One way to counteract the barrier is to employ 3DP in a different
+manufacturing or supply chain. Mass customisation has unanimously
+been considered the merit of 3DP in manufacturing and supply chain.
+Interviewee 16 and interviewee 21 both confirmed that small batch
+production is more feasible with 3DP, especially when the demand is
+uncertain. 3DP allows for product differentiation. Interviewee 2 gave an
+example of car headlights in his production line. There could be six
+options that mean the companies needed to stock up inventory for six
+stock-keeping units. It is costly and timing consuming to design and
+manage the corresponding moulds. With 3DP, interviewee 2 can take
+just one week to finish this task. Another way to further enhance the
+productivity of the 3DP industry could be to set up a service centre for
+3DP. Interviewee 12 stated “this centre will serve the local enterprises to
+enhance their competitiveness”.
+
+
+Based on the interviews, 3DP cannot only reduce cost and time of
+product development and manufacturing, but help counteract the un-
+certainty of demand since the supply chain can be more responsive.
+This is because production can take place at a unit quantity level.
+Manufacturers do not need to stock up different types of materials other
+than the materials for 3DP, which can be used to produce different
+types of parts and products. Effectively, there is no need to manage the
+supply chain in this sense. Demand for the materials is aggregated by
+the technology itself, even if the demand information is not available to
+the manufacturers and the suppliers. To achieve this paradigm is of
+course not easy and currently the industry is still far from this.
+However, the ability to introducing customisation can help manage the
+demand uncertainty of the supply chains. This is especially important
+with the current pace of technological development that leads to fast
+changing customer demand.
+
+
+Another obvious barrier to apply 3DP in the industry is the re-
+cognition of the technology to some industries. This is somehow related
+to the cost of 3D-printed parts, and the material in relation to printing.
+Industries with high value products, such as the medical and auto-
+mobile industries, can more easily incorporate 3DP in their manu-
+facturing process. Some interesting industries, such as glass production,
+do not even require tooling. Therefore, the added value of using 3DP
+technology would be very much dependent on the time and cost to print
+a product or parts within particular industries.
+
+
+4.1.3. Data management
+Coupled with the capability of customisation, good data manage-
+
+
+ment can facilitate 3DP, and vice versa. It is because the value behind
+the customisation is customer preference and behaviour. Interviewee
+15 worked with her customers, in that data from those customers who,
+in turn, obtained scanned data via the cloud, are synchronised. This
+allowed interviewee 15 to work on the data and revise the design. This
+allowed interviewee 15 to make sure that the design is truly customised
+and would not infringe other designs in the database. Obviously, this
+links to the IP issues that will be discussed in the subsequent section.
+Regardless of the IP issues, this way to exchange information is not
+restricted to the product design for printing. For example, interviewee
+18 also incorporated patients' information so that the medical products
+produced by them can be easily customised for the next generations of
+products. This aligns with the recent big data research and analysis
+trends. That alignment can help companies to trace 3D-printed contents
+along the supply chain, according to interviewee 19. This can further
+assist mass customisation mentioned above because this really can
+achieve the no-supply-chain utopia.
+
+
+H.K. Chan et al.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.2. 3DP and IP protection
+
+
+The next set of questions is to investigate how IP issues would effect
+the deployment of 3DP technology to the industry, and if so, how this
+challenge can be overcome. Through the semi-structured interviews, we
+are able to understand the current phenomenon of legal issues re-
+garding the 3DP industry. One major reason behind the unregulated
+environment in China's 3DP industry is due to fact that the industry is
+dynamic, fast growing, but on a very limited scale and which is, cur-
+rently, unable to regulate itself. Roughly speaking, half of the inter-
+viewed companies are completely ignorant of Intellectual Property
+Rights (IPR). For those who are interested in IPR, they mainly concern
+patents. Interviewee 2 said: “Good patents always lead to good product
+lines. A good product means a big market”. The reason is obvious as pa-
+tents can help them to protect the business in terms of profits, and re-
+frain, or at least delay, their competitors from reaching the market. The
+only distinctive segment that is more aware and knowledgeable of the
+law is those companies producing medical parts or devices.
+
+
+According to an interviewee, the local market experienced a rapid
+growth in 2012 under multiple incentive policies from the Chinese
+government and exaggerated promotion of media has attracted a lot of
+players from various dissimilar fields. According to another interviewee
+who is also an entrepreneur from a leading company, the local gov-
+ernment attracts industry newcomers with lucrative packages, which
+include three years' exemption of office rental and monetary reward for
+IP awarded 3D technology. He further commented, “The biggest pro-
+blem in China's 3DP industry is that it is with very low entry barrier
+with very niche market. The competition in this industry is very fierce
+because of the exaggeration of media that demonstrates public an il-
+lusion of the idea that the 3DP industry is the future. The reality is
+always cruelly disparate, in order to survive in the market, low price
+strategy is the only strategy. Thus, low quality and patent troll [s] are
+the outcomes.”
+
+
+On the other hand, the process and content of 3DP products are
+different from many other traditional objects or services, as they are
+more complex. There are difficulties in tracing the origins of source
+materials, as reflected from the interviews with bio-printing companies.
+Moreover, the nature of IP law is complicated, and when old laws meet
+new technology, it is often the case that legislation is unable to fit into
+the new eco-system. Therefore, it is difficult to offer effective protec-
+tion.
+
+
+The majority of the interviewed companies responded that legal
+protection of contract law has covered the rights and interested of
+companies, whose role resemble service providers based on the items
+provided by the customers. The customers have to agree with the ser-
+vice providers that they are not responsible on the IP of the items. There
+is no incentive for companies to trace the originality of the item when
+they are already protected under the contract law's umbrella. A general
+manager of a local B2B manufacturer, stated that, “There is no way for
+us to trace the originality of the content given by customer. For in-
+stance, if someone gives us an iPhone, we will know that it is from
+Apple. However, most of the time when the product is received, we
+have no idea where or who the product/content belongs to.
+Furthermore, the bargaining power of customers is always stronger
+than us, if we emphasised too much on content originality, the customer
+can always choose to go for another company who does not ask for
+originality to complete the printing. We are too weak to pursue for
+intellectual property when there is lack of practical guidance on the law
+in the industry.”
+
+
+At the same time, there are also some companies we interviewed
+who already saw the importance of IP protection of 3DP products. The
+chairman of a 3DP association in Hangzhou has adopted a creative
+method to encourage open source printable content designers to con-
+tinuously contribute their innovation to an open source platform, where
+he allocates “profit share for content designer” after the product goes to
+mass production. The corresponding designer receives reward for their
+
+
+creativity. In the meantime, the manufacturer would change the image
+of “Made in China”, which sometimes can indicate an infringement IP
+product, to “Created in China”. The companies could strengthen their
+brand reputation and image by selling authorised 3D products. This is a
+“win-win-win” situation. He commented, “Open source is the future,
+there will be only two types of factories in future, one is for printing
+material and another for production. We can produce everything at any
+time and are able to supply to the whole world. Till then, the standard
+and regulation of IP will automatically be set. If IP law applies at this
+dynamic stage, it will discourage designers to free their mind, there will
+be no imagination, then the industry will end.”
+
+
+The value chain of 3DP is straightforward, with the combination of
+equipment vendors, distributors and resellers, service providers, and
+also, material and software providers. When discussing the relationship
+between IP and technology, there are various formulations of IP, for
+instance, copyright, patent, trademark, registered design and utility
+patent. All of these terms are related to different value chain. An in-
+terviewee from a 3DP materials research institution proved that, “We
+update our hardware frequently so we will not apply a patent for every
+stage's incremental improvement, we would also keep as trade secrets
+by not disclosing to the public. Furthermore, if someone wants to use
+our equipment, he only needs our formal license on the application of
+the technology but not on the intellectual of product because the pro-
+duct is only the result of mass production, which does not follow the
+nature of the patent right.”
+
+
+Nowadays, it is easier to access and obtain digital content due to the
+availability of file sharing. More importantly, this allows individuals to
+obtain digital printable content online without any payment to the
+content owner. Individuals can then customise and print an object for
+personal purposes. This leads to serious brand dilution as there is no
+way for a company to track counterfeiting. It is also extremely difficult
+to detect infringing activities which lead to prohibited usage of an IP
+protected item. This is complicated by a lack of IP standards and reg-
+ulation for the 3DP industry.
+
+
+In fact, the cost to protect IP for 3DP applications is very high, not to
+mention that it is very time consuming, as a heavy workload is re-
+quired. This creates conflicts between innovation and business oppor-
+tunities. With the establishment of an automatic single licensing online
+platform, all the IP content is automatically protected. Users of 3DP
+content pay a small amount every time they access the content via the
+platform, e.g. through advertising (like those on YouTube) or through
+the monitoring of use (e.g. Facebook). Meanwhile, the right holder
+receives reward of their innovative works by inter alia automated pay-
+per-click downloads, and are able to track the usage activities of whom,
+where and how is their IP are being used. This couples with recent trend
+in ‘big-data’ analysis.
+
+
+From the industry's perspective, the automatic licensing method
+protects the originality of companies' products which exempt IP-cau-
+tious applicants from complex and confusing legal terms. Consequently,
+this encourages innovators to innovate under the protection of a flexible
+and less intrusive legal system. Under this system, all the stakeholders
+in the industry are more disciplined to avoid legal disputes, as regula-
+tion and standards will set in automatically to work as a regulator. From
+the interviews, it is commonly agreed that a watermarking system can
+be utilised to protect 3DP content. One method to execute this is to
+“add” a watermark on the 3DP content that can be recognised later.
+Then, licensed 3DP content can be distinguished. This system can be
+operated online automatically. In this connection, this is the extension
+of this exploratory study to develop such watermarking technology.1
+
+
+1 The watermarking technology has been filed for invention patent applica-
+tion in China (Application number is 2017104694528).
+
+
+H.K. Chan et al.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Conclusions
+
+
+The main implication of this study, via the semi-structured inter-
+views, is that 3PD is not yet ready for mass scale applications. Although
+many practitioners can visualise the benefits and potential impacts of
+3PD, it has not been as widely deployed as many studies predicted.
+Many players are reluctant to integrate it into their supply chain pro-
+cesses. It is still too early to conclude that the mass production era has
+been replaced by the mass customisation era. In fact, the opposite is
+probably more accurate according to the interviews. 3DP has created a
+lot of ‘hopes’ but at this stage 3DP has still not fully delivered its pro-
+mise. The key message from the interviews is that in order to fully
+extract the value of 3DP, it cannot be used to replace existing processes.
+Innovative design such as open platforms with a good data management
+system would be feasible route to incorporate 3DP in the digital supply
+chain era. This will introduce innovative usage of the 3DP processes,
+rather than manufacturing. Such system can be blended with the pro-
+posed automatic licensing system that can counteract IP protection is-
+sues. This is the first study to investigate these issues in the field.
+
+
+Nonetheless, this study also argues that 3DP itself, among other
+technologies and technological development, enables the transition.
+The authors do not assert that the mass production type of methods will
+be entirely phased out, but it will be complemented by the demand for
+mass customisation. This is supported by interviewee 21: “I don't think it
+(3DP) can replace the traditional manufacture”. However, many
+
+
+interviewees predict that as more 3PD service providers or manu-
+facturers will appear in the market, but 3DP that is easier to incorporate
+into various manufacturing and supply chain applications.
+
+
+Another managerial implication confirmed from this study is that
+there is a need to protect the IP in 3DP content. An online automated
+licensing platform, where content is IP protected, is proposed. The li-
+censing platform could regulate authorised 3DP by tracking content and
+product information throughout the value chain. The proposed plat-
+form will be supported by watermarking technology for 3DP content,
+which is under invention patent application, discussed at the end of
+Section 4. The main objective is to prove the proposed concept is fea-
+sible and to resolve any technical barriers when the concept is used in
+real applications. This system is a proof-of-concept, and if successful
+can be extended to a real commercial system, analogous to the UK
+Digital Copyright Hub system.
+
+
+Acknowledgments
+
+
+The work is sponsored by the Arts and Humanities Research
+Council, and the Newton Fund, for the project “A Technological
+Licensing Framework for 3D printed content: A Focus on China”. An
+earlier version of this paper entitled “Impact of 3D Printing Technology
+on Supply Chain in China” was presented at the 24th International
+Conference on Production Research (ICPR 2017), Poznan, Poland, 30
+July–3 August 2017.
+
+
+Appendix
+
+
+Table A1
+List of Companies
+
+
+Position of the
+interviewee
+
+
+Company
+Location
+
+
+Business Scope Years since
+established
+
+
+Company Size
+(number of employee)
+
+
+Market
+
+
+1 CEO Ningbo 3D printer and robot production <5years < 10 employees National
+2 CEO and CTO Ningbo 3D printer production and 3D maker online
+
+
+community
+< 5years 10-20 employees National
+
+
+3 Senior officer China State owned R&D Institution specialised in new
+materials and advanced manufacturing
+
+
+14 years N/A Regional
+
+
+4 CEO & founder Ningbo Foreign 3D printer brand distributor < 5years < 10 employees National
+5 Founder and
+
+
+Chairman
+Hunan One stop solution provider of industrial grade
+
+
+materials
+9 years > 100 employee Multinational
+
+
+6 Deputy of
+General
+Manager
+
+
+Ningbo 3D printing service provider < 5years ∼15 employees National
+
+
+7 Marketing Ningbo 3D printing service provider < 5years < 10 employees National
+8 CEO & founder Hangzhou Cloud printing service provider < 5years ∼20 employees National
+9 CEO & founder Hangzhou 3D Scanning service provider and 3D Scanner
+
+
+distributor
+< 5years ∼15 employees National
+
+
+10 CEO & founder Ningbo 3D printing software provider, IP application service
+agent
+
+
+< 5years < 10 employees National
+
+
+11 CEO Hangzhou Construction 3D printing <5years < 10 employees CHINA & US
+12 Manager Shanghai Online 3D printing store and 3D printing service
+
+
+provider for Marine industry
+10 years 50-60 employees National
+
+
+13 Manager Shanghai 3D printing in metal service provider 5–10 years ∼15 employees National
+14 Sales manager Shanghai 3D printer part: Optical engine design and
+
+
+manufacturing
+<20 years < 10 employees CHINA & US
+
+
+15 CEO Beijing One stop advance manufacturing solution provider 2004 20-30 employees National
+16 CEO & founder Beijing 3D design and scanning <5years < 10 employees National
+17 Marketing
+
+
+Director
+Beijing 3D printing service provider < 5years < 10 employees National
+
+
+18 CTO Beijing 3D design online community < 5years 30-40 employees National
+19 Director of
+
+
+research
+Suzhou Bio-printing 2 years > 60 employees National
+
+
+20 Chairman Shanghai Regional 3D printing association 3 years N/A National
+(continued on next page)
+
+
+H.K. Chan et al.
+
+
+
+
+
+
+Table A1 (continued)
+
+
+Position of the
+interviewee
+
+
+Company
+Location
+
+
+Business Scope Years since
+established
+
+
+Company Size
+(number of employee)
+
+
+Market
+
+
+21 President Shanghai Distributor of 3D printing material and 3d printing
+equipment
+
+
+> 10 years 30-40 employees National
+
+
+22 Sales Director Shanghai 3D printing solution provider < 5years 20-30 employees CHINA & US
+23 Legal specialist Shanghai 3D printing software provider to medical and
+
+
+manufacturing industry
+Since 1990 multinational Multinational
+
+
+24 Professor Guangzhou University's research institution Since 1958 N/A N/A
+25 CEO & founder Guangzhou One stop 3D printing solution provider < 5years 20-30 employees Regional
+26 CEO & founder Guangzhou 3D printer and 3D printer component production <5years ∼15 employees multinational
+27 CEO and CTO Guangzhou Private Research Institution 8 years N/A N/A
+28 President Qingdao Largest 3D printing association in China 3 years N/A International
+
+
+References
+
+
+BBC News, 18 July 2018. 3D-printed Gun Blueprints Given Go-ahead by US Government.
+Retrieved August 13, 2018, from. https://www.bbc.co.uk/news/technology-
+44871588.
+
+
+Berman, B., 2012. 3-D printing: the new industrial revolution. Bus. Horiz. 55 (2),
+155–162.
+
+
+China State Council, 2015. Made in China 2025, 19 May 2015.
+Christopher, M., Ryals, L.J., 2014. The supply chain becomes the demand chain. J. Bus.
+
+
+Logist. 35 (1), 29–35.
+D'Aveni, R.A., 2013. 3-D printing will change the world. Harv. Bus. Rev. 91 (3), 34–35.
+Depoorter, B., 2013. Intellectual property infringements & 3d printing: decentralized
+
+
+piracy. Hastings Law J. 65 (6), 1483–1504.
+Desai, D.R., Magliocca, G.N., 2013. Patents, meet Napster: 3D printing and the digitiza-
+
+
+tion of things. Georgetown Law J. 102 (6), 1691–1720.
+Doherty, D., 2012. Downloading infringement: patent law as a roadblock to the 3D
+
+
+printing revolution. Harv. J. Law Technol. 26 (1), 353–373.
+El-Nazer, Y., 2016. How far has the UK's intellectual property laws come in protecting
+
+
+copyrighted work on the Internet? Is reform necessary and in what ways might the
+law be reformed? Queen Mary Law J. 7, 2–15.
+
+
+Eyers, D., Dotchev, K., 2010. Technology review for mass customisation using rapid
+manufacturing. Assemb. Autom. 30 (1), 39–46.
+
+
+Farivar, C., 2018. 3D-printed (And CNC-milled) Guns: Nine Questions You Were Too
+Afraid to Ask. Ars Technica Retrieved August 13, 2018, from. https://arstechnica.
+com/tech-policy/2018/08/3d-printed-and-cnc-milled-guns-10-questions-you-were-
+too-afraid-to-ask/.
+
+
+Fawcett, S.E., Waller, M.A., 2014. Supply chain game changers—mega, nano, and virtual
+trends—and forces that impede supply chain design (i.e., building a winning team). J.
+Bus. Logist. 35 (3), 157–164.
+
+
+Ford, S., Despeisse, M., 2016. Additive manufacturing and sustainability: an exploratory
+study of the advantages and challenges. J. Clean. Prod. 137, 1573–1587.
+
+
+Gao, W., Zhang, Y., Ramanujan, D., Ramani, K., Chen, Y., Williams, C.B., Wang, C.C.L.,
+Shin, Y.C., Zhang, S., Zavattieri, P.D., 2015. The status, challenges, and future of
+additive manufacturing in engineering. Comput. Aided Des. 69, 65–89.
+
+
+Gebler, M., Schoot Uiterkamp, A.J.M., Visser, C., 2014. A global sustainability perspective
+on 3D printing technologies. Energy Pol. 74, 158–167.
+
+
+Gosselin, C., Duballet, R., Roux, P., Gaudillière, N., Dirrenberger, J., Morel, P., 2016.
+Large-scale 3D printing of ultra-high performance concrete – a new processing route
+for architects and builders. Mater. Des. 100, 102–109.
+
+
+Gower, A., 2006. Gowers Review of Intellectual Property. The Stationery Office, London.
+Holmström, J., Partanen, J., 2013. Digital manufacturing-driven transformations of ser-
+
+
+vice supply chains for complex products. Supply Chain Manag.: Int. J. 19 (4),
+421–430.
+
+
+Holmström, J., Partanen, J., Tuomi, J., Walter, M., 2010. Rapid manufacturing in the
+
+
+spare parts supply chain: alternative approaches to capacity deployment. J. Manuf.
+Technol. Manag. 21 (6), 687–697.
+
+
+Holweg, H., 2015. The limits of 3D printing. Harv. Bus. Rev Available at: https://hbr.org/
+2015/06/the-limits-of-3d-printing, Accessed date: 30 December 2016.
+
+
+Khajavi, S.H., Partanen, J., Holmström, J., 2014. Additive manufacturing in the spare
+parts supply chain. Comput. Ind. 65 (1), 50–63.
+
+
+Lee, H.L., Padmanabhan, V., Whang, S., 1997. The bullwhip effect in supply chains. MIT
+Sloan Manag. Rev. 38 (3), 93–102.
+
+
+Lessig, L., 2001. The Future of Ideas. Random House, New York.
+Liao, S.H., Hu, D.C., Ding, L.W., 2017. Assessing the influence of supply chain colla-
+
+
+boration value innovation, supply chain capability and competitive advantage in
+Taiwan's networking communication industry. Int. J. Prod. Econ. 191, 143–153.
+
+
+Lipson, H., Kurman, M., 2013. Fabricated: the New World of 3D Printing. Wiley,
+Chichester.
+
+
+Liu, P., Huang, S.H., Mokasdar, A., Zhou, H., Hou, L., 2014. The impact of additive
+manufacturing in the aircraft spare parts supply chain: supply chain operation re-
+ference (scor) model based analysis. Prod. Plann. Contr. 25 (13–14), 1169–1181.
+
+
+Mellor, S., Hao, L., Zhang, D., 2014. Additive manufacturing: a framework for im-
+plementation. Int. J. Prod. Econ. 140, 194–201.
+
+
+Peacock, S.R., 2014. Why manufacturing matters: 3D printing, computer-aided designs,
+and the rise of end-user patent infringement. William Mary Law Rev. 55 (5),
+1933–1960.
+
+
+Petrick, I.J., Simpson, T.W., 2013. 3D printing disrupts manufacturing: how economies of
+one create new rules of competition. Res. Technol. Manag. 56 (6), 12–16.
+
+
+3D printing in the port of Rotterdam. Retrieved Feb 26, 2018, from. https://www.
+portofrotterdam.com/en/business-opportunities/innovation-smartest-port/cases/3d-
+printing-in-the-port-of-rotterdam.
+
+
+Rayna, T., Striukova, L., 2016. From rapid prototyping to home fabrication: how 3D
+printing is changing business model innovation. Technol. Forecast. Soc. Change 102,
+214–224.
+
+
+Rayna, T., Striukova, L., Darlington, J., 2015. Co-creation and user innovation: the role of
+online 3D printing platforms. J. Eng. Technol. Manag. 37, 90–102.
+
+
+Rideout, B., 2011. Printing the impossible triangle: the copyright implications of three-
+dimensional printing. J. Bus. Entrepren. Law 5 (1), 161–177.
+
+
+Rogers, H., Baricz, N., Pawar, K.S., 2016. 3D printing services: classification, supply chain
+implications and research agenda. Int. J. Phys. Distrib. Logist. Manag. 46 (10),
+886–907.
+
+
+Sasson, A., Johnson, J.C., 2015. The 3D printing order: variability, supercenters and
+supply chain reconfigurations. Int. J. Phys. Distrib. Logist. Manag. 46 (1), 82–94.
+
+
+Yoon, H.-S., Lee, J.-Y., Kim, H.-S., Kim, M.-S., Kim, E.-S., Shin, Y.-J., Chu, W.-S., Ahn, S.-
+H., 2014. A comparison of energy consumption in bulk forming, subtractive, and
+additive processes: review and case study. Int. J. Precis. Eng. Manuf. Green Technol. 1
+(3), 261–279.
+
+
+H.K. Chan et al.
+
+
+
+https://www.bbc.co.uk/news/technology-44871588
+
+https://www.bbc.co.uk/news/technology-44871588
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref2
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref2
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref3
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref4
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref4
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref5
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref6
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref6
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref7
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref7
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref8
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref8
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref9
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref9
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref9
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref10
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref10
+
+https://arstechnica.com/tech-policy/2018/08/3d-printed-and-cnc-milled-guns-10-questions-you-were-too-afraid-to-ask/
+
+https://arstechnica.com/tech-policy/2018/08/3d-printed-and-cnc-milled-guns-10-questions-you-were-too-afraid-to-ask/
+
+https://arstechnica.com/tech-policy/2018/08/3d-printed-and-cnc-milled-guns-10-questions-you-were-too-afraid-to-ask/
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref12
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref12
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref12
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref13
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref13
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref14
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref14
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref14
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref15
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref15
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref16
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref16
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref16
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref17
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref18
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref18
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref18
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref19
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref19
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref19
+
+https://hbr.org/2015/06/the-limits-of-3d-printing
+
+https://hbr.org/2015/06/the-limits-of-3d-printing
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref21
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref21
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref22
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref22
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref23
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref24
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref24
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref24
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref25
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref25
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref26
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref26
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref26
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref27
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref27
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref28
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref28
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref28
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref29
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref29
+
+https://www.portofrotterdam.com/en/business-opportunities/innovation-smartest-port/cases/3d-printing-in-the-port-of-rotterdam
+
+https://www.portofrotterdam.com/en/business-opportunities/innovation-smartest-port/cases/3d-printing-in-the-port-of-rotterdam
+
+https://www.portofrotterdam.com/en/business-opportunities/innovation-smartest-port/cases/3d-printing-in-the-port-of-rotterdam
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref31
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref31
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref31
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref32
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref32
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref33
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref33
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref34
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref34
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref34
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref35
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref35
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref36
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref36
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref36
+
+http://refhub.elsevier.com/S0925-5273(18)30379-7/sref36
+
+
