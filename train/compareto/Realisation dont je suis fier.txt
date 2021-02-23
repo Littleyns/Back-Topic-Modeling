@@ -1,3 +1,0 @@
-Un jeu de morpion que j'ai codé avec JavaFX, et où j'ai implémenter un algorithme de type MinMax qui ne perd jamais.
-Quand j'ai lancer l'application et que j'ai remarquer que je perdais au jeu à chaque fois contre un algorithme que j'ai coder, j'ai réaliser toute la puissance des transistors qui ont permis
-de simuler 9!=362880 possiblités pour selectionner celle qui mène vers la victoire ( ou au match nul dans le pire des cas )
