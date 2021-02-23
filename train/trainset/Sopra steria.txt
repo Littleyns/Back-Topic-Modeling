@@ -1,0 +1,77 @@
+expertise :
+intégration de systèmes
+edition de logiciel
+accompagne les client durant leur transformation digitale et en tirer des benefices
+
+Bonjour je m'appelle Youness Srhir, j'ai 19 ans et je suis etudiant en deuxieme année de cycle preparatoire integré à 3Il Limoges
+Je souhaite à l'issu de ma formation qui dure 5 ans au total, décrocher un diplome d'ingénieur en informatique et qui me donnera un pass
+pour des domaines que j'affectionne particulièrement notemment la data science, L'algorithmie et la programmation en general.
+c'est des domaines que je souhaite apprendre, et dont les quelques heures de cours par semaines ne suffisent pas, donc j'ai développer un certain programme parascolaire basé sur des plate-formes de e learning, et des bouquins.
+( d'autre bouquins qui n'ont pas de nom qui leur est propre par exemple securité des systeme d'informations )
+et aussi je suis actif sur la plate forme de programmation compétitive  codingame, qui m'a permis d'apprendre beaucoup sur l'algorithmie et les IA .
+c'est une plateforme ou j'ai un assez bon classement, aujourd'hui meme je vais participer à une compétition qui s'est lancée,  il y a une solide equipe de chez sopra steria qui est de la partie, à sa tête le légendaire joueur
+Neumann classé 4eme mondialement.
+En ce qui concerne mon experience, j'ai à mon actif quelques projets individuel et en groupe, comme le clonage de site web connues, qui est une pratique répandue dans le millieu qui permet un apprentissage efficient des language.
+pour ces clonage j'ai utilisé plusieurs languages notemment react.js, ainsi qu'une part de backend avec Firebase, et des api par exemple dans le clonage de spotify j'ai su comprendre et utiliser l'api spotify.
+d'autre part un projet en groupe, celui de la nuit de l'informatique 2019, ou le principe est de coder une application ou un site sur une thématique donnée, le thème de l'année derniere étant celui de la précarité étudiante.
+j'ai eu à faire la conception du site-web et du forum, j'ai aussi eu l'idée d'implementer une rubrique publicité qui permet de recolter des fonds pour une association qui soutient la cause de la précarité étudiante.
+un autre de mes projets en cours de developpement est celui d'un modèle de machine learning capable de faire la notation de copies de mathématiques à l'aide d'un reseau de neuronnes. 
+ce que j'essaye de vous faire parvenir tant bien que mal c'est que je suis un ferru d'informatique depuis tout petit.
+j'ai commencer à toucher aux ordinateurs à l'age de 6 ans et depuis je passe le clair de mon temps derrière un ecran
+entre temps j'ai vu passer l'ère du peer to peer, l'évolution du débit internet des processeurs des écrans, du web, la naissance et l'extinctions
+de certains langages informatiques, et aussi en dehors des compétences
+technique, et la passion. j'ai cette vision globale de l'informatique qui a grandi avec moi, une vision de comment ca marche, 
+comment ca evolue .
+avec toutes ces technologies futuristes comme le machine learning, la blockchain, s'ajoute à ca la 5G, les calculateurs quantique
+ je suis convaincu que notre generation aura largemenent de quoi s'occuper, rien que d'y penser ca me donne envie de passer à la vitesse supérieure.
+car avec les calculateurs quantique par exemple il faudra totalement repenser,et recreer des technologies qui dépendent de certaines securités.
+un petit exemple, notre professeur de mathématique et chercheur en cryptologie, nous a dit l'année dernière qu'avec ces calculateurs là en théorie
+il sera possible de décrypter des hachage complexes comme le RSA, et ca c'est vraiment très dangereux car la seule barrière qui protège
+nos mot de passes, nos transactions, notre traffic sur le web bah c'est des chiffrements comme le RSA.
+
+
+
+Et je pense que dans une entreprise de votre echelle, mérite des stagiaires/alternants passionés, qui souhaitent apprendre et qui auront deja
+une vue d'ensembles et des solides notions de bases, et si j'ai postulé c'est que au fil des années j'ai acquéri un certain baguage informatique 
+en plus des conaissances scientifiques acquises durant mon parcours scolaire.
+
+
+Qu'est ce que vous pouvez apporter à l'entreprise ?
+Vous avez raison de poser cette question car, la technologie n'est qu'une stratégie, elle necessite une intervention humaine qualifiée et agile, sous peine de n'en tirer aucun benefice.
+Alors je peux effectuer plusieurs tache en mode multi thread, de manière agile, flexible du fait que je peux faire du back end
+comme je peux faire du front end, faire du debuggage .., entre autre je suis capable de mener à bien toutes les taches qui me serons confiés
+qu'importe l'effort que ca me prendra,et je pense que c'est avec une lourde charge ou une forte cadence de travail qu'on apprend le plus et le mieux.
+Alors biensur le cerveau a des limites, et sature parfois si on ne pense pas à faire des pauses, et ca m'arrive parfois quand j'enchaine les heures derrière un environnement de développement.
+Mais j'ai mis au point quelques techniques pour relancer mon cerveau, la plus efficiente est celle d'aller à la salle du sport pour voila oxygener mon cerveau.
+et il y a aussi la méditation, je m'imagine dans un futur entrain de travailler dans le domaine qui me passionne, parfois je médite sur des phrases, ou des citations de brillant scientifiques.
+Par exemple j'ai deja réflechi à votre signature The world is how we shape it, qui est une très belle phrase à sens profond, le monde est tel que nous le faconnons, je l'interprète à ma manière je me dit que 
+dans un futur proche, ce sera nous les acteurs du développement, et on se devra d'être à la hauteur de la relève.
+
+
+pourquoi sopra steria? ;
+Parce que je sais que sopra steria est une entreprise d'echelle internationale qui traite et a traité depuis plus de 4 decennies maintenant des domaines en avance sur son temps.
+et aussi son succès vient de ses ressources humaines hautement qualifiés et son infrastructure développées.
+je sais qu'actuellement l'entreprise entreprend tout ce qui est en rapport avec la cybersecurité, l'edition de logiciel, le machine learning et la data, le cloud...
+Et je suis sur que l'entreprise poursuivra son évolution, et je me concidérerait chanceux d'y assister et d'y contribuer.
+
+
+Experience pro :
+
+
+
+qualités : 
+
+
+obstinatiné , curieux , autonome et organisé je me permet d'affirmer ca car j'ai en grande partie tout appris dans le domaine de l'informatique de manière
+autodidacte sur des sites comme freecodecamp, ou openclassrooms, edX ,des plateformes de programmation compétitive: hackerone ou codingame
+ les cours en rapport avec l'informatique n'allait pas assez vite, et de plus je n'est aucun mal à réussir tout mes examens
+ce qui me laisse beaucoup de temps pour approfondir mes connaissances chez moi, et j'espère un jour acquérir une connaissance absolue comparable à celle du grand neumann de sopra steria.
+
+défauts : 
+
+l'obstination est aussi un défaut pour moi car j'ai du mal à trouver le sommeil sans avoir fini une certaine tache, ou d'avoir trouver la solution à un problème.
+les deadlines me mettent la pression c'est pour ca que j'anticipe et je ne laisse jamais mes taches à la derniere minute.
+ Questions :
+demander passage  stage vers alternance
+structure du travail de l'entreprise . 
+par curiosité est ce que vous voyez en moi une personne qualifiée ?.
