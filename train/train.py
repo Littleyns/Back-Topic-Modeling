@@ -2,6 +2,7 @@ import pprint
 import os
 import io
 import nltk
+import shutil
 from nltk.corpus import stopwords
 from urlextract import URLExtract
 import re
@@ -41,7 +42,11 @@ def train(name):
     sims = index[tfidf[query_bow]]
     result = []
     for document_number, score in sorted(enumerate(sims), key=lambda x: x[1], reverse=True):
-        print(listnames[document_number][:-4] + " --------->", score)
-        result.append({listnames[document_number][:4]:str(score)})
+        result.append({str(listnames[document_number]):str(score)})
+    shutil.rmtree('train/compareto')
+    shutil.rmtree('train/trainset')
+
+    os.mkdir('train/compareto')
+    os.mkdir('train/trainset')
     return result
 

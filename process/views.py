@@ -12,6 +12,7 @@ def download(request):
     from django.views.static import serve
     listnames = os.listdir("process/Articles")
     Init.convert(listnames)
+
     filepath = cwd+'\process\static\Articlestxt.zip'
     return serve(request, os.path.basename(filepath), os.path.dirname(filepath))
 def upload(request):

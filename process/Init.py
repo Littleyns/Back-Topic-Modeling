@@ -6,7 +6,6 @@ from nltk.corpus import stopwords
 import nltk
 import io
 import shutil
-
 import re
 from tika import parser
 from bs4 import BeautifulSoup
@@ -49,4 +48,10 @@ def convert(listnames):
                 f.write(tika[i]['content'])
 
     shutil.make_archive("process/static/Articlestxt", 'zip', "process/Articlestxt")
+
+    shutil.rmtree('process/Articles')
+    shutil.rmtree('process/Articlestxt')
+
+    os.mkdir('process/Articlestxt')
+    os.mkdir('process/Articles')
     print("success")
