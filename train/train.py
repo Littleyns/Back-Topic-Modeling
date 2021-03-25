@@ -30,6 +30,7 @@ def train(name):
             frequency[token] += 1
     processed_corpus = [[token for token in text if frequency[token] > 2] for text in texts]
 
+
     dictionary = corpora.Dictionary(processed_corpus)
     bow_corpus = [dictionary.doc2bow(text) for text in processed_corpus]
     tfidf = models.TfidfModel(bow_corpus)
@@ -42,11 +43,9 @@ def train(name):
     sims = index[tfidf[query_bow]]
     result = []
     for document_number, score in sorted(enumerate(sims), key=lambda x: x[1], reverse=True):
-        result.append({str(listnames[document_number]):str(score)})
+        result.append({listnames[document_number]: str(score)})
     shutil.rmtree('train/compareto')
     shutil.rmtree('train/trainset')
-
     os.mkdir('train/compareto')
     os.mkdir('train/trainset')
     return result
-

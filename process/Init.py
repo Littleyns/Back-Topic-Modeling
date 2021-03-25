@@ -13,9 +13,7 @@ from io import StringIO
 import bz2
 import zipfile
 import numpy as np
-#importing names of all the articles
-listnames = os.listdir("process/Articles")
-#converting process functions
+
 def digitize_pdf(file_path):
     file_data = []
     _buffer = StringIO()
@@ -48,10 +46,10 @@ def convert(listnames):
                 f.write(tika[i]['content'])
 
     shutil.make_archive("process/static/Articlestxt", 'zip', "process/Articlestxt")
-
     shutil.rmtree('process/Articles')
     shutil.rmtree('process/Articlestxt')
-
-    os.mkdir('process/Articlestxt')
     os.mkdir('process/Articles')
+    os.mkdir('process/Articlestxt')
+
+
     print("success")
